@@ -1,0 +1,427 @@
+/* =========================================================================
+   Mishpacha Tours - accueil v5 (2026-10-05)
+   Hybride Walks (creme, jaune, illustrations, mot en italique, ticket rose,
+   pied vert) x Context Travel (serif legere en titres, sections beiges,
+   cartes blanches a 15 px, boite de recherche dans le hero, meta lieu/duree,
+   prix "Private | Group", boutons noirs en pilule, citation signee).
+   Polices : Fraunces light (titres, remplace Grenette Pro), Fraunces 700
+   (logo texte), Heebo (texte, remplace Manrope/Season), Zeyada (signature).
+   ========================================================================= */
+
+@font-face{font-family:'Heebo';font-style:normal;font-weight:100 900;font-display:swap;src:url('fonts/heebo-hebrew.woff2') format('woff2');unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}
+@font-face{font-family:'Heebo';font-style:normal;font-weight:100 900;font-display:swap;src:url('fonts/heebo-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:300;font-display:swap;src:url('fonts/fraunces-light-normal.woff2') format('woff2')}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:300;font-display:swap;src:url('fonts/fraunces-light-italic.woff2') format('woff2')}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/fraunces-latin.woff2') format('woff2')}
+@font-face{font-family:'Zeyada';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/zeyada-normal.woff2') format('woff2')}
+
+:root{
+  --creme:#FFFAED;
+  --beige:#F1EDE6;
+  --encre:#1C1B1F;
+  --vert:#2D5132;
+  --vert-c:#35705A;
+  --jaune:#FCDE73;
+  --rose:#F1C2AB;
+  --rouge:#DF4225;
+  --blanc:#FFFFFF;
+  --titre:'Fraunces',Georgia,serif;
+  --pad:24px;
+  --ecart:72px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;overflow-x:clip;background:var(--creme);color:var(--encre);font-family:'Heebo',Manrope,system-ui,sans-serif;font-size:16px;line-height:1.5}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,p,ul,figure,blockquote{margin:0}
+ul{padding:0;list-style:none}
+:focus-visible{outline:3px solid var(--vert-c);outline-offset:3px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 var(--pad)}
+.centre{text-align:center}
+h1,h2,h3{font-family:var(--titre);font-weight:300;letter-spacing:-.01em}
+h2{font-size:34px;line-height:1.15;text-wrap:balance}
+h3{font-size:24px;line-height:1.2}
+h1 i,h2 i,h3 i{font-style:italic;font-weight:300}
+.sous{margin-top:12px;font-size:15px;opacity:.8;max-width:34em;margin-left:auto;margin-right:auto}
+.ss{margin-top:var(--ecart)}
+.beige{background:var(--beige);padding:56px 0 64px}
+.preuves + .beige{margin-top:0}
+.mot{font-family:var(--titre);font-weight:700;font-size:27px;letter-spacing:-.02em;line-height:1;color:var(--encre);white-space:nowrap;font-variation-settings:"SOFT" 100,"opsz" 144}
+.btn-noir{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 20px;border-radius:999px;background:var(--encre);color:var(--blanc);font-size:14px;font-weight:600;text-decoration:none;border:0;cursor:pointer}
+.pill-noir{display:inline-block;padding:7px 14px;border-radius:999px;background:var(--encre);color:var(--blanc);font-size:13px;font-weight:600}
+
+/* ---------- Bande verte + nav ---------- */
+.strip{background:var(--vert-c);color:var(--blanc);text-align:center;font-size:13px;padding:8px 16px}
+.strip a{color:var(--blanc);font-weight:600}
+.nav{position:relative;top:0;z-index:30;background:var(--creme);height:60px;display:flex;align-items:center;justify-content:space-between;padding:0 var(--pad);border-bottom:1px solid rgba(28,27,31,.08)}
+.nav .logo{display:flex;align-items:center;gap:8px;text-decoration:none}
+.nav .logo .forme{height:42px;width:auto}
+.nav .liens{display:none}
+.nav .droite{display:flex;align-items:center;gap:10px}
+.langue{position:relative}
+.langue summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;height:38px;padding:0 9px;border-radius:999px;border:1px solid rgba(28,27,31,.25);background:var(--blanc);font-size:14px;font-weight:600}
+.langue summary::-webkit-details-marker{display:none}
+.drapeau{width:20px;height:20px;border-radius:50%;object-fit:cover}
+.langue .code{display:none}
+.langue ul{position:absolute;right:0;top:46px;z-index:40;background:var(--blanc);border-radius:15px;padding:8px;min-width:170px;box-shadow:0 8px 24px rgba(28,27,31,.12)}
+.langue li a{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;text-decoration:none;font-size:15px}
+.langue li a[aria-current]{background:var(--beige)}
+.langue li a[dir="rtl"]{direction:ltr}
+.nav .menu{width:38px;height:38px;border-radius:999px;background:var(--jaune);border:0;display:grid;place-items:center;cursor:pointer}
+.nav .menu span{display:block;width:16px;height:2px;background:var(--encre);box-shadow:0 -5px 0 var(--encre),0 5px 0 var(--encre)}
+.panneau{position:fixed;inset:60px 0 0;z-index:25;background:var(--creme);padding:32px var(--pad);overflow:auto}
+.panneau nav a{display:block;padding:18px 0;border-bottom:1px solid rgba(28,27,31,.2);font-family:var(--titre);font-weight:300;font-size:30px;text-decoration:none}
+.panneau-wa{display:flex;align-items:center;gap:12px;margin-top:32px;font-size:18px;font-weight:600;text-decoration:none}
+.panneau-wa svg{width:26px;height:26px;fill:var(--encre)}
+body.menu-ouvert{overflow:hidden}
+
+/* ---------- Hero : photo sombre + titre serif + boite de recherche ---------- */
+.hero{position:relative;overflow:hidden;background:var(--encre);color:var(--blanc)}
+.hero > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 45%;opacity:.78}
+.hero::before{content:"";position:absolute;inset:0;background:rgba(28,27,31,.38)}
+.hero-texte{position:relative;z-index:2;padding:56px var(--pad) 40px}
+.hero h1{font-size:34px;line-height:1.12;text-wrap:balance}
+.hero h1 i{display:block;font-size:.72em;margin-top:6px;color:#E7E0D2}
+.hero p{margin-top:16px;font-size:16px;max-width:30em;color:#F1EDE6}
+.chercheur{margin-top:26px;background:var(--blanc);color:var(--encre);border-radius:15px;padding:12px;display:grid;gap:10px}
+.chercheur label{display:block;border:1px solid rgba(28,27,31,.25);border-radius:999px;padding:8px 16px}
+.chercheur label span{display:block;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;opacity:.65}
+.chercheur input,.chercheur select{width:100%;border:0;background:transparent;font:inherit;font-size:16px;padding:2px 0 0;color:var(--encre);appearance:none}
+.chercheur .duo{display:grid;grid-template-columns:1.6fr 1fr;gap:10px}
+.chercheur button{display:flex;align-items:center;justify-content:center;gap:10px;min-height:52px;border-radius:999px;border:0;background:var(--encre);color:var(--blanc);font:inherit;font-size:15px;font-weight:600;cursor:pointer}
+.chercheur button svg{width:20px;height:20px;fill:var(--jaune)}
+.chercheur small{text-align:center;font-size:12px;opacity:.7}
+
+/* ---------- Preuves (a la place des logos presse) ---------- */
+.preuves{padding:24px var(--pad) 28px}
+.preuves ul{display:flex;flex-wrap:wrap;gap:18px 28px;justify-content:center}
+.preuves ul::-webkit-scrollbar{display:none}
+.preuves li{flex:none;text-align:center}
+.preuves b{display:block;font-family:var(--titre);font-weight:300;font-size:20px;line-height:1.1;white-space:nowrap}
+.preuves span{display:block;font-size:12px;opacity:.7;white-space:nowrap}
+
+/* ---------- Tours : cartes blanches Context ---------- */
+.filtres{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.filtres button{padding:9px 16px;border-radius:999px;border:1px solid rgba(28,27,31,.25);font:inherit;font-size:14px;background:var(--blanc);color:var(--encre);cursor:pointer;transition:transform .12s}
+.filtres button:active{transform:scale(.96)}
+.filtres button.actif{background:var(--encre);color:var(--blanc);border-color:var(--encre)}
+.carte[hidden]{display:none}
+.rail{display:flex;gap:16px;margin-top:32px;padding:0 var(--pad) 8px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--pad);scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.carte{flex:0 0 78%;max-width:330px;scroll-snap-align:start;background:var(--blanc);border-radius:15px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 1px 0 rgba(28,27,31,.06)}
+.carte .photo{position:relative;aspect-ratio:4/3;background:#ddd}
+.carte .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.carte .tag{position:absolute;left:12px;top:12px;background:rgba(28,27,31,.72);color:var(--blanc);font-size:12px;padding:5px 10px;border-radius:999px}
+.carte .corps{padding:16px 16px 18px;display:flex;flex-direction:column;flex:1}
+.carte .meta{display:flex;gap:14px;font-size:12px;opacity:.75}
+.carte .meta span{display:inline-flex;align-items:center;gap:4px}
+.carte .meta svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.6}
+.carte h3{margin-top:8px;font-size:22px}
+.carte .ital{font-family:var(--titre);font-style:italic;font-weight:300;font-size:15px;margin-top:4px;opacity:.85}
+.carte .prix{margin-top:auto;padding-top:16px;font-size:14px}
+.carte .prix b{font-weight:600}
+.carte .prix em{font-style:normal;opacity:.4;margin:0 6px}
+.carte .btn-noir{margin-top:12px;width:100%}
+
+/* ---------- Tuiles illustrees (Walks) ---------- */
+.tuiles{display:grid;grid-template-columns:1fr 1fr;gap:36px 24px;text-align:center}
+.tuiles img{width:150px;height:150px;margin:0 auto 10px}
+.tuiles h3{font-size:22px}
+.tuiles p{font-size:14px;margin-top:6px;opacity:.8}
+.tuiles a{text-decoration:none}
+
+/* ---------- Bande jaune ---------- */
+.bande{background:var(--jaune);padding:64px var(--pad);text-align:center}
+.bande .petit{font-size:15px}
+.bande .lieux{margin-top:32px;font-family:var(--titre);font-weight:300;font-size:30px;line-height:1.4;max-width:20em;margin-left:auto;margin-right:auto}
+.bande .lieux span{white-space:nowrap}
+.bande .lieux span::after{content:" / ";white-space:normal}
+.bande .lieux span:last-child::after{content:""}
+
+/* ---------- Pourquoi ---------- */
+.pourquoi{display:grid;grid-template-columns:1fr 1fr;gap:48px 20px;margin-top:48px;text-align:center}
+.pourquoi img{width:116px;height:116px;margin:0 auto 14px}
+.pourquoi h3{font-size:20px}
+.pourquoi p{font-size:14px;margin-top:8px;opacity:.8}
+
+/* ---------- Citation de la guide (Context) ---------- */
+.citation{display:grid;gap:16px}
+.photo-cit{position:relative;border-radius:15px;overflow:hidden;aspect-ratio:4/3;background:#ddd}
+.photo-cit img{width:100%;height:100%;object-fit:cover}
+.photo-cit p{position:absolute;left:20px;bottom:18px;color:var(--blanc);font-family:var(--titre);font-weight:300;font-size:30px;line-height:1.1;text-shadow:0 1px 12px rgba(0,0,0,.4)}
+.citation blockquote{background:var(--blanc);border-radius:15px;padding:24px 22px 26px}
+.citation blockquote p{margin-top:18px;font-family:var(--titre);font-weight:300;font-size:21px;line-height:1.35}
+.citation cite{display:block;margin-top:22px;font-style:normal}
+.signature{display:block;font-family:'Zeyada',cursive;font-size:40px;line-height:1;border-bottom:1px solid var(--encre);width:fit-content;padding:0 6px 2px}
+.citation cite small{display:block;margin-top:8px;font-size:12px;opacity:.7}
+
+/* ---------- Etapes (Context) ---------- */
+.etapes ol{margin:40px 0 0;padding:0;list-style:none;display:grid;gap:40px;text-align:center}
+.etapes li img{width:110px;height:110px;margin:0 auto 12px}
+.etapes b{display:block;font-weight:600;font-size:14px}
+.etapes li > span{display:block;margin-top:4px;font-family:var(--titre);font-weight:300;font-size:22px}
+.etapes li p{margin-top:8px;font-size:14px;opacity:.8;max-width:26em;margin-left:auto;margin-right:auto}
+
+/* ---------- Mosaique ---------- */
+.mosaique{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:32px}
+.mosaique figure{position:relative;aspect-ratio:1/1;border-radius:15px;overflow:hidden;background:#ddd}
+.mosaique figure.large{grid-column:1/-1;aspect-ratio:16/10}
+.mosaique img{width:100%;height:100%;object-fit:cover}
+.mosaique figcaption{position:absolute;left:10px;bottom:10px;background:var(--blanc);font-size:13px;font-weight:500;padding:6px 10px;border-radius:999px}
+
+/* ---------- Avant de venir (Walks) ---------- */
+.inspire{background:var(--jaune);padding:64px var(--pad) 80px}
+.pill{display:inline-flex;align-items:center;min-height:46px;padding:0 22px;border:1.5px solid var(--encre);border-radius:999px;text-decoration:none;font-size:15px;font-weight:500;margin-top:22px}
+.inspire .cols{display:grid;gap:26px;margin-top:36px}
+.inspire .cols div{border-top:1px solid var(--encre);padding-top:16px}
+.inspire .cols small{display:block;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.inspire .cols h3{font-size:22px;margin-top:8px}
+.inspire .cols p{font-size:14px;margin-top:8px}
+
+/* ---------- Prix ---------- */
+.prix-table ul{max-width:440px;margin:28px auto 0;background:var(--blanc);border-radius:15px;padding:6px 20px}
+.prix-table li{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid rgba(28,27,31,.12);font-size:16px}
+.prix-table li:last-child{border-bottom:0}
+.prix-table li b{font-family:var(--titre);font-weight:300;font-size:22px}
+.prix-table .note{margin-top:14px;font-size:13px;opacity:.75;max-width:30em;margin-left:auto;margin-right:auto}
+
+/* ---------- Questions ---------- */
+.faq details{border-bottom:1px solid rgba(28,27,31,.2)}
+.faq details:first-of-type{margin-top:28px;border-top:1px solid rgba(28,27,31,.2)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:18px 0;font-size:17px;font-weight:500}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";flex:none;width:32px;height:32px;border-radius:50%;background:var(--encre);color:var(--blanc);display:grid;place-items:center;font-size:20px;font-weight:300}
+.faq details[open] summary::after{content:"\2212"}
+.faq details p{padding:0 0 20px;font-size:15px;opacity:.85;max-width:40em}
+
+/* ---------- Ticket rose (Walks) ---------- */
+.ticket-zone{position:relative;z-index:1;margin-top:var(--ecart);padding:0 var(--pad);margin-bottom:-120px}
+.ticket{background:var(--rose);padding:60px 28px 44px;clip-path:polygon(0 0,18% 0,22% 20px,78% 20px,82% 0,100% 0,100% 100%,0 100%)}
+.ticket h2{font-size:36px;text-align:left}
+.ticket form{margin-top:28px;display:grid;gap:14px}
+.ticket label{display:block;font-size:12px;font-weight:600;margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
+.ticket input,.ticket select{width:100%;background:var(--blanc);border:0;border-radius:999px;padding:12px 16px;font:inherit;font-size:16px;color:var(--encre);appearance:none}
+.ticket .envoi{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:6px}
+.ticket .envoi span{font-size:16px;font-weight:500}
+.ticket .rond{width:60px;height:60px;border-radius:50%;border:0;background:var(--encre);display:grid;place-items:center;cursor:pointer;flex:none}
+.ticket .rond svg{width:20px;height:20px;stroke:var(--blanc);fill:none;stroke-width:1.6}
+.ticket .wa{display:flex;align-items:center;gap:10px;margin-top:26px;font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.ticket .wa svg{width:20px;height:20px;fill:var(--encre)}
+.piege{position:absolute;left:-9999px}
+
+/* ---------- Pied vert ---------- */
+.pied{background:var(--vert);color:var(--creme);padding:170px var(--pad) 40px}
+.pied details{border-bottom:1px solid rgba(255,250,237,.35)}
+.pied summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:16px 0;font-size:20px;font-family:var(--titre);font-weight:300}
+.pied summary::-webkit-details-marker{display:none}
+.pied summary::after{content:"";width:9px;height:9px;border-right:1.5px solid var(--creme);border-bottom:1.5px solid var(--creme);transform:rotate(45deg);margin-right:6px}
+.pied details[open] summary::after{transform:rotate(-135deg)}
+.pied details p{padding:0 0 18px;font-size:16px;line-height:1.7}
+.pied details a{text-decoration:underline;text-underline-offset:3px}
+.pied .logo-pied{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:72px 0 36px}
+.pied .logo-pied img{height:56px;width:auto;filter:invert(1) brightness(1.3)}
+.pied .logo-pied .mot{color:var(--creme);font-size:34px}
+.pied .logo-pied small{width:100%;font-size:13px;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+.pied .legal{font-size:13px;line-height:1.7;opacity:.85}
+.pied .legal a{text-decoration:underline;margin-right:14px}
+.pied .bandeau-pied{margin-top:28px;font-size:12px;letter-spacing:.14em;font-weight:600}
+.pied .bandeau-pied [lang="he"]{display:block;letter-spacing:.04em;font-size:14px;margin-top:4px}
+
+/* ---------- Ecrans larges ---------- */
+@media (min-width:900px){
+  :root{--pad:48px;--ecart:150px}
+  .beige{padding:100px 0}
+  .bande{padding:110px var(--pad)}
+  .nav{height:76px}
+  .nav .logo .forme{height:50px}
+  .mot{font-size:32px}
+  .nav .liens{display:flex;gap:30px;font-size:15px}
+  .nav .liens a{text-decoration:none}
+  .nav .menu,.panneau{display:none}
+  .langue .code{display:inline}
+  .langue summary{padding:0 12px}
+  h2{font-size:48px}
+  h3{font-size:28px}
+  .hero{min-height:640px;display:flex;align-items:center}
+  .hero-texte{max-width:1200px;margin:0 auto;padding:96px 48px;width:100%;display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center}
+  .hero h1{font-size:54px}
+  .hero p{font-size:18px}
+  .chercheur{margin-top:0;padding:16px}
+  .preuves ul{justify-content:center;gap:56px}
+  .beige{padding:110px 0}
+  .rail{max-width:1200px;margin-left:auto;margin-right:auto;padding:0 48px;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;overflow:visible}
+  .carte{max-width:none}
+  .carte h3{font-size:21px}
+  .tuiles{grid-template-columns:repeat(4,1fr);gap:32px}
+  .tuiles img{width:180px;height:180px}
+  .bande .lieux{font-size:42px;max-width:24em}
+  .pourquoi{grid-template-columns:repeat(3,1fr);gap:64px 40px;max-width:1000px;margin-left:auto;margin-right:auto}
+  .citation{grid-template-columns:1fr 1fr;gap:32px;align-items:stretch}
+  .photo-cit{aspect-ratio:auto;min-height:460px}
+  .photo-cit p{font-size:44px;left:32px;bottom:28px}
+  .citation blockquote{padding:40px 44px}
+  .citation blockquote p{font-size:26px}
+  .etapes ol{grid-template-columns:repeat(3,1fr);gap:40px;max-width:1000px;margin-left:auto;margin-right:auto}
+  .mosaique{grid-template-columns:repeat(4,1fr);gap:12px}
+  .mosaique figure.large{grid-column:span 2;grid-row:span 2;aspect-ratio:auto}
+  .inspire{padding:88px var(--pad) 100px}
+  .inspire .tete{display:flex;justify-content:space-between;align-items:center}
+  .inspire .tete .pill{margin-top:0}
+  .inspire .cols{display:flex;gap:0}
+  .inspire .cols div{flex:1;border-top:0;padding-top:0;padding-right:24px;border-left:1px solid var(--encre);padding-left:20px}
+  .inspire .cols div:first-child{border-left:0;padding-left:0}
+  .faq{max-width:820px;margin-left:auto;margin-right:auto}
+  .ticket-zone{max-width:1104px;margin-left:auto;margin-right:auto;padding:0}
+  .ticket{padding:80px 96px 72px;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start;clip-path:polygon(0 0,20% 0,22% 24px,78% 24px,80% 0,100% 0,100% 100%,0 100%)}
+  .ticket h2{font-size:56px}
+  .ticket form{margin-top:0}
+  .pied{padding:220px var(--pad) 48px}
+  .pied .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
+  .pied details{border:0}
+  .pied summary{pointer-events:none;font-family:'Heebo',sans-serif;font-size:14px;font-weight:500;opacity:.7;padding:0 0 18px}
+  .pied summary::after{display:none}
+  .pied .logo-pied{margin-top:96px}
+  .pied .logo-pied img{height:76px}
+  .pied .logo-pied .mot{font-size:48px}
+}
+
+/* ---------- Fiches tours ---------- */
+.fiche-hero{display:grid;gap:18px;padding:20px var(--pad) 0}
+.fiche-photo{position:relative;border-radius:15px;overflow:hidden;aspect-ratio:4/3;background:#ddd}
+.fiche-photo img{width:100%;height:100%;object-fit:cover}
+.fiche-photo .tag{position:absolute;left:14px;top:14px;background:rgba(28,27,31,.72);color:var(--blanc);font-size:12px;padding:6px 12px;border-radius:999px}
+.fil{font-size:13px;opacity:.7}
+.fil a{text-decoration:none}
+.fiche-texte h1{margin-top:10px;font-size:36px;line-height:1.1}
+.fiche-texte h1 i{display:block;font-size:.62em;margin-top:8px;opacity:.85}
+.intro-fiche{margin-top:16px;font-size:16px;max-width:36em}
+.fiche-carte{background:var(--blanc);border-radius:15px;padding:20px 20px 22px}
+.fiche-carte dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fiche-carte dt{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.6}
+.fiche-carte dd{margin:2px 0 0;font-size:15px}
+.fiche-prix{margin-top:18px;padding-top:16px;border-top:1px solid rgba(28,27,31,.12)}
+.fiche-prix b{display:block;font-family:var(--titre);font-weight:300;font-size:40px;line-height:1}
+.fiche-prix span{display:block;font-size:15px;margin-top:4px}
+.fiche-prix small{display:block;font-size:13px;opacity:.7;margin-top:4px}
+.btn-noir.large{width:100%;min-height:54px;font-size:16px;margin-top:18px}
+.btn-noir svg{width:20px;height:20px;fill:var(--jaune)}
+.fiche-note{margin-top:12px;font-size:13px;opacity:.7;text-align:center}
+.deroule ol{margin:32px 0 0;padding:0;list-style:none;display:grid;gap:26px}
+.deroule li{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.deroule li b{width:44px;height:44px;border-radius:50%;background:var(--jaune);display:grid;place-items:center;font-family:var(--titre);font-weight:300;font-size:20px}
+.deroule h3{font-size:22px;margin-top:6px}
+.deroule li p{margin-top:6px;font-size:15px;opacity:.85}
+.deux-cartes{display:grid;gap:14px;margin-top:32px}
+.deux-cartes > div{background:var(--blanc);border-radius:15px;padding:22px 20px}
+.deux-cartes h3{font-size:22px}
+.deux-cartes ul{margin-top:12px;display:grid;gap:10px}
+.deux-cartes li{padding-left:22px;position:relative;font-size:15px}
+.deux-cartes li::before{content:"";position:absolute;left:0;top:9px;width:10px;height:10px;border-radius:50%;background:var(--vert-c)}
+.deux-cartes > div:last-child li::before{background:var(--rose)}
+.garanties-fiche ul{margin-top:24px;border-top:1px solid rgba(28,27,31,.2)}
+.garanties-fiche li{padding:14px 0;border-bottom:1px solid rgba(28,27,31,.2);font-size:15px;opacity:.9}
+.garanties-fiche b{font-weight:600}
+.carte.autre{text-decoration:none;color:inherit}
+.carte.autre .prix span{display:block;font-weight:400;opacity:.7;margin-top:2px}
+@media (min-width:900px){
+  .fiche-hero{grid-template-columns:1.1fr .9fr;grid-template-areas:"photo texte" "photo carte";gap:24px 48px;max-width:1200px;margin:0 auto;padding-top:32px;align-items:start}
+  .fiche-photo{grid-area:photo;aspect-ratio:3/4;min-height:620px}
+  .fiche-texte{grid-area:texte}
+  .fiche-carte{grid-area:carte}
+  .fiche-texte h1{font-size:52px}
+  .deroule{max-width:820px;margin-left:auto;margin-right:auto}
+  .deux-cartes{grid-template-columns:1fr 1fr;gap:24px}
+  .garanties-fiche{max-width:820px;margin-left:auto;margin-right:auto}
+  .rail.autres{grid-template-columns:repeat(4,1fr)}
+}
+.carte h3 a{text-decoration:none;color:inherit}
+.carte .detail{display:block;text-align:center;margin-top:10px;font-size:14px;font-weight:600}
+
+/* ---------- Pages pratiques ---------- */
+.pratique-hero{padding:24px 0 0}
+.pratique-tete{display:grid;gap:12px;margin-top:10px}
+.pratique-tete img{width:200px;height:200px;margin:0 auto;order:-1}
+.pratique-tete h1{font-size:36px;line-height:1.1}
+.pratique-tete h1 i{display:block;font-size:.62em;margin-top:8px;opacity:.85}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.chips li{padding:7px 14px;border-radius:999px;background:var(--blanc);border:1px solid rgba(28,27,31,.2);font-size:13px}
+.conseils ul{margin-top:22px;border-top:1px solid rgba(28,27,31,.2)}
+.conseils li{padding:14px 0;border-bottom:1px solid rgba(28,27,31,.2);font-size:15px;opacity:.9}
+.conseils b{font-weight:600}
+.groupe{margin-top:40px}
+.groupe:first-child{margin-top:0}
+.groupe h2{font-size:26px}
+.groupe h2 small{font-family:'Heebo',sans-serif;font-size:13px;opacity:.6;margin-left:8px}
+.liste-lieux{margin-top:14px;display:grid;gap:8px}
+.liste-lieux li{background:var(--blanc);border-radius:12px;padding:12px 16px;display:grid;grid-template-columns:1fr auto;gap:2px 12px;font-size:14px;align-items:center}
+.liste-lieux li small{display:block;margin:2px 0 4px 0;font-size:12px;opacity:.65}
+.liste-lieux b{font-weight:600;font-size:15px}
+.liste-lieux small{font-size:12px;opacity:.6;margin-left:6px}
+.liste-lieux span{grid-column:1;opacity:.75}
+.liste-lieux a{grid-column:2;grid-row:1/3;text-decoration:none;font-weight:600;border:1px solid rgba(28,27,31,.25);border-radius:999px;padding:6px 12px;white-space:nowrap}
+.source{margin-top:28px;font-size:13px;opacity:.65;max-width:50em}
+.syns{display:grid;gap:18px;margin-top:28px}
+.syn{background:var(--blanc);border-radius:15px;overflow:hidden}
+.syn .photo{aspect-ratio:16/9;background:#ddd}
+.syn .photo img{width:100%;height:100%;object-fit:cover}
+.syn .corps{padding:20px}
+.syn h2{font-size:28px}
+.adr{margin-top:4px;font-size:14px;opacity:.75}
+.syn dl{margin:16px 0 0;display:grid;gap:12px}
+.syn dt{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.6}
+.syn dd{margin:2px 0 0;font-size:15px}
+.syn dd small{display:block;font-size:12px;opacity:.65;margin-top:2px}
+.note-syn{margin-top:14px;font-size:14px;opacity:.85}
+.syn .btn-noir{margin-top:16px}
+.chabads{display:grid;gap:14px}
+.chabad{background:var(--blanc);border-radius:15px;padding:20px}
+.chabad h2{font-size:24px}
+.rav{margin-top:6px;font-size:14px}
+.chabad .tel{display:inline-block;margin-top:8px;text-decoration:none;font-weight:600;border:1px solid rgba(28,27,31,.25);border-radius:999px;padding:6px 12px;font-size:14px}
+.fiche-carte.cim dl{grid-template-columns:1fr}
+.cta-pratique > div{background:var(--jaune);border-radius:15px;padding:32px 24px;text-align:center}
+.cta-pratique h2{font-size:28px}
+.cta-pratique .btn-noir{width:auto;display:inline-flex;padding:0 28px}
+@media (min-width:900px){
+  .pratique-tete{grid-template-columns:1fr 260px;gap:48px;align-items:center}
+  .pratique-tete img{order:0;width:260px;height:260px}
+  .pratique-tete h1{font-size:54px}
+  .conseils{max-width:820px;margin-left:auto;margin-right:auto}
+  .liste-lieux{grid-template-columns:1fr 1fr;gap:12px}
+  .syns{grid-template-columns:1fr 1fr;gap:24px}
+  .chabads{grid-template-columns:1fr 1fr;gap:24px}
+  .fiche-carte.cim{max-width:640px;margin:0 auto}
+  .fiche-carte.cim dl{grid-template-columns:1fr 1fr}
+  .cta-pratique > div{padding:56px}
+}
+.inspire .cols h3 a{text-decoration:none}
+.inspire .cols h3 a:hover{text-decoration:underline}
+
+/* ---------- Cartes OSM, Shabbat, liens ---------- */
+.carte-osm{width:100%;border-radius:15px;overflow:hidden;background:#e8e4da;margin-top:28px;z-index:0}
+.carte-note{margin-top:10px;font-size:13px;opacity:.7;text-align:center}
+.leaflet-popup-content{font-family:'Heebo',sans-serif;font-size:14px;line-height:1.45}
+.leaflet-popup-content a{font-weight:600}
+.liste-lieux .liens{grid-column:2;grid-row:1/3;display:flex;gap:6px;align-items:center}
+.liste-lieux .liens a{grid-column:auto;grid-row:auto}
+.liste-lieux a.go{background:var(--jaune);border-color:var(--jaune)}
+.shabbat{background:var(--encre);color:var(--creme);border-radius:15px;padding:24px 22px}
+.shabbat-titre{font-family:var(--titre);font-weight:300;font-size:26px;line-height:1.2}
+.shabbat-corps{margin-top:10px;font-size:17px;line-height:1.6}
+.shabbat-corps small{opacity:.6;font-size:12px}
+@media (min-width:900px){.shabbat{padding:40px 44px;max-width:820px;margin:0 auto}.shabbat-titre{font-size:34px}}
+
+/* ---------- Hub ---------- */
+.hub-grille{display:grid;gap:16px}
+.hub-carte{display:flex;flex-direction:column;background:var(--blanc);border-radius:15px;overflow:hidden;text-decoration:none;color:inherit}
+.hub-carte .photo{position:relative;aspect-ratio:16/10;background:#ddd}
+.hub-carte .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hub-carte .corps{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1}
+.hub-carte h3{font-size:24px}
+.hub-carte p{margin-top:6px;font-size:15px;opacity:.8}
+.hub-carte .btn-noir{margin-top:auto;align-self:flex-start;margin-top:14px}
+.liste-lieux.stations li{grid-template-columns:1fr auto}
+.liste-lieux.stations em{grid-column:1/-1;font-style:normal;font-size:13px;opacity:.75;margin-top:4px}
+@media (min-width:900px){.hub-grille{grid-template-columns:repeat(3,1fr);gap:24px}}
