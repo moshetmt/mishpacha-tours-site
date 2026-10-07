@@ -5,7 +5,7 @@ PAGE = dict(
   desc="Spending Shabbat in Lyon: where to pray, how to eat, where to sleep on foot, what closes on Friday and what to ask before you go. Checked 7 October 2026.",
   h1="Shabbat in Lyon", ital="how to keep it, step by step",
   intro="You can keep Shabbat well in Lyon if you plan it before you land. The Grande Synagogue and Neveh Chalom hold services, Chabad houses host on request, and kosher caterers cook for the weekend. Settle three things before you arrive: where you sleep, who feeds you, and how you carry.",
-  chips=["Candle lighting times below", "2 main synagogues, 4 Chabad houses", "No public eruv published", "Checked 7 October 2026"],
+  chips=["Candle lighting times below", "2 main synagogues, 7 Chabad houses", "No public eruv published", "Checked 7 October 2026"],
   illus="line-shabbat.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
   sections=[
@@ -38,7 +38,7 @@ PAGE = dict(
       html="<p>We never guide on Shabbat or on Jewish holidays. Your guide keeps Shabbat herself. A Sunday morning tour is possible, and so is a Friday morning tour that ends well before candle lighting. See the <a href='../tours/jewish-lyon/'>Jewish Lyon tour</a>: 2 hours 30 minutes, private group, inside the Grande Synagogue.</p>"),
     dict(type="faq", h2="Shabbat in Lyon: <i>questions</i>", items=[
       ("When does Shabbat start in Lyon?", "The box at the top of this page shows candle lighting and Havdalah for this week, from Hebcal. For your dates, write to us and we send the exact times."),
-      ("Can I find a minyan on Shabbat?", "Yes. The Grande Synagogue and Neveh Chalom hold services, and so do the Chabad houses and some thirty neighbourhood minyanim. Tell us your hotel and we point you to the nearest one. Shabbat times are published for Neveh Chalom only: call the others."),
+      ("Can I find a minyan on Shabbat?", "Yes. The Grande Synagogue and Neveh Chalom hold services, and so do the Chabad houses and 26 neighbourhood minyanim. Tell us your hotel and we point you to the nearest one. Shabbat times are published for Neveh Chalom only: call the others."),
       ("Is there a kosher hotel in Lyon?", "We know of none. If you find one, tell us and we update this page. Meanwhile, choose a hotel within walking distance of a synagogue and order your meals in advance."),
       ("Is there an eruv in Lyon?", "No public eruv is published for Lyon; plan accordingly. Ask the synagogue or your host before you carry."),
       ("Will anyone feed me if I arrive late on Friday?", "Do not count on it. Write to a Chabad house or a caterer before Thursday. Caterers' order deadlines are not published."),

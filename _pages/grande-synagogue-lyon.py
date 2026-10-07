@@ -4,7 +4,7 @@ PAGE = dict(
   title="Grande Synagogue of Lyon: Visit Quai Tilsitt, 1864",
   desc="The Grande Synagogue of Lyon, built 1864, is closed to visitors outside the Heritage Days. See how to get in, the prayer times and the address.",
   h1="Grande Synagogue of Lyon", ital="inside the building closed to visitors",
-  intro="The Grande Synagogue stands at 13 quai Tilsitt, on the bank of the Saône. It was inaugurated in 1864 and it is still a working synagogue. It is closed to visitors outside the Heritage Days. Mishpacha Tours is the only tour that takes you inside, subject to the day's opening hours and security.",
+  intro="The Grande Synagogue of Lyon, 13 quai Tilsitt on the bank of the Saône, was inaugurated in 1864 and is still a working synagogue. It is closed to visitors outside the Heritage Days. Mishpacha Tours holds the special authorisation required to enter and takes private groups inside on its 2 h 30 Jewish Lyon tour, 290 € per group, subject to opening hours and security on the day.",
   chips=["Inaugurated 1864", "13 quai Tilsitt, Lyon 2e", "Architect Abraham Hirsch", "Checked 7 October 2026"],
   illus="line-synagogue.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
@@ -47,7 +47,7 @@ PAGE = dict(
       "</ul>")),
     dict(type="map", h2="On the <i>map</i>", points=[("Grande Synagogue de Lyon", "13 quai Tilsitt, 69002 Lyon")], note="Quai Tilsitt, Lyon 2e."),
     dict(type="faq", h2="Questions we get", items=[
-      ("Can I visit the Grande Synagogue of Lyon on my own?", "No. It is closed to visitors outside the Heritage Days. Worshippers are welcome at services. Our Jewish Lyon tour is the only tour that takes you inside, subject to the day's opening hours and security."),
+      ("Can I visit the Grande Synagogue of Lyon on my own?", "No. It is closed to visitors outside the Heritage Days. Worshippers are welcome at services. Mishpacha Tours holds the special authorisation required to enter: our Jewish Lyon tour is the only tour that takes you inside, subject to the day's opening hours and security."),
       ("When was the Grande Synagogue of Lyon built?", "The foundation stone was laid in 1863 and the synagogue was inaugurated on 23 June 1864. The architect was Abraham Hirsch."),
       ("What are the prayer times?", "Shacharit is at 8:00 on Sunday and 7:00 on weekdays. Mincha and Arvit are at 18:30. We read these times on 8 September 2026 and they change with the season. Check with the Consistoire before you come."),
       ("Is there a security check?", "Expect one at the door, as in every synagogue in France. Carry your ID and arrive a few minutes early."),
@@ -56,8 +56,7 @@ PAGE = dict(
   ],
   related=[("../tours/jewish-lyon/", "Jewish Lyon tour, 2 hours 30 minutes"), ("../synagogues-lyon/", "Synagogues and Shabbat in Lyon"), ("../rue-juiverie-lyon/", "Rue Juiverie and medieval Jewish Lyon"), ("../jewish-history-lyon/", "Jewish history of Lyon")],
   source="Sources: consistoiredelyon.fr; lyon.fr; fr.wikipedia.org (Grande synagogue de Lyon).",
-  jsonld={"@context": "https://schema.org", "@type": "TouristAttraction", "name": "Grande Synagogue of Lyon", "url": "https://mishpachatours.com/grande-synagogue-lyon/",
-    "address": {"@type": "PostalAddress", "streetAddress": "13 quai Tilsitt", "postalCode": "69002", "addressLocality": "Lyon", "addressCountry": "FR"}},
+  jsonld={'@context': 'https://schema.org', '@type': ['TouristAttraction', 'Synagogue'], '@id': 'https://mishpachatours.com/grande-synagogue-lyon/#place', 'name': 'Grande Synagogue de Lyon', 'alternateName': 'Grande Synagogue of Lyon', 'url': 'https://mishpachatours.com/grande-synagogue-lyon/', 'description': 'Neo-Byzantine synagogue inaugurated on 23 June 1864, architect Abraham Hirsch, listed as a historic monument on 5 December 1984. Closed to visitors outside the Heritage Days; Mishpacha Tours takes private groups inside by special authorisation.', 'address': {'@type': 'PostalAddress', 'streetAddress': '13 quai Tilsitt', 'postalCode': '69002', 'addressLocality': 'Lyon', 'addressCountry': 'FR'}, 'telephone': '+33478371343', 'publicAccess': False, 'sameAs': ['https://fr.wikipedia.org/wiki/Grande_synagogue_de_Lyon'], 'geo': {'@type': 'GeoCoordinates', 'latitude': 45.757235, 'longitude': 4.8275188}},
   ticket=True,
   VERIF=[
     "Architecte Abraham Hirsch (1828-1913), pierre posee 20/05/1863, inauguration 23/06/1864, style neo-byzantin, inscription MH 05/12/1984 : fr.wikipedia.org seul (secondaire). A recouper avec la base Merimee.",

@@ -3,12 +3,15 @@
    Source des faits : 06-reports/2026-09-08-base-factuelle-pages-plateforme.md (liste officielle Beth Din,
    sites officiels). Rien d'invente : une donnee absente ne s'ecrit pas.
    python _build_pratique.py   (depuis site-v5/)"""
-from _head import head_page
+from _head import head_page, crumbs, webpage, itemlist, place
+import json as _geojson
+GEO_CACHE = _geojson.load(open('img/geo.json', encoding='utf-8'))
+def _full(a): return a if '69' in a else a + ', 69100 Villeurbanne'
 import re, os, html, urllib.parse
 
 WA = "https://wa.me/33767711259?text="
 def wa(t): return WA + urllib.parse.quote(t)
-CHECKED = "8 September 2026"
+CHECKED = "7 October 2026"
 
 # ---------- 1. Casher : liste officielle Beth Din de Lyon uniquement ----------
 KOSHER = {
@@ -20,7 +23,7 @@ KOSHER = {
   ("Jean Bomber","53 rue Pierre-Corneille, 69006 Lyon","",""),
   ("Le Namal","2 rue Baraban, 69006 Lyon","",""),
   ("Aroma","41 rue du 4-Août-1789, 69100 Villeurbanne","",""),
-  ("Bozen","106 cours Vitton, 69006 Lyon","06 64 16 26 78","Asian"),
+  ("Okami (formerly Bozen)","106 cours Vitton, 69006 Lyon","06 64 16 26 78","Asian"),
   ("Neshama Kitchen","10 rue Mulet, 69001 Lyon","07 68 00 74 31",""),
   ("O'Laffa","18 rue Louis-Goux, 69100 Villeurbanne","04 27 02 53 18","Middle Eastern grill"),
   ("La Casa Del Coco","20 B rue Faillebin, 69100 Villeurbanne","06 50 10 65 75","restaurant and caterer"),
@@ -39,9 +42,6 @@ KOSHER = {
  ],
  "Bakeries": [
   ("La Galerie des Pains","30 rue Tronchet, 69006 Lyon","04 26 00 55 25","dairy"),
-  ("Boulangerie des Gratte-Ciel","40 rue Michel-Servet, 69100 Villeurbanne","","open every day"),
-  ("Boulangerie Delorme","109 cours Émile-Zola, 69100 Villeurbanne","","Tuesday to Friday"),
-  ("Le Fournil de Cusset","258 rue du 4-Août-1789, 69100 Villeurbanne","","open every day"),
  ],
  "Butchers": [
   ("Eric Farache","28 rue Villeroy, 69003 Lyon","04 78 60 13 25",""),
@@ -50,6 +50,7 @@ KOSHER = {
  ],
  "Groceries": [
   ("Hypercacher","17 rue Claudius-Pionchon, 69003 Lyon","04 78 85 00 80",""),
+  ("Hypercacher Garibaldi","46 rue Garibaldi, 69006 Lyon","","opened 2026"),
   ("Lilly Market","140 rue Dedieu, 69100 Villeurbanne","04 78 03 24 79",""),
   ("Lilly Market Écully","6 avenue Raymond-de-Veyssière, 69130 Écully","04 72 48 82 44",""),
  ],
@@ -74,7 +75,7 @@ SYN_MAIN = [
       note="Beside the Institut culturel du judaïsme. The second synagogue we take you inside, on the Montluc and Neveh Shalom tour.", photo="synagogue-tilsitt-arche.jpg", lien="../tours/memory-montluc-neveh-shalom/"),
 ]
 SYN_AUTRES = [
- ("Lyon",[("Beth-Habad Presqu'île","12 rue Palais-Grillet, 69002","06 21 82 05 56"),("Montchat","22 cours du Docteur-Long, 69003","06 09 24 57 78"),("Beth David","202 rue André-Philip, 69003","04 78 95 28 65"),("Beth-Habad Lyon 6","60 rue Crillon, 69006","06 25 30 90 38"),("Mizrahi","156 rue Cuvier, 69006","04 78 39 12 00"),("Chaare Tzedek","18 rue Saint-Mathieu, 69008","04 78 00 72 50"),("Patah Eliahou","3 impasse Professeur-Beauvisage, 69008","04 78 76 93 89"),("La Duchère, Rav Hida","501 avenue de la Sauvegarde, 69009","04 78 35 14 44")]),
+ ("Lyon",[("Montchat","22 cours du Docteur-Long, 69003","06 09 24 57 78"),("Beth David","202 rue André-Philip, 69003","04 78 95 28 65"),("Beth-Habad Lyon 6","60 rue Crillon, 69006","06 25 30 90 38"),("Mizrahi","156 rue Cuvier, 69006","04 78 39 12 00"),("Chaare Tzedek","18 rue Saint-Mathieu, 69008","04 78 00 72 50"),("Patah Eliahou","3 impasse Professeur-Beauvisage, 69008","04 78 76 93 89"),("La Duchère, Rav Hida","501 avenue de la Sauvegarde, 69009","04 78 35 14 44")]),
  ("Villeurbanne",[("Beth-Menahem","293 rue Francis-de-Pressensé","04 78 68 02 03"),("Yeshiva Loubavitch","295 rue Francis-de-Pressensé","04 78 89 08 32"),("Beth Hamidrash","89 rue Magenta","04 78 79 92 58"),("Malherbe","4 rue Malherbe","04 78 84 04 32"),("Ysmah Lev","14 rue Pierre-Loti","04 72 80 99 53"),("Birkat Kohanim","19 rue Jean-Bourgey","04 78 68 18 75"),("Tal Orot","44 rue Hippolyte-Kahn","04 78 85 11 58"),("Hevrat Pinto","20 bis rue des Mûriers","04 78 03 89 14"),("Ohel Yaakov","26 rue Chevreul","04 78 84 09 55"),("Sidi Fredj Halimi","7 rue du Docteur-Frappaz","04 78 93 98 87"),("CERJ","80 rue Fontanières","04 78 84 30 14"),("Torat Emet","52 rue Hippolyte-Kahn","04 78 85 16 18"),("Em Habanim","6 rue d'Alsace","06 72 79 51 77"),("Merone","267 rue Francis-de-Pressensé","04 78 00 25 12"),("Malkhout David","13 bis rue Baudelaire","")]),
  ("Around Lyon",[("Caluire-et-Cuire","2 chemin des Bruyères, 69300","04 78 08 58 47"),("Saint-Fons","17 rue Albert-Thomas, 69190","04 78 67 39 78"),("Vénissieux","10 bis avenue de la Division-Leclerc, 69200","04 78 70 69 85"),("Bron","97 rue de la Pagère, 69500","04 78 41 88 33")]),
 ]
@@ -85,6 +86,9 @@ CHABAD = [
  dict(nom="Chabad Loubavitch Lyon 6", adresse="60 rue Crillon, 69006 Lyon", rav="Rabbi Mendel Nemanow", tel="06 29 89 19 97", note="In the 6th arrondissement, the neighbourhood of most kosher restaurants on the Lyon side."),
  dict(nom="Chabad Loubavitch Villeurbanne", adresse="295 rue Francis-de-Pressensé, 69100 Villeurbanne", rav="Rabbi Schneor Zalmen Gurewitz", tel="04 78 89 08 32", note="The heart of Jewish Villeurbanne: synagogue Beth-Menahem, yeshiva and school on the same street."),
  dict(nom="Chabad on Campus Lyon", adresse="10 promenade Léa-et-Napoléon-Bullukian, 69008 Lyon", rav="Rabbi Eliezer Gurewitz", tel="", note="For students and young travellers."),
+ dict(nom="Beth Habad Charpennes", adresse="86 cours Émile-Zola, 69100 Villeurbanne", rav="Rabbi Haim-Hillel Zekri", tel="06 50 82 11 81", note="At the Charpennes end of Villeurbanne, by the metro, between the 6th arrondissement and Gratte-Ciel."),
+ dict(nom="Beth Habad Lyon 3", adresse="119 rue Servient, 69003 Lyon", rav="", tel="06 19 18 02 67", note="In the 3rd arrondissement, between Part-Dieu station and the Hypercacher grocery of rue Claudius-Pionchon."),
+ dict(nom="Beth Habad Écully", adresse="67 chemin du Tronchon, 69130 Écully", rav="Rabbi Lévy Gurewitz", tel="06 19 34 04 00", note="West of Lyon, near the Lilly Market grocery of Écully."),
 ]
 
 
@@ -101,7 +105,7 @@ LEAFLET = """<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\\" target=\\"_blank\\" rel=\\"noopener\\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>"""
-SHABBAT = """<div class="shabbat" id="shabbat"><p class="shabbat-titre">Shabbat in Lyon this week</p><p class="shabbat-corps">Loading times…</p></div>
+SHABBAT = """<div class="shabbat" id="shabbat"><p class="shabbat-titre">Shabbat in Lyon this week</p><p class="shabbat-corps">Candle lighting in Lyon falls as early as 16:30 in December and after 21:00 in June. <a href="https://www.hebcal.com/shabbat?geonameid=2996944" rel="noopener">This week's exact times on Hebcal</a>.</p></div>
 <script>
 fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=en").then(r=>r.json()).then(d=>{const it=d.items;const c=it.find(i=>i.category==="candles"),h=it.find(i=>i.category==="havdalah"),p=it.find(i=>i.category==="parashat");const f=s=>new Date(s).toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Paris"});const dd=s=>new Date(s).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",timeZone:"Europe/Paris"});document.querySelector(".shabbat-corps").innerHTML=(p?"<b>"+p.title+"</b><br>":"")+(c?"Candle lighting: <b>"+f(c.date)+"</b>, "+dd(c.date)+"<br>":"")+(h?"Havdalah: <b>"+f(h.date)+"</b>, "+dd(h.date):"")+"<br><small>Source: Hebcal, Lyon</small>"}).catch(()=>{document.querySelector(".shabbat-corps").textContent="Times unavailable right now."});
 </script>"""
@@ -118,11 +122,11 @@ def rel(s):
                 ('href="he/"','href="../he/"'),('href="credits.html"','href="../credits.html"'),('href="#book"','href="../#book"')]:
         s = s.replace(a,b)
     return s
-def page(slug, title, desc, body):
+def page(slug, title, desc, body, ld=None):
     h = rel(head)
     h = re.sub(r"<title>.*?</title>", f"<title>{title} | Mishpacha Tours</title>", h)
     h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(desc)}">', h)
-    h = head_page(h, f"/{slug}/", f"{title} | Mishpacha Tours", desc)
+    h = head_page(h, f"/{slug}/", f"{title} | Mishpacha Tours", desc, [crumbs([("Jewish Lyon guide", "/jewish-lyon-guide/"), (title, f"/{slug}/")]), webpage(f"/{slug}/", title, desc)] + (ld or []))
     f = rel(foot).replace("document.getElementById('chercheur').addEventListener","document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")
     f = f.replace("</body>", LEAFLET+"\n</body>")
     os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html","w",encoding="utf-8").write(h+body+f); print("ok",slug)
@@ -152,7 +156,7 @@ for cat, items in KOSHER.items():
     groupes += f'<section class="groupe"><h2>{cat} <small>{len(items)}</small></h2><ul class="liste-lieux">{lis}</ul></section>'
 total = sum(len(v) for v in KOSHER.values())
 body = f'''<main>
-{hero("flat-kosher.png","Kosher in Lyon",f"{total} certified places to eat and shop","Every address below is on the official list of the Beth Din de Lyon, the rabbinical court that supervises kashrut in Lyon, Villeurbanne and Écully. We list only what the Beth Din certifies: no self-declared places, no secondary directories. Call before you go: opening hours change, and most close for Shabbat from Friday afternoon.",["Beth Din de Lyon supervision","Lyon · Villeurbanne · Écully",f"List checked {CHECKED}"])}
+{hero("flat-kosher.png","Kosher in Lyon",f"{total} certified places to eat and shop",f"The Beth Din de Lyon certifies {total} kosher restaurants, bakeries, butchers, groceries and caterers in Lyon, Villeurbanne and Écully, most of them in Villeurbanne and the 6th arrondissement. Vieux Lyon has none. Every address below is on the official list of the Beth Din de Lyon, the rabbinical court that supervises kashrut in Lyon, Villeurbanne and Écully. We list only what the Beth Din certifies: no self-declared places, no secondary directories. Call before you go: opening hours change, and most close for Shabbat from Friday afternoon.",["Beth Din de Lyon supervision","Lyon · Villeurbanne · Écully",f"List checked {CHECKED}"])}
 <section class="ss wrap conseils">
   <h2>Good to <i>know</i></h2>
   <ul>
@@ -167,7 +171,7 @@ body = f'''<main>
 {cta("Want a kosher meal during or after your tour?","Hello, I would like advice on kosher restaurants in Lyon during my trip. Dates: / Number of people:")}
 {ticket}
 </main>'''
-page("kosher-restaurants-lyon","Kosher restaurants in Lyon and Villeurbanne",f"{total} kosher restaurants, bakeries, butchers, groceries and caterers in Lyon, Villeurbanne and Écully, all on the official Beth Din de Lyon list. Checked {CHECKED}.",body)
+page("kosher-restaurants-lyon","Kosher restaurants in Lyon and Villeurbanne",f"{total} kosher restaurants, bakeries, butchers, groceries and caterers in Lyon, Villeurbanne and Écully, all on the official Beth Din de Lyon list. Checked {CHECKED}.",body, [itemlist("Kosher places certified by the Beth Din de Lyon", [place(n, _full(a), t, "FoodEstablishment", GEO_CACHE.get(_full(a))) for items in KOSHER.values() for n, a, t, x in items])])
 
 # ===== 2. Synagogues =====
 cartes = "".join(f'''<article class="syn"><div class="photo"><img src="../img/{s['photo']}" alt="" loading="lazy"></div><div class="corps"><h2>{s['nom']}</h2><p class="adr">{s['adresse']}</p><dl><div><dt>Rite</dt><dd>{s['rite']}</dd></div><div><dt>Community</dt><dd>{s['aff']}</dd></div><div><dt>Prayer times</dt><dd>{s['horaires']}<br><small>Times change with the season. Check before you come.</small></dd></div><div><dt>Phone</dt><dd><a href="tel:{s['tel'].replace(' ','')}">{s['tel']}</a></dd></div></dl><p class="note-syn">{s['note']}</p><a class="btn-noir" href="{s['lien']}">See the tour</a></div></article>''' for s in SYN_MAIN)
@@ -176,7 +180,7 @@ for ville, items in SYN_AUTRES:
     lis = "".join(f'<li><b>{n}</b><span>{a}</span><span class="liens"><a class="go" href="{gmaps(a if "69" in a else a+", 69100 Villeurbanne")}" target="_blank" rel="noopener">Map</a>{("<a href=\"tel:"+t.replace(" ","")+"\">"+t+"</a>") if t else ""}</span></li>' for n,a,t in items)
     autres += f'<section class="groupe"><h2>{ville} <small>{len(items)}</small></h2><ul class="liste-lieux">{lis}</ul></section>'
 body = f'''<main>
-{hero("flat-jewish-lyon.png","Synagogues in Lyon","Where the community prays, and when Shabbat comes in","Lyon has two large synagogues and some thirty neighbourhood minyanim, most of them in Villeurbanne. Visitors are welcome at prayer: arrive a few minutes early, have your ID with you, and expect a security check at the door, as in every synagogue in France today. For a minyan near your hotel, message us.",["2 main synagogues","About 30 neighbourhood minyanim","Security check at the door"])}
+{hero("flat-jewish-lyon.png","Synagogues in Lyon","Where the community prays, and when Shabbat comes in","Lyon has two large synagogues and 26 neighbourhood minyanim, most of them in Villeurbanne. Visitors are welcome at prayer: arrive a few minutes early, have your ID with you, and expect a security check at the door, as in every synagogue in France today. For a minyan near your hotel, message us.",["2 main synagogues","26 neighbourhood minyanim","Security check at the door"])}
 <section class="ss wrap"><h2 class="centre">The two <i>main</i> synagogues</h2><div class="syns">{cartes}</div></section>
 <section class="ss wrap">{SHABBAT}</section>
 <section class="ss wrap conseils">
@@ -193,12 +197,12 @@ body = f'''<main>
 {cta("Looking for a minyan near your hotel?","Hello, I am looking for a minyan in Lyon during my trip. Dates: / Neighbourhood:")}
 {ticket}
 </main>'''
-page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"The Grande Synagogue de Lyon, Neveh Chalom and some thirty minyanim in Lyon and Villeurbanne: addresses, phones, prayer times. Checked {CHECKED}.",body)
+page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"The Grande Synagogue de Lyon, Neveh Chalom and 26 minyanim in Lyon and Villeurbanne: addresses, phones, prayer times. Checked {CHECKED}.",body, [itemlist("Synagogues and minyanim in Lyon and Villeurbanne", [place(s2["nom"], s2["adresse"], s2.get("tel", ""), ["Synagogue", "TouristAttraction"], GEO_CACHE.get(s2["adresse"])) for s2 in SYN_MAIN] + [place(n, _full(a), t, "Synagogue", GEO_CACHE.get(_full(a))) for v, items in SYN_AUTRES for n, a, t in items])])
 
 # ===== 3. Chabad =====
 cartes = "".join(f'''<article class="chabad"><h2>{c['nom']}</h2><p class="adr">{c['adresse']}</p><p class="rav">{c['rav']}</p>{("<a class=\"tel\" href=\"tel:"+c['tel'].replace(' ','')+"\">"+c['tel']+"</a>") if c['tel'] else ""}<p class="note-syn">{c['note']}</p></article>''' for c in CHABAD)
 body = f'''<main>
-{hero("flat-chabad.png","Chabad in Lyon","Four Chabad houses, a Shabbat table always open","Lyon has four Chabad centres: in the city centre, in the 6th arrondissement, in Villeurbanne and on the university campus. Wherever you come from, you can call before Shabbat and ask for a meal or a minyan. Our guide is part of this community.",["4 Chabad houses","Shabbat meals on request","Lyon · Villeurbanne · Campus"])}
+{hero("flat-chabad.png","Chabad in Lyon","Seven Chabad houses, a Shabbat table always open","Lyon has seven Chabad centres: city centre, 3rd and 6th arrondissements, Villeurbanne, Charpennes, Écully and the university campus. Wherever you come from, you can call before Shabbat and ask for a meal or a minyan. Our guide is part of this community.",["7 Chabad houses","Shabbat meals on request","Lyon · Villeurbanne · Écully · Campus"])}
 <section class="ss wrap"><div class="chabads">{cartes}</div>{carte([(c['nom'],c['adresse']) for c in CHABAD],320)}<p class="source">Source: chabad.org directory, checked {CHECKED}. Meal and class times are not published online: call each centre directly.</p></section>
 <section class="ss wrap conseils">
   <h2>How it <i>works</i></h2>
@@ -211,7 +215,7 @@ body = f'''<main>
 {cta("Need a Shabbat table in Lyon?","Hello, I would like to be put in touch with a Chabad house in Lyon for Shabbat. Dates: / Number of people:")}
 {ticket}
 </main>'''
-page("chabad-lyon","Chabad houses in Lyon and Villeurbanne",f"The four Chabad centres of Lyon: city centre, 6th arrondissement, Villeurbanne and campus, with addresses and phones. Shabbat meals on request. Checked {CHECKED}.",body)
+page("chabad-lyon","Chabad houses in Lyon, Villeurbanne and Écully",f"The seven Chabad centres of Lyon and Villeurbanne, with addresses and phones. Shabbat meals and minyan on request. Checked {CHECKED}.",body, [itemlist("Chabad houses in Lyon, Villeurbanne and Écully", [place(c["nom"], c["adresse"], c["tel"], "Place", GEO_CACHE.get(c["adresse"])) for c in CHABAD])])
 
 # ===== 4. Cimetiere =====
 body = f'''<main>
@@ -235,4 +239,4 @@ body = f'''<main>
 {cta("Looking for a family grave in Lyon?","Hello, I am looking for a family grave in the Jewish cemetery of Lyon. Name: / Year:")}
 {ticket}
 </main>'''
-page("jewish-cemetery-lyon","The Jewish cemetery of Lyon (La Mouche)",f"Address, hours and contact of the cimetière israélite de la Mouche in Lyon, founded 1795, run by the Consistoire. How to find a family grave. Checked {CHECKED}.",body)
+page("jewish-cemetery-lyon","The Jewish cemetery of Lyon (La Mouche)",f"Address, hours and contact of the cimetière israélite de la Mouche in Lyon, founded 1795, run by the Consistoire. How to find a family grave. Checked {CHECKED}.",body, [place("Cimetière israélite de la Mouche", "11 rue Abraham-Bloch, 69007 Lyon", "", "Cemetery", GEO_CACHE.get("11 rue Abraham-Bloch, 69007 Lyon"), **{"@context": "https://schema.org", "url": "https://mishpachatours.com/jewish-cemetery-lyon/"})])

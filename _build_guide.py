@@ -3,7 +3,7 @@
    Chaque module _pages/<slug>.py definit PAGE = dict(...), voir _pages/README.md.
    python _build_guide.py [slug ...]   (depuis site-v5/)"""
 import re, os, html, json, glob, importlib.util, urllib.parse, urllib.request, time, sys
-from _head import head_page
+from _head import head_page, webpage, itemlist, place, ORG
 
 CHECKED = "7 October 2026"
 WA = "https://wa.me/33767711259?text="
@@ -30,7 +30,7 @@ LEAFLET = """<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\\" target=\\"_blank\\" rel=\\"noopener\\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>"""
-SHABBAT = """<div class="shabbat" id="shabbat"><p class="shabbat-titre">Shabbat in Lyon this week</p><p class="shabbat-corps">Loading times…</p></div>
+SHABBAT = """<div class="shabbat" id="shabbat"><p class="shabbat-titre">Shabbat in Lyon this week</p><p class="shabbat-corps">Candle lighting in Lyon falls as early as 16:30 in December and after 21:00 in June. <a href="https://www.hebcal.com/shabbat?geonameid=2996944" rel="noopener">This week's exact times on Hebcal</a>.</p></div>
 <script>
 fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=en").then(r=>r.json()).then(d=>{const it=d.items;const c=it.find(i=>i.category==="candles"),h=it.find(i=>i.category==="havdalah"),p=it.find(i=>i.category==="parashat");const f=s=>new Date(s).toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Paris"});const dd=s=>new Date(s).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",timeZone:"Europe/Paris"});document.querySelector(".shabbat-corps").innerHTML=(p?"<b>"+p.title+"</b><br>":"")+(c?"Candle lighting: <b>"+f(c.date)+"</b>, "+dd(c.date)+"<br>":"")+(h?"Havdalah: <b>"+f(h.date)+"</b>, "+dd(h.date):"")+"<br><small>Source: Hebcal, Lyon</small>"}).catch(()=>{document.querySelector(".shabbat-corps").textContent="Times unavailable right now."});
 </script>"""
@@ -96,7 +96,7 @@ def build(P):
             secs += cta(s["txt"], s["msg"])
     if P.get("related"):
         secs += '<section class="ss wrap conseils"><h2>Keep <i>reading</i></h2><ul>' + "".join(f'<li><a href="{u}">{t}</a></li>' for u, t in P["related"]) + "</ul></section>"
-    if P.get("source"): secs += f'<section class="wrap"><p class="source">{P["source"]} Checked {CHECKED}.</p></section>'
+    if P.get("source"): secs += f'<section class="wrap"><p class="source">{P["source"]} Compiled by Mishpacha Tours from these sources. Checked {CHECKED}.</p></section>'
     body = f"<main>\n{hero}\n{secs}\n{ticket if P.get('ticket', True) else ''}\n</main>"
     h = rel(head)
     h = re.sub(r"<title>.*?</title>", f"<title>{html.escape(P['title'])} | Mishpacha Tours</title>", h)
@@ -109,6 +109,10 @@ def build(P):
     if faqs:
         ld.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": strip(q), "acceptedAnswer": {"@type": "Answer", "text": strip(a)}} for f in faqs for q, a in f["items"]]})
+    ld.append(webpage(f"/{slug}/", P["title"], P["desc"]))
+    for s in P.get("sections", []):
+        if isinstance(s, dict) and s.get("type") == "lieux" and any(re.search(r"\d{5}", a) for _, a, _, _ in s["items"]):
+            ld.append(itemlist(s["h2"], [place(n, a, t, "Place", GEO.get(a)) for n, a, t, x in s["items"] if re.search(r"\d{5}", a)]))
     if P.get("jsonld"): ld.append(P["jsonld"])
     h = head_page(h, f"/{slug}/", f"{P['title']} | Mishpacha Tours", P["desc"], ld)
     f = rel(foot).replace("document.getElementById('chercheur').addEventListener", "document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")

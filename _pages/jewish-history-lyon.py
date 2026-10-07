@@ -49,7 +49,7 @@ PAGE = dict(
       "<p>Jewish life in Lyon is organised in several layers.</p>"
       "<ul>"
       "<li><b>The Consistoire.</b> The Consistoire de Lyon runs the Grande Synagogue, and the Consistoire Israélite Sépharade de Lyon runs Neveh Chalom.</li>"
-      "<li><b>The Beth Din de Lyon.</b> Kashrut is supervised by the Beth Din of the regional Consistoire, which certifies 38 places to eat and shop in Lyon, Villeurbanne and Écully. See <a href='../kosher-restaurants-lyon/'>kosher restaurants in Lyon</a>.</li>"
+      "<li><b>The Beth Din de Lyon.</b> Kashrut is supervised by the Beth Din of the regional Consistoire, which certifies 36 places to eat and shop in Lyon, Villeurbanne and Écully. See <a href='../kosher-restaurants-lyon/'>kosher restaurants in Lyon</a>.</li>"
       "<li><b>Villeurbanne.</b> Most of the neighbourhood minyanim are in Villeurbanne, where Chabad also runs a synagogue, a yeshiva and a school.</li>"
       "<li><b>Chabad.</b> Four Chabad houses, in the city centre, the 6th arrondissement, Villeurbanne and on the campus. See <a href='../chabad-lyon/'>Chabad in Lyon</a>.</li>"
       "</ul>"

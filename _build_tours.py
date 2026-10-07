@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Genere les 5 fiches tours de la v5 a partir de l'accueil (nav, pied, styles) et des donnees ci-dessous.
    python _build_tours.py   (depuis site-v5/)"""
-from _head import head_page
+from _head import head_page, crumbs, webpage, faqpage, place, ORG, BASE
 import re, os, html
 
 WA = "https://wa.me/33767711259?text="
@@ -11,7 +11,8 @@ TOURS = [
  dict(slug="jewish-lyon", tag="City walk", h1="Jewish Lyon", ital="A private walk through the Jewish story of Lyon, inside the Grande Synagogue",
    photo="synagogue-tilsitt-arche.jpg", lieu="Vieux Lyon and quai Tilsitt", duree="2 hours 30 minutes", format="On foot, private group",
    prix="290 €", prix2="per group, 1 to 4 people", prix3="+35 € per extra person, 5th to 10th",
-   intro="Rue Juiverie and medieval Old Lyon, the Grande Synagogue on quai Tilsitt from the inside, and rue Sainte-Catherine: two and a half hours on foot with a guide who is part of the community she shows you. The Grande Synagogue is closed to visitors outside the Heritage Days. This is the only tour that takes you inside.",
+   reponse="Jewish Lyon is a private 2 h 30 walking tour of Vieux Lyon and the Grande Synagogue, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before. Hebrew-speaking guests are guided in English.",
+   intro="Rue Juiverie and medieval Old Lyon, the Grande Synagogue on quai Tilsitt from the inside, and rue Sainte-Catherine: two and a half hours on foot with a guide who is part of the community she shows you. The Grande Synagogue is closed to visitors outside the Heritage Days. Entry requires a special authorisation that Mishpacha Tours holds. This is the only tour that takes you inside, subject to opening hours and security on the day.",
    wa="Hello, I would like to ask about the Jewish Lyon tour. Dates: / Number of people: / Preferred language:",
    etapes=[("Rue Juiverie","We start in rue Juiverie and the medieval streets of Vieux Lyon, where Lyon's Jewish community lived before the expulsions of the Middle Ages."),
            ("The Grande Synagogue, from the inside","From rue Juiverie we walk to the Grande Synagogue on quai Tilsitt and go inside: the Ark of the Law, the arcades of the women's gallery, a working synagogue that is closed to visitors outside the Heritage Days. Entry depends on opening hours and on security clearance on the day; your guide confirms before the walk begins."),
@@ -26,6 +27,7 @@ TOURS = [
  dict(slug="memory-chrd", tag="Memory", h1="Memory: the CHRD", ital="A private visit of the Centre d'histoire de la résistance et de la déportation",
    photo="c-chrd-1.jpg", lieu="Lyon 7e", duree="About 2 hours 30 minutes", format="Museum visit, private group",
    prix="290 €", prix2="per group, 1 to 4 people", prix3="+35 € per extra person, 5th to 10th. Booked separately from the Montluc and Neveh Shalom visit.",
+   reponse="Memory: the CHRD is a private 2 h 30 visit of Lyon's Resistance and deportation museum, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before.",
    intro="Your guide walks you through Lyon's Centre d'histoire de la résistance et de la déportation, housed in the former Gestapo headquarters, with the Jewish dimension of that history at the centre of the visit. This booking is never combined with the Montluc and Neveh Shalom visit on the same day.",
    wa="Hello, I would like to ask about the Memory tour, CHRD booking. Dates: / Number of people: / Preferred language:",
    etapes=[("Meeting and introduction","Your guide meets your group and sets the history of Lyon under the Occupation before you go in."),
@@ -41,6 +43,7 @@ TOURS = [
  dict(slug="memory-montluc-neveh-shalom", tag="Memory", h1="Memory: Montluc and Neveh Shalom", ital="The Montluc memorial, then the second synagogue we take you inside",
    photo="c-montluc-1.jpg", lieu="Lyon 3e", duree="About 2 hours 30 minutes", format="On foot, private group",
    prix="290 €", prix2="per group, 1 to 4 people", prix3="+35 € per extra person, 5th to 10th. Booked separately from the CHRD visit.",
+   reponse="Memory: Montluc and Neveh Shalom is a private 2 h 30 walk from the Montluc memorial to the Neveh Shalom synagogue, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before.",
    intro="The Montluc prison memorial, then Neveh Shalom, the second synagogue your guide takes you inside, and the Institut culturel du judaïsme next door: memory and living Jewish life on the same walk. This booking is never combined with the CHRD visit on the same day.",
    wa="Hello, I would like to ask about the Memory tour, Montluc and Neveh Shalom booking. Dates: / Number of people: / Preferred language:",
    etapes=[("Montluc prison memorial","The fort where the Gestapo held resistance fighters and Jews before deportation. Your guide covers this history plainly, at the pace your group needs."),
@@ -56,6 +59,7 @@ TOURS = [
  dict(slug="stopover", tag="City walk", h1="Stopover", ital="Three hours in Jewish Lyon while your transfer waits",
    photo="c-traboule-1.jpg", lieu="Vieux Lyon", duree="3 hours", format="On foot, private group, for families driving on to the Alps",
    prix="390 €", prix2="per group, 1 to 5 people", prix3="+35 € per extra person, 6th to 10th. Tour operators and kosher hotels: net rates on request.",
+   reponse="The Stopover is a private 3 hour walk in Vieux Lyon, including the Grande Synagogue, for 1 to 5 people at 390 € per group (+35 € per extra person up to 10), guided in English, French or Spanish. Your own transfer picks you up at the end, so you reach the resort on schedule.",
    intro="Your own transport drops you in Vieux Lyon and picks you up at the same spot three hours later. Your bags stay in the van; you walk into the Jewish story of Lyon and into the Grande Synagogue on quai Tilsitt, closed to visitors outside the Heritage Days.",
    wa="Hello, I would like to ask about the Stopover tour. Arrival time: / Onward departure time: / Number of people: / Preferred language:",
    etapes=[("Drop-off in Vieux Lyon","Your own transport, van or private transfer, drops you at the meeting point in Vieux Lyon. Your bags stay inside; you carry nothing."),
@@ -72,6 +76,7 @@ TOURS = [
  dict(slug="izieu", tag="Day trip", h1="Izieu", ital="A full day at the Maison d'Izieu, one hour from Lyon",
    photo="c-izieu-8.jpg", lieu="Izieu, Ain", duree="Full day", format="Day trip, van and driver arranged separately",
    prix="from 990 €", prix2="quote on request", prix3="The price depends on the vehicle and the number of guests.",
+   reponse="The Izieu day trip is a private full day from Lyon to the Maison d'Izieu, memorial to the 44 children arrested on 6 April 1944, guided in English, French or Spanish, from 990 € per group, quote on request; van and driver are arranged separately.",
    intro="Your guide's own account of Izieu unfolds on the road and through the rest of the day; the house itself is visited with a memorial mediator, as the Maison d'Izieu requires.",
    wa="Hello, I would like a quote for the Izieu day trip. Dates: / Number of people: / Preferred language:",
    etapes=[("The road to Izieu","About an hour from Lyon by van. Your guide's own commentary on the story of Izieu begins on the drive out."),
@@ -110,14 +115,22 @@ for t in TOURS:
     h = rel(head)
     h = re.sub(r"<title>.*?</title>", f"<title>{t['h1'] + (', private Jewish tour of Lyon' if len(t['h1']) < 20 else '')} | Mishpacha Tours</title>", h)
     h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(t["ital"])}. Private, strictly kosher, {t["prix"]} {t["prix2"]}. Book on WhatsApp.">', h)
-    h = head_page(h, f"/tours/{t['slug']}/", f"{t['h1'] + (', private Jewish tour of Lyon' if len(t['h1']) < 20 else '')} | Mishpacha Tours", f"{t['ital']}. Private, strictly kosher, {t['prix']} {t['prix2']}.")
+    title = f"{t['h1'] + (', private Jewish tour of Lyon' if len(t['h1']) < 20 else '')} | Mishpacha Tours"; desc = f"{t['ital']}. Private, strictly kosher, {t['prix']} {t['prix2']}."
+    path = f"/tours/{t['slug']}/"; num = re.search(r"\d+", t["prix"]).group(0)
+    offer = {"@type": "Offer", "url": BASE + path, "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "description": f"{t['prix']} {t['prix2']}. {t['prix3']}"}
+    if not t["prix"].startswith("from"): offer.update({"price": num, "priceSpecification": {"@type": "UnitPriceSpecification", "price": num, "priceCurrency": "EUR", "unitText": t["prix2"]}})
+    trip = {"@context": "https://schema.org", "@type": "TouristTrip", "@id": BASE + path + "#trip", "name": title.split(" | ")[0], "description": t["reponse"], "url": BASE + path,
+            "image": BASE + "/img/" + t["photo"], "touristType": "Jewish travellers", "inLanguage": ["en", "fr", "es"], "provider": {"@id": ORG},
+            "itinerary": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {"@type": "Place", "name": html.unescape(re.sub("<[^>]+>", "", a))}} for i, (a, b) in enumerate(t["etapes"])]},
+            "offers": offer}
+    h = head_page(h, path, title, desc, [crumbs([("Tours", "/#tours"), (t["h1"], path)]), webpage(path, title, desc), faqpage(t["faq"]), trip])
     body = f'''<main>
 <section class="fiche-hero">
   <div class="fiche-photo"><img src="../../img/{t['photo']}" alt="" fetchpriority="high"><span class="tag">{t['tag']}</span></div>
   <div class="fiche-texte">
     <p class="fil"><a href="../../">Home</a> / <a href="../../#tours">Tours</a> / {t['h1']}</p>
     <h1>{t['h1']}<br><i>{t['ital']}</i></h1>
-    <p class="intro-fiche">{t['intro']}</p>
+    <p class="intro-fiche">{t['reponse']} {t['intro']}</p>
   </div>
   <aside class="fiche-carte">
     <dl>

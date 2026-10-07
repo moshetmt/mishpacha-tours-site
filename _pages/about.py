@@ -34,6 +34,6 @@ PAGE = dict(
     dict(type="cta", txt="Want to talk before you book?", msg="Hello, I have a question about Mishpacha Tours. Dates: / Number of people: / Preferred language:"),
   ],
   related=[("../tours/jewish-lyon/", "Jewish Lyon, the 2h30 walk"), ("../jewish-lyon-guide/", "The complete Jewish Lyon guide"), ("../contact/", "Contact us")],
-  jsonld={"@context": "https://schema.org", "@type": "TourOperator", "name": "Mishpacha Tours", "alternateName": "Mishpacha Tours - Jewish Tours of Lyon", "url": "https://mishpachatours.com/", "email": "contact@mishpachatours.com", "telephone": "+33767711259", "areaServed": "Lyon, France", "availableLanguage": ["en", "fr", "es"], "address": {"@type": "PostalAddress", "addressLocality": "Lyon", "addressCountry": "FR"}},
+  jsonld={"@context": "https://schema.org", "@type": "TravelAgency", "@id": "https://mishpachatours.com/#organization", "name": "Mishpacha Tours", "alternateName": "Mishpacha Tours - Jewish Tours of Lyon", "url": "https://mishpachatours.com/", "email": "contact@mishpachatours.com", "telephone": "+33767711259", "areaServed": "Lyon, France", "knowsLanguage": ["en", "fr", "es"], "address": {"@type": "PostalAddress", "addressLocality": "Lyon", "addressCountry": "FR"}},
   VERIF=[],
 )

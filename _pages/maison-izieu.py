@@ -4,7 +4,7 @@ PAGE = dict(
   title="Maison d'Izieu: hours, prices, visit from Lyon",
   desc="The Maison d'Izieu, memorial to the Jewish children arrested on 6 April 1944: history, hours, prices, the guided house visit and the trip from Lyon.",
   h1="Maison d'Izieu", ital="the memorial to the Jewish children arrested in 1944",
-  intro="On 6 April 1944, 44 Jewish children and 7 adults were arrested in a house in the village of Izieu, on the orders of Klaus Barbie. The house is now a memorial, about an hour from Lyon. You visit it with a mediator from the memorial, and you book ahead.",
+  intro="The Maison d'Izieu, memorial to the 44 Jewish children and 7 adults arrested there on 6 April 1944 on the orders of Klaus Barbie, is about one hour from Lyon. The house is visited only with a mediator from the memorial, booked ahead. Our Izieu day trip starts at 990 € per group, quote on request.",
   chips=["70 route de Lambraz, 01300 Izieu", "About 1 hour from Lyon", "House visited with a mediator only", "Checked 7 October 2026"],
   illus="flat-izieu.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
