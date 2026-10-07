@@ -2,6 +2,7 @@
 """Genere le hub /jewish-lyon-guide/ et la page region /jewish-life-around-lyon/.
    Faits region : 06-reports/2026-10-06-base-factuelle-region.md (lignes O et S signalees).
    python _build_hub.py   (depuis site-v5/)"""
+from _head import head_page
 import re, os, html, json, urllib.parse
 
 CHECKED = "6 October 2026"
@@ -34,29 +35,53 @@ def rel(s):
 def page(slug, title, desc, body):
     h = rel(head); h = re.sub(r"<title>.*?</title>", f"<title>{title} | Mishpacha Tours</title>", h)
     h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(desc)}">', h)
+    h = head_page(h, f"/{slug}/", f"{title} | Mishpacha Tours", desc)
     f = rel(foot).replace("document.getElementById('chercheur').addEventListener","document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener").replace("</body>", LEAFLET + "\n</body>")
     os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html", "w", encoding="utf-8").write(h + body + f); print("ok", slug)
 ticket = rel(home[home.index('<div class="ticket-zone"'):home.index('</main>')])
 
 # ===================== HUB =====================
-CARDS = [
- ("kosher-restaurants-lyon/", "stock/stjean-5.jpg", "Kosher in Lyon", "38 certified restaurants, bakeries, butchers and caterers, on the map", "illus/flat-kosher.png"),
- ("synagogues-lyon/", "c-synagogue-7.jpg", "Synagogues and Shabbat", "The two main synagogues, 27 minyanim, candle-lighting times this week", "illus/flat-jewish-lyon.png"),
- ("chabad-lyon/", "stock/rose-3.jpg", "Chabad houses", "Four centres, a Shabbat table on request, a minyan near your hotel", "illus/flat-chabad.png"),
- ("jewish-cemetery-lyon/", "montluc-mur-des-fusilles.jpg", "The Jewish cemetery", "La Mouche, since 1795: hours, contact, finding a family grave", "illus/flat-cemetery.png"),
- ("jewish-life-around-lyon/", "c-izieu-8.jpg", "Around Lyon and the Alps", "Grenoble, Annecy, Aix-les-Bains, Courchevel, Megève: where to pray and eat", "illus/flat-stopover.png"),
- ("../tours/jewish-lyon/", "synagogue-tilsitt-arche.jpg", "Inside the Grande Synagogue", "Closed to visitors outside the Heritage Days. The only tour that takes you in", "illus/line-synagogue.png"),
+GROUPS = [
+ ("Eat, pray, <i>sleep</i>", [
+  ("kosher-restaurants-lyon/", "stock/stjean-5.jpg", "Kosher in Lyon", "38 certified restaurants, bakeries, butchers and caterers, on the map"),
+  ("kosher-shabbat-meals-catering-lyon/", "stock/rose-3.jpg", "Shabbat meals and catering", "Seven certified caterers, Chabad tables, groceries for a Shabbat at home"),
+  ("synagogues-lyon/", "c-synagogue-7.jpg", "Synagogues and prayer times", "The two main synagogues, 27 minyanim, candle-lighting times this week"),
+  ("shabbat-in-lyon/", "synagogue-tilsitt-arche.jpg", "Shabbat in Lyon", "Where to pray, how to eat, what closes on Friday, how to plan it"),
+  ("chabad-lyon/", "stock/boeuf-2.jpg", "Chabad houses", "Four centres, a Shabbat table on request, a minyan near your hotel"),
+  ("mikveh-lyon/", "stock/rose-7.jpg", "Mikveh", "Eight mikvaot in Lyon and Villeurbanne, with phones and how to book"),
+  ("where-to-stay-lyon-jewish-travellers/", "stock/stjean-4.jpg", "Where to stay", "Three areas on foot from a synagogue, and what to ask a hotel for Shabbat"),
+  ("jewish-cemetery-lyon/", "montluc-mur-des-fusilles.jpg", "The Jewish cemetery", "La Mouche, since 1795: hours, contact, finding a family grave"),
+ ]),
+ ("Places to <i>see</i>", [
+  ("grande-synagogue-lyon/", "c-synagogue-4.jpg", "The Grande Synagogue", "Built 1864, closed to visitors outside the Heritage Days. We take you in"),
+  ("rue-juiverie-lyon/", "c-juiverie-3.jpg", "Rue Juiverie", "The medieval Jewish quarter of Vieux Lyon, and rue Sainte-Catherine"),
+  ("jewish-history-lyon/", "stock/juiverie-6.jpg", "Jewish history of Lyon", "From the Middle Ages to the Barbie trial and the community today"),
+  ("chrd-lyon/", "stock/chrd-1.jpg", "The CHRD", "The Resistance and deportation museum, in the former Gestapo headquarters"),
+  ("montluc-prison-lyon/", "c-montluc-1.jpg", "Montluc prison", "Where Jean Moulin and the children of Izieu were held. Free entry"),
+  ("maison-izieu/", "c-izieu-8.jpg", "Maison d'Izieu", "The memorial to the 44 children, one hour from Lyon: hours, prices, our day"),
+ ]),
+ ("Plan the <i>trip</i>", [
+  ("jewish-lyon-itinerary-2-days/", "stock/rose-6.jpg", "Two days in Jewish Lyon", "An itinerary built around kosher meals and Shabbat"),
+  ("jewish-travel-lyon-faq/", "stock/traboule-1.jpg", "The honest FAQ", "Getting there, kosher, Shabbat, security, prayer, our tours: 19 answers"),
+  ("jewish-life-around-lyon/", "stock/izieu-2.jpg", "Around Lyon and the Alps", "Grenoble, Annecy, Aix-les-Bains, Courchevel, Megève: where to pray and eat"),
+  ("lyon-gateway-to-the-alps-kosher/", "stock/stjean-3.jpg", "Lyon, gateway to the Alps", "Drive times to the resorts, kosher shopping before you go up, the Stopover"),
+  ("kosher-ski-holidays-french-alps/", "stock/boeuf-4.jpg", "Kosher ski holidays", "Resorts with a minyan or a Chabad house in winter, Shabbat on the slopes"),
+  ("summer-in-the-alps-jewish-families/", "stock/izieu-1.jpg", "Summer in the Alps", "Annecy, Aix-les-Bains, Grenoble, Chamonix: a kosher summer in the mountains"),
+  ("../tours/jewish-lyon/", "synagogue-tilsitt-galerie.jpg", "Inside the Grande Synagogue", "Closed to visitors outside the Heritage Days. The only tour that takes you in"),
+ ]),
 ]
-cards = "".join(f'''<a class="hub-carte" href="{u}"><div class="photo"><img src="../img/{p}" alt="" loading="lazy"></div><div class="corps"><h3>{t}</h3><p>{d}</p><span class="btn-noir">Open</span></div></a>''' for u, p, t, d, i in CARDS)
+def grille(items):
+    return '<div class="hub-grille">' + "".join(f'''<a class="hub-carte" href="{u if u.startswith("../") else "../"+u}"><div class="photo"><img src="../img/{p}" alt="" loading="lazy"></div><div class="corps"><h3>{t}</h3><p>{d}</p><span class="btn-noir">Open</span></div></a>''' for u, p, t, d in items if os.path.isdir(u.replace("../","")) or u.startswith("../tours/")) + "</div>"
+cards = "".join(f'<section class="ss wrap"><h2 class="centre">{h}</h2>{grille(items)}</section>' for h, items in GROUPS)
 hub = f'''<main>
 <section class="pratique-hero"><div class="wrap">
   <p class="fil"><a href="../">Home</a> / Jewish Lyon guide</p>
   <div class="pratique-tete"><div><h1>Jewish Lyon, <i>the complete guide</i></h1><p class="intro-fiche">Everything a Jewish traveller needs in Lyon and the Alps, kept by a guide who lives here: where to eat kosher, where to pray, when Shabbat comes in, who to call. Every address comes from the Beth Din, the Consistoire or the community itself, with a map and a phone number.</p>
-  <ul class="chips"><li>80+ addresses</li><li>Maps and directions</li><li>Shabbat times, live</li><li>Checked {CHECKED}</li></ul></div>
+  <ul class="chips"><li>20 guides, 80+ addresses</li><li>Maps and directions</li><li>Shabbat times, live</li><li>Checked {CHECKED}</li></ul></div>
   <img src="../img/illus/flat-jewish-lyon.png" alt="" width="700" height="700"></div>
 </div></section>
 <section class="ss wrap">{SHABBAT}</section>
-<section class="ss wrap"><div class="hub-grille">{cards}</div></section>
+{cards}
 <section class="ss wrap"><h2 class="centre">Everything on one <i>map</i></h2>{carte([(n,a) for n,a in json.load(open("img/geo-all.json",encoding="utf-8"))],460)}<p class="carte-note">Kosher places, synagogues, Chabad houses and the cemetery, Lyon and Villeurbanne. Tap a marker for directions.</p></section>
 <section class="ss wrap conseils"><h2>Before you <i>land</i></h2><ul>
 <li><b>Where to stay.</b> The kosher life of Lyon is in Villeurbanne (Gratte-Ciel, rue Francis-de-Pressensé) and in the 6th arrondissement. A hotel there puts every restaurant and synagogue within walking distance of Shabbat. Our tours start in Vieux Lyon, 15 minutes away by metro.</li>
@@ -67,7 +92,7 @@ hub = f'''<main>
 <section class="ss wrap cta-pratique"><div><h2>Planning a trip to Lyon?</h2><a class="btn-noir large" href="{wa("Hello, I am planning a trip to Lyon and I have a few questions. Dates: / Number of people:")}" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a><p class="fiche-note">Same-day reply, never on Shabbat.</p></div></section>
 {ticket}
 </main>'''
-page("jewish-lyon-guide", "Jewish Lyon, the complete guide: kosher, synagogues, Shabbat, Chabad", f"Kosher restaurants, synagogues, Chabad houses, the Jewish cemetery and Shabbat times in Lyon, plus the Alps. Maps, phones, directions. Checked {CHECKED}.", hub)
+page("jewish-lyon-guide", "Jewish Lyon, the complete guide", f"Kosher restaurants, synagogues, Chabad houses, the Jewish cemetery and Shabbat times in Lyon, plus the Alps. Maps, phones, directions. Checked {CHECKED}.", hub)
 
 # ===================== REGION =====================
 VILLES = [
@@ -116,4 +141,4 @@ region = f'''<main>
 <section class="ss wrap cta-pratique"><div><h2>Heading to the Alps through Lyon?</h2><a class="btn-noir large" href="{wa("Hello, we are travelling to the Alps through Lyon and would like to ask about the Stopover tour. Arrival time: / Onward departure time: / Number of people:")}" rel="noopener"><svg><use href="#wa"/></svg>Ask about the Stopover</a><p class="fiche-note">Same-day reply, never on Shabbat.</p></div></section>
 {ticket}
 </main>'''
-page("jewish-life-around-lyon", "Jewish life around Lyon: Grenoble, Annecy, Aix-les-Bains, the Alps", f"Synagogues and Chabad houses in Grenoble, Annecy, Aix-les-Bains, Chambéry, Saint-Étienne, Valence, Vichy, Clermont-Ferrand, and winter minyanim in Courchevel and Megève. Checked {CHECKED}.", region)
+page("jewish-life-around-lyon", "Jewish life around Lyon and in the Alps", f"Synagogues and Chabad houses in Grenoble, Annecy, Aix-les-Bains, Chambéry, Valence and Clermont-Ferrand, winter minyanim in Courchevel and Megève. Checked {CHECKED}.", region)

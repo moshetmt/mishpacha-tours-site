@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Genere les 5 fiches tours de la v5 a partir de l'accueil (nav, pied, styles) et des donnees ci-dessous.
    python _build_tours.py   (depuis site-v5/)"""
+from _head import head_page
 import re, os, html
 
 WA = "https://wa.me/33767711259?text="
@@ -36,7 +37,7 @@ TOURS = [
         ("Is the museum entry ticket included?","No, the CHRD entry ticket is paid on site. Your guide tells you the current rate before you go in."),
         ("Can I combine this with the Montluc and Neveh Shalom visit on the same day?","No. The two Memory visits are booked separately and never run on the same day: each one carries enough history and emotional weight on its own."),
         ("Can I cancel if my plans change?","Yes, free cancellation up to 24 hours before the start time.")],
-   photos=[("c-chrd-1.jpg","The CHRD entrance"),("stock/chrd-1.jpg","A 1940s kitchen, reconstructed"),("stock/chrd-3.jpg","The posters of the Occupation"),("stock/chrd-4.jpg","The permanent exhibition"),("stock/chrd-7.jpg","A deportee's satchel")]),
+   photos=[("c-chrd-1.jpg","The CHRD entrance"),("stock/chrd-1.jpg","A 1940s kitchen, reconstructed"),("stock/chrd-3.jpg","The posters of the Occupation"),("stock/chrd-4.jpg","The permanent exhibition"),("stock/chrd-7.jpg","A liaison agent's satchel")]),
  dict(slug="memory-montluc-neveh-shalom", tag="Memory", h1="Memory: Montluc and Neveh Shalom", ital="The Montluc memorial, then the second synagogue we take you inside",
    photo="c-montluc-1.jpg", lieu="Lyon 3e", duree="About 2 hours 30 minutes", format="On foot, private group",
    prix="290 €", prix2="per group, 1 to 4 people", prix3="+35 € per extra person, 5th to 10th. Booked separately from the CHRD visit.",
@@ -51,7 +52,7 @@ TOURS = [
         ("Can I combine this with the CHRD visit on the same day?","No. The two Memory visits are booked separately and never run on the same day."),
         ("Do we go inside Neveh Shalom?","Yes. It is the second synagogue we take you inside, alongside the Grande Synagogue on quai Tilsitt."),
         ("Can I cancel if my plans change?","Yes, free cancellation up to 24 hours before the start time.")],
-   photos=[("c-montluc-1.jpg","Montluc, the cell gallery"),("montluc-mur-des-fusilles.jpg","Montluc, the wall"),("synagogue-tilsitt-arche.jpg","Inside a Lyon synagogue"),("c-synagogue-4.jpg","The synagogue door"),("stock/chrd-7.jpg","A deportee's satchel, CHRD")]),
+   photos=[("c-montluc-1.jpg","Montluc, the cell gallery"),("montluc-mur-des-fusilles.jpg","Montluc, the wall"),("synagogue-tilsitt-arche.jpg","Inside a Lyon synagogue"),("c-synagogue-4.jpg","The synagogue door"),("stock/chrd-7.jpg","A liaison agent's satchel, CHRD")]),
  dict(slug="stopover", tag="City walk", h1="Stopover", ital="Three hours in Jewish Lyon while your transfer waits",
    photo="c-traboule-1.jpg", lieu="Vieux Lyon", duree="3 hours", format="On foot, private group, for families driving on to the Alps",
    prix="390 €", prix2="per group, 1 to 5 people", prix3="+35 € per extra person, 6th to 10th. Tour operators and kosher hotels: net rates on request.",
@@ -107,8 +108,9 @@ for t in TOURS:
     faq = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q,a in t["faq"])
     photos = "".join(f'<figure{" class=\"large\"" if i==0 else ""}><img src="../../img/{p}" alt="{c}" loading="lazy"><figcaption>{c}</figcaption></figure>' for i,(p,c) in enumerate(t["photos"]))
     h = rel(head)
-    h = re.sub(r"<title>.*?</title>", f"<title>{t['h1']} | Mishpacha Tours, Jewish Tours of Lyon</title>", h)
+    h = re.sub(r"<title>.*?</title>", f"<title>{t['h1'] + (', private Jewish tour of Lyon' if len(t['h1']) < 20 else '')} | Mishpacha Tours</title>", h)
     h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(t["ital"])}. Private, strictly kosher, {t["prix"]} {t["prix2"]}. Book on WhatsApp.">', h)
+    h = head_page(h, f"/tours/{t['slug']}/", f"{t['h1'] + (', private Jewish tour of Lyon' if len(t['h1']) < 20 else '')} | Mishpacha Tours", f"{t['ital']}. Private, strictly kosher, {t['prix']} {t['prix2']}.")
     body = f'''<main>
 <section class="fiche-hero">
   <div class="fiche-photo"><img src="../../img/{t['photo']}" alt="" fetchpriority="high"><span class="tag">{t['tag']}</span></div>

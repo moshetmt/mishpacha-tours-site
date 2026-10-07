@@ -54,3 +54,13 @@
 | img/stock/stjean-6.jpg | File:Lyon 5e - Rue Saint Jean - Porte au numéro 9.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File:Lyon_5e_-_Rue_Saint_Jean_-_Porte_au_numéro_9.jpg |
 | img/stock/stjean-7.jpg | File:Lyon rue Saint Jean 32 DSCF2885.jpg | CC BY-SA 4.0 | DamTESC | https://commons.wikimedia.org/wiki/File:Lyon_rue_Saint_Jean_32_DSCF2885.jpg |
 | img/stock/traboule-1.jpg | File:Lyon - Tour Rose du Vieux Lyon.jpg | CC BY-SA 4.0 | SYLOU94 | https://commons.wikimedia.org/wiki/File:Lyon_-_Tour_Rose_du_Vieux_Lyon.jpg |
+
+## Photos d'août 2026 (sourcing du 11/08, Wikimedia Commons, recadrées)
+
+| Fichier | Titre Commons | Licence | Auteur | Source |
+|---|---|---|---|---|
+| img/synagogue-tilsitt-arche.jpg | The Ark of the Grande Synagogue, quai Tilsitt | CC BY-SA 4.0 | FLLL | https://commons.wikimedia.org/wiki/User:FLLL |
+| img/synagogue-tilsitt-galerie.jpg | The women's gallery, Grande Synagogue, quai Tilsitt | CC BY-SA 4.0 | FLLL | https://commons.wikimedia.org/wiki/User:FLLL |
+| img/rue-juiverie-plaque.jpg | The street sign of rue Juiverie, Vieux Lyon | CC BY-SA 4.0 | Sebleouf | https://commons.wikimedia.org/wiki/User:Sebleouf |
+| img/montluc-mur-des-fusilles.jpg | The execution wall, Montluc memorial prison | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/User:Romainbehar |
+| img/maison-izieu-volets.jpg | The shutters of the Maison d'Izieu | CC BY-SA 4.0 | Chabe01 | https://commons.wikimedia.org/wiki/User:Chabe01 |

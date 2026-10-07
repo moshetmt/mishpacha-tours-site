@@ -3,6 +3,7 @@
    Source des faits : 06-reports/2026-09-08-base-factuelle-pages-plateforme.md (liste officielle Beth Din,
    sites officiels). Rien d'invente : une donnee absente ne s'ecrit pas.
    python _build_pratique.py   (depuis site-v5/)"""
+from _head import head_page
 import re, os, html, urllib.parse
 
 WA = "https://wa.me/33767711259?text="
@@ -82,7 +83,7 @@ SYN_AUTRES = [
 CHABAD = [
  dict(nom="Beth Habad Centre-Ville", adresse="10 rue Mulet, 69001 Lyon", rav="Rabbi Sender Gurewitz", tel="06 21 82 05 56", note="In the Presqu'île, a few minutes from Vieux Lyon and the Grande Synagogue."),
  dict(nom="Chabad Loubavitch Lyon 6", adresse="60 rue Crillon, 69006 Lyon", rav="Rabbi Mendel Nemanow", tel="06 29 89 19 97", note="In the 6th arrondissement, the neighbourhood of most kosher restaurants on the Lyon side."),
- dict(nom="Chabad Loubavitch Villeurbanne", adresse="295 rue Francis-de-Pressensé, 69100 Villeurbanne", rav="Rabbi Schneor Zalmen Gurewitz", tel="04 78 89 08 32", note="The heart of Jewish Villeurbanne: synagogue Beth-Menahem, yeshiva, school and mikveh on the same street."),
+ dict(nom="Chabad Loubavitch Villeurbanne", adresse="295 rue Francis-de-Pressensé, 69100 Villeurbanne", rav="Rabbi Schneor Zalmen Gurewitz", tel="04 78 89 08 32", note="The heart of Jewish Villeurbanne: synagogue Beth-Menahem, yeshiva and school on the same street."),
  dict(nom="Chabad on Campus Lyon", adresse="10 promenade Léa-et-Napoléon-Bullukian, 69008 Lyon", rav="Rabbi Eliezer Gurewitz", tel="", note="For students and young travellers."),
 ]
 
@@ -121,6 +122,7 @@ def page(slug, title, desc, body):
     h = rel(head)
     h = re.sub(r"<title>.*?</title>", f"<title>{title} | Mishpacha Tours</title>", h)
     h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(desc)}">', h)
+    h = head_page(h, f"/{slug}/", f"{title} | Mishpacha Tours", desc)
     f = rel(foot).replace("document.getElementById('chercheur').addEventListener","document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")
     f = f.replace("</body>", LEAFLET+"\n</body>")
     os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html","w",encoding="utf-8").write(h+body+f); print("ok",slug)
@@ -191,7 +193,7 @@ body = f'''<main>
 {cta("Looking for a minyan near your hotel?","Hello, I am looking for a minyan in Lyon during my trip. Dates: / Neighbourhood:")}
 {ticket}
 </main>'''
-page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"The Grande Synagogue de Lyon, Neveh Chalom and some thirty neighbourhood minyanim in Lyon and Villeurbanne, with addresses, phones and prayer times. Checked {CHECKED}.",body)
+page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"The Grande Synagogue de Lyon, Neveh Chalom and some thirty minyanim in Lyon and Villeurbanne: addresses, phones, prayer times. Checked {CHECKED}.",body)
 
 # ===== 3. Chabad =====
 cartes = "".join(f'''<article class="chabad"><h2>{c['nom']}</h2><p class="adr">{c['adresse']}</p><p class="rav">{c['rav']}</p>{("<a class=\"tel\" href=\"tel:"+c['tel'].replace(' ','')+"\">"+c['tel']+"</a>") if c['tel'] else ""}<p class="note-syn">{c['note']}</p></article>''' for c in CHABAD)
@@ -202,7 +204,7 @@ body = f'''<main>
   <h2>How it <i>works</i></h2>
   <ul>
     <li><b>Shabbat meals.</b> Call the centre nearest your hotel before Friday noon and say how many you are. There is no fixed price; a donation is customary.</li>
-    <li><b>Mikveh.</b> The community mikveh is in Villeurbanne, rue Francis-de-Pressensé. Call Chabad Villeurbanne for hours.</li>
+    <li><b>Mikveh.</b> Lyon and Villeurbanne have several mikvaot; addresses, phones and how to book are on our <a href="../mikveh-lyon/">mikveh page</a>.</li>
     <li><b>With Mishpacha.</b> Tell us when you book and we point you to the right centre for your dates and your neighbourhood.</li>
   </ul>
 </section>
@@ -233,4 +235,4 @@ body = f'''<main>
 {cta("Looking for a family grave in Lyon?","Hello, I am looking for a family grave in the Jewish cemetery of Lyon. Name: / Year:")}
 {ticket}
 </main>'''
-page("jewish-cemetery-lyon","The Jewish cemetery of Lyon (La Mouche)",f"Address, opening hours and contact of the cimetière israélite de la Mouche in Lyon, founded 1795 and managed by the Consistoire. How to find a family grave. Checked {CHECKED}.",body)
+page("jewish-cemetery-lyon","The Jewish cemetery of Lyon (La Mouche)",f"Address, hours and contact of the cimetière israélite de la Mouche in Lyon, founded 1795, run by the Consistoire. How to find a family grave. Checked {CHECKED}.",body)

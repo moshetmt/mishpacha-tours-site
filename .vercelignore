@@ -8,3 +8,8 @@ _build_hub.py
 _patch_pratique.py
 _build_merci.py
 apps-script
+_pages
+_build_guide.py
+_build_sitemap.py
+_head.py
+__pycache__

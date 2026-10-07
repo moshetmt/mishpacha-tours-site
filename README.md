@@ -9,6 +9,9 @@ python _build_tours.py      # 5 fiches tours (donnees dans le script)
 python _build_pratique.py   # kosher, synagogues, chabad, cimetiere
 python _build_hub.py        # /jewish-lyon-guide/ et /jewish-life-around-lyon/
 python _build_merci.py      # /merci/
+python _build_guide.py      # pages du guide depuis _pages/*.py (voir _pages/README.md)
+python _build_sitemap.py    # sitemap.xml + robots.txt
+python _qa.py               # liens, mots interdits, title/desc, canonical, JSON-LD
 ```
 
 ## Formulaire de reservation (Apps Script)
