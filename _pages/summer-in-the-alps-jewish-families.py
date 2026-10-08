@@ -49,7 +49,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Summer trip through Lyon?", msg="Hello, we are travelling to the Alps this summer through Lyon and would like a tour. Dates: / Number of people: / Language:"),
   ],
-  related=[("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../tours/izieu/", "Maison d'Izieu day trip"), ("../jewish-life-around-lyon/", "Jewish life around Lyon"), ("../shabbat-in-lyon/", "Shabbat in Lyon")],
+  related=[("../kosher-services-french-alps/", "Kosher services in the Alps"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../tours/izieu/", "Maison d'Izieu day trip"), ("../jewish-life-around-lyon/", "Jewish life around Lyon"), ("../shabbat-in-lyon/", "Shabbat in Lyon")],
   source="Sources: ci-aixlesbains.fr, consistoireregionaldelyon.org, habadgrenoblealpes.com, mikvah.org, synalpes.wordpress.com, kosheroutdooradventures.com, skikosher.com.",
   jsonld=None, ticket=True,
   VERIF=[

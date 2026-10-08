@@ -67,6 +67,7 @@ GROUPS = [
   ("jewish-life-around-lyon/", "stock/annecy-lac.jpg", "Around Lyon and the Alps", "Grenoble, Annecy, Aix-les-Bains, Courchevel, Megève: where to pray and eat"),
   ("lyon-gateway-to-the-alps-kosher/", "stock/alpes-montblanc.jpg", "Lyon, gateway to the Alps", "Drive times to the resorts, kosher shopping before you go up, the Stopover"),
   ("kosher-ski-holidays-french-alps/", "stock/alpes-ski.jpg", "Kosher ski holidays", "Resorts with a minyan or a Chabad house in winter, Shabbat on the slopes"),
+  ("kosher-services-french-alps/", "stock/hallah.jpg", "Kosher services in the Alps", "Chef, delivered meals, Shabbat, holidays, minyan and Sefer Torah, from Alpe d'Huez to Val Thorens"),
   ("summer-in-the-alps-jewish-families/", "stock/annecy-ete.jpg", "Summer in the Alps", "Annecy, Aix-les-Bains, Grenoble, Chamonix: a kosher summer in the mountains"),
   ("../tours/jewish-lyon/", "synagogue-tilsitt-galerie.jpg", "Inside the Grande Synagogue", "Closed to visitors outside the Heritage Days. The only tour that takes you in, by special authorisation"),
  ]),

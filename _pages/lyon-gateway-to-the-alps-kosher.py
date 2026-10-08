@@ -53,7 +53,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Landing in Lyon before the mountain?", msg="Hello, we land in Lyon on our way to the Alps and would like the Stopover tour. Arrival time: / Onward departure time: / Resort: / Number of people:"),
   ],
-  related=[("../tours/stopover/", "Stopover tour, 3 hours"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../shabbat-in-lyon/", "Shabbat in Lyon"), ("../jewish-life-around-lyon/", "Jewish life around Lyon")],
+  related=[("../kosher-services-french-alps/", "Kosher services in the Alps"), ("../tours/stopover/", "Stopover tour, 3 hours"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../shabbat-in-lyon/", "Shabbat in Lyon"), ("../jewish-life-around-lyon/", "Jewish life around Lyon")],
   source="Sources: j2ski.com and alps2alps.com (drive times), altibus.com and lyonaeroports.com (shuttles), Beth Din de Lyon (shops).",
   jsonld=None, ticket=True,
   VERIF=[
