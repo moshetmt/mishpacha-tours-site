@@ -7,7 +7,7 @@ import re, os, html, json, urllib.parse
 
 CHECKED = "7 October 2026"
 GEO = json.load(open("img/geo.json", encoding="utf-8"))
-WA = "https://wa.me/33767711259?text="
+WA = "https://wa.me/33652092301?text="
 def wa(t): return WA + urllib.parse.quote(t)
 def gmaps(a): return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(a + ", France")
 def carte(points, h=380, zoom=None):

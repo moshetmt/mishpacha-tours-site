@@ -68,7 +68,7 @@
     <a href="../#guide">Your guide</a>
     <a href="../#book">Book your tour</a>
   </nav>
-  <a class="panneau-wa" href="https://wa.me/33767711259?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp, same-day reply</a>
+  <a class="panneau-wa" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp, same-day reply</a>
 </div>
 
 <main>
@@ -92,7 +92,7 @@
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contact</summary><p><a href="https://wa.me/33767711259" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Tours</summary><p>Jewish Lyon<br>Memory: CHRD<br>Memory: Montluc and Neveh Shalom<br>Stopover<br>Izieu</p></details>
     <details><summary>When we run</summary><p>Sunday to Friday morning<br>No tours on Shabbat and Jewish holidays<br>English, French or Spanish</p></details>
     <details><summary>Good to know</summary><p>Prices per group, never per person<br>Free cancellation up to 24 hours before<br>Security escort on request</p></details>
@@ -108,7 +108,7 @@ m.addEventListener('click',()=>{const o=pa.hidden;pa.style.top=document.querySel
 pa.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{pa.hidden=true;m.setAttribute('aria-expanded',false);document.body.classList.remove('menu-ouvert')}));
 document.querySelectorAll('.filtres button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filtres button').forEach(x=>{x.classList.toggle('actif',x===b);x.setAttribute('aria-pressed',x===b)});const t=b.dataset.type;document.querySelectorAll('.carte').forEach(c=>{c.hidden=t!=='all'&&c.dataset.type!==t});document.querySelector('.rail').scrollTo({left:0,behavior:'smooth'})}));
 if(matchMedia('(min-width:900px)').matches)document.querySelectorAll('.pied details').forEach(d=>d.open=true);
-document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const t=`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`;window.open('https://wa.me/33767711259?text='+encodeURIComponent(t),'_blank','noopener')});
+document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const t=`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`;window.open('https://wa.me/33652092301?text='+encodeURIComponent(t),'_blank','noopener')});
 </script>
 <script src="/config.js"></script>
 <script>

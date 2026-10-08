@@ -135,7 +135,7 @@ m.addEventListener('click',()=>{const o=pa.hidden;pa.style.top=document.querySel
 pa.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{pa.hidden=true;m.setAttribute('aria-expanded',false);document.body.classList.remove('menu-ouvert')}));
 document.querySelectorAll('.filtres button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filtres button').forEach(x=>{x.classList.toggle('actif',x===b);x.setAttribute('aria-pressed',x===b)});const t=b.dataset.type;document.querySelectorAll('.carte').forEach(c=>{c.hidden=t!=='all'&&c.dataset.type!==t});document.querySelector('.rail').scrollTo({left:0,behavior:'smooth'})}));
 if(matchMedia('(min-width:900px)').matches)document.querySelectorAll('.pied details').forEach(d=>d.open=true);
-document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const t=`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`;window.open('https://wa.me/'+(/alp|אלפ/i.test(f.tour.value)?'33652092301':'33767711259')+'?text='+encodeURIComponent(t),'_blank','noopener')});
+document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const t=`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`;window.open('https://wa.me/33652092301?text='+encodeURIComponent(t),'_blank','noopener')});
 </script>
 <script src="/config.js"></script>
 <script>

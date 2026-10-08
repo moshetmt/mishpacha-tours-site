@@ -4,7 +4,7 @@
 from _head import head_page, crumbs, webpage, faqpage, place, ORG, BASE
 import re, os, html
 
-WA = "https://wa.me/33767711259?text="
+WA = "https://wa.me/33652092301?text="
 def wa(txt): return WA + html.escape(__import__('urllib.parse').parse.quote(txt))
 
 TOURS = [

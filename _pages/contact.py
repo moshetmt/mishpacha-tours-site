@@ -11,7 +11,7 @@ PAGE = dict(
   crumb=None,
   sections=[
     dict(type="text", h2="Three ways to <i>reach us</i>", html="""<ul>
-<li><b>WhatsApp.</b> <a href="https://wa.me/33767711259?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A" rel="noopener">+33 7 67 71 12 59</a>. Messages only, any language; we reply in English, French or Spanish.</li>
+<li><b>WhatsApp.</b> <a href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A" rel="noopener">+33 7 67 71 12 59</a>. Messages only, any language; we reply in English, French or Spanish.</li>
 <li><b>Email.</b> <a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a>. Best for groups, agencies and hotels.</li>
 <li><b>The form below.</b> Tour, dates, number of people, language and a way to reach you. We write back within one business day.</li>
 </ul>

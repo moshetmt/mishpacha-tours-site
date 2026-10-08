@@ -68,7 +68,7 @@
     <a href="../#guide">Your guide</a>
     <a href="../#book">Book your tour</a>
   </nav>
-  <a class="panneau-wa" href="https://wa.me/33767711259?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp, same-day reply</a>
+  <a class="panneau-wa" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp, same-day reply</a>
 </div>
 
 <main>
@@ -90,7 +90,7 @@ fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=en").th
 <li><b>Security.</b> Every synagogue in France has a security check at the door: arrive early, bring ID. On our tours, routes and meeting points are chosen in advance. A professional escort is available on request.</li>
 <li><b>Ask us.</b> Message us on WhatsApp before your trip. We answer the same day, never on Shabbat.</li>
 </ul></section>
-<section class="ss wrap cta-pratique"><div><h2>Planning a trip to Lyon?</h2><a class="btn-noir large" href="https://wa.me/33767711259?text=Hello%2C%20I%20am%20planning%20a%20trip%20to%20Lyon%20and%20I%20have%20a%20few%20questions.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a><p class="fiche-note">Same-day reply, never on Shabbat.</p></div></section>
+<section class="ss wrap cta-pratique"><div><h2>Planning a trip to Lyon?</h2><a class="btn-noir large" href="https://wa.me/33652092301?text=Hello%2C%20I%20am%20planning%20a%20trip%20to%20Lyon%20and%20I%20have%20a%20few%20questions.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a><p class="fiche-note">Same-day reply, never on Shabbat.</p></div></section>
 <div class="ticket-zone" id="book">
   <div class="ticket">
     <h2><img class="ticket-hassid" src="../img/picto-hassid.svg" alt="" width="68" height="95">Ready to <i>book</i> your tour?</h2>
@@ -105,7 +105,7 @@ fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=en").th
       <div><label for="f-email">Email (optional)</label><input type="email" id="f-email" name="email" autocomplete="email"></div>
       <div class="envoi"><span>Send my request</span><button class="rond" type="submit" aria-label="Send my request"><svg viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
     </form>
-    <a class="wa" href="https://wa.me/33767711259?text=Hello%2C%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A" rel="noopener"><svg><use href="#wa"/></svg>Or message us on WhatsApp</a>
+    <a class="wa" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A" rel="noopener"><svg><use href="#wa"/></svg>Or message us on WhatsApp</a>
   </div>
 </div>
 
@@ -114,7 +114,7 @@ fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=en").th
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contact</summary><p><a href="https://wa.me/33767711259" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Tours</summary><p>Jewish Lyon<br>Memory: CHRD<br>Memory: Montluc and Neveh Shalom<br>Stopover<br>Izieu</p></details>
     <details><summary>When we run</summary><p>Sunday to Friday morning<br>No tours on Shabbat and Jewish holidays<br>English, French or Spanish</p></details>
     <details><summary>Good to know</summary><p>Prices per group, never per person<br>Free cancellation up to 24 hours before<br>Security escort on request</p></details>
@@ -130,7 +130,7 @@ m.addEventListener('click',()=>{const o=pa.hidden;pa.style.top=document.querySel
 pa.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{pa.hidden=true;m.setAttribute('aria-expanded',false);document.body.classList.remove('menu-ouvert')}));
 document.querySelectorAll('.filtres button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filtres button').forEach(x=>{x.classList.toggle('actif',x===b);x.setAttribute('aria-pressed',x===b)});const t=b.dataset.type;document.querySelectorAll('.carte').forEach(c=>{c.hidden=t!=='all'&&c.dataset.type!==t});document.querySelector('.rail').scrollTo({left:0,behavior:'smooth'})}));
 if(matchMedia('(min-width:900px)').matches)document.querySelectorAll('.pied details').forEach(d=>d.open=true);
-document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const t=`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`;window.open('https://wa.me/'+(/alp|אלפ/i.test(f.tour.value)?'33652092301':'33767711259')+'?text='+encodeURIComponent(t),'_blank','noopener')});
+document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const t=`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`;window.open('https://wa.me/33652092301?text='+encodeURIComponent(t),'_blank','noopener')});
 </script>
 <script src="/config.js"></script>
 <script>

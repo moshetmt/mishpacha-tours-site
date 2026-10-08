@@ -6,7 +6,7 @@ import re, os, html, json, glob, importlib.util, urllib.parse, urllib.request, t
 from _head import head_page, webpage, itemlist, place, ORG, sans_tel
 
 CHECKED = "7 October 2026"
-WA = "https://wa.me/33767711259?text="
+WA = "https://wa.me/33652092301?text="
 def wa(t): return WA + urllib.parse.quote(t)
 def gmaps(a): return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(a + ", France")
 
@@ -119,7 +119,7 @@ def build(P):
     if "carte-osm" in secs: f = f.replace("</body>", LEAFLET + "\n</body>")
     page = sans_tel(h + body + f)
     if P.get("wa"):  # pages Alpes : WhatsApp de l'operateur + option Alpes dans le formulaire (decision 08/10)
-        page = page.replace("wa.me/33767711259", "wa.me/" + P["wa"]).replace('<option value="Izieu">Izieu</option>', '<option value="Izieu">Izieu</option><option value="Alps - kosher services">Kosher services in the Alps</option>')
+        page = page.replace("wa.me/33652092301", "wa.me/" + P["wa"]).replace('<option value="Izieu">Izieu</option>', '<option value="Izieu">Izieu</option><option value="Alps - kosher services">Kosher services in the Alps</option>')
     os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html", "w", encoding="utf-8").write(page); print("ok", slug)
 
 if __name__ == "__main__":

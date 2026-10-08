@@ -9,7 +9,7 @@ GEO_CACHE = _geojson.load(open('img/geo.json', encoding='utf-8'))
 def _full(a): return a if '69' in a else a + ', 69100 Villeurbanne'
 import re, os, html, urllib.parse
 
-WA = "https://wa.me/33767711259?text="
+WA = "https://wa.me/33652092301?text="
 def wa(t): return WA + urllib.parse.quote(t)
 CHECKED = "7 October 2026"
 
