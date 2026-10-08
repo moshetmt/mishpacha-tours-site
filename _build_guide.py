@@ -117,7 +117,10 @@ def build(P):
     h = head_page(h, f"/{slug}/", f"{P['title']} | Mishpacha Tours", P["desc"], ld)
     f = rel(foot).replace("document.getElementById('chercheur').addEventListener", "document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")
     if "carte-osm" in secs: f = f.replace("</body>", LEAFLET + "\n</body>")
-    os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html", "w", encoding="utf-8").write(sans_tel(h + body + f)); print("ok", slug)
+    page = sans_tel(h + body + f)
+    if P.get("wa"):  # pages Alpes : WhatsApp de l'operateur + option Alpes dans le formulaire (decision 08/10)
+        page = page.replace("wa.me/33767711259", "wa.me/" + P["wa"]).replace('<option value="Izieu">Izieu</option>', '<option value="Izieu">Izieu</option><option value="Alps - kosher services">Kosher services in the Alps</option>')
+    os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html", "w", encoding="utf-8").write(page); print("ok", slug)
 
 if __name__ == "__main__":
     only = sys.argv[1:]

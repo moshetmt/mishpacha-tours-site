@@ -51,6 +51,7 @@ PAGE = dict(
   ],
   related=[("../kosher-services-french-alps/", "Kosher services in the Alps"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../tours/izieu/", "Maison d'Izieu day trip"), ("../jewish-life-around-lyon/", "Jewish life around Lyon"), ("../shabbat-in-lyon/", "Shabbat in Lyon")],
   source="Sources: ci-aixlesbains.fr, consistoireregionaldelyon.org, habadgrenoblealpes.com, mikvah.org, synalpes.wordpress.com, kosheroutdooradventures.com, skikosher.com.",
+  wa="33652092301",
   jsonld=None, ticket=True,
   VERIF=[
     "Aix-les-Bains: ci-aixlesbains.fr homepage read 7 October 2026. Headings seen (synagogues, times, mikveh, groceries and butchers, restaurants, caterers), sub-pages NOT read: no shop address published here. Mikveh at 7 rue Paul Bonna: mikvah.org (secondary, spelled 'Bona').",

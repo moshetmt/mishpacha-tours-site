@@ -44,6 +44,7 @@ PAGE = dict(
   ],
   related=[("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps"), ("../tours/stopover/", "Stopover tour, 3 hours"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../shabbat-in-lyon/", "Shabbat in Lyon")],
   source="Sources: our team in the Alps (8 October 2026), habadgrenoblealpes.com, synalpes.wordpress.com.",
+  wa="33652092301",
   jsonld=None, ticket=True,
   VERIF=[
     "Whole offer (chalet with chef, delivered meals, Shabbat, holidays, minyan, Sefer Torah, tailor-made stays, large groups, resorts covered): two voice messages from Mendel Attal, Beth Habad de Grenoble Alpes, 8 October 2026, received by the operator. Nothing published. To confirm in writing with him before the first client.",

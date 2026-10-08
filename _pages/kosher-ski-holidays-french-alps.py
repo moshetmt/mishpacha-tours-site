@@ -54,6 +54,7 @@ PAGE = dict(
   ],
   related=[("../kosher-services-french-alps/", "Kosher services in the Alps"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps"), ("../tours/stopover/", "Stopover tour, 3 hours"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../jewish-life-around-lyon/", "Jewish life around Lyon"), ("../shabbat-in-lyon/", "Shabbat in Lyon")],
   source="Sources: synalpes.wordpress.com, habadgrenoblealpes.com, skikosher.com, chabad.org.",
+  wa="33652092301",
   jsonld=None, ticket=True,
   VERIF=[
     "Grenoble side (Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse, Val Thorens, Les Menuires), minyan and Sefer Torah on request, meals delivered: voice messages from Mendel Attal, Beth Habad de Grenoble Alpes, 8 October 2026. Nothing published. Presented as a Mishpacha Tours service, no partner name or number (operator, 08/10).",
