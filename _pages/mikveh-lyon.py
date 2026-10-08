@@ -29,7 +29,7 @@ PAGE = dict(
       ("Mikvah École Juive", "40 rue Alexandre-Boutin, 69100 Villeurbanne"),
       ("Mikvah Yeshiva Pinto", "20 bis rue des Mûriers, 69100 Villeurbanne"),
     ], note="Six mikvahs of Lyon and Villeurbanne. Tap a marker for directions."),
-    dict(type="photos", items=[("stock/rose-7.jpg", "Presqu'île, rue Thomassin area"), ("stock/stjean-6.jpg", "Vieux Lyon"), ("stock/juiverie-6.jpg", "Rue Juiverie"), ("c-synagogue-4.jpg", "The carved door, Grande Synagogue")]),
+    dict(type="photos", items=[("stock/rose-7.jpg", "Rue du Boeuf"), ("stock/stjean-6.jpg", "Vieux Lyon"), ("stock/juiverie-6.jpg", "Rue Juiverie"), ("c-synagogue-4.jpg", "The carved door, Grande Synagogue")]),
     dict(type="steps", h2="How to <i>ask</i>", items=[
       ("Choose one", "Pick the mikvah nearest your hotel. Mikvah Haya Mouchka is about 35 minutes on foot from Tilsitt, so on Shabbat choose one within walking distance of where you sleep."),
       ("Write or call early", "Give your dates and say that you are travelling. Appointment rules, fees and the rules for men are not published for any of them."),

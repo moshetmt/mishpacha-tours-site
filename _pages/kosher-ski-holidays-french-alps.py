@@ -41,7 +41,7 @@ PAGE = dict(
       ("Morzine", "Morzine, 74110"),
       ("Grenoble, Beth Habad", "10 rue Lazare Carnot, 38000 Grenoble"),
     ], note="Town-level pins, not street addresses, except Grenoble.", h=440),
-    dict(type="photos", items=[("stock/traboule-1.jpg", "Vieux Lyon, the Tour Rose"), ("stock/stjean-5.jpg", "Rue Saint-Jean, Vieux Lyon"), ("stock/stjean-7.jpg", "Rue Saint-Jean, Vieux Lyon"), ("stock/rose-7.jpg", "Maison du Crible, rue du Bœuf")]),
+    dict(type="photos", items=[("stock/traboule-1.jpg", "A Renaissance gallery, rue Juiverie"), ("stock/stjean-5.jpg", "Rue Saint-Jean, Vieux Lyon"), ("stock/stjean-7.jpg", "Rue Saint-Jean, Vieux Lyon"), ("stock/rose-7.jpg", "Rue du Boeuf")]),
     dict(type="faq", h2="Kosher ski: <i>questions</i>", items=[
       ("Which French ski resorts have a kosher minyan?", "Courchevel 1850 and Megève have a Chabad service in winter, run by Rabbi Daniel Belaïch. Other resorts have no published service: private operators organise one when enough people come."),
       ("Are there kosher ski holiday operators in France?", "Skikosher.com lists programs in Val Thorens and Orelle, Les Arcs 2000, Tignes, Morzine, Avoriaz, La Toussuire and Montgenèvre for 2026/27. The site does not verify its entries, so ask who supervises."),

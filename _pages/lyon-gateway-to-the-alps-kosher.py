@@ -42,7 +42,7 @@ PAGE = dict(
       ("Lilly Market", "140 rue Dedieu, 69100 Villeurbanne"),
       ("Grande Synagogue, quai Tilsitt", "13 quai Tilsitt, 69002 Lyon"),
     ], note="Tap a marker for directions."),
-    dict(type="photos", items=[("stock/traboule-1.jpg", "Vieux Lyon, the Tour Rose"), ("c-synagogue-7.jpg", "The Grande Synagogue, quai Tilsitt"), ("stock/stjean-3.jpg", "Rue Saint-Jean, Vieux Lyon"), ("stock/boeuf-4.jpg", "Rue du Bœuf, Vieux Lyon")]),
+    dict(type="photos", items=[("stock/traboule-1.jpg", "A Renaissance gallery, rue Juiverie"), ("c-synagogue-7.jpg", "The Grande Synagogue, quai Tilsitt"), ("stock/stjean-3.jpg", "Rue Saint-Jean, Vieux Lyon"), ("stock/boeuf-4.jpg", "Rue du Bœuf, Vieux Lyon")]),
     dict(type="faq", h2="Lyon and the Alps: <i>questions</i>", items=[
       ("How far is Lyon airport from Courchevel or Val Thorens?", "Typically 2 h 10 to Courchevel and 2 h 30 to Val Thorens without traffic, according to j2ski.com. Another transfer company lists 2 h 40 for Courchevel. Winter roads and Saturday traffic add time."),
       ("Can we buy kosher food in the resort?", "We found no published kosher shop in the resorts. Bring your food from Lyon, and write to the Chabad rabbi in Courchevel for wine and challot."),

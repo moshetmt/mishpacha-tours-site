@@ -206,7 +206,7 @@ body = f'''<main>
 <section class="ss wrap conseils">
   <h2>How it <i>works</i></h2>
   <ul>
-    <li><b>Shabbat meals.</b> Call the centre nearest your hotel before Friday noon and say how many you are. There is no fixed price; a donation is customary.</li>
+    <li><b>Shabbat meals.</b> Tell us your dates and how many you are before Thursday: we put you in touch with the house nearest your hotel. There is no fixed price; a donation is customary.</li>
     <li><b>Mikveh.</b> Lyon and Villeurbanne have several mikvaot; addresses, phones and how to book are on our <a href="../mikveh-lyon/">mikveh page</a>.</li>
     <li><b>With Mishpacha.</b> Tell us when you book and we point you to the right centre for your dates and your neighbourhood.</li>
   </ul>

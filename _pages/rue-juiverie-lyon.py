@@ -17,7 +17,7 @@ PAGE = dict(
       "<li><b>Around 1420.</b> The Encyclopaedia Judaica notes that Lyon was not yet part of the kingdom in 1394. It gives about 1420 for the expulsion from Lyon, and says most families moved to nearby Trévoux.</li>"
       "</ul>"
       "<p>After that, no Jewish community is recorded in Lyon for about three centuries.</p>")),
-    dict(type="photos", items=[("c-juiverie-3.jpg", "The street plaque, rue Juiverie"), ("stock/juiverie-6.jpg", "Rue Juiverie, looking along the street"), ("stock/juiverie-3.jpg", "A Renaissance plaque on rue Juiverie"), ("stock/stecath-6.jpg", "Rue Sainte-Catherine today")]),
+    dict(type="photos", items=[("c-juiverie-3.jpg", "The street plaque, rue Juiverie"), ("stock/juiverie-6.jpg", "Rue Juiverie, looking along the street"), ("stock/juiverie-3.jpg", "A Renaissance plaque on rue Juiverie"), ("stock/stecath-6.jpg", "The plaque for the 86 Jews arrested at 12 rue Sainte-Catherine")]),
     dict(type="beige", h2="What remains, <i>and what does not</i>", html=(
       "<p>We tell you this before you come. We know of no published identification of a surviving medieval Jewish building on rue Juiverie. There is no visible synagogue and no inscription in Hebrew that we can point to. The name of the street is the trace.</p>"
       "<p>What you see is the Renaissance city that grew after the community left.</p>"

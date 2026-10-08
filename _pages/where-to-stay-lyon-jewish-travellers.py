@@ -21,7 +21,7 @@ PAGE = dict(
       ("The Fifty and Five", "8 rue Professeur-Weill, 69006 Lyon"),
       ("Lilly Market", "140 rue Dedieu, 69100 Villeurbanne"),
     ], note="Synagogues, one grocery in the 3rd, three restaurants in the 6th and Lilly Market in Villeurbanne. Tap a marker for directions."),
-    dict(type="photos", items=[("stock/stjean-4.jpg", "Vieux Lyon, a short walk from Tilsitt"), ("stock/boeuf-7.jpg", "Rue du Boeuf, Vieux Lyon"), ("stock/rose-6.jpg", "Pink Lyon facades"), ("c-juiverie-5.jpg", "Rue Juiverie")]),
+    dict(type="photos", items=[("stock/stjean-4.jpg", "Vieux Lyon, a short walk from Tilsitt"), ("stock/boeuf-7.jpg", "Rue du Boeuf, Vieux Lyon"), ("stock/rose-6.jpg", "A vaulted traboule passage, Vieux Lyon"), ("c-juiverie-5.jpg", "Rue Juiverie")]),
     dict(type="beige", h2="Questions to ask <i>your hotel</i>",
       html="<p>We do not say what any hotel does. Put these questions to the hotel before you book, and keep the answers in writing.</p><ul><li>Is there a mechanical key, or can you give us one, instead of an electronic card?</li><li>Can we reach the room by stairs, and is a lower floor available?</li><li>Do any doors or lifts need a badge, and is a staff member available to open them on Shabbat?</li><li>Can you leave the room lights on a fixed setting, and is the key slot free of sensors?</li><li>Can we keep food in the room or in a fridge, and may we use a hot plate we bring ourselves?</li><li>Can you store food we order from a caterer and hand it over on Friday afternoon?</li><li>Can the front desk hold a bag until Saturday night if we need it?</li></ul>"),
     dict(type="text", h2="Kosher <i>hotels</i>",
