@@ -433,6 +433,8 @@ body.menu-ouvert{overflow:hidden}
 
 /* ---------- Hub ---------- */
 .hub-grille{display:grid;gap:16px}
+.inspire .hub-grille{margin-top:28px}
+@media (max-width:899px){.hub-carte .photo{aspect-ratio:4/3}}
 .hub-carte{display:flex;flex-direction:column;background:var(--blanc);border-radius:15px;overflow:hidden;text-decoration:none;color:inherit}
 .hub-carte .photo{position:relative;aspect-ratio:16/10;background:#ddd}
 .hub-carte .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}

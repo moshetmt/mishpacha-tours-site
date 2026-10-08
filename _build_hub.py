@@ -43,7 +43,7 @@ ticket = rel(home[home.index('<div class="ticket-zone"'):home.index('</main>')])
 # ===================== HUB =====================
 GROUPS = [
  ("Eat, pray, <i>sleep</i>", [
-  ("kosher-restaurants-lyon/", "stock/stjean-5.jpg", "Kosher in Lyon", "36 certified restaurants, bakeries, butchers and caterers, on the map"),
+  ("kosher-restaurants-lyon/", "stock/stjean-5.jpg", "Kosher in Lyon", "31 certified restaurants, bakeries, butchers and caterers, on the map"),
   ("kosher-shabbat-meals-catering-lyon/", "stock/rose-3.jpg", "Shabbat meals and catering", "Seven certified caterers, Chabad tables, groceries for a Shabbat at home"),
   ("synagogues-lyon/", "c-synagogue-7.jpg", "Synagogues and prayer times", "Seven Chabad houses first, the two historic synagogues, 25 minyanim, candle-lighting times this week"),
   ("shabbat-in-lyon/", "synagogue-tilsitt-arche.jpg", "Shabbat in Lyon", "Where to pray, how to eat, what closes on Friday, how to plan it"),
