@@ -6,15 +6,14 @@ CATERERS = [
   ("Les Gourmandises de Maëlle", "94 rue Hippolyte-Kahn, 69100 Villeurbanne", "", ""),
   ("Philibert David", "300 rue Francis-de-Pressensé, 69100 Villeurbanne", "06 19 13 19 07", ""),
   ("Samuel Califa, Le Vôtre", "64 rue Docteur-Rollet, 69100 Villeurbanne", "04 72 51 31 84", ""),
-  ("Deli Prestige", "254 rue Francis-de-Pressensé, 69100 Villeurbanne", "06 67 64 81 26", ""),
 ]
 PAGE = dict(
   slug="kosher-shabbat-meals-catering-lyon",
   title="Kosher catering and Shabbat meals in Lyon",
-  desc="Seven caterers certified by the Beth Din de Lyon, Chabad Shabbat meals and kosher groceries for a Shabbat in an apartment. How to order before you land.",
+  desc="Six caterers certified by the Beth Din de Lyon, Chabad Shabbat meals and kosher groceries for a Shabbat in an apartment. How to order before you land.",
   h1="Kosher catering and Shabbat meals in Lyon", ital="who cooks, how to order",
-  intro="Seven caterers on the official list of the Beth Din de Lyon cook for Shabbat, and Chabad houses host on request. Whether each caterer delivers to a hotel is not published, so you ask before you order. We help you write, and you pay the caterer directly.",
-  chips=["7 caterers certified by the Beth Din de Lyon", "2 kosher groceries", "Order before Thursday", "Checked 7 October 2026"],
+  intro="Six caterers on the official list of the Beth Din de Lyon cook for Shabbat, and Chabad houses host on request. Whether each caterer delivers to a hotel is not published, so you ask before you order. We help you write, and you pay the caterer directly.",
+  chips=["6 caterers certified by the Beth Din de Lyon", "2 kosher groceries", "Order before Thursday", "Checked 7 October 2026"],
   illus="flat-kosher.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
   sections=[
@@ -34,7 +33,7 @@ PAGE = dict(
       html="<p>Lyon has four Chabad houses: Centre-Ville (10 rue Mulet), Lyon 6 (60 rue Crillon), Villeurbanne (295 rue Francis-de-Pressensé) and the campus house. No meal schedule is published online. Call the house nearest your hotel before Friday noon and say how many you are. See <a href='../chabad-lyon/'>Chabad in Lyon</a> for addresses and phones.</p>"),
     dict(type="beige", h2="Groceries for a Shabbat <i>in an apartment</i>",
       html="<p>Three groceries are certified by the Beth Din de Lyon: Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon (04 78 85 00 80), its new Hypercacher Garibaldi, 46 rue Garibaldi, 69006 Lyon, and Lilly Market, 140 rue Dedieu, 69100 Villeurbanne (04 78 03 24 79). Lilly Market has a second shop in Écully. Opening hours are not published: call, and buy on Thursday or Friday morning. Three butchers are also on the list: <a href='../kosher-restaurants-lyon/'>all kosher addresses in Lyon</a>.</p>"),
-    dict(type="map", h2="Caterers and groceries on the <i>map</i>", points=[(n, a) for n, a, t, x in CATERERS] + [("Hypercacher", "17 rue Claudius-Pionchon, 69003 Lyon"), ("Hypercacher Garibaldi", "46 rue Garibaldi, 69006 Lyon"), ("Lilly Market", "140 rue Dedieu, 69100 Villeurbanne")], note="Seven caterers and two groceries. Tap a marker for directions."),
+    dict(type="map", h2="Caterers and groceries on the <i>map</i>", points=[(n, a) for n, a, t, x in CATERERS] + [("Hypercacher", "17 rue Claudius-Pionchon, 69003 Lyon"), ("Hypercacher Garibaldi", "46 rue Garibaldi, 69006 Lyon"), ("Lilly Market", "140 rue Dedieu, 69100 Villeurbanne")], note="Six caterers and two groceries. Tap a marker for directions."),
     dict(type="faq", h2="Shabbat meals: <i>questions</i>", items=[
       ("Who certifies the caterers?", "The Beth Din de Lyon, the rabbinical court of the Consistoire. The list is published on bethdin-lyon.fr. Call the Beth Din on 04 12 04 05 15 if you follow another standard."),
       ("Do caterers deliver to my hotel?", "No caterer on the list publishes a hotel delivery service. Ask each one when you order. We help you write the message."),

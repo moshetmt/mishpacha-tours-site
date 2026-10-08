@@ -3,7 +3,7 @@
    Source des faits : 06-reports/2026-09-08-base-factuelle-pages-plateforme.md (liste officielle Beth Din,
    sites officiels). Rien d'invente : une donnee absente ne s'ecrit pas.
    python _build_pratique.py   (depuis site-v5/)"""
-from _head import head_page, crumbs, webpage, itemlist, place
+from _head import head_page, crumbs, webpage, itemlist, place, sans_tel
 import json as _geojson
 GEO_CACHE = _geojson.load(open('img/geo.json', encoding='utf-8'))
 def _full(a): return a if '69' in a else a + ', 69100 Villeurbanne'
@@ -55,11 +55,8 @@ KOSHER = {
  ],
  "Caterers": [
   ("La Cerise sur le Gâteau","41 rue Alexandre-Boutin, 69100 Villeurbanne","04 26 18 33 11","pastry"),
-  ("Mazal Corinne","3 rue Victor-Basch, 69100 Villeurbanne","06 86 46 33 85",""),
-  ("Les Gourmandises de Maëlle","94 rue Hippolyte-Kahn, 69100 Villeurbanne","",""),
   ("Philibert David","300 rue Francis-de-Pressensé, 69100 Villeurbanne","06 19 13 19 07",""),
   ("Samuel Califa, Le Vôtre","64 rue Docteur-Rollet, 69100 Villeurbanne","04 72 51 31 84",""),
-  ("Deli Prestige","254 rue Francis-de-Pressensé, 69100 Villeurbanne","06 67 64 81 26",""),
  ],
 }
 
@@ -129,7 +126,7 @@ def page(slug, title, desc, body, ld=None):
     h = head_page(h, f"/{slug}/", f"{title} | Mishpacha Tours", desc, [crumbs([("Jewish Lyon guide", "/jewish-lyon-guide/"), (title, f"/{slug}/")]), webpage(f"/{slug}/", title, desc)] + (ld or []))
     f = rel(foot).replace("document.getElementById('chercheur').addEventListener","document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")
     f = f.replace("</body>", LEAFLET+"\n</body>")
-    os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html","w",encoding="utf-8").write(h+body+f); print("ok",slug)
+    os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html","w",encoding="utf-8").write(sans_tel(h+body+f)); print("ok",slug)
 
 def hero(illus, h1, ital, intro, chips):
     c = "".join(f"<li>{x}</li>" for x in chips)
@@ -168,7 +165,7 @@ body = f'''<main>
 <section class="ss wrap"><h2 class="centre">All {total} places on the <i>map</i></h2>{carte([(n,a) for items in KOSHER.values() for n,a,t,x in items])}</section>
 {photos([("stock/stjean-5.jpg","Vieux Lyon shopfronts"),("stock/boeuf-2.jpg","A quiet square, rue du Boeuf"),("stock/juiverie-7.jpg","Rue Juiverie"),("stock/rose-3.jpg","A traboule courtyard")])}
 <div class="ss beige"><div class="wrap">{groupes}<p class="source">Source: official list of certified establishments, Beth Din de Lyon, checked {CHECKED}. Places outside Lyon, Villeurbanne and Écully, and institutions that are not shops, are not listed. Tell us if something has changed.</p></div></div>
-{cta("Want a kosher meal during or after your tour?","Hello, I would like advice on kosher restaurants in Lyon during my trip. Dates: / Number of people:")}
+{cta("Planning your kosher days in Lyon?","Hello, I am planning a trip to Lyon and I would like a private tour with you. Dates: / Number of people:")}
 {ticket}
 </main>'''
 page("kosher-restaurants-lyon","Kosher restaurants in Lyon and Villeurbanne",f"{total} kosher restaurants, bakeries, butchers, groceries and caterers in Lyon, Villeurbanne and Écully, all on the official Beth Din de Lyon list. Checked {CHECKED}.",body, [itemlist("Kosher places certified by the Beth Din de Lyon", [place(n, _full(a), t, "FoodEstablishment", GEO_CACHE.get(_full(a))) for items in KOSHER.values() for n, a, t, x in items])])
@@ -196,10 +193,10 @@ body = f'''<main>
 <section class="ss wrap"><h2 class="centre">Every synagogue on the <i>map</i></h2>{carte([(s2['nom'],s2['adresse']) for s2 in SYN_MAIN]+[(n,(a if "69" in a else a+", 69100 Villeurbanne")) for v,items in SYN_AUTRES for n,a,t in items],420)}</section>
 {photos([("c-synagogue-7.jpg","Grande Synagogue, quai Tilsitt"),("synagogue-tilsitt-arche.jpg","The holy ark"),("synagogue-tilsitt-galerie.jpg","The women's gallery"),("c-synagogue-4.jpg","The carved door")])}
 <div class="ss beige"><div class="wrap"><h2 class="centre">Neighbourhood <i>minyanim</i></h2><p class="sous centre">Address and phone only. Rite and prayer times are not published online: call ahead.</p>{autres}<p class="source">Sources: official sites of the Grande Synagogue (consistoiredelyon.fr) and Neveh Chalom (nevehchalom.fr), City of Lyon, and the community directory of Habad Lyon, checked {CHECKED}.</p></div></div>
-{cta("Looking for a minyan near your hotel?","Hello, I am looking for a minyan in Lyon during my trip. Dates: / Neighbourhood:")}
+{cta("Want to see the Grande Synagogue from the inside?","Hello, I would like to book the Jewish Lyon tour, the one that goes inside the Grande Synagogue. Dates: / Number of people:")}
 {ticket}
 </main>'''
-page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"Seven Chabad houses, the Grande Synagogue de Lyon, Neveh Chalom and {N_MINYANIM} minyanim in Lyon and Villeurbanne: addresses, phones, prayer times. Checked {CHECKED}.",body, [itemlist("Synagogues and minyanim in Lyon and Villeurbanne", [place(s2["nom"], s2["adresse"], s2.get("tel", ""), ["Synagogue", "TouristAttraction"], GEO_CACHE.get(s2["adresse"])) for s2 in SYN_MAIN] + [place(n, _full(a), t, "Synagogue", GEO_CACHE.get(_full(a))) for v, items in SYN_AUTRES for n, a, t in items])])
+page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"Seven Chabad houses, the Grande Synagogue de Lyon, Neveh Chalom and {N_MINYANIM} minyanim in Lyon and Villeurbanne: addresses, prayer times. Checked {CHECKED}.",body, [itemlist("Synagogues and minyanim in Lyon and Villeurbanne", [place(s2["nom"], s2["adresse"], s2.get("tel", ""), ["Synagogue", "TouristAttraction"], GEO_CACHE.get(s2["adresse"])) for s2 in SYN_MAIN] + [place(n, _full(a), t, "Synagogue", GEO_CACHE.get(_full(a))) for v, items in SYN_AUTRES for n, a, t in items])])
 
 # ===== 3. Chabad =====
 cartes = "".join(f'''<article class="chabad"><h2>{c['nom']}</h2><p class="adr">{c['adresse']}</p><p class="rav">{c['rav']}</p>{("<a class=\"tel\" href=\"tel:"+c['tel'].replace(' ','')+"\">"+c['tel']+"</a>") if c['tel'] else ""}<p class="note-syn">{c['note']}</p></article>''' for c in CHABAD)
@@ -217,7 +214,7 @@ body = f'''<main>
 {cta("Need a Shabbat table in Lyon?","Hello, I would like to be put in touch with a Chabad house in Lyon for Shabbat. Dates: / Number of people:")}
 {ticket}
 </main>'''
-page("chabad-lyon","Chabad houses in Lyon, Villeurbanne and Écully",f"The seven Chabad centres of Lyon and Villeurbanne, with addresses and phones. Shabbat meals and minyan on request. Checked {CHECKED}.",body, [itemlist("Chabad houses in Lyon, Villeurbanne and Écully", [place(c["nom"], c["adresse"], c["tel"], "Place", GEO_CACHE.get(c["adresse"])) for c in CHABAD])])
+page("chabad-lyon","Chabad houses in Lyon, Villeurbanne and Écully",f"The seven Chabad centres of Lyon and Villeurbanne, with addresses. Shabbat meals and minyan on request. Checked {CHECKED}.",body, [itemlist("Chabad houses in Lyon, Villeurbanne and Écully", [place(c["nom"], c["adresse"], c["tel"], "Place", GEO_CACHE.get(c["adresse"])) for c in CHABAD])])
 
 # ===== 4. Cimetiere =====
 body = f'''<main>

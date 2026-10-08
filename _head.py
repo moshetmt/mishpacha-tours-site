@@ -25,7 +25,7 @@ def addr(a):
 
 def place(name, a, tel="", typ="Place", geo=None, **k):
     p = {"@type": typ, "name": strip(name), "address": addr(a)}
-    if tel: p["telephone"] = "+33" + re.sub(r"\D", "", tel)[1:]
+    # Decision operateur 08/10/2026 : aucun numero de tiers sur le site (ni HTML ni JSON-LD).
     if geo: p["geo"] = {"@type": "GeoCoordinates", "latitude": geo[0], "longitude": geo[1]}
     p.update(k); return p
 
@@ -57,3 +57,11 @@ def head_page(h, path, title, desc, ld=None):
           '<meta name="twitter:card" content="summary_large_image">\n')
     if ld: og += f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
     return h.replace("</head>", og + "</head>", 1)
+
+
+TEL_MISHPACHA = "767711259"
+def sans_tel(page):
+    """Retire les liens tel: des tiers (decision operateur 08/10/2026), garde ceux de Mishpacha Tours."""
+    page = re.sub(r'<a (?:class="tel" )?href="tel:(?![^"]*' + TEL_MISHPACHA + r')[^"]*">[^<]*</a>', "", page)
+    page = re.sub(r'<div><dt>[^<]*</dt><dd>\s*</dd></div>', "", page)
+    return page

@@ -3,7 +3,7 @@
    Chaque module _pages/<slug>.py definit PAGE = dict(...), voir _pages/README.md.
    python _build_guide.py [slug ...]   (depuis site-v5/)"""
 import re, os, html, json, glob, importlib.util, urllib.parse, urllib.request, time, sys
-from _head import head_page, webpage, itemlist, place, ORG
+from _head import head_page, webpage, itemlist, place, ORG, sans_tel
 
 CHECKED = "7 October 2026"
 WA = "https://wa.me/33767711259?text="
@@ -117,7 +117,7 @@ def build(P):
     h = head_page(h, f"/{slug}/", f"{P['title']} | Mishpacha Tours", P["desc"], ld)
     f = rel(foot).replace("document.getElementById('chercheur').addEventListener", "document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")
     if "carte-osm" in secs: f = f.replace("</body>", LEAFLET + "\n</body>")
-    os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html", "w", encoding="utf-8").write(h + body + f); print("ok", slug)
+    os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html", "w", encoding="utf-8").write(sans_tel(h + body + f)); print("ok", slug)
 
 if __name__ == "__main__":
     only = sys.argv[1:]

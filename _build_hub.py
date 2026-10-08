@@ -2,7 +2,7 @@
 """Genere le hub /jewish-lyon-guide/ et la page region /jewish-life-around-lyon/.
    Faits region : 06-reports/2026-10-06-base-factuelle-region.md (lignes O et S signalees).
    python _build_hub.py   (depuis site-v5/)"""
-from _head import head_page, crumbs, webpage
+from _head import head_page, crumbs, webpage, sans_tel
 import re, os, html, json, urllib.parse
 
 CHECKED = "7 October 2026"
@@ -37,7 +37,7 @@ def page(slug, title, desc, body):
     h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(desc)}">', h)
     h = head_page(h, f"/{slug}/", f"{title} | Mishpacha Tours", desc, [crumbs([(title, f"/{slug}/")]), webpage(f"/{slug}/", title, desc)])
     f = rel(foot).replace("document.getElementById('chercheur').addEventListener","document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener").replace("</body>", LEAFLET + "\n</body>")
-    os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html", "w", encoding="utf-8").write(h + body + f); print("ok", slug)
+    os.makedirs(slug, exist_ok=True); open(f"{slug}/index.html", "w", encoding="utf-8").write(sans_tel(h + body + f)); print("ok", slug)
 ticket = rel(home[home.index('<div class="ticket-zone"'):home.index('</main>')])
 
 # ===================== HUB =====================
