@@ -52,8 +52,8 @@ GROUPS = [
   ("where-to-stay-lyon-jewish-travellers/", "stock/lyon-terreaux.jpg", "Where to stay", "Three areas on foot from a synagogue, and what to ask a hotel for Shabbat"),
   ("jewish-cemetery-lyon/", "montluc-mur-des-fusilles.jpg", "The Jewish cemetery", "La Mouche, since 1795: hours, contact, finding a family grave"),
  ]),
- ("The Alps, <i>via Lyon</i>", [
-  ("alps/", "stock/alpes-ski.jpg", "The Alps via Lyon", "Ski in winter, lakes in summer, one request for everything kosher: the hub"),
+ ("The Alps, <i>strictly kosher</i>", [
+  ("alps/", "stock/alpes-ski.jpg", "The Alps, strictly kosher", "Chef, meals, Shabbat, holidays, minyan: how it works, resort by resort"),
   ("kosher-services-french-alps/", "stock/hallah.jpg", "Kosher services in the Alps", "Chef, delivered meals, Shabbat, holidays, minyan and Sefer Torah, from Alpe d'Huez to Val Thorens"),
   ("../tours/stopover/", "c-traboule-1.jpg", "The Stopover, 3 hours", "Jewish Lyon and the Grande Synagogue between your flight and the drive up. 390 € per group"),
   ("kosher-ski-holidays-french-alps/", "stock/alpes-ski.jpg", "Kosher ski holidays", "Resorts with a minyan or a Chabad house in winter, Shabbat on the slopes"),
