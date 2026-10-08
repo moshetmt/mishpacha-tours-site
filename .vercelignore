@@ -17,3 +17,4 @@ _build_i18n.py
 _qa.py
 README.md
 .gitignore
+.github

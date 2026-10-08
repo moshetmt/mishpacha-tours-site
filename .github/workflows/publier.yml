@@ -1,0 +1,55 @@
+name: Publier mishpacha-tours-v5.vercel.app
+
+# Bouton de publication depuis le telephone (operateur, 08/10/2026).
+# App GitHub -> ce depot -> Actions -> "Publier mishpacha-tours-v5.vercel.app" -> Run workflow.
+#
+# Ce que ca fait : appelle le Deploy Hook Vercel du projet, qui reconstruit et
+# publie l'etat actuel de la branche master. Ca ne publie donc PAS un travail
+# non pousse : un push suffit deja a declencher un deploiement.
+# Sert quand un build a echoue, quand une variable d'environnement a change,
+# ou pour forcer une reconstruction propre.
+#
+# Prerequis, une seule fois :
+#   1. Vercel -> le projet -> Settings -> Git -> Deploy Hooks
+#      Creer un hook nomme "Publier", branche "master". Copier l'URL.
+#   2. Ce depot -> Settings -> Secrets and variables -> Actions -> New secret
+#      Nom : VERCEL_DEPLOY_HOOK   Valeur : l'URL copiee.
+#
+# Ce fichier vit dans le monorepo ads-os, dans le dossier du site. Il arrive
+# ici par `git subtree push`. Ne pas l'editer directement dans ce depot :
+# le prochain subtree push serait rejete.
+
+on:
+  # Aucun champ a remplir : l'app GitHub grise le bouton tant qu'un input
+  # obligatoire n'a pas ete ouvert et choisi a la main. Republier le meme
+  # code ne peut rien casser, la confirmation ne protegeait de rien.
+  workflow_dispatch:
+
+concurrency:
+  group: publier-mishpacha-tours-v5.vercel.app
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    name: Republier Mishpacha Tours
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verifier que le Deploy Hook est configure
+        run: |
+          if [ -z "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            echo "::error::Secret VERCEL_DEPLOY_HOOK absent. Le creer dans Vercel (Settings > Git > Deploy Hooks) puis l ajouter ici dans Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
+      - name: Declencher la reconstruction
+        run: |
+          reponse=$(curl -sS -X POST -w "\n%{http_code}" "${{ secrets.VERCEL_DEPLOY_HOOK }}")
+          code=$(echo "$reponse" | tail -1)
+          corps=$(echo "$reponse" | sed '$d')
+          echo "$corps"
+          if [ "$code" != "200" ] && [ "$code" != "201" ]; then
+            echo "::error::Vercel a repondu $code."
+            exit 1
+          fi
+          echo "::notice::Reconstruction de mishpacha-tours-v5.vercel.app demandee. Suivre l avancement dans Vercel."
