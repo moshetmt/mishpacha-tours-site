@@ -6,7 +6,7 @@ PAGE = dict(
   h1="Summer in the Alps for Jewish families", ital="lakes, hikes and a minyan within reach",
   intro="Summer in the Alps means lakes, walking and long evenings. For an observant family it also means working out where the minyan is, who feeds you on Shabbat and what is open. Three towns near Lyon have a published community: Aix-les-Bains, Annecy and Grenoble. In the high resorts, the Chabad services we found are winter only. We guide in Lyon only: no packages, no stays.",
   chips=["Aix-les-Bains, Annecy, Grenoble", "Mikveh and meals, sourced", "Lyon as a base", "Checked 7 October 2026"],
-  illus="flat-izieu.png",
+  illus="flat-ski.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
   sections=[
     dict(type="text", h2="Three towns with a <i>published community</i>",

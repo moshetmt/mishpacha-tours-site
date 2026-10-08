@@ -25,7 +25,7 @@
 
 ## Illustrations et drapeaux (v4, 05/10/2026)
 
-- `img/illus/*.png` : générées avec Gemini (gemini-3.1-flash-image) via `scripts/gemini_image.py`, prompts dans la session du 05/10.
+- `img/illus/*.png` : générées avec Gemini (gemini-3.1-flash-image) via `scripts/gemini_image.py`, prompts dans la session du 05/10 ; famille de la mascotte le 08/10 ; `flat-ski.png` (famille à ski, pages ski, services casher des Alpes et été) le 08/10, référence `flat-kosher.png`, fond détouré par remplissage depuis les bords.
 - `img/flags/*.svg` : Twemoji (Twitter), licence CC BY 4.0, https://github.com/twitter/twemoji
 
 

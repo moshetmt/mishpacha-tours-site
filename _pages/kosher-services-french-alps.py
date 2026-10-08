@@ -6,7 +6,7 @@ PAGE = dict(
   h1="Kosher services in the French Alps", ital="chalet, chef, meals, Shabbat, holidays, minyan: one request",
   intro="A kosher week in the mountains does not have to mean a suitcase of food from Lyon and a Shabbat alone. Mishpacha Tours organises it in the resorts of Isère, Savoie and the Hautes-Alpes, with its kosher team based in the Alps: a chalet with a private chef, meals for a group for the week, Shabbat and the holidays in the resort, a minyan and a Sefer Torah for your dates. Send us your resort, your dates and what you need. One contact, one answer, one quote.",
   chips=["Alpe d'Huez to Val Thorens", "Chef, delivered meals, Shabbat, holidays", "Minyan and Sefer Torah", "Checked 8 October 2026"],
-  illus="flat-kosher.png",
+  illus="flat-ski.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
   sections=[
     dict(type="text", h2="Every service, <i>one request</i>",

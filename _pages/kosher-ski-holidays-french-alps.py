@@ -6,7 +6,7 @@ PAGE = dict(
   h1="Kosher ski holidays in the French Alps", ital="where to pray, who to call, what to bring from Lyon",
   intro="A kosher ski week in France takes planning. In winter, Rabbi Daniel Belaïch runs Chabad services in Courchevel 1850 and Megève. For Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse and Val Thorens, we organise a minyan and a Sefer Torah with the Chabad network of the Alps: tell us your dates. Private operators list kosher chalets and hotels in a dozen resorts. Supervision is rarely published, so you ask before you book. Lyon is the place to land, shop and stop for a few hours on the way up. We guide in Lyon only: we sell no ski package, no transport and no stay.",
   chips=["Minyanim: Courchevel, Megève, Grenoble side", "Kosher meals delivered in the resort", "Land and shop in Lyon", "Checked 8 October 2026"],
-  illus="flat-stopover.png",
+  illus="flat-ski.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
   sections=[
     dict(type="text", h2="Where to find a minyan <i>in winter</i>",
