@@ -60,9 +60,8 @@ def head_page(h, path, title, desc, ld=None):
 
 
 TEL_MISHPACHA = "767711259"
-TEL_AUTORISES = "767711259|781823193"  # Mishpacha Tours + Mendel Attal, Beth Habad Grenoble Alpes (decision operateur 08/10/2026)
 def sans_tel(page):
     """Retire les liens tel: des tiers (decision operateur 08/10/2026), garde ceux de Mishpacha Tours."""
-    page = re.sub(r'<a (?:class="tel" )?href="tel:(?![^"]*(?:' + TEL_AUTORISES + r'))[^"]*">[^<]*</a>', "", page)
+    page = re.sub(r'<a (?:class="tel" )?href="tel:(?![^"]*' + TEL_MISHPACHA + r')[^"]*">[^<]*</a>', "", page)
     page = re.sub(r'<div><dt>[^<]*</dt><dd>\s*</dd></div>', "", page)
     return page
