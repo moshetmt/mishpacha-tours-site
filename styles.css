@@ -136,6 +136,8 @@ body.menu-ouvert{overflow:hidden}
 .bande{background:var(--jaune);padding:64px var(--pad);text-align:center}
 .bande .petit{font-size:15px}
 .bande .lieux{margin-top:32px;font-family:var(--titre);font-weight:300;font-size:30px;line-height:1.4;max-width:20em;margin-left:auto;margin-right:auto}
+.bande .marcheur{display:block;height:84px;width:auto;margin:22px auto 0}
+.bande .marcheur{display:block;height:84px;width:auto;margin:22px auto 0}
 .bande .lieux span{white-space:nowrap}
 .bande .lieux span::after{content:" / ";white-space:normal}
 .bande .lieux span:last-child::after{content:""}
@@ -201,6 +203,10 @@ body.menu-ouvert{overflow:hidden}
 .ticket-zone{position:relative;z-index:1;margin-top:var(--ecart);padding:0 var(--pad);margin-bottom:-120px}
 .ticket{background:var(--rose);padding:60px 28px 44px;clip-path:polygon(0 0,18% 0,22% 20px,78% 20px,82% 0,100% 0,100% 100%,0 100%)}
 .ticket h2{font-size:36px;text-align:left}
+.ticket-hassid{display:block;height:64px;width:auto;margin-bottom:18px}
+[dir=rtl] .ticket-hassid,[dir=rtl] .hassid-grand,[dir=rtl] .marcheur{transform:scaleX(-1)}
+.ticket-hassid{display:block;height:64px;width:auto;margin-bottom:18px}
+[dir=rtl] .ticket-hassid,[dir=rtl] .hassid-grand,[dir=rtl] .marcheur{transform:scaleX(-1)}
 .ticket form{margin-top:28px;display:grid;gap:14px}
 .ticket label{display:block;font-size:12px;font-weight:600;margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
 .ticket input,.ticket select{width:100%;background:var(--blanc);border:0;border-radius:999px;padding:12px 16px;font:inherit;font-size:16px;color:var(--encre);appearance:none}
@@ -258,6 +264,12 @@ body.menu-ouvert{overflow:hidden}
   .tuiles{grid-template-columns:repeat(4,1fr);gap:32px}
   .tuiles img{width:180px;height:180px}
   .bande .lieux{font-size:42px;max-width:24em}
+  .bande .marcheur{height:110px;margin-top:28px}
+  .ticket-hassid{height:84px;margin-bottom:22px}
+  .pratique-tete img.hassid-grand{height:220px}
+  .bande .marcheur{height:110px;margin-top:28px}
+  .ticket-hassid{height:84px;margin-bottom:22px}
+  .pratique-tete img.hassid-grand{height:220px}
   .pourquoi{grid-template-columns:repeat(3,1fr);gap:64px 40px;max-width:1000px;margin-left:auto;margin-right:auto;text-align:center;margin-top:48px}
   .pourquoi>div{display:block}
   .pourquoi img{width:116px;height:116px;margin:0 auto 14px}
@@ -347,6 +359,8 @@ body.menu-ouvert{overflow:hidden}
 .pratique-hero{padding:24px 0 0}
 .pratique-tete{display:grid;gap:12px;margin-top:10px}
 .pratique-tete img{width:200px;height:200px;margin:0 auto;order:-1}
+.pratique-tete img.hassid-grand{width:auto;height:170px}
+.pratique-tete img.hassid-grand{width:auto;height:170px}
 .pratique-tete h1{font-size:36px;line-height:1.1}
 .pratique-tete h1 i{display:block;font-size:.62em;margin-top:8px;opacity:.85}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}

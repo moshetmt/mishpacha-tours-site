@@ -23,7 +23,7 @@ body = '''<main>
   <p class="intro-fiche">We reply within one business day, and never on Shabbat or on a Jewish holiday. If your dates are close, the fastest way to reach us is WhatsApp.</p>
   <p><a class="btn-noir large" href="https://wa.me/33767711259?text=Hello%2C%20I%20just%20sent%20a%20booking%20request%20on%20the%20website." rel="noopener"><svg><use href="#wa"/></svg>Message us on WhatsApp</a></p>
   <p class="intro-fiche"><a href="../">Back to the tours</a></p></div>
-  <img src="../img/illus/flat-jewish-lyon.png" alt="" width="700" height="700"></div>
+  <img class="hassid-grand" src="../img/picto-hassid.svg" alt="" width="68" height="95"></div>
 </div></section>
 </main>'''
 f = rel(foot).replace("document.getElementById('chercheur').addEventListener","document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")

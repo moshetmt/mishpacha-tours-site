@@ -187,7 +187,7 @@ for t in TOURS:
 
 <div class="ticket-zone" id="book">
   <div class="ticket">
-    <h2>Ready to <i>book</i> {t['h1']}?</h2>
+    <h2><img class="ticket-hassid" src="../../img/picto-hassid.svg" alt="" width="68" height="95">Ready to <i>book</i> {t['h1']}?</h2>
     <form id="formReserver">
       <div class="piege" aria-hidden="true"><label for="f-societe">Company</label><input type="text" id="f-societe" name="societe" tabindex="-1" autocomplete="off"></div>
       <input type="hidden" name="tour" value="{t['h1']}">
