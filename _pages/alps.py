@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher in the French Alps: chef, meals, Shabbat, minyan",
   desc="Strictly kosher in the French Alps: a private chef in your chalet, meals delivered to your apartment, Shabbat and the holidays in the resort, a minyan and a Sefer Torah for your dates. One request, one quote.",
   h1="The French Alps, strictly kosher", ital="ski in winter, lakes in summer, one request for everything",
-  intro="You have your resort, your dates and your apartment or chalet. Mishpacha Tours takes care of the kosher: a private chef who cooks in your chalet, hot meals delivered to your door for the week, Shabbat meals with challot and wine, Hanukkah, Purim or Pesach in the mountains, a minyan and a Sefer Torah when several families share a resort. Our kosher team is based in the Alps, in Isère, Savoie and the Hautes-Alpes. You send your resort, your dates and your group. You get one answer and one written quote, the same day. We sell no transport and no stay.",
+  intro="You have your resort, your dates and your apartment or chalet. Mishpacha Tours takes care of the kosher: a private chef who cooks in your chalet, hot meals delivered to your door for the week, Shabbat meals with challot and wine, Hanukkah, Purim or Pesach in the mountains, a minyan and a Sefer Torah when several families share a resort. Our kosher team is based in the Alps, in Isère, Savoie and the Hautes-Alpes. You send your resort, your dates and your group. You get one answer and one written quote, the same day. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
   chips=["Chef, meals, Shabbat, minyan in your resort", "Val Thorens, Courchevel, Megève, Alpe d'Huez, Les Deux Alpes", "Winter and summer", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
@@ -16,6 +16,7 @@ PAGE = dict(
 <li><b>Shabbat in the resort.</b> Shabbat meals, challot and wine delivered on Friday before candle lighting, and the nearest minyan for your dates.</li>
 <li><b>The holidays in the mountains.</b> Hanukkah candles and a lighting, a Megillah reading and a Purim meal, Pesach on request. Say which holiday falls in your week.</li>
 <li><b>A minyan and a Sefer Torah.</b> When several families are in the same resort, the team groups them for a minyan and brings a Sefer Torah, in winter and in summer. Give your dates early.</li>
+<li><b>A tailor-made stay, A to Z.</b> Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.</li>
 </ul>
 <p>Strictly kosher. Our team in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Shomer Shabbat: nothing is delivered on Shabbat or on a holiday, everything is set before candle lighting. Full detail: <a href="../kosher-services-french-alps/">kosher services in the French Alps</a>.</p>"""),
     dict(type="steps", h2="How it <i>works</i>", items=[
@@ -26,6 +27,7 @@ PAGE = dict(
     dict(type="beige", h2="The resorts <i>we cover</i>", html="""<ul>
 <li><b>The Grenoble side.</b> Alpe d'Huez, Les Deux Alpes, Chamrousse and Serre Chevalier, plus Val Thorens and Les Menuires in the Belleville valley: meals, chalets, Shabbat, holidays, minyan and Sefer Torah.</li>
 <li><b>The Courchevel side.</b> Courchevel 1850 and Megève have a Chabad house in winter: we coordinate with it for your minyan and your Shabbat.</li>
+<li><b>Resort by resort.</b> <a href="../kosher-val-thorens/">Val Thorens</a>, <a href="../kosher-courchevel/">Courchevel</a>, <a href="../kosher-megeve/">Megève</a>, <a href="../kosher-alpe-dhuez/">Alpe d'Huez</a>, <a href="../kosher-les-deux-alpes/">Les Deux Alpes</a>: what is published and what we organise in each.</li>
 <li><b>Any other resort.</b> Tignes, Val d'Isère, La Plagne, Les Arcs, Chamonix, Morzine: send your dates, we tell you the same day what is possible.</li>
 </ul>"""),
     dict(type="text", h2="Winter <i>and summer</i>", html="""<ul>
@@ -40,6 +42,7 @@ PAGE = dict(
       ("Is there a minyan in the resort?", "Courchevel 1850 and Megève have a Chabad house in winter. Elsewhere, a minyan depends on how many families are in the resort that week: give us your dates early and we group them, with a Sefer Torah."),
       ("Is the food strictly kosher?", "Yes. Our team in the Alps cooks under the Chabad network of the Alps. Ask for the supervision details in writing with your quote."),
       ("How far ahead should we ask?", "As early as you have your dates. Hanukkah, the February school holidays, Purim and Pesach fill up first. A minyan is easier to build when the team knows the families early."),
+      ('Can you organise the whole stay?', 'Yes. Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: the more complete the request, the better the team can work. The stay is quoted and invoiced by our kosher team based in the Alps.'),
       ("We land in Lyon on the way up. Is there something to do?", "Yes. A private 3 hour tour of Jewish Lyon with the Grande Synagogue, between the plane and the drive to the resort, 390 € per group: <a href='../tours/stopover/'>the Stopover</a>. Kosher shopping before you climb is on <a href='../lyon-gateway-to-the-alps-kosher/'>Lyon, the gateway to the Alps</a>."),
     ]),
     dict(type="cta", txt="Heading to the Alps this season?", msg="Hello, we are heading to the French Alps. Resort: / Dates: / Number of people: / We need (chef, delivered meals, Shabbat, holiday, minyan):"),

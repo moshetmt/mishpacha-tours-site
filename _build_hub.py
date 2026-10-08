@@ -55,6 +55,11 @@ GROUPS = [
  ("The Alps, <i>strictly kosher</i>", [
   ("alps/", "stock/alpes-ski.jpg", "The Alps, strictly kosher", "Chef, meals, Shabbat, holidays, minyan: how it works, resort by resort"),
   ("kosher-services-french-alps/", "stock/hallah.jpg", "Kosher services in the Alps", "Chef, delivered meals, Shabbat, holidays, minyan and Sefer Torah, from Alpe d'Huez to Val Thorens"),
+  ("kosher-val-thorens/", "stock/alpes-ski.jpg", "Kosher in Val Thorens", "Chef, meals, Shabbat, holidays, minyan in Val Thorens: what is published, what we organise"),
+  ("kosher-courchevel/", "stock/alpes-ski.jpg", "Kosher in Courchevel", "Chef, meals, Shabbat, holidays, minyan in Courchevel: what is published, what we organise"),
+  ("kosher-megeve/", "stock/alpes-ski.jpg", "Kosher in Megève", "Chef, meals, Shabbat, holidays, minyan in Megève: what is published, what we organise"),
+  ("kosher-alpe-dhuez/", "stock/alpes-ski.jpg", "Kosher in Alpe d'Huez", "Chef, meals, Shabbat, holidays, minyan in Alpe d'Huez: what is published, what we organise"),
+  ("kosher-les-deux-alpes/", "stock/alpes-ski.jpg", "Kosher in Les Deux Alpes", "Chef, meals, Shabbat, holidays, minyan in Les Deux Alpes: what is published, what we organise"),
   ("../tours/stopover/", "c-traboule-1.jpg", "The Stopover, 3 hours", "Jewish Lyon and the Grande Synagogue between your flight and the drive up. 390 € per group"),
   ("kosher-ski-holidays-french-alps/", "stock/alpes-ski.jpg", "Kosher ski holidays", "Resorts with a minyan or a Chabad house in winter, Shabbat on the slopes"),
   ("lyon-gateway-to-the-alps-kosher/", "stock/alpes-montblanc.jpg", "Lyon, gateway to the Alps", "Drive times to the resorts, kosher shopping before you go up, the Stopover"),
