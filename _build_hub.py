@@ -54,6 +54,8 @@ GROUPS = [
  ]),
  ("The Alps, <i>strictly kosher</i>", [
   ("alps/", "stock/alpes-ski.jpg", "The Alps, strictly kosher", "Chef, meals, Shabbat, holidays, minyan: how it works, resort by resort"),
+  ("kosher-vacation-french-alps/", "stock/annecy-lac.jpg", "A kosher vacation in the Alps", "Your chalet, our chef, meals, Shabbat and minyan: winter and summer, resort of your choice"),
+  ("flights-to-lyon/", "stock/lyon-partdieu.jpg", "Flights to Lyon", "Direct flights from Tel Aviv, drive times to the resorts, three hours in Lyon on the way"),
   ("kosher-services-french-alps/", "stock/hallah.jpg", "Kosher services in the Alps", "Chef, delivered meals, Shabbat, holidays, minyan and Sefer Torah, from Alpe d'Huez to Val Thorens"),
   ("kosher-val-thorens/", "stock/alpes-ski.jpg", "Kosher in Val Thorens", "Chef, meals, Shabbat, holidays, minyan in Val Thorens: what is published, what we organise"),
   ("kosher-courchevel/", "stock/alpes-ski.jpg", "Kosher in Courchevel", "Chef, meals, Shabbat, holidays, minyan in Courchevel: what is published, what we organise"),
