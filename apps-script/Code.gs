@@ -78,7 +78,7 @@ function envoyerMail_(d, quand) {
     'Number of people: ' + (txt(d.personnes) || '(not specified)'),
     'Tour language: ' + (txt(d.langue) || '(not specified)'),
     'Name: ' + (txt(d.nom) || '(not specified)'),
-    'Email or WhatsApp: ' + (txt(d.contact) || '(not specified)'),
+    'WhatsApp / email: ' + (txt(d.contact) || '(not specified)'),
     'Message: ' + (txt(d.message) || '(empty)'),
     '',
     'Page: ' + (txt(d.page) || '/'),
