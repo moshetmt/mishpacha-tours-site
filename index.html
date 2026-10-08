@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mishpacha Tours - Jewish Tours of Lyon | Private, strictly kosher</title>
-<meta name="description" content="The only tour that takes you inside the Grande Synagogue of Lyon. Private Jewish tours with a Jewish, observant guide. Strictly kosher, shomer shabbat, per group.">
+<title>Mishpacha Tours - Jewish Tours of Lyon | Private, strictly kosher, Lyon and the Alps</title>
+<meta name="description" content="The only tour that takes you inside the Grande Synagogue of Lyon. Private Jewish tours with a Jewish, observant guide. Kosher services in the French Alps, via Lyon. Strictly kosher, shomer shabbat, per group.">
 <link rel="icon" href="img/favicon-hassid.svg?v=2" type="image/svg+xml">
 <link rel="icon" href="img/favicon-48.png?v=2" sizes="48x48" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png?v=2">
@@ -41,6 +41,7 @@
   <a class="logo" href="./" aria-label="Mishpacha Tours, Jewish Tours of Lyon"><img class="forme" src="img/picto-hassid.svg" alt="" width="68" height="95"><span class="mot">mishpacha tours</span></a>
   <nav class="liens" aria-label="Main">
     <a href="#tours">Tours</a>
+    <a href="/alps/">Alps</a>
     <a href="#why">Why Mishpacha</a>
     <a href="/jewish-lyon-guide/">Guide</a>
     <a href="#guide">Your guide</a>
@@ -61,6 +62,7 @@
 <div class="panneau" id="panneau" hidden>
   <nav aria-label="Menu">
     <a href="#tours">Tours</a>
+    <a href="/alps/">Alps</a>
     <a href="#why">Why Mishpacha</a>
     <a href="/jewish-lyon-guide/">Jewish Lyon guide</a>
     <a href="#guide">Your guide</a>
@@ -77,7 +79,7 @@
     <h1>The only tour that takes you inside the Grande Synagogue of Lyon.<br><i>Private, strictly kosher, shaped by you.</i></h1>
     <p>The Grande Synagogue on quai Tilsitt is closed to visitors outside the Heritage Days. With us, you go inside, with a guide who is Jewish, observant and part of Lyon's community.</p>
     <form class="chercheur" id="chercheur">
-      <label><span>Tour</span><select name="tour"><option>Jewish Lyon</option><option>Memory: the CHRD</option><option>Memory: Montluc and Neveh Shalom</option><option>Stopover</option><option>Izieu</option></select></label>
+      <label><span>Tour</span><select name="tour"><option>Jewish Lyon</option><option>Memory: the CHRD</option><option>Memory: Montluc and Neveh Shalom</option><option>Stopover</option><option>Izieu</option><option>Alps: kosher services</option></select></label>
       <div class="duo">
         <label><span>When are you in Lyon?</span><input name="dates" type="text" placeholder="12 to 15 October"></label>
         <label><span>People</span><input name="personnes" type="text" inputmode="numeric" placeholder="4"></label>
@@ -177,6 +179,20 @@
   <p class="petit">We walk in</p>
   <img class="marcheur" src="img/picto-hassid.svg" alt="" width="68" height="95">
   <p class="lieux"><span>Vieux Lyon</span><span>Rue Juiverie</span><span>Quai Tilsitt</span><span>Rue Sainte-Catherine</span><span>Montluc</span><span>Neveh Shalom</span><span>Izieu</span></p>
+</section>
+
+<section class="ss beige" id="alps">
+  <div class="wrap centre">
+    <h2>Heading to <i>the Alps</i>?</h2>
+    <p class="sous">Most families who ski in Val Thorens, Courchevel or Megève land in Lyon. One contact on the way up and in the resort.</p>
+  </div>
+  <div class="wrap">
+    <div class="hub-grille">
+      <a class="hub-carte" href="tours/stopover/"><div class="photo"><img src="img/c-traboule-1.jpg" alt="" loading="lazy"></div><div class="corps"><h3>The Stopover, 3 hours</h3><p>Jewish Lyon and the Grande Synagogue between your flight and the drive up. 390 € per group.</p><span class="btn-noir">Open</span></div></a>
+      <a class="hub-carte" href="kosher-services-french-alps/"><div class="photo"><img src="img/stock/hallah.jpg" alt="" loading="lazy"></div><div class="corps"><h3>Kosher services in the resort</h3><p>Chef, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One request, one quote.</p><span class="btn-noir">Open</span></div></a>
+      <a class="hub-carte" href="alps/"><div class="photo"><img src="img/stock/alpes-ski.jpg" alt="" loading="lazy"></div><div class="corps"><h3>The Alps via Lyon</h3><p>Drive times, kosher shopping before you climb, ski in winter, lakes in summer.</p><span class="btn-noir">Open</span></div></a>
+    </div>
+  </div>
 </section>
 
 <section class="ss wrap" id="why">
@@ -302,7 +318,7 @@ m.addEventListener('click',()=>{const o=pa.hidden;pa.style.top=document.querySel
 pa.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{pa.hidden=true;m.setAttribute('aria-expanded',false);document.body.classList.remove('menu-ouvert')}));
 document.querySelectorAll('.filtres button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filtres button').forEach(x=>{x.classList.toggle('actif',x===b);x.setAttribute('aria-pressed',x===b)});const t=b.dataset.type;document.querySelectorAll('.carte').forEach(c=>{c.hidden=t!=='all'&&c.dataset.type!==t});document.querySelector('.rail').scrollTo({left:0,behavior:'smooth'})}));
 if(matchMedia('(min-width:900px)').matches)document.querySelectorAll('.pied details').forEach(d=>d.open=true);
-document.getElementById('chercheur').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const t=`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`;window.open('https://wa.me/33767711259?text='+encodeURIComponent(t),'_blank','noopener')});
+document.getElementById('chercheur').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const t=`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`;window.open('https://wa.me/'+(/alp|אלפ/i.test(f.tour.value)?'33652092301':'33767711259')+'?text='+encodeURIComponent(t),'_blank','noopener')});
 </script>
 <script src="/config.js"></script>
 <script>
