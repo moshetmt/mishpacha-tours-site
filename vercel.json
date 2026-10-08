@@ -3,6 +3,6 @@
     { "source": "/(.*)", "has": [ { "type": "host", "value": "mishpacha-tours-site.vercel.app" } ], "destination": "https://mishpachatours.com/$1", "permanent": true }
   ],
   "headers": [
-    { "source": "/(.*)", "headers": [ { "key": "X-Robots-Tag", "value": "noindex, nofollow" }, { "key": "X-Content-Type-Options", "value": "nosniff" } ] }
+    { "source": "/(.*)", "headers": [ { "key": "X-Content-Type-Options", "value": "nosniff" } ] }
   ]
 }

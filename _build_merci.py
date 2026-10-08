@@ -14,7 +14,8 @@ def rel(s):
 h = rel(head)
 h = re.sub(r"<title>.*?</title>", "<title>Thank you | Mishpacha Tours, Jewish Tours of Lyon</title>", h)
 h = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="description" content="Your request has been received. We reply within one business day, never on Shabbat.">', h)
-h = h.replace('<meta name="robots" content="noindex">', '<meta name="robots" content="noindex, follow">')
+h = h.replace('<meta name="description"', '<meta name="robots" content="noindex, follow">
+<meta name="description"', 1)
 h = head_page(h, "/merci/", "Thank you | Mishpacha Tours", "Your request has been received.")
 body = '''<main>
 <section class="pratique-hero"><div class="wrap">
