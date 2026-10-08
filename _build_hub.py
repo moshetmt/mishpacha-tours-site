@@ -44,12 +44,12 @@ ticket = rel(home[home.index('<div class="ticket-zone"'):home.index('</main>')])
 GROUPS = [
  ("Eat, pray, <i>sleep</i>", [
   ("kosher-restaurants-lyon/", "stock/stjean-5.jpg", "Kosher in Lyon", "31 certified restaurants, bakeries, butchers and caterers, on the map"),
-  ("kosher-shabbat-meals-catering-lyon/", "stock/rose-3.jpg", "Shabbat meals and catering", "Seven certified caterers, Chabad tables, groceries for a Shabbat at home"),
+  ("kosher-shabbat-meals-catering-lyon/", "stock/hallah.jpg", "Shabbat meals and catering", "Six certified caterers, Chabad tables, groceries for a Shabbat at home"),
   ("synagogues-lyon/", "c-synagogue-7.jpg", "Synagogues and prayer times", "Seven Chabad houses first, the two historic synagogues, 25 minyanim, candle-lighting times this week"),
   ("shabbat-in-lyon/", "synagogue-tilsitt-arche.jpg", "Shabbat in Lyon", "Where to pray, how to eat, what closes on Friday, how to plan it"),
-  ("chabad-lyon/", "stock/boeuf-2.jpg", "Chabad houses", "Seven centres, a Shabbat table on request, a minyan near your hotel"),
-  ("mikveh-lyon/", "stock/rose-7.jpg", "Rue du Boeuf", "Eight mikvaot in Lyon and Villeurbanne, with phones and how to book"),
-  ("where-to-stay-lyon-jewish-travellers/", "stock/stjean-4.jpg", "Where to stay", "Three areas on foot from a synagogue, and what to ask a hotel for Shabbat"),
+  ("chabad-lyon/", "stock/lyon-tetedor.jpg", "Chabad houses", "Seven centres, a Shabbat table on request, a minyan near your hotel"),
+  ("mikveh-lyon/", "stock/rose-7.jpg", "Mikveh", "Eight mikvaot in Lyon and Villeurbanne, and how to book"),
+  ("where-to-stay-lyon-jewish-travellers/", "stock/lyon-terreaux.jpg", "Where to stay", "Three areas on foot from a synagogue, and what to ask a hotel for Shabbat"),
   ("jewish-cemetery-lyon/", "montluc-mur-des-fusilles.jpg", "The Jewish cemetery", "La Mouche, since 1795: hours, contact, finding a family grave"),
  ]),
  ("Places to <i>see</i>", [
@@ -61,13 +61,13 @@ GROUPS = [
   ("maison-izieu/", "c-izieu-8.jpg", "Maison d'Izieu", "The memorial to the 44 children, one hour from Lyon: hours, prices, our day"),
  ]),
  ("Plan the <i>trip</i>", [
-  ("jewish-lyon-itinerary-2-days/", "stock/rose-6.jpg", "A vaulted traboule passage, Vieux Lyon", "An itinerary built around kosher meals and Shabbat"),
-  ("jewish-travel-lyon-faq/", "stock/traboule-1.jpg", "A Renaissance gallery, rue Juiverie", "Getting there, kosher, Shabbat, security, prayer, our tours: 19 answers"),
-  ("is-lyon-safe-for-jewish-visitors/", "stock/stjean-6.jpg", "Is Lyon safe?", "Our security standard on every tour, the sourced facts, the practical steps"),
-  ("jewish-life-around-lyon/", "stock/izieu-2.jpg", "Around Lyon and the Alps", "Grenoble, Annecy, Aix-les-Bains, Courchevel, Megève: where to pray and eat"),
-  ("lyon-gateway-to-the-alps-kosher/", "stock/stjean-3.jpg", "Lyon, gateway to the Alps", "Drive times to the resorts, kosher shopping before you go up, the Stopover"),
-  ("kosher-ski-holidays-french-alps/", "stock/boeuf-4.jpg", "Kosher ski holidays", "Resorts with a minyan or a Chabad house in winter, Shabbat on the slopes"),
-  ("summer-in-the-alps-jewish-families/", "c-izieu-4.jpg", "A classroom of the Maison d'Izieu", "Annecy, Aix-les-Bains, Grenoble, Chamonix: a kosher summer in the mountains"),
+  ("jewish-lyon-itinerary-2-days/", "stock/rose-6.jpg", "Two days in Jewish Lyon", "An itinerary built around kosher meals and Shabbat"),
+  ("jewish-travel-lyon-faq/", "stock/lyon-partdieu.jpg", "The honest FAQ", "Getting there, kosher, Shabbat, security, prayer, our tours: 19 answers"),
+  ("is-lyon-safe-for-jewish-visitors/", "stock/lyon-bellecour.jpg", "Is Lyon safe?", "Our security standard on every tour, the sourced facts, the practical steps"),
+  ("jewish-life-around-lyon/", "stock/annecy-lac.jpg", "Around Lyon and the Alps", "Grenoble, Annecy, Aix-les-Bains, Courchevel, Megève: where to pray and eat"),
+  ("lyon-gateway-to-the-alps-kosher/", "stock/alpes-montblanc.jpg", "Lyon, gateway to the Alps", "Drive times to the resorts, kosher shopping before you go up, the Stopover"),
+  ("kosher-ski-holidays-french-alps/", "stock/alpes-ski.jpg", "Kosher ski holidays", "Resorts with a minyan or a Chabad house in winter, Shabbat on the slopes"),
+  ("summer-in-the-alps-jewish-families/", "stock/annecy-ete.jpg", "Summer in the Alps", "Annecy, Aix-les-Bains, Grenoble, Chamonix: a kosher summer in the mountains"),
   ("../tours/jewish-lyon/", "synagogue-tilsitt-galerie.jpg", "Inside the Grande Synagogue", "Closed to visitors outside the Heritage Days. The only tour that takes you in, by special authorisation"),
  ]),
 ]

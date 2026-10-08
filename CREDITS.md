@@ -2,6 +2,15 @@
 
 | Fichier | Titre Commons | Licence | Auteur | Source |
 |---|---|---|---|---|
+| img/stock/alpes-ski.jpg | File:Looking down the Mandarines slope, Megève, 2025.jpg | CC0 | DimiTalen | https://commons.wikimedia.org/wiki/File%3ALooking_down_the_Mandarines_slope%2C_Meg%C3%A8ve%2C_2025.jpg |
+| img/stock/alpes-montblanc.jpg | File:View of Megève and the Mont Blanc massif from Le Christomet, Megève, 2025.jpg | CC0 | DimiTalen | https://commons.wikimedia.org/wiki/File%3AView_of_Meg%C3%A8ve_and_the_Mont_Blanc_massif_from_Le_Christomet%2C_Meg%C3%A8ve%2C_2025.jpg |
+| img/stock/annecy-lac.jpg | File:Lac d'Annecy 2024 (1).jpg | CC0 | Protokitoy | https://commons.wikimedia.org/wiki/File%3ALac_d%27Annecy_2024_%281%29.jpg |
+| img/stock/annecy-ete.jpg | File:Bluer than Tahoe (19705283769).jpg | CC0 | Miwok from France | https://commons.wikimedia.org/wiki/File%3ABluer_than_Tahoe_%2819705283769%29.jpg |
+| img/stock/lyon-bellecour.jpg | File:Lyon 2e - Place Bellecour - Statue équestre de Louis XIV, après restauration 04.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_2e_-_Place_Bellecour_-_Statue_%C3%A9questre_de_Louis_XIV%2C_apr%C3%A8s_restauration_04.jpg |
+| img/stock/lyon-terreaux.jpg | File:Lyon 1er - Place des Terreaux - Depuis le balcon de l'hôtel de ville.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_1er_-_Place_des_Terreaux_-_Depuis_le_balcon_de_l%27h%C3%B4tel_de_ville.jpg |
+| img/stock/lyon-partdieu.jpg | File:Gare Part-Dieu (Lyon).jpg | CC0 | Sylvie burr | https://commons.wikimedia.org/wiki/File%3AGare_Part-Dieu_%28Lyon%29.jpg |
+| img/stock/hallah.jpg | File:Challah - November 2024 - Sarah Stierch 02.jpg | CC0 | Missvain | https://commons.wikimedia.org/wiki/File%3AChallah_-_November_2024_-_Sarah_Stierch_02.jpg |
+| img/stock/lyon-tetedor.jpg | File:Lyon 6e - Parc de la Tête d'Or - Lac - Pédalos.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_6e_-_Parc_de_la_T%C3%AAte_d%27Or_-_Lac_-_P%C3%A9dalos.jpg |
 | img/c-synagogue-4.jpg | File:Grande Synagogue Lyon PA00117987 2.jpg | CC BY-SA 3.0 | Alexmar983 | https://commons.wikimedia.org/wiki/File:Grande_Synagogue_Lyon_PA00117987_2.jpg |
 | img/c-synagogue-7.jpg | File:Lyon Grande Synagogue Maison 1.jpg | CC BY-SA 4.0 | Zairon | https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_1.jpg |
 | img/c-synagogue-8.jpg | File:Lyon Grande Synagogue Maison 2.jpg | CC BY-SA 4.0 | Zairon | https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_2.jpg |
@@ -20,10 +29,19 @@
 - `img/flags/*.svg` : Twemoji (Twitter), licence CC BY 4.0, https://github.com/twitter/twemoji
 
 
-## Stock de lieux (06/10/2026, 9 photos remplacées le 08/10/2026, Wikimedia Commons, licence lue par l'API)
+## Stock de lieux (06/10/2026, 9 photos remplacées et 9 photos ajoutées le 08/10/2026, Wikimedia Commons, licence lue par l'API)
 
 | Fichier | Titre Commons | Licence | Auteur | Source |
 |---|---|---|---|---|
+| img/stock/alpes-ski.jpg | File:Looking down the Mandarines slope, Megève, 2025.jpg | CC0 | DimiTalen | https://commons.wikimedia.org/wiki/File%3ALooking_down_the_Mandarines_slope%2C_Meg%C3%A8ve%2C_2025.jpg |
+| img/stock/alpes-montblanc.jpg | File:View of Megève and the Mont Blanc massif from Le Christomet, Megève, 2025.jpg | CC0 | DimiTalen | https://commons.wikimedia.org/wiki/File%3AView_of_Meg%C3%A8ve_and_the_Mont_Blanc_massif_from_Le_Christomet%2C_Meg%C3%A8ve%2C_2025.jpg |
+| img/stock/annecy-lac.jpg | File:Lac d'Annecy 2024 (1).jpg | CC0 | Protokitoy | https://commons.wikimedia.org/wiki/File%3ALac_d%27Annecy_2024_%281%29.jpg |
+| img/stock/annecy-ete.jpg | File:Bluer than Tahoe (19705283769).jpg | CC0 | Miwok from France | https://commons.wikimedia.org/wiki/File%3ABluer_than_Tahoe_%2819705283769%29.jpg |
+| img/stock/lyon-bellecour.jpg | File:Lyon 2e - Place Bellecour - Statue équestre de Louis XIV, après restauration 04.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_2e_-_Place_Bellecour_-_Statue_%C3%A9questre_de_Louis_XIV%2C_apr%C3%A8s_restauration_04.jpg |
+| img/stock/lyon-terreaux.jpg | File:Lyon 1er - Place des Terreaux - Depuis le balcon de l'hôtel de ville.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_1er_-_Place_des_Terreaux_-_Depuis_le_balcon_de_l%27h%C3%B4tel_de_ville.jpg |
+| img/stock/lyon-partdieu.jpg | File:Gare Part-Dieu (Lyon).jpg | CC0 | Sylvie burr | https://commons.wikimedia.org/wiki/File%3AGare_Part-Dieu_%28Lyon%29.jpg |
+| img/stock/hallah.jpg | File:Challah - November 2024 - Sarah Stierch 02.jpg | CC0 | Missvain | https://commons.wikimedia.org/wiki/File%3AChallah_-_November_2024_-_Sarah_Stierch_02.jpg |
+| img/stock/lyon-tetedor.jpg | File:Lyon 6e - Parc de la Tête d'Or - Lac - Pédalos.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_6e_-_Parc_de_la_T%C3%AAte_d%27Or_-_Lac_-_P%C3%A9dalos.jpg |
 | img/stock/boeuf-1.jpg | File:Lyon 5e - Rue du Bœuf, plaque.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File:Lyon_5e_-_Rue_du_Bœuf,_plaque.jpg |
 | img/stock/boeuf-2.jpg | File:Lyon 5e - Rue du Bœuf, square du Bœuf.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File:Lyon_5e_-_Rue_du_Bœuf,_square_du_Bœuf.jpg |
 | img/stock/boeuf-4.jpg | File:Lyon Rue du Boeuf.jpg | CC BY-SA 4.0 | Andrzej Otrębski | https://commons.wikimedia.org/wiki/File:Lyon_Rue_du_Boeuf.jpg |
@@ -59,6 +77,15 @@
 
 | Fichier | Titre Commons | Licence | Auteur | Source |
 |---|---|---|---|---|
+| img/stock/alpes-ski.jpg | File:Looking down the Mandarines slope, Megève, 2025.jpg | CC0 | DimiTalen | https://commons.wikimedia.org/wiki/File%3ALooking_down_the_Mandarines_slope%2C_Meg%C3%A8ve%2C_2025.jpg |
+| img/stock/alpes-montblanc.jpg | File:View of Megève and the Mont Blanc massif from Le Christomet, Megève, 2025.jpg | CC0 | DimiTalen | https://commons.wikimedia.org/wiki/File%3AView_of_Meg%C3%A8ve_and_the_Mont_Blanc_massif_from_Le_Christomet%2C_Meg%C3%A8ve%2C_2025.jpg |
+| img/stock/annecy-lac.jpg | File:Lac d'Annecy 2024 (1).jpg | CC0 | Protokitoy | https://commons.wikimedia.org/wiki/File%3ALac_d%27Annecy_2024_%281%29.jpg |
+| img/stock/annecy-ete.jpg | File:Bluer than Tahoe (19705283769).jpg | CC0 | Miwok from France | https://commons.wikimedia.org/wiki/File%3ABluer_than_Tahoe_%2819705283769%29.jpg |
+| img/stock/lyon-bellecour.jpg | File:Lyon 2e - Place Bellecour - Statue équestre de Louis XIV, après restauration 04.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_2e_-_Place_Bellecour_-_Statue_%C3%A9questre_de_Louis_XIV%2C_apr%C3%A8s_restauration_04.jpg |
+| img/stock/lyon-terreaux.jpg | File:Lyon 1er - Place des Terreaux - Depuis le balcon de l'hôtel de ville.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_1er_-_Place_des_Terreaux_-_Depuis_le_balcon_de_l%27h%C3%B4tel_de_ville.jpg |
+| img/stock/lyon-partdieu.jpg | File:Gare Part-Dieu (Lyon).jpg | CC0 | Sylvie burr | https://commons.wikimedia.org/wiki/File%3AGare_Part-Dieu_%28Lyon%29.jpg |
+| img/stock/hallah.jpg | File:Challah - November 2024 - Sarah Stierch 02.jpg | CC0 | Missvain | https://commons.wikimedia.org/wiki/File%3AChallah_-_November_2024_-_Sarah_Stierch_02.jpg |
+| img/stock/lyon-tetedor.jpg | File:Lyon 6e - Parc de la Tête d'Or - Lac - Pédalos.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_6e_-_Parc_de_la_T%C3%AAte_d%27Or_-_Lac_-_P%C3%A9dalos.jpg |
 | img/synagogue-tilsitt-arche.jpg | The Ark of the Grande Synagogue, quai Tilsitt | CC BY-SA 4.0 | FLLL | https://commons.wikimedia.org/wiki/User:FLLL |
 | img/synagogue-tilsitt-galerie.jpg | The women's gallery, Grande Synagogue, quai Tilsitt | CC BY-SA 4.0 | FLLL | https://commons.wikimedia.org/wiki/User:FLLL |
 | img/rue-juiverie-plaque.jpg | The street sign of rue Juiverie, Vieux Lyon | CC BY-SA 4.0 | Sebleouf | https://commons.wikimedia.org/wiki/User:Sebleouf |
