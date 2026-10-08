@@ -16,7 +16,6 @@ CHECKED = "7 October 2026"
 # ---------- 1. Casher : liste officielle Beth Din de Lyon uniquement ----------
 KOSHER = {
  "Meat restaurants": [
-  ("Café K","72 rue Dedieu, 69100 Villeurbanne","06 15 37 15 33",""),
   ("The Fifty and Five","8 rue Professeur-Weill, 69006 Lyon","06 46 40 68 34",""),
   ("Comptoir 43","43 rue Boileau, 69006 Lyon","06 27 12 50 51","grill"),
   ("Chez ViVi","39 avenue Marc-Sangnier, 69100 Villeurbanne","06 20 32 03 06",""),
@@ -55,7 +54,6 @@ KOSHER = {
   ("Lilly Market Écully","6 avenue Raymond-de-Veyssière, 69130 Écully","04 72 48 82 44",""),
  ],
  "Caterers": [
-  ("Choch & Lenny","15 rue Jean-Claude-Vivant, 69100 Villeurbanne","07 83 99 39 59",""),
   ("La Cerise sur le Gâteau","41 rue Alexandre-Boutin, 69100 Villeurbanne","04 26 18 33 11","pastry"),
   ("Mazal Corinne","3 rue Victor-Basch, 69100 Villeurbanne","06 86 46 33 85",""),
   ("Les Gourmandises de Maëlle","94 rue Hippolyte-Kahn, 69100 Villeurbanne","",""),
@@ -75,10 +73,12 @@ SYN_MAIN = [
       note="Beside the Institut culturel du judaïsme. The second synagogue we take you inside, on the Montluc and Neveh Shalom tour.", photo="synagogue-tilsitt-arche.jpg", lien="../tours/memory-montluc-neveh-shalom/"),
 ]
 SYN_AUTRES = [
- ("Lyon",[("Montchat","22 cours du Docteur-Long, 69003","06 09 24 57 78"),("Beth David","202 rue André-Philip, 69003","04 78 95 28 65"),("Beth-Habad Lyon 6","60 rue Crillon, 69006","06 25 30 90 38"),("Mizrahi","156 rue Cuvier, 69006","04 78 39 12 00"),("Chaare Tzedek","18 rue Saint-Mathieu, 69008","04 78 00 72 50"),("Patah Eliahou","3 impasse Professeur-Beauvisage, 69008","04 78 76 93 89"),("La Duchère, Rav Hida","501 avenue de la Sauvegarde, 69009","04 78 35 14 44")]),
+ ("Lyon",[("Montchat","22 cours du Docteur-Long, 69003","06 09 24 57 78"),("Beth-Habad Lyon 6","60 rue Crillon, 69006","06 25 30 90 38"),("Mizrahi","156 rue Cuvier, 69006","04 78 39 12 00"),("Chaare Tzedek","18 rue Saint-Mathieu, 69008","04 78 00 72 50"),("Patah Eliahou","3 impasse Professeur-Beauvisage, 69008","04 78 76 93 89"),("La Duchère, Rav Hida","501 avenue de la Sauvegarde, 69009","04 78 35 14 44")]),
  ("Villeurbanne",[("Beth-Menahem","293 rue Francis-de-Pressensé","04 78 68 02 03"),("Yeshiva Loubavitch","295 rue Francis-de-Pressensé","04 78 89 08 32"),("Beth Hamidrash","89 rue Magenta","04 78 79 92 58"),("Malherbe","4 rue Malherbe","04 78 84 04 32"),("Ysmah Lev","14 rue Pierre-Loti","04 72 80 99 53"),("Birkat Kohanim","19 rue Jean-Bourgey","04 78 68 18 75"),("Tal Orot","44 rue Hippolyte-Kahn","04 78 85 11 58"),("Hevrat Pinto","20 bis rue des Mûriers","04 78 03 89 14"),("Ohel Yaakov","26 rue Chevreul","04 78 84 09 55"),("Sidi Fredj Halimi","7 rue du Docteur-Frappaz","04 78 93 98 87"),("CERJ","80 rue Fontanières","04 78 84 30 14"),("Torat Emet","52 rue Hippolyte-Kahn","04 78 85 16 18"),("Em Habanim","6 rue d'Alsace","06 72 79 51 77"),("Merone","267 rue Francis-de-Pressensé","04 78 00 25 12"),("Malkhout David","13 bis rue Baudelaire","")]),
  ("Around Lyon",[("Caluire-et-Cuire","2 chemin des Bruyères, 69300","04 78 08 58 47"),("Saint-Fons","17 rue Albert-Thomas, 69190","04 78 67 39 78"),("Vénissieux","10 bis avenue de la Division-Leclerc, 69200","04 78 70 69 85"),("Bron","97 rue de la Pagère, 69500","04 78 41 88 33")]),
 ]
+
+N_MINYANIM = sum(len(items) for v, items in SYN_AUTRES)
 
 # ---------- 3. Chabad ----------
 CHABAD = [
@@ -87,7 +87,7 @@ CHABAD = [
  dict(nom="Chabad Loubavitch Villeurbanne", adresse="295 rue Francis-de-Pressensé, 69100 Villeurbanne", rav="Rabbi Schneor Zalmen Gurewitz", tel="04 78 89 08 32", note="The heart of Jewish Villeurbanne: synagogue Beth-Menahem, yeshiva and school on the same street."),
  dict(nom="Chabad on Campus Lyon", adresse="10 promenade Léa-et-Napoléon-Bullukian, 69008 Lyon", rav="Rabbi Eliezer Gurewitz", tel="", note="For students and young travellers."),
  dict(nom="Beth Habad Charpennes", adresse="86 cours Émile-Zola, 69100 Villeurbanne", rav="Rabbi Haim-Hillel Zekri", tel="06 50 82 11 81", note="At the Charpennes end of Villeurbanne, by the metro, between the 6th arrondissement and Gratte-Ciel."),
- dict(nom="Beth Habad Lyon 3", adresse="119 rue Servient, 69003 Lyon", rav="", tel="06 19 18 02 67", note="In the 3rd arrondissement, between Part-Dieu station and the Hypercacher grocery of rue Claudius-Pionchon."),
+ dict(nom="Beth Habad Lyon 3", adresse="119 rue Servient, 69003 Lyon", rav="Rabbi Eliezer (Lippe) Gurewitz", tel="06 19 18 02 67", note="In the 3rd arrondissement, between Part-Dieu station and the Hypercacher grocery of rue Claudius-Pionchon."),
  dict(nom="Beth Habad Écully", adresse="67 chemin du Tronchon, 69130 Écully", rav="Rabbi Lévy Gurewitz", tel="06 19 34 04 00", note="West of Lyon, near the Lilly Market grocery of Écully."),
 ]
 
@@ -175,13 +175,15 @@ page("kosher-restaurants-lyon","Kosher restaurants in Lyon and Villeurbanne",f"{
 
 # ===== 2. Synagogues =====
 cartes = "".join(f'''<article class="syn"><div class="photo"><img src="../img/{s['photo']}" alt="" loading="lazy"></div><div class="corps"><h2>{s['nom']}</h2><p class="adr">{s['adresse']}</p><dl><div><dt>Rite</dt><dd>{s['rite']}</dd></div><div><dt>Community</dt><dd>{s['aff']}</dd></div><div><dt>Prayer times</dt><dd>{s['horaires']}<br><small>Times change with the season. Check before you come.</small></dd></div><div><dt>Phone</dt><dd><a href="tel:{s['tel'].replace(' ','')}">{s['tel']}</a></dd></div></dl><p class="note-syn">{s['note']}</p><a class="btn-noir" href="{s['lien']}">See the tour</a></div></article>''' for s in SYN_MAIN)
+habad_lis = "".join(f'<li><b>{c["nom"]}</b><span>{c["adresse"]}</span><span class="liens"><a class="go" href="{gmaps(c["adresse"])}" target="_blank" rel="noopener">Map</a>{("<a href=\"tel:"+c["tel"].replace(" ","")+"\">"+c["tel"]+"</a>") if c["tel"] else ""}</span></li>' for c in CHABAD)
 autres = ""
 for ville, items in SYN_AUTRES:
     lis = "".join(f'<li><b>{n}</b><span>{a}</span><span class="liens"><a class="go" href="{gmaps(a if "69" in a else a+", 69100 Villeurbanne")}" target="_blank" rel="noopener">Map</a>{("<a href=\"tel:"+t.replace(" ","")+"\">"+t+"</a>") if t else ""}</span></li>' for n,a,t in items)
     autres += f'<section class="groupe"><h2>{ville} <small>{len(items)}</small></h2><ul class="liste-lieux">{lis}</ul></section>'
 body = f'''<main>
-{hero("flat-jewish-lyon.png","Synagogues in Lyon","Where the community prays, and when Shabbat comes in","Lyon has two large synagogues and 26 neighbourhood minyanim, most of them in Villeurbanne. Visitors are welcome at prayer: arrive a few minutes early, have your ID with you, and expect a security check at the door, as in every synagogue in France today. For a minyan near your hotel, message us.",["2 main synagogues","26 neighbourhood minyanim","Security check at the door"])}
-<section class="ss wrap"><h2 class="centre">The two <i>main</i> synagogues</h2><div class="syns">{cartes}</div></section>
+{hero("flat-jewish-lyon.png","Synagogues in Lyon","Where the community prays, and when Shabbat comes in",f"Lyon has seven Chabad houses, two large historic synagogues and {N_MINYANIM} neighbourhood minyanim, most of them in Villeurbanne. For prayer, a Shabbat meal or any question on the ground, start with a Chabad house: they welcome travellers every day. Visitors are welcome at prayer everywhere: arrive a few minutes early, have your ID with you, and expect a security check at the door, as in every synagogue in France today. For a minyan near your hotel, message us.",["7 Chabad houses first","2 historic synagogues",f"{N_MINYANIM} neighbourhood minyanim"])}
+<section class="ss wrap"><h2 class="centre">Start with <i>Chabad</i></h2><p class="sous centre">Seven Chabad houses in Lyon, Villeurbanne and Écully welcome travellers every day: prayer, a Shabbat meal, kosher advice. Our first recommendation, before any other address.</p><ul class="liste-lieux">{habad_lis}</ul><p class="centre"><a href="../chabad-lyon/">Everything about Chabad in Lyon</a></p></section>
+<section class="ss wrap"><h2 class="centre">The two <i>historic</i> synagogues</h2><div class="syns">{cartes}</div></section>
 <section class="ss wrap">{SHABBAT}</section>
 <section class="ss wrap conseils">
   <h2>Shabbat in <i>Lyon</i></h2>
@@ -197,7 +199,7 @@ body = f'''<main>
 {cta("Looking for a minyan near your hotel?","Hello, I am looking for a minyan in Lyon during my trip. Dates: / Neighbourhood:")}
 {ticket}
 </main>'''
-page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"The Grande Synagogue de Lyon, Neveh Chalom and 26 minyanim in Lyon and Villeurbanne: addresses, phones, prayer times. Checked {CHECKED}.",body, [itemlist("Synagogues and minyanim in Lyon and Villeurbanne", [place(s2["nom"], s2["adresse"], s2.get("tel", ""), ["Synagogue", "TouristAttraction"], GEO_CACHE.get(s2["adresse"])) for s2 in SYN_MAIN] + [place(n, _full(a), t, "Synagogue", GEO_CACHE.get(_full(a))) for v, items in SYN_AUTRES for n, a, t in items])])
+page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"Seven Chabad houses, the Grande Synagogue de Lyon, Neveh Chalom and {N_MINYANIM} minyanim in Lyon and Villeurbanne: addresses, phones, prayer times. Checked {CHECKED}.",body, [itemlist("Synagogues and minyanim in Lyon and Villeurbanne", [place(s2["nom"], s2["adresse"], s2.get("tel", ""), ["Synagogue", "TouristAttraction"], GEO_CACHE.get(s2["adresse"])) for s2 in SYN_MAIN] + [place(n, _full(a), t, "Synagogue", GEO_CACHE.get(_full(a))) for v, items in SYN_AUTRES for n, a, t in items])])
 
 # ===== 3. Chabad =====
 cartes = "".join(f'''<article class="chabad"><h2>{c['nom']}</h2><p class="adr">{c['adresse']}</p><p class="rav">{c['rav']}</p>{("<a class=\"tel\" href=\"tel:"+c['tel'].replace(' ','')+"\">"+c['tel']+"</a>") if c['tel'] else ""}<p class="note-syn">{c['note']}</p></article>''' for c in CHABAD)

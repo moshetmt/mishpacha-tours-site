@@ -45,7 +45,7 @@ GROUPS = [
  ("Eat, pray, <i>sleep</i>", [
   ("kosher-restaurants-lyon/", "stock/stjean-5.jpg", "Kosher in Lyon", "36 certified restaurants, bakeries, butchers and caterers, on the map"),
   ("kosher-shabbat-meals-catering-lyon/", "stock/rose-3.jpg", "Shabbat meals and catering", "Seven certified caterers, Chabad tables, groceries for a Shabbat at home"),
-  ("synagogues-lyon/", "c-synagogue-7.jpg", "Synagogues and prayer times", "The two main synagogues, 26 minyanim, candle-lighting times this week"),
+  ("synagogues-lyon/", "c-synagogue-7.jpg", "Synagogues and prayer times", "Seven Chabad houses first, the two historic synagogues, 25 minyanim, candle-lighting times this week"),
   ("shabbat-in-lyon/", "synagogue-tilsitt-arche.jpg", "Shabbat in Lyon", "Where to pray, how to eat, what closes on Friday, how to plan it"),
   ("chabad-lyon/", "stock/boeuf-2.jpg", "Chabad houses", "Seven centres, a Shabbat table on request, a minyan near your hotel"),
   ("mikveh-lyon/", "stock/rose-7.jpg", "Mikveh", "Eight mikvaot in Lyon and Villeurbanne, with phones and how to book"),
