@@ -123,11 +123,12 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/fr/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:(c('indicatif')+' '+c('tel').replace(/[^0-9]/g,'')).trim()+(c('email')?' / '+c('email'):''),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/fr/merci/'})})();
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Bonjour%2C%20nous%20souhaitons%20des%20services%20casher%20dans%20les%20Alpes.%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Services%20%28chalet%20avec%20chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
-<a class="wa-flottant" href="https://wa.me/33652092301?text=Bonjour%2C%20nous%20souhaitons%20des%20services%20casher%20dans%20les%20Alpes.%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Services%20%28chalet%20avec%20chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
+
 </body>
 </html>
