@@ -27,6 +27,7 @@ PAGE = dict(
     dict(type="beige", h2="The resorts <i>we cover</i>", html="""<ul>
 <li><b>The Grenoble side.</b> Alpe d'Huez, Les Deux Alpes, Chamrousse and Serre Chevalier, plus Val Thorens and Les Menuires in the Belleville valley: meals, chalets, Shabbat, holidays, minyan and Sefer Torah.</li>
 <li><b>The Courchevel side.</b> Courchevel 1850 and Megève have a Chabad house in winter: we coordinate with it for your minyan and your Shabbat.</li>
+<li><b>A kosher chalet in Les Deux Alpes.</b> <a href="../kosher-chalet-les-deux-alpes/">300 m², 7 bedrooms, 15 beds, 2 minutes from the slopes</a>, with a private chef, Shabbat and the holidays, and the whole stay organised around it. One written quote.</li>
 <li><b>Resort by resort.</b> <a href="../kosher-val-thorens/">Val Thorens</a>, <a href="../kosher-courchevel/">Courchevel</a>, <a href="../kosher-megeve/">Megève</a>, <a href="../kosher-alpe-dhuez/">Alpe d'Huez</a>, <a href="../kosher-les-deux-alpes/">Les Deux Alpes</a>, <a href="../kosher-grenoble/">Grenoble</a>, <a href="../kosher-annecy/">Annecy</a>, <a href="../kosher-chamonix/">Chamonix</a>, <a href="../kosher-les-arcs/">Les Arcs</a>, <a href="../kosher-la-plagne/">La Plagne</a>, <a href="../kosher-val-disere/">Val d'Isère</a>: what is published and what we organise in each.</li>
 <li><b>Any other resort.</b> Tignes, Val d'Isère, La Plagne, Les Arcs, Chamonix, Morzine: send your dates, we tell you the same day what is possible.</li>
 </ul>"""),

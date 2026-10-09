@@ -62,6 +62,7 @@ GROUPS = [
   ("kosher-megeve/", "stock/alpes-ski.jpg", "Kosher in Megève", "Chef, meals, Shabbat, holidays, minyan in Megève: what is published, what we organise"),
   ("kosher-alpe-dhuez/", "stock/alpes-ski.jpg", "Kosher in Alpe d'Huez", "Chef, meals, Shabbat, holidays, minyan in Alpe d'Huez: what is published, what we organise"),
   ("kosher-les-deux-alpes/", "stock/alpes-ski.jpg", "Kosher in Les Deux Alpes", "Chef, meals, Shabbat, holidays, minyan in Les Deux Alpes: what is published, what we organise"),
+  ("kosher-chalet-les-deux-alpes/", "stock/alpes-ski.jpg", "Kosher chalet in Les Deux Alpes", "300 m², 7 bedrooms, 15 beds, 2 minutes from the slopes: chef, Shabbat, everything arranged"),
   ("kosher-grenoble/", "stock/alpes-ski.jpg", "Kosher in Grenoble", "Your base for the Isère resorts: chef, meals, Shabbat, minyan, from the city to Chamrousse and Alpe d'Huez"),
   ("kosher-annecy/", "stock/alpes-ski.jpg", "Kosher in Annecy", "The lake in summer, La Clusaz and Le Grand-Bornand in winter: chef, meals, Shabbat, minyan"),
   ("kosher-chamonix/", "stock/alpes-ski.jpg", "Kosher in Chamonix", "Under Mont Blanc, winter and summer: chef, meals, Shabbat, holidays, minyan"),
