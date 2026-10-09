@@ -13,7 +13,7 @@
  * ---------------------------------------------------------------------
  */
 
-var DEST_EMAIL = 'contact@mishpachatours.com';
+var DEST_EMAIL = 'contact@mishpachatours.com, mochetimsit@gmail.com';
 var ENTETE = ['Date', 'Tour', 'Dates', 'Nombre de personnes', 'Langue', 'Nom',
               'Email ou WhatsApp', 'Message', 'Page', 'Source'];
 var TZ = 'Europe/Paris';
