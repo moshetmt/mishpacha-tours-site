@@ -6,11 +6,10 @@
  * contact@mishpachatours.com via MailApp.
  *
  * INSTALLATION (a faire par l'operateur, voir README.md)
- *   1. Google Sheets : creer une feuille nommee "Mishpacha - Leads".
- *   2. Extensions > Apps Script, coller ce fichier en entier, Enregistrer.
- *   3. Deployer > Nouveau deploiement > type "Application web".
- *      Executer en tant que : Moi. Qui a acces : Tout le monde.
- *   4. Copier l'URL /exec et la coller dans index.html (voir README.md).
+ *   Projet cree et deploye par l'API (scripts/creer_apps_script_mishpacha.py, 08/10/2026).
+ *   La feuille "Mishpacha - Leads" est creee au premier envoi (voir feuille_).
+ *   Autorisation : ouvrir le script, executer urlFeuille() une fois, accepter.
+ *   L'URL /exec vit dans config.js.
  * ---------------------------------------------------------------------
  */
 
@@ -59,13 +58,30 @@ function doGet(e) {
 }
 
 function feuille_() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sh = ss.getActiveSheet();
+  // Script autonome (cree par l'API le 08/10/2026) : la feuille "Mishpacha - Leads" est creee au premier envoi
+  // et son identifiant garde dans les proprietes du script. Pas de feuille liee.
+  var props = PropertiesService.getScriptProperties();
+  var id = props.getProperty('SHEET_ID');
+  var ss = null;
+  if (id) { try { ss = SpreadsheetApp.openById(id); } catch (err) { ss = null; } }
+  if (!ss) {
+    ss = SpreadsheetApp.create('Mishpacha - Leads');
+    props.setProperty('SHEET_ID', ss.getId());
+  }
+  var sh = ss.getSheets()[0];
   if (sh.getLastRow() === 0) {
     sh.appendRow(ENTETE);
     sh.setFrozenRows(1);
   }
   return sh;
+}
+
+function urlFeuille() {
+  // A lancer une fois dans l'editeur : autorise le script et affiche l'URL de la feuille.
+  var sh = feuille_();
+  var url = sh.getParent().getUrl();
+  Logger.log(url);
+  return url;
 }
 
 function envoyerMail_(d, quand) {
