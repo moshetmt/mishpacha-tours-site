@@ -76,7 +76,7 @@
   <div class="wrap">
     <p class="fil"><a href="../">Home</a> / <a href="../#before">Before you come</a> / Synagogues in Lyon</p>
     <div class="pratique-tete">
-      <div><h1>Synagogues in Lyon<br><i>Where the community prays, and when Shabbat comes in</i></h1><p class="intro-fiche">Lyon has seven Chabad houses, two large historic synagogues and 25 neighbourhood minyanim, most of them in Villeurbanne. For prayer, a Shabbat meal or any question on the ground, start with a Chabad house: they welcome travellers every day. Visitors are welcome at prayer everywhere: arrive a few minutes early, have your ID with you, and expect a security check at the door, as in every synagogue in France today. For a minyan near your hotel, message us.</p><ul class="chips"><li>7 Chabad houses first</li><li>2 historic synagogues</li><li>25 neighbourhood minyanim</li></ul></div>
+      <div><h1>Synagogues in Lyon<br><i>Where the community prays, and when Shabbat comes in</i></h1><p class="intro-fiche">Lyon has seven Chabad houses, two large historic synagogues and 25 neighbourhood minyanim, most of them in Villeurbanne. For prayer, a Shabbat meal or any question on the ground, start with a Chabad house: they welcome travellers every day. Visitors are welcome at prayer everywhere: arrive a few minutes early, have your ID with you, and expect a security check at the door, as in every synagogue in France today. For a minyan near your hotel, message us.</p><ul class="chips"><li>7 Chabad houses first</li><li>2 historic synagogues</li><li>25 neighbourhood minyanim</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20the%20Jewish%20Lyon%20tour%2C%20the%20one%20that%20goes%20inside%20the%20Grande%20Synagogue.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>
       <img src="../img/illus/flat-jewish-lyon.png" alt="" width="700" height="700">
     </div>
   </div>
@@ -123,7 +123,7 @@ fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=en").th
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Tours</summary><p>Jewish Lyon<br>Memory: CHRD<br>Memory: Montluc and Neveh Shalom<br>Stopover<br>Izieu</p></details>
     <details><summary>When we run</summary><p>Sunday to Friday morning<br>No tours on Shabbat and Jewish holidays<br>English, French or Spanish</p></details>
     <details><summary>Good to know</summary><p>Prices per group, never per person<br>Free cancellation up to 24 hours before<br>Security escort on request</p></details>
@@ -150,5 +150,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20the%20Jewish%20Lyon%20tour%2C%20the%20one%20that%20goes%20inside%20the%20Grande%20Synagogue.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>

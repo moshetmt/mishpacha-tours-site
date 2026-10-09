@@ -153,7 +153,7 @@
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Tours</summary><p>Jewish Lyon<br>Memory: CHRD<br>Memory: Montluc and Neveh Shalom<br>Stopover<br>Izieu</p></details>
     <details><summary>When we run</summary><p>Sunday to Friday morning<br>No tours on Shabbat and Jewish holidays<br>English, French or Spanish</p></details>
     <details><summary>Good to know</summary><p>Prices per group, never per person<br>Free cancellation up to 24 hours before<br>Security escort on request</p></details>
@@ -175,5 +175,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:(c('indicatif')+' '+c('tel').replace(/[^0-9]/g,'')).trim()+(c('email')?' / '+c('email'):''),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/merci/'})})();
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20the%20Memory%20tour%2C%20Montluc%20and%20Neveh%20Shalom%20booking.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>

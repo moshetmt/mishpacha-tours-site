@@ -74,10 +74,10 @@
 
 <main>
 <section class="pratique-hero"><div class="wrap"><p class="fil"><a href="/fr/">Accueil</a> / Confidentialité</p>
-  <div class="pratique-tete"><div><h1>Confidentialité<br><i>ce que nous conservons, et pourquoi</i></h1><p class="intro-fiche">Nous collectons ce qu’il faut pour vous répondre et organiser votre visite, rien d’autre. Cette page indique ce que c’est, où cela est stocké et comment le faire supprimer.</p><ul class="chips"><li>RGPD</li><li>Aucun cookie publicitaire</li><li>Données conservées 3 ans</li></ul></div>
+  <div class="pratique-tete"><div><h1>Confidentialité<br><i>ce que nous conservons, et pourquoi</i></h1><p class="intro-fiche">Nous collectons ce qu’il faut pour vous répondre et organiser votre visite, rien d’autre. Cette page indique ce que c’est, où cela est stocké et comment le faire supprimer.</p><ul class="chips"><li>RGPD</li><li>Aucun cookie publicitaire</li><li>Données conservées 3 ans</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Bonjour%2C%20je%20voudrais%20des%20informations%20sur%20vos%20services.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Écrire sur WhatsApp</a><a class="pill" href="#book">Demander un devis</a></p></div>
   <img src="/img/illus/line-private.png" alt="" width="700" height="700"></div>
 </div></section>
-<section class="ss wrap conseils"><h2>Qui est <i>responsable</i></h2><p>Mishpacha Tours, entreprise individuelle immatriculée à Lyon, France. Contact : <a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a>, WhatsApp +33 7 67 71 12 59.</p></section><section class="ss wrap conseils"><h2>Notre <i>collectons</i></h2><ul>
+<section class="ss wrap conseils"><h2>Qui est <i>responsable</i></h2><p>Mishpacha Tours, entreprise individuelle immatriculée à Lyon, France. Contact : <a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a>, WhatsApp +33 6 52 09 23 01.</p></section><section class="ss wrap conseils"><h2>Notre <i>collectons</i></h2><ul>
 <li><b>Lorsque vous envoyez le formulaire de réservation :</b> la visite, vos dates, le nombre de personnes, la langue, votre nom et une adresse e-mail ou un numéro WhatsApp. Le formulaire écrit une ligne dans une feuille Google privée et nous envoie un e-mail. Base légale : mesures précontractuelles.</li>
 <li><b>Lorsque vous écrivez sur WhatsApp ou par e-mail :</b> vos messages et votre numéro ou adresse, conservés dans ces services selon leurs propres conditions.</li>
 <li><b>Lorsque vous visitez le site :</b> rien de notre part. Le site ne dépose aucun cookie et n’exécute aucun script d’analyse ni de publicité. Notre hébergeur (Vercel) conserve des journaux de serveur standard pour la sécurité. Les pages avec carte chargent des tuiles depuis OpenStreetMap et les horaires de Shabbat depuis Hebcal : ces services voient votre adresse IP au chargement de la page.</li>
@@ -87,7 +87,7 @@
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Visites</summary><p>Lyon juif<br>Mémoire : CHRD<br>Mémoire : Montluc et Neveh Shalom<br>Escale à Lyon<br>Izieu</p></details>
     <details><summary>Jours de visite</summary><p>Du dimanche au vendredi matin<br>Aucune visite le Shabbat ni les jours de fête juive<br>Anglais, français ou espagnol</p></details>
     <details><summary>Bon à savoir</summary><p>Prix par groupe, jamais par personne<br>Annulation gratuite jusqu’à 24 heures avant<br>Escorte de sécurité sur demande</p></details>
@@ -109,5 +109,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/fr/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:c('contact'),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/fr/merci/'})})();
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Bonjour%2C%20je%20voudrais%20des%20informations%20sur%20vos%20services.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>

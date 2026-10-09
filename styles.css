@@ -447,3 +447,13 @@ body.menu-ouvert{overflow:hidden}
 .liste-lieux.stations li{grid-template-columns:1fr auto}
 .liste-lieux.stations em{grid-column:1/-1;font-style:normal;font-size:13px;opacity:.75;margin-top:4px}
 @media (min-width:900px){.hub-grille{grid-template-columns:repeat(3,1fr);gap:24px}}
+
+/* CTA : hero, apres les etapes, bouton flottant (08/10) */
+.cta-hero{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:18px 0 0}
+.cta-hero .pill{margin-top:0}
+.cta-hero.centre{justify-content:center}
+.cta-etapes{margin-top:-8px;margin-bottom:40px}
+.wa-flottant{position:fixed;right:16px;bottom:16px;z-index:30;display:inline-flex;align-items:center;gap:8px;min-height:50px;padding:0 18px 0 14px;border-radius:999px;background:var(--encre);color:var(--blanc);font-size:15px;font-weight:600;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.22)}
+.wa-flottant svg{width:24px;height:24px;fill:var(--jaune)}
+[dir=rtl] .wa-flottant{right:auto;left:16px}
+@media(max-width:600px){.wa-flottant span{display:none}.wa-flottant{padding:0 13px;min-height:52px}}

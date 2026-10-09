@@ -73,7 +73,7 @@
 
 <main>
 <section class="pratique-hero"><div class="wrap"><p class="fil"><a href="../">Home</a> / <a href="../jewish-lyon-guide/">Jewish Lyon guide</a> / Shabbat in Lyon</p>
-  <div class="pratique-tete"><div><h1>Shabbat in Lyon<br><i>how to keep it, step by step</i></h1><p class="intro-fiche">You can keep Shabbat well in Lyon if you plan it before you land. The Grande Synagogue and Neveh Chalom hold services, Chabad houses host on request, and kosher caterers cook for the weekend. Settle three things before you arrive: where you sleep, who feeds you, and how you carry.</p><ul class="chips"><li>Candle lighting times below</li><li>7 Chabad houses, 2 historic synagogues</li><li>No public eruv published</li><li>Checked 7 October 2026</li></ul></div>
+  <div class="pratique-tete"><div><h1>Shabbat in Lyon<br><i>how to keep it, step by step</i></h1><p class="intro-fiche">You can keep Shabbat well in Lyon if you plan it before you land. The Grande Synagogue and Neveh Chalom hold services, Chabad houses host on request, and kosher caterers cook for the weekend. Settle three things before you arrive: where you sleep, who feeds you, and how you carry.</p><ul class="chips"><li>Candle lighting times below</li><li>7 Chabad houses, 2 historic synagogues</li><li>No public eruv published</li><li>Checked 7 October 2026</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Hello%2C%20I%20am%20coming%20to%20Lyon%20for%20Shabbat.%20Dates%3A%20/%20Hotel%20or%20neighbourhood%3A%20/%20Number%20of%20people%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>
   <img src="../img/illus/line-shabbat.png" alt="" width="700" height="700"></div>
 </div></section>
 <section class="ss wrap"><div class="shabbat" id="shabbat"><p class="shabbat-titre">Shabbat in Lyon this week</p><p class="shabbat-corps">Candle lighting in Lyon falls as early as 16:30 in December and after 21:00 in June. <a href="https://www.hebcal.com/shabbat?geonameid=2996944" rel="noopener">This week's exact times on Hebcal</a>.</p></div>
@@ -103,7 +103,7 @@ fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=en").th
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Tours</summary><p>Jewish Lyon<br>Memory: CHRD<br>Memory: Montluc and Neveh Shalom<br>Stopover<br>Izieu</p></details>
     <details><summary>When we run</summary><p>Sunday to Friday morning<br>No tours on Shabbat and Jewish holidays<br>English, French or Spanish</p></details>
     <details><summary>Good to know</summary><p>Prices per group, never per person<br>Free cancellation up to 24 hours before<br>Security escort on request</p></details>
@@ -125,5 +125,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:(c('indicatif')+' '+c('tel').replace(/[^0-9]/g,'')).trim()+(c('email')?' / '+c('email'):''),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/merci/'})})();
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Hello%2C%20I%20am%20coming%20to%20Lyon%20for%20Shabbat.%20Dates%3A%20/%20Hotel%20or%20neighbourhood%3A%20/%20Number%20of%20people%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>

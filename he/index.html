@@ -303,7 +303,7 @@
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>יצירת קשר</summary><p><a href="https://wa.me/33652092301" rel="noopener">וואטסאפ ‎+33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>יצירת קשר</summary><p><a href="https://wa.me/33652092301" rel="noopener">וואטסאפ ‎+33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>סיורים</summary><p>ליון היהודית<br>זיכרון: ה-CHRD<br>זיכרון: מונלוק ונווה שלום<br>עצירת ביניים<br>איזיה</p></details>
     <details><summary>מתי אנו פועלים</summary><p>מיום ראשון עד יום שישי בבוקר<br>אין סיורים בשבת ובחגים היהודיים<br>אנגלית, צרפתית או ספרדית</p></details>
     <details><summary>טוב לדעת</summary><p>מחיר לקבוצה, לעולם לא לאדם<br>ביטול ללא עלות עד 24 שעות לפני<br>ליווי אבטחה לפי בקשה</p></details>
@@ -322,5 +322,6 @@ if(matchMedia('(min-width:900px)').matches)document.querySelectorAll('.pied deta
 document.getElementById('chercheur').addEventListener('submit',e=>{e.preventDefault();const f=e.target;const t=`שלום, אשמח לבדוק זמינות לסיור ${f.tour.value}. תאריכים: ${f.dates.value||'/'} / מספר משתתפים: ${f.personnes.value||'/'} / שפה מועדפת:`;window.open('https://wa.me/33652092301?text='+encodeURIComponent(t),'_blank','noopener')});
 </script><script src="/config.js"></script><script>
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/he/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:(c('indicatif')+' '+c('tel').replace(/[^0-9]/g,'')).trim()+(c('email')?' / '+c('email'):''),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/he/merci/'})})();
-</script></body>
+</script><a class="wa-flottant" href="https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%9E%D7%99%D7%93%D7%A2%20%D7%A2%D7%9C%20%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%D7%A9%D7%9C%D7%9B%D7%9D.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20/%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%A0%D7%A9%D7%99%D7%9D%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
+</body>
 </html>

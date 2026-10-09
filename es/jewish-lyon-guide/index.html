@@ -76,7 +76,7 @@
 <section class="pratique-hero"><div class="wrap">
   <p class="fil"><a href="/es/">Inicio</a> / Guía del Lyon judío</p>
   <div class="pratique-tete"><div><h1>Lyon judío, <i>la guía completa</i></h1><p class="intro-fiche">Todo lo que un viajero judío necesita en Lyon y en los Alpes, a cargo de una guía que vive aquí: dónde comer kosher, dónde rezar, cuándo entra el Shabat, a quién llamar. Cada dirección procede del Beth Din, del Consistoire o de la propia comunidad, con un mapa y un número de teléfono.</p>
-  <ul class="chips"><li>21 guías, más de 80 direcciones</li><li>Mapas e indicaciones</li><li>Horarios de Shabat, en directo</li><li>Revisado el 7 de octubre de 2026</li></ul></div>
+  <ul class="chips"><li>21 guías, más de 80 direcciones</li><li>Mapas e indicaciones</li><li>Horarios de Shabat, en directo</li><li>Revisado el 7 de octubre de 2026</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20preparo%20un%20viaje%20a%20Lyon%20y%20tengo%20algunas%20preguntas.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Escribir por WhatsApp</a><a class="pill" href="#book">Pedir presupuesto</a></p></div>
   <img src="/img/illus/flat-jewish-lyon.png" alt="" width="700" height="700"></div>
 </div></section>
 <section class="ss wrap"><div class="shabbat" id="shabbat"><p class="shabbat-titre">Shabat en Lyon esta semana</p><p class="shabbat-corps">El encendido de velas en Lyon cae hacia las 16:30 en diciembre y después de las 21:00 en junio. <a href="https://www.hebcal.com/shabbat?geonameid=2996944" rel="noopener">Los horarios exactos de esta semana en Hebcal</a>.</p></div>
@@ -115,7 +115,7 @@ fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=es").th
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contacto</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contacto</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Visitas</summary><p>Lyon judío<br>Memoria: CHRD<br>Memoria: Montluc y Neveh Shalom<br>Escala<br>Izieu</p></details>
     <details><summary>Horarios</summary><p>De domingo a viernes por la mañana<br>Sin visitas en Shabat ni en las fiestas judías<br>Inglés, francés o español</p></details>
     <details><summary>Conviene saber</summary><p>Precios por grupo, nunca por persona<br>Cancelación gratuita hasta 24 horas antes<br>Escolta de seguridad bajo petición</p></details>
@@ -142,5 +142,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20preparo%20un%20viaje%20a%20Lyon%20y%20tengo%20algunas%20preguntas.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>

@@ -11,7 +11,7 @@ PAGE = dict(
   crumb=None,
   ticket=False,
   sections=[
-    dict(type="text", h2="Who is <i>responsible</i>", html="""<p>Mishpacha Tours, a sole-trader business registered in Lyon, France. Contact: <a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a>, WhatsApp +33 7 67 71 12 59.</p>"""),
+    dict(type="text", h2="Who is <i>responsible</i>", html="""<p>Mishpacha Tours, a sole-trader business registered in Lyon, France. Contact: <a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a>, WhatsApp +33 6 52 09 23 01.</p>"""),
     dict(type="text", h2="What we <i>collect</i>", html="""<ul>
 <li><b>When you send the booking form:</b> the tour, your dates, the number of people, the language, your name, and an email address or WhatsApp number. The form writes a line in a private Google Sheet and sends us an email. Legal basis: steps prior to a contract.</li>
 <li><b>When you write on WhatsApp or by email:</b> your messages and your number or address, kept in those services under their own terms.</li>

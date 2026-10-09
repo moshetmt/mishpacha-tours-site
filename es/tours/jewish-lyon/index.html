@@ -154,7 +154,7 @@
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contacto</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contacto</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Visitas</summary><p>Lyon judío<br>Memoria: CHRD<br>Memoria: Montluc y Neveh Shalom<br>Escala<br>Izieu</p></details>
     <details><summary>Horarios</summary><p>De domingo a viernes por la mañana<br>Sin visitas en Shabat ni en las fiestas judías<br>Inglés, francés o español</p></details>
     <details><summary>Conviene saber</summary><p>Precios por grupo, nunca por persona<br>Cancelación gratuita hasta 24 horas antes<br>Escolta de seguridad bajo petición</p></details>
@@ -176,5 +176,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/es/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:(c('indicatif')+' '+c('tel').replace(/[^0-9]/g,'')).trim()+(c('email')?' / '+c('email'):''),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/es/merci/'})})();
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%20preferido%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>

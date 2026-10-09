@@ -74,7 +74,7 @@
 
 <main>
 <section class="pratique-hero"><div class="wrap"><p class="fil"><a href="/fr/">Accueil</a> / <a href="/fr/jewish-lyon-guide/">Guide du Lyon juif</a> / Shabbat à Lyon</p>
-  <div class="pratique-tete"><div><h1>Shabbat à Lyon<br><i>comment l’observer, pas à pas</i></h1><p class="intro-fiche">Vous pouvez bien observer le Shabbat à Lyon si vous le préparez avant d’atterrir. La Grande Synagogue et Neveh Chalom tiennent des offices, les maisons Chabad reçoivent sur demande et des traiteurs casher cuisinent pour le week-end. Réglez trois points avant votre arrivée : où vous dormez, qui vous nourrit et comment vous portez.</p><ul class="chips"><li>Horaires d’allumage des bougies ci-dessous</li><li>2 synagogues principales, 7 maisons Chabad</li><li>Aucun érouv public publié</li><li>Vérifié le 7 octobre 2026</li></ul></div>
+  <div class="pratique-tete"><div><h1>Shabbat à Lyon<br><i>comment l’observer, pas à pas</i></h1><p class="intro-fiche">Vous pouvez bien observer le Shabbat à Lyon si vous le préparez avant d’atterrir. La Grande Synagogue et Neveh Chalom tiennent des offices, les maisons Chabad reçoivent sur demande et des traiteurs casher cuisinent pour le week-end. Réglez trois points avant votre arrivée : où vous dormez, qui vous nourrit et comment vous portez.</p><ul class="chips"><li>Horaires d’allumage des bougies ci-dessous</li><li>2 synagogues principales, 7 maisons Chabad</li><li>Aucun érouv public publié</li><li>Vérifié le 7 octobre 2026</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Bonjour%2C%20je%20viens%20%C3%A0%20Lyon%20pour%20le%20Shabbat.%20Dates%20%3A%20/%20H%C3%B4tel%20ou%20quartier%20%3A%20/%20Nombre%20de%20personnes%20%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Écrire sur WhatsApp</a><a class="pill" href="#book">Demander un devis</a></p></div>
   <img src="/img/illus/line-shabbat.png" alt="" width="700" height="700"></div>
 </div></section>
 <section class="ss wrap"><div class="shabbat" id="shabbat"><p class="shabbat-titre">Shabbat à Lyon cette semaine</p><p class="shabbat-corps">À Lyon, l’allumage des bougies tombe dès 16:30 en décembre et après 21:00 en juin. <a href="https://www.hebcal.com/shabbat?geonameid=2996944" rel="noopener">Les horaires exacts de cette semaine sur Hebcal</a>.</p></div>
@@ -104,7 +104,7 @@ fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=fr").th
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Visites</summary><p>Lyon juif<br>Mémoire : CHRD<br>Mémoire : Montluc et Neveh Shalom<br>Escale à Lyon<br>Izieu</p></details>
     <details><summary>Jours de visite</summary><p>Du dimanche au vendredi matin<br>Aucune visite le Shabbat ni les jours de fête juive<br>Anglais, français ou espagnol</p></details>
     <details><summary>Bon à savoir</summary><p>Prix par groupe, jamais par personne<br>Annulation gratuite jusqu’à 24 heures avant<br>Escorte de sécurité sur demande</p></details>
@@ -126,5 +126,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/fr/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:(c('indicatif')+' '+c('tel').replace(/[^0-9]/g,'')).trim()+(c('email')?' / '+c('email'):''),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/fr/merci/'})})();
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Bonjour%2C%20je%20viens%20%C3%A0%20Lyon%20pour%20le%20Shabbat.%20Dates%20%3A%20/%20H%C3%B4tel%20ou%20quartier%20%3A%20/%20Nombre%20de%20personnes%20%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>

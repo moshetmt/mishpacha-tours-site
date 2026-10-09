@@ -77,7 +77,7 @@
   <div class="wrap">
     <p class="fil"><a href="/es/">Inicio</a> / <a href="/es/#before">Antes de venir</a> / Kosher en Lyon</p>
     <div class="pratique-tete">
-      <div><h1>Kosher en Lyon<br><i>31 lugares certificados donde comer y comprar</i></h1><p class="intro-fiche">El Beth Din de Lyon certifica 31 restaurantes, panaderías, carnicerías, tiendas de alimentación y proveedores de catering kosher en Lyon, Villeurbanne y Écully, la mayoría en Villeurbanne y en el 6.º distrito. Vieux Lyon no tiene ninguno. Todas las direcciones de abajo figuran en la lista oficial del Beth Din de Lyon, el tribunal rabínico que supervisa la kashrut en Lyon, Villeurbanne y Écully. Solo enumeramos lo que certifica el Beth Din: ningún lugar autodeclarado ni directorios secundarios. Llame antes de ir: los horarios cambian y la mayoría cierra por Shabat desde el viernes por la tarde.</p><ul class="chips"><li>Supervisión del Beth Din de Lyon</li><li>Lyon · Villeurbanne · Écully</li><li>Lista revisada el 7 de octubre de 2026</li></ul></div>
+      <div><h1>Kosher en Lyon<br><i>31 lugares certificados donde comer y comprar</i></h1><p class="intro-fiche">El Beth Din de Lyon certifica 31 restaurantes, panaderías, carnicerías, tiendas de alimentación y proveedores de catering kosher en Lyon, Villeurbanne y Écully, la mayoría en Villeurbanne y en el 6.º distrito. Vieux Lyon no tiene ninguno. Todas las direcciones de abajo figuran en la lista oficial del Beth Din de Lyon, el tribunal rabínico que supervisa la kashrut en Lyon, Villeurbanne y Écully. Solo enumeramos lo que certifica el Beth Din: ningún lugar autodeclarado ni directorios secundarios. Llame antes de ir: los horarios cambian y la mayoría cierra por Shabat desde el viernes por la tarde.</p><ul class="chips"><li>Supervisión del Beth Din de Lyon</li><li>Lyon · Villeurbanne · Écully</li><li>Lista revisada el 7 de octubre de 2026</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20preparo%20un%20viaje%20a%20Lyon%20y%20me%20gustar%C3%ADa%20una%20visita%20privada%20con%20ustedes.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Escribir por WhatsApp</a><a class="pill" href="#book">Pedir presupuesto</a></p></div>
       <img src="/img/illus/flat-kosher.png" alt="" width="700" height="700">
     </div>
   </div>
@@ -118,7 +118,7 @@
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contacto</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contacto</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Visitas</summary><p>Lyon judío<br>Memoria: CHRD<br>Memoria: Montluc y Neveh Shalom<br>Escala<br>Izieu</p></details>
     <details><summary>Horarios</summary><p>De domingo a viernes por la mañana<br>Sin visitas en Shabat ni en las fiestas judías<br>Inglés, francés o español</p></details>
     <details><summary>Conviene saber</summary><p>Precios por grupo, nunca por persona<br>Cancelación gratuita hasta 24 horas antes<br>Escolta de seguridad bajo petición</p></details>
@@ -145,5 +145,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20preparo%20un%20viaje%20a%20Lyon%20y%20me%20gustar%C3%ADa%20una%20visita%20privada%20con%20ustedes.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>

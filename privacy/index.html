@@ -73,10 +73,10 @@
 
 <main>
 <section class="pratique-hero"><div class="wrap"><p class="fil"><a href="../">Home</a> / Privacy</p>
-  <div class="pratique-tete"><div><h1>Privacy<br><i>what we keep, and why</i></h1><p class="intro-fiche">We collect what we need to answer you and to run your tour, nothing else. This page says what that is, where it is stored and how to have it deleted.</p><ul class="chips"><li>GDPR</li><li>No advertising cookies</li><li>Data kept 3 years</li></ul></div>
+  <div class="pratique-tete"><div><h1>Privacy<br><i>what we keep, and why</i></h1><p class="intro-fiche">We collect what we need to answer you and to run your tour, nothing else. This page says what that is, where it is stored and how to have it deleted.</p><ul class="chips"><li>GDPR</li><li>No advertising cookies</li><li>Data kept 3 years</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20your%20services.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>
   <img src="../img/illus/line-private.png" alt="" width="700" height="700"></div>
 </div></section>
-<section class="ss wrap conseils"><h2>Who is <i>responsible</i></h2><p>Mishpacha Tours, a sole-trader business registered in Lyon, France. Contact: <a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a>, WhatsApp +33 7 67 71 12 59.</p></section><section class="ss wrap conseils"><h2>What we <i>collect</i></h2><ul>
+<section class="ss wrap conseils"><h2>Who is <i>responsible</i></h2><p>Mishpacha Tours, a sole-trader business registered in Lyon, France. Contact: <a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a>, WhatsApp +33 6 52 09 23 01.</p></section><section class="ss wrap conseils"><h2>What we <i>collect</i></h2><ul>
 <li><b>When you send the booking form:</b> the tour, your dates, the number of people, the language, your name, and an email address or WhatsApp number. The form writes a line in a private Google Sheet and sends us an email. Legal basis: steps prior to a contract.</li>
 <li><b>When you write on WhatsApp or by email:</b> your messages and your number or address, kept in those services under their own terms.</li>
 <li><b>When you visit the site:</b> nothing from us. The site sets no cookies and runs no analytics or advertising scripts. Our hosting provider (Vercel) keeps standard server logs for security. Map pages load tiles from OpenStreetMap and Shabbat times from Hebcal; those services see your IP address when the page loads.</li>
@@ -86,7 +86,7 @@
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Tours</summary><p>Jewish Lyon<br>Memory: CHRD<br>Memory: Montluc and Neveh Shalom<br>Stopover<br>Izieu</p></details>
     <details><summary>When we run</summary><p>Sunday to Friday morning<br>No tours on Shabbat and Jewish holidays<br>English, French or Spanish</p></details>
     <details><summary>Good to know</summary><p>Prices per group, never per person<br>Free cancellation up to 24 hours before<br>Security escort on request</p></details>
@@ -108,5 +108,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:c('contact'),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/merci/'})})();
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20your%20services.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>

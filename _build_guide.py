@@ -64,9 +64,11 @@ def strip(s): return re.sub("<[^>]+>", "", s)
 def build(P):
     slug = P["slug"]; h1 = P["h1"]; crumb = P.get("crumb", ("../jewish-lyon-guide/", "Jewish Lyon guide"))
     chips = "".join(f"<li>{x}</li>" for x in P.get("chips", []))
+    _cta = next((s for s in P.get("sections", []) if isinstance(s, dict) and s.get("type") == "cta"), None)
+    cta_href = wa(_cta["msg"]) if _cta else wa("Hello, I would like to ask about your services. Dates: / Number of people:")
     fil = '<p class="fil"><a href="../">Home</a> / ' + (f'<a href="{crumb[0]}">{crumb[1]}</a> / ' if crumb else "") + f'{h1}</p>'
     hero = (f'<section class="pratique-hero"><div class="wrap">{fil}\n'
-            f'  <div class="pratique-tete"><div><h1>{h1}<br><i>{P["ital"]}</i></h1><p class="intro-fiche">{P["intro"]}</p><ul class="chips">{chips}</ul></div>\n'
+            f'  <div class="pratique-tete"><div><h1>{h1}<br><i>{P["ital"]}</i></h1><p class="intro-fiche">{P["intro"]}</p><ul class="chips">{chips}</ul><p class="cta-hero"><a class="btn-noir" href="{cta_href}" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>\n'
             f'  <img src="../img/illus/{P.get("illus", "flat-jewish-lyon.png")}" alt="" width="700" height="700"></div>\n</div></section>')
     secs = ""
     for s in P.get("sections", []):

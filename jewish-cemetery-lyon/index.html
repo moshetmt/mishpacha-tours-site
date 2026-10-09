@@ -76,7 +76,7 @@
   <div class="wrap">
     <p class="fil"><a href="../">Home</a> / <a href="../#before">Before you come</a> / The Jewish cemetery of Lyon</p>
     <div class="pratique-tete">
-      <div><h1>The Jewish cemetery of Lyon<br><i>La Mouche, in Gerland, since 1795</i></h1><p class="intro-fiche">Lyon's Jewish cemetery is the cimetière israélite de la Mouche, in the Gerland district of the 7th arrondissement. It was founded in 1795 and holds more than 4,900 graves, a monument to the Jewish soldiers of France and a memorial to the deportation. It is managed by the Consistoire, not by the city.</p><ul class="chips"><li>11 rue Abraham-Bloch, 69007 Lyon</li><li>Founded 1795</li><li>Managed by the Consistoire</li></ul></div>
+      <div><h1>The Jewish cemetery of Lyon<br><i>La Mouche, in Gerland, since 1795</i></h1><p class="intro-fiche">Lyon's Jewish cemetery is the cimetière israélite de la Mouche, in the Gerland district of the 7th arrondissement. It was founded in 1795 and holds more than 4,900 graves, a monument to the Jewish soldiers of France and a memorial to the deportation. It is managed by the Consistoire, not by the city.</p><ul class="chips"><li>11 rue Abraham-Bloch, 69007 Lyon</li><li>Founded 1795</li><li>Managed by the Consistoire</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Hello%2C%20I%20am%20looking%20for%20a%20family%20grave%20in%20the%20Jewish%20cemetery%20of%20Lyon.%20Name%3A%20/%20Year%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>
       <img src="../img/illus/flat-cemetery.png" alt="" width="700" height="700">
     </div>
   </div>
@@ -122,7 +122,7 @@
 
 <footer class="pied">
   <div class="cols">
-    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 7 67 71 12 59</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
+    <details open><summary>Contact</summary><p><a href="https://wa.me/33652092301" rel="noopener">WhatsApp +33 6 52 09 23 01</a><br><a href="mailto:contact@mishpachatours.com">contact@mishpachatours.com</a></p></details>
     <details><summary>Tours</summary><p>Jewish Lyon<br>Memory: CHRD<br>Memory: Montluc and Neveh Shalom<br>Stopover<br>Izieu</p></details>
     <details><summary>When we run</summary><p>Sunday to Friday morning<br>No tours on Shabbat and Jewish holidays<br>English, French or Spanish</p></details>
     <details><summary>Good to know</summary><p>Prices per group, never per person<br>Free cancellation up to 24 hours before<br>Security escort on request</p></details>
@@ -149,5 +149,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
+<a class="wa-flottant" href="https://wa.me/33652092301?text=Hello%2C%20I%20am%20looking%20for%20a%20family%20grave%20in%20the%20Jewish%20cemetery%20of%20Lyon.%20Name%3A%20/%20Year%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
 </body>
 </html>
