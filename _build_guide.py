@@ -94,6 +94,7 @@ def build(P):
         elif typ == "steps":
             lis = "".join(f'<li><b>{i+1}</b><div><h3>{a}</h3><p>{b}</p></div></li>' for i, (a, b) in enumerate(s["items"]))
             secs += f'<section class="ss wrap etapes"><h2>{s["h2"]}</h2><ol>{lis}</ol></section>'
+            secs += f'<div class="wrap cta-etapes"><p class="cta-hero centre"><a class="btn-noir" href="{cta_href}" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>'
         elif typ == "cta":
             secs += cta(s["txt"], s["msg"])
     if P.get("related"):

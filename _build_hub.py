@@ -96,7 +96,7 @@ hub = f'''<main>
 <section class="pratique-hero"><div class="wrap">
   <p class="fil"><a href="../">Home</a> / Jewish Lyon guide</p>
   <div class="pratique-tete"><div><h1>Jewish Lyon, <i>the complete guide</i></h1><p class="intro-fiche">Everything a Jewish traveller needs in Lyon and the Alps, kept by a guide who lives here: where to eat kosher, where to pray, when Shabbat comes in, who to call. Every address comes from the Beth Din, the Consistoire or the community itself, with a map and a phone number.</p>
-  <ul class="chips"><li>21 guides, 80+ addresses</li><li>Maps and directions</li><li>Shabbat times, live</li><li>Checked {CHECKED}</li></ul></div>
+  <ul class="chips"><li>21 guides, 80+ addresses</li><li>Maps and directions</li><li>Shabbat times, live</li><li>Checked {CHECKED}</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Hello%2C%20I%20am%20planning%20a%20trip%20to%20Lyon%20and%20I%20have%20a%20few%20questions.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>
   <img src="../img/illus/flat-jewish-lyon.png" alt="" width="700" height="700"></div>
 </div></section>
 <section class="ss wrap">{SHABBAT}</section>
@@ -151,7 +151,7 @@ region = f'''<main>
 <section class="pratique-hero"><div class="wrap">
   <p class="fil"><a href="../">Home</a> / <a href="../jewish-lyon-guide/">Guide</a> / Around Lyon</p>
   <div class="pratique-tete"><div><h1>Jewish life around Lyon<br><i>Grenoble, Annecy, the Alps and the Auvergne</i></h1><p class="intro-fiche">Lyon is the gateway to the Alps. Within two hours you reach nine Jewish communities and, in winter, the minyanim of the ski resorts. Here is where to pray and who to call, town by town. Every address comes from the regional Consistoire or the community itself. Phone before you go: none of these pages shows a date.</p>
-  <ul class="chips"><li>9 towns</li><li>3 ski resorts</li><li>Checked {CHECKED}</li></ul></div>
+  <ul class="chips"><li>9 towns</li><li>3 ski resorts</li><li>Checked {CHECKED}</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Hello%2C%20we%20are%20travelling%20to%20the%20Alps%20through%20Lyon%20and%20would%20like%20to%20ask%20about%20the%20Stopover%20tour.%20Arrival%20time%3A%20/%20Onward%20departure%20time%3A%20/%20Number%20of%20people%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>
   <img src="../img/illus/flat-stopover.png" alt="" width="700" height="700"></div>
 </div></section>
 <section class="ss wrap"><h2 class="centre">The region on the <i>map</i></h2>{carte(allpts,460)}<p class="carte-note">Tap a marker for the address and directions.</p></section>
