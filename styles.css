@@ -593,3 +593,10 @@ body.menu-ouvert{overflow:hidden}
 .dk-cartes > li > .dk-des,.dk-ico-note.dk-des,.dk-ico-recit.dk-des{inset-inline-start:12px;top:14px}
 .dk-vigico.dk-des{width:60px!important;height:60px!important}
 .dk-preuves .dk-des{width:52px!important;height:52px!important}
+/* garanties : le paragraphe « Strictement casher » en lignes courtes avec mini-dessin (12/10) */
+.dk-garanties{display:grid;gap:12px;margin-top:20px;padding:18px 0 0;border-top:1px solid rgba(28,27,31,.15);max-width:none}
+.dk-g-tete{font-family:var(--titre);font-weight:300;font-size:21px;line-height:1.15;color:var(--encre)}
+.dk-g-ligne{display:block;position:relative;min-height:48px;padding-inline-start:60px;font-size:15px;line-height:1.5}
+.dk-gico{position:absolute;inset-inline-start:0;top:0;width:48px;height:48px;object-fit:contain}
+.dk-g-ligne a{font-weight:600;text-underline-offset:3px}
+@media (min-width:768px){.dk-garanties{grid-template-columns:repeat(3,1fr);align-items:start;gap:16px 24px}.dk-g-tete{grid-column:1/-1}}

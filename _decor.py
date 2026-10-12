@@ -15,6 +15,7 @@ MORE = {"en": "Read more", "fr": "Lire la suite", "es": "Leer más", "he": "לה
 
 # mot-cle anglais (dans le titre en gras, puis dans tout le li) -> picto Lucide de _decor_src/
 ICO = [
+  (r"grenoble side", "snowflake"), (r"courchevel side", "mountain-snow"),
   (r"saint-exup|airport|flight|fly|plane|geneva", "plane"), (r"shuttle|bus|transfer|by road|drive", "car"),
   (r"chef|kitchen", "chef-hat"), (r"meals? delivered|delivered meals|catering|restaurant|food|eat", "utensils"),
   (r"shabbat|candle", "flame"), (r"holiday|hanukkah|purim|pesach|festival", "sparkles"),
@@ -88,6 +89,7 @@ def choisir(lead, tout):
 def strip(h):
     h = re.sub(r'<(svg|script|button) class="dk[^"]*"[^>]*>.*?</\1>', "", h, flags=re.S)
     h = re.sub(r'<img class="dk[^"]*"[^>]*>', "", h)
+    h = re.sub(r'<span class="dk-g[a-z0-9 -]*">(.*?)</span>(?=\s|</p>)', r"\1", h, flags=re.S)
     h = re.sub(r'<span class="dk-sep">(.*?)</span>', r"\1", h, flags=re.S)
     h = re.sub(r' class="((?:dk-[a-z0-9-]+ ?)+)"', "", h)
     h = re.sub(r'class="([^"]*?)((?: dk-[a-z0-9-]+)+)"', r'class="\1"', h)
@@ -96,6 +98,20 @@ def strip(h):
 LI = re.compile(r"<li>(.*?)</li>", re.S)
 UL = re.compile(r"<ul>(.*?)</ul>", re.S)
 SEC = re.compile(r'(<section class="ss wrap conseils">|<div class="ss beige"><div class="wrap">)(<h2>(.*?)</h2>)(.*?)(?=</section>|</div></div>)', re.S)
+
+TRAIL = re.compile(r"</ul>\s*<p>((?:(?!</p>).)*)</p>\s*$", re.S)
+def phrases(p):
+    return re.split(r"(?<=\.)\s+(?![^<]*>)", p.strip())
+def garanties(corps, n):
+    """Paragraphe final « Strictement casher. ... » : une phrase par ligne, avec mini-dessin. Le texte reste identique (spans seulement)."""
+    m = TRAIL.search(corps)
+    if not m or len(phrases(m.group(1))) != n: return corps
+    ph = phrases(m.group(1)); out = []
+    for i, t in enumerate(ph):
+        if i == 0: out.append(f'<span class="dk-g dk-g-tete">{t}</span>'); continue
+        name = "file-text" if "<a " in t else ("badge-check" if i == 1 else "flame")
+        out.append(f'<span class="dk-g dk-g-ligne"><img class="dk dk-gico" src="/img/des/{name}.webp" alt="" width="96" height="96" loading="lazy">{t}</span>')
+    return corps[:m.start()] + '</ul><p class="dk-garanties">' + " ".join(out) + "</p>" + corps[m.end():]
 
 def plan(en, page_dir=""):
     """Depuis la page anglaise : pour chaque section texte, la liste des pictos par li, l'illustration du h2, le type."""
@@ -118,7 +134,9 @@ def plan(en, page_dir=""):
         il = next((n for pat, n in H2ILLUS if re.search(pat, h2) and n != hero), "") if (lis and not suite) else ""
         ps = re.findall(r'<p>(.*?)</p>', corps, re.S)
         recit = (not lis) and len(ps) >= 2 and bool(re.fullmatch(r'(\s*<p>.*?</p>\s*)+', corps, re.S))
-        P.append(dict(nb=len(lis), recit=recit, np=len(ps), plier=recit and sum(len(txt(x)) for x in ps) > 450, rico=(lambda n: "book-open" if n == "check" else n)(choisir(h2, "")), liens=liens, boite=(not lis and bool(re.fullmatch(r"\s*<p>.*?</p>\s*", corps, re.S)) and corps.count("<p") == 1 and len(txt(corps)) <= 700), icos=icos, suite=suite, vigs=vigs, illus=il, note=choisir(h2, txt(corps)) if not lis else ""))
+        gm = TRAIL.search(corps)
+        gar = len(phrases(gm.group(1))) if (lis and not suite and gm and txt(gm.group(1)).startswith("strictly kosher")) else 0
+        P.append(dict(garant=gar, nb=len(lis), recit=recit, np=len(ps), plier=recit and sum(len(txt(x)) for x in ps) > 450, rico=(lambda n: "book-open" if n == "check" else n)(choisir(h2, "")), liens=liens, boite=(not lis and bool(re.fullmatch(r"\s*<p>.*?</p>\s*", corps, re.S)) and corps.count("<p") == 1 and len(txt(corps)) <= 700), icos=icos, suite=suite, vigs=vigs, illus=il, note=choisir(h2, txt(corps)) if not lis else ""))
     m = re.search(r'<p class="intro-fiche">(.*?)</p>', en, re.S)
     return P, bool(m and len(txt(m.group(1))) > 320)
 
@@ -179,6 +197,7 @@ def decorer(h, plan_en, page_dir, lang):
             multi = len(re.findall(r"<a ", u.group(1))) >= 3
             cls = "dk-cartes" + (" dk-rail" if nli >= 4 and not multi else "")
         corps2 = corps2.replace("<ul>", f'<ul class="{cls}">', 1)
+        if p.get("garant"): corps2 = garanties(corps2, p["garant"])
         if p["illus"]:
             h2 = h2.replace("<h2>", f'<h2 class="dk-h2"><img class="dk dk-h2img" src="/img/illus/v/{p["illus"]}.webp" alt="" width="120" height="120" loading="lazy">', 1)
         return ouv + h2 + corps2
