@@ -30,6 +30,11 @@ ICO = [
   (r"time|hour|minutes|how long", "clock"), (r"history|museum|memorial|read|book", "book-open"),
   (r"visit|tour|walk", "footprints"), (r"ticket|entry|admission", "ticket"), (r"language|english|hebrew", "languages"),
 ]
+LIENS = [(r"ski", "snowflake"), (r"summer|lake", "sun"), (r"stopover|3 hours", "clock"), (r"landing|flight|airport", "plane"), (r"gateway|drive", "car"),
+  (r"chalet", "house"), (r"services", "chef-hat"), (r"shabbat meals|catering|restaurant", "utensils"), (r"shabbat", "flame"), (r"grande synagogue|synagogue", "landmark"),
+  (r"safe", "shield-check"), (r"where to stay|hotel", "bed-double"), (r"mikveh", "waves"), (r"cemetery", "trees"), (r"chabad", "heart-handshake"),
+  (r"faq|question", "info"), (r"itinerary|2 days", "route"), (r"history|juiverie", "book-open"), (r"izieu|montluc|chrd|memory", "scroll-text"),
+  (r"vacation", "luggage"), (r"tour|walk", "footprints"), (r"guide", "map-pin"), (r"alps|val |courchevel|meg|huez|grenoble|annecy|chamonix|arcs|plagne", "mountain-snow")]
 PREUVES = ["landmark", "badge-check", "utensils", "lock", "users", "calendar-x"]
 # illustration posee a cote d'un h2 (jamais celle du hero de la page)
 H2ILLUS = [(r"kosher|service|meal", "flat-kosher"), (r"safe", "line-private"), (r"shabbat", "line-shabbat"),
@@ -81,7 +86,10 @@ def plan(en, page_dir=""):
         h2, corps = txt(m.group(3)), m.group(4)
         u = UL.search(corps); lis = LI.findall(u.group(1)) if u else []
         suite = bool(lis) and all(re.fullmatch(r"\s*<a [^>]+>.*?</a>\s*", x, re.S) for x in lis)
-        VUES.clear(); vigs = [vignette(re.search(r'href="([^"]+)"', x).group(1), page_dir) for x in lis] if suite else []
+        vigs = []
+        for x in (lis if suite else []):  # un picto par tuile, jamais deux fois le meme dans la liste
+            t = txt(x); c = [n for pat, n in LIENS if re.search(pat, t)] + ["mountain-snow", "book-open", "map-pin", "footprints", "landmark", "info"]
+            vigs.append(next(n for n in c if n not in vigs))
         icos = []; liens = []
         for x in lis:
             g = re.findall(r"</a>([^<]*)(?=<a )", x)
@@ -136,8 +144,8 @@ def decorer(h, plan_en, page_dir, lang):
         def li(x):
             j = k[0]; k[0] += 1; c = x.group(1)
             if p["suite"]:
-                v = p["vigs"][j] if j < len(p.get("vigs", [])) else "/img/illus/v/flat-jewish-lyon.webp"
-                return f'<li><img class="dk dk-vig" src="{v}" alt="" width="160" height="160" loading="lazy">{c}{ico("arrow-right", "dk dk-fleche")}</li>'
+                v = p["vigs"][j] if j < len(p.get("vigs", [])) else "book-open"
+                return f'<li>{ico(v, "dk dk-ico dk-vigico")}{c}{ico("arrow-right", "dk dk-fleche")}</li>'
             name = p["icos"][j] if j < len(p["icos"]) else "check"
             nb = len(re.findall(r"<a ", c))
             if j < len(p.get("liens", [])) and p["liens"][j] and len(re.findall(r"</a>[^<]*(?=<a )", c)) == nb - 1:

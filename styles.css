@@ -572,3 +572,7 @@ body.menu-ouvert{overflow:hidden}
 .dk-ico-recit{position:absolute;inset-inline-start:18px;top:18px}
 .dk-plus-recit{margin-inline-start:28px}
 @media (max-width:767px){.dk-recit p ~ p{display:none}.dk-recit.dk-ouvert p ~ p,.dk-recit .dk-ouvert p ~ p,.dk-recit:not(:has(.dk-plus-recit)) p ~ p{display:block}}
+.dk-suite > li{grid-template-columns:48px 1fr 22px;padding:14px 16px!important;padding-inline:14px 16px!important}
+.dk-vigico{width:48px;height:48px;padding:11px}
+.dk-suite > li:nth-child(3n+2) > .dk-vigico{background:var(--rose)}
+.dk-suite > li:nth-child(3n) > .dk-vigico{background:var(--vert);color:var(--creme)}
