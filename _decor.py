@@ -89,7 +89,9 @@ def plan(en, page_dir=""):
             b = re.match(r"\s*<b>(.*?)</b>", x, re.S)
             icos.append(choisir(txt(b.group(1)) if b else "", txt(x)))
         il = next((n for pat, n in H2ILLUS if re.search(pat, h2) and n != hero), "") if (lis and not suite) else ""
-        P.append(dict(nb=len(lis), liens=liens, boite=(not lis and bool(re.fullmatch(r"\s*<p>.*?</p>\s*", corps, re.S)) and corps.count("<p") == 1 and len(txt(corps)) <= 700), icos=icos, suite=suite, vigs=vigs, illus=il, note=choisir(h2, txt(corps)) if not lis else ""))
+        ps = re.findall(r'<p>(.*?)</p>', corps, re.S)
+        recit = (not lis) and len(ps) >= 2 and bool(re.fullmatch(r'(\s*<p>.*?</p>\s*)+', corps, re.S))
+        P.append(dict(nb=len(lis), recit=recit, np=len(ps), plier=recit and sum(len(txt(x)) for x in ps) > 450, rico=(lambda n: "book-open" if n == "check" else n)(choisir(h2, "")), liens=liens, boite=(not lis and bool(re.fullmatch(r"\s*<p>.*?</p>\s*", corps, re.S)) and corps.count("<p") == 1 and len(txt(corps)) <= 700), icos=icos, suite=suite, vigs=vigs, illus=il, note=choisir(h2, txt(corps)) if not lis else ""))
     m = re.search(r'<p class="intro-fiche">(.*?)</p>', en, re.S)
     return P, bool(m and len(txt(m.group(1))) > 320)
 
@@ -116,11 +118,17 @@ def decorer(h, plan_en, page_dir, lang):
     n = [0]
     def sec(m):
         i = n[0]; n[0] += 1
-        p = P[i] if i < len(P) else dict(nb=-1, boite=False, icos=[], suite=False, vigs=[], illus="", note="check")
+        p = P[i] if i < len(P) else dict(nb=-1, recit=False, np=0, plier=False, rico="info", boite=False, icos=[], suite=False, vigs=[], illus="", note="check")
         ouv, h2, corps = m.group(1), m.group(2), m.group(4)
         u = UL.search(corps)
         if u and p.get("nb") != len(LI.findall(u.group(1))): return m.group(0)  # copie traduite qui a diverge : on ne touche pas
         if not u:  # section a paragraphes seuls : note avec picto
+            if p.get("recit") and corps.count("<p>") == p["np"]:  # recit : un fil, un paragraphe par pastille, la suite repliee sur mobile
+                o2 = ouv.replace('conseils"', 'conseils dk-recit"').replace('"ss beige"', '"ss beige dk-recit"')
+                c2 = corps.replace("<p>", "<p>" + ico(p["rico"], "dk dk-ico dk-ico-recit"), 1)
+                if p["plier"]:
+                    c2 = c2.replace("</p>", "</p>" + f'<button class="dk dk-plus dk-plus-recit" type="button" aria-expanded="false" onclick="this.parentElement.classList.add(\'dk-ouvert\');this.remove()">{MORE[lang]}</button>', 1)
+                return o2 + h2 + c2
             if not p.get("boite"): return m.group(0)
             if corps.count("<p>") != 1: return m.group(0)
             return ouv.replace('conseils"', 'conseils dk-note"').replace('"ss beige"', '"ss beige dk-note"') + h2 + corps.replace("<p>", "<p>" + ico(p["note"] or "info", "dk dk-ico dk-ico-note"), 1)

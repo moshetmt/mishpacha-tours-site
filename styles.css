@@ -561,3 +561,14 @@ body.menu-ouvert{overflow:hidden}
 .dk-liens .dk-suite-txt::first-letter{font-size:0}
 .dk-suite > li{font-size:16.5px}
 .dk-chips li{font-size:14px}
+/* recit : sections a longs paragraphes. Un fil, un point par paragraphe, la suite repliee sur mobile. */
+.dk-recit p{position:relative;margin-top:14px;padding-inline-start:28px;font-size:16px;line-height:1.55;max-width:38em}
+.dk-recit p::before{content:"";position:absolute;inset-inline-start:5px;top:.6em;width:9px;height:9px;border-radius:50%;background:var(--vert-c)}
+.dk-recit p::after{content:"";position:absolute;inset-inline-start:9px;top:1.5em;bottom:-14px;border-inline-start:1px solid rgba(28,27,31,.2)}
+.dk-recit p:last-of-type::after{display:none}
+.dk-recit h2 + p{margin-top:22px;padding:18px;padding-inline-start:76px;min-height:80px;border-radius:15px;background:var(--blanc);font-size:17px}
+.beige.dk-recit h2 + p{background:var(--creme)}
+.dk-recit h2 + p::before,.dk-recit h2 + p::after{display:none}
+.dk-ico-recit{position:absolute;inset-inline-start:18px;top:18px}
+.dk-plus-recit{margin-inline-start:28px}
+@media (max-width:767px){.dk-recit p ~ p{display:none}.dk-recit.dk-ouvert p ~ p,.dk-recit .dk-ouvert p ~ p,.dk-recit:not(:has(.dk-plus-recit)) p ~ p{display:block}}
