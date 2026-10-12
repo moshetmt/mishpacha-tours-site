@@ -40,8 +40,8 @@ function doPost(e) {
     var sh = feuille_();
     var quand = new Date();
     sh.appendRow([
-      quand, txt(d.tour), txt(d.dates), txt(d.personnes), txt(d.langue),
-      txt(d.nom), txt(d.contact), txt(d.message), txt(d.page), txt(d.params)
+      quand, cel_(d.tour), cel_(d.dates), cel_(d.personnes), cel_(d.langue),
+      cel_(d.nom), cel_(d.contact), cel_(d.message), cel_(d.page), cel_(d.params)
     ]);
 
     envoyerMail_(d, quand);
@@ -154,6 +154,10 @@ function esc_(v) {
 }
 
 function txt(v) { return String(v == null ? '' : v).trim(); }
+
+// Une valeur qui commence par + = - ou @ (ex. "+33 6...") est lue comme une formule par Sheets
+// et affiche #ERROR! : l'apostrophe en tete force le texte, elle ne s'affiche pas dans la cellule.
+function cel_(v) { var t = txt(v); return /^[+=\-@]/.test(t) ? "'" + t : t; }
 
 function json_(o) {
   return ContentService.createTextOutput(JSON.stringify(o)).setMimeType(ContentService.MimeType.JSON);
