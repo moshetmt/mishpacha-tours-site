@@ -14,6 +14,7 @@
  */
 
 var DEST_EMAIL = 'contact@mishpachatours.com, mochetimsit@gmail.com';
+var CC_EMAIL = 'timsitelis613@gmail.com';   // la guide, en copie de chaque demande (operateur, 11/10)
 var ENTETE = ['Date', 'Tour', 'Dates', 'Nombre de personnes', 'Langue', 'Nom',
               'Email ou WhatsApp', 'Message', 'Page', 'Source'];
 var TZ = 'Europe/Paris';
@@ -86,6 +87,7 @@ function urlFeuille() {
 
 function envoyerMail_(d, quand) {
   var sujet = 'New tour request - ' + (txt(d.tour) || 'Mishpacha Tours') + ' - ' + (txt(d.nom) || 'no name');
+  var recu = Utilities.formatDate(quand, TZ, 'dd/MM/yyyy HH:mm');
   var corps = [
     'New booking request from mishpachatours.com',
     '--------------------------------',
@@ -98,9 +100,55 @@ function envoyerMail_(d, quand) {
     'Message: ' + (txt(d.message) || '(empty)'),
     '',
     'Page: ' + (txt(d.page) || '/'),
-    'Received: ' + Utilities.formatDate(quand, TZ, 'dd/MM/yyyy HH:mm')
+    'Received: ' + recu
   ].join('\n');
-  MailApp.sendEmail(DEST_EMAIL, sujet, corps);
+
+  // contact = "+1 2125550100 / nom@exemple.com" : on separe le numero et l'e-mail.
+  var contact = txt(d.contact);
+  var mail = (contact.match(/[^\s\/]+@[^\s\/]+\.[^\s\/]+/) || [''])[0];
+  var tel = contact.replace(mail, '').replace(/[^0-9]/g, '');
+
+  var ligne = function (label, valeur) {
+    return '<tr><td style="padding:10px 0;border-bottom:1px solid #F1EDE6;color:#35705A;font-size:13px;width:38%;vertical-align:top">' + label +
+           '</td><td style="padding:10px 0;border-bottom:1px solid #F1EDE6;color:#1C1B1F;font-size:15px;font-weight:600;vertical-align:top">' +
+           (valeur ? esc_(valeur) : '<span style="color:#9a968f;font-weight:400">not specified</span>') + '</td></tr>';
+  };
+  var bouton = function (url, texte, plein) {
+    return '<a href="' + url + '" style="display:inline-block;margin:0 8px 8px 0;padding:13px 22px;border-radius:999px;font-size:15px;font-weight:700;text-decoration:none;' +
+           (plein ? 'background:#1C1B1F;color:#FFFFFF' : 'background:#FFFFFF;color:#1C1B1F;border:1px solid #1C1B1F') + '">' + texte + '</a>';
+  };
+  var boutons = '';
+  if (tel.length >= 8) boutons += bouton('https://wa.me/' + tel, 'Reply on WhatsApp', true);
+  if (mail) boutons += bouton('mailto:' + esc_(mail), 'Reply by email', !boutons);
+
+  var html =
+    '<div style="margin:0;padding:24px 12px;background:#FFFAED;font-family:Arial,Helvetica,sans-serif">' +
+    '<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="max-width:560px;margin:0 auto;background:#FFFFFF;border-radius:15px;overflow:hidden">' +
+    '<tr><td style="background:#2D5132;padding:22px 28px;color:#FFFAED;font-size:13px;letter-spacing:.04em">MISHPACHA TOURS' +
+    '<div style="margin-top:6px;font-family:Georgia,serif;font-size:24px;letter-spacing:0;color:#FFFFFF">New request' +
+    (txt(d.nom) ? ' from ' + esc_(txt(d.nom)) : '') + '</div></td></tr>' +
+    '<tr><td style="background:#FCDE73;padding:12px 28px;color:#1C1B1F;font-size:15px;font-weight:700">' +
+    esc_(txt(d.tour) || 'Tour not specified') + '</td></tr>' +
+    '<tr><td style="padding:14px 28px 6px"><table role="presentation" cellpadding="0" cellspacing="0" width="100%">' +
+    ligne('Dates', txt(d.dates)) +
+    ligne('Number of people', txt(d.personnes)) +
+    ligne('Tour language', txt(d.langue)) +
+    ligne('Name', txt(d.nom)) +
+    ligne('WhatsApp / email', contact) +
+    (txt(d.message) ? ligne('Message', txt(d.message)) : '') +
+    '</table></td></tr>' +
+    (boutons ? '<tr><td style="padding:18px 28px 10px">' + boutons + '</td></tr>' : '') +
+    '<tr><td style="padding:14px 28px 22px;color:#8a867f;font-size:12px">Received ' + recu + ' (Paris) · page ' +
+    esc_(txt(d.page) || '/') + '</td></tr>' +
+    '</table></div>';
+
+  var options = { to: DEST_EMAIL, cc: CC_EMAIL, subject: sujet, body: corps, htmlBody: html, name: 'Mishpacha Tours' };
+  if (mail) options.replyTo = mail;
+  MailApp.sendEmail(options);
+}
+
+function esc_(v) {
+  return String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
 function txt(v) { return String(v == null ? '' : v).trim(); }
