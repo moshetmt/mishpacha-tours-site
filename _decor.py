@@ -101,8 +101,9 @@ def vignette(href, page_dir):
     try: t = strip(rd(cible))
     except OSError: t = ""
     c = re.findall(r'img/((?:stock/|c-)[\w-]+\.jpe?g|illus/[a-z-]+\.png)', t.split("<main", 1)[-1]) or ["illus/flat-jewish-lyon.png"]
-    photos = [x for x in c if not x.startswith("illus")]
-    src = next((x for x in photos + c if x not in VUES), c[0]); VUES.add(src)
+    photos = []  # les photos des pages ne collent pas toujours au sujet (traboule sur la page ski) : on prend le dessin du hero
+    c = [x for x in c if x.startswith("illus")] or ["illus/flat-jewish-lyon.png"]
+    src = (photos or c)[0]
     nom = re.sub(r"[^a-z0-9]+", "-", src.rsplit(".", 1)[0]); d = f"img/v/{nom}.webp"
     if not os.path.exists(d):
         os.makedirs("img/v", exist_ok=True)
@@ -133,6 +134,7 @@ def decorer(h, plan_en, page_dir, lang):
             nb = len(re.findall(r"<a ", c))
             if j < len(p.get("liens", [])) and p["liens"][j] and len(re.findall(r"</a>[^<]*(?=<a )", c)) == nb - 1:
                 c = re.sub(r"(</a>)([^<]*)(?=<a )", r'\1<span class="dk-sep">\2</span>', c)
+                c = re.sub(r"(</a>)([^<]+)$", lambda q: q.group(1) + '<span class="dk-sep dk-suite-txt">' + q.group(2) + "</span>", c)
                 return f'<li class="dk-liens">{ico(name)}{c}</li>'
             return ('<li class="dk-lien1">' if nb else '<li>') + ico(name) + c + '</li>'
         nli = len(LI.findall(u.group(1)))

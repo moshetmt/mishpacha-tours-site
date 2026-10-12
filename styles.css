@@ -552,3 +552,12 @@ body.menu-ouvert{overflow:hidden}
 .dk-liens{font-size:13px!important}
 .dk-liens > b{font-size:21px}
 .beige.dk-note p{background:var(--creme)}
+/* lisibilite mobile : texte courant a 16 px, encre pleine */
+.dk-cartes > li{font-size:16px;color:var(--encre)}
+.dk-note p{font-size:16px}
+.pratique-hero ~ .etapes li p{font-size:16px;opacity:1}
+.dk-liens > a{font-size:15.5px;min-height:44px;font-weight:500}
+.dk-liens .dk-suite-txt{display:block;flex:0 0 100%;font-size:14px;opacity:.8}
+.dk-liens .dk-suite-txt::first-letter{font-size:0}
+.dk-suite > li{font-size:16.5px}
+.dk-chips li{font-size:14px}
