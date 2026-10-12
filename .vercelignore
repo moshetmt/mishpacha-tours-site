@@ -18,3 +18,5 @@ _qa.py
 README.md
 .gitignore
 .github
+_decor.py
+_decor_src

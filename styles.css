@@ -457,3 +457,98 @@ body.menu-ouvert{overflow:hidden}
 .wa-flottant svg{width:24px;height:24px;fill:var(--jaune)}
 [dir=rtl] .wa-flottant{right:auto;left:16px}
 @media(max-width:600px){.wa-flottant span{display:none}.wa-flottant{padding:0 13px;min-height:52px}}
+
+/* =========================================================================
+   Passe visuelle du 12/10 (_decor.py) : memes mots, mis en cartes et en tuiles.
+   Proprietes logiques partout : la version hebraique (RTL) suit sans regle a part.
+   ========================================================================= */
+.dk-ico{flex:none;width:44px;height:44px;padding:10px;border-radius:50%;background:var(--jaune);color:var(--encre)}
+.dk-cartes{margin-top:22px;border:0!important;display:grid;gap:12px}
+.dk-cartes > li{display:grid;grid-template-columns:44px 1fr;column-gap:14px;align-items:start;padding:18px;border:0!important;border-radius:15px;background:var(--blanc);font-size:14.5px;line-height:1.5;opacity:1;color:rgba(28,27,31,.82)}
+.dk-cartes > li > .dk-ico{grid-row:1 / span 2}
+.dk-cartes > li > b{display:block;grid-column:2;margin-bottom:4px;font-family:var(--titre);font-weight:300;font-size:21px;line-height:1.15;color:var(--encre)}
+.dk-cartes > li:nth-child(3n+2) > .dk-ico{background:var(--rose)}
+.dk-cartes > li:nth-child(3n) > .dk-ico{background:var(--vert);color:var(--creme)}
+.beige .dk-cartes > li{background:var(--creme)}
+.dk-cartes > li{display:block;position:relative;padding-inline-start:76px;min-height:80px}
+.dk-cartes > li > .dk-ico{position:absolute;inset-inline-start:18px;top:18px}
+.dk-cartes a{font-weight:600;text-underline-offset:3px}
+
+/* rail : 4 cartes et plus defilent au doigt, la suivante depasse */
+@media (max-width:767px){
+  .dk-rail{grid-auto-flow:column;grid-auto-columns:78%;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(var(--pad) * -1);padding-inline:var(--pad);padding-bottom:6px;scrollbar-width:none;scroll-padding-inline:var(--pad)}
+  .dk-rail::-webkit-scrollbar{display:none}
+  .dk-rail > li{scroll-snap-align:start;padding:18px;padding-top:76px}
+  .dk-rail > li > .dk-ico{inset-inline-start:18px}
+}
+@media (min-width:768px){
+  .dk-cartes{grid-template-columns:repeat(2,1fr)}
+  .dk-rail{grid-template-columns:repeat(3,1fr)}
+  .conseils:has(.dk-rail){max-width:1100px}
+}
+
+/* liste de liens : chaque station devient une pastille qu'on touche */
+.dk-liens{display:flex!important;flex-wrap:wrap;gap:8px;align-items:center;padding-inline-start:18px!important;padding-top:76px!important}
+.dk-liens > b{flex:0 0 100%;margin-bottom:2px!important}
+.dk-liens > a{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:999px;background:var(--jaune);color:var(--encre);text-decoration:none;font-size:14px}
+.dk-liens .dk-sep{display:none}
+
+/* note : une section d'un seul paragraphe */
+.dk-note p{position:relative;margin-top:18px;padding:18px;padding-inline-start:76px;min-height:80px;border-radius:15px;background:var(--blanc);font-size:14.5px}
+.dk-ico-note{position:absolute;inset-inline-start:18px;top:18px;background:var(--vert);color:var(--creme)}
+
+/* titre de section accompagne d'un dessin */
+.dk-h2{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.dk-h2img{flex:none;width:92px;height:92px;margin-block:-14px -6px;order:2}
+
+/* a lire ensuite : tuiles a vignette */
+.dk-suite{margin-top:22px;border:0!important;display:grid;gap:10px}
+.dk-suite > li{position:relative;display:grid;grid-template-columns:64px 1fr 22px;gap:14px;align-items:center;padding:10px 16px 10px 10px!important;padding-inline:10px 16px!important;border:0!important;border-radius:15px;background:var(--blanc);opacity:1;font-size:15.5px;line-height:1.3}
+.dk-suite a{text-decoration:none;font-weight:500}
+.dk-suite a::after{content:"";position:absolute;inset:0}
+.dk-vig{width:64px;height:64px;border-radius:12px;background:var(--beige)}
+.dk-fleche{width:22px;height:22px}
+[dir="rtl"] .dk-fleche{transform:scaleX(-1)}
+@media (min-width:768px){.dk-suite{grid-template-columns:repeat(2,1fr)}}
+
+/* puces du hero */
+.dk-chips li{display:inline-flex;align-items:center;gap:8px;padding:7px 14px 7px 8px;padding-inline:8px 14px;border-color:transparent}
+.dk-coche{flex:none;width:22px;height:22px;padding:4px;border-radius:50%;background:var(--vert);color:var(--creme)}
+.dk-chips li:last-child{background:transparent;border-color:rgba(28,27,31,.2);opacity:.75}
+.dk-chips li:last-child .dk-coche{display:none}
+.dk-chips li:last-child{padding-inline-start:14px}
+
+/* intro longue repliee sur mobile */
+@media (max-width:767px){
+  .dk-intro:not(.dk-ouvert){display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;overflow:hidden}
+  .dk-plus{margin-top:8px;padding:0;border:0;background:none;font:inherit;font-weight:600;font-size:15px;color:var(--encre);text-decoration:underline;text-underline-offset:3px;min-height:44px;cursor:pointer}
+}
+@media (min-width:768px){.dk-plus{display:none}}
+
+/* etapes : numero en pastille, fil vertical sur mobile */
+.pratique-hero ~ .etapes ol{counter-reset:none;text-align:start;gap:0;margin-top:28px}
+.pratique-hero ~ .etapes li{position:relative;display:grid;grid-template-columns:52px 1fr;column-gap:16px;padding-bottom:28px}
+.pratique-hero ~ .etapes li > b{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:var(--jaune);font-family:var(--titre);font-weight:300;font-size:26px;position:relative;z-index:1}
+.pratique-hero ~ .etapes li:not(:last-child)::before{content:"";position:absolute;inset-inline-start:25px;top:52px;bottom:0;border-inline-start:2px dashed rgba(28,27,31,.25)}
+.pratique-hero ~ .etapes li h3{font-size:22px;margin-top:10px}
+.pratique-hero ~ .etapes li p{margin:6px 0 0;max-width:none;font-size:14.5px}
+@media (min-width:768px){
+  .pratique-hero ~ .etapes ol{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px}
+  .pratique-hero ~ .etapes li{display:block;padding-bottom:0}
+  .pratique-hero ~ .etapes li:not(:last-child)::before{inset-inline-start:52px;inset-inline-end:-32px;top:26px;bottom:auto;border-inline-start:0;border-top:2px dashed rgba(28,27,31,.25)}
+}
+
+/* bande de preuves : grille de pictos */
+.dk-preuves ul{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:760px;margin:0 auto}
+.dk-preuves li{display:grid;grid-template-columns:40px 1fr;column-gap:10px;align-items:center;padding:12px;border-radius:15px;background:var(--blanc);text-align:start}
+.dk-preuves li:first-child{grid-column:1 / -1;background:var(--jaune)}
+.dk-preuves .dk-ico{grid-row:1 / span 2;width:40px;height:40px;padding:9px;background:var(--beige)}
+.dk-preuves li:first-child .dk-ico{background:var(--blanc)}
+.dk-preuves b{font-size:17px;white-space:normal}
+.dk-preuves span{white-space:normal;line-height:1.25}
+@media (min-width:1000px){.dk-preuves ul{grid-template-columns:repeat(3,1fr);max-width:1000px}.dk-preuves li:first-child{grid-column:auto}}
+.dk-h2{display:block;position:relative;padding-inline-end:104px;min-height:70px}
+.dk-h2img{position:absolute;inset-inline-end:0;bottom:-6px;margin:0}
+.dk-liens{font-size:13px!important}
+.dk-liens > b{font-size:21px}
+.beige.dk-note p{background:var(--creme)}

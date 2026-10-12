@@ -13,6 +13,7 @@ python _build_guide.py      # pages du guide depuis _pages/*.py (voir _pages/REA
 python _build_i18n.py prepare  # hreflang + selecteur de langue sur TOUTES les pages EN, copies fr/ es/ he/ a traduire (n'ecrase pas une traduction faite)
 python _build_i18n.py ld       # JSON-LD des copies traduites regenere depuis le JSON-LD EN + title/desc/FAQ/fil d'Ariane traduits (les traducteurs n'y touchent pas)
 python _build_sitemap.py    # sitemap.xml + robots.txt + llms.txt (les copies non traduites sont exclues)
+python _decor.py            # TOUJOURS EN DERNIER : passe visuelle (pictos, cartes, tuiles, vignettes) sur les 4 langues ; `--check` = 0 ecart de texte/liens/JSON-LD ; `--strip` la retire
 python _qa.py               # liens, mots interdits, title/desc, canonical, JSON-LD
 python _build_i18n.py check # structure EN / traduit identique, anglais residuel, mots interdits
 
