@@ -86,6 +86,7 @@ CHABAD = [
  dict(nom="Beth Habad Charpennes", adresse="86 cours Émile-Zola, 69100 Villeurbanne", rav="Rabbi Haim-Hillel Zekri", tel="06 50 82 11 81", note="At the Charpennes end of Villeurbanne, by the metro, between the 6th arrondissement and Gratte-Ciel."),
  dict(nom="Beth Habad Lyon 3", adresse="119 rue Servient, 69003 Lyon", rav="Rabbi Eliezer (Lippe) Gurewitz", tel="06 19 18 02 67", note="In the 3rd arrondissement, between Part-Dieu station and the Hypercacher grocery of rue Claudius-Pionchon."),
  dict(nom="Beth Habad Écully", adresse="67 chemin du Tronchon, 69130 Écully", rav="Rabbi Lévy Gurewitz", tel="06 19 34 04 00", note="West of Lyon, near the Lilly Market grocery of Écully."),
+ dict(nom="Beth Habad de Craponne", adresse="166 avenue Pierre-Auguste Roiret, 69290 Craponne", rav="Rabbi Eliezer (Lippe) Gurewitz", tel="", note="In Craponne, west of Lyon, about 25 minutes by car from the city centre."),
 ]
 
 
@@ -178,8 +179,8 @@ for ville, items in SYN_AUTRES:
     lis = "".join(f'<li><b>{n}</b><span>{a}</span><span class="liens"><a class="go" href="{gmaps(a if "69" in a else a+", 69100 Villeurbanne")}" target="_blank" rel="noopener">Map</a>{("<a href=\"tel:"+t.replace(" ","")+"\">"+t+"</a>") if t else ""}</span></li>' for n,a,t in items)
     autres += f'<section class="groupe"><h2>{ville} <small>{len(items)}</small></h2><ul class="liste-lieux">{lis}</ul></section>'
 body = f'''<main>
-{hero("flat-jewish-lyon.png","Synagogues in Lyon","Where the community prays, and when Shabbat comes in",f"Lyon has seven Chabad houses, two large historic synagogues and {N_MINYANIM} neighbourhood minyanim, most of them in Villeurbanne. For prayer, a Shabbat meal or any question on the ground, start with a Chabad house: they welcome travellers every day. Visitors are welcome at prayer everywhere: arrive a few minutes early, have your ID with you, and expect a security check at the door, as in every synagogue in France today. For a minyan near your hotel, message us.",["7 Chabad houses first","2 historic synagogues",f"{N_MINYANIM} neighbourhood minyanim"])}
-<section class="ss wrap"><h2 class="centre">Start with <i>Chabad</i></h2><p class="sous centre">Seven Chabad houses in Lyon, Villeurbanne and Écully welcome travellers every day: prayer, a Shabbat meal, kosher advice. Our first recommendation, before any other address.</p><ul class="liste-lieux">{habad_lis}</ul><p class="centre"><a href="../chabad-lyon/">Everything about Chabad in Lyon</a></p></section>
+{hero("flat-jewish-lyon.png","Synagogues in Lyon","Where the community prays, and when Shabbat comes in",f"Lyon has eight Chabad houses, two large historic synagogues and {N_MINYANIM} neighbourhood minyanim, most of them in Villeurbanne. For prayer, a Shabbat meal or any question on the ground, start with a Chabad house: they welcome travellers every day. Visitors are welcome at prayer everywhere: arrive a few minutes early, have your ID with you, and expect a security check at the door, as in every synagogue in France today. For a minyan near your hotel, message us.",["8 Chabad houses first","2 historic synagogues",f"{N_MINYANIM} neighbourhood minyanim"])}
+<section class="ss wrap"><h2 class="centre">Start with <i>Chabad</i></h2><p class="sous centre">Eight Chabad houses in Lyon, Villeurbanne, Écully and Craponne welcome travellers every day: prayer, a Shabbat meal, kosher advice. Our first recommendation, before any other address.</p><ul class="liste-lieux">{habad_lis}</ul><p class="centre"><a href="../chabad-lyon/">Everything about Chabad in Lyon</a></p></section>
 <section class="ss wrap"><h2 class="centre">The two <i>historic</i> synagogues</h2><div class="syns">{cartes}</div></section>
 <section class="ss wrap">{SHABBAT}</section>
 <section class="ss wrap conseils">
@@ -196,12 +197,12 @@ body = f'''<main>
 {cta("Want to see the Grande Synagogue from the inside?","Hello, I would like to book the Jewish Lyon tour, the one that goes inside the Grande Synagogue. Dates: / Number of people:")}
 {ticket}
 </main>'''
-page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"Seven Chabad houses, the Grande Synagogue de Lyon, Neveh Chalom and {N_MINYANIM} minyanim in Lyon and Villeurbanne: addresses, prayer times. Checked {CHECKED}.",body, [itemlist("Synagogues and minyanim in Lyon and Villeurbanne", [place(s2["nom"], s2["adresse"], s2.get("tel", ""), ["Synagogue", "TouristAttraction"], GEO_CACHE.get(s2["adresse"])) for s2 in SYN_MAIN] + [place(n, _full(a), t, "Synagogue", GEO_CACHE.get(_full(a))) for v, items in SYN_AUTRES for n, a, t in items])])
+page("synagogues-lyon","Synagogues in Lyon, prayer times and Shabbat",f"Eight Chabad houses, the Grande Synagogue de Lyon, Neveh Chalom and {N_MINYANIM} minyanim in Lyon and Villeurbanne: addresses, prayer times. Checked {CHECKED}.",body, [itemlist("Synagogues and minyanim in Lyon and Villeurbanne", [place(s2["nom"], s2["adresse"], s2.get("tel", ""), ["Synagogue", "TouristAttraction"], GEO_CACHE.get(s2["adresse"])) for s2 in SYN_MAIN] + [place(n, _full(a), t, "Synagogue", GEO_CACHE.get(_full(a))) for v, items in SYN_AUTRES for n, a, t in items])])
 
 # ===== 3. Chabad =====
 cartes = "".join(f'''<article class="chabad"><h2>{c['nom']}</h2><p class="adr">{c['adresse']}</p><p class="rav">{c['rav']}</p>{("<a class=\"tel\" href=\"tel:"+c['tel'].replace(' ','')+"\">"+c['tel']+"</a>") if c['tel'] else ""}<p class="note-syn">{c['note']}</p></article>''' for c in CHABAD)
 body = f'''<main>
-{hero("flat-chabad.png","Chabad in Lyon","Seven Chabad houses, a Shabbat table always open","Lyon has seven Chabad centres: city centre, 3rd and 6th arrondissements, Villeurbanne, Charpennes, Écully and the university campus. Wherever you come from, you can call before Shabbat and ask for a meal or a minyan. Our guide is part of this community.",["7 Chabad houses","Shabbat meals on request","Lyon · Villeurbanne · Écully · Campus"])}
+{hero("flat-chabad.png","Chabad in Lyon","Eight Chabad houses, a Shabbat table always open","Lyon has eight Chabad centres: city centre, 3rd and 6th arrondissements, Villeurbanne, Charpennes, Écully, Craponne and the university campus. Wherever you come from, you can call before Shabbat and ask for a meal or a minyan. Our guide is part of this community.",["8 Chabad houses","Shabbat meals on request","Lyon · Villeurbanne · Écully · Campus"])}
 <section class="ss wrap"><div class="chabads">{cartes}</div>{carte([(c['nom'],c['adresse']) for c in CHABAD],320)}<p class="source">Source: chabad.org directory, checked {CHECKED}. Meal and class times are not published online: call each centre directly.</p></section>
 <section class="ss wrap conseils">
   <h2>How it <i>works</i></h2>
@@ -214,7 +215,7 @@ body = f'''<main>
 {cta("Need a Shabbat table in Lyon?","Hello, I would like to be put in touch with a Chabad house in Lyon for Shabbat. Dates: / Number of people:")}
 {ticket}
 </main>'''
-page("chabad-lyon","Chabad houses in Lyon, Villeurbanne and Écully",f"The seven Chabad centres of Lyon and Villeurbanne, with addresses. Shabbat meals and minyan on request. Checked {CHECKED}.",body, [itemlist("Chabad houses in Lyon, Villeurbanne and Écully", [place(c["nom"], c["adresse"], c["tel"], "Place", GEO_CACHE.get(c["adresse"])) for c in CHABAD])])
+page("chabad-lyon","Chabad houses in Lyon, Villeurbanne and Écully",f"The eight Chabad centres of Lyon and Villeurbanne, with addresses. Shabbat meals and minyan on request. Checked {CHECKED}.",body, [itemlist("Chabad houses in Lyon, Villeurbanne and Écully", [place(c["nom"], c["adresse"], c["tel"], "Place", GEO_CACHE.get(c["adresse"])) for c in CHABAD])])
 
 # ===== 4. Cimetiere =====
 body = f'''<main>

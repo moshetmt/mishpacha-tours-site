@@ -5,7 +5,7 @@ PAGE = dict(
   desc="Spending Shabbat in Lyon: where to pray, how to eat, where to sleep on foot, what closes on Friday and what to ask before you go. Checked 7 October 2026.",
   h1="Shabbat in Lyon", ital="how to keep it, step by step",
   intro="You can keep Shabbat well in Lyon if you plan it before you land. The Grande Synagogue and Neveh Chalom hold services, Chabad houses host on request, and kosher caterers cook for the weekend. Settle three things before you arrive: where you sleep, who feeds you, and how you carry.",
-  chips=["Candle lighting times below", "7 Chabad houses, 2 historic synagogues", "No public eruv published", "Checked 7 October 2026"],
+  chips=["Candle lighting times below", "8 Chabad houses, 2 historic synagogues", "No public eruv published", "Checked 7 October 2026"],
   illus="line-shabbat.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
   sections=[

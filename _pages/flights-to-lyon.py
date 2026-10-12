@@ -32,7 +32,7 @@ PAGE = dict(
       ("Shop and walk", "Kosher groceries in Lyon, then the Stopover tour in Vieux Lyon with the Grande Synagogue."),
       ("Drive up, set table", "Your transfer takes you to the resort; if you asked for it, meals or the chef are ready for your first evening."),
     ]),
-    dict(type="text", h2="Shabbat <i>in Lyon</i>", html="""<p>If your flight lands on Friday, or you leave on Sunday, Lyon has seven Chabad houses, two historic synagogues and certified kosher restaurants for a Shabbat before or after the mountain: <a href="../shabbat-in-lyon/">Shabbat in Lyon</a>.</p>"""),
+    dict(type="text", h2="Shabbat <i>in Lyon</i>", html="""<p>If your flight lands on Friday, or you leave on Sunday, Lyon has eight Chabad houses, two historic synagogues and certified kosher restaurants for a Shabbat before or after the mountain: <a href="../shabbat-in-lyon/">Shabbat in Lyon</a>.</p>"""),
     dict(type="photos", items=[("stock/lyon-partdieu.jpg", "Lyon Part-Dieu"), ("c-synagogue-7.jpg", "The Grande Synagogue, quai Tilsitt"), ("stock/traboule-1.jpg", "A Renaissance gallery, rue Juiverie"), ("stock/alpes-ski.jpg", "A piste above Megève")]),
     dict(type="faq", h2="Flights to Lyon: <i>questions</i>", items=[
       ("Is there a direct flight from Tel Aviv to Lyon?", "Yes. El Al and Transavia France operate non-stop flights, one to two a week depending on the season, about 4 h 30. Check the airlines for your dates."),

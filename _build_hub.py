@@ -45,9 +45,9 @@ GROUPS = [
  ("Eat, pray, <i>sleep</i>", [
   ("kosher-restaurants-lyon/", "stock/stjean-5.jpg", "Kosher in Lyon", "31 certified restaurants, bakeries, butchers and caterers, on the map"),
   ("kosher-shabbat-meals-catering-lyon/", "stock/hallah.jpg", "Shabbat meals and catering", "Six certified caterers, Chabad tables, groceries for a Shabbat at home"),
-  ("synagogues-lyon/", "c-synagogue-7.jpg", "Synagogues and prayer times", "Seven Chabad houses first, the two historic synagogues, 25 minyanim, candle-lighting times this week"),
+  ("synagogues-lyon/", "c-synagogue-7.jpg", "Synagogues and prayer times", "Eight Chabad houses first, the two historic synagogues, 25 minyanim, candle-lighting times this week"),
   ("shabbat-in-lyon/", "synagogue-tilsitt-arche.jpg", "Shabbat in Lyon", "Where to pray, how to eat, what closes on Friday, how to plan it"),
-  ("chabad-lyon/", "stock/lyon-tetedor.jpg", "Chabad houses", "Seven centres, a Shabbat table on request, a minyan near your hotel"),
+  ("chabad-lyon/", "stock/lyon-tetedor.jpg", "Chabad houses", "Eight centres, a Shabbat table on request, a minyan near your hotel"),
   ("mikveh-lyon/", "stock/rose-7.jpg", "Mikveh", "Eight mikvaot in Lyon and Villeurbanne, and how to book"),
   ("where-to-stay-lyon-jewish-travellers/", "stock/lyon-terreaux.jpg", "Where to stay", "Three areas on foot from a synagogue, and what to ask a hotel for Shabbat"),
   ("jewish-cemetery-lyon/", "montluc-mur-des-fusilles.jpg", "The Jewish cemetery", "La Mouche, since 1795: hours, contact, finding a family grave"),
