@@ -13,7 +13,7 @@
  * ---------------------------------------------------------------------
  */
 
-var DEST_EMAIL = 'contact@mishpachatours.com, mochetimsit@gmail.com';
+var DEST_EMAIL = 'contact@mishpachatours.com, mochetimsit@gmail.com, contact@123digital.fr';   // 123digital : fait sonner le telephone de l'operateur (12/10)
 var CC_EMAIL = 'timsitelis613@gmail.com';   // la guide, en copie de chaque demande (operateur, 11/10)
 var ENTETE = ['Date', 'Tour', 'Dates', 'Nombre de personnes', 'Langue', 'Nom',
               'Email ou WhatsApp', 'Message', 'Page', 'Source'];
