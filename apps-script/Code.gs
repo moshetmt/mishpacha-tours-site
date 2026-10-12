@@ -124,9 +124,11 @@ function envoyerMail_(d, quand) {
   var html =
     '<div style="margin:0;padding:24px 12px;background:#FFFAED;font-family:Arial,Helvetica,sans-serif">' +
     '<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="max-width:560px;margin:0 auto;background:#FFFFFF;border-radius:15px;overflow:hidden">' +
-    '<tr><td style="background:#2D5132;padding:22px 28px;color:#FFFAED;font-size:13px;letter-spacing:.04em">MISHPACHA TOURS' +
+    '<tr><td style="background:#2D5132;padding:20px 28px"><table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>' +
+    '<td width="64" style="vertical-align:middle"><img src="https://mishpachatours.com/img/apple-touch-icon.png" width="64" height="64" alt="Mishpacha Tours" style="display:block;border:0;border-radius:50%"></td>' +
+    '<td style="padding-left:16px;vertical-align:middle;color:#FFFAED;font-size:13px;letter-spacing:.04em">MISHPACHA TOURS' +
     '<div style="margin-top:6px;font-family:Georgia,serif;font-size:24px;letter-spacing:0;color:#FFFFFF">New request' +
-    (txt(d.nom) ? ' from ' + esc_(txt(d.nom)) : '') + '</div></td></tr>' +
+    (txt(d.nom) ? ' from ' + esc_(txt(d.nom)) : '') + '</div></td></tr></table></td></tr>' +
     '<tr><td style="background:#FCDE73;padding:12px 28px;color:#1C1B1F;font-size:15px;font-weight:700">' +
     esc_(txt(d.tour) || 'Tour not specified') + '</td></tr>' +
     '<tr><td style="padding:14px 28px 6px"><table role="presentation" cellpadding="0" cellspacing="0" width="100%">' +
