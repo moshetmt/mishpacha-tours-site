@@ -576,3 +576,20 @@ body.menu-ouvert{overflow:hidden}
 .dk-vigico{width:48px;height:48px;padding:11px}
 .dk-suite > li:nth-child(3n+2) > .dk-vigico{background:var(--rose)}
 .dk-suite > li:nth-child(3n) > .dk-vigico{background:var(--vert);color:var(--creme)}
+/* mini-dessins a la place des pictos au trait (choix operateur du 12/10) */
+.dk-des{width:72px!important;height:72px!important;padding:0!important;border-radius:0!important;background:none!important;object-fit:contain}
+.dk-cartes > li{padding-inline-start:104px;min-height:104px}
+.dk-cartes > li > .dk-des{inset-inline-start:16px;top:16px}
+@media (max-width:767px){.dk-rail > li{padding:18px;padding-top:104px}}
+.dk-liens{padding-inline-start:18px!important;padding-top:104px!important}
+.dk-note p{padding-inline-start:104px;min-height:104px}
+.dk-recit h2 + p{padding-inline-start:104px;min-height:104px}
+.dk-ico-note.dk-des,.dk-ico-recit.dk-des{inset-inline-start:16px;top:16px}
+.dk-suite > li{grid-template-columns:60px 1fr 22px}
+.dk-vigico.dk-des{width:60px!important;height:60px!important}
+.dk-preuves li{grid-template-columns:52px 1fr}
+.dk-preuves .dk-des{width:52px!important;height:52px!important}
+.dk-des{width:80px!important;height:80px!important}
+.dk-cartes > li > .dk-des,.dk-ico-note.dk-des,.dk-ico-recit.dk-des{inset-inline-start:12px;top:14px}
+.dk-vigico.dk-des{width:60px!important;height:60px!important}
+.dk-preuves .dk-des{width:52px!important;height:52px!important}

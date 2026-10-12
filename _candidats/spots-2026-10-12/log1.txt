@@ -1,0 +1,9 @@
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/mountain-snow.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/check.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/plane.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/snowflake.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/car.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/book-open.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/sun.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/house.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/users.png

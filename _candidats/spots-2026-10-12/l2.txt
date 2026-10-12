@@ -1,0 +1,9 @@
+footprints|a pair of brown walking boots and a wooden walking stick
+message-circle|a smartphone showing one green chat bubble
+calendar-days|a wall calendar page with one day circled in pink
+clock|a round wall clock with two hands
+shield-check|a deep green shield with a cream tick mark
+shopping-basket|a wicker grocery basket with a loaf of bread, a bottle and vegetables
+landmark|a stone building facade with three tall arched doors and columns, no symbols on it
+map-pin|a folded paper map with one salmon pink location pin
+info|a wooden signpost with two arrow boards pointing in different directions, blank boards

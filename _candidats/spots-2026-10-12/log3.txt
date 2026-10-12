@@ -1,0 +1,9 @@
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/heart-handshake.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/file-text.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/bed-double.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/waves.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/route.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/lock.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/languages.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/calendar-x.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/badge-check.png

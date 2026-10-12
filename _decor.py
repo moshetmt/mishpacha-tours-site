@@ -59,7 +59,26 @@ def vignettes():
         if not os.path.exists(d):
             im = Image.open(f).convert("RGBA"); im.thumbnail((240, 240)); im.save(d, "WEBP", quality=82)
 
-def ico(name, cls="dk dk-ico"): return f'<svg class="{cls}" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#{name}"/></svg>'
+DES = {os.path.basename(f)[:-5] for f in glob.glob("img/des/*.webp")}
+def ico(name, cls="dk dk-ico"):
+    """Mini-dessin (img/des/<nom>.webp, choix operateur du 12/10) pour les cartes ; picto au trait pour les coches et les fleches."""
+    if "dk-ico" in cls and name in DES:
+        return f'<img class="{cls} dk-des" src="/img/des/{name}.webp" alt="" width="96" height="96" loading="lazy">'
+    return f'<svg class="{cls}" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#{name}"/></svg>'
+def dessins():
+    """_candidats/spots-*/<nom>.png (fond blanc) -> img/des/<nom>.webp 192 px, fond rendu transparent."""
+    from PIL import Image, ImageDraw
+    os.makedirs("img/des", exist_ok=True)
+    for f in glob.glob("_candidats/spots-*/*.png"):
+        n = os.path.basename(f)[:-4]; d = f"img/des/{n}.webp"
+        if n.startswith("spot-") or os.path.exists(d): continue
+        rgb = Image.open(f).convert("RGB"); w, h = rgb.size; M = (255, 0, 255)
+        for xy in [(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1), (w // 2, 0), (w // 2, h - 1), (0, h // 2), (w - 1, h // 2)]:
+            if rgb.getpixel(xy) != M and min(rgb.getpixel(xy)) > 225: ImageDraw.floodfill(rgb, xy, M, thresh=28)  # le fond part des bords : le blanc INTERIEUR du dessin reste
+        im = Image.open(f).convert("RGBA"); im.putalpha(Image.eval(Image.frombytes("L", (w, h), bytes(0 if p == M else 255 for p in rgb.getdata())), lambda v: v))
+        bb = im.getbbox(); im = im.crop(bb) if bb else im
+        c = Image.new("RGBA", (max(im.size),) * 2, (0, 0, 0, 0)); c.paste(im, ((c.width - im.width) // 2, (c.height - im.height) // 2))
+        c.resize((192, 192), Image.LANCZOS).save(d, "WEBP", quality=88)
 def choisir(lead, tout):
     for src in (lead, tout):
         for pat, name in ICO:
@@ -198,7 +217,7 @@ def empreinte(h):
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     do_strip, check = "--strip" in sys.argv, "--check" in sys.argv
-    if not do_strip and not check: sprite(); vignettes()
+    if not do_strip and not check: sprite(); dessins(); DES.update(os.path.basename(f)[:-5] for f in glob.glob("img/des/*.webp"))
     nb = ecarts = 0
     for p in cibles(args):
         d = os.path.dirname(p)

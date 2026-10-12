@@ -1,0 +1,9 @@
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/footprints.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/message-circle.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/calendar-days.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/clock.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/shield-check.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/shopping-basket.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/landmark.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/map-pin.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-12/info.png
