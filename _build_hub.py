@@ -23,7 +23,7 @@ SHABBAT = """<div class="shabbat" id="shabbat"><p class="shabbat-titre">Shabbat 
 fetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=2996944&M=on&lg=en").then(r=>r.json()).then(d=>{const it=d.items;const c=it.find(i=>i.category==="candles"),h=it.find(i=>i.category==="havdalah"),p=it.find(i=>i.category==="parashat");const f=s=>new Date(s).toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Paris"});const dd=s=>new Date(s).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",timeZone:"Europe/Paris"});document.querySelector(".shabbat-corps").innerHTML=(p?"<b>"+p.title+"</b><br>":"")+(c?"Candle lighting: <b>"+f(c.date)+"</b>, "+dd(c.date)+"<br>":"")+(h?"Havdalah: <b>"+f(h.date)+"</b>, "+dd(h.date):"")+"<br><small>Source: Hebcal, Lyon</small>"}).catch(()=>{document.querySelector(".shabbat-corps").textContent="Times unavailable right now."});
 </script>"""
 
-home = open("index.html", encoding="utf-8").read()
+home = open("_gabarit.html", encoding="utf-8").read()
 head = home[:home.index("<main>")]; foot = home[home.index("</main>")+7:]
 def rel(s):
     for a, b in [('href="img/','href="../img/'),('src="img/','src="../img/'),('src="fonts/','src="../fonts/'),('href="fonts/','href="../fonts/'),

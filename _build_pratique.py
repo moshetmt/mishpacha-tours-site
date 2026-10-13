@@ -111,7 +111,7 @@ def photos(lst):
     figs = "".join(f'<figure{" class=\"large\"" if i == 0 else ""}><img src="../img/{p}" alt="{c}" loading="lazy"><figcaption>{c}</figcaption></figure>' for i, (p, c) in enumerate(lst))
     return '<div class="ss wrap"><div class="mosaique" style="margin-top:0">' + figs + "</div></div>"
 
-home = open("index.html", encoding="utf-8").read()
+home = open("_gabarit.html", encoding="utf-8").read()
 head = home[:home.index("<main>")]; foot = home[home.index("</main>")+7:]
 def rel(s):
     for a,b in [('href="img/','href="../img/'),('src="img/','src="../img/'),('src="fonts/','src="../fonts/'),('href="fonts/','href="../fonts/'),

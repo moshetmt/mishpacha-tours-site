@@ -92,7 +92,7 @@ TOURS = [
    photos=[("c-izieu-8.jpg","Maison d'Izieu"),("maison-izieu-volets.jpg","The blue shutters"),("c-izieu-4.jpg","The house and its grounds"),("stock/izieu-3.jpg","The classroom"),("stock/izieu-2.jpg","The staircase"),("stock/izieu-1.jpg","The corridor")]),
 ]
 
-home = open("index.html", encoding="utf-8").read()
+home = open("_gabarit.html", encoding="utf-8").read()
 head = home[:home.index("<main>")]
 foot = home[home.index("</main>")+7:]
 

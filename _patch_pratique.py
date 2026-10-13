@@ -26,7 +26,7 @@ def photos(lst):
     figs = "".join(f'<figure{" class=\"large\"" if i == 0 else ""}><img src="../img/{p}" alt="{c}" loading="lazy"><figcaption>{c}</figcaption></figure>' for i, (p, c) in enumerate(lst))
     return '<div class="ss wrap"><div class="mosaique" style="margin-top:0">' + figs + "</div></div>"
 '''
-s = s.replace('home = open("index.html"', helpers + '\nhome = open("index.html"', 1)
+s = s.replace('home = open("_gabarit.html"', helpers + '\nhome = open("_gabarit.html"', 1)
 
 old1 = '''lis = "".join(f'<li><b>{n}</b>{(" <small>"+x+"</small>") if x else ""}<span>{a}</span>{("<a href=\\"tel:"+t.replace(" ","")+"\\">"+t+"</a>") if t else ""}</li>' for n,a,t,x in items)'''
 new1 = '''lis = "".join(f'<li><b>{n}</b>{(" <small>"+x+"</small>") if x else ""}<span>{a}</span><span class="liens"><a class="go" href="{gmaps(a)}" target="_blank" rel="noopener">Map</a>{("<a href=\\"tel:"+t.replace(" ","")+"\\">"+t+"</a>") if t else ""}</span></li>' for n,a,t,x in items)'''

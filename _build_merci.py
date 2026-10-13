@@ -2,7 +2,7 @@
 """Genere /merci/ (page d'arrivee apres le formulaire). python _build_merci.py (depuis site-v5/)"""
 from _head import head_page
 import re, os
-home = open("index.html", encoding="utf-8").read()
+home = open("_gabarit.html", encoding="utf-8").read()
 head = home[:home.index("<main>")]; foot = home[home.index("</main>")+7:]
 def rel(s):
     for a, b in [('href="img/','href="../img/'),('src="img/','src="../img/'),('src="fonts/','src="../fonts/'),('href="fonts/','href="../fonts/'),

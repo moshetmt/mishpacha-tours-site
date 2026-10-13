@@ -600,3 +600,72 @@ body.menu-ouvert{overflow:hidden}
 .dk-gico{position:absolute;inset-inline-start:0;top:0;width:48px;height:48px;object-fit:contain}
 .dk-g-ligne a{font-weight:600;text-underline-offset:3px}
 @media (min-width:768px){.dk-garanties{grid-template-columns:repeat(3,1fr);align-items:start;gap:16px 24px}.dk-g-tete{grid-column:1/-1}}
+
+/* =========================================================================
+   Accueil sejours (13/10) : Alpes d'abord, Lyon en bloc. Classes ac-*, hors _decor.py.
+   ========================================================================= */
+.ac-preuves{padding:24px var(--pad) 28px}
+.ac-preuves ul{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:1000px;margin:0 auto}
+.ac-preuves li{display:grid;grid-template-columns:52px 1fr;column-gap:10px;align-items:center;padding:12px;border-radius:15px;background:var(--blanc)}
+.ac-preuves li:first-child{grid-column:1 / -1;background:var(--jaune)}
+.ac-preuves img{grid-row:1 / span 2;width:52px;height:52px;object-fit:contain}
+.ac-preuves b{font-family:var(--titre);font-weight:300;font-size:17px;line-height:1.15}
+.ac-preuves span{font-size:12.5px;opacity:.75;line-height:1.25}
+.ac-stations{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:26px}
+.ac-stations a{display:inline-flex;align-items:center;min-height:46px;padding:0 18px;border-radius:999px;background:var(--jaune);text-decoration:none;font-size:16px;font-weight:500}
+.ac-stations li:first-child a{background:var(--encre);color:var(--blanc)}
+.ac-portes{margin-top:32px}
+.ac-chalet{display:grid;gap:24px}
+.ac-chalet-photos{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ac-chalet-photos img{width:100%;height:100%;aspect-ratio:4/3;object-fit:cover;border-radius:15px}
+.ac-chalet-photos .grande{grid-column:1 / -1;aspect-ratio:16/10}
+.ac-chalet-texte h2{margin-top:14px}
+.ac-chalet-texte ul{margin-top:20px;display:grid;gap:10px}
+.ac-chalet-texte li{position:relative;padding-inline-start:22px;font-size:16px}
+.ac-chalet-texte li::before{content:"";position:absolute;inset-inline-start:0;top:8px;width:10px;height:10px;border-radius:50%;background:var(--vert-c)}
+.ac-chalet-texte li b{font-weight:600}
+.ac-prix{margin-top:18px;font-family:var(--titre);font-weight:300;font-size:20px}
+.ac-boutons{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:20px}
+.ac-boutons .pill{margin-top:0}
+.ac-boutons .btn-noir svg{width:20px;height:20px;fill:var(--jaune)}
+.ac-saisons{display:grid;gap:14px;margin-top:32px}
+.ac-saisons > div{position:relative;background:var(--blanc);border-radius:15px;padding:18px;padding-inline-start:108px;min-height:112px}
+.ac-saisons img{position:absolute;inset-inline-start:14px;top:16px;width:80px;height:80px;object-fit:contain}
+.ac-saisons h3{font-size:22px}
+.ac-saisons p{margin-top:6px;font-size:15.5px;opacity:.85}
+.ac-lyon-grille{display:grid;gap:24px}
+.ac-lyon-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:15px}
+.ac-lyon p{margin-top:14px;font-size:16px;max-width:34em}
+.ac-lyon-liste{margin-top:18px;display:grid;gap:10px}
+.ac-lyon-liste li{position:relative;padding-inline-start:22px;font-size:16px}
+.ac-lyon-liste li::before{content:"";position:absolute;inset-inline-start:0;top:8px;width:10px;height:10px;border-radius:50%;background:var(--rose)}
+.ac-lyon-liste b{font-weight:600}
+.ac-guide a{font-weight:600;text-underline-offset:3px}
+@media (min-width:700px){.ac-portes{grid-template-columns:repeat(2,1fr)}.ac-saisons{grid-template-columns:repeat(3,1fr)}.ac-saisons > div{padding:20px;padding-top:108px}}
+@media (min-width:900px){
+  .ac-preuves ul{grid-template-columns:repeat(3,1fr)}
+  .ac-preuves li:first-child{grid-column:auto}
+  .ac-portes{grid-template-columns:repeat(4,1fr)}
+  .ac-chalet{grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+  .ac-lyon-grille{grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+  .ac-lyon-photo img{aspect-ratio:1/1}
+  .ac-pourquoi{grid-template-columns:repeat(4,1fr);max-width:1200px}
+}
+.ac-hero::before{background:linear-gradient(90deg,rgba(28,27,31,.62),rgba(28,27,31,.5))}
+.ac-portes .hub-carte .btn-noir{margin-top:auto}
+.ac-portes .hub-carte p{margin-bottom:14px}
+.ac-lyon-photo img{height:auto}
+.ac-chalet-photos img{height:auto}
+.ac-hero::before{background:linear-gradient(90deg,rgba(20,19,22,.74) 0%,rgba(20,19,22,.6) 55%,rgba(20,19,22,.5) 100%)}
+.ac-hero h1,.ac-hero p{text-shadow:0 1px 14px rgba(0,0,0,.45)}
+.ac-hero h1 i{color:#F6EFE0}
+@media (max-width:699px){
+  .ac-preuves li{display:block;text-align:center;padding:14px 10px}
+  .ac-preuves img{margin:0 auto 6px;width:48px;height:48px}
+  .ac-preuves b{display:block;font-size:16px}
+  .ac-preuves span{display:block;margin-top:2px}
+  .ac-portes{grid-auto-flow:column;grid-auto-columns:80%;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(var(--pad) * -1);padding:0 var(--pad) 6px;scroll-padding-inline:var(--pad);scrollbar-width:none}
+  .ac-portes::-webkit-scrollbar{display:none}
+  .ac-portes > a{scroll-snap-align:start}
+}
+.ac-hero::before{z-index:1}
