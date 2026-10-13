@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="rue-juiverie-lyon",
-  title="Rue Juiverie, Lyon: Medieval Jewish Quarter Tour",
+  title="Rue Juiverie, Lyon: Medieval Jewish Quarter",
   desc="Rue Juiverie in Vieux Lyon kept its name from the medieval Jewish community. What remains, what does not, and how to visit with a Jewish guide.",
   h1="Rue Juiverie, Lyon", ital="the street that kept the name",
   intro="Rue Juiverie runs through the Vieux Lyon, in the 5th arrondissement. It takes its name from the Jewish community that lived in medieval Lyon. The community is long gone. The name stayed, and so did the Renaissance houses built after it left. We walk it with you, then continue to rue Sainte-Catherine, where the wartime story begins.",

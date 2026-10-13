@@ -2,7 +2,7 @@
 PAGE = dict(
   slug="contact",
   title="Contact Mishpacha Tours, WhatsApp or email",
-  desc="Book a private Jewish tour of Lyon or ask a question. WhatsApp +33 6 52 09 23 01, email contact@mishpachatours.com. Same-day reply, never on Shabbat.",
+  desc="Ask for a kosher stay in the French Alps or a tour of Lyon. WhatsApp +33 6 52 09 23 01 or email contact@mishpachatours.com. Same-day reply, never on Shabbat.",
   h1="Contact us",
   ital="same-day reply, never on Shabbat",
   intro="WhatsApp is the fastest way to reach us. Send your dates, the number of people and your language, and we answer in writing with a start time, a meeting point and the price for your group.",

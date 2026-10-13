@@ -2,7 +2,7 @@
 PAGE = dict(
   slug="privacy",
   title="Privacy policy, Mishpacha Tours",
-  desc="What Mishpacha Tours collects when you book a tour, why, for how long, and your rights under the GDPR. No advertising cookies, no tracking.",
+  desc="What Mishpacha Tours collects when you ask for a stay or book a tour, why, for how long, and your rights under the GDPR. No advertising cookies, no tracking.",
   h1="Privacy",
   ital="what we keep, and why",
   intro="We collect what we need to answer you and to run your tour, nothing else. This page says what that is, where it is stored and how to have it deleted.",

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-courchevel",
-  title="Kosher in Courchevel: chef, meals, Shabbat, minyan",
-  desc="Strictly kosher in Courchevel: a private chef in your chalet, meals delivered, Shabbat, the holidays, a minyan and a Sefer Torah. One request, one quote.",
+  title="Kosher Courchevel: Chef, Shabbat and Minyan",
+  desc="Kosher Courchevel 1850 and the villages of Les 3 Vallées: private chef in your chalet, delivered meals, Shabbat, holidays and a minyan. One request, one quote.",
   h1="Courchevel, strictly kosher", ital="Courchevel 1850 and its villages, in Les 3 Vallées",
   intro="Courchevel 1850 sits at about 1,850 m in Les 3 Vallées; the official 2026-27 season runs from 4 December 2026 to 18 April 2027. Mishpacha Tours organises the kosher side of your week here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat meals, the holidays, a minyan and a Sefer Torah for your dates. One request, one written quote. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
   chips=["Courchevel 1850, about 1,850 m, Les 3 Vallées", "About 2 h 10 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],

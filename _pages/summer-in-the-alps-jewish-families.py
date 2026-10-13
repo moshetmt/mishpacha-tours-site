@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="summer-in-the-alps-jewish-families",
-  title="Summer in the Alps for Jewish families, via Lyon",
+  title="Summer in the Alps for Jewish Families",
   desc="Kosher summer in the French Alps: synagogues, mikveh and meals in Aix-les-Bains, Annecy and Grenoble, what is published for Chamonix, and Lyon as your base.",
   h1="Summer in the Alps for Jewish families", ital="lakes, hikes and a minyan within reach",
   intro="Summer in the Alps means lakes, walking and long evenings. For an observant family it also means working out where the minyan is, who feeds you on Shabbat and what is open. Three towns near Lyon have a published community: Aix-les-Bains, Annecy and Grenoble. In the high resorts, the Chabad services we found are winter only. In the resort, our kosher team organises meals, Shabbat and a minyan for your dates: <a href='../kosher-services-french-alps/'>one request, one quote</a>. We sell no packages and no stays.",

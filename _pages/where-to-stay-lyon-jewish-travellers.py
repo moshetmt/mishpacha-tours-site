@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="where-to-stay-lyon-jewish-travellers",
-  title="Where to stay in Lyon as a Jewish traveller: 3 areas",
+  title="Where to Stay in Lyon as a Jewish Traveller",
   desc="Three areas to sleep in Lyon when you keep Shabbat: Presqu'île, 6th arrondissement, Villeurbanne. Walking estimates to Tilsitt and the questions to ask a hotel.",
   h1="Where to stay in Lyon", ital="for a Jewish traveller who keeps Shabbat",
   intro="Lyon has no kosher hotel that we know of. Observant visitors sleep within walking distance of a synagogue, about 10 minutes from the Grande Synagogue when they stay on the Presqu'île, and order Shabbat meals from a Beth Din-certified caterer before Thursday. Three areas work: the Presqu'île near the Grande Synagogue, the 6th arrondissement near the kosher restaurants, and Villeurbanne at the heart of community life.",

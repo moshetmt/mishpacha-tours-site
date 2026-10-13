@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="shabbat-in-lyon",
-  title="Shabbat in Lyon: synagogues, meals, where to stay",
+  title="Shabbat in Lyon: Where to Pray, Eat and Sleep",
   desc="Spending Shabbat in Lyon: where to pray, how to eat, where to sleep on foot, what closes on Friday and what to ask before you go. Checked 7 October 2026.",
   h1="Shabbat in Lyon", ital="how to keep it, step by step",
   intro="You can keep Shabbat well in Lyon if you plan it before you land. The Grande Synagogue and Neveh Chalom hold services, Chabad houses host on request, and kosher caterers cook for the weekend. Settle three things before you arrive: where you sleep, who feeds you, and how you carry.",
@@ -23,7 +23,7 @@ PAGE = dict(
     ], source="Sources: consistoiredelyon.fr and nevehchalom.fr (times read on 8 September 2026, they change with the season), fr.chabad.org directory. Call before you go."),
     dict(type="text", h2="At the <i>door</i>",
       html="<p>French authorities keep security forces visible around Jewish sites, so expect a check at the entrance of a synagogue. Bring a photo ID and arrive a few minutes early. No visitor procedure is published, so tell the synagogue when you plan to come. More on the <a href='../synagogues-lyon/'>synagogues of Lyon</a> page.</p>"),
-    dict(type="photos", items=[("c-synagogue-7.jpg", "The Grande Synagogue, quai Tilsitt"), ("synagogue-tilsitt-arche.jpg", "The holy ark, Tilsitt"), ("stock/stjean-2.jpg", "Vieux Lyon, across the Saône"), ("stock/rose-2.jpg", "A Vieux Lyon courtyard")]),
+    dict(type="photos", items=[("c-synagogue-7.jpg", "The Grande Synagogue, quai Tilsitt"), ("stock/stjean-2.jpg", "Vieux Lyon, across the Saône"), ("stock/rose-2.jpg", "A Vieux Lyon courtyard")]),
     dict(type="beige", h2="Shabbat <i>meals</i>",
       html="<p>We know of no hotel in Lyon that serves kosher meals. Plan your Shabbat meals before you arrive.</p><ul><li><b>Caterers.</b> Seven caterers are certified by the Beth Din de Lyon. Whether each one delivers to a hotel is not published: ask when you order. We help you choose and write. See <a href='../kosher-shabbat-meals-catering-lyon/'>kosher catering in Lyon</a>.</li><li><b>Chabad.</b> A Chabad house can host you for a meal. No meal schedule is published online: call before Friday noon and say how many you are. See <a href='../chabad-lyon/'>Chabad in Lyon</a>.</li><li><b>Apartment Shabbat.</b> Two groceries certified by the Beth Din, Hypercacher and Lilly Market, sell what you need. Buy on Thursday: shops close on Friday afternoon.</li><li><b>Order before Thursday.</b> Order deadlines are not published, so write to us on Monday or Tuesday.</li></ul>"),
     dict(type="text", h2="Where to <i>sleep</i>",

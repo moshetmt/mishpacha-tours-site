@@ -28,6 +28,7 @@ BANDEAU = {  # (texte, lien)
              "he": ("סיורים פרטיים, מיום ראשון עד יום שישי בבוקר. ", "בדיקת תאריך בוואטסאפ.")},
 }
 
+MENU = {"en": "Plan your trip", "fr": "Préparer votre voyage", "es": "Planifique su viaje", "he": "תכננו את הטיול"}
 def zone(page): return "alpes" if page in ALPES else "general" if page in GENERAL else "lyon"
 
 def traiter(path):
@@ -37,8 +38,15 @@ def traiter(path):
     z = zone(page)
     h = io.open(path, encoding="utf-8").read()
     txt, lien = BANDEAU[z][lang]
+    pre0 = "" if lang == "en" else "/" + lang
     n = re.sub(r'(<div class="strip"><span class="bh" lang="he">ב״ה</span>).*?(<a href="[^"]*">).*?(</a></div>)',
                lambda m: m.group(1) + txt + m.group(2) + lien + m.group(3), h, count=1, flags=re.S)
+    if z in ("alpes", "general"):
+        n = re.sub(r'(<div class="strip"><span class="bh" lang="he">ב״ה</span>[^<]*<a href=")[^"]*(")', lambda m: m.group(1) + pre0 + "/plan-your-trip/" + m.group(2), n, count=1)
+    if "/plan-your-trip/" not in re.search(r'<nav class="liens".*?</nav>', n, re.S).group(0):
+        lien = f'<a href="{pre0}/plan-your-trip/">{MENU[lang]}</a>'
+        n = re.sub(r'(<nav class="liens"[^>]*>)(.*?)(\s*</nav>)', lambda m: m.group(1) + m.group(2) + "\n    " + lien + m.group(3), n, count=1, flags=re.S)
+        n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>)(.*?)(\s*</nav>)', lambda m: m.group(1) + m.group(2) + "\n    " + lien + m.group(3), n, count=1, flags=re.S)
     n = re.sub(r'(<p class="logo-pied">.*?<small>).*?(</small>)', lambda m: m.group(1) + BASELINE[z] + m.group(2), n, count=1, flags=re.S)
     pre = "" if lang == "en" else "/" + lang
     n = re.sub(r'href="(?:(?:\.\./)+|/(?:fr/|es/|he/)?)#(tours|guide)"', lambda m: f'href="{pre}/jewish-lyon-tours/#{m.group(1)}"', n)

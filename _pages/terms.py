@@ -2,7 +2,7 @@
 PAGE = dict(
   slug="terms",
   title="Terms of booking, Mishpacha Tours",
-  desc="How booking a private Jewish tour of Lyon works: prices per group, payment, free cancellation up to 24 hours before, entries billed separately, no tours on Shabbat.",
+  desc="How booking a private tour of Lyon works: prices per group, payment, free cancellation up to 24 hours before, entries billed separately, no tours on Shabbat.",
   h1="Terms of booking",
   ital="short, in plain words",
   intro="These are the terms that apply when you book a tour with Mishpacha Tours. They are short because the deal is simple: one price for your group, confirmed in writing, cancellable free of charge until 24 hours before.",

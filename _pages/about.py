@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="about",
-  title="About Mishpacha Tours, Jewish Tours of Lyon",
-  desc="Private Jewish tours of Lyon led by a Jewish, observant, state-licensed guide. Strictly kosher, shomer shabbat, prices per group. Who we are and how we work.",
+  title="About Us: Kosher Stays in the Alps and Lyon",
+  desc="Mishpacha Tours organises strictly kosher stays in the French Alps and private tours of Lyon, with a Jewish, observant, licensed guide. Who we are, how we work.",
   h1="About Mishpacha Tours",
   ital="a Jewish guide, for Jewish travellers",
   intro="Mishpacha means family. We guide Jewish travellers through Lyon the way you would show your own city to cousins from abroad: in private, at your pace, with nothing about kashrut or Shabbat to explain first.",

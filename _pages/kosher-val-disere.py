@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-val-disere",
-  title="Kosher in Val d'Isère: chef, meals, Shabbat, minyan",
-  desc="Val d'Isère, strictly kosher: a private chef in your chalet, meals delivered to your apartment, Shabbat, holidays, minyan and Sefer Torah. One quote.",
+  title="Kosher Val d'Isère: Chef, Shabbat, Minyan",
+  desc="Kosher Val d'Isère at 1,850 m, with shared slopes with Tignes up to 3,456 m: private chef in your chalet, delivered meals, Shabbat, minyan. One quote.",
   h1="Val d'Isère, strictly kosher", ital="1,850 m, shared slopes with Tignes up to 3,456 m",
   intro="Val d'Isère sits at 1,850 m in the Haute Tarentaise and shares one ski area with Tignes, the Tignes-Val d'Isère domain, about 300 km of pistes that climb to 3,456 m. The season is announced from 28 November 2026 to 2 May 2027 in the guides we read. Mishpacha Tours organises the kosher side of your week here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. Families from London, Manchester or New York and Hebrew-speaking guests: one request, one written quote. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
   chips=["1,850 m, Tignes-Val d'Isère, about 300 km of pistes", "About 2 h 30 to 3 h from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],

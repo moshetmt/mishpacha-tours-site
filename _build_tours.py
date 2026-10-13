@@ -9,7 +9,7 @@ def wa(txt): return WA + html.escape(__import__('urllib.parse').parse.quote(txt)
 
 TOURS = [
  dict(slug="jewish-lyon", tag="City walk", h1="Jewish Lyon", ital="A private walk through the Jewish story of Lyon, inside the Grande Synagogue",
-   photo="synagogue-tilsitt-arche.jpg", lieu="Vieux Lyon and quai Tilsitt", duree="2 hours 30 minutes", format="On foot, private group",
+   title="Jewish Tour of Lyon Inside the Grande Synagogue", photo="synagogue-tilsitt-galerie.jpg", lieu="Vieux Lyon and quai Tilsitt", duree="2 hours 30 minutes", format="On foot, private group",
    prix="290 €", prix2="per group, 1 to 4 people", prix3="+35 € per extra person, 5th to 10th",
    reponse="Jewish Lyon is a private 2 h 30 walking tour of Vieux Lyon and the Grande Synagogue, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before. Hebrew-speaking guests are guided in English.",
    intro="Rue Juiverie and medieval Old Lyon, the Grande Synagogue on quai Tilsitt from the inside, and rue Sainte-Catherine: two and a half hours on foot with a guide who is part of the community she shows you. The Grande Synagogue is closed to visitors outside the Heritage Days. Entry requires a special authorisation that Mishpacha Tours holds. This is the only tour that takes you inside, subject to opening hours and security on the day.",
@@ -55,7 +55,7 @@ TOURS = [
         ("Can I combine this with the CHRD visit on the same day?","No. The two Memory visits are booked separately and never run on the same day."),
         ("Do we go inside Neveh Shalom?","Yes. It is the second synagogue we take you inside, alongside the Grande Synagogue on quai Tilsitt."),
         ("Can I cancel if my plans change?","Yes, free cancellation up to 24 hours before the start time.")],
-   photos=[("c-montluc-1.jpg","Montluc, the cell gallery"),("montluc-mur-des-fusilles.jpg","Montluc, the wall"),("synagogue-tilsitt-arche.jpg","Inside a Lyon synagogue"),("c-synagogue-4.jpg","The synagogue door"),("stock/chrd-7.jpg","A liaison agent's satchel, CHRD")]),
+   photos=[("c-montluc-1.jpg","Montluc, the cell gallery"),("montluc-mur-des-fusilles.jpg","Montluc, the wall"),("synagogue-tilsitt-galerie.jpg","Inside a Lyon synagogue"),("c-synagogue-4.jpg","The synagogue door"),("stock/chrd-7.jpg","A liaison agent's satchel, CHRD")]),
  dict(slug="stopover", tag="City walk", h1="Stopover", ital="Three hours in Jewish Lyon while your transfer waits",
    photo="c-traboule-1.jpg", lieu="Vieux Lyon", duree="3 hours", format="On foot, private group, for families driving on to the Alps",
    prix="390 €", prix2="per group, 1 to 5 people", prix3="+35 € per extra person, 6th to 10th. Tour operators and kosher hotels: net rates on request.",
@@ -113,9 +113,10 @@ for t in TOURS:
     faq = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q,a in t["faq"])
     photos = "".join(f'<figure{" class=\"large\"" if i==0 else ""}><img src="../../img/{p}" alt="{c}" loading="lazy"><figcaption>{c}</figcaption></figure>' for i,(p,c) in enumerate(t["photos"]))
     h = rel(head)
-    h = re.sub(r"<title>.*?</title>", f"<title>{t['h1'] + (', private Jewish tour of Lyon' if len(t['h1']) < 20 else '')} | Mishpacha Tours</title>", h)
+    titre_seo = t.get("title") or (t['h1'] + (', private Jewish tour of Lyon' if len(t['h1']) < 20 else ''))
+    h = re.sub(r"<title>.*?</title>", f"<title>{titre_seo} | Mishpacha Tours</title>", h)
     h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{html.escape(t["ital"])}. Private, strictly kosher, {t["prix"]} {t["prix2"]}. Book on WhatsApp.">', h)
-    title = f"{t['h1'] + (', private Jewish tour of Lyon' if len(t['h1']) < 20 else '')} | Mishpacha Tours"; desc = f"{t['ital']}. Private, strictly kosher, {t['prix']} {t['prix2']}."
+    title = f"{titre_seo} | Mishpacha Tours"; desc = f"{t['ital']}. Private, strictly kosher, {t['prix']} {t['prix2']}."
     path = f"/tours/{t['slug']}/"; num = re.search(r"\d+", t["prix"]).group(0)
     offer = {"@type": "Offer", "url": BASE + path, "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "description": f"{t['prix']} {t['prix2']}. {t['prix3']}"}
     if not t["prix"].startswith("from"): offer.update({"price": num, "priceSpecification": {"@type": "UnitPriceSpecification", "price": num, "priceCurrency": "EUR", "unitText": t["prix2"]}})

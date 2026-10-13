@@ -15,7 +15,7 @@ def rel(s):
     return s
 P = "/plan-your-trip/"
 TITLE = "Plan your kosher trip to the Alps or Lyon | Mishpacha Tours"
-DESC = "One form for your whole trip: dates, family, chalet or hotel, chef and meals, Shabbat and minyan, transfers, ski, tours of Lyon. You get a day-by-day programme with the price."
+DESC = "One form for your whole trip: dates, family, chalet or hotel, chef and meals, Shabbat and minyan, transfers, ski, Lyon tours. You get a day-by-day programme with the price."
 h = rel(head)
 h = re.sub(r"<title>.*?</title>", "<title>" + TITLE + "</title>", h)
 h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{DESC}">', h)

@@ -2,8 +2,8 @@
 # Page cible du cluster hebreu « נופש כשר בחו"ל » (2 840 recherches/mois, etude du 08/10) : la version HE est la cible, l'EN est la source canonique.
 PAGE = dict(
   slug="kosher-vacation-french-alps",
-  title="Kosher vacation in the French Alps: winter and summer",
-  desc="A kosher vacation abroad, in the French Alps: your chalet or apartment, our chef, delivered meals, Shabbat, holidays and a minyan. Ski in winter, lakes in summer. One request, one written quote.",
+  title="Kosher Vacation in the French Alps",
+  desc="A kosher vacation in the French Alps: your chalet or apartment, our chef, delivered meals, Shabbat and a minyan. Ski in winter, lakes in summer. One quote.",
   h1="A kosher vacation in the French Alps", ital="you choose the resort and the dates, we take care of everything kosher",
   intro="You want a kosher vacation abroad without a kosher hotel: a chalet or an apartment of your own, in a real ski resort in winter or by a lake in summer, and the certainty that food, Shabbat and prayer are taken care of. That is what Mishpacha Tours organises in the French Alps, two to three hours from Lyon: a private chef in your chalet or hot meals delivered to your door, Shabbat meals with challot and wine, the holidays, a minyan and a Sefer Torah when several families share a resort. Our kosher team is based in the Alps. You send your resort, your dates and your group; you receive one written quote, the same day. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
   chips=["Chalet or apartment, not a hotel", "Chef, meals, Shabbat, minyan", "Val Thorens, Courchevel, Alpe d'Huez, Annecy", "Checked 8 October 2026"],

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="mikveh-lyon",
-  title="Mikveh in Lyon and Villeurbanne: addresses, contacts",
+  title="Mikveh in Lyon and Villeurbanne: Addresses",
   desc="Eight mikvahs in Lyon and Villeurbanne with addresses and phones. Mikvah Haya Mouchka, 60 rue Crillon, is listed as open nightly. How to ask before you travel.",
   h1="Mikveh in Lyon", ital="addresses and who to call",
   intro="Lyon and Villeurbanne have several mikvahs. The only one with a published opening time is Mikvah Haya Mouchka, 60 rue Crillon in the 6th arrondissement, listed as open nightly. Call or write before you travel: appointment rules are not published for the others.",

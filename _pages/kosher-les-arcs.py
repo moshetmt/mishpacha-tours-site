@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-les-arcs",
-  title="Kosher in Les Arcs: chef, meals, Shabbat, minyan",
-  desc="Les Arcs, strictly kosher: chef in your chalet, delivered meals, Shabbat, minyan and Sefer Torah. Four villages, a train to the valley, one written quote.",
+  title="Kosher Les Arcs: Chef, Shabbat and Minyan",
+  desc="Kosher Les Arcs, four villages from 1,600 to 2,000 m linked to La Plagne: chef in your chalet, delivered meals, Shabbat, minyan and Sefer Torah. One quote.",
   h1="Les Arcs, strictly kosher", ital="four villages from 1,600 to 2,000 m, linked to La Plagne",
   intro="Les Arcs is a string of villages above Bourg-Saint-Maurice in the Tarentaise valley: Arc 1600, Arc 1800, Arc 1950 and Arc 2000, each at the altitude in its name. The Vanoise Express cable car links the area to La Plagne, which makes up Paradiski, about 425 km of pistes. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
   chips=["Arc 1600 to Arc 2000, with Paradiski", "Train to Bourg-Saint-Maurice, funicular to Arc 1600", "Winter and summer", "Checked 8 October 2026"],

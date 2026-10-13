@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="chrd-lyon",
-  title="CHRD Lyon: Resistance and deportation museum, visit",
+  title="CHRD Lyon: Resistance and Deportation Museum",
   desc="The CHRD in Lyon, in the former Gestapo headquarters: what you see, the Jewish history it tells, hours, prices, tram access and our private guided visit.",
   h1="The CHRD in Lyon", ital="the Resistance and deportation museum, in the former Gestapo headquarters",
   intro="The Centre d'histoire de la résistance et de la déportation stands in the former military medical school of Lyon, where Klaus Barbie's Gestapo had its headquarters. It tells the story of Lyon at war: Resistance, repression, deportation and the persecution of the Jews. It is open Wednesday to Sunday.",

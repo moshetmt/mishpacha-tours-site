@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-services-french-alps",
-  title="Kosher services in the French Alps: chef, minyan",
-  desc="Chalet with a private chef, meals delivered to your group, Shabbat, holidays, minyan and Sefer Torah in the resort. Every kosher service in the French Alps, one request.",
+  title="Private Kosher Chef in the French Alps",
+  desc="Hire a private kosher chef for your chalet in the French Alps: meals for the whole group, Shabbat and holiday tables, and a minyan and Sefer Torah on request.",
   h1="Kosher services in the French Alps", ital="chalet, chef, meals, Shabbat, holidays, minyan: one request",
   intro="A kosher week in the mountains does not have to mean a suitcase of food from Lyon and a Shabbat alone. Mishpacha Tours organises it in the resorts of Isère, Savoie and the Hautes-Alpes, with its kosher team based in the Alps: a chalet with a private chef, meals for a group for the week, Shabbat and the holidays in the resort, a minyan and a Sefer Torah for your dates. Send us your resort, your dates and what you need. One contact, one answer, one quote.",
   chips=["Alpe d'Huez to Val Thorens", "Chef, delivered meals, Shabbat, holidays", "Minyan and Sefer Torah", "Checked 8 October 2026"],

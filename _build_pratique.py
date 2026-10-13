@@ -67,7 +67,7 @@ SYN_MAIN = [
       note="Closed to visitors outside the Heritage Days. Mishpacha Tours is the only tour that takes you inside, on the Jewish Lyon and Stopover tours.", photo="c-synagogue-7.jpg", lien="../tours/jewish-lyon/"),
  dict(nom="Neveh Chalom", adresse="317 rue Duguesclin, 69007 Lyon", rite="Sephardi", aff="Consistoire Israélite Sépharade de Lyon",
       horaires="Shacharit weekdays 7:00, Shabbat 8:30. Mincha weekdays 19:00, Shabbat 19:20.", tel="04 78 58 18 74",
-      note="Beside the Institut culturel du judaïsme. The second synagogue we take you inside, on the Montluc and Neveh Shalom tour.", photo="synagogue-tilsitt-arche.jpg", lien="../tours/memory-montluc-neveh-shalom/"),
+      note="Beside the Institut culturel du judaïsme. The second synagogue we take you inside, on the Montluc and Neveh Shalom tour.", photo="synagogue-tilsitt-galerie.jpg", lien="../tours/memory-montluc-neveh-shalom/"),
 ]
 SYN_AUTRES = [
  ("Lyon",[("Montchat","22 cours du Docteur-Long, 69003","06 09 24 57 78"),("Beth-Habad Lyon 6","60 rue Crillon, 69006","06 25 30 90 38"),("Mizrahi","156 rue Cuvier, 69006","04 78 39 12 00"),("Chaare Tzedek","18 rue Saint-Mathieu, 69008","04 78 00 72 50"),("Patah Eliahou","3 impasse Professeur-Beauvisage, 69008","04 78 76 93 89"),("La Duchère, Rav Hida","501 avenue de la Sauvegarde, 69009","04 78 35 14 44")]),
@@ -192,7 +192,7 @@ body = f'''<main>
   </ul>
 </section>
 <section class="ss wrap"><h2 class="centre">Every synagogue on the <i>map</i></h2>{carte([(s2['nom'],s2['adresse']) for s2 in SYN_MAIN]+[(n,(a if "69" in a else a+", 69100 Villeurbanne")) for v,items in SYN_AUTRES for n,a,t in items],420)}</section>
-{photos([("c-synagogue-7.jpg","Grande Synagogue, quai Tilsitt"),("synagogue-tilsitt-arche.jpg","The holy ark"),("synagogue-tilsitt-galerie.jpg","The women's gallery"),("c-synagogue-4.jpg","The carved door")])}
+{photos([("c-synagogue-7.jpg","Grande Synagogue, quai Tilsitt"),("synagogue-tilsitt-galerie.jpg","The women's gallery"),("c-synagogue-4.jpg","The carved door")])}
 <div class="ss beige"><div class="wrap"><h2 class="centre">Neighbourhood <i>minyanim</i></h2><p class="sous centre">Address and phone only. Rite and prayer times are not published online: call ahead.</p>{autres}<p class="source">Sources: official sites of the Grande Synagogue (consistoiredelyon.fr) and Neveh Chalom (nevehchalom.fr), City of Lyon, and the community directory of Habad Lyon, checked {CHECKED}.</p></div></div>
 {cta("Want to see the Grande Synagogue from the inside?","Hello, I would like to book the Jewish Lyon tour, the one that goes inside the Grande Synagogue. Dates: / Number of people:")}
 {ticket}

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-annecy",
-  title="Kosher in Annecy and La Clusaz: chef, meals, Shabbat",
-  desc="Annecy, strictly kosher: a private chef, meals delivered to your apartment, Shabbat, holidays and minyan, by the lake or in La Clusaz. One written quote.",
+  title="Kosher Annecy and La Clusaz: Chef, Shabbat",
+  desc="Kosher Annecy: the lake in summer, La Clusaz and the Aravis in winter. Private chef, delivered meals, Shabbat, holidays and a minyan. One written quote.",
   h1="Annecy, strictly kosher", ital="the lake in summer, the Aravis in winter",
   intro="Annecy sits at the northern tip of Lake Annecy, about 447 m above sea level, and La Clusaz and Le Grand-Bornand, the two Aravis ski resorts, are 30 to 40 minutes up the valley. Mishpacha Tours organises the kosher side of your stay here, in July as in February: a private chef in your villa or chalet, hot meals delivered to your apartment, Shabbat before candle lighting, the holidays, and a minyan with a Sefer Torah for your dates. One request, one written quote. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
   chips=["Lake Annecy, about 447 m", "About 45 min from Geneva, about 1 h 15 from Lyon airport", "La Clusaz and Le Grand-Bornand 30 to 40 min away", "Checked 8 October 2026"],

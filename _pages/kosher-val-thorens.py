@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-val-thorens",
-  title="Kosher in Val Thorens: chef, meals, Shabbat, minyan",
-  desc="Val Thorens, strictly kosher: a private chef in your chalet, meals delivered to your apartment, Shabbat, holidays, minyan and Sefer Torah. One written quote.",
+  title="Kosher Val Thorens: Chef, Shabbat, Minyan",
+  desc="Kosher Val Thorens at 2,300 m, the highest resort in Europe: private chef in your chalet, delivered meals, Shabbat, holidays and minyan. One written quote.",
   h1="Val Thorens, strictly kosher", ital="at 2,300 m, the highest resort in Europe",
   intro="Val Thorens sits at 2,300 m in Les 3 Vallées, the highest ski resort in Europe, and its winter season runs from 21 November 2026 to 2 May 2027 according to the tourist office. Mishpacha Tours organises the kosher side of your week here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
   chips=["2,300 m, Les 3 Vallées", "About 2 h 30 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],

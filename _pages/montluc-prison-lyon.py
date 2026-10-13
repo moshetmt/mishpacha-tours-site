@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="montluc-prison-lyon",
-  title="Montluc prison memorial, Lyon: visit, hours, history",
+  title="Montluc Memorial, Lyon: Visit, Hours, History",
   desc="The Montluc prison memorial in Lyon: free entry, the history of the Jews held there in 1943 and 1944, the Izieu children, access, and the synagogue nearby.",
   h1="Montluc prison memorial", ital="where the Gestapo held Jews and resistance fighters in Lyon",
   intro="The Montluc prison is a national memorial in Lyon's 3rd arrondissement. From 1943 to 1944, the Germans held Resistance fighters, hostages and Jews here, many of them before deportation. The children of Izieu passed through on 6 April 1944. Entry is free.",

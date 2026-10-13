@@ -46,7 +46,7 @@ GROUPS = [
   ("kosher-restaurants-lyon/", "stock/stjean-5.jpg", "Kosher in Lyon", "31 certified restaurants, bakeries, butchers and caterers, on the map"),
   ("kosher-shabbat-meals-catering-lyon/", "stock/hallah.jpg", "Shabbat meals and catering", "Six certified caterers, Chabad tables, groceries for a Shabbat at home"),
   ("synagogues-lyon/", "c-synagogue-7.jpg", "Synagogues and prayer times", "Eight Chabad houses first, the two historic synagogues, 25 minyanim, candle-lighting times this week"),
-  ("shabbat-in-lyon/", "synagogue-tilsitt-arche.jpg", "Shabbat in Lyon", "Where to pray, how to eat, what closes on Friday, how to plan it"),
+  ("shabbat-in-lyon/", "synagogue-tilsitt-galerie.jpg", "Shabbat in Lyon", "Where to pray, how to eat, what closes on Friday, how to plan it"),
   ("chabad-lyon/", "stock/lyon-tetedor.jpg", "Chabad houses", "Eight centres, a Shabbat table on request, a minyan near your hotel"),
   ("mikveh-lyon/", "stock/rose-7.jpg", "Mikveh", "Eight mikvaot in Lyon and Villeurbanne, and how to book"),
   ("where-to-stay-lyon-jewish-travellers/", "stock/lyon-terreaux.jpg", "Where to stay", "Three areas on foot from a synagogue, and what to ask a hotel for Shabbat"),
@@ -112,7 +112,7 @@ hub = f'''<main>
 <section class="ss wrap cta-pratique"><div><h2>Planning a trip to Lyon?</h2><a class="btn-noir large" href="{wa("Hello, I am planning a trip to Lyon and I have a few questions. Dates: / Number of people:")}" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a><p class="fiche-note">Same-day reply, never on Shabbat.</p></div></section>
 {ticket}
 </main>'''
-page("jewish-lyon-guide", "Jewish Lyon, the complete guide", f"Kosher restaurants, synagogues, Chabad houses, the Jewish cemetery and Shabbat times in Lyon, plus the Alps. Maps, phones, directions. Checked {CHECKED}.", hub)
+page("jewish-lyon-guide", "Jewish Lyon Guide: Kosher, Synagogues, Shabbat", f"Kosher restaurants, synagogues, Chabad houses, the Jewish cemetery and Shabbat times in Lyon, plus the Alps. Maps, phones, directions. Checked {CHECKED}.", hub)
 
 # ===================== REGION =====================
 VILLES = [

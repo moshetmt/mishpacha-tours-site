@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="grande-synagogue-lyon",
-  title="Grande Synagogue of Lyon: Visit Quai Tilsitt, 1864",
+  title="Grande Synagogue of Lyon: How to Visit",
   desc="The Grande Synagogue of Lyon, built 1864, is closed to visitors outside the Heritage Days. See how to get in, the prayer times and the address.",
   h1="Grande Synagogue of Lyon", ital="inside the building closed to visitors",
   intro="The Grande Synagogue of Lyon, 13 quai Tilsitt on the bank of the Saône, was inaugurated in 1864 and is still a working synagogue. It is closed to visitors outside the Heritage Days. Mishpacha Tours holds the special authorisation required to enter and takes private groups inside on its 2 h 30 Jewish Lyon tour, 290 € per group, subject to opening hours and security on the day.",
@@ -18,7 +18,7 @@ PAGE = dict(
       "<li><b>The war.</b> The building was attacked during the Occupation. Grenades were thrown during a service in December 1943. On 13 June 1944 the militia arrested the worshippers present, and deportations followed.</li>"
       "</ul>"
       "<p>Today the synagogue belongs to the Consistoire of Lyon and follows the consistorial rite. Services are held daily.</p>")),
-    dict(type="photos", items=[("c-synagogue-7.jpg", "The Grande Synagogue, quai Tilsitt"), ("synagogue-tilsitt-arche.jpg", "The Holy Ark"), ("synagogue-tilsitt-galerie.jpg", "The women's gallery"), ("c-synagogue-4.jpg", "The facade, a listed monument since 1984"), ("c-synagogue-8.jpg", "Detail of the building")]),
+    dict(type="photos", items=[("c-synagogue-7.jpg", "The Grande Synagogue, quai Tilsitt"), ("synagogue-tilsitt-galerie.jpg", "The women's gallery"), ("c-synagogue-4.jpg", "The facade, a listed monument since 1984"), ("c-synagogue-8.jpg", "Detail of the building")]),
     dict(type="beige", h2="Why you cannot <i>just walk in</i>", html=(
       "<p>The Grande Synagogue is a place of prayer, protected like every synagogue in France today. It is closed to visitors outside the Heritage Days, the annual weekend when French monuments open to the public.</p>"
       "<p>A guided visit also depends on the synagogue's own hours and on security on the day. We ask in advance. Your guide confirms with you before the walk begins, and tells you plainly if the doors stay closed.</p>"
