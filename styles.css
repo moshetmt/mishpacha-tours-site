@@ -669,3 +669,39 @@ body.menu-ouvert{overflow:hidden}
   .ac-portes > a{scroll-snap-align:start}
 }
 .ac-hero::before{z-index:1}
+
+/* ---------- /plan-your-trip/ : formulaire complet de demande (13/10) ---------- */
+.demande form{display:grid;gap:18px;max-width:860px;margin:0 auto}
+.dm-bloc{margin:0;padding:22px 20px 24px;border:0;border-radius:15px;background:var(--blanc)}
+.dm-bloc legend{padding:0;float:left;width:100%}
+.dm-bloc legend h2{font-size:26px}
+.dm-bloc legend p{margin-top:4px;font-size:14px;opacity:.7}
+.dm-bloc legend + *{margin-top:18px}
+.dm-bloc > * + *{margin-top:16px}
+.dm-chips{display:flex;flex-wrap:wrap;gap:8px;clear:both}
+.dm-chips label{position:relative;display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid rgba(28,27,31,.25);background:var(--creme);font-size:15px;cursor:pointer}
+.dm-chips input{position:absolute;opacity:0;width:0;height:0}
+.dm-chips input:checked + span{font-weight:600}
+.dm-chips label:has(input:checked){background:var(--jaune);border-color:var(--jaune)}
+.dm-chips label:has(input:focus-visible){outline:3px solid var(--vert-c);outline-offset:2px}
+.dm-champ{clear:both}
+.dm-champ label{display:block;font-size:12px;font-weight:600;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.dm-champ input,.dm-champ select,.dm-champ textarea{width:100%;background:var(--creme);border:1px solid rgba(28,27,31,.2);border-radius:14px;padding:12px 16px;font:inherit;font-size:16px;color:var(--encre);appearance:none}
+.dm-champ textarea{border-radius:15px;resize:vertical;min-height:90px}
+.dm-champ .tel{display:flex;gap:8px}.dm-champ .tel select{flex:0 0 8.5em;width:auto}.dm-champ .tel input{flex:1;min-width:0}
+.dm-duo,.dm-trio{display:grid;gap:14px}
+.dm-contact{background:var(--rose)}
+.dm-contact .dm-chips label,.dm-contact .dm-champ input,.dm-contact .dm-champ select{background:var(--blanc)}
+.dm-erreur{color:var(--rouge);font-weight:600;text-align:center}
+.dm-envoi{text-align:center}
+.dm-envoi .btn-noir{width:auto;display:inline-flex;padding:0 36px}
+.dm-envoi small{display:block;margin-top:12px;font-size:13px;opacity:.7}
+@media (min-width:700px){.dm-duo{grid-template-columns:1fr 1fr}.dm-trio{grid-template-columns:1fr 1fr 1fr}.dm-bloc{padding:30px 32px 32px}}
+.dm-bloc{display:flex;flex-direction:column}
+.dm-bloc legend{float:none;display:block;width:100%}
+.dm-bloc legend + *{margin-top:18px}
+.dm-duo,.dm-trio{clear:both}
+.dm-bloc{padding-top:22px}
+.dm-bloc legend{margin:0;padding:0 0 4px}
+.dm-bloc legend h2{margin:0}
+@supports (display:flex){.dm-bloc{display:block}.dm-bloc legend{float:left;width:100%;margin-bottom:14px}.dm-bloc legend::after{content:"";display:block;clear:both}.dm-bloc > .dm-chips,.dm-bloc > .dm-champ,.dm-bloc > .dm-duo,.dm-bloc > .dm-trio{clear:both}}
