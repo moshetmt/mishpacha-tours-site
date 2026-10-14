@@ -74,12 +74,12 @@ src = re.sub(r'(<head[^>]*>)', r'\1\n<meta name="robots" content="noindex, nofol
 src = src.replace('="../', '="../../')
 src = src.replace('</head>', '''<style>
 .lead-hero{min-height:0}
-.lead-hero .hero-texte{display:block!important;max-width:620px;grid-template-columns:none!important}
+.lead-hero .hero-texte{display:block!important;max-width:620px;margin-inline-end:auto;grid-template-columns:none!important}
 .lead-hero .hero-texte > *{grid-column:auto!important}
 .lead-fil{font-size:13px;opacity:.85;margin-bottom:14px}.lead-fil a{color:inherit}
 .lead-puces{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;list-style:none;padding:0}
 .lead-puces li{background:rgba(255,250,237,.16);border:1px solid rgba(255,250,237,.45);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
-.lead-mascotte{position:absolute!important;inset:auto auto 18px 24px!important;width:150px!important;height:auto!important;object-fit:contain!important;z-index:2;opacity:.98}
+.lead-mascotte{position:absolute!important;inset:auto 150px 0 auto!important;width:420px!important;height:auto!important;object-fit:contain!important;z-index:2;filter:drop-shadow(0 10px 24px rgba(0,0,0,.35))}
 section.ss.lead-preuves{padding:44px 0 12px!important}
 section.ss.lead-intro{padding-top:20px!important}
 .lead-preuves .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;text-align:center}
@@ -98,7 +98,7 @@ section.ss.lead-intro{padding-top:20px!important}
 @media (max-width:899px){.lead-wp{grid-template-columns:1fr}.lead-wp img{width:160px}}
 .lead-final{background:var(--vert);color:var(--creme);text-align:center}
 .lead-final .chercheur{max-width:520px;margin:26px auto 0;text-align:start}
-@media (max-width:899px){.lead-preuves .wrap,.lead-cartes{grid-template-columns:1fr}.lead-mascotte{display:none!important}.lead-hero{min-height:0}}
+@media (max-width:899px){.lead-preuves .wrap,.lead-cartes{grid-template-columns:1fr}.lead-mascotte{position:static!important;display:block;width:230px!important;margin:-12px auto 0;filter:none}.lead-hero{min-height:0}}
 </style>
 </head>''', 1)
 JS = '''<script>document.querySelectorAll('.lead-form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const t=`Hello, we are planning: ${f.voyage.value}. Dates: ${f.dates.value||'/'} / Adults: ${f.adultes.value||'/'} / Children and babies: ${f.enfants.value||'/'}`;window.open('https://wa.me/33652092301?text='+encodeURIComponent(t),'_blank','noopener')}));</script>
