@@ -765,3 +765,5 @@ body.menu-ouvert{overflow:hidden}
 .kashrut-badge{display:flex;align-items:center;gap:16px;margin-top:22px;padding:14px 18px;background:var(--blanc);border-radius:15px;max-width:520px}
 .kashrut-badge img{width:96px;height:auto;flex:none}
 .kashrut-badge span{font-size:15px;font-weight:600}
+.dk-gico.hashgaha{width:84px;height:84px;object-fit:contain}
+.dk-g-ligne:has(.hashgaha){padding-inline-start:100px;min-height:84px}
