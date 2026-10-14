@@ -10,7 +10,7 @@ ALPES = {"alps", "kosher-alpe-dhuez", "kosher-annecy", "kosher-chalet-les-deux-a
          "kosher-grenoble", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
          "kosher-ski-holidays-french-alps", "kosher-vacation-french-alps", "kosher-val-disere", "kosher-val-thorens",
          "lyon-gateway-to-the-alps-kosher", "summer-in-the-alps-jewish-families", "flights-to-lyon"}
-GENERAL = {"", "plan-your-trip", "about", "contact", "privacy", "terms", "credits", "merci", "jewish-life-around-lyon"}
+GENERAL = {"", "plan-your-trip", "kosher-van-transfers", "about", "contact", "privacy", "terms", "credits", "merci", "jewish-life-around-lyon"}
 
 BASELINE = {"alpes": "Kosher Stays in the French Alps", "general": "Kosher Holidays in the Alps and Lyon", "lyon": "Jewish Tours of Lyon"}
 BANDEAU = {  # (texte, lien)

@@ -13,6 +13,7 @@ PHOTO = {
     'kosher-alpe-dhuez': 'stock/st-alpe-dhuez.jpg',
     'kosher-les-deux-alpes': 'stock/st-les-deux-alpes.jpg',
     'kosher-chalet-les-deux-alpes': 'chalet/wp-ext-bleu.jpg',
+    'kosher-van-transfers': 'stock/van-neige.jpg',
     'kosher-grenoble': 'stock/st-grenoble.jpg',
     'kosher-annecy': 'stock/annecy-lac.jpg',
     'kosher-chamonix': 'stock/st-chamonix.jpg',

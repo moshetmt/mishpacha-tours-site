@@ -106,3 +106,7 @@
 - `img/stock/st-val-disere.jpg` : Val d'Isère (5790118818).jpg, Jerome Bon from Paris, France, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Val_d%27Is%C3%A8re_(5790118818).jpg
 - `img/stock/chabad-priere.jpg` : Tefillin in india1.JPG, שיע.ק, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Tefillin_in_india1.JPG
 - `img/stock/mikve.jpg` : Mikvah (Syracuse) 06.jpg, Derbrauni, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Mikvah_(Syracuse)_06.jpg
+
+## Ajout du 14/10/2026 (offre van)
+
+- `img/stock/van-neige.jpg` : Mercedes-Benz V300 d (55047083032).jpg, Alexandre Prevot from Nancy, France (www.grand-est-supercars.com), CC BY-SA 4.0 (licence verifiee par l'API extmetadata le 14/10/2026), https://commons.wikimedia.org/wiki/File:Mercedes-Benz_V300_d_(55047083032).jpg. Recadree en 3:2, 1800 px, deux plaques d'immatriculation floutees. Hero de `/kosher-van-transfers/` et carte du hub.

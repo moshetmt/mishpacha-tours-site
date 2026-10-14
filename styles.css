@@ -728,3 +728,21 @@ body.menu-ouvert{overflow:hidden}
 .minyan-corps .cta-bh .btn-noir{width:100%;height:auto;min-height:56px;padding:14px 22px;text-align:center;line-height:1.3;white-space:normal}
 .shabbat-bloc{margin-top:80px}
 @media (min-width:900px){.minyan-corps{padding:64px 64px 72px}.minyan-corps h2{font-size:42px}.minyan-corps .cta-bh{flex-direction:row;flex-wrap:wrap}.minyan-corps .cta-bh .btn-noir{width:auto}}
+
+/* offre van (14/10) : photo en tete de page et bande de l'accueil */
+.pratique-tete.tete-photo img.photo-hero{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:4px;margin:0}
+.dk-cartes + p{margin-top:22px}
+.ac-van{display:grid;grid-template-columns:72px 1fr;gap:6px 18px;align-items:center;margin:36px auto 0;max-width:860px;padding:22px 22px 24px;background:var(--jaune);border-radius:15px}
+.ac-van img{grid-row:1 / span 2;width:72px;height:72px;object-fit:contain}
+.ac-van b{font-family:var(--titre);font-weight:300;font-size:22px;line-height:1.2}
+.ac-van p{font-size:16px;line-height:1.45;margin:0}
+.ac-van .btn-noir{grid-column:1 / -1;margin-top:18px;justify-self:start;width:auto;display:inline-flex;padding:0 28px}
+@media (min-width:900px){
+  .pratique-tete.tete-photo{grid-template-columns:1fr 1fr}
+  .pratique-tete.tete-photo img.photo-hero{order:0;width:100%;height:auto}
+  .ac-van{grid-template-columns:84px 1fr auto;gap:6px 22px}
+  .ac-van img{width:84px;height:84px}
+  .ac-van b{grid-column:2;grid-row:1;align-self:end}
+  .ac-van p{grid-column:2;grid-row:2;align-self:start}
+  .ac-van .btn-noir{grid-column:3;grid-row:1 / span 2;margin:0}
+}
