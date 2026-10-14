@@ -714,3 +714,5 @@ body.menu-ouvert{overflow:hidden}
 .ac-stations.compacte a{min-height:34px;padding:0 13px;font-size:14px;background:var(--blanc);border:1px solid rgba(0,0,0,.12)}
 .ac-stations.compacte li:first-child a{background:var(--blanc);color:inherit}
 .ac-atout{max-width:720px;margin:34px auto 0;text-align:center;font-size:14px;line-height:1.5;opacity:.7}
+
+.ac-wp{display:block;width:220px;height:auto;margin:0 0 18px}
