@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-chalet-les-deux-alpes",
-  title="Kosher Chalet in Les Deux Alpes, 15 Beds",
-  desc="A 300 m² kosher chalet in Les Deux Alpes: 7 bedrooms, 15 beds, 2 minutes from the slopes. Private chef, Shabbat and holidays, everything organised. One quote.",
-  h1="A kosher chalet in Les Deux Alpes", ital="300 m², 15 beds, 2 minutes from the slopes",
-  intro="A chalet of 300 m² in Les Deux Alpes (Isère, resort at 1,650 m), with 7 bedrooms and 15 beds: room for three small families or one large family. It stands 2 minutes from the slopes, with direct access to the ski area. Kosher meals are cooked in the chalet by a private chef or delivered to it. Shabbat and the holidays are organised, with a minyan and a Sefer Torah depending on the families present. Our team organises the whole stay, from the flights to the extras. One request, one written quote. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
-  chips=["300 m², 7 bedrooms, 15 beds", "2 minutes from the slopes", "Chef, Shabbat, holidays", "On written quote"],
+  title="Kosher Chalet in Les Deux Alpes, 16 Beds",
+  desc="A 300 m² kosher chalet in Les Deux Alpes: 6 bedrooms, 16 beds, 2 minutes from the slopes. Private chef, Shabbat and holidays, everything organised. One quote.",
+  h1="A kosher chalet in Les Deux Alpes", ital="300 m², 16 beds, 2 minutes from the slopes",
+  intro="A chalet of 300 m² in Les Deux Alpes (Isère, resort at 1,650 m), with 6 bedrooms and 16 beds: room for three small families or one large family. It stands 2 minutes from the slopes, with direct access to the ski area. Kosher meals are cooked in the chalet by a private chef or delivered to it. Shabbat and the holidays are organised, with a minyan and a Sefer Torah depending on the families present. Our team organises the whole stay, from the flights to the extras. One request, one written quote. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
+  chips=["300 m², 6 bedrooms, 16 beds", "2 minutes from the slopes", "Chef, Shabbat, holidays", "On written quote"],
   illus="flat-ski.png",
   crumb=("../alps/", "The French Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="The chalet, <i>in short</i>", html="""<ul>
 <li><b>Surface.</b> 300 m².</li>
-<li><b>Bedrooms and beds.</b> 7 bedrooms, 15 beds: three small families or one large family.</li>
+<li><b>Bedrooms and beds.</b> 6 bedrooms, 16 beds: three small families or one large family.</li>
 <li><b>Location.</b> Les Deux Alpes, Isère, a resort at 1,650 m. 2 minutes from the slopes, with direct access to the ski area.</li>
 <li><b>Living room.</b> A living room for the whole group.</li>
 <li><b>Kitchen.</b> Made kosher by our team for your stay. Strictly kosher meals, cooked on site by a private chef or delivered to the chalet.</li>
@@ -46,7 +46,7 @@ PAGE = dict(
     dict(type="map", h2="On the <i>map</i>", points=[("Les Deux Alpes", "Les Deux Alpes, 38860")], note="Town-level pin: the chalet address is given with your quote."),
     dict(type="faq", h2="The kosher chalet: <i>questions</i>", items=[
       ("How much does it cost?", "There is no price list. The price depends on your dates, the number of people and the services you choose: chef, transfers, ski rental, activities. You receive a written quote before you commit to anything."),
-      ("How many people can stay?", "15 beds in 7 bedrooms, so three small families or one large family."),
+      ("How many people can stay?", "16 beds in 6 bedrooms, so three small families or one large family."),
       ("Who cooks the meals?", "A private chef cooks kosher meals at the chalet, or meals are delivered to it. Our team makes the kitchen kosher for your stay. Ask for the supervision details in writing with your quote."),
       ("Is Shabbat organised?", "Yes. Shabbat meals and the holidays (Hanukkah, February, Pesach) are organised. A minyan and a Sefer Torah depend on the families present that week: give us your dates early."),
       ("Can you arrange activities?", "Yes, on request: ski rental, dog sledding, a masseur or pedicure at the chalet, car rental, transfers and event extras. Everything appears on one quote."),
@@ -58,7 +58,7 @@ PAGE = dict(
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher chalet in Les Deux Alpes", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Les Deux Alpes"}, "serviceType": "Kosher chalet rental with chef, meals, Shabbat and concierge services in Les Deux Alpes", "url": "https://mishpachatours.com/kosher-chalet-les-deux-alpes/"},
   ticket=True,
   VERIF=[
-    "Surface 300 m2, 7 bedrooms, 15 beds, 'three small families or one large family', 2 minutes from the slopes, direct access to the ski area: voice message of 09/10/2026, no written confirmation.",
+    "Surface 300 m2, 6 bedrooms, 16 beds, 'three small families or one large family', 2 minutes from the slopes, direct access to the ski area: voice message of 09/10/2026, no written confirmation.",
     "Services (kosher meals cooked by a private chef or delivered, Shabbat and holidays Hanukkah / February / Pesach, minyan and Sefer Torah depending on families, flights, transfers and taxi, ski rental, groceries, masseur and pedicure at home, car rental, dog sledding and other activities, event extras): voice message of 09/10/2026, no written confirmation.",
     "Chalet offered in winter and summer: inferred from the holidays and seasons given orally; confirm availability windows and whether the chalet is rented to one group at a time.",
     "No price shown: 'on written quote'. No grid exists yet.",
