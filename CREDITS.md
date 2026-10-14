@@ -91,3 +91,18 @@
 | img/rue-juiverie-plaque.jpg | The street sign of rue Juiverie, Vieux Lyon | CC BY-SA 4.0 | Sebleouf | https://commons.wikimedia.org/wiki/User:Sebleouf |
 | img/montluc-mur-des-fusilles.jpg | The execution wall, Montluc memorial prison | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/User:Romainbehar |
 | img/maison-izieu-volets.jpg | The shutters of the Maison d'Izieu | CC BY-SA 4.0 | Chabe01 | https://commons.wikimedia.org/wiki/User:Chabe01 |
+
+## Ajouts du 14/10/2026 (cartes du hub)
+
+- `img/stock/st-val-thorens.jpg` : Ski à Val Thorens (2016).JPG, Florian Pépellin, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Ski_%C3%A0_Val_Thorens_(2016).JPG
+- `img/stock/st-courchevel.jpg` : Courchevel 1850 le 15 décembre 2019.JPG, Florian Pépellin, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Courchevel_1850_le_15_d%C3%A9cembre_2019.JPG
+- `img/stock/st-megeve.jpg` : Rochebrune front de neige, Megève, 2025.jpg, DimiTalen, CC0, https://commons.wikimedia.org/wiki/File:Rochebrune_front_de_neige,_Meg%C3%A8ve,_2025.jpg
+- `img/stock/st-alpe-dhuez.jpg` : View of Alpe d'Huez from Pic Blanc, Oz, 2026.jpg, DimiTalen, CC0, https://commons.wikimedia.org/wiki/File:View_of_Alpe_d%27Huez_from_Pic_Blanc,_Oz,_2026.jpg
+- `img/stock/st-les-deux-alpes.jpg` : Remote view of Les Deux Alpes from Auris, 2026.jpg, DimiTalen, CC0, https://commons.wikimedia.org/wiki/File:Remote_view_of_Les_Deux_Alpes_from_Auris,_2026.jpg
+- `img/stock/st-grenoble.jpg` : Grenoble-Bastille cable car - Téléphérique de Grenoble Bastille photo1.jpg, Sami Mlouhi, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Grenoble-Bastille_cable_car_-_T%C3%A9l%C3%A9ph%C3%A9rique_de_Grenoble_Bastille_photo1.jpg
+- `img/stock/st-chamonix.jpg` : 2025-05-23 Chamonix-Mont-Blanc.jpg, Alexkom000, CC BY 4.0, https://commons.wikimedia.org/wiki/File:2025-05-23_Chamonix-Mont-Blanc.jpg
+- `img/stock/st-les-arcs.jpg` : Les Arcs 1950 2000.jpg, Dmitry A. Mottl, Public domain, https://commons.wikimedia.org/wiki/File:Les_Arcs_1950_2000.jpg
+- `img/stock/st-la-plagne.jpg` : La Plagne from Montagne de l'Arc, 2018.jpg, DimiTalen, CC0, https://commons.wikimedia.org/wiki/File:La_Plagne_from_Montagne_de_l%27Arc,_2018.jpg
+- `img/stock/st-val-disere.jpg` : Val d'Isère (5790118818).jpg, Jerome Bon from Paris, France, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Val_d%27Is%C3%A8re_(5790118818).jpg
+- `img/stock/chabad-priere.jpg` : Tefillin in india1.JPG, שיע.ק, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Tefillin_in_india1.JPG
+- `img/stock/mikve.jpg` : Mikvah (Syracuse) 06.jpg, Derbrauni, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Mikvah_(Syracuse)_06.jpg

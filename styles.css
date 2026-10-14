@@ -716,6 +716,7 @@ body.menu-ouvert{overflow:hidden}
 .ac-atout{max-width:720px;margin:34px auto 0;text-align:center;font-size:14px;line-height:1.5;opacity:.7}
 
 .ac-wp{display:block;width:220px;height:auto;margin:0 0 18px}
+.ac-chalet > .ac-wp{grid-column:1 / -1;margin:0}
 
 /* Beth Habad : minyan public et repas livrés (14/10). Boutons avec de l'air autour, jamais collés au texte. */
 .minyan-bh{margin-top:80px}
