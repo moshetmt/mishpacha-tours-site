@@ -822,3 +822,9 @@ body.menu-ouvert{overflow:hidden}
 .lead-hero3-illus::before{background:linear-gradient(180deg,rgba(20,19,22,0) 0%,rgba(20,19,22,.10) 50%,rgba(20,19,22,.55) 100%)}
 @media (max-width:899px){.lead-hero3-illus > img{object-fit:contain;object-position:50% 12%;height:60%;opacity:1}}
 .lead-final-tete p{font-weight:400;font-size:18px;margin-top:10px}
+.lead-hero3-illus{height:auto;min-height:0;max-height:none;padding-top:24px}
+.lead-hero3-illus > img{position:static;width:min(92%,560px);height:auto;display:block;margin:0 auto;object-fit:contain;object-position:50% 50%}
+.lead-hero3-illus::before{display:none}
+.lead-hero3-illus .lead3-texte{position:static;padding-top:6px;padding-bottom:40px}
+.lead-hero3-illus .lead3-bloc{background:rgba(20,19,22,.92)}
+.lead-hero3-illus .lead-fil{color:#1C1B1F;text-shadow:none}.lead-hero3-illus .lead-fil a{color:#1C1B1F}

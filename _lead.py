@@ -30,7 +30,7 @@ STATIONS = {
 # slug -> (photo, type, voyage EN)
 PAGES = {s: (p, 'station', f"Kosher stay in {n['en']}") for s, (p, n) in STATIONS.items()}
 PAGES.update({
- 'kosher-services-french-alps': ('stock/hallah.jpg', 'alps', 'Kosher services in the Alps'),
+ 'kosher-services-french-alps': ('stock/st-val-thorens.jpg', 'alps', 'Kosher services in the Alps'),
  'alps': ('stock/alpes-ski.jpg', 'alps', 'Kosher stay in the French Alps'),
  'kosher-ski-holidays-french-alps': ('stock/alpes-ski.jpg', 'alps', 'Kosher ski holiday in the Alps'),
  'summer-in-the-alps-jewish-families': ('stock/annecy-ete.jpg', 'alps', 'Kosher summer in the Alps'),
