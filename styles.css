@@ -716,3 +716,14 @@ body.menu-ouvert{overflow:hidden}
 .ac-atout{max-width:720px;margin:34px auto 0;text-align:center;font-size:14px;line-height:1.5;opacity:.7}
 
 .ac-wp{display:block;width:220px;height:auto;margin:0 0 18px}
+
+/* Beth Habad : minyan public et repas livrés (14/10). Boutons avec de l'air autour, jamais collés au texte. */
+.minyan-bh{margin-top:80px}
+.minyan-corps{background:var(--beige);border-radius:15px;padding:40px 22px 48px}
+.minyan-corps h2{font-size:30px}
+.minyan-corps h3{margin-top:72px;font-family:var(--titre);font-weight:300;font-size:26px;line-height:1.2}
+.minyan-corps p{margin-top:14px;font-size:17px;line-height:1.6;max-width:38em}
+.minyan-corps .cta-bh{display:flex;flex-direction:column;align-items:stretch;gap:16px;margin:40px 0 0}
+.minyan-corps .cta-bh .btn-noir{width:100%;height:auto;min-height:56px;padding:14px 22px;text-align:center;line-height:1.3;white-space:normal}
+.shabbat-bloc{margin-top:80px}
+@media (min-width:900px){.minyan-corps{padding:64px 64px 72px}.minyan-corps h2{font-size:42px}.minyan-corps .cta-bh{flex-direction:row;flex-wrap:wrap}.minyan-corps .cta-bh .btn-noir{width:auto}}
