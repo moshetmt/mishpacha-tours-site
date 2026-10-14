@@ -14,8 +14,7 @@ def rel(s):
 h = rel(head)
 h = re.sub(r"<title>.*?</title>", "<title>Thank you | Mishpacha Tours, Jewish Tours of Lyon</title>", h)
 h = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="description" content="Your request has been received. We reply within one business day, never on Shabbat.">', h)
-h = h.replace('<meta name="description"', '<meta name="robots" content="noindex, follow">
-<meta name="description"', 1)
+h = h.replace('<meta name="description"', '<meta name="robots" content="noindex, follow">\n<meta name="description"', 1)
 h = head_page(h, "/merci/", "Thank you | Mishpacha Tours", "Your request has been received.")
 body = '''<main>
 <section class="pratique-hero"><div class="wrap">
@@ -24,7 +23,7 @@ body = '''<main>
   <p class="intro-fiche">We reply within one business day, and never on Shabbat or on a Jewish holiday. If your dates are close, the fastest way to reach us is WhatsApp.</p>
   <p><a class="btn-noir large" href="https://wa.me/33652092301?text=Hello%2C%20I%20just%20sent%20a%20booking%20request%20on%20the%20website." rel="noopener"><svg><use href="#wa"/></svg>Message us on WhatsApp</a></p>
   <p class="intro-fiche"><a href="../">Back to the tours</a></p></div>
-  <img class="hassid-grand" src="../img/picto-hassid.svg" alt="" width="68" height="95"></div>
+  <img class="hassid-grand hassid-merci" src="../img/picto-hassid.svg" alt="" width="68" height="95"></div>
 </div></section>
 </main>'''
 f = rel(foot).replace("document.getElementById('chercheur').addEventListener","document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")

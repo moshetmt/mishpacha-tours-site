@@ -886,6 +886,79 @@ body.menu-ouvert{overflow:hidden}
 .dm-nav [hidden]{display:none!important}
 .dm-petit{max-width:760px;margin:80px auto 0;text-align:center;font-size:13px;opacity:.7}
 .demande{padding-bottom:80px}
+.dm-note{font-size:14px;line-height:1.45;padding:12px 16px;border-radius:15px;background:var(--creme);border:1px solid rgba(28,27,31,.15)}
+.dm-nuits{font-weight:600;font-size:15px}
+.dm-max{font-size:14px;font-weight:600;color:var(--rouge)}
+.dm-erreur[hidden],.dm-nuits[hidden],.dm-max[hidden]{display:none}
+.dm-coche,.dm-bougie,.dm-neige,.dm-hp{display:none}
+.dm-coche{fill:none;stroke:var(--encre);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.cpt-n{display:block;position:relative;width:56px;overflow:hidden}
+.cpt-n input{display:block;width:100%}
+.dm-tete{position:relative}
+@media (prefers-reduced-motion: no-preference){
+  /* 1. hassid sur la barre */
+  .demande form.js .dm-piste{position:relative;padding-top:38px}
+  .dm-hp{display:block;position:absolute;bottom:calc(100% - 38px + 6px);left:var(--pc,0%);transform:translateX(-100%);transition:left .4s cubic-bezier(.2,.8,.2,1);line-height:0;pointer-events:none}
+  .dm-hp img{display:block;height:34px;width:auto}
+  [dir=rtl] .dm-hp{left:auto;right:var(--pc,0%);transform:translateX(100%);transition-property:right}
+  [dir=rtl] .dm-hp img{transform:scaleX(-1)}
+  .dm-hp img.saute{animation:dm-saute .4s ease-out}
+  @keyframes dm-saute{0%,50%,100%{translate:0 0}25%,75%{translate:0 -3px}}
+  /* 2. tuiles */
+  .dm-tuile{transition:transform .2s ease-out,box-shadow .2s ease-out,background-color .2s}
+  @media (hover:hover) and (pointer:fine){.dm-tuile:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(28,27,31,.12)}}
+  .dm-tuile.dm-anim img{animation:dm-rebond .35s ease-out}
+  @keyframes dm-rebond{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+  /* 3. cases */
+  .dm-chips label{transition:background-color .2s,border-color .2s}
+  .dm-chips label.dm-anim{animation:dm-pop .25s cubic-bezier(.2,.8,.2,1)}
+  @keyframes dm-pop{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+  .dm-coche{display:inline-block;width:0;height:16px;margin-inline-end:0;stroke-dasharray:16;stroke-dashoffset:16;transition:stroke-dashoffset .25s ease-out .05s,width .2s ease-out,margin .2s ease-out}
+  .dm-chips label:has(input:checked) .dm-coche{width:16px;margin-inline-end:6px;stroke-dashoffset:0}
+  .dm-chips label{overflow:hidden}
+  .dm-chips span{display:inline-flex;align-items:center}
+  /* 4. compteurs */
+  .cpt-old{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:600;color:var(--encre);pointer-events:none}
+  .cpt-n[data-sens=up] .cpt-old{animation:dm-sort-haut .2s ease-out forwards}
+  .cpt-n[data-sens=up] input.glisse{animation:dm-entre-bas .2s ease-out}
+  .cpt-n[data-sens=down] .cpt-old{animation:dm-sort-bas .2s ease-out forwards}
+  .cpt-n[data-sens=down] input.glisse{animation:dm-entre-haut .2s ease-out}
+  @keyframes dm-sort-haut{to{transform:translateY(-100%);opacity:0}}
+  @keyframes dm-sort-bas{to{transform:translateY(100%);opacity:0}}
+  @keyframes dm-entre-bas{from{transform:translateY(100%);opacity:0}}
+  @keyframes dm-entre-haut{from{transform:translateY(-100%);opacity:0}}
+  .cpt.secoue{animation:dm-secoue .25s ease-out}
+  @keyframes dm-secoue{0%,100%{transform:translateX(0)}20%{transform:translateX(-5px)}45%{transform:translateX(5px)}70%{transform:translateX(-3px)}}
+  /* 5. bougie et flocons */
+  .dm-bougie{display:inline-block;vertical-align:-6px;margin-inline-start:10px;overflow:visible}
+  .dm-bougie .cire{fill:var(--blanc);stroke:var(--encre);stroke-width:1.5}
+  .dm-bougie .meche{stroke:var(--encre);stroke-width:1.5;stroke-linecap:round}
+  .dm-bougie .flamme{fill:var(--jaune);stroke:var(--encre);stroke-width:1;transform-box:fill-box;transform-origin:50% 100%;animation:dm-vacille 2.5s ease-in-out infinite}
+  @keyframes dm-vacille{0%,100%{opacity:1;transform:scale(1) rotate(0)}30%{opacity:.82;transform:scale(.93,1.06) rotate(-3deg)}60%{opacity:.95;transform:scale(1.05,.95) rotate(2deg)}80%{opacity:.86;transform:scale(.96,1.04) rotate(-1deg)}}
+  .dm-neige{display:block;position:absolute;inset:0;overflow:hidden;pointer-events:none}
+  .dm-neige i{position:absolute;top:-20px;left:var(--x);opacity:0;line-height:0;animation:dm-tombe 1.4s ease-in var(--d) both}
+  .dm-neige svg{fill:none;stroke:var(--vert);stroke-width:1.2;stroke-linecap:round}
+  [dir=rtl] .dm-neige i{left:auto;right:var(--x)}
+  @keyframes dm-tombe{0%{opacity:0;transform:translateY(0) rotate(0)}15%{opacity:1}80%{opacity:1}100%{opacity:0;transform:translateY(110px) rotate(200deg)}}
+  /* 6. passage d'ecran */
+  .demande form[data-dir=fwd]{--dx:24px}
+  .demande form[data-dir=back]{--dx:-24px}
+  [dir=rtl] .demande form[data-dir=fwd]{--dx:-24px}
+  [dir=rtl] .demande form[data-dir=back]{--dx:24px}
+  .demande form[data-dir] .etape:not([hidden]){animation:dm-entre .3s ease-out backwards}
+  @keyframes dm-entre{from{opacity:0;transform:translateX(var(--dx))}}
+  /* 7. recapitulatif */
+  .dm-recap-liste li.ap{animation:dm-ligne .3s ease-out calc(var(--i)*30ms) backwards}
+  @keyframes dm-ligne{from{opacity:0;transform:translateY(6px)}}
+  /* 8. envoi */
+  .dm-nav .btn-noir img.dm-marche{display:inline-block;vertical-align:middle;height:30px;width:auto;margin-inline-end:6px;transform-origin:50% 100%;animation:dm-marche .3s ease-in-out infinite alternate}
+  @keyframes dm-marche{from{transform:rotate(-6deg) translateY(0)}to{transform:rotate(6deg) translateY(-3px)}}
+  /* 9. page merci : le hassid danse a l'ouverture */
+  img.hassid-merci{transform-origin:50% 100%;animation:dm-danse .6s ease-in-out 3}
+  @keyframes dm-danse{0%,100%{transform:rotate(0) translateY(0)}25%{transform:rotate(-6deg) translateY(-6px)}50%{transform:rotate(0) translateY(0)}75%{transform:rotate(6deg) translateY(-6px)}}
+  [dir=rtl] img.hassid-merci{animation-name:dm-danse-rtl}
+  @keyframes dm-danse-rtl{0%,100%{transform:scaleX(-1) rotate(0) translateY(0)}25%{transform:scaleX(-1) rotate(-6deg) translateY(-6px)}50%{transform:scaleX(-1) rotate(0) translateY(0)}75%{transform:scaleX(-1) rotate(6deg) translateY(-6px)}}
+}
 @media (min-width:700px){
   .dm-accueil{grid-template-columns:1fr 200px;gap:30px}
   .dm-intention .dm-tuiles{grid-column:1}
