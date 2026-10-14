@@ -731,6 +731,7 @@ body.menu-ouvert{overflow:hidden}
 
 /* offre van (14/10) : photo en tete de page et bande de l'accueil */
 .pratique-tete.tete-photo img.photo-hero{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:4px;margin:0}
+.pratique-tete.tete-photo img.photo-hero.illus-hero{aspect-ratio:1/1;max-width:520px;border-radius:15px}
 .dk-cartes + p{margin-top:22px}
 .ac-van{display:grid;grid-template-columns:72px 1fr;gap:6px 18px;align-items:center;margin:36px auto 0;max-width:860px;padding:22px 22px 24px;background:var(--jaune);border-radius:15px}
 .ac-van img{grid-row:1 / span 2;width:72px;height:72px;object-fit:contain}

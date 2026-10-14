@@ -109,4 +109,4 @@
 
 ## Ajout du 14/10/2026 (offre van)
 
-- `img/stock/van-neige.jpg` : Mercedes-Benz V300 d (55047083032).jpg, Alexandre Prevot from Nancy, France (www.grand-est-supercars.com), CC BY-SA 4.0 (licence verifiee par l'API extmetadata le 14/10/2026), https://commons.wikimedia.org/wiki/File:Mercedes-Benz_V300_d_(55047083032).jpg. Recadree en 3:2, 1800 px, deux plaques d'immatriculation floutees. Hero de `/kosher-van-transfers/` et carte du hub.
+- `img/stock/van-neige.jpg` : illustration maison (Gemini, style du pictogramme, 14/10/2026), pas de crédit tiers.

@@ -101,11 +101,11 @@ def generiques(tpl):
     return g
 
 def hero(h, lang):
-    """Photo a la place de l'illustration du hero (img/stock/van-neige.jpg, CC BY-SA 4.0, voir CREDITS.md)."""
+    """Illustration minimale maison (img/stock/van-neige.jpg, Gemini au style du pictogramme, 14/10) dans le hero."""
     pre = "../" if lang == "en" else "/"
     alt = TXT[lang]["alt"]
     h = re.sub(r'<img src="[^"]*illus/[a-z-]+\.png" alt="" width="700" height="700">',
-               f'<img class="photo-hero" src="{pre}{PHOTO}" alt="{alt}" width="1800" height="1200" fetchpriority="high">', h, count=1)
+               f'<img class="photo-hero illus-hero" src="{pre}{PHOTO}" alt="{alt}" width="1600" height="1600" fetchpriority="high">', h, count=1)
     if "tete-photo" not in h: h = h.replace('<div class="pratique-tete">', '<div class="pratique-tete tete-photo">', 1)
     return h
 

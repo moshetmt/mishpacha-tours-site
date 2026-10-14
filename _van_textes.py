@@ -128,7 +128,7 @@ HE = dict(
 )
 
 EN_EXTRA = dict(
-  alt="A black passenger van covered in fresh snow",
+  alt="A traveller with his suitcase next to a green passenger van, a mountain behind",
   tour="Van transfer",
   note="You receive a written quote before you commit.",
   voyage="Van transfer, point A to point B",
