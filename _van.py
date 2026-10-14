@@ -14,7 +14,7 @@ os.chdir(ICI)
 sys.path.insert(0, ICI)
 
 SLUG = "kosher-van-transfers"
-PHOTO = "img/stock/van-neige.jpg"
+PHOTO = "img/illus/flat-stopover.png"
 TPL = "kosher-services-french-alps"   # page deja traduite dont on reprend le chrome
 LANGS = ("fr", "es", "he")
 
@@ -101,12 +101,11 @@ def generiques(tpl):
     return g
 
 def hero(h, lang):
-    """Illustration minimale maison (img/stock/van-neige.jpg, Gemini au style du pictogramme, 14/10) dans le hero."""
+    """Illustration validée de la famille devant le van (img/illus/flat-stopover.png, 08/10) dans le hero standard."""
     pre = "../" if lang == "en" else "/"
-    alt = TXT[lang]["alt"]
-    h = re.sub(r'<img src="[^"]*illus/[a-z-]+\.png" alt="" width="700" height="700">',
-               f'<img class="photo-hero illus-hero" src="{pre}{PHOTO}" alt="{alt}" width="1800" height="1200" fetchpriority="high">', h, count=1)
-    if "tete-photo" not in h: h = h.replace('<div class="pratique-tete">', '<div class="pratique-tete tete-photo">', 1)
+    h = re.sub(r'<img[^>]*src="[^"]*(?:illus/[a-z-]+\.png|stock/van-neige\.jpg)"[^>]*>',
+               f'<img src="{pre}img/illus/flat-stopover.png" alt="" width="700" height="700">', h, count=1)
+    h = h.replace('<div class="pratique-tete tete-photo">', '<div class="pratique-tete">', 1)
     return h
 
 # ------------------------------------------------------------------ visibilite

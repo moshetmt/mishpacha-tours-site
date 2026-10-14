@@ -41,12 +41,6 @@ HERO = f'''<section class="hero ac-hero lead-hero">
   <img class="lead-mascotte" src="/img/illus/flat-ski.png" alt="" width="700" height="700">
 </section>
 
-<section class="ss lead-preuves"><div class="wrap">
-  <div><b>Chalets and apartments</b><span>for one family or a whole group, near the lifts</span></div>
-  <div><b>Minyan</b><span>with a Sefer Torah, for Shabbat and holidays</span></div>
-  <div><b>1 programme</b><span>day by day, before you pay anything</span></div>
-</div></section>
-
 <section class="ss wrap lead-intro"><p>{intro}</p></section>
 
 <section class="ss wrap lead-offre">
@@ -80,11 +74,7 @@ src = src.replace('</head>', '''<style>
 .lead-puces{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;list-style:none;padding:0}
 .lead-puces li{background:rgba(255,250,237,.16);border:1px solid rgba(255,250,237,.45);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
 .lead-mascotte{position:absolute!important;inset:auto 150px 0 auto!important;width:420px!important;height:auto!important;object-fit:contain!important;z-index:2;filter:drop-shadow(0 10px 24px rgba(0,0,0,.35))}
-section.ss.lead-preuves{padding:44px 0 12px!important}
 section.ss.lead-intro{padding-top:20px!important}
-.lead-preuves .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;text-align:center}
-.lead-preuves b{display:block;font-family:Fraunces,serif;font-size:30px;line-height:1.1}
-.lead-preuves span{display:block;font-size:15px;opacity:.75;margin-top:4px}
 .lead-intro p{max-width:760px;margin:0 auto;font-size:18px;line-height:1.6}
 .lead-offre h2{text-align:center}
 .lead-cartes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
@@ -98,8 +88,7 @@ section.ss.lead-intro{padding-top:20px!important}
 @media (max-width:899px){.lead-wp{grid-template-columns:1fr}.lead-wp img{width:160px}}
 .lead-final{background:var(--vert);color:var(--creme);text-align:center}
 .lead-final .chercheur{max-width:520px;margin:26px auto 0;text-align:start}
-@media (max-width:899px){.lead-preuves .wrap,.lead-cartes{grid-template-columns:1fr}.lead-mascotte{position:static!important;display:block;width:230px!important;margin:-12px auto 0;filter:none}.lead-hero{min-height:0}}
-</style>
+@media (max-width:899px){</style>
 </head>''', 1)
 JS = '''<script>document.querySelectorAll('.lead-form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const t=`Hello, we are planning: ${f.voyage.value}. Dates: ${f.dates.value||'/'} / Adults: ${f.adultes.value||'/'} / Children and babies: ${f.enfants.value||'/'}`;window.open('https://wa.me/33652092301?text='+encodeURIComponent(t),'_blank','noopener')}));</script>
 </body>'''

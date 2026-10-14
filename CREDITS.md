@@ -109,4 +109,3 @@
 
 ## Ajout du 14/10/2026 (offre van)
 
-- `img/stock/van-neige.jpg` : illustration maison (Gemini, style du pictogramme, 14/10/2026), pas de crédit tiers.

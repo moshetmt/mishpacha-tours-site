@@ -747,3 +747,16 @@ body.menu-ouvert{overflow:hidden}
   .ac-van p{grid-column:2;grid-row:2;align-self:start}
   .ac-van .btn-noir{grid-column:3;grid-row:1 / span 2;margin:0}
 }
+
+/* bannière photo plein cadre avec logo (page chalet, 14/10) */
+.hero.hero-photo > img{opacity:1}
+.hero.hero-photo::before{background:linear-gradient(180deg,rgba(20,19,22,.5) 0%,rgba(20,19,22,.42) 40%,rgba(20,19,22,.86) 100%)}
+.hero-photo .hero-texte{padding-top:28px;padding-bottom:44px;text-align:start;align-items:flex-start}
+.hero-photo h1,.hero-photo p{text-shadow:0 1px 14px rgba(0,0,0,.55)}
+.hero-photo p{max-width:34em}
+.hero-photo .fil{color:#F1EDE6;opacity:.85;margin-bottom:22px}.hero-photo .fil a{color:inherit}
+.hero-photo .hero-logo{display:block;width:min(360px,70vw);height:auto;margin:0 0 22px}
+.hero-photo h1{font-size:36px}
+.btn-hero{display:inline-flex;align-items:center;gap:10px;margin-top:22px;min-height:52px;padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;text-decoration:none}
+.btn-hero svg{width:20px;height:20px;fill:currentColor}
+@media (min-width:900px){.hero-photo .hero-texte{padding-top:48px;padding-bottom:72px;min-height:560px;display:flex;flex-direction:column;justify-content:flex-end}.hero-photo h1{font-size:48px}.hero-photo .hero-logo{width:420px}}

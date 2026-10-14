@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 """Retire les mosaïques de photos posées en bas de page (opérateur, 14/10 : « ça fait vraiment dégueulasse, ça fait Claude »).
-Garde la galerie de la page chalet, placée sous la bannière (photos du produit). Idempotent, 4 langues.
+Galerie de la page chalet comprise (« Galerie photo horrible », 14/10). Idempotent, 4 langues.
 À relancer après toute régénération par _build_guide.py, _build_pratique.py, _build_tours.py ou _patch_pratique.py."""
 import os, io, re
 ICI = os.path.dirname(os.path.abspath(__file__))
-GARDER = ('kosher-chalet-les-deux-alpes',)
+GARDER = ()
 TAG = re.compile(r'<(/?)div\b[^>]*>')
 
 def bloc(s, i):
     """Renvoie (début, fin) du <div> parent .ss.wrap de la mosaïque ouverte en i, ou de la mosaïque seule."""
     deb = s.rfind('<div', 0, i)
-    j = s.rfind('<div class="ss wrap">', 0, i)
-    if j != -1 and s[j + len('<div class="ss wrap">'):i].strip() == '':
+    mm = list(re.finditer(r'<div class="ss wrap[^"]*">', s[:i]))
+    j = mm[-1].start() if mm else -1
+    if j != -1 and s[mm[-1].end():i].strip() == '':
         deb = j
     else:
         deb = i

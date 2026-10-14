@@ -1,0 +1,440 @@
+{
+ "val-thorens-1.jpg": {
+  "titre": "File:Val-thorens-panorama.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Val-thorens-panorama.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Henrik"
+ },
+ "val-thorens-2.jpg": {
+  "titre": "File:Val Thorens ski resort map.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Val_Thorens_ski_resort_map.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "val-thorens-3.jpg": {
+  "titre": "File:Piste de ski des Pionniers enneigée à Val Thorens (avril 2022).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Piste_de_ski_des_Pionniers_enneig%C3%A9e_%C3%A0_Val_Thorens_(avril_2022).JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Florian Pépellin"
+ },
+ "val-thorens-4.jpg": {
+  "titre": "File:Ski à Val Thorens (2016).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Ski_%C3%A0_Val_Thorens_(2016).JPG",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Florian Pépellin"
+ },
+ "courchevel-1.jpg": {
+  "titre": "File:Pistes de ski côté Loze vues de Courchevel 1850 (décembre 2019).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Pistes_de_ski_c%C3%B4t%C3%A9_Loze_vues_de_Courchevel_1850_(d%C3%A9cembre_2019).JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Florian Pépellin"
+ },
+ "courchevel-2.jpg": {
+  "titre": "File:Piste de ski descendant à Courchevel 1850 (décembre 2019).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Piste_de_ski_descendant_%C3%A0_Courchevel_1850_(d%C3%A9cembre_2019).JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Florian Pépellin"
+ },
+ "courchevel-3.jpg": {
+  "titre": "File:Courchevel 1850 le 15 décembre 2019.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Courchevel_1850_le_15_d%C3%A9cembre_2019.JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Florian Pépellin"
+ },
+ "courchevel-4.jpg": {
+  "titre": "File:Courchevel 1850 ski resort.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Courchevel_1850_ski_resort.jpg",
+  "licence": "CC0",
+  "auteur": "Sroman1842"
+ },
+ "alpe-dhuez-1.jpg": {
+  "titre": "File:Alpe d Huez juin2017 abc8.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alpe_d_Huez_juin2017_abc8.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Patafisik"
+ },
+ "alpe-dhuez-2.jpg": {
+  "titre": "File:Alpe d Huez juin2017 abc7.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alpe_d_Huez_juin2017_abc7.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Patafisik"
+ },
+ "alpe-dhuez-3.jpg": {
+  "titre": "File:Alpe d Huez juin2017 abc10 tourbière.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alpe_d_Huez_juin2017_abc10_tourbi%C3%A8re.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Patafisik"
+ },
+ "alpe-dhuez-4.jpg": {
+  "titre": "File:Alpe d Huez juin2017 abc18.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alpe_d_Huez_juin2017_abc18.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Patafisik"
+ },
+ "les-deux-alpes-1.jpg": {
+  "titre": "File:Remote view of Les Deux Alpes from Signal de Villard, Huez, 2026.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Remote_view_of_Les_Deux_Alpes_from_Signal_de_Villard,_Huez,_2026.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "les-deux-alpes-2.jpg": {
+  "titre": "File:Les Deux Alpes lift.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Les_Deux_Alpes_lift.JPG",
+  "licence": "CC BY 2.0",
+  "auteur": "The original uploader was Onevalefan at English Wikipedia."
+ },
+ "les-deux-alpes-3.jpg": {
+  "titre": "File:Les Deux alpes, Franse Alpen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Les_Deux_alpes,_Franse_Alpen.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": ""
+ },
+ "les-deux-alpes-4.jpg": {
+  "titre": "File:Remote view of Les Deux Alpes from Auris, 2026.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Remote_view_of_Les_Deux_Alpes_from_Auris,_2026.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "grenoble-1.jpg": {
+  "titre": "File:Grenoble-Bastille cable car - Téléphérique de Grenoble Bastille photo1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Grenoble-Bastille_cable_car_-_T%C3%A9l%C3%A9ph%C3%A9rique_de_Grenoble_Bastille_photo1.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Sami Mlouhi"
+ },
+ "grenoble-2.jpg": {
+  "titre": "File:Grenoble-Bastille cable car - Téléphérique de Grenoble Bastille photo3.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Grenoble-Bastille_cable_car_-_T%C3%A9l%C3%A9ph%C3%A9rique_de_Grenoble_Bastille_photo3.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Sami Mlouhi"
+ },
+ "grenoble-3.jpg": {
+  "titre": "File:Grenoble-Bastille cable car - Téléphérique de Grenoble Bastille photo2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Grenoble-Bastille_cable_car_-_T%C3%A9l%C3%A9ph%C3%A9rique_de_Grenoble_Bastille_photo2.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Sami Mlouhi"
+ },
+ "grenoble-4.jpg": {
+  "titre": "File:Téléphérique de Grenoble Bastille - Grenoble-Bastille cable car - نقل بالكابلات غرونوبل-الباستيل.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:T%C3%A9l%C3%A9ph%C3%A9rique_de_Grenoble_Bastille_-_Grenoble-Bastille_cable_car_-_%D9%86%D9%82%D9%84_%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D8%A8%D9%84%D8%A7%D8%AA_%D8%BA%D8%B1%D9%88%D9%86%D9%88%D8%A8%D9%84-%D8%A7%D9%84%D8%A8%D8%A7%D8%B3%D8%AA%D9%8A%D9%84.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Sami Mlouhi"
+ },
+ "annecy-1.jpg": {
+  "titre": "File:Old town @ Lake Annecy @ Petit Port @ Annecy-le-Vieux (40138576313).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Old_town_@_Lake_Annecy_@_Petit_Port_@_Annecy-le-Vieux_(40138576313).jpg",
+  "licence": "CC BY 2.0",
+  "auteur": "Guilhem Vellut from Annecy, France"
+ },
+ "annecy-2.jpg": {
+  "titre": "File:Old Dock (219110489).jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:Old_Dock_(219110489).jpeg",
+  "licence": "CC BY 3.0",
+  "auteur": "Robin Férand"
+ },
+ "chamonix-1.jpg": {
+  "titre": "File:Hôtel de ville de Chamonix-Mont-Blanc (juin 2022).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_ville_de_Chamonix-Mont-Blanc_(juin_2022).JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Florian Pépellin"
+ },
+ "chamonix-2.jpg": {
+  "titre": "File:Chamonix-Mont-Blanc - Place de l'Église - Hôtel de ville - Plaques inauguration et Contrat de Rivière.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chamonix-Mont-Blanc_-_Place_de_l%27%C3%89glise_-_H%C3%B4tel_de_ville_-_Plaques_inauguration_et_Contrat_de_Rivi%C3%A8re.jpg",
+  "licence": "CC0",
+  "auteur": "Romainbehar"
+ },
+ "chamonix-3.jpg": {
+  "titre": "File:2025-05-23 Chamonix-Mont-Blanc.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2025-05-23_Chamonix-Mont-Blanc.jpg",
+  "licence": "CC BY 4.0",
+  "auteur": "Alexkom000"
+ },
+ "chamonix-4.jpg": {
+  "titre": "File:Chamonix 035.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chamonix_035.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Arnaud 25"
+ },
+ "les-arcs-1.jpg": {
+  "titre": "File:Mont Blanc from Les Arcs 1950.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mont_Blanc_from_Les_Arcs_1950.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Dmitry A. Mottl"
+ },
+ "les-arcs-2.jpg": {
+  "titre": "File:Roc du Grand Renard and Aiguille Grive, with TSF Charmettoger and ski slopes in the foreground, Les Arcs, 2018.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Roc_du_Grand_Renard_and_Aiguille_Grive,_with_TSF_Charmettoger_and_ski_slopes_in_the_foreground,_Les_Arcs,_2018.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "les-arcs-3.jpg": {
+  "titre": "File:Les Arcs 1950 2000.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Les_Arcs_1950_2000.jpg",
+  "licence": "Public domain",
+  "auteur": "Dmitry A. Mottl"
+ },
+ "les-arcs-4.jpg": {
+  "titre": "File:Panneaux de ski aux Arcs au printemps (mars 2025).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Panneaux_de_ski_aux_Arcs_au_printemps_(mars_2025).JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Florian Pépellin"
+ },
+ "la-plagne-1.jpg": {
+  "titre": "File:La Plagne from Montagne de l'Arc, 2018.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:La_Plagne_from_Montagne_de_l%27Arc,_2018.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "la-plagne-2.jpg": {
+  "titre": "File:Piste de ski de la station de La Plagne 20220121 104005.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Piste_de_ski_de_la_station_de_La_Plagne_20220121_104005.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Pline"
+ },
+ "la-plagne-3.jpg": {
+  "titre": "File:Domaine skiable de La Plagne enneigé (hiver 2024).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Domaine_skiable_de_La_Plagne_enneig%C3%A9_(hiver_2024).JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Florian Pépellin"
+ },
+ "la-plagne-4.jpg": {
+  "titre": "File:Domaine skiable de La Plagne en hiver (février 2024).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Domaine_skiable_de_La_Plagne_en_hiver_(f%C3%A9vrier_2024).JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Florian Pépellin"
+ },
+ "chabad-1.jpg": {
+  "titre": "File:Governor-healey-celebrates-beginning-of-hanukkah-with-chabad-of-downtown-boston 53384945714 o.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Governor-healey-celebrates-beginning-of-hanukkah-with-chabad-of-downtown-boston_53384945714_o.jpg",
+  "licence": "Public domain",
+  "auteur": "Joshua Qualls/Massachusetts Governor’s Press Office"
+ },
+ "chabad-2.jpg": {
+  "titre": "File:Governor-healey-celebrates-beginning-of-hanukkah-with-chabad-of-downtown-boston 53384945779 o.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Governor-healey-celebrates-beginning-of-hanukkah-with-chabad-of-downtown-boston_53384945779_o.jpg",
+  "licence": "Public domain",
+  "auteur": "Joshua Qualls/Massachusetts Governor’s Press Office"
+ },
+ "chabad-3.jpg": {
+  "titre": "File:Governor-healey-celebrates-beginning-of-hanukkah-with-chabad-of-downtown-boston 53384815308 o.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Governor-healey-celebrates-beginning-of-hanukkah-with-chabad-of-downtown-boston_53384815308_o.jpg",
+  "licence": "Public domain",
+  "auteur": "Joshua Qualls/Massachusetts Governor’s Press Office"
+ },
+ "chabad-4.jpg": {
+  "titre": "File:Governor-healey-celebrates-beginning-of-hanukkah-with-chabad-of-downtown-boston 53383715147 o.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Governor-healey-celebrates-beginning-of-hanukkah-with-chabad-of-downtown-boston_53383715147_o.jpg",
+  "licence": "Public domain",
+  "auteur": "Joshua Qualls/Massachusetts Governor’s Press Office"
+ },
+ "chabad2-1.jpg": {
+  "titre": "File:Chabad at Texas A&M University A&M Interns and Students.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chabad_at_Texas_A%26M_University_A%26M_Interns_and_Students.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "AriH972"
+ },
+ "chabad2-2.jpg": {
+  "titre": "File:Tefillin in india1.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Tefillin_in_india1.JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "שיע.ק"
+ },
+ "chabad2-3.jpg": {
+  "titre": "File:Mahane Yehuda market, Jerusalem - Israël (4674544978).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mahane_Yehuda_market,_Jerusalem_-_Isra%C3%ABl_(4674544978).jpg",
+  "licence": "CC BY 2.0",
+  "auteur": "Emmanuel DYAN from Paris, France"
+ },
+ "mikveh-1.jpg": {
+  "titre": "File:Interior of Mikveh Israel Synagogue P1180334.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Interior_of_Mikveh_Israel_Synagogue_P1180334.JPG",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Deror_avi"
+ },
+ "mikveh-2.jpg": {
+  "titre": "File:Interior of Mikveh Israel Synagogue P1180327.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Interior_of_Mikveh_Israel_Synagogue_P1180327.JPG",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Deror_avi"
+ },
+ "mikveh-3.jpg": {
+  "titre": "File:Interior of Mikveh Israel Synagogue P1180333.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Interior_of_Mikveh_Israel_Synagogue_P1180333.JPG",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Deror_avi"
+ },
+ "mikveh-4.jpg": {
+  "titre": "File:Interior of Mikveh Israel Synagogue P1180331.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Interior_of_Mikveh_Israel_Synagogue_P1180331.JPG",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "Deror_avi"
+ },
+ "megeve-1.jpg": {
+  "titre": "File:Mountain restaurant L'Alpette, Megève, 2025.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mountain_restaurant_L%27Alpette,_Meg%C3%A8ve,_2025.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "megeve-2.jpg": {
+  "titre": "File:Rochebrune front de neige, Megève, 2025.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rochebrune_front_de_neige,_Meg%C3%A8ve,_2025.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "megeve-3.jpg": {
+  "titre": "File:Looking down the slopes to the Rochebrune front de neige, Megève, 2025.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Looking_down_the_slopes_to_the_Rochebrune_front_de_neige,_Meg%C3%A8ve,_2025.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "megeve-4.jpg": {
+  "titre": "File:Looking down the Mandarines slope, Megève, 2025.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Looking_down_the_Mandarines_slope,_Meg%C3%A8ve,_2025.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "megeveb-1.jpg": {
+  "titre": "File:Evasion Mont Blanc, Megeve (P1070998).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Evasion_Mont_Blanc,_Megeve_(P1070998).jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Matti Blume"
+ },
+ "megeveb-2.jpg": {
+  "titre": "File:Looking down the slopes to the Rochebrune front de neige, Megève, 2025.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Looking_down_the_slopes_to_the_Rochebrune_front_de_neige,_Meg%C3%A8ve,_2025.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "megeveb-3.jpg": {
+  "titre": "File:Rochebrune front de neige, Megève, 2025.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rochebrune_front_de_neige,_Meg%C3%A8ve,_2025.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "megeveb-4.jpg": {
+  "titre": "File:Looking down the Mandarines slope, Megève, 2025.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Looking_down_the_Mandarines_slope,_Meg%C3%A8ve,_2025.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "alpe-dhuezb-1.jpg": {
+  "titre": "File:View of Alpe d'Huez from Pic Blanc, Oz, 2026.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:View_of_Alpe_d%27Huez_from_Pic_Blanc,_Oz,_2026.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "alpe-dhuezb-2.jpg": {
+  "titre": "File:Résidence 2000, Alpe d'Huez, Huez, 2026.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:R%C3%A9sidence_2000,_Alpe_d%27Huez,_Huez,_2026.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "alpe-dhuezb-3.jpg": {
+  "titre": "File:Vieil-Alpe, Alpe d'Huez, seen from Côtes Souveraines, Huez, 2026.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vieil-Alpe,_Alpe_d%27Huez,_seen_from_C%C3%B4tes_Souveraines,_Huez,_2026.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "alpe-dhuezb-4.jpg": {
+  "titre": "File:View of Alpe d'Huez from the top of Le Chalvet, Huez, 2026.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:View_of_Alpe_d%27Huez_from_the_top_of_Le_Chalvet,_Huez,_2026.jpg",
+  "licence": "CC0",
+  "auteur": "DimiTalen"
+ },
+ "val-disere-1.jpg": {
+  "titre": "File:RGA 231.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:RGA_231.JPG",
+  "licence": "CC BY-SA 3.0",
+  "auteur": "André Payan-Passeron"
+ },
+ "val-disere-2.jpg": {
+  "titre": "File:Val-d'Isère - panorama.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Val-d%27Is%C3%A8re_-_panorama.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Kulmalukko"
+ },
+ "val-disere-3.jpg": {
+  "titre": "File:Val d'Isère 6.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Val_d%27Is%C3%A8re_6.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Tiia Monto"
+ },
+ "val-disere-4.jpg": {
+  "titre": "File:Val-d'Isère 2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Val-d%27Is%C3%A8re_2.jpg",
+  "licence": "CC BY 4.0",
+  "auteur": "Tiia Monto"
+ },
+ "val-idereb-1.jpg": {
+  "titre": "File:Val d'Isère (5790117968).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Val_d%27Is%C3%A8re_(5790117968).jpg",
+  "licence": "CC BY 2.0",
+  "auteur": "Jerome Bon from Paris, France"
+ },
+ "val-idereb-2.jpg": {
+  "titre": "File:Val-d'Isère depuis Pointe de Fresse en été (juillet 2022).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Val-d%27Is%C3%A8re_depuis_Pointe_de_Fresse_en_%C3%A9t%C3%A9_(juillet_2022).JPG",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Florian Pépellin"
+ },
+ "val-idereb-3.jpg": {
+  "titre": "File:Val d'Isère Wikivoyage Banner.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Val_d%27Is%C3%A8re_Wikivoyage_Banner.jpg",
+  "licence": "CC BY 2.0",
+  "auteur": "Jerome Bon from Paris, France"
+ },
+ "val-idereb-4.jpg": {
+  "titre": "File:Val d'Isère (5790118818).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Val_d%27Is%C3%A8re_(5790118818).jpg",
+  "licence": "CC BY 2.0",
+  "auteur": "Jerome Bon from Paris, France"
+ },
+ "mikvah-1.jpg": {
+  "titre": "File:Mikvah in Tarnów.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mikvah_in_Tarn%C3%B3w.jpg",
+  "licence": "CC0",
+  "auteur": "Michał Bulsa"
+ },
+ "mikvah-2.jpg": {
+  "titre": "File:Judenbad Speyer 6 View from the first room down.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Judenbad_Speyer_6_View_from_the_first_room_down.jpg",
+  "licence": "CC BY-SA 3.0",
+  "auteur": ""
+ },
+ "mikvah-3.jpg": {
+  "titre": "File:Mikvah (Syracuse) 06.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mikvah_(Syracuse)_06.jpg",
+  "licence": "CC BY 4.0",
+  "auteur": "Derbrauni"
+ },
+ "mikvah-4.jpg": {
+  "titre": "File:Sopron Alte Synagoge - Mikwe.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sopron_Alte_Synagoge_-_Mikwe.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Wolfgang Sauber"
+ },
+ "mikvehb-1.jpg": {
+  "titre": "File:Mikveh carved into the rock.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mikveh_carved_into_the_rock.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Davidbena"
+ },
+ "mikvehb-2.jpg": {
+  "titre": "File:World's Oldest Mikveh at Hasmonean royal winter palaces.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:World%27s_Oldest_Mikveh_at_Hasmonean_royal_winter_palaces.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Ezrazo"
+ },
+ "mikvehb-3.jpg": {
+  "titre": "File:Mikveh in Lod 2020.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mikveh_in_Lod_2020.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "DGtal"
+ },
+ "mikvehb-4.jpg": {
+  "titre": "File:Sopron Alte Synagoge - Mikwe.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sopron_Alte_Synagoge_-_Mikwe.jpg",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Wolfgang Sauber"
+ }
+}
