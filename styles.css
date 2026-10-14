@@ -762,3 +762,6 @@ body.menu-ouvert{overflow:hidden}
 @media (min-width:900px){.hero-photo .hero-texte{padding-top:48px;padding-bottom:72px;min-height:560px;display:flex;flex-direction:column;justify-content:flex-end}.hero-photo h1{font-size:48px}.hero-photo .hero-logo{width:420px}}
 .pratique-tete .ac-wp{width:220px;height:auto;margin:0 0 14px;order:0}
 .pratique-tete .btn-noir{margin-top:18px}
+.kashrut-badge{display:flex;align-items:center;gap:16px;margin-top:22px;padding:14px 18px;background:var(--blanc);border-radius:15px;max-width:520px}
+.kashrut-badge img{width:96px;height:auto;flex:none}
+.kashrut-badge span{font-size:15px;font-weight:600}
