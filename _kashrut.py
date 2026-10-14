@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Logo de la hashgaha (Beth Habad Grenoble-Alpes, reçu le 14/10) à la place du picto générique de la ligne « Strictly kosher »
 des pages Deux Alpes (4 langues), avec le nom du Beth Habad dans la phrase et dans la FAQ JSON-LD. Idempotent.
-Le prototype /preview/lead-les-deux-alpes/ est régénéré depuis la page EN par _proto_lead.py : relancer _proto_lead après."""
+À lancer APRES _decor.py (il lit son balisage et _decor efface le logo)."""
 import io, os, re
 ICI = os.path.dirname(os.path.abspath(__file__))
 LOGO = 'img/logo-kashrut-beth-habad-grenoble-alpes.png'

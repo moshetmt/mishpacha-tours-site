@@ -41,6 +41,11 @@ PREUVES = ["landmark", "badge-check", "utensils", "lock", "users", "calendar-x"]
 H2ILLUS = [(r"kosher|service|meal", "flat-kosher"), (r"safe", "line-private"), (r"shabbat", "line-shabbat"),
            (r"winter|summer|ski|resort", "flat-ski"), (r"lyon|stopover|land", "flat-stopover")]
 
+# pages Alpes et van : le hassid du logo (dessin de marque) remplace toutes les illustrations posees a cote des h2
+HASSID_PAGES = {"kosher-val-thorens", "kosher-courchevel", "kosher-megeve", "kosher-alpe-dhuez", "kosher-les-deux-alpes", "kosher-grenoble", "kosher-annecy",
+                "kosher-chamonix", "kosher-les-arcs", "kosher-la-plagne", "kosher-val-disere", "kosher-services-french-alps", "alps", "kosher-ski-holidays-french-alps",
+                "summer-in-the-alps-jewish-families", "kosher-vacation-french-alps", "kosher-van-transfers", "kosher-chalet-les-deux-alpes"}
+
 def rd(p): return io.open(p, encoding="utf-8").read()
 def wr(p, s): io.open(p, "w", encoding="utf-8", newline="\n").write(s)
 def txt(s): return html.unescape(re.sub("<[^>]+>", " ", s)).lower()
@@ -199,7 +204,7 @@ def decorer(h, plan_en, page_dir, lang):
         corps2 = corps2.replace("<ul>", f'<ul class="{cls}">', 1)
         if p.get("garant"): corps2 = garanties(corps2, p["garant"])
         if p["illus"]:
-            h2 = h2.replace("<h2>", f'<h2 class="dk-h2"><img class="dk dk-h2img" src="/img/illus/v/{p["illus"]}.webp" alt="" width="120" height="120" loading="lazy">', 1)
+            h2 = h2.replace("<h2>", f'<h2 class="dk-h2"><img class="dk dk-h2img" src="{'/img/picto-hassid-vert.svg' if page_dir in HASSID_PAGES else '/img/illus/v/' + p['illus'] + '.webp'}" alt="" width="120" height="120" loading="lazy">', 1)
         return ouv + h2 + corps2
     h = SEC.sub(sec, h)
     # bande de preuves (accueil, tours)
