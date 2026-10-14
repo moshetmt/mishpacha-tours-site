@@ -30,13 +30,14 @@ FORM = '''<form class="chercheur lead-form">
       <button type="submit"><svg><use href="#wa"/></svg>Get my Deux Alpes programme</button>
       <small>Same-day reply, in English or Hebrew. Never on Shabbat.</small>
     </form>'''
-HERO = f'''<section class="hero ac-hero lead-hero">
+HERO = f'''<section class="hero lead-hero3">
   <img src="/img/chalet/wp-pistes-balcon.jpg" alt="The slopes and the lifts of Les Deux Alpes under a blue sky" width="1600" height="1600" fetchpriority="high">
-  <div class="hero-texte">
+  <div class="lead3-texte">
     <p class="fil lead-fil"><a href="../../">Home</a> / <a href="../../alps/">The French Alps</a> / Les Deux Alpes</p>
-    <h1>Strictly kosher in Les Deux Alpes.<br><i>Your accommodation, a chef or delivered meals, Shabbat and minyan, organised for you.</i></h1>
-    <ul class="lead-puces"><li>Shomer Shabbat</li><li>Strictly kosher</li><li>One request, one programme</li></ul>
-    {FORM}
+    <ul class="lead-puces"><li>Shomer Shabbat</li><li>Strictly kosher</li><li>Minyan on request</li></ul>
+    <h1>Strictly kosher<br>in Les Deux Alpes.</h1>
+    <p>Your accommodation, a chef or delivered meals, Shabbat and minyan, organised for you.</p>
+    <a class="btn-hero" href="https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20a%20kosher%20stay%20in%20Les%20Deux%20Alpes.%20Dates%3A%20%2F%20Adults%3A%20%2F%20Children%3A" rel="noopener"><svg><use href="#wa"/></svg>Plan my stay on WhatsApp</a>
   </div>
 </section>
 
@@ -66,8 +67,20 @@ src = src.replace('<meta name="robots" content="index, follow">', '')
 src = re.sub(r'(<head[^>]*>)', r'\1\n<meta name="robots" content="noindex, nofollow">', src, count=1)
 src = src.replace('="../', '="../../')
 src = src.replace('</head>', '''<style>
-.lead-hero .hero-texte{display:block;max-width:640px}
-.lead-hero::before{background:linear-gradient(90deg,rgba(20,19,22,.58) 0%,rgba(20,19,22,.28) 100%)}
+.lead-hero3{position:relative;height:100dvh;min-height:560px;max-height:920px;overflow:hidden;background:#1C1B1F}
+.lead-hero3 > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 12%;opacity:.74;filter:saturate(.85)}
+.lead-hero3::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,19,22,.10) 0%,rgba(20,19,22,.38) 45%,rgba(20,19,22,.90) 100%)}
+.lead3-texte{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:0 24px 52px;color:#FFFAED;max-width:1248px;margin:0 auto}
+.lead3-texte .lead-fil{margin-bottom:18px;opacity:.9}
+.lead3-texte h1{font-family:Fraunces,serif;font-weight:300;font-size:clamp(46px,7.2vw,96px);line-height:.98;letter-spacing:-.015em;margin-top:18px;color:#FFFAED;text-wrap:balance}
+.lead3-texte p{margin-top:16px;font-size:clamp(17px,1.5vw,21px);line-height:1.45;max-width:34em;color:#F6EFE0}
+.lead3-texte h1,.lead3-texte p{text-shadow:0 2px 30px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.35)}
+.lead-puces li{background:rgba(20,19,22,.42);border:1px solid rgba(255,250,237,.5);color:#FFFAED}
+.btn-hero{display:inline-flex;align-items:center;gap:10px;margin-top:26px;min-height:54px;padding:0 24px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;font-size:16px;text-decoration:none}
+.btn-hero svg{width:20px;height:20px;fill:currentColor}
+@media (min-width:900px){.lead3-texte{padding-bottom:72px}}
+@media (max-width:899px){.lead-hero3 > img{object-position:50% 0;opacity:.68}.lead-hero3::before{background:linear-gradient(180deg,rgba(20,19,22,.12) 0%,rgba(20,19,22,.45) 40%,rgba(20,19,22,.94) 100%)}.lead3-texte{padding-bottom:88px}}
+.lead-hero3 .lead-fil a{color:inherit}
 .lead-fil{font-size:13px;opacity:.85;margin-bottom:14px}.lead-fil a{color:inherit}
 .lead-puces{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;list-style:none;padding:0}
 .lead-puces li{background:rgba(255,250,237,.16);border:1px solid rgba(255,250,237,.45);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
