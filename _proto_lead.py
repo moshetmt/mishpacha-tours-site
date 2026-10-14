@@ -31,17 +31,16 @@ FORM = '''<form class="chercheur lead-form">
       <small>Same-day reply, in English or Hebrew. Never on Shabbat.</small>
     </form>'''
 HERO = f'''<section class="hero ac-hero lead-hero">
-  <img src="/img/stock/st-les-deux-alpes.jpg" alt="Les Deux Alpes, the resort and its slopes under the snow" width="1600" height="1067" fetchpriority="high">
+  <img src="/img/chalet/wp-pistes-balcon.jpg" alt="The slopes and the lifts of Les Deux Alpes under a blue sky" width="1600" height="1600" fetchpriority="high">
   <div class="hero-texte">
     <p class="fil lead-fil"><a href="../../">Home</a> / <a href="../../alps/">The French Alps</a> / Les Deux Alpes</p>
     <h1>Strictly kosher in Les Deux Alpes.<br><i>Your accommodation, a chef or delivered meals, Shabbat and minyan, organised for you.</i></h1>
     <ul class="lead-puces"><li>Shomer Shabbat</li><li>Strictly kosher</li><li>One request, one programme</li></ul>
     {FORM}
   </div>
-  <img class="lead-mascotte" src="/img/illus/flat-ski.png" alt="" width="700" height="700">
 </section>
 
-<section class="ss wrap lead-intro"><p>{intro}</p></section>
+<section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/illus/flat-ski.png" alt="" width="700" height="700" loading="lazy"><p>{intro}</p></section>
 
 <section class="ss wrap lead-offre">
   <h2>Where you sleep, what you eat, <i>where you ski</i></h2>
@@ -67,28 +66,32 @@ src = src.replace('<meta name="robots" content="index, follow">', '')
 src = re.sub(r'(<head[^>]*>)', r'\1\n<meta name="robots" content="noindex, nofollow">', src, count=1)
 src = src.replace('="../', '="../../')
 src = src.replace('</head>', '''<style>
-.lead-hero{min-height:0}
-.lead-hero .hero-texte{display:block!important;max-width:620px;margin-inline-end:auto;grid-template-columns:none!important}
-.lead-hero .hero-texte > *{grid-column:auto!important}
+.lead-hero .hero-texte{display:block;max-width:640px}
+.lead-hero::before{background:linear-gradient(90deg,rgba(20,19,22,.58) 0%,rgba(20,19,22,.28) 100%)}
 .lead-fil{font-size:13px;opacity:.85;margin-bottom:14px}.lead-fil a{color:inherit}
-.lead-puces{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;list-style:none;padding:0}
+.lead-puces{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;list-style:none;padding:0}
 .lead-puces li{background:rgba(255,250,237,.16);border:1px solid rgba(255,250,237,.45);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
-.lead-mascotte{position:absolute!important;inset:auto 150px 0 auto!important;width:420px!important;height:auto!important;object-fit:contain!important;z-index:2;filter:drop-shadow(0 10px 24px rgba(0,0,0,.35))}
-section.ss.lead-intro{padding-top:20px!important}
-.lead-intro p{max-width:760px;margin:0 auto;font-size:18px;line-height:1.6}
+.lead-intro{display:grid;gap:18px;align-items:center;justify-items:center;text-align:center}
+.lead-intro .lead-mascotte{width:260px;height:auto}
+.lead-intro p{max-width:640px;font-size:17px;line-height:1.6}
 .lead-offre h2{text-align:center}
-.lead-cartes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.lead-cartes{display:grid;gap:18px;margin-top:28px}
 .lead-cartes figure{margin:0;background:var(--blanc);border-radius:15px;overflow:hidden}
 .lead-cartes img{width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;display:block}
 .lead-cartes figcaption{padding:16px 18px 20px;font-size:15px;line-height:1.5}
 .lead-cartes figcaption b{display:block;font-size:18px;margin-bottom:4px}
-.lead-wp{display:grid;grid-template-columns:200px 1fr;gap:24px;align-items:center;margin-top:28px;padding:22px 26px;background:var(--blanc);border-radius:15px;color:inherit;text-decoration:none}
-.lead-wp img{width:200px;height:auto}
+.lead-wp{display:grid;gap:16px;align-items:center;margin-top:28px;padding:22px 26px;background:var(--blanc);border-radius:15px;color:inherit;text-decoration:none}
+.lead-wp img{width:170px;height:auto}
 .lead-wp span{font-size:15px;line-height:1.5}.lead-wp b{display:block;font-size:18px;margin-bottom:4px}
-@media (max-width:899px){.lead-wp{grid-template-columns:1fr}.lead-wp img{width:160px}}
 .lead-final{background:var(--vert);color:var(--creme);text-align:center}
 .lead-final .chercheur{max-width:520px;margin:26px auto 0;text-align:start}
-@media (max-width:899px){</style>
+@media (min-width:900px){
+  .lead-intro{grid-template-columns:320px 1fr;text-align:start;justify-items:start}
+  .lead-intro .lead-mascotte{width:320px}
+  .lead-cartes{grid-template-columns:repeat(3,1fr)}
+  .lead-wp{grid-template-columns:200px 1fr;gap:24px}.lead-wp img{width:200px}
+}
+</style>
 </head>''', 1)
 JS = '''<script>document.querySelectorAll('.lead-form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const t=`Hello, we are planning: ${f.voyage.value}. Dates: ${f.dates.value||'/'} / Adults: ${f.adultes.value||'/'} / Children and babies: ${f.enfants.value||'/'}`;window.open('https://wa.me/33652092301?text='+encodeURIComponent(t),'_blank','noopener')}));</script>
 </body>'''

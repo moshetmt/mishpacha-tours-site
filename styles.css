@@ -760,3 +760,5 @@ body.menu-ouvert{overflow:hidden}
 .btn-hero{display:inline-flex;align-items:center;gap:10px;margin-top:22px;min-height:52px;padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;text-decoration:none}
 .btn-hero svg{width:20px;height:20px;fill:currentColor}
 @media (min-width:900px){.hero-photo .hero-texte{padding-top:48px;padding-bottom:72px;min-height:560px;display:flex;flex-direction:column;justify-content:flex-end}.hero-photo h1{font-size:48px}.hero-photo .hero-logo{width:420px}}
+.pratique-tete .ac-wp{width:220px;height:auto;margin:0 0 14px;order:0}
+.pratique-tete .btn-noir{margin-top:18px}
