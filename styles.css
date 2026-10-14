@@ -707,3 +707,10 @@ body.menu-ouvert{overflow:hidden}
 @supports (display:flex){.dm-bloc{display:block}.dm-bloc legend{float:left;width:100%;margin-bottom:14px}.dm-bloc legend::after{content:"";display:block;clear:both}.dm-bloc > .dm-chips,.dm-bloc > .dm-champ,.dm-bloc > .dm-duo,.dm-bloc > .dm-trio{clear:both}}
 .ac-form-lien{margin-top:22px;font-size:15px}
 .ac-form-lien a{font-weight:600;text-underline-offset:4px}
+
+/* accueil dégraissé 14/10 : stations en ligne sous les portes, phrase Atout France sous les étapes */
+.ac-stations-ligne{margin:34px 0 0;text-align:center;font-size:14px;opacity:.7}
+.ac-stations.compacte{margin-top:10px;gap:6px}
+.ac-stations.compacte a{min-height:34px;padding:0 13px;font-size:14px;background:var(--blanc);border:1px solid rgba(0,0,0,.12)}
+.ac-stations.compacte li:first-child a{background:var(--blanc);color:inherit}
+.ac-atout{max-width:720px;margin:34px auto 0;text-align:center;font-size:14px;line-height:1.5;opacity:.7}
