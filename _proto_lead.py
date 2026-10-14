@@ -34,10 +34,12 @@ HERO = f'''<section class="hero lead-hero3">
   <img src="/img/chalet/wp-pistes-balcon.jpg" alt="The slopes and the lifts of Les Deux Alpes under a blue sky" width="1600" height="1600" fetchpriority="high">
   <div class="lead3-texte">
     <p class="fil lead-fil"><a href="../../">Home</a> / <a href="../../alps/">The French Alps</a> / Les Deux Alpes</p>
+    <div class="lead3-bloc">
     <ul class="lead-puces"><li>Shomer Shabbat</li><li>Strictly kosher</li><li>Minyan on request</li></ul>
     <h1>Strictly kosher<br>in Les Deux Alpes.</h1>
     <p>Your accommodation, a chef or delivered meals, Shabbat and minyan, organised for you.</p>
     <a class="btn-hero" href="https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20a%20kosher%20stay%20in%20Les%20Deux%20Alpes.%20Dates%3A%20%2F%20Adults%3A%20%2F%20Children%3A" rel="noopener"><svg><use href="#wa"/></svg>Plan my stay on WhatsApp</a>
+    </div>
   </div>
 </section>
 
@@ -71,15 +73,16 @@ src = src.replace('</head>', '''<style>
 .lead-hero3 > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 12%;opacity:.74;filter:saturate(.85)}
 .lead-hero3::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,19,22,.10) 0%,rgba(20,19,22,.38) 45%,rgba(20,19,22,.90) 100%)}
 .lead3-texte{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:0 24px 52px;color:#FFFAED;max-width:1248px;margin:0 auto}
-.lead3-texte .lead-fil{margin-bottom:18px;opacity:.9}
-.lead3-texte h1{font-family:Fraunces,serif;font-weight:300;font-size:clamp(46px,7.2vw,96px);line-height:.98;letter-spacing:-.015em;margin-top:18px;color:#FFFAED;text-wrap:balance}
+.lead3-texte .lead-fil{margin-bottom:18px;opacity:.95;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.lead3-bloc{display:inline-block;max-width:760px;padding:28px 32px 32px;border-radius:24px;background:rgba(20,19,22,.62);backdrop-filter:blur(12px) saturate(.9);-webkit-backdrop-filter:blur(12px) saturate(.9);border:1px solid rgba(255,250,237,.18)}
+.lead3-texte h1{font-family:Fraunces,serif;font-weight:300;font-size:clamp(42px,6vw,84px);line-height:.98;letter-spacing:-.015em;margin-top:18px;color:#FFFAED;text-wrap:balance}
 .lead3-texte p{margin-top:16px;font-size:clamp(17px,1.5vw,21px);line-height:1.45;max-width:34em;color:#F6EFE0}
-.lead3-texte h1,.lead3-texte p{text-shadow:0 2px 30px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.35)}
+.lead3-texte h1,.lead3-texte p{text-shadow:none}
 .lead-puces li{background:rgba(20,19,22,.42);border:1px solid rgba(255,250,237,.5);color:#FFFAED}
 .btn-hero{display:inline-flex;align-items:center;gap:10px;margin-top:26px;min-height:54px;padding:0 24px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;font-size:16px;text-decoration:none}
 .btn-hero svg{width:20px;height:20px;fill:currentColor}
 @media (min-width:900px){.lead3-texte{padding-bottom:72px}}
-@media (max-width:899px){.lead-hero3 > img{object-position:50% 0;opacity:.68}.lead-hero3::before{background:linear-gradient(180deg,rgba(20,19,22,.12) 0%,rgba(20,19,22,.45) 40%,rgba(20,19,22,.94) 100%)}.lead3-texte{padding-bottom:88px}}
+@media (max-width:899px){.lead3-bloc{padding:20px 20px 24px;border-radius:18px}.lead-hero3 > img{object-position:50% 0;opacity:.68}.lead-hero3::before{background:linear-gradient(180deg,rgba(20,19,22,.12) 0%,rgba(20,19,22,.45) 40%,rgba(20,19,22,.94) 100%)}.lead3-texte{padding-bottom:88px}}
 .lead-hero3 .lead-fil a{color:inherit}
 .lead-fil{font-size:13px;opacity:.85;margin-bottom:14px}.lead-fil a{color:inherit}
 .lead-puces{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;list-style:none;padding:0}
