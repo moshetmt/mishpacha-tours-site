@@ -120,6 +120,7 @@ function envoyerMail_(d, quand) {
   var boutons = '';
   if (tel.length >= 8) boutons += bouton('https://wa.me/' + tel, 'Reply on WhatsApp', true);
   if (mail) boutons += bouton('mailto:' + esc_(mail), 'Reply by email', !boutons);
+  try { boutons += bouton(feuille_().getParent().getUrl(), 'Voir dans le Sheet', false); } catch (err) {}
 
   var html =
     '<div style="margin:0;padding:24px 12px;background:#FFFAED;font-family:Arial,Helvetica,sans-serif">' +
