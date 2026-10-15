@@ -127,7 +127,6 @@
 - `img/stock/hub-kosher-megeve.jpg` : @ryankphoto (Unsplash), Licence Unsplash, https://unsplash.com/photos/xoGQubyNHl8
 - `img/stock/hub-kosher-alpe-dhuez.jpg` : @rayyanbrh (Unsplash), Licence Unsplash, https://unsplash.com/photos/6072-Vu_Jd8
 - `img/stock/hub-kosher-les-deux-alpes.jpg` : @valdemaras (Unsplash), Licence Unsplash, https://unsplash.com/photos/uhETO02wWeI
-- `img/stock/hub-kosher-chalet-les-deux-alpes.jpg` : @claybanks (Unsplash), Licence Unsplash, https://unsplash.com/photos/DYMlVra-Tgw
 - `img/stock/hub-kosher-grenoble.jpg` : @christian_attard (Unsplash), Licence Unsplash, https://unsplash.com/photos/mKCXxdlAl1A
 - `img/stock/hub-kosher-annecy.jpg` : @tuan_p (Unsplash), Licence Unsplash, https://unsplash.com/photos/hKdohRQu8LE
 - `img/stock/hub-kosher-chamonix.jpg` : @meizhilang (Unsplash), Licence Unsplash, https://unsplash.com/photos/BuZGsjwmYjU
