@@ -317,6 +317,7 @@ function next(){var p=path(),i=p.indexOf(cur);if(ret){var r=ret;ret='';show(r,tr
 function back(){ret='';var p=path(),i=p.indexOf(cur);if(i>0)show(p[i-1],true,true)}
 bNext.addEventListener('click',next);bBack.addEventListener('click',back);
 f.addEventListener('click',function(ev){
+ var tu=ev.target.closest&&ev.target.closest('.dm-tuile');if(tu&&ev.target.tagName!=='INPUT'&&cur==='intention'){var ri=tu.querySelector('input');if(ri&&ri.checked){setTimeout(next,120);return}}
  var go=ev.target.closest&&ev.target.closest('.dm-edit');if(go){ret='final';show(go.getAttribute('data-go'),true,true);return}
  var bt=ev.target.closest&&ev.target.closest('.cpt button');if(!bt)return;
  var inp=bt.parentNode.querySelector('input'),v0=parseInt(inp.value,10)||0,plus=bt.className==='plus',v=Math.max(0,Math.min(99,v0+(plus?1:-1)));inp.value=v;
