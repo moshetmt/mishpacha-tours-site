@@ -1054,8 +1054,9 @@ body.menu-ouvert{overflow:hidden}
 /* bannière 3 : le texte ne dépasse plus du hero (fil d'Ariane coupé sous l'en-tête sur la page chalet, 15/10) */
 .lead-hero3:not(.lead-hero3-illus){height:auto;max-height:none;min-height:min(100svh,920px);display:flex;flex-direction:column;justify-content:flex-end}
 .lead-hero3:not(.lead-hero3-illus) .lead3-texte{position:relative;left:auto;right:auto;bottom:auto;width:100%;box-sizing:border-box}/* ===ACCUEIL-MOBILE-15-10=== */
-/* Accueil sur telephone (Moshe 15/10 : « plus joli », priorite au telephone) : plus de bandes creme vides entre les sections beiges,
-   la photo du chalet visible derriere le titre, le logo Winter Prestige en badge sur la photo, rythme plus serre. */
+/* Telephone, passe du 15/10 (Moshe : « plus joli », priorite au telephone). Accueil : plus de bandes creme vides entre les sections
+   beiges, la photo du chalet visible derriere le titre, le logo Winter Prestige en badge sur la photo. Pages Alpes (lead-hero3) :
+   rythme plus serre, cartes en colonne au lieu du rail a faire glisser. Bandeau vert : cache au chargement, fixe en haut apres defilement. */
 @media (max-width:699px){
   body:has(.ac-hero) .ss.beige{margin-top:0;padding:44px 0 48px}
   body:has(.ac-hero) .ss.beige + .ss.beige{border-top:1px solid rgba(28,27,31,.08)}
@@ -1067,6 +1068,19 @@ body.menu-ouvert{overflow:hidden}
   .ac-hero h1 i{font-size:21px;line-height:1.25;display:block;margin-top:10px}
   .ac-chalet{position:relative}
   .ac-chalet > .ac-wp{position:absolute;z-index:2;top:12px;inset-inline-start:12px;width:148px;margin:0;padding:8px 10px;border-radius:10px;background:var(--creme);box-shadow:0 2px 10px rgba(28,27,31,.18)}
+  /* bandeau vert */
+  .strip{display:none}
+  html.strip-vis .strip{display:block;position:fixed;top:0;left:0;right:0;z-index:40;font-size:12.5px;line-height:1.3;padding:7px 12px;box-shadow:0 2px 10px rgba(28,27,31,.2);animation:strip-in .25s ease-out}
+  @keyframes strip-in{from{transform:translateY(-100%)}}
+  /* pages Alpes et van */
+  body:has(.lead-hero3) .ss{margin-top:48px}
+  body:has(.lead-hero3) .ss.beige{padding:44px 0 48px}
+  body:has(.lead-hero3) .shabbat-bloc,body:has(.lead-hero3) .minyan-bh{margin-top:48px}
+  body .dk-cartes.dk-rail{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:1fr;overflow:visible;margin-inline:0;padding-inline:0;scroll-snap-type:none;gap:10px}
+  body .dk-rail > li{padding:14px 14px 14px 14px}
+  body .dk-rail > li > .dk-ico{position:static;float:inline-start;width:52px;height:52px;margin:0 12px 4px 0}
+  [dir=rtl] body .dk-rail > li > .dk-ico{margin:0 0 4px 12px}
+  body .dk-rail > li > b{display:block}
 }
 /* ===/ACCUEIL-MOBILE-15-10=== */
 /* ===MESURE=== */
@@ -1078,7 +1092,60 @@ body.menu-ouvert{overflow:hidden}
 .cb-b{display:flex;gap:10px}
 .cb button{min-width:104px;min-height:44px;padding:0 22px;border:0;border-radius:999px;background:var(--encre);color:var(--creme);font:inherit;font-size:14px;font-weight:600;cursor:pointer}
 @media(max-width:480px){.cb-b{width:100%}.cb button{flex:1}}
-/* ===/MESURE=== */
+/* ===/MESURE=== *//* ===MENU=== */
+.nav .liens a.nav-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;white-space:nowrap}
+@media (min-width:900px){.nav .liens{align-items:center}}
+.panneau nav a.nav-cta{display:flex;justify-content:center;align-items:center;margin-top:24px;padding:16px 24px;border:0;border-radius:999px;background:var(--jaune);font-size:22px;font-weight:600}
+.panneau-sec{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px}
+.panneau-sec a{font-size:15px;line-height:1.4;text-decoration:underline;text-underline-offset:3px;opacity:.8}
+.panneau-st{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.panneau-st p{flex:0 0 100%;margin:0 0 2px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+.panneau-st a{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border:1px solid rgba(28,27,31,.22);border-radius:999px;background:#fff;font-size:15px;text-decoration:none}
+@media (min-width:900px){.pied .cols{grid-template-columns:repeat(5,1fr)}}
+.lead-plan{margin:18px 0 0;text-align:center}
+.lead-plan a{color:var(--creme);font-weight:600;font-size:16px;text-decoration:underline;text-underline-offset:3px}
+/* ===/MENU=== */
+/* ===MOBILE=== */
+#chercheur{gap:12px;padding:16px}
+#chercheur label{border:0;border-radius:0;padding:0;display:grid;gap:5px;min-width:0}
+#chercheur label span{opacity:.8}
+#chercheur input,#chercheur select{box-sizing:border-box;width:100%;min-width:0;min-height:46px;padding:10px 14px;background:var(--creme);border:1px solid rgba(28,27,31,.2);border-radius:12px;font-size:16px;text-align:start}
+#chercheur select{padding-inline-end:38px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C1B1F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:18px;background-position:right 12px center}
+[dir=rtl] #chercheur select{background-position:left 12px center}
+#chercheur input[type=date]{-webkit-appearance:none;appearance:none;display:block;line-height:24px}
+#chercheur input[type=date]::-webkit-date-and-time-value{text-align:start}
+#chercheur .duo{grid-template-columns:1fr 1fr;gap:12px}
+.ticket-plan{margin:22px 0 0}
+@media (min-width:900px){
+.ticket:has(.ticket-plan){grid-template-columns:1fr auto;gap:12px 56px;align-items:center;padding-block:64px 52px}
+.ticket:has(.ticket-plan) h2{grid-row:1 / span 2}
+.ticket:has(.ticket-plan) .ticket-plan{margin:0;align-self:end}
+.ticket:has(.ticket-plan) .ticket-plan .btn-noir{padding:0 40px}
+.ticket:has(.ticket-plan) .wa{margin-top:0;align-self:start;justify-content:center}
+}
+.cta-hero > a{margin:0 !important;min-height:46px}   /* bouton noir et pilule sur la meme ligne (guide, 15/10) */
+h2 + .hub-grille,h2 + .sous + .hub-grille{margin-top:28px}   /* titre plus colle aux photos */
+.ticket-zone{margin-bottom:48px}   /* le pied n a plus 170 px de marge haute : le ticket ne deborde plus dessus (15/10) */
+.ticket-plan .btn-noir{display:flex;justify-content:center;align-items:center;min-height:52px;font-size:16px}
+@media (max-width:699px){
+#trips .ac-portes{grid-auto-flow:row;grid-template-columns:1fr;overflow:visible;margin:20px 0 0;padding:0;gap:10px}
+.hub-grille{gap:10px}
+.hub-grille .hub-carte{display:grid;grid-template-columns:96px 1fr;border-radius:14px}
+.hub-grille .hub-carte .photo{aspect-ratio:auto;min-height:96px}
+.hub-grille .corps{position:relative;justify-content:center;padding-block:12px;padding-inline:14px 36px}
+.hub-grille .corps::after{content:"›";position:absolute;inset-inline-end:14px;top:50%;transform:translateY(-50%);font-size:28px;line-height:1;opacity:.45}
+[dir=rtl] .hub-grille .corps::after{content:"‹"}
+.hub-grille h3{font-size:19px;line-height:1.15}
+.hub-grille .hub-carte p{font-size:14px;line-height:1.35;margin:4px 0 0}
+.hub-grille .btn-noir{display:none}
+#how.etapes ol{gap:18px;margin-top:22px;text-align:start}
+#how.etapes ol li{display:grid;grid-template-columns:64px 1fr;column-gap:14px;align-items:start}
+#how.etapes li img{width:64px;height:64px;margin:0;grid-row:1 / span 3}
+#how.etapes li > span{font-size:20px;margin-top:0}
+#how.etapes li p{margin:4px 0 0;max-width:none}
+#how.etapes ol li:not(:last-child)::after{display:none}
+}
+/* ===/MOBILE=== */
 /* ===ANIMATIONS=== */
 :root{--ease-out:cubic-bezier(0.23,1,0.32,1);--ease-drawer:cubic-bezier(0.32,0.72,0,1)}
 /* ---- structure sans mouvement : les trois traits du menu (memes positions qu'avant) ---- */
@@ -1162,57 +1229,3 @@ html.anim-vis-on{overflow:hidden}
   @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
 }
 /* ===/ANIMATIONS=== */
-/* ===MENU=== */
-.nav .liens a.nav-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;white-space:nowrap}
-@media (min-width:900px){.nav .liens{align-items:center}}
-.panneau nav a.nav-cta{display:flex;justify-content:center;align-items:center;margin-top:24px;padding:16px 24px;border:0;border-radius:999px;background:var(--jaune);font-size:22px;font-weight:600}
-.panneau-sec{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px}
-.panneau-sec a{font-size:15px;line-height:1.4;text-decoration:underline;text-underline-offset:3px;opacity:.8}
-.panneau-st{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
-.panneau-st p{flex:0 0 100%;margin:0 0 2px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
-.panneau-st a{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border:1px solid rgba(28,27,31,.22);border-radius:999px;background:#fff;font-size:15px;text-decoration:none}
-@media (min-width:900px){.pied .cols{grid-template-columns:repeat(5,1fr)}}
-.lead-plan{margin:18px 0 0;text-align:center}
-.lead-plan a{color:var(--creme);font-weight:600;font-size:16px;text-decoration:underline;text-underline-offset:3px}
-/* ===/MENU=== */
-/* ===MOBILE=== */
-#chercheur{gap:12px;padding:16px}
-#chercheur label{border:0;border-radius:0;padding:0;display:grid;gap:5px;min-width:0}
-#chercheur label span{opacity:.8}
-#chercheur input,#chercheur select{box-sizing:border-box;width:100%;min-width:0;min-height:46px;padding:10px 14px;background:var(--creme);border:1px solid rgba(28,27,31,.2);border-radius:12px;font-size:16px;text-align:start}
-#chercheur select{padding-inline-end:38px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C1B1F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:18px;background-position:right 12px center}
-[dir=rtl] #chercheur select{background-position:left 12px center}
-#chercheur input[type=date]{-webkit-appearance:none;appearance:none;display:block;line-height:24px}
-#chercheur input[type=date]::-webkit-date-and-time-value{text-align:start}
-#chercheur .duo{grid-template-columns:1fr 1fr;gap:12px}
-.ticket-plan{margin:22px 0 0}
-@media (min-width:900px){
-.ticket:has(.ticket-plan){grid-template-columns:1fr auto;gap:12px 56px;align-items:center;padding-block:64px 52px}
-.ticket:has(.ticket-plan) h2{grid-row:1 / span 2}
-.ticket:has(.ticket-plan) .ticket-plan{margin:0;align-self:end}
-.ticket:has(.ticket-plan) .ticket-plan .btn-noir{padding:0 40px}
-.ticket:has(.ticket-plan) .wa{margin-top:0;align-self:start;justify-content:center}
-}
-.cta-hero > a{margin:0 !important;min-height:46px}   /* bouton noir et pilule sur la meme ligne (guide, 15/10) */
-h2 + .hub-grille,h2 + .sous + .hub-grille{margin-top:28px}   /* titre plus colle aux photos */
-.ticket-zone{margin-bottom:48px}   /* le pied n a plus 170 px de marge haute : le ticket ne deborde plus dessus (15/10) */
-.ticket-plan .btn-noir{display:flex;justify-content:center;align-items:center;min-height:52px;font-size:16px}
-@media (max-width:699px){
-#trips .ac-portes{grid-auto-flow:row;grid-template-columns:1fr;overflow:visible;margin:20px 0 0;padding:0;gap:10px}
-.hub-grille{gap:10px}
-.hub-grille .hub-carte{display:grid;grid-template-columns:96px 1fr;border-radius:14px}
-.hub-grille .hub-carte .photo{aspect-ratio:auto;min-height:96px}
-.hub-grille .corps{position:relative;justify-content:center;padding-block:12px;padding-inline:14px 36px}
-.hub-grille .corps::after{content:"›";position:absolute;inset-inline-end:14px;top:50%;transform:translateY(-50%);font-size:28px;line-height:1;opacity:.45}
-[dir=rtl] .hub-grille .corps::after{content:"‹"}
-.hub-grille h3{font-size:19px;line-height:1.15}
-.hub-grille .hub-carte p{font-size:14px;line-height:1.35;margin:4px 0 0}
-.hub-grille .btn-noir{display:none}
-#how.etapes ol{gap:18px;margin-top:22px;text-align:start}
-#how.etapes ol li{display:grid;grid-template-columns:64px 1fr;column-gap:14px;align-items:start}
-#how.etapes li img{width:64px;height:64px;margin:0;grid-row:1 / span 3}
-#how.etapes li > span{font-size:20px;margin-top:0}
-#how.etapes li p{margin:4px 0 0;max-width:none}
-#how.etapes ol li:not(:last-child)::after{display:none}
-}
-/* ===/MOBILE=== */

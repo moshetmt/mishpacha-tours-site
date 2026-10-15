@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Les Deux Alpes: Chef, Shabbat, Minyan",
   desc="Kosher Les Deux Alpes, a glacier resort at 1,650 m with its own kosher summer season: private chef, delivered meals, Shabbat, holidays and minyan. One quote.",
   h1="Les Deux Alpes, strictly kosher", ital="a glacier resort at 1,650 m, with a summer kosher season of its own",
-  intro="Les Deux Alpes sits at 1,650 m in Isère, with a glacier above it and about 2 h 10 of road from Lyon-Saint-Exupéry according to j2ski.com. Orthodox families have spent their summers here for decades. Mishpacha Tours organises the kosher side of your week: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
+  intro="Les Deux Alpes sits at 1,650 m in Isère, with a glacier above it and about 2 h 10 of road from Lyon-Saint-Exupéry according to j2ski.com. Orthodox families have spent their summers here for decades. Mishpacha Tours organises the kosher side of your week: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
   chips=["Resort at 1,650 m, glacier above", "About 2 h 10 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The French Alps, strictly kosher"),

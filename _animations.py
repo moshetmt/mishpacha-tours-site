@@ -347,6 +347,21 @@ D.addEventListener('touchstart',function(){},{passive:true});
   }
 })();
 
+/* 12. bandeau vert de reassurance : sur telephone, cache au chargement (il cachait l'en-tete, Moshe 15/10),
+   il apparait en haut une fois qu'on a defile, et disparait quand on revient tout en haut. */
+(function(){
+  var st=D.querySelector('.strip');if(!st)return;
+  var mq=matchMedia('(max-width:699px)'),on=false;
+  function f(){
+    if(!mq.matches){if(on){on=false;R.classList.remove('strip-vis');}return;}
+    var v=(window.scrollY||R.scrollTop)>220;
+    if(v!==on){on=v;R.classList.toggle('strip-vis',v);}
+  }
+  addEventListener('scroll',f,{passive:true});
+  if(mq.addEventListener)mq.addEventListener('change',f);
+  f();
+})();
+
 })();
 """
 

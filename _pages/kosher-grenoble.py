@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Grenoble: Chef, Shabbat and Minyan",
   desc="Kosher Grenoble, your base for the Isère resorts: private chef in your chalet, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One written quote.",
   h1="Grenoble, strictly kosher", ital="your base for the Isère ski resorts",
-  intro="Grenoble sits at 214 m, between the Chartreuse and Vercors massifs and the Belledonne range, and it is the city from which our kosher team based in the Alps reaches the resorts of the Isère: Chamrousse, Alpe d'Huez, Les 2 Alpes and beyond. Mishpacha Tours organises the kosher side of your week from here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat before candle lighting, the holidays, and a minyan with a Sefer Torah for your dates. One request, one written quote. Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps; Mishpacha Tours sells its guided tours in Lyon.",
+  intro="Grenoble sits at 214 m, between the Chartreuse and Vercors massifs and the Belledonne range, and it is the city from which our kosher team based in the Alps reaches the resorts of the Isère: Chamrousse, Alpe d'Huez, Les 2 Alpes and beyond. Mishpacha Tours organises the kosher side of your week from here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat before candle lighting, the holidays, and a minyan with a Sefer Torah for your dates. One request, one written quote.",
   chips=["214 m, gateway to the Isère resorts", "About 1 h from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The French Alps, strictly kosher"),
