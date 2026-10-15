@@ -5,6 +5,18 @@ import io, os, re, sys
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 D, F = "/* ===MOBILE=== */", "/* ===/MOBILE=== */"
 CSS = """
+#chercheur{gap:12px;padding:16px}
+#chercheur label{border:0;border-radius:0;padding:0;display:grid;gap:5px;min-width:0}
+#chercheur label span{opacity:.8}
+#chercheur input,#chercheur select{box-sizing:border-box;width:100%;min-width:0;min-height:46px;padding:10px 14px;background:var(--creme);border:1px solid rgba(28,27,31,.2);border-radius:12px;font-size:16px;text-align:start}
+#chercheur select{padding-inline-end:38px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C1B1F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:18px;background-position:right 12px center}
+[dir=rtl] #chercheur select{background-position:left 12px center}
+#chercheur input[type=date]{-webkit-appearance:none;appearance:none;display:block;line-height:24px}
+#chercheur input[type=date]::-webkit-date-and-time-value{text-align:start}
+#chercheur .duo{grid-template-columns:1fr 1fr;gap:12px}
+.ticket-plan{margin:22px 0 0}
+.ticket-zone{margin-bottom:48px}   /* le pied n a plus 170 px de marge haute : le ticket ne deborde plus dessus (15/10) */
+.ticket-plan .btn-noir{display:flex;justify-content:center;align-items:center;min-height:52px;font-size:16px}
 @media (max-width:699px){
 #trips .ac-portes{grid-auto-flow:row;grid-template-columns:1fr;overflow:visible;margin:20px 0 0;padding:0;gap:10px}
 #trips .ac-portes .hub-carte{display:grid;grid-template-columns:96px 1fr;border-radius:14px}

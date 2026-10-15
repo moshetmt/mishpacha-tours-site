@@ -43,10 +43,27 @@ def page(path, slug, lang, c):
 OPT = [("a", SKI), ("a", "Hanukkah in the Alps"), ("a", "Summer in the Alps"), ("b", ""), ("d", ""), ("f", "")]
 LABEL = {"en": ("Plan my stay on WhatsApp", "Plan my stay"), "fr": ("Organiser mon séjour sur WhatsApp", "Organiser mon séjour"),
          "es": ("Planear mi estancia por WhatsApp", "Planear mi estancia")}
-JS = ("/*prefill*/document.getElementById('chercheur').addEventListener('submit',function(e){e.preventDefault();var f=e.target,o=f.voyage.options[f.voyage.selectedIndex],"
-      "q=['i='+o.getAttribute('data-i')],v=o.getAttribute('data-voyage'),n=function(x){var m=/^\\s*(\\d{1,2})/.exec(x||'');return m?m[1]:''},a=n(f.adultes.value),c=n(f.enfants.value),"
-      "d=/(\\d{4}-\\d\\d-\\d\\d)\\D+(\\d{4}-\\d\\d-\\d\\d)/.exec(f.dates.value);if(v)q.push('voyage='+encodeURIComponent(v));if(a)q.push('adultes='+a);if(c)q.push('enfants='+c);"
-      "if(d){q.push('arrivee='+d[1]);q.push('depart='+d[2])}location.href='PRE/plan-your-trip/?'+q.join('&')});/*/prefill*/")
+JS = ("/*prefill*/(function(){var f=document.getElementById('chercheur'),a0=f.arrivee,d0=f.depart,t=new Date(Date.now()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,10);"
+      "if(a0){a0.min=t;d0.min=t;a0.addEventListener('change',function(){d0.min=a0.value||t;if(d0.value&&d0.value<a0.value)d0.value=''})}"
+      "f.addEventListener('submit',function(e){e.preventDefault();var o=f.voyage.options[f.voyage.selectedIndex],"
+      "q=['i='+o.getAttribute('data-i')],v=o.getAttribute('data-voyage'),n=function(x){var m=/^\\s*(\\d{1,2})/.exec(x||'');return m?m[1]:''},a=n(f.adultes.value),c=n(f.enfants.value);"
+      "if(v)q.push('voyage='+encodeURIComponent(v));if(a)q.push('adultes='+a);if(c)q.push('enfants='+c);"
+      "if(a0&&a0.value)q.push('arrivee='+a0.value);if(d0&&d0.value)q.push('depart='+d0.value);location.href='PRE/plan-your-trip/?'+q.join('&')})})();/*/prefill*/")
+# Chercheur : deux vraies dates (calendrier du telephone) au lieu d'un texte libre perdu au preremplissage (Moshe, 15/10)
+CH = {"en": ("Arrival", "Departure", "Adults", "Children", "6", "2"), "fr": ("Arrivée", "Départ", "Adultes", "Enfants", "6", "2"),
+      "es": ("Llegada", "Salida", "Adultos", "Niños", "6", "2")}
+def champs(lang):
+    a, d, ad, en, pa, pe = CH[lang]
+    return (f'<div class="duo"><label><span>{a}</span><input name="arrivee" type="date"></label><label><span>{d}</span><input name="depart" type="date"></label></div>'
+            f'\n      <div class="duo"><label><span>{ad}</span><input name="adultes" type="text" inputmode="numeric" placeholder="{pa}"></label>'
+            f'<label><span>{en}</span><input name="enfants" type="text" inputmode="numeric" placeholder="{pe}"></label></div>')
+# Bas de l'accueil : le formulaire court repetait le chercheur, remplace par un bouton vers le formulaire complet (Moshe, 15/10)
+BOUTON = {"en": "Plan your trip", "fr": "Préparer mon voyage", "es": "Planificar mi viaje", "he": "לתכנן את הטיול"}
+def bas(s, lang):
+    pre = "" if lang == "en" else "/" + lang
+    b = f'<p class="ticket-plan"><a class="btn-noir" href="{pre}/plan-your-trip/">{BOUTON[lang]}</a></p>'
+    s = re.sub(r'<form id="formReserver">.*?</form>\s*<p class="ac-form-lien">.*?</p>', lambda m: b, s, count=1, flags=re.S)
+    return s
 
 def accueil(path, lang):
     s = io.open(path, encoding="utf-8", newline="").read(); o = s
@@ -58,6 +75,7 @@ def accueil(path, lang):
     s = s[:m.start()] + sel + s[m.end():]
     old, new = LABEL[lang]
     s = re.sub(r'(<button type="submit">)<svg><use href="#wa"/></svg>' + re.escape(old) + "</button>", lambda k: k.group(1) + new + "</button>", s, count=1)
+    s = re.sub(r'(<form class="chercheur" id="chercheur">.*?</label>\s*)<div class="duo">.*?<input name="enfants"[^>]*></label>(?:</div>)?', lambda k: k.group(1) + champs(lang), s, count=1, flags=re.S)
     js = JS.replace("PRE", "" if lang == "en" else "/" + lang)
     if "/*prefill*/" in s: s = re.sub(r"/\*prefill\*/.*?/\*/prefill\*/", lambda k: js, s, count=1, flags=re.S)
     else: s = re.sub(r"document\.getElementById\('chercheur'\)\.addEventListener\('submit',e=>\{.*?\}\);", lambda k: js, s, count=1, flags=re.S)
@@ -72,4 +90,6 @@ if __name__ == "__main__":
             p = l + slug + "/index.html"
             if os.path.exists(p): n += page(p, slug, lang, c)
         if lang != "he": n += accueil(l + "index.html", lang)
+        p = l + "index.html"; t = io.open(p, encoding="utf-8", newline="").read(); t2 = bas(t, lang)
+        if t2 != t: io.open(p, "w", encoding="utf-8", newline="").write(t2); n += 1
     print(n, "pages modifiees")

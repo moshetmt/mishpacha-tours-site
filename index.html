@@ -78,11 +78,8 @@
     <p>Ski with your family, and leave the kosher part to us: a private chef, Shabbat and holidays in the resort, transfers from the airport, and Jewish Lyon on the way. One request, a day-by-day programme in return.</p>
     <form class="chercheur" id="chercheur">
       <label><span>Your trip</span><select name="voyage"><option data-i="a" data-voyage="Ski holiday with a chalet">Ski holiday and chalet</option><option data-i="a" data-voyage="Hanukkah in the Alps">Hanukkah in the Alps</option><option data-i="a" data-voyage="Summer in the Alps">Summer in the Alps</option><option data-i="b">Kosher meals in my resort</option><option data-i="d">Jewish Lyon tour</option><option data-i="f">Something else</option></select></label>
-      <div class="duo">
-        <label><span>Dates</span><input name="dates" type="text" placeholder="9 to 14 December"></label>
-        <label><span>Adults</span><input name="adultes" type="text" inputmode="numeric" placeholder="6"></label>
-      </div>
-      <label><span>Children and babies</span><input name="enfants" type="text" placeholder="3, including a baby"></label>
+      <div class="duo"><label><span>Arrival</span><input name="arrivee" type="date"></label><label><span>Departure</span><input name="depart" type="date"></label></div>
+      <div class="duo"><label><span>Adults</span><input name="adultes" type="text" inputmode="numeric" placeholder="6"></label><label><span>Children</span><input name="enfants" type="text" inputmode="numeric" placeholder="2"></label></div>
       <button type="submit">Plan my stay</button>
       <small>Same-day reply, in English or Hebrew. Never on Shabbat.</small>
     </form>
@@ -181,20 +178,7 @@
 <div class="ticket-zone" id="book">
   <div class="ticket">
     <h2><img class="ticket-hassid" src="img/picto-hassid.svg" alt="" width="68" height="95">Tell us about <i>your stay</i></h2>
-    <form id="formReserver">
-      <div class="piege" aria-hidden="true"><label for="f-societe">Company</label><input type="text" id="f-societe" name="societe" tabindex="-1" autocomplete="off"></div>
-      <div><label for="f-tour">Your trip</label><select id="f-tour" name="tour" required><option value="">Choose a trip</option><option value="Ski holiday and chalet">Ski holiday and chalet</option><option value="Hanukkah in the Alps">Hanukkah in the Alps</option><option value="Summer in the Alps">Summer in the Alps</option><option value="Kosher meals in my resort">Kosher meals in my resort</option><option value="Jewish Lyon tour">Jewish Lyon tour</option><option value="Something else">Something else</option></select></div>
-      <div><label for="f-lieu">Resort or place (optional)</label><input type="text" id="f-lieu" name="lieu" placeholder="Courchevel, not sure yet"></div>
-      <div><label for="f-dates">Dates</label><input type="text" id="f-dates" name="dates" placeholder="9 to 14 December" required></div>
-      <div><label for="f-personnes">Adults</label><input type="text" id="f-personnes" name="personnes" inputmode="numeric" required></div>
-      <div><label for="f-enfants">Children and babies (optional)</label><input type="text" id="f-enfants" name="enfants" placeholder="3, including a baby"></div>
-      <div id="f-langue-bloc" hidden><label for="f-langue">Tour language</label><select id="f-langue" name="langue"><option value="">Choose a language</option><option value="English">English</option><option value="French">French</option><option value="Spanish">Spanish</option></select></div>
-      <div><label for="f-nom">Your name</label><input type="text" id="f-nom" name="nom" autocomplete="name" required></div>
-      <div><label for="f-tel">WhatsApp number</label><div class="tel"><select id="f-indicatif" name="indicatif" aria-label="Country code" required><option value="">Code</option><option value="+1">+1 US / CA</option><option value="+44">+44 UK</option><option value="+972">+972 IL</option><option value="+33">+33 FR</option><option value="+32">+32 BE</option><option value="+41">+41 CH</option><option value="+34">+34 ES</option><option value="+39">+39 IT</option><option value="+49">+49 DE</option><option value="+31">+31 NL</option><option value="+54">+54 AR</option><option value="+52">+52 MX</option><option value="+55">+55 BR</option><option value="+61">+61 AU</option><option value="+27">+27 ZA</option><option value="+7">+7 RU</option><option value="+380">+380 UA</option></select><input type="tel" id="f-tel" name="tel" inputmode="tel" autocomplete="tel-national" placeholder="212 555 0100" pattern="[0-9 ().-]{6,16}" required></div></div>
-      <div><label for="f-email">Email (optional)</label><input type="email" id="f-email" name="email" autocomplete="email"></div>
-      <div class="envoi"><span>Send my request</span><button class="rond" type="submit" aria-label="Send my request"><svg viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
-    </form>
-    <p class="ac-form-lien"><a href="/plan-your-trip/">Prefer to write everything down? Fill in the full trip form.</a></p>
+    <p class="ticket-plan"><a class="btn-noir" href="/plan-your-trip/">Plan your trip</a></p>
     <a class="wa" href="https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20a%20kosher%20holiday.%20Dates%3A%20%2F%20Adults%3A%20%2F%20Children%3A%20%2F%20Resort%3A" rel="noopener"><svg><use href="#wa"/></svg>Or message us on WhatsApp</a>
   </div>
 </div>
@@ -219,7 +203,7 @@ const m=document.querySelector('.menu'),pa=document.getElementById('panneau');
 m.addEventListener('click',()=>{const o=pa.hidden;pa.style.top=document.querySelector('.nav').getBoundingClientRect().bottom+'px';pa.hidden=!o;m.setAttribute('aria-expanded',o);document.body.classList.toggle('menu-ouvert',o)});
 pa.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{pa.hidden=true;m.setAttribute('aria-expanded',false);document.body.classList.remove('menu-ouvert')}));
 if(matchMedia('(min-width:900px)').matches)document.querySelectorAll('.pied details').forEach(d=>d.open=true);
-/*prefill*/document.getElementById('chercheur').addEventListener('submit',function(e){e.preventDefault();var f=e.target,o=f.voyage.options[f.voyage.selectedIndex],q=['i='+o.getAttribute('data-i')],v=o.getAttribute('data-voyage'),n=function(x){var m=/^\s*(\d{1,2})/.exec(x||'');return m?m[1]:''},a=n(f.adultes.value),c=n(f.enfants.value),d=/(\d{4}-\d\d-\d\d)\D+(\d{4}-\d\d-\d\d)/.exec(f.dates.value);if(v)q.push('voyage='+encodeURIComponent(v));if(a)q.push('adultes='+a);if(c)q.push('enfants='+c);if(d){q.push('arrivee='+d[1]);q.push('depart='+d[2])}location.href='/plan-your-trip/?'+q.join('&')});/*/prefill*/
+/*prefill*/(function(){var f=document.getElementById('chercheur'),a0=f.arrivee,d0=f.depart,t=new Date(Date.now()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,10);if(a0){a0.min=t;d0.min=t;a0.addEventListener('change',function(){d0.min=a0.value||t;if(d0.value&&d0.value<a0.value)d0.value=''})}f.addEventListener('submit',function(e){e.preventDefault();var o=f.voyage.options[f.voyage.selectedIndex],q=['i='+o.getAttribute('data-i')],v=o.getAttribute('data-voyage'),n=function(x){var m=/^\s*(\d{1,2})/.exec(x||'');return m?m[1]:''},a=n(f.adultes.value),c=n(f.enfants.value);if(v)q.push('voyage='+encodeURIComponent(v));if(a)q.push('adultes='+a);if(c)q.push('enfants='+c);if(a0&&a0.value)q.push('arrivee='+a0.value);if(d0&&d0.value)q.push('depart='+d0.value);location.href='/plan-your-trip/?'+q.join('&')})})();/*/prefill*/
 (function(){var s=document.getElementById('f-tour'),b=document.getElementById('f-langue-bloc');if(!s||!b)return;var maj=function(){var l=s.value==='Jewish Lyon tour';b.hidden=!l;document.getElementById('f-langue').required=l};s.addEventListener('change',maj);maj()})();
 </script>
 <script src="/config.js"></script>
