@@ -10,6 +10,9 @@ CSS = """
 .panneau nav a.nav-cta{display:flex;justify-content:center;align-items:center;margin-top:24px;padding:16px 24px;border:0;border-radius:999px;background:var(--jaune);font-size:22px;font-weight:600}
 .panneau-sec{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px}
 .panneau-sec a{font-size:15px;line-height:1.4;text-decoration:underline;text-underline-offset:3px;opacity:.8}
+.panneau-st{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.panneau-st p{flex:0 0 100%;margin:0 0 2px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+.panneau-st a{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border:1px solid rgba(28,27,31,.22);border-radius:999px;background:#fff;font-size:15px;text-decoration:none}
 @media (min-width:900px){.pied .cols{grid-template-columns:repeat(5,1fr)}}
 .lead-plan{margin:18px 0 0;text-align:center}
 .lead-plan a{color:var(--creme);font-weight:600;font-size:16px;text-decoration:underline;text-underline-offset:3px}

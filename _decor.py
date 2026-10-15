@@ -242,6 +242,7 @@ def decorer(h, plan_en, page_dir, lang):
         k = [0]
         def li(x):
             j = k[0]; k[0] += 1; c = x.group(1)
+            c = re.sub(r'^(<b>[^<]*</b>),\s*(\w)', lambda q: q.group(1) + ' ' + q.group(2).upper(), c)   # titre de carte suivi de « , on the lake » : la virgule ouvrait la ligne (15/10)
             if p["suite"]:
                 v = p["vigs"][j] if j < len(p.get("vigs", [])) else "book-open"
                 return f'<li>{ico(v, "dk dk-ico dk-vigico")}{c}{ico("arrow-right", "dk dk-fleche")}</li>'

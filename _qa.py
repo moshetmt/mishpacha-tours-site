@@ -19,6 +19,8 @@ for p in pages:
     for pat in INTERDITS:
         for m in re.finditer(pat, re.sub(r"<script.*?</script>", "", s, flags=re.S)):
             print(f"MOT   {p}: {m.group(0)!r} ...{s[max(0,m.start()-50):m.end()+30]!r}"); err += 1
+    for m in re.finditer(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", s):   # caractere de controle (carre barre a l'ecran, bug du 15/10)
+        print(f"CTRL  {p}: {m.group(0)!r} ...{s[max(0,m.start()-40):m.start()]!r}"); err += 1
     t = re.search(r"<title>(.*?)</title>", s); dsc = re.search(r'<meta name="description" content="([^"]*)"', s)
     if not t or not (30 <= len(html.unescape(t.group(1))) <= 70): print(f"TITLE {p}: {t.group(1) if t else 'absent'} ({len(t.group(1)) if t else 0})")
     if not dsc or not (90 <= len(dsc.group(1)) <= 170): print(f"DESC  {p}: {len(dsc.group(1)) if dsc else 'absent'}")

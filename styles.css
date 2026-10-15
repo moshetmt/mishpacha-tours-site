@@ -789,11 +789,11 @@ body.menu-ouvert{overflow:hidden}
 .lead-fil{font-size:13px;opacity:.85;margin-bottom:14px}.lead-fil a{color:inherit}
 .lead-puces{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;list-style:none;padding:0}
 .lead-puces li{border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
-.lead-intro{display:grid;gap:18px;align-items:center;justify-items:center;text-align:center}
-.lead-intro .lead-mascotte{width:200px;height:auto}
+.lead-intro{display:grid;grid-template-columns:72px 1fr;gap:16px;align-items:start;text-align:start}
+.lead-intro .lead-mascotte{width:72px;height:auto;margin-top:4px}
 .lead-intro > div{max-width:640px}
 .lead-intro p{font-size:17px;line-height:1.6}
-.lead-intro .chips{margin-top:18px;justify-content:center}
+.lead-intro .chips{margin-top:14px;justify-content:flex-start}
 .lead-offre h2{text-align:center}
 .lead-cartes{display:grid;gap:18px;margin-top:28px}
 .lead-cartes figure{margin:0;background:var(--blanc);border-radius:15px;overflow:hidden}
@@ -1015,6 +1015,7 @@ body.menu-ouvert{overflow:hidden}
 .demande .dm-chips label{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:8px;min-height:84px;padding:12px;border-radius:14px;line-height:1.2;font-size:15px;font-weight:500;text-align:start;overflow:hidden}
 .demande .dm-chips .dm-ic{flex:none;display:block;width:26px;height:26px;color:var(--vert);transition:color .15s}
 .demande .dm-chips label:has(input:checked) .dm-ic{color:var(--encre)}
+.demande .dm-chips .dm-ic-txt{width:auto;min-width:34px;padding:0 6px;box-sizing:border-box;border:1.75px solid currentColor;border-radius:8px;font-size:13px;font-weight:700;line-height:22.5px;text-align:center;letter-spacing:.04em}
 .demande .dm-chips span{display:block}
 .demande .dm-chips label::before{content:"";position:absolute;inset-inline-end:12px;top:16px;width:18px;height:18px;border:1.5px solid rgba(28,27,31,.45);border-radius:6px;background:var(--blanc) center/12px no-repeat;transition:background-color .15s,border-color .15s}
 .demande .dm-chips label:has(input[type=radio])::before{border-radius:50%}
@@ -1050,19 +1051,30 @@ body.menu-ouvert{overflow:hidden}
 @keyframes sh-scintille{0%,30%{opacity:0;transform:scale(.4)}50%,85%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.4)}}
 @media (min-width:900px){.shabbat .sh-tete{flex-direction:row;align-items:center;justify-content:space-between}.sh-des{order:0;width:220px}.sh-gros{font-size:52px}.sh-moments{grid-template-columns:1fr 1fr}}
 /* fin SHABBAT v2 */
-/* ===MENU=== */
+/* bannière 3 : le texte ne dépasse plus du hero (fil d'Ariane coupé sous l'en-tête sur la page chalet, 15/10) */
+.lead-hero3:not(.lead-hero3-illus){height:auto;max-height:none;min-height:min(100svh,920px);display:flex;flex-direction:column;justify-content:flex-end}
+.lead-hero3:not(.lead-hero3-illus) .lead3-texte{position:relative;left:auto;right:auto;bottom:auto;width:100%;box-sizing:border-box}/* ===MENU=== */
 .nav .liens a.nav-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;white-space:nowrap}
 @media (min-width:900px){.nav .liens{align-items:center}}
 .panneau nav a.nav-cta{display:flex;justify-content:center;align-items:center;margin-top:24px;padding:16px 24px;border:0;border-radius:999px;background:var(--jaune);font-size:22px;font-weight:600}
 .panneau-sec{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px}
 .panneau-sec a{font-size:15px;line-height:1.4;text-decoration:underline;text-underline-offset:3px;opacity:.8}
+.panneau-st{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.panneau-st p{flex:0 0 100%;margin:0 0 2px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+.panneau-st a{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border:1px solid rgba(28,27,31,.22);border-radius:999px;background:#fff;font-size:15px;text-decoration:none}
 @media (min-width:900px){.pied .cols{grid-template-columns:repeat(5,1fr)}}
 .lead-plan{margin:18px 0 0;text-align:center}
 .lead-plan a{color:var(--creme);font-weight:600;font-size:16px;text-decoration:underline;text-underline-offset:3px}
-/* ===/MENU=== */
-/* bannière 3 : le texte ne dépasse plus du hero (fil d'Ariane coupé sous l'en-tête sur la page chalet, 15/10) */
-.lead-hero3:not(.lead-hero3-illus){height:auto;max-height:none;min-height:min(100svh,920px);display:flex;flex-direction:column;justify-content:flex-end}
-.lead-hero3:not(.lead-hero3-illus) .lead3-texte{position:relative;left:auto;right:auto;bottom:auto;width:100%;box-sizing:border-box}
+/* ===/MENU=== *//* ===MESURE=== */
+.cb{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;max-width:760px;margin-inline:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;padding:14px 18px;background:var(--creme);color:var(--encre);border:1px solid rgba(28,27,31,.18);border-radius:18px;box-shadow:0 8px 28px rgba(28,27,31,.16);font-size:14px;line-height:1.5}
+.cb[hidden]{display:none}
+.cb-haut{bottom:auto;top:12px}
+.cb p{margin:0;flex:1 1 280px}
+.cb p a{text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.cb-b{display:flex;gap:10px}
+.cb button{min-width:104px;min-height:44px;padding:0 22px;border:0;border-radius:999px;background:var(--encre);color:var(--creme);font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+@media(max-width:480px){.cb-b{width:100%}.cb button{flex:1}}
+/* ===/MESURE=== */
 /* ===ANIMATIONS=== */
 :root{--ease-out:cubic-bezier(0.23,1,0.32,1);--ease-drawer:cubic-bezier(0.32,0.72,0,1)}
 /* ---- structure sans mouvement : les trois traits du menu (memes positions qu'avant) ---- */
@@ -1146,13 +1158,3 @@ html.anim-vis-on{overflow:hidden}
   @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
 }
 /* ===/ANIMATIONS=== */
-/* ===MESURE=== */
-.cb{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;max-width:760px;margin-inline:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;padding:14px 18px;background:var(--creme);color:var(--encre);border:1px solid rgba(28,27,31,.18);border-radius:18px;box-shadow:0 8px 28px rgba(28,27,31,.16);font-size:14px;line-height:1.5}
-.cb[hidden]{display:none}
-.cb-haut{bottom:auto;top:12px}
-.cb p{margin:0;flex:1 1 280px}
-.cb p a{text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
-.cb-b{display:flex;gap:10px}
-.cb button{min-width:104px;min-height:44px;padding:0 22px;border:0;border-radius:999px;background:var(--encre);color:var(--creme);font:inherit;font-size:14px;font-weight:600;cursor:pointer}
-@media(max-width:480px){.cb-b{width:100%}.cb button{flex:1}}
-/* ===/MESURE=== */

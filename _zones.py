@@ -37,7 +37,7 @@ WA_HE = "דברו איתנו בוואטסאפ"
 SECOND = {"en": ("Our chalet", "Resorts", "Jewish Lyon guide", "Van transfers", "Explore"),
           "fr": ("Notre chalet", "Stations", "Guide du Lyon juif", "Transferts en van", "Explorer"),
           "es": ("Nuestro chalé", "Estaciones", "Guía del Lyon judío", "Traslados en van", "Explorar"),
-          "he": ("הצ'אלה שלנו", "אתרים", "המדריך ליהדות ליון", "הסעות בוואן", "גלו")}
+          "he": ("הצ'אלה שלנו", "אתרי הסקי", "המדריך ליהדות ליון", "הסעות בוואן", "גלו")}
 
 def menu_html(lang, pre, wa):
     w, s_, l, p = ENTREES[lang]
@@ -49,7 +49,15 @@ def menu_html(lang, pre, wa):
 
 def second_links(lang, pre):
     c, r, g, v, _ = SECOND[lang]
-    return [(c, f"{pre}/kosher-chalet-les-deux-alpes/"), (r, f"{pre}/#resorts"), (g, f"{pre}/jewish-lyon-guide/"), (v, f"{pre}/kosher-van-transfers/")]
+    return [(c, f"{pre}/kosher-chalet-les-deux-alpes/"), (g, f"{pre}/jewish-lyon-guide/"), (v, f"{pre}/kosher-van-transfers/")]
+
+# Stations en pastilles dans le menu (reproche du 15/10 : « ou on se renseigne sur les villes maintenant ? »)
+STATIONS = [("Les Deux Alpes", "kosher-les-deux-alpes"), ("Courchevel", "kosher-courchevel"), ("Val Thorens", "kosher-val-thorens"),
+            ("Megève", "kosher-megeve"), ("Alpe d'Huez", "kosher-alpe-dhuez"), ("Val d'Isère", "kosher-val-disere"), ("Les Arcs", "kosher-les-arcs"),
+            ("La Plagne", "kosher-la-plagne"), ("Chamonix", "kosher-chamonix"), ("Annecy", "kosher-annecy"), ("Grenoble", "kosher-grenoble")]
+def stations_html(lang, pre):
+    return ('\n  <div class="panneau-st"><p>' + SECOND[lang][1] + '</p>' +
+            "".join(f'<a href="{pre}/{slug}/">{nom}</a>' for nom, slug in STATIONS) + '</div>')
 
 def zone(page): return "alpes" if page in ALPES else "general" if page in GENERAL else "lyon"
 
@@ -70,10 +78,11 @@ def traiter(path):
     n = re.sub(r'(<nav class="liens"[^>]*>)(.*?)(\s*</nav>)', lambda m: m.group(1) + "\n    " + nav_h + extra + m.group(3), n, count=1, flags=re.S)
     n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>)(.*?)(\s*</nav>)', lambda m: m.group(1) + "\n    " + pan_h + m.group(3), n, count=1, flags=re.S)
     sec = second_links(lang, pre0)
+    n = re.sub(r'\s*<div class="panneau-st">.*?</div>', "", n, count=1, flags=re.S)
     n = re.sub(r'\s*<div class="panneau-sec">.*?</div>', "", n, count=1, flags=re.S)
-    n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>.*?</nav>)', lambda m: m.group(1) + '\n  <div class="panneau-sec">' + "".join(f'<a href="{u}">{t}</a>' for t, u in sec) + "</div>", n, count=1, flags=re.S)
+    n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>.*?</nav>)', lambda m: m.group(1) + stations_html(lang, pre0) + '\n  <div class="panneau-sec">' + "".join(f'<a href="{u}">{t}</a>' for t, u in sec) + "</div>", n, count=1, flags=re.S)
     n = re.sub(r'\s*<details class="pied-explore">.*?</details>', "", n, count=1, flags=re.S)
-    expl = '\n    <details class="pied-explore"><summary>' + SECOND[lang][4] + "</summary><p>" + "<br>".join(f'<a href="{u}">{t}</a>' for t, u in sec) + "</p></details>"
+    expl = '\n    <details class="pied-explore"><summary>' + SECOND[lang][4] + "</summary><p>" + "<br>".join(f'<a href="{u}">{t}</a>' for t, u in [sec[0], (SECOND[lang][1], f"{pre0}/#resorts")] + sec[1:]) + "</p></details>"
     n = re.sub(r'(<footer class="pied">\s*<div class="cols">.*?)(\s*</div>\s*<p class="logo-pied">)', lambda m: m.group(1) + expl + m.group(2), n, count=1, flags=re.S)
     n = re.sub(r'(<p class="logo-pied">.*?<small>).*?(</small>)', lambda m: m.group(1) + BASELINE[z] + m.group(2), n, count=1, flags=re.S)
     pre = "" if lang == "en" else "/" + lang

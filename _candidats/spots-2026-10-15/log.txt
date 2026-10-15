@@ -1,0 +1,8 @@
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-15/plane-landing.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-15/cable-car.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-15/trees.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-15/wine.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-15/croissant.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-15/compass.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-15/ticket.png
+clients/mishpacha-tours/03-website/site-v5/_candidats/spots-2026-10-15/bus.png

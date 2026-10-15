@@ -109,3 +109,34 @@
 
 ## Ajout du 14/10/2026 (offre van)
 
+
+## Ajout du 15/10/2026 (photos des cartes du guide, choix de Moshé)
+
+- `img/stock/hub-kosher-restaurants-lyon.jpg` : @jelezniac_bianca (Unsplash), Licence Unsplash, https://unsplash.com/photos/3rAXuDp3pVs
+- `img/stock/hub-kosher-shabbat-meals-catering-lyon.jpg` : @heftiba (Unsplash), Licence Unsplash, https://unsplash.com/photos/16SJwUFgWCw
+- `img/stock/hub-mikveh-lyon.jpg` : @incept_u (Unsplash), Licence Unsplash, https://unsplash.com/photos/aof9V5B3EmQ
+- `img/stock/hub-where-to-stay-lyon-jewish-travellers.jpg` : @roel (Unsplash), Licence Unsplash, https://unsplash.com/photos/IDhTNLS6_HI
+- `img/stock/hub-jewish-cemetery-lyon.jpg` : @maturo10 (Unsplash), Licence Unsplash, https://unsplash.com/photos/YymmrPRF7Gw
+- `img/stock/hub-alps.jpg` : @ollietulett (Unsplash), Licence Unsplash, https://unsplash.com/photos/pD-6UfrdOq4
+- `img/stock/hub-kosher-vacation-french-alps.jpg` : @claybanks (Unsplash), Licence Unsplash, https://unsplash.com/photos/f_6yPIgDxxs
+- `img/stock/hub-flights-to-lyon.jpg` : @samantmy (Unsplash), Licence Unsplash, https://unsplash.com/photos/1dCiPJpAWEE
+- `img/stock/hub-kosher-services-french-alps.jpg` : @fabiosangregorio (Unsplash), Licence Unsplash, https://unsplash.com/photos/ADNerVP2LjI
+- `img/stock/hub-kosher-van-transfers.jpg` : @danielsessler (Unsplash), Licence Unsplash, https://unsplash.com/photos/ooI4bOT95Ow
+- `img/stock/hub-kosher-val-thorens.jpg` : @joanoger (Unsplash), Licence Unsplash, https://unsplash.com/photos/Q1DWowDiki0
+- `img/stock/hub-kosher-courchevel.jpg` : @rayyanbrh (Unsplash), Licence Unsplash, https://unsplash.com/photos/9uqZZFTp-Lc
+- `img/stock/hub-kosher-megeve.jpg` : @ryankphoto (Unsplash), Licence Unsplash, https://unsplash.com/photos/xoGQubyNHl8
+- `img/stock/hub-kosher-alpe-dhuez.jpg` : @rayyanbrh (Unsplash), Licence Unsplash, https://unsplash.com/photos/6072-Vu_Jd8
+- `img/stock/hub-kosher-les-deux-alpes.jpg` : @valdemaras (Unsplash), Licence Unsplash, https://unsplash.com/photos/uhETO02wWeI
+- `img/stock/hub-kosher-chalet-les-deux-alpes.jpg` : @claybanks (Unsplash), Licence Unsplash, https://unsplash.com/photos/DYMlVra-Tgw
+- `img/stock/hub-kosher-grenoble.jpg` : @christian_attard (Unsplash), Licence Unsplash, https://unsplash.com/photos/mKCXxdlAl1A
+- `img/stock/hub-kosher-annecy.jpg` : @tuan_p (Unsplash), Licence Unsplash, https://unsplash.com/photos/hKdohRQu8LE
+- `img/stock/hub-kosher-chamonix.jpg` : @meizhilang (Unsplash), Licence Unsplash, https://unsplash.com/photos/BuZGsjwmYjU
+- `img/stock/hub-kosher-les-arcs.jpg` : @natgrela (Unsplash), Licence Unsplash, https://unsplash.com/photos/6MM7l0QRBdk
+- `img/stock/hub-kosher-la-plagne.jpg` : @nicolasmichot (Unsplash), Licence Unsplash, https://unsplash.com/photos/7pcURSmgITc
+- `img/stock/hub-kosher-val-disere.jpg` : @nicolaspeyrol (Unsplash), Licence Unsplash, https://unsplash.com/photos/bah9DYI1GQU
+- `img/stock/hub-tours-stopover.jpg` : @dmitriielj (Unsplash), Licence Unsplash, https://unsplash.com/photos/KHa-iiQRU5Q
+- `img/stock/hub-lyon-gateway-to-the-alps-kosher.jpg` : @willianjusten (Unsplash), Licence Unsplash, https://unsplash.com/photos/Q8W2RhZgO6U
+- `img/stock/hub-rue-juiverie-lyon.jpg` : @lauravsn_ (Unsplash), Licence Unsplash, https://unsplash.com/photos/n_8HFv4eu-o
+- `img/stock/hub-jewish-lyon-itinerary-2-days.jpg` : @lorinboth (Unsplash), Licence Unsplash, https://unsplash.com/photos/5kW9zz-lvps
+- `img/stock/hub-jewish-travel-lyon-faq.jpg` : @annashoots (Unsplash), Licence Unsplash, https://unsplash.com/photos/e1SU2nZDGpc
+- `img/stock/hub-jewish-life-around-lyon.jpg` : @martogrua (Unsplash), Licence Unsplash, https://unsplash.com/photos/DsBVjb1rudM

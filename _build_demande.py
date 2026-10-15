@@ -72,7 +72,7 @@ ICONES = {
     "Ski holiday with a chalet": "mountain-snow", "Hanukkah in the Alps": "flame", "Pesach in the Alps": "wine", "Summer in the Alps": "sun", "Something else": "sparkles",
     "Sukkot": "tent", "Rosh Hashanah and Yom Kippur": "calendar-days", "Purim": "venetian-mask", "Shavuot": "milk", "Another holiday": "sparkles",
     # ou (b)
-    "Not chosen yet, minyan first": "map-pin",
+    "Not chosen yet, minyan first": "users",
     # dates, jour
     "Dates are flexible": "calendar-range", "Dates are fixed": "calendar-check", "Arrive before Shabbat": "sunset", "Can shift 1-2 days if cheaper": "arrow-left-right",
     "Morning": "sunrise", "Afternoon": "sun", "Either": "shuffle",
@@ -106,7 +106,7 @@ ICONES = {
     # lyon
     "Jewish Lyon walk (2.5 h)": "footprints", "Stopover (3 h) on the way": "hourglass", "Memory: CHRD museum": "library", "Memory: Montluc, Neveh Shalom": "lock",
     "Day trip to Izieu": "bus", "Kosher restaurant tips": "utensils", "Shabbat with a Chabad family": "heart",
-    "English": "message-circle", "Hebrew": "message-square-text", "French": "message-square", "Spanish": "message-circle-more",
+    "English": "txt:EN", "Hebrew": "txt:עב", "French": "txt:FR", "Spanish": "txt:ES",   # langues : code de la langue, pas de bulle (reproche du 15/10)
     # extras
     "Babysitter": "baby", "Fireworks": "sparkles", "A simcha to celebrate": "party-popper", "Photographer or videographer": "camera", "DJ or live music": "music",
     "Flowers and table decoration": "flower-2", "Kids' entertainer": "toy-brick", "Security escort (quoted)": "shield-check", "Reduced mobility": "accessibility",
@@ -123,6 +123,8 @@ ICONES = {
 }
 def icone(nom):
     """SVG Lucide en ligne (cache _candidats/lucide/<nom>.svg, telecharge une fois sur unpkg a version figee)."""
+    if nom.startswith("txt:"):
+        return f'<span class="dm-ic dm-ic-txt" aria-hidden="true">{nom[4:]}</span>'
     f = os.path.join("_candidats", "lucide", nom + ".svg")
     if not os.path.exists(f):
         raw = urllib.request.urlopen(f"https://unpkg.com/lucide-static@{LUCIDE_V}/icons/{nom}.svg", timeout=30).read().decode("utf-8")
@@ -651,6 +653,7 @@ CSS = CSS_A + """
 .demande .dm-chips label{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:8px;min-height:84px;padding:12px;border-radius:14px;line-height:1.2;font-size:15px;font-weight:500;text-align:start;overflow:hidden}
 .demande .dm-chips .dm-ic{flex:none;display:block;width:26px;height:26px;color:var(--vert);transition:color .15s}
 .demande .dm-chips label:has(input:checked) .dm-ic{color:var(--encre)}
+.demande .dm-chips .dm-ic-txt{width:auto;min-width:34px;padding:0 6px;box-sizing:border-box;border:1.75px solid currentColor;border-radius:8px;font-size:13px;font-weight:700;line-height:22.5px;text-align:center;letter-spacing:.04em}
 .demande .dm-chips span{display:block}
 .demande .dm-chips label::before{content:"";position:absolute;inset-inline-end:12px;top:16px;width:18px;height:18px;border:1.5px solid rgba(28,27,31,.45);border-radius:6px;background:var(--blanc) center/12px no-repeat;transition:background-color .15s,border-color .15s}
 .demande .dm-chips label:has(input[type=radio])::before{border-radius:50%}
