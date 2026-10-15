@@ -20,7 +20,7 @@ PHOTO = {
     'kosher-megeve': 'stock/hub-kosher-megeve.jpg',
     'kosher-alpe-dhuez': 'stock/hub-kosher-alpe-dhuez.jpg',
     'kosher-les-deux-alpes': 'stock/hub-kosher-les-deux-alpes.jpg',
-    'kosher-chalet-les-deux-alpes': 'stock/hub-kosher-chalet-les-deux-alpes.jpg',
+    'kosher-chalet-les-deux-alpes': 'chalet/wp-ext-bleu.jpg',   # vraie photo du chalet (Moshé, 15/10)
     'kosher-grenoble': 'stock/hub-kosher-grenoble.jpg',
     'kosher-annecy': 'stock/hub-kosher-annecy.jpg',
     'kosher-chamonix': 'stock/hub-kosher-chamonix.jpg',
