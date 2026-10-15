@@ -28,7 +28,29 @@ BANDEAU = {  # (texte, lien)
              "he": ("סיורים פרטיים, מיום ראשון עד יום שישי בבוקר. ", "בדיקת תאריך בוואטסאפ.")},
 }
 
-MENU = {"en": "Plan your trip", "fr": "Préparer votre voyage", "es": "Planifique su viaje", "he": "תכננו את הטיול"}
+# Menu a 4 entrees (15/10) : Winter, Summer, Jewish Lyon + bouton « Plan your trip ». Reecrit en entier a chaque passage (idempotent).
+ENTREES = {"en": ("Winter", "Summer", "Jewish Lyon", "Plan your trip"),
+           "fr": ("Hiver", "Été", "Lyon juif", "Préparer mon voyage"),
+           "es": ("Invierno", "Verano", "Lyon judío", "Planificar mi viaje"),
+           "he": ("חורף", "קיץ", "ליון היהודית", "לתכנן את הטיול")}
+WA_HE = "דברו איתנו בוואטסאפ"
+SECOND = {"en": ("Our chalet", "Resorts", "Jewish Lyon guide", "Van transfers", "Explore"),
+          "fr": ("Notre chalet", "Stations", "Guide du Lyon juif", "Transferts en van", "Explorer"),
+          "es": ("Nuestro chalé", "Estaciones", "Guía del Lyon judío", "Traslados en van", "Explorar"),
+          "he": ("הצ'אלה שלנו", "אתרים", "המדריך ליהדות ליון", "הסעות בוואן", "גלו")}
+
+def menu_html(lang, pre, wa):
+    w, s_, l, p = ENTREES[lang]
+    base = f'<a href="{pre}/alps/">{w}</a>\n    <a href="{pre}/summer-in-the-alps-jewish-families/">{s_}</a>\n    <a href="{pre}/jewish-lyon-tours/">{l}</a>\n    '
+    if lang == "he":
+        return base + f'<a href="{pre}/plan-your-trip/">{p}</a>', base + f'<a href="{pre}/plan-your-trip/">{p}</a>', f'\n    <a class="nav-cta nav-cta-wa" href="{wa}" rel="noopener">{WA_HE}</a>'
+    cta = f'<a class="nav-cta" href="{pre}/plan-your-trip/">{p}</a>'
+    return base + cta, base + cta, ""
+
+def second_links(lang, pre):
+    c, r, g, v, _ = SECOND[lang]
+    return [(c, f"{pre}/kosher-chalet-les-deux-alpes/"), (r, f"{pre}/#resorts"), (g, f"{pre}/jewish-lyon-guide/"), (v, f"{pre}/kosher-van-transfers/")]
+
 def zone(page): return "alpes" if page in ALPES else "general" if page in GENERAL else "lyon"
 
 def traiter(path):
@@ -43,10 +65,16 @@ def traiter(path):
                lambda m: m.group(1) + txt + m.group(2) + lien + m.group(3), h, count=1, flags=re.S)
     if z in ("alpes", "general"):
         n = re.sub(r'(<div class="strip"><span class="bh" lang="he">ב״ה</span>[^<]*<a href=")[^"]*(")', lambda m: m.group(1) + pre0 + "/plan-your-trip/" + m.group(2), n, count=1)
-    if "/plan-your-trip/" not in re.search(r'<nav class="liens".*?</nav>', n, re.S).group(0):
-        lien = f'<a href="{pre0}/plan-your-trip/">{MENU[lang]}</a>'
-        n = re.sub(r'(<nav class="liens"[^>]*>)(.*?)(\s*</nav>)', lambda m: m.group(1) + m.group(2) + "\n    " + lien + m.group(3), n, count=1, flags=re.S)
-        n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>)(.*?)(\s*</nav>)', lambda m: m.group(1) + m.group(2) + "\n    " + lien + m.group(3), n, count=1, flags=re.S)
+    wa = re.search(r'<a class="panneau-wa" href="([^"]*)"', n)
+    nav_h, pan_h, extra = menu_html(lang, pre0, wa.group(1) if wa else "")
+    n = re.sub(r'(<nav class="liens"[^>]*>)(.*?)(\s*</nav>)', lambda m: m.group(1) + "\n    " + nav_h + extra + m.group(3), n, count=1, flags=re.S)
+    n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>)(.*?)(\s*</nav>)', lambda m: m.group(1) + "\n    " + pan_h + m.group(3), n, count=1, flags=re.S)
+    sec = second_links(lang, pre0)
+    n = re.sub(r'\s*<div class="panneau-sec">.*?</div>', "", n, count=1, flags=re.S)
+    n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>.*?</nav>)', lambda m: m.group(1) + '\n  <div class="panneau-sec">' + "".join(f'<a href="{u}">{t}</a>' for t, u in sec) + "</div>", n, count=1, flags=re.S)
+    n = re.sub(r'\s*<details class="pied-explore">.*?</details>', "", n, count=1, flags=re.S)
+    expl = '\n    <details class="pied-explore"><summary>' + SECOND[lang][4] + "</summary><p>" + "<br>".join(f'<a href="{u}">{t}</a>' for t, u in sec) + "</p></details>"
+    n = re.sub(r'(<footer class="pied">\s*<div class="cols">.*?)(\s*</div>\s*<p class="logo-pied">)', lambda m: m.group(1) + expl + m.group(2), n, count=1, flags=re.S)
     n = re.sub(r'(<p class="logo-pied">.*?<small>).*?(</small>)', lambda m: m.group(1) + BASELINE[z] + m.group(2), n, count=1, flags=re.S)
     pre = "" if lang == "en" else "/" + lang
     n = re.sub(r'href="(?:(?:\.\./)+|/(?:fr/|es/|he/)?)#(tours|guide)"', lambda m: f'href="{pre}/jewish-lyon-tours/#{m.group(1)}"', n)

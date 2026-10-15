@@ -769,7 +769,7 @@ body.menu-ouvert{overflow:hidden}
 .dk-g-ligne:has(.hashgaha){padding-inline-start:100px;min-height:84px}
 
 /* BLOC LEAD : bannière 3, pages Alpes et van (_lead.py) */
-.lead-hero3{position:relative;height:100dvh;min-height:560px;max-height:920px;overflow:hidden;background:#1C1B1F;color:#FFFAED}
+.lead-hero3{position:relative;height:100svh;min-height:560px;max-height:920px;overflow:hidden;background:#1C1B1F;color:#FFFAED}
 .lead-hero3 > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 12%;opacity:.74;filter:saturate(.85)}
 .lead-hero3::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(20,19,22,.10) 0%,rgba(20,19,22,.38) 45%,rgba(20,19,22,.90) 100%)}
 .lead3-texte{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:0 24px 52px;color:#FFFAED;max-width:1248px;margin:0 auto}
@@ -804,24 +804,31 @@ body.menu-ouvert{overflow:hidden}
 .lead-wp img{width:170px;height:auto}
 .lead-wp span{font-size:15px;line-height:1.5}.lead-wp b{display:block;font-size:18px;margin-bottom:4px}
 .lead-final{background:var(--vert);color:var(--creme);text-align:center}
-.lead-final-tete{display:flex;flex-direction:column;align-items:center;gap:8px}
-.lead-final-hassid{width:220px;height:auto}
-.lead-final .chercheur{max-width:520px;margin:26px auto 0;text-align:start}
+.lead-final-tete{display:flex;flex-direction:row;align-items:center;gap:14px;text-align:start}
+.lead-final-hassid{flex:none;width:96px;height:auto}
+.lead-final-tete h2{font-size:30px;line-height:1.1}
+.lead-final .chercheur{max-width:520px;margin:22px auto 0;text-align:start;padding:20px;gap:14px;border-radius:15px}
+.lead-final .chercheur label{border:0;border-radius:0;padding:0;display:grid;gap:6px}
+.lead-final .chercheur label span{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;opacity:1}
+.lead-final .chercheur input{background:var(--creme);border:1px solid rgba(28,27,31,.2);border-radius:14px;padding:12px 16px;min-height:48px}
+.lead-final .chercheur .duo{grid-template-columns:1.5fr 1fr;gap:12px}
+.lead-final .chercheur button{width:100%;margin-top:2px}
 @media (min-width:900px){
   .lead-intro{grid-template-columns:320px 1fr;text-align:start;justify-items:start}
   .lead-intro .lead-mascotte{width:300px}
   .lead-intro .chips{justify-content:flex-start}
   .lead-cartes{grid-template-columns:repeat(3,1fr)}
   .lead-wp{grid-template-columns:200px 1fr;gap:24px}.lead-wp img{width:200px}
-  .lead-final-tete{flex-direction:row;justify-content:center;gap:32px;text-align:start}
-  .lead-final-hassid{width:260px}
+  .lead-final-tete{justify-content:center;gap:32px}
+  .lead-final-hassid{width:140px}
+  .lead-final-tete h2{font-size:44px;line-height:1.1}
 }
 
 .lead-hero3-illus{background:#F6EFE0}
 .lead-hero3-illus > img{object-fit:contain;object-position:92% 50%;opacity:1;filter:none}
 .lead-hero3-illus::before{background:linear-gradient(180deg,rgba(20,19,22,0) 0%,rgba(20,19,22,.10) 50%,rgba(20,19,22,.55) 100%)}
 @media (max-width:899px){.lead-hero3-illus > img{object-fit:contain;object-position:50% 12%;height:60%;opacity:1}}
-.lead-final-tete p{font-weight:400;font-size:18px;margin-top:10px}
+.lead-final-tete p{font-weight:400;font-size:17px;margin-top:8px}
 .lead-hero3-illus{height:auto;min-height:0;max-height:none;padding-top:24px}
 .lead-hero3-illus > img{position:static;width:min(92%,560px);height:auto;display:block;margin:0 auto;object-fit:contain;object-position:50% 50%}
 .lead-hero3-illus::before{display:none}
@@ -829,7 +836,7 @@ body.menu-ouvert{overflow:hidden}
 .lead-hero3-illus .lead3-bloc{background:rgba(20,19,22,.92)}
 .lead-hero3-illus .lead-fil{color:#1C1B1F;text-shadow:none}.lead-hero3-illus .lead-fil a{color:#1C1B1F}
 /* ===DEMANDE-ETAPES=== */
-.etape[hidden],[data-b][hidden],.cache{display:none!important}
+.etape[hidden],[data-b][hidden],[data-s][hidden],.cache{display:none!important}
 .demande .piege{position:absolute;left:0;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 .demande form{max-width:760px}
 .dm-prog,.dm-nav,.dm-petit{display:none}
@@ -951,10 +958,10 @@ body.menu-ouvert{overflow:hidden}
   .dm-bougie .flamme{fill:var(--jaune);stroke:var(--encre);stroke-width:1;transform-box:fill-box;transform-origin:50% 100%;animation:dm-vacille 2.5s ease-in-out infinite}
   @keyframes dm-vacille{0%,100%{opacity:1;transform:scale(1) rotate(0)}30%{opacity:.82;transform:scale(.93,1.06) rotate(-3deg)}60%{opacity:.95;transform:scale(1.05,.95) rotate(2deg)}80%{opacity:.86;transform:scale(.96,1.04) rotate(-1deg)}}
   .dm-neige{display:block;position:absolute;inset:0;overflow:hidden;pointer-events:none}
-  .dm-neige i{position:absolute;top:-20px;left:var(--x);opacity:0;line-height:0;animation:dm-tombe 1.4s ease-in var(--d) both}
+  .dm-neige i{position:absolute;top:-20px;left:var(--x);opacity:0;line-height:0;animation:dm-tombe 3.6s linear var(--d) infinite}
   .dm-neige svg{fill:none;stroke:var(--vert);stroke-width:1.2;stroke-linecap:round}
   [dir=rtl] .dm-neige i{left:auto;right:var(--x)}
-  @keyframes dm-tombe{0%{opacity:0;transform:translateY(0) rotate(0)}15%{opacity:1}80%{opacity:1}100%{opacity:0;transform:translateY(110px) rotate(200deg)}}
+  @keyframes dm-tombe{0%{opacity:0;transform:translateY(0) rotate(0)}12%{opacity:.75}85%{opacity:.75}100%{opacity:0;transform:translateY(120px) rotate(200deg)}}
   /* 6. passage d'ecran */
   .demande form[data-dir=fwd]{--dx:24px}
   .demande form[data-dir=back]{--dx:-24px}
@@ -969,10 +976,10 @@ body.menu-ouvert{overflow:hidden}
   .dm-nav .btn-noir img.dm-marche{display:inline-block;vertical-align:middle;height:30px;width:auto;margin-inline-end:6px;transform-origin:50% 100%;animation:dm-marche .3s ease-in-out infinite alternate}
   @keyframes dm-marche{from{transform:rotate(-6deg) translateY(0)}to{transform:rotate(6deg) translateY(-3px)}}
   /* 9. page merci : le hassid danse a l'ouverture */
-  img.hassid-merci{transform-origin:50% 100%;animation:dm-danse .6s ease-in-out 3}
-  @keyframes dm-danse{0%,100%{transform:rotate(0) translateY(0)}25%{transform:rotate(-6deg) translateY(-6px)}50%{transform:rotate(0) translateY(0)}75%{transform:rotate(6deg) translateY(-6px)}}
+  img.hassid-merci{transform-origin:50% 100%;animation:dm-danse 3.2s ease-in-out infinite}
+  @keyframes dm-danse{0%,60%,100%{transform:rotate(0) translateY(0)}7.5%,37.5%{transform:rotate(-6deg) translateY(-6px)}15%,45%{transform:rotate(0) translateY(0)}22.5%,52.5%{transform:rotate(6deg) translateY(-6px)}30%{transform:rotate(0) translateY(0)}}
   [dir=rtl] img.hassid-merci{animation-name:dm-danse-rtl}
-  @keyframes dm-danse-rtl{0%,100%{transform:scaleX(-1) rotate(0) translateY(0)}25%{transform:scaleX(-1) rotate(-6deg) translateY(-6px)}50%{transform:scaleX(-1) rotate(0) translateY(0)}75%{transform:scaleX(-1) rotate(6deg) translateY(-6px)}}
+  @keyframes dm-danse-rtl{0%,60%,100%{transform:scaleX(-1) rotate(0) translateY(0)}7.5%,37.5%{transform:scaleX(-1) rotate(-6deg) translateY(-6px)}15%,45%{transform:scaleX(-1) rotate(0) translateY(0)}22.5%,52.5%{transform:scaleX(-1) rotate(6deg) translateY(-6px)}30%{transform:scaleX(-1) rotate(0) translateY(0)}}
 }
 @media (min-width:700px){
   .demande-hero{padding-top:24px}
@@ -1002,7 +1009,60 @@ body.menu-ouvert{overflow:hidden}
   .etape > .dm-tete h2{font-size:23px}
   body:has(#formDemande) .wa-flottant{display:none!important}
   .demande{padding-bottom:24px}
-}/* ===/DEMANDE-ETAPES=== */
+}
+/* cases en cartes a pictogramme (Moshe 15/10 : « il ne faut pas avoir besoin de lire pour comprendre ») : picto 26 px en haut a gauche (a droite en RTL), mot dessous, case 18 px dans le coin oppose */
+.demande .dm-chips{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.demande .dm-chips label{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:8px;min-height:84px;padding:12px;border-radius:14px;line-height:1.2;font-size:15px;font-weight:500;text-align:start;overflow:hidden}
+.demande .dm-chips .dm-ic{flex:none;display:block;width:26px;height:26px;color:var(--vert);transition:color .15s}
+.demande .dm-chips label:has(input:checked) .dm-ic{color:var(--encre)}
+.demande .dm-chips span{display:block}
+.demande .dm-chips label::before{content:"";position:absolute;inset-inline-end:12px;top:16px;width:18px;height:18px;border:1.5px solid rgba(28,27,31,.45);border-radius:6px;background:var(--blanc) center/12px no-repeat;transition:background-color .15s,border-color .15s}
+.demande .dm-chips label:has(input[type=radio])::before{border-radius:50%}
+.demande .dm-chips label:has(input:checked)::before{background-color:var(--encre);border-color:var(--encre);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.2l3.2 3.2L13 4.6' fill='none' stroke='%23FCDE73' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.demande .dm-chips .dm-coche{display:none!important}
+.demande .dm-chips input:checked ~ span{font-weight:600}
+@media (min-width:700px){.demande .dm-chips{grid-template-columns:repeat(3,1fr)}}
+/* ===/DEMANDE-ETAPES=== */
+/* SHABBAT v2 (15/10) */
+.shabbat .sh-tete{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.sh-sur{margin:0 0 4px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+.sh-gros{margin:0;font-family:var(--titre);font-weight:700;font-size:34px;line-height:1.08}
+.sh-ville{color:var(--jaune)}
+.sh-des{flex:none;width:150px;height:auto;order:-1}
+.sh-moments{display:grid;gap:10px;margin-top:18px}
+.sh-moment{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:center;background:rgba(255,250,237,.06);border-radius:12px;padding:10px 14px 10px 10px}
+.sh-moment[hidden],.sh-moments[hidden]{display:none}
+.sh-moment svg{width:72px;height:48px;display:block}
+.sh-moment b{display:block;font-family:var(--titre);font-weight:700;font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}
+.sh-moment span{font-size:14px;opacity:.75}
+.sh-soleil{transform-box:view-box}
+.sh-lune,.sh-etoile{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion:no-preference){
+ .sh-soleil{animation:sh-coucher 7s cubic-bezier(.45,0,.55,1) infinite}
+ .sh-ciel{animation:sh-soir 7s cubic-bezier(.45,0,.55,1) infinite}
+ .sh-lune{animation:sh-lever 7s cubic-bezier(.45,0,.55,1) infinite}
+ .sh-etoile{animation:sh-scintille 7s ease-in-out infinite}
+ .sh-e2{animation-delay:.6s}.sh-e3{animation-delay:1.2s}
+}
+@keyframes sh-coucher{0%{transform:translateY(-10px)}55%,80%{transform:translateY(14px)}100%{transform:translateY(-10px)}}
+@keyframes sh-soir{0%{opacity:0}55%,80%{opacity:1}100%{opacity:0}}
+@keyframes sh-lever{0%{transform:translateY(12px);opacity:.2}45%,85%{transform:translateY(0);opacity:1}100%{transform:translateY(12px);opacity:.2}}
+@keyframes sh-scintille{0%,30%{opacity:0;transform:scale(.4)}50%,85%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.4)}}
+@media (min-width:900px){.shabbat .sh-tete{flex-direction:row;align-items:center;justify-content:space-between}.sh-des{order:0;width:220px}.sh-gros{font-size:52px}.sh-moments{grid-template-columns:1fr 1fr}}
+/* fin SHABBAT v2 */
+/* ===MENU=== */
+.nav .liens a.nav-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;white-space:nowrap}
+@media (min-width:900px){.nav .liens{align-items:center}}
+.panneau nav a.nav-cta{display:flex;justify-content:center;align-items:center;margin-top:24px;padding:16px 24px;border:0;border-radius:999px;background:var(--jaune);font-size:22px;font-weight:600}
+.panneau-sec{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px}
+.panneau-sec a{font-size:15px;line-height:1.4;text-decoration:underline;text-underline-offset:3px;opacity:.8}
+@media (min-width:900px){.pied .cols{grid-template-columns:repeat(5,1fr)}}
+.lead-plan{margin:18px 0 0;text-align:center}
+.lead-plan a{color:var(--creme);font-weight:600;font-size:16px;text-decoration:underline;text-underline-offset:3px}
+/* ===/MENU=== */
+/* bannière 3 : le texte ne dépasse plus du hero (fil d'Ariane coupé sous l'en-tête sur la page chalet, 15/10) */
+.lead-hero3:not(.lead-hero3-illus){height:auto;max-height:none;min-height:min(100svh,920px);display:flex;flex-direction:column;justify-content:flex-end}
+.lead-hero3:not(.lead-hero3-illus) .lead3-texte{position:relative;left:auto;right:auto;bottom:auto;width:100%;box-sizing:border-box}
 /* ===ANIMATIONS=== */
 :root{--ease-out:cubic-bezier(0.23,1,0.32,1);--ease-drawer:cubic-bezier(0.32,0.72,0,1)}
 /* ---- structure sans mouvement : les trois traits du menu (memes positions qu'avant) ---- */
@@ -1047,7 +1107,7 @@ html.anim-vis-on{overflow:hidden}
 @media (prefers-reduced-motion: no-preference){
   /* 1. retour au toucher */
   :where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa,.lead-wp,a.hub-carte,a.carte,summary):not(.demande *){transition:transform 160ms var(--ease-out)}
-  :where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa,.lead-wp,a.hub-carte,a.carte,summary):not(.demande *):active{transform:scale(.97)}
+  @media (hover:none){:where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa):not(.demande *):active{transform:scale(.97)}}@media (hover:hover){:where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa,.lead-wp,a.hub-carte,a.carte,summary):not(.demande *):active{transform:scale(.97)}}
   /* 2. galerie */
   .anim-vis-fond,.anim-vis-cpt,.anim-vis button{will-change:opacity}
   /* 3. accordeons */
@@ -1073,13 +1133,6 @@ html.anim-vis-on{overflow:hidden}
   html.wa-cache .wa-flottant{opacity:0;transform:translateY(24px);visibility:hidden;pointer-events:none;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s linear 300ms}
   html.wa-cache.wa-vu .wa-flottant{opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s}
   html.wa-cache.wa-vu .wa-flottant:active{transform:scale(.97);transition-duration:160ms}
-  /* 8. passage d'une page a l'autre */
-  @view-transition{navigation:auto}
-  ::view-transition-old(root),::view-transition-new(root){animation-duration:200ms}
-  .nav{view-transition-name:en-tete}
-  ::view-transition-group(en-tete){animation-duration:0s}
-  ::view-transition-old(en-tete){display:none}
-  ::view-transition-new(en-tete){animation:none}
   /* 9. trait des etapes */
   html.anim-js #how.etapes ol li:not(:last-child)::after{transform:scaleY(0);transition:transform 600ms var(--ease-out)}
   html.anim-js #how.etapes.trait-vu ol li:not(:last-child)::after{transform:none}
@@ -1089,7 +1142,17 @@ html.anim-vis-on{overflow:hidden}
     html.anim-js #how.etapes.trait-vu ol li:not(:last-child)::after{transform:none}
   }
   /* 10. flocons */
-  .anim-neige i{animation:anim-flocon var(--t) linear var(--d) both}
+  .anim-neige i{animation:anim-flocon var(--t) linear var(--d) infinite}
   @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
 }
 /* ===/ANIMATIONS=== */
+/* ===MESURE=== */
+.cb{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;max-width:760px;margin-inline:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;padding:14px 18px;background:var(--creme);color:var(--encre);border:1px solid rgba(28,27,31,.18);border-radius:18px;box-shadow:0 8px 28px rgba(28,27,31,.16);font-size:14px;line-height:1.5}
+.cb[hidden]{display:none}
+.cb-haut{bottom:auto;top:12px}
+.cb p{margin:0;flex:1 1 280px}
+.cb p a{text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.cb-b{display:flex;gap:10px}
+.cb button{min-width:104px;min-height:44px;padding:0 22px;border:0;border-radius:999px;background:var(--encre);color:var(--creme);font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+@media(max-width:480px){.cb-b{width:100%}.cb button{flex:1}}
+/* ===/MESURE=== */

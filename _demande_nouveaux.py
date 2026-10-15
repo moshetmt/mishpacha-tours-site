@@ -9,6 +9,62 @@ for _k in list(OLD):
     if _m: OLD[_m.group(1)] = tuple(re.sub(r"^\d+\. ", "", x) for x in OLD[_k])
 
 NEW = {
+# 15/10 : un pictogramme par choix, libelles courts, ecran Activites (FR ES HE par Claude, a faire relire)
+"Not chosen yet, minyan first": ("Pas encore choisi, minyan d'abord", "Aún sin elegir, el minyan primero", "עוד לא בחרנו, קודם מניין"),
+"Arrive before Shabbat": ("Arriver avant Shabbat", "Llegar antes de Shabat", "להגיע לפני שבת"),
+"Can shift 1-2 days if cheaper": ("Décalage de 1 à 2 jours si moins cher", "Mover 1-2 días si es más barato", "אפשר להזיז יום-יומיים אם זול יותר"),
+"A private chalet": ("Un chalet privé", "Un chalé privado", "צ'אלה פרטי"),
+"Apartments, same residence": ("Appartements, même résidence", "Apartamentos, misma residencia", "דירות באותו מתחם"),
+"Near the Beth Chabad or shul": ("Près du Beth Habad ou de la shul", "Cerca del Beth Chabad o la sinagoga", "קרוב לבית חב״ד או לבית הכנסת"),
+"Ski-in ski-out or near the slopes": ("Skis aux pieds ou près des pistes", "Acceso directo a pistas o cerca", "ישירות על המסלולים או קרוב אליהם"),
+"Private chef in the chalet": ("Chef privé au chalet", "Chef privado en el chalé", "שף פרטי בצ'אלה"),
+"Breakfast and dinner": ("Petit-déjeuner et dîner", "Desayuno y cena", "ארוחת בוקר וערב"),
+"Groceries ready on arrival": ("Courses faites avant l'arrivée", "Compra hecha antes de llegar", "מצרכים במקרר לפני ההגעה"),
+"We cook, with delivery": ("On cuisine, courses livrées", "Cocinamos, compra a domicilio", "אנחנו מבשלים, מצרכים מגיעים אלינו"),
+"Candles, wine, challot": ("Bougies, vin, challot", "Velas, vino, jalot", "נרות, יין, חלות"),
+"Hot plate and urn": ("Plaque chauffante et bouilloire", "Plancha y termo", "פלטה ודוד מים"),
+"Holiday items (lulav, menorah)": ("Objets de fête (loulav, ménorah)", "Objetos de fiesta (lulav, menorá)", "פריטי חג (לולב, מנורה)"),
+"Fast day or holiday": ("Jeûne ou fête pendant le séjour", "Ayuno o fiesta durante la estancia", "יום צום או חג במהלך השהייה"),
+"Private airport transfer": ("Transfert privé aéroport", "Traslado privado aeropuerto", "הסעה פרטית משדה התעופה"),
+"A van and driver for the stay": ("Un van avec chauffeur", "Una van con conductor", "ואן עם נהג לשהייה"),
+"Rental delivered to the chalet": ("Location livrée au chalet", "Alquiler entregado en el chalé", "ציוד מושכר מגיע לצ'אלה"),
+"Snowmobile": ("Motoneige", "Moto de nieve", "אופנוע שלג"),
+"Snowshoeing": ("Balade en raquettes", "Raquetas de nieve", "הליכה בנעלי שלג"),
+"Dog sledding": ("Chiens de traîneau", "Trineo de perros", "מזחלות כלבים"),
+"Sledging": ("Luge", "Trineo", "גלישה במזחלת"),
+"Ice rink": ("Patinoire", "Pista de hielo", "החלקה על הקרח"),
+"Cross-country skiing": ("Ski de fond", "Esquí de fondo", "סקי שדה"),
+"Guided hike": ("Randonnée guidée", "Excursión guiada", "טיול רגלי מודרך"),
+"Mountain bike or e-bike": ("VTT ou vélo électrique", "Bici de montaña o eléctrica", "אופני הרים או חשמליים"),
+"Via ferrata": ("Via ferrata", "Vía ferrata", "ויה פראטה"),
+"Rafting": ("Rafting", "Rafting", "רפטינג"),
+"Canyoning": ("Canyoning", "Barranquismo", "קניונינג"),
+"Lake swimming": ("Baignade au lac", "Baño en el lago", "שחייה באגם"),
+"Hot-air balloon": ("Montgolfière", "Globo aerostático", "כדור פורח"),
+"Climbing for children": ("Escalade pour enfants", "Escalada para niños", "טיפוס לילדים"),
+"Fishing": ("Pêche", "Pesca", "דיג"),
+"Farm and cheese visit": ("Visite de ferme et fromages", "Visita a granja y quesos", "ביקור בחווה ובגבינות"),
+"A van and driver on call": ("Chauffeur et van à disposition", "Chófer y van a disposición", "ואן ונהג לרשותכם"),
+"Activities": ("Activités", "Actividades", "פעילויות"),
+"Tick what tempts you. We arrange it all on site.": ("Cochez ce qui vous tente. Nous organisons tout sur place.", "Marque lo que le apetezca. Lo organizamos todo allí.", "סמנו מה שמושך אתכם. אנחנו מארגנים הכול במקום."),
+"Jewish Lyon walk (2.5 h)": ("Balade dans le Lyon juif (2,5 h)", "Paseo por el Lyon judío (2,5 h)", "הליכה בליון היהודית (2.5 שעות)"),
+"Stopover (3 h) on the way": ("Escale (3 h) en chemin", "Escala (3 h) de camino", "עצירת ביניים (3 שעות) בדרך"),
+"Memory: Montluc, Neveh Shalom": ("Mémoire : Montluc, Neveh Shalom", "Memoria: Montluc, Neveh Shalom", "זיכרון: מונטלוק, נווה שלום"),
+"Day trip to Izieu": ("Excursion à Izieu", "Excursión a Izieu", "יום טיול לאיזייה"),
+"Kosher restaurant tips": ("Restaurants casher conseillés", "Restaurantes kosher recomendados", "מסעדות כשרות מומלצות"),
+"Shabbat with a Chabad family": ("Shabbat chez une famille Habad", "Shabat con una familia Chabad", "שבת אצל משפחת חב״ד"),
+"Booking for someone else": ("Je réserve pour un autre", "Reservo para otra persona", "מזמינים עבור מישהו אחר"),
+"Massage and spa": ("Massage et spa", "Masajes y spa", "עיסוי וספא"),
+"Fireworks": ("Feu d'artifice", "Fuegos artificiales", "זיקוקים"),
+"A simcha to celebrate": ("Une simha à fêter", "Una simjá que celebrar", "שמחה לחגוג"),
+"Photographer or videographer": ("Photographe ou vidéaste", "Fotógrafo o videógrafo", "צלם או צלם וידאו"),
+"DJ or live music": ("DJ ou musique live", "DJ o música en vivo", "די ג'יי או מוזיקה חיה"),
+"Flowers and table decoration": ("Fleurs et décoration de table", "Flores y decoración de mesa", "פרחים ועיצוב שולחן"),
+"Kids' entertainer": ("Animateur pour enfants", "Animador infantil", "מפעיל לילדים"),
+"Helicopter flight": ("Vol en hélicoptère", "Vuelo en helicóptero", "טיסה במסוק"),
+"Paragliding": ("Parapente", "Parapente", "מצנחי רחיפה"),
+"Security escort (quoted)": ("Garde du corps (sur devis)", "Escolta de seguridad (presupuesto)", "מאבטח (בהצעת מחיר)"),
+"Reduced mobility": ("Mobilité réduite", "Movilidad reducida", "ניידות מוגבלת"),
 "Step {n} of {t}": ("Étape {n} sur {t}", "Paso {n} de {t}", "שלב {n} מתוך {t}"),
 "Code": ("Indicatif", "Prefijo", "קידומת"),
 "Progress": ("Progression", "Progreso", "התקדמות"),
@@ -106,6 +162,7 @@ NEW = {
 
 # cles de recapitulatif ajoutees : (EN, FR, ES, HE)
 LAB_NEW = {
+"ski": ("Activities", "Activités", "Actividades", "פעילויות"),
 "adresse": ("Accommodation address", "Adresse du logement", "Dirección del alojamiento", "כתובת הלינה"),
 "van_depart": ("Pick-up", "Prise en charge", "Recogida", "איסוף"),
 "van_arrivee": ("Drop-off", "Destination", "Destino", "יעד"),
@@ -203,6 +260,35 @@ NEW.update({
 })
 
 LANGS = ("en", "fr", "es", "he")
+
+# 15/10 : libelles raccourcis pour tenir sur deux lignes a 390 px (None = traduction existante gardee)
+SHORT = {
+'Groceries ready on arrival': ("Courses faites avant l'arrivée", 'Compra hecha antes de llegar', 'מצרכים במקרר לפני ההגעה'),
+'We cook, with delivery': ('On cuisine, avec livraison', 'Cocinamos, con entrega', 'מבשלים בעצמנו, עם משלוח'),
+'Fast day or holiday': ('Jeûne ou fête', 'Ayuno o fiesta', 'יום צום או חג'),
+'Not chosen yet, minyan first': ("À choisir, minyan d'abord", 'Por elegir, el minyan primero', 'עוד לא בחרנו, קודם מניין'),
+'Can shift 1-2 days if cheaper': ('Décalable si moins cher', 'Mover 1-2 días si es más barato', 'אפשר להזיז יום-יומיים אם זול יותר'),
+'Near the Beth Chabad or shul': ('Proche Beth Habad ou shul', 'Cerca de Beth Chabad o shul', None),
+'Hot plate and urn': ('Plaque et bouilloire', 'Plancha y termo', 'פלטה ודוד מים'),
+'Eruv or carrying advice': ("Érouv, port d'objets", 'Eruv, llevar objetos', None),
+'Memory: Montluc, Neveh Shalom': ('Montluc, Neveh Shalom', 'Montluc, Neveh Shalom', None),
+'Flowers and table decoration': ('Fleurs et décoration', 'Flores y decoración', 'פרחים ועיצוב שולחן'),
+'Close to the shul or Beth Chabad': ('Proche de la synagogue', 'Cerca de la sinagoga', None),
+'Within a week please': ('Sous une semaine', 'En menos de una semana', None),
+'Meals delivered every day': (None, 'Comidas a domicilio', None),
+'Rental delivered to the chalet': ('Location livrée au chalet', 'Alquiler en el chalé', "ציוד מושכר מגיע לצ'אלה"),
+'We bring our own skis': (None, 'Traemos nuestros esquís', None),
+'Non-skiers in the group': (None, 'Algunos no esquían', None),
+'Kosher restaurant tips': ('Restaurants casher conseillés', 'Restaurantes kosher', None),
+'Security escort (quoted)': (None, 'Escolta (presupuesto)', None),
+'Calm for small children': (None, 'Calma para los pequeños', None),
+'Flights included in this budget': (None, 'Vuelos incluidos', None),
+'Ski-in ski-out or near the slopes': ('Skis aux pieds ou près des pistes', 'Acceso directo a pistas o cerca', 'צמוד למסלולים'),
+'Jewish Lyon walk (2.5 h)': ('Balade dans le Lyon juif (2,5 h)', 'Paseo por el Lyon judío (2,5 h)', 'סיור בליון (2.5 שעות)'),
+}
+for _k, _v in SHORT.items():
+    _old = NEW.get(_k) or OLD.get(_k) or (None, None, None)
+    NEW[_k] = tuple(_n if _n is not None else _o for _n, _o in zip(_v, _old))
 
 def t(en, lang):
     if lang == "en": return en

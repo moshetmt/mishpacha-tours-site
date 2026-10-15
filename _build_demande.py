@@ -8,7 +8,7 @@
    Les copies traduites gardent leur pied ; le hero (15/10), la section du formulaire et son script sont remplaces."""
 from _head import head_page, webpage, crumbs, BASE
 from _demande_nouveaux import t, LAB, LAB_NEW, JSX
-import re, os, json, html, io
+import re, os, json, html, io, urllib.request
 
 LANGS = ("en", "fr", "es", "he")
 LOCALE = {"en": "en-GB", "fr": "fr-FR", "es": "es-ES", "he": "he-IL"}
@@ -63,31 +63,110 @@ INDICATIFS = '<option value="">{code}</option>' + "".join(f'<option value="{v}">
     ("+1", "US / CA"), ("+44", "UK"), ("+972", "IL"), ("+33", "FR"), ("+32", "BE"), ("+41", "CH"), ("+34", "ES"), ("+39", "IT"), ("+49", "DE"), ("+31", "NL"),
     ("+54", "AR"), ("+52", "MX"), ("+55", "BR"), ("+61", "AU"), ("+27", "ZA"), ("+7", "RU"), ("+380", "UA")])
 
+# ---------------------------------------------------------------- pictogrammes (Lucide, licence ISC, lucide-static 0.460.0, caches dans _candidats/lucide/)
+# Un pictogramme par choix : « il ne faut pas avoir besoin de lire pour comprendre » (operateur, 15/10). Cle = texte EN de l'option ;
+# « nom/b:texte » (bloc de budget) ou « nom:texte » l'emporte sur « texte ». Jamais deux fois la meme icone dans un meme ecran (assert au build).
+LUCIDE_V = "0.460.0"
+ICONES = {
+    # quoi (a) et fete (e)
+    "Ski holiday with a chalet": "mountain-snow", "Hanukkah in the Alps": "flame", "Pesach in the Alps": "wine", "Summer in the Alps": "sun", "Something else": "sparkles",
+    "Sukkot": "tent", "Rosh Hashanah and Yom Kippur": "calendar-days", "Purim": "venetian-mask", "Shavuot": "milk", "Another holiday": "sparkles",
+    # ou (b)
+    "Not chosen yet, minyan first": "map-pin",
+    # dates, jour
+    "Dates are flexible": "calendar-range", "Dates are fixed": "calendar-check", "Arrive before Shabbat": "sunset", "Can shift 1-2 days if cheaper": "arrow-left-right",
+    "Morning": "sunrise", "Afternoon": "sun", "Either": "shuffle",
+    # bagages, groupe
+    "Large suitcases": "luggage", "Cabin bags only": "backpack", "Skis or snowboards": "snowflake", "Baby seats or boosters": "baby", "Wheelchair or walker": "accessibility",
+    "Baby cots": "bed-single", "High chairs": "armchair", "Car seats": "car",
+    # logement
+    "A private chalet": "house", "Apartments, same residence": "building", "A hotel": "hotel", "Advise me": "lightbulb",
+    "Near the Beth Chabad or shul": "landmark", "Ski-in ski-out or near the slopes": "mountain-snow", "Daily cleaning": "spray-can", "Laundry": "washing-machine",
+    # repas, cacherout
+    "Private chef in the chalet": "chef-hat", "Meals delivered every day": "truck", "Shabbat meals only": "wine", "Breakfast and dinner": "coffee",
+    "Groceries ready on arrival": "shopping-basket", "We cook, with delivery": "cooking-pot", "No meals needed": "ban",
+    "Chalav Yisrael": "milk", "Pas Yisrael": "croissant", "Glatt / Beit Yosef": "beef", "Chassidic shechita": "drumstick", "Kitniyot-free (Pesach)": "bean-off", "Gluten-free or allergies": "wheat-off",
+    # religieux
+    "The minyan is essential": "star", "Nice to have": "thumbs-up", "Not needed": "ban",
+    "Minyan on Shabbat": "users", "Minyan every day": "calendar-days", "Sefer Torah in the chalet": "scroll-text", "Candles, wine, challot": "flame", "Hot plate and urn": "coffee",
+    "Eruv or carrying advice": "fence", "Mikveh nearby": "droplets", "Holiday items (lulav, menorah)": "package-open", "Fast day or holiday": "calendar-clock",
+    # transport
+    "Flying to Lyon": "plane-landing", "Flying to Geneva": "plane", "Flying to Paris then train": "train-front", "Arriving by car": "car", "Not decided yet": "circle-help",
+    "Flights already booked": "circle-check", "Not booked yet": "hourglass",
+    "Private airport transfer": "car-front", "A van and driver for the stay": "bus", "A rental car": "key-round", "Help with flights": "plane-takeoff",
+    # activites : hiver
+    "Ski passes": "ticket", "Rental delivered to the chalet": "package", "We bring our own skis": "backpack", "Ski school for children": "school", "Private instructor": "graduation-cap",
+    "Non-skiers in the group": "coffee", "Snowmobile": "gauge", "Snowshoeing": "footprints", "Dog sledding": "dog", "Sledging": "cloud-snow", "Ice rink": "snowflake",
+    "Cross-country skiing": "tree-pine", "Helicopter flight": "plane",
+    # activites : ete
+    "Guided hike": "mountain", "Mountain bike or e-bike": "bike", "Via ferrata": "anchor", "Rafting": "life-buoy", "Canyoning": "droplets", "Lake swimming": "waves",
+    "Hot-air balloon": "cloud-sun", "Climbing for children": "biceps-flexed", "Fishing": "fish", "Farm and cheese visit": "tractor",
+    # activites : pour tous
+    "Paragliding": "wind", "Massage and spa": "bath", "A van and driver on call": "bus",
+    # lyon
+    "Jewish Lyon walk (2.5 h)": "footprints", "Stopover (3 h) on the way": "hourglass", "Memory: CHRD museum": "library", "Memory: Montluc, Neveh Shalom": "lock",
+    "Day trip to Izieu": "bus", "Kosher restaurant tips": "utensils", "Shabbat with a Chabad family": "heart",
+    "English": "message-circle", "Hebrew": "message-square-text", "French": "message-square", "Spanish": "message-circle-more",
+    # extras
+    "Babysitter": "baby", "Fireworks": "sparkles", "A simcha to celebrate": "party-popper", "Photographer or videographer": "camera", "DJ or live music": "music",
+    "Flowers and table decoration": "flower-2", "Kids' entertainer": "toy-brick", "Security escort (quoted)": "shield-check", "Reduced mobility": "accessibility",
+    # priorites, budget
+    "Staying within budget": "scale", "Close to the shul or Beth Chabad": "landmark", "A guaranteed minyan": "users", "A beautiful, well-known resort": "mountain",
+    "Great skiing": "mountain-snow", "A private chef": "chef-hat", "Comfort and space": "armchair", "Calm for small children": "baby",
+    "Under 10 000 €": "piggy-bank", "10 000 to 25 000 €": "coins", "25 000 to 50 000 €": "wallet", "50 000 to 100 000 €": "banknote", "Over 100 000 €": "gem",
+    "Not sure yet, advise us": "circle-help",
+    "budget/b:Under 3 000 €": "piggy-bank", "budget/b:3 000 to 10 000 €": "coins", "budget/b:10 000 to 25 000 €": "wallet", "budget/b:Over 25 000 €": "banknote",
+    "Flights included in this budget": "plane", "Flights not included": "ban",
+    # final
+    "No rush": "hourglass", "Within a week please": "calendar-clock", "Urgent, we travel soon": "siren",
+    "Booking for someone else": "briefcase", "Someone else decides with me": "handshake",
+}
+def icone(nom):
+    """SVG Lucide en ligne (cache _candidats/lucide/<nom>.svg, telecharge une fois sur unpkg a version figee)."""
+    f = os.path.join("_candidats", "lucide", nom + ".svg")
+    if not os.path.exists(f):
+        raw = urllib.request.urlopen(f"https://unpkg.com/lucide-static@{LUCIDE_V}/icons/{nom}.svg", timeout=30).read().decode("utf-8")
+        io.open(f, "w", encoding="utf-8", newline="\n").write(raw)
+    raw = io.open(f, encoding="utf-8").read()
+    corps = re.search(r"<svg[^>]*>(.*)</svg>", raw, re.S).group(1)
+    corps = re.sub(r"\s+", " ", corps).strip()
+    return ('<svg class="dm-ic" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" '
+            f'stroke-linejoin="round" aria-hidden="true" focusable="false">{corps}</svg>')
+def nom_icone(name, b, en):
+    for k in (f"{name}/{b}:{en}", f"{name}:{en}", en):
+        if k in ICONES: return ICONES[k]
+    raise KeyError(f"pas de pictogramme pour : {name} / {en}")
+
 def esc(s): return html.escape(s, quote=True)
+def insec(s): return re.sub(r"(\d) (\d{3})", "\\1\u00a0\\2", s).replace(" \u20ac", "\u00a0\u20ac")   # montants jamais coupes
 COCHE = '<svg class="dm-coche" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8.5l3.2 3.2L13 5" pathLength="16"/></svg>'
 BOUGIE = ('<svg class="dm-bougie" viewBox="0 0 24 40" width="22" height="36" aria-hidden="true" focusable="false">'
           '<path class="flamme" d="M12 1c3 4 5 7 5 10a5 5 0 0 1-10 0c0-3 2-6 5-10z"/>'
           '<path class="meche" d="M12 16v4"/><rect class="cire" x="6" y="20" width="12" height="18" rx="1.5"/></svg>')
 FLOCON = ('<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 1v14M1.7 4.5l12.6 7M1.7 11.5l12.6-7M5.5 2.2L8 4.4l2.5-2.2M5.5 13.8L8 11.6l2.5 2.2"/></svg>')
-FLOCONS = '<span class="dm-neige" aria-hidden="true">' + "".join(f'<i style="--x:{x}%;--d:{d}ms">{FLOCON}</i>' for x, d in [(8, 0), (30, 220), (52, 80), (72, 300), (90, 140)]) + "</span>"
+FLOCONS = '<span class="dm-neige" aria-hidden="true">' + "".join(f'<i style="--x:{x}%;--d:{d}ms">{FLOCON}</i>' for x, d in [(6, -300), (22, -1900), (38, -900), (55, -2700), (71, -1400), (86, -500), (95, -3100)]) + "</span>"
 
 def formulaire(lang):
     T = lambda s: t(s, lang)
     E = lambda s: esc(t(s, lang))
     IMG = "../img/" if lang == "en" else "/img/"
     def battr(b): return f' data-b="{b}"' if b else ""
+    def sattr(x): return f' data-s="{x}"' if x else ""
+    journal = []   # (nom, branches, icone, texte) des choix de l'ecran en cours ; verifie et vide par etape()
     def chips(name, opts, multi=True, b=""):
-        """opts : texte EN, ou (texte EN, branches, cle)."""
+        """opts : texte EN, ou (texte EN, branches, cle, saison). saison : w = hiver seulement, s = ete seulement."""
         typ = "checkbox" if multi else "radio"
         out = []
         for o in opts:
-            en, ob, k = (o, "", "") if isinstance(o, str) else (o + ("", ""))[:3]
+            en, ob, k, sa = (o, "", "", "") if isinstance(o, str) else (o + ("", "", ""))[:4]
             kk = f' data-k="{k}"' if k else ""
-            out.append(f'<label{battr(ob)}><input type="{typ}" name="{name}" value="{E(en)}" data-en="{esc(en)}"{kk}><span>{COCHE}{E(en)}</span></label>')
+            ic = nom_icone(name, b, en)
+            journal.append((name, ob or b, ic, en))
+            out.append(f'<label{battr(ob)}{sattr(sa)}><input type="{typ}" name="{name}" value="{E(en)}" data-en="{esc(en)}"{kk}>{icone(ic)}<span>{COCHE}{insec(E(en))}</span></label>')
         return f'<div class="dm-chips"{battr(b)}>' + "".join(out) + "</div>"
-    def champ(id_, name, label, typ="text", ph="", b="", extra=""):
+    def champ(id_, name, label, typ="text", ph="", b="", extra="", sa=""):
         phh = f' placeholder="{E(ph)}"' if ph else ""
-        return f'<div class="dm-champ"{battr(b)}><label for="{id_}">{E(label)}</label><input type="{typ}" id="{id_}" name="{name}"{phh}{extra}></div>'
+        return f'<div class="dm-champ"{battr(b)}{sattr(sa)}><label for="{id_}">{E(label)}</label><input type="{typ}" id="{id_}" name="{name}"{phh}{extra}></div>'
     def zone(id_, name, label, ph, b=""):
         return f'<div class="dm-champ"{battr(b)}><label for="{id_}">{E(label)}</label><textarea id="{id_}" name="{name}" rows="3" placeholder="{E(ph)}"></textarea></div>'
     def compteur(name, label, b=""):
@@ -100,6 +179,12 @@ def formulaire(lang):
                 f'<input type="text" id="c-{name}_ages" name="{name}_ages" placeholder="{E(ph)}"></div>')
     def etape(id_, titres, aide, corps, cls="", deco="", deco_t="", sur=""):
         """titres : texte EN, ou liste de (texte EN, branches)."""
+        seen = {}
+        for nm, bb, ic, en in journal:
+            for (b2, en2) in seen.get(ic, []):
+                assert not (set(bb or "abcdef") & set(b2 or "abcdef")), f"pictogramme {ic} repete dans l'ecran {id_} : {en2} / {en}"
+            seen.setdefault(ic, []).append((bb, en))
+        journal.clear()
         if isinstance(titres, str): titres = [(titres, "")]
         hs = "".join(f'<h2 tabindex="-1"{battr(b)}>{E(x)}{deco_t}</h2>' for x, b in titres)
         if isinstance(aide, str): aide = [(aide, "")]
@@ -125,12 +210,12 @@ def formulaire(lang):
                    tuiles + wa_q1, "dm-intention", sur="Question 1"))
     # ---- a : sejour complet
     S.append(etape("quoi", "What kind of stay, and where?", "Tick everything that applies. A region is enough.",
-                   chips("voyage", ["Ski holiday with a chalet", "Hanukkah in the Alps", "Pesach in the Alps", ("Summer in the Alps", "", "summer"), "Something else"]) +
+                   chips("voyage", [("Ski holiday with a chalet", "", "winter"), ("Hanukkah in the Alps", "", "winter"), ("Pesach in the Alps", "", "winter"), ("Summer in the Alps", "", "summer"), "Something else"]) +
                    champ("lieu-quoi", "lieu", "Resort, town or region you have in mind", ph="Courchevel, Les Deux Alpes, not sure yet")))
     # ---- b : j'ai deja mon logement
     S.append(etape("ou", "Where are you staying?", "The resort and the address of your chalet, apartment or hotel.",
                    champ("lieu-ou", "lieu", "Resort or resorts you are considering", ph="Morzine, Châtel, Les Deux Alpes") +
-                   chips("lieu_pas_choisi", ["Not chosen yet: we will pick the resort for the minyan"]) +
+                   chips("lieu_pas_choisi", ["Not chosen yet, minyan first"]) +
                    champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac")))
     # ---- e : fete
     S.append(etape("fete", "Which holiday?", "Tick the holiday or holidays, and the place if you know it.",
@@ -141,7 +226,7 @@ def formulaire(lang):
                    '<div class="dm-duo">' + champ("arrivee", "arrivee", "Arrival", typ="date") + champ("depart", "depart", "Departure", typ="date") + "</div>" +
                    '<p class="dm-nuits" id="dm-nuits" hidden aria-live="polite"></p>' +
                    f'<p class="dm-erreur" id="dm-date-err" role="alert" hidden>{E("The departure is before the arrival.")}</p>' +
-                   chips("flexible", ["Dates are flexible", "Dates are fixed", "We must be settled before Shabbat comes in", "We can shift by a day or two if it costs less"])))
+                   chips("flexible", ["Dates are flexible", "Dates are fixed", "Arrive before Shabbat", "Can shift 1-2 days if cheaper"])))
     # ---- jour (d : Lyon)
     S.append(etape("jour", "Which day?", [],
                    champ("arrivee-jour", "arrivee", "Date", typ="date") + chips("creneau", ["Morning", "Afternoon", "Either"], multi=False)))
@@ -163,13 +248,13 @@ def formulaire(lang):
                    compteur("hommes", "Men over bar mitzvah age, for the minyan", b="abe")))
     # ---- logement (a e)
     S.append(etape("logement", "Where would you like to sleep?", "Pick what suits you. We advise if you are not sure.",
-                   chips("logement", ["A private chalet for our group", "Apartments in the same residence", "A hotel", "Advise me"]) +
+                   chips("logement", ["A private chalet", "Apartments, same residence", "A hotel", "Advise me"]) +
                    champ("chambres", "chambres", "Bedrooms and bathrooms needed", ph="5 bedrooms, 3 bathrooms") +
-                   chips("logement_opt", ["Close to the Beth Chabad or the shul", "Ski-in ski-out or very close to the slopes", "Daily cleaning", "Laundry"])))
+                   chips("logement_opt", ["Near the Beth Chabad or shul", "Ski-in ski-out or near the slopes", "Daily cleaning", "Laundry"])))
     # ---- repas (a b e)
     S.append(etape("repas", "Which meals do you need?", "Our team cooks or delivers; tell us your standard.",
-                   chips("repas", [("A private chef cooking in the chalet", "ae"), "Meals delivered every day", "Shabbat meals only", "Breakfast and dinner, lunch on the slopes",
-                                   "Kosher groceries stocked before we arrive", "We cook ourselves, groceries delivered", ("No meals needed", "", "none")]) +
+                   chips("repas", [("Private chef in the chalet", "ae"), "Meals delivered every day", "Shabbat meals only", "Breakfast and dinner",
+                                   "Groceries ready on arrival", "We cook, with delivery", ("No meals needed", "", "none")]) +
                    champ("repas_jours", "repas_jours", "Which days?", ph="Shabbat only, or every day from 25 July to 15 August") +
                    champ("allergies", "allergies", "Allergies or special diets", ph="Nut allergy for one child")))
     S.append(etape("cacherout", "Your kashrut standard", "Tick what you keep. We follow it exactly.",
@@ -177,27 +262,31 @@ def formulaire(lang):
                    champ("cacherout_detail", "cacherout_detail", "Anything else about kashrut, allergies or preferences", ph="One vegetarian, nut allergy for a child")))
     S.append(etape("religieux", "Shabbat, prayer and holidays", "What do you need on site?",
                    chips("minyan_niveau", ["The minyan is essential", "Nice to have", "Not needed"], multi=False) +
-                   chips("religieux", ["Minyan on Shabbat", "Minyan every day", "Sefer Torah in the chalet", "Shabbat candles, wine and challot provided", "Hot plate and urn for Shabbat",
-                                       "Eruv or carrying advice", "Mikveh nearby", "Lulav, Chanukah menorah or other holiday items", "A fast day or a holiday falls during our stay"]) +
+                   chips("religieux", ["Minyan on Shabbat", "Minyan every day", "Sefer Torah in the chalet", "Candles, wine, challot", "Hot plate and urn",
+                                       "Eruv or carrying advice", "Mikveh nearby", "Holiday items (lulav, menorah)", "Fast day or holiday"]) +
                    champ("rite", "rite", "Nusach or community, if it matters for the minyan", ph="Chabad, Ashkenaz, Sefarad, Edot HaMizrach"), deco_t=BOUGIE))
     S.append(etape("transport", "Getting there and around", "We organise transfers from the airport and in the resort.",
                    chips("aeroport", ["Flying to Lyon", "Flying to Geneva", "Flying to Paris then train", "Arriving by car", "Not decided yet"], multi=False) +
                    champ("vol_ville", "vol_ville", "City you fly from", ph="New York, Tel Aviv, London") +
                    chips("vols_pris", ["Flights already booked", "Not booked yet"], multi=False) +
                    champ("vol", "vol", "Flight numbers or landing times, if known", ph="Landing 11:40, departing 15:30") +
-                   chips("transport", ["Private transfer airport to resort", "A van with driver during the stay", "A rental car", "Help with flights"])))
-    S.append(etape("ski", "Ski and activities", "For winter stays.",
-                   chips("ski", ["Ski passes", "Equipment rental delivered to the chalet", "We bring our own skis", "Ski school for children", "Private instructor", "Non-skiers in the group",
-                                 "Snowshoeing, sledging, dog sledding", "Spa, massage"]) +
-                   champ("niveau", "niveau", "Ski levels in the group", ph="4 good skiers, 2 beginners, 2 children in ski school"), deco=FLOCONS))
+                   chips("transport", ["Private airport transfer", "A van and driver for the stay", "A rental car", "Help with flights"])))
+    S.append(etape("ski", "Activities", "Tick what tempts you. We arrange it all on site.",
+                   chips("ski", [("Ski passes", "", "", "w"), ("Rental delivered to the chalet", "", "", "w"), ("We bring our own skis", "", "", "w"), ("Ski school for children", "", "", "w"),
+                                 ("Private instructor", "", "", "w"), ("Non-skiers in the group", "", "", "w"), ("Snowmobile", "", "", "w"), ("Snowshoeing", "", "", "w"),
+                                 ("Dog sledding", "", "", "w"), ("Sledging", "", "", "w"), ("Ice rink", "", "", "w"), ("Cross-country skiing", "", "", "w"), ("Helicopter flight", "", "", "w"),
+                                 ("Guided hike", "", "", "s"), ("Mountain bike or e-bike", "", "", "s"), ("Via ferrata", "", "", "s"), ("Rafting", "", "", "s"), ("Canyoning", "", "", "s"),
+                                 ("Lake swimming", "", "", "s"), ("Hot-air balloon", "", "", "s"), ("Climbing for children", "", "", "s"), ("Fishing", "", "", "s"),
+                                 ("Farm and cheese visit", "", "", "s"), "Paragliding", "Massage and spa", "A van and driver on call"]) +
+                   champ("niveau", "niveau", "Ski levels in the group", ph="4 good skiers, 2 beginners, 2 children in ski school", sa="w"), deco=FLOCONS))
     S.append(etape("lyon", "A visit in Lyon?", "Tick the visits that interest you. Tours are held in English, French or Spanish.",
-                   chips("lyon", ["Jewish Lyon walk with the Grande Synagogue (2.5 h)", "Stopover (3 h) between flight and resort", "Memory: CHRD museum",
-                                  "Memory: Montluc prison and Neveh Shalom", "Day trip to the Maison d'Izieu", "Kosher restaurant recommendations", "Shabbat in Lyon with a Chabad family"]) +
+                   chips("lyon", ["Jewish Lyon walk (2.5 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
+                                  "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Kosher restaurant tips", "Shabbat with a Chabad family"]) +
                    f'<p class="dm-sous">{E("Language of the visit")}</p>' + chips("langue_visite", ["English", "French", "Spanish"], multi=False) +
                    '<p class="dm-note">' + E("To enter the Grande Synagogue, the community's security team will ask for your names and passports once the tour is confirmed.") + "</p>"))
     S.append(etape("extras", "Extras", "Everything here is optional.",
-                   chips("extras", ["Babysitter", "Professional security escort (quoted separately)", "Birthday, bar or bat mitzvah, or simcha to celebrate", "Photographer",
-                                    "Someone in the group with reduced mobility"], b="a") +
+                   chips("extras", ["Babysitter", "Fireworks", "A simcha to celebrate", "Photographer or videographer", "DJ or live music",
+                                    "Flowers and table decoration", "Kids' entertainer", "Security escort (quoted)", "Reduced mobility"]) +
                    zone("message-extras", "message", "Anything else we should know", "Last year we went to Switzerland. We want to be two minutes from the shul.")))
     prio = chips("priorites", ["Staying within budget", "Close to the shul or Beth Chabad", "A guaranteed minyan", "A beautiful, well-known resort",
                                 ("Great skiing", "a"), ("A private chef", "ae"), "Comfort and space", "Calm for small children"])
@@ -218,7 +307,7 @@ def formulaire(lang):
         champ("email", "email", "Email (optional)", typ="email", extra=' autocomplete="email"') +
         f'<p class="dm-sous">{E("Language we should answer in")}</p>' + chips("langue", ["English", "Hebrew", "French", "Spanish"], multi=False) +
         f'<p class="dm-sous">{E("How soon?")}</p>' + chips("urgence", ["No rush", "Within a week please", "Urgent, we travel soon"], multi=False) +
-        chips("pour_qui", ["I am booking for someone else (agency, tour leader, family)", "Someone else decides with me"]))
+        chips("pour_qui", ["Booking for someone else", "Someone else decides with me"]))
     recap = (f'<div class="dm-recap"><img class="dm-hassid" src="{IMG}picto-hassid-vert.svg" alt="" width="200" height="200"><div><h3>{E("Your request so far")}</h3><ul id="dm-recap" class="dm-recap-liste"></ul></div></div>')
     S.append(etape("final", "Almost done", "Check your answers, then tell us how to reach you.", recap + contact +
                    f'<p class="dm-erreur" id="dm-erreur" hidden>{esc(JSX[lang]["err"])}</p>', "dm-contact"))
@@ -254,15 +343,15 @@ function anim(el,cls){if(!el||!mo())return;el.classList.remove(cls);void el.offs
  var fn=function(ev){if(ev.target!==el)return;el.classList.remove(cls);el.removeEventListener('animationend',fn)};el.addEventListener('animationend',fn)}
 function branch(){var r=f.querySelector('input[name="intention"]:checked');return r?r.value:''}
 function path(){var b=branch();if(!b)return ['intention'];var p=C.paths[b].slice();
- if(b==='a'){var v=ctrls.filter(function(e){return e.scr==='quoi'&&e.name==='voyage'&&e.checked});
-  if(v.length&&v.every(function(e){return e.getAttribute('data-k')==='summer'}))p=p.filter(function(x){return x!=='ski'})}
  var r=ctrls.filter(function(e){return e.name==='repas'&&e.checked});
  if(r.length&&r.every(function(e){return e.getAttribute('data-k')==='none'}))p=p.filter(function(x){return x!=='cacherout'});
  return p}
 function sync(){var b=branch(),p=path();
+ var hs=false,hw=false;ctrls.forEach(function(e){if(e.scr==='quoi'&&e.name==='voyage'&&e.checked){var k=e.getAttribute('data-k');if(k==='summer')hs=true;if(k==='winter')hw=true}});
+ [].forEach.call(f.querySelectorAll('[data-s]'),function(n){var s=n.getAttribute('data-s');n.hidden=s==='w'?(hs&&!hw):(hw&&!hs)});
  [].forEach.call(f.querySelectorAll('[data-b]'),function(n){n.hidden=n.getAttribute('data-b').indexOf(b)<0});
  ctrls.forEach(function(e){var ok=p.indexOf(e.scr)>=0;
-  if(ok){var n=e.parentNode;while(n&&n!==f){if(n.getAttribute&&n.getAttribute('data-b')&&n.getAttribute('data-b').indexOf(b)<0){ok=false;break}n=n.parentNode}}
+  if(ok){var n=e.parentNode;while(n&&n!==f){if(n.getAttribute&&((n.getAttribute('data-b')&&n.getAttribute('data-b').indexOf(b)<0)||(n.getAttribute('data-s')&&n.hidden))){ok=false;break}n=n.parentNode}}
   if(ok){var w=e.closest('[data-for]');if(w){var ci=f.querySelector('input[name="'+w.getAttribute('data-for')+'"]');if(!(parseInt(ci.value,10)>0))ok=false}}
   e.disabled=e.name==='intention'?false:!ok});
  [].forEach.call(f.querySelectorAll('.dm-ages,.dm-mat'),function(w){var i=f.querySelector('input[name="'+w.getAttribute('data-for')+'"]');w.classList.toggle('cache',!(parseInt(i.value,10)>0))});
@@ -383,7 +472,7 @@ def js(lang):
 # ---------------------------------------------------------------- CSS (bloc delimite dans styles.css)
 CSS_A, CSS_Z = "/* ===DEMANDE-ETAPES=== */", "/* ===/DEMANDE-ETAPES=== */"
 CSS = CSS_A + """
-.etape[hidden],[data-b][hidden],.cache{display:none!important}
+.etape[hidden],[data-b][hidden],[data-s][hidden],.cache{display:none!important}
 .demande .piege{position:absolute;left:0;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 .demande form{max-width:760px}
 .dm-prog,.dm-nav,.dm-petit{display:none}
@@ -505,10 +594,10 @@ CSS = CSS_A + """
   .dm-bougie .flamme{fill:var(--jaune);stroke:var(--encre);stroke-width:1;transform-box:fill-box;transform-origin:50% 100%;animation:dm-vacille 2.5s ease-in-out infinite}
   @keyframes dm-vacille{0%,100%{opacity:1;transform:scale(1) rotate(0)}30%{opacity:.82;transform:scale(.93,1.06) rotate(-3deg)}60%{opacity:.95;transform:scale(1.05,.95) rotate(2deg)}80%{opacity:.86;transform:scale(.96,1.04) rotate(-1deg)}}
   .dm-neige{display:block;position:absolute;inset:0;overflow:hidden;pointer-events:none}
-  .dm-neige i{position:absolute;top:-20px;left:var(--x);opacity:0;line-height:0;animation:dm-tombe 1.4s ease-in var(--d) both}
+  .dm-neige i{position:absolute;top:-20px;left:var(--x);opacity:0;line-height:0;animation:dm-tombe 3.6s linear var(--d) infinite}
   .dm-neige svg{fill:none;stroke:var(--vert);stroke-width:1.2;stroke-linecap:round}
   [dir=rtl] .dm-neige i{left:auto;right:var(--x)}
-  @keyframes dm-tombe{0%{opacity:0;transform:translateY(0) rotate(0)}15%{opacity:1}80%{opacity:1}100%{opacity:0;transform:translateY(110px) rotate(200deg)}}
+  @keyframes dm-tombe{0%{opacity:0;transform:translateY(0) rotate(0)}12%{opacity:.75}85%{opacity:.75}100%{opacity:0;transform:translateY(120px) rotate(200deg)}}
   /* 6. passage d'ecran */
   .demande form[data-dir=fwd]{--dx:24px}
   .demande form[data-dir=back]{--dx:-24px}
@@ -523,10 +612,10 @@ CSS = CSS_A + """
   .dm-nav .btn-noir img.dm-marche{display:inline-block;vertical-align:middle;height:30px;width:auto;margin-inline-end:6px;transform-origin:50% 100%;animation:dm-marche .3s ease-in-out infinite alternate}
   @keyframes dm-marche{from{transform:rotate(-6deg) translateY(0)}to{transform:rotate(6deg) translateY(-3px)}}
   /* 9. page merci : le hassid danse a l'ouverture */
-  img.hassid-merci{transform-origin:50% 100%;animation:dm-danse .6s ease-in-out 3}
-  @keyframes dm-danse{0%,100%{transform:rotate(0) translateY(0)}25%{transform:rotate(-6deg) translateY(-6px)}50%{transform:rotate(0) translateY(0)}75%{transform:rotate(6deg) translateY(-6px)}}
+  img.hassid-merci{transform-origin:50% 100%;animation:dm-danse 3.2s ease-in-out infinite}
+  @keyframes dm-danse{0%,60%,100%{transform:rotate(0) translateY(0)}7.5%,37.5%{transform:rotate(-6deg) translateY(-6px)}15%,45%{transform:rotate(0) translateY(0)}22.5%,52.5%{transform:rotate(6deg) translateY(-6px)}30%{transform:rotate(0) translateY(0)}}
   [dir=rtl] img.hassid-merci{animation-name:dm-danse-rtl}
-  @keyframes dm-danse-rtl{0%,100%{transform:scaleX(-1) rotate(0) translateY(0)}25%{transform:scaleX(-1) rotate(-6deg) translateY(-6px)}50%{transform:scaleX(-1) rotate(0) translateY(0)}75%{transform:scaleX(-1) rotate(6deg) translateY(-6px)}}
+  @keyframes dm-danse-rtl{0%,60%,100%{transform:scaleX(-1) rotate(0) translateY(0)}7.5%,37.5%{transform:scaleX(-1) rotate(-6deg) translateY(-6px)}15%,45%{transform:scaleX(-1) rotate(0) translateY(0)}22.5%,52.5%{transform:scaleX(-1) rotate(6deg) translateY(-6px)}30%{transform:scaleX(-1) rotate(0) translateY(0)}}
 }
 @media (min-width:700px){
   .demande-hero{padding-top:24px}
@@ -556,7 +645,20 @@ CSS = CSS_A + """
   .etape > .dm-tete h2{font-size:23px}
   body:has(#formDemande) .wa-flottant{display:none!important}
   .demande{padding-bottom:24px}
-}""" + CSS_Z
+}
+/* cases en cartes a pictogramme (Moshe 15/10 : « il ne faut pas avoir besoin de lire pour comprendre ») : picto 26 px en haut a gauche (a droite en RTL), mot dessous, case 18 px dans le coin oppose */
+.demande .dm-chips{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.demande .dm-chips label{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:8px;min-height:84px;padding:12px;border-radius:14px;line-height:1.2;font-size:15px;font-weight:500;text-align:start;overflow:hidden}
+.demande .dm-chips .dm-ic{flex:none;display:block;width:26px;height:26px;color:var(--vert);transition:color .15s}
+.demande .dm-chips label:has(input:checked) .dm-ic{color:var(--encre)}
+.demande .dm-chips span{display:block}
+.demande .dm-chips label::before{content:"";position:absolute;inset-inline-end:12px;top:16px;width:18px;height:18px;border:1.5px solid rgba(28,27,31,.45);border-radius:6px;background:var(--blanc) center/12px no-repeat;transition:background-color .15s,border-color .15s}
+.demande .dm-chips label:has(input[type=radio])::before{border-radius:50%}
+.demande .dm-chips label:has(input:checked)::before{background-color:var(--encre);border-color:var(--encre);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.2l3.2 3.2L13 4.6' fill='none' stroke='%23FCDE73' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+.demande .dm-chips .dm-coche{display:none!important}
+.demande .dm-chips input:checked ~ span{font-weight:600}
+@media (min-width:700px){.demande .dm-chips{grid-template-columns:repeat(3,1fr)}}
+""" + CSS_Z
 
 def update_css():
     c = open("styles.css", encoding="utf-8").read()

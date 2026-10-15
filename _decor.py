@@ -16,6 +16,7 @@ MORE = {"en": "Read more", "fr": "Lire la suite", "es": "Leer más", "he": "לה
 # mot-cle anglais (dans le titre en gras, puis dans tout le li) -> picto Lucide de _decor_src/
 ICO = [
   (r"grenoble side", "snowflake"), (r"courchevel side", "mountain-snow"),
+  (r"by road|by car", "car"), (r"by train|tgv|ter|rail", "ticket"), (r"paris", "map-pin"),
   (r"saint-exup|airport|flight|fly|plane|geneva", "plane"), (r"shuttle|bus|transfer|by road|drive", "car"),
   (r"chef|kitchen", "chef-hat"), (r"meals? delivered|delivered meals|catering|restaurant|food|eat", "utensils"),
   (r"shabbat|candle", "flame"), (r"holiday|hanukkah|purim|pesach|festival", "sparkles"),
@@ -91,6 +92,58 @@ def choisir(lead, tout):
             if re.search(pat, src): return name
     return "check"
 
+# Regle (15/10) : dans une meme section, un mini-dessin ne sert qu'une fois. A la 2e occurrence : une alternative du meme sujet, puis le fonds commun.
+ALT = {
+  "plane": ["plane-landing", "clock", "landmark", "route", "map-pin", "luggage"],
+  "plane-landing": ["plane", "clock", "route"],
+  "car": ["bus", "route", "map-pin", "clock", "footprints", "luggage"],
+  "bus": ["car", "ticket", "route"],
+  "route": ["compass", "map-pin", "car", "footprints"],
+  "check": ["badge-check", "info", "book-open", "sparkles", "heart-handshake"],
+  "badge-check": ["check", "shield-check", "sparkles"],
+  "scroll-text": ["book-open", "landmark", "languages", "file-text", "users"],
+  "mountain-snow": ["cable-car", "snowflake", "trees", "map-pin", "route", "sun"],
+  "snowflake": ["cable-car", "mountain-snow", "sparkles", "house", "sun"],
+  "cable-car": ["mountain-snow", "snowflake", "ticket"],
+  "flame": ["wine", "sparkles", "sun", "heart-handshake", "badge-check"],
+  "wine": ["flame", "sparkles", "utensils"],
+  "users": ["heart-handshake", "message-circle", "house", "languages", "sparkles"],
+  "house": ["bed-double", "luggage", "map-pin", "trees"],
+  "bed-double": ["house", "luggage", "lock"],
+  "utensils": ["chef-hat", "croissant", "shopping-basket", "wine"],
+  "chef-hat": ["utensils", "croissant", "wine"],
+  "croissant": ["utensils", "shopping-basket", "chef-hat"],
+  "shopping-basket": ["croissant", "utensils", "chef-hat"],
+  "calendar-days": ["calendar-x", "clock", "file-text", "ticket", "info"],
+  "calendar-x": ["calendar-days", "clock", "info"],
+  "footprints": ["compass", "map-pin", "route", "book-open"],
+  "compass": ["footprints", "map-pin", "route"],
+  "book-open": ["scroll-text", "landmark", "file-text", "info"],
+  "map-pin": ["compass", "route", "footprints", "landmark"],
+  "clock": ["calendar-days", "ticket", "route", "info"],
+  "sun": ["trees", "waves", "sparkles", "mountain-snow"],
+  "trees": ["sun", "waves", "mountain-snow", "footprints"],
+  "waves": ["sun", "trees", "snowflake"],
+  "info": ["message-circle", "book-open", "file-text", "languages"],
+  "landmark": ["book-open", "scroll-text", "map-pin", "badge-check"],
+  "message-circle": ["heart-handshake", "users", "info", "languages"],
+  "heart-handshake": ["users", "message-circle", "sparkles", "badge-check"],
+  "shield-check": ["lock", "badge-check", "users"],
+  "lock": ["shield-check", "badge-check", "bed-double"],
+  "file-text": ["scroll-text", "book-open", "info", "ticket"],
+  "languages": ["message-circle", "users", "book-open"],
+  "sparkles": ["flame", "sun", "heart-handshake", "badge-check"],
+  "ticket": ["calendar-days", "file-text", "bus"],
+}
+COMMUN = ["info", "book-open", "clock", "map-pin", "route", "landmark", "badge-check", "file-text", "users", "sparkles", "house", "luggage",
+          "calendar-days", "message-circle", "footprints", "heart-handshake", "languages", "scroll-text", "compass", "check", "trees", "ticket", "wine"]
+def unique(name, used):
+    """name si libre dans la section, sinon la premiere alternative libre (sujet voisin, puis fonds commun). Rend aussi `used` mis a jour."""
+    for c in [name] + ALT.get(name, []) + COMMUN:
+        if c in DES and c not in used:
+            used.add(c); return c
+    return name
+
 def strip(h):
     h = re.sub(r'<(svg|script|button) class="dk[^"]*"[^>]*>.*?</\1>', "", h, flags=re.S)
     h = re.sub(r'<img class="dk[^"]*"[^>]*>', "", h)
@@ -107,14 +160,14 @@ SEC = re.compile(r'(<section class="ss wrap conseils">|<div class="ss beige"><di
 TRAIL = re.compile(r"</ul>\s*<p>((?:(?!</p>).)*)</p>\s*$", re.S)
 def phrases(p):
     return re.split(r"(?<=\.)\s+(?![^<]*>)", p.strip())
-def garanties(corps, n):
+def garanties(corps, n, noms=()):
     """Paragraphe final « Strictement casher. ... » : une phrase par ligne, avec mini-dessin. Le texte reste identique (spans seulement)."""
     m = TRAIL.search(corps)
     if not m or len(phrases(m.group(1))) != n: return corps
     ph = phrases(m.group(1)); out = []
     for i, t in enumerate(ph):
         if i == 0: out.append(f'<span class="dk-g dk-g-tete">{t}</span>'); continue
-        name = "file-text" if "<a " in t else ("badge-check" if i == 1 else "flame")
+        name = noms[i - 1] if i - 1 < len(noms) else ("file-text" if "<a " in t else ("badge-check" if i == 1 else "flame"))
         out.append(f'<span class="dk-g dk-g-ligne"><img class="dk dk-gico" src="/img/des/{name}.webp" alt="" width="96" height="96" loading="lazy">{t}</span>')
     return corps[:m.start()] + '</ul><p class="dk-garanties">' + " ".join(out) + "</p>" + corps[m.end():]
 
@@ -130,18 +183,22 @@ def plan(en, page_dir=""):
         for x in (lis if suite else []):  # un picto par tuile, jamais deux fois le meme dans la liste
             t = txt(x); c = [n for pat, n in LIENS if re.search(pat, t)] + ["mountain-snow", "book-open", "map-pin", "footprints", "landmark", "info"]
             vigs.append(next(n for n in c if n not in vigs))
-        icos = []; liens = []
+        icos = []; liens = []; used = set(); gnoms = []
+        gm0 = TRAIL.search(corps)
+        if lis and not suite and gm0 and txt(gm0.group(1)).startswith("strictly kosher"):  # les dessins des garanties comptent dans la section
+            for i, t in enumerate(phrases(gm0.group(1))[1:], 1):
+                gnoms.append(unique("file-text" if "<a " in t else ("badge-check" if i == 1 else "flame"), used))
         for x in lis:
             g = re.findall(r"</a>([^<]*)(?=<a )", x)
             liens.append(len(re.findall(r"<a ", x)) >= 3 and len(g) == len(re.findall(r"<a ", x)) - 1 and all(len(t) <= 8 for t in g))
             b = re.match(r"\s*<b>(.*?)</b>", x, re.S)
-            icos.append(choisir(txt(b.group(1)) if b else "", txt(x)))
+            icos.append(unique(choisir(txt(b.group(1)) if b else "", txt(x)), used))
         il = next((n for pat, n in H2ILLUS if re.search(pat, h2) and n != hero), "") if (lis and not suite) else ""
         ps = re.findall(r'<p>(.*?)</p>', corps, re.S)
         recit = (not lis) and len(ps) >= 2 and bool(re.fullmatch(r'(\s*<p>.*?</p>\s*)+', corps, re.S))
         gm = TRAIL.search(corps)
         gar = len(phrases(gm.group(1))) if (lis and not suite and gm and txt(gm.group(1)).startswith("strictly kosher")) else 0
-        P.append(dict(garant=gar, nb=len(lis), recit=recit, np=len(ps), plier=recit and sum(len(txt(x)) for x in ps) > 450, rico=(lambda n: "book-open" if n == "check" else n)(choisir(h2, "")), liens=liens, boite=(not lis and bool(re.fullmatch(r"\s*<p>.*?</p>\s*", corps, re.S)) and corps.count("<p") == 1 and len(txt(corps)) <= 700), icos=icos, suite=suite, vigs=vigs, illus=il, note=choisir(h2, txt(corps)) if not lis else ""))
+        P.append(dict(garant=gar, gnoms=gnoms, nb=len(lis), recit=recit, np=len(ps), plier=recit and sum(len(txt(x)) for x in ps) > 450, rico=(lambda n: "book-open" if n == "check" else n)(choisir(h2, "")), liens=liens, boite=(not lis and bool(re.fullmatch(r"\s*<p>.*?</p>\s*", corps, re.S)) and corps.count("<p") == 1 and len(txt(corps)) <= 700), icos=icos, suite=suite, vigs=vigs, illus=il, note=choisir(h2, txt(corps)) if not lis else ""))
     m = re.search(r'<p class="intro-fiche">(.*?)</p>', en, re.S)
     return P, bool(m and len(txt(m.group(1))) > 320)
 
@@ -202,7 +259,7 @@ def decorer(h, plan_en, page_dir, lang):
             multi = len(re.findall(r"<a ", u.group(1))) >= 3
             cls = "dk-cartes" + (" dk-rail" if nli >= 4 and not multi else "")
         corps2 = corps2.replace("<ul>", f'<ul class="{cls}">', 1)
-        if p.get("garant"): corps2 = garanties(corps2, p["garant"])
+        if p.get("garant"): corps2 = garanties(corps2, p["garant"], p.get("gnoms", ()))
         if p["illus"]:
             h2 = h2.replace("<h2>", f'<h2 class="dk-h2"><img class="dk dk-h2img" src="{'/img/picto-hassid-vert.svg' if page_dir in HASSID_PAGES else '/img/illus/v/' + p['illus'] + '.webp'}" alt="" width="120" height="120" loading="lazy">', 1)
         return ouv + h2 + corps2

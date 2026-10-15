@@ -120,14 +120,7 @@ def lang_de(p):
     return (t if t in LANGS else "en")
 
 def menu(h, lang):
-    pre = "" if lang == "en" else "/" + lang
-    lien = f'<a href="{pre}/{SLUG}/">{TXT[lang]["menu"]}</a>'
-    def bloc(m):
-        s = m.group(0)
-        if f"/{SLUG}/" in s: return s
-        return re.sub(r'(<a href="[^"]*/plan-your-trip/">[^<]*</a>)', lambda k: lien + "\n    " + k.group(1), s, count=1)
-    h = re.sub(r'<nav class="liens".*?</nav>', bloc, h, count=1, flags=re.S)
-    h = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>.*?</nav>)', bloc, h, count=1, flags=re.S)
+    """15/10 : le van sort du menu principal ; _zones.py le pose dans les liens secondaires du panneau et la colonne Explore du pied."""
     return h
 
 def accueil(h, lang):

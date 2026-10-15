@@ -10,6 +10,10 @@ var EASE='cubic-bezier(0.32,0.72,0,1)';
 var TXT={en:{c:'Close',p:'Previous photo',n:'Next photo',d:'Photos'},fr:{c:'Fermer',p:'Photo précédente',n:'Photo suivante',d:'Photos'},es:{c:'Cerrar',p:'Foto anterior',n:'Foto siguiente',d:'Fotos'},he:{c:'סגירה',p:'התמונה הקודמת',n:'התמונה הבאה',d:'תמונות'}};
 var L10=TXT[LANG]||TXT.en;
 R.classList.add('anim-js');
+R.classList.remove('anim-vis-on');
+/* la visionneuse ne doit jamais laisser html en overflow:hidden (navigateurs integres, cache de navigation) */
+function resetVis(){R.classList.remove('anim-vis-on');if(window.__animVisFin)window.__animVisFin()}
+['pagehide','pageshow','popstate','hashchange'].forEach(function(ev){addEventListener(ev,resetVis)});
 D.addEventListener('touchstart',function(){},{passive:true});
 
 /* 6. bouton WhatsApp flottant */
@@ -28,21 +32,21 @@ D.addEventListener('touchstart',function(){},{passive:true});
   o.observe(b.querySelector('ol')||b);
 })();
 
-/* 10. flocons (pages d'hiver, une fois par visite) */
+/* 10. flocons (pages d'hiver, en continu, Moshe 15/10) */
 (function(){
   if(reduce.matches)return;
   if(!/^\/kosher-(alpe-dhuez|annecy|chamonix|courchevel|grenoble|la-plagne|les-arcs|les-deux-alpes|megeve|val-disere|val-thorens|ski-holidays-french-alps|chalet-les-deux-alpes)\/$/.test(path))return;
   var hero=D.querySelector('.lead-hero3');if(!hero)return;
-  try{if(sessionStorage.getItem('mt-neige'))return;sessionStorage.setItem('mt-neige','1')}catch(e){return}
+  
   var c=D.createElement('div');c.className='anim-neige';c.setAttribute('aria-hidden','true');
   var h=hero.offsetHeight+30;
-  for(var i=0;i<20;i++){
+  for(var i=0;i<24;i++){
     var f=D.createElement('i'),s=4+Math.random()*5;
-    f.style.cssText='--x:'+(Math.random()*100).toFixed(1)+'%;--s:'+s.toFixed(1)+'px;--d:'+(Math.random()*1.2).toFixed(2)+'s;--t:'+(4+Math.random()*0.8).toFixed(2)+'s;--o:'+(0.45+Math.random()*0.35).toFixed(2)+';--dx:'+((Math.random()-.5)*60).toFixed(0)+'px;--h:'+h+'px';
+    f.style.cssText='--x:'+(Math.random()*100).toFixed(1)+'%;--s:'+s.toFixed(1)+'px;--d:'+(-Math.random()*9).toFixed(2)+'s;--t:'+(7+Math.random()*4).toFixed(2)+'s;--o:'+(0.45+Math.random()*0.35).toFixed(2)+';--dx:'+((Math.random()-.5)*60).toFixed(0)+'px;--h:'+h+'px';
     c.appendChild(f);
   }
   hero.appendChild(c);
-  setTimeout(function(){c.remove()},6400);
+  
 })();
 
 /* 7. listes d'adresses liees aux marqueurs Leaflet */
@@ -167,6 +171,7 @@ D.addEventListener('touchstart',function(){},{passive:true});
     fond.style.opacity='';majUI();
     var t=th[cur];t.focus({preventScroll:true});
   }
+  window.__animVisFin=function(){if(!v||!ouvert)return;th.forEach(function(x){x.style.visibility=''});fin()};
   function fermer(){
     if(!ouvert||ferme)return;ferme=true;
     var im=slides[cur].im,t=th[cur],r=t.getBoundingClientRect();

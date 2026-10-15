@@ -7,7 +7,7 @@
 4. Plus de renvoi vers Hebcal dans le texte visible : encadre d'horaires de Shabbat affiche en direct (API JSON Hebcal, geonameid par station).
 Les pages ne sont pas regenerees : les sources _pages/*.py et _gabarit.html portent encore l'ancien texte, donc ce script doit passer apres tout build.
 """
-import glob, io, os, re, urllib.parse
+import glob, io, json, os, re, urllib.parse
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 os.chdir(ICI)
@@ -89,7 +89,6 @@ PLACES = {  # slug : (geonameid, {lang: nom})
 MULTI = {"kosher-ski-holidays-french-alps", "summer-in-the-alps-jewish-families"}
 LYON = {"shabbat-in-lyon", "synagogues-lyon", "jewish-lyon-guide"}
 LYON_GID = 2996944
-TITRE = {"en": "Shabbat in {} this week", "fr": "Shabbat cette semaine : {}", "es": "Shabat esta semana: {}", "he": "שבת השבוע: {}"}
 REPLI = {"en": "Candle lighting falls as early as 16:30 in December and after 21:00 in June.",
          "fr": "L’allumage des bougies tombe dès 16:30 en décembre et après 21:00 en juin.",
          "es": "El encendido de velas cae hacia las 16:30 en diciembre y después de las 21:00 en junio.",
@@ -98,8 +97,19 @@ NOTE = {"en": "Times for Albertville, in the heart of the Alps. Your resort can 
         "fr": "Horaires d’Albertville, au cœur des Alpes. Votre station peut différer de quelques minutes.",
         "es": "Horarios de Albertville, en el corazón de los Alpes. Su estación puede diferir en unos minutos.",
         "he": "הזמנים לאלברטוויל, בלב האלפים. באתר שלכם הם עשויים להיות שונים בכמה דקות."}
-JS = {"en": ("en-GB", "Candle lighting: ", "Havdalah: "), "fr": ("fr-FR", "Allumage des bougies : ", "Havdala : "),
-      "es": ("es-ES", "Encendido de velas: ", "Havdalá: "), "he": ("he-IL", "הדלקת נרות: ", "הבדלה: ")}
+# encadre v2 (15/10) : maquette scratchpad/test-compte-a-rebours.html, section « Apres »
+SH = {  # mot Shabbat, preposition + ville, sur-titre, libelles, etats
+    "en": dict(mot="Shabbat", vil="in {}", sur="This week", cand="Candle lighting", hav="Havdalah", loc="en-GB", paix="Shabbat Shalom",
+               tov="Shavua tov", suiv="Next Shabbat", rep="We answer messages after Havdalah."),
+    "fr": dict(mot="Shabbat", vil="à {}", sur="Cette semaine", cand="Allumage des bougies", hav="Havdala", loc="fr-FR", paix="Shabbat Shalom",
+               tov="Shavoua tov", suiv="Prochain Shabbat", rep="Nous répondons aux messages après la havdala."),
+    "es": dict(mot="Shabat", vil="en {}", sur="Esta semana", cand="Encendido de velas", hav="Havdalá", loc="es-ES", paix="Shabat Shalom",
+               tov="Shavua tov", suiv="Próximo Shabat", rep="Respondemos a los mensajes después de la havdalá."),
+    "he": dict(mot="שבת", vil="ב{}", sur="השבוע", cand="הדלקת נרות", hav="הבדלה", loc="he-IL", paix="שבת שלום",
+               tov="שבוע טוב", suiv="השבת הבאה", rep="נענה להודעות אחרי ההבדלה."),
+}
+MULTI_NOM = {"en": "in the Alps", "fr": "dans les Alpes", "es": "en los Alpes", "he": "באלפים"}
+LYON_NOM = dict(en="Lyon", fr="Lyon", es="Lyon", he="ליון")
 
 # phrases mixtes a recoudre a la main (le reste des phrases « Hebcal » est supprime)
 SPECIAL = [
@@ -117,17 +127,89 @@ SPECIAL = [
 ]
 
 
+SVG_ENTREE = ('<svg viewBox="0 0 72 48" aria-hidden="true"><defs><clipPath id="sh-sol"><rect width="72" height="34"/></clipPath>'
+              '<radialGradient id="sh-lueur" cx=".5" cy="1" r=".55"><stop offset="0" stop-color="#E8875A" stop-opacity=".9"/>'
+              '<stop offset="1" stop-color="#E8875A" stop-opacity="0"/></radialGradient></defs>'
+              '<rect class="sh-ciel" width="72" height="34" fill="url(#sh-lueur)" opacity="0"/><g clip-path="url(#sh-sol)"><g class="sh-soleil">'
+              '<circle cx="36" cy="24" r="9" fill="#FCDE73"/><g stroke="#FCDE73" stroke-width="2" stroke-linecap="round">'
+              '<path d="M36 9v-4M24 14l-3-3M48 14l3-3M19 24h-4M53 24h4"/></g></g></g><path d="M6 34h60" stroke="#FFFAED" stroke-width="2" stroke-linecap="round"/>'
+              '<path d="M14 40h44M24 45h24" stroke="#FFFAED" stroke-width="2" stroke-linecap="round" opacity=".35"/></svg>')
+SVG_SORTIE = ('<svg viewBox="0 0 72 48" aria-hidden="true"><g class="sh-lune"><path d="M40 8a15 15 0 1 0 14 22A12 12 0 0 1 40 8z" fill="#FFFAED"/></g>'
+              '<g fill="#FCDE73"><path class="sh-etoile sh-e1" d="M14 10l1.4 3 3 1.4-3 1.4L14 19l-1.4-3.2-3-1.4 3-1.4z"/>'
+              '<path class="sh-etoile sh-e2" d="M60 6l1 2.2 2.2 1-2.2 1-1 2.2-1-2.2-2.2-1 2.2-1z"/>'
+              '<path class="sh-etoile sh-e3" d="M24 30l1 2.2 2.2 1-2.2 1-1 2.2-1-2.2-2.2-1 2.2-1z"/></g></svg>')
+CSS_DEB, CSS_FIN = "/* SHABBAT v2 (15/10) */", "/* fin SHABBAT v2 */"
+CSS_SH = CSS_DEB + r"""
+.shabbat .sh-tete{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.sh-sur{margin:0 0 4px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+.sh-gros{margin:0;font-family:var(--titre);font-weight:700;font-size:34px;line-height:1.08}
+.sh-ville{color:var(--jaune)}
+.sh-des{flex:none;width:150px;height:auto;order:-1}
+.sh-moments{display:grid;gap:10px;margin-top:18px}
+.sh-moment{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:center;background:rgba(255,250,237,.06);border-radius:12px;padding:10px 14px 10px 10px}
+.sh-moment[hidden],.sh-moments[hidden]{display:none}
+.sh-moment svg{width:72px;height:48px;display:block}
+.sh-moment b{display:block;font-family:var(--titre);font-weight:700;font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}
+.sh-moment span{font-size:14px;opacity:.75}
+.sh-soleil{transform-box:view-box}
+.sh-lune,.sh-etoile{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion:no-preference){
+ .sh-soleil{animation:sh-coucher 7s cubic-bezier(.45,0,.55,1) infinite}
+ .sh-ciel{animation:sh-soir 7s cubic-bezier(.45,0,.55,1) infinite}
+ .sh-lune{animation:sh-lever 7s cubic-bezier(.45,0,.55,1) infinite}
+ .sh-etoile{animation:sh-scintille 7s ease-in-out infinite}
+ .sh-e2{animation-delay:.6s}.sh-e3{animation-delay:1.2s}
+}
+@keyframes sh-coucher{0%{transform:translateY(-10px)}55%,80%{transform:translateY(14px)}100%{transform:translateY(-10px)}}
+@keyframes sh-soir{0%{opacity:0}55%,80%{opacity:1}100%{opacity:0}}
+@keyframes sh-lever{0%{transform:translateY(12px);opacity:.2}45%,85%{transform:translateY(0);opacity:1}100%{transform:translateY(12px);opacity:.2}}
+@keyframes sh-scintille{0%,30%{opacity:0;transform:scale(.4)}50%,85%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.4)}}
+@media (min-width:900px){.shabbat .sh-tete{flex-direction:row;align-items:center;justify-content:space-between}.sh-des{order:0;width:220px}.sh-gros{font-size:52px}.sh-moments{grid-template-columns:1fr 1fr}}
+""" + CSS_FIN
+
+
+def poser_css_et_dessin():
+    c = io.open("styles.css", encoding="utf-8").read()
+    if CSS_DEB in c:
+        c2 = re.sub(re.escape(CSS_DEB) + r".*?" + re.escape(CSS_FIN), lambda m: CSS_SH, c, flags=re.S)
+    else:
+        c2 = c.rstrip("\n") + "\n\n" + CSS_SH + "\n"
+    if c2 != c:
+        io.open("styles.css", "w", encoding="utf-8", newline="\n").write(c2)
+    if not os.path.exists("img/des/_shabbat-tete.webp"):  # hallot + vin, rogne au contenu (le mini-dessin carre garde des bandes vides)
+        from PIL import Image
+        im = Image.open("img/des/shabbat-a.webp").convert("RGBA")
+        im = im.crop(im.getbbox())
+        im = im.resize((360, round(360 * im.height / im.width)), Image.LANCZOS)
+        im.save("img/des/_shabbat-tete.webp", "WEBP", quality=88)
+
+
+JS_SH = r"""<script data-shabbat>
+(function(){var C=__CFG__;var Z="Europe/Paris",U="https://www.hebcal.com/shabbat?cfg=json&geonameid="+C.gid+"&M=on&lg="+C.lg;
+var B=document.getElementById("shabbat");if(!B)return;
+function $(s){return B.querySelector(s)}
+function f(s){return new Date(s).toLocaleTimeString(C.loc,{hour:"2-digit",minute:"2-digit",timeZone:Z})}
+function dd(s){return new Date(s).toLocaleDateString(C.loc,{weekday:"long",day:"numeric",month:"short",timeZone:Z})}
+function lire(d){var it=d.items||[];return{c:it.find(function(i){return i.category==="candles"}),h:it.find(function(i){return i.category==="havdalah"}),p:it.find(function(i){return i.category==="parashat"})}}
+function rendre(x,etat){var e=$("#m-entree"),s=$("#m-sortie"),ti=$(".sh-tt"),co=$(".shabbat-corps"),pa=x.p?"<small>"+x.p.title+"</small>":"",n=C.note?"<br><small>"+C.note+"</small>":"";
+e.hidden=false;s.hidden=false;$(".sh-moments").hidden=false;ti.textContent=C.mot;
+if(x.c){e.querySelector(".sh-d").textContent=(etat==="apres"?C.suiv+" \u00b7 ":"")+dd(x.c.date);e.querySelector("b").textContent=f(x.c.date)}else e.hidden=true;
+if(x.h){s.querySelector(".sh-d").textContent=dd(x.h.date);s.querySelector("b").textContent=f(x.h.date)}else s.hidden=true;
+co.innerHTML=pa+n;
+if(etat==="pendant"){ti.textContent=C.paix;e.hidden=true;co.innerHTML=C.rep+"<br>"+pa+n}
+else if(etat==="apres")ti.textContent=C.tov}
+fetch(U).then(function(r){return r.json()}).then(function(d){var x=lire(d);if(!x.c&&!x.h)return;var t=new Date();
+if(x.c&&x.h&&t>=new Date(x.h.date)){var j=new Date(t.getTime()+864e5).toLocaleDateString("sv-SE",{timeZone:Z});
+return fetch(U+"&dt="+j).then(function(r){return r.json()}).then(function(d2){var y=lire(d2);rendre(y.c||y.h?y:x,"apres")})}
+rendre(x,x.c&&x.h&&t>=new Date(x.c.date)?"pendant":"avant")}).catch(function(){})})();
+</script>"""
+
+
 def script_shabbat(lang, gid, multi):
-    loc, c, hv = JS[lang]
-    note = '+"<br><small>' + NOTE[lang] + '</small>"' if multi else ""
-    return ('<script data-shabbat>\nfetch("https://www.hebcal.com/shabbat?cfg=json&geonameid=%d&M=on&lg=%s").then(r=>r.json()).then(d=>{'
-            'const it=d.items;const c=it.find(i=>i.category==="candles"),h=it.find(i=>i.category==="havdalah"),p=it.find(i=>i.category==="parashat");'
-            'if(!c&&!h)return;'
-            'const f=s=>new Date(s).toLocaleTimeString("%s",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Paris"});'
-            'const dd=s=>new Date(s).toLocaleDateString("%s",{weekday:"long",day:"numeric",month:"long",timeZone:"Europe/Paris"});'
-            'document.querySelector("#shabbat .shabbat-corps").innerHTML=(p?"<b>"+p.title+"</b><br>":"")'
-            '+(c?"%s<b>"+f(c.date)+"</b>, "+dd(c.date)+"<br>":"")+(h?"%s<b>"+f(h.date)+"</b>, "+dd(h.date):"")%s'
-            '}).catch(()=>{});\n</script>') % (gid, lang, loc, loc, c, hv, note)
+    t = SH[lang]
+    cfg = json.dumps(dict(gid=gid, lg=lang, loc=t["loc"], mot=t["mot"], paix=t["paix"], tov=t["tov"], suiv=t["suiv"], rep=t["rep"],
+                          note=NOTE[lang] if multi else ""), ensure_ascii=False)
+    return JS_SH.replace("__CFG__", cfg)
 
 
 def fin_section(h, idx):
@@ -182,6 +264,25 @@ def sans_hebcal(h, slug):
     return "".join(out), ancre[0]
 
 
+def bloc_shabbat(lang, slug, gid, multi):
+    t = SH[lang]
+    if slug in LYON:
+        vil = t["vil"].format(LYON_NOM[lang])
+    elif multi:
+        vil = MULTI_NOM[lang]
+    else:
+        vil = t["vil"].format(PLACES[slug][1][lang])
+    corps = REPLI[lang] + (" " + NOTE[lang] if multi else "")
+    return ('<section class="ss wrap shabbat-bloc"><div class="shabbat" id="shabbat">'
+            '<div class="sh-tete"><div><p class="sh-sur">%s</p><p class="sh-gros"><span class="sh-tt">%s</span><br><span class="sh-ville">%s</span></p></div>'
+            '<img class="sh-des" src="/img/des/_shabbat-tete.webp" alt="" width="360" height="187" loading="lazy"></div>'
+            '<div class="sh-moments" hidden>'
+            '<div class="sh-moment" id="m-entree">%s<div><span class="sh-d"></span><b></b><span>%s</span></div></div>'
+            '<div class="sh-moment" id="m-sortie">%s<div><span class="sh-d"></span><b></b><span>%s</span></div></div></div>'
+            '<p class="shabbat-corps">%s</p></div>\n%s</section>\n') % (
+        t["sur"], t["mot"], vil, SVG_ENTREE, t["cand"], SVG_SORTIE, t["hav"], corps, script_shabbat(lang, gid, multi))
+
+
 def encadre(h, lang, slug, ancre):
     if slug in LYON:
         gid, multi = LYON_GID, False
@@ -189,14 +290,10 @@ def encadre(h, lang, slug, ancre):
         gid, multi = PLACES[slug][0], slug in MULTI
     else:
         return h
-    rx = re.compile(r'<script[^>]*>\s*fetch\("https://www\.hebcal\.com/shabbat\?cfg=json.*?</script>', re.S)
-    sc = script_shabbat(lang, gid, multi)
+    bloc = bloc_shabbat(lang, slug, gid, multi)
+    rx = re.compile(r'<section class="ss wrap shabbat-bloc">.*?</section>\n', re.S)
     if 'id="shabbat"' in h:
-        return rx.sub(lambda m: sc, h)
-    nom = PLACES[slug][1][lang]
-    corps = REPLI[lang] + (" " + NOTE[lang] if multi else "")
-    bloc = ('<section class="ss wrap shabbat-bloc"><div class="shabbat" id="shabbat"><p class="shabbat-titre">%s</p>'
-            '<p class="shabbat-corps">%s</p></div>\n%s</section>\n') % (TITRE[lang].format(nom), corps, sc)
+        return rx.sub(lambda m: bloc, h, count=1)
     if ancre:
         i = fin_section(h, ancre)
         return h[:i] + "\n" + bloc + h[i:]
@@ -277,6 +374,7 @@ def traiter(path):
 
 
 if __name__ == "__main__":
+    poser_css_et_dessin()
     pages = [p for p in glob.glob("**/index.html", recursive=True) if not p.replace("\\", "/").startswith("_")]
     n = sum(traiter(p) for p in pages)
     t = io.open("llms.txt", encoding="utf-8").read()

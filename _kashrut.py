@@ -20,5 +20,8 @@ for lang, rel in PAGES:
     # ancien badge séparé (première pose du 14/10) retiré
     s = re.sub(r'<div class="kashrut-badge">.*?</div>', '', s, count=1, flags=re.S)
     s, k = RX.subn(lambda m: f'{m.group(1)}<img class="dk dk-gico hashgaha" src="{m.group(2)}{LOGO}" alt="{ALT}" width="600" height="470" loading="lazy">{TXT[lang]}{m.group(3)}', s, count=1)
+    # la phrase « details » est deja dans la ligne du logo : les lignes de garantie qui la repetent seules sont retirees (idempotence, 15/10)
+    det = TXT[lang].split('. ', 1)[1]
+    s = re.sub(r'<span class="dk-g dk-g-ligne"><img class="dk dk-gico" src="[^"]*"[^>]*>' + re.escape(det) + r'</span>\s?', '', s)
     s = s.replace(FAQ_OLD, FAQ_NEW)
     io.open(p, 'w', encoding='utf8', newline='').write(s); print(rel, 'logo' if k else 'déjà posé')
