@@ -264,7 +264,7 @@ def formulaire(lang):
                    champ("cacherout_detail", "cacherout_detail", "Anything else about kashrut, allergies or preferences", ph="One vegetarian, nut allergy for a child")))
     S.append(etape("religieux", "Shabbat, prayer and holidays", "What do you need on site?",
                    chips("minyan_niveau", ["The minyan is essential", "Nice to have", "Not needed"], multi=False) +
-                   chips("religieux", ["Minyan on Shabbat", "Minyan every day", "Sefer Torah in the chalet", "Candles, wine, challot", "Hot plate and urn",
+                   chips("religieux", ["Minyan on Shabbat", "Minyan every day", "Sefer Torah in the chalet", "Candles, wine, challot",
                                        "Eruv or carrying advice", "Mikveh nearby", "Holiday items (lulav, menorah)", "Fast day or holiday"]) +
                    champ("rite", "rite", "Nusach or community, if it matters for the minyan", ph="Chabad, Ashkenaz, Sefarad, Edot HaMizrach"), deco_t=BOUGIE))
     S.append(etape("transport", "Getting there and around", "We organise transfers from the airport and in the resort.",

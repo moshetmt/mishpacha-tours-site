@@ -16,21 +16,21 @@ Statut : contenu à relire par Moshé, non intégré au site. Sources : pages EN
 
 ## 3. Shabbat in one look
 
-| Resort | Synagogue or minyan on site | Nearest Beth Habad | Shabbat meals | Mikveh | Distance to nearest community |
-|---|---|---|---|---|---|
-| Courchevel 1850 | Chabad services in winter, Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel (Rabbi Daniel Belaïch) | On site in winter (same Rabbi) | Meals, challot and wine delivered on Friday before candle lighting | À confirmer | On site in winter |
-| Megève | Chabad of the Alps in winter, 136 route Edmond de Rothschild, 74120 Megève (venue to confirm before you come) | On site in winter | Meals, challot and wine delivered on Friday before candle lighting | À confirmer | On site in winter |
-| Val Thorens | No standing service; minyan built for your dates | Beth Habad de Grenoble Alpes (heads the Chabad network of the Alps), 10 rue Lazare Carnot, Grenoble | Delivered on Friday before candle lighting | À confirmer | À confirmer |
-| Alpe d'Huez | No standing service; minyan built for your dates | Beth Habad de Grenoble Alpes, Grenoble | Delivered on Friday before candle lighting | À confirmer | Grenoble: 1 h by road (1 h 13 on the Grenoble page) |
-| Les Deux Alpes | No standing service; minyan built for your dates | Beth Habad de Grenoble Alpes, Grenoble | Delivered on Friday before candle lighting; supervision under the Beth Habad Grenoble-Alpes | À confirmer | Grenoble: 114 km (Grenoble airport figure) |
-| Val d'Isère | No standing service; minyan built for your dates, Sefer Torah brought | Beth Habad of the Alps, Grenoble | Delivered on Friday before candle lighting | À confirmer | À confirmer |
-| Les Arcs | No standing service; minyan built from the families who write to us | Beth Habad of the Alps, Grenoble | Delivered on Friday before candle lighting | À confirmer | À confirmer |
-| La Plagne | No standing service; minyan built for your dates | Beth Habad of the Alps, Grenoble | Delivered on Friday before candle lighting | À confirmer | À confirmer |
-| Chamonix | No standing service; minyan built for your dates, winter or summer | Nearest Chabad presence we know of: Megève (winter) | Delivered on Friday before candle lighting | À confirmer | Megève: 35 km |
-| Annecy | Small synagogue, 18 rue de Narvik, 74000 Annecy, open on Shabbat and holidays only | Beth Habad d'Annemasse, 17 rue du Clos Fleury, 74100 Annemasse | Delivered on Friday before candle lighting | À confirmer (Aix-les-Bains has one) | Annemasse: 40 minutes |
-| Grenoble | Grande Synagogue (11 rue André Maginot), Bar Yohai synagogue (4 rue des Bains) | Beth Habad de Grenoble, 10 rue Lazare Carnot | Delivered on Friday before candle lighting | À confirmer | In the city |
+| Resort | Synagogue or minyan on site | Nearest Beth Habad | Shabbat meals | Distance to nearest community |
+|---|---|---|---|---|
+| Courchevel 1850 | Chabad services in winter, Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel (Rabbi Daniel Belaïch) | On site in winter (same Rabbi) | Meals, challot and wine delivered on Friday before candle lighting | On site in winter |
+| Megève | Chabad of the Alps in winter, 136 route Edmond de Rothschild, 74120 Megève (venue to confirm before you come) | On site in winter | Meals, challot and wine delivered on Friday before candle lighting | On site in winter |
+| Val Thorens | No standing service; minyan built for your dates | Beth Habad de Grenoble Alpes (heads the Chabad network of the Alps), 10 rue Lazare Carnot, Grenoble | Delivered on Friday before candle lighting | À confirmer |
+| Alpe d'Huez | No standing service; minyan built for your dates | Beth Habad de Grenoble Alpes, Grenoble | Delivered on Friday before candle lighting | Grenoble: 1 h by road (1 h 13 on the Grenoble page) |
+| Les Deux Alpes | No standing service; minyan built for your dates | Beth Habad de Grenoble Alpes, Grenoble | Delivered on Friday before candle lighting; supervision under the Beth Habad Grenoble-Alpes | Grenoble: 114 km (Grenoble airport figure) |
+| Val d'Isère | No standing service; minyan built for your dates, Sefer Torah brought | Beth Habad of the Alps, Grenoble | Delivered on Friday before candle lighting | À confirmer |
+| Les Arcs | No standing service; minyan built from the families who write to us | Beth Habad of the Alps, Grenoble | Delivered on Friday before candle lighting | À confirmer |
+| La Plagne | No standing service; minyan built for your dates | Beth Habad of the Alps, Grenoble | Delivered on Friday before candle lighting | À confirmer |
+| Chamonix | No standing service; minyan built for your dates, winter or summer | Nearest Chabad presence we know of: Megève (winter) | Delivered on Friday before candle lighting | Megève: 35 km |
+| Annecy | Small synagogue, 18 rue de Narvik, 74000 Annecy, open on Shabbat and holidays only | Beth Habad d'Annemasse, 17 rue du Clos Fleury, 74100 Annemasse | Delivered on Friday before candle lighting | Annemasse: 40 minutes |
+| Grenoble | Grande Synagogue (11 rue André Maginot), Bar Yohai synagogue (4 rue des Bains) | Beth Habad de Grenoble, 10 rue Lazare Carnot | Delivered on Friday before candle lighting | In the city |
 
-Nothing is delivered on Shabbat or on a holiday. Candle lighting falls as early as 16:30 in December and after 21:00 in June.
+**Mikveh:** none in the resorts. The nearest are in Grenoble and in Lyon, which has eight (see [Mikveh in Lyon](/mikveh-lyon/)). Nothing is delivered on Shabbat or on a holiday. Candle lighting falls as early as 16:30 in December and after 21:00 in June.
 
 ## 4. Station par station
 
@@ -78,13 +78,12 @@ The small synagogue at 18 rue de Narvik is open on Shabbat and holidays only. Th
 The one base with a Chabad house and two synagogues: Beth Habad at 10 rue Lazare Carnot, Grande Synagogue at 11 rue André Maginot, Bar Yohai at 4 rue des Bains. The Chabad network of the Alps is headed from here. About 1 h from Lyon airport.
 [Kosher Grenoble](/kosher-grenoble/)
 
-## 5. How we organise Shabbat in your resort
+## 5. How we organise Shabbat in your resort (4 points)
 
 1. **A chef or delivered meals.** A private kosher chef cooks in your chalet, or hot meals are delivered to your apartment or hotel for the week, with notice.
 2. **Meals set before candle lighting.** Shabbat meals, challot and wine are delivered on Friday. Nothing is delivered on Shabbat or on a holiday.
-3. **Warming equipment on request.** Hot plate and urn for Shabbat can be requested in the planning form. À confirmer : modalités par station.
-4. **A minyan and a Sefer Torah on request.** Give your dates early: the more families we know about, the easier the minyan. We build it with the Chabad network of the Alps.
-5. **Arrive well before Shabbat.** Mountain roads slow down on Saturdays and in snow. Plan to be in the resort with a wide margin before candle lighting, and tell us your arrival day so the first meal is planned around it.
+3. **A minyan and a Sefer Torah on request.** Give your dates early: the more families we know about, the easier the minyan. We build it with the Chabad network of the Alps.
+4. **Arrive well before Shabbat.** Mountain roads slow down on Saturdays and in snow. Plan to be in the resort with a wide margin before candle lighting, and tell us your arrival day so the first meal is planned around it.
 
 ## 6. FAQ (prête pour FAQPage)
 
@@ -118,7 +117,14 @@ No package and no price list. Each stay is tailor-made and you receive a written
 - /plan-your-trip/ (CTA principal, bouton et fin de page)
 - Liens retour à poser : depuis /alps/, /kosher-ski-holidays-french-alps/, /shabbat-in-lyon/ et les 11 pages station vers cette page.
 
-## À vérifier par Moshé
+## Décisions de Moshé (15/10)
+
+- Supermarché, restaurants et stand casher des Deux Alpes : pas sûr, retiré du site et de ce brouillon.
+- Mikvé : pas dans les stations ; Grenoble et Lyon (huit). Colonne retirée du tableau.
+- Plaque chauffante et bouilloire : pas un service, retirées du brouillon et du formulaire.
+- Offices d'hiver de Courchevel et Megève : à confirmer par le rabbin Belaïch (message préparé), page en attente de sa réponse.
+
+## À vérifier par Moshé (liste de l'agent)
 
 - Mikvé : aucune station des Alpes n'a de mikvé documenté dans les sources. Colonne « à confirmer » pour les 11 lignes. Seul Aix-les-Bains (été) en cite un. Lyon : Haya Mouchka, 60 rue Crillon.
 - Érouv : aucun érouv documenté dans les Alpes. J'ai omis la colonne et la mention dans le tableau, car rien n'est établi.

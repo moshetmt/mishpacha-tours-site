@@ -21,7 +21,7 @@ PAGE = dict(
 <p>Strictly kosher. Our team cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote.</p>"""),
     dict(type="beige", h2="Kosher in Les Deux Alpes: <i>what is published</i>", html="""<ul>
 <li><b>A kosher summer season.</b> AFP (Sud Radio, 23 August 2026) reports that Orthodox Jewish families have come to Les Deux Alpes in summer for decades, and that a Beth Loubavitch seminar of several hundred people, held over three weeks, moves between Alpine resorts.</li>
-<li><b>Shops and food.</b> The same article places a kosher supermarket in the resort (photographed on 19 August 2026), kosher restaurants, and a kosher crêpe and ice-cream stand. Opening dates outside August are not published.</li>
+
 <li><b>Whole hotels.</b> The article says kosher organisations often rent entire hotels in the Alpine resorts for the summer. No hotel or programme is named for Les Deux Alpes.</li>
 <li><b>Winter programmes.</b> No kosher hotel or winter programme for Les Deux Alpes appeared in the sources we read (8 October 2026). Not published.</li>
 </ul>

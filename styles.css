@@ -1065,7 +1065,8 @@ body.menu-ouvert{overflow:hidden}
 @media (min-width:900px){.pied .cols{grid-template-columns:repeat(5,1fr)}}
 .lead-plan{margin:18px 0 0;text-align:center}
 .lead-plan a{color:var(--creme);font-weight:600;font-size:16px;text-decoration:underline;text-underline-offset:3px}
-/* ===/MENU=== *//* ===MOBILE=== */
+/* ===/MENU=== */
+/* ===MOBILE=== */
 #chercheur{gap:12px;padding:16px}
 #chercheur label{border:0;border-radius:0;padding:0;display:grid;gap:5px;min-width:0}
 #chercheur label span{opacity:.8}
