@@ -1200,3 +1200,19 @@ html.anim-vis-on{overflow:hidden}
   @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
 }
 /* ===/ANIMATIONS=== */
+/* ===ACCUEIL-MOBILE-15-10=== */
+/* Accueil sur telephone (Moshe 15/10 : « plus joli », priorite au telephone) : plus de bandes creme vides entre les sections beiges,
+   la photo du chalet visible derriere le titre, le logo Winter Prestige en badge sur la photo, rythme plus serre. */
+@media (max-width:699px){
+  body:has(.ac-hero) .ss.beige{margin-top:0;padding:44px 0 48px}
+  body:has(.ac-hero) .ss.beige + .ss.beige{border-top:1px solid rgba(28,27,31,.08)}
+  body:has(.ac-hero) .ss.ac-chalet{margin-top:44px;margin-bottom:48px}
+  body:has(.ac-hero) .ticket-zone{margin-top:40px}
+  .ac-hero::before{background:linear-gradient(180deg,rgba(20,19,22,.62) 0%,rgba(20,19,22,.28) 42%,rgba(20,19,22,.55) 100%)}
+  .ac-hero .hero-texte > p{display:none}
+  .ac-hero h1{font-size:33px;line-height:1.08;margin-bottom:18px}
+  .ac-hero h1 i{font-size:21px;line-height:1.25;display:block;margin-top:10px}
+  .ac-chalet{position:relative}
+  .ac-chalet > .ac-wp{position:absolute;z-index:2;top:12px;inset-inline-start:12px;width:148px;margin:0;padding:8px 10px;border-radius:10px;background:var(--creme);box-shadow:0 2px 10px rgba(28,27,31,.18)}
+}
+/* ===/ACCUEIL-MOBILE-15-10=== */
