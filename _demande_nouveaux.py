@@ -181,6 +181,27 @@ NEW.update({
 "Sending…": ("Envoi…", "Enviando…", "שולחים…"),
 })
 
+# premier ecran (15/10) : hero, pastilles, question 1
+NEW.update({
+"Plan your": ("Préparez votre", "Planifique su", "תכננו"),
+"kosher trip": ("séjour casher", "viaje kosher", "חופשה כשרה"),
+"Answer a few questions. We send you a day-by-day programme with the price.": ("Répondez à quelques questions. Nous vous envoyons un programme jour par jour avec le prix.", "Responda unas pocas preguntas. Le enviamos un programa día por día con el precio.", "ענו על כמה שאלות. אנחנו שולחים לכם תוכנית מפורטת יום אחר יום, עם המחיר."),
+"Free": ("Gratuit", "Gratis", "חינם"),
+"No commitment": ("Sans engagement", "Sin compromiso", "ללא התחייבות"),
+"Reply within one business day": ("Réponse sous un jour ouvré", "Respuesta en un día hábil", "מענה תוך יום עסקים"),
+"A few minutes": ("Quelques minutes", "Unos minutos", "כמה דקות"),
+"Question 1": ("Question 1", "Pregunta 1", "שאלה 1"),
+"Chalet, chef, Shabbat, minyan": ("Chalet, chef, Shabbat, minyan", "Chalé, chef, Shabat, minyan", "צ'אלה, שף, שבת, מניין"),
+"I already have my place": ("J'ai déjà mon logement", "Ya tengo mi alojamiento", "כבר יש לנו לינה"),
+"Minyan, meals, Sefer Torah": ("Minyan, repas, Sefer Torah", "Minyan, comidas, Séfer Torá", "מניין, ארוחות, ספר תורה"),
+"A full holiday programme": ("Un programme complet pour la fête", "Un programa completo para la fiesta", "תוכנית מלאה לחג"),
+"Guided, 2.5 hours": ("Visite guidée, 2 h 30", "Visita guiada, 2,5 horas", "סיור מודרך, שעתיים וחצי"),
+"From A to B, with a driver": ("De A à B, avec chauffeur", "De A a B, con conductor", "מנקודה א׳ לנקודה ב׳, עם נהג"),
+"Tell us in your words": ("Dites-le avec vos mots", "Cuéntenos con sus palabras", "ספרו לנו במילים שלכם"),
+"Prefer to talk?": ("Vous préférez parler ?", "¿Prefiere hablar?", "מעדיפים לדבר?"),
+"Message us on WhatsApp": ("Écrivez-nous sur WhatsApp", "Escríbanos por WhatsApp", "כתבו לנו בוואטסאפ"),
+})
+
 LANGS = ("en", "fr", "es", "he")
 
 def t(en, lang):

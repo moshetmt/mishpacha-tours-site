@@ -5,7 +5,7 @@
    Envoi vers le meme Apps Script que les autres formulaires, MEMES champs et MEME format qu'avant (le 13/10) :
    colonnes tour / dates / personnes / langue / nom / contact, tout le reste concatene dans `message`.
    Les textes viennent de _demande_textes.py (page du 13/10, relue en 4 langues) et _demande_nouveaux.py (textes de l'11/10 : etapes).
-   Les copies traduites gardent leur hero et leur pied ; seuls la section du formulaire et son script sont remplaces."""
+   Les copies traduites gardent leur pied ; le hero (15/10), la section du formulaire et son script sont remplaces."""
 from _head import head_page, webpage, crumbs, BASE
 from _demande_nouveaux import t, LAB, LAB_NEW, JSX
 import re, os, json, html, io
@@ -32,16 +32,19 @@ h = re.sub(r"<title>.*?</title>", "<title>" + TITLE + "</title>", h)
 h = re.sub(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{DESC}">', h)
 h = head_page(h, P, TITLE.split(" | ")[0], DESC, [webpage(P, TITLE.split(" | ")[0], DESC), crumbs([("Plan your trip", P)])])
 
-HERO_EN = '''<main>
-<section class="pratique-hero"><div class="wrap">
-  <p class="fil"><a href="../">Home</a> / Plan your trip</p>
-  <div class="pratique-tete"><div><h1>Plan your <i>kosher trip</i></h1>
-  <p class="intro-fiche">One form for everything: a stay in the Alps, a tour of Lyon, or both. Fill in what you know and skip the rest. You receive a day-by-day programme with the price, usually within one business day, never on Shabbat.</p>
-  <p class="intro-fiche"><b>In a hurry?</b> <a href="https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20a%20kosher%20trip.%20Dates%3A%20%2F%20Adults%3A%20%2F%20Children%3A" rel="noopener">Message us on WhatsApp</a> and we ask the questions ourselves.</p></div>
-  <img class="hassid-grand" src="../img/picto-hassid.svg" alt="" width="68" height="95"></div>
-</div></section>
-
-'''
+FIL = {"en": ('<a href="../">Home</a>', "Plan your trip"), "fr": ('<a href="/fr/">Accueil</a>', "Préparer votre voyage"),
+       "es": ('<a href="/es/">Inicio</a>', "Planifique su viaje"), "he": ('<a href="/he/">ראשי</a>', "תכננו את הטיול")}
+CHECK = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg>'
+def hero(lang):
+    T = lambda s: html.escape(t(s, lang), quote=True)
+    home, cur = FIL[lang]
+    puces = "".join(f"<li>{CHECK}{T(x)}</li>" for x in ["Free", "No commitment", "Reply within one business day", "A few minutes"])
+    return ('<section class="pratique-hero demande-hero"><div class="wrap">\n'
+            f'  <p class="fil">{home} / {cur}</p>\n'
+            f'  <h1>{T("Plan your")} <span>{T("kosher trip")}</span></h1>\n'
+            f'  <p class="dm-promesse">{T("Answer a few questions. We send you a day-by-day programme with the price.")}</p>\n'
+            f'  <ul class="dm-puces">{puces}</ul>\n'
+            '</div></section>')
 
 # ---------------------------------------------------------------- le formulaire, par langue
 # Branches : a sejour complet, b j'ai deja mon logement, c van, d Lyon, e fete, f autre
@@ -80,7 +83,7 @@ def formulaire(lang):
         for o in opts:
             en, ob, k = (o, "", "") if isinstance(o, str) else (o + ("", ""))[:3]
             kk = f' data-k="{k}"' if k else ""
-            out.append(f'<label{battr(ob)}><input type="{typ}" name="{name}" value="{E(en)}"{kk}><span>{COCHE}{E(en)}</span></label>')
+            out.append(f'<label{battr(ob)}><input type="{typ}" name="{name}" value="{E(en)}" data-en="{esc(en)}"{kk}><span>{COCHE}{E(en)}</span></label>')
         return f'<div class="dm-chips"{battr(b)}>' + "".join(out) + "</div>"
     def champ(id_, name, label, typ="text", ph="", b="", extra=""):
         phh = f' placeholder="{E(ph)}"' if ph else ""
@@ -95,30 +98,31 @@ def formulaire(lang):
     def ages(name, label, ph):
         return (f'<div class="dm-champ dm-ages cache" data-for="{name}"><label for="c-{name}_ages">{E(label)}</label>'
                 f'<input type="text" id="c-{name}_ages" name="{name}_ages" placeholder="{E(ph)}"></div>')
-    def etape(id_, titres, aide, corps, cls="", deco="", deco_t=""):
+    def etape(id_, titres, aide, corps, cls="", deco="", deco_t="", sur=""):
         """titres : texte EN, ou liste de (texte EN, branches)."""
         if isinstance(titres, str): titres = [(titres, "")]
         hs = "".join(f'<h2 tabindex="-1"{battr(b)}>{E(x)}{deco_t}</h2>' for x, b in titres)
         if isinstance(aide, str): aide = [(aide, "")]
         ps = "".join(f'<p{battr(b)}>{E(x)}</p>' for x, b in aide)
-        return f'<div class="dm-bloc etape {cls}" id="e-{id_}" data-e="{id_}" role="group"><div class="dm-tete">{hs}{ps}{deco}</div>{corps}</div>\n'
+        su = f'<p class="dm-sur">{E(sur)}</p>' if sur else ""
+        return f'<div class="dm-bloc etape {cls}" id="e-{id_}" data-e="{id_}" role="group"><div class="dm-tete">{su}{hs}{ps}{deco}</div>{corps}</div>\n'
 
     # ---- intention : grosses tuiles
     def tuile(val, icone, titre, sous, voyage):
         return (f'<label class="dm-tuile"><input type="radio" name="intention" value="{val}" data-voyage="{E(voyage)}">'
-                f'<img src="{IMG}des/{icone}.webp" alt="" width="64" height="64" loading="lazy"><b>{E(titre)}</b><span>{E(sous)}</span></label>')
+                f'<img src="{IMG}des/{icone}.webp" alt="" width="44" height="44" loading="lazy"><b>{E(titre)}</b><span>{E(sous)}</span></label>')
     tuiles = '<div class="dm-tuiles">' + "".join([
-        tuile("a", "mountain-snow", "A full stay in the Alps", "Chalet, chef, Shabbat, minyan and transfers, all organised.", "A full stay in the Alps"),
-        tuile("b", "house", "I already have my accommodation", "Minyan, Sefer Torah, Shabbat and meals where you stay.", "Services where we already stay (minyan, Sefer Torah, meals)"),
-        tuile("c", "car", "A van transfer", "From point A to point B, with a driver.", "Van transfer, point A to point B"),
-        tuile("d", "landmark", "A Jewish Lyon tour", "A guided walk in English, French or Spanish.", "Jewish Lyon tour"),
-        tuile("e", "sparkles", "Pesach or a holiday", "A full programme for the holiday, at the kosher standard you keep.", "Holiday programme (Pesach or other)"),
-        tuile("f", "message-circle", "Something else", "Tell us in your own words.", "Something else"),
+        tuile("a", "mountain-snow", "A full stay in the Alps", "Chalet, chef, Shabbat, minyan", "A full stay in the Alps"),
+        tuile("b", "house", "I already have my place", "Minyan, meals, Sefer Torah", "Services where we already stay (minyan, Sefer Torah, meals)"),
+        tuile("e", "sparkles", "Pesach or a holiday", "A full holiday programme", "Holiday programme (Pesach or other)"),
+        tuile("d", "landmark", "A Jewish Lyon tour", "Guided, 2.5 hours", "Jewish Lyon tour"),
+        tuile("c", "car", "A van transfer", "From A to B, with a driver", "Van transfer, point A to point B"),
+        tuile("f", "message-circle", "Something else", "Tell us in your words", "Something else"),
     ]) + "</div>"
-    hassid = f'<img class="dm-hassid" src="{IMG}picto-hassid-vert.svg" alt="" width="200" height="200">'
+    wa_q1 = f'<p class="dm-wa">{E("Prefer to talk?")} <a href="{JSX[lang]["wa"]}" rel="noopener">{E("Message us on WhatsApp")}</a></p>'
     S = []
-    S.append(etape("intention", "What can we do for you?", "Pick the closest one. The next questions depend on it.",
-                   '<div class="dm-accueil">' + tuiles + hassid + "</div>", "dm-intention"))
+    S.append(etape("intention", "What can we do for you?", [],
+                   tuiles + wa_q1, "dm-intention", sur="Question 1"))
     # ---- a : sejour complet
     S.append(etape("quoi", "What kind of stay, and where?", "Tick everything that applies. A region is enough.",
                    chips("voyage", ["Ski holiday with a chalet", "Hanukkah in the Alps", "Pesach in the Alps", ("Summer in the Alps", "", "summer"), "Something else"]) +
@@ -243,6 +247,7 @@ var etapes=[].slice.call(f.querySelectorAll('.etape'));
 var prog=document.getElementById('dm-prog'),barre=document.getElementById('dm-barre'),barreC=document.getElementById('dm-barre-c'),ptxt=document.getElementById('dm-prog-txt');
 var bBack=document.getElementById('dm-back'),bNext=document.getElementById('dm-next'),bSend=document.getElementById('dm-send'),petit=document.getElementById('dm-petit');
 var cur='intention',ret='',lastPc=-1,sent=false;
+var dl=window.dataLayer=window.dataLayer||[];
 var piste=document.getElementById('dm-piste'),mx=document.getElementById('dm-max'),nuitsP=document.getElementById('dm-nuits'),dateErr=document.getElementById('dm-date-err');
 function mo(){return !!(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: no-preference)').matches)}
 function anim(el,cls){if(!el||!mo())return;el.classList.remove(cls);void el.offsetWidth;el.classList.add(cls);
@@ -292,7 +297,7 @@ function nights(){var a=dnum(raw('arrivee')),d=dnum(raw('depart'));return a!==nu
 function render(an){var p=sync();if(p.indexOf(cur)<0)cur='intention';
  etapes.forEach(function(e){e.hidden=e.getAttribute('data-e')!==cur});
  var i=p.indexOf(cur),last=cur==='final',b=branch();
- bBack.hidden=i<=0;bNext.hidden=last;bSend.hidden=!last;petit.hidden=!last;var nn=cur==='dates'?nights():null,bad=nn!==null&&nn<0;
+ bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;var nn=cur==='dates'?nights():null,bad=nn!==null&&nn<0;
  nuitsP.hidden=!(nn!==null&&nn>=1);if(!nuitsP.hidden)nuitsP.textContent=nn===1?C.t.nuit:C.t.nuits.replace('{n}',nn);dateErr.hidden=!bad;
  bNext.disabled=(cur==='intention'&&!b)||(cur==='budget'&&!raw('budget'))||bad;
  prog.hidden=p.length<2;ptxt.textContent=C.t.step.replace('{n}',i+1).replace('{t}',p.length);
@@ -304,6 +309,7 @@ function show(id,push,focus){var p=sync();if(p.indexOf(id)<0)id='intention';
  var oi=p.indexOf(cur),ni=p.indexOf(id);if(mo()&&oi>=0&&id!==cur)f.setAttribute('data-dir',ni<oi?'back':'fwd');else f.removeAttribute('data-dir');
  cur=id;if(id==='final')ret='';
  render(true);
+ dl.push({event:'form_step',step:cur,step_index:p.indexOf(cur)+1,branch:branch()});
  if(push){try{history.pushState({e:cur},'','#e-'+cur)}catch(x){}}
  if(focus){var h=document.querySelector('.etape[data-e="'+cur+'"] h2:not([hidden])');if(h)h.focus({preventScroll:true});
   var r=f.getBoundingClientRect();if(r.top<0||r.top>200)window.scrollTo({top:window.pageYOffset+r.top-90,behavior:'smooth'})}}
@@ -325,7 +331,7 @@ function onchg(ev){var t=ev.target;
  if(ev.type==='change'&&t.checked&&(t.type==='checkbox'||t.type==='radio')){var lb=t.closest('label');
   if(lb&&lb.classList.contains('dm-tuile'))anim(lb,'dm-anim');else if(lb&&lb.parentNode.classList.contains('dm-chips'))anim(lb,'dm-anim')}
  render();
- if(ev.type==='change'&&t.name==='intention'){setTimeout(next,mo()?420:220)}}
+ if(ev.type==='change'&&t.name==='intention'){dl.push({event:'form_start',branch:t.value});setTimeout(next,mo()?420:220)}}
 f.addEventListener('change',onchg);f.addEventListener('input',onchg);
 window.addEventListener('popstate',function(ev){var id=ev.state&&ev.state.e;show(id||'intention',false,true)});
 f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
@@ -339,11 +345,24 @@ f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  var payload=JSON.stringify({tour:C.k.tour+(val('voyage')||C.k.none),dates:dates,personnes:pers,langue:val('langue'),nom:nom,contact:(ind+' '+tel.replace(/[^0-9]/g,'')).trim()+(val('email')?' / '+val('email'):''),message:parts.join(' | '),page:location.pathname,params:location.search});
  try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}
  try{sessionStorage.removeItem(KEY)}catch(e){}
+ dl.push({event:'generate_lead',branch:branch(),budget:val('budget')});
  sent=true;
  if(mo()){bSend.disabled=true;bSend.textContent='';var im=new Image();im.src=C.img+'picto-hassid-vert.svg';im.alt='';im.width=22;im.height=30;im.className='dm-marche';
   bSend.appendChild(im);bSend.appendChild(document.createTextNode(' '+C.t.sending));setTimeout(function(){location.href=C.merci},600)}
  else location.href=C.merci});
-load();f.classList.add('js');show(cur,false,false);try{history.replaceState({e:cur},'')}catch(x){}
+function prefill(){var q;try{q=new URLSearchParams(location.search)}catch(x){return}
+ function s(k){var v=q.get(k);return v?v.replace(/[\u0000-\u001f<>]/g,'').trim().slice(0,80):''}
+ function n(k){var v=(q.get(k)||'').trim();return /^\d{1,2}$/.test(v)?parseInt(v,10):null}
+ function d(k){var v=s(k),m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(v);if(!m)return '';var x=new Date(Date.UTC(+m[1],+m[2]-1,+m[3]));
+  return x.getUTCFullYear()===+m[1]&&x.getUTCMonth()===+m[2]-1&&x.getUTCDate()===+m[3]?v:''}
+ function fill(name,v){ctrls.forEach(function(e){if(e.name===name)e.value=v})}
+ var i=s('i').toLowerCase(),r=/^[a-f]$/.test(i)?ctrls.filter(function(e){return e.name==='intention'&&e.value===i})[0]:null;
+ if(r){r.checked=true;cur=path()[1]||'intention';dl.push({event:'form_start',branch:i})}
+ var l=s('lieu');if(l)fill('lieu',l);
+ var a=d('arrivee'),b=d('depart');if(a)fill('arrivee',a);if(b)fill('depart',b);if(a)ctrls.forEach(function(e){if(e.name==='depart')e.min=a});
+ ['adultes','enfants','bebes'].forEach(function(k){var v=n(k);if(v!==null)fill(k,String(v))});
+ var vy=s('voyage').toLowerCase();if(vy)ctrls.forEach(function(e){if(e.name==='voyage'&&(e.getAttribute('data-en')||e.value).toLowerCase()===vy)e.checked=true})}
+load();prefill();f.classList.add('js');show(cur,false,false);try{history.replaceState({e:cur},'')}catch(x){}
 })();
 </script>'''
 
@@ -383,15 +402,29 @@ CSS = CSS_A + """
 .etape > * + *{margin-top:16px}
 .dm-noscript{padding:14px 18px;border-radius:15px;background:var(--jaune);font-weight:600}
 .dm-sous{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;margin:6px 0 -6px}
-.dm-accueil{display:grid;gap:22px;align-items:center}
-.dm-tuiles{display:grid;gap:12px}
-.dm-tuile{position:relative;display:grid;grid-template-columns:64px 1fr;gap:2px 16px;align-items:center;min-height:88px;padding:14px 18px;border-radius:15px;border:1px solid rgba(28,27,31,.25);background:var(--creme);cursor:pointer}
+.dm-intention{background:var(--blanc);border-radius:18px;padding:16px 14px 14px}
+.dm-intention > .dm-tete{margin-bottom:12px}
+.dm-sur{margin:0;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--vert);opacity:1}
+.etape > .dm-tete p.dm-sur{margin-top:0;font-size:12px;opacity:1}
+.dm-intention > .dm-tete h2{margin:4px 0 0;font-family:var(--titre);font-weight:700;font-size:23px;line-height:1.15}
+.dm-tuiles{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.dm-tuile{position:relative;display:grid;gap:3px;align-content:start;min-height:112px;padding:10px 12px;border-radius:14px;border:1px solid rgba(28,27,31,.2);background:var(--creme);cursor:pointer}
 .dm-tuile input{position:absolute;opacity:0;width:0;height:0}
-.dm-tuile img{grid-row:1 / span 2;width:64px;height:64px;object-fit:contain}
-.dm-tuile b{font-family:var(--titre);font-weight:400;font-size:20px;line-height:1.2;align-self:end}
-.dm-tuile span{font-size:14px;line-height:1.35;opacity:.75;align-self:start}
+.dm-tuile img{width:44px;height:44px;object-fit:contain}
+.dm-tuile b{font-weight:700;font-size:15px;line-height:1.2}
+.dm-tuile span{font-size:12.5px;line-height:1.3;opacity:.7}
 .dm-tuile:has(input:checked){background:var(--jaune);border-color:var(--jaune)}
 .dm-tuile:has(input:focus-visible){outline:3px solid var(--vert-c);outline-offset:2px}
+.dm-wa{margin:14px 0 4px;text-align:center;font-size:14px}
+.dm-wa a{color:var(--encre);font-weight:600}
+.demande-hero{padding:14px 0 0}
+.demande-hero ~ .ss.demande{margin-top:16px;padding-top:0}
+.demande-hero h1{margin:6px 0 0;font-family:var(--titre);font-weight:700;font-size:36px;line-height:1.05;letter-spacing:-.01em}
+.demande-hero h1 span{color:var(--vert)}
+.dm-promesse{margin:10px 0 0;font-size:16px;line-height:1.45;max-width:36em}
+.dm-puces{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0;padding:0;list-style:none}
+.dm-puces li{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;background:var(--beige);border-radius:999px;padding:5px 10px}
+.dm-puces svg{width:14px;height:14px;fill:none;stroke:var(--vert);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
 .dm-hassid{display:block;width:200px;height:auto;margin:0 auto}
 .dm-cpt{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:8px 0;border-bottom:1px solid rgba(28,27,31,.1)}
 .dm-cpt .lib{font-weight:600;font-size:16px;line-height:1.3}
@@ -418,6 +451,7 @@ CSS = CSS_A + """
 .dm-nav .btn-noir{min-height:54px;padding:0 36px;font-size:16px;margin-inline-start:auto}
 .dm-nav .btn-noir:disabled{opacity:.35;cursor:default}
 .dm-nav [hidden]{display:none!important}
+.demande form.js .dm-nav[hidden]{display:none}
 .dm-petit{max-width:760px;margin:80px auto 0;text-align:center;font-size:13px;opacity:.7}
 .demande{padding-bottom:80px}
 .dm-note{font-size:14px;line-height:1.45;padding:12px 16px;border-radius:15px;background:var(--creme);border:1px solid rgba(28,27,31,.15)}
@@ -494,12 +528,34 @@ CSS = CSS_A + """
   @keyframes dm-danse-rtl{0%,100%{transform:scaleX(-1) rotate(0) translateY(0)}25%{transform:scaleX(-1) rotate(-6deg) translateY(-6px)}50%{transform:scaleX(-1) rotate(0) translateY(0)}75%{transform:scaleX(-1) rotate(6deg) translateY(-6px)}}
 }
 @media (min-width:700px){
-  .dm-accueil{grid-template-columns:1fr 200px;gap:30px}
-  .dm-intention .dm-tuiles{grid-column:1}
-  .dm-intention .dm-hassid{grid-column:2;grid-row:1;align-self:end}
+  .demande-hero{padding-top:24px}
+  .demande-hero ~ .ss.demande{margin-top:28px}
+  .demande-hero ~ .ss.demande form{margin-inline:0}
+  .demande-hero h1{font-size:48px}
+  .dm-promesse{font-size:19px}
+  .dm-intention{padding:24px 24px 20px}
+  .dm-intention > .dm-tete h2{font-size:28px}
+  .dm-tuile{min-height:128px;padding:16px;gap:6px}
+  .dm-tuile b{font-size:17px}
+  .dm-tuile span{font-size:14px}
   .dm-recap{grid-template-columns:200px 1fr;gap:28px}
 }
-""" + CSS_Z
+@media (min-width:900px){
+  .dm-tuiles{grid-template-columns:repeat(3,1fr);gap:12px}
+}
+@media (max-width:699px){
+  /* telephone (Moshe, 15/10 : « il faut scroller pour l'utiliser ») : en-tete reduit, progression en haut, Retour et Suivant toujours sous le pouce */
+  body:has(#formDemande) .pratique-hero{padding-bottom:0}
+  .demande form.js .dm-prog{position:sticky;top:0;z-index:19;background:var(--creme);padding:10px 0 8px;margin:0 -16px;padding-inline:16px}
+  .demande form.js .dm-nav{position:sticky;bottom:0;z-index:20;margin:20px -16px 0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:var(--creme);border-top:1px solid rgba(28,27,31,.12)}
+  .dm-nav .btn-noir,.dm-retour{min-height:52px}
+  .dm-nav .btn-noir{flex:1;padding:0 20px}
+  .dm-petit{margin-top:16px}
+  .etape > .dm-tete{margin-bottom:14px}
+  .etape > .dm-tete h2{font-size:23px}
+  body:has(#formDemande) .wa-flottant{display:none!important}
+  .demande{padding-bottom:24px}
+}""" + CSS_Z
 
 def update_css():
     c = open("styles.css", encoding="utf-8").read()
@@ -526,11 +582,13 @@ if __name__ == "__main__":
     f = rel(foot).replace("document.getElementById('chercheur').addEventListener", "document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")
     f = f.replace('<script src="/config.js"></script>', '<script src="/config.js"></script>\n' + js("en"), 1)
     os.makedirs("plan-your-trip", exist_ok=True)
-    io.open("plan-your-trip/index.html", "w", encoding="utf-8", newline="\n").write(h + HERO_EN + formulaire("en") + "\n</main>" + f)
+    io.open("plan-your-trip/index.html", "w", encoding="utf-8", newline="\n").write(h + "<main>\n" + hero("en") + "\n\n" + formulaire("en") + "\n</main>" + f)
     print("ok plan-your-trip")
     for lang in ("fr", "es", "he"):
         p = f"{lang}/plan-your-trip/index.html"
         s = io.open(p, encoding="utf-8").read()
+        a = s.index('<section class="pratique-hero'); b = s.index("</section>", a) + len("</section>")
+        s = s[:a] + hero(lang) + s[b:]
         a = s.index('<section class="ss wrap demande" id="demande">'); b = s.index("</section>", a) + len("</section>")
         s = s[:a] + formulaire(lang) + s[b:]
         s, n = re.subn(r"<script>\n\(function\(\)\{var f=document.getElementById\('formDemande'\);if\(!f\)return;.*?</script>", lambda m: js(lang), s, count=1, flags=re.S)

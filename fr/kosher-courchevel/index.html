@@ -180,5 +180,5 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
 <a class="wa-flottant" href="https://wa.me/33652092301?text=Bonjour%2C%20nous%20partons%20%C3%A0%20Courchevel.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
-</body>
+<script src="/js/anim.js" defer></script></body>
 </html>

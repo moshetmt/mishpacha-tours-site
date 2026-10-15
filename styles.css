@@ -849,15 +849,29 @@ body.menu-ouvert{overflow:hidden}
 .etape > * + *{margin-top:16px}
 .dm-noscript{padding:14px 18px;border-radius:15px;background:var(--jaune);font-weight:600}
 .dm-sous{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;margin:6px 0 -6px}
-.dm-accueil{display:grid;gap:22px;align-items:center}
-.dm-tuiles{display:grid;gap:12px}
-.dm-tuile{position:relative;display:grid;grid-template-columns:64px 1fr;gap:2px 16px;align-items:center;min-height:88px;padding:14px 18px;border-radius:15px;border:1px solid rgba(28,27,31,.25);background:var(--creme);cursor:pointer}
+.dm-intention{background:var(--blanc);border-radius:18px;padding:16px 14px 14px}
+.dm-intention > .dm-tete{margin-bottom:12px}
+.dm-sur{margin:0;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--vert);opacity:1}
+.etape > .dm-tete p.dm-sur{margin-top:0;font-size:12px;opacity:1}
+.dm-intention > .dm-tete h2{margin:4px 0 0;font-family:var(--titre);font-weight:700;font-size:23px;line-height:1.15}
+.dm-tuiles{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.dm-tuile{position:relative;display:grid;gap:3px;align-content:start;min-height:112px;padding:10px 12px;border-radius:14px;border:1px solid rgba(28,27,31,.2);background:var(--creme);cursor:pointer}
 .dm-tuile input{position:absolute;opacity:0;width:0;height:0}
-.dm-tuile img{grid-row:1 / span 2;width:64px;height:64px;object-fit:contain}
-.dm-tuile b{font-family:var(--titre);font-weight:400;font-size:20px;line-height:1.2;align-self:end}
-.dm-tuile span{font-size:14px;line-height:1.35;opacity:.75;align-self:start}
+.dm-tuile img{width:44px;height:44px;object-fit:contain}
+.dm-tuile b{font-weight:700;font-size:15px;line-height:1.2}
+.dm-tuile span{font-size:12.5px;line-height:1.3;opacity:.7}
 .dm-tuile:has(input:checked){background:var(--jaune);border-color:var(--jaune)}
 .dm-tuile:has(input:focus-visible){outline:3px solid var(--vert-c);outline-offset:2px}
+.dm-wa{margin:14px 0 4px;text-align:center;font-size:14px}
+.dm-wa a{color:var(--encre);font-weight:600}
+.demande-hero{padding:14px 0 0}
+.demande-hero ~ .ss.demande{margin-top:16px;padding-top:0}
+.demande-hero h1{margin:6px 0 0;font-family:var(--titre);font-weight:700;font-size:36px;line-height:1.05;letter-spacing:-.01em}
+.demande-hero h1 span{color:var(--vert)}
+.dm-promesse{margin:10px 0 0;font-size:16px;line-height:1.45;max-width:36em}
+.dm-puces{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0;padding:0;list-style:none}
+.dm-puces li{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;background:var(--beige);border-radius:999px;padding:5px 10px}
+.dm-puces svg{width:14px;height:14px;fill:none;stroke:var(--vert);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
 .dm-hassid{display:block;width:200px;height:auto;margin:0 auto}
 .dm-cpt{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:8px 0;border-bottom:1px solid rgba(28,27,31,.1)}
 .dm-cpt .lib{font-weight:600;font-size:16px;line-height:1.3}
@@ -884,6 +898,7 @@ body.menu-ouvert{overflow:hidden}
 .dm-nav .btn-noir{min-height:54px;padding:0 36px;font-size:16px;margin-inline-start:auto}
 .dm-nav .btn-noir:disabled{opacity:.35;cursor:default}
 .dm-nav [hidden]{display:none!important}
+.demande form.js .dm-nav[hidden]{display:none}
 .dm-petit{max-width:760px;margin:80px auto 0;text-align:center;font-size:13px;opacity:.7}
 .demande{padding-bottom:80px}
 .dm-note{font-size:14px;line-height:1.45;padding:12px 16px;border-radius:15px;background:var(--creme);border:1px solid rgba(28,27,31,.15)}
@@ -960,9 +975,121 @@ body.menu-ouvert{overflow:hidden}
   @keyframes dm-danse-rtl{0%,100%{transform:scaleX(-1) rotate(0) translateY(0)}25%{transform:scaleX(-1) rotate(-6deg) translateY(-6px)}50%{transform:scaleX(-1) rotate(0) translateY(0)}75%{transform:scaleX(-1) rotate(6deg) translateY(-6px)}}
 }
 @media (min-width:700px){
-  .dm-accueil{grid-template-columns:1fr 200px;gap:30px}
-  .dm-intention .dm-tuiles{grid-column:1}
-  .dm-intention .dm-hassid{grid-column:2;grid-row:1;align-self:end}
+  .demande-hero{padding-top:24px}
+  .demande-hero ~ .ss.demande{margin-top:28px}
+  .demande-hero ~ .ss.demande form{margin-inline:0}
+  .demande-hero h1{font-size:48px}
+  .dm-promesse{font-size:19px}
+  .dm-intention{padding:24px 24px 20px}
+  .dm-intention > .dm-tete h2{font-size:28px}
+  .dm-tuile{min-height:128px;padding:16px;gap:6px}
+  .dm-tuile b{font-size:17px}
+  .dm-tuile span{font-size:14px}
   .dm-recap{grid-template-columns:200px 1fr;gap:28px}
 }
-/* ===/DEMANDE-ETAPES=== */
+@media (min-width:900px){
+  .dm-tuiles{grid-template-columns:repeat(3,1fr);gap:12px}
+}
+@media (max-width:699px){
+  /* telephone (Moshe, 15/10 : « il faut scroller pour l'utiliser ») : en-tete reduit, progression en haut, Retour et Suivant toujours sous le pouce */
+  body:has(#formDemande) .pratique-hero{padding-bottom:0}
+  .demande form.js .dm-prog{position:sticky;top:0;z-index:19;background:var(--creme);padding:10px 0 8px;margin:0 -16px;padding-inline:16px}
+  .demande form.js .dm-nav{position:sticky;bottom:0;z-index:20;margin:20px -16px 0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:var(--creme);border-top:1px solid rgba(28,27,31,.12)}
+  .dm-nav .btn-noir,.dm-retour{min-height:52px}
+  .dm-nav .btn-noir{flex:1;padding:0 20px}
+  .dm-petit{margin-top:16px}
+  .etape > .dm-tete{margin-bottom:14px}
+  .etape > .dm-tete h2{font-size:23px}
+  body:has(#formDemande) .wa-flottant{display:none!important}
+  .demande{padding-bottom:24px}
+}/* ===/DEMANDE-ETAPES=== */
+/* ===ANIMATIONS=== */
+:root{--ease-out:cubic-bezier(0.23,1,0.32,1);--ease-drawer:cubic-bezier(0.32,0.72,0,1)}
+/* ---- structure sans mouvement : les trois traits du menu (memes positions qu'avant) ---- */
+.nav .menu{position:relative}
+.nav .menu span{background:none;box-shadow:none;position:relative}
+.nav .menu::before,.nav .menu span::before,.nav .menu span::after{content:"";position:absolute;width:16px;height:2px;background:var(--encre)}
+.nav .menu::before{left:11px;top:18px}
+.nav .menu span::before{left:0;top:-5px}
+.nav .menu span::after{left:0;top:5px}
+.nav .menu[aria-expanded="true"]::before{opacity:0}
+.nav .menu[aria-expanded="true"] span::before{transform:translateY(5px) rotate(45deg)}
+.nav .menu[aria-expanded="true"] span::after{transform:translateY(-5px) rotate(-45deg)}
+/* ---- galerie du chalet ---- */
+.anim-zoom{cursor:zoom-in}
+.anim-carte-lien{cursor:pointer}
+html.anim-vis-on{overflow:hidden}
+.anim-vis{position:fixed;inset:0;z-index:100;direction:ltr;touch-action:none;color:#fff;font-family:inherit}
+.anim-vis[hidden]{display:none}
+.anim-vis-fond{position:absolute;inset:0;background:rgba(14,13,16,.97)}
+.anim-vis-piste{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
+.anim-vis-s{position:absolute;inset:0;display:grid;place-items:center;will-change:transform}
+.anim-vis-s img{display:block;max-width:none;user-select:none;-webkit-user-drag:none;pointer-events:none}
+.anim-vis button{position:absolute;display:grid;place-items:center;width:48px;height:48px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;cursor:pointer;padding:0}
+.anim-vis button svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.anim-vis-x{top:max(12px,env(safe-area-inset-top));right:12px}
+.anim-vis-g,.anim-vis-d{top:50%;margin-top:-24px;display:none!important}
+.anim-vis-g{left:16px}.anim-vis-d{right:16px}
+@media (hover:hover) and (pointer:fine){.anim-vis-g,.anim-vis-d{display:grid!important}}
+.anim-vis button[aria-disabled="true"]{opacity:.25;cursor:default}
+.anim-vis-cpt{position:absolute;left:0;right:0;bottom:max(18px,env(safe-area-inset-bottom));text-align:center;font-size:15px;font-weight:600;letter-spacing:.04em;pointer-events:none}
+/* ---- etapes de l'accueil : le trait qui relie (visible par defaut) ---- */
+#how.etapes ol li{position:relative}
+#how.etapes ol li:not(:last-child)::after{content:"";position:absolute;pointer-events:none;inset-inline-start:50%;top:calc(100% + 6px);height:28px;border-inline-start:2px dashed rgba(28,27,31,.3);transform-origin:50% 0}
+@media (min-width:900px){
+  #how.etapes ol li:not(:last-child)::after{inset-inline-start:calc(50% + 83px);top:75px;height:0;width:calc(100% - 126px);border-inline-start:0;border-top:2px dashed rgba(28,27,31,.3);transform-origin:0 50%}
+  [dir=rtl] #how.etapes ol li:not(:last-child)::after{transform-origin:100% 50%}
+}
+/* ---- flocons ---- */
+.anim-neige{position:absolute;inset:0;z-index:1;overflow:hidden;pointer-events:none}
+.anim-neige i{position:absolute;top:0;left:var(--x);width:var(--s);height:var(--s);margin-top:calc(var(--s) * -2);border-radius:50%;background:#fff;opacity:0}
+
+@media (prefers-reduced-motion: no-preference){
+  /* 1. retour au toucher */
+  :where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa,.lead-wp,a.hub-carte,a.carte,summary):not(.demande *){transition:transform 160ms var(--ease-out)}
+  :where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa,.lead-wp,a.hub-carte,a.carte,summary):not(.demande *):active{transform:scale(.97)}
+  /* 2. galerie */
+  .anim-vis-fond,.anim-vis-cpt,.anim-vis button{will-change:opacity}
+  /* 3. accordeons */
+  details:not(.langue){interpolate-size:allow-keywords}
+  details:not(.langue)::details-content{block-size:0;opacity:0;overflow:clip;transition:block-size 250ms var(--ease-out),opacity 250ms var(--ease-out),content-visibility 250ms allow-discrete}
+  details[open]:not(.langue)::details-content{block-size:auto;opacity:1}
+  .pied summary::after,.faq summary::after{transition:transform 200ms var(--ease-out)}
+  .faq details[open] summary::after{transform:rotate(180deg)}
+  @media (min-width:900px){.pied details::details-content{transition:none}}
+  /* 4. menu */
+  .nav .menu::before{transition:opacity 200ms var(--ease-out)}
+  .nav .menu span::before,.nav .menu span::after{transition:transform 200ms var(--ease-out)}
+  @media (max-width:899.98px){
+    .panneau[hidden]{display:block;visibility:hidden;transform:translateX(100%);transition:transform 250ms var(--ease-drawer),visibility 0s linear 250ms}
+    [dir=rtl] .panneau[hidden]{transform:translateX(-100%)}
+    .panneau:not([hidden]){transform:none;transition:transform 250ms var(--ease-drawer)}
+  }
+  /* 5. selecteur de langue */
+  .langue[open] ul{transform-origin:top right;animation:anim-langue 150ms var(--ease-out) both}
+  [dir=rtl] .langue[open] ul{transform-origin:top left}
+  @keyframes anim-langue{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+  /* 6. bouton WhatsApp flottant */
+  html.wa-cache .wa-flottant{opacity:0;transform:translateY(24px);visibility:hidden;pointer-events:none;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s linear 300ms}
+  html.wa-cache.wa-vu .wa-flottant{opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s}
+  html.wa-cache.wa-vu .wa-flottant:active{transform:scale(.97);transition-duration:160ms}
+  /* 8. passage d'une page a l'autre */
+  @view-transition{navigation:auto}
+  ::view-transition-old(root),::view-transition-new(root){animation-duration:200ms}
+  .nav{view-transition-name:en-tete}
+  ::view-transition-group(en-tete){animation-duration:0s}
+  ::view-transition-old(en-tete){display:none}
+  ::view-transition-new(en-tete){animation:none}
+  /* 9. trait des etapes */
+  html.anim-js #how.etapes ol li:not(:last-child)::after{transform:scaleY(0);transition:transform 600ms var(--ease-out)}
+  html.anim-js #how.etapes.trait-vu ol li:not(:last-child)::after{transform:none}
+  html.anim-js #how.etapes ol li:nth-child(2)::after{transition-delay:150ms}
+  @media (min-width:900px){
+    html.anim-js #how.etapes ol li:not(:last-child)::after{transform:scaleX(0)}
+    html.anim-js #how.etapes.trait-vu ol li:not(:last-child)::after{transform:none}
+  }
+  /* 10. flocons */
+  .anim-neige i{animation:anim-flocon var(--t) linear var(--d) both}
+  @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
+}
+/* ===/ANIMATIONS=== */

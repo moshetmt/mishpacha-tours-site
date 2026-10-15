@@ -188,5 +188,5 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
-</body>
+<script src="/js/anim.js" defer></script></body>
 </html>
