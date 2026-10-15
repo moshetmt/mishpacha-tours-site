@@ -291,7 +291,7 @@ def encadre(h, lang, slug, ancre):
     else:
         return h
     bloc = bloc_shabbat(lang, slug, gid, multi)
-    rx = re.compile(r'<section class="ss wrap shabbat-bloc">.*?</section>\n', re.S)
+    rx = re.compile(r'<section class="ss wrap(?: shabbat-bloc)?"><div class="shabbat" id="shabbat">.*?</section>\n?', re.S)   # aussi l'ancien encadre des pages de Lyon (15/10)
     if 'id="shabbat"' in h:
         return rx.sub(lambda m: bloc, h, count=1)
     if ancre:

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Accueil sur telephone (reproche du 15/10 : « trop de swipe et de scroll ») : les 4 portes en lignes compactes sans carrousel
+"""Accueil et toutes les grilles de cartes (.hub-grille) sur telephone (reproche du 15/10 : « trop de swipe et de scroll ») : les 4 portes en lignes compactes sans carrousel
 ni bouton Open, les 3 etapes en lignes avec petit dessin. Bloc ===MOBILE=== dans styles.css. Idempotent. `--strip` retire."""
 import io, os, re, sys
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -15,18 +15,28 @@ CSS = """
 #chercheur input[type=date]::-webkit-date-and-time-value{text-align:start}
 #chercheur .duo{grid-template-columns:1fr 1fr;gap:12px}
 .ticket-plan{margin:22px 0 0}
+@media (min-width:900px){
+.ticket:has(.ticket-plan){grid-template-columns:1fr auto;gap:12px 56px;align-items:center;padding-block:64px 52px}
+.ticket:has(.ticket-plan) h2{grid-row:1 / span 2}
+.ticket:has(.ticket-plan) .ticket-plan{margin:0;align-self:end}
+.ticket:has(.ticket-plan) .ticket-plan .btn-noir{padding:0 40px}
+.ticket:has(.ticket-plan) .wa{margin-top:0;align-self:start;justify-content:center}
+}
+.cta-hero > a{margin:0 !important;min-height:46px}   /* bouton noir et pilule sur la meme ligne (guide, 15/10) */
+h2 + .hub-grille,h2 + .sous + .hub-grille{margin-top:28px}   /* titre plus colle aux photos */
 .ticket-zone{margin-bottom:48px}   /* le pied n a plus 170 px de marge haute : le ticket ne deborde plus dessus (15/10) */
 .ticket-plan .btn-noir{display:flex;justify-content:center;align-items:center;min-height:52px;font-size:16px}
 @media (max-width:699px){
 #trips .ac-portes{grid-auto-flow:row;grid-template-columns:1fr;overflow:visible;margin:20px 0 0;padding:0;gap:10px}
-#trips .ac-portes .hub-carte{display:grid;grid-template-columns:96px 1fr;border-radius:14px}
-#trips .ac-portes .hub-carte .photo{aspect-ratio:auto;min-height:96px}
-#trips .ac-portes .corps{position:relative;justify-content:center;padding-block:12px;padding-inline:14px 36px}
-#trips .ac-portes .corps::after{content:"›";position:absolute;inset-inline-end:14px;top:50%;transform:translateY(-50%);font-size:28px;line-height:1;opacity:.45}
-[dir=rtl] #trips .ac-portes .corps::after{content:"‹"}
-#trips .ac-portes h3{font-size:19px;line-height:1.15}
-#trips .ac-portes .hub-carte p{font-size:14px;line-height:1.35;margin:4px 0 0}
-#trips .ac-portes .btn-noir{display:none}
+.hub-grille{gap:10px}
+.hub-grille .hub-carte{display:grid;grid-template-columns:96px 1fr;border-radius:14px}
+.hub-grille .hub-carte .photo{aspect-ratio:auto;min-height:96px}
+.hub-grille .corps{position:relative;justify-content:center;padding-block:12px;padding-inline:14px 36px}
+.hub-grille .corps::after{content:"›";position:absolute;inset-inline-end:14px;top:50%;transform:translateY(-50%);font-size:28px;line-height:1;opacity:.45}
+[dir=rtl] .hub-grille .corps::after{content:"‹"}
+.hub-grille h3{font-size:19px;line-height:1.15}
+.hub-grille .hub-carte p{font-size:14px;line-height:1.35;margin:4px 0 0}
+.hub-grille .btn-noir{display:none}
 #how.etapes ol{gap:18px;margin-top:22px;text-align:start}
 #how.etapes ol li{display:grid;grid-template-columns:64px 1fr;column-gap:14px;align-items:start}
 #how.etapes li img{width:64px;height:64px;margin:0;grid-row:1 / span 3}

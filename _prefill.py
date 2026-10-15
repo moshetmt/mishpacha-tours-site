@@ -60,10 +60,15 @@ def champs(lang):
 # Bas de l'accueil : le formulaire court repetait le chercheur, remplace par un bouton vers le formulaire complet (Moshe, 15/10)
 BOUTON = {"en": "Plan your trip", "fr": "Préparer mon voyage", "es": "Planificar mi viaje", "he": "לתכנן את הטיול"}
 def bas(s, lang):
+    """Toutes les pages (15/10) : le ticket rose garde son titre et WhatsApp, le formulaire devient un bouton ;
+    s'il y a deja la section verte lead-final, le ticket rose disparait et lead-final prend l'ancre #book."""
     pre = "" if lang == "en" else "/" + lang
+    if 'class="ss lead-final"' in s:
+        s = re.sub(r'\s*<div class="ticket-zone"[^>]*>.*?</form>.*?</div>\s*</div>', "", s, count=1, flags=re.S)
+        if 'id="book"' not in s: s = s.replace('<section class="ss lead-final">', '<section class="ss lead-final" id="book">', 1)
+        return s
     b = f'<p class="ticket-plan"><a class="btn-noir" href="{pre}/plan-your-trip/">{BOUTON[lang]}</a></p>'
-    s = re.sub(r'<form id="formReserver">.*?</form>\s*<p class="ac-form-lien">.*?</p>', lambda m: b, s, count=1, flags=re.S)
-    return s
+    return re.sub(r'<form id="formReserver">.*?</form>(?:\s*<p class="ac-form-lien">.*?</p>)?', lambda m: b, s, count=1, flags=re.S)
 
 def accueil(path, lang):
     s = io.open(path, encoding="utf-8", newline="").read(); o = s
@@ -84,12 +89,17 @@ def accueil(path, lang):
 
 if __name__ == "__main__":
     n = 0
+    for p in glob.glob("**/index.html", recursive=True):   # bas de page d'abord, les liens recoivent ensuite leur preremplissage
+        if p.startswith("_"): continue
+        lang = p.split("\\")[0].split("/")[0]; lang = lang if lang in LANGS else "en"
+        t = io.open(p, encoding="utf-8", newline="").read(); t2 = bas(t, lang)
+        if t2 != t: io.open(p, "w", encoding="utf-8", newline="").write(t2); n += 1
+    n = 0
     for l in ("",) + tuple(x + "/" for x in LANGS):
         lang = l.rstrip("/") or "en"
         for slug, c in CIBLES.items():
             p = l + slug + "/index.html"
             if os.path.exists(p): n += page(p, slug, lang, c)
         if lang != "he": n += accueil(l + "index.html", lang)
-        p = l + "index.html"; t = io.open(p, encoding="utf-8", newline="").read(); t2 = bas(t, lang)
-        if t2 != t: io.open(p, "w", encoding="utf-8", newline="").write(t2); n += 1
+
     print(n, "pages modifiees")
