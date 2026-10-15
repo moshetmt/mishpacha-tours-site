@@ -1,23 +1,47 @@
 /**
- * Mishpacha Tours - reception du formulaire de reservation
+ * Mishpacha Tours - reception du formulaire de demande
  * ---------------------------------------------------------------------
- * doPost lit le JSON envoye par sendBeacon depuis index.html, ecrit une
- * ligne horodatee dans la feuille active et envoie un email a
- * contact@mishpachatours.com via MailApp.
+ * doPost lit le JSON envoye par sendBeacon depuis le site, ecrit une ligne
+ * horodatee dans la feuille « Mishpacha - Leads », envoie un mail lisible a
+ * l'operateur et joint un PDF « fiche client » pret a transferer a un partenaire
+ * (sans le numero ni l'e-mail du client : on les ajoute a la main si on veut).
  *
- * INSTALLATION (a faire par l'operateur, voir README.md)
- *   Projet cree et deploye par l'API (scripts/creer_apps_script_mishpacha.py, 08/10/2026).
- *   La feuille "Mishpacha - Leads" est creee au premier envoi (voir feuille_).
- *   Autorisation : ouvrir le script, executer urlFeuille() une fois, accepter.
- *   L'URL /exec vit dans config.js.
+ * Champs recus : tour, dates, personnes, langue, nom, contact, message (langue
+ * du client), message_en (memes reponses en anglais, formulaire en etapes),
+ * nuits, page, params. test=1 : mail a l'operateur seul, rien dans la feuille.
+ *
+ * INSTALLATION : projet cree et deploye par l'API (scripts/creer_apps_script_mishpacha.py,
+ * 08/10/2026), mises a jour par scripts/push_apps_script.py mishpacha-tours --apply.
+ * L'URL /exec vit dans config.js.
  * ---------------------------------------------------------------------
  */
 
 var DEST_EMAIL = 'contact@mishpachatours.com, mochetimsit@gmail.com, contact@123digital.fr';   // 123digital : fait sonner le telephone de l'operateur (12/10)
 var CC_EMAIL = 'timsitelis613@gmail.com';   // la guide, en copie de chaque demande (operateur, 11/10)
+var TEST_EMAIL = 'mochetimsit@gmail.com';
 var ENTETE = ['Date', 'Tour', 'Dates', 'Nombre de personnes', 'Langue', 'Nom',
-              'Email ou WhatsApp', 'Message', 'Page', 'Source'];
+              'Email ou WhatsApp', 'Message', 'Page', 'Source', 'Message EN'];
 var TZ = 'Europe/Paris';
+
+// charte du site v5
+var VERT = '#2D5132', JAUNE = '#FCDE73', CREME = '#FFFAED', BEIGE = '#F1EDE6', ENCRE = '#1C1B1F', GRIS = '#8a867f';
+var LOGO = 'data:image/png;base64,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';
+
+// Sections de la fiche, par libelle anglais du formulaire en etapes (_build_demande.py, LAB + LAB_NEW).
+var SECTIONS = [
+  ['The trip',            ['Trip', 'Resort or place', 'Resort choice', 'Accommodation address', 'Pick-up', 'Drop-off']],
+  ['Dates',               ['Arrival', 'Time of day', 'Time', 'Departure', 'Dates']],
+  ['The group',           ['Families', 'Adults', 'Children', 'Babies', 'Baby equipment', 'Men for minyan', 'Luggage']],
+  ['Accommodation',       ['Accommodation', 'Rooms', 'Accommodation options']],
+  ['Meals and kashrut',   ['Meals', 'Meal days', 'Allergies and diets', 'Kashrut', 'Kashrut details']],
+  ['Shabbat and prayer',  ['Minyan level', 'Religious needs', 'Nusach']],
+  ['Getting there',       ['Airport', 'Flying from', 'Flights booked', 'Flights', 'Transport']],
+  ['Activities and Lyon', ['Activities', 'Ski levels', 'Lyon', 'Tour language']],
+  ['Extras',              ['Extras']],
+  ['Budget',              ['Priorities', 'Budget', 'Flights and budget']],
+  ['In their words',      ['Message']]
+];
+var CONTACT_KEYS = ['Lives in', 'Urgency', 'Booking for'];   // mail seulement, jamais dans le PDF
 
 function doPost(e) {
   var lock = LockService.getScriptLock();
@@ -37,15 +61,18 @@ function doPost(e) {
     // Rien d'exploitable : ni nom ni contact.
     if (!txt(d.nom) && !txt(d.contact)) return json_({ ok: true, vide: true });
 
-    var sh = feuille_();
+    var test = txt(d.test) === '1' || d.test === true;
     var quand = new Date();
-    sh.appendRow([
-      quand, cel_(d.tour), cel_(d.dates), cel_(d.personnes), cel_(d.langue),
-      cel_(d.nom), cel_(d.contact), cel_(d.message), cel_(d.page), cel_(d.params)
-    ]);
+    if (!test) {
+      var sh = feuille_();
+      sh.appendRow([
+        quand, cel_(d.tour), cel_(d.dates), cel_(d.personnes), cel_(d.langue),
+        cel_(d.nom), cel_(d.contact), cel_(d.message), cel_(d.page), cel_(d.params), cel_(d.message_en)
+      ]);
+    }
 
-    envoyerMail_(d, quand);
-    return json_({ ok: true });
+    envoyerMail_(d, quand, test);
+    return json_({ ok: true, test: test });
 
   } catch (err) {
     return json_({ ok: false, error: String(err) });
@@ -73,6 +100,8 @@ function feuille_() {
   if (sh.getLastRow() === 0) {
     sh.appendRow(ENTETE);
     sh.setFrozenRows(1);
+  } else if (sh.getLastColumn() < ENTETE.length) {
+    sh.getRange(1, 1, 1, ENTETE.length).setValues([ENTETE]);   // colonne « Message EN » ajoutee le 15/10
   }
   return sh;
 }
@@ -85,70 +114,185 @@ function urlFeuille() {
   return url;
 }
 
-function envoyerMail_(d, quand) {
-  var sujet = 'New tour request - ' + (txt(d.tour) || 'Mishpacha Tours') + ' - ' + (txt(d.nom) || 'no name');
-  var recu = Utilities.formatDate(quand, TZ, 'dd/MM/yyyy HH:mm');
-  var corps = [
-    'New booking request from mishpachatours.com',
-    '--------------------------------',
-    'Tour: ' + (txt(d.tour) || '(not specified)'),
-    'Dates: ' + (txt(d.dates) || '(not specified)'),
-    'Number of people: ' + (txt(d.personnes) || '(not specified)'),
-    'Tour language: ' + (txt(d.langue) || '(not specified)'),
-    'Name: ' + (txt(d.nom) || '(not specified)'),
-    'WhatsApp / email: ' + (txt(d.contact) || '(not specified)'),
-    'Message: ' + (txt(d.message) || '(empty)'),
-    '',
-    'Page: ' + (txt(d.page) || '/'),
-    'Received: ' + recu
-  ].join('\n');
+// ---------------------------------------------------------------- lecture de la demande
 
-  // contact = "+1 2125550100 / nom@exemple.com" : on separe le numero et l'e-mail.
+// "Label: valeur | Label: valeur" -> [[label, valeur], ...] ; une partie sans « : » garde un label vide.
+function paires_(s) {
+  var out = [];
+  txt(s).split(' | ').forEach(function (p) {
+    p = p.trim(); if (!p) return;
+    var i = p.indexOf(': ');
+    out.push(i < 0 ? ['', p] : [p.slice(0, i).trim(), p.slice(i + 2).trim()]);
+  });
+  return out;
+}
+
+function fiche_(d) {
+  // Tout ce qu'il faut pour le mail et le PDF, en anglais quand le formulaire en etapes l'a envoye.
+  var en = txt(d.message_en);
+  var paires = paires_(en || d.message);
+  var map = {};
+  paires.forEach(function (kv) { if (kv[0] && !map[kv[0]]) map[kv[0]] = kv[1]; });
+
+  var tour = txt(d.tour).replace(/^[^:]{3,30}:\s*/, '');   // « FULL REQUEST: » et ses traductions
   var contact = txt(d.contact);
   var mail = (contact.match(/[^\s\/]+@[^\s\/]+\.[^\s\/]+/) || [''])[0];
   var tel = contact.replace(mail, '').replace(/[^0-9]/g, '');
+  var nuits = parseInt(txt(d.nuits), 10);
+
+  var lieu = map['Resort or place'] || (map['Pick-up'] ? map['Pick-up'] + ' → ' + (map['Drop-off'] || '?') : '');
+  var dates = txt(d.dates);
+  if (map['Arrival'] && en) dates = map['Arrival'] + (map['Departure'] ? ' → ' + map['Departure'] : '');
+  if (nuits > 0) dates += ' (' + nuits + (nuits === 1 ? ' night)' : ' nights)');
+
+  return {
+    nom: txt(d.nom) || 'No name', tour: tour, paires: paires, map: map, en: !!en,
+    mail: mail, tel: tel, dates: dates, lieu: lieu,
+    personnes: txt(d.personnes), langue: txt(d.langue), page: txt(d.page) || '/'
+  };
+}
+
+function titre_(s) {
+  return '<tr><td colspan="2" style="padding:16px 0 4px;font-family:Georgia,serif;font-size:17px;color:' + VERT + '">' + s + '</td></tr>';
+}
+
+// ---------------------------------------------------------------- mail
+
+function envoyerMail_(d, quand, test) {
+  var f = fiche_(d);
+  var recu = Utilities.formatDate(quand, TZ, 'dd/MM/yyyy HH:mm');
+  var jour = Utilities.formatDate(quand, TZ, 'd MMMM yyyy');
+
+  var sujetBouts = [f.nom, f.lieu, f.dates, f.personnes].filter(function (x) { return x; });
+  var sujet = (test ? '[TEST] ' : '') + 'Mishpacha · ' + sujetBouts.join(' · ');
+
+  // version texte (lecteurs sans HTML)
+  var corps = ['New request from mishpachatours.com', '--------------------------------',
+    'Name: ' + f.nom, 'Trip: ' + (f.tour || '(not specified)'), 'Place: ' + (f.lieu || '(not specified)'),
+    'Dates: ' + (f.dates || '(not specified)'), 'People: ' + (f.personnes || '(not specified)'),
+    'Reply in: ' + (f.langue || '(not specified)'), 'WhatsApp / email: ' + (txt(d.contact) || '(not specified)'), ''];
+  f.paires.forEach(function (kv) { corps.push((kv[0] ? kv[0] + ': ' : '') + kv[1]); });
+  corps.push('', 'Page: ' + f.page, 'Received: ' + recu);
+
+  var cle = function (label, valeur) {
+    // tuile de resume
+    return '<td width="50%" style="padding:0 6px 8px 0;vertical-align:top">' +
+      '<div style="background:' + CREME + ';border-radius:12px;padding:10px 12px">' +
+      '<div style="font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:' + VERT + ';font-weight:700">' + label + '</div>' +
+      '<div style="font-size:15px;font-weight:600;color:' + ENCRE + ';margin-top:3px;line-height:1.3">' + (valeur ? esc_(valeur) : '<span style="color:' + GRIS + ';font-weight:400">not specified</span>') + '</div></div></td>';
+  };
+  var qui = f.personnes + (f.map['Families'] ? ' · ' + f.map['Families'] + ' families' : '');
+  var tuiles = '<table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>' +
+    cle('Dates', f.dates) + cle('Who', qui) + '</tr><tr>' +
+    cle('Where', f.lieu) + cle('Budget', [f.map['Budget'], f.map['Flights and budget']].filter(Boolean).join(', ')) + '</tr><tr>' +
+    cle('Sleeping', [f.map['Accommodation'], f.map['Rooms']].filter(Boolean).join(' · ')) + cle('Meals', [f.map['Meals'], f.map['Kashrut']].filter(Boolean).join(' · ')) + '</tr></table>';
 
   var ligne = function (label, valeur) {
-    return '<tr><td style="padding:10px 0;border-bottom:1px solid #F1EDE6;color:#35705A;font-size:13px;width:38%;vertical-align:top">' + label +
-           '</td><td style="padding:10px 0;border-bottom:1px solid #F1EDE6;color:#1C1B1F;font-size:15px;font-weight:600;vertical-align:top">' +
-           (valeur ? esc_(valeur) : '<span style="color:#9a968f;font-weight:400">not specified</span>') + '</td></tr>';
+    return '<tr><td style="padding:8px 0;border-bottom:1px solid ' + BEIGE + ';color:' + GRIS + ';font-size:13px;width:36%;vertical-align:top">' + esc_(label) +
+           '</td><td style="padding:8px 0;border-bottom:1px solid ' + BEIGE + ';color:' + ENCRE + ';font-size:14px;vertical-align:top;line-height:1.4">' + esc_(valeur) + '</td></tr>';
   };
+  var detail = '';
+  var vus = {};
+  SECTIONS.forEach(function (sec) {
+    var rows = '';
+    sec[1].forEach(function (k) { if (f.map[k]) { rows += ligne(k, f.map[k]); vus[k] = 1; } });
+    if (rows) detail += titre_(sec[0]) + rows;
+  });
+  var reste = '';
+  f.paires.forEach(function (kv) { if ((!kv[0] || !vus[kv[0]]) && CONTACT_KEYS.indexOf(kv[0]) < 0) reste += ligne(kv[0] || 'Message', kv[1]); });
+  if (reste) detail += titre_(f.en ? 'Also' : 'Message') + reste;
+  var contactRows = ligne('WhatsApp / email', txt(d.contact) || 'not specified') + (f.langue ? ligne('Reply in', f.langue) : '');
+  CONTACT_KEYS.forEach(function (k) { if (f.map[k]) contactRows += ligne(k, f.map[k]); });
+
   var bouton = function (url, texte, plein) {
-    return '<a href="' + url + '" style="display:inline-block;margin:0 8px 8px 0;padding:13px 22px;border-radius:999px;font-size:15px;font-weight:700;text-decoration:none;' +
-           (plein ? 'background:#1C1B1F;color:#FFFFFF' : 'background:#FFFFFF;color:#1C1B1F;border:1px solid #1C1B1F') + '">' + texte + '</a>';
+    return '<a href="' + url + '" style="display:inline-block;margin:0 8px 8px 0;padding:12px 20px;border-radius:999px;font-size:14px;font-weight:700;text-decoration:none;' +
+           (plein ? 'background:' + ENCRE + ';color:#FFFFFF' : 'background:#FFFFFF;color:' + ENCRE + ';border:1px solid ' + ENCRE) + '">' + texte + '</a>';
   };
   var boutons = '';
-  if (tel.length >= 8) boutons += bouton('https://wa.me/' + tel, 'Reply on WhatsApp', true);
-  if (mail) boutons += bouton('mailto:' + esc_(mail), 'Reply by email', !boutons);
-  try { boutons += bouton(feuille_().getParent().getUrl(), 'Voir dans le Sheet', false); } catch (err) {}
+  if (f.tel.length >= 8) boutons += bouton('https://wa.me/' + f.tel, 'Reply on WhatsApp', true);
+  if (f.mail) boutons += bouton('mailto:' + esc_(f.mail), 'Reply by email', !boutons);
+  if (!test) { try { boutons += bouton(feuille_().getParent().getUrl(), 'Open the Sheet', false); } catch (err) {} }
 
   var html =
-    '<div style="margin:0;padding:24px 12px;background:#FFFAED;font-family:Arial,Helvetica,sans-serif">' +
-    '<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="max-width:560px;margin:0 auto;background:#FFFFFF;border-radius:15px;overflow:hidden">' +
-    '<tr><td style="background:#2D5132;padding:20px 28px"><table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>' +
-    '<td width="64" style="vertical-align:middle"><img src="https://mishpachatours.com/img/apple-touch-icon.png" width="64" height="64" alt="Mishpacha Tours" style="display:block;border:0;border-radius:50%"></td>' +
-    '<td style="padding-left:16px;vertical-align:middle;color:#FFFAED;font-size:13px;letter-spacing:.04em">MISHPACHA TOURS' +
-    '<div style="margin-top:6px;font-family:Georgia,serif;font-size:24px;letter-spacing:0;color:#FFFFFF">New request' +
-    (txt(d.nom) ? ' from ' + esc_(txt(d.nom)) : '') + '</div></td></tr></table></td></tr>' +
-    '<tr><td style="background:#FCDE73;padding:12px 28px;color:#1C1B1F;font-size:15px;font-weight:700">' +
-    esc_(txt(d.tour) || 'Tour not specified') + '</td></tr>' +
-    '<tr><td style="padding:14px 28px 6px"><table role="presentation" cellpadding="0" cellspacing="0" width="100%">' +
-    ligne('Dates', txt(d.dates)) +
-    ligne('Number of people', txt(d.personnes)) +
-    ligne('Tour language', txt(d.langue)) +
-    ligne('Name', txt(d.nom)) +
-    ligne('WhatsApp / email', contact) +
-    (txt(d.message) ? ligne('Message', txt(d.message)) : '') +
+    '<div style="margin:0;padding:24px 12px;background:' + BEIGE + ';font-family:Arial,Helvetica,sans-serif">' +
+    '<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;margin:0 auto;background:#FFFFFF;border-radius:16px;overflow:hidden">' +
+    '<tr><td style="background:' + VERT + ';padding:20px 28px"><table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>' +
+    '<td width="56" style="vertical-align:middle"><img src="' + LOGO + '" width="56" height="56" alt="" style="display:block;border:0;border-radius:50%"></td>' +
+    '<td style="padding-left:14px;vertical-align:middle;color:' + CREME + ';font-size:12px;letter-spacing:.06em">NEW REQUEST · ' + esc_(jour).toUpperCase() +
+    '<div style="margin-top:4px;font-family:Georgia,serif;font-size:26px;letter-spacing:0;color:#FFFFFF">' + esc_(f.nom) + '</div></td></tr></table></td></tr>' +
+    '<tr><td style="background:' + JAUNE + ';padding:11px 28px;color:' + ENCRE + ';font-size:15px;font-weight:700">' + esc_(f.tour || 'Trip not specified') + '</td></tr>' +
+    '<tr><td style="padding:18px 22px 6px 28px">' + tuiles + '</td></tr>' +
+    (boutons ? '<tr><td style="padding:8px 28px 4px">' + boutons + '</td></tr>' : '') +
+    '<tr><td style="padding:6px 28px 4px"><table role="presentation" cellpadding="0" cellspacing="0" width="100%">' +
+    titre_('Contact') + contactRows + detail +
     '</table></td></tr>' +
-    (boutons ? '<tr><td style="padding:18px 28px 10px">' + boutons + '</td></tr>' : '') +
-    '<tr><td style="padding:14px 28px 22px;color:#8a867f;font-size:12px">Received ' + recu + ' (Paris) · page ' +
-    esc_(txt(d.page) || '/') + '</td></tr>' +
+    '<tr><td style="padding:18px 28px 22px;color:' + GRIS + ';font-size:12px;line-height:1.5">The attached PDF is the client file without phone or email, ready to forward to a partner.<br>Received ' + recu + ' (Paris) · page ' + esc_(f.page) + '</td></tr>' +
     '</table></div>';
 
-  var options = { to: DEST_EMAIL, cc: CC_EMAIL, subject: sujet, body: corps, htmlBody: html, name: 'Mishpacha Tours' };
-  if (mail) options.replyTo = mail;
+  var pdf = null;
+  try { pdf = pdf_(f, jour); } catch (err) { corps.push('', 'PDF non genere : ' + err); }
+
+  var options = { subject: sujet, body: corps.join('\n'), htmlBody: html, name: 'Mishpacha Tours' };
+  if (test) { options.to = TEST_EMAIL; } else { options.to = DEST_EMAIL; options.cc = CC_EMAIL; }
+  if (f.mail) options.replyTo = f.mail;
+  if (pdf) options.attachments = [pdf];
   MailApp.sendEmail(options);
 }
+
+// ---------------------------------------------------------------- PDF « fiche client » (A4, sans coordonnees)
+
+function pdf_(f, jour) {
+  var ligne = function (label, valeur) {
+    return '<tr><td class="k">' + esc_(label) + '</td><td class="v">' + esc_(valeur) + '</td></tr>';
+  };
+  var blocs = '';
+  var vus = {};
+  SECTIONS.forEach(function (sec) {
+    var rows = '';
+    sec[1].forEach(function (k) { if (f.map[k]) { rows += ligne(k, f.map[k]); vus[k] = 1; } });
+    if (rows) blocs += '<h2>' + sec[0] + '</h2><table class="t">' + rows + '</table>';
+  });
+  var reste = '';
+  f.paires.forEach(function (kv) { if ((!kv[0] || !vus[kv[0]]) && CONTACT_KEYS.indexOf(kv[0]) < 0) reste += ligne(kv[0] || 'Message', kv[1]); });
+  if (reste) blocs += '<h2>' + (f.en ? 'Also' : 'Message') + '</h2><table class="t">' + reste + '</table>';
+  if (!blocs) blocs = '<p>No details given.</p>';
+
+  var tuile = function (label, valeur) {
+    return '<td class="c"><div class="cl">' + label + '</div><div class="cv">' + (valeur ? esc_(valeur) : '—') + '</div></td>';
+  };
+  var qui = f.personnes + (f.map['Families'] ? ' · ' + f.map['Families'] + ' families' : '');
+  var html = '<!DOCTYPE html><html><head><meta charset="utf-8"><style>' +
+    '@page{size:A4;margin:16mm 16mm 18mm}' +
+    'body{font-family:Arial,Helvetica,sans-serif;color:' + ENCRE + ';font-size:11pt;line-height:1.4;margin:0}' +
+    '.tete{background:' + VERT + ';color:#fff;padding:14pt 18pt;border-radius:10pt}' +
+    '.tete td{vertical-align:middle}' +
+    '.sur{font-size:9pt;letter-spacing:.08em;color:' + CREME + '}' +
+    'h1{font-family:Georgia,serif;font-weight:normal;font-size:22pt;margin:2pt 0 0;color:#fff}' +
+    '.bande{background:' + JAUNE + ';padding:7pt 18pt;font-weight:bold;font-size:11.5pt;border-radius:6pt;margin-top:6pt}' +
+    '.cles{width:100%;border-collapse:separate;border-spacing:6pt 0;margin:10pt 0 0}' +
+    '.c{background:' + CREME + ';border-radius:8pt;padding:7pt 9pt;width:33%;vertical-align:top}' +
+    '.cl{font-size:8pt;letter-spacing:.06em;text-transform:uppercase;color:' + VERT + ';font-weight:bold}' +
+    '.cv{font-size:11pt;font-weight:bold;margin-top:2pt}' +
+    'h2{font-family:Georgia,serif;font-weight:normal;font-size:14pt;color:' + VERT + ';margin:14pt 0 3pt;border-bottom:1px solid ' + BEIGE + ';padding-bottom:2pt}' +
+    '.t{width:100%;border-collapse:collapse}' +
+    '.t td{padding:4pt 0;vertical-align:top;border-bottom:1px solid ' + BEIGE + '}' +
+    '.k{width:34%;color:' + GRIS + ';font-size:9.5pt;padding-right:8pt}' +
+    '.v{font-size:10.5pt}' +
+    '.pied{margin-top:16pt;font-size:8.5pt;color:' + GRIS + '}' +
+    '</style></head><body>' +
+    '<table class="tete" width="100%" cellpadding="0" cellspacing="0"><tr>' +
+    '<td width="52"><img src="' + LOGO + '" width="48" height="48" style="border-radius:50%"></td>' +
+    '<td style="padding-left:12pt"><div class="sur">MISHPACHA TOURS · TRIP REQUEST · ' + esc_(jour).toUpperCase() + '</div><h1>' + esc_(f.nom) + '</h1></td></tr></table>' +
+    '<div class="bande">' + esc_(f.tour || 'Trip not specified') + '</div>' +
+    '<table class="cles"><tr>' + tuile('Dates', f.dates) + tuile('Who', qui) + tuile('Where', f.lieu) + '</tr></table>' +
+    blocs +
+    '<div class="pied">Mishpacha Tours · mishpachatours.com · kosher stays in the French Alps and Jewish Lyon. Client contact details held by Mishpacha Tours.</div>' +
+    '</body></html>';
+  var nom = 'Mishpacha-request-' + f.nom.replace(/[^A-Za-z0-9À-ɏ ]+/g, ' ').trim().replace(/\s+/g, '-') + '-' + Utilities.formatDate(new Date(), TZ, 'yyyy-MM-dd') + '.pdf';
+  return Utilities.newBlob(html, 'text/html', 'fiche.html').getAs('application/pdf').setName(nom);
+}
+
+// ---------------------------------------------------------------- utilitaires
 
 function esc_(v) {
   return String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

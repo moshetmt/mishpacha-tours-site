@@ -259,6 +259,17 @@ NEW.update({
 "Message us on WhatsApp": ("Écrivez-nous sur WhatsApp", "Escríbanos por WhatsApp", "כתבו לנו בוואטסאפ"),
 })
 
+# 15/10 (demande Jonah Bibi, 4 familles saisies comme une seule) : le groupe entier, un seul mode de repas, activites en deux groupes
+NEW.update({
+"Count the whole group, all families together.": ("Comptez tout le groupe, toutes les familles ensemble.", "Cuente a todo el grupo, todas las familias juntas.", "ספרו את כל הקבוצה, כל המשפחות יחד."),
+"Families or households": ("Familles ou foyers", "Familias u hogares", "משפחות או משקי בית"),
+"Pick the one closest to what you want. We adjust the details with you.": ("Choisissez la formule la plus proche. Nous ajustons les détails avec vous.", "Elija la fórmula más cercana. Ajustamos los detalles con usted.", "בחרו את האפשרות הקרובה ביותר. את הפרטים נסגור יחד."),
+"Total budget for the whole group": ("Budget total pour tout le groupe", "Presupuesto total para todo el grupo", "תקציב כולל לכל הקבוצה"),
+"On the slopes": ("Sur les pistes", "En las pistas", "על המסלולים"),
+"Fun and extras": ("Loisirs et extras", "Ocio y extras", "בילויים ותוספות"),
+})
+LAB_NEW["familles"] = ("Families", "Familles", "Familias", "משפחות")
+
 LANGS = ("en", "fr", "es", "he")
 
 # 15/10 : libelles raccourcis pour tenir sur deux lignes a 390 px (None = traduction existante gardee)

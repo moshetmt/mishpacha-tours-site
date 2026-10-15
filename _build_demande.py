@@ -56,7 +56,7 @@ PATHS = {
     "e": ["intention", "fete", "dates", "groupe", "logement", "repas", "cacherout", "religieux", "extras", "budget", "final"],
     "f": ["intention", "message", "dates", "groupe", "budget", "final"],
 }
-LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "arrivee", "creneau", "depart", "heure", "flexible", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
+LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "arrivee", "creneau", "depart", "heure", "flexible", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
              "logement", "chambres", "logement_opt", "repas", "repas_jours", "allergies", "cacherout", "cacherout_detail", "minyan_niveau", "religieux", "rite", "aeroport", "vol_ville", "vols_pris", "vol", "transport",
              "ski", "niveau", "lyon", "langue_visite", "extras", "priorites", "budget", "budget_vols", "message", "ville", "urgence", "pour_qui"]
 INDICATIFS = '<option value="">{code}</option>' + "".join(f'<option value="{v}">{v} {c}</option>' for v, c in [
@@ -196,7 +196,7 @@ def formulaire(lang):
 
     # ---- intention : grosses tuiles
     def tuile(val, icone, titre, sous, voyage):
-        return (f'<label class="dm-tuile"><input type="radio" name="intention" value="{val}" data-voyage="{E(voyage)}">'
+        return (f'<label class="dm-tuile"><input type="radio" name="intention" value="{val}" data-voyage="{E(voyage)}" data-en="{esc(voyage)}">'
                 f'<img src="{IMG}des/{icone}.webp" alt="" width="44" height="44" loading="lazy"><b>{E(titre)}</b><span>{E(sous)}</span></label>')
     tuiles = '<div class="dm-tuiles">' + "".join([
         tuile("a", "mountain-snow", "A full stay in the Alps", "Chalet, chef, Shabbat, minyan", "A full stay in the Alps"),
@@ -242,7 +242,8 @@ def formulaire(lang):
     S.append(etape("bagages", "Luggage and equipment", "Skis and baby seats change the vehicle we send.",
                    chips("bagages", ["Large suitcases", "Cabin bags only", "Skis or snowboards", "Baby seats or boosters", "Wheelchair or walker"])))
     # ---- groupe (tous)
-    S.append(etape("groupe", "Who is coming?", "Children's ages help us choose rooms, ski school and cots.",
+    S.append(etape("groupe", "Who is coming?", [("Count the whole group, all families together.", "abef"), ("Children's ages help us choose rooms, ski school and cots.", "")],
+                   compteur("familles", "Families or households", b="abef") +
                    compteur("adultes", "Adults") + compteur("enfants", "Children") +
                    ages("enfants", "Ages of the children", "9 and 12") +
                    compteur("bebes", "Babies") + ages("bebes", "Ages of the babies", "10 months") +
@@ -250,13 +251,14 @@ def formulaire(lang):
                    compteur("hommes", "Men over bar mitzvah age, for the minyan", b="abe")))
     # ---- logement (a e)
     S.append(etape("logement", "Where would you like to sleep?", "Pick what suits you. We advise if you are not sure.",
-                   chips("logement", ["A private chalet", "Apartments, same residence", "A hotel", "Advise me"]) +
+                   chips("logement", ["A private chalet", "Apartments, same residence", "A hotel", "Advise me"], multi=False) +
                    champ("chambres", "chambres", "Bedrooms and bathrooms needed", ph="5 bedrooms, 3 bathrooms") +
                    chips("logement_opt", ["Near the Beth Chabad or shul", "Ski-in ski-out or near the slopes", "Daily cleaning", "Laundry"])))
     # ---- repas (a b e)
-    S.append(etape("repas", "Which meals do you need?", "Our team cooks or delivers; tell us your standard.",
-                   chips("repas", [("Private chef in the chalet", "ae"), "Meals delivered every day", "Shabbat meals only", "Breakfast and dinner",
-                                   "Groceries ready on arrival", "We cook, with delivery", ("No meals needed", "", "none")]) +
+    # 15/10 : un seul mode de repas (Jonah Bibi avait coche les six, chef prive et « on cuisine » compris) ; les jours et le detail vont dans les champs
+    S.append(etape("repas", "Which meals do you need?", "Pick the one closest to what you want. We adjust the details with you.",
+                   chips("repas", [("Private chef in the chalet", "ae"), "Meals delivered every day", "Shabbat meals only",
+                                   "We cook, with delivery", "Advise me", ("No meals needed", "", "none")], multi=False) +
                    champ("repas_jours", "repas_jours", "Which days?", ph="Shabbat only, or every day from 25 July to 15 August") +
                    champ("allergies", "allergies", "Allergies or special diets", ph="Nut allergy for one child")))
     S.append(etape("cacherout", "Your kashrut standard", "Tick what you keep. We follow it exactly.",
@@ -273,9 +275,13 @@ def formulaire(lang):
                    chips("vols_pris", ["Flights already booked", "Not booked yet"], multi=False) +
                    champ("vol", "vol", "Flight numbers or landing times, if known", ph="Landing 11:40, departing 15:30") +
                    chips("transport", ["Private airport transfer", "A van and driver for the stay", "A rental car", "Help with flights"])))
+    # 15/10 : deux groupes (le ski d'abord, les loisirs ensuite) pour que 26 cases ne se cochent plus toutes d'un coup
     S.append(etape("ski", "Activities", "Tick what tempts you. We arrange it all on site.",
+                   f'<p class="dm-sous" data-s="w">{E("On the slopes")}</p>' +
                    chips("ski", [("Ski passes", "", "", "w"), ("Rental delivered to the chalet", "", "", "w"), ("We bring our own skis", "", "", "w"), ("Ski school for children", "", "", "w"),
-                                 ("Private instructor", "", "", "w"), ("Non-skiers in the group", "", "", "w"), ("Snowmobile", "", "", "w"), ("Snowshoeing", "", "", "w"),
+                                 ("Private instructor", "", "", "w"), ("Non-skiers in the group", "", "", "w")]) +
+                   f'<p class="dm-sous">{E("Fun and extras")}</p>' +
+                   chips("ski", [("Snowmobile", "", "", "w"), ("Snowshoeing", "", "", "w"),
                                  ("Dog sledding", "", "", "w"), ("Sledging", "", "", "w"), ("Ice rink", "", "", "w"), ("Cross-country skiing", "", "", "w"), ("Helicopter flight", "", "", "w"),
                                  ("Guided hike", "", "", "s"), ("Mountain bike or e-bike", "", "", "s"), ("Via ferrata", "", "", "s"), ("Rafting", "", "", "s"), ("Canyoning", "", "", "s"),
                                  ("Lake swimming", "", "", "s"), ("Hot-air balloon", "", "", "s"), ("Climbing for children", "", "", "s"), ("Fishing", "", "", "s"),
@@ -294,7 +300,7 @@ def formulaire(lang):
                                 ("Great skiing", "a"), ("A private chef", "ae"), "Comfort and space", "Calm for small children"])
     S.append(etape("budget", "What matters most, and what budget feels right?", "We are advisers: we build the best programme within your budget, never above it.",
                    prio + f'<p class="dm-max" id="dm-max" role="status" hidden>{E("Three at most")}</p>' +
-                   f'<p class="dm-sous">{E("Budget")}</p>' +
+                   f'<p class="dm-sous">{E("Total budget for the whole group")}</p>' +
                    chips("budget", ["Under 10 000 €", "10 000 to 25 000 €", "25 000 to 50 000 €", "50 000 to 100 000 €", "Over 100 000 €", "Not sure yet, advise us"], multi=False, b="aef") +
                    chips("budget", ["Under 3 000 €", "3 000 to 10 000 €", "10 000 to 25 000 €", "Over 25 000 €", "Not sure yet, advise us"], multi=False, b="b") +
                    chips("budget_vols", ["Flights included in this budget", "Flights not included"], multi=False, b="ae")))
@@ -365,11 +371,22 @@ function voyage(){var r=f.querySelector('input[name="intention"]:checked');var a
  els('voyage').forEach(function(e){if(e.checked&&a.indexOf(e.value)<0)a.push(e.value)});return a.join(', ')}
 function val(n){
  if(n==='arrivee'||n==='depart'){var d=raw(n);return d?fdate(d):''}
- if(n==='adultes'||n==='hommes'){var x=parseInt(raw(n),10);return x>0?String(x):''}
+ if(n==='adultes'||n==='hommes'||n==='familles'){var x=parseInt(raw(n),10);return x>0?String(x):''}
  if(n==='enfants'||n==='bebes'){var y=parseInt(raw(n),10);if(!(y>0))return '';var g=raw(n+'_ages');return y+(g?' ('+g+')':'')}
  if(n==='voyage')return voyage();
  if(n==='logement'&&branch()==='b')return C.k.logementB;
  return raw(n)}
+/* version anglaise des reponses (data-en des cases), pour le mail et le PDF transmis aux partenaires quelle que soit la langue du client */
+function rawEn(n){var a=els(n);if(!a.length)return '';var t=a[0].type;if(t==='checkbox'||t==='radio'){return a.filter(function(e){return e.checked}).map(function(e){return e.getAttribute('data-en')||e.value}).join(', ')}return a[0].value.trim()}
+function fdateEn(v){var m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(v);if(!m)return v;try{return new Date(+m[1],+m[2]-1,+m[3],12).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}catch(x){return v}}
+function valEn(n){
+ if(n==='arrivee'||n==='depart'){var d=raw(n);return d?fdateEn(d):''}
+ if(n==='adultes'||n==='hommes'||n==='familles'){var x=parseInt(raw(n),10);return x>0?String(x):''}
+ if(n==='enfants'||n==='bebes'){var y=parseInt(raw(n),10);if(!(y>0))return '';var g=raw(n+'_ages');return y+(g?' ('+g+')':'')}
+ if(n==='voyage'){var r=f.querySelector('input[name="intention"]:checked');var a=r?[r.getAttribute('data-en')]:[];
+  els('voyage').forEach(function(e){if(e.checked){var v=e.getAttribute('data-en')||e.value;if(a.indexOf(v)<0)a.push(v)}});return a.join(', ')}
+ if(n==='logement'&&branch()==='b')return 'Already booked, I need services only';
+ return rawEn(n)}
 function screenOf(k){var e=els(k)[0];return e?e.scr:''}
 function recap(an){var ul=document.getElementById('dm-recap');ul.textContent='';var n=0;var go=an&&mo();
  C.lab.forEach(function(kv){var k=kv[0],v=val(k);if(!v||screenOf(k)==='final')return;n++;
@@ -432,9 +449,11 @@ f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  var nom=val('nom'),tel=val('tel'),ind=val('indicatif');var err=document.getElementById('dm-erreur');
  if(!nom||!tel||!ind){err.hidden=false;err.scrollIntoView({behavior:'smooth',block:'center'});return}
  var parts=[];C.lab.forEach(function(kv){var v=val(kv[0]);if(v)parts.push(kv[1]+': '+v)});
+ var partsEn=[];C.labEn.forEach(function(kv){var v=valEn(kv[0]);if(v)partsEn.push(kv[1]+': '+v)});
  var dates=[val('arrivee'),val('depart')].filter(Boolean).join(C.k.datesj);
  var pers=val('adultes')?val('adultes')+C.k.adultes:'';if(val('enfants'))pers+=(pers?' + ':'')+val('enfants')+C.k.enfants;if(val('bebes'))pers+=(pers?' + ':'')+val('bebes')+C.k.bebes;
- var payload=JSON.stringify({tour:C.k.tour+(val('voyage')||C.k.none),dates:dates,personnes:pers,langue:val('langue'),nom:nom,contact:(ind+' '+tel.replace(/[^0-9]/g,'')).trim()+(val('email')?' / '+val('email'):''),message:parts.join(' | '),page:location.pathname,params:location.search});
+ var nn=nights();
+ var payload=JSON.stringify({tour:C.k.tour+(val('voyage')||C.k.none),dates:dates,personnes:pers,langue:val('langue'),nom:nom,contact:(ind+' '+tel.replace(/[^0-9]/g,'')).trim()+(val('email')?' / '+val('email'):''),message:parts.join(' | '),message_en:partsEn.join(' | '),nuits:nn!==null&&nn>0?nn:'',page:location.pathname,params:location.search});
  try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}
  try{sessionStorage.removeItem(KEY)}catch(e){}
  dl.push({event:'generate_lead',branch:branch(),budget:val('budget')});
@@ -462,8 +481,9 @@ def js(lang):
     T = lambda s: t(s, lang)
     lab = dict(LAB[lang]); i = LANGS.index(lang)
     for k, v in LAB_NEW.items(): lab[k] = v[i]
+    lab_en = dict(LAB["en"]); lab_en.update({k: v[0] for k, v in LAB_NEW.items()})
     cfg = {"lang": lang, "loc": LOCALE[lang], "merci": MERCI[lang], "paths": PATHS, "img": "../img/" if lang == "en" else "/img/",
-           "lab": [[k, lab[k]] for k in LAB_ORDER],
+           "lab": [[k, lab[k]] for k in LAB_ORDER], "labEn": [[k, lab_en[k]] for k in LAB_ORDER],
            "k": {"tour": JSX[lang]["tour"], "none": JSX[lang]["none"], "datesj": JSX[lang]["datesj"], "adultes": JSX[lang]["adultes"], "enfants": JSX[lang]["enfants"],
                  "bebes": JSX[lang]["bebes"], "logementB": T("Already booked, I need services only")},
            "t": {"step": T("Step {n} of {t}"), "edit": T("Edit"), "vide": T("Nothing filled in yet."),
