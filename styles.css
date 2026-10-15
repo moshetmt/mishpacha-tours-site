@@ -221,7 +221,7 @@ body.menu-ouvert{overflow:hidden}
 .piege{position:absolute;left:-9999px}
 
 /* ---------- Pied vert ---------- */
-.pied{background:var(--vert);color:var(--creme);padding:170px var(--pad) 40px}
+.pied{background:var(--vert);color:var(--creme);padding:48px var(--pad) 40px}
 .pied details{border-bottom:1px solid rgba(255,250,237,.35)}
 .pied summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:16px 0;font-size:20px;font-family:var(--titre);font-weight:300}
 .pied summary::-webkit-details-marker{display:none}
@@ -295,7 +295,7 @@ body.menu-ouvert{overflow:hidden}
   .ticket{padding:80px 96px 72px;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start;clip-path:polygon(0 0,20% 0,22% 24px,78% 24px,80% 0,100% 0,100% 100%,0 100%)}
   .ticket h2{font-size:56px}
   .ticket form{margin-top:0}
-  .pied{padding:220px var(--pad) 48px}
+  .pied{padding:72px var(--pad) 48px}
   .pied .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
   .pied details{border:0}
   .pied summary{pointer-events:none;font-family:'Heebo',sans-serif;font-size:14px;font-weight:500;opacity:.7;padding:0 0 18px}
