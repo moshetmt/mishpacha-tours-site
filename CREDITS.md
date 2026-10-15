@@ -140,3 +140,15 @@
 - `img/stock/hub-jewish-lyon-itinerary-2-days.jpg` : @lorinboth (Unsplash), Licence Unsplash, https://unsplash.com/photos/5kW9zz-lvps
 - `img/stock/hub-jewish-travel-lyon-faq.jpg` : @annashoots (Unsplash), Licence Unsplash, https://unsplash.com/photos/e1SU2nZDGpc
 - `img/stock/hub-jewish-life-around-lyon.jpg` : @martogrua (Unsplash), Licence Unsplash, https://unsplash.com/photos/DsBVjb1rudM
+
+## Ajout du 15/10/2026, 2e tour (cartes refusées au 1er tour)
+
+- `img/stock/hub-synagogues-lyon.jpg` : Yura Timoshenko (Unsplash), Licence Unsplash, https://unsplash.com/photos/DBRhdjR7hMo
+- `img/stock/hub-shabbat-in-lyon.jpg` : Olaf.herfurth (Wikimedia Commons), CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Shabbat_Candles.jpg
+- `img/stock/hub-chabad-lyon.jpg` : Francesco Alberti (Unsplash), Licence Unsplash, https://unsplash.com/photos/bw06yaHnQdQ
+- `img/stock/hub-kosher-services-french-alps.jpg` : Johnathan Macedo (Unsplash), Licence Unsplash, https://unsplash.com/photos/4NQEvxW2_4w
+- `img/stock/hub-kosher-ski-holidays-french-alps.jpg` : Gil De Los Santos (Unsplash), Licence Unsplash, https://unsplash.com/photos/Uk-DTLLDmMY
+- `img/stock/hub-grande-synagogue-lyon.jpg` : Alorange (Wikimedia Commons), Public domain, https://commons.wikimedia.org/wiki/File:Synagogue_Lyon2_fr_facade.JPG
+- `img/stock/hub-chrd-lyon.jpg` : Romainbehar (Wikimedia Commons), CC0, https://commons.wikimedia.org/wiki/File:Lyon_7e_-_CHRD,_pr%C3%A9sentation_d'affiches_et_de_journaux.jpg
+- `img/stock/hub-is-lyon-safe-for-jewish-visitors.jpg` : Madalina Zamfira (Unsplash), Licence Unsplash, https://unsplash.com/photos/GMIo0gy2Qeo
+- `img/stock/hub-tours-jewish-lyon.jpg` : FLLL (Wikimedia Commons), CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Syna_Lyon-Bimah_et_Arche_sainte.JPG

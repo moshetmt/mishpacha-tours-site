@@ -1053,7 +1053,38 @@ body.menu-ouvert{overflow:hidden}
 /* fin SHABBAT v2 */
 /* bannière 3 : le texte ne dépasse plus du hero (fil d'Ariane coupé sous l'en-tête sur la page chalet, 15/10) */
 .lead-hero3:not(.lead-hero3-illus){height:auto;max-height:none;min-height:min(100svh,920px);display:flex;flex-direction:column;justify-content:flex-end}
-.lead-hero3:not(.lead-hero3-illus) .lead3-texte{position:relative;left:auto;right:auto;bottom:auto;width:100%;box-sizing:border-box}/* ===MESURE=== */
+.lead-hero3:not(.lead-hero3-illus) .lead3-texte{position:relative;left:auto;right:auto;bottom:auto;width:100%;box-sizing:border-box}/* ===MENU=== */
+.nav .liens a.nav-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;white-space:nowrap}
+@media (min-width:900px){.nav .liens{align-items:center}}
+.panneau nav a.nav-cta{display:flex;justify-content:center;align-items:center;margin-top:24px;padding:16px 24px;border:0;border-radius:999px;background:var(--jaune);font-size:22px;font-weight:600}
+.panneau-sec{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px}
+.panneau-sec a{font-size:15px;line-height:1.4;text-decoration:underline;text-underline-offset:3px;opacity:.8}
+.panneau-st{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.panneau-st p{flex:0 0 100%;margin:0 0 2px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+.panneau-st a{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border:1px solid rgba(28,27,31,.22);border-radius:999px;background:#fff;font-size:15px;text-decoration:none}
+@media (min-width:900px){.pied .cols{grid-template-columns:repeat(5,1fr)}}
+.lead-plan{margin:18px 0 0;text-align:center}
+.lead-plan a{color:var(--creme);font-weight:600;font-size:16px;text-decoration:underline;text-underline-offset:3px}
+/* ===/MENU=== */
+/* ===MOBILE=== */
+@media (max-width:699px){
+#trips .ac-portes{grid-auto-flow:row;grid-template-columns:1fr;overflow:visible;margin:20px 0 0;padding:0;gap:10px}
+#trips .ac-portes .hub-carte{display:grid;grid-template-columns:96px 1fr;border-radius:14px}
+#trips .ac-portes .hub-carte .photo{aspect-ratio:auto;min-height:96px}
+#trips .ac-portes .corps{position:relative;justify-content:center;padding-block:12px;padding-inline:14px 36px}
+#trips .ac-portes .corps::after{content:"›";position:absolute;inset-inline-end:14px;top:50%;transform:translateY(-50%);font-size:28px;line-height:1;opacity:.45}
+[dir=rtl] #trips .ac-portes .corps::after{content:"‹"}
+#trips .ac-portes h3{font-size:19px;line-height:1.15}
+#trips .ac-portes .hub-carte p{font-size:14px;line-height:1.35;margin:4px 0 0}
+#trips .ac-portes .btn-noir{display:none}
+#how.etapes ol{gap:18px;margin-top:22px;text-align:start}
+#how.etapes ol li{display:grid;grid-template-columns:64px 1fr;column-gap:14px;align-items:start}
+#how.etapes li img{width:64px;height:64px;margin:0;grid-row:1 / span 3}
+#how.etapes li > span{font-size:20px;margin-top:0}
+#how.etapes li p{margin:4px 0 0;max-width:none}
+#how.etapes ol li:not(:last-child)::after{display:none}
+}
+/* ===/MOBILE=== *//* ===MESURE=== */
 .cb{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;max-width:760px;margin-inline:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;padding:14px 18px;background:var(--creme);color:var(--encre);border:1px solid rgba(28,27,31,.18);border-radius:18px;box-shadow:0 8px 28px rgba(28,27,31,.16);font-size:14px;line-height:1.5}
 .cb[hidden]{display:none}
 .cb-haut{bottom:auto;top:12px}
@@ -1146,35 +1177,3 @@ html.anim-vis-on{overflow:hidden}
   @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
 }
 /* ===/ANIMATIONS=== */
-/* ===MENU=== */
-.nav .liens a.nav-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;white-space:nowrap}
-@media (min-width:900px){.nav .liens{align-items:center}}
-.panneau nav a.nav-cta{display:flex;justify-content:center;align-items:center;margin-top:24px;padding:16px 24px;border:0;border-radius:999px;background:var(--jaune);font-size:22px;font-weight:600}
-.panneau-sec{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px}
-.panneau-sec a{font-size:15px;line-height:1.4;text-decoration:underline;text-underline-offset:3px;opacity:.8}
-.panneau-st{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
-.panneau-st p{flex:0 0 100%;margin:0 0 2px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
-.panneau-st a{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border:1px solid rgba(28,27,31,.22);border-radius:999px;background:#fff;font-size:15px;text-decoration:none}
-@media (min-width:900px){.pied .cols{grid-template-columns:repeat(5,1fr)}}
-.lead-plan{margin:18px 0 0;text-align:center}
-.lead-plan a{color:var(--creme);font-weight:600;font-size:16px;text-decoration:underline;text-underline-offset:3px}
-/* ===/MENU=== */
-/* ===MOBILE=== */
-@media (max-width:699px){
-#trips .ac-portes{grid-auto-flow:row;grid-template-columns:1fr;overflow:visible;margin:20px 0 0;padding:0;gap:10px}
-#trips .ac-portes .hub-carte{display:grid;grid-template-columns:96px 1fr;border-radius:14px}
-#trips .ac-portes .hub-carte .photo{aspect-ratio:auto;min-height:96px}
-#trips .ac-portes .corps{position:relative;justify-content:center;padding-block:12px;padding-inline:14px 36px}
-#trips .ac-portes .corps::after{content:"›";position:absolute;inset-inline-end:14px;top:50%;transform:translateY(-50%);font-size:28px;line-height:1;opacity:.45}
-[dir=rtl] #trips .ac-portes .corps::after{content:"‹"}
-#trips .ac-portes h3{font-size:19px;line-height:1.15}
-#trips .ac-portes .hub-carte p{font-size:14px;line-height:1.35;margin:4px 0 0}
-#trips .ac-portes .btn-noir{display:none}
-#how.etapes ol{gap:18px;margin-top:22px;text-align:start}
-#how.etapes ol li{display:grid;grid-template-columns:64px 1fr;column-gap:14px;align-items:start}
-#how.etapes li img{width:64px;height:64px;margin:0;grid-row:1 / span 3}
-#how.etapes li > span{font-size:20px;margin-top:0}
-#how.etapes li p{margin:4px 0 0;max-width:none}
-#how.etapes ol li:not(:last-child)::after{display:none}
-}
-/* ===/MOBILE=== */

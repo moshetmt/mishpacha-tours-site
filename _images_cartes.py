@@ -14,7 +14,6 @@ PHOTO = {
     'alps': 'stock/hub-alps.jpg',
     'kosher-vacation-french-alps': 'stock/hub-kosher-vacation-french-alps.jpg',
     'flights-to-lyon': 'stock/hub-flights-to-lyon.jpg',
-    'kosher-services-french-alps': 'stock/hub-kosher-services-french-alps.jpg',
     'kosher-van-transfers': 'stock/hub-kosher-van-transfers.jpg',
     'kosher-val-thorens': 'stock/hub-kosher-val-thorens.jpg',
     'kosher-courchevel': 'stock/hub-kosher-courchevel.jpg',
@@ -34,6 +33,16 @@ PHOTO = {
     'jewish-lyon-itinerary-2-days': 'stock/hub-jewish-lyon-itinerary-2-days.jpg',
     'jewish-travel-lyon-faq': 'stock/hub-jewish-travel-lyon-faq.jpg',
     'jewish-life-around-lyon': 'stock/hub-jewish-life-around-lyon.jpg',
+    # 2e tour du 15/10
+    'synagogues-lyon': 'stock/hub-synagogues-lyon.jpg',
+    'shabbat-in-lyon': 'stock/hub-shabbat-in-lyon.jpg',
+    'chabad-lyon': 'stock/hub-chabad-lyon.jpg',
+    'kosher-services-french-alps': 'stock/hub-kosher-services-french-alps.jpg',
+    'kosher-ski-holidays-french-alps': 'stock/hub-kosher-ski-holidays-french-alps.jpg',
+    'grande-synagogue-lyon': 'stock/hub-grande-synagogue-lyon.jpg',
+    'chrd-lyon': 'stock/hub-chrd-lyon.jpg',
+    'is-lyon-safe-for-jewish-visitors': 'stock/hub-is-lyon-safe-for-jewish-visitors.jpg',
+    'jewish-lyon': 'stock/hub-tours-jewish-lyon.jpg',
 }
 RX = re.compile(r'(<a class="hub-carte" href="[^"]*?/?([a-z0-9-]+)/"[^>]*>\s*<div class="photo"><img src=")([^"]*?img/)([^"]+)(")')
 total = 0
