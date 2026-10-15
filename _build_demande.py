@@ -58,7 +58,7 @@ PATHS = {
 }
 LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "arrivee", "creneau", "depart", "heure", "flexible", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
              "logement", "chambres", "logement_opt", "repas", "repas_jours", "allergies", "cacherout", "cacherout_detail", "minyan_niveau", "religieux", "rite", "aeroport", "vol_ville", "vols_pris", "vol", "transport",
-             "ski", "niveau", "lyon", "langue_visite", "extras", "priorites", "budget", "budget_vols", "message", "ville", "urgence", "pour_qui"]
+             "ski", "niveau", "lyon", "langue_visite", "extras", "budget_personne", "budget_famille", "budget", "budget_vols", "priorites", "message", "ville", "urgence", "pour_qui"]
 INDICATIFS = '<option value="">{code}</option>' + "".join(f'<option value="{v}">{v} {c}</option>' for v, c in [
     ("+1", "US / CA"), ("+44", "UK"), ("+972", "IL"), ("+33", "FR"), ("+32", "BE"), ("+41", "CH"), ("+34", "ES"), ("+39", "IT"), ("+49", "DE"), ("+31", "NL"),
     ("+54", "AR"), ("+52", "MX"), ("+55", "BR"), ("+61", "AU"), ("+27", "ZA"), ("+7", "RU"), ("+380", "UA")])
@@ -298,12 +298,16 @@ def formulaire(lang):
                    zone("message-extras", "message", "Anything else we should know", "Last year we went to Switzerland. We want to be two minutes from the shul.")))
     prio = chips("priorites", ["Staying within budget", "Close to the shul or Beth Chabad", "A guaranteed minyan", "A beautiful, well-known resort",
                                 ("Great skiing", "a"), ("A private chef", "ae"), "Comfort and space", "Calm for small children"])
-    S.append(etape("budget", "What matters most, and what budget feels right?", "We are advisers: we build the best programme within your budget, never above it.",
-                   prio + f'<p class="dm-max" id="dm-max" role="status" hidden>{E("Three at most")}</p>' +
-                   f'<p class="dm-sous">{E("Total budget for the whole group")}</p>' +
-                   chips("budget", ["Under 10 000 €", "10 000 to 25 000 €", "25 000 to 50 000 €", "50 000 to 100 000 €", "Over 100 000 €", "Not sure yet, advise us"], multi=False, b="aef") +
-                   chips("budget", ["Under 3 000 €", "3 000 to 10 000 €", "10 000 to 25 000 €", "Over 25 000 €", "Not sure yet, advise us"], multi=False, b="b") +
-                   chips("budget_vols", ["Flights included in this budget", "Flights not included"], multi=False, b="ae")))
+    # 15/10 (Moshe) : plus de tranches (cochees au pif, « moins de 10 000 € » pour une famille sur quatre). Le maximum en chiffres, par personne
+    # ou par famille, « ce que la personne veut remplir, au mieux les deux », avec une phrase comprehensible d'une seule lecture.
+    S.append(etape("budget", "Your maximum budget", [("We organise the best possible trip within it and send you a ready-made programme. Flights aside.", ""),
+                                                      ("Fill in the one that speaks to you, or both.", "")],
+                   '<div class="dm-duo">' + champ("budget-personne", "budget_personne", "Per person", ph="€", extra=' inputmode="numeric"') +
+                   champ("budget-famille", "budget_famille", "Per family", ph="€", extra=' inputmode="numeric"') + "</div>" +
+                   chips("budget", ["Not sure yet, advise us"]) +
+                   chips("budget_vols", ["Flights included in this budget", "Flights not included"], multi=False, b="ae") +
+                   f'<p class="dm-sous">{E("What matters most?")}</p>' +
+                   prio + f'<p class="dm-max" id="dm-max" role="status" hidden>{E("Three at most")}</p>'))
     S.append(etape("message", [("Anything else we should know?", "bcd"), ("Tell us what you have in mind", "f")],
                    [("Optional.", "bcd"), ("Write it the way you would say it. We take it from there.", "f")],
                    zone("message-bcd", "message", "Anything else we should know", "Anything that helps: a baby, a late arrival, a special diet.", b="bcd") +
@@ -375,7 +379,9 @@ function val(n){
  if(n==='enfants'||n==='bebes'){var y=parseInt(raw(n),10);if(!(y>0))return '';var g=raw(n+'_ages');return y+(g?' ('+g+')':'')}
  if(n==='voyage')return voyage();
  if(n==='logement'&&branch()==='b')return C.k.logementB;
+ if(n==='budget_personne'||n==='budget_famille')return euros(raw(n));
  return raw(n)}
+function euros(s){var d=s.replace(/[^\d]/g,'');if(!d)return s;return d.replace(/\B(?=(\d{3})+(?!\d))/g,' ')+' €'}
 /* version anglaise des reponses (data-en des cases), pour le mail et le PDF transmis aux partenaires quelle que soit la langue du client */
 function rawEn(n){var a=els(n);if(!a.length)return '';var t=a[0].type;if(t==='checkbox'||t==='radio'){return a.filter(function(e){return e.checked}).map(function(e){return e.getAttribute('data-en')||e.value}).join(', ')}return a[0].value.trim()}
 function fdateEn(v){var m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(v);if(!m)return v;try{return new Date(+m[1],+m[2]-1,+m[3],12).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}catch(x){return v}}
@@ -386,6 +392,7 @@ function valEn(n){
  if(n==='voyage'){var r=f.querySelector('input[name="intention"]:checked');var a=r?[r.getAttribute('data-en')]:[];
   els('voyage').forEach(function(e){if(e.checked){var v=e.getAttribute('data-en')||e.value;if(a.indexOf(v)<0)a.push(v)}});return a.join(', ')}
  if(n==='logement'&&branch()==='b')return 'Already booked, I need services only';
+ if(n==='budget_personne'||n==='budget_famille')return euros(raw(n));
  return rawEn(n)}
 function screenOf(k){var e=els(k)[0];return e?e.scr:''}
 function recap(an){var ul=document.getElementById('dm-recap');ul.textContent='';var n=0;var go=an&&mo();
@@ -407,7 +414,7 @@ function render(an){var p=sync();if(p.indexOf(cur)<0)cur='intention';
  var i=p.indexOf(cur),last=cur==='final',b=branch();
  bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;var nn=cur==='dates'?nights():null,bad=nn!==null&&nn<0;
  nuitsP.hidden=!(nn!==null&&nn>=1);if(!nuitsP.hidden)nuitsP.textContent=nn===1?C.t.nuit:C.t.nuits.replace('{n}',nn);dateErr.hidden=!bad;
- bNext.disabled=(cur==='intention'&&!b)||(cur==='budget'&&!raw('budget'))||bad;
+ bNext.disabled=(cur==='intention'&&!b)||(cur==='budget'&&!raw('budget')&&!raw('budget_personne').replace(/\D/g,'')&&!raw('budget_famille').replace(/\D/g,''))||bad;
  prog.hidden=p.length<2;ptxt.textContent=C.t.step.replace('{n}',i+1).replace('{t}',p.length);
  var pc=Math.round((i+1)/p.length*100);barre.style.width=pc+'%';barreC.setAttribute('aria-valuenow',pc);
  piste.style.setProperty('--pc',pc+'%');if(lastPc>=0&&pc!==lastPc)anim(piste.querySelector('.dm-hp img'),'saute');lastPc=pc;
@@ -456,7 +463,7 @@ f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  var payload=JSON.stringify({tour:C.k.tour+(val('voyage')||C.k.none),dates:dates,personnes:pers,langue:val('langue'),nom:nom,contact:(ind+' '+tel.replace(/[^0-9]/g,'')).trim()+(val('email')?' / '+val('email'):''),message:parts.join(' | '),message_en:partsEn.join(' | '),nuits:nn!==null&&nn>0?nn:'',page:location.pathname,params:location.search});
  try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}
  try{sessionStorage.removeItem(KEY)}catch(e){}
- dl.push({event:'generate_lead',branch:branch(),budget:val('budget')});
+ dl.push({event:'generate_lead',branch:branch(),budget:val('budget_famille')||val('budget_personne')||val('budget')});
  sent=true;
  if(mo()){bSend.disabled=true;bSend.textContent='';var im=new Image();im.src=C.img+'picto-hassid-vert.svg';im.alt='';im.width=22;im.height=30;im.className='dm-marche';
   bSend.appendChild(im);bSend.appendChild(document.createTextNode(' '+C.t.sending));setTimeout(function(){location.href=C.merci},600)}

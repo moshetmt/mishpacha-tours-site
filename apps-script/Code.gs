@@ -38,7 +38,7 @@ var SECTIONS = [
   ['Getting there',       ['Airport', 'Flying from', 'Flights booked', 'Flights', 'Transport']],
   ['Activities and Lyon', ['Activities', 'Ski levels', 'Lyon', 'Tour language']],
   ['Extras',              ['Extras']],
-  ['Budget',              ['Priorities', 'Budget', 'Flights and budget']],
+  ['Budget',              ['Budget per person', 'Budget per family', 'Budget', 'Flights and budget', 'Priorities']],
   ['In their words',      ['Message']]
 ];
 var CONTACT_KEYS = ['Lives in', 'Urgency', 'Booking for'];   // mail seulement, jamais dans le PDF
@@ -184,7 +184,8 @@ function envoyerMail_(d, quand, test) {
   var qui = f.personnes + (f.map['Families'] ? ' · ' + f.map['Families'] + ' families' : '');
   var tuiles = '<table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>' +
     cle('Dates', f.dates) + cle('Who', qui) + '</tr><tr>' +
-    cle('Where', f.lieu) + cle('Budget', [f.map['Budget'], f.map['Flights and budget']].filter(Boolean).join(', ')) + '</tr><tr>' +
+    cle('Where', f.lieu) + cle('Budget', [f.map['Budget per family'] ? f.map['Budget per family'] + ' per family' : '', f.map['Budget per person'] ? f.map['Budget per person'] + ' per person' : '',
+                                          f.map['Budget'], f.map['Flights and budget']].filter(Boolean).join(', ')) + '</tr><tr>' +
     cle('Sleeping', [f.map['Accommodation'], f.map['Rooms']].filter(Boolean).join(' · ')) + cle('Meals', [f.map['Meals'], f.map['Kashrut']].filter(Boolean).join(' · ')) + '</tr></table>';
 
   var ligne = function (label, valeur) {

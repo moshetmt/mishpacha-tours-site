@@ -269,6 +269,18 @@ NEW.update({
 "Fun and extras": ("Loisirs et extras", "Ocio y extras", "בילויים ותוספות"),
 })
 LAB_NEW["familles"] = ("Families", "Familles", "Familias", "משפחות")
+# 15/10 : le budget en chiffres, par personne ou par famille (plus de tranches)
+NEW.update({
+"Your maximum budget": ("Votre budget maximum", "Su presupuesto máximo", "התקציב המקסימלי שלכם"),
+"We organise the best possible trip within it and send you a ready-made programme. Flights aside.": ("Nous organisons le meilleur voyage possible dans ce budget et vous envoyons un programme tout fait. Vols à part.", "Organizamos el mejor viaje posible dentro de ese presupuesto y le enviamos un programa listo. Vuelos aparte.", "אנחנו מארגנים את הטיול הטוב ביותר בתוך התקציב הזה ושולחים לכם תוכנית מוכנה. בלי הטיסות."),
+"Fill in the one that speaks to you, or both.": ("Remplissez celui qui vous parle, ou les deux.", "Rellene el que le resulte natural, o los dos.", "מלאו את מה שמדבר אליכם, או את שניהם."),
+"Per person": ("Par personne", "Por persona", "לאדם"),
+"Per family": ("Par famille", "Por familia", "למשפחה"),
+"What matters most?": ("Qu'est-ce qui compte le plus ?", "¿Qué es lo más importante?", "מה הכי חשוב לכם?"),
+"€": ("€", "€", "€"),
+})
+LAB_NEW["budget_personne"] = ("Budget per person", "Budget par personne", "Presupuesto por persona", "תקציב לאדם")
+LAB_NEW["budget_famille"] = ("Budget per family", "Budget par famille", "Presupuesto por familia", "תקציב למשפחה")
 
 LANGS = ("en", "fr", "es", "he")
 
