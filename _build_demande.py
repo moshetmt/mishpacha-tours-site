@@ -50,7 +50,7 @@ def hero(lang):
 # Branches : a sejour complet, b j'ai deja mon logement, c van, d Lyon, e fete, f autre
 PATHS = {
     "a": ["intention", "quoi", "dates", "groupe", "logement", "repas", "cacherout", "religieux", "transport", "ski", "lyon", "extras", "budget", "final"],
-    "b": ["intention", "ou", "dates", "groupe", "religieux", "repas", "cacherout", "message", "budget", "final"],
+    "b": ["intention", "ou", "dates", "groupe", "religieux", "repas", "cacherout", "transport", "ski", "lyon", "extras", "budget", "final"],   # 15/10 Mendel : meme richesse que le sejour complet
     "c": ["intention", "trajet", "quand", "groupe", "bagages", "message", "final"],
     "d": ["intention", "lyon", "jour", "groupe", "message", "final"],
     "e": ["intention", "fete", "dates", "groupe", "logement", "repas", "cacherout", "religieux", "extras", "budget", "final"],
@@ -82,8 +82,9 @@ ICONES = {
     # logement
     "A private chalet": "house", "Apartments, same residence": "building", "A hotel": "hotel", "Advise me": "lightbulb",
     "Near the Beth Chabad or shul": "landmark", "Ski-in ski-out or near the slopes": "mountain-snow", "Daily cleaning": "spray-can", "Laundry": "washing-machine",
+    "Jacuzzi or hammam": "bath", "Swimming pool": "waves",
     # repas, cacherout
-    "Private chef in the chalet": "chef-hat", "Meals delivered every day": "truck", "Shabbat meals only": "wine", "Breakfast and dinner": "coffee",
+    "Private chef in the chalet": "chef-hat", "Meals delivered, ready to heat": "truck", "Shabbat meals only": "wine", "Breakfast and dinner": "coffee",
     "Groceries ready on arrival": "shopping-basket", "We cook, with delivery": "cooking-pot", "No meals needed": "ban",
     "Chalav Yisrael": "milk", "Pas Yisrael": "croissant", "Glatt / Beit Yosef": "beef", "Chassidic shechita": "drumstick", "Kitniyot-free (Pesach)": "bean-off", "Gluten-free or allergies": "wheat-off",
     # religieux
@@ -93,7 +94,7 @@ ICONES = {
     # transport
     "Flying to Lyon": "plane-landing", "Flying to Geneva": "plane", "Flying to Paris then train": "train-front", "Arriving by car": "car", "Not decided yet": "circle-help",
     "Flights already booked": "circle-check", "Not booked yet": "hourglass",
-    "Private airport transfer": "car-front", "A van and driver for the stay": "bus", "A rental car": "key-round", "Help with flights": "plane-takeoff",
+    "Private airport transfer": "car-front", "Taxi rides in the resort": "car-taxi-front", "A van and driver for the stay": "bus", "A rental car": "key-round", "Help with flights": "plane-takeoff",
     # activites : hiver
     "Ski passes": "ticket", "Rental delivered to the chalet": "package", "We bring our own skis": "backpack", "Ski school for children": "school", "Private instructor": "graduation-cap",
     "Non-skiers in the group": "coffee", "Snowmobile": "gauge", "Snowshoeing": "footprints", "Dog sledding": "dog", "Sledging": "cloud-snow", "Ice rink": "snowflake",
@@ -108,7 +109,7 @@ ICONES = {
     "Day trip to Izieu": "bus", "Kosher restaurant tips": "utensils", "Shabbat with a Chabad family": "heart",
     "English": "txt:EN", "Hebrew": "txt:עב", "French": "txt:FR", "Spanish": "txt:ES",   # langues : code de la langue, pas de bulle (reproche du 15/10)
     # extras
-    "Babysitter": "baby", "Fireworks": "sparkles", "A simcha to celebrate": "party-popper", "Photographer or videographer": "camera", "DJ or live music": "music",
+    "Babysitter": "baby", "A wedding on the slopes": "gem", "Fireworks": "sparkles", "A simcha to celebrate": "party-popper", "Photographer or videographer": "camera", "DJ or live music": "music",
     "Flowers and table decoration": "flower-2", "Kids' entertainer": "toy-brick", "Security escort (quoted)": "shield-check", "Reduced mobility": "accessibility",
     # priorites, budget
     "Staying within budget": "scale", "Close to the shul or Beth Chabad": "landmark", "A guaranteed minyan": "users", "A beautiful, well-known resort": "mountain",
@@ -200,7 +201,7 @@ def formulaire(lang):
                 f'<img src="{IMG}des/{icone}.webp" alt="" width="44" height="44" loading="lazy"><b>{E(titre)}</b><span>{E(sous)}</span></label>')
     tuiles = '<div class="dm-tuiles">' + "".join([
         tuile("a", "mountain-snow", "A full stay in the Alps", "Chalet, chef, Shabbat, minyan", "A full stay in the Alps"),
-        tuile("b", "house", "I already have my place", "Minyan, meals, Sefer Torah", "Services where we already stay (minyan, Sefer Torah, meals)"),
+        tuile("b", "house", "I already have my place", "Chef, meals, minyan, transfers", "Services where we already stay (chef, meals, minyan, transfers)"),
         tuile("e", "sparkles", "Pesach or a holiday", "A full holiday programme", "Holiday programme (Pesach or other)"),
         tuile("d", "landmark", "A Jewish Lyon tour", "Guided, 2.5 hours", "Jewish Lyon tour"),
         tuile("c", "car", "A van transfer", "From A to B, with a driver", "Van transfer, point A to point B"),
@@ -213,16 +214,17 @@ def formulaire(lang):
     # ---- a : sejour complet
     S.append(etape("quoi", "What kind of stay, and where?", "Tick everything that applies. A region is enough.",
                    chips("voyage", [("Ski holiday with a chalet", "", "winter"), ("Hanukkah in the Alps", "", "winter"), ("Pesach in the Alps", "", "winter"), ("Summer in the Alps", "", "summer"), "Something else"]) +
-                   champ("lieu-quoi", "lieu", "Resort, town or region you have in mind", ph="Courchevel, Les Deux Alpes, not sure yet")))
+                   champ("lieu-quoi", "lieu", "Resort, town or region you have in mind", ph="Les Deux Alpes, Grenoble, not sure yet")))
     # ---- b : j'ai deja mon logement
     S.append(etape("ou", "Where are you staying?", "The resort and the address of your chalet, apartment or hotel.",
                    champ("lieu-ou", "lieu", "Resort or resorts you are considering", ph="Morzine, Châtel, Les Deux Alpes") +
                    chips("lieu_pas_choisi", ["Not chosen yet, minyan first"]) +
-                   champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac")))
+                   champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac") +
+                   chips("logement_opt", ["Daily cleaning", "Laundry"])))
     # ---- e : fete
     S.append(etape("fete", "Which holiday?", "Tick the holiday or holidays, and the place if you know it.",
                    chips("voyage", ["Pesach in the Alps", "Hanukkah in the Alps", "Sukkot", "Rosh Hashanah and Yom Kippur", "Purim", "Shavuot", "Another holiday"]) +
-                   champ("lieu-fete", "lieu", "Resort, town or region you have in mind", ph="Courchevel, Les Deux Alpes, not sure yet")))
+                   champ("lieu-fete", "lieu", "Resort, town or region you have in mind", ph="Les Deux Alpes, Grenoble, not sure yet")))
     # ---- dates (a b d e f)
     S.append(etape("dates", "When do you travel?", "Approximate is fine.",
                    '<div class="dm-duo">' + champ("arrivee", "arrivee", "Arrival", typ="date") + champ("depart", "depart", "Departure", typ="date") + "</div>" +
@@ -253,16 +255,19 @@ def formulaire(lang):
     S.append(etape("logement", "Where would you like to sleep?", "Pick what suits you. We advise if you are not sure.",
                    chips("logement", ["A private chalet", "Apartments, same residence", "A hotel", "Advise me"], multi=False) +
                    champ("chambres", "chambres", "Bedrooms and bathrooms needed", ph="5 bedrooms, 3 bathrooms") +
-                   chips("logement_opt", ["Near the Beth Chabad or shul", "Ski-in ski-out or near the slopes", "Daily cleaning", "Laundry"])))
+                   chips("logement_opt", ["Near the Beth Chabad or shul", "Ski-in ski-out or near the slopes", "Jacuzzi or hammam", "Swimming pool", "Daily cleaning", "Laundry"])))
     # ---- repas (a b e)
     # 15/10 : un seul mode de repas (Jonah Bibi avait coche les six, chef prive et « on cuisine » compris) ; les jours et le detail vont dans les champs
-    S.append(etape("repas", "Which meals do you need?", "Pick the one closest to what you want. We adjust the details with you.",
-                   chips("repas", [("Private chef in the chalet", "ae"), "Meals delivered every day", "Shabbat meals only",
-                                   "We cook, with delivery", "Advise me", ("No meals needed", "", "none")], multi=False) +
+    # 15/10 Mendel : chef aussi pour qui a deja son chalet ; les plats livres arrivent prets a rechauffer, trois fois par semaine (arrivee,
+    # milieu de semaine, veille de Shabbat), jamais tous les jours ; plus de « on cuisine avec livraison » (il ne livre pas de produits bruts)
+    S.append(etape("repas", "Which meals do you need?", [("Pick the one closest to what you want. We adjust the details with you.", ""),
+                                                          ("Delivered meals arrive ready to heat, three times a week: on arrival, midweek and before Shabbat.", "")],
+                   chips("repas", ["Private chef in the chalet", "Meals delivered, ready to heat", "Shabbat meals only",
+                                   "Advise me", ("No meals needed", "", "none")], multi=False) +
                    champ("repas_jours", "repas_jours", "Which days?", ph="Shabbat only, or every day from 25 July to 15 August") +
                    champ("allergies", "allergies", "Allergies or special diets", ph="Nut allergy for one child")))
-    S.append(etape("cacherout", "Your kashrut standard", "Tick what you keep. We follow it exactly.",
-                   chips("cacherout", ["Chalav Yisrael", "Pas Yisrael", "Glatt / Beit Yosef", "Chassidic shechita", "Kitniyot-free (Pesach)", "Gluten-free or allergies"]) +
+    S.append(etape("cacherout", "Your kashrut standard", [("Everything we serve is Chalav Yisrael. Tick what else you keep. We follow it exactly.", "")],
+                   chips("cacherout", ["Pas Yisrael", "Glatt / Beit Yosef", "Chassidic shechita", "Kitniyot-free (Pesach)", "Gluten-free or allergies"]) +
                    champ("cacherout_detail", "cacherout_detail", "Anything else about kashrut, allergies or preferences", ph="One vegetarian, nut allergy for a child")))
     S.append(etape("religieux", "Shabbat, prayer and holidays", "What do you need on site?",
                    chips("minyan_niveau", ["The minyan is essential", "Nice to have", "Not needed"], multi=False) +
@@ -274,7 +279,7 @@ def formulaire(lang):
                    champ("vol_ville", "vol_ville", "City you fly from", ph="New York, Tel Aviv, London") +
                    chips("vols_pris", ["Flights already booked", "Not booked yet"], multi=False) +
                    champ("vol", "vol", "Flight numbers or landing times, if known", ph="Landing 11:40, departing 15:30") +
-                   chips("transport", ["Private airport transfer", "A van and driver for the stay", "A rental car", "Help with flights"])))
+                   chips("transport", ["Private airport transfer", "Taxi rides in the resort", "A van and driver for the stay", "A rental car", "Help with flights"])))
     # 15/10 : deux groupes (le ski d'abord, les loisirs ensuite) pour que 26 cases ne se cochent plus toutes d'un coup
     S.append(etape("ski", "Activities", "Tick what tempts you. We arrange it all on site.",
                    f'<p class="dm-sous" data-s="w">{E("On the slopes")}</p>' +
@@ -293,7 +298,7 @@ def formulaire(lang):
                    f'<p class="dm-sous">{E("Language of the visit")}</p>' + chips("langue_visite", ["English", "French", "Spanish"], multi=False) +
                    '<p class="dm-note">' + E("To enter the Grande Synagogue, the community's security team will ask for your names and passports once the tour is confirmed.") + "</p>"))
     S.append(etape("extras", "Extras", "Everything here is optional.",
-                   chips("extras", ["Babysitter", "Fireworks", "A simcha to celebrate", "Photographer or videographer", "DJ or live music",
+                   chips("extras", ["Babysitter", "A wedding on the slopes", "A simcha to celebrate", "Fireworks", "Photographer or videographer", "DJ or live music",
                                     "Flowers and table decoration", "Kids' entertainer", "Security escort (quoted)", "Reduced mobility"]) +
                    zone("message-extras", "message", "Anything else we should know", "Last year we went to Switzerland. We want to be two minutes from the shul.")))
     prio = chips("priorites", ["Staying within budget", "Close to the shul or Beth Chabad", "A guaranteed minyan", "A beautiful, well-known resort",
@@ -308,9 +313,9 @@ def formulaire(lang):
                    chips("budget_vols", ["Flights included in this budget", "Flights not included"], multi=False, b="ae") +
                    f'<p class="dm-sous">{E("What matters most?")}</p>' +
                    prio + f'<p class="dm-max" id="dm-max" role="status" hidden>{E("Three at most")}</p>'))
-    S.append(etape("message", [("Anything else we should know?", "bcd"), ("Tell us what you have in mind", "f")],
-                   [("Optional.", "bcd"), ("Write it the way you would say it. We take it from there.", "f")],
-                   zone("message-bcd", "message", "Anything else we should know", "Anything that helps: a baby, a late arrival, a special diet.", b="bcd") +
+    S.append(etape("message", [("Anything else we should know?", "cd"), ("Tell us what you have in mind", "f")],
+                   [("Optional.", "cd"), ("Write it the way you would say it. We take it from there.", "f")],
+                   zone("message-bcd", "message", "Anything else we should know", "Anything that helps: a baby, a late arrival, a special diet.", b="cd") +
                    zone("message-f", "message", "Tell us what you have in mind", "A bar mitzvah weekend in the Alps for 30 guests", b="f")))
     # ---- final : recapitulatif + contact
     contact = ('<div class="dm-duo">' + champ("nom", "nom", "Your name", extra=' autocomplete="name" required') + champ("ville", "ville", "Where you live", ph="Brooklyn, London, Tel Aviv") + "</div>" +

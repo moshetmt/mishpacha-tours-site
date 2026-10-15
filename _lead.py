@@ -31,8 +31,8 @@ STATIONS = {
 PAGES = {s: (p, 'station', f"Kosher stay in {n['en']}") for s, (p, n) in STATIONS.items()}
 PAGES.update({
  'kosher-services-french-alps': ('stock/st-val-thorens.jpg', 'alps', 'Kosher services in the Alps'),
- 'alps': ('stock/alpes-ski.jpg', 'alps', 'Kosher stay in the French Alps'),
- 'kosher-ski-holidays-french-alps': ('stock/alpes-ski.jpg', 'alps', 'Kosher ski holiday in the Alps'),
+ 'alps': ('chalet/wp-soleil.jpg', 'alps', 'Kosher stay in the French Alps'),            # 15/10 Mendel : la piste brunâtre « fait de la peine », neige éclatante
+ 'kosher-ski-holidays-french-alps': ('chalet/wp-soleil.jpg', 'alps', 'Kosher ski holiday in the Alps'),
  'summer-in-the-alps-jewish-families': ('stock/annecy-ete.jpg', 'alps', 'Kosher summer in the Alps'),
  'kosher-vacation-french-alps': ('stock/annecy-lac.jpg', 'alps', 'Kosher vacation in the Alps'),
  'kosher-van-transfers': ('illus/flat-stopover.png', 'van', 'Van transfer'),
@@ -43,10 +43,10 @@ WP_SLUG = 'kosher-les-deux-alpes'
 
 T = {
  'puces': {
-  'en': ['Shomer Shabbat', 'Strictly kosher', 'Minyan on request'],
-  'fr': ['Shomer Shabbat', 'Strictement casher', 'Minyan sur demande'],
-  'es': ['Shomer Shabat', 'Estrictamente kosher', 'Minyan a petición'],
-  'he': ['שומר שבת', 'שומר כשרות', 'מניין לפי בקשה']},
+  'en': ['Shomer Shabbat', 'Strictly kosher, Chalav Yisrael', 'Minyan on request'],
+  'fr': ['Shomer Shabbat', "Strictement casher, 'Halav Israël", 'Minyan sur demande'],
+  'es': ['Shomer Shabat', 'Estrictamente kosher, Chalav Yisrael', 'Minyan a petición'],
+  'he': ['שומר שבת', 'שומר כשרות, חלב ישראל', 'מניין לפי בקשה']},   # 15/10 Mendel : tout est 'Halav Israël, c'est un argument
  'puces_van': {
   'en': ['Shomer Shabbat', 'Point A to point B', 'Quote on request'],
   'fr': ['Shomer Shabbat', 'Du point A au point B', 'Devis sur demande'],
@@ -159,7 +159,7 @@ def traiter(slug, lang):
     <h1>{h1}</h1>
     <p>{phrase}</p>
     <a class="btn-hero" href="{href}" rel="noopener"><svg><use href="#wa"/></svg>{btn}</a>
-    </div>
+    </div><!-- _lead_retouches.py (15/10) met le formulaire en bouton principal et WhatsApp en lien : à relancer après ce script -->
   </div>
 </section>
 '''

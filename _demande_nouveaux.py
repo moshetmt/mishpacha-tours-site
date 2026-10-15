@@ -9,6 +9,17 @@ for _k in list(OLD):
     if _m: OLD[_m.group(1)] = tuple(re.sub(r"^\d+\. ", "", x) for x in OLD[_k])
 
 NEW = {
+# 15/10 soir, retours de Mendel (FR ES HE par Claude, a faire relire)
+"Chef, meals, minyan, transfers": ("Chef, repas, minyan, transferts", "Chef, comidas, minyan, traslados", "שף, ארוחות, מניין, הסעות"),
+"Services where we already stay (chef, meals, minyan, transfers)": ("Services là où nous logeons déjà (chef, repas, minyan, transferts)", "Servicios donde ya nos alojamos (chef, comidas, minyan, traslados)", "שירותים במקום שבו אנחנו כבר מתארחים (שף, ארוחות, מניין, הסעות)"),
+"Les Deux Alpes, Grenoble, not sure yet": ("Les Deux Alpes, Grenoble, pas encore décidé", "Les Deux Alpes, Grenoble, aún sin decidir", "לה דז אלפ, גרנובל, עדיין לא בטוחים"),
+"Jacuzzi or hammam": ("Jacuzzi ou hammam", "Jacuzzi o hammam", "ג'קוזי או חמאם"),
+"Swimming pool": ("Piscine", "Piscina", "בריכה"),
+"Meals delivered, ready to heat": ("Repas livrés, prêts à réchauffer", "Comidas entregadas, listas para calentar", "ארוחות במשלוח, מוכנות לחימום"),
+"Delivered meals arrive ready to heat, three times a week: on arrival, midweek and before Shabbat.": ("Les repas livrés arrivent prêts à réchauffer, trois fois par semaine : à l'arrivée, en milieu de semaine et avant Shabbat.", "Las comidas llegan listas para calentar, tres veces por semana: a la llegada, a mitad de semana y antes de Shabat.", "הארוחות מגיעות מוכנות לחימום, שלוש פעמים בשבוע: בהגעה, באמצע השבוע ולפני שבת."),
+"Everything we serve is Chalav Yisrael. Tick what else you keep. We follow it exactly.": ("Tout ce que nous servons est 'Halav Israël. Cochez ce que vous suivez en plus. Nous l'appliquons à la lettre.", "Todo lo que servimos es Chalav Yisrael. Marque lo demás que usted sigue. Lo aplicamos al pie de la letra.", "כל מה שאנחנו מגישים הוא חלב ישראל. סמנו מה עוד אתם שומרים. נקפיד על כך."),
+"Taxi rides in the resort": ("Taxis en station", "Taxis en la estación", "מוניות באתר"),
+"A wedding on the slopes": ("Un mariage sur les pistes", "Una boda en las pistas", "חתונה על המסלולים"),
 # 15/10 : un pictogramme par choix, libelles courts, ecran Activites (FR ES HE par Claude, a faire relire)
 "Not chosen yet, minyan first": ("Pas encore choisi, minyan d'abord", "Aún sin elegir, el minyan primero", "עוד לא בחרנו, קודם מניין"),
 "Arrive before Shabbat": ("Arriver avant Shabbat", "Llegar antes de Shabat", "להגיע לפני שבת"),
