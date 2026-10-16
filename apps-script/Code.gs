@@ -19,9 +19,40 @@
 var DEST_EMAIL = 'contact@mishpachatours.com, mochetimsit@gmail.com, contact@123digital.fr';   // 123digital : fait sonner le telephone de l'operateur (12/10)
 var CC_EMAIL = 'timsitelis613@gmail.com';   // la guide, en copie de chaque demande (operateur, 11/10)
 var TEST_EMAIL = 'mochetimsit@gmail.com';
-var ENTETE = ['Date', 'Tour', 'Dates', 'Nombre de personnes', 'Langue', 'Nom',
-              'Email ou WhatsApp', 'Message', 'Page', 'Source', 'Message EN'];
+// Feuille v2 (16/10) : une colonne par information utile, lisible comme un CRM. L'ancienne
+// disposition (ENTETE_V1) est migree automatiquement au premier passage de formater_().
+var ENTETE_V1 = ['Date', 'Tour', 'Dates', 'Nombre de personnes', 'Langue', 'Nom',
+                 'Email ou WhatsApp', 'Message', 'Page', 'Source', 'Message EN'];
+var ENTETE = ['Reçu le', 'Statut', 'Nom', 'WhatsApp', 'E-mail', 'Voyage', 'Lieu', 'Arrivée', 'Départ', 'Nuits',
+              'Familles', 'Adultes', 'Enfants', 'Bébés', 'Hommes minyan', 'Logement', 'Repas', 'Minyan et prières',
+              'Budget', 'Habite à', 'Langue', 'Page', 'Résumé EN', 'Message original', 'Notes'];
+var LARGEURS = [130, 115, 160, 150, 190, 230, 140, 125, 125, 55, 70, 70, 110, 70, 80, 220, 220, 220, 150, 120, 80, 130, 320, 320, 240];
+var STATUTS = ['Nouveau', 'Répondu', 'Devis envoyé', 'Gagné', 'Perdu', 'Test'];
+var NOM_FEUILLE = 'Leads';
+var CLE_FORMAT = 'mt-leads-2026';   // GET /exec?action=formater&cle=... : relance la mise en forme (idempotent, ne supprime rien)
 var TZ = 'Europe/Paris';
+
+// Libelles FR/ES/HE des anciennes lignes sans « Message EN » (migration seulement).
+var LABELS_EN = {
+  'Voyage': 'Trip', 'Viaje': 'Trip', 'נסיעה': 'Trip',
+  'Station ou lieu': 'Resort or place', 'Estación o lugar': 'Resort or place', 'אתר או מקום': 'Resort or place',
+  'Arrivée': 'Arrival', 'Llegada': 'Arrival', 'הגעה': 'Arrival',
+  'Départ': 'Departure', 'Salida': 'Departure', 'יציאה': 'Departure',
+  'Familles': 'Families', 'Familias': 'Families', 'משפחות': 'Families',
+  'Adultes': 'Adults', 'Adultos': 'Adults', 'מבוגרים': 'Adults',
+  'Enfants': 'Children', 'Niños': 'Children', 'ילדים': 'Children',
+  'Bébés': 'Babies', 'Bebés': 'Babies', 'תינוקות': 'Babies',
+  'Hommes pour le minyan': 'Men for minyan', 'Hombres para el minyan': 'Men for minyan', 'גברים למניין': 'Men for minyan',
+  'Hébergement': 'Accommodation', 'Alojamiento': 'Accommodation', 'לינה': 'Accommodation',
+  'Repas': 'Meals', 'Comidas': 'Meals', 'ארוחות': 'Meals',
+  'Besoins religieux': 'Religious needs', 'Necesidades religiosas': 'Religious needs', 'צרכים דתיים': 'Religious needs',
+  'Niveau de minyan': 'Minyan level', 'חשיבות המניין': 'Minyan level',
+  'Budget': 'Budget', 'Presupuesto': 'Budget', 'תקציב': 'Budget',
+  'Budget par personne': 'Budget per person', 'תקציב לאדם': 'Budget per person',
+  'Budget par famille': 'Budget per family', 'תקציב למשפחה': 'Budget per family',
+  'Habite à': 'Lives in', 'Vive en': 'Lives in', 'מקום מגורים': 'Lives in',
+  'Message': 'Message', 'Mensaje': 'Message', 'הודעה': 'Message'
+};
 
 // charte du site v5
 var VERT = '#2D5132', JAUNE = '#FCDE73', CREME = '#FFFAED', BEIGE = '#F1EDE6', ENCRE = '#1C1B1F', GRIS = '#8a867f';
@@ -65,10 +96,7 @@ function doPost(e) {
     var quand = new Date();
     if (!test) {
       var sh = feuille_();
-      sh.appendRow([
-        quand, cel_(d.tour), cel_(d.dates), cel_(d.personnes), cel_(d.langue),
-        cel_(d.nom), cel_(d.contact), cel_(d.message), cel_(d.page), cel_(d.params), cel_(d.message_en)
-      ]);
+      ecrireLigne_(sh, d, quand, 'Nouveau');
     }
 
     envoyerMail_(d, quand, test);
@@ -82,6 +110,12 @@ function doPost(e) {
 }
 
 function doGet(e) {
+  var p = (e && e.parameter) || {};
+  if (p.action === 'formater' && p.cle === CLE_FORMAT) {
+    var sh = feuille_();
+    var r = formater_(sh, true);
+    return ContentService.createTextOutput('Feuille mise en forme : ' + r);
+  }
   return ContentService.createTextOutput('Mishpacha Tours form endpoint - OK');
 }
 
@@ -96,14 +130,140 @@ function feuille_() {
     ss = SpreadsheetApp.create('Mishpacha - Leads');
     props.setProperty('SHEET_ID', ss.getId());
   }
-  var sh = ss.getSheets()[0];
+  var sh = ss.getSheetByName(NOM_FEUILLE) || ss.getSheets()[0];
   if (sh.getLastRow() === 0) {
     sh.appendRow(ENTETE);
-    sh.setFrozenRows(1);
-  } else if (sh.getLastColumn() < ENTETE.length) {
-    sh.getRange(1, 1, 1, ENTETE.length).setValues([ENTETE]);   // colonne « Message EN » ajoutee le 15/10
+  }
+  if (props.getProperty('FORMAT_V') !== '2') {
+    formater_(sh, true);
+    props.setProperty('FORMAT_V', '2');
   }
   return sh;
+}
+
+// ---------------------------------------------------------------- feuille v2 : une colonne par information
+
+// Ligne de la feuille a partir des champs recus (ou d'une ancienne ligne reconstituee).
+function ligne_(d, quand, statut) {
+  var f = fiche_(d);
+  var m = f.map;
+  var nuits = parseInt(txt(d.nuits), 10);
+  if (!(nuits > 0) && m['Arrival'] && m['Departure']) nuits = nuits_(m['Arrival'], m['Departure']);
+  var budget = [m['Budget per person'] ? m['Budget per person'] + ' / pers.' : '',
+                m['Budget per family'] ? m['Budget per family'] + ' / famille' : '',
+                m['Budget'], m['Flights and budget']].filter(Boolean).join(' · ');
+  var minyan = [m['Minyan level'], m['Religious needs'], m['Nusach']].filter(Boolean).join(' · ');
+  var logement = [m['Accommodation'], m['Rooms'], m['Accommodation options']].filter(Boolean).join(' · ');
+  var repas = [m['Meals'], m['Meal days'], m['Kashrut'], m['Allergies and diets']].filter(Boolean).join(' · ');
+  var resume = txt(d.message_en) || txt(d.message);
+  var original = txt(d.message_en) ? txt(d.message) : '';
+  return [
+    quand, statut || 'Nouveau', f.nom, f.tel ? '+' + f.tel : '', f.mail, f.tour, f.lieu,
+    m['Arrival'] || (f.en ? '' : txt(d.dates)), m['Departure'] || '', nuits > 0 ? nuits : '',
+    m['Families'] || '', m['Adults'] || (f.en ? '' : txt(d.personnes)), m['Children'] || '', m['Babies'] || '', m['Men for minyan'] || '',
+    logement, repas, minyan, budget, m['Lives in'] || '', f.langue, f.page, resume, original, ''
+  ].map(function (v) { return typeof v === 'string' ? cel_(v) : v; });
+}
+
+function ecrireLigne_(sh, d, quand, statut) {
+  var row = ligne_(d, quand, statut);
+  sh.appendRow(row);
+  var r = sh.getLastRow();
+  var tel = String(row[3]).replace(/^'/, '');
+  if (tel) {
+    var num = tel.replace(/[^0-9]/g, '');
+    sh.getRange(r, 4).setRichTextValue(SpreadsheetApp.newRichTextValue().setText(tel).setLinkUrl('https://wa.me/' + num).build());
+  }
+  sh.getRange(r, 1).setNumberFormat('ddd d mmm yyyy HH:mm');
+  sh.getRange(r, 1, 1, ENTETE.length).setVerticalAlignment('middle');
+  sh.getRange(r, 16, 1, 9).setWrapStrategy(SpreadsheetApp.WrapStrategy.CLIP);
+}
+
+function nuits_(a, b) {
+  var da = new Date(a), db = new Date(b);
+  if (isNaN(da) || isNaN(db)) return 0;
+  return Math.round((db - da) / 86400000);
+}
+
+// Ancienne ligne (11 colonnes) -> objet d comme celui du site, labels FR/ES/HE ramenes en anglais.
+function ancienne_(v) {
+  var message = txt(v[7]), en = txt(v[10]);
+  if (!en && message) {
+    var traduit = paires_(message).map(function (kv) { return (LABELS_EN[kv[0]] || kv[0]) + ': ' + kv[1]; });
+    if (traduit.some(function (s) { return /^(Trip|Arrival|Adults|Accommodation|Meals): /.test(s); })) en = traduit.join(' | ');
+  }
+  return { tour: v[1], dates: v[2], personnes: v[3], langue: v[4], nom: v[5], contact: v[6],
+           message: message, page: v[8], params: v[9], message_en: en };
+}
+
+function formater_(sh, migrer) {
+  var ss = sh.getParent();
+  var tete = sh.getRange(1, 1, 1, Math.max(sh.getLastColumn(), 1)).getValues()[0].map(txt);
+  var migre = 0;
+
+  // 1. Migration de l'ancienne disposition, sans rien perdre : l'ancienne feuille est renommee, pas supprimee.
+  if (migrer && tete[0] === 'Date' && tete[1] === 'Tour') {
+    var vals = sh.getLastRow() > 1 ? sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues() : [];
+    var lignes = vals.filter(function (v) { return txt(v[5]) || txt(v[6]); }).map(function (v) {
+      var d = ancienne_(v);
+      var statut = /TEST/i.test(txt(v[5])) ? 'Test' : 'Nouveau';
+      return { d: d, quand: v[0] instanceof Date ? v[0] : new Date(), statut: statut };
+    });
+    sh.setName('Ancienne feuille (' + Utilities.formatDate(new Date(), TZ, 'dd-MM') + ')');
+    var neuf = ss.insertSheet(NOM_FEUILLE, 0);
+    neuf.appendRow(ENTETE);
+    lignes.forEach(function (l) { ecrireLigne_(neuf, l.d, l.quand, l.statut); migre++; });
+    sh.hideSheet();
+    sh = neuf;
+  }
+  if (sh.getName() !== NOM_FEUILLE) { try { sh.setName(NOM_FEUILLE); } catch (err) {} }
+
+  var n = ENTETE.length, maxR = Math.max(sh.getMaxRows(), 500);
+  sh.getRange(1, 1, 1, n).setValues([ENTETE]);
+
+  // 2. En-tete, gel, largeurs
+  var h = sh.getRange(1, 1, 1, n);
+  h.setBackground(VERT).setFontColor(CREME).setFontWeight('bold').setFontSize(10)
+   .setVerticalAlignment('middle').setWrap(true);
+  sh.setRowHeight(1, 44);
+  sh.setFrozenRows(1);
+  sh.setFrozenColumns(3);
+  LARGEURS.forEach(function (w, i) { sh.setColumnWidth(i + 1, w); });
+
+  // 3. Corps : alternance, formats, listes
+  var corps = sh.getRange(2, 1, maxR - 1, n);
+  corps.setVerticalAlignment('middle').setFontSize(10);
+  sh.getRange(2, 1, maxR - 1, 1).setNumberFormat('ddd d mmm yyyy HH:mm');
+  sh.getRange(2, 10, maxR - 1, 6).setHorizontalAlignment('center');
+  sh.getRange(2, 16, maxR - 1, 9).setWrapStrategy(SpreadsheetApp.WrapStrategy.CLIP);
+  sh.getRange(2, 25, maxR - 1, 1).setWrapStrategy(SpreadsheetApp.WrapStrategy.WRAP);
+  sh.getBandings().forEach(function (b) { b.remove(); });
+  sh.getRange(1, 1, maxR, n).applyRowBanding(SpreadsheetApp.BandingTheme.LIGHT_GREY, true, false)
+    .setHeaderRowColor(VERT).setFirstRowColor('#FFFFFF').setSecondRowColor(CREME);
+  var regle = SpreadsheetApp.newDataValidation().requireValueInList(STATUTS, true).setAllowInvalid(false).build();
+  sh.getRange(2, 2, maxR - 1, 1).setDataValidation(regle);
+
+  // 4. Couleur de la ligne selon le statut
+  var zone = sh.getRange(2, 1, maxR - 1, n);
+  var cf = function (formule, bg, fg) {
+    var b = SpreadsheetApp.newConditionalFormatRule().whenFormulaSatisfied(formule).setRanges([zone]);
+    if (bg) b.setBackground(bg);
+    if (fg) b.setFontColor(fg);
+    return b.build();
+  };
+  sh.setConditionalFormatRules([
+    cf('=$B2="Nouveau"', '#FFF3C4', null),
+    cf('=$B2="Devis envoyé"', '#E8EEF9', null),
+    cf('=$B2="Gagné"', '#DCEFDD', null),
+    cf('=$B2="Perdu"', null, '#9A968F'),
+    cf('=$B2="Test"', null, '#C2BEB6')
+  ]);
+
+  // 5. Filtre sur l'en-tete
+  if (sh.getFilter()) sh.getFilter().remove();
+  sh.getRange(1, 1, maxR, n).createFilter();
+  if (sh.getMaxColumns() > n) sh.deleteColumns(n + 1, sh.getMaxColumns() - n);
+  return migre + ' ligne(s) migrée(s), ' + (sh.getLastRow() - 1) + ' lead(s) dans « ' + NOM_FEUILLE + ' »';
 }
 
 function urlFeuille() {
@@ -137,18 +297,26 @@ function fiche_(d) {
   var tour = txt(d.tour).replace(/^[^:]{3,30}:\s*/, '');   // « FULL REQUEST: » et ses traductions
   var contact = txt(d.contact);
   var mail = (contact.match(/[^\s\/]+@[^\s\/]+\.[^\s\/]+/) || [''])[0];
-  var tel = contact.replace(mail, '').replace(/[^0-9]/g, '');
+  var tel = contact.replace(mail, '').replace(/[^0-9]/g, '').replace(/^(972|33|34|44|32|41|39)0/, '$1');   // « +972 052… » : zero national en trop
   var nuits = parseInt(txt(d.nuits), 10);
+  if (en && map['Trip']) tour = map['Trip'];
 
-  var lieu = map['Resort or place'] || (map['Pick-up'] ? map['Pick-up'] + ' → ' + (map['Drop-off'] || '?') : '');
+  var lieu = map['Resort or place'] || map['Resort choice'] || (map['Pick-up'] ? map['Pick-up'] + ' → ' + (map['Drop-off'] || '?') : '');
   var dates = txt(d.dates);
   if (map['Arrival'] && en) dates = map['Arrival'] + (map['Departure'] ? ' → ' + map['Departure'] : '');
   if (nuits > 0) dates += ' (' + nuits + (nuits === 1 ? ' night)' : ' nights)');
 
+  // « Who » en anglais quand le formulaire en etapes l'a envoye (sinon « 5 מבוגרים · 1 families » melange les sens d'ecriture).
+  var personnes = txt(d.personnes);
+  if (en && map['Adults']) {
+    personnes = [map['Adults'] + ' adults', map['Children'] ? map['Children'] + ' children' : '', map['Babies'] ? map['Babies'] + ' babies' : '']
+      .filter(Boolean).join(' + ');
+  }
+
   return {
     nom: txt(d.nom) || 'No name', tour: tour, paires: paires, map: map, en: !!en,
     mail: mail, tel: tel, dates: dates, lieu: lieu,
-    personnes: txt(d.personnes), langue: txt(d.langue), page: txt(d.page) || '/'
+    personnes: personnes, langue: txt(d.langue), page: txt(d.page) || '/'
   };
 }
 
