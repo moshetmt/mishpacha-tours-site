@@ -11,7 +11,8 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 LANGS = ("fr", "es", "he")
 STATIONS = {"kosher-alpe-dhuez": "Alpe d'Huez", "kosher-annecy": "Annecy", "kosher-chamonix": "Chamonix", "kosher-courchevel": "Courchevel",
             "kosher-grenoble": "Grenoble", "kosher-la-plagne": "La Plagne", "kosher-les-arcs": "Les Arcs", "kosher-les-deux-alpes": "Les Deux Alpes",
-            "kosher-megeve": "Megève", "kosher-val-disere": "Val d'Isère", "kosher-val-thorens": "Val Thorens"}
+            "kosher-megeve": "Megève", "kosher-val-disere": "Val d'Isère", "kosher-val-thorens": "Val Thorens",
+            "kosher-zermatt": "Zermatt", "kosher-st-moritz": "St. Moritz", "kosher-crans-montana": "Crans-Montana", "kosher-cervinia": "Cervinia", "kosher-courmayeur": "Courmayeur", "kosher-cortina": "Cortina d'Ampezzo"}
 SKI = "Ski holiday with a chalet"
 CIBLES = {"kosher-chalet-les-deux-alpes": {"i": "a", "lieu": "Les Deux Alpes", "voyage": SKI},
           "kosher-van-transfers": {"i": "c"}, "jewish-lyon-tours": {"i": "d"},

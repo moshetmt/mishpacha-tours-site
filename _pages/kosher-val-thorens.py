@@ -7,7 +7,7 @@ PAGE = dict(
   intro="Val Thorens sits at 2,300 m in Les 3 Vallées, the highest ski resort in Europe, and its winter season runs from 21 November 2026 to 2 May 2027 according to the tourist office. Mishpacha Tours organises the kosher side of your week here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
   chips=["2,300 m, Les 3 Vallées", "About 2 h 30 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="What we organise <i>in Val Thorens</i>", html="""<ul>
@@ -49,7 +49,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Kosher in Val Thorens this season?", msg="Hello, we are going to Val Thorens. Dates: / Number of people: / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the French Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families")],
   source="Sources: Val Thorens tourist office (vanoise-parcnational.fr fiche, read 8 October 2026), j2ski.com, skikosher.com, thejewishweekly.com, williamsburg365.com, PlanetSKI (25 March 2026); our team in the Alps for the services.",
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher services in Val Thorens", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Val Thorens"}, "serviceType": "Kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in Val Thorens", "url": "https://mishpachatours.com/kosher-val-thorens/"},
   ticket=True,

@@ -26,12 +26,18 @@ STATIONS = {
  'kosher-les-arcs': ('stock/st-les-arcs.jpg', dict(en='Les Arcs', fr='Les Arcs', es='Les Arcs', he='לז ארק')),
  'kosher-la-plagne': ('stock/st-la-plagne.jpg', dict(en='La Plagne', fr='La Plagne', es='La Plagne', he='לה פלאן')),
  'kosher-val-disere': ('stock/st-val-disere.jpg', dict(en="Val d'Isère", fr="Val d'Isère", es="Val d'Isère", he='ואל דיזר')),
+ 'kosher-zermatt': ('stock/st-zermatt.jpg', dict(en="Zermatt", fr="Zermatt", es="Zermatt", he='צרמט')),
+ 'kosher-st-moritz': ('stock/st-st-moritz.jpg', dict(en="St. Moritz", fr="Saint-Moritz", es="St. Moritz", he='סנט מוריץ')),
+ 'kosher-crans-montana': ('stock/st-crans-montana.jpg', dict(en="Crans-Montana", fr="Crans-Montana", es="Crans-Montana", he='קראן מונטנה')),
+ 'kosher-cervinia': ('stock/st-cervinia.jpg', dict(en="Cervinia", fr="Cervinia", es="Cervinia", he='צרביניה')),
+ 'kosher-courmayeur': ('stock/st-courmayeur.jpg', dict(en="Courmayeur", fr="Courmayeur", es="Courmayeur", he='קורמאייר')),
+ 'kosher-cortina': ('stock/st-cortina.jpg', dict(en="Cortina d'Ampezzo", fr="Cortina d'Ampezzo", es="Cortina d'Ampezzo", he='קורטינה')),
 }
 # slug -> (photo, type, voyage EN)
 PAGES = {s: (p, 'station', f"Kosher stay in {n['en']}") for s, (p, n) in STATIONS.items()}
 PAGES.update({
  'kosher-services-french-alps': ('stock/st-val-thorens.jpg', 'alps', 'Kosher services in the Alps'),
- 'alps': ('chalet/wp-soleil.jpg', 'alps', 'Kosher stay in the French Alps'),            # 15/10 Mendel : la piste brunâtre « fait de la peine », neige éclatante
+ 'alps': ('chalet/wp-soleil.jpg', 'alps', 'Kosher stay in the Alps'),            # 15/10 Mendel : la piste brunâtre « fait de la peine », neige éclatante
  'kosher-ski-holidays-french-alps': ('chalet/wp-soleil.jpg', 'alps', 'Kosher ski holiday in the Alps'),
  'summer-in-the-alps-jewish-families': ('stock/annecy-ete.jpg', 'alps', 'Kosher summer in the Alps'),
  'kosher-vacation-french-alps': ('stock/annecy-lac.jpg', 'alps', 'Kosher vacation in the Alps'),

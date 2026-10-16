@@ -9,19 +9,20 @@ LANGS = ("fr", "es", "he")
 ALPES = {"alps", "kosher-alpe-dhuez", "kosher-annecy", "kosher-chalet-les-deux-alpes", "kosher-chamonix", "kosher-courchevel",
          "kosher-grenoble", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
          "kosher-ski-holidays-french-alps", "kosher-vacation-french-alps", "kosher-val-disere", "kosher-val-thorens",
+         "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana", "kosher-cervinia", "kosher-courmayeur", "kosher-cortina",
          "lyon-gateway-to-the-alps-kosher", "summer-in-the-alps-jewish-families", "flights-to-lyon"}
 GENERAL = {"", "plan-your-trip", "kosher-van-transfers", "about", "contact", "privacy", "terms", "credits", "merci", "jewish-life-around-lyon"}
 
-BASELINE = {"alpes": "Kosher Stays in the French Alps", "general": "Kosher Holidays in the Alps and Lyon", "lyon": "Jewish Tours of Lyon"}
+BASELINE = {"alpes": "Kosher Stays in the Alps", "general": "Kosher Holidays in the Alps and Lyon", "lyon": "Jewish Tours of Lyon"}
 BANDEAU = {  # (texte, lien)
-    "alpes": {"en": ("Strictly kosher stays in the French Alps, one day-by-day programme. ", "Describe your stay."),
+    "alpes": {"en": ("Strictly kosher stays in the Alps, one day-by-day programme. ", "Describe your stay."),
               "fr": ("Séjours strictement casher dans les Alpes, un programme jour par jour. ", "Décrivez votre séjour."),
               "es": ("Estancias estrictamente kosher en los Alpes, un programa día a día. ", "Describa su estancia."),
-              "he": ("חופשות כשרות באלפים הצרפתיים, תוכנית מפורטת יום אחר יום. ", "ספרו לנו על החופשה.")},
-    "general": {"en": ("Strictly kosher holidays in the French Alps and Lyon, shomer shabbat. ", "Describe your stay."),
+              "he": ("חופשות כשרות באלפים, תוכנית מפורטת יום אחר יום. ", "ספרו לנו על החופשה.")},
+    "general": {"en": ("Strictly kosher holidays in the Alps and Lyon, shomer shabbat. ", "Describe your stay."),
                 "fr": ("Séjours strictement casher dans les Alpes et à Lyon, shomer shabbat. ", "Décrivez votre séjour."),
                 "es": ("Vacaciones estrictamente kosher en los Alpes y Lyon, shomer Shabat. ", "Describa su estancia."),
-                "he": ("חופשות כשרות באלפים הצרפתיים ובליון. שומר כשרות · שומר שבת. ", "ספרו לנו על החופשה.")},
+                "he": ("חופשות כשרות באלפים ובליון. שומר כשרות · שומר שבת. ", "ספרו לנו על החופשה.")},
     "lyon": {"en": ("Private tours, Sunday to Friday morning. ", "Check a date on WhatsApp."),
              "fr": ("Visites privées, du dimanche au vendredi matin. ", "Vérifier une date sur WhatsApp."),
              "es": ("Visitas privadas, de domingo a viernes por la mañana. ", "Consulte una fecha por WhatsApp."),
@@ -54,7 +55,8 @@ def second_links(lang, pre):
 # Stations en pastilles dans le menu (reproche du 15/10 : « ou on se renseigne sur les villes maintenant ? »)
 STATIONS = [("Les Deux Alpes", "kosher-les-deux-alpes"), ("Courchevel", "kosher-courchevel"), ("Val Thorens", "kosher-val-thorens"),
             ("Megève", "kosher-megeve"), ("Alpe d'Huez", "kosher-alpe-dhuez"), ("Val d'Isère", "kosher-val-disere"), ("Les Arcs", "kosher-les-arcs"),
-            ("La Plagne", "kosher-la-plagne"), ("Chamonix", "kosher-chamonix"), ("Annecy", "kosher-annecy"), ("Grenoble", "kosher-grenoble")]
+            ("La Plagne", "kosher-la-plagne"), ("Chamonix", "kosher-chamonix"), ("Annecy", "kosher-annecy"), ("Grenoble", "kosher-grenoble"),
+            ("Zermatt", "kosher-zermatt"), ("St. Moritz", "kosher-st-moritz"), ("Crans-Montana", "kosher-crans-montana"), ("Cervinia", "kosher-cervinia"), ("Courmayeur", "kosher-courmayeur"), ("Cortina d'Ampezzo", "kosher-cortina")]
 def stations_html(lang, pre):
     return ('\n  <div class="panneau-st"><p>' + SECOND[lang][1] + '</p>' +
             "".join(f'<a href="{pre}/{slug}/">{nom}</a>' for nom, slug in STATIONS) + '</div>')

@@ -36,7 +36,7 @@ LIENS = [(r"ski", "snowflake"), (r"summer|lake", "sun"), (r"stopover|3 hours", "
   (r"chalet", "house"), (r"services", "chef-hat"), (r"shabbat meals|catering|restaurant", "utensils"), (r"shabbat", "flame"), (r"grande synagogue|synagogue", "landmark"),
   (r"safe", "shield-check"), (r"where to stay|hotel", "bed-double"), (r"mikveh", "waves"), (r"cemetery", "trees"), (r"chabad", "heart-handshake"),
   (r"faq|question", "info"), (r"itinerary|2 days", "route"), (r"history|juiverie", "book-open"), (r"izieu|montluc|chrd|memory", "scroll-text"),
-  (r"vacation", "luggage"), (r"tour|walk", "footprints"), (r"guide", "map-pin"), (r"alps|val |courchevel|meg|huez|grenoble|annecy|chamonix|arcs|plagne", "mountain-snow")]
+  (r"vacation", "luggage"), (r"tour|walk", "footprints"), (r"guide", "map-pin"), (r"alps|val |courchevel|meg|huez|grenoble|annecy|chamonix|arcs|plagne|zermatt|moritz|crans|cervinia|courmayeur|cortina", "mountain-snow")]
 PREUVES = ["landmark", "badge-check", "utensils", "lock", "users", "calendar-x"]
 # illustration posee a cote d'un h2 (jamais celle du hero de la page)
 H2ILLUS = [(r"kosher|service|meal", "flat-kosher"), (r"safe", "line-private"), (r"shabbat", "line-shabbat"),
@@ -45,7 +45,8 @@ H2ILLUS = [(r"kosher|service|meal", "flat-kosher"), (r"safe", "line-private"), (
 # pages Alpes et van : le hassid du logo (dessin de marque) remplace toutes les illustrations posees a cote des h2
 HASSID_PAGES = {"kosher-val-thorens", "kosher-courchevel", "kosher-megeve", "kosher-alpe-dhuez", "kosher-les-deux-alpes", "kosher-grenoble", "kosher-annecy",
                 "kosher-chamonix", "kosher-les-arcs", "kosher-la-plagne", "kosher-val-disere", "kosher-services-french-alps", "alps", "kosher-ski-holidays-french-alps",
-                "summer-in-the-alps-jewish-families", "kosher-vacation-french-alps", "kosher-van-transfers", "kosher-chalet-les-deux-alpes"}
+                "summer-in-the-alps-jewish-families", "kosher-vacation-french-alps", "kosher-van-transfers", "kosher-chalet-les-deux-alpes",
+                "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana", "kosher-cervinia", "kosher-courmayeur", "kosher-cortina"}
 
 def rd(p): return io.open(p, encoding="utf-8").read()
 def wr(p, s): io.open(p, "w", encoding="utf-8", newline="\n").write(s)

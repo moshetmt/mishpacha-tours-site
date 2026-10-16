@@ -7,7 +7,7 @@ PAGE = dict(
   intro="Les Deux Alpes sits at 1,650 m in Isère, with a glacier above it and about 2 h 10 of road from Lyon-Saint-Exupéry according to j2ski.com. Orthodox families have spent their summers here for decades. Mishpacha Tours organises the kosher side of your week: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
   chips=["Resort at 1,650 m, glacier above", "About 2 h 10 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="What we organise <i>in Les Deux Alpes</i>", html="""<ul>
@@ -51,7 +51,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Kosher in Les Deux Alpes this season?", msg="Hello, we are going to Les Deux Alpes. Dates: / Number of people: / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the French Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../is-lyon-safe-for-jewish-visitors/", "Is Lyon safe for Jewish visitors?")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../is-lyon-safe-for-jewish-visitors/", "Is Lyon safe for Jewish visitors?")],
   source="Sources: AFP via Sud Radio (23 August 2026), Euronews (24 August 2026), j2ski.com (Lyon-Saint-Exupéry transfer), guide-ski.fr (altitude), Alpes Isère listing for the tourist office address; our team in the Alps for the services.",
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher services in Les Deux Alpes", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Les Deux Alpes"}, "serviceType": "Kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in Les Deux Alpes", "url": "https://mishpachatours.com/kosher-les-deux-alpes/"},
   ticket=True,

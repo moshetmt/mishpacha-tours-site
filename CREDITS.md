@@ -151,3 +151,15 @@
 - `img/stock/hub-chrd-lyon.jpg` : Romainbehar (Wikimedia Commons), CC0, https://commons.wikimedia.org/wiki/File:Lyon_7e_-_CHRD,_pr%C3%A9sentation_d'affiches_et_de_journaux.jpg
 - `img/stock/hub-is-lyon-safe-for-jewish-visitors.jpg` : Madalina Zamfira (Unsplash), Licence Unsplash, https://unsplash.com/photos/GMIo0gy2Qeo
 - `img/stock/hub-tours-jewish-lyon.jpg` : FLLL (Wikimedia Commons), CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Syna_Lyon-Bimah_et_Arche_sainte.JPG
+| img/stock/st-zermatt.jpg | File:Zermatt (132078539).jpeg | cc-by-3.0 | Raphael Andres | https://commons.wikimedia.org/wiki/File%3AZermatt_%28132078539%29.jpeg |
+| img/stock/hub-kosher-zermatt.jpg | File:Zermatt (132078539).jpeg | cc-by-3.0 | Raphael Andres | https://commons.wikimedia.org/wiki/File%3AZermatt_%28132078539%29.jpeg |
+| img/stock/st-st-moritz.jpg | File:Lake St. Moritz in winter.jpg | cc-by-sa-3.0 | Etiaetia1020 | https://commons.wikimedia.org/wiki/File%3ALake_St._Moritz_in_winter.jpg |
+| img/stock/hub-kosher-st-moritz.jpg | File:Lake St. Moritz in winter.jpg | cc-by-sa-3.0 | Etiaetia1020 | https://commons.wikimedia.org/wiki/File%3ALake_St._Moritz_in_winter.jpg |
+| img/stock/st-crans-montana.jpg | File:Crans Montana Valais Suisse 20190316.jpg | cc-by-sa-4.0 | PhilippeA | https://commons.wikimedia.org/wiki/File%3ACrans_Montana_Valais_Suisse_20190316.jpg |
+| img/stock/hub-kosher-crans-montana.jpg | File:Crans Montana Valais Suisse 20190316.jpg | cc-by-sa-4.0 | PhilippeA | https://commons.wikimedia.org/wiki/File%3ACrans_Montana_Valais_Suisse_20190316.jpg |
+| img/stock/st-cervinia.jpg | File:Skigebiet am Plateau Rosa Breuil-Cervinia-2.jpg | cc-by-sa-3.0 | Rufus46 | https://commons.wikimedia.org/wiki/File%3ASkigebiet_am_Plateau_Rosa_Breuil-Cervinia-2.jpg |
+| img/stock/hub-kosher-cervinia.jpg | File:Skigebiet am Plateau Rosa Breuil-Cervinia-2.jpg | cc-by-sa-3.0 | Rufus46 | https://commons.wikimedia.org/wiki/File%3ASkigebiet_am_Plateau_Rosa_Breuil-Cervinia-2.jpg |
+| img/stock/st-courmayeur.jpg | File:Mont Blanc depuis Val Ferret.jpg | cc-by-sa-4.0 | Davide Tomatis | https://commons.wikimedia.org/wiki/File%3AMont_Blanc_depuis_Val_Ferret.jpg |
+| img/stock/hub-kosher-courmayeur.jpg | File:Mont Blanc depuis Val Ferret.jpg | cc-by-sa-4.0 | Davide Tomatis | https://commons.wikimedia.org/wiki/File%3AMont_Blanc_depuis_Val_Ferret.jpg |
+| img/stock/st-cortina.jpg | File:Cortina d'Ampezzo - Comune di Cortina d'Ampezzo - 2023-09-27 15-35-37 012.jpg | cc-by-sa-4.0 | Acquario51 | https://commons.wikimedia.org/wiki/File%3ACortina_d%27Ampezzo_-_Comune_di_Cortina_d%27Ampezzo_-_2023-09-27_15-35-37_012.jpg |
+| img/stock/hub-kosher-cortina.jpg | File:Cortina d'Ampezzo - Comune di Cortina d'Ampezzo - 2023-09-27 15-35-37 012.jpg | cc-by-sa-4.0 | Acquario51 | https://commons.wikimedia.org/wiki/File%3ACortina_d%27Ampezzo_-_Comune_di_Cortina_d%27Ampezzo_-_2023-09-27_15-35-37_012.jpg |

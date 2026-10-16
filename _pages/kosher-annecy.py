@@ -7,7 +7,7 @@ PAGE = dict(
   intro="Annecy sits at the northern tip of Lake Annecy, about 447 m above sea level, and La Clusaz and Le Grand-Bornand, the two Aravis ski resorts, are 30 to 40 minutes up the valley. Mishpacha Tours organises the kosher side of your stay here, in July as in February: a private chef in your villa or chalet, hot meals delivered to your apartment, Shabbat before candle lighting, the holidays, and a minyan with a Sefer Torah for your dates. One request, one written quote.",
   chips=["Lake Annecy, about 447 m", "About 45 min from Geneva, about 1 h 15 from Lyon airport", "La Clusaz and Le Grand-Bornand 30 to 40 min away", "Checked 8 October 2026"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="What we organise <i>in Annecy</i>", html="""<ul>
@@ -18,7 +18,7 @@ PAGE = dict(
 <li><b>A minyan and a Sefer Torah.</b> Annecy has a small synagogue (see below), but a minyan in your week depends on how many families are in the area. Give us your dates and we group the families who write to us.</li>
 <li><b>A tailor-made stay, A to Z.</b> Villa or chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Large groups and families from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.</li>
 </ul>
-<p>Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Detail of each service: <a href="../kosher-services-french-alps/">kosher services in the French Alps</a>.</p>"""),
+<p>Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Detail of each service: <a href="../kosher-services-french-alps/">kosher services in the Alps</a>.</p>"""),
     dict(type="beige", h2="Kosher in Annecy: <i>what is published</i>", html="""<p>Little kosher infrastructure is published for Annecy itself, so planning ahead matters. Checked 8 October 2026.</p>
 <ul>
 <li><b>A synagogue.</b> 18 rue de Narvik, 74000 Annecy, according to JGuide Europe and a business directory. A press article on the community says it opens on Shabbat and holidays only, because gathering a minyan is difficult, and that the compound has a mikveh for women.</li>
@@ -57,7 +57,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Kosher in Annecy this season?", msg="Hello, we are going to Annecy. Dates: / Number of people: / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the French Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
   source="Sources: Wikipedia (Lake Annecy), haute-savoie-tourisme.org (tourist office address, Semnoz), jguideeurope.org and ynetnews.com (synagogue, community), skiinfo.fr and france.fr (La Clusaz, Le Grand-Bornand), mappy.com, kelbillet.com and transfer companies (drive times); our team in the Alps for the services.",
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher services in Annecy", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Annecy"}, "serviceType": "Kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in Annecy, La Clusaz and Le Grand-Bornand", "url": "https://mishpachatours.com/kosher-annecy/"},
   ticket=True,

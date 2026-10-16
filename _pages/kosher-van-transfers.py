@@ -32,7 +32,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Need a van from A to B?", msg="Van transfer: from … to …, date: …, number of people: …, luggage: …"),
   ],
-  related=[("../kosher-services-french-alps/", "Kosher services in the French Alps"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps"), ("../flights-to-lyon/", "Flights to Lyon"), ("../plan-your-trip/", "Plan your trip")],
+  related=[("../kosher-services-french-alps/", "Kosher services in the Alps"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps"), ("../flights-to-lyon/", "Flights to Lyon"), ("../plan-your-trip/", "Plan your trip")],
   source=None,
   jsonld={"@context": "https://schema.org", "@type": "Service", "@id": "https://mishpachatours.com/kosher-van-transfers/#service",
           "name": "Private van transfers in France and abroad",

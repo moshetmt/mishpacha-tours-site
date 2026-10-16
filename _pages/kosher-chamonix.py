@@ -7,7 +7,7 @@ PAGE = dict(
   intro="Chamonix sits at about 1,040 m in the Arve valley, at the foot of Mont Blanc, and the Aiguille du Midi cable car climbs from the town to 3,842 m. The valley is busy in winter for skiing and again in summer for walking and the high mountain. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
   chips=["About 1,040 m, Aiguille du Midi 3,842 m", "About 1 h 15 from Geneva, 2 h 15 and more from Lyon", "Winter and summer", "Checked 8 October 2026"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="What we organise <i>in Chamonix</i>", html="""<ul>
@@ -18,7 +18,7 @@ PAGE = dict(
 <li><b>A minyan and a Sefer Torah.</b> The size of a minyan depends on how many families are in the valley that week, in winter and in summer. Give us your dates and we group the families who write to us.</li>
 <li><b>A tailor-made stay, A to Z.</b> Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core, including large groups and Hebrew-speaking guests. For a very small group asking for one delivery only, say so and we tell you what is feasible.</li>
 </ul>
-<p>Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Detail of each service: <a href="../kosher-services-french-alps/">kosher services in the French Alps</a>.</p>"""),
+<p>Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Detail of each service: <a href="../kosher-services-french-alps/">kosher services in the Alps</a>.</p>"""),
     dict(type="beige", h2="Kosher in Chamonix: <i>what is published</i>", html="""<p>Supervision is rarely published, so ask before you book. This is what we found, checked 8 October 2026.</p>
 <ul>
 <li><b>Kosher hotel, restaurant or shop in Chamonix.</b> None published in the sources we read. Plan to bring your food or have it delivered.</li>
@@ -53,7 +53,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Kosher in Chamonix this season?", msg="Hello, we are going to Chamonix. Dates: / Number of people: / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the French Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
   source="Sources: Chamonix tourist office (en.chamonix.com, address), alti-mag.com (altitudes of the ski areas), hautesavoiemontblanc-tourisme.com (Aiguille du Midi 3,842 m), alps2alps.com (drive times and distances), seechamonix.com (lift season dates), Aish UK (2022 trip); our team in the Alps for the services.",
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher services in Chamonix", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Chamonix-Mont-Blanc"}, "serviceType": "Kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in Chamonix, winter and summer", "url": "https://mishpachatours.com/kosher-chamonix/"},
   ticket=True,

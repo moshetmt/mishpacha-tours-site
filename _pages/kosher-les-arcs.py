@@ -7,7 +7,7 @@ PAGE = dict(
   intro="Les Arcs is a string of villages above Bourg-Saint-Maurice in the Tarentaise valley: Arc 1600, Arc 1800, Arc 1950 and Arc 2000, each at the altitude in its name. The Vanoise Express cable car links the area to La Plagne, which makes up Paradiski, about 425 km of pistes. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
   chips=["Arc 1600 to Arc 2000, with Paradiski", "Train to Bourg-Saint-Maurice, funicular to Arc 1600", "Winter and summer", "Checked 8 October 2026"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="What we organise <i>in Les Arcs</i>", html="""<ul>
@@ -18,10 +18,10 @@ PAGE = dict(
 <li><b>A minyan and a Sefer Torah.</b> The size of a minyan depends on how many families are in Les Arcs that week. Give us your dates and we group the families who write to us.</li>
 <li><b>A tailor-made stay, A to Z.</b> Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core, including large groups and Hebrew-speaking guests. For a very small group asking for one delivery only, say so and we tell you what is feasible.</li>
 </ul>
-<p>Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Detail of each service: <a href="../kosher-services-french-alps/">kosher services in the French Alps</a>.</p>"""),
+<p>Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Detail of each service: <a href="../kosher-services-french-alps/">kosher services in the Alps</a>.</p>"""),
     dict(type="beige", h2="Kosher in Les Arcs: <i>what is published</i>", html="""<p>Supervision is rarely published, so ask before you book. This is what we found, checked 8 October 2026.</p>
 <ul>
-<li><b>A seasonal kosher hotel in Arc 2000.</b> The Wreschner hotel presents itself as 20 years of kosher hospitality in the French Alps, in the MMV Altitude building in Arc 2000. Its site lists a full-time mashgiach and supervision by a Paris rabbi. The 2026 season ran from 1 July to 18 August. We found no 2027 dates and no winter programme.</li>
+<li><b>A seasonal kosher hotel in Arc 2000.</b> The Wreschner hotel presents itself as 20 years of kosher hospitality in the Alps, in the MMV Altitude building in Arc 2000. Its site lists a full-time mashgiach and supervision by a Paris rabbi. The 2026 season ran from 1 July to 18 August. We found no 2027 dates and no winter programme.</li>
 <li><b>Kosher restaurant or shop in the resort.</b> None published in the sources we read. Plan to bring your food or have it delivered.</li>
 <li><b>Chabad house in Les Arcs.</b> None published. For winter minyan and services, see below.</li>
 </ul>
@@ -58,7 +58,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Kosher in Les Arcs this season?", msg="Hello, we are going to Les Arcs. Dates: / Number of people: / Village (Arc 1600, 1800, 1950, 2000): / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the French Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
   source="Sources: lesarcs.com (village altitudes, funicular, Aiguille Rouge), eurostar.com (Eurostar Snow), alps2alps.com, sno.co.uk and resort guides (drive and train times), chaletonline.com (Paradiski), wreschner.com (kosher hotel), directory listings for the tourist office address; our team in the Alps for the services.",
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher services in Les Arcs", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Les Arcs"}, "serviceType": "Kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in Les Arcs, winter and summer", "url": "https://mishpachatours.com/kosher-les-arcs/"},
   ticket=True,

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-services-french-alps",
-  title="Private Kosher Chef in the French Alps",
-  desc="Hire a private kosher chef for your chalet in the French Alps: meals for the whole group, Shabbat and holiday tables, and a minyan and Sefer Torah on request.",
-  h1="Kosher services in the French Alps", ital="chalet, chef, meals, Shabbat, holidays, minyan: one request",
+  title="Private Kosher Chef in the Alps",
+  desc="Hire a private kosher chef for your chalet in the Alps: meals for the whole group, Shabbat and holiday tables, and a minyan and Sefer Torah on request.",
+  h1="Kosher services in the Alps", ital="chalet, chef, meals, Shabbat, holidays, minyan: one request",
   intro="A kosher week in the mountains does not have to mean a suitcase of food from Lyon and a Shabbat alone. Mishpacha Tours organises it in the resorts of Isère, Savoie and the Hautes-Alpes, with its kosher team based in the Alps: a chalet with a private chef, meals for a group for the week, Shabbat and the holidays in the resort, a minyan and a Sefer Torah for your dates. Send us your resort, your dates and what you need. One contact, one answer, one quote.",
   chips=["Alpe d'Huez to Val Thorens", "Chef, delivered meals, Shabbat, holidays", "Minyan and Sefer Torah", "Checked 8 October 2026"],
   illus="flat-ski.png",
@@ -42,7 +42,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Kosher services in the Alps this season?", msg="Hello, we would like kosher services in the Alps. Resort: / Dates: / Number of people: / Services (chalet with chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps"), ("../tours/stopover/", "Stopover tour, 3 hours"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../shabbat-in-lyon/", "Shabbat in Lyon")],
+  related=[("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps"), ("../tours/stopover/", "Stopover tour, 3 hours"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../shabbat-in-lyon/", "Shabbat in Lyon")],
   source="Sources: our team in the Alps (8 October 2026), habadgrenoblealpes.com, synalpes.wordpress.com.",
   wa="33652092301",
   jsonld=None, ticket=True,

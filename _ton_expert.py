@@ -54,7 +54,7 @@ R['en'] = dict(
     (r'^Most Jewish visits to Lyon pass without incident, and every', 'Every'),
     (r'^Antisemitic acts do occur in the Lyon area, so we give you the figures and the practical steps below, without alarm and without spin\.', 'Our standard and the practical steps follow.'),
     (r',? listed (?:as [a-z ]+ )?on (?:mikvah\.org|Chabad\.org|ci-aixlesbains\.fr)', ''),
-    (r'is listed as (open nightly) on mikvah\.org', r'is '),
+    (r'is listed as (open nightly) on mikvah\.org', r'is \1'),
     (r'^Listed on Chabad\.org at ', 'At '),
     (r'Security gets a direct answer, without alarm and without spin\.', 'Security gets a direct answer.'),
     (r'Jewish travel to Lyon: the honest FAQ', 'Jewish travel to Lyon: the FAQ'),
@@ -101,7 +101,7 @@ R['fr'] = dict(
     (r'la FAQ honnête', 'la FAQ'),
     (r'^Des actes antisémites ont lieu dans la région lyonnaise[^.]*\.', 'Notre standard et les gestes pratiques suivent.'),
     (r'^Répertorié sur Chabad\.org au ', 'Au '),
-    (r' (?:est indiqué|figure) (ouvert chaque soir) sur mikvah\.org', r' est '),
+    (r' (?:est indiqué|figure) (ouvert chaque soir) sur mikvah\.org', r' est \1'),
     (r'(?:, )?répertoriés? sur ci-aixlesbains\.fr', ''),
   ],
   dele=[r'publi(?:é|ée|és|ées|ent|ons|er)\b', r'\bpublie\b', r'non publi', r'Sources?\s*:', r'\bAFP\b', r'Sud Radio', r'Euronews', r'j2ski', r'(?i:alps2alps)', r'(?-i:VERIF)',
@@ -142,7 +142,7 @@ R['es'] = dict(
     (r'La seguridad recibe una respuesta directa, sin alarma y sin adornos\.', 'La seguridad recibe una respuesta directa.'),
     (r'^En la región de Lyon se producen actos antisemitas[^.]*\.', 'Nuestro estándar y los pasos prácticos siguen a continuación.'),
     (r'^Figura en Chabad\.org en ', 'En '),
-    (r' figura como (abierta todas las noches) en mikvah\.org', r' está '),
+    (r' figura como (abierta todas las noches) en mikvah\.org', r' está \1'),
     (r',? que figuran en ci-aixlesbains\.fr', ''),
   ],
   dele=[r'public(?:ad[oa]s?|an|amos)\b', r'se publica\b', r'no publica\b', r'Fuentes?\s*:', r'\bAFP\b', r'Sud Radio', r'Euronews', r'j2ski', r'(?i:alps2alps)', r'(?-i:VERIF)',
@@ -160,7 +160,7 @@ R['he'] = dict(
     (r'^מעשים אנטישמיים אכן מתרחשים[^.]*\.', 'הסטנדרט שלנו והצעדים המעשיים מובאים בהמשך.'),
     (r'^רוב הביקורים של יהודים בליון עוברים בלי אירוע, וכל', 'כל'),
     (r'^רשום ב-Chabad\.org בכתובת ', 'בכתובת '),
-    (r' רשום כ(פתוח מדי לילה) ב-mikvah\.org', r' '),
+    (r' רשום כ(פתוח מדי לילה) ב-mikvah\.org', r' \1'),
     (r'בית חב״ד מפורסם', 'בית חב״ד'),
     (r'קהילה מפורסמת', 'קהילה יהודית'),
     (r'בקשו את פרטי ההשגחה בכתב יחד עם הצעת המחיר(?:, כמו בכל מקום)?', 'פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר'),
@@ -208,8 +208,8 @@ def fix(sent, lang):
 
 LOG = []
 def respace(t):
-    t = re.sub(r'([a-zà-ÿ0-9»)])([.!?])([A-ZÀ-Ý¿¡])', r' ', t)
-    return re.sub(r'([֐-׿])([.!?])([֐-׿A-Z])', r' ', t)
+    t = re.sub(r'([a-zà-ÿ0-9»)])([.!?])([A-ZÀ-Ý¿¡])', r'\1\2 \3', t)
+    return re.sub(r'([֐-׿])([.!?])([֐-׿A-Z])', r'\1\2 \3', t)
 def texte(t, lang, ctx=''):
     """Traite un nœud texte : phrase par phrase."""
     parts = re.split(r'(?<=[.!?])(\s+)', t)
@@ -263,7 +263,7 @@ def process_html(s, lang, ctx):
     h2r = {
       'en': [(r'(Kosher) (in [^<:]*?): <i>what is published</i>', r'\1 <i>\2</i>'), (r'Safety, <i>without alarm</i>', 'Safe, <i>by design</i>'),
              ],
-      'fr': [(r'(Casher) ([^<:]*?) : <i>ce qui est publié</i>', r'\1 <i>\2</i>'), (r'(?<=>)(La sécurité|Sécurité), <i>sans alarmisme</i>', r', <i>pensée dès le départ</i>'), (r'(La sécurité|Sécurité), <i>sans alarmisme</i>', r', <i>pensée dès le départ</i>')],
+      'fr': [(r'(Casher) ([^<:]*?) : <i>ce qui est publié</i>', r'\1 <i>\2</i>'), (r'(?<=>)(La sécurité|Sécurité), <i>sans alarmisme</i>', r'\1, <i>pensée dès le départ</i>'), (r'(La sécurité|Sécurité), <i>sans alarmisme</i>', r'\1, <i>pensée dès le départ</i>')],
       'es': [(r'(Kosher) (en [^<:]*?): <i>lo que se ha publicado</i>', r'\1 <i>\2</i>'), (r'Seguridad, <i>sin alarmismo</i>', 'Seguridad, <i>por diseño</i>')],
       'he': [(r'(כשר) (ב[^<:]*?): <i>מה מפורסם</i>', r'\1 <i>\2</i>'), (r'ביטחון, <i>בלי להלחיץ</i>', 'ביטחון, <i>מתוכנן מראש</i>')],
     }[lang]
@@ -298,7 +298,7 @@ def nettoyer(s):
     # sections réduites au seul titre
     s = re.sub(r'<section class="[^"]*">\s*<h2[^>]*>(?:(?!</h2>).)*</h2>\s*' + SENT + r'(?:\s*' + SENT + r')*\s*</section>', SENT, s, flags=re.S)
     s = re.sub(r'<div class="ss beige">\s*<div class="wrap">\s*<h2[^>]*>(?:(?!</h2>).)*</h2>\s*' + SENT + r'(?:\s*' + SENT + r')*\s*</div>\s*</div>', SENT, s, flags=re.S)
-    s = re.sub(r'(</(?:b|a|i|strong)>)' + SENT + r'(?=[^\s<' + SENT + r'])', r' ', s)
+    s = re.sub(r'(</(?:b|a|i|strong)>)' + SENT + r'(?=[^\s<' + SENT + r'])', r'\1 ', s)
     s = re.sub(r'(?<=[.!?:;,])' + SENT + r'(?=[^\s<' + SENT + r'])', ' ', s)
     s = s.replace(SENT, '')
     s = re.sub(r'<(i|b)>\s*</\1>', '', s)

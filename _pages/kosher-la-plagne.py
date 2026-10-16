@@ -7,7 +7,7 @@ PAGE = dict(
   intro="La Plagne spreads over 11 villages, from Champagny-en-Vanoise in the valley to Plagne Aime 2000 at about 2,100 m, and joins Les Arcs through the Vanoise Express to form the 425 km Paradiski area. Mishpacha Tours organises the kosher side of your week here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat before candle lighting, the holidays, and a minyan with a Sefer Torah for your dates. One request, one written quote.",
   chips=["11 villages, up to about 2,100 m", "Paradiski, 425 km with Les Arcs", "About 2 h 15 from Lyon airport", "Checked 8 October 2026"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="What we organise <i>in La Plagne</i>", html="""<ul>
@@ -18,7 +18,7 @@ PAGE = dict(
 <li><b>A minyan and a Sefer Torah.</b> The size of a minyan depends on how many families are in the resort that week. Give us your dates and we group the families who write to us.</li>
 <li><b>A tailor-made stay, A to Z.</b> Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad, Hebrew-speaking guests included, are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.</li>
 </ul>
-<p>Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Detail of each service: <a href="../kosher-services-french-alps/">kosher services in the French Alps</a>.</p>"""),
+<p>Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Detail of each service: <a href="../kosher-services-french-alps/">kosher services in the Alps</a>.</p>"""),
     dict(type="beige", h2="Kosher in La Plagne: <i>what is published</i>", html="""<p>Supervision is rarely published, so ask before you book. Here is what directories show, checked 8 October 2026.</p>
 <ul>
 <li><b>Summer kosher programmes.</b> The kosher travel agency alloj.com lists two organised summer 2026 stays in La Plagne, both starting on 26 July 2026 (28 and 29 days), one of them in a 4-star hotel with a synagogue and a pool. Each names its own supervising rabbi. The village is not stated.</li>
@@ -62,7 +62,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Kosher in La Plagne this season?", msg="Hello, we are going to La Plagne. Village: / Dates: / Number of people: / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the French Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
   source="Sources: en.la-plagne.com (villages, opening dates, access, tourist office), alps2alps.com (drive times, Paradiski, Vanoise Express), alloj.com (kosher listings), Wikipedia (village altitudes); our team in the Alps for the services.",
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher services in La Plagne", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "La Plagne"}, "serviceType": "Kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in La Plagne", "url": "https://mishpachatours.com/kosher-la-plagne/"},
   ticket=True,

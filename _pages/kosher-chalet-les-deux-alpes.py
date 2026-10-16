@@ -7,7 +7,7 @@ PAGE = dict(
   intro="A chalet of 300 m² in Les Deux Alpes (Isère, resort at 1,650 m), with 6 bedrooms and 16 beds: room for three small families or one large family. It stands 2 minutes from the slopes, with direct access to the ski area. Kosher meals are cooked in the chalet by a private chef or delivered to it. Shabbat and the holidays are organised, with a minyan and a Sefer Torah depending on the families present. Our team organises the whole stay, from the flights to the extras. One request, one written quote.",
   chips=["300 m², 6 bedrooms, 16 beds", "2 minutes from the slopes", "Chef, Shabbat, holidays", "On written quote"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="The chalet, <i>in short</i>", html="""<ul>
@@ -53,7 +53,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="A kosher chalet in Les Deux Alpes?", msg="Hello, we would like the kosher chalet in Les Deux Alpes. Dates: / Number of people: / Services:"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-les-deux-alpes/", "Kosher in Les Deux Alpes"), ("../kosher-services-french-alps/", "Kosher services in the French Alps"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../tours/stopover/", "Stopover tour, 3 hours")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-les-deux-alpes/", "Kosher in Les Deux Alpes"), ("../kosher-services-french-alps/", "Kosher services in the Alps"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../tours/stopover/", "Stopover tour, 3 hours")],
   source="Sources: our team in the Alps (voice message of 09/10/2026) for the chalet and services; j2ski.com (Lyon-Saint-Exupéry transfer); guide-ski.fr (altitude).",
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher chalet in Les Deux Alpes", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Les Deux Alpes"}, "serviceType": "Kosher chalet rental with chef, meals, Shabbat and concierge services in Les Deux Alpes", "url": "https://mishpachatours.com/kosher-chalet-les-deux-alpes/"},
   ticket=True,

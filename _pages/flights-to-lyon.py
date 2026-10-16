@@ -8,7 +8,7 @@ PAGE = dict(
   intro="Lyon-Saint-Exupéry is the airport for the Tarentaise and the Grenoble side: Val Thorens, Courchevel, Méribel, Alpe d'Huez and Les Deux Alpes are two to three hours away by road. Direct flights from Tel Aviv are operated by El Al and Transavia, one to two a week depending on the season, about four and a half hours. This page gives the flights, the drive times, where to buy kosher before you climb, and how to use a few spare hours in Lyon. We sell no flights and no transfers: we guide in Lyon, and our kosher team organises your week in the resort.",
   chips=["Direct flights from Tel Aviv: El Al, Transavia", "Val Thorens 2 h 30, Courchevel 2 h 10", "Kosher shops in Lyon, not at the airport", "Checked 8 October 2026"],
   illus="flat-stopover.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="Direct flights <i>to Lyon</i>", html="""<ul>
@@ -26,7 +26,7 @@ PAGE = dict(
 </ul>
 <p>Shuttles run in winter from the airport (Altibus, Ben's Bus and others); private transfers take families door to door. Details, shuttle seasons and the kosher shopping list: <a href="../lyon-gateway-to-the-alps-kosher/">Lyon, the gateway to the Alps</a>.</p>"""),
     dict(type="text", h2="Three hours in Lyon <i>between the plane and the slopes</i>", html="""<p>Most flights from Tel Aviv land in the morning. Your transfer drops you in Vieux Lyon, your bags stay in the van, and you walk into the Jewish story of the city with your guide: rue Juiverie, then inside the Grande Synagogue on quai Tilsitt, closed to visitors outside the Heritage Days. Three hours later, you leave for the resort on schedule. 390 € per group of 1 to 5, in English, French or Spanish: <a href="../tours/stopover/">the Stopover</a>.</p>
-<p>Before you climb, Lyon and Villeurbanne have certified kosher groceries and butchers; the resorts have almost none. What to buy and where: <a href="../lyon-gateway-to-the-alps-kosher/">kosher shopping in Lyon</a>. And in the resort itself, our kosher team delivers meals, sets Shabbat and builds a minyan: <a href="../alps/">the French Alps, strictly kosher</a>.</p>"""),
+<p>Before you climb, Lyon and Villeurbanne have certified kosher groceries and butchers; the resorts have almost none. What to buy and where: <a href="../lyon-gateway-to-the-alps-kosher/">kosher shopping in Lyon</a>. And in the resort itself, our kosher team delivers meals, sets Shabbat and builds a minyan: <a href="../alps/">the Alps, strictly kosher</a>.</p>"""),
     dict(type="steps", h2="A typical <i>arrival</i>", items=[
       ("Land in the morning", "Send us your landing time and the time your transfer must leave. We build the three hours around it."),
       ("Shop and walk", "Kosher groceries in Lyon, then the Stopover tour in Vieux Lyon with the Grande Synagogue."),
@@ -43,7 +43,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Landing in Lyon on the way to the Alps?", msg="Hello, we land in Lyon on the way to the Alps. Landing time: / Resort: / Dates: / Number of people: / We would like (Stopover tour, kosher meals in the resort, chef, Shabbat):"),
   ],
-  related=[("../tours/stopover/", "The Stopover, 3 hours in Jewish Lyon"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps: drive times and shopping"), ("../alps/", "The French Alps, strictly kosher"), ("../kosher-vacation-french-alps/", "A kosher vacation in the French Alps"), ("../shabbat-in-lyon/", "Shabbat in Lyon")],
+  related=[("../tours/stopover/", "The Stopover, 3 hours in Jewish Lyon"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps: drive times and shopping"), ("../alps/", "The Alps, strictly kosher"), ("../kosher-vacation-french-alps/", "A kosher vacation in the Alps"), ("../shabbat-in-lyon/", "Shabbat in Lyon")],
   source="Sources: flightconnections.com and lyonaeroports.com for the flights; j2ski.com and alps2alps.com for drive times.",
   jsonld=None,
   ticket=True,

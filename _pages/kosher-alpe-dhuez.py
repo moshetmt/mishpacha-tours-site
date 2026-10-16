@@ -7,7 +7,7 @@ PAGE = dict(
   intro="Alpe d'Huez sits in Isère at about 1,860 m, the main resort of the Grand Domaine, and its lifts run from 5 December 2026 to 25 April 2027 according to the resort. Kosher tourism made up nearly 20 % of its August clientele in 2019, per the tourist office director. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
   chips=["About 1,860 m, Grand Domaine", "About 2 h 20 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="What we organise <i>in Alpe d'Huez</i>", html="""<ul>
@@ -50,7 +50,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Kosher in Alpe d'Huez this season?", msg="Hello, we are going to Alpe d'Huez. Dates: / Number of people: / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the French Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families")],
   source="Sources: alpedhuez.com (season dates and tourist office address, read 8 October 2026), j2ski.com, alps2alps.com, AFP via Sud Radio (23 August 2026); our team in the Alps for the services.",
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher services in Alpe d'Huez", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Alpe d'Huez"}, "serviceType": "Kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in Alpe d'Huez", "url": "https://mishpachatours.com/kosher-alpe-dhuez/"},
   ticket=True,

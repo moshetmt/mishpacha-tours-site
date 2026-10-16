@@ -2,13 +2,13 @@
 # Page cible du cluster hebreu « נופש כשר בחו"ל » (2 840 recherches/mois, etude du 08/10) : la version HE est la cible, l'EN est la source canonique.
 PAGE = dict(
   slug="kosher-vacation-french-alps",
-  title="Kosher Vacation in the French Alps",
-  desc="A kosher vacation in the French Alps: your chalet or apartment, our chef, delivered meals, Shabbat and a minyan. Ski in winter, lakes in summer. One quote.",
-  h1="A kosher vacation in the French Alps", ital="you choose the resort and the dates, we take care of everything kosher",
+  title="Kosher Vacation in the Alps",
+  desc="A kosher vacation in the Alps: your chalet or apartment, our chef, delivered meals, Shabbat and a minyan. Ski in winter, lakes in summer. One quote.",
+  h1="A kosher vacation in the Alps", ital="you choose the resort and the dates, we take care of everything kosher",
   intro="You want a kosher vacation abroad without a kosher hotel: a chalet or an apartment of your own, in a real ski resort in winter or by a lake in summer, and the certainty that food, Shabbat and prayer are taken care of. That is what Mishpacha Tours organises in the French Alps, two to three hours from Lyon: a private chef in your chalet or hot meals delivered to your door, Shabbat meals with challot and wine, the holidays, a minyan and a Sefer Torah when several families share a resort. Our kosher team is based in the Alps. You send your resort, your dates and your group; you receive one written quote, the same day.",
   chips=["Chalet or apartment, not a hotel", "Chef, meals, Shabbat, minyan", "Val Thorens, Courchevel, Alpe d'Huez, Annecy", "Checked 8 October 2026"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="Why a chalet <i>instead of a kosher hotel</i>", html="""<ul>
@@ -26,7 +26,7 @@ PAGE = dict(
 <li><b>A tailor-made stay, A to Z.</b> Chalet, chef or delivered meals, transfers, Shabbat, holidays, minyan: one request, one quote. Families and groups from abroad are our core.</li>
 </ul>
 <p>Strictly kosher. Our team in the Alps cooks under the Chabad network of the Alps; ask for the supervision details in writing with your quote. Shomer Shabbat: everything is set before candle lighting.</p>"""),
-    dict(type="text", h2="Winter: <i>the ski resorts</i>", html="""<p>Val Thorens (2,300 m, the highest resort in Europe), Courchevel and Méribel in the Three Valleys; Alpe d'Huez and Les Deux Alpes on the Grenoble side; Megève and Chamonix near Mont Blanc; Tignes, Val d'Isère, La Plagne and Les Arcs in the Tarentaise. All of them are two to three hours from Lyon-Saint-Exupéry airport. Resort by resort: <a href="../kosher-val-thorens/">Val Thorens</a>, <a href="../kosher-courchevel/">Courchevel</a>, <a href="../kosher-megeve/">Megève</a>, <a href="../kosher-alpe-dhuez/">Alpe d'Huez</a>, <a href="../kosher-les-deux-alpes/">Les Deux Alpes</a>, and the full picture on <a href="../kosher-ski-holidays-french-alps/">kosher ski holidays in the French Alps</a>.</p>"""),
+    dict(type="text", h2="Winter: <i>the ski resorts</i>", html="""<p>Val Thorens (2,300 m, the highest resort in Europe), Courchevel and Méribel in the Three Valleys; Alpe d'Huez and Les Deux Alpes on the Grenoble side; Megève and Chamonix near Mont Blanc; Tignes, Val d'Isère, La Plagne and Les Arcs in the Tarentaise. All of them are two to three hours from Lyon-Saint-Exupéry airport. Resort by resort: <a href="../kosher-val-thorens/">Val Thorens</a>, <a href="../kosher-courchevel/">Courchevel</a>, <a href="../kosher-megeve/">Megève</a>, <a href="../kosher-alpe-dhuez/">Alpe d'Huez</a>, <a href="../kosher-les-deux-alpes/">Les Deux Alpes</a>, and the full picture on <a href="../kosher-ski-holidays-french-alps/">kosher ski holidays in the Alps</a>.</p>"""),
     dict(type="text", h2="Summer: <i>lakes and mountains</i>", html="""<p>Lake Annecy, Aix-les-Bains and Grenoble have a published community; the high resorts open their lifts for hikers from late June to late August, and Les Deux Alpes and Alpe d'Huez have welcomed kosher summer guests for decades. We organise meals, Shabbat and a minyan for your dates there too: <a href="../summer-in-the-alps-jewish-families/">summer in the Alps for Jewish families</a>.</p>"""),
     dict(type="steps", h2="How it <i>works</i>", items=[
       ("Tell us", "Resort, dates, number of people, your chalet or apartment, and what you need: a chef, delivered meals, Shabbat, a holiday, a minyan. By WhatsApp or with the form at the bottom of this page."),
@@ -43,11 +43,11 @@ PAGE = dict(
       ("Is the food strictly kosher?", "Yes. Our team in the Alps cooks under the Chabad network of the Alps. Ask for the supervision details in writing with your quote."),
       ("Do you sell the trip itself?", "No. Flights, transfers and accommodation are yours to book. Stays and meals organised by our team in the Alps are quoted and invoiced by them."),
     ]),
-    dict(type="cta", txt="A kosher week in the Alps this season?", msg="Hello, we are planning a kosher vacation in the French Alps. Resort: / Dates: / Number of people: / Accommodation (chalet, apartment, hotel): / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
+    dict(type="cta", txt="A kosher week in the Alps this season?", msg="Hello, we are planning a kosher vacation in the Alps. Resort: / Dates: / Number of people: / Accommodation (chalet, apartment, hotel): / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the French Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../flights-to-lyon/", "Flights to Lyon and the road to the resorts")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../flights-to-lyon/", "Flights to Lyon and the road to the resorts")],
   source="Sources: les3vallees.com and the resorts' tourist offices for altitudes and seasons; synalpes.wordpress.com for the Chabad houses of Courchevel and Megève; AFP (23 August 2026) for kosher summer guests in Les Deux Alpes and Alpe d'Huez; our team in the Alps for the services.",
-  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher vacation services in the French Alps", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "French Alps"}, "serviceType": "Private kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in French ski resorts and lake towns", "url": "https://mishpachatours.com/kosher-vacation-french-alps/"},
+  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher vacation services in the Alps", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Alps"}, "serviceType": "Private kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in French ski resorts and lake towns", "url": "https://mishpachatours.com/kosher-vacation-french-alps/"},
   ticket=True,
   VERIF=["Services: same basis as /kosher-services-french-alps/ (voice messages of Mendel Attal, 08/10/2026), nothing confirmed in writing.", "Lifts open for hikers late June to late August: Val Thorens summer 2026 dates (4 July to 28 August), generalised; check per resort.", "Kosher summer guests in Les Deux Alpes and Alpe d'Huez for decades: AFP / Sud Radio, 23 August 2026.", "'In English, French or Hebrew': the operator answers in Hebrew; to confirm."],
 )

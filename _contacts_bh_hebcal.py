@@ -82,6 +82,12 @@ PLACES = {  # slug : (geonameid, {lang: nom})
     "kosher-megeve": (2994768, dict(en="Megève", fr="Megève", es="Megève", he="מז'ב")),
     "kosher-val-disere": (2971074, dict(en="Val d'Isère", fr="Val d’Isère", es="Val d'Isère", he="ואל דיזר")),
     "kosher-val-thorens": (6544556, dict(en="Val Thorens", fr="Val Thorens", es="Val Thorens", he="ואל טורנס")),
+    "kosher-zermatt": (2657928, dict(en="Zermatt", fr="Zermatt", es="Zermatt", he="צרמט")),
+    "kosher-st-moritz": (2658813, dict(en="St. Moritz", fr="Saint-Moritz", es="St. Moritz", he="סנט מוריץ")),
+    "kosher-crans-montana": (6559506, dict(en="Crans-Montana", fr="Crans-Montana", es="Crans-Montana", he="קראן מונטנה")),
+    "kosher-cervinia": (6534766, dict(en="Cervinia", fr="Cervinia", es="Cervinia", he="צרביניה")),
+    "kosher-courmayeur": (3177872, dict(en="Courmayeur", fr="Courmayeur", es="Courmayeur", he="קורמאייר")),
+    "kosher-cortina": (3177952, dict(en="Cortina d'Ampezzo", fr="Cortina d'Ampezzo", es="Cortina d'Ampezzo", he="קורטינה")),
     # pages multi-stations : Albertville, au centre des Alpes
     "kosher-ski-holidays-french-alps": (3038266, dict(en="the Alps", fr="les Alpes", es="los Alpes", he="האלפים")),
     "summer-in-the-alps-jewish-families": (3038266, dict(en="the Alps", fr="les Alpes", es="los Alpes", he="האלפים")),

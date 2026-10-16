@@ -7,7 +7,7 @@ PAGE = dict(
   intro="Val d'Isère sits at 1,850 m in the Haute Tarentaise and shares one ski area with Tignes, the Tignes-Val d'Isère domain, about 300 km of pistes that climb to 3,456 m. The season is announced from 28 November 2026 to 2 May 2027 in the guides we read. Mishpacha Tours organises the kosher side of your week here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. Families from London, Manchester or New York and Hebrew-speaking guests: one request, one written quote.",
   chips=["1,850 m, Tignes-Val d'Isère, about 300 km of pistes", "About 2 h 30 to 3 h from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
-  crumb=("../alps/", "The French Alps, strictly kosher"),
+  crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
     dict(type="text", h2="What we organise <i>in Val d'Isère</i>", html="""<ul>
@@ -57,7 +57,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Kosher in Val d'Isère this season?", msg="Hello, we are going to Val d'Isère. Dates: / Number of people: / We need (chef, delivered meals, Shabbat, holiday, minyan):"),
   ],
-  related=[("../alps/", "The French Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the French Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the French Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
+  related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps, in detail"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../summer-in-the-alps-jewish-families/", "Summer in the Alps for Jewish families"), ("../lyon-gateway-to-the-alps-kosher/", "Lyon, the gateway to the Alps")],
   source="Sources: Val d'Isère tourist office (address, via routedesgrandesalpes.com and acceslibre.beta.gouv.fr, read 8 October 2026), skiresort.info and skiinfo.fr (ski area), guide-ski.fr (season dates), alps2alps.com (access, summer glacier), transfer companies; our team in the Alps for the services.",
   jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher services in Val d'Isère", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Val d'Isère"}, "serviceType": "Kosher chef, delivered kosher meals, Shabbat and holiday meals, minyan and Sefer Torah in Val d'Isère", "url": "https://mishpachatours.com/kosher-val-disere/"},
   ticket=True,

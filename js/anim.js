@@ -35,7 +35,7 @@ D.addEventListener('touchstart',function(){},{passive:true});
 /* 10. flocons (pages d'hiver, en continu, Moshe 15/10) */
 (function(){
   if(reduce.matches)return;
-  if(!/^\/kosher-(alpe-dhuez|annecy|chamonix|courchevel|grenoble|la-plagne|les-arcs|les-deux-alpes|megeve|val-disere|val-thorens|ski-holidays-french-alps|chalet-les-deux-alpes)\/$/.test(path))return;
+  if(!/^\/kosher-(alpe-dhuez|annecy|chamonix|courchevel|grenoble|la-plagne|les-arcs|les-deux-alpes|megeve|val-disere|val-thorens|zermatt|st-moritz|crans-montana|cervinia|courmayeur|cortina|ski-holidays-french-alps|chalet-les-deux-alpes)\/$/.test(path))return;
   var hero=D.querySelector('.lead-hero3');if(!hero)return;
   
   var c=D.createElement('div');c.className='anim-neige';c.setAttribute('aria-hidden','true');
