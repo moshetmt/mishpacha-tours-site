@@ -50,4 +50,4 @@ User-agent: *
 Allow: /
 Disallow: /merci/
 Sitemap: https://mishpachatours.com/sitemap.xml
-LLMs: https://mishpachatours.com/llms.txt
+# LLMs: https://mishpachatours.com/llms.txt

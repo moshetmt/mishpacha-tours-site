@@ -19,7 +19,7 @@ xml.append("</urlset>")
 open("sitemap.xml", "w", encoding="utf-8").write("\n".join(xml) + "\n")
 AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "anthropic-ai", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot-Extended", "Bingbot", "CCBot", "meta-externalagent", "Amazonbot", "DuckAssistBot", "YouBot"]
 rob = "".join(f"User-agent: {b}\nAllow: /\n\n" for b in AI_BOTS)
-open("robots.txt", "w", encoding="utf-8").write(rob + f"User-agent: *\nAllow: /\nDisallow: /merci/\nSitemap: {BASE}/sitemap.xml\nLLMs: {BASE}/llms.txt\n")
+open("robots.txt", "w", encoding="utf-8").write(rob + f"User-agent: *\nAllow: /\nDisallow: /merci/\nSitemap: {BASE}/sitemap.xml\n# LLMs: {BASE}/llms.txt\n")
 
 # llms.txt : resume + une ligne par page (titre, description), pour les moteurs de reponse IA
 import re, html
