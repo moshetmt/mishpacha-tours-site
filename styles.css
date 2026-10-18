@@ -1050,6 +1050,16 @@ body.menu-ouvert{overflow:hidden}
 @keyframes sh-lever{0%{transform:translateY(12px);opacity:.2}45%,85%{transform:translateY(0);opacity:1}100%{transform:translateY(12px);opacity:.2}}
 @keyframes sh-scintille{0%,30%{opacity:0;transform:scale(.4)}50%,85%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.4)}}
 @media (min-width:900px){.shabbat .sh-tete{flex-direction:row;align-items:center;justify-content:space-between}.sh-des{order:0;width:220px}.sh-gros{font-size:52px}.sh-moments{grid-template-columns:1fr 1fr}}
+.sh-dates{margin:18px 0 6px;font-size:14px;opacity:.75}
+.sh-table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.sh-table th{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7;text-align:start;padding:8px 6px}
+.sh-table td{padding:9px 6px;border-top:1px solid rgba(255,250,237,.12);font-size:16px}
+.sh-table td+td,.sh-table th+th{text-align:end;width:24%}
+.sh-table td+td{white-space:nowrap}
+.sh-table th{line-height:1.3;vertical-align:bottom}
+.sh-table td b{font-family:var(--titre);font-weight:700;font-size:17px}
+@media (min-width:600px){.sh-table td b{font-size:20px}}
+.sh-table a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,250,237,.35)}
 /* fin SHABBAT v2 */
 /* bannière 3 : le texte ne dépasse plus du hero (fil d'Ariane coupé sous l'en-tête sur la page chalet, 15/10) */
 .lead-hero3:not(.lead-hero3-illus){height:auto;max-height:none;min-height:min(100svh,920px);display:flex;flex-direction:column;justify-content:flex-end}

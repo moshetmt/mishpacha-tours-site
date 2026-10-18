@@ -95,14 +95,31 @@ PLACES = {  # slug : (geonameid, {lang: nom})
 MULTI = {"kosher-ski-holidays-french-alps", "summer-in-the-alps-jewish-families"}
 LYON = {"shabbat-in-lyon", "synagogues-lyon", "jewish-lyon-guide"}
 LYON_GID = 2996944
-REPLI = {"en": "Candle lighting falls as early as 16:30 in December and after 21:00 in June.",
+# 19/10 : un horaire = un lieu. Coordonnees du centre de chaque station (le geonameid tombait parfois sur le village
+# de vallee : Macot pour La Plagne, Bourg-Saint-Maurice pour Les Arcs, Valtournenche pour Cervinia, Huez pour l'Alpe).
+COORDS = {  # slug : (latitude, longitude, tzid)
+    "kosher-courchevel": (45.4154, 6.6364, "Europe/Paris"), "kosher-val-thorens": (45.2978, 6.5838, "Europe/Paris"),
+    "kosher-megeve": (45.8569, 6.6178, "Europe/Paris"), "kosher-alpe-dhuez": (45.0909, 6.0710, "Europe/Paris"),
+    "kosher-les-deux-alpes": (45.0116, 6.1255, "Europe/Paris"), "kosher-chalet-les-deux-alpes": (45.0116, 6.1255, "Europe/Paris"),
+    "kosher-chamonix": (45.9237, 6.8694, "Europe/Paris"), "kosher-annecy": (45.8992, 6.1294, "Europe/Paris"),
+    "kosher-grenoble": (45.1885, 5.7245, "Europe/Paris"), "kosher-la-plagne": (45.5070, 6.6780, "Europe/Paris"),
+    "kosher-les-arcs": (45.5726, 6.8279, "Europe/Paris"), "kosher-val-disere": (45.4481, 6.9800, "Europe/Paris"),
+    "kosher-zermatt": (46.0200, 7.7486, "Europe/Zurich"), "kosher-st-moritz": (46.4994, 9.8433, "Europe/Zurich"),
+    "kosher-crans-montana": (46.3132, 7.4791, "Europe/Zurich"), "kosher-cervinia": (45.9336, 7.6297, "Europe/Rome"),
+    "kosher-courmayeur": (45.7966, 6.9689, "Europe/Rome"), "kosher-cortina": (46.5369, 12.1390, "Europe/Rome"),
+}
+STATIONS = [s for s in COORDS if s != "kosher-chalet-les-deux-alpes"]  # tableau des pages multi-stations
+REPLI = {"en": "Candle lighting falls as early as 16:30 in December and after 21:00 in June.",  # Lyon seulement
          "fr": "L’allumage des bougies tombe dès 16:30 en décembre et après 21:00 en juin.",
          "es": "El encendido de velas cae hacia las 16:30 en diciembre y después de las 21:00 en junio.",
          "he": "הדלקת הנרות חלה כבר ב-16:30 בדצמבר, ואחרי 21:00 ביוני."}
-NOTE = {"en": "Times for Albertville, in the heart of the Alps. Your resort can differ by a few minutes.",
-        "fr": "Horaires d’Albertville, au cœur des Alpes. Votre station peut différer de quelques minutes.",
-        "es": "Horarios de Albertville, en el corazón de los Alpes. Su estación puede diferir en unos minutos.",
-        "he": "הזמנים לאלברטוויל, בלב האלפים. באתר שלכם הם עשויים להיות שונים בכמה דקות."}
+REPLI_ST = {"en": "Times calculated for the coordinates of {}.", "fr": "Horaires calculés aux coordonnées de {}.",
+            "es": "Horarios calculados para las coordenadas de {}.", "he": "הזמנים מחושבים לפי הקואורדינטות של {}."}
+NOTE = {"en": "Each resort has its own times: they are calculated for its coordinates, resort by resort.",
+        "fr": "Chaque station a ses horaires : ils sont calculés aux coordonnées de la station, une par une.",
+        "es": "Cada estación tiene sus propios horarios: se calculan para sus coordenadas, una por una.",
+        "he": "לכל אתר זמנים משלו: הם מחושבים לפי הקואורדינטות של כל אתר בנפרד."}
+COL = {"en": "Resort", "fr": "Station", "es": "Estación", "he": "אתר"}
 # encadre v2 (15/10) : maquette scratchpad/test-compte-a-rebours.html, section « Apres »
 SH = {  # mot Shabbat, preposition + ville, sur-titre, libelles, etats
     "en": dict(mot="Shabbat", vil="in {}", sur="This week", cand="Candle lighting", hav="Havdalah", loc="en-GB", paix="Shabbat Shalom",
@@ -171,6 +188,16 @@ CSS_SH = CSS_DEB + r"""
 @keyframes sh-lever{0%{transform:translateY(12px);opacity:.2}45%,85%{transform:translateY(0);opacity:1}100%{transform:translateY(12px);opacity:.2}}
 @keyframes sh-scintille{0%,30%{opacity:0;transform:scale(.4)}50%,85%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.4)}}
 @media (min-width:900px){.shabbat .sh-tete{flex-direction:row;align-items:center;justify-content:space-between}.sh-des{order:0;width:220px}.sh-gros{font-size:52px}.sh-moments{grid-template-columns:1fr 1fr}}
+.sh-dates{margin:18px 0 6px;font-size:14px;opacity:.75}
+.sh-table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.sh-table th{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.7;text-align:start;padding:8px 6px}
+.sh-table td{padding:9px 6px;border-top:1px solid rgba(255,250,237,.12);font-size:16px}
+.sh-table td+td,.sh-table th+th{text-align:end;width:24%}
+.sh-table td+td{white-space:nowrap}
+.sh-table th{line-height:1.3;vertical-align:bottom}
+.sh-table td b{font-family:var(--titre);font-weight:700;font-size:17px}
+@media (min-width:600px){.sh-table td b{font-size:20px}}
+.sh-table a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(255,250,237,.35)}
 """ + CSS_FIN
 
 
@@ -191,7 +218,7 @@ def poser_css_et_dessin():
 
 
 JS_SH = r"""<script data-shabbat>
-(function(){var C=__CFG__;var Z="Europe/Paris",U="https://www.hebcal.com/shabbat?cfg=json&geonameid="+C.gid+"&M=on&lg="+C.lg;
+(function(){var C=__CFG__;var Z=C.tz,U="https://www.hebcal.com/shabbat?cfg=json&"+C.q+"&M=on&lg="+C.lg;
 var B=document.getElementById("shabbat");if(!B)return;
 function $(s){return B.querySelector(s)}
 function f(s){return new Date(s).toLocaleTimeString(C.loc,{hour:"2-digit",minute:"2-digit",timeZone:Z})}
@@ -211,11 +238,48 @@ rendre(x,x.c&&x.h&&t>=new Date(x.c.date)?"pendant":"avant")}).catch(function(){}
 </script>"""
 
 
-def script_shabbat(lang, gid, multi):
+# pages multi-stations (19/10) : une ligne par station, chacune calculee a ses coordonnees
+JS_MULTI = r"""<script data-shabbat>
+(function(){var C=__CFG__;var B=document.getElementById("shabbat");if(!B)return;
+var R=[].slice.call(B.querySelectorAll("tr[data-q]"));if(!R.length)return;
+function u(r,dt){return "https://www.hebcal.com/shabbat?cfg=json&"+r.getAttribute("data-q")+"&M=on&lg="+C.lg+(dt?"&dt="+dt:"")}
+function f(s,z){return new Date(s).toLocaleTimeString(C.loc,{hour:"2-digit",minute:"2-digit",timeZone:z})}
+function dd(s,z){return new Date(s).toLocaleDateString(C.loc,{weekday:"long",day:"numeric",month:"short",timeZone:z})}
+function lire(d){var it=d.items||[];return{c:it.find(function(i){return i.category==="candles"}),h:it.find(function(i){return i.category==="havdalah"})}}
+function tout(dt){return Promise.all(R.map(function(r){return fetch(u(r,dt)).then(function(x){return x.json()}).then(lire).catch(function(){return{}})}))}
+function rendre(L,etat){var z=R[0].getAttribute("data-tz"),p=null;
+R.forEach(function(r,i){var x=L[i]||{},td=r.querySelectorAll("td");if(!p&&x.c&&x.h)p=x;
+td[1].innerHTML=x.c?"<b>"+f(x.c.date,r.getAttribute("data-tz"))+"</b>":"";td[2].innerHTML=x.h?"<b>"+f(x.h.date,r.getAttribute("data-tz"))+"</b>":""});
+if(!p)return;var d=B.querySelector(".sh-dates");d.textContent=(etat==="apres"?C.suiv+" · ":"")+dd(p.c.date,z)+" → "+dd(p.h.date,z);d.hidden=false;
+var ti=B.querySelector(".sh-tt");ti.textContent=etat==="pendant"?C.paix:etat==="apres"?C.tov:C.mot;
+if(etat==="pendant")B.querySelector(".shabbat-corps").innerHTML=C.rep+"<br><small>"+C.note+"</small>"}
+tout().then(function(L){var t=new Date(),x=L.filter(function(y){return y.c&&y.h})[0];if(!x)return;
+if(t>=new Date(x.h.date)){var j=new Date(t.getTime()+864e5).toLocaleDateString("sv-SE",{timeZone:"Europe/Paris"});return tout(j).then(function(L2){rendre(L2,"apres")})}
+rendre(L,t>=new Date(x.c.date)?"pendant":"avant")})})();
+</script>"""
+
+
+def requete(slug):
+    if slug in COORDS:
+        la, lo, tz = COORDS[slug]
+        return "latitude=%s&longitude=%s&tzid=%s" % (la, lo, tz), tz
+    return "geonameid=%d" % LYON_GID, "Europe/Paris"
+
+
+def script_shabbat(lang, slug, multi):
     t = SH[lang]
-    cfg = json.dumps(dict(gid=gid, lg=lang, loc=t["loc"], mot=t["mot"], paix=t["paix"], tov=t["tov"], suiv=t["suiv"], rep=t["rep"],
-                          note=NOTE[lang] if multi else ""), ensure_ascii=False)
-    return JS_SH.replace("__CFG__", cfg)
+    q, tz = requete(slug)
+    cfg = dict(q=q, tz=tz, lg=lang, loc=t["loc"], mot=t["mot"], paix=t["paix"], tov=t["tov"], suiv=t["suiv"], rep=t["rep"],
+               note=NOTE[lang] if multi else "")
+    return (JS_MULTI if multi else JS_SH).replace("__CFG__", json.dumps(cfg, ensure_ascii=False))
+
+
+def tableau_stations(lang):
+    t, pre = SH[lang], ("" if lang == "en" else "/" + lang)
+    lignes = "".join('<tr data-q="%s" data-tz="%s"><td><a href="%s/%s/">%s</a></td><td></td><td></td></tr>'
+                     % (requete(s)[0].replace("&", "&amp;"), requete(s)[1], pre, s, PLACES[s][1][lang]) for s in STATIONS)
+    return ('<p class="sh-dates" hidden></p><table class="sh-table"><thead><tr><th>%s</th><th>%s</th><th>%s</th></tr></thead>'
+            '<tbody>%s</tbody></table>') % (COL[lang], t["cand"], t["hav"], lignes)
 
 
 def fin_section(h, idx):
@@ -278,15 +342,23 @@ def bloc_shabbat(lang, slug, gid, multi):
         vil = MULTI_NOM[lang]
     else:
         vil = t["vil"].format(PLACES[slug][1][lang])
-    corps = REPLI[lang] + (" " + NOTE[lang] if multi else "")
-    return ('<section class="ss wrap shabbat-bloc"><div class="shabbat" id="shabbat">'
+    if slug in LYON:
+        corps = REPLI[lang]
+    elif multi:
+        corps = NOTE[lang]
+    else:
+        corps = REPLI_ST[lang].format(PLACES[slug][1][lang])
+    tete = ('<section class="ss wrap shabbat-bloc"><div class="shabbat" id="shabbat">'
             '<div class="sh-tete"><div><p class="sh-sur">%s</p><p class="sh-gros"><span class="sh-tt">%s</span><br><span class="sh-ville">%s</span></p></div>'
-            '<img class="sh-des" src="/img/des/_shabbat-tete.webp" alt="" width="360" height="187" loading="lazy"></div>'
-            '<div class="sh-moments" hidden>'
-            '<div class="sh-moment" id="m-entree">%s<div><span class="sh-d"></span><b></b><span>%s</span></div></div>'
-            '<div class="sh-moment" id="m-sortie">%s<div><span class="sh-d"></span><b></b><span>%s</span></div></div></div>'
-            '<p class="shabbat-corps">%s</p></div>\n%s</section>\n') % (
-        t["sur"], t["mot"], vil, SVG_ENTREE, t["cand"], SVG_SORTIE, t["hav"], corps, script_shabbat(lang, gid, multi))
+            '<img class="sh-des" src="/img/des/_shabbat-tete.webp" alt="" width="360" height="187" loading="lazy"></div>') % (t["sur"], t["mot"], vil)
+    if multi:
+        corps_html = tableau_stations(lang)
+    else:
+        corps_html = ('<div class="sh-moments" hidden>'
+                      '<div class="sh-moment" id="m-entree">%s<div><span class="sh-d"></span><b></b><span>%s</span></div></div>'
+                      '<div class="sh-moment" id="m-sortie">%s<div><span class="sh-d"></span><b></b><span>%s</span></div></div></div>'
+                      ) % (SVG_ENTREE, t["cand"], SVG_SORTIE, t["hav"])
+    return tete + corps_html + '<p class="shabbat-corps">%s</p></div>\n%s</section>\n' % (corps, script_shabbat(lang, slug, multi))
 
 
 def encadre(h, lang, slug, ancre):
