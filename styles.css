@@ -1261,30 +1261,32 @@ html.anim-vis-on{overflow:hidden}
 .kwp-pied{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding-top:16px;border-top:1px solid #E2DCCF}
 .kwp-corps .kwp-dispo+.kwp-pied{margin-top:18px}
 .kwp-pied img{width:46px;height:46px}
-.kwp-bandeau{display:flex;align-items:center;justify-content:center;gap:22px;margin-top:28px;padding:18px 24px;border-radius:12px;background:#141416;color:#C9A961;flex-wrap:wrap}
-.kwp-bandeau span{font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase}
-.kwp-bandeau i{width:1px;height:34px;background:rgba(201,169,97,.45)}
-.kwp-bandeau img{height:80px;width:auto}
+.kwp-bandeau{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;margin-top:28px;padding:22px 24px;border-radius:12px;background:#141416;color:#C9D2D4}
+.kwp-bandeau span{font-size:12px;font-weight:500;letter-spacing:.18em;text-transform:uppercase}
+.kwp-bandeau img{height:96px;width:auto}
 .kwp-seul-bandeau .kwp-bandeau{margin-top:0}
-@media (max-width:599px){.kwp-bandeau{gap:12px;padding:16px}.kwp-bandeau i{display:none}.kwp-bandeau img{height:64px}.kwp-carte h3{font-size:21px}}
+@media (max-width:599px){.kwp-bandeau{padding:18px 16px}.kwp-bandeau img{height:72px}.kwp-carte h3{font-size:21px}}
 @media (min-width:900px){.kwp-cartes{grid-template-columns:repeat(2,minmax(0,460px))}.kwp-seule{grid-template-columns:minmax(0,460px)}}
 /* pages hiver et Alpes (19/10) : noir #141416, or #C9A961, or lumière #E3BE80, givre #C9D2D4, clair #FAF7F0 */
 body.kwp-hiver{background:#141416}
-.kwp-hero-wp{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(201,169,97,.45)}
-.kwp-hero-wp span{font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#C9D2D4}
+.kwp-hero-wp{display:flex;flex-direction:column;align-items:flex-start;gap:2px;direction:ltr;margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(201,169,97,.45)}
+.kwp-hero-wp span{font-size:12px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#C9D2D4;white-space:nowrap;margin-top:-6px;margin-left:calc(min(100%,340px)*.3)}
+@media (max-width:420px){.kwp-hero-wp span{font-size:11px;letter-spacing:.12em}}
+@media (min-width:900px){.kwp-hero-wp span{font-size:13px;margin-top:-14px;margin-left:calc(min(100%,520px)*.3)}}
+[dir=rtl] .kwp-hero-wp{align-items:flex-end}
 .kwp-hero-wp img{width:100%;max-width:340px;height:auto;display:block;margin-inline-start:-8px}
 @media (min-width:900px){.kwp-hero-wp img{max-width:520px}}
 .kwp-hiver .lead3-bloc{background:rgba(20,20,22,.82);border-color:rgba(201,169,97,.45)}
 .kwp-hiver .lead3-texte h1{color:#FAF7F0}
 .kwp-hiver .lead3-texte h1 i{color:#E3BE80}
 .kwp-hiver .lead-puces li{border-color:rgba(201,169,97,.55);color:#E3BE80}
-.kwp-hiver .ss:not(.lead-final){color:#C9D2D4}
-.kwp-hiver .ss:not(.lead-final) :is(h2,h3){color:#E3BE80}
-.kwp-hiver .ss:not(.lead-final) h2 i{color:#C9A961}
-.kwp-hiver .ss:not(.lead-final):not(.kwp) a:not(.btn-noir):not(.btn-hero){color:#E3BE80}
+.kwp-hiver main>:not(.lead-final,.lead-hero3){color:#C9D2D4}
+.kwp-hiver main>:not(.lead-final,.lead-hero3) :is(h2,h3){color:#E3BE80}
+.kwp-hiver main>:not(.lead-final,.lead-hero3) h2 i{color:#C9A961}
+.kwp-hiver main>:not(.lead-final,.lead-hero3,.kwp) a:not(.btn-noir):not(.btn-hero){color:#E3BE80}
 .kwp-hiver .kwp-carte{color:var(--encre)}
 .kwp-hiver .dk-g-tete{color:#E3BE80}
-.kwp-hiver .ss:not(.lead-final) .pill{color:#FAF7F0;border-color:rgba(201,169,97,.55)}
+.kwp-hiver main>:not(.lead-final,.lead-hero3) .pill{color:#FAF7F0;border-color:rgba(201,169,97,.55)}
 .kwp-lieu{padding-inline-end:96px}
 .kwp-hiver .ss.beige{background:#141416;border-block:1px solid rgba(201,169,97,.3)}
 .kwp-hiver :is(.dk-cartes>li,.beige .dk-cartes>li,.dk-note p,.beige.dk-note p,.dk-suite>li,.chips li,.minyan-corps,.shabbat){background:rgba(250,247,240,.05);color:#C9D2D4;border:1px solid rgba(201,169,97,.28)!important}
@@ -1294,10 +1296,13 @@ body.kwp-hiver{background:#141416}
 .kwp-hiver .faq summary::after{background:#C9A961;color:#141416}
 .kwp-hiver .dk-fleche,.kwp-hiver .dk-coche{color:#C9A961}
 .kwp-hiver .etapes ol>li>b{color:#C9A961}
-.kwp-hiver :is(.lead-mascotte,.dk-h2img[src*="hassid-vert"]){content:url(/img/picto-hassid-creme.svg)}
-.kwp-hiver .ss:not(.lead-final) .btn-noir{background:var(--jaune);color:var(--encre)}
-.kwp-hiver .ss:not(.lead-final) .btn-noir svg{fill:var(--encre)}
-.kwp-hiver .ss:not(.lead-final) .kwp-carte :is(h3,h3 a,b){color:var(--encre)}
-.kwp-hiver .ss:not(.lead-final) .kwp-carte .btn-noir{background:var(--encre);color:#fff}
+.kwp-hiver .lead-mascotte{content:url(/img/picto-hassid-creme.svg)}
+.kwp-hiver .dk-h2img[src*="hassid"]{content:url(/img/wp-flocon-or.svg)}
+.kwp-hiver main>:not(.lead-final,.lead-hero3) .btn-noir{background:var(--jaune);color:var(--encre)}
+.kwp-hiver main>:not(.lead-final,.lead-hero3) .btn-noir svg{fill:var(--encre)}
+.kwp-hiver main>:not(.lead-final,.lead-hero3) .kwp-carte :is(h3,h3 a,b){color:var(--encre)}
+.kwp-hiver main>:not(.lead-final,.lead-hero3) .kwp-carte .btn-noir{background:var(--encre);color:#fff}
 .kwp-hiver .kwp-bandeau{border:1px solid rgba(201,169,97,.45)}
+/* toutes les pages : la dernière section ne colle plus au pied (Moshé 19/10, « tronqué ») */
+main>.ss:last-child:not(.lead-final){padding-bottom:72px}
 /* ===/KIT-WP=== */
