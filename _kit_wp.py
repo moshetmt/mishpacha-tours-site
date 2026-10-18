@@ -160,7 +160,27 @@ def hiver(s, lang):
     if i >= 0:
         i += len('<div class="lead3-bloc">')
         s = s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><img src="/img/wp-long-or-powered.svg" alt="Winter Prestige, {POWERED}" width="1222" height="430"></div>') + s[i:]
-    return s
+    return stations(s)
+
+def stations(s):
+    """Carte « Station par station » (liste de liens) + carte « Toute autre station » sortent de la grille :
+    une bande pleine largeur de pastilles, l'autre carte en ligne dessous (Moshé 19/10, plus de carte orpheline)."""
+    m = re.search(r'<li class="dk-lien1"><img[^>]*><b>([^<]*)</b>((?:(?!<a |<li).)*?)(<a (?:(?!<li).)*?)</li>\s*(<li><img[^>]*><b>([^<]*)</b>((?:(?!<li).)*?)</li>\s*)?(?=</ul>)', s, flags=re.S)
+    if not m or m.group(3).count("<a ") < 6:
+        return s
+    morceaux = re.split(r"(<a [^>]*>[^<]*</a>)", m.group(3))
+    pastilles = []
+    for x in morceaux:
+        if x.startswith("<a "):
+            pastilles.append(f"<li>{x}</li>")
+        elif re.sub(r"[\s,.;:،]", "", x):
+            pastilles.append(f'<li class="kwp-pays">{x.strip(" ,.;:").strip()}</li>')
+    autre = f'<p class="kwp-st-autre"><b>{m.group(5)}</b>{m.group(6)}</p>' if m.group(4) else ""
+    bande = bloc("stations", f'<div class="kwp-stations"><p class="kwp-st-tete"><b>{m.group(1)}</b>{re.sub(r"<[^>]+>", "", m.group(2)).strip()}</p>'
+                             f'<ul class="kwp-pastilles">{"".join(pastilles)}</ul>{autre}</div>')
+    s = s[:m.start()] + s[m.end():]
+    j = s.find("</ul>", m.start()) + len("</ul>")
+    return s[:j] + bande + s[j:]
 
 CSS = """/* ===KIT-WP=== */
 .kwp-cartes{display:grid;gap:24px;margin-top:24px}
@@ -222,6 +242,19 @@ body.kwp-hiver{background:#141416}
 .kwp-hiver main>:not(.lead-final,.lead-hero3) .kwp-carte :is(h3,h3 a,b){color:var(--encre)}
 .kwp-hiver main>:not(.lead-final,.lead-hero3) .kwp-carte .btn-noir{background:var(--encre);color:#fff}
 .kwp-hiver .kwp-bandeau{border:1px solid rgba(201,169,97,.45)}
+/* pages hiver : une seule largeur (1200 px, même bord gauche), cartes en colonnes égales, stations en pastilles (19/10) */
+@media (min-width:900px){
+ .kwp-hiver main>.ss.conseils,.kwp-hiver main>.ss.faq,.kwp-hiver main>.conseils:has(.dk-rail){max-width:1200px}
+ .kwp-hiver .dk-cartes:not(.dk-rail){grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+}
+.kwp-stations{margin-top:12px;padding:22px 24px;border-radius:15px;border:1px solid rgba(201,169,97,.28);background:rgba(250,247,240,.05)}
+.kwp-st-tete b{display:block;margin-bottom:4px;font-family:var(--titre);font-weight:300;font-size:21px;line-height:1.15;color:#FAF7F0}
+.kwp-pastilles{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:14px 0 0;padding:0}
+.kwp-pastilles a{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border-radius:999px;border:1px solid rgba(201,169,97,.5);color:#E3BE80!important;text-decoration:none;font-size:15px}
+.kwp-pastilles a:hover{background:#C9A961;color:#141416!important}
+.kwp-pays{flex-basis:100%;margin-top:8px;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#C9D2D4}
+.kwp-st-autre{margin:18px 0 0;padding-top:16px;border-top:1px solid rgba(201,169,97,.2)}
+.kwp-st-autre b{color:#FAF7F0}
 /* toutes les pages : la dernière section ne colle plus au pied (Moshé 19/10, « tronqué ») */
 main>.ss:last-child:not(.lead-final){padding-bottom:72px}
 /* toutes les pages : le bloc vert du formulaire avait 0 px de marge, bonhomme coupé en haut, carte collée en bas (Moshé 19/10) */
