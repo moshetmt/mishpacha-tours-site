@@ -138,15 +138,33 @@ def page(slug, lang):
                   avant='<section class="ss lead-final"')
     elif slug == "kosher-chalet-les-deux-alpes":
         s = poser(s, "bandeau", f'<section class="ss wrap kwp kwp-seul-bandeau">{bandeau(lang)}</section>', avant='<section class="ss lead-final"')
+    if slug in HIVER:
+        s = hiver(s, lang)
     if s != o: io.open(p, "w", encoding="utf-8", newline="").write(s); return 1
     return 0
+
+# ---------- pages hiver et Alpes en mixte (réunion du 19/10) ----------
+# Contenu aux couleurs du kit v7 (noir, or, givre) et logo Winter Prestige en grand dans la bannière ;
+# menu, pied, formulaire lead-final et boutons restent Mishpacha. Signature : « In partnership with ».
+HIVER = ["alps"]
+
+def hiver(s, lang):
+    s = re.sub(r"<body(?![^>]*kwp-hiver)([^>]*)>", lambda m: '<body class="kwp-hiver"%s>' % m.group(1)
+               if "class=" not in m.group(1) else m.group(0).replace('class="', 'class="kwp-hiver '), s, count=1)
+    s = re.sub(r"<!--KIT-WP:hero-->.*?<!--/KIT-WP:hero-->", "", s, flags=re.S)
+    i = s.find('<div class="lead3-bloc">')
+    if i >= 0:
+        i += len('<div class="lead3-bloc">')
+        s = s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><span>{T[lang]["part"]}</span>'
+                                 f'<img src="/img/wp-long-or.svg" alt="Winter Prestige" width="300" height="96"></div>') + s[i:]
+    return s
 
 CSS = """/* ===KIT-WP=== */
 .kwp-cartes{display:grid;gap:24px;margin-top:24px}
 .kwp-seule{max-width:460px}
 .kwp-carte{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 1px 0 rgba(28,27,31,.08);display:flex;flex-direction:column}
 .kwp-photo{position:relative;aspect-ratio:3/2}
-.kwp-photo>img{width:100%;height:100%;object-fit:cover;display:block}
+.kwp-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .kwp-seau{position:absolute;inset-inline-end:14px;bottom:-34px;width:88px;height:88px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.18))}
 .kwp-corps{padding:22px 22px 24px;display:flex;flex-direction:column;flex:1}
 .kwp-lieu{font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--vert,#2D5132)}
@@ -169,6 +187,38 @@ CSS = """/* ===KIT-WP=== */
 .kwp-seul-bandeau .kwp-bandeau{margin-top:0}
 @media (max-width:599px){.kwp-bandeau{gap:12px;padding:16px}.kwp-bandeau i{display:none}.kwp-bandeau img{height:64px}.kwp-carte h3{font-size:21px}}
 @media (min-width:900px){.kwp-cartes{grid-template-columns:repeat(2,minmax(0,460px))}.kwp-seule{grid-template-columns:minmax(0,460px)}}
+/* pages hiver et Alpes (19/10) : noir #141416, or #C9A961, or lumière #E3BE80, givre #C9D2D4, clair #FAF7F0 */
+body.kwp-hiver{background:#141416}
+.kwp-hero-wp{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(201,169,97,.45)}
+.kwp-hero-wp span{font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#C9D2D4}
+.kwp-hero-wp img{width:100%;max-width:340px;height:auto;display:block;margin-inline-start:-8px}
+@media (min-width:900px){.kwp-hero-wp img{max-width:520px}}
+.kwp-hiver .lead3-bloc{background:rgba(20,20,22,.82);border-color:rgba(201,169,97,.45)}
+.kwp-hiver .lead3-texte h1{color:#FAF7F0}
+.kwp-hiver .lead3-texte h1 i{color:#E3BE80}
+.kwp-hiver .lead-puces li{border-color:rgba(201,169,97,.55);color:#E3BE80}
+.kwp-hiver .ss:not(.lead-final){color:#C9D2D4}
+.kwp-hiver .ss:not(.lead-final) :is(h2,h3){color:#E3BE80}
+.kwp-hiver .ss:not(.lead-final) h2 i{color:#C9A961}
+.kwp-hiver .ss:not(.lead-final):not(.kwp) a:not(.btn-noir):not(.btn-hero){color:#E3BE80}
+.kwp-hiver .kwp-carte{color:var(--encre)}
+.kwp-hiver .dk-g-tete{color:#E3BE80}
+.kwp-hiver .ss:not(.lead-final) .pill{color:#FAF7F0;border-color:rgba(201,169,97,.55)}
+.kwp-lieu{padding-inline-end:96px}
+.kwp-hiver .ss.beige{background:#141416;border-block:1px solid rgba(201,169,97,.3)}
+.kwp-hiver :is(.dk-cartes>li,.beige .dk-cartes>li,.dk-note p,.beige.dk-note p,.dk-suite>li,.chips li,.minyan-corps,.shabbat){background:rgba(250,247,240,.05);color:#C9D2D4;border:1px solid rgba(201,169,97,.28)!important}
+.kwp-hiver .dk-cartes>li>b,.kwp-hiver .conseils b{color:#FAF7F0}
+.kwp-hiver .conseils ul,.kwp-hiver .conseils li,.kwp-hiver .faq details{border-color:rgba(201,169,97,.28)}
+.kwp-hiver .faq summary{color:#FAF7F0}
+.kwp-hiver .faq summary::after{background:#C9A961;color:#141416}
+.kwp-hiver .dk-fleche,.kwp-hiver .dk-coche{color:#C9A961}
+.kwp-hiver .etapes ol>li>b{color:#C9A961}
+.kwp-hiver :is(.lead-mascotte,.dk-h2img[src*="hassid-vert"]){content:url(/img/picto-hassid-creme.svg)}
+.kwp-hiver .ss:not(.lead-final) .btn-noir{background:var(--jaune);color:var(--encre)}
+.kwp-hiver .ss:not(.lead-final) .btn-noir svg{fill:var(--encre)}
+.kwp-hiver .ss:not(.lead-final) .kwp-carte :is(h3,h3 a,b){color:var(--encre)}
+.kwp-hiver .ss:not(.lead-final) .kwp-carte .btn-noir{background:var(--encre);color:#fff}
+.kwp-hiver .kwp-bandeau{border:1px solid rgba(201,169,97,.45)}
 /* ===/KIT-WP=== */"""
 
 def css():
@@ -179,6 +229,6 @@ def css():
 
 if __name__ == "__main__":
     fichiers(); n = css()
-    for slug in ("kosher-les-deux-alpes", "kosher-courchevel", "alps", "kosher-ski-holidays-french-alps", "kosher-chalet-les-deux-alpes"):
+    for slug in dict.fromkeys(("kosher-les-deux-alpes", "kosher-courchevel", "alps", "kosher-ski-holidays-french-alps", "kosher-chalet-les-deux-alpes", *HIVER)):
         for lang in T: n += page(slug, lang)
     print(f"_kit_wp : {n} fichier(s) modifié(s)")
