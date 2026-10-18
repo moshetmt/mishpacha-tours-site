@@ -3,8 +3,13 @@
  * ---------------------------------------------------------------------
  * doPost lit le JSON envoye par sendBeacon depuis le site, ecrit une ligne
  * horodatee dans la feuille « Mishpacha - Leads », envoie un mail lisible a
- * l'operateur et joint un PDF « fiche client » pret a transferer a un partenaire
- * (sans le numero ni l'e-mail du client : on les ajoute a la main si on veut).
+ * l'operateur et joint la fiche contact PDF de Mendel (francais, WhatsApp du client compris,
+ * decision Moshe du 19/10) et la fiche detaillee en anglais.
+ *
+ * Envoi automatique a Mendel (decision du 19/10, « B ») : le serveur WhatsApp du CRM (habad-crm)
+ * interroge doGet toutes les 10 min, hors Shabbat et fetes : action=liste (demandes non envoyees
+ * depuis ENVOI_DEPUIS), action=fiche&id= (PDF en base64), action=fait&id= (marque envoyee).
+ * La cle CLE_ENVOI vit dans Secret.gs, hors git : ce dossier est publie sur un depot public.
  *
  * Champs recus : tour, dates, personnes, langue, nom, contact, message (langue
  * du client), message_en (memes reponses en anglais, formulaire en etapes),
@@ -31,6 +36,7 @@ var STATUTS = ['Nouveau', 'Répondu', 'Devis envoyé', 'Gagné', 'Perdu', 'Test'
 var NOM_FEUILLE = 'Leads';
 var CLE_FORMAT = 'mt-leads-2026';   // GET /exec?action=formater&cle=... : relance la mise en forme (idempotent, ne supprime rien)
 var TZ = 'Europe/Paris';
+var ENVOI_DEPUIS = new Date('2026-10-19T00:00:00+02:00');   // demandes plus anciennes : transmises a la main
 
 // Libelles FR/ES/HE des anciennes lignes sans « Message EN » (migration seulement).
 var LABELS_EN = {
@@ -86,6 +92,7 @@ function doPost(e) {
       d = (e && e.parameter) || {};
     }
 
+    journal_('recu', txt(d.nom) + (txt(d.test) ? ' (test)' : '') + (txt(d.societe) ? ' PIEGE societe=' + txt(d.societe) : ''));
     // Piege a robots : le champ "societe" doit rester vide, un humain ne le voit jamais.
     if (txt(d.societe)) return json_({ ok: true, piege: true });
 
@@ -100,9 +107,11 @@ function doPost(e) {
     }
 
     envoyerMail_(d, quand, test);
+    journal_('ok', txt(d.nom));
     return json_({ ok: true, test: test });
 
   } catch (err) {
+    journal_('ERREUR', String(err && err.stack || err));
     return json_({ ok: false, error: String(err) });
   } finally {
     try { lock.releaseLock(); } catch (err2) {}
@@ -111,6 +120,13 @@ function doPost(e) {
 
 function doGet(e) {
   var p = (e && e.parameter) || {};
+  if (p.action === 'journal' && typeof CLE_ENVOI !== 'undefined' && p.cle === CLE_ENVOI) {
+    return json_(JSON.parse(PropertiesService.getScriptProperties().getProperty('JOURNAL') || '[]'));
+  }
+  if (/^(liste|fiche|fait)$/.test(p.action || '')) {
+    if (typeof CLE_ENVOI === 'undefined' || !CLE_ENVOI || p.cle !== CLE_ENVOI) return json_({ ok: false, error: 'cle' });
+    return json_(fileMendel_(p.action, txt(p.id)));
+  }
   if (p.action === 'formater' && p.cle === CLE_FORMAT) {
     var sh = feuille_();
     var r = formater_(sh, true);
@@ -395,16 +411,17 @@ function envoyerMail_(d, quand, test) {
     '<tr><td style="padding:6px 28px 4px"><table role="presentation" cellpadding="0" cellspacing="0" width="100%">' +
     titre_('Contact') + contactRows + detail +
     '</table></td></tr>' +
-    '<tr><td style="padding:18px 28px 22px;color:' + GRIS + ';font-size:12px;line-height:1.5">The attached PDF is the client file without phone or email, ready to forward to a partner.<br>Received ' + recu + ' (Paris) · page ' + esc_(f.page) + '</td></tr>' +
+    '<tr><td style="padding:18px 28px 22px;color:' + GRIS + ';font-size:12px;line-height:1.5">Attached: the contact sheet for Mendel (French, with WhatsApp), sent to him automatically outside Shabbat, and the detailed request.<br>Received ' + recu + ' (Paris) · page ' + esc_(f.page) + '</td></tr>' +
     '</table></div>';
 
-  var pdf = null;
+  var pdf = null, pdfMendel = null;
   try { pdf = pdf_(f, jour); } catch (err) { corps.push('', 'PDF non genere : ' + err); }
+  try { pdfMendel = pdfMendel_(ficheMendel_(d, quand)); } catch (err) { corps.push('', 'Fiche Mendel non generee : ' + err); }
 
   var options = { subject: sujet, body: corps.join('\n'), htmlBody: html, name: 'Mishpacha Tours' };
   if (test) { options.to = TEST_EMAIL; } else { options.to = DEST_EMAIL; options.cc = CC_EMAIL; }
   if (f.mail) options.replyTo = f.mail;
-  if (pdf) options.attachments = [pdf];
+  options.attachments = [pdfMendel, pdf].filter(Boolean);
   MailApp.sendEmail(options);
 }
 
@@ -461,7 +478,110 @@ function pdf_(f, jour) {
   return Utilities.newBlob(html, 'text/html', 'fiche.html').getAs('application/pdf').setName(nom);
 }
 
+// ---------------------------------------------------------------- fiche contact pour Mendel (FR, avec WhatsApp)
+
+// Ligne de la feuille -> objet d comme celui du site (colonnes ENTETE v2).
+function depuisLigne_(v) {
+  return { nom: v[2], contact: [v[3], v[4]].filter(Boolean).join(' / '), message_en: v[22], message: txt(v[23]) || txt(v[22]),
+           nuits: v[9], dates: [v[7], v[8]].filter(Boolean).join(' → '), personnes: v[11], langue: v[20], page: v[21] };
+}
+
+function ficheMendel_(d, quand) {
+  var f = fiche_(d), m = f.map;
+  var jn = function (a) { return a.filter(Boolean).join(' · '); };
+  var log = jn([m['Accommodation'], m['Rooms'], m['Accommodation options']]);
+  var chalet = /already|déjà|booked|réservé/i.test(m['Accommodation'] || '') ? 'Non, logement déjà réservé · ' + log
+             : /chalet/i.test(m['Accommodation'] || '') ? 'Oui · ' + log : log;
+  var enfants = [m['Children'], m['Babies'] && m['Babies'] !== '0' ? m['Babies'] + ' bébé(s)' : ''].filter(Boolean).join(' + ');
+  var autres = [['Minyan', jn([m['Minyan level'], m['Religious needs'], m['Nusach']])], ['Vols', jn([m['Airport'], m['Flying from'], m['Flights booked']])],
+                ['Activités', m['Activities']], ['Extras', m['Extras']], ['Allergies', m['Allergies and diets']],
+                ['Matériel bébé', m['Baby equipment']], ['Priorités', m['Priorities']], ['Urgence', m['Urgency']]]
+    .filter(function (kv) { return kv[1]; }).map(function (kv) { return kv[0] + ' : ' + kv[1]; });
+  return {
+    id: String(quand.getTime()), nom: f.nom, recu: Utilities.formatDate(quand, TZ, "d/MM/yyyy 'à' HH'h'mm"),
+    pays: m['Lives in'] || '', whatsapp: f.tel ? '+' + f.tel : '', dates: f.dates, station: f.lieu,
+    adultes: (m['Adults'] || txt(d.personnes)) + (m['Families'] && m['Families'] !== '1' ? ' (' + m['Families'] + ' familles)' : ''),
+    enfants: enfants || '0', hommes: m['Men for minyan'] || '?', chalet: chalet,
+    repas: jn([m['Meals'], m['Meal days'], m['Kashrut']]),
+    budget: jn([m['Budget per person'] ? m['Budget per person'] + ' / pers.' : '', m['Budget per family'] ? m['Budget per family'] + ' / famille' : '',
+                m['Budget'], m['Flights and budget']]),
+    message: m['Message'] || '', autres: autres
+  };
+}
+
+function pdfMendel_(x) {
+  var NUIT = '#141416', OR = '#C9A961', NEIGE = '#EEF1F8', FILET = '#E2DCCF', GRIS2 = '#5A6068';
+  // Le convertisseur PDF de Google ignore les fonds (background et bgcolor) : tout passe par des bordures.
+  var tuile = function (l, v) {
+    return '<td width="33%" style="border:1px solid ' + FILET + ';border-top:5px solid ' + NUIT + ';padding:10px 14px;vertical-align:top"><div style="font-size:8pt;text-transform:uppercase;color:' + OR + ';font-weight:bold">' + l +
+      '</div><div style="font-size:18pt;font-weight:bold;color:' + NUIT + ';margin-top:3px">' + esc_(v || '—') + '</div></td>';
+  };
+  var lignes = [['Pays', x.pays], ['WhatsApp', x.whatsapp], ['Dates', x.dates], ['Station', x.station], ['Chalet', x.chalet], ['Repas', x.repas], ['Budget', x.budget]]
+    .map(function (kv) {
+      return '<tr><td width="24%" style="padding:7px 10px 7px 0;border-bottom:1px solid ' + FILET + ';font-size:8.5pt;text-transform:uppercase;color:' + GRIS2 +
+        ';vertical-align:top">' + kv[0] + '</td><td style="padding:7px 0;border-bottom:1px solid ' + FILET + ';font-size:10.5pt">' + esc_(kv[1] || 'Non indiqué') + '</td></tr>';
+    }).join('');
+  var msg = [x.message].concat(x.autres).filter(Boolean).map(esc_).join('<br>') || 'Aucun message.';
+  var html = '<!DOCTYPE html><html><head><meta charset="utf-8"><style>@page{size:A4;margin:14mm 16mm}</style></head>' +
+    '<body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:' + ENCRE + '">' +
+    '<table width="100%" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:middle"><img src="' + LOGO_MT_LONG + '" width="230"></td>' +
+    '<td style="text-align:right;vertical-align:middle"><div style="font-size:7.5pt;text-transform:uppercase;color:' + GRIS2 + ';margin-bottom:4px">En partenariat avec</div>' +
+    '<img src="' + LOGO_WP_LONG + '" width="170"></td></tr></table>' +
+    '<div style="border-top:3px solid ' + OR + ';margin:16px 0 18px"></div>' +
+    '<div style="font-size:8.5pt;text-transform:uppercase;color:' + VERT + ';font-weight:bold">Fiche contact · reçu le ' + esc_(x.recu) + '</div>' +
+    '<div style="font-family:Georgia,serif;font-size:28pt;margin:4px 0 2px">' + esc_(x.nom) + '</div>' +
+    '<div style="font-size:8.5pt;color:' + GRIS2 + ';margin-bottom:14px">Données du formulaire, non vérifiées : à confirmer avec le client.</div>' +
+    '<table width="100%" cellpadding="0" cellspacing="6"><tr>' + tuile('Adultes', x.adultes) + tuile('Enfants', x.enfants) + tuile('Hommes', x.hommes) + '</tr></table>' +
+    '<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px">' + lignes + '</table>' +
+    '<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:16px"><tr><td style="border:1px solid ' + FILET + ';border-left:4px solid ' + OR + ';padding:12px 14px">' +
+    '<div style="font-size:8.5pt;text-transform:uppercase;color:' + VERT + ';font-weight:bold;margin-bottom:5px">Message</div>' +
+    '<div style="font-size:10pt;line-height:1.5">' + msg + '</div></td></tr></table>' +
+    '<div style="font-size:7.5pt;color:' + GRIS2 + ';margin-top:18px;border-top:1px solid ' + FILET + ';padding-top:8px">Mishpacha Tours en partenariat avec Winter Prestige · document interne, ne pas transférer au client</div>' +
+    '</body></html>';
+  var nom = 'Fiche-' + x.nom.replace(/[^A-Za-z0-9À-ɏ ]+/g, ' ').trim().replace(/\s+/g, '-') + '.pdf';
+  return Utilities.newBlob(html, 'text/html', 'fiche.html').getAs('application/pdf').setName(nom);
+}
+
+function legendeMendel_(x) {
+  var qui = x.adultes + ' adultes' + (x.enfants && x.enfants !== '0' ? ', ' + x.enfants + ' enfants' : '');
+  return 'Mendel, nouvelle demande 📎\n' + x.nom + (x.station ? ', ' + x.station : '') + '\n' + (x.dates ? x.dates + '\n' : '') + qui +
+    (x.whatsapp ? '\nWhatsApp : ' + x.whatsapp : '') + '\nTout est dans la fiche 🙏';
+}
+
+// File d'envoi lue par le serveur WhatsApp du CRM. Les ids envoyes vivent dans les proprietes du script.
+function fileMendel_(action, id) {
+  var props = PropertiesService.getScriptProperties();
+  var faits = JSON.parse(props.getProperty('MENDEL_ENVOYES') || '[]');
+  if (action === 'fait') {
+    if (id && faits.indexOf(id) < 0) { faits.push(id); props.setProperty('MENDEL_ENVOYES', JSON.stringify(faits.slice(-500))); }
+    return { ok: true };
+  }
+  var vals = feuille_().getDataRange().getValues().slice(1);
+  var lignes = vals.filter(function (v) { return v[0] instanceof Date; }).map(function (v) { return { v: v, id: String(v[0].getTime()) }; });
+  if (action === 'fiche') {
+    var l = lignes.filter(function (x) { return x.id === id; })[0];
+    if (!l) return { ok: false, error: 'id inconnu' };
+    var x = ficheMendel_(depuisLigne_(l.v), l.v[0]);
+    var b = pdfMendel_(x);
+    return { ok: true, id: id, nom: b.getName(), legende: legendeMendel_(x), pdf: Utilities.base64Encode(b.getBytes()) };
+  }
+  return { ok: true, attente: lignes.filter(function (x) {
+    return x.v[0] >= ENVOI_DEPUIS && txt(x.v[1]) !== 'Test' && faits.indexOf(x.id) < 0;
+  }).map(function (x) { return { id: x.id, nom: txt(x.v[2]) }; }) };
+}
+
 // ---------------------------------------------------------------- utilitaires
+
+// Journal des 30 derniers passages de doPost (lu par doGet action=journal avec la cle) : sans lui, aucune trace
+// d'une demande perdue (19/10, demande de Moshe jamais arrivee).
+function journal_(quoi, detail) {
+  try {
+    var props = PropertiesService.getScriptProperties();
+    var j = JSON.parse(props.getProperty('JOURNAL') || '[]');
+    j.push([Utilities.formatDate(new Date(), TZ, 'dd/MM HH:mm:ss'), quoi, String(detail).slice(0, 300)]);
+    props.setProperty('JOURNAL', JSON.stringify(j.slice(-30)));
+  } catch (e) {}
+}
 
 function esc_(v) {
   return String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

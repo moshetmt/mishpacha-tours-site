@@ -255,13 +255,23 @@ f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  var pers=val('adultes')?val('adultes')+C.k.adultes:'';if(val('enfants'))pers+=(pers?' + ':'')+val('enfants')+C.k.enfants;if(val('bebes'))pers+=(pers?' + ':'')+val('bebes')+C.k.bebes;
  var nn=nights();
  var payload=JSON.stringify({tour:C.k.tour+(val('voyage')||C.k.none),dates:dates,personnes:pers,langue:val('langue'),nom:nom,contact:(ind+' '+tel.replace(/[^0-9]/g,'')).trim()+(val('email')?' / '+val('email'):''),message:parts.join(' | '),message_en:partsEn.join(' | '),nuits:nn!==null&&nn>0?nn:'',page:location.pathname,params:location.search});
- try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}
- try{sessionStorage.removeItem(KEY)}catch(e){}
- dl.push({event:'generate_lead',branch:branch(),budget:val('budget_famille')||val('budget_personne')||val('budget')});
- sent=true;
- if(mo()){bSend.disabled=true;bSend.textContent='';var im=new Image();im.src=C.img+'picto-hassid-vert.svg';im.alt='';im.width=22;im.height=30;im.className='dm-marche';
-  bSend.appendChild(im);bSend.appendChild(document.createTextNode(' '+C.t.sending));setTimeout(function(){location.href=C.merci},600)}
- else location.href=C.merci});
+ // 19/10 : on attend la reponse du script avant « merci ». L'ancien sendBeacon ne verifiait rien : une demande
+ // bloquee par le navigateur se perdait en silence. En cas d'echec, la demande part par WhatsApp en un geste.
+ sent=true;var lab0=bSend.textContent;bSend.disabled=true;bSend.textContent='';
+ var im=new Image();im.src=C.img+'picto-hassid-vert.svg';im.alt='';im.width=22;im.height=30;im.className='dm-marche';
+ bSend.appendChild(im);bSend.appendChild(document.createTextNode(' '+C.t.sending));
+ var fini=false,ok=function(){if(fini)return;fini=true;try{sessionStorage.removeItem(KEY)}catch(e){}
+  dl.push({event:'generate_lead',branch:branch(),budget:val('budget_famille')||val('budget_personne')||val('budget')});location.href=C.merci},
+ ko=function(){if(fini)return;fini=true;sent=false;bSend.disabled=false;bSend.textContent=lab0;
+  var T={fr:['Votre demande n’est pas partie. Envoyez-la-nous sur WhatsApp en un geste :','Envoyer sur WhatsApp'],es:['Su solicitud no se envió. Envíenosla por WhatsApp con un toque:','Enviar por WhatsApp'],he:['הבקשה לא נשלחה. שלחו לנו בוואטסאפ בלחיצה אחת:','שליחה בוואטסאפ'],en:['Your request did not go through. Send it to us on WhatsApp in one tap:','Send on WhatsApp']}[(document.documentElement.lang||'en').slice(0,2)]||null;
+  T=T||['Your request did not go through. Send it to us on WhatsApp in one tap:','Send on WhatsApp'];
+  var txt=(nom+' · '+dates+' · '+pers+'\n'+parts.join('\n')).slice(0,1800);
+  var box=document.getElementById('dm-repli');if(!box){box=document.createElement('p');box.id='dm-repli';box.className='dm-erreur';bSend.parentNode.parentNode.insertBefore(box,bSend.parentNode)}
+  box.hidden=false;box.innerHTML='';box.appendChild(document.createTextNode(T[0]+' '));
+  var a=document.createElement('a');a.href='https://wa.me/33652092301?text='+encodeURIComponent(txt);a.rel='noopener';a.textContent=T[1];a.className='btn-noir';a.style.display='table';a.style.margin='14px auto 0';box.appendChild(a);
+  box.scrollIntoView({behavior:'smooth',block:'center'});dl.push({event:'form_error'})};
+ setTimeout(ko,20000);
+ try{fetch(window.MISHPACHA_ENDPOINT,{method:'POST',body:payload}).then(function(r){return r.json()}).then(function(j){j&&j.ok?ok():ko()})['catch'](ko)}catch(e){ko()}});
 function prefill(){var q;try{q=new URLSearchParams(location.search)}catch(x){return}
  function s(k){var v=q.get(k);return v?v.replace(/[\u0000-\u001f<>]/g,'').trim().slice(0,80):''}
  function n(k){var v=(q.get(k)||'').trim();return /^\d{1,2}$/.test(v)?parseInt(v,10):null}
