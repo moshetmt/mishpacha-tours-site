@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Mesure GA4 + consentement (15/10). Idempotent. A lancer depuis site-v5/ apres _decor.py, avant _animations.py.
+"""Mesure GA4 + conversions Ads + consentement (15/10, Ads 19/10). Idempotent. A lancer depuis site-v5/ apres _decor.py, avant _animations.py.
   (a) <head> de chaque page : Consent Mode v2 tout refuse + <script src="/js/mesure.js" defer> (js/mesure.js ecrit a la main),
   (b) lien « Cookies » dans la ligne legale du pied,
   (c) section « Cookies and measurement » dans les 4 pages privacy,
@@ -13,10 +13,10 @@ HEAD = (MARQ + "<script>window.dataLayer=window.dataLayer||[];function gtag(){da
         "gtag('js',new Date());</script><script src=\"/js/mesure.js\" defer></script><!--/mesure-->")
 COOKIES = {"en": "Cookies", "fr": "Cookies", "es": "Cookies", "he": "עוגיות"}
 PRIV = {
- "en": ("Cookies and <i>measurement</i>", "With your consent only, we use Google Analytics to count visits and see which pages help visitors. It sets cookies that last up to 13 months. We measure page views, the steps of the request form and clicks on WhatsApp buttons. We never record a name, a phone number or an email address. Your choice is kept for six months. Use the \"Cookies\" link at the bottom of any page to change it or withdraw it at any time. If you refuse, no analytics cookie is set and nothing is measured."),
- "fr": ("Cookies et <i>mesure</i>", "Avec votre seul consentement, nous utilisons Google Analytics pour compter les visites et voir quelles pages aident les visiteurs. Il dépose des cookies d'une durée maximale de 13 mois. Nous mesurons les pages vues, les étapes du formulaire de demande et les clics sur les boutons WhatsApp. Nous n'enregistrons jamais de nom, de numéro de téléphone ni d'adresse e-mail. Votre choix est conservé six mois. Le lien « Cookies » en bas de chaque page permet de le modifier ou de le retirer à tout moment. Si vous refusez, aucun cookie de mesure n'est déposé et rien n'est mesuré."),
- "es": ("Cookies y <i>medición</i>", "Solo con su consentimiento, usamos Google Analytics para contar las visitas y ver qué páginas ayudan a los visitantes. Instala cookies de hasta 13 meses de duración. Medimos las páginas vistas, los pasos del formulario de solicitud y los clics en los botones de WhatsApp. Nunca registramos un nombre, un número de teléfono ni una dirección de correo. Su elección se conserva seis meses. El enlace «Cookies» al final de cada página permite cambiarla o retirarla en cualquier momento. Si rechaza, no se instala ninguna cookie de medición y no se mide nada."),
- "he": ("עוגיות <i>ומדידה</i>", "רק בהסכמתכם, אנו משתמשים ב-Google Analytics כדי לספור ביקורים ולראות אילו עמודים עוזרים למבקרים. הוא שומר עוגיות לתקופה של עד 13 חודשים. אנו מודדים צפיות בעמודים, שלבים בטופס הבקשה ולחיצות על כפתורי וואטסאפ. איננו שומרים לעולם שם, מספר טלפון או כתובת דוא״ל. הבחירה שלכם נשמרת לשישה חודשים. הקישור ״עוגיות״ בתחתית כל עמוד מאפשר לשנות אותה או לבטל אותה בכל עת. אם תסרבו, לא תישמר עוגיית מדידה ושום דבר לא יימדד."),
+ "en": ("Cookies and <i>measurement</i>", "With your consent only, we use Google Analytics and Google Ads to count visits and to see which pages and which ads lead to a request. They set cookies that last up to 13 months. We measure page views, the steps of the request form, the sending of a request, and clicks on WhatsApp and email links. When you send a request, your phone number and your email address, if you give one, are passed to Google in a scrambled form (a one-way hash) so that Google can match your request with the ad you clicked. We never pass your name. Your choice is kept for six months. Use the \"Cookies\" link at the bottom of any page to change it or withdraw it at any time. If you refuse, no measurement cookie is set and nothing is measured."),
+ "fr": ("Cookies et <i>mesure</i>", "Avec votre seul consentement, nous utilisons Google Analytics et Google Ads pour compter les visites et voir quelles pages et quelles annonces mènent à une demande. Ils déposent des cookies d'une durée maximale de 13 mois. Nous mesurons les pages vues, les étapes du formulaire de demande, l'envoi d'une demande et les clics sur les liens WhatsApp et e-mail. Quand vous envoyez une demande, votre numéro de téléphone et votre adresse e-mail, si vous en donnez une, sont transmis à Google sous une forme brouillée (une empreinte à sens unique) pour que Google rapproche votre demande de l'annonce sur laquelle vous avez cliqué. Nous ne transmettons jamais votre nom. Votre choix est conservé six mois. Le lien « Cookies » en bas de chaque page permet de le modifier ou de le retirer à tout moment. Si vous refusez, aucun cookie de mesure n'est déposé et rien n'est mesuré."),
+ "es": ("Cookies y <i>medición</i>", "Solo con su consentimiento, usamos Google Analytics y Google Ads para contar las visitas y ver qué páginas y qué anuncios llevan a una solicitud. Instalan cookies de hasta 13 meses de duración. Medimos las páginas vistas, los pasos del formulario de solicitud, el envío de una solicitud y los clics en los enlaces de WhatsApp y de correo electrónico. Cuando envía una solicitud, su número de teléfono y su correo electrónico, si indica uno, se transmiten a Google de forma codificada (una huella irreversible) para que Google relacione su solicitud con el anuncio en el que hizo clic. Nunca transmitimos su nombre. Su elección se conserva seis meses. El enlace «Cookies» al final de cada página permite cambiarla o retirarla en cualquier momento. Si rechaza, no se instala ninguna cookie de medición y no se mide nada."),
+ "he": ("עוגיות <i>ומדידה</i>", "רק בהסכמתכם, אנו משתמשים ב-Google Analytics וב-Google Ads כדי לספור ביקורים ולראות אילו עמודים ואילו מודעות מובילים לבקשה. הם שומרים עוגיות לתקופה של עד 13 חודשים. אנו מודדים צפיות בעמודים, שלבים בטופס הבקשה, שליחת בקשה ולחיצות על קישורי וואטסאפ ודוא״ל. כששולחים בקשה, מספר הטלפון וכתובת הדוא״ל שלכם, אם מסרתם כתובת, מועברים ל-Google בצורה מוצפנת (טביעת אצבע חד-כיוונית) כדי ש-Google תקשר בין הבקשה למודעה שעליה לחצתם. איננו מעבירים לעולם את השם שלכם. הבחירה שלכם נשמרת לשישה חודשים. הקישור ״עוגיות״ בתחתית כל עמוד מאפשר לשנות אותה או לבטל אותה בכל עת. אם תסרבו, לא תישמר עוגיית מדידה ושום דבר לא יימדד."),
 }
 CSS_D, CSS_F = "/* ===MESURE=== */", "/* ===/MESURE=== */"
 CSS = """
@@ -31,9 +31,11 @@ CSS = """
 """
 def css(strip):
     p = "styles.css"; s = io.open(p, encoding="utf-8", newline="").read()
-    s = re.sub(re.escape(CSS_D) + r".*?" + re.escape(CSS_F) + r"\n?", "", s, flags=re.S)
-    if not strip: s = s.rstrip("\n") + "\n" + CSS_D + CSS + CSS_F + "\n"
-    io.open(p, "w", encoding="utf-8", newline="").write(s)
+    o = s; bloc = CSS_D + CSS + CSS_F + "\n"; motif = re.escape(CSS_D) + r".*?" + re.escape(CSS_F) + r"\n?"
+    if strip: s = re.sub(motif, "", s, flags=re.S)
+    elif CSS_D in s: s = re.sub(motif, lambda m: bloc, s, flags=re.S)  # remplace en place, ne deplace pas le bloc
+    else: s = s.rstrip("\n") + "\n" + bloc
+    if s != o: io.open(p, "w", encoding="utf-8", newline="\n").write(s)
 def page(path, strip):
     s = io.open(path, encoding="utf-8", newline="").read(); o = s
     lang = path.replace("\\", "/").split("/")[0]; lang = lang if lang in ("fr", "es", "he") else "en"
@@ -49,7 +51,7 @@ def page(path, strip):
             sec = f'<section class="ss wrap conseils" id="cookies-mesure"><h2>{h}</h2><p>{t}</p></section>'
             i = s.rfind("<section", 0, s.find("</main>"))
             s = s[:i] + sec + s[i:]
-    if s != o: io.open(path, "w", encoding="utf-8", newline="").write(s); return 1
+    if s != o: io.open(path, "w", encoding="utf-8", newline="\n").write(s); return 1
     return 0
 if __name__ == "__main__":
     strip = "--strip" in sys.argv
