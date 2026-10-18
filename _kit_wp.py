@@ -181,7 +181,7 @@ CSS = """/* ===KIT-WP=== */
 .kwp-casher b{font-weight:500}
 .kwp-dispo{font-size:13px;color:#5A6068;margin:12px 0 0}
 .kwp-pied{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding-top:16px;border-top:1px solid #E2DCCF}
-.kwp-corps .kwp-dispo+.kwp-pied{margin-top:18px}
+.kwp-dispo{margin-bottom:18px!important}  /* pieds des deux cartes alignés en bas (Moshé 19/10 « c pas droit ») */
 .kwp-pied img{width:46px;height:46px}
 .kwp-bandeau{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;margin-top:28px;padding:22px 24px;border-radius:12px;background:#141416;color:#C9D2D4}
 .kwp-bandeau span{font-size:12px;font-weight:500;letter-spacing:.18em;text-transform:uppercase}
