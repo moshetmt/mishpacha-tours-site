@@ -20,7 +20,8 @@ def fichiers():
     img = RACINE / "img"
     for src, dst in [("winter-prestige-symbole-or-aere.svg", "wp-flocon-or.svg"), ("winter-prestige-symbole-noir-aere.svg", "wp-flocon-noir.svg"),
                      ("winter-prestige-long-or-sans-powered-honneur.svg", "wp-long-or.svg"),
-                     ("winter-prestige-long-noir-sans-powered-honneur.svg", "wp-long-noir.svg")]:
+                     ("winter-prestige-long-noir-sans-powered-honneur.svg", "wp-long-noir.svg"),
+                     ("winter-prestige-long-or-honneur.svg", "wp-long-or-powered.svg")]:
         shutil.copyfile(KIT / src, img / dst)
     dst = img / "chalet" / "courchevel-ext.jpg"
     if not dst.exists():
@@ -104,12 +105,12 @@ def carte(lang, cle):
             f'<div class="kwp-pied"><img src="/img/wp-flocon-noir.svg" alt="Winter Prestige" title="Winter Prestige" width="46" height="46" loading="lazy">'
             f'<a class="btn-noir" href="{pfx(lang)}/plan-your-trip/{c["q"]}">{t["btn"]}</a></div></div></article>')
 
-# Moshé 19/10 : « pas en partenariat avec, plutôt en dessous powered by » (remplace « In partnership with » du kit v7)
+# Moshé 19/10 : « pas en partenariat avec », « powered by » écrit juste sous « Winter Prestige », comme dans le logo d'origine
+# (logo du kit avec la ligne dessinée dedans ; remplace « In partnership with » du kit v7)
 POWERED = "Powered by Mishpacha Tours"
 
 def bandeau(lang):
-    return (f'<div class="kwp-bandeau"><img src="/img/wp-long-or.svg" alt="Winter Prestige" width="300" height="96" loading="lazy">'
-            f'<span>{POWERED}</span></div>')
+    return (f'<div class="kwp-bandeau"><img src="/img/wp-long-or-powered.svg" alt="Winter Prestige, {POWERED}" width="1222" height="430" loading="lazy"></div>')
 
 def bloc(nom, html): return f"<!--KIT-WP:{nom}-->{html}<!--/KIT-WP:{nom}-->"
 
@@ -158,8 +159,7 @@ def hiver(s, lang):
     i = s.find('<div class="lead3-bloc">')
     if i >= 0:
         i += len('<div class="lead3-bloc">')
-        s = s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><img src="/img/wp-long-or.svg" alt="Winter Prestige" width="300" height="96">'
-                                 f'<span>{POWERED}</span></div>') + s[i:]
+        s = s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><img src="/img/wp-long-or-powered.svg" alt="Winter Prestige, {POWERED}" width="1222" height="430"></div>') + s[i:]
     return s
 
 CSS = """/* ===KIT-WP=== */
@@ -185,19 +185,16 @@ CSS = """/* ===KIT-WP=== */
 .kwp-pied img{width:46px;height:46px}
 .kwp-bandeau{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;margin-top:28px;padding:22px 24px;border-radius:12px;background:#141416;color:#C9D2D4}
 .kwp-bandeau span{font-size:12px;font-weight:500;letter-spacing:.18em;text-transform:uppercase}
-.kwp-bandeau img{height:96px;width:auto}
+.kwp-bandeau img{width:100%;max-width:420px;height:auto}
 .kwp-seul-bandeau .kwp-bandeau{margin-top:0}
-@media (max-width:599px){.kwp-bandeau{padding:18px 16px}.kwp-bandeau img{height:72px}.kwp-carte h3{font-size:21px}}
+@media (max-width:599px){.kwp-bandeau{padding:18px 16px}.kwp-carte h3{font-size:21px}}
 @media (min-width:900px){.kwp-cartes{grid-template-columns:repeat(2,minmax(0,460px))}.kwp-seule{grid-template-columns:minmax(0,460px)}}
 /* pages hiver et Alpes (19/10) : noir #141416, or #C9A961, or lumière #E3BE80, givre #C9D2D4, clair #FAF7F0 */
 body.kwp-hiver{background:#141416}
 .kwp-hero-wp{display:flex;flex-direction:column;align-items:flex-start;gap:2px;direction:ltr;margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(201,169,97,.45)}
-.kwp-hero-wp span{font-size:12px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#C9D2D4;white-space:nowrap;margin-top:-6px;margin-left:calc(min(100%,340px)*.3)}
-@media (max-width:420px){.kwp-hero-wp span{font-size:11px;letter-spacing:.12em}}
-@media (min-width:900px){.kwp-hero-wp span{font-size:13px;margin-top:-14px;margin-left:calc(min(100%,520px)*.3)}}
-[dir=rtl] .kwp-hero-wp{align-items:flex-end}
-.kwp-hero-wp img{width:100%;max-width:340px;height:auto;display:block;margin-inline-start:-8px}
+.kwp-hero-wp img{width:100%;max-width:360px;height:auto;display:block;margin-inline-start:-8px}
 @media (min-width:900px){.kwp-hero-wp img{max-width:520px}}
+[dir=rtl] .kwp-hero-wp{align-items:flex-end}
 .kwp-hiver .lead3-bloc{background:rgba(20,20,22,.82);border-color:rgba(201,169,97,.45)}
 .kwp-hiver .lead3-texte h1{color:#FAF7F0}
 .kwp-hiver .lead3-texte h1 i{color:#E3BE80}
@@ -227,6 +224,9 @@ body.kwp-hiver{background:#141416}
 .kwp-hiver .kwp-bandeau{border:1px solid rgba(201,169,97,.45)}
 /* toutes les pages : la dernière section ne colle plus au pied (Moshé 19/10, « tronqué ») */
 main>.ss:last-child:not(.lead-final){padding-bottom:72px}
+/* toutes les pages : le bloc vert du formulaire avait 0 px de marge, bonhomme coupé en haut, carte collée en bas (Moshé 19/10) */
+.lead-final{padding:48px 0 56px}
+@media (min-width:900px){.lead-final{padding:72px 0 80px}}
 /* ===/KIT-WP=== */"""
 
 def css():
