@@ -1240,3 +1240,32 @@ html.anim-vis-on{overflow:hidden}
   @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
 }
 /* ===/ANIMATIONS=== */
+/* ===KIT-WP=== */
+.kwp-cartes{display:grid;gap:24px;margin-top:24px}
+.kwp-seule{max-width:460px}
+.kwp-carte{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 1px 0 rgba(28,27,31,.08);display:flex;flex-direction:column}
+.kwp-photo{position:relative;aspect-ratio:3/2}
+.kwp-photo>img{width:100%;height:100%;object-fit:cover;display:block}
+.kwp-seau{position:absolute;inset-inline-end:14px;bottom:-34px;width:88px;height:88px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.18))}
+.kwp-corps{padding:22px 22px 24px;display:flex;flex-direction:column;flex:1}
+.kwp-lieu{font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--vert,#2D5132)}
+.kwp-carte h3{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:24px;line-height:1.15;margin:6px 0 16px;padding-inline-end:80px}
+.kwp-carte h3 a{color:inherit;text-decoration:none}
+.kwp-chiffres{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;margin:0;padding:0;list-style:none}
+.kwp-chiffres li{display:flex;gap:10px;align-items:center;font-size:14px;line-height:1.25}
+.kwp-chiffres svg{flex:none;width:22px;height:22px;stroke:var(--vert,#2D5132);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.kwp-chiffres b{display:block;font-family:Fraunces,Georgia,serif;font-weight:600;font-size:17px}
+.kwp-casher{margin:18px 0 0;padding:12px 14px;background:var(--creme,#FFFAED);border-radius:10px;font-size:14px}
+.kwp-casher b{font-weight:500}
+.kwp-dispo{font-size:13px;color:#5A6068;margin:12px 0 0}
+.kwp-pied{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding-top:16px;border-top:1px solid #E2DCCF}
+.kwp-corps .kwp-dispo+.kwp-pied{margin-top:18px}
+.kwp-pied img{width:46px;height:46px}
+.kwp-bandeau{display:flex;align-items:center;justify-content:center;gap:22px;margin-top:28px;padding:18px 24px;border-radius:12px;background:#141416;color:#C9A961;flex-wrap:wrap}
+.kwp-bandeau span{font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase}
+.kwp-bandeau i{width:1px;height:34px;background:rgba(201,169,97,.45)}
+.kwp-bandeau img{height:80px;width:auto}
+.kwp-seul-bandeau .kwp-bandeau{margin-top:0}
+@media (max-width:599px){.kwp-bandeau{gap:12px;padding:16px}.kwp-bandeau i{display:none}.kwp-bandeau img{height:64px}.kwp-carte h3{font-size:21px}}
+@media (min-width:900px){.kwp-cartes{grid-template-columns:repeat(2,minmax(0,460px))}.kwp-seule{grid-template-columns:minmax(0,460px)}}
+/* ===/KIT-WP=== */
