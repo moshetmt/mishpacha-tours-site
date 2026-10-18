@@ -17,12 +17,12 @@ h = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="descriptio
 h = h.replace('<meta name="description"', '<meta name="robots" content="noindex, follow">\n<meta name="description"', 1)
 h = head_page(h, "/merci/", "Thank you | Mishpacha Tours", "Your request has been received.")
 body = '''<main>
-<section class="pratique-hero"><div class="wrap">
+<section class="pratique-hero" style="padding-bottom:112px"><div class="wrap">
   <p class="fil"><a href="../">Home</a> / Thank you</p>
   <div class="pratique-tete"><div><h1>Thank you, <i>we have your request</i></h1>
   <p class="intro-fiche">We reply within one business day, and never on Shabbat or on a Jewish holiday. If your dates are close, the fastest way to reach us is WhatsApp.</p>
-  <p><a class="btn-noir large" href="https://wa.me/33652092301?text=Hello%2C%20I%20just%20sent%20a%20booking%20request%20on%20the%20website." rel="noopener"><svg><use href="#wa"/></svg>Message us on WhatsApp</a></p>
-  <p class="intro-fiche"><a href="../">Back to the tours</a></p></div>
+  <p style="margin-top:40px"><a class="btn-noir large" href="https://wa.me/33652092301?text=Hello%2C%20I%20just%20sent%20a%20booking%20request%20on%20the%20website." rel="noopener"><svg><use href="#wa"/></svg>Message us on WhatsApp</a></p>
+  <p class="intro-fiche" style="margin-top:48px"><a href="../">Back to the tours</a></p></div>
   <img class="hassid-grand hassid-merci" src="../img/picto-hassid.svg" alt="" width="68" height="95"></div>
 </div></section>
 </main>'''
