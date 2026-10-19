@@ -1318,6 +1318,7 @@ html.anim-vis-on{overflow:hidden}
 }
 /* ===/ANIMATIONS=== */
 
+
 /* ===MOBILE-ALPES=== */
 @media (max-width:899px){
 /* 1. bannière : titre et bouton dans le premier demi-écran */
@@ -1333,7 +1334,7 @@ body .lead-hero3 .lead3-texte{position:relative;padding-top:88px;padding-bottom:
 .lead-hero3 .lead3-texte h1{font-size:34px}
 .lead-hero3 .lead3-texte h1 i{margin-top:8px}
 /* 2. intro au hassid : repliée */
-.lead-intro{grid-template-columns:56px 1fr;gap:12px;align-items:center}
+.lead-intro{grid-template-columns:56px 1fr;gap:12px;align-items:start}
 .lead-intro .lead-mascotte{width:56px;margin-top:0}
 .lead-intro p.dk-intro:not(.dk-ouvert){display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
 .lead-intro .dk-plus{display:inline-block}
@@ -1505,3 +1506,5 @@ html[data-vt=mishpacha]::view-transition{background:#2D5132}
 .kwp-hiver .lead-cartes figcaption,.kwp-hiver main>:not(.lead-final,.lead-hero3) .lead-cartes figcaption b{color:var(--encre)}
 /* pages noir et or : « Read more » lisible (Moshe 20/10) */
 .kwp-hiver .dk-plus{color:#E3BE80;border-color:rgba(201,169,97,.55)}
+/* pages noir et or : premier paragraphe du recit en carte sombre, plus de blanc avec texte clair (Moshe 20/10) */
+.kwp-hiver .dk-recit h2 + p{background:rgba(250,247,240,.05);color:#C9D2D4;border:1px solid rgba(201,169,97,.28)}

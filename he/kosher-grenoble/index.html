@@ -197,7 +197,7 @@ document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dat
 document.querySelectorAll('.dk-cartes').forEach(function(ul){var lis=[].slice.call(ul.children);lis.forEach(function(li,i){var b=li.querySelector(':scope > b');if(!b)return;
 var corps=document.createElement('span');corps.className='dk-corps';var n=b.nextSibling;while(n){var s=n.nextSibling;corps.appendChild(n);n=s}
 if(corps.textContent.replace(/\s+/g,'')){li.appendChild(corps)}else{return}
-if(i>=2){li.classList.add('dk-pli');b.setAttribute('role','button');b.setAttribute('tabindex','0');b.setAttribute('aria-expanded','false');
+if(i>=0){li.classList.add('dk-pli');   /* 20/10 Moshe : toutes les cartes repliables, pas seulement des la 3e */b.setAttribute('role','button');b.setAttribute('tabindex','0');b.setAttribute('aria-expanded','false');
 var t=function(){var o=li.classList.toggle('dk-ouvert');b.setAttribute('aria-expanded',o?'true':'false')};b.addEventListener('click',t);b.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t()}})}})})})();</script>
 </body>
 </html>
