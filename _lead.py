@@ -137,6 +137,10 @@ def traiter(slug, lang):
     p = os.path.join(*([slug] if lang == 'en' else [lang, slug]), 'index.html')
     s = io.open(p, encoding='utf8', newline='').read()
     if 'lead-hero3' in s:
+        # 19/10 : plus de chips sous l'intro (Moshé : « des pastilles ???? »), retirées des pages déjà rendues
+        s2 = re.sub(r'(<section class="ss wrap lead-intro">(?:(?!</section>).)*?)<ul class="chips[^"]*">.*?</ul>', r'\1', s, count=1, flags=re.S)
+        if s2 != s:
+            io.open(p, 'w', encoding='utf8', newline='').write(s2); s = s2
         # 19/10 : réparation des panneaux coupés sur une abréviation (« St. » seul, le reste de la phrase dans la bande)
         m = re.search(r'(<div class="lead3-bloc">.*?<h1>.*?</h1>\s*<p>)(St|Mt|Dr|Ste)\.(</p>)', s, re.S)
         mi = re.search(r'<section class="ss wrap lead-intro">.*?<div><p>(.*?)</p>', s, re.S)
@@ -184,7 +188,7 @@ def traiter(slug, lang):
   </div>
 </section>
 '''
-    chips_html = ('<ul class="chips">' + ''.join(f'<li>{c}</li>' for c in chips) + '</ul>') if chips else ''
+    chips_html = ''   # 19/10 Moshé : plus jamais de pastilles ni de chips sous l'intro (les faits sont dans l'intro et les cartes)
     corps_intro = f'<p>{reste}</p>' if reste else ''
     hero += f'''
 <section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/picto-hassid-vert.svg" alt="" width="797" height="806" loading="lazy"><div>{corps_intro}{chips_html}</div></section>
