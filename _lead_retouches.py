@@ -42,8 +42,8 @@ for slug, (photo, typ, voyage) in PAGES.items():
             txt = (BTN_VAN if typ == 'van' else BTN)[lang]
             s = RX_BTN.sub(lambda m: (f'<div class="lead3-btns"><a class="btn-hero" href="{lien_plan(slug, typ, lang)}">{txt}</a>'
                                       f'<a class="lead3-wa" href="{m.group(1)}" rel="noopener"><svg><use href="#wa"/></svg>{WA[lang]}</a></div>'), s, count=1)
-        # 2. puce Chalav Yisrael (pas sur la page van)
-        if typ != 'van':
+        # 2. puce Chalav Yisrael (pas sur la page van) ; sans effet depuis le 19/10, les pastilles ne sont plus dans la bannière
+        if typ != 'van' and '<ul class="lead-puces">' in s:
             a, b = KOSHER[lang]
             if f'<li>{b}</li>' not in s:
                 s = re.sub(r'(<ul class="lead-puces">.*?)<li>' + re.escape(a) + '</li>', lambda m: m.group(1) + f'<li>{b}</li>', s, count=1, flags=re.S)

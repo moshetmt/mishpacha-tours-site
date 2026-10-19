@@ -168,6 +168,8 @@ def traiter(slug, lang):
         name = None if slug == 'kosher-chalets' else STATIONS['kosher-courchevel' if slug == 'kosher-chalet-courchevel' else 'kosher-les-deux-alpes'][1][lang]
     # 19/10 : les pages chalet sont en « hiver » (noir et or), _kit_wp.py pose le grand logo dans la bannière ; plus de petit logo ici
     wp = ''
+    # 19/10 Moshé : plus de pastilles (lead-puces) dans la bannière, « ça empile et agrandit la bannière » sur téléphone ;
+    # les mêmes promesses restent dans les chips de l'intro. `puces` n'est plus rendu.
     w, h = Image.open('img/' + photo).size
     cls = 'hero lead-hero3' + (' lead-hero3-illus' if typ == 'van' else '')
     hero = f'''<section class="{cls}">
@@ -175,8 +177,7 @@ def traiter(slug, lang):
   <div class="lead3-texte">
     {fil}
     <div class="lead3-bloc">
-    {wp}<ul class="lead-puces">{''.join(f'<li>{x}</li>' for x in puces)}</ul>
-    <h1>{h1}</h1>
+    {wp}<h1>{h1}</h1>
     <p>{phrase}</p>
     <a class="btn-hero" href="{href}" rel="noopener"><svg><use href="#wa"/></svg>{btn}</a>
     </div><!-- _lead_retouches.py (15/10) met le formulaire en bouton principal et WhatsApp en lien : à relancer après ce script -->

@@ -284,6 +284,8 @@ def script_vt():
 
 def transition(p):
     s = io.open(p, encoding="utf-8", newline="").read(); o = s
+    # 19/10 Moshé : plus de pastilles dans la bannière 3 (elles empilaient sur téléphone) ; _lead.py ne les rend plus, ici on nettoie l'existant
+    s = re.sub(r'\s*<ul class="lead-puces">.*?</ul>', "", s, count=1, flags=re.S)
     s = re.sub(r"<!--KIT-WP:vt-->.*?<!--/KIT-WP:vt-->", "", s, flags=re.S)
     m = re.search(r'<link rel="stylesheet" href="[^"]*styles\.css">', s)
     if m:
