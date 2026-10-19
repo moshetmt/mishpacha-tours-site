@@ -67,9 +67,9 @@ var LOGO = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAABwCAYAAADG4PRLAA
 // Sections de la fiche, par libelle anglais du formulaire en etapes (_build_demande.py, LAB + LAB_NEW).
 var SECTIONS = [
   ['The trip',            ['Trip', 'Resort or place', 'Resort choice', 'Accommodation address', 'Pick-up', 'Drop-off']],
-  ['Dates',               ['Arrival', 'Time of day', 'Time', 'Departure', 'Dates']],
+  ['Dates',               ['Trip type', 'Arrival', 'Time of day', 'Time', 'Departure', 'Return date', 'Return time', 'Dates']],
   ['The group',           ['Families', 'Adults', 'Children', 'Babies', 'Baby equipment', 'Men for minyan', 'Luggage']],
-  ['Accommodation',       ['Accommodation', 'Rooms', 'Accommodation options']],
+  ['Accommodation',       ['Accommodation', 'Rooms', 'Bathrooms', 'Accommodation options']],
   ['Meals and kashrut',   ['Meals', 'Meal days', 'Allergies and diets', 'Kashrut', 'Kashrut details']],
   ['Shabbat and prayer',  ['Minyan level', 'Religious needs', 'Nusach']],
   ['Getting there',       ['Airport', 'Flying from', 'Flights booked', 'Flights', 'Transport']],
@@ -489,11 +489,12 @@ function depuisLigne_(v) {
 function ficheMendel_(d, quand) {
   var f = fiche_(d), m = f.map;
   var jn = function (a) { return a.filter(Boolean).join(' · '); };
-  var log = jn([m['Accommodation'], m['Rooms'], m['Accommodation options']]);
+  var log = jn([m['Accommodation'], m['Rooms'] ? m['Rooms'] + ' chambres' : '', m['Bathrooms'] ? m['Bathrooms'] + ' salles de bain' : '', m['Accommodation options']]);
   var chalet = /already|déjà|booked|réservé/i.test(m['Accommodation'] || '') ? 'Non, logement déjà réservé · ' + log
              : /chalet/i.test(m['Accommodation'] || '') ? 'Oui · ' + log : log;
   var enfants = [m['Children'], m['Babies'] && m['Babies'] !== '0' ? m['Babies'] + ' bébé(s)' : ''].filter(Boolean).join(' + ');
-  var autres = [['Minyan', jn([m['Minyan level'], m['Religious needs'], m['Nusach']])], ['Vols', jn([m['Airport'], m['Flying from'], m['Flights booked']])],
+  var autres = [['Trajet', jn([m['Trip type'], m['Time'] ? 'aller à ' + m['Time'] : '', m['Return date'] ? 'retour le ' + m['Return date'] + (m['Return time'] ? ' à ' + m['Return time'] : '') : ''])],
+                ['Bagages', m['Luggage']], ['Visite à Lyon', jn([m['Lyon'], m['Time of day'], m['Tour language']])], ['Minyan', jn([m['Minyan level'], m['Religious needs'], m['Nusach']])], ['Vols', jn([m['Airport'], m['Flying from'], m['Flights booked']])],
                 ['Activités', m['Activities']], ['Extras', m['Extras']], ['Allergies', m['Allergies and diets']],
                 ['Matériel bébé', m['Baby equipment']], ['Priorités', m['Priorities']], ['Urgence', m['Urgency']]]
     .filter(function (kv) { return kv[1]; }).map(function (kv) { return kv[0] + ' : ' + kv[1]; });

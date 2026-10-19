@@ -324,6 +324,52 @@ for _k, _v in SHORT.items():
     _old = NEW.get(_k) or OLD.get(_k) or (None, None, None)
     NEW[_k] = tuple(_n if _n is not None else _o for _n, _o in zip(_v, _old))
 
+# 19/10 : formulaire en 7 ecrans (audit 06-reports/2026-10-19-ux-audit-formulaire.md), van aller-retour, prenom et nom separes.
+for _k, _v in {
+    "Where and when?": ("Où et quand ?", "¿Dónde y cuándo?", "איפה ומתי?"),
+    "A resort or a region is enough. Approximate dates are fine.": ("Une station ou une région suffit. Des dates approximatives conviennent.", "Basta con una estación o una región. Las fechas aproximadas sirven.", "מספיק אתר או אזור. תאריכים משוערים בסדר."),
+    "Resort or region": ("Station ou région", "Estación o región", "אתר או אזור"),
+    "Start typing, or write “not sure yet”": ("Commencez à taper, ou écrivez « pas encore choisi »", "Empiece a escribir, o escriba «aún no lo sé»", "התחילו להקליד, או כתבו ”עוד לא החלטנו“"),
+    "Shabbat during your stay:": ("Shabbat pendant le séjour :", "Shabbat durante la estancia:", "שבת במהלך השהות:"),
+    "Meals, Shabbat and prayer": ("Repas, Shabbat et prière", "Comidas, Shabbat y rezo", "ארוחות, שבת ותפילה"),
+    "Pick one meal option. Everything we serve is Chalav Yisrael.": ("Choisissez une formule de repas. Tout ce que nous servons est 'Halav Israël.", "Elija una opción de comidas. Todo lo que servimos es Jalav Israel.", "בחרו אפשרות ארוחות אחת. כל מה שאנחנו מגישים חלב ישראל."),
+    "Kashrut": ("Cacherout", "Kashrut", "כשרות"),
+    "Minyan": ("Minyan", "Minyan", "מניין"),
+    "Other needs": ("Autres besoins", "Otras necesidades", "צרכים נוספים"),
+    "Getting there and on site": ("Le voyage et sur place", "El viaje y en el lugar", "ההגעה ובמקום"),
+    "Everything here is optional. Tick what tempts you.": ("Tout est facultatif ici. Cochez ce qui vous tente.", "Todo es opcional aquí. Marque lo que le apetezca.", "הכול כאן אופציונלי. סמנו מה שמעניין אתכם."),
+    "Your flights": ("Vos vols", "Sus vuelos", "הטיסות שלכם"),
+    "Ski and activities": ("Ski et activités", "Esquí y actividades", "סקי ופעילויות"),
+    "Visits in Lyon": ("Visites à Lyon", "Visitas en Lyon", "סיורים בליון"),
+    "Last step": ("Dernière étape", "Último paso", "שלב אחרון"),
+    "How do we answer you? Then your budget, and you are done.": ("Comment vous répondre ? Puis votre budget, et c'est terminé.", "¿Cómo le respondemos? Luego su presupuesto, y listo.", "איך לחזור אליכם? אחר כך התקציב, וסיימתם."),
+    "Your budget": ("Votre budget", "Su presupuesto", "התקציב שלכם"),
+    "Optional, but it helps us aim right. Flights aside.": ("Facultatif, mais il nous aide à viser juste. Hors vols.", "Opcional, pero nos ayuda a acertar. Sin vuelos.", "לא חובה, אבל זה עוזר לנו לכוון נכון. בלי טיסות."),
+    "Review my answers": ("Relire mes réponses", "Revisar mis respuestas", "לעבור על התשובות"),
+    "First name": ("Prénom", "Nombre", "שם פרטי"),
+    "Last name": ("Nom", "Apellido", "שם משפחה"),
+    "Bedrooms": ("Chambres", "Dormitorios", "חדרי שינה"),
+    "Bathrooms": ("Salles de bain", "Baños", "חדרי רחצה"),
+    "Where from, and is there a return?": ("D'où, vers où, et y a-t-il un retour ?", "¿Desde dónde, hacia dónde y hay regreso?", "מאיפה, לאן, והאם יש חזרה?"),
+    "One way": ("Aller simple", "Solo ida", "כיוון אחד"),
+    "Return trip": ("Aller-retour", "Ida y vuelta", "הלוך ושוב"),
+    "Date and time of each trip. Add the flight if you land or take off.": ("Date et heure de chaque trajet. Ajoutez le vol si vous atterrissez ou décollez.", "Fecha y hora de cada trayecto. Añada el vuelo si aterriza o despega.", "תאריך ושעה לכל נסיעה. הוסיפו את הטיסה אם אתם נוחתים או ממריאים."),
+    "Outbound": ("Aller", "Ida", "הלוך"),
+    "Return": ("Retour", "Vuelta", "חזור"),
+    "Return date": ("Date du retour", "Fecha de vuelta", "תאריך החזרה"),
+    "Return pick-up time": ("Heure de prise en charge au retour", "Hora de recogida a la vuelta", "שעת איסוף בחזרה"),
+    "Who is coming, and with what?": ("Qui vient, et avec quoi ?", "¿Quién viene y con qué?", "מי מגיע, ועם מה?"),
+    "Which visit, and when?": ("Quelle visite, et quand ?", "¿Qué visita y cuándo?", "איזה סיור, ומתי?"),
+    "Tours are held in English, French or Spanish.": ("Les visites se font en anglais, en français ou en espagnol.", "Las visitas son en inglés, francés o español.", "הסיורים באנגלית, בצרפתית או בספרדית."),
+    "Which day?": ("Quel jour ?", "¿Qué día?", "באיזה יום?"),
+}.items():
+    NEW.setdefault(_k, _v)   # jamais par-dessus un texte deja relu
+LAB_NEW["prenom"] = ("First name", "Prénom", "Nombre", "שם פרטי")
+LAB_NEW["sdb"] = ("Bathrooms", "Salles de bain", "Baños", "חדרי רחצה")
+LAB_NEW["aller_retour"] = ("Trip type", "Type de trajet", "Tipo de trayecto", "סוג הנסיעה")
+LAB_NEW["retour_date"] = ("Return date", "Date du retour", "Fecha de vuelta", "תאריך החזרה")
+LAB_NEW["retour_heure"] = ("Return time", "Heure du retour", "Hora de vuelta", "שעת החזרה")
+
 def t(en, lang):
     if lang == "en": return en
     i = LANGS.index(lang) - 1

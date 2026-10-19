@@ -48,16 +48,17 @@ def hero(lang):
 
 # ---------------------------------------------------------------- le formulaire, par langue
 # Branches : a sejour complet, b j'ai deja mon logement, c van, d Lyon, e fete, f autre
+# 19/10 : 7 ecrans au plus (audit 06-reports/2026-10-19-ux-audit-formulaire.md). Memes noms de champs : la feuille et la fiche de Mendel ne changent pas.
 PATHS = {
-    "a": ["intention", "quoi", "dates", "groupe", "logement", "repas", "cacherout", "religieux", "transport", "ski", "lyon", "extras", "budget", "final"],
-    "b": ["intention", "ou", "dates", "groupe", "religieux", "repas", "cacherout", "transport", "ski", "lyon", "extras", "budget", "final"],   # 15/10 Mendel : meme richesse que le sejour complet
-    "c": ["intention", "trajet", "quand", "groupe", "bagages", "message", "final"],
-    "d": ["intention", "lyon", "jour", "groupe", "message", "final"],
-    "e": ["intention", "fete", "dates", "groupe", "logement", "repas", "cacherout", "religieux", "extras", "budget", "final"],
-    "f": ["intention", "message", "dates", "groupe", "budget", "final"],
+    "a": ["intention", "sejour", "groupe", "logement", "repas", "voyage", "final"],
+    "b": ["intention", "sejour", "groupe", "repas", "voyage", "final"],
+    "c": ["intention", "trajet", "quand", "groupe", "final"],
+    "d": ["intention", "lyon", "groupe", "final"],
+    "e": ["intention", "sejour", "groupe", "logement", "repas", "voyage", "final"],
+    "f": ["intention", "message", "sejour", "groupe", "final"],
 }
-LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "arrivee", "creneau", "depart", "heure", "flexible", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
-             "logement", "chambres", "logement_opt", "repas", "repas_jours", "allergies", "cacherout", "cacherout_detail", "minyan_niveau", "religieux", "rite", "aeroport", "vol_ville", "vols_pris", "vol", "transport",
+LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "aller_retour", "arrivee", "creneau", "depart", "heure", "retour_date", "retour_heure", "flexible", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
+             "logement", "chambres", "sdb", "logement_opt", "repas", "repas_jours", "allergies", "cacherout", "cacherout_detail", "minyan_niveau", "religieux", "rite", "aeroport", "vol_ville", "vols_pris", "vol", "transport",
              "ski", "niveau", "lyon", "langue_visite", "extras", "budget_personne", "budget_famille", "budget", "budget_vols", "priorites", "message", "ville", "urgence", "pour_qui"]
 INDICATIFS = '<option value="">{code}</option>' + "".join(f'<option value="{v}">{v} {c}</option>' for v, c in [
     ("+1", "US / CA"), ("+44", "UK"), ("+972", "IL"), ("+33", "FR"), ("+32", "BE"), ("+41", "CH"), ("+34", "ES"), ("+39", "IT"), ("+49", "DE"), ("+31", "NL"),
@@ -77,6 +78,7 @@ ICONES = {
     "Dates are flexible": "calendar-range", "Dates are fixed": "calendar-check", "Arrive before Shabbat": "sunset", "Can shift 1-2 days if cheaper": "arrow-left-right",
     "Morning": "sunrise", "Afternoon": "sun", "Either": "shuffle",
     # bagages, groupe
+    "One way": "arrow-right", "Return trip": "repeat",
     "Large suitcases": "luggage", "Cabin bags only": "backpack", "Skis or snowboards": "snowflake", "Baby seats or boosters": "baby", "Wheelchair or walker": "accessibility",
     "Baby cots": "bed-single", "High chairs": "armchair", "Car seats": "car",
     # logement
@@ -88,7 +90,7 @@ ICONES = {
     "Groceries ready on arrival": "shopping-basket", "We cook, with delivery": "cooking-pot", "No meals needed": "ban",
     "Chalav Yisrael": "milk", "Pas Yisrael": "croissant", "Glatt / Beit Yosef": "beef", "Chassidic shechita": "drumstick", "Kitniyot-free (Pesach)": "bean-off", "Gluten-free or allergies": "wheat-off",
     # religieux
-    "The minyan is essential": "star", "Nice to have": "thumbs-up", "Not needed": "ban",
+    "The minyan is essential": "star", "Nice to have": "thumbs-up", "Not needed": "ban", "minyan_niveau:Not needed": "circle-off",
     "Minyan on Shabbat": "users", "Minyan every day": "calendar-days", "Sefer Torah in the chalet": "scroll-text", "Candles, wine, challot": "flame", "Hot plate and urn": "coffee",
     "Eruv or carrying advice": "fence", "Mikveh nearby": "droplets", "Holiday items (lulav, menorah)": "package-open", "Fast day or holiday": "calendar-clock",
     # transport
@@ -156,7 +158,7 @@ def formulaire(lang):
     def battr(b): return f' data-b="{b}"' if b else ""
     def sattr(x): return f' data-s="{x}"' if x else ""
     journal = []   # (nom, branches, icone, texte) des choix de l'ecran en cours ; verifie et vide par etape()
-    def chips(name, opts, multi=True, b=""):
+    def chips(name, opts, multi=True, b="", mini=False):
         """opts : texte EN, ou (texte EN, branches, cle, saison). saison : w = hiver seulement, s = ete seulement."""
         typ = "checkbox" if multi else "radio"
         out = []
@@ -164,22 +166,24 @@ def formulaire(lang):
             en, ob, k, sa = (o, "", "", "") if isinstance(o, str) else (o + ("", "", ""))[:4]
             kk = f' data-k="{k}"' if k else ""
             ic = nom_icone(name, b, en)
-            journal.append((name, ob or b, ic, en))
+            if not mini: journal.append((name, ob or b, ic, en))   # pastilles compactes : pas de pictogramme affiche
             out.append(f'<label{battr(ob)}{sattr(sa)}><input type="{typ}" name="{name}" value="{E(en)}" data-en="{esc(en)}"{kk}>{icone(ic)}<span>{COCHE}{insec(E(en))}</span></label>')
-        return f'<div class="dm-chips"{battr(b)}>' + "".join(out) + "</div>"
+        return f'<div class="dm-chips{" mini" if mini else ""}"{battr(b)}>' + "".join(out) + "</div>"
     def champ(id_, name, label, typ="text", ph="", b="", extra="", sa=""):
         phh = f' placeholder="{E(ph)}"' if ph else ""
         return f'<div class="dm-champ"{battr(b)}{sattr(sa)}><label for="{id_}">{E(label)}</label><input type="{typ}" id="{id_}" name="{name}"{phh}{extra}></div>'
     def zone(id_, name, label, ph, b=""):
         return f'<div class="dm-champ"{battr(b)}><label for="{id_}">{E(label)}</label><textarea id="{id_}" name="{name}" rows="3" placeholder="{E(ph)}"></textarea></div>'
-    def compteur(name, label, b=""):
+    def compteur(name, label, b="", v=0):
         return (f'<div class="dm-cpt"{battr(b)}><span class="lib" id="l-{name}">{E(label)}</span><div class="cpt">'
                 f'<button type="button" class="moins" aria-label="{E("Fewer")}: {E(label)}">&#8722;</button>'
-                f'<span class="cpt-n"><input type="number" id="c-{name}" name="{name}" min="0" max="99" value="0" inputmode="numeric" aria-labelledby="l-{name}"></span>'
+                f'<span class="cpt-n"><input type="number" id="c-{name}" name="{name}" min="0" max="99" value="{v}" inputmode="numeric" aria-labelledby="l-{name}"></span>'
                 f'<button type="button" class="plus" aria-label="{E("More")}: {E(label)}">+</button></div></div>')
     def ages(name, label, ph):
         return (f'<div class="dm-champ dm-ages cache" data-for="{name}"><label for="c-{name}_ages">{E(label)}</label>'
                 f'<input type="text" id="c-{name}_ages" name="{name}_ages" placeholder="{E(ph)}"></div>')
+    def sous(x, b=""): return f'<p class="dm-sous"{battr(b)}>{E(x)}</p>'
+    def si(cond, corps): return f'<div data-si="{esc(cond)}" hidden>{corps}</div>'
     def etape(id_, titres, aide, corps, cls="", deco="", deco_t="", sur=""):
         """titres : texte EN, ou liste de (texte EN, branches)."""
         seen = {}
@@ -211,122 +215,103 @@ def formulaire(lang):
     S = []
     S.append(etape("intention", "What can we do for you?", [],
                    tuiles + wa_q1, "dm-intention", sur="Question 1"))
-    # ---- a : sejour complet
-    S.append(etape("quoi", "What kind of stay, and where?", "Tick everything that applies. A region is enough.",
-                   chips("voyage", [("Ski holiday with a chalet", "", "winter"), ("Hanukkah in the Alps", "", "winter"), ("Pesach in the Alps", "", "winter"), ("Summer in the Alps", "", "summer"), "Something else"]) +
-                   champ("lieu-quoi", "lieu", "Resort, town or region you have in mind", ph="Les Deux Alpes, Grenoble, not sure yet")))
-    # ---- b : j'ai deja mon logement
-    S.append(etape("ou", "Where are you staying?", "The resort and the address of your chalet, apartment or hotel.",
-                   champ("lieu-ou", "lieu", "Resort or resorts you are considering", ph="Morzine, Châtel, Les Deux Alpes") +
-                   chips("lieu_pas_choisi", ["Not chosen yet, minyan first"]) +
-                   champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac") +
-                   chips("logement_opt", ["Daily cleaning", "Laundry"])))
-    # ---- e : fete
-    S.append(etape("fete", "Which holiday?", "Tick the holiday or holidays, and the place if you know it.",
-                   chips("voyage", ["Pesach in the Alps", "Hanukkah in the Alps", "Sukkot", "Rosh Hashanah and Yom Kippur", "Purim", "Shavuot", "Another holiday"]) +
-                   champ("lieu-fete", "lieu", "Resort, town or region you have in mind", ph="Les Deux Alpes, Grenoble, not sure yet")))
-    # ---- dates (a b d e f)
-    S.append(etape("dates", "When do you travel?", "Approximate is fine.",
+    # ---- 2. ou et quand (a b e f) : le lieu selon la branche, puis les dates
+    dl = '<datalist id="dl-stations">' + "".join(f'<option value="{esc(x)}">' for x in ['Les Deux Alpes', 'Courchevel', 'Megève', 'Val Thorens', 'Méribel', "Alpe d'Huez", 'Chamonix', 'Les Arcs', 'La Plagne', "Val d'Isère", 'Morzine', 'Châtel', 'Annecy', 'Grenoble', 'Zermatt', 'St. Moritz', 'Crans-Montana', 'Cervinia', 'Courmayeur', 'Cortina']) + "</datalist>"
+    S.append(etape("sejour", "Where and when?", "A resort or a region is enough. Approximate dates are fine.",
+                   chips("voyage", ["Pesach in the Alps", "Hanukkah in the Alps", "Sukkot", "Rosh Hashanah and Yom Kippur", "Purim", "Shavuot", "Another holiday"], b="e", mini=True) +
+                   champ("lieu-sejour", "lieu", "Resort or region", ph="Start typing, or write \u201cnot sure yet\u201d", b="aef", extra=' list="dl-stations" autocomplete="off"') +
+                   champ("lieu-ou", "lieu", "Resort or resorts you are considering", ph="Morzine, Châtel, Les Deux Alpes", b="b", extra=' list="dl-stations" autocomplete="off"') +
+                   chips("lieu_pas_choisi", ["Not chosen yet, minyan first"], b="b", mini=True) +
+                   champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b") + dl +
                    '<div class="dm-duo">' + champ("arrivee", "arrivee", "Arrival", typ="date") + champ("depart", "depart", "Departure", typ="date") + "</div>" +
                    '<p class="dm-nuits" id="dm-nuits" hidden aria-live="polite"></p>' +
+                   f'<p class="dm-shabbat" id="dm-shabbat" hidden data-t="{E("Shabbat during your stay:")}"></p>' +
                    f'<p class="dm-erreur" id="dm-date-err" role="alert" hidden>{E("The departure is before the arrival.")}</p>' +
-                   chips("flexible", ["Dates are flexible", "Dates are fixed", "Arrive before Shabbat", "Can shift 1-2 days if cheaper"])))
-    # ---- jour (d : Lyon)
-    S.append(etape("jour", "Which day?", [],
-                   champ("arrivee-jour", "arrivee", "Date", typ="date") + chips("creneau", ["Morning", "Afternoon", "Either"], multi=False)))
-    # ---- van : trajet, quand, bagages
-    S.append(etape("trajet", "Where from, and where to?", "Address, airport, station or hotel. A town name is enough.",
+                   chips("flexible", ["Dates are fixed", "Dates are flexible"], multi=False, mini=True)))
+    # ---- van : trajet + aller-retour, puis les deux trajets
+    S.append(etape("trajet", "Where from, and is there a return?", "Address, airport, station or hotel. A town name is enough.",
                    champ("van_depart", "van_depart", "Pick-up point", ph="Lyon Saint-Exupéry airport") +
-                   champ("van_arrivee", "van_arrivee", "Drop-off point", ph="Les Deux Alpes, chalet")))
-    S.append(etape("quand", "When?", "Date and pick-up time. Add the flight if you land.",
-                   '<div class="dm-duo">' + champ("arrivee-van", "arrivee", "Date", typ="date") + champ("heure", "heure", "Pick-up time", typ="time") + "</div>" +
+                   champ("van_arrivee", "van_arrivee", "Drop-off point", ph="Les Deux Alpes, chalet") +
+                   chips("aller_retour", ["One way", "Return trip"], multi=False)))
+    S.append(etape("quand", "When?", "Date and time of each trip. Add the flight if you land or take off.",
+                   sous("Outbound") + '<div class="dm-duo">' + champ("arrivee-van", "arrivee", "Date", typ="date") + champ("heure", "heure", "Pick-up time", typ="time") + "</div>" +
+                   si("aller_retour=Return trip", sous("Return") + '<div class="dm-duo">' + champ("retour_date", "retour_date", "Return date", typ="date") +
+                      champ("retour_heure", "retour_heure", "Return pick-up time", typ="time") + "</div>") +
                    champ("vol-van", "vol", "Flight numbers or landing times, if known", ph="Landing 11:40, departing 15:30")))
-    S.append(etape("bagages", "Luggage and equipment", "Skis and baby seats change the vehicle we send.",
-                   chips("bagages", ["Large suitcases", "Cabin bags only", "Skis or snowboards", "Baby seats or boosters", "Wheelchair or walker"])))
-    # ---- groupe (tous)
-    S.append(etape("groupe", "Who is coming?", [("Count the whole group, all families together.", "abef"), ("Children's ages help us choose rooms, ski school and cots.", "")],
-                   compteur("familles", "Families or households", b="abef") +
-                   compteur("adultes", "Adults") + compteur("enfants", "Children") +
+    # ---- Lyon : la visite, le jour, la langue
+    S.append(etape("lyon", "Which visit, and when?", "Tours are held in English, French or Spanish.",
+                   chips("lyon", ["Jewish Lyon walk (2.5 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
+                                  "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Shabbat with a Chabad family"], mini=True) +
+                   sous("Which day?") + champ("arrivee-jour", "arrivee", "Date", typ="date") + chips("creneau", ["Morning", "Afternoon", "Either"], multi=False, mini=True) +
+                   sous("Language of the visit") + chips("langue_visite", ["English", "French", "Spanish"], multi=False, mini=True) +
+                   '<p class="dm-note">' + E("To enter the Grande Synagogue, the community's security team will ask for your names and passports once the tour is confirmed.") + "</p>"))
+    # ---- 3. groupe (tous) ; bagages pour le van
+    S.append(etape("groupe", [("Who is coming?", "abdef"), ("Who is coming, and with what?", "c")],
+                   [("Count the whole group, all families together.", "abef"), ("Children's ages help us choose rooms, ski school and cots.", "")],
+                   compteur("familles", "Families or households", b="abef", v=1) +
+                   compteur("adultes", "Adults", v=2) + compteur("enfants", "Children") +
                    ages("enfants", "Ages of the children", "9 and 12") +
                    compteur("bebes", "Babies") + ages("bebes", "Ages of the babies", "10 months") +
-                   '<div class="dm-mat cache" data-for="bebes">' + chips("bebe_materiel", ["Baby cots", "High chairs", "Car seats"]) + "</div>" +
-                   compteur("hommes", "Men over bar mitzvah age, for the minyan", b="abe")))
-    # ---- logement (a e)
+                   '<div class="dm-mat cache" data-for="bebes">' + chips("bebe_materiel", ["Baby cots", "High chairs", "Car seats"], mini=True) + "</div>" +
+                   f'<div data-b="c">{sous("Luggage and equipment")}' + chips("bagages", ["Large suitcases", "Cabin bags only", "Skis or snowboards", "Baby seats or boosters", "Wheelchair or walker"], mini=True) + "</div>"))
+    # ---- 4. logement (a e)
     S.append(etape("logement", "Where would you like to sleep?", "Pick what suits you. We advise if you are not sure.",
                    chips("logement", ["A private chalet", "Apartments, same residence", "A hotel", "Advise me"], multi=False) +
-                   champ("chambres", "chambres", "Bedrooms and bathrooms needed", ph="5 bedrooms, 3 bathrooms") +
-                   chips("logement_opt", ["Near the Beth Chabad or shul", "Ski-in ski-out or near the slopes", "Jacuzzi or hammam", "Swimming pool", "Daily cleaning", "Laundry"])))
-    # ---- repas (a b e)
-    # 15/10 : un seul mode de repas (Jonah Bibi avait coche les six, chef prive et « on cuisine » compris) ; les jours et le detail vont dans les champs
-    # 15/10 Mendel : chef aussi pour qui a deja son chalet ; les plats livres arrivent prets a rechauffer, trois fois par semaine (arrivee,
-    # milieu de semaine, veille de Shabbat), jamais tous les jours ; plus de « on cuisine avec livraison » (il ne livre pas de produits bruts)
-    S.append(etape("repas", "Which meals do you need?", [("Pick the one closest to what you want. We adjust the details with you.", ""),
-                                                          ("Delivered meals arrive ready to heat, three times a week: on arrival, midweek and before Shabbat.", "")],
-                   chips("repas", ["Private chef in the chalet", "Meals delivered, ready to heat", "Shabbat meals only",
-                                   "Advise me", ("No meals needed", "", "none")], multi=False) +
+                   compteur("chambres", "Bedrooms") + compteur("sdb", "Bathrooms") +
+                   chips("logement_opt", ["Near the Beth Chabad or shul", "Ski-in ski-out or near the slopes", "Jacuzzi or hammam", "Swimming pool", "Daily cleaning", "Laundry"], mini=True)))
+    # ---- 5. repas, cacherout, Shabbat et minyan (a b e). Le minyan detaille et le nombre d'hommes seulement si le minyan compte.
+    S.append(etape("repas", "Meals, Shabbat and prayer", "Pick one meal option. Everything we serve is Chalav Yisrael.",
+                   chips("repas", ["Private chef in the chalet", "Meals delivered, ready to heat", "Shabbat meals only", "Advise me", ("No meals needed", "", "none")], multi=False) +
                    champ("repas_jours", "repas_jours", "Which days?", ph="Shabbat only, or every day from 25 July to 15 August") +
-                   champ("allergies", "allergies", "Allergies or special diets", ph="Nut allergy for one child")))
-    S.append(etape("cacherout", "Your kashrut standard", [("Everything we serve is Chalav Yisrael. Tick what else you keep. We follow it exactly.", "")],
-                   chips("cacherout", ["Pas Yisrael", "Glatt / Beit Yosef", "Chassidic shechita", "Kitniyot-free (Pesach)", "Gluten-free or allergies"]) +
-                   champ("cacherout_detail", "cacherout_detail", "Anything else about kashrut, allergies or preferences", ph="One vegetarian, nut allergy for a child")))
-    S.append(etape("religieux", "Shabbat, prayer and holidays", "What do you need on site?",
-                   chips("minyan_niveau", ["The minyan is essential", "Nice to have", "Not needed"], multi=False) +
-                   chips("religieux", ["Minyan on Shabbat", "Minyan every day", "Sefer Torah in the chalet", "Candles, wine, challot",
-                                       "Eruv or carrying advice", "Mikveh nearby", "Holiday items (lulav, menorah)", "Fast day or holiday"]) +
-                   champ("rite", "rite", "Nusach or community, if it matters for the minyan", ph="Chabad, Ashkenaz, Sefarad, Edot HaMizrach"), deco_t=BOUGIE))
-    S.append(etape("transport", "Getting there and around", "We organise transfers from the airport and in the resort.",
-                   chips("aeroport", ["Flying to Lyon", "Flying to Geneva", "Flying to Paris then train", "Arriving by car", "Not decided yet"], multi=False) +
+                   sous("Kashrut") + chips("cacherout", ["Pas Yisrael", "Glatt / Beit Yosef", "Chassidic shechita", "Kitniyot-free (Pesach)"], mini=True) +
+                   champ("allergies", "allergies", "Allergies or special diets", ph="Nut allergy for one child") +
+                   sous("Minyan") + chips("minyan_niveau", ["The minyan is essential", "Nice to have", "Not needed"], multi=False) +
+                   si("minyan_niveau!=Not needed", compteur("hommes", "Men over bar mitzvah age, for the minyan") +
+                      chips("religieux", ["Minyan on Shabbat", "Minyan every day", "Sefer Torah in the chalet"], mini=True) +
+                      champ("rite", "rite", "Nusach or community, if it matters for the minyan", ph="Chabad, Ashkenaz, Sefarad, Edot HaMizrach")) +
+                   sous("Other needs") + chips("religieux", ["Candles, wine, challot", "Eruv or carrying advice", "Mikveh nearby", "Holiday items (lulav, menorah)", "Fast day or holiday"], mini=True),
+                   deco_t=BOUGIE))
+    # ---- 6. voyage et sur place (a b e) : tout facultatif, en cases compactes
+    S.append(etape("voyage", "Getting there and on site", "Everything here is optional. Tick what tempts you.",
+                   sous("Your flights") + chips("aeroport", ["Flying to Lyon", "Flying to Geneva", "Flying to Paris then train", "Arriving by car", "Not decided yet"], multi=False, mini=True) +
                    champ("vol_ville", "vol_ville", "City you fly from", ph="New York, Tel Aviv, London") +
-                   chips("vols_pris", ["Flights already booked", "Not booked yet"], multi=False) +
-                   champ("vol", "vol", "Flight numbers or landing times, if known", ph="Landing 11:40, departing 15:30") +
-                   chips("transport", ["Private airport transfer", "Taxi rides in the resort", "A van and driver for the stay", "A rental car", "Help with flights"])))
-    # 15/10 : deux groupes (le ski d'abord, les loisirs ensuite) pour que 26 cases ne se cochent plus toutes d'un coup
-    S.append(etape("ski", "Activities", "Tick what tempts you. We arrange it all on site.",
-                   f'<p class="dm-sous" data-s="w">{E("On the slopes")}</p>' +
+                   chips("vols_pris", ["Flights already booked", "Not booked yet"], multi=False, mini=True) +
+                   chips("transport", ["Private airport transfer", "Taxi rides in the resort", "A van and driver for the stay", "A rental car", "Help with flights"], mini=True) +
+                   sous("Ski and activities", "abe") +
                    chips("ski", [("Ski passes", "", "", "w"), ("Rental delivered to the chalet", "", "", "w"), ("We bring our own skis", "", "", "w"), ("Ski school for children", "", "", "w"),
-                                 ("Private instructor", "", "", "w"), ("Non-skiers in the group", "", "", "w")]) +
-                   f'<p class="dm-sous">{E("Fun and extras")}</p>' +
-                   chips("ski", [("Snowmobile", "", "", "w"), ("Snowshoeing", "", "", "w"),
+                                 ("Private instructor", "", "", "w"), ("Non-skiers in the group", "", "", "w"), ("Snowmobile", "", "", "w"), ("Snowshoeing", "", "", "w"),
                                  ("Dog sledding", "", "", "w"), ("Sledging", "", "", "w"), ("Ice rink", "", "", "w"), ("Cross-country skiing", "", "", "w"), ("Helicopter flight", "", "", "w"),
                                  ("Guided hike", "", "", "s"), ("Mountain bike or e-bike", "", "", "s"), ("Via ferrata", "", "", "s"), ("Rafting", "", "", "s"), ("Canyoning", "", "", "s"),
                                  ("Lake swimming", "", "", "s"), ("Hot-air balloon", "", "", "s"), ("Climbing for children", "", "", "s"), ("Fishing", "", "", "s"),
-                                 ("Farm and cheese visit", "", "", "s"), "Paragliding", "Massage and spa", "A van and driver on call"]) +
-                   champ("niveau", "niveau", "Ski levels in the group", ph="4 good skiers, 2 beginners, 2 children in ski school", sa="w"), deco=FLOCONS))
-    S.append(etape("lyon", "A visit in Lyon?", "Tick the visits that interest you. Tours are held in English, French or Spanish.",
-                   chips("lyon", ["Jewish Lyon walk (2.5 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
-                                  "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Kosher restaurant tips", "Shabbat with a Chabad family"]) +
-                   f'<p class="dm-sous">{E("Language of the visit")}</p>' + chips("langue_visite", ["English", "French", "Spanish"], multi=False) +
-                   '<p class="dm-note">' + E("To enter the Grande Synagogue, the community's security team will ask for your names and passports once the tour is confirmed.") + "</p>"))
-    S.append(etape("extras", "Extras", "Everything here is optional.",
-                   chips("extras", ["Babysitter", "A wedding on the slopes", "A simcha to celebrate", "Fireworks", "Photographer or videographer", "DJ or live music",
-                                    "Flowers and table decoration", "Kids' entertainer", "Security escort (quoted)", "Reduced mobility"]) +
-                   zone("message-extras", "message", "Anything else we should know", "Last year we went to Switzerland. We want to be two minutes from the shul.")))
-    prio = chips("priorites", ["Staying within budget", "Close to the shul or Beth Chabad", "A guaranteed minyan", "A beautiful, well-known resort",
-                                ("Great skiing", "a"), ("A private chef", "ae"), "Comfort and space", "Calm for small children"])
-    # 15/10 (Moshe) : plus de tranches (cochees au pif, « moins de 10 000 € » pour une famille sur quatre). Le maximum en chiffres, par personne
-    # ou par famille, « ce que la personne veut remplir, au mieux les deux », avec une phrase comprehensible d'une seule lecture.
-    S.append(etape("budget", "Your maximum budget", [("We organise the best possible trip within it and send you a ready-made programme. Flights aside.", ""),
-                                                      ("Fill in the one that speaks to you, or both.", "")],
-                   '<div class="dm-duo">' + champ("budget-personne", "budget_personne", "Per person", ph="€", extra=' inputmode="numeric"') +
-                   champ("budget-famille", "budget_famille", "Per family", ph="€", extra=' inputmode="numeric"') + "</div>" +
-                   chips("budget", ["Not sure yet, advise us"]) +
-                   chips("budget_vols", ["Flights included in this budget", "Flights not included"], multi=False, b="ae") +
-                   f'<p class="dm-sous">{E("What matters most?")}</p>' +
-                   prio + f'<p class="dm-max" id="dm-max" role="status" hidden>{E("Three at most")}</p>'))
-    S.append(etape("message", [("Anything else we should know?", "cd"), ("Tell us what you have in mind", "f")],
-                   [("Optional.", "cd"), ("Write it the way you would say it. We take it from there.", "f")],
-                   zone("message-bcd", "message", "Anything else we should know", "Anything that helps: a baby, a late arrival, a special diet.", b="cd") +
+                                 ("Farm and cheese visit", "", "", "s"), "Paragliding", "Massage and spa"], mini=True) +
+                   champ("niveau", "niveau", "Ski levels in the group", ph="4 good skiers, 2 beginners, 2 children in ski school", sa="w") +
+                   sous("Visits in Lyon") + chips("lyon", ["Jewish Lyon walk (2.5 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
+                                                         "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Shabbat with a Chabad family"], mini=True) +
+                   sous("Extras") + chips("extras", ["Babysitter", "A wedding on the slopes", "A simcha to celebrate", "Fireworks", "Photographer or videographer", "DJ or live music",
+                                                   "Flowers and table decoration", "Kids' entertainer", "Security escort (quoted)", "Reduced mobility"], mini=True)))
+    # ---- f : le message d'abord
+    S.append(etape("message", "Tell us what you have in mind", "Write it the way you would say it. We take it from there.",
                    zone("message-f", "message", "Tell us what you have in mind", "A bar mitzvah weekend in the Alps for 30 guests", b="f")))
-    # ---- final : recapitulatif + contact
-    contact = ('<div class="dm-duo">' + champ("nom", "nom", "Your name", extra=' autocomplete="name" required') + champ("ville", "ville", "Where you live", ph="Brooklyn, London, Tel Aviv") + "</div>" +
+    # ---- 7. contact en tete, puis budget, priorites, message, recapitulatif replie
+    contact = ('<div class="dm-duo">' + champ("prenom", "prenom", "First name", extra=' autocomplete="given-name" required') +
+               champ("nom", "nom", "Last name", extra=' autocomplete="family-name" required') + "</div>" +
         f'<div class="dm-champ"><label for="f-tel">{E("WhatsApp number")}</label><div class="tel"><select id="f-indicatif" name="indicatif" aria-label="{E("Country code")}" required>'
         + INDICATIFS.replace("{code}", E("Code")) + '</select><input type="tel" id="f-tel" name="tel" inputmode="tel" autocomplete="tel-national" placeholder="212 555 0100" pattern="[0-9 ().-]{6,16}" required></div></div>' +
-        champ("email", "email", "Email (optional)", typ="email", extra=' autocomplete="email"') +
-        f'<p class="dm-sous">{E("Language we should answer in")}</p>' + chips("langue", ["English", "Hebrew", "French", "Spanish"], multi=False) +
-        f'<p class="dm-sous">{E("How soon?")}</p>' + chips("urgence", ["No rush", "Within a week please", "Urgent, we travel soon"], multi=False) +
-        chips("pour_qui", ["Booking for someone else", "Someone else decides with me"]))
-    recap = (f'<div class="dm-recap"><img class="dm-hassid" src="{IMG}picto-hassid-vert.svg" alt="" width="200" height="200"><div><h3>{E("Your request so far")}</h3><ul id="dm-recap" class="dm-recap-liste"></ul></div></div>')
-    S.append(etape("final", "Almost done", "Check your answers, then tell us how to reach you.", recap + contact +
+        champ("email", "email", "Email (optional)", typ="email", extra=' autocomplete="email"'))
+    budget = (f'<div data-b="abef">{sous("Your budget")}<p class="dm-aide">{E("Optional, but it helps us aim right. Flights aside.")}</p>' +
+              '<div class="dm-duo">' + champ("budget-personne", "budget_personne", "Per person", ph="€", extra=' inputmode="numeric"') +
+              champ("budget-famille", "budget_famille", "Per family", ph="€", extra=' inputmode="numeric"') + "</div>" +
+              chips("budget", ["Not sure yet, advise us"], mini=True) +
+              chips("budget_vols", ["Flights included in this budget", "Flights not included"], multi=False, b="ae", mini=True) +
+              sous("What matters most?") +
+              chips("priorites", ["Staying within budget", "Close to the shul or Beth Chabad", "A guaranteed minyan", "A beautiful, well-known resort",
+                                  ("Great skiing", "a"), ("A private chef", "ae"), "Comfort and space", "Calm for small children"], mini=True) +
+              f'<p class="dm-max" id="dm-max" role="status" hidden>{E("Three at most")}</p></div>')
+    fin = (sous("How soon?") + chips("urgence", ["No rush", "Within a week please", "Urgent, we travel soon"], multi=False, mini=True) +
+           chips("pour_qui", ["Booking for someone else", "Someone else decides with me"], mini=True) +
+           zone("message-fin", "message", "Anything else we should know", "Anything that helps: a baby, a late arrival, a special diet.", b="abcde"))
+    recap = f'<details class="dm-recap"><summary>{E("Review my answers")}</summary><ul id="dm-recap" class="dm-recap-liste"></ul></details>'
+    S.append(etape("final", "Last step", "How do we answer you? Then your budget, and you are done.", contact + budget + fin + recap +
                    f'<p class="dm-erreur" id="dm-erreur" hidden>{esc(JSX[lang]["err"])}</p>', "dm-contact"))
 
     wa = JSX[lang]["wa"]
@@ -359,20 +344,22 @@ function mo(){return !!(window.matchMedia&&window.matchMedia('(prefers-reduced-m
 function anim(el,cls){if(!el||!mo())return;el.classList.remove(cls);void el.offsetWidth;el.classList.add(cls);
  var fn=function(ev){if(ev.target!==el)return;el.classList.remove(cls);el.removeEventListener('animationend',fn)};el.addEventListener('animationend',fn)}
 function branch(){var r=f.querySelector('input[name="intention"]:checked');return r?r.value:''}
-function path(){var b=branch();if(!b)return ['intention'];var p=C.paths[b].slice();
- var r=ctrls.filter(function(e){return e.name==='repas'&&e.checked});
- if(r.length&&r.every(function(e){return e.getAttribute('data-k')==='none'}))p=p.filter(function(x){return x!=='cacherout'});
- return p}
+function path(){var b=branch();if(!b)return ['intention'];return C.paths[b].slice()}
+/* data-si="nom=valeur" : visible si cette case est cochee ; "nom!=valeur" : visible si une case est cochee et que ce n'est pas celle-la */
+function siOk(c){var m=/^(\w+)(!?=)(.*)$/.exec(c);if(!m)return true;var on=ctrls.filter(function(e){return e.name===m[1]&&e.checked}).map(function(e){return e.getAttribute('data-en')||e.value});
+ return m[2]==='='?on.indexOf(m[3])>=0:(on.length>0&&on.indexOf(m[3])<0)}
 function sync(){var b=branch(),p=path();
- var hs=false,hw=false;ctrls.forEach(function(e){if(e.scr==='quoi'&&e.name==='voyage'&&e.checked){var k=e.getAttribute('data-k');if(k==='summer')hs=true;if(k==='winter')hw=true}});
+ var hs=false,hw=false,m=/^\d{4}-(\d\d)/.exec(raw0('arrivee'));if(m){var mm=+m[1];if(mm>=5&&mm<=10)hs=true;else hw=true}
  [].forEach.call(f.querySelectorAll('[data-s]'),function(n){var s=n.getAttribute('data-s');n.hidden=s==='w'?(hs&&!hw):(hw&&!hs)});
  [].forEach.call(f.querySelectorAll('[data-b]'),function(n){n.hidden=n.getAttribute('data-b').indexOf(b)<0});
+ [].forEach.call(f.querySelectorAll('[data-si]'),function(n){n.hidden=!siOk(n.getAttribute('data-si'))});
  ctrls.forEach(function(e){var ok=p.indexOf(e.scr)>=0;
-  if(ok){var n=e.parentNode;while(n&&n!==f){if(n.getAttribute&&((n.getAttribute('data-b')&&n.getAttribute('data-b').indexOf(b)<0)||(n.getAttribute('data-s')&&n.hidden))){ok=false;break}n=n.parentNode}}
+  if(ok){var n=e.parentNode;while(n&&n!==f){if(n.getAttribute&&((n.getAttribute('data-b')&&n.getAttribute('data-b').indexOf(b)<0)||((n.getAttribute('data-s')||n.getAttribute('data-si'))&&n.hidden))){ok=false;break}n=n.parentNode}}
   if(ok){var w=e.closest('[data-for]');if(w){var ci=f.querySelector('input[name="'+w.getAttribute('data-for')+'"]');if(!(parseInt(ci.value,10)>0))ok=false}}
   e.disabled=e.name==='intention'?false:!ok});
  [].forEach.call(f.querySelectorAll('.dm-ages,.dm-mat'),function(w){var i=f.querySelector('input[name="'+w.getAttribute('data-for')+'"]');w.classList.toggle('cache',!(parseInt(i.value,10)>0))});
  return p}
+function raw0(n){var e=ctrls.filter(function(x){if(x.name!==n||!x.value)return false;var w=x.closest('[data-b]');return !w||w.getAttribute('data-b').indexOf(branch())>=0})[0];return e?e.value:''}
 function els(n){return ctrls.filter(function(e){return e.name===n&&!e.disabled})}
 function raw(n){var a=els(n);if(!a.length)return '';var t=a[0].type;if(t==='checkbox'||t==='radio'){return a.filter(function(e){return e.checked}).map(function(e){return e.value}).join(', ')}return a[0].value.trim()}
 function fdate(v){var m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(v);if(!m)return v;try{return new Date(+m[1],+m[2]-1,+m[3],12).toLocaleDateString(C.loc,{day:'numeric',month:'long',year:'numeric'})}catch(x){return v}}
@@ -380,8 +367,9 @@ function voyage(){var r=f.querySelector('input[name="intention"]:checked');var a
  els('voyage').forEach(function(e){if(e.checked&&a.indexOf(e.value)<0)a.push(e.value)});return a.join(', ')}
 function val(n){
  if(n==='arrivee'||n==='depart'){var d=raw(n);return d?fdate(d):''}
- if(n==='adultes'||n==='hommes'||n==='familles'){var x=parseInt(raw(n),10);return x>0?String(x):''}
+ if(n==='adultes'||n==='hommes'||n==='familles'||n==='chambres'||n==='sdb'){var x=parseInt(raw(n),10);return x>0?String(x):''}
  if(n==='enfants'||n==='bebes'){var y=parseInt(raw(n),10);if(!(y>0))return '';var g=raw(n+'_ages');return y+(g?' ('+g+')':'')}
+ if(n==='retour_date'){var rd=raw(n);return rd?fdate(rd):''}
  if(n==='voyage')return voyage();
  if(n==='logement'&&branch()==='b')return C.k.logementB;
  if(n==='budget_personne'||n==='budget_famille')return euros(raw(n));
@@ -392,8 +380,9 @@ function rawEn(n){var a=els(n);if(!a.length)return '';var t=a[0].type;if(t==='ch
 function fdateEn(v){var m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(v);if(!m)return v;try{return new Date(+m[1],+m[2]-1,+m[3],12).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}catch(x){return v}}
 function valEn(n){
  if(n==='arrivee'||n==='depart'){var d=raw(n);return d?fdateEn(d):''}
- if(n==='adultes'||n==='hommes'||n==='familles'){var x=parseInt(raw(n),10);return x>0?String(x):''}
+ if(n==='adultes'||n==='hommes'||n==='familles'||n==='chambres'||n==='sdb'){var x=parseInt(raw(n),10);return x>0?String(x):''}
  if(n==='enfants'||n==='bebes'){var y=parseInt(raw(n),10);if(!(y>0))return '';var g=raw(n+'_ages');return y+(g?' ('+g+')':'')}
+ if(n==='retour_date'){var rd=raw(n);return rd?fdateEn(rd):''}
  if(n==='voyage'){var r=f.querySelector('input[name="intention"]:checked');var a=r?[r.getAttribute('data-en')]:[];
   els('voyage').forEach(function(e){if(e.checked){var v=e.getAttribute('data-en')||e.value;if(a.indexOf(v)<0)a.push(v)}});return a.join(', ')}
  if(n==='logement'&&branch()==='b')return 'Already booked, I need services only';
@@ -401,7 +390,7 @@ function valEn(n){
  return rawEn(n)}
 function screenOf(k){var e=els(k)[0];return e?e.scr:''}
 function recap(an){var ul=document.getElementById('dm-recap');ul.textContent='';var n=0;var go=an&&mo();
- C.lab.forEach(function(kv){var k=kv[0],v=val(k);if(!v||screenOf(k)==='final')return;n++;
+ C.lab.forEach(function(kv){var k=kv[0],v=val(k);if(!v||screenOf(k)==='final'||k==='prenom')return;n++;
   var li=document.createElement('li'),a=document.createElement('span'),b=document.createElement('span');
   if(go){li.className='ap';li.style.setProperty('--i',n-1)}
   a.className='k';a.textContent=kv[1];b.className='v';b.textContent=v;li.appendChild(a);li.appendChild(b);
@@ -414,12 +403,16 @@ function load(){try{var s=JSON.parse(sessionStorage.getItem(KEY)||'null');if(!s|
  ctrls.forEach(function(e,i){if(e.type==='checkbox'||e.type==='radio')e.checked=!!s.v[i];else e.value=s.v[i]});cur=s.c||'intention'}catch(x){}}
 function dnum(v){var m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(v);return m?Date.UTC(+m[1],+m[2]-1,+m[3]):null}
 function nights(){var a=dnum(raw('arrivee')),d=dnum(raw('depart'));return a!==null&&d!==null?Math.round((d-a)/864e5):null}
+/* les Shabbat du sejour, calcules depuis les dates (vendredi soir dans la plage) */
+function shabbats(nn){var el=document.getElementById('dm-shabbat');if(!el)return;var a=dnum(raw('arrivee'));if(cur!=='sejour'||!(nn>0)||a===null||nn>60){el.hidden=true;return}
+ var out=[];for(var k=0;k<nn;k++){var d=new Date(a+k*864e5);if(d.getUTCDay()===5){var s=new Date(a+(k+1)*864e5);out.push(s.toLocaleDateString(C.loc,{day:'numeric',month:'long',timeZone:'UTC'}))}}
+ el.hidden=!out.length;el.textContent=el.getAttribute('data-t')+' '+out.join(', ')}
 function render(an){var p=sync();if(p.indexOf(cur)<0)cur='intention';
  etapes.forEach(function(e){e.hidden=e.getAttribute('data-e')!==cur});
- var i=p.indexOf(cur),last=cur==='final',b=branch();
- bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;var nn=cur==='dates'?nights():null,bad=nn!==null&&nn<0;
+ var i=p.indexOf(cur),last=cur==='final',b=branch();f.classList.toggle('avance',cur!=='intention');
+ bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;var nn=cur==='sejour'?nights():null,bad=nn!==null&&nn<0;shabbats(nn);
  nuitsP.hidden=!(nn!==null&&nn>=1);if(!nuitsP.hidden)nuitsP.textContent=nn===1?C.t.nuit:C.t.nuits.replace('{n}',nn);dateErr.hidden=!bad;
- bNext.disabled=(cur==='intention'&&!b)||(cur==='budget'&&!raw('budget')&&!raw('budget_personne').replace(/\D/g,'')&&!raw('budget_famille').replace(/\D/g,''))||bad;
+ bNext.disabled=(cur==='intention'&&!b)||bad;
  prog.hidden=p.length<2;ptxt.textContent=C.t.step.replace('{n}',i+1).replace('{t}',p.length);
  var pc=Math.round((i+1)/p.length*100);barre.style.width=pc+'%';barreC.setAttribute('aria-valuenow',pc);
  piste.style.setProperty('--pc',pc+'%');if(lastPc>=0&&pc!==lastPc)anim(piste.querySelector('.dm-hp img'),'saute');lastPc=pc;
@@ -458,14 +451,14 @@ window.addEventListener('popstate',function(ev){var id=ev.state&&ev.state.e;show
 f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  if(cur!=='final'){if(!bNext.disabled)next();return}
  if(f.elements.societe&&f.elements.societe.value){location.href=C.merci;return}
- var nom=val('nom'),tel=val('tel'),ind=val('indicatif');var err=document.getElementById('dm-erreur');
- if(!nom||!tel||!ind){err.hidden=false;err.scrollIntoView({behavior:'smooth',block:'center'});return}
+ var pre=val('prenom'),nom=(pre+' '+val('nom')).trim(),tel=val('tel'),ind=val('indicatif');var err=document.getElementById('dm-erreur');
+ if(!pre||!val('nom')||!tel||!ind){err.hidden=false;err.scrollIntoView({behavior:'smooth',block:'center'});return}
  var parts=[];C.lab.forEach(function(kv){var v=val(kv[0]);if(v)parts.push(kv[1]+': '+v)});
  var partsEn=[];C.labEn.forEach(function(kv){var v=valEn(kv[0]);if(v)partsEn.push(kv[1]+': '+v)});
  var dates=[val('arrivee'),val('depart')].filter(Boolean).join(C.k.datesj);
  var pers=val('adultes')?val('adultes')+C.k.adultes:'';if(val('enfants'))pers+=(pers?' + ':'')+val('enfants')+C.k.enfants;if(val('bebes'))pers+=(pers?' + ':'')+val('bebes')+C.k.bebes;
  var nn=nights();
- var payload=JSON.stringify({tour:C.k.tour+(val('voyage')||C.k.none),dates:dates,personnes:pers,langue:val('langue'),nom:nom,contact:(ind+' '+tel.replace(/[^0-9]/g,'')).trim()+(val('email')?' / '+val('email'):''),message:parts.join(' | '),message_en:partsEn.join(' | '),nuits:nn!==null&&nn>0?nn:'',page:location.pathname,params:location.search});
+ var payload=JSON.stringify({tour:C.k.tour+(val('voyage')||C.k.none),dates:dates,personnes:pers,langue:C.langNom,nom:nom,contact:(ind+' '+tel.replace(/[^0-9]/g,'')).trim()+(val('email')?' / '+val('email'):''),message:parts.join(' | '),message_en:partsEn.join(' | '),nuits:nn!==null&&nn>0?nn:'',page:location.pathname,params:location.search});
  // 19/10 : on attend la reponse du script avant « merci ». L'ancien sendBeacon ne verifiait rien : une demande
  // bloquee par le navigateur se perdait en silence. En cas d'echec, la demande part par WhatsApp en un geste.
  sent=true;var lab0=bSend.textContent;bSend.disabled=true;bSend.textContent='';
@@ -504,7 +497,7 @@ def js(lang):
     lab = dict(LAB[lang]); i = LANGS.index(lang)
     for k, v in LAB_NEW.items(): lab[k] = v[i]
     lab_en = dict(LAB["en"]); lab_en.update({k: v[0] for k, v in LAB_NEW.items()})
-    cfg = {"lang": lang, "loc": LOCALE[lang], "merci": MERCI[lang], "paths": PATHS, "img": "../img/" if lang == "en" else "/img/",
+    cfg = {"lang": lang, "langNom": {"en": "English", "fr": "Français", "es": "Español", "he": "עברית"}[lang], "loc": LOCALE[lang], "merci": MERCI[lang], "paths": PATHS, "img": "../img/" if lang == "en" else "/img/",
            "lab": [[k, lab[k]] for k in LAB_ORDER], "labEn": [[k, lab_en[k]] for k in LAB_ORDER],
            "k": {"tour": JSX[lang]["tour"], "none": JSX[lang]["none"], "datesj": JSX[lang]["datesj"], "adultes": JSX[lang]["adultes"], "enfants": JSX[lang]["enfants"],
                  "bebes": JSX[lang]["bebes"], "logementB": T("Already booked, I need services only")},
@@ -516,7 +509,21 @@ def js(lang):
 # ---------------------------------------------------------------- CSS (bloc delimite dans styles.css)
 CSS_A, CSS_Z = "/* ===DEMANDE-ETAPES=== */", "/* ===/DEMANDE-ETAPES=== */"
 CSS = CSS_A + """
-.etape[hidden],[data-b][hidden],[data-s][hidden],.cache{display:none!important}
+.etape[hidden],[data-b][hidden],[data-s][hidden],[data-si][hidden],.cache{display:none!important}
+/* 19/10 : une fois la premiere question passee, la question remonte en haut de l'ecran (plus de titre de page ni de bandeau au-dessus) */
+body:has(#formDemande.avance) .demande-hero,body:has(#formDemande.avance) .strip{display:none!important}
+body:has(#formDemande.avance) .demande-hero ~ .ss.demande{margin-top:8px}
+/* cases compactes pour les listes longues : une pastille par choix, sans pictogramme */
+.demande .dm-chips.mini{display:flex;flex-wrap:wrap;gap:6px}
+.demande .dm-chips.mini label{flex-direction:row;align-items:center;min-height:42px;padding:8px 14px;border-radius:999px;font-size:14.5px}
+.demande .dm-chips.mini .dm-ic,.demande .dm-chips.mini label::before{display:none}
+.demande .dm-chips.mini label:has(input:checked){background:var(--encre);border-color:var(--encre);color:var(--blanc)}
+.dm-shabbat{font-size:14px;font-weight:600;color:var(--vert)}
+.dm-shabbat[hidden]{display:none}
+.dm-aide{margin:2px 0 0;font-size:13.5px;opacity:.7}
+.etape .dm-sous{margin-top:22px}
+details.dm-recap{margin-top:22px;border:1px solid rgba(28,27,31,.15);border-radius:14px;padding:4px 16px;background:var(--blanc)}
+details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
 .demande .piege{position:absolute;left:0;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 .demande form{max-width:760px}
 .dm-prog,.dm-nav,.dm-petit{display:none}
@@ -727,13 +734,8 @@ def merci_danse():
 if __name__ == "__main__":
     update_css()
     merci_danse()
-    f = rel(foot).replace("document.getElementById('chercheur').addEventListener", "document.getElementById('chercheur')&&document.getElementById('chercheur').addEventListener")
-    f = f.replace('<script src="/config.js"></script>', '<script src="/config.js"></script>\n' + js("en"), 1)
-    os.makedirs("plan-your-trip", exist_ok=True)
-    io.open("plan-your-trip/index.html", "w", encoding="utf-8", newline="\n").write(h + "<main>\n" + hero("en") + "\n\n" + formulaire("en") + "\n</main>" + f)
-    print("ok plan-your-trip")
-    for lang in ("fr", "es", "he"):
-        p = f"{lang}/plan-your-trip/index.html"
+    for lang in LANGS:   # 19/10 : EN aussi en place
+        p = "plan-your-trip/index.html" if lang == "en" else f"{lang}/plan-your-trip/index.html"
         s = io.open(p, encoding="utf-8").read()
         a = s.index('<section class="pratique-hero'); b = s.index("</section>", a) + len("</section>")
         s = s[:a] + hero(lang) + s[b:]
