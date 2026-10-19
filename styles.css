@@ -1320,6 +1320,27 @@ html.anim-vis-on{overflow:hidden}
 
 
 
+
+/* ===MANIFESTE=== */
+body.kwp-hiver .lead-intro>div>p.dk-intro,body.kwp-hiver .lead-intro>div>p:not(.mf-phrase):not([class*=mf]),body.kwp-hiver .lead-intro>div>.dk-plus-lead{display:none}
+body.kwp-hiver .lead-intro>div>.mf+p,body.kwp-hiver .lead-intro>div>.mf~.dk-plus{display:none}
+.mf{display:grid;gap:28px}
+body.kwp-hiver .lead-intro .mf-phrase,.lead-intro>div>p.mf-phrase{margin:0;font-family:Fraunces,Georgia,serif;font-weight:300;font-size:24px;line-height:1.25;color:#E3BE80;letter-spacing:-.005em}
+.mf-col{display:grid;gap:18px;padding-inline-start:20px;border-inline-start:1px solid rgba(201,169,97,.45)}
+.mf-col b{display:block;font-family:Fraunces,Georgia,serif;font-weight:300;font-size:19px;line-height:1.2;color:#E3BE80}
+.mf-col span{display:block;margin-top:4px;font-size:14px;line-height:1.5;color:#C9D2D4}
+@media (max-width:899px){body.kwp-hiver .lead-intro>div::before{display:none}body.kwp-hiver .lead-intro>.lead-mascotte{margin-bottom:14px}}
+@media (min-width:900px){
+ body.kwp-hiver .lead-intro{display:block;padding:40px 0 36px}
+ body.kwp-hiver .lead-intro>.lead-mascotte{display:none}
+ body.kwp-hiver .lead-intro>div{max-width:1200px;margin:0 auto}
+ .mf{grid-template-columns:1.15fr 1fr;gap:64px;align-items:center}
+ body.kwp-hiver .lead-intro .mf-phrase,.lead-intro>div>p.mf-phrase{font-size:44px;line-height:1.14;max-width:22ch}
+ .mf-col{gap:24px;padding-inline-start:40px}
+ .mf-col b{font-size:24px}
+ .mf-col span{font-size:14.5px;margin-top:6px}
+}
+/* ===/MANIFESTE=== */
 /* ===MOBILE-ALPES=== */
 @media (max-width:899px){
 /* 1. bannière : titre et bouton dans le premier demi-écran */
