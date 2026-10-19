@@ -848,10 +848,12 @@ body:has(#formDemande.avance) .demande-hero ~ .ss.demande{margin-top:8px}
 .dm-shabbat{font-size:14px;font-weight:600;color:var(--vert)}
 .dm-shabbat[hidden]{display:none}
 .dm-aide{margin:2px 0 0;font-size:13.5px;opacity:.7}
-.dm-sugg{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px!important}
-.dm-sugg button{min-height:36px;padding:6px 12px;border-radius:999px;border:1px dashed rgba(28,27,31,.35);background:transparent;font:inherit;font-size:13.5px;color:var(--encre);cursor:pointer}
-.dm-sugg button.on{background:var(--jaune);border-style:solid;border-color:var(--jaune);font-weight:600}
-.dm-sugg[hidden]{display:none}
+.dm-champ{position:relative}
+.dm-auto{position:absolute;left:0;right:0;z-index:5;margin:0!important;background:var(--blanc);border:1px solid rgba(28,27,31,.2);border-radius:12px;box-shadow:0 10px 24px rgba(28,27,31,.14);overflow:hidden}
+.dm-auto button{display:block;width:100%;text-align:start;padding:12px 14px;border:0;border-top:1px solid rgba(28,27,31,.08);background:transparent;font:inherit;font-size:15px;color:var(--encre);cursor:pointer}
+.dm-auto button:first-child{border-top:0}
+.dm-auto button:hover,.dm-auto button:focus-visible{background:var(--jaune)}
+.dm-auto[hidden],.dm-auto button[hidden]{display:none}
 .etape .dm-sous{margin-top:22px}
 details.dm-recap{margin-top:22px;border:1px solid rgba(28,27,31,.15);border-radius:14px;padding:4px 16px;background:var(--blanc)}
 details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
