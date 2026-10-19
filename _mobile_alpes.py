@@ -35,6 +35,16 @@ body .lead-hero3 .lead3-texte{position:relative;padding-top:88px;padding-bottom:
 .lead-intro .lead-mascotte{width:56px;margin-top:0}
 .lead-intro p.dk-intro:not(.dk-ouvert){display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
 .lead-intro .dk-plus{display:inline-block}
+/* 2b. intro en statement éditorial sur les pages noir et or (Moshé 20/10, version 1a) : filet or, texte serif or lumière,
+   le bonhomme en or lumière marche sur le filet. Pages claires (été, van) : disposition inchangée. */
+body.kwp-hiver .lead-intro{display:block;padding-top:30px;padding-bottom:30px}
+body.kwp-hiver .lead-intro>.lead-mascotte{display:block;width:auto;height:38px;margin:0 0 0 2px;content:url(/img/picto-hassid-or-lumiere.svg)}
+body.kwp-hiver .lead-intro>div{max-width:none}
+body.kwp-hiver .lead-intro>div::before{content:"";display:block;width:40px;height:1px;background:#C9A961;margin:0 0 16px}
+body.kwp-hiver .lead-intro>div>p{font-family:Fraunces,Georgia,serif;font-weight:300;font-size:21px;line-height:1.4;color:#E3BE80}
+body.kwp-hiver .lead-intro>div>p.dk-intro:not(.dk-ouvert){-webkit-line-clamp:6}
+body.kwp-hiver .lead-intro .dk-plus{color:#C9A961}
+[dir=rtl] body.kwp-hiver .lead-intro>.lead-mascotte{margin:0 2px 0 0}
 /* 3. cartes chalet : moins d'air, même carte */
 body .kwp-cartes{gap:16px;margin-top:18px}
 body .kwp-photo{aspect-ratio:16/10}
