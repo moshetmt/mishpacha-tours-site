@@ -119,7 +119,8 @@ def sect(s, debut):
 
 def premiere_phrase(p_html):
     """(phrase du panneau en texte, reste de l'intro en html). Phrase longue : coupée à une virgule."""
-    morceaux = re.split(r'(?<=[.!?])\s+(?=[^\s<])', p_html.strip(), maxsplit=1)
+    # 19/10 : ne pas couper après une abréviation (« St. Moritz » donnait un panneau « St. », reproche Moshé)
+    morceaux = re.split(r'(?<!\bSt\.)(?<!\bMt\.)(?<!\bDr\.)(?<!\bSte\.)(?<=[.!?])\s+(?=[^\s<])', p_html.strip(), maxsplit=1)
     prem = morceaux[0]
     reste = morceaux[1] if len(morceaux) > 1 else ''
     if '<' in prem:
@@ -136,7 +137,17 @@ def traiter(slug, lang):
     p = os.path.join(*([slug] if lang == 'en' else [lang, slug]), 'index.html')
     s = io.open(p, encoding='utf8', newline='').read()
     if 'lead-hero3' in s:
-        return 'déjà'
+        # 19/10 : réparation des panneaux coupés sur une abréviation (« St. » seul, le reste de la phrase dans la bande)
+        m = re.search(r'(<div class="lead3-bloc">.*?<h1>.*?</h1>\s*<p>)(St|Mt|Dr|Ste)\.(</p>)', s, re.S)
+        mi = re.search(r'<section class="ss wrap lead-intro">.*?<div><p>(.*?)</p>', s, re.S)
+        if not m or not mi:
+            return 'déjà'
+        phrase, reste = premiere_phrase(m.group(2) + '. ' + mi.group(1))
+        s = s[:m.start()] + m.group(1) + html.escape(phrase, quote=False) + m.group(3) + s[m.end():]
+        mi = re.search(r'<section class="ss wrap lead-intro">.*?<div><p>(.*?)</p>', s, re.S)
+        s = s[:mi.start(1)] + reste + s[mi.end(1):]
+        io.open(p, 'w', encoding='utf8', newline='').write(s)
+        return 'réparé'
     photo, typ, voyage = PAGES[slug]
     a, b = sect(s, '<section class="pratique-hero">')
     ancien = s[a:b]
