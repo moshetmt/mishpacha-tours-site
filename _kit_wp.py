@@ -29,7 +29,7 @@ def fichiers():
 
 # ---------- textes ----------
 T = {
- "en": dict(avec="with Winter Prestige", part="In partnership with", dispo="Availability confirmed for your dates with each request.",
+ "en": dict(vi_h2="Our villa", vi_h2_i="in Saint-Tropez", avec="with Winter Prestige", part="In partnership with", dispo="Availability confirmed for your dates with each request.",
             btn="Check my dates", deux="Our two kosher chalets", deux_i="in the Alps", co_h2="Our chalet", co_h2_i="in Courchevel",
             da=dict(lieu="Les Deux Alpes", t="Our kosher chalet, at the foot of the slopes", alt="The chalet in Les Deux Alpes under a blue sky",
                     s=[("300 m²", "private chalet"), ("6 + 1", "bedrooms + nursery"), ("Up to 16", "guests"), ("2 min", "to the slopes")],
@@ -37,8 +37,11 @@ T = {
             co=dict(lieu="Courchevel", t="A kosher chalet in the heart of Courchevel", alt="The chalet in Courchevel under snow",
                     s=[("5", "en-suite bedrooms"), ("10 to 14", "guests"), ("2 pools", "heated, in and out"), ("Private shuttle", "to the slopes")],
                     k="<b>Strictly kosher.</b> Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael."),
+            vi=dict(lieu="Saint-Tropez", t="Villa Beach, a kosher villa on the water", alt="Villa Beach in Saint-Tropez, the pool and the sea",
+                    s=[("5", "bedrooms, 5 bathrooms"), ("12", "guests"), ("Private beach", "and boat garage"), ("3 houses", "villa, guest house, lodge")],
+                    k="<b>Strictly kosher.</b> Villa koshered for you, private chef, everything served is Chalav Yisrael.", avec="with Summer Prestige"),
             seau="STRICTLY KOSHER · CHALAV YISRAEL · SHOMER SHABBAT ·"),
- "fr": dict(avec="avec Winter Prestige", part="En partenariat avec", dispo="Disponibilité confirmée pour vos dates à chaque demande.",
+ "fr": dict(vi_h2="Notre villa", vi_h2_i="à Saint-Tropez", avec="avec Winter Prestige", part="En partenariat avec", dispo="Disponibilité confirmée pour vos dates à chaque demande.",
             btn="Vérifier mes dates", deux="Nos deux chalets casher", deux_i="dans les Alpes", co_h2="Notre chalet", co_h2_i="à Courchevel",
             da=dict(lieu="Les Deux Alpes", t="Notre chalet casher, au pied des pistes", alt="Le chalet des Deux Alpes sous le ciel bleu",
                     s=[("300 m²", "chalet privé"), ("6 + 1", "chambres + chambre bébé"), ("Jusqu’à 16", "personnes"), ("2 min", "des pistes")],
@@ -46,8 +49,11 @@ T = {
             co=dict(lieu="Courchevel", t="Un chalet casher au cœur de Courchevel", alt="Le chalet de Courchevel sous la neige",
                     s=[("5", "chambres en suite"), ("10 à 14", "personnes"), ("2 piscines", "chauffées, dedans et dehors"), ("Navette privée", "vers les pistes")],
                     k="<b>Strictement casher.</b> Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est Chalav Yisrael."),
+            vi=dict(lieu="Saint-Tropez", t="Villa Beach, une villa casher les pieds dans l’eau", alt="Villa Beach à Saint-Tropez, la piscine et la mer",
+                    s=[("5", "chambres, 5 salles de bain"), ("12", "personnes"), ("Plage privée", "et garage à bateau"), ("3 maisons", "villa, maison d’invités, loge")],
+                    k="<b>Strictement casher.</b> Villa cachérisée pour vous, chef privé, tout ce qui est servi est Chalav Yisrael.", avec="avec Summer Prestige"),
             seau="STRICTEMENT CASHER · CHALAV YISRAEL · SHOMER SHABBAT ·"),
- "es": dict(avec="con Winter Prestige", part="En colaboración con", dispo="Disponibilidad confirmada para sus fechas en cada solicitud.",
+ "es": dict(vi_h2="Nuestra villa", vi_h2_i="en Saint-Tropez", avec="con Winter Prestige", part="En colaboración con", dispo="Disponibilidad confirmada para sus fechas en cada solicitud.",
             btn="Consultar mis fechas", deux="Nuestros dos chalets kosher", deux_i="en los Alpes", co_h2="Nuestro chalet", co_h2_i="en Courchevel",
             da=dict(lieu="Les Deux Alpes", t="Nuestro chalet kosher, al pie de las pistas", alt="El chalet de Les Deux Alpes bajo el cielo azul",
                     s=[("300 m²", "chalet privado"), ("6 + 1", "habitaciones + cuarto del bebé"), ("Hasta 16", "personas"), ("2 min", "de las pistas")],
@@ -55,9 +61,12 @@ T = {
             co=dict(lieu="Courchevel", t="Un chalet kosher en el corazón de Courchevel", alt="El chalet de Courchevel bajo la nieve",
                     s=[("5", "habitaciones con baño"), ("De 10 a 14", "personas"), ("2 piscinas", "climatizadas, interior y exterior"), ("Lanzadera privada", "a las pistas")],
                     k="<b>Estrictamente kosher.</b> Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael."),
+            vi=dict(lieu="Saint-Tropez", t="Villa Beach, una villa kosher a pie de mar", alt="Villa Beach en Saint-Tropez, la piscina y el mar",
+                    s=[("5", "habitaciones, 5 baños"), ("12", "personas"), ("Playa privada", "y garaje para barco"), ("3 casas", "villa, casa de invitados, caseta")],
+                    k="<b>Estrictamente kosher.</b> Villa kosherizada para ustedes, chef privado, todo lo que se sirve es Chalav Yisrael.", avec="con Summer Prestige"),
             seau="ESTRICTAMENTE KOSHER · CHALAV YISRAEL · SHOMER SHABAT ·"),
  # hébreu : jamais « ישראל » (règle n° 1), donc pas de Chalav Yisrael ; lexique de la charte (שומר כשרות)
- "he": dict(avec="עם Winter Prestige", part="בשיתוף עם", dispo="הזמינות מאושרת לתאריכים שלכם בכל פנייה.",
+ "he": dict(vi_h2="הווילה שלנו", vi_h2_i="בסן טרופה", avec="עם Winter Prestige", part="בשיתוף עם", dispo="הזמינות מאושרת לתאריכים שלכם בכל פנייה.",
             btn="לבדוק את התאריכים", deux="שתי הצ'אלות הכשרות שלנו", deux_i="באלפים", co_h2="הצ'אלה שלנו", co_h2_i="בקורשבל",
             da=dict(lieu="לה דז אלפ", t="הצ'אלה הכשרה שלנו, למרגלות המסלולים", alt="הצ'אלה בלה דז אלפ תחת שמיים כחולים",
                     s=[("300 מ\"ר", "צ'אלה פרטית"), ("6 + 1", "חדרי שינה + חדר תינוק"), ("עד 16", "אורחים"), ("2 דק'", "מהמסלולים")],
@@ -65,6 +74,9 @@ T = {
             co=dict(lieu="קורשבל", t="צ'אלה כשרה בלב קורשבל", alt="הצ'אלה בקורשבל תחת השלג",
                     s=[("5", "חדרי שינה עם חדר רחצה"), ("10 עד 14", "אורחים"), ("2 בריכות", "מחוממות, בפנים ובחוץ"), ("הסעה פרטית", "למסלולים")],
                     k="<b>שומר כשרות.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
+            vi=dict(lieu="סן טרופה", t="וילה ביץ׳, וילה כשרה על קו המים", alt="וילה ביץ׳ בסן טרופה, הבריכה והים",
+                    s=[("5", "חדרי שינה, 5 חדרי רחצה"), ("12", "אורחים"), ("חוף פרטי", "ומוסך סירות"), ("3 בתים", "וילה, בית אורחים, בית השומר")],
+                    k="<b>שומר כשרות.</b> הווילה מוכשרת עבורכם, שף פרטי.", avec="עם Summer Prestige"),
             seau="STRICTLY KOSHER · SHOMER SHABBAT · STRICTLY KOSHER · SHOMER SHABBAT ·"),
 }
 PICTOS = {
@@ -80,7 +92,13 @@ CHALETS = {
             q="?i=a&amp;lieu=Les%20Deux%20Alpes&amp;voyage=Ski%20holiday%20with%20a%20chalet"),
  "co": dict(img="/img/chalet/courchevel-ext.jpg", w=1600, h=1067, pictos=["lit", "gens", "eau", "navette"], lien="/kosher-chalet-courchevel/",
             q="?i=a&amp;lieu=Courchevel&amp;voyage=Ski%20holiday%20with%20a%20chalet"),
+ # 19/10 : la villa de Saint-Tropez, marque d'été Summer Prestige (même équipe, même kit, logo soleil)
+ "vi": dict(img="/img/villa/st-tropez-facade.jpg", w=1368, h=912, pictos=["lit", "gens", "eau", "maison"], lien="/kosher-villa-saint-tropez/",
+            q="?i=a&amp;lieu=Saint-Tropez&amp;voyage=Summer%20in%20the%20Alps", marque="sp"),
 }
+MARQUE = {"wp": dict(nom="Winter Prestige", or_="/img/wp-flocon-or.svg", noir="/img/wp-flocon-noir.svg"),
+          "sp": dict(nom="Summer Prestige", or_="/img/sp-symbole-or.svg", noir="/img/sp-symbole-noir.svg")}
+def marque(cle): return MARQUE[CHALETS[cle].get("marque", "wp")]
 
 def pfx(lang): return "" if lang == "en" else f"/{lang}"
 
@@ -92,7 +110,7 @@ def seau(lang, cle):
             f'<circle cx="100" cy="100" r="58" fill="none" stroke="#C9A961" stroke-width="1.5" opacity=".6"/>'
             f'<text fill="#C9A961" font-family="Heebo,sans-serif" font-weight="700" font-size="13" letter-spacing="2" direction="ltr">'
             f'<textPath href="#{i}" textLength="458" lengthAdjust="spacing">{T[lang]["seau"]}</textPath></text>'
-            f'<image href="/img/wp-flocon-or.svg" x="56" y="56" width="88" height="88"/></svg>')
+            f'<image href="{marque(cle)["or_"]}" x="56" y="56" width="88" height="88"/></svg>')
 
 def carte(lang, cle):
     t, c, d = T[lang], CHALETS[cle], T[lang][cle]
@@ -100,9 +118,9 @@ def carte(lang, cle):
                     for p, (a, b) in zip(c["pictos"], d["s"]))
     titre = f'<a href="{pfx(lang)}{c["lien"]}">{d["t"]}</a>' if c["lien"] else d["t"]
     return (f'<article class="kwp-carte"><div class="kwp-photo"><img src="{c["img"]}" alt="{d["alt"]}" width="{c["w"]}" height="{c["h"]}" loading="lazy">'
-            f'{seau(lang, cle)}</div><div class="kwp-corps"><div class="kwp-lieu">{d["lieu"]} · {t["avec"]}</div><h3>{titre}</h3>'
+            f'{seau(lang, cle)}</div><div class="kwp-corps"><div class="kwp-lieu">{d["lieu"]} · {d.get("avec", t["avec"])}</div><h3>{titre}</h3>'
             f'<ul class="kwp-chiffres">{puces}</ul><p class="kwp-casher">{d["k"]}</p><p class="kwp-dispo">{t["dispo"]}</p>'
-            f'<div class="kwp-pied"><img src="/img/wp-flocon-noir.svg" alt="Winter Prestige" title="Winter Prestige" width="46" height="46" loading="lazy">'
+            f'<div class="kwp-pied"><img src="{marque(cle)["noir"]}" alt="{marque(cle)["nom"]}" title="{marque(cle)["nom"]}" width="46" height="46" loading="lazy">'
             f'<a class="btn-noir" href="{pfx(lang)}/plan-your-trip/{c["q"]}">{t["btn"]}</a></div></div></article>')
 
 # Moshé 19/10 : « pas en partenariat avec », « powered by » écrit juste sous « Winter Prestige », comme dans le logo d'origine
@@ -153,6 +171,32 @@ def galerie_co(lang):
                    for i, (f, c) in enumerate(GALERIE_CO))
     return f'<div class="ss wrap galerie-wp"><div class="mosaique" style="margin-top:0">{figs}</div></div>'
 
+GALERIE_VI = [("facade", dict(en="The villa, the pool and the sea", fr="La villa, la piscine et la mer", es="La villa, la piscina y el mar", he="הווילה, הבריכה והים")),
+              ("terrasse", dict(en="The terrace over the water", fr="La terrasse au-dessus de l'eau", es="La terraza sobre el agua", he="המרפסת מעל המים")),
+              ("salon-cuisine", dict(en="The living room, open on the sea", fr="Le salon, ouvert sur la mer", es="El salón, abierto al mar", he="הסלון, פתוח אל הים")),
+              ("chambre-vue-mer", dict(en="One of the four sea-view bedrooms", fr="L'une des quatre chambres vue mer", es="Una de las cuatro habitaciones con vista al mar", he="אחד מארבעת חדרי השינה עם נוף לים")),
+              ("baie", dict(en="The gulf, from the terrace", fr="Le golfe, depuis la terrasse", es="El golfo, desde la terraza", he="המפרץ, מהמרפסת")),
+              ("piscine", dict(en="The heated pool and the jacuzzi", fr="La piscine chauffée et le jacuzzi", es="La piscina climatizada y el jacuzzi", he="הבריכה המחוממת והג'קוזי")),
+              ("veranda", dict(en="The glass lounge, the third living room", fr="La véranda, troisième salon", es="La galería acristalada, el tercer salón", he="המרפסת המזוגגת, הסלון השלישי")),
+              ("hamac", dict(en="The pergola over the sea", fr="La pergola au-dessus de la mer", es="La pérgola sobre el mar", he="הפרגולה מעל הים")),
+              ("garage-bateau", dict(en="The boat garage and its ramp", fr="Le garage à bateau et sa rampe", es="El garaje para barco y su rampa", he="מוסך הסירות והרמפה")),
+              ("salle-de-bain-vue-mer", dict(en="The bathroom over the sea", fr="La salle de bain sur la mer", es="El baño sobre el mar", he="חדר הרחצה מעל הים")),
+              ("salon-invites", dict(en="The guest house", fr="La maison d'invités", es="La casa de invitados", he="בית האורחים")),
+              ("portail", dict(en="The gate", fr="Le portail", es="El portón", he="השער"))]
+
+def galerie_vi(lang):
+    figs = "".join(f'<figure{" class=" + chr(34) + "large" + chr(34) if i == 0 else ""}><img src="/img/villa/st-tropez-{f}.jpg" alt="{c[lang]}" loading="lazy"><figcaption>{c[lang]}</figcaption></figure>'
+                   for i, (f, c) in enumerate(GALERIE_VI))
+    return f'<div class="ss wrap galerie-wp"><div class="mosaique" style="margin-top:0">{figs}</div></div>'
+
+def hero_sp(s):
+    """Logo Summer Prestige en grand dans la bannière (même place que le logo Winter des pages hiver), page crème."""
+    s = re.sub(r"<!--KIT-WP:hero-->.*?<!--/KIT-WP:hero-->", "", s, flags=re.S)
+    s = re.sub(r'\s*<img class="lead3-wp"[^>]*>', "", s)
+    i = s.find('<div class="lead3-bloc">'); assert i >= 0
+    i += len('<div class="lead3-bloc">')
+    return s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><img src="/img/sp-long-or.svg" alt="Summer Prestige, {POWERED}" width="1136" height="327"></div>') + s[i:]
+
 def lien_tous(lang): return f'<p class="kwp-tous"><a class="pill" href="{pfx(lang)}/kosher-chalets/">{NAV_CH[lang][1]}</a></p>'
 
 def mini(lang, sauf=None):
@@ -181,6 +225,12 @@ def page(slug, lang):
     elif slug == "kosher-chalets":
         s = poser(s, "hub", f'<section class="ss wrap kwp kwp-hub"><div class="kwp-cartes">{carte(lang, "da")}{carte(lang, "co")}</div>{bandeau(lang)}</section>',
                   apres='<section class="ss wrap lead-intro"')
+    elif slug == "kosher-villa-saint-tropez":
+        s = poser(s, "galerie", galerie_vi(lang), apres='<section class="hero lead-hero3"')
+        s = hero_sp(s)
+    elif slug == "summer-in-the-alps-jewish-families":
+        s = poser(s, "vi", f'<section class="ss wrap kwp"><h2>{t["vi_h2"]} <i>{t["vi_h2_i"]}</i></h2>'
+                           f'<div class="kwp-cartes kwp-seule">{carte(lang, "vi")}</div></section>', apres='<section class="ss wrap lead-intro"')
     elif slug == "kosher-chalet-courchevel":
         s = poser(s, "galerie", galerie_co(lang), apres='<section class="hero lead-hero3"')
         s = poser(s, "bandeau", f'<section class="ss wrap kwp kwp-seul-bandeau">{bandeau(lang)}</section>', avant='<section class="ss lead-final"')
@@ -428,7 +478,8 @@ def css():
 if __name__ == "__main__":
     fichiers(); n = css()
     for slug in dict.fromkeys(("kosher-les-deux-alpes", "kosher-courchevel", "alps", "kosher-ski-holidays-french-alps", "kosher-chalet-les-deux-alpes",
-                               "", "kosher-chalets", "kosher-chalet-courchevel", *STATIONS_SANS_CHALET, *HIVER)):
+                               "", "kosher-chalets", "kosher-chalet-courchevel", "kosher-villa-saint-tropez", "summer-in-the-alps-jewish-families",
+                               *STATIONS_SANS_CHALET, *HIVER)):
         for lang in T: n += page(slug, lang)
     for f in sorted(RACINE.glob("**/index.html")):
         r = f.relative_to(RACINE).as_posix()
