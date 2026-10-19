@@ -840,11 +840,15 @@ body.menu-ouvert{overflow:hidden}
 /* 19/10 : une fois la premiere question passee, la question remonte en haut de l'ecran (plus de titre de page ni de bandeau au-dessus) */
 body:has(#formDemande.avance) .demande-hero,body:has(#formDemande.avance) .strip{display:none!important}
 body:has(#formDemande.avance) .demande-hero ~ .ss.demande{margin-top:8px}
-/* cases compactes pour les listes longues : une pastille par choix, sans pictogramme */
-.demande .dm-chips.mini{display:flex;flex-wrap:wrap;gap:6px}
-.demande .dm-chips.mini label{flex-direction:row;align-items:center;min-height:42px;padding:8px 14px;border-radius:999px;font-size:14.5px}
-.demande .dm-chips.mini .dm-ic,.demande .dm-chips.mini label::before{display:none}
-.demande .dm-chips.mini label:has(input:checked){background:var(--encre);border-color:var(--encre);color:var(--blanc)}
+/* 19/10 (Moshe : « les pills qui vont pas ensemble, l'une en dessous de l'autre ») : listes compactes en deux colonnes
+   a coches, sans cadre ni pastille (regle Mishpacha : liste a coches sans cadre) ; un seul choix = pleine largeur */
+.demande .dm-chips.mini{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
+.demande .dm-chips.mini label{display:flex;flex-direction:row;align-items:center;gap:10px;min-height:46px;padding:8px 0;border:0;border-bottom:1px solid rgba(28,27,31,.14);border-radius:0;background:transparent;font-size:14.5px;font-weight:500;line-height:1.2;overflow:visible}
+.demande .dm-chips.mini .dm-ic{display:none}
+.demande .dm-chips.mini label::before{display:block;position:static;flex:none;width:18px;height:18px}
+.demande .dm-chips.mini label:has(input:checked){background:transparent;border-color:rgba(28,27,31,.14);color:var(--encre)}
+.demande .dm-chips.mini:has(> label:only-child){grid-template-columns:1fr}
+@media (min-width:700px){.demande .dm-chips.mini{grid-template-columns:repeat(3,1fr);gap:0 24px}}
 .dm-shabbat{font-size:14px;font-weight:600;color:var(--vert)}
 .dm-shabbat[hidden]{display:none}
 .dm-aide{margin:2px 0 0;font-size:13.5px;opacity:.7}
@@ -1081,7 +1085,7 @@ details.dm-pli[open] summary::after{transform:rotate(-135deg)}
   .demande .dm-chips:not(.mini) label{flex-direction:row;align-items:center;gap:9px;min-height:50px;padding:9px 34px 9px 11px;font-size:14px;line-height:1.2;border-radius:12px}
   .demande .dm-chips:not(.mini) .dm-ic{width:22px;height:22px}
   .demande .dm-chips:not(.mini) label::before{top:50%;transform:translateY(-50%);inset-inline-end:10px;width:16px;height:16px}
-  .demande .dm-chips.mini{gap:5px}
+  .demande .dm-chips.mini{gap:0 16px}
   .demande .dm-chips.mini label{min-height:34px;padding:6px 11px;font-size:13.5px}
   .dm-tuile{min-height:96px;padding:9px 10px}
   .dm-tuile img{width:36px;height:36px}
