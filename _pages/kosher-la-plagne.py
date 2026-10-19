@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher La Plagne: Chef, Shabbat and Minyan",
   desc="Kosher La Plagne across its 11 villages: private chef in your chalet, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One written quote.",
   h1="La Plagne, strictly kosher", ital="11 villages, one request for the kosher side",
-  intro="La Plagne spreads over 11 villages, from Champagny-en-Vanoise in the valley to Plagne Aime 2000 at about 2,100 m, and joins Les Arcs through the Vanoise Express to form the 425 km Paradiski area. Mishpacha Tours organises the kosher side of your week here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat before candle lighting, the holidays, and a minyan with a Sefer Torah for your dates. One request, one written quote.",
+  intro="La Plagne spreads over 11 villages, up to Plagne Aime 2000 at about 2,100 m. It joins Les Arcs in the 425 km Paradiski area. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["11 villages, up to about 2,100 m", "Paradiski, 425 km with Les Arcs", "About 2 h 15 from Lyon airport", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),

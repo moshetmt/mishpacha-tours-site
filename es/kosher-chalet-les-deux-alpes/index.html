@@ -84,13 +84,13 @@
     <p class="fil lead-fil"><a href="/es/">Inicio</a> / <a href="/es/alps/">Los Alpes, estrictamente kosher</a> / Un chalé kosher en Les Deux Alpes</p>
     <div class="lead3-bloc"><!--KIT-WP:hero--><div class="kwp-hero-wp"><img src="/img/wp-long-or-powered.svg" alt="Winter Prestige, Powered by Mishpacha Tours" width="1222" height="430"></div><!--/KIT-WP:hero-->
     <h1>Un chalé kosher en Les Deux Alpes<br><i>300 m², 16 camas, a 2 minutos de las pistas</i></h1>
-    <p>Un chalet de 300 m² en Les Deux Alpes, 6 habitaciones y 16 camas, a 2 minutos de las pistas: chef privado kosher o comidas entregadas.</p>
+    <p>Un chalé de 300 m² en Les Deux Alpes, a 2 minutos de las pistas.</p>
     <div class="lead3-btns"><a class="btn-hero" href="/es/plan-your-trip/?i=a&amp;lieu=Les%20Deux%20Alpes&amp;voyage=Ski%20holiday%20with%20a%20chalet">Preparar mi viaje</a><a class="lead3-wa" href="https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20una%20visita%20jud%C3%ADa%20privada%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A" rel="noopener"><svg><use href="#wa"/></svg>O escríbanos por WhatsApp</a></div>
     </div>
   </div>
 </section>
 
-<section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/picto-hassid-vert.svg" alt="" width="797" height="806" loading="lazy"><div><p class="dk-intro">Un chalet de 300 m² en Les Deux Alpes, 6 habitaciones y 16 camas, a 2 minutos de las pistas: chef privado kosher o comidas entregadas, Shabat y fiestas organizados, minyan a petición.</p><button class="dk dk-plus dk-plus-lead" type="button" aria-expanded="false" onclick="this.previousElementSibling.classList.add('dk-ouvert');this.remove()">Leer más</button></div></section>
+<section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/picto-hassid-vert.svg" alt="" width="797" height="806" loading="lazy"><div><p>Seis habitaciones y 16 camas, para tres familias pequeñas o una grande. Chef privado kosher en el chalé o comidas entregadas; Shabat y las fiestas con minyan y Sefer Torá, según las familias presentes. Una solicitud, un presupuesto por escrito.</p></div></section>
 
 <section class="ss wrap lead-offre">
   <h2>Dónde duerme, qué come, <i>dónde esquía</i></h2>
@@ -197,6 +197,7 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
 <script src="/js/anim.js" defer></script>
+
 <!--MOB-ALPES--><script data-mob-alpes>(function(){if(!matchMedia('(max-width:899px)').matches)return;var H=document.documentElement;H.classList.add('mob-alpes');
 document.querySelectorAll('.dk-cartes').forEach(function(ul){var lis=[].slice.call(ul.children);lis.forEach(function(li,i){var b=li.querySelector(':scope > b');if(!b)return;
 var corps=document.createElement('span');corps.className='dk-corps';var n=b.nextSibling;while(n){var s=n.nextSibling;corps.appendChild(n);n=s}

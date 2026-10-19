@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Megève: Chef, Shabbat and Minyan",
   desc="Kosher Megève and its 445 km of linked pistes: private chef in your chalet, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One written quote.",
   h1="Megève, strictly kosher", ital="445 km of linked pistes, one request for the kosher side",
-  intro="Megève sits at about 1,050 m in Haute-Savoie and opens onto the Évasion Mont-Blanc ski area, 445 km of pistes across seven linked resorts. Mishpacha Tours organises the kosher side of your week here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat before candle lighting, the holidays, and a minyan with a Sefer Torah for your dates. One request, one written quote.",
+  intro="Megève sits at about 1,050 m in Haute-Savoie, on the Évasion Mont-Blanc ski area of 445 km of pistes. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,050 m, Évasion Mont-Blanc, 445 km of pistes", "About 2 h 10 from Lyon, about 1 h 15 from Geneva", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),

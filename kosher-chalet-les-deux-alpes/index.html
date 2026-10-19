@@ -83,13 +83,13 @@
     <p class="fil lead-fil"><a href="../">Home</a> / <a href="../alps/">The Alps, strictly kosher</a> / A kosher chalet in Les Deux Alpes</p>
     <div class="lead3-bloc"><!--KIT-WP:hero--><div class="kwp-hero-wp"><img src="/img/wp-long-or-powered.svg" alt="Winter Prestige, Powered by Mishpacha Tours" width="1222" height="430"></div><!--/KIT-WP:hero-->
     <h1>A kosher chalet in Les Deux Alpes<br><i>300 m², 16 beds, 2 minutes from the slopes</i></h1>
-    <p>A chalet of 300 m² in Les Deux Alpes, 6 bedrooms and 16 beds, 2 minutes from the slopes: private kosher chef or delivered meals.</p>
+    <p>A chalet of 300 m² in Les Deux Alpes, 2 minutes from the slopes.</p>
     <div class="lead3-btns"><a class="btn-hero" href="/plan-your-trip/?i=a&amp;lieu=Les%20Deux%20Alpes&amp;voyage=Ski%20holiday%20with%20a%20chalet">Plan my trip</a><a class="lead3-wa" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A" rel="noopener"><svg><use href="#wa"/></svg>Or message us on WhatsApp</a></div>
     </div>
   </div>
 </section>
 
-<section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/picto-hassid-vert.svg" alt="" width="797" height="806" loading="lazy"><div><p class="dk-intro">A chalet of 300 m² in Les Deux Alpes, 6 bedrooms and 16 beds, 2 minutes from the slopes: private kosher chef or delivered meals, Shabbat and the holidays organised, a minyan on request.</p><button class="dk dk-plus dk-plus-lead" type="button" aria-expanded="false" onclick="this.previousElementSibling.classList.add('dk-ouvert');this.remove()">Read more</button></div></section>
+<section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/picto-hassid-vert.svg" alt="" width="797" height="806" loading="lazy"><div><p>Six bedrooms and 16 beds, for three small families or one large one. A private chef cooks kosher meals in the chalet, or meals are delivered; Shabbat and the holidays come with a minyan and a Sefer Torah, depending on the families present. One request, one written quote.</p></div></section>
 
 <section class="ss wrap lead-offre">
   <h2>Where you sleep, what you eat, <i>where you ski</i></h2>
@@ -196,6 +196,7 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
 <script src="/js/anim.js" defer></script>
+
 <!--MOB-ALPES--><script data-mob-alpes>(function(){if(!matchMedia('(max-width:899px)').matches)return;var H=document.documentElement;H.classList.add('mob-alpes');
 document.querySelectorAll('.dk-cartes').forEach(function(ul){var lis=[].slice.call(ul.children);lis.forEach(function(li,i){var b=li.querySelector(':scope > b');if(!b)return;
 var corps=document.createElement('span');corps.className='dk-corps';var n=b.nextSibling;while(n){var s=n.nextSibling;corps.appendChild(n);n=s}

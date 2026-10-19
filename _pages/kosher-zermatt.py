@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Zermatt: Chef, Shabbat and Minyan",
   desc="Kosher Zermatt under the Matterhorn, car-free, in winter and summer: private chef in your chalet, delivered meals, Shabbat, holidays and a minyan. One quote.",
   h1="Zermatt, strictly kosher", ital="under the Matterhorn, in a village without cars",
-  intro="Zermatt sits at about 1,600 m in the Valais, at the foot of the Matterhorn, and no petrol car drives into the village: you leave the car in Täsch and take the train. The ski area climbs to the Matterhorn Glacier Paradise at 3,883 m and runs across the mountain into Cervinia, in Italy. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
+  intro="Zermatt sits at about 1,600 m in the Valais, at the foot of the Matterhorn. You leave the car in Täsch and take the train. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,600 m, glacier 3,883 m", "Car-free: train from Täsch", "Winter, and summer skiing on the glacier", "Checked 16 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),

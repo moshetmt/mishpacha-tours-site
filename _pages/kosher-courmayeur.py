@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Courmayeur: Chef, Shabbat and Minyan",
   desc="Kosher Courmayeur, on the Italian side of Mont Blanc: private chef in your chalet, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One quote.",
   h1="Courmayeur, strictly kosher", ital="on the Italian side of Mont Blanc",
-  intro="Courmayeur sits at about 1,225 m in the Aosta Valley, where the Mont Blanc tunnel comes out on the Italian side. Its pedestrian centre is a short walk from the lifts, the ski area climbs to about 2,750 m, and the Skyway Monte Bianco cable car rises to Punta Helbronner at 3,466 m. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
+  intro="Courmayeur sits at about 1,225 m in the Aosta Valley, where the Mont Blanc tunnel comes out. Its centre is a short walk from the lifts. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,225 m, Punta Helbronner 3,466 m", "About 2 h from Geneva, about 3 h from Lyon", "Winter and summer", "Checked 16 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),

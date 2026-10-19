@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Crans-Montana: Chef, Shabbat and Minyan",
   desc="Kosher Crans-Montana, Valais, in winter and summer: private chef in your chalet, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One quote.",
   h1="Crans-Montana, strictly kosher", ital="on the sunny plateau above the Rhône valley",
-  intro="Crans-Montana sits on a south-facing plateau at about 1,500 m, above Sierre in the Valais, and its glacier at Plaine Morte reaches 2,927 m. The plateau fills with skiers in winter and with golfers and walkers in summer, and the Swiss border is the only formality between France and your chalet. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
+  intro="Crans-Montana sits on a south-facing plateau at about 1,500 m in the Valais, with a glacier reaching 2,927 m. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,500 m, Plaine Morte 2,927 m", "About 2 h from Geneva, 3 h 30 and more from Lyon", "Winter and summer", "Checked 16 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),

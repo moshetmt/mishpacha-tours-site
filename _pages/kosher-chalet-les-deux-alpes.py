@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Chalet in Les Deux Alpes, 16 Beds",
   desc="A 300 m² kosher chalet in Les Deux Alpes: 6 bedrooms, 16 beds, 2 minutes from the slopes. Private chef, Shabbat and holidays, everything organised. One quote.",
   h1="A kosher chalet in Les Deux Alpes", ital="300 m², 16 beds, 2 minutes from the slopes",
-  intro="A chalet of 300 m² in Les Deux Alpes (Isère, resort at 1,650 m), with 6 bedrooms and 16 beds: room for three small families or one large family. It stands 2 minutes from the slopes, with direct access to the ski area. Kosher meals are cooked in the chalet by a private chef or delivered to it. Shabbat and the holidays are organised, with a minyan and a Sefer Torah depending on the families present. Our team organises the whole stay, from the flights to the extras. One request, one written quote.",
+  intro="A chalet of 300 m² in Les Deux Alpes, 2 minutes from the slopes. Six bedrooms and 16 beds, for three small families or one large one. A private chef cooks kosher meals in the chalet, or meals are delivered; Shabbat and the holidays come with a minyan and a Sefer Torah, depending on the families present. One request, one written quote.",
   chips=["300 m², 6 bedrooms, 16 beds", "2 minutes from the slopes", "Chef, Shabbat, holidays", "On written quote"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),

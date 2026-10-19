@@ -91,10 +91,13 @@ def page(path):
     s = re.sub(re.escape(MARK) + r".*?</script>\n?", "", s, flags=re.S)
     s = re.sub(r'(<section class="ss wrap lead-intro">.*?<div><p) class="dk-intro( dk-ouvert)?"', r"\1", s, count=1, flags=re.S)
     s = re.sub(r'(<section class="ss wrap lead-intro">.*?<div><p>.*?</p>)<button class="dk dk-plus dk-plus-lead"[^>]*>[^<]*</button>', r"\1", s, count=1, flags=re.S)
-    if not STRIP:
+    mi = re.search(r'<section class="ss wrap lead-intro">.*?<div><p[^>]*>(.*?)</p>', s, re.S)
+    longue = bool(mi) and len(re.sub(r"<[^>]+>", "", mi.group(1)).split()) > 70   # intro courte (19/10) : rien à replier
+    if not STRIP and longue:
         s = re.sub(r'(<section class="ss wrap lead-intro">.*?<div><p)(>.*?</p>)',
                    lambda m: m.group(1) + ' class="dk-intro"' + m.group(2) + '<button class="dk dk-plus dk-plus-lead" type="button" aria-expanded="false" onclick="this.previousElementSibling.classList.add(\'dk-ouvert\');this.remove()">' + MORE[lang] + '</button>',
                    s, count=1, flags=re.S)
+    if not STRIP:
         s = s.replace("</body>", MARK + JS + "\n</body>", 1)
     if s != o: io.open(path, "w", encoding="utf-8", newline="").write(s); return 1
     return 0

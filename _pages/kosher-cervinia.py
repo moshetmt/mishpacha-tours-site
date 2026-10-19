@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Cervinia: Chef, Shabbat, Minyan, Matterhorn",
   desc="Kosher Cervinia at 2,050 m, under the Matterhorn, with the ski link to Zermatt: private chef in your chalet, delivered meals, Shabbat, minyan. One quote.",
   h1="Cervinia, strictly kosher", ital="under the Matterhorn, on the Italian side",
-  intro="Cervinia sits at about 2,050 m at the head of the Valtournenche, in the Aosta Valley in Italy, and its cableway climbs to the Plateau Rosa glacier at 3,480 m. From there the slopes continue to Zermatt in Switzerland, so one lift pass covers two countries. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
+  intro="Cervinia sits at about 2,050 m in the Aosta Valley, and its slopes continue to Zermatt in Switzerland. One lift pass covers two countries. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 2,050 m, glacier at 3,480 m", "About 2 h from Turin, 2 h 15 from Milan-Malpensa", "Late October to early May", "Checked 16 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),

@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Alpe d'Huez: Chef, Shabbat, Minyan",
   desc="Kosher Alpe d'Huez at about 1,860 m, with a long kosher summer history: private chef in your chalet, delivered meals, Shabbat, minyan and Sefer Torah.",
   h1="Alpe d'Huez, strictly kosher", ital="Isère, about 1,860 m, with a long kosher summer history",
-  intro="Alpe d'Huez sits in Isère at about 1,860 m, the main resort of the Grand Domaine, and its lifts run from 5 December 2026 to 25 April 2027 according to the resort. Kosher tourism made up nearly 20 % of its August clientele in 2019, per the tourist office director. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
+  intro="Alpe d'Huez sits in Isère at about 1,860 m, the main resort of the Grand Domaine. Its lifts run from 5 December 2026 to 25 April 2027. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,860 m, Grand Domaine", "About 2 h 20 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),

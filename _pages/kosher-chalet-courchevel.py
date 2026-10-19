@@ -6,7 +6,7 @@ PAGE = dict(
   title="Kosher Chalet in Courchevel, Pools and Chef",
   desc="A kosher chalet in the heart of Courchevel: 5 en-suite bedrooms, heated pools and hammam, a private chef, Shabbat and a minyan. One written quote.",
   h1="A kosher chalet in Courchevel", ital="5 suites, heated pools, a private chef",
-  intro="A chalet in the heart of Courchevel, in the 3 Valleys, with five bedrooms, each with its own bathroom, for 10 to 14 guests. Heated pool indoors and outdoors, hammam, gym and home cinema. A private shuttle takes you to the foot of the lifts from 9 am to 6 pm. Our team koshers the kitchen before you arrive, a private chef cooks every meal, and Shabbat comes with a minyan and a Sefer Torah brought to the chalet. One request, one written quote.",
+  intro="A chalet in the heart of Courchevel, in the 3 Valleys. Five en-suite bedrooms for 10 to 14 guests, heated pools, a hammam and a private shuttle to the lifts. Our team koshers the kitchen, a private chef cooks every meal, and Shabbat comes with a minyan and a Sefer Torah. One request, one written quote.",
   chips=["5 en-suite bedrooms, 10 to 14 guests", "Heated pools, hammam", "Private shuttle to the lifts", "On written quote"],
   illus="flat-ski.png",
   crumb=("../kosher-chalets/", "Our kosher chalets"),

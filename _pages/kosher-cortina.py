@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Cortina: Chef, Shabbat and Minyan",
   desc="Kosher Cortina d'Ampezzo in the Dolomites, winter and summer: private chef in your chalet, delivered meals, Shabbat, holidays, minyan. One request, one quote.",
   h1="Cortina d'Ampezzo, strictly kosher", ital="the Dolomites, in winter and in summer",
-  intro="Cortina d'Ampezzo sits at about 1,224 m in a bowl of pale Dolomite rock, in the Veneto, and it hosted the Winter Olympics in 1956 and again in February 2026. The Dolomites are a World Heritage landscape, with skiing on the Tofana, Faloria and Cinque Torri in winter and high trails and lakes in summer. Mishpacha Tours organises the kosher side of your stay: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
+  intro="Cortina d'Ampezzo sits at about 1,224 m in the Dolomites, and hosted the Winter Olympics in 1956 and February 2026. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,224 m, Tofana di Mezzo 3,244 m", "About 2 h from Venice airport", "Winter and summer", "Checked 16 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),

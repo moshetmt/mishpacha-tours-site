@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Alps: Chef, Shabbat and Minyan",
   desc="Strictly kosher in the Alps: a private chef in your chalet, delivered meals, Shabbat, holidays, a minyan and a Sefer Torah. One request, one quote.",
   h1="The Alps, strictly kosher", ital="ski in winter, lakes in summer, one request for everything",
-  intro="You have your resort, your dates and your apartment or chalet. From the French resorts to Switzerland and Italy: one kosher team, one request, one quote. Mishpacha Tours takes care of the kosher: a private chef who cooks in your chalet, hot meals delivered to your door for the week, Shabbat meals with challot and wine, Hanukkah, Purim or Pesach in the mountains, a minyan and a Sefer Torah when several families share a resort. Our kosher team is based in the Alps, in Isère, Savoie and the Hautes-Alpes. You send your resort, your dates and your group. You get one answer and one written quote, the same day.",
+  intro="You have your resort, your dates and your apartment or chalet. From the French resorts to Switzerland and Italy, one kosher team takes care of everything: a private chef in your chalet or hot meals delivered, Shabbat and the holidays, a minyan with a Sefer Torah. Send your resort, your dates and your group: one written quote, the same day.",
   chips=["Chef, meals, Shabbat, minyan in your resort", "Val Thorens, Courchevel, Megève, Alpe d'Huez, Les Deux Alpes", "Winter and summer", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),

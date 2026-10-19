@@ -4,7 +4,7 @@ PAGE = dict(
   title="Kosher Chamonix: Chef, Shabbat and Minyan",
   desc="Kosher Chamonix under Mont Blanc, in winter and summer: private chef in your chalet, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One quote.",
   h1="Chamonix, strictly kosher", ital="under Mont Blanc, in winter and in summer",
-  intro="Chamonix sits at about 1,040 m in the Arve valley, at the foot of Mont Blanc, and the Aiguille du Midi cable car climbs from the town to 3,842 m. The valley is busy in winter for skiing and again in summer for walking and the high mountain. Mishpacha Tours organises the kosher side of your stay here: a private chef in your chalet, hot meals delivered to your apartment, Shabbat, the holidays, and a minyan and a Sefer Torah for your dates. One request, one written quote.",
+  intro="Chamonix sits at about 1,040 m in the Arve valley, at the foot of Mont Blanc. The Aiguille du Midi cable car climbs to 3,842 m. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,040 m, Aiguille du Midi 3,842 m", "About 1 h 15 from Geneva, 2 h 15 and more from Lyon", "Winter and summer", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),
