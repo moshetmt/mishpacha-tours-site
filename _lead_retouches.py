@@ -11,7 +11,7 @@ LANGS = ('en', 'fr', 'es', 'he')
 BTN = {'en': 'Plan my trip', 'fr': 'Préparer mon voyage', 'es': 'Preparar mi viaje', 'he': 'לתכנן את הטיול'}
 BTN_VAN = {'en': 'Request a van', 'fr': 'Demander un van', 'es': 'Pedir una furgoneta', 'he': 'להזמין ואן'}
 WA = {'en': 'Or message us on WhatsApp', 'fr': 'Ou écrivez-nous sur WhatsApp', 'es': 'O escríbanos por WhatsApp', 'he': 'או כתבו לנו בוואטסאפ'}
-KOSHER = {'en': ('Strictly kosher', 'Strictly kosher, Chalav Yisrael'), 'fr': ('Strictement casher', "Strictement casher, 'Halav Israël"),
+KOSHER = {'en': ('Strictly kosher', 'Strictly kosher, Chalav Yisrael'), 'fr': ('Strictement casher', "Strictement casher, 'Halav Yisrael"),
           'es': ('Estrictamente kosher', 'Estrictamente kosher, Chalav Yisrael'), 'he': ('שומר כשרות', 'שומר כשרות, חלב ישראל')}
 PHOTO_HIVER = {'stock/alpes-ski.jpg': 'chalet/wp-soleil.jpg'}
 CSS = ('/* LEAD retouches 15/10 : formulaire d\'abord, WhatsApp en lien */\n'

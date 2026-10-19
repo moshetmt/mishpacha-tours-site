@@ -17,7 +17,7 @@ NEW = {
 "Swimming pool": ("Piscine", "Piscina", "בריכה"),
 "Meals delivered, ready to heat": ("Repas livrés, prêts à réchauffer", "Comidas entregadas, listas para calentar", "ארוחות במשלוח, מוכנות לחימום"),
 "Delivered meals arrive ready to heat, three times a week: on arrival, midweek and before Shabbat.": ("Les repas livrés arrivent prêts à réchauffer, trois fois par semaine : à l'arrivée, en milieu de semaine et avant Shabbat.", "Las comidas llegan listas para calentar, tres veces por semana: a la llegada, a mitad de semana y antes de Shabat.", "הארוחות מגיעות מוכנות לחימום, שלוש פעמים בשבוע: בהגעה, באמצע השבוע ולפני שבת."),
-"Everything we serve is Chalav Yisrael. Tick what else you keep. We follow it exactly.": ("Tout ce que nous servons est 'Halav Israël. Cochez ce que vous suivez en plus. Nous l'appliquons à la lettre.", "Todo lo que servimos es Chalav Yisrael. Marque lo demás que usted sigue. Lo aplicamos al pie de la letra.", "כל מה שאנחנו מגישים הוא חלב ישראל. סמנו מה עוד אתם שומרים. נקפיד על כך."),
+"Everything we serve is Chalav Yisrael. Tick what else you keep. We follow it exactly.": ("Tout ce que nous servons est 'Halav Yisrael. Cochez ce que vous suivez en plus. Nous l'appliquons à la lettre.", "Todo lo que servimos es Chalav Yisrael. Marque lo demás que usted sigue. Lo aplicamos al pie de la letra.", "כל מה שאנחנו מגישים הוא חלב ישראל. סמנו מה עוד אתם שומרים. נקפיד על כך."),
 "Taxi rides in the resort": ("Taxis en station", "Taxis en la estación", "מוניות באתר"),
 "A wedding on the slopes": ("Un mariage sur les pistes", "Una boda en las pistas", "חתונה על המסלולים"),
 # 15/10 : un pictogramme par choix, libelles courts, ecran Activites (FR ES HE par Claude, a faire relire)
@@ -332,7 +332,7 @@ for _k, _v in {
     "Start typing, or write “not sure yet”": ("Commencez à taper, ou écrivez « pas encore choisi »", "Empiece a escribir, o escriba «aún no lo sé»", "התחילו להקליד, או כתבו ”עוד לא החלטנו“"),
     "Shabbat during your stay:": ("Shabbat pendant le séjour :", "Shabbat durante la estancia:", "שבת במהלך השהות:"),
     "Meals, Shabbat and prayer": ("Repas, Shabbat et prière", "Comidas, Shabbat y rezo", "ארוחות, שבת ותפילה"),
-    "Pick one meal option. Everything we serve is Chalav Yisrael.": ("Choisissez une formule de repas. Tout ce que nous servons est 'Halav Israël.", "Elija una opción de comidas. Todo lo que servimos es Jalav Israel.", "בחרו אפשרות ארוחות אחת. כל מה שאנחנו מגישים חלב ישראל."),
+    "Pick one meal option. Everything we serve is Chalav Yisrael.": ("Choisissez une formule de repas. Tout ce que nous servons est 'Halav Yisrael.", "Elija una opción de comidas. Todo lo que servimos es Jalav Yisrael.", "בחרו אפשרות ארוחות אחת. כל מה שאנחנו מגישים חלב ישראל."),
     "Kashrut": ("Cacherout", "Kashrut", "כשרות"),
     "Minyan": ("Minyan", "Minyan", "מניין"),
     "Other needs": ("Autres besoins", "Otras necesidades", "צרכים נוספים"),

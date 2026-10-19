@@ -208,8 +208,19 @@ def page(slug, lang):
 
 # ---------- pages hiver et Alpes en mixte (réunion du 19/10) ----------
 # Contenu aux couleurs du kit v7 (noir, or, givre) et logo Winter Prestige en grand dans la bannière ;
-# menu, pied, formulaire lead-final et boutons restent Mishpacha. Signature : « In partnership with ».
-HIVER = ["alps"]
+# menu, pied, formulaire lead-final et boutons restent Mishpacha. Signature : logo avec « Powered by Mishpacha Tours ».
+# Moshé 19/10 « oui étends » : /alps/, les 17 pages station, services et ski.
+HIVER = ["alps", "kosher-courchevel", "kosher-les-deux-alpes", *STATIONS_SANS_CHALET, "kosher-services-french-alps", "kosher-ski-holidays-french-alps"]
+# pastilles FR/ES/HE : la Suisse et l'Italie manquaient aux traductions (Moshé 19/10 « oui ajoute »)
+PAYS_ST = {
+    "fr": [("En Suisse", [("kosher-zermatt", "Zermatt"), ("kosher-st-moritz", "Saint-Moritz"), ("kosher-crans-montana", "Crans-Montana")]),
+           ("En Italie", [("kosher-cervinia", "Cervinia"), ("kosher-courmayeur", "Courmayeur"), ("kosher-cortina", "Cortina d’Ampezzo")])],
+    "es": [("En Suiza", [("kosher-zermatt", "Zermatt"), ("kosher-st-moritz", "St. Moritz"), ("kosher-crans-montana", "Crans-Montana")]),
+           ("En Italia", [("kosher-cervinia", "Cervinia"), ("kosher-courmayeur", "Courmayeur"), ("kosher-cortina", "Cortina d'Ampezzo")])],
+    "he": [("בשוויץ", [("kosher-zermatt", "צרמט"), ("kosher-st-moritz", "סנט מוריץ"), ("kosher-crans-montana", "קראן מונטנה")]),
+           ("באיטליה", [("kosher-cervinia", "צרביניה"), ("kosher-courmayeur", "קורמאייר"), ("kosher-cortina", "קורטינה")])],
+}
+PIED_WP = " · with Winter Prestige"  # pied des pages hiver : notre logo reste, la ligne nomme le partenaire (Moshé 19/10)
 
 def hiver(s, lang):
     s = re.sub(r"<body(?![^>]*kwp-hiver)([^>]*)>", lambda m: '<body class="kwp-hiver"%s>' % m.group(1)
@@ -219,7 +230,15 @@ def hiver(s, lang):
     if i >= 0:
         i += len('<div class="lead3-bloc">')
         s = s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><img src="/img/wp-long-or-powered.svg" alt="Winter Prestige, {POWERED}" width="1222" height="430"></div>') + s[i:]
-    return stations(s)
+    s = re.sub(r'(<p class="logo-pied">.*?<small>)([^<]*?)(?:' + re.escape(PIED_WP) + r')?(</small>)', lambda m: m.group(1) + m.group(2) + PIED_WP + m.group(3), s, count=1, flags=re.S)
+    s = stations(s)
+    i = s.find('<!--KIT-WP:stations-->')
+    if i >= 0 and lang in PAYS_ST and "kosher-zermatt/" not in s[i:s.find('<!--/KIT-WP:stations-->', i)]:
+        j = s.find('</ul>', s.find('class="kwp-pastilles"', i))
+        ajout = "".join(f'<li class="kwp-pays">{pays}</li>' + "".join(f'<li><a href="{pfx(lang)}/{u}/">{n}</a></li>' for u, n in st)
+                        for pays, st in PAYS_ST[lang])
+        s = s[:j] + ajout + s[j:]
+    return s
 
 def stations(s):
     """Carte « Station par station » (liste de liens) + carte « Toute autre station » sortent de la grille :
