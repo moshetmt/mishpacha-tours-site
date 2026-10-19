@@ -397,6 +397,11 @@ for _k, _v in {
 }.items():
     NEW.setdefault(_k, _v)
 
+for _k, _v in {
+    "{n} selected": ("{n} choisis", "{n} elegidos", "{n} נבחרו"),
+}.items():
+    NEW.setdefault(_k, _v)
+
 def t(en, lang):
     if lang == "en": return en
     i = LANGS.index(lang) - 1

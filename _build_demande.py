@@ -193,6 +193,10 @@ def formulaire(lang):
             out.append(f'<button type="button" data-v="{v}">{v}</button>')
         return f'<div class="dm-auto"{battr(b)}{sattr(sa)} data-for="{id_}" hidden>' + "".join(out) + "</div>"
     def si(cond, corps): return f'<div data-si="{esc(cond)}" hidden>{corps}</div>'
+    def pli(titre, corps, b="", sa=""):
+        """Liste facultative repliee : un titre a toucher, le nombre de choix coches en badge (compactage du 20/10)."""
+        return (f'<details class="dm-pli"{battr(b)}{sattr(sa)}><summary>{E(titre)}<span class="dm-pli-n" data-t="{E("{n} selected")}" hidden></span></summary>'
+                f'<div class="dm-pli-c">{corps}</div></details>')
     def etape(id_, titres, aide, corps, cls="", deco="", deco_t="", sur=""):
         """titres : texte EN, ou liste de (texte EN, branches)."""
         seen = {}
@@ -284,7 +288,7 @@ def formulaire(lang):
                       chips("religieux", ["Minyan on Shabbat", "Minyan every day", "Sefer Torah in the chalet"], mini=True) +
                       champ("rite", "rite", "Nusach or community, if it matters for the minyan", ph="Chabad, Ashkenaz, Sefarad, Edot HaMizrach") +
                       sugg("rite", [("Chabad",), ("Ashkenaz",), ("Sefarad",), ("Edot HaMizrach",)])) +
-                   sous("Other needs") + chips("religieux", ["Candles, wine, challot", "Eruv or carrying advice", "Mikveh nearby", "Holiday items (lulav, menorah)", "Fast day or holiday"], mini=True),
+                   pli("Other needs", chips("religieux", ["Candles, wine, challot", "Eruv or carrying advice", "Mikveh nearby", "Holiday items (lulav, menorah)", "Fast day or holiday"], mini=True)),
                    deco_t=BOUGIE))
     # ---- 6. voyage et sur place (a b e) : tout facultatif, en cases compactes
     S.append(etape("voyage", "Getting there and on site", "Everything here is optional. Tick what tempts you.",
@@ -293,19 +297,18 @@ def formulaire(lang):
                    sugg("vol_ville", [("New York",), ("Brooklyn",), ("Miami",), ("Los Angeles",), ("Chicago",), ("Boston",), ("Montreal",), ("Toronto",), ("Tel Aviv",), ("Jerusalem",), ("London",), ("Manchester",), ("Paris",), ("Marseille",), ("Strasbourg",), ("Antwerp",), ("Brussels",), ("Zurich",), ("Geneva",), ("Amsterdam",), ("Buenos Aires",), ("Mexico City",), ("São Paulo",), ("Johannesburg",), ("Melbourne",), ("Sydney",)]) +
                    chips("vols_pris", ["Flights already booked", "Not booked yet"], multi=False, mini=True) +
                    chips("transport", ["Private airport transfer", "Taxi rides in the resort", "A van and driver for the stay", "A rental car", "Help with flights"], mini=True) +
-                   sous("Ski and activities", "abe") +
-                   chips("ski", [("Ski passes", "", "", "w"), ("Rental delivered to the chalet", "", "", "w"), ("We bring our own skis", "", "", "w"), ("Ski school for children", "", "", "w"),
+                   pli("Ski and activities", chips("ski", [("Ski passes", "", "", "w"), ("Rental delivered to the chalet", "", "", "w"), ("We bring our own skis", "", "", "w"), ("Ski school for children", "", "", "w"),
                                  ("Private instructor", "", "", "w"), ("Non-skiers in the group", "", "", "w"), ("Snowmobile", "", "", "w"), ("Snowshoeing", "", "", "w"),
                                  ("Dog sledding", "", "", "w"), ("Sledging", "", "", "w"), ("Ice rink", "", "", "w"), ("Cross-country skiing", "", "", "w"), ("Helicopter flight", "", "", "w"),
                                  ("Guided hike", "", "", "s"), ("Mountain bike or e-bike", "", "", "s"), ("Via ferrata", "", "", "s"), ("Rafting", "", "", "s"), ("Canyoning", "", "", "s"),
                                  ("Lake swimming", "", "", "s"), ("Hot-air balloon", "", "", "s"), ("Climbing for children", "", "", "s"), ("Fishing", "", "", "s"),
                                  ("Farm and cheese visit", "", "", "s"), "Paragliding", "Massage and spa"], mini=True) +
-                   champ("niveau", "niveau", "Ski levels in the group", ph="4 good skiers, 2 beginners, 2 children in ski school", sa="w") +
+                   champ("niveau", "niveau", "Ski levels in the group", ph="4 good skiers, 2 beginners, 2 children in ski school", sa="w"), b="abe") +
                    sugg("niveau", ["Beginners", "Intermediate", "Good skiers", "Children in ski school"], sa="w") +
-                   sous("Visits in Lyon") + chips("lyon", ["Jewish Lyon walk (2.5 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
-                                                         "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Shabbat with a Chabad family"], mini=True) +
-                   sous("Extras") + chips("extras", ["Babysitter", "A wedding on the slopes", "A simcha to celebrate", "Fireworks", "Photographer or videographer", "DJ or live music",
-                                                   "Flowers and table decoration", "Kids' entertainer", "Security escort (quoted)", "Reduced mobility"], mini=True)))
+                   pli("Visits in Lyon", chips("lyon", ["Jewish Lyon walk (2.5 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
+                                                         "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Shabbat with a Chabad family"], mini=True)) +
+                   pli("Extras", chips("extras", ["Babysitter", "A wedding on the slopes", "A simcha to celebrate", "Fireworks", "Photographer or videographer", "DJ or live music",
+                                                   "Flowers and table decoration", "Kids' entertainer", "Security escort (quoted)", "Reduced mobility"], mini=True))))
     # ---- f : le message d'abord
     S.append(etape("message", "Tell us what you have in mind", "Write it the way you would say it. We take it from there.",
                    zone("message-f", "message", "Tell us what you have in mind", "A bar mitzvah weekend in the Alps for 30 guests", b="f")))
@@ -430,7 +433,8 @@ function autoc(inp){var g=f.querySelector('.dm-auto[data-for="'+inp.id+'"]');if(
 f.addEventListener('input',function(ev){if(ev.target.matches&&ev.target.matches('input[type=text]'))autoc(ev.target)});
 f.addEventListener('focusin',function(ev){if(ev.target.matches&&ev.target.matches('input[type=text]'))autoc(ev.target)});
 f.addEventListener('focusout',function(ev){var g=ev.target.id&&f.querySelector('.dm-auto[data-for="'+ev.target.id+'"]');if(g)setTimeout(function(){g.hidden=true},200)});
-function render(an){var p=sync();if(p.indexOf(cur)<0)cur='intention';
+function plis(){[].forEach.call(f.querySelectorAll('.dm-pli'),function(d){var n=d.querySelectorAll('input:checked').length,b=d.querySelector('.dm-pli-n');b.hidden=!n;b.textContent=b.getAttribute('data-t').replace('{n}',n)})}
+function render(an){var p=sync();plis();if(p.indexOf(cur)<0)cur='intention';
  etapes.forEach(function(e){e.hidden=e.getAttribute('data-e')!==cur});
  var i=p.indexOf(cur),last=cur==='final',b=branch();f.classList.toggle('avance',cur!=='intention');
  bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;var nn=cur==='sejour'?nights():null,bad=nn!==null&&nn<0;shabbats(nn);
@@ -741,6 +745,63 @@ details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
 .demande .dm-chips .dm-coche{display:none!important}
 .demande .dm-chips input:checked ~ span{font-weight:600}
 @media (min-width:700px){.demande .dm-chips{grid-template-columns:repeat(3,1fr)}}
+/* ---- plis : listes facultatives repliees, badge du nombre de choix */
+details.dm-pli{border-top:1px solid rgba(28,27,31,.12);margin-top:14px!important}
+details.dm-pli summary{display:flex;align-items:center;gap:10px;padding:12px 0;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;list-style:none}
+details.dm-pli summary::-webkit-details-marker{display:none}
+details.dm-pli summary::after{content:"";margin-inline-start:auto;width:8px;height:8px;border-right:1.5px solid var(--encre);border-bottom:1.5px solid var(--encre);transform:rotate(45deg);transition:transform .2s}
+details.dm-pli[open] summary::after{transform:rotate(-135deg)}
+.dm-pli-n{font-size:11px;font-weight:600;text-transform:none;letter-spacing:0;color:var(--vert);background:var(--jaune);border-radius:999px;padding:2px 8px}
+.dm-pli-n[hidden]{display:none}
+.dm-pli-c{padding-bottom:12px}
+.dm-pli-c > * + *{margin-top:12px}
+/* ---- compactage telephone (20/10) : tout tient en moins d'ecrans, duos cote a cote, cartes a picto en ligne */
+@media (max-width:699px){
+  .demande form.js .dm-prog{padding:6px 0 4px;gap:4px}
+  .dm-prog-txt{font-size:11px}
+  .demande form.js .dm-piste{padding-top:26px}
+  .dm-hp img{height:24px}
+  .dm-barre{height:5px}
+  .dm-bloc{padding:16px 14px 18px;border-radius:14px}
+  .etape > .dm-tete{margin-bottom:10px}
+  .etape > .dm-tete h2{font-size:21px;line-height:1.15}
+  .etape > .dm-tete p{margin-top:3px;font-size:13px;line-height:1.35}
+  .etape > * + *{margin-top:12px}
+  .etape .dm-sous{margin-top:16px;font-size:11px}
+  .dm-champ label{font-size:11px;margin-bottom:4px}
+  .dm-champ input,.dm-champ select,.dm-champ textarea{padding:10px 13px;border-radius:12px;font-size:16px}
+  .dm-champ input[type=date],.dm-champ input[type=time]{min-height:44px}
+  .dm-champ textarea{min-height:72px}
+  .demande .dm-duo{grid-template-columns:1fr 1fr;gap:10px}
+  .dm-cpt{padding:5px 0;gap:10px}
+  .dm-cpt .lib{font-size:15px}
+  .cpt button{width:40px;height:40px;font-size:20px}
+  .cpt input,.cpt-old{font-size:19px}
+  .cpt-n,.cpt input{width:44px}
+  .dm-ages{padding-top:0}
+  .demande .dm-chips:not(.mini){gap:6px}
+  .demande .dm-chips:not(.mini) label{flex-direction:row;align-items:center;gap:9px;min-height:50px;padding:9px 34px 9px 11px;font-size:14px;line-height:1.2;border-radius:12px}
+  .demande .dm-chips:not(.mini) .dm-ic{width:22px;height:22px}
+  .demande .dm-chips:not(.mini) label::before{top:50%;transform:translateY(-50%);inset-inline-end:10px;width:16px;height:16px}
+  .demande .dm-chips.mini{gap:5px}
+  .demande .dm-chips.mini label{min-height:34px;padding:6px 11px;font-size:13.5px}
+  .dm-tuile{min-height:96px;padding:9px 10px}
+  .dm-tuile img{width:36px;height:36px}
+  .dm-tuile b{font-size:14px}
+  .dm-tuile span{font-size:12px}
+  .dm-intention{padding:14px 12px 12px}
+  .dm-auto button{padding:10px 13px;font-size:14.5px}
+  .dm-shabbat,.dm-nuits{font-size:13px}
+  .dm-aide{font-size:12.5px}
+  details.dm-recap{margin-top:14px}
+  details.dm-recap summary{padding:10px 0;font-size:14px}
+  .demande form.js .dm-nav{padding:8px 16px calc(8px + env(safe-area-inset-bottom));margin-top:14px}
+  .dm-nav .btn-noir,.dm-retour{min-height:46px}
+  .dm-retour{padding:0 20px}
+  .dm-petit{margin-top:10px;font-size:12px}
+  /* pendant les etapes, rien sous le formulaire : le pied revient sur merci */
+  body:has(#formDemande.avance) .pied{display:none}
+}
 """ + CSS_Z
 
 def update_css():
