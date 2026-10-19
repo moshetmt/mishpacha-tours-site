@@ -91,7 +91,7 @@
 </section>
 <div class="ss wrap galerie-wp"><div class="mosaique" style="margin-top:0"><figure class="large"><img src="/img/chalet/wp-ext-bleu.jpg" alt="Le chalet sous un ciel bleu, le lendemain d'une chute de neige" loading="lazy"><figcaption>Le chalet sous un ciel bleu, le lendemain d'une chute de neige</figcaption></figure><figure><img src="/img/chalet/wp-soleil.jpg" alt="Neige fraîche sur la terrasse, le massif au soleil" loading="lazy"><figcaption>Neige fraîche sur la terrasse, le massif au soleil</figcaption></figure><figure><img src="/img/chalet/wp-nuit.jpg" alt="Le soir au chalet" loading="lazy"><figcaption>Le soir au chalet</figcaption></figure><figure><img src="/img/chalet/wp-neige-tombe.jpg" alt="La neige qui tombe, vue de l'abri" loading="lazy"><figcaption>La neige qui tombe, vue de l'abri</figcaption></figure><figure><img src="/img/chalet/wp-table-fete.jpg" alt="La table de Chabbat" loading="lazy"><figcaption>La table de Chabbat</figcaption></figure><figure><img src="/img/chalet/wp-poulet-olives.jpg" alt="Poulet aux olives du chef" loading="lazy"><figcaption>Poulet aux olives du chef</figcaption></figure><figure><img src="/img/chalet/wp-guacamole.jpg" alt="Guacamole aux fleurs comestibles, par le chef" loading="lazy"><figcaption>Guacamole aux fleurs comestibles, par le chef</figcaption></figure><figure><img src="/img/chalet/wp-siddour.jpg" alt="Un siddour sur la rambarde du balcon" loading="lazy"><figcaption>Un siddour sur la rambarde du balcon</figcaption></figure><figure><img src="/img/chalet/wp-balcon-detail.jpg" alt="Les balcons sculptés" loading="lazy"><figcaption>Les balcons sculptés</figcaption></figure></div></div>
 
-<section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/picto-hassid-vert.svg" alt="" width="797" height="806" loading="lazy"><div><p>Un chalet de 300 m² aux Deux Alpes, 6 chambres et 16 lits, à 2 minutes des pistes : chef privé casher ou repas livrés, Chabbat et fêtes organisés, minyan sur demande.</p></div></section>
+<section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/picto-hassid-vert.svg" alt="" width="797" height="806" loading="lazy"><div><p class="dk-intro">Un chalet de 300 m² aux Deux Alpes, 6 chambres et 16 lits, à 2 minutes des pistes : chef privé casher ou repas livrés, Chabbat et fêtes organisés, minyan sur demande.</p><button class="dk dk-plus dk-plus-lead" type="button" aria-expanded="false" onclick="this.previousElementSibling.classList.add('dk-ouvert');this.remove()">Lire la suite</button></div></section>
 
 <section class="ss wrap lead-offre">
   <h2>Où vous dormez, ce que vous mangez, <i>où vous skiez</i></h2>
@@ -196,5 +196,12 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
-<script src="/js/anim.js" defer></script></body>
+<script src="/js/anim.js" defer></script>
+<!--MOB-ALPES--><script data-mob-alpes>(function(){if(!matchMedia('(max-width:899px)').matches)return;var H=document.documentElement;H.classList.add('mob-alpes');
+document.querySelectorAll('.dk-cartes').forEach(function(ul){var lis=[].slice.call(ul.children);lis.forEach(function(li,i){var b=li.querySelector(':scope > b');if(!b)return;
+var corps=document.createElement('span');corps.className='dk-corps';var n=b.nextSibling;while(n){var s=n.nextSibling;corps.appendChild(n);n=s}
+if(corps.textContent.replace(/\s+/g,'')){li.appendChild(corps)}else{return}
+if(i>=2){li.classList.add('dk-pli');b.setAttribute('role','button');b.setAttribute('tabindex','0');b.setAttribute('aria-expanded','false');
+var t=function(){var o=li.classList.toggle('dk-ouvert');b.setAttribute('aria-expanded',o?'true':'false')};b.addEventListener('click',t);b.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t()}})}})})})();</script>
+</body>
 </html>

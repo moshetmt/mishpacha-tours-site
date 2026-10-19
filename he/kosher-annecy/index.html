@@ -89,7 +89,7 @@
   </div>
 </section>
 
-<section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/picto-hassid-vert.svg" alt="" width="797" height="806" loading="lazy"><div><p>אנסי שוכנת בקצה הצפוני של אגם אנסי, בגובה של 447 מ' מעל פני הים, ולה קלוזה ולה גראן בורנאן, שני אתרי הסקי של האראוויס, נמצאים במרחק 30 עד 40 דקות במעלה העמק. Mishpacha Tours דואגת כאן לצד הכשר של השהות שלכם, ביולי כמו בפברואר: שף פרטי בווילה או בצ'אלה שלכם, ארוחות חמות שמגיעות עד הדירה, שבת לפני הדלקת הנרות, החגים, ומניין עם ספר תורה לתאריכים שלכם. בקשה אחת, הצעת מחיר אחת בכתב.</p><ul class="chips dk-chips"><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>אגם אנסי, 447 מ'</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>45 דקות מז'נבה, כשעה ורבע מנמל התעופה של ליון</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>לה קלוזה ולה גראן בורנאן במרחק 30 עד 40 דקות</li></ul></div></section>
+<section class="ss wrap lead-intro"><img class="lead-mascotte" src="/img/picto-hassid-vert.svg" alt="" width="797" height="806" loading="lazy"><div><p class="dk-intro">אנסי שוכנת בקצה הצפוני של אגם אנסי, בגובה של 447 מ' מעל פני הים, ולה קלוזה ולה גראן בורנאן, שני אתרי הסקי של האראוויס, נמצאים במרחק 30 עד 40 דקות במעלה העמק. Mishpacha Tours דואגת כאן לצד הכשר של השהות שלכם, ביולי כמו בפברואר: שף פרטי בווילה או בצ'אלה שלכם, ארוחות חמות שמגיעות עד הדירה, שבת לפני הדלקת הנרות, החגים, ומניין עם ספר תורה לתאריכים שלכם. בקשה אחת, הצעת מחיר אחת בכתב.</p><button class="dk dk-plus dk-plus-lead" type="button" aria-expanded="false" onclick="this.previousElementSibling.classList.add('dk-ouvert');this.remove()">להמשך קריאה</button><ul class="chips dk-chips"><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>אגם אנסי, 447 מ'</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>45 דקות מז'נבה, כשעה ורבע מנמל התעופה של ליון</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>לה קלוזה ולה גראן בורנאן במרחק 30 עד 40 דקות</li></ul></div></section>
 
 <section class="ss wrap conseils"><h2>מה אנחנו מארגנים <i>באנסי</i></h2><ul class="dk-cartes dk-rail">
 <li><img class="dk dk-ico dk-des" src="/img/des/chef-hat.webp" alt="" width="96" height="96" loading="lazy"><b>וילה, צ'אלה או דירה עם שף פרטי.</b> הצוות הכשר שלנו שבסיסו באלפים מכשיר את המטבח ומבשל במקום. כל ארוחה בשהות מסודרת, ליד האגם בקיץ או אחרי יום על המסלולים בחורף.</li>
@@ -187,5 +187,12 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 <script>
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
-<script src="/js/anim.js" defer></script></body>
+<script src="/js/anim.js" defer></script>
+<!--MOB-ALPES--><script data-mob-alpes>(function(){if(!matchMedia('(max-width:899px)').matches)return;var H=document.documentElement;H.classList.add('mob-alpes');
+document.querySelectorAll('.dk-cartes').forEach(function(ul){var lis=[].slice.call(ul.children);lis.forEach(function(li,i){var b=li.querySelector(':scope > b');if(!b)return;
+var corps=document.createElement('span');corps.className='dk-corps';var n=b.nextSibling;while(n){var s=n.nextSibling;corps.appendChild(n);n=s}
+if(corps.textContent.replace(/\s+/g,'')){li.appendChild(corps)}else{return}
+if(i>=2){li.classList.add('dk-pli');b.setAttribute('role','button');b.setAttribute('tabindex','0');b.setAttribute('aria-expanded','false');
+var t=function(){var o=li.classList.toggle('dk-ouvert');b.setAttribute('aria-expanded',o?'true':'false')};b.addEventListener('click',t);b.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t()}})}})})})();</script>
+</body>
 </html>
