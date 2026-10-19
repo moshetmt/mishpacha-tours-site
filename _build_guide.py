@@ -8,14 +8,15 @@ from _head import head_page, webpage, itemlist, place, ORG, sans_tel
 CHECKED = "7 October 2026"
 WA = "https://wa.me/33652092301?text="
 def wa(t): return WA + urllib.parse.quote(t)
-def gmaps(a): return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(a + ", France")
+def pays(a): return a if re.search(r", (France|Switzerland|Suisse|Italy|Italia|Italie)$", a) else a + ", France"   # 19/10 : stations suisses et italiennes
+def gmaps(a): return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(pays(a))
 
 GEO_PATH = "img/geo.json"
 GEO = json.load(open(GEO_PATH, encoding="utf-8"))
 def geocode(addr):
     if addr in GEO: return GEO[addr]
     try:
-        q = urllib.parse.quote(addr + ", France")
+        q = urllib.parse.quote(pays(addr))
         req = urllib.request.Request(f"https://nominatim.openstreetmap.org/search?format=json&limit=1&q={q}", headers={"User-Agent": "mishpachatours-build/1.0 (contact@mishpachatours.com)"})
         r = json.load(urllib.request.urlopen(req, timeout=20)); time.sleep(1.1)
         if r: GEO[addr] = [float(r[0]["lat"]), float(r[0]["lon"])]; return GEO[addr]

@@ -5,7 +5,7 @@ Téléphone seulement (≤ 899 px), ordinateur inchangé. Idempotent, `--strip` 
      (Les pastilles ont été retirées du HTML par l'autre session le 19/10, accord Moshé.)
   2. Intro au hassid : deux ou trois lignes visibles, « Read more » pour le reste (classe dk-intro + bouton dk-plus de _decor.py).
   3. Cartes chalet : mêmes cartes, moins d'air (photo 16/10, marges et corps resserrés).
-  4. Cartes à pictogramme : dessin réduit à gauche du titre, texte pleine largeur, à partir de la 3e carte le texte est replié
+  4. Cartes à pictogramme : dessin réduit à gauche du titre, texte pleine largeur, à partir de la 2e carte le texte est replié
      sous le titre (js/mobile-alpes.js enveloppe le texte au chargement, le HTML reste entier pour Google).
 Pages : celles qui ont la bannière 3 (lead-hero3). CSS : bloc ===MOBILE-ALPES=== avant le bloc KIT-WP de styles.css, en LF.
 À lancer en fin de chaîne, après _decor.py et _kit_wp.py."""
@@ -64,6 +64,19 @@ html.mob-alpes .dk-cartes > li.dk-pli > b{cursor:pointer;padding-inline-end:28px
 html.mob-alpes .dk-cartes > li.dk-pli > b::after{content:"";position:absolute;inset-inline-end:4px;top:50%;width:9px;height:9px;margin-top:-7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);transition:transform .2s;opacity:.7}
 html.mob-alpes .dk-cartes > li.dk-pli.dk-ouvert > b::after{transform:rotate(225deg);margin-top:-2px}
 html.mob-alpes .dk-cartes > li.dk-pli:not(.dk-ouvert) > .dk-corps{display:none}
+/* 5. étapes « How it works » : numéro à gauche, texte aligné à gauche, moins d'air */
+body.kwp-hiver .etapes ol>li,body .etapes ol>li{display:grid;grid-template-columns:28px 1fr;column-gap:12px;align-items:start;text-align:start;padding:10px 0;margin:0}
+body.kwp-hiver .etapes ol>li>b,body .etapes ol>li>b{font-size:15px;line-height:1.4;margin:0}
+body.kwp-hiver .etapes ol>li h3,body .etapes ol>li h3{margin:0 0 4px;font-size:19px;line-height:1.2;text-align:start}
+body.kwp-hiver .etapes ol>li p,body .etapes ol>li p{margin:0;font-size:14.5px;line-height:1.5;text-align:start}
+body.kwp-hiver .cta-etapes,body .cta-etapes{margin-top:8px}
+/* 6. stations en pastilles : 44 px sous le pouce */
+body.kwp-hiver .kwp-pastilles a,body .kwp-pastilles a{min-height:44px;padding:0 16px}
+/* 14. « Keep reading » : une ligne par lien, toute la ligne cliquable, 48 px */
+body.kwp-hiver .dk-suite>li,body .dk-suite>li{position:relative;display:flex;align-items:center;gap:12px;min-height:48px;padding:6px 0}
+body.kwp-hiver .dk-suite>li>.dk-vigico,body .dk-suite>li>.dk-vigico{width:36px!important;height:36px!important;margin:0}
+body.kwp-hiver .dk-suite>li>a,body .dk-suite>li>a{flex:1;display:flex;align-items:center;min-height:44px;font-size:15px;line-height:1.35}
+body .dk-suite>li>a::after{content:"";position:absolute;inset:0}
 }"""
 
 JS = """<script data-mob-alpes>(function(){if(!matchMedia('(max-width:899px)').matches)return;var H=document.documentElement;H.classList.add('mob-alpes');
