@@ -1532,3 +1532,63 @@ html[data-vt=mishpacha]::view-transition{background:#2D5132}
 .kwp-hiver .lead-cartes figcaption{color:#C9D2D4}
 .kwp-hiver main>:not(.lead-final,.lead-hero3) .lead-cartes figcaption b{color:#FAF7F0}
 @media (min-width:700px){.lead-cartes{grid-template-columns:repeat(3,1fr);gap:0 28px}.lead-cartes figure{border-bottom:1px solid rgba(28,27,31,.14);padding:16px 0}.lead-cartes img{width:110px;height:110px}.lead-cartes figure{grid-template-columns:110px 1fr}}
+/* ===ACCUEIL COMPACT (20/10)=== passe mobile de l'accueil : chalets en rail, portes en lignes, etapes en lignes, Lyon resserre. Ordinateur inchange. */
+@media (max-width:699px){
+  #chalet,#trips,#how,#tours{padding-top:40px;padding-bottom:40px}
+  #chalet h2,#trips h2,#how h2,#tours h2{font-size:28px}
+  /* chalets : deux cartes en rail a glisser */
+  #chalet .kwp-cartes{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:14px -16px 0;padding:0 16px 6px}
+  #chalet .kwp-cartes::-webkit-scrollbar{display:none}
+  #chalet .kwp-carte{flex:0 0 86%;scroll-snap-align:start}
+  #chalet .kwp-photo img{aspect-ratio:16/10}
+  #chalet .kwp-corps{padding:14px 14px 12px}
+  #chalet .kwp-lieu{font-size:10.5px}
+  body #chalet .kwp-cartes .kwp-carte h3{font-size:18px;margin:2px 0 8px}
+  #chalet .kwp-chiffres{gap:6px 10px}
+  #chalet .kwp-chiffres li{font-size:12.5px}
+  #chalet .kwp-chiffres b{font-size:14px}
+  #chalet .kwp-casher{font-size:12.5px;padding:8px 10px;margin-top:10px}
+  body #chalet .kwp-dispo{font-size:11.5px}
+  body #chalet .kwp-pied{padding-top:8px;margin-top:8px}
+  #chalet .kwp-tous{margin-top:14px}
+  /* portes : une ligne par porte, photo carree a gauche */
+  #trips .ac-portes{gap:8px;margin-top:18px}
+  #trips .ac-portes .hub-carte{display:grid;grid-template-columns:84px 1fr;gap:0 12px;align-items:center;padding:8px 8px}
+  #trips .ac-portes .corps{padding-inline-end:30px}
+  #trips .ac-portes .hub-carte .btn-noir{position:absolute;inset-inline-end:12px;top:50%;transform:translateY(-50%);margin:0}
+  #trips .ac-portes .hub-carte{position:relative}
+  #trips .ac-portes .photo{width:84px;height:84px;aspect-ratio:1/1;border-radius:12px;overflow:hidden}
+  #trips .ac-portes .photo img{width:100%;height:100%;object-fit:cover}
+  #trips .ac-portes h3{font-size:17px;line-height:1.15;margin:0 0 3px}
+  #trips .ac-portes .corps p{font-size:13px;line-height:1.35;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin:0}
+  #trips .ac-stations-ligne{margin-top:18px;font-size:13px}
+  #trips .ac-stations{gap:6px;margin-top:10px}
+  #trips .ac-stations a{min-height:36px;padding:0 13px;font-size:13.5px}
+  #trips .ac-van{margin-top:20px;padding:14px 14px 16px;grid-template-columns:56px 1fr;gap:4px 12px}
+  #trips .ac-van img{width:56px;height:56px}
+  #trips .ac-van b{font-size:18px}
+  #trips .ac-van p{font-size:14px;line-height:1.4}
+  #trips .ac-van .btn-noir{min-height:42px;padding:0 16px;font-size:14px}
+  /* etapes : trois lignes, dessin a gauche */
+  #how.etapes ol{gap:12px;margin-top:16px;text-align:start}
+  #how.etapes li{display:grid;grid-template-columns:56px 1fr;gap:0 12px;align-items:center}
+  #how.etapes li img{width:56px;height:56px;margin:0;grid-row:1 / span 3}
+  #how.etapes li > b{font-size:12px}
+  #how.etapes li > span{font-size:19px;margin-top:0}
+  #how.etapes li p{font-size:13px;line-height:1.4;margin:3px 0 0;max-width:none}
+  /* Lyon */
+  #tours .ac-lyon-photo img{aspect-ratio:16/9}
+  #tours .ac-lyon-grille{gap:16px}
+  #tours .ac-lyon p{font-size:15px;margin-top:10px}
+  #tours .ac-lyon-liste{gap:6px;margin-top:12px;font-size:14.5px}
+  #tours .ac-boutons{margin-top:14px}
+  #tours .ac-guide{margin-top:12px;font-size:14px}
+  .pied{padding-top:36px}
+}
+/* ===LOGOS DANS LES BOUTONS (20/10, Moshe)=== hassid sur les boutons vers le formulaire, flocon Winter Prestige sur les boutons chalet.
+   Masque CSS sur currentColor : le logo prend la couleur du texte du bouton (creme sur noir, encre sur jaune). */
+#chercheur button[type=submit],.ticket-zone .btn-noir[href*="plan-your-trip"],.btn-hero[href*="plan-your-trip"],.kwp .btn-noir,.lead-final .btn-noir[href*="plan-your-trip"]{display:inline-flex;align-items:center;justify-content:center;gap:9px}
+#chercheur button[type=submit]::before,.ticket-zone .btn-noir[href*="plan-your-trip"]::before,.btn-hero[href*="plan-your-trip"]::before,.kwp .btn-noir::before,.lead-final .btn-noir[href*="plan-your-trip"]::before{content:"";flex:none;width:20px;height:20px;background:currentColor;-webkit-mask:var(--logo) center/contain no-repeat;mask:var(--logo) center/contain no-repeat}
+#chercheur button[type=submit],.ticket-zone .btn-noir[href*="plan-your-trip"],.btn-hero[href*="plan-your-trip"],.lead-final .btn-noir[href*="plan-your-trip"]{--logo:url(img/picto-hassid.svg)}
+.kwp .btn-noir,.kwp-hiver .btn-hero[href*="plan-your-trip"]{--logo:url(img/wp-flocon-noir.svg)}
+[dir=rtl] #chercheur button[type=submit]::before,[dir=rtl] .ticket-zone .btn-noir::before,[dir=rtl] .btn-hero::before,[dir=rtl] .lead-final .btn-noir::before{transform:scaleX(-1)}
