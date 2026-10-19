@@ -59,7 +59,6 @@ html.anim-vis-on{overflow:hidden}
 }
 /* ---- bouton Plan your trip flottant, a gauche du WhatsApp (Moshe 19/10) ---- */
 .pyt-flottant{position:fixed;left:16px;bottom:16px;z-index:30;display:inline-flex;align-items:center;min-height:50px;max-width:calc(100% - 110px);padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-size:15px;font-weight:600;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:0 6px 20px rgba(0,0,0,.22)}
-body.kwp-hiver .pyt-flottant{background:#C9A961;color:#141416}
 body:has(#formDemande) .pyt-flottant,body:has(.nav .menu[aria-expanded="true"]) :is(.pyt-flottant,.wa-flottant){display:none}
 
 @media (prefers-reduced-motion: no-preference){
