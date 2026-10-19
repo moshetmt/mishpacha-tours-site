@@ -1366,4 +1366,15 @@ main>.ss:last-child:not(.lead-final){padding-bottom:72px}
 .panneau .nav-ch-menu{display:grid;gap:10px}
 .panneau nav .nav-ch-menu a{display:flex;padding:0;border:0;font-family:inherit;font-weight:400;font-size:15px}
 .panneau nav .nav-ch-menu a.nav-ch-tous{display:none}
+/* fondu entre la charte Mishpacha et la charte hiver (19/10) : le script data-kwp-vt l'annule hors changement de charte */
+@view-transition{navigation:auto}
+/* l'ancienne page s'efface sur le fond de la charte d'arrivée (noir en entrant, vert en revenant), puis la nouvelle apparaît */
+html[data-vt=hiver]::view-transition{background:#141416}
+html[data-vt=mishpacha]::view-transition{background:#2D5132}
+::view-transition-old(root){animation:kwp-vt-sort .3s cubic-bezier(.4,0,1,1) both}
+::view-transition-new(root){animation:kwp-vt-entre .35s cubic-bezier(0,0,.2,1) .25s both}
+@keyframes kwp-vt-sort{to{opacity:0}}
+@keyframes kwp-vt-entre{from{opacity:0}}
+.nav{view-transition-name:mt-nav}
+@media (prefers-reduced-motion:reduce){@view-transition{navigation:none}}
 /* ===/KIT-WP=== */

@@ -260,6 +260,28 @@ def stations(s):
     j = s.find("</ul>", m.start()) + len("</ul>")
     return s[:j] + bande + s[j:]
 
+# ---------- fondu vert <-> noir entre les deux chartes (Moshé 19/10 « oui et inversement ») ----------
+# Transition de page native (navigateurs récents) activée en CSS ; ce script l'annule quand on reste dans la même charte,
+# donc rien au premier chargement ni entre deux pages Mishpacha ou deux pages hiver. Remplace, pour ce seul passage,
+# la décision du 15/10 « plus de transition entre pages ».
+def script_vt():
+    slugs = ",".join(f'"{x}"' for x in HIVER)
+    return ('<script data-kwp-vt>(function(){var H=[' + slugs + '];'
+            r'function h(){var s=location.pathname.replace(/^\/(fr|es|he)\//,"/").split("/")[1]||"";return H.indexOf(s)>=0?"1":"0"}'
+            'addEventListener("pageswap",function(){try{sessionStorage.setItem("mt-charte",h())}catch(e){}});'
+            'addEventListener("pagereveal",function(e){if(!e.viewTransition)return;var p=null;try{p=sessionStorage.getItem("mt-charte")}catch(x){}'
+            'if(p===null||p===h()){e.viewTransition.skipTransition();return}'
+            'var r=document.documentElement;r.dataset.vt=h()==="1"?"hiver":"mishpacha";e.viewTransition.finished.then(function(){delete r.dataset.vt})})})();</script>')
+
+def transition(p):
+    s = io.open(p, encoding="utf-8", newline="").read(); o = s
+    s = re.sub(r"<!--KIT-WP:vt-->.*?<!--/KIT-WP:vt-->", "", s, flags=re.S)
+    m = re.search(r'<link rel="stylesheet" href="[^"]*styles\.css">', s)
+    if m:
+        s = s[:m.end()] + bloc("vt", script_vt()) + s[m.end():]
+    if s != o: io.open(p, "w", encoding="utf-8", newline="").write(s); return 1
+    return 0
+
 CSS = """/* ===KIT-WP=== */
 .kwp-cartes{display:grid;gap:24px;margin-top:24px}
 .kwp-seule{max-width:460px}
@@ -372,6 +394,17 @@ main>.ss:last-child:not(.lead-final){padding-bottom:72px}
 .panneau .nav-ch-menu{display:grid;gap:10px}
 .panneau nav .nav-ch-menu a{display:flex;padding:0;border:0;font-family:inherit;font-weight:400;font-size:15px}
 .panneau nav .nav-ch-menu a.nav-ch-tous{display:none}
+/* fondu entre la charte Mishpacha et la charte hiver (19/10) : le script data-kwp-vt l'annule hors changement de charte */
+@view-transition{navigation:auto}
+/* l'ancienne page s'efface sur le fond de la charte d'arrivée (noir en entrant, vert en revenant), puis la nouvelle apparaît */
+html[data-vt=hiver]::view-transition{background:#141416}
+html[data-vt=mishpacha]::view-transition{background:#2D5132}
+::view-transition-old(root){animation:kwp-vt-sort .3s cubic-bezier(.4,0,1,1) both}
+::view-transition-new(root){animation:kwp-vt-entre .35s cubic-bezier(0,0,.2,1) .25s both}
+@keyframes kwp-vt-sort{to{opacity:0}}
+@keyframes kwp-vt-entre{from{opacity:0}}
+.nav{view-transition-name:mt-nav}
+@media (prefers-reduced-motion:reduce){@view-transition{navigation:none}}
 /* ===/KIT-WP=== */"""
 
 def css():
@@ -385,4 +418,8 @@ if __name__ == "__main__":
     for slug in dict.fromkeys(("kosher-les-deux-alpes", "kosher-courchevel", "alps", "kosher-ski-holidays-french-alps", "kosher-chalet-les-deux-alpes",
                                "", "kosher-chalets", "kosher-chalet-courchevel", *STATIONS_SANS_CHALET, *HIVER)):
         for lang in T: n += page(slug, lang)
+    for f in sorted(RACINE.glob("**/index.html")):
+        r = f.relative_to(RACINE).as_posix()
+        if not r.startswith(("_", "preview/")):
+            n += transition(f)
     print(f"_kit_wp : {n} fichier(s) modifié(s)")
