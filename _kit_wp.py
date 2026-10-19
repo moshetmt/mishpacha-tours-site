@@ -165,11 +165,26 @@ GALERIE_CO = [("courchevel-piscine-ext", dict(en="The heated outdoor pool", fr="
               ("courchevel-piscine-int", dict(en="The indoor pool", fr="La piscine intérieure", es="La piscina interior", he="הבריכה המקורה")),
               ("courchevel-salon-lustre", dict(en="The lounge", fr="Le salon", es="El salón", he="הטרקלין"))]
 
+DIAPO_JS = ("<script>(function(){var g=document.currentScript.previousElementSibling,f=[].slice.call(g.querySelectorAll('figure')),i=0,t,n=f.length;if(n<2)return;"
+            "var red=matchMedia('(prefers-reduced-motion: reduce)').matches;function go(k){f[i].classList.remove('on');i=(k+n)%n;f[i].classList.add('on')}"
+            "function arme(){clearTimeout(t);if(!red)t=setTimeout(function(){go(i+1);arme()},4500)}"
+            "var x0=null;g.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;clearTimeout(t)},{passive:true});"
+            "g.addEventListener('touchend',function(e){if(x0!==null){var d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>40)go(i+(d<0?1:-1))}x0=null;arme()},{passive:true});"
+            "g.querySelectorAll('button').forEach(function(b){b.addEventListener('click',function(){go(i+(b.className.indexOf('suiv')>=0?1:-1));arme()})});"
+            "f[0].classList.add('on');arme()})();</script>")
+FLECHES = {"en": ("Previous photo", "Next photo"), "fr": ("Photo précédente", "Photo suivante"), "es": ("Foto anterior", "Foto siguiente"), "he": ("התמונה הקודמת", "התמונה הבאה")}
+
+def diapo(lang, photos, dossier):
+    """photos = [(fichier, légendes par langue)] ; légende dans alt et en texte masqué (Google), jamais affichée (Moshé 19/10)."""
+    figs = "".join(f'<figure><img src="/img/{dossier}/{f}.jpg" alt="{c[lang]}" loading="{"eager" if i == 0 else "lazy"}" width="1500" height="1000"><figcaption class="sr-only">{c[lang]}</figcaption></figure>'
+                   for i, (f, c) in enumerate(photos))
+    a, b = FLECHES[lang]
+    return (f'<section class="ss wrap galerie-wp kwp-diapo" aria-roledescription="carousel"><div class="kwp-diapo-cadre">{figs}'
+            f'<button type="button" class="kwp-diapo-prec" aria-label="{a}">&#8249;</button><button type="button" class="kwp-diapo-suiv" aria-label="{b}">&#8250;</button></div>{DIAPO_JS}</section>')
+
 def galerie_co(lang):
     """Galerie du chalet de Courchevel sous la bannière, même balisage que celle des Deux Alpes (galerie-wp, épargnée par _sans_mosaique)."""
-    figs = "".join(f'<figure{" class=" + chr(34) + "large" + chr(34) if i == 0 else ""}><img src="/img/chalet/{f}.jpg" alt="{c[lang]}" loading="lazy"><figcaption>{c[lang]}</figcaption></figure>'
-                   for i, (f, c) in enumerate(GALERIE_CO))
-    return f'<div class="ss wrap galerie-wp"><div class="mosaique" style="margin-top:0">{figs}</div></div>'
+    return diapo(lang, GALERIE_CO, "chalet")
 
 GALERIE_VI = [("facade", dict(en="The villa, the pool and the sea", fr="La villa, la piscine et la mer", es="La villa, la piscina y el mar", he="הווילה, הבריכה והים")),
               ("terrasse", dict(en="The terrace over the water", fr="La terrasse au-dessus de l'eau", es="La terraza sobre el agua", he="המרפסת מעל המים")),
@@ -185,9 +200,7 @@ GALERIE_VI = [("facade", dict(en="The villa, the pool and the sea", fr="La villa
               ("portail", dict(en="The gate", fr="Le portail", es="El portón", he="השער"))]
 
 def galerie_vi(lang):
-    figs = "".join(f'<figure{" class=" + chr(34) + "large" + chr(34) if i == 0 else ""}><img src="/img/villa/st-tropez-{f}.jpg" alt="{c[lang]}" loading="lazy"><figcaption>{c[lang]}</figcaption></figure>'
-                   for i, (f, c) in enumerate(GALERIE_VI))
-    return f'<div class="ss wrap galerie-wp"><div class="mosaique" style="margin-top:0">{figs}</div></div>'
+    return diapo(lang, [("st-tropez-" + f, c) for f, c in GALERIE_VI], "villa")
 
 def hero_sp(s):
     """Logo Summer Prestige en grand dans la bannière (même place que le logo Winter des pages hiver), page crème."""
@@ -345,6 +358,16 @@ def transition(p):
 
 CSS = """/* ===KIT-WP=== */
 .kwp-cartes{display:grid;gap:24px;margin-top:24px}
+.kwp-diapo{margin-top:40px}
+.kwp-diapo-cadre{position:relative;aspect-ratio:3/2;border-radius:15px;overflow:hidden;background:#ddd}
+.kwp-diapo-cadre figure{position:absolute;inset:0;margin:0;opacity:0;transition:opacity 900ms ease}
+.kwp-diapo-cadre figure.on{opacity:1}
+.kwp-diapo-cadre img{display:block;width:100%;height:100%;object-fit:cover}
+.kwp-diapo .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.kwp-diapo button{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border:0;border-radius:50%;background:rgba(20,20,22,.55);color:#fff;font-size:28px;line-height:1;cursor:pointer;display:none}
+.kwp-diapo-prec{left:12px}.kwp-diapo-suiv{right:12px}
+@media (hover:hover) and (pointer:fine){.kwp-diapo button{display:grid;place-items:center}}
+@media (prefers-reduced-motion:reduce){.kwp-diapo-cadre figure{transition:none}}
 .kwp .kwp-sp .btn-noir{--logo:url(img/sp-symbole-noir.svg)}   /* 19/10 : carte Summer Prestige, soleil sur le bouton au lieu du flocon */
 .kwp-seule{max-width:460px}
 .kwp-carte{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 1px 0 rgba(28,27,31,.08);display:flex;flex-direction:column}
