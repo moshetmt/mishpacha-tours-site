@@ -50,6 +50,17 @@ html.anim-vis-on{overflow:hidden}
 /* ---- flocons ---- */
 .anim-neige{position:absolute;inset:0;z-index:1;overflow:hidden;pointer-events:none}
 .anim-neige i{position:absolute;top:0;left:var(--x);width:var(--s);height:var(--s);margin-top:calc(var(--s) * -2);border-radius:50%;background:#fff;opacity:0}
+/* ---- en-tete colle en haut sur telephone, le menu reste a portee (Moshe 19/10) ---- */
+@media (max-width:899.98px){
+  .nav{position:sticky;top:0}
+  html.strip-vis .nav{top:var(--strip-h,0px)}
+  html.strip-vis .panneau{top:calc(var(--strip-h,0px) + 60px)}
+  body:has(#formDemande) .nav{position:relative;top:0}
+}
+/* ---- bouton Plan your trip flottant, a gauche du WhatsApp (Moshe 19/10) ---- */
+.pyt-flottant{position:fixed;left:16px;bottom:16px;z-index:30;display:inline-flex;align-items:center;min-height:50px;max-width:calc(100% - 110px);padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-size:15px;font-weight:600;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:0 6px 20px rgba(0,0,0,.22)}
+body.kwp-hiver .pyt-flottant{background:#C9A961;color:#141416}
+body:has(#formDemande) .pyt-flottant,body:has(.nav .menu[aria-expanded="true"]) :is(.pyt-flottant,.wa-flottant){display:none}
 
 @media (prefers-reduced-motion: no-preference){
   /* 1. retour au toucher */
@@ -77,9 +88,9 @@ html.anim-vis-on{overflow:hidden}
   [dir=rtl] .langue[open] ul{transform-origin:top left}
   @keyframes anim-langue{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
   /* 6. bouton WhatsApp flottant */
-  html.wa-cache .wa-flottant{opacity:0;transform:translateY(24px);visibility:hidden;pointer-events:none;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s linear 300ms}
-  html.wa-cache.wa-vu .wa-flottant{opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s}
-  html.wa-cache.wa-vu .wa-flottant:active{transform:scale(.97);transition-duration:160ms}
+  html.wa-cache :is(.wa-flottant,.pyt-flottant){opacity:0;transform:translateY(24px);visibility:hidden;pointer-events:none;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s linear 300ms}
+  html.wa-cache.wa-vu :is(.wa-flottant,.pyt-flottant){opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s}
+  html.wa-cache.wa-vu :is(.wa-flottant,.pyt-flottant):active{transform:scale(.97);transition-duration:160ms}
   /* 9. trait des etapes */
   html.anim-js #how.etapes ol li:not(:last-child)::after{transform:scaleY(0);transition:transform 600ms var(--ease-out)}
   html.anim-js #how.etapes.trait-vu ol li:not(:last-child)::after{transform:none}
@@ -111,6 +122,14 @@ R.classList.remove('anim-vis-on');
 function resetVis(){R.classList.remove('anim-vis-on');if(window.__animVisFin)window.__animVisFin()}
 ['pagehide','pageshow','popstate','hashchange'].forEach(function(ev){addEventListener(ev,resetVis)});
 D.addEventListener('touchstart',function(){},{passive:true});
+
+/* 13. bouton Plan your trip flottant a gauche du WhatsApp (Moshe 19/10) : texte et lien repris du menu, donc dans la langue de la page */
+(function(){
+  var wa=D.querySelector('.wa-flottant');if(!wa||D.getElementById('formDemande'))return;
+  var src=D.querySelector('.nav .liens a[href$="plan-your-trip/"]');if(!src)return;
+  var a=D.createElement('a');a.className='pyt-flottant';a.href=src.getAttribute('href');a.textContent=src.textContent.trim();
+  wa.parentNode.insertBefore(a,wa);
+})();
 
 /* 6. bouton WhatsApp flottant */
 (function(){
@@ -356,6 +375,7 @@ D.addEventListener('touchstart',function(){},{passive:true});
     if(!mq.matches){if(on){on=false;R.classList.remove('strip-vis');}return;}
     var v=(window.scrollY||R.scrollTop)>220;
     if(v!==on){on=v;R.classList.toggle('strip-vis',v);}
+    if(on)R.style.setProperty('--strip-h',st.offsetHeight+'px');
   }
   addEventListener('scroll',f,{passive:true});
   if(mq.addEventListener)mq.addEventListener('change',f);

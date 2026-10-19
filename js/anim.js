@@ -16,6 +16,14 @@ function resetVis(){R.classList.remove('anim-vis-on');if(window.__animVisFin)win
 ['pagehide','pageshow','popstate','hashchange'].forEach(function(ev){addEventListener(ev,resetVis)});
 D.addEventListener('touchstart',function(){},{passive:true});
 
+/* 13. bouton Plan your trip flottant a gauche du WhatsApp (Moshe 19/10) : texte et lien repris du menu, donc dans la langue de la page */
+(function(){
+  var wa=D.querySelector('.wa-flottant');if(!wa||D.getElementById('formDemande'))return;
+  var src=D.querySelector('.nav .liens a[href$="plan-your-trip/"]');if(!src)return;
+  var a=D.createElement('a');a.className='pyt-flottant';a.href=src.getAttribute('href');a.textContent=src.textContent.trim();
+  wa.parentNode.insertBefore(a,wa);
+})();
+
 /* 6. bouton WhatsApp flottant */
 (function(){
   if(!D.querySelector('.wa-flottant'))return;
@@ -260,6 +268,7 @@ D.addEventListener('touchstart',function(){},{passive:true});
     if(!mq.matches){if(on){on=false;R.classList.remove('strip-vis');}return;}
     var v=(window.scrollY||R.scrollTop)>220;
     if(v!==on){on=v;R.classList.toggle('strip-vis',v);}
+    if(on)R.style.setProperty('--strip-h',st.offsetHeight+'px');
   }
   addEventListener('scroll',f,{passive:true});
   if(mq.addEventListener)mq.addEventListener('change',f);
