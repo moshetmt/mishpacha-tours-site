@@ -1491,3 +1491,14 @@ html[data-vt=mishpacha]::view-transition{background:#2D5132}
 .nav{view-transition-name:mt-nav}
 @media (prefers-reduced-motion:reduce){@view-transition{navigation:none}}
 /* ===/KIT-WP=== */
+/* ---- galerie du chalet en rail (20/10) : rangee a glisser sur telephone, grille sur ordinateur, legende sous la photo ---- */
+.galerie-wp h2{margin-bottom:14px}
+.galerie-rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -16px;padding:0 16px 6px}
+.galerie-rail::-webkit-scrollbar{display:none}
+.galerie-rail figure{flex:0 0 78%;scroll-snap-align:start;margin:0}
+.galerie-rail img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px}
+.galerie-rail figcaption{margin-top:8px;font-size:13px;line-height:1.35;color:var(--encre);opacity:.75}
+.kwp-hiver .galerie-rail figcaption{color:#C9D2D4;opacity:1}
+@media (min-width:700px){.galerie-rail{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;overflow:visible;margin:0;padding:0}.galerie-rail figure{flex:none}}
+/* cartes blanches des pages noir et or : le texte reste encre (Moshe 20/10, « erreur de couleur sur la police ») */
+.kwp-hiver .lead-cartes figcaption,.kwp-hiver main>:not(.lead-final,.lead-hero3) .lead-cartes figcaption b{color:var(--encre)}
