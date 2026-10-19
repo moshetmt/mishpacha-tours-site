@@ -391,6 +391,12 @@ for _k, _v in {
 }.items():
     NEW.setdefault(_k, _v)
 
+for _k, _v in {
+    "3 months": ("3 mois", "3 meses", "3 חודשים"), "6 months": ("6 mois", "6 meses", "6 חודשים"), "1 year": ("1 an", "1 año", "שנה"),
+    "18 months": ("18 mois", "18 meses", "18 חודשים"), "2 years": ("2 ans", "2 años", "שנתיים"),
+}.items():
+    NEW.setdefault(_k, _v)
+
 def t(en, lang):
     if lang == "en": return en
     i = LANGS.index(lang) - 1

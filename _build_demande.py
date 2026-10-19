@@ -179,9 +179,9 @@ def formulaire(lang):
                 f'<button type="button" class="moins" aria-label="{E("Fewer")}: {E(label)}">&#8722;</button>'
                 f'<span class="cpt-n"><input type="number" id="c-{name}" name="{name}" min="0" max="99" value="{v}" inputmode="numeric" aria-labelledby="l-{name}"></span>'
                 f'<button type="button" class="plus" aria-label="{E("More")}: {E(label)}">+</button></div></div>')
-    def ages(name, label, ph):
+    def ages(name, label, ph, opts=()):
         return (f'<div class="dm-champ dm-ages cache" data-for="{name}"><label for="c-{name}_ages">{E(label)}</label>'
-                f'<input type="text" id="c-{name}_ages" name="{name}_ages" placeholder="{E(ph)}"></div>')
+                f'<input type="text" id="c-{name}_ages" name="{name}_ages" placeholder="{E(ph)}">' + (sugg(f"c-{name}_ages", opts) if opts else "") + '</div>')
     def sous(x, b=""): return f'<p class="dm-sous"{battr(b)}>{E(x)}</p>'
     def sugg(id_, opts, b="", sa=""):
         """Propositions pendant la saisie d'un champ libre (Moshe, 20/10) : la liste apparait des la premiere lettre, filtree sur ce
@@ -262,8 +262,8 @@ def formulaire(lang):
                    [("Count the whole group, all families together.", "abef"), ("Children's ages help us choose rooms, ski school and cots.", "")],
                    compteur("familles", "Families or households", b="abef", v=1) +
                    compteur("adultes", "Adults", v=2) + compteur("enfants", "Children") +
-                   ages("enfants", "Ages of the children", "9 and 12") +
-                   compteur("bebes", "Babies") + ages("bebes", "Ages of the babies", "10 months") +
+                   ages("enfants", "Ages of the children", "9 and 12", [(str(n),) for n in range(2, 18)]) +
+                   compteur("bebes", "Babies") + ages("bebes", "Ages of the babies", "10 months", ["3 months", "6 months", "1 year", "18 months", "2 years"]) +
                    '<div class="dm-mat cache" data-for="bebes">' + chips("bebe_materiel", ["Baby cots", "High chairs", "Car seats"], mini=True) + "</div>" +
                    f'<div data-b="c">{sous("Luggage and equipment")}' + chips("bagages", ["Large suitcases", "Cabin bags only", "Skis or snowboards", "Baby seats or boosters", "Wheelchair or walker"], mini=True) + "</div>"))
     # ---- 4. logement (a e)
@@ -426,8 +426,9 @@ function shabbats(nn){var el=document.getElementById('dm-shabbat');if(!el)return
  el.hidden=!out.length;el.textContent=el.getAttribute('data-t')+' '+out.join(', ')}
 function norm(x){return x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')}
 function autoc(inp){var g=f.querySelector('.dm-auto[data-for="'+inp.id+'"]');if(!g)return;var segs=inp.value.split(/,\s*/),q=norm(segs[segs.length-1].trim());var n=0;
- [].forEach.call(g.children,function(b){var ok=!!q&&norm(b.getAttribute('data-v')).indexOf(q)>=0&&norm(b.getAttribute('data-v'))!==q&&n<6;b.hidden=!ok;if(ok)n++});g.hidden=!n}
+ [].forEach.call(g.children,function(b){var t=norm(b.getAttribute('data-v')),ok=(!q||t.indexOf(q)>=0)&&t!==q&&n<6;b.hidden=!ok;if(ok)n++});g.hidden=!n}
 f.addEventListener('input',function(ev){if(ev.target.matches&&ev.target.matches('input[type=text]'))autoc(ev.target)});
+f.addEventListener('focusin',function(ev){if(ev.target.matches&&ev.target.matches('input[type=text]'))autoc(ev.target)});
 f.addEventListener('focusout',function(ev){var g=ev.target.id&&f.querySelector('.dm-auto[data-for="'+ev.target.id+'"]');if(g)setTimeout(function(){g.hidden=true},200)});
 function render(an){var p=sync();if(p.indexOf(cur)<0)cur='intention';
  etapes.forEach(function(e){e.hidden=e.getAttribute('data-e')!==cur});
