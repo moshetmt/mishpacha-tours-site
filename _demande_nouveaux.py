@@ -370,6 +370,27 @@ LAB_NEW["aller_retour"] = ("Trip type", "Type de trajet", "Tipo de trayecto", "�
 LAB_NEW["retour_date"] = ("Return date", "Date du retour", "Fecha de vuelta", "תאריך החזרה")
 LAB_NEW["retour_heure"] = ("Return time", "Heure du retour", "Hora de vuelta", "שעת החזרה")
 
+# 20/10 : pastilles de suggestions sous les champs libres (facultatives, non exhaustives).
+for _k, _v in {
+    "Not sure yet": ("Pas encore choisi", "Aún no lo sé", "עוד לא החלטנו"),
+    "Every day": ("Tous les jours", "Todos los días", "כל יום"),
+    "Weekdays only": ("En semaine seulement", "Solo entre semana", "רק בימי חול"),
+    "Shabbat and one weekday dinner": ("Shabbat et un dîner en semaine", "Shabbat y una cena entre semana", "שבת וארוחת ערב אחת בשבוע"),
+    "Nut allergy": ("Allergie aux fruits à coque", "Alergia a los frutos secos", "אלרגיה לאגוזים"),
+    "Gluten-free": ("Sans gluten", "Sin gluten", "ללא גלוטן"),
+    "Vegetarian": ("Végétarien", "Vegetariano", "צמחוני"),
+    "Diabetic": ("Diabétique", "Diabético", "סוכרתי"),
+    "Beginners": ("Débutants", "Principiantes", "מתחילים"),
+    "Intermediate": ("Intermédiaires", "Intermedios", "בינוניים"),
+    "Good skiers": ("Bons skieurs", "Buenos esquiadores", "גולשים טובים"),
+    "Children in ski school": ("Enfants en école de ski", "Niños en escuela de esquí", "ילדים בבית ספר לסקי"),
+    "Geneva airport": ("Aéroport de Genève", "Aeropuerto de Ginebra", "נמל התעופה ז'נבה"),
+    "Lyon airport": ("Aéroport de Lyon", "Aeropuerto de Lyon", "נמל התעופה ליון"),
+    "Lyon Part-Dieu station": ("Gare de Lyon Part-Dieu", "Estación Lyon Part-Dieu", "תחנת ליון פאר-דייה"),
+    "Our chalet": ("Notre chalet", "Nuestro chalet", "הצ'אלה שלנו"),
+}.items():
+    NEW.setdefault(_k, _v)
+
 def t(en, lang):
     if lang == "en": return en
     i = LANGS.index(lang) - 1

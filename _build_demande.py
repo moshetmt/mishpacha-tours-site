@@ -183,6 +183,15 @@ def formulaire(lang):
         return (f'<div class="dm-champ dm-ages cache" data-for="{name}"><label for="c-{name}_ages">{E(label)}</label>'
                 f'<input type="text" id="c-{name}_ages" name="{name}_ages" placeholder="{E(ph)}"></div>')
     def sous(x, b=""): return f'<p class="dm-sous"{battr(b)}>{E(x)}</p>'
+    def sugg(id_, opts, b="", sa=""):
+        """Pastilles facultatives sous un champ libre : toucher remplit le champ, on peut toujours taper autre chose (Moshe, 20/10).
+           opts : texte EN traduit par t(), ou ("texte",) pour un nom propre laisse tel quel."""
+        out = []
+        for o in opts:
+            en, brut = (o, False) if isinstance(o, str) else (o[0], True)
+            v = esc(en) if brut else E(en)
+            out.append(f'<button type="button" data-v="{v}">{v}</button>')
+        return f'<div class="dm-sugg"{battr(b)}{sattr(sa)} data-for="{id_}">' + "".join(out) + "</div>"
     def si(cond, corps): return f'<div data-si="{esc(cond)}" hidden>{corps}</div>'
     def etape(id_, titres, aide, corps, cls="", deco="", deco_t="", sur=""):
         """titres : texte EN, ou liste de (texte EN, branches)."""
@@ -216,13 +225,14 @@ def formulaire(lang):
     S.append(etape("intention", "What can we do for you?", [],
                    tuiles + wa_q1, "dm-intention", sur="Question 1"))
     # ---- 2. ou et quand (a b e f) : le lieu selon la branche, puis les dates
-    dl = '<datalist id="dl-stations">' + "".join(f'<option value="{esc(x)}">' for x in ['Les Deux Alpes', 'Courchevel', 'Megève', 'Val Thorens', 'Méribel', "Alpe d'Huez", 'Chamonix', 'Les Arcs', 'La Plagne', "Val d'Isère", 'Morzine', 'Châtel', 'Annecy', 'Grenoble', 'Zermatt', 'St. Moritz', 'Crans-Montana', 'Cervinia', 'Courmayeur', 'Cortina']) + "</datalist>"
     S.append(etape("sejour", "Where and when?", "A resort or a region is enough. Approximate dates are fine.",
                    chips("voyage", ["Pesach in the Alps", "Hanukkah in the Alps", "Sukkot", "Rosh Hashanah and Yom Kippur", "Purim", "Shavuot", "Another holiday"], b="e", mini=True) +
-                   champ("lieu-sejour", "lieu", "Resort or region", ph="Start typing, or write \u201cnot sure yet\u201d", b="aef", extra=' list="dl-stations" autocomplete="off"') +
-                   champ("lieu-ou", "lieu", "Resort or resorts you are considering", ph="Morzine, Châtel, Les Deux Alpes", b="b", extra=' list="dl-stations" autocomplete="off"') +
+                   champ("lieu-sejour", "lieu", "Resort or region", ph="Start typing, or write \u201cnot sure yet\u201d", b="aef") +
+                   sugg("lieu-sejour", [("Courchevel",), ("Les Deux Alpes",), ("Megève",), ("Val Thorens",), ("Méribel",), ("Alpe d'Huez",), ("Chamonix",), ("Morzine",), ("Zermatt",), ("St. Moritz",), "Not sure yet"], b="aef") +
+                   champ("lieu-ou", "lieu", "Resort or resorts you are considering", ph="Morzine, Châtel, Les Deux Alpes", b="b") +
+                   sugg("lieu-ou", [("Courchevel",), ("Les Deux Alpes",), ("Megève",), ("Val Thorens",), ("Méribel",), ("Alpe d'Huez",), ("Chamonix",), ("Morzine",), ("Zermatt",), ("St. Moritz",)], b="b") +
                    chips("lieu_pas_choisi", ["Not chosen yet, minyan first"], b="b", mini=True) +
-                   champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b") + dl +
+                   champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b") +
                    '<div class="dm-duo">' + champ("arrivee", "arrivee", "Arrival", typ="date") + champ("depart", "depart", "Departure", typ="date") + "</div>" +
                    '<p class="dm-nuits" id="dm-nuits" hidden aria-live="polite"></p>' +
                    f'<p class="dm-shabbat" id="dm-shabbat" hidden data-t="{E("Shabbat during your stay:")}"></p>' +
@@ -231,7 +241,9 @@ def formulaire(lang):
     # ---- van : trajet + aller-retour, puis les deux trajets
     S.append(etape("trajet", "Where from, and is there a return?", "Address, airport, station or hotel. A town name is enough.",
                    champ("van_depart", "van_depart", "Pick-up point", ph="Lyon Saint-Exupéry airport") +
+                   sugg("van_depart", ["Geneva airport", "Lyon airport", "Lyon Part-Dieu station"]) +
                    champ("van_arrivee", "van_arrivee", "Drop-off point", ph="Les Deux Alpes, chalet") +
+                   sugg("van_arrivee", ["Our chalet", ("Courchevel",), ("Les Deux Alpes",), ("Megève",), ("Val Thorens",), ("Méribel",), ("Alpe d'Huez",), ("Chamonix",), ("Morzine",), ("Zermatt",), ("St. Moritz",)]) +
                    chips("aller_retour", ["One way", "Return trip"], multi=False)))
     S.append(etape("quand", "When?", "Date and time of each trip. Add the flight if you land or take off.",
                    sous("Outbound") + '<div class="dm-duo">' + champ("arrivee-van", "arrivee", "Date", typ="date") + champ("heure", "heure", "Pick-up time", typ="time") + "</div>" +
@@ -263,18 +275,22 @@ def formulaire(lang):
     S.append(etape("repas", "Meals, Shabbat and prayer", "Pick one meal option. Everything we serve is Chalav Yisrael.",
                    chips("repas", ["Private chef in the chalet", "Meals delivered, ready to heat", "Shabbat meals only", "Advise me", ("No meals needed", "", "none")], multi=False) +
                    champ("repas_jours", "repas_jours", "Which days?", ph="Shabbat only, or every day from 25 July to 15 August") +
+                   sugg("repas_jours", ["Every day", "Shabbat meals only", "Weekdays only", "Shabbat and one weekday dinner"]) +
                    sous("Kashrut") + chips("cacherout", ["Pas Yisrael", "Glatt / Beit Yosef", "Chassidic shechita", "Kitniyot-free (Pesach)"], mini=True) +
                    champ("allergies", "allergies", "Allergies or special diets", ph="Nut allergy for one child") +
+                   sugg("allergies", ["Nut allergy", "Gluten-free", "Vegetarian", "Diabetic"]) +
                    sous("Minyan") + chips("minyan_niveau", ["The minyan is essential", "Nice to have", "Not needed"], multi=False) +
                    si("minyan_niveau!=Not needed", compteur("hommes", "Men over bar mitzvah age, for the minyan") +
                       chips("religieux", ["Minyan on Shabbat", "Minyan every day", "Sefer Torah in the chalet"], mini=True) +
-                      champ("rite", "rite", "Nusach or community, if it matters for the minyan", ph="Chabad, Ashkenaz, Sefarad, Edot HaMizrach")) +
+                      champ("rite", "rite", "Nusach or community, if it matters for the minyan", ph="Chabad, Ashkenaz, Sefarad, Edot HaMizrach") +
+                      sugg("rite", [("Chabad",), ("Ashkenaz",), ("Sefarad",), ("Edot HaMizrach",)])) +
                    sous("Other needs") + chips("religieux", ["Candles, wine, challot", "Eruv or carrying advice", "Mikveh nearby", "Holiday items (lulav, menorah)", "Fast day or holiday"], mini=True),
                    deco_t=BOUGIE))
     # ---- 6. voyage et sur place (a b e) : tout facultatif, en cases compactes
     S.append(etape("voyage", "Getting there and on site", "Everything here is optional. Tick what tempts you.",
                    sous("Your flights") + chips("aeroport", ["Flying to Lyon", "Flying to Geneva", "Flying to Paris then train", "Arriving by car", "Not decided yet"], multi=False, mini=True) +
                    champ("vol_ville", "vol_ville", "City you fly from", ph="New York, Tel Aviv, London") +
+                   sugg("vol_ville", [("New York",), ("Miami",), ("Los Angeles",), ("Tel Aviv",), ("London",), ("Manchester",), ("Paris",), ("Antwerp",), ("Zurich",), ("Buenos Aires",), ("Mexico City",)]) +
                    chips("vols_pris", ["Flights already booked", "Not booked yet"], multi=False, mini=True) +
                    chips("transport", ["Private airport transfer", "Taxi rides in the resort", "A van and driver for the stay", "A rental car", "Help with flights"], mini=True) +
                    sous("Ski and activities", "abe") +
@@ -285,6 +301,7 @@ def formulaire(lang):
                                  ("Lake swimming", "", "", "s"), ("Hot-air balloon", "", "", "s"), ("Climbing for children", "", "", "s"), ("Fishing", "", "", "s"),
                                  ("Farm and cheese visit", "", "", "s"), "Paragliding", "Massage and spa"], mini=True) +
                    champ("niveau", "niveau", "Ski levels in the group", ph="4 good skiers, 2 beginners, 2 children in ski school", sa="w") +
+                   sugg("niveau", ["Beginners", "Intermediate", "Good skiers", "Children in ski school"], sa="w") +
                    sous("Visits in Lyon") + chips("lyon", ["Jewish Lyon walk (2.5 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
                                                          "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Shabbat with a Chabad family"], mini=True) +
                    sous("Extras") + chips("extras", ["Babysitter", "A wedding on the slopes", "A simcha to celebrate", "Fireworks", "Photographer or videographer", "DJ or live music",
@@ -407,7 +424,9 @@ function nights(){var a=dnum(raw('arrivee')),d=dnum(raw('depart'));return a!==nu
 function shabbats(nn){var el=document.getElementById('dm-shabbat');if(!el)return;var a=dnum(raw('arrivee'));if(cur!=='sejour'||!(nn>0)||a===null||nn>60){el.hidden=true;return}
  var out=[];for(var k=0;k<nn;k++){var d=new Date(a+k*864e5);if(d.getUTCDay()===5){var s=new Date(a+(k+1)*864e5);out.push(s.toLocaleDateString(C.loc,{day:'numeric',month:'long',timeZone:'UTC'}))}}
  el.hidden=!out.length;el.textContent=el.getAttribute('data-t')+' '+out.join(', ')}
-function render(an){var p=sync();if(p.indexOf(cur)<0)cur='intention';
+function suggs(){[].forEach.call(f.querySelectorAll('.dm-sugg'),function(g){var inp=document.getElementById(g.getAttribute('data-for')),v=inp?inp.value:'';
+ [].forEach.call(g.children,function(b){b.classList.toggle('on',!!v&&v.indexOf(b.getAttribute('data-v'))>=0)})})}
+function render(an){var p=sync();suggs();if(p.indexOf(cur)<0)cur='intention';
  etapes.forEach(function(e){e.hidden=e.getAttribute('data-e')!==cur});
  var i=p.indexOf(cur),last=cur==='final',b=branch();f.classList.toggle('avance',cur!=='intention');
  bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;var nn=cur==='sejour'?nights():null,bad=nn!==null&&nn<0;shabbats(nn);
@@ -430,6 +449,9 @@ function next(){var p=path(),i=p.indexOf(cur);if(ret){var r=ret;ret='';show(r,tr
 function back(){ret='';var p=path(),i=p.indexOf(cur);if(i>0)show(p[i-1],true,true)}
 bNext.addEventListener('click',next);bBack.addEventListener('click',back);
 f.addEventListener('click',function(ev){
+ var sg=ev.target.closest&&ev.target.closest('.dm-sugg button');if(sg){var inp=document.getElementById(sg.parentNode.getAttribute('data-for')),v=sg.getAttribute('data-v'),cur0=inp.value.trim();
+  if(!cur0)inp.value=v;else if(cur0.indexOf(v)<0)inp.value=cur0+', '+v;else inp.value=cur0.split(/,\s*/).filter(function(x){return x!==v}).join(', ');
+  inp.dispatchEvent(new Event('input',{bubbles:true}));return}
  var tu=ev.target.closest&&ev.target.closest('.dm-tuile');if(tu&&ev.target.tagName!=='INPUT'&&cur==='intention'){var ri=tu.querySelector('input');if(ri&&ri.checked){setTimeout(next,120);return}}
  var go=ev.target.closest&&ev.target.closest('.dm-edit');if(go){ret='final';show(go.getAttribute('data-go'),true,true);return}
  var bt=ev.target.closest&&ev.target.closest('.cpt button');if(!bt)return;
@@ -521,6 +543,10 @@ body:has(#formDemande.avance) .demande-hero ~ .ss.demande{margin-top:8px}
 .dm-shabbat{font-size:14px;font-weight:600;color:var(--vert)}
 .dm-shabbat[hidden]{display:none}
 .dm-aide{margin:2px 0 0;font-size:13.5px;opacity:.7}
+.dm-sugg{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px!important}
+.dm-sugg button{min-height:36px;padding:6px 12px;border-radius:999px;border:1px dashed rgba(28,27,31,.35);background:transparent;font:inherit;font-size:13.5px;color:var(--encre);cursor:pointer}
+.dm-sugg button.on{background:var(--jaune);border-style:solid;border-color:var(--jaune);font-weight:600}
+.dm-sugg[hidden]{display:none}
 .etape .dm-sous{margin-top:22px}
 details.dm-recap{margin-top:22px;border:1px solid rgba(28,27,31,.15);border-radius:14px;padding:4px 16px;background:var(--blanc)}
 details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
