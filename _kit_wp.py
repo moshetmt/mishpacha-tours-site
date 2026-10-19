@@ -117,7 +117,7 @@ def carte(lang, cle):
     puces = "".join(f'<li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">{PICTOS[p]}</svg><span><b>{a}</b>{b}</span></li>'
                     for p, (a, b) in zip(c["pictos"], d["s"]))
     titre = f'<a href="{pfx(lang)}{c["lien"]}">{d["t"]}</a>' if c["lien"] else d["t"]
-    return (f'<article class="kwp-carte"><div class="kwp-photo"><img src="{c["img"]}" alt="{d["alt"]}" width="{c["w"]}" height="{c["h"]}" loading="lazy">'
+    return (f'<article class="kwp-carte{" kwp-sp" if CHALETS[cle].get("marque") == "sp" else ""}"><div class="kwp-photo"><img src="{c["img"]}" alt="{d["alt"]}" width="{c["w"]}" height="{c["h"]}" loading="lazy">'
             f'{seau(lang, cle)}</div><div class="kwp-corps"><div class="kwp-lieu">{d["lieu"]} · {d.get("avec", t["avec"])}</div><h3>{titre}</h3>'
             f'<ul class="kwp-chiffres">{puces}</ul><p class="kwp-casher">{d["k"]}</p><p class="kwp-dispo">{t["dispo"]}</p>'
             f'<div class="kwp-pied"><img src="{marque(cle)["noir"]}" alt="{marque(cle)["nom"]}" title="{marque(cle)["nom"]}" width="46" height="46" loading="lazy">'
@@ -226,13 +226,13 @@ def page(slug, lang):
         s = poser(s, "hub", f'<section class="ss wrap kwp kwp-hub"><div class="kwp-cartes">{carte(lang, "da")}{carte(lang, "co")}</div>{bandeau(lang)}</section>',
                   apres='<section class="ss wrap lead-intro"')
     elif slug == "kosher-villa-saint-tropez":
-        s = poser(s, "galerie", galerie_vi(lang), apres='<section class="hero lead-hero3"')
+        s = poser(s, "galerie", galerie_vi(lang), avant='</main>')   # 19/10 Moshé : jamais sous la bannière, juste avant le pied
         s = hero_sp(s)
     elif slug == "summer-in-the-alps-jewish-families":
         s = poser(s, "vi", f'<section class="ss wrap kwp"><h2>{t["vi_h2"]} <i>{t["vi_h2_i"]}</i></h2>'
                            f'<div class="kwp-cartes kwp-seule">{carte(lang, "vi")}</div></section>', apres='<section class="ss wrap lead-intro"')
     elif slug == "kosher-chalet-courchevel":
-        s = poser(s, "galerie", galerie_co(lang), apres='<section class="hero lead-hero3"')
+        s = poser(s, "galerie", galerie_co(lang), avant='</main>')   # 19/10 Moshé : jamais sous la bannière, juste avant le pied
         s = poser(s, "bandeau", f'<section class="ss wrap kwp kwp-seul-bandeau">{bandeau(lang)}</section>', avant='<section class="ss lead-final"')
     if slug in STATIONS_SANS_CHALET or slug in ("kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel"):
         s = poser(s, "mini", mini(lang, slug), avant='<section class="ss lead-final"')
@@ -345,6 +345,7 @@ def transition(p):
 
 CSS = """/* ===KIT-WP=== */
 .kwp-cartes{display:grid;gap:24px;margin-top:24px}
+.kwp .kwp-sp .btn-noir{--logo:url(img/sp-symbole-noir.svg)}   /* 19/10 : carte Summer Prestige, soleil sur le bouton au lieu du flocon */
 .kwp-seule{max-width:460px}
 .kwp-carte{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 1px 0 rgba(28,27,31,.08);display:flex;flex-direction:column}
 .kwp-photo{position:relative;aspect-ratio:3/2}
