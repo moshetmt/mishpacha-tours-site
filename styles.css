@@ -1107,7 +1107,17 @@ details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
   body .dk-rail > li > b{display:block}
 }
 /* ===/ACCUEIL-MOBILE-15-10=== *//* LEAD retouches 15/10 : formulaire d'abord, WhatsApp en lien */
-.lead3-btns{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;margin-top:26px}.lead-hero3 .lead3-btns .btn-hero{margin-top:0}.lead3-wa{display:inline-flex;align-items:center;gap:8px;color:#FFFAED;font-weight:600;font-size:15px;text-decoration:underline;text-underline-offset:4px}.lead3-wa svg{width:20px;height:20px;fill:currentColor}/* ===MENU=== */
+.lead3-btns{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;margin-top:26px}.lead-hero3 .lead3-btns .btn-hero{margin-top:0}.lead3-wa{display:inline-flex;align-items:center;gap:8px;color:#FFFAED;font-weight:600;font-size:15px;text-decoration:underline;text-underline-offset:4px}.lead3-wa svg{width:20px;height:20px;fill:currentColor}/* ===MESURE=== */
+.cb{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;max-width:760px;margin-inline:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;padding:14px 18px;background:var(--creme);color:var(--encre);border:1px solid rgba(28,27,31,.18);border-radius:18px;box-shadow:0 8px 28px rgba(28,27,31,.16);font-size:14px;line-height:1.5}
+.cb[hidden]{display:none}
+.cb-haut{bottom:auto;top:12px}
+.cb p{margin:0;flex:1 1 280px}
+.cb p a{text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.cb-b{display:flex;gap:10px}
+.cb button{min-width:104px;min-height:44px;padding:0 22px;border:0;border-radius:999px;background:var(--encre);color:var(--creme);font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+@media(max-width:480px){.cb-b{width:100%}.cb button{flex:1}}
+/* ===/MESURE=== */
+/* ===MENU=== */
 .nav .liens a.nav-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-weight:600;white-space:nowrap}
 @media (min-width:900px){.nav .liens{align-items:center}}
 .panneau nav a.nav-cta{display:flex;justify-content:center;align-items:center;margin-top:24px;padding:16px 24px;border:0;border-radius:999px;background:var(--jaune);font-size:22px;font-weight:600}
@@ -1161,16 +1171,6 @@ h2 + .hub-grille,h2 + .sous + .hub-grille{margin-top:28px}   /* titre plus colle
 #how.etapes ol li:not(:last-child)::after{display:none}
 }
 /* ===/MOBILE=== */
-/* ===MESURE=== */
-.cb{position:fixed;left:12px;right:12px;bottom:12px;z-index:70;max-width:760px;margin-inline:auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;padding:14px 18px;background:var(--creme);color:var(--encre);border:1px solid rgba(28,27,31,.18);border-radius:18px;box-shadow:0 8px 28px rgba(28,27,31,.16);font-size:14px;line-height:1.5}
-.cb[hidden]{display:none}
-.cb-haut{bottom:auto;top:12px}
-.cb p{margin:0;flex:1 1 280px}
-.cb p a{text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
-.cb-b{display:flex;gap:10px}
-.cb button{min-width:104px;min-height:44px;padding:0 22px;border:0;border-radius:999px;background:var(--encre);color:var(--creme);font:inherit;font-size:14px;font-weight:600;cursor:pointer}
-@media(max-width:480px){.cb-b{width:100%}.cb button{flex:1}}
-/* ===/MESURE=== */
 /* ===ANIMATIONS=== */
 :root{--ease-out:cubic-bezier(0.23,1,0.32,1);--ease-drawer:cubic-bezier(0.32,0.72,0,1)}
 /* ---- structure sans mouvement : les trois traits du menu (memes positions qu'avant) ---- */
@@ -1332,4 +1332,38 @@ main>.ss:last-child:not(.lead-final){padding-bottom:72px}
 /* toutes les pages : le bloc vert du formulaire avait 0 px de marge, bonhomme coupé en haut, carte collée en bas (Moshé 19/10) */
 .lead-final{padding:48px 0 56px}
 @media (min-width:900px){.lead-final{padding:72px 0 80px}}
+/* accès direct aux chalets (19/10) : carte entièrement cliquable, bande des stations, accueil */
+.kwp-carte{position:relative;transition:box-shadow .2s,transform .2s}
+.kwp-carte h3 a::after{content:"";position:absolute;inset:0;z-index:1}
+.kwp-carte .kwp-pied .btn-noir{position:relative;z-index:2}
+@media (hover:hover){.kwp-carte:hover{box-shadow:0 10px 30px rgba(28,27,31,.14);transform:translateY(-2px)}}
+.kwp-carte h3 a:focus-visible{outline:none}.kwp-carte:has(h3 a:focus-visible){outline:3px solid var(--jaune);outline-offset:3px}
+.kwp-tous{margin:22px 0 0}
+.kwp-accueil{padding-top:40px}
+.kwp-mini-v{display:grid;gap:12px;margin-top:18px}
+.kwp-v{display:flex;gap:14px;align-items:center;padding:10px;border-radius:14px;background:#fff;border:1px solid #E2DCCF;text-decoration:none;color:var(--encre)}
+.kwp-v img{width:112px;height:75px;object-fit:cover;border-radius:10px;flex:none}
+.kwp-v b{display:block;font-family:var(--titre);font-weight:600;font-size:18px;line-height:1.2}
+.kwp-v span{font-size:14px;line-height:1.35;color:#5A6068}
+@media (min-width:700px){.kwp-mini-v{grid-template-columns:repeat(2,minmax(0,420px))}}
+/* menu : entrée Chalets (posée par _zones.py), aperçu des deux chalets au survol sur ordinateur, vignettes visibles dans le panneau */
+.nav-ch{position:relative}
+.nav-ch-menu{display:none}
+.nav-ch-v{display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--encre)}
+.nav-ch-v img{width:84px;height:56px;object-fit:cover;border-radius:8px;flex:none}
+.nav-ch-v b{display:block;font-weight:600;font-size:15px}
+.nav-ch-v span{font-size:13px;line-height:1.35;color:#5A6068}
+.nav-ch-tous{font-size:14px;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+@media (min-width:900px){
+ .nav .liens .nav-ch{display:flex;align-items:center;align-self:stretch}
+ .nav .liens .nav-ch-menu{position:absolute;top:100%;inset-inline-start:-18px;z-index:50;width:340px;padding:14px;border-radius:14px;background:#fff;box-shadow:0 16px 40px rgba(28,27,31,.18);flex-direction:column;gap:10px}
+ .nav .liens .nav-ch:hover .nav-ch-menu,.nav .liens .nav-ch:focus-within .nav-ch-menu{display:flex}
+ .nav .liens .nav-ch-v{padding:6px;border-radius:10px}.nav .liens .nav-ch-v:hover{background:var(--creme)}
+ .nav .liens .nav-ch-tous{padding:4px 6px}
+}
+.panneau .nav-ch{border-bottom:1px solid rgba(28,27,31,.2);padding-bottom:16px}
+.panneau nav .nav-ch>a.nav-ch-lien{border-bottom:0;padding-bottom:10px}
+.panneau .nav-ch-menu{display:grid;gap:10px}
+.panneau nav .nav-ch-menu a{display:flex;padding:0;border:0;font-family:inherit;font-weight:400;font-size:15px}
+.panneau nav .nav-ch-menu a.nav-ch-tous{display:none}
 /* ===/KIT-WP=== */

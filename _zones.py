@@ -7,7 +7,7 @@ import glob, io, os, re
 
 LANGS = ("fr", "es", "he")
 ALPES = {"alps", "kosher-alpe-dhuez", "kosher-annecy", "kosher-chalet-les-deux-alpes", "kosher-chamonix", "kosher-courchevel",
-         "kosher-grenoble", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
+         "kosher-grenoble", "kosher-chalets", "kosher-chalet-courchevel", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
          "kosher-ski-holidays-french-alps", "kosher-vacation-french-alps", "kosher-val-disere", "kosher-val-thorens",
          "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana", "kosher-cervinia", "kosher-courmayeur", "kosher-cortina",
          "lyon-gateway-to-the-alps-kosher", "summer-in-the-alps-jewish-families", "flights-to-lyon"}
@@ -35,6 +35,20 @@ ENTREES = {"en": ("Winter", "Summer", "Jewish Lyon", "Plan your trip"),
            "es": ("Invierno", "Verano", "Lyon judío", "Planificar mi viaje"),
            "he": ("חורף", "קיץ", "ליון היהודית", "לתכנן את הטיול")}
 WA_HE = "דברו איתנו בוואטסאפ"
+# Entrée « Chalets » (19/10, audit du parcours chalet) : 2e entrée, juste après l'hiver. Sur ordinateur, un aperçu des deux chalets
+# s'ouvre au survol ou au clavier ; dans le panneau mobile, les deux vignettes restent visibles sous l'entrée.
+CHALETS = {"en": ("Chalets", "See both chalets", (("Les Deux Alpes", "6 + 1 bedrooms · 2 min from the slopes"), ("Courchevel", "5 suites · heated pools"))),
+           "fr": ("Chalets", "Voir les deux chalets", (("Les Deux Alpes", "6 + 1 chambres · à 2 min des pistes"), ("Courchevel", "5 suites · piscines chauffées"))),
+           "es": ("Chalets", "Ver los dos chalets", (("Les Deux Alpes", "6 + 1 habitaciones · a 2 min de las pistas"), ("Courchevel", "5 suites · piscinas climatizadas"))),
+           "he": ("צ'אלות", "לראות את שתי הצ'אלות", (("לה דז אלפ", "6 + 1 חדרים · 2 דק' מהמסלולים"), ("קורשבל", "5 סוויטות · בריכות מחוממות")))}
+CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/wp-ext-bleu.jpg"), ("kosher-chalet-courchevel", "/img/chalet/courchevel-ext.jpg"))
+
+def chalets_html(lang, pre):
+    lib, tous, items = CHALETS[lang]
+    vign = "".join(f'<a class="nav-ch-v" href="{pre}/{u}/"><img src="{img}" alt="" width="96" height="64" loading="lazy"><span><b>{n}</b>{d}</span></a>'
+                   for (u, img), (n, d) in zip(CH_URL, items))
+    return (f'<div class="nav-ch"><a class="nav-ch-lien" href="{pre}/kosher-chalets/">{lib}</a>'
+            f'<div class="nav-ch-menu">{vign}<a class="nav-ch-tous" href="{pre}/kosher-chalets/">{tous}</a></div></div>')
 SECOND = {"en": ("Our chalet", "Resorts", "Jewish Lyon guide", "Van transfers", "Explore"),
           "fr": ("Notre chalet", "Stations", "Guide du Lyon juif", "Transferts en van", "Explorer"),
           "es": ("Nuestro chalé", "Estaciones", "Guía del Lyon judío", "Traslados en van", "Explorar"),
@@ -42,7 +56,7 @@ SECOND = {"en": ("Our chalet", "Resorts", "Jewish Lyon guide", "Van transfers", 
 
 def menu_html(lang, pre, wa):
     w, s_, l, p = ENTREES[lang]
-    base = f'<a href="{pre}/alps/">{w}</a>\n    <a href="{pre}/summer-in-the-alps-jewish-families/">{s_}</a>\n    <a href="{pre}/jewish-lyon-tours/">{l}</a>\n    '
+    base = f'<a href="{pre}/alps/">{w}</a>\n    {chalets_html(lang, pre)}\n    <a href="{pre}/summer-in-the-alps-jewish-families/">{s_}</a>\n    <a href="{pre}/jewish-lyon-tours/">{l}</a>\n    '
     if lang == "he":
         return base + f'<a href="{pre}/plan-your-trip/">{p}</a>', base + f'<a href="{pre}/plan-your-trip/">{p}</a>', f'\n    <a class="nav-cta nav-cta-wa" href="{wa}" rel="noopener">{WA_HE}</a>'
     cta = f'<a class="nav-cta" href="{pre}/plan-your-trip/">{p}</a>'
@@ -50,7 +64,7 @@ def menu_html(lang, pre, wa):
 
 def second_links(lang, pre):
     c, r, g, v, _ = SECOND[lang]
-    return [(c, f"{pre}/kosher-chalet-les-deux-alpes/"), (g, f"{pre}/jewish-lyon-guide/"), (v, f"{pre}/kosher-van-transfers/")]
+    return [(CHALETS[lang][0], f"{pre}/kosher-chalets/"), (g, f"{pre}/jewish-lyon-guide/"), (v, f"{pre}/kosher-van-transfers/")]
 
 # Stations en pastilles dans le menu (reproche du 15/10 : « ou on se renseigne sur les villes maintenant ? »)
 STATIONS = [("Les Deux Alpes", "kosher-les-deux-alpes"), ("Courchevel", "kosher-courchevel"), ("Val Thorens", "kosher-val-thorens"),
@@ -82,7 +96,7 @@ def traiter(path):
     sec = second_links(lang, pre0)
     n = re.sub(r'\s*<div class="panneau-st">.*?</div>', "", n, count=1, flags=re.S)
     n = re.sub(r'\s*<div class="panneau-sec">.*?</div>', "", n, count=1, flags=re.S)
-    n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>.*?</nav>)', lambda m: m.group(1) + stations_html(lang, pre0) + '\n  <div class="panneau-sec">' + "".join(f'<a href="{u}">{t}</a>' for t, u in sec) + "</div>", n, count=1, flags=re.S)
+    n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>.*?</nav>)', lambda m: m.group(1) + stations_html(lang, pre0) + '\n  <div class="panneau-sec">' + "".join(f'<a href="{u}">{t}</a>' for t, u in sec[1:]) + "</div>", n, count=1, flags=re.S)
     n = re.sub(r'\s*<details class="pied-explore">.*?</details>', "", n, count=1, flags=re.S)
     expl = '\n    <details class="pied-explore"><summary>' + SECOND[lang][4] + "</summary><p>" + "<br>".join(f'<a href="{u}">{t}</a>' for t, u in [sec[0], (SECOND[lang][1], f"{pre0}/#resorts")] + sec[1:]) + "</p></details>"
     n = re.sub(r'(<footer class="pied">\s*<div class="cols">.*?)(\s*</div>\s*<p class="logo-pied">)', lambda m: m.group(1) + expl + m.group(2), n, count=1, flags=re.S)

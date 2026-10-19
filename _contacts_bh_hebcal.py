@@ -75,6 +75,7 @@ PLACES = {  # slug : (geonameid, {lang: nom})
     "kosher-chalet-les-deux-alpes": (6354942, dict(en="Les Deux Alpes", fr="Les Deux Alpes", es="Les Deux Alpes", he="לה דז אלפ")),
     "kosher-chamonix": (3027301, dict(en="Chamonix", fr="Chamonix", es="Chamonix", he="שמוני")),
     "kosher-courchevel": (3023065, dict(en="Courchevel", fr="Courchevel", es="Courchevel", he="קורשבל")),
+    "kosher-chalet-courchevel": (3023065, dict(en="Courchevel", fr="Courchevel", es="Courchevel", he="קורשבל")),
     "kosher-grenoble": (3014728, dict(en="Grenoble", fr="Grenoble", es="Grenoble", he="גרנובל")),
     "kosher-la-plagne": (2996874, dict(en="La Plagne", fr="La Plagne", es="La Plagne", he="לה פלאן")),
     "kosher-les-arcs": (3030949, dict(en="Les Arcs", fr="Les Arcs", es="Les Arcs", he="לז ארק")),
@@ -101,6 +102,7 @@ COORDS = {  # slug : (latitude, longitude, tzid)
     "kosher-courchevel": (45.4154, 6.6364, "Europe/Paris"), "kosher-val-thorens": (45.2978, 6.5838, "Europe/Paris"),
     "kosher-megeve": (45.8569, 6.6178, "Europe/Paris"), "kosher-alpe-dhuez": (45.0909, 6.0710, "Europe/Paris"),
     "kosher-les-deux-alpes": (45.0116, 6.1255, "Europe/Paris"), "kosher-chalet-les-deux-alpes": (45.0116, 6.1255, "Europe/Paris"),
+    "kosher-chalet-courchevel": (45.4154, 6.6364, "Europe/Paris"),
     "kosher-chamonix": (45.9237, 6.8694, "Europe/Paris"), "kosher-annecy": (45.8992, 6.1294, "Europe/Paris"),
     "kosher-grenoble": (45.1885, 5.7245, "Europe/Paris"), "kosher-la-plagne": (45.5070, 6.6780, "Europe/Paris"),
     "kosher-les-arcs": (45.5726, 6.8279, "Europe/Paris"), "kosher-val-disere": (45.4481, 6.9800, "Europe/Paris"),
@@ -108,7 +110,7 @@ COORDS = {  # slug : (latitude, longitude, tzid)
     "kosher-crans-montana": (46.3132, 7.4791, "Europe/Zurich"), "kosher-cervinia": (45.9336, 7.6297, "Europe/Rome"),
     "kosher-courmayeur": (45.7966, 6.9689, "Europe/Rome"), "kosher-cortina": (46.5369, 12.1390, "Europe/Rome"),
 }
-STATIONS = [s for s in COORDS if s != "kosher-chalet-les-deux-alpes"]  # tableau des pages multi-stations
+STATIONS = [s for s in COORDS if s not in ("kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel")]  # tableau des pages multi-stations
 REPLI = {"en": "Candle lighting falls as early as 16:30 in December and after 21:00 in June.",  # Lyon seulement
          "fr": "L’allumage des bougies tombe dès 16:30 en décembre et après 21:00 en juin.",
          "es": "El encendido de velas cae hacia las 16:30 en diciembre y después de las 21:00 en junio.",

@@ -74,7 +74,7 @@ def accueil(lang):
                    f'<img src="{pre}chalet/wp-table-fete.jpg" alt="{a["table"]}" width="1600" height="1600" loading="lazy">', h); n += k
     h, k = re.subn(r'<img src="%schalet/(?:view|wp-pistes-balcon)\.jpg" alt="[^"]*" width="\d+" height="\d+" loading="lazy">' % re.escape(pre),
                    f'<img src="{pre}chalet/wp-pistes-balcon.jpg" alt="{a["pistes"]}" width="1600" height="1600" loading="lazy">', h); n += k
-    assert n == 5, (lang, n)
+    assert n == 5 or 'class="ss wrap ac-chalet"' not in h, (lang, n)   # 19/10 : bloc ac-chalet remplacé par les cartes KIT-WP:accueil
     p.write_text(h, encoding="utf-8")
     print("accueil", lang, n)
 

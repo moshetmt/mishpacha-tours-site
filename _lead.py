@@ -43,6 +43,8 @@ PAGES.update({
  'kosher-vacation-french-alps': ('stock/annecy-lac.jpg', 'alps', 'Kosher vacation in the Alps'),
  'kosher-van-transfers': ('illus/flat-stopover.png', 'van', 'Van transfer'),
  'kosher-chalet-les-deux-alpes': ('chalet/wp-ext-bleu.jpg', 'chalet', 'Kosher chalet in Les Deux Alpes'),
+ 'kosher-chalet-courchevel': ('chalet/courchevel-ext.jpg', 'chalet', 'Kosher chalet in Courchevel'),   # 19/10
+ 'kosher-chalets': ('chalet/wp-soleil.jpg', 'chalet', 'Kosher chalet in the Alps'),                       # 19/10, page du menu Chalets
 })
 OFFRE_SLUGS = ('kosher-les-deux-alpes', 'kosher-chalet-les-deux-alpes')
 WP_SLUG = 'kosher-les-deux-alpes'
@@ -152,7 +154,7 @@ def traiter(slug, lang):
     btn = T['btn_van' if typ == 'van' else 'btn'][lang]
     name = STATIONS[slug][1][lang] if slug in STATIONS else None
     if typ == 'chalet':
-        name = STATIONS['kosher-les-deux-alpes'][1][lang]
+        name = None if slug == 'kosher-chalets' else STATIONS['kosher-courchevel' if slug == 'kosher-chalet-courchevel' else 'kosher-les-deux-alpes'][1][lang]
     wp = ('<img class="lead3-wp" src="/img/logo-winter-prestige-or.svg" alt="Winter Prestige, powered by Mishpacha Tours" width="260" height="92">' if typ == 'chalet' else '')
     w, h = Image.open('img/' + photo).size
     cls = 'hero lead-hero3' + (' lead-hero3-illus' if typ == 'van' else '')

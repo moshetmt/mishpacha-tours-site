@@ -45,7 +45,7 @@ H2ILLUS = [(r"kosher|service|meal", "flat-kosher"), (r"safe", "line-private"), (
 # pages Alpes et van : le hassid du logo (dessin de marque) remplace toutes les illustrations posees a cote des h2
 HASSID_PAGES = {"kosher-val-thorens", "kosher-courchevel", "kosher-megeve", "kosher-alpe-dhuez", "kosher-les-deux-alpes", "kosher-grenoble", "kosher-annecy",
                 "kosher-chamonix", "kosher-les-arcs", "kosher-la-plagne", "kosher-val-disere", "kosher-services-french-alps", "alps", "kosher-ski-holidays-french-alps",
-                "summer-in-the-alps-jewish-families", "kosher-vacation-french-alps", "kosher-van-transfers", "kosher-chalet-les-deux-alpes",
+                "summer-in-the-alps-jewish-families", "kosher-vacation-french-alps", "kosher-van-transfers", "kosher-chalet-les-deux-alpes", "kosher-chalets", "kosher-chalet-courchevel",
                 "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana", "kosher-cervinia", "kosher-courmayeur", "kosher-cortina"}
 
 def rd(p): return io.open(p, encoding="utf-8").read()

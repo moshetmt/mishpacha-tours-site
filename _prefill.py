@@ -15,6 +15,7 @@ STATIONS = {"kosher-alpe-dhuez": "Alpe d'Huez", "kosher-annecy": "Annecy", "kosh
             "kosher-zermatt": "Zermatt", "kosher-st-moritz": "St. Moritz", "kosher-crans-montana": "Crans-Montana", "kosher-cervinia": "Cervinia", "kosher-courmayeur": "Courmayeur", "kosher-cortina": "Cortina d'Ampezzo"}
 SKI = "Ski holiday with a chalet"
 CIBLES = {"kosher-chalet-les-deux-alpes": {"i": "a", "lieu": "Les Deux Alpes", "voyage": SKI},
+          "kosher-chalet-courchevel": {"i": "a", "lieu": "Courchevel", "voyage": SKI}, "kosher-chalets": {"i": "a", "voyage": SKI},
           "kosher-van-transfers": {"i": "c"}, "jewish-lyon-tours": {"i": "d"},
           "summer-in-the-alps-jewish-families": {"i": "a", "voyage": "Summer in the Alps"},
           "kosher-ski-holidays-french-alps": {"i": "a", "voyage": SKI}}
@@ -28,7 +29,11 @@ def page(path, slug, lang, c):
     s = io.open(path, encoding="utf-8", newline="").read(); o = s
     a, b = s.find("<main"), s.rfind("<footer")
     if a < 0 or b < 0: return 0
-    corps = re.sub(r'(href="[^"#?]*plan-your-trip/)(\?[^"#]*)?(#[^"]*)?"', lambda m: m.group(1) + query(c) + (m.group(3) or "") + '"', s[a:b])
+    # 19/10 : les cartes chalet (blocs KIT-WP de _kit_wp.py) gardent leur propre préremplissage (station du chalet), sinon va-et-vient
+    morceaux = re.split(r"(<!--KIT-WP:(\w+)-->.*?<!--/KIT-WP:\2-->)", s[a:b], flags=re.S)
+    corps = "".join(x if i % 3 == 1 else "" if i % 3 == 2 else
+                    re.sub(r'(href="[^"#?]*plan-your-trip/)(\?[^"#]*)?(#[^"]*)?"', lambda m: m.group(1) + query(c) + (m.group(3) or "") + '"', x)
+                    for i, x in enumerate(morceaux))
     corps = re.sub(r'\s*<p class="lead-plan">.*?</p>', "", corps, flags=re.S)
     if slug in STATIONS and 'class="ss lead-final"' in corps:
         h1 = re.search(r"<h1>([^<]*)", corps).group(1)
