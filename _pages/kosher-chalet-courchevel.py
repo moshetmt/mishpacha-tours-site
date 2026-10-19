@@ -18,6 +18,7 @@ PAGE = dict(
 <li><b>Location.</b> The heart of Courchevel, in the 3 Valleys. The slopes are five to six minutes on foot.</li>
 <li><b>Shuttle.</b> A private shuttle runs from 9 am to 6 pm and drops you at the foot of the lifts.</li>
 <li><b>Wellness.</b> A heated pool indoors and outdoors, a hammam, a relaxation area and a gym.</li>
+<li><b>Art.</b> An artist's chalet: every room is dressed with a unique work of art chosen by the owner. One bedroom all white, like a snowfield; another dark, with tapestry on the walls and ski scenes. An old family farm reworked into a few chalets.</li>
 <li><b>Also.</b> A large living room with a fireplace, a dining room, a home cinema, a ski room, private parking and a south-facing terrace.</li>
 <li><b>Kitchen.</b> Kashered by our team before you arrive, included. A private chef cooks every meal.</li>
 </ul>
@@ -51,5 +52,6 @@ PAGE = dict(
     "5 en-suite bedrooms, 10 to 14 guests, heated pool indoors and outdoors, hammam, gym, private shuttle 9 am to 6 pm, centre of Courchevel: messages of 16/10/2026 (Mendel), no written contract.",
     "Home cinema, ski room, private parking, south-facing terrace, slopes 5 to 6 min on foot: listing read on 16/10/2026, to confirm with the owner.",
     "Lyon 2 h 15 to 2 h 30, Geneva 2 h 30: estimates, not measured.",
+    "Artist's chalet, one artwork per room chosen by the owner, white bedroom / dark tapestried bedroom, ski scenes, former family farm turned into a few chalets: Moshé's voice note of 19/10/2026 relaying the owner's description, no written source.",
   ],
 )
