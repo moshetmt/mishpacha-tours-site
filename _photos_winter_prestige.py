@@ -83,21 +83,23 @@ TITRE_GAL = {"en": "The chalet in pictures", "fr": "Le chalet en images", "es": 
 
 
 def chalet(lang):
-    """Galerie en rail (20/10, Moshé : « très moche » en mosaïque sous la bannière) : une rangée à faire glisser sur téléphone,
-       grille de 3 sur ordinateur, légende sous la photo, placée APRÈS les cartes « Where you sleep », jamais sous la bannière."""
+    """Galerie en diaporama automatique (19/10, Moshé : « je déteste ce mode d'affichage de photos », « oui et de partout ») :
+       une photo à la fois, fondu, glisser du doigt, légendes masquées sauf pour Google, placée juste avant le pied de page.
+       Remplace le rail du 20/10 (lui-même après la mosaïque sous la bannière, « très moche »)."""
+    from _kit_wp import DIAPO_JS, FLECHES
     p = ICI / ("kosher-chalet-les-deux-alpes/index.html" if lang == "en" else f"{lang}/kosher-chalet-les-deux-alpes/index.html")
     h = p.read_text(encoding="utf-8")
-    pre = "../img/" if lang == "en" else "/img/"
-    figs = "".join(f'<figure><img src="{pre}chalet/{f}.jpg" alt="{c}" loading="lazy" width="1600" height="1200"><figcaption>{c}</figcaption></figure>'
-                   for f, c in GALERIE[lang])
-    bloc = f'<section class="ss wrap galerie-wp"><h2>{TITRE_GAL[lang]}</h2><div class="galerie-rail">{figs}</div></section>'
+    figs = "".join(f'<figure><img src="/img/chalet/{f}.jpg" alt="{c}" loading="{"eager" if i == 0 else "lazy"}" width="1600" height="1200"><figcaption class="sr-only">{c}</figcaption></figure>'
+                   for i, (f, c) in enumerate(GALERIE[lang]))
+    a, b = FLECHES[lang]
+    bloc = (f'<section class="ss wrap galerie-wp kwp-diapo" aria-roledescription="carousel"><div class="kwp-diapo-cadre">{figs}'
+            f'<button type="button" class="kwp-diapo-prec" aria-label="{a}">&#8249;</button><button type="button" class="kwp-diapo-suiv" aria-label="{b}">&#8250;</button></div>{DIAPO_JS}</section>')
     h = re.sub(r'\n?<div class="ss wrap galerie-wp">.*?</div></div>', "", h, count=1, flags=re.S)   # ancienne mosaique sous la banniere
-    h = re.sub(r'\n?<section class="ss wrap galerie-wp">.*?</section>', "", h, count=1, flags=re.S)
-    j = h.find('<section class="ss wrap lead-offre">')
-    assert j >= 0, "section lead-offre introuvable"
-    i = h.find("</section>", j) + len("</section>")
-    h = h[:i] + "\n" + bloc + h[i:]
-    p.write_text(h, encoding="utf-8")
+    h = re.sub(r'\n?<section class="ss wrap galerie-wp">.*?</section>', "", h, count=1, flags=re.S)   # rail du 20/10 ou diaporama precedent
+    i = h.find("</main>")
+    assert i >= 0, "</main> introuvable"
+    h = h[:i] + bloc + "\n" + h[i:]
+    p.write_text(h, encoding="utf-8", newline="\n")
     print("chalet", lang, len(GALERIE[lang]), "photos")
 
 
