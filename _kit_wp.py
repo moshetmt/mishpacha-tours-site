@@ -45,13 +45,13 @@ T = {
             btn="Vérifier mes dates", deux="Nos deux chalets casher", deux_i="dans les Alpes", co_h2="Notre chalet", co_h2_i="à Courchevel",
             da=dict(lieu="Les Deux Alpes", t="Notre chalet casher, au pied des pistes", alt="Le chalet des Deux Alpes sous le ciel bleu",
                     s=[("300 m²", "chalet privé"), ("6 + 1", "chambres + chambre bébé"), ("Jusqu’à 16", "personnes"), ("2 min", "des pistes")],
-                    k="<b>Strictement casher.</b> Chef ou plats livrés, tout ce qui est servi est Chalav Yisrael."),
+                    k="<b>Strictement casher.</b> Chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael."),
             co=dict(lieu="Courchevel", t="Un chalet casher au cœur de Courchevel", alt="Le chalet de Courchevel sous la neige",
                     s=[("5", "chambres en suite"), ("10 à 14", "personnes"), ("2 piscines", "chauffées, dedans et dehors"), ("Navette privée", "vers les pistes")],
-                    k="<b>Strictement casher.</b> Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est Chalav Yisrael."),
+                    k="<b>Strictement casher.</b> Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael."),
             vi=dict(lieu="Saint-Tropez", t="Villa Beach, une villa casher les pieds dans l’eau", alt="Villa Beach à Saint-Tropez, la piscine et la mer",
                     s=[("5", "chambres, 5 salles de bain"), ("12", "personnes"), ("Plage privée", "et garage à bateau"), ("3 maisons", "villa, maison d’invités, loge")],
-                    k="<b>Strictement casher.</b> Villa cachérisée pour vous, chef privé, tout ce qui est servi est Chalav Yisrael.", avec="avec Summer Prestige"),
+                    k="<b>Strictement casher.</b> Villa cachérisée pour vous, chef privé, tout ce qui est servi est 'Halav Yisrael.", avec="avec Summer Prestige"),
             seau="STRICTEMENT CASHER · CHALAV YISRAEL · SHOMER SHABBAT ·"),
  "es": dict(vi_h2="Nuestra villa", vi_h2_i="en Saint-Tropez", avec="con Winter Prestige", part="En colaboración con", dispo="Disponibilidad confirmada para sus fechas en cada solicitud.",
             btn="Consultar mis fechas", deux="Nuestros dos chalets kosher", deux_i="en los Alpes", co_h2="Nuestro chalet", co_h2_i="en Courchevel",
@@ -208,7 +208,7 @@ def hero_sp(s):
     s = re.sub(r'\s*<img class="lead3-wp"[^>]*>', "", s)
     i = s.find('<div class="lead3-bloc">'); assert i >= 0
     i += len('<div class="lead3-bloc">')
-    return s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><img src="/img/sp-long-or.svg" alt="Summer Prestige, {POWERED}" width="1136" height="327"></div>') + s[i:]
+    return s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><img src="/img/sp-long-or.svg" alt="Summer Prestige, {POWERED}" width="3334" height="824"></div>') + s[i:]
 
 def lien_tous(lang): return f'<p class="kwp-tous"><a class="pill" href="{pfx(lang)}/kosher-chalets/">{NAV_CH[lang][1]}</a></p>'
 
