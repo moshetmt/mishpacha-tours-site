@@ -1590,5 +1590,5 @@ html[data-vt=mishpacha]::view-transition{background:#2D5132}
 #chercheur button[type=submit],.ticket-zone .btn-noir[href*="plan-your-trip"],.btn-hero[href*="plan-your-trip"],.kwp .btn-noir,.lead-final .btn-noir[href*="plan-your-trip"]{display:inline-flex;align-items:center;justify-content:center;gap:9px}
 #chercheur button[type=submit]::before,.ticket-zone .btn-noir[href*="plan-your-trip"]::before,.btn-hero[href*="plan-your-trip"]::before,.kwp .btn-noir::before,.lead-final .btn-noir[href*="plan-your-trip"]::before{content:"";flex:none;width:20px;height:20px;background:currentColor;-webkit-mask:var(--logo) center/contain no-repeat;mask:var(--logo) center/contain no-repeat}
 #chercheur button[type=submit],.ticket-zone .btn-noir[href*="plan-your-trip"],.btn-hero[href*="plan-your-trip"],.lead-final .btn-noir[href*="plan-your-trip"]{--logo:url(img/picto-hassid.svg)}
-.kwp .btn-noir,.kwp-hiver .btn-hero[href*="plan-your-trip"]{--logo:url(img/wp-flocon-noir.svg)}
+.kwp .btn-noir,.kwp-hiver .btn-hero[href*="plan-your-trip"]{--logo:url(img/wp-flocon-gras.svg)}   /* trait 20 au lieu de 5 : lisible a 20 px (Moshe 20/10) */
 [dir=rtl] #chercheur button[type=submit]::before,[dir=rtl] .ticket-zone .btn-noir::before,[dir=rtl] .btn-hero::before,[dir=rtl] .lead-final .btn-noir::before{transform:scaleX(-1)}
