@@ -38,12 +38,11 @@ CHECK = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="
 def hero(lang):
     T = lambda s: html.escape(t(s, lang), quote=True)
     home, cur = FIL[lang]
-    puces = "".join(f"<li>{CHECK}{T(x)}</li>" for x in ["Free", "No commitment", "Reply within one business day", "A few minutes"])
+    # 20/10 (Moshe) : plus de pastilles Free / No commitment / Reply / A few minutes sous le titre
     return ('<section class="pratique-hero demande-hero"><div class="wrap">\n'
             f'  <p class="fil">{home} / {cur}</p>\n'
             f'  <h1>{T("Plan your")} <span>{T("kosher trip")}</span></h1>\n'
             f'  <p class="dm-promesse">{T("Answer a few questions. We send you a day-by-day programme with the price.")}</p>\n'
-            f'  <ul class="dm-puces">{puces}</ul>\n'
             '</div></section>')
 
 # ---------------------------------------------------------------- le formulaire, par langue
