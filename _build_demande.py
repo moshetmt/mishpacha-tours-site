@@ -725,7 +725,7 @@ details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
   /* telephone (Moshe, 15/10 : « il faut scroller pour l'utiliser ») : en-tete reduit, progression en haut, Retour et Suivant toujours sous le pouce */
   body:has(#formDemande) .pratique-hero{padding-bottom:0}
   .demande form.js .dm-prog{position:sticky;top:0;z-index:19;background:var(--creme);padding:10px 0 8px;margin:0 -16px;padding-inline:16px}
-  .demande form.js .dm-nav{position:sticky;bottom:0;z-index:20;margin:20px -16px 0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:var(--creme);border-top:1px solid rgba(28,27,31,.12)}
+  .demande form.js .dm-nav{position:static;margin:20px -16px 0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:var(--creme);border-top:1px solid rgba(28,27,31,.12)}
   .dm-nav .btn-noir,.dm-retour{min-height:52px}
   .dm-nav .btn-noir{flex:1;padding:0 20px}
   .dm-petit{margin-top:16px}
