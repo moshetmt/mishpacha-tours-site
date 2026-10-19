@@ -1333,7 +1333,7 @@ body .lead-hero3 .lead3-texte{position:relative;padding-top:88px;padding-bottom:
 .lead-hero3 .lead3-texte h1{font-size:34px}
 .lead-hero3 .lead3-texte h1 i{margin-top:8px}
 /* 2. intro au hassid : repliée */
-.lead-intro{grid-template-columns:56px 1fr;gap:12px;align-items:start}
+.lead-intro{grid-template-columns:56px 1fr;gap:12px;align-items:center}
 .lead-intro .lead-mascotte{width:56px;margin-top:0}
 .lead-intro p.dk-intro:not(.dk-ouvert){display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
 .lead-intro .dk-plus{display:inline-block}
@@ -1503,3 +1503,5 @@ html[data-vt=mishpacha]::view-transition{background:#2D5132}
 @media (min-width:700px){.galerie-rail{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;overflow:visible;margin:0;padding:0}.galerie-rail figure{flex:none}}
 /* cartes blanches des pages noir et or : le texte reste encre (Moshe 20/10, « erreur de couleur sur la police ») */
 .kwp-hiver .lead-cartes figcaption,.kwp-hiver main>:not(.lead-final,.lead-hero3) .lead-cartes figcaption b{color:var(--encre)}
+/* pages noir et or : « Read more » lisible (Moshe 20/10) */
+.kwp-hiver .dk-plus{color:#E3BE80;border-color:rgba(201,169,97,.55)}
