@@ -65,7 +65,7 @@ def champs(lang):
             f'\n      <div class="duo"><label><span>{ad}</span><input name="adultes" type="text" inputmode="numeric" placeholder="{pa}"></label>'
             f'<label><span>{en}</span><input name="enfants" type="text" inputmode="numeric" placeholder="{pe}"></label></div>')
 # Bas de l'accueil : le formulaire court repetait le chercheur, remplace par un bouton vers le formulaire complet (Moshe, 15/10)
-BOUTON = {"en": "Plan your trip", "fr": "Préparer mon voyage", "es": "Planificar mi viaje", "he": "לתכנן את הטיול"}
+BOUTON = {"en": "Plan your trip", "fr": "Personnaliser mon séjour", "es": "Planificar mi viaje", "he": "לתכנן את הטיול"}
 def bas(s, lang):
     """Toutes les pages (15/10) : le ticket rose garde son titre et WhatsApp, le formulaire devient un bouton ;
     s'il y a deja la section verte lead-final, le ticket rose disparait et lead-final prend l'ancre #book."""

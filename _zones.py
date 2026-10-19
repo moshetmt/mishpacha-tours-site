@@ -41,7 +41,7 @@ BANDEAU = {  # (texte, lien)
 
 # Menu a 4 entrees (15/10) : Winter, Summer, Jewish Lyon + bouton « Plan your trip ». Reecrit en entier a chaque passage (idempotent).
 ENTREES = {"en": ("Winter", "Summer", "Jewish Lyon", "Plan your trip"),
-           "fr": ("Hiver", "Été", "Lyon juif", "Préparer mon voyage"),
+           "fr": ("Hiver", "Été", "Lyon juif", "Personnaliser mon séjour"),
            "es": ("Invierno", "Verano", "Lyon judío", "Planificar mi viaje"),
            "he": ("חורף", "קיץ", "ליון היהודית", "לתכנן את הטיול")}
 WA_HE = "דברו איתנו בוואטסאפ"

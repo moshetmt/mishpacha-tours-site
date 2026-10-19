@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 """Retouches de la bannière 3 après les 13 vocaux de Mendel du 15/10 soir (02-meetings/2026-10-15-audios-mendel-retours-site.md).
 Idempotent, à lancer après _lead.py :
- 1. « Préparer mon voyage » (formulaire, pré-rempli) devient le bouton principal, WhatsApp passe en lien dessous ;
+ 1. « Personnaliser mon séjour » (formulaire, pré-rempli) devient le bouton principal, WhatsApp passe en lien dessous ;
  2. la puce « Strictly kosher » dit aussi « Chalav Yisrael » (tout ce que l'équipe sert l'est : argument, plus un choix) ;
  3. la page hiver et /alps/ prennent la photo de neige éclatante du chalet (wp-soleil) à la place de la piste brunâtre."""
 import io, os, re
 from _lead import PAGES, STATIONS
 ICI = os.path.dirname(os.path.abspath(__file__))
 LANGS = ('en', 'fr', 'es', 'he')
-BTN = {'en': 'Plan my trip', 'fr': 'Préparer mon voyage', 'es': 'Preparar mi viaje', 'he': 'לתכנן את הטיול'}
+BTN = {'en': 'Plan my trip', 'fr': 'Personnaliser mon séjour', 'es': 'Preparar mi viaje', 'he': 'לתכנן את הטיול'}
 BTN_VAN = {'en': 'Request a van', 'fr': 'Demander un van', 'es': 'Pedir una furgoneta', 'he': 'להזמין ואן'}
 WA = {'en': 'Or message us on WhatsApp', 'fr': 'Ou écrivez-nous sur WhatsApp', 'es': 'O escríbanos por WhatsApp', 'he': 'או כתבו לנו בוואטסאפ'}
 KOSHER = {'en': ('Strictly kosher', 'Strictly kosher, Chalav Yisrael'), 'fr': ('Strictement casher', "Strictement casher, 'Halav Yisrael"),
