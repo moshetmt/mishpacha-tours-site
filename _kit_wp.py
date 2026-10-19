@@ -210,7 +210,8 @@ def page(slug, lang):
 # Contenu aux couleurs du kit v7 (noir, or, givre) et logo Winter Prestige en grand dans la bannière ;
 # menu, pied, formulaire lead-final et boutons restent Mishpacha. Signature : logo avec « Powered by Mishpacha Tours ».
 # Moshé 19/10 « oui étends » : /alps/, les 17 pages station, services et ski.
-HIVER = ["alps", "kosher-courchevel", "kosher-les-deux-alpes", *STATIONS_SANS_CHALET, "kosher-services-french-alps", "kosher-ski-holidays-french-alps"]
+HIVER = ["alps", "kosher-courchevel", "kosher-les-deux-alpes", *STATIONS_SANS_CHALET, "kosher-services-french-alps", "kosher-ski-holidays-french-alps",
+         "kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel"]  # les 3 pages chalet (Moshé 19/10 « oui »)
 # pastilles FR/ES/HE : la Suisse et l'Italie manquaient aux traductions (Moshé 19/10 « oui ajoute »)
 PAYS_ST = {
     "fr": [("En Suisse", [("kosher-zermatt", "Zermatt"), ("kosher-st-moritz", "Saint-Moritz"), ("kosher-crans-montana", "Crans-Montana")]),
@@ -226,6 +227,14 @@ def hiver(s, lang):
     s = re.sub(r"<body(?![^>]*kwp-hiver)([^>]*)>", lambda m: '<body class="kwp-hiver"%s>' % m.group(1)
                if "class=" not in m.group(1) else m.group(0).replace('class="', 'class="kwp-hiver '), s, count=1)
     s = re.sub(r"<!--KIT-WP:hero-->.*?<!--/KIT-WP:hero-->", "", s, flags=re.S)
+    s = re.sub(r'\s*<img class="lead3-wp"[^>]*>', "", s)  # petit logo de _lead.py : doublon du grand (pages chalet, 19/10)
+    # galerie du chalet égarée avant <html> par l'ancienne ancre de _photos_winter_prestige.py : on la remet sous la bannière
+    # (le doctype était même coupé en deux : « <!doctype », la galerie, puis « html> »)
+    m = re.match(r"<!doctype\s*(<div class=\"ss wrap galerie-wp\">.*?</div></div>)\s*html>\s*", s, flags=re.S | re.I)
+    if m:
+        gal = m.group(1); s = "<!doctype html>\n" + s[m.end():]
+        i = s.find("</section>", s.find('class="hero lead-hero3"')) + len("</section>")
+        s = s[:i] + "\n" + gal + s[i:]
     i = s.find('<div class="lead3-bloc">')
     if i >= 0:
         i += len('<div class="lead3-bloc">')
@@ -324,6 +333,7 @@ body.kwp-hiver{background:#141416}
 .kwp-hiver main>:not(.lead-final,.lead-hero3) h2 i{color:#C9A961}
 .kwp-hiver main>:not(.lead-final,.lead-hero3,.kwp) a:not(.btn-noir):not(.btn-hero){color:#E3BE80}
 .kwp-hiver .kwp-carte{color:var(--encre)}
+.kwp-hiver .mosaique figcaption{color:var(--encre)}
 .kwp-hiver .dk-g-tete{color:#E3BE80}
 .kwp-hiver main>:not(.lead-final,.lead-hero3) .pill{color:#FAF7F0;border-color:rgba(201,169,97,.55)}
 .kwp-lieu{padding-inline-end:96px}

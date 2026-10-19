@@ -166,7 +166,8 @@ def traiter(slug, lang):
     name = STATIONS[slug][1][lang] if slug in STATIONS else None
     if typ == 'chalet':
         name = None if slug == 'kosher-chalets' else STATIONS['kosher-courchevel' if slug == 'kosher-chalet-courchevel' else 'kosher-les-deux-alpes'][1][lang]
-    wp = ('<img class="lead3-wp" src="/img/logo-winter-prestige-or.svg" alt="Winter Prestige, powered by Mishpacha Tours" width="260" height="92">' if typ == 'chalet' else '')
+    # 19/10 : les pages chalet sont en « hiver » (noir et or), _kit_wp.py pose le grand logo dans la bannière ; plus de petit logo ici
+    wp = ''
     w, h = Image.open('img/' + photo).size
     cls = 'hero lead-hero3' + (' lead-hero3-illus' if typ == 'van' else '')
     hero = f'''<section class="{cls}">

@@ -1302,6 +1302,7 @@ body.kwp-hiver{background:#141416}
 .kwp-hiver main>:not(.lead-final,.lead-hero3) h2 i{color:#C9A961}
 .kwp-hiver main>:not(.lead-final,.lead-hero3,.kwp) a:not(.btn-noir):not(.btn-hero){color:#E3BE80}
 .kwp-hiver .kwp-carte{color:var(--encre)}
+.kwp-hiver .mosaique figcaption{color:var(--encre)}
 .kwp-hiver .dk-g-tete{color:#E3BE80}
 .kwp-hiver main>:not(.lead-final,.lead-hero3) .pill{color:#FAF7F0;border-color:rgba(201,169,97,.55)}
 .kwp-lieu{padding-inline-end:96px}

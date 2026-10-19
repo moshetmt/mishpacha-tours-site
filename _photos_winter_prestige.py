@@ -89,7 +89,9 @@ def chalet(lang):
     if "galerie-wp" in h:
         h = re.sub(r'<div class="ss wrap galerie-wp">.*?</div></div>', bloc, h, count=1, flags=re.S)
     else:
-        i = h.find("</section>", h.find('class="pratique-hero"')) + len("</section>")
+        j = max(h.find('class="hero lead-hero3"'), h.find('class="pratique-hero"'))  # bannière 3 depuis le 14/10
+        assert j >= 0, "bannière introuvable, la galerie irait avant <html>"
+        i = h.find("</section>", j) + len("</section>")
         h = h[:i] + "\n" + bloc + h[i:]
     p.write_text(h, encoding="utf-8")
     print("chalet", lang, len(GALERIE[lang]), "photos")
