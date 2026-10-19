@@ -285,13 +285,13 @@ NEW.update({
 "Your maximum budget": ("Votre budget maximum", "Su presupuesto máximo", "התקציב המקסימלי שלכם"),
 "We organise the best possible trip within it and send you a ready-made programme. Flights aside.": ("Nous organisons le meilleur voyage possible dans ce budget et vous envoyons un programme tout fait. Vols à part.", "Organizamos el mejor viaje posible dentro de ese presupuesto y le enviamos un programa listo. Vuelos aparte.", "אנחנו מארגנים את הטיול הטוב ביותר בתוך התקציב הזה ושולחים לכם תוכנית מוכנה. בלי הטיסות."),
 "Fill in the one that speaks to you, or both.": ("Remplissez celui qui vous parle, ou les deux.", "Rellene el que le resulte natural, o los dos.", "מלאו את מה שמדבר אליכם, או את שניהם."),
-"Per person": ("Par personne", "Por persona", "לאדם"),
-"Per family": ("Par famille", "Por familia", "למשפחה"),
+"Total budget for the whole stay": ("Budget total pour tout le séjour", "Presupuesto total para toda la estancia", "תקציב כולל לכל השהות"),
+"Optional, but it helps us aim right. One figure for the whole group and the whole stay, flights aside.": ("Facultatif, mais il nous aide à viser juste. Un seul chiffre pour tout le groupe et tout le séjour, hors vols.", "Opcional, pero nos ayuda a acertar. Una sola cifra para todo el grupo y toda la estancia, sin vuelos.", "לא חובה, אבל זה עוזר לנו לכוון נכון. סכום אחד לכל הקבוצה ולכל השהות, בלי טיסות."),
 "What matters most?": ("Qu'est-ce qui compte le plus ?", "¿Qué es lo más importante?", "מה הכי חשוב לכם?"),
 "€": ("€", "€", "€"),
 })
-LAB_NEW["budget_personne"] = ("Budget per person", "Budget par personne", "Presupuesto por persona", "תקציב לאדם")
-LAB_NEW["budget_famille"] = ("Budget per family", "Budget par famille", "Presupuesto por familia", "תקציב למשפחה")
+# 19/10 : Mendel, un seul budget total du séjour (le « par personne » laissait le doute par personne / par jour)
+LAB_NEW["budget_total"] = ("Total budget", "Budget total", "Presupuesto total", "תקציב כולל")
 
 LANGS = ("en", "fr", "es", "he")
 

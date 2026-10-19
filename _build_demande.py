@@ -58,7 +58,7 @@ PATHS = {
 }
 LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "aller_retour", "arrivee", "creneau", "depart", "heure", "retour_date", "retour_heure", "flexible", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
              "logement", "chambres", "sdb", "logement_opt", "repas", "repas_jours", "allergies", "cacherout", "cacherout_detail", "minyan_niveau", "religieux", "rite", "aeroport", "vol_ville", "vols_pris", "vol", "transport",
-             "ski", "niveau", "lyon", "langue_visite", "extras", "budget_personne", "budget_famille", "budget", "budget_vols", "priorites", "message", "ville", "urgence", "pour_qui"]
+             "ski", "niveau", "lyon", "langue_visite", "extras", "budget_total", "budget", "budget_vols", "priorites", "message", "ville", "urgence", "pour_qui"]
 INDICATIFS = '<option value="">{code}</option>' + "".join(f'<option value="{v}">{v} {c}</option>' for v, c in [
     ("+1", "US / CA"), ("+44", "UK"), ("+972", "IL"), ("+33", "FR"), ("+32", "BE"), ("+41", "CH"), ("+34", "ES"), ("+39", "IT"), ("+49", "DE"), ("+31", "NL"),
     ("+54", "AR"), ("+52", "MX"), ("+55", "BR"), ("+61", "AU"), ("+27", "ZA"), ("+7", "RU"), ("+380", "UA")])
@@ -317,9 +317,8 @@ def formulaire(lang):
         f'<div class="dm-champ"><label for="f-tel">{E("WhatsApp number")}</label><div class="tel"><select id="f-indicatif" name="indicatif" aria-label="{E("Country code")}" required>'
         + INDICATIFS.replace("{code}", E("Code")) + '</select><input type="tel" id="f-tel" name="tel" inputmode="tel" autocomplete="tel-national" placeholder="212 555 0100" pattern="[0-9 ().-]{6,16}" required></div></div>' +
         champ("email", "email", "Email (optional)", typ="email", extra=' autocomplete="email"'))
-    budget = (f'<div data-b="abef">{sous("Your budget")}<p class="dm-aide">{E("Optional, but it helps us aim right. Flights aside.")}</p>' +
-              '<div class="dm-duo">' + champ("budget-personne", "budget_personne", "Per person", ph="€", extra=' inputmode="numeric"') +
-              champ("budget-famille", "budget_famille", "Per family", ph="€", extra=' inputmode="numeric"') + "</div>" +
+    budget = (f'<div data-b="abef">{sous("Your budget")}<p class="dm-aide">{E("Optional, but it helps us aim right. One figure for the whole group and the whole stay, flights aside.")}</p>' +
+              champ("budget-total", "budget_total", "Total budget for the whole stay", ph="€", extra=' inputmode="numeric"') +
               chips("budget", ["Not sure yet, advise us"], mini=True) +
               chips("budget_vols", ["Flights included in this budget", "Flights not included"], multi=False, b="ae", mini=True) +
               sous("What matters most?") +
@@ -391,7 +390,7 @@ function val(n){
  if(n==='retour_date'){var rd=raw(n);return rd?fdate(rd):''}
  if(n==='voyage')return voyage();
  if(n==='logement'&&branch()==='b')return C.k.logementB;
- if(n==='budget_personne'||n==='budget_famille')return euros(raw(n));
+ if(n==='budget_total')return euros(raw(n));
  return raw(n)}
 function euros(s){var d=s.replace(/[^\d]/g,'');if(!d)return s;return d.replace(/\B(?=(\d{3})+(?!\d))/g,' ')+' €'}
 /* version anglaise des reponses (data-en des cases), pour le mail et le PDF transmis aux partenaires quelle que soit la langue du client */
@@ -405,7 +404,7 @@ function valEn(n){
  if(n==='voyage'){var r=f.querySelector('input[name="intention"]:checked');var a=r?[r.getAttribute('data-en')]:[];
   els('voyage').forEach(function(e){if(e.checked){var v=e.getAttribute('data-en')||e.value;if(a.indexOf(v)<0)a.push(v)}});return a.join(', ')}
  if(n==='logement'&&branch()==='b')return 'Already booked, I need services only';
- if(n==='budget_personne'||n==='budget_famille')return euros(raw(n));
+ if(n==='budget_total')return euros(raw(n));
  return rawEn(n)}
 function screenOf(k){var e=els(k)[0];return e?e.scr:''}
 function recap(an){var ul=document.getElementById('dm-recap');ul.textContent='';var n=0;var go=an&&mo();
@@ -493,7 +492,7 @@ f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  var im=new Image();im.src=C.img+'picto-hassid-vert.svg';im.alt='';im.width=22;im.height=30;im.className='dm-marche';
  bSend.appendChild(im);bSend.appendChild(document.createTextNode(' '+C.t.sending));
  var fini=false,ok=function(){if(fini)return;fini=true;try{sessionStorage.removeItem(KEY)}catch(e){}
-  dl.push({event:'generate_lead',branch:branch(),budget:val('budget_famille')||val('budget_personne')||val('budget')});location.href=C.merci},
+  dl.push({event:'generate_lead',branch:branch(),budget:val('budget_total')||val('budget')});location.href=C.merci},
  ko=function(){if(fini)return;fini=true;sent=false;bSend.disabled=false;bSend.textContent=lab0;
   var T={fr:['Votre demande n’est pas partie. Envoyez-la-nous sur WhatsApp en un geste :','Envoyer sur WhatsApp'],es:['Su solicitud no se envió. Envíenosla por WhatsApp con un toque:','Enviar por WhatsApp'],he:['הבקשה לא נשלחה. שלחו לנו בוואטסאפ בלחיצה אחת:','שליחה בוואטסאפ'],en:['Your request did not go through. Send it to us on WhatsApp in one tap:','Send on WhatsApp']}[(document.documentElement.lang||'en').slice(0,2)]||null;
   T=T||['Your request did not go through. Send it to us on WhatsApp in one tap:','Send on WhatsApp'];

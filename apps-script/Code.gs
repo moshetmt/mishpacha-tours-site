@@ -54,6 +54,7 @@ var LABELS_EN = {
   'Besoins religieux': 'Religious needs', 'Necesidades religiosas': 'Religious needs', 'צרכים דתיים': 'Religious needs',
   'Niveau de minyan': 'Minyan level', 'חשיבות המניין': 'Minyan level',
   'Budget': 'Budget', 'Presupuesto': 'Budget', 'תקציב': 'Budget',
+  'Budget total': 'Total budget', 'Presupuesto total': 'Total budget', 'תקציב כולל': 'Total budget',
   'Budget par personne': 'Budget per person', 'תקציב לאדם': 'Budget per person',
   'Budget par famille': 'Budget per family', 'תקציב למשפחה': 'Budget per family',
   'Habite à': 'Lives in', 'Vive en': 'Lives in', 'מקום מגורים': 'Lives in',
@@ -75,7 +76,7 @@ var SECTIONS = [
   ['Getting there',       ['Airport', 'Flying from', 'Flights booked', 'Flights', 'Transport']],
   ['Activities and Lyon', ['Activities', 'Ski levels', 'Lyon', 'Tour language']],
   ['Extras',              ['Extras']],
-  ['Budget',              ['Budget per person', 'Budget per family', 'Budget', 'Flights and budget', 'Priorities']],
+  ['Budget',              ['Total budget', 'Budget per person', 'Budget per family', 'Budget', 'Flights and budget', 'Priorities']],
   ['In their words',      ['Message']]
 ];
 var CONTACT_KEYS = ['Lives in', 'Urgency', 'Booking for'];   // mail seulement, jamais dans le PDF
@@ -165,7 +166,8 @@ function ligne_(d, quand, statut) {
   var m = f.map;
   var nuits = parseInt(txt(d.nuits), 10);
   if (!(nuits > 0) && m['Arrival'] && m['Departure']) nuits = nuits_(m['Arrival'], m['Departure']);
-  var budget = [m['Budget per person'] ? m['Budget per person'] + ' / pers.' : '',
+  var budget = [m['Total budget'] ? m['Total budget'] + ' total séjour' : '',
+                m['Budget per person'] ? m['Budget per person'] + ' / pers.' : '',
                 m['Budget per family'] ? m['Budget per family'] + ' / famille' : '',
                 m['Budget'], m['Flights and budget']].filter(Boolean).join(' · ');
   var minyan = [m['Minyan level'], m['Religious needs'], m['Nusach']].filter(Boolean).join(' · ');
@@ -368,7 +370,7 @@ function envoyerMail_(d, quand, test) {
   var qui = f.personnes + (f.map['Families'] ? ' · ' + f.map['Families'] + ' families' : '');
   var tuiles = '<table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>' +
     cle('Dates', f.dates) + cle('Who', qui) + '</tr><tr>' +
-    cle('Where', f.lieu) + cle('Budget', [f.map['Budget per family'] ? f.map['Budget per family'] + ' per family' : '', f.map['Budget per person'] ? f.map['Budget per person'] + ' per person' : '',
+    cle('Where', f.lieu) + cle('Budget', [f.map['Total budget'] ? f.map['Total budget'] + ' for the whole stay' : '', f.map['Budget per family'] ? f.map['Budget per family'] + ' per family' : '', f.map['Budget per person'] ? f.map['Budget per person'] + ' per person' : '',
                                           f.map['Budget'], f.map['Flights and budget']].filter(Boolean).join(', ')) + '</tr><tr>' +
     cle('Sleeping', [f.map['Accommodation'], f.map['Rooms']].filter(Boolean).join(' · ')) + cle('Meals', [f.map['Meals'], f.map['Kashrut']].filter(Boolean).join(' · ')) + '</tr></table>';
 
@@ -504,7 +506,7 @@ function ficheMendel_(d, quand) {
     adultes: (m['Adults'] || txt(d.personnes)) + (m['Families'] && m['Families'] !== '1' ? ' (' + m['Families'] + ' familles)' : ''),
     enfants: enfants || '0', hommes: m['Men for minyan'] || '?', chalet: chalet,
     repas: jn([m['Meals'], m['Meal days'], m['Kashrut']]),
-    budget: jn([m['Budget per person'] ? m['Budget per person'] + ' / pers.' : '', m['Budget per family'] ? m['Budget per family'] + ' / famille' : '',
+    budget: jn([m['Total budget'] ? m['Total budget'] + ' total séjour' : '', m['Budget per person'] ? m['Budget per person'] + ' / pers.' : '', m['Budget per family'] ? m['Budget per family'] + ' / famille' : '',
                 m['Budget'], m['Flights and budget']]),
     message: m['Message'] || '', autres: autres
   };
