@@ -1553,6 +1553,11 @@ body .dk-suite>li>a::after{content:"";position:absolute;inset:0}
 .kwp-seul-bandeau .kwp-bandeau{margin-top:0}
 @media (max-width:599px){.kwp-bandeau{padding:18px 16px}.kwp-carte h3{font-size:21px}}
 @media (min-width:900px){.kwp-cartes{grid-template-columns:repeat(2,minmax(0,460px))}.kwp-seule{grid-template-columns:minmax(0,460px)}}
+/* 20/10 Moshé « c'est pas droit » : les lignes des cartes (lieu, titre, chiffres, casher, dispo, pied) s'alignent d'une carte à l'autre (subgrid) */
+@media (min-width:900px){.kwp-cartes{row-gap:0}.kwp-cartes .kwp-carte{display:grid;grid-template-rows:subgrid;grid-row:span 7}
+.kwp-cartes .kwp-corps{display:contents}.kwp-cartes .kwp-corps>*{padding-inline:22px}.kwp-cartes .kwp-corps>h3{padding-inline:22px 80px}
+.kwp-cartes .kwp-corps>.kwp-lieu{padding:22px 96px 0 22px}.kwp-cartes .kwp-corps>.kwp-chiffres{align-self:start}
+.kwp-cartes .kwp-corps>.kwp-casher{margin-inline:22px;padding:12px 14px}.kwp-cartes .kwp-corps>.kwp-pied{padding-bottom:24px;margin-top:0;align-self:end}}
 /* 20/10 : trois chalets, jamais de carte orpheline (règle du 19/10) */
 @media (min-width:1000px){.kwp-cartes.kwp-trois{grid-template-columns:repeat(3,minmax(0,1fr))}.kwp-mini-v.kwp-trois{grid-template-columns:repeat(3,minmax(0,420px))}}
 /* pages hiver et Alpes (19/10) : noir #141416, or #C9A961, or lumière #E3BE80, givre #C9D2D4, clair #FAF7F0 */
