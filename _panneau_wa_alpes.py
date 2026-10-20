@@ -23,7 +23,7 @@ GEN = {  # pages van et villa (zone « general ») : message générique existan
 }
 GENERIQUES = {"kosher-van-transfers", "kosher-villa-saint-tropez"}
 NUM = "33652092301"
-LYON = re.compile(r"tour of Lyon|visite juive privée de Lyon|visita judía privada (en|de) L|סיור יהודי פרטי בליון|עצירת הביניים")
+LYON = re.compile(r"tour of Lyon|visite juive privée de Lyon|visita judía privada (en|de) L|סיור יהודי פרטי בליון|עצירת הביניים|Stopover tour in Lyon")
 
 def traiter(path):
     p = path.replace("\\", "/")
@@ -43,6 +43,15 @@ def traiter(path):
     from urllib.parse import unquote
     n = re.sub(r'href="https://wa\.me/' + NUM + r'\?text=([^"]+)"',
                lambda m: f'href="{href}"' if LYON.search(unquote(m.group(1))) else m.group(0), n)
+    # QA du 20/10 (C2) : sur une page hébraïque, un message WhatsApp sans aucune lettre hébraïque est un message
+    # anglais oublié (stations Annecy, Cervinia, Chamonix… ) : il passe au message Alpes en hébreu.
+    if lang == "he":
+        # QA du 20/10 (C2) : gabarits JavaScript des formulaires courts restés en anglais sur les pages hébraïques
+        n = n.replace("`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`",
+                      "`שלום, אשמח לבדוק זמינות לסיור ${f.tour.value}. תאריכים: ${f.dates.value||'/'} / מספר משתתפים: ${f.personnes.value||'/'} / שפה מועדפת:`")
+        n = n.replace("'Hello, we are planning: '", "'שלום, אנחנו מתכננים: '")
+        n = re.sub(r'href="https://wa\.me/' + NUM + r'\?text=([^"]+)"',
+                   lambda m: m.group(0) if re.search(r"[֐-׿]", unquote(m.group(1))) else f'href="{href}"', n)
     if n != h:
         io.open(path, "w", encoding="utf-8", newline="\n").write(n)
         return 1
