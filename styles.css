@@ -1238,6 +1238,97 @@ h2 + .hub-grille,h2 + .sous + .hub-grille{margin-top:28px}   /* titre plus colle
 #how.etapes ol li:not(:last-child)::after{display:none}
 }
 /* ===/MOBILE=== */
+
+
+
+/* ---- galerie du chalet en rail (20/10) : rangee a glisser sur telephone, grille sur ordinateur, legende sous la photo ---- */
+.galerie-wp h2{margin-bottom:14px}
+.galerie-rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -16px;padding:0 16px 6px}
+.galerie-rail::-webkit-scrollbar{display:none}
+.galerie-rail figure{flex:0 0 78%;scroll-snap-align:start;margin:0}
+.galerie-rail img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:14px}
+.galerie-rail figcaption{margin-top:8px;font-size:13px;line-height:1.35;color:var(--encre);opacity:.75}
+.kwp-hiver .galerie-rail figcaption{color:#C9D2D4;opacity:1}
+@media (min-width:700px){.galerie-rail{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;overflow:visible;margin:0;padding:0}.galerie-rail figure{flex:none}}
+/* cartes blanches des pages noir et or : le texte reste encre (Moshe 20/10, « erreur de couleur sur la police ») */
+.kwp-hiver .lead-cartes figcaption,.kwp-hiver main>:not(.lead-final,.lead-hero3) .lead-cartes figcaption b{color:var(--encre)}
+/* pages noir et or : « Read more » lisible (Moshe 20/10) */
+.kwp-hiver .dk-plus{color:#E3BE80;border-color:rgba(201,169,97,.55)}
+/* pages noir et or : premier paragraphe du recit en carte sombre, plus de blanc avec texte clair (Moshe 20/10) */
+.kwp-hiver .dk-recit h2 + p{background:rgba(250,247,240,.05);color:#C9D2D4;border:1px solid rgba(201,169,97,.28)}
+/* ---- cartes « Where you sleep » en liste illustree (piste 1 choisie par Moshe le 20/10) : vignette carree, titre, deux lignes, filet ---- */
+.lead-cartes{display:grid;gap:0;margin-top:18px}
+.lead-cartes figure{display:grid;grid-template-columns:92px 1fr;gap:14px;align-items:center;margin:0;padding:12px 0;background:transparent;border-radius:0;overflow:visible;border-top:1px solid rgba(28,27,31,.14)}
+.lead-cartes figure:last-child{border-bottom:1px solid rgba(28,27,31,.14)}
+.lead-cartes img{width:92px;height:92px;aspect-ratio:1/1;object-fit:cover;border-radius:12px}
+.lead-cartes figcaption{padding:0;font-size:14px;line-height:1.4}
+.lead-cartes figcaption b{display:block;font-family:var(--titre);font-weight:400;font-size:18px;line-height:1.15;margin-bottom:3px}
+.kwp-hiver .lead-cartes figure{border-color:rgba(201,169,97,.28)}
+.kwp-hiver .lead-cartes figcaption{color:#C9D2D4}
+.kwp-hiver main>:not(.lead-final,.lead-hero3) .lead-cartes figcaption b{color:#FAF7F0}
+@media (min-width:700px){.lead-cartes{grid-template-columns:repeat(3,1fr);gap:0 28px}.lead-cartes figure{border-bottom:1px solid rgba(28,27,31,.14);padding:16px 0}.lead-cartes img{width:110px;height:110px}.lead-cartes figure{grid-template-columns:110px 1fr}}
+/* ===ACCUEIL COMPACT (20/10)=== passe mobile de l'accueil : chalets en rail, portes en lignes, etapes en lignes, Lyon resserre. Ordinateur inchange. */
+@media (max-width:699px){
+  #chalet,#trips,#how,#tours{padding-top:40px;padding-bottom:40px}
+  #chalet h2,#trips h2,#how h2,#tours h2{font-size:28px}
+  /* chalets : deux cartes en rail a glisser */
+  #chalet .kwp-cartes{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:14px -16px 0;padding:0 16px 6px}
+  #chalet .kwp-cartes::-webkit-scrollbar{display:none}
+  #chalet .kwp-carte{flex:0 0 86%;scroll-snap-align:start}
+  #chalet .kwp-photo img{aspect-ratio:16/10}
+  #chalet .kwp-corps{padding:14px 14px 12px}
+  #chalet .kwp-lieu{font-size:10.5px}
+  body #chalet .kwp-cartes .kwp-carte h3{font-size:18px;margin:2px 0 8px}
+  #chalet .kwp-chiffres{gap:6px 10px}
+  #chalet .kwp-chiffres li{font-size:12.5px}
+  #chalet .kwp-chiffres b{font-size:14px}
+  #chalet .kwp-casher{font-size:12.5px;padding:8px 10px;margin-top:10px}
+  body #chalet .kwp-dispo{font-size:11.5px}
+  body #chalet .kwp-pied{padding-top:8px;margin-top:8px}
+  #chalet .kwp-tous{margin-top:14px}
+  /* portes : une ligne par porte, photo carree a gauche */
+  #trips .ac-portes{gap:8px;margin-top:18px}
+  #trips .ac-portes .hub-carte{display:grid;grid-template-columns:84px 1fr;gap:0 12px;align-items:center;padding:8px 8px}
+  #trips .ac-portes .corps{padding-inline-end:30px}
+  #trips .ac-portes .hub-carte .btn-noir{position:absolute;inset-inline-end:12px;top:50%;transform:translateY(-50%);margin:0}
+  #trips .ac-portes .hub-carte{position:relative}
+  #trips .ac-portes .photo{width:84px;height:84px;aspect-ratio:1/1;border-radius:12px;overflow:hidden}
+  #trips .ac-portes .photo img{width:100%;height:100%;object-fit:cover}
+  #trips .ac-portes h3{font-size:17px;line-height:1.15;margin:0 0 3px}
+  #trips .ac-portes .corps p{font-size:13px;line-height:1.35;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin:0}
+  #trips .ac-stations-ligne{margin-top:18px;font-size:13px}
+  #trips .ac-stations{gap:6px;margin-top:10px}
+  #trips .ac-stations a{min-height:36px;padding:0 13px;font-size:13.5px}
+  #trips .ac-van{margin-top:20px;padding:14px 14px 16px;grid-template-columns:56px 1fr;gap:4px 12px}
+  #trips .ac-van img{width:56px;height:56px}
+  #trips .ac-van b{font-size:18px}
+  #trips .ac-van p{font-size:14px;line-height:1.4}
+  #trips .ac-van .btn-noir{min-height:42px;padding:0 16px;font-size:14px}
+  /* etapes : trois lignes, dessin a gauche */
+  #how.etapes ol{gap:12px;margin-top:16px;text-align:start}
+  #how.etapes li{display:grid;grid-template-columns:56px 1fr;gap:0 12px;align-items:center}
+  #how.etapes li img{width:56px;height:56px;margin:0;grid-row:1 / span 3}
+  #how.etapes li > b{font-size:12px}
+  #how.etapes li > span{font-size:19px;margin-top:0}
+  #how.etapes li p{font-size:13px;line-height:1.4;margin:3px 0 0;max-width:none}
+  /* Lyon */
+  #tours .ac-lyon-photo img{aspect-ratio:16/9}
+  #tours .ac-lyon-grille{gap:16px}
+  #tours .ac-lyon p{font-size:15px;margin-top:10px}
+  #tours .ac-lyon-liste{gap:6px;margin-top:12px;font-size:14.5px}
+  #tours .ac-boutons{margin-top:14px}
+  #tours .ac-guide{margin-top:12px;font-size:14px}
+  .pied{padding-top:36px}
+}
+/* ===LOGOS DANS LES BOUTONS (20/10, Moshe)=== hassid sur les boutons vers le formulaire, flocon Winter Prestige sur les boutons chalet.
+   Masque CSS sur currentColor : le logo prend la couleur du texte du bouton (creme sur noir, encre sur jaune). */
+#chercheur button[type=submit],.ticket-zone .btn-noir[href*="plan-your-trip"],.btn-hero[href*="plan-your-trip"],.kwp .btn-noir,.lead-final .btn-noir[href*="plan-your-trip"]{display:inline-flex;align-items:center;justify-content:center;gap:9px}
+#chercheur button[type=submit]::before,.ticket-zone .btn-noir[href*="plan-your-trip"]::before,.btn-hero[href*="plan-your-trip"]::before,.kwp .btn-noir::before,.lead-final .btn-noir[href*="plan-your-trip"]::before{content:"";flex:none;width:20px;height:20px;background:currentColor;-webkit-mask:var(--logo) center/contain no-repeat;mask:var(--logo) center/contain no-repeat}
+#chercheur button[type=submit],.ticket-zone .btn-noir[href*="plan-your-trip"],.btn-hero[href*="plan-your-trip"],.lead-final .btn-noir[href*="plan-your-trip"]{--logo:url(img/picto-hassid.svg)}
+.kwp .btn-noir,.kwp-hiver .btn-hero[href*="plan-your-trip"]{--logo:url(img/wp-flocon-noir.svg)}
+.kwp .btn-noir::before{width:27px;height:27px}
+.kwp-hiver .btn-hero[href*="plan-your-trip"]::before{width:33px;height:33px}   /* sur jaune le flocon parait plus efface : plus grand (Moshe 20/10) */   /* flocon fin mais plus grand (Moshe 20/10 : « agrandis seulement »), le hassid reste a 20 px */
+[dir=rtl] #chercheur button[type=submit]::before,[dir=rtl] .ticket-zone .btn-noir::before,[dir=rtl] .btn-hero::before,[dir=rtl] .lead-final .btn-noir::before{transform:scaleX(-1)}
 /* ===ANIMATIONS=== */
 :root{--ease-out:cubic-bezier(0.23,1,0.32,1);--ease-drawer:cubic-bezier(0.32,0.72,0,1)}
 /* ---- structure sans mouvement : les trois traits du menu (memes positions qu'avant) ---- */
@@ -1331,10 +1422,6 @@ body:has(#formDemande) .pyt-flottant,body:has(.nav .menu[aria-expanded="true"]) 
   @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
 }
 /* ===/ANIMATIONS=== */
-
-
-
-
 /* ===MANIFESTE=== */
 body.kwp-hiver .lead-intro>div>p.dk-intro,body.kwp-hiver .lead-intro>div>p:not(.mf-phrase):not([class*=mf]),body.kwp-hiver .lead-intro>div>.dk-plus-lead{display:none}
 body.kwp-hiver .lead-intro>div>.mf+p,body.kwp-hiver .lead-intro>div>.mf~.dk-plus{display:none}
@@ -1428,94 +1515,6 @@ body.kwp-hiver .dk-suite>li>a,body .dk-suite>li>a{flex:1;display:flex;align-item
 body .dk-suite>li>a::after{content:"";position:absolute;inset:0}
 }
 /* ===/MOBILE-ALPES=== */
-/* ---- galerie du chalet en rail (20/10) : rangee a glisser sur telephone, grille sur ordinateur, legende sous la photo ---- */
-.galerie-wp h2{margin-bottom:14px}
-.galerie-rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -16px;padding:0 16px 6px}
-.galerie-rail::-webkit-scrollbar{display:none}
-.galerie-rail figure{flex:0 0 78%;scroll-snap-align:start;margin:0}
-.galerie-rail img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:14px}
-.galerie-rail figcaption{margin-top:8px;font-size:13px;line-height:1.35;color:var(--encre);opacity:.75}
-.kwp-hiver .galerie-rail figcaption{color:#C9D2D4;opacity:1}
-@media (min-width:700px){.galerie-rail{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;overflow:visible;margin:0;padding:0}.galerie-rail figure{flex:none}}
-/* cartes blanches des pages noir et or : le texte reste encre (Moshe 20/10, « erreur de couleur sur la police ») */
-.kwp-hiver .lead-cartes figcaption,.kwp-hiver main>:not(.lead-final,.lead-hero3) .lead-cartes figcaption b{color:var(--encre)}
-/* pages noir et or : « Read more » lisible (Moshe 20/10) */
-.kwp-hiver .dk-plus{color:#E3BE80;border-color:rgba(201,169,97,.55)}
-/* pages noir et or : premier paragraphe du recit en carte sombre, plus de blanc avec texte clair (Moshe 20/10) */
-.kwp-hiver .dk-recit h2 + p{background:rgba(250,247,240,.05);color:#C9D2D4;border:1px solid rgba(201,169,97,.28)}
-/* ---- cartes « Where you sleep » en liste illustree (piste 1 choisie par Moshe le 20/10) : vignette carree, titre, deux lignes, filet ---- */
-.lead-cartes{display:grid;gap:0;margin-top:18px}
-.lead-cartes figure{display:grid;grid-template-columns:92px 1fr;gap:14px;align-items:center;margin:0;padding:12px 0;background:transparent;border-radius:0;overflow:visible;border-top:1px solid rgba(28,27,31,.14)}
-.lead-cartes figure:last-child{border-bottom:1px solid rgba(28,27,31,.14)}
-.lead-cartes img{width:92px;height:92px;aspect-ratio:1/1;object-fit:cover;border-radius:12px}
-.lead-cartes figcaption{padding:0;font-size:14px;line-height:1.4}
-.lead-cartes figcaption b{display:block;font-family:var(--titre);font-weight:400;font-size:18px;line-height:1.15;margin-bottom:3px}
-.kwp-hiver .lead-cartes figure{border-color:rgba(201,169,97,.28)}
-.kwp-hiver .lead-cartes figcaption{color:#C9D2D4}
-.kwp-hiver main>:not(.lead-final,.lead-hero3) .lead-cartes figcaption b{color:#FAF7F0}
-@media (min-width:700px){.lead-cartes{grid-template-columns:repeat(3,1fr);gap:0 28px}.lead-cartes figure{border-bottom:1px solid rgba(28,27,31,.14);padding:16px 0}.lead-cartes img{width:110px;height:110px}.lead-cartes figure{grid-template-columns:110px 1fr}}
-/* ===ACCUEIL COMPACT (20/10)=== passe mobile de l'accueil : chalets en rail, portes en lignes, etapes en lignes, Lyon resserre. Ordinateur inchange. */
-@media (max-width:699px){
-  #chalet,#trips,#how,#tours{padding-top:40px;padding-bottom:40px}
-  #chalet h2,#trips h2,#how h2,#tours h2{font-size:28px}
-  /* chalets : deux cartes en rail a glisser */
-  #chalet .kwp-cartes{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:14px -16px 0;padding:0 16px 6px}
-  #chalet .kwp-cartes::-webkit-scrollbar{display:none}
-  #chalet .kwp-carte{flex:0 0 86%;scroll-snap-align:start}
-  #chalet .kwp-photo img{aspect-ratio:16/10}
-  #chalet .kwp-corps{padding:14px 14px 12px}
-  #chalet .kwp-lieu{font-size:10.5px}
-  body #chalet .kwp-cartes .kwp-carte h3{font-size:18px;margin:2px 0 8px}
-  #chalet .kwp-chiffres{gap:6px 10px}
-  #chalet .kwp-chiffres li{font-size:12.5px}
-  #chalet .kwp-chiffres b{font-size:14px}
-  #chalet .kwp-casher{font-size:12.5px;padding:8px 10px;margin-top:10px}
-  body #chalet .kwp-dispo{font-size:11.5px}
-  body #chalet .kwp-pied{padding-top:8px;margin-top:8px}
-  #chalet .kwp-tous{margin-top:14px}
-  /* portes : une ligne par porte, photo carree a gauche */
-  #trips .ac-portes{gap:8px;margin-top:18px}
-  #trips .ac-portes .hub-carte{display:grid;grid-template-columns:84px 1fr;gap:0 12px;align-items:center;padding:8px 8px}
-  #trips .ac-portes .corps{padding-inline-end:30px}
-  #trips .ac-portes .hub-carte .btn-noir{position:absolute;inset-inline-end:12px;top:50%;transform:translateY(-50%);margin:0}
-  #trips .ac-portes .hub-carte{position:relative}
-  #trips .ac-portes .photo{width:84px;height:84px;aspect-ratio:1/1;border-radius:12px;overflow:hidden}
-  #trips .ac-portes .photo img{width:100%;height:100%;object-fit:cover}
-  #trips .ac-portes h3{font-size:17px;line-height:1.15;margin:0 0 3px}
-  #trips .ac-portes .corps p{font-size:13px;line-height:1.35;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin:0}
-  #trips .ac-stations-ligne{margin-top:18px;font-size:13px}
-  #trips .ac-stations{gap:6px;margin-top:10px}
-  #trips .ac-stations a{min-height:36px;padding:0 13px;font-size:13.5px}
-  #trips .ac-van{margin-top:20px;padding:14px 14px 16px;grid-template-columns:56px 1fr;gap:4px 12px}
-  #trips .ac-van img{width:56px;height:56px}
-  #trips .ac-van b{font-size:18px}
-  #trips .ac-van p{font-size:14px;line-height:1.4}
-  #trips .ac-van .btn-noir{min-height:42px;padding:0 16px;font-size:14px}
-  /* etapes : trois lignes, dessin a gauche */
-  #how.etapes ol{gap:12px;margin-top:16px;text-align:start}
-  #how.etapes li{display:grid;grid-template-columns:56px 1fr;gap:0 12px;align-items:center}
-  #how.etapes li img{width:56px;height:56px;margin:0;grid-row:1 / span 3}
-  #how.etapes li > b{font-size:12px}
-  #how.etapes li > span{font-size:19px;margin-top:0}
-  #how.etapes li p{font-size:13px;line-height:1.4;margin:3px 0 0;max-width:none}
-  /* Lyon */
-  #tours .ac-lyon-photo img{aspect-ratio:16/9}
-  #tours .ac-lyon-grille{gap:16px}
-  #tours .ac-lyon p{font-size:15px;margin-top:10px}
-  #tours .ac-lyon-liste{gap:6px;margin-top:12px;font-size:14.5px}
-  #tours .ac-boutons{margin-top:14px}
-  #tours .ac-guide{margin-top:12px;font-size:14px}
-  .pied{padding-top:36px}
-}
-/* ===LOGOS DANS LES BOUTONS (20/10, Moshe)=== hassid sur les boutons vers le formulaire, flocon Winter Prestige sur les boutons chalet.
-   Masque CSS sur currentColor : le logo prend la couleur du texte du bouton (creme sur noir, encre sur jaune). */
-#chercheur button[type=submit],.ticket-zone .btn-noir[href*="plan-your-trip"],.btn-hero[href*="plan-your-trip"],.kwp .btn-noir,.lead-final .btn-noir[href*="plan-your-trip"]{display:inline-flex;align-items:center;justify-content:center;gap:9px}
-#chercheur button[type=submit]::before,.ticket-zone .btn-noir[href*="plan-your-trip"]::before,.btn-hero[href*="plan-your-trip"]::before,.kwp .btn-noir::before,.lead-final .btn-noir[href*="plan-your-trip"]::before{content:"";flex:none;width:20px;height:20px;background:currentColor;-webkit-mask:var(--logo) center/contain no-repeat;mask:var(--logo) center/contain no-repeat}
-#chercheur button[type=submit],.ticket-zone .btn-noir[href*="plan-your-trip"],.btn-hero[href*="plan-your-trip"],.lead-final .btn-noir[href*="plan-your-trip"]{--logo:url(img/picto-hassid.svg)}
-.kwp .btn-noir,.kwp-hiver .btn-hero[href*="plan-your-trip"]{--logo:url(img/wp-flocon-noir.svg)}
-.kwp .btn-noir::before{width:27px;height:27px}
-.kwp-hiver .btn-hero[href*="plan-your-trip"]::before{width:33px;height:33px}   /* sur jaune le flocon parait plus efface : plus grand (Moshe 20/10) */   /* flocon fin mais plus grand (Moshe 20/10 : « agrandis seulement »), le hassid reste a 20 px */
-[dir=rtl] #chercheur button[type=submit]::before,[dir=rtl] .ticket-zone .btn-noir::before,[dir=rtl] .btn-hero::before,[dir=rtl] .lead-final .btn-noir::before{transform:scaleX(-1)}
 /* ===KIT-WP=== */
 .kwp-cartes{display:grid;gap:24px;margin-top:24px}
 .kwp-diapo{margin-top:40px}
@@ -1554,6 +1553,8 @@ body .dk-suite>li>a::after{content:"";position:absolute;inset:0}
 .kwp-seul-bandeau .kwp-bandeau{margin-top:0}
 @media (max-width:599px){.kwp-bandeau{padding:18px 16px}.kwp-carte h3{font-size:21px}}
 @media (min-width:900px){.kwp-cartes{grid-template-columns:repeat(2,minmax(0,460px))}.kwp-seule{grid-template-columns:minmax(0,460px)}}
+/* 20/10 : trois chalets, jamais de carte orpheline (règle du 19/10) */
+@media (min-width:1000px){.kwp-cartes.kwp-trois{grid-template-columns:repeat(3,minmax(0,1fr))}.kwp-mini-v.kwp-trois{grid-template-columns:repeat(3,minmax(0,420px))}}
 /* pages hiver et Alpes (19/10) : noir #141416, or #C9A961, or lumière #E3BE80, givre #C9D2D4, clair #FAF7F0 */
 body.kwp-hiver{background:#141416}
 .kwp-hero-wp{display:flex;flex-direction:column;align-items:flex-start;gap:2px;direction:ltr;margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(201,169,97,.45)}

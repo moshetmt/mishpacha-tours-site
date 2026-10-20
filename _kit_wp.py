@@ -30,36 +30,45 @@ def fichiers():
 # ---------- textes ----------
 T = {
  "en": dict(vi_h2="Our villa", vi_h2_i="in Saint-Tropez", avec="with Winter Prestige", part="In partnership with", dispo="Availability confirmed for your dates with each request.",
-            btn="Check my dates", deux="Our two kosher chalets", deux_i="in the Alps", co_h2="Our chalet", co_h2_i="in Courchevel",
+            btn="Check my dates", deux="Our kosher chalets", deux_i="in the Alps", co_h2="Our chalet", co_h2_i="in Courchevel",
             da=dict(lieu="Les Deux Alpes", t="Our kosher chalet, at the foot of the slopes", alt="The chalet in Les Deux Alpes under a blue sky",
                     s=[("300 m²", "private chalet"), ("6 + 1", "bedrooms + nursery"), ("Up to 16", "guests"), ("2 min", "to the slopes")],
                     k="<b>Strictly kosher.</b> Chef or delivered meals, everything served is Chalav Yisrael."),
             co=dict(lieu="Courchevel", t="A kosher chalet in the heart of Courchevel", alt="The chalet in Courchevel under snow",
                     s=[("5", "en-suite bedrooms"), ("10 to 14", "guests"), ("2 pools", "heated, in and out"), ("Private shuttle", "to the slopes")],
                     k="<b>Strictly kosher.</b> Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael."),
+            sl=dict(lieu="Les Deux Alpes", t="The Slope Chalet, skis on at the door", alt="The Slope Chalet in Les Deux Alpes under snow",
+                    s=[("6", "bedrooms"), ("Up to 13", "guests"), ("50 m", "to the slopes"), ("Fireplace", "and south terrace")],
+                    k="<b>Strictly kosher.</b> Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael."),
             vi=dict(lieu="Saint-Tropez", t="Villa Beach, a kosher villa on the water", alt="Villa Beach in Saint-Tropez, the pool and the sea",
                     s=[("5", "bedrooms, 5 bathrooms"), ("12", "guests"), ("Private beach", "and boat garage"), ("3 houses", "villa, guest house, lodge")],
                     k="<b>Strictly kosher.</b> Villa koshered for you, private chef, everything served is Chalav Yisrael.", avec="with Summer Prestige"),
             seau="STRICTLY KOSHER · CHALAV YISRAEL · SHOMER SHABBAT ·"),
  "fr": dict(vi_h2="Notre villa", vi_h2_i="à Saint-Tropez", avec="avec Winter Prestige", part="En partenariat avec", dispo="Disponibilité confirmée pour vos dates à chaque demande.",
-            btn="Vérifier mes dates", deux="Nos deux chalets casher", deux_i="dans les Alpes", co_h2="Notre chalet", co_h2_i="à Courchevel",
+            btn="Vérifier mes dates", deux="Nos chalets casher", deux_i="dans les Alpes", co_h2="Notre chalet", co_h2_i="à Courchevel",
             da=dict(lieu="Les Deux Alpes", t="Notre chalet casher, au pied des pistes", alt="Le chalet des Deux Alpes sous le ciel bleu",
                     s=[("300 m²", "chalet privé"), ("6 + 1", "chambres + chambre bébé"), ("Jusqu’à 16", "personnes"), ("2 min", "des pistes")],
                     k="<b>Strictement casher.</b> Chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael."),
             co=dict(lieu="Courchevel", t="Un chalet casher au cœur de Courchevel", alt="Le chalet de Courchevel sous la neige",
                     s=[("5", "chambres en suite"), ("10 à 14", "personnes"), ("2 piscines", "chauffées, dedans et dehors"), ("Navette privée", "vers les pistes")],
                     k="<b>Strictement casher.</b> Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael."),
+            sl=dict(lieu="Les Deux Alpes", t="Le chalet des pistes, skis aux pieds", alt="Le chalet des pistes aux Deux Alpes sous la neige",
+                    s=[("6", "chambres"), ("Jusqu’à 13", "personnes"), ("50 m", "des pistes"), ("Cheminée", "et terrasse plein sud")],
+                    k="<b>Strictement casher.</b> Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael."),
             vi=dict(lieu="Saint-Tropez", t="Villa Beach, une villa casher les pieds dans l’eau", alt="Villa Beach à Saint-Tropez, la piscine et la mer",
                     s=[("5", "chambres, 5 salles de bain"), ("12", "personnes"), ("Plage privée", "et garage à bateau"), ("3 maisons", "villa, maison d’invités, loge")],
                     k="<b>Strictement casher.</b> Villa cachérisée pour vous, chef privé, tout ce qui est servi est 'Halav Yisrael.", avec="avec Summer Prestige"),
             seau="STRICTEMENT CASHER · CHALAV YISRAEL · SHOMER SHABBAT ·"),
  "es": dict(vi_h2="Nuestra villa", vi_h2_i="en Saint-Tropez", avec="con Winter Prestige", part="En colaboración con", dispo="Disponibilidad confirmada para sus fechas en cada solicitud.",
-            btn="Consultar mis fechas", deux="Nuestros dos chalets kosher", deux_i="en los Alpes", co_h2="Nuestro chalet", co_h2_i="en Courchevel",
+            btn="Consultar mis fechas", deux="Nuestros chalets kosher", deux_i="en los Alpes", co_h2="Nuestro chalet", co_h2_i="en Courchevel",
             da=dict(lieu="Les Deux Alpes", t="Nuestro chalet kosher, al pie de las pistas", alt="El chalet de Les Deux Alpes bajo el cielo azul",
                     s=[("300 m²", "chalet privado"), ("6 + 1", "habitaciones + cuarto del bebé"), ("Hasta 16", "personas"), ("2 min", "de las pistas")],
                     k="<b>Estrictamente kosher.</b> Chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael."),
             co=dict(lieu="Courchevel", t="Un chalet kosher en el corazón de Courchevel", alt="El chalet de Courchevel bajo la nieve",
                     s=[("5", "habitaciones con baño"), ("De 10 a 14", "personas"), ("2 piscinas", "climatizadas, interior y exterior"), ("Lanzadera privada", "a las pistas")],
+                    k="<b>Estrictamente kosher.</b> Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael."),
+            sl=dict(lieu="Les Deux Alpes", t="El chalet de las pistas, esquís puestos en la puerta", alt="El chalet de las pistas en Les Deux Alpes bajo la nieve",
+                    s=[("6", "habitaciones"), ("Hasta 13", "personas"), ("50 m", "de las pistas"), ("Chimenea", "y terraza al sur")],
                     k="<b>Estrictamente kosher.</b> Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael."),
             vi=dict(lieu="Saint-Tropez", t="Villa Beach, una villa kosher a pie de mar", alt="Villa Beach en Saint-Tropez, la piscina y el mar",
                     s=[("5", "habitaciones, 5 baños"), ("12", "personas"), ("Playa privada", "y garaje para barco"), ("3 casas", "villa, casa de invitados, caseta")],
@@ -67,12 +76,15 @@ T = {
             seau="ESTRICTAMENTE KOSHER · CHALAV YISRAEL · SHOMER SHABAT ·"),
  # hébreu : jamais « ישראל » (règle n° 1), donc pas de Chalav Yisrael ; lexique de la charte (שומר כשרות)
  "he": dict(vi_h2="הווילה שלנו", vi_h2_i="בסן טרופה", avec="עם Winter Prestige", part="בשיתוף עם", dispo="הזמינות מאושרת לתאריכים שלכם בכל פנייה.",
-            btn="לבדוק את התאריכים", deux="שתי הצ'אלות הכשרות שלנו", deux_i="באלפים", co_h2="הצ'אלה שלנו", co_h2_i="בקורשבל",
+            btn="לבדוק את התאריכים", deux="הצ'אלות הכשרות שלנו", deux_i="באלפים", co_h2="הצ'אלה שלנו", co_h2_i="בקורשבל",
             da=dict(lieu="לה דז אלפ", t="הצ'אלה הכשרה שלנו, למרגלות המסלולים", alt="הצ'אלה בלה דז אלפ תחת שמיים כחולים",
                     s=[("300 מ\"ר", "צ'אלה פרטית"), ("6 + 1", "חדרי שינה + חדר תינוק"), ("עד 16", "אורחים"), ("2 דק'", "מהמסלולים")],
                     k="<b>שומר כשרות.</b> שף בצ'אלה או ארוחות במשלוח."),
             co=dict(lieu="קורשבל", t="צ'אלה כשרה בלב קורשבל", alt="הצ'אלה בקורשבל תחת השלג",
                     s=[("5", "חדרי שינה עם חדר רחצה"), ("10 עד 14", "אורחים"), ("2 בריכות", "מחוממות, בפנים ובחוץ"), ("הסעה פרטית", "למסלולים")],
+                    k="<b>שומר כשרות.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
+            sl=dict(lieu="לה דז אלפ", t="צ'אלה המסלולים, נועלים מגלשיים בדלת", alt="צ'אלה המסלולים בלה דז אלפ תחת השלג",
+                    s=[("6", "חדרי שינה"), ("עד 13", "אורחים"), ("50 מ'", "מהמסלולים"), ("אח", "ומרפסת דרומית")],
                     k="<b>שומר כשרות.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
             vi=dict(lieu="סן טרופה", t="וילה ביץ׳, וילה כשרה על קו המים", alt="וילה ביץ׳ בסן טרופה, הבריכה והים",
                     s=[("5", "חדרי שינה, 5 חדרי רחצה"), ("12", "אורחים"), ("חוף פרטי", "ומוסך סירות"), ("3 בתים", "וילה, בית אורחים, בית השומר")],
@@ -92,6 +104,9 @@ CHALETS = {
             q="?i=a&amp;lieu=Les%20Deux%20Alpes&amp;voyage=Ski%20holiday%20with%20a%20chalet"),
  "co": dict(img="/img/chalet/courchevel-ext.jpg", w=1600, h=1067, pictos=["lit", "gens", "eau", "navette"], lien="/kosher-chalet-courchevel/",
             q="?i=a&amp;lieu=Courchevel&amp;voyage=Ski%20holiday%20with%20a%20chalet"),
+ # 20/10 : second chalet des Deux Alpes, 13 places, ski aux pieds (liens de Mendel, photos retouchées)
+ "sl": dict(img="/img/chalet/slope-facade.jpg", w=1511, h=1105, pictos=["lit", "gens", "pistes", "maison"], lien="/kosher-slope-chalet-les-deux-alpes/",
+            q="?i=a&amp;lieu=Les%20Deux%20Alpes&amp;voyage=Ski%20holiday%20with%20a%20chalet"),
  # 19/10 : la villa de Saint-Tropez, marque d'été Summer Prestige (même équipe, même kit, logo soleil)
  "vi": dict(img="/img/villa/st-tropez-facade.jpg", w=1368, h=912, pictos=["lit", "gens", "eau", "maison"], lien="/kosher-villa-saint-tropez/",
             q="?i=a&amp;lieu=Saint-Tropez&amp;voyage=Summer%20in%20the%20Alps", marque="sp"),
@@ -148,14 +163,14 @@ STATIONS_SANS_CHALET = ["kosher-val-thorens", "kosher-megeve", "kosher-alpe-dhue
                         "kosher-chamonix", "kosher-annecy", "kosher-grenoble", "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana",
                         "kosher-cervinia", "kosher-courmayeur", "kosher-cortina"]
 ACC = {  # titre de la section accueil, porte « chalet » (h3, p), bande des stations (h2, italique)
- "en": dict(h2="Our two kosher chalets", i="in the Alps", porte=("Our two chalets, private chef", "Les Deux Alpes or Courchevel: chef, Shabbat and minyan in the chalet."),
-            mini=("Prefer a whole chalet?", "Two kosher chalets")),
- "fr": dict(h2="Nos deux chalets casher", i="dans les Alpes", porte=("Nos deux chalets avec chef privé", "Les Deux Alpes ou Courchevel : chef, Chabbat et minyan au chalet."),
-            mini=("Un chalet rien que pour vous ?", "Deux chalets casher")),
- "es": dict(h2="Nuestros dos chalets kosher", i="en los Alpes", porte=("Nuestros dos chalets con chef privado", "Les Deux Alpes o Courchevel: chef, Shabat y minyan en el chalet."),
-            mini=("¿Prefiere un chalet entero?", "Dos chalets kosher")),
- "he": dict(h2="שתי הצ'אלות הכשרות שלנו", i="באלפים", porte=("שתי הצ'אלות שלנו עם שף פרטי", "לה דז אלפ או קורשבל: שף, שבת ומניין בצ'אלה."),
-            mini=("מעדיפים צ'אלה שלם?", "שתי צ'אלות כשרות")),
+ "en": dict(h2="Our kosher chalets", i="in the Alps", porte=("Our three chalets, private chef", "Les Deux Alpes or Courchevel: chef, Shabbat and minyan in the chalet."),
+            mini=("Prefer a whole chalet?", "Three kosher chalets")),
+ "fr": dict(h2="Nos chalets casher", i="dans les Alpes", porte=("Nos trois chalets avec chef privé", "Les Deux Alpes ou Courchevel : chef, Chabbat et minyan au chalet."),
+            mini=("Un chalet rien que pour vous ?", "Trois chalets casher")),
+ "es": dict(h2="Nuestros chalets kosher", i="en los Alpes", porte=("Nuestros tres chalets con chef privado", "Les Deux Alpes o Courchevel: chef, Shabat y minyan en el chalet."),
+            mini=("¿Prefiere un chalet entero?", "Tres chalets kosher")),
+ "he": dict(h2="הצ'אלות הכשרות שלנו", i="באלפים", porte=("שלוש הצ'אלות שלנו עם שף פרטי", "לה דז אלפ או קורשבל: שף, שבת ומניין בצ'אלה."),
+            mini=("מעדיפים צ'אלה שלם?", "שלוש צ'אלות כשרות")),
 }
 
 GALERIE_CO = [("courchevel-piscine-ext", dict(en="The heated outdoor pool", fr="La piscine chauffée extérieure", es="La piscina exterior climatizada", he="הבריכה החיצונית המחוממת")),
@@ -181,6 +196,19 @@ def diapo(lang, photos, dossier):
     a, b = FLECHES[lang]
     return (f'<section class="ss wrap galerie-wp kwp-diapo" aria-roledescription="carousel"><div class="kwp-diapo-cadre">{figs}'
             f'<button type="button" class="kwp-diapo-prec" aria-label="{a}">&#8249;</button><button type="button" class="kwp-diapo-suiv" aria-label="{b}">&#8250;</button></div>{DIAPO_JS}</section>')
+
+GALERIE_SL = [("slope-facade", dict(en="The chalet under snow, fifty metres from the slopes", fr="Le chalet sous la neige, à cinquante mètres des pistes", es="El chalet bajo la nieve, a cincuenta metros de las pistas", he="הצ'אלה תחת השלג, חמישים מטר מהמסלולים")),
+              ("slope-salon-canape", dict(en="The living room, open on the snow", fr="Le salon, ouvert sur la neige", es="El salón, abierto a la nieve", he="הסלון, פתוח אל השלג")),
+              ("slope-sejour-table", dict(en="The dining table and the kitchen", fr="La table et la cuisine", es="La mesa y la cocina", he="שולחן האוכל והמטבח")),
+              ("slope-chambre-double", dict(en="One of the double bedrooms", fr="L'une des chambres doubles", es="Una de las habitaciones dobles", he="אחד מחדרי השינה הזוגיים")),
+              ("slope-chambre-twin", dict(en="The twin bedroom", fr="La chambre à deux lits", es="La habitación con dos camas", he="חדר השינה עם שתי מיטות")),
+              ("slope-chambre-trois-lits", dict(en="The bedroom with three single beds", fr="La chambre à trois lits", es="La habitación con tres camas", he="חדר השינה עם שלוש מיטות")),
+              ("slope-chambre-enfants", dict(en="The kids' room under the roof", fr="La chambre des enfants sous le toit", es="La habitación de los niños bajo el tejado", he="חדר הילדים בעליית הגג")),
+              ("slope-salon-baie", dict(en="The living room and its bay window", fr="Le salon et sa baie vitrée", es="El salón y su ventanal", he="הסלון וחלון הראווה")),
+              ("slope-sdb-baignoire", dict(en="The bathroom with a tub", fr="La salle de bain avec baignoire", es="El baño con bañera", he="חדר הרחצה עם אמבטיה"))]
+
+def galerie_sl(lang):
+    return diapo(lang, GALERIE_SL, "chalet")
 
 def galerie_co(lang):
     """Galerie du chalet de Courchevel sous la bannière, même balisage que celle des Deux Alpes (galerie-wp, épargnée par _sans_mosaique)."""
@@ -217,7 +245,8 @@ def mini(lang, sauf=None):
     a = ACC[lang]
     v = "".join(f'<a class="kwp-v" href="{pfx(lang)}/{u}/"><img src="{img}" alt="" width="160" height="107" loading="lazy"><span><b>{n}</b>{d}</span></a>'
                 for (u, img), (n, d) in zip(CH_URL, NAV_CH[lang][2]) if u != sauf)
-    return (f'<section class="ss wrap kwp kwp-mini"><h2>{a["mini"][0]} <i>{a["mini"][1]}</i></h2><div class="kwp-mini-v">{v}</div>{lien_tous(lang)}</section>')
+    n = sum(1 for u, _ in CH_URL if u != sauf)
+    return (f'<section class="ss wrap kwp kwp-mini"><h2>{a["mini"][0]} <i>{a["mini"][1]}</i></h2><div class="kwp-mini-v{" kwp-trois" if n == 3 else ""}">{v}</div>{lien_tous(lang)}</section>')
 
 def accueil(s, lang):
     """Les deux cartes juste sous le hero (à la place du bloc Deux Alpes du 3e écran) ; la porte « chalet » mène à /kosher-chalets/."""
@@ -236,7 +265,7 @@ def page(slug, lang):
     if slug == "":
         s = accueil(s, lang)
     elif slug == "kosher-chalets":
-        s = poser(s, "hub", f'<section class="ss wrap kwp kwp-hub"><div class="kwp-cartes">{carte(lang, "da")}{carte(lang, "co")}</div>{bandeau(lang)}</section>',
+        s = poser(s, "hub", f'<section class="ss wrap kwp kwp-hub"><div class="kwp-cartes kwp-trois">{carte(lang, "da")}{carte(lang, "sl")}{carte(lang, "co")}</div>{bandeau(lang)}</section>',
                   apres='<section class="ss wrap lead-intro"')
     elif slug == "kosher-villa-saint-tropez":
         s = poser(s, "galerie", galerie_vi(lang), avant='</main>')   # 19/10 Moshé : jamais sous la bannière, juste avant le pied
@@ -247,21 +276,24 @@ def page(slug, lang):
     elif slug == "kosher-chalet-courchevel":
         s = poser(s, "galerie", galerie_co(lang), avant='</main>')   # 19/10 Moshé : jamais sous la bannière, juste avant le pied
         s = poser(s, "bandeau", f'<section class="ss wrap kwp kwp-seul-bandeau">{bandeau(lang)}</section>', avant='<section class="ss lead-final"')
-    if slug in STATIONS_SANS_CHALET or slug in ("kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel"):
+    elif slug == "kosher-slope-chalet-les-deux-alpes":   # 20/10, second chalet des Deux Alpes
+        s = poser(s, "galerie", galerie_sl(lang), avant='</main>')
+        s = poser(s, "bandeau", f'<section class="ss wrap kwp kwp-seul-bandeau">{bandeau(lang)}</section>', avant='<section class="ss lead-final"')
+    if slug in STATIONS_SANS_CHALET or slug in ("kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes"):
         s = poser(s, "mini", mini(lang, slug), avant='<section class="ss lead-final"')
     if slug == "kosher-les-deux-alpes":
         s = re.sub(r'\s*<a class="lead-wp".*?</a>', "", s, flags=re.S)
         i = s.find('<section class="ss wrap lead-offre">'); assert i >= 0
         s = re.sub(r"<!--KIT-WP:da-->.*?<!--/KIT-WP:da-->\n", "", s, flags=re.S)
         j = s.find("</section>", i)
-        s = s[:j] + bloc("da", f'<div class="kwp-cartes kwp-seule">{carte(lang, "da")}</div>') + "\n" + s[j:]
+        s = s[:j] + bloc("da", f'<div class="kwp-cartes">{carte(lang, "da")}{carte(lang, "sl")}</div>') + "\n" + s[j:]
     elif slug == "kosher-courchevel":
         s = poser(s, "co", f'<section class="ss wrap kwp"><h2>{t["co_h2"]} <i>{t["co_h2_i"]}</i></h2>'
                            f'<div class="kwp-cartes kwp-seule">{carte(lang, "co")}</div></section>', apres='<section class="ss wrap lead-intro"')
     elif slug in ("alps", "kosher-ski-holidays-french-alps"):
         s = poser(s, "duo", f'<section class="ss wrap kwp"><h2>{t["deux"]} <i>{t["deux_i"]}</i></h2>'
-                            f'<div class="kwp-cartes">{carte(lang, "da")}{carte(lang, "co")}</div>{bandeau(lang)}</section>',
-                  apres='<section class="ss wrap lead-intro"')   # 19/10 : remonté juste après l'intro (9e écran -> 2e)
+                            f'<div class="kwp-cartes kwp-trois">{carte(lang, "da")}{carte(lang, "sl")}{carte(lang, "co")}</div>{bandeau(lang)}</section>',
+                  apres='<section class="ss wrap lead-intro"')   # 19/10 : remonté juste après l'intro (9e écran -> 2e) ; 20/10 : 3 chalets
     elif slug == "kosher-chalet-les-deux-alpes":
         s = poser(s, "bandeau", f'<section class="ss wrap kwp kwp-seul-bandeau">{bandeau(lang)}</section>', avant='<section class="ss lead-final"')
     if slug in HIVER:
@@ -274,7 +306,7 @@ def page(slug, lang):
 # menu, pied, formulaire lead-final et boutons restent Mishpacha. Signature : logo avec « Powered by Mishpacha Tours ».
 # Moshé 19/10 « oui étends » : /alps/, les 17 pages station, services et ski.
 HIVER = ["alps", "kosher-courchevel", "kosher-les-deux-alpes", *STATIONS_SANS_CHALET, "kosher-services-french-alps", "kosher-ski-holidays-french-alps",
-         "kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel"]  # les 3 pages chalet (Moshé 19/10 « oui »)
+         "kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes"]  # les pages chalet (Moshé 19/10 « oui »)
 # pastilles FR/ES/HE : la Suisse et l'Italie manquaient aux traductions (Moshé 19/10 « oui ajoute »)
 PAYS_ST = {
     "fr": [("En Suisse", [("kosher-zermatt", "Zermatt"), ("kosher-st-moritz", "Saint-Moritz"), ("kosher-crans-montana", "Crans-Montana")]),
@@ -394,6 +426,8 @@ CSS = """/* ===KIT-WP=== */
 .kwp-seul-bandeau .kwp-bandeau{margin-top:0}
 @media (max-width:599px){.kwp-bandeau{padding:18px 16px}.kwp-carte h3{font-size:21px}}
 @media (min-width:900px){.kwp-cartes{grid-template-columns:repeat(2,minmax(0,460px))}.kwp-seule{grid-template-columns:minmax(0,460px)}}
+/* 20/10 : trois chalets, jamais de carte orpheline (règle du 19/10) */
+@media (min-width:1000px){.kwp-cartes.kwp-trois{grid-template-columns:repeat(3,minmax(0,1fr))}.kwp-mini-v.kwp-trois{grid-template-columns:repeat(3,minmax(0,420px))}}
 /* pages hiver et Alpes (19/10) : noir #141416, or #C9A961, or lumière #E3BE80, givre #C9D2D4, clair #FAF7F0 */
 body.kwp-hiver{background:#141416}
 .kwp-hero-wp{display:flex;flex-direction:column;align-items:flex-start;gap:2px;direction:ltr;margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(201,169,97,.45)}
@@ -502,7 +536,7 @@ def css():
 if __name__ == "__main__":
     fichiers(); n = css()
     for slug in dict.fromkeys(("kosher-les-deux-alpes", "kosher-courchevel", "alps", "kosher-ski-holidays-french-alps", "kosher-chalet-les-deux-alpes",
-                               "", "kosher-chalets", "kosher-chalet-courchevel", "kosher-villa-saint-tropez", "summer-in-the-alps-jewish-families",
+                               "", "kosher-chalets", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-villa-saint-tropez", "summer-in-the-alps-jewish-families",
                                *STATIONS_SANS_CHALET, *HIVER)):
         for lang in T: n += page(slug, lang)
     for f in sorted(RACINE.glob("**/index.html")):

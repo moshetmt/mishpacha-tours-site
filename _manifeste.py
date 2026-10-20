@@ -18,7 +18,7 @@ EN = dict(phrase="Ski by day. Come back to a set table, a minyan, and Shabbat re
           lignes=[("A private chef, or meals delivered", "The kitchen is kashered, every meal of the week is taken care of."),
                   ("Shabbat and the holidays, ready", "Challot, wine, candles, and a minyan with a Sefer Torah on request."),
                   ("One written quote, the same day", "Your resort, your dates, your group. One contact from start to finish.")])
-CHALETS = ("kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel")
+CHALETS = ("kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes")
 
 def textes(lang, slug):
     t = EN if lang == "en" else TRAD.get(lang)
