@@ -931,6 +931,11 @@ details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
 .dm-nav [hidden]{display:none!important}
 .demande form.js .dm-nav[hidden]{display:none}
 .dm-petit{max-width:760px;margin:80px auto 0;text-align:center;font-size:13px;opacity:.7}
+.dm-accord{max-width:760px;margin:16px auto 0;font-size:14px;line-height:1.5}
+.dm-accord[hidden]{display:none}
+.dm-accord label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
+.dm-accord input{flex:none;width:22px;height:22px;margin:1px 0 0;accent-color:var(--encre)}
+.dm-accord a{text-decoration:underline;text-underline-offset:3px}
 .demande{padding-bottom:80px}
 .dm-note{font-size:14px;line-height:1.45;padding:12px 16px;border-radius:15px;background:var(--creme);border:1px solid rgba(28,27,31,.15)}
 .dm-nuits{font-weight:600;font-size:15px}

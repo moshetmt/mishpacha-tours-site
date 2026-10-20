@@ -150,6 +150,14 @@ BOUGIE = ('<svg class="dm-bougie" viewBox="0 0 24 40" width="22" height="36" ari
 FLOCON = ('<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M8 1v14M1.7 4.5l12.6 7M1.7 11.5l12.6-7M5.5 2.2L8 4.4l2.5-2.2M5.5 13.8L8 11.6l2.5 2.2"/></svg>')
 FLOCONS = '<span class="dm-neige" aria-hidden="true">' + "".join(f'<i style="--x:{x}%;--d:{d}ms">{FLOCON}</i>' for x, d in [(6, -300), (22, -1900), (38, -900), (55, -2700), (71, -1400), (86, -500), (95, -3100)]) + "</span>"
 
+# 20/10 (C4, option A) : accord explicite, art. 9 RGPD (allergies = sante, minyan = pratique religieuse). Case obligatoire sous le bouton d'envoi.
+ACCORD = {
+    "en": ("I agree that my answers (including allergies and religious observance) may be passed to the team in the Alps to prepare my quote.", "Privacy policy", "/privacy/"),
+    "fr": ("J'accepte que mes réponses (dont allergies et pratique religieuse) soient transmises à l'équipe des Alpes pour préparer mon devis.", "Politique de confidentialité", "/fr/privacy/"),
+    "es": ("Acepto que mis respuestas (incluidas las alergias y la práctica religiosa) se transmitan al equipo de los Alpes para preparar mi presupuesto.", "Política de privacidad", "/es/privacy/"),
+    "he": ("אני מסכים/ה שתשובותיי (כולל אלרגיות ושמירת מצוות) יועברו לצוות באלפים לצורך הכנת הצעת המחיר שלי.", "מדיניות הפרטיות", "/he/privacy/"),
+}
+
 def formulaire(lang):
     T = lambda s: t(s, lang)
     E = lambda s: esc(t(s, lang))
@@ -339,6 +347,8 @@ def formulaire(lang):
     nav = (f'<div class="dm-nav"><button type="button" class="dm-retour" id="dm-back" hidden>{E("Back")}</button>'
            f'<button type="button" class="btn-noir" id="dm-next" hidden>{E("Next")}</button>'
            f'<button type="submit" class="btn-noir" id="dm-send">{esc(JSX[lang]["envoyer"])}</button></div>'
+           f'<p class="dm-accord" id="dm-accord" hidden><label><input type="checkbox" id="dm-accord-cb" name="accord" required> '
+           f'<span>{esc(ACCORD[lang][0])} <a href="{ACCORD[lang][2]}" target="_blank" rel="noopener">{esc(ACCORD[lang][1])}</a></span></label></p>'
            f'<p class="dm-petit" id="dm-petit"><small>{esc(JSX[lang]["petit"])}</small></p>')
     noscript = f'<noscript><p class="dm-noscript">{E("This form needs JavaScript. Write to us on WhatsApp instead.")} <a href="{wa}" rel="noopener">WhatsApp</a></p></noscript>'
     piege = {"en": "Company", "fr": "Société", "es": "Empresa", "he": "חברה"}[lang]
@@ -350,7 +360,8 @@ JS_TPL = r'''<script>
 (function(){var f=document.getElementById('formDemande');if(!f)return;
 var C=__CFG__;
 var KEY='mt-demande-'+C.lang;
-var ctrls=[].slice.call(f.querySelectorAll('input,select,textarea')).filter(function(e){return e.name!=='societe'});
+var ctrls=[].slice.call(f.querySelectorAll('input,select,textarea')).filter(function(e){return e.name!=='societe'&&e.name!=='accord'});
+var accord=document.getElementById('dm-accord'),accordCb=document.getElementById('dm-accord-cb');
 ctrls.forEach(function(e){e.scr=e.closest('.etape').getAttribute('data-e')});
 var etapes=[].slice.call(f.querySelectorAll('.etape'));
 var prog=document.getElementById('dm-prog'),barre=document.getElementById('dm-barre'),barreC=document.getElementById('dm-barre-c'),ptxt=document.getElementById('dm-prog-txt');
@@ -435,7 +446,7 @@ function plis(){[].forEach.call(f.querySelectorAll('.dm-pli'),function(d){var n=
 function render(an){var p=sync();plis();if(p.indexOf(cur)<0)cur='intention';
  etapes.forEach(function(e){e.hidden=e.getAttribute('data-e')!==cur});
  var i=p.indexOf(cur),last=cur==='final',b=branch();f.classList.toggle('avance',cur!=='intention');
- bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;var nn=cur==='sejour'?nights():null,bad=nn!==null&&nn<0;shabbats(nn);
+ bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;accord.hidden=!last;if(!sent)bSend.disabled=!accordCb.checked;var nn=cur==='sejour'?nights():null,bad=nn!==null&&nn<0;shabbats(nn);
  nuitsP.hidden=!(nn!==null&&nn>=1);if(!nuitsP.hidden)nuitsP.textContent=nn===1?C.t.nuit:C.t.nuits.replace('{n}',nn);dateErr.hidden=!bad;
  bNext.disabled=(cur==='intention'&&!b)||bad;
  prog.hidden=p.length<2;ptxt.textContent=C.t.step.replace('{n}',i+1).replace('{t}',p.length);
@@ -477,6 +488,7 @@ f.addEventListener('change',onchg);f.addEventListener('input',onchg);
 window.addEventListener('popstate',function(ev){var id=ev.state&&ev.state.e;show(id||'intention',false,true)});
 f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  if(cur!=='final'){if(!bNext.disabled)next();return}
+ if(!accordCb.checked){accordCb.focus();return}
  if(f.elements.societe&&f.elements.societe.value){location.href=C.merci;return}
  var pre=val('prenom'),nom=(pre+' '+val('nom')).trim(),tel=val('tel'),ind=val('indicatif');var err=document.getElementById('dm-erreur');
  if(!pre||!val('nom')||!tel||!ind){err.hidden=false;err.scrollIntoView({behavior:'smooth',block:'center'});return}
@@ -493,7 +505,7 @@ f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  bSend.appendChild(im);bSend.appendChild(document.createTextNode(' '+C.t.sending));
  var fini=false,ok=function(){if(fini)return;fini=true;try{sessionStorage.removeItem(KEY)}catch(e){}
   dl.push({event:'generate_lead',branch:branch(),budget:val('budget_total')||val('budget')});location.href=C.merci},
- ko=function(){if(fini)return;fini=true;sent=false;bSend.disabled=false;bSend.textContent=lab0;
+ ko=function(){if(fini)return;fini=true;sent=false;bSend.disabled=!accordCb.checked;bSend.textContent=lab0;
   var T={fr:['Votre demande n’est pas partie. Envoyez-la-nous sur WhatsApp en un geste :','Envoyer sur WhatsApp'],es:['Su solicitud no se envió. Envíenosla por WhatsApp con un toque:','Enviar por WhatsApp'],he:['הבקשה לא נשלחה. שלחו לנו בוואטסאפ בלחיצה אחת:','שליחה בוואטסאפ'],en:['Your request did not go through. Send it to us on WhatsApp in one tap:','Send on WhatsApp']}[(document.documentElement.lang||'en').slice(0,2)]||null;
   T=T||['Your request did not go through. Send it to us on WhatsApp in one tap:','Send on WhatsApp'];
   var txt=(nom+' · '+dates+' · '+pers+'\n'+parts.join('\n')).slice(0,1800);
@@ -631,6 +643,11 @@ details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
 .dm-nav [hidden]{display:none!important}
 .demande form.js .dm-nav[hidden]{display:none}
 .dm-petit{max-width:760px;margin:80px auto 0;text-align:center;font-size:13px;opacity:.7}
+.dm-accord{max-width:760px;margin:16px auto 0;font-size:14px;line-height:1.5}
+.dm-accord[hidden]{display:none}
+.dm-accord label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
+.dm-accord input{flex:none;width:22px;height:22px;margin:1px 0 0;accent-color:var(--encre)}
+.dm-accord a{text-decoration:underline;text-underline-offset:3px}
 .demande{padding-bottom:80px}
 .dm-note{font-size:14px;line-height:1.45;padding:12px 16px;border-radius:15px;background:var(--creme);border:1px solid rgba(28,27,31,.15)}
 .dm-nuits{font-weight:600;font-size:15px}
