@@ -4,9 +4,9 @@
    Tant que ADS.id est vide, aucune balise Ads n'est chargee et aucune conversion Ads n'est envoyee. */
 (function () {
   var ADS = {
-    id: '',     // ID de conversion du compte 950-679-6570, forme AW-1234567890
-    lead: '',   // etiquette de l'action « Demande envoyee », forme AbC_dEfGhIjKl (sans l'ID, sans le slash)
-    wa: ''      // etiquette de l'action « Clic WhatsApp »
+    id: 'AW-18513655242',     // ID de conversion du compte 950-679-6570, forme AW-1234567890
+    lead: 'tQXdCJb14KMdEMrr__tE',   // etiquette de l'action « Demande envoyee », forme AbC_dEfGhIjKl (sans l'ID, sans le slash)
+    wa: 'bs0kCK-f2KMdEMrr__tE'      // etiquette de l'action « Clic WhatsApp »
   };
   var EC = true; // conversions ameliorees : telephone/e-mail du formulaire envoyes hachees (SHA-256 par gtag), seulement apres Accept
   /* ===== fin de la zone a remplir ===== */
