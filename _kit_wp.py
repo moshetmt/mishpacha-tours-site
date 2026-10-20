@@ -114,7 +114,7 @@ PICTOS = {
 CHALETS = {
  "da": dict(img="/img/chalet/wp-ext-bleu.jpg", w=1600, h=1067, pictos=["maison", "lit", "gens", "pistes"], lien="/kosher-chalet-les-deux-alpes/",
             q="?i=a&amp;lieu=Les%20Deux%20Alpes&amp;voyage=Ski%20holiday%20with%20a%20chalet"),
- "co": dict(img="/img/chalet/courchevel-ext.jpg", w=1600, h=1067, pictos=["lit", "gens", "eau", "navette"], lien="/kosher-chalet-courchevel/",
+ "co": dict(img="/img/chalet/courchevel-ext.jpg", w=1264, h=848, pictos=["lit", "gens", "eau", "navette"], lien="/kosher-chalet-courchevel/",
             q="?i=a&amp;lieu=Courchevel&amp;voyage=Ski%20holiday%20with%20a%20chalet"),
  # 20/10 : second chalet des Deux Alpes, 13 places, ski aux pieds (liens de Mendel, photos retouchées)
  "sl": dict(img="/img/chalet/slope-facade.jpg", w=1264, h=848, pictos=["lit", "gens", "pistes", "maison"], lien="/kosher-slope-chalet-les-deux-alpes/",
