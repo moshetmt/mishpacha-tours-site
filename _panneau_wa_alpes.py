@@ -23,6 +23,7 @@ GEN = {  # pages van et villa (zone « general ») : message générique existan
 }
 GENERIQUES = {"kosher-van-transfers", "kosher-villa-saint-tropez"}
 NUM = "33652092301"
+LYON = re.compile(r"tour of Lyon|visite juive privée de Lyon|visita judía privada (en|de) L|סיור יהודי פרטי בליון|עצירת הביניים")
 
 def traiter(path):
     p = path.replace("\\", "/")
@@ -37,6 +38,11 @@ def traiter(path):
     h = io.open(path, encoding="utf-8").read()
     href = f"https://wa.me/{NUM}?text={quote(msg, safe='')}"
     n = re.sub(r'(<a class="panneau-wa" href=")[^"]*(")', lambda m: m.group(1) + href + m.group(2), h, count=1)
+    # 20/10 soir : tout autre lien WhatsApp de la page (bouton du menu hébreu nav-cta-wa, bannière lead3-wa,
+    # bouton noir, flottant) qui parle encore d'une visite de Lyon passe au même message.
+    from urllib.parse import unquote
+    n = re.sub(r'href="https://wa\.me/' + NUM + r'\?text=([^"]+)"',
+               lambda m: f'href="{href}"' if LYON.search(unquote(m.group(1))) else m.group(0), n)
     if n != h:
         io.open(path, "w", encoding="utf-8", newline="\n").write(n)
         return 1
