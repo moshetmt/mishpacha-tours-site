@@ -17,6 +17,7 @@ SKI = "Ski holiday with a chalet"
 CIBLES = {"kosher-chalet-les-deux-alpes": {"i": "a", "lieu": "Les Deux Alpes", "voyage": SKI},
           "kosher-chalet-courchevel": {"i": "a", "lieu": "Courchevel", "voyage": SKI}, "kosher-chalets": {"i": "a", "voyage": SKI},
           "kosher-slope-chalet-les-deux-alpes": {"i": "a", "lieu": "Les Deux Alpes", "voyage": SKI},
+          "kosher-chalet-megeve": {"i": "a", "lieu": "Megève", "voyage": SKI},
           "kosher-villa-saint-tropez": {"i": "a", "lieu": "Saint-Tropez", "voyage": "Summer in the Alps"},
           "kosher-van-transfers": {"i": "c"}, "jewish-lyon-tours": {"i": "d"},
           "summer-in-the-alps-jewish-families": {"i": "a", "voyage": "Summer in the Alps"},

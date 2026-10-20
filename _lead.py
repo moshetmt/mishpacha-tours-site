@@ -45,6 +45,7 @@ PAGES.update({
  'kosher-chalet-les-deux-alpes': ('chalet/wp-ext-bleu.jpg', 'chalet', 'Kosher chalet in Les Deux Alpes'),
  'kosher-chalet-courchevel': ('chalet/courchevel-ext.jpg', 'chalet', 'Kosher chalet in Courchevel'),   # 19/10
  'kosher-slope-chalet-les-deux-alpes': ('chalet/slope-facade.jpg', 'chalet', 'Kosher chalet in Les Deux Alpes'),   # 20/10, second chalet
+ 'kosher-chalet-megeve': ('chalet/megeve-n0-apt-sejour.jpg', 'chalet', 'Kosher chalet near Megève'),   # 20/10
  'kosher-chalets': ('chalet/wp-soleil.jpg', 'chalet', 'Kosher chalet in the Alps'),                       # 19/10, page du menu Chalets
  'kosher-villa-saint-tropez': ('villa/st-tropez-facade.jpg', 'chalet', 'Kosher villa in Saint-Tropez'),   # 19/10, Summer Prestige
 })

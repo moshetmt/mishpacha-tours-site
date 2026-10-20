@@ -1328,101 +1328,7 @@ h2 + .hub-grille,h2 + .sous + .hub-grille{margin-top:28px}   /* titre plus colle
 .kwp .btn-noir,.kwp-hiver .btn-hero[href*="plan-your-trip"]{--logo:url(img/wp-flocon-noir.svg)}
 .kwp .btn-noir::before{width:27px;height:27px}
 .kwp-hiver .btn-hero[href*="plan-your-trip"]::before{width:33px;height:33px}   /* sur jaune le flocon parait plus efface : plus grand (Moshe 20/10) */   /* flocon fin mais plus grand (Moshe 20/10 : « agrandis seulement »), le hassid reste a 20 px */
-[dir=rtl] #chercheur button[type=submit]::before,[dir=rtl] .ticket-zone .btn-noir::before,[dir=rtl] .btn-hero::before,[dir=rtl] .lead-final .btn-noir::before{transform:scaleX(-1)}
-/* ===ANIMATIONS=== */
-:root{--ease-out:cubic-bezier(0.23,1,0.32,1);--ease-drawer:cubic-bezier(0.32,0.72,0,1)}
-/* ---- structure sans mouvement : les trois traits du menu (memes positions qu'avant) ---- */
-.nav .menu{position:relative}
-.nav .menu span{background:none;box-shadow:none;position:relative}
-.nav .menu::before,.nav .menu span::before,.nav .menu span::after{content:"";position:absolute;width:16px;height:2px;background:var(--encre)}
-.nav .menu::before{left:11px;top:18px}
-.nav .menu span::before{left:0;top:-5px}
-.nav .menu span::after{left:0;top:5px}
-.nav .menu[aria-expanded="true"]::before{opacity:0}
-.nav .menu[aria-expanded="true"] span::before{transform:translateY(5px) rotate(45deg)}
-.nav .menu[aria-expanded="true"] span::after{transform:translateY(-5px) rotate(-45deg)}
-/* ---- galerie du chalet ---- */
-.anim-zoom{cursor:zoom-in}
-.anim-carte-lien{cursor:pointer}
-html.anim-vis-on{overflow:hidden}
-.anim-vis{position:fixed;inset:0;z-index:100;direction:ltr;touch-action:none;color:#fff;font-family:inherit}
-.anim-vis[hidden]{display:none}
-.anim-vis-fond{position:absolute;inset:0;background:rgba(14,13,16,.97)}
-.anim-vis-piste{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
-.anim-vis-s{position:absolute;inset:0;display:grid;place-items:center;will-change:transform}
-.anim-vis-s img{display:block;max-width:none;user-select:none;-webkit-user-drag:none;pointer-events:none}
-.anim-vis button{position:absolute;display:grid;place-items:center;width:48px;height:48px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;cursor:pointer;padding:0}
-.anim-vis button svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.anim-vis-x{top:max(12px,env(safe-area-inset-top));right:12px}
-.anim-vis-g,.anim-vis-d{top:50%;margin-top:-24px;display:none!important}
-.anim-vis-g{left:16px}.anim-vis-d{right:16px}
-@media (hover:hover) and (pointer:fine){.anim-vis-g,.anim-vis-d{display:grid!important}}
-.anim-vis button[aria-disabled="true"]{opacity:.25;cursor:default}
-.anim-vis-cpt{position:absolute;left:0;right:0;bottom:max(18px,env(safe-area-inset-bottom));text-align:center;font-size:15px;font-weight:600;letter-spacing:.04em;pointer-events:none}
-/* ---- etapes de l'accueil : le trait qui relie (visible par defaut) ---- */
-#how.etapes ol li{position:relative}
-#how.etapes ol li:not(:last-child)::after{content:"";position:absolute;pointer-events:none;inset-inline-start:50%;top:calc(100% + 6px);height:28px;border-inline-start:2px dashed rgba(28,27,31,.3);transform-origin:50% 0}
-@media (min-width:900px){
-  #how.etapes ol li:not(:last-child)::after{inset-inline-start:calc(50% + 83px);top:75px;height:0;width:calc(100% - 126px);border-inline-start:0;border-top:2px dashed rgba(28,27,31,.3);transform-origin:0 50%}
-  [dir=rtl] #how.etapes ol li:not(:last-child)::after{transform-origin:100% 50%}
-}
-/* ---- flocons ---- */
-.anim-neige{position:absolute;inset:0;z-index:1;overflow:hidden;pointer-events:none}
-.anim-neige i{position:absolute;top:0;left:var(--x);width:var(--s);height:var(--s);margin-top:calc(var(--s) * -2);border-radius:50%;background:#fff;opacity:0}
-/* ---- en-tete colle en haut sur telephone, le menu reste a portee (Moshe 19/10) ---- */
-@media (max-width:899.98px){
-  .nav{position:sticky;top:0}
-  html.strip-vis .nav{top:var(--strip-h,0px)}
-  html.strip-vis .panneau{top:calc(var(--strip-h,0px) + 60px)}
-  body:has(#formDemande) .nav{position:relative;top:0}
-}
-/* ---- bouton Plan your trip flottant, a gauche du WhatsApp (Moshe 19/10) ---- */
-.pyt-flottant{position:fixed;left:16px;bottom:16px;z-index:30;display:inline-flex;align-items:center;min-height:50px;max-width:calc(100% - 110px);padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-size:15px;font-weight:600;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:0 6px 20px rgba(0,0,0,.22)}
-body:has(#formDemande) .pyt-flottant,body:has(.nav .menu[aria-expanded="true"]) :is(.pyt-flottant,.wa-flottant){display:none}
-
-@media (prefers-reduced-motion: no-preference){
-  /* 1. retour au toucher */
-  :where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa,.lead-wp,a.hub-carte,a.carte,summary):not(.demande *){transition:transform 160ms var(--ease-out)}
-  @media (hover:none){:where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa):not(.demande *):active{transform:scale(.97)}}@media (hover:hover){:where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa,.lead-wp,a.hub-carte,a.carte,summary):not(.demande *):active{transform:scale(.97)}}
-  /* 2. galerie */
-  .anim-vis-fond,.anim-vis-cpt,.anim-vis button{will-change:opacity}
-  /* 3. accordeons */
-  details:not(.langue){interpolate-size:allow-keywords}
-  details:not(.langue)::details-content{block-size:0;opacity:0;overflow:clip;transition:block-size 250ms var(--ease-out),opacity 250ms var(--ease-out),content-visibility 250ms allow-discrete}
-  details[open]:not(.langue)::details-content{block-size:auto;opacity:1}
-  .pied summary::after,.faq summary::after{transition:transform 200ms var(--ease-out)}
-  .faq details[open] summary::after{transform:rotate(180deg)}
-  @media (min-width:900px){.pied details::details-content{transition:none}}
-  /* 4. menu */
-  .nav .menu::before{transition:opacity 200ms var(--ease-out)}
-  .nav .menu span::before,.nav .menu span::after{transition:transform 200ms var(--ease-out)}
-  @media (max-width:899.98px){
-    .panneau[hidden]{display:block;visibility:hidden;transform:translateX(100%);transition:transform 250ms var(--ease-drawer),visibility 0s linear 250ms}
-    [dir=rtl] .panneau[hidden]{transform:translateX(-100%)}
-    .panneau:not([hidden]){transform:none;transition:transform 250ms var(--ease-drawer)}
-  }
-  /* 5. selecteur de langue */
-  .langue[open] ul{transform-origin:top right;animation:anim-langue 150ms var(--ease-out) both}
-  [dir=rtl] .langue[open] ul{transform-origin:top left}
-  @keyframes anim-langue{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
-  /* 6. bouton WhatsApp flottant */
-  html.wa-cache :is(.wa-flottant,.pyt-flottant){opacity:0;transform:translateY(24px);visibility:hidden;pointer-events:none;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s linear 300ms}
-  html.wa-cache.wa-vu :is(.wa-flottant,.pyt-flottant){opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s}
-  html.wa-cache.wa-vu :is(.wa-flottant,.pyt-flottant):active{transform:scale(.97);transition-duration:160ms}
-  /* 9. trait des etapes */
-  html.anim-js #how.etapes ol li:not(:last-child)::after{transform:scaleY(0);transition:transform 600ms var(--ease-out)}
-  html.anim-js #how.etapes.trait-vu ol li:not(:last-child)::after{transform:none}
-  html.anim-js #how.etapes ol li:nth-child(2)::after{transition-delay:150ms}
-  @media (min-width:900px){
-    html.anim-js #how.etapes ol li:not(:last-child)::after{transform:scaleX(0)}
-    html.anim-js #how.etapes.trait-vu ol li:not(:last-child)::after{transform:none}
-  }
-  /* 10. flocons */
-  .anim-neige i{animation:anim-flocon var(--t) linear var(--d) infinite}
-  @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
-}
-/* ===/ANIMATIONS=== */
-/* ===MANIFESTE=== */
+[dir=rtl] #chercheur button[type=submit]::before,[dir=rtl] .ticket-zone .btn-noir::before,[dir=rtl] .btn-hero::before,[dir=rtl] .lead-final .btn-noir::before{transform:scaleX(-1)}/* ===MANIFESTE=== */
 body.kwp-hiver .lead-intro>div>p.dk-intro,body.kwp-hiver .lead-intro>div>p:not(.mf-phrase):not([class*=mf]),body.kwp-hiver .lead-intro>div>.dk-plus-lead{display:none}
 body.kwp-hiver .lead-intro>div>.mf+p,body.kwp-hiver .lead-intro>div>.mf~.dk-plus{display:none}
 .mf{display:grid;gap:28px}
@@ -1514,8 +1420,7 @@ body.kwp-hiver .dk-suite>li>.dk-vigico,body .dk-suite>li>.dk-vigico{width:36px!i
 body.kwp-hiver .dk-suite>li>a,body .dk-suite>li>a{flex:1;display:flex;align-items:center;min-height:44px;font-size:15px;line-height:1.35}
 body .dk-suite>li>a::after{content:"";position:absolute;inset:0}
 }
-/* ===/MOBILE-ALPES=== */
-/* ===KIT-WP=== */
+/* ===/MOBILE-ALPES=== *//* ===KIT-WP=== */
 .kwp-cartes{display:grid;gap:24px;margin-top:24px}
 .kwp-diapo{margin-top:40px}
 .kwp-diapo-cadre{position:relative;aspect-ratio:3/2;border-radius:15px;overflow:hidden;background:#ddd}
@@ -1658,3 +1563,96 @@ html[data-vt=mishpacha]::view-transition{background:#2D5132}
 .nav{view-transition-name:mt-nav}
 @media (prefers-reduced-motion:reduce){@view-transition{navigation:none}}
 /* ===/KIT-WP=== */
+/* ===ANIMATIONS=== */
+:root{--ease-out:cubic-bezier(0.23,1,0.32,1);--ease-drawer:cubic-bezier(0.32,0.72,0,1)}
+/* ---- structure sans mouvement : les trois traits du menu (memes positions qu'avant) ---- */
+.nav .menu{position:relative}
+.nav .menu span{background:none;box-shadow:none;position:relative}
+.nav .menu::before,.nav .menu span::before,.nav .menu span::after{content:"";position:absolute;width:16px;height:2px;background:var(--encre)}
+.nav .menu::before{left:11px;top:18px}
+.nav .menu span::before{left:0;top:-5px}
+.nav .menu span::after{left:0;top:5px}
+.nav .menu[aria-expanded="true"]::before{opacity:0}
+.nav .menu[aria-expanded="true"] span::before{transform:translateY(5px) rotate(45deg)}
+.nav .menu[aria-expanded="true"] span::after{transform:translateY(-5px) rotate(-45deg)}
+/* ---- galerie du chalet ---- */
+.anim-zoom{cursor:zoom-in}
+.anim-carte-lien{cursor:pointer}
+html.anim-vis-on{overflow:hidden}
+.anim-vis{position:fixed;inset:0;z-index:100;direction:ltr;touch-action:none;color:#fff;font-family:inherit}
+.anim-vis[hidden]{display:none}
+.anim-vis-fond{position:absolute;inset:0;background:rgba(14,13,16,.97)}
+.anim-vis-piste{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
+.anim-vis-s{position:absolute;inset:0;display:grid;place-items:center;will-change:transform}
+.anim-vis-s img{display:block;max-width:none;user-select:none;-webkit-user-drag:none;pointer-events:none}
+.anim-vis button{position:absolute;display:grid;place-items:center;width:48px;height:48px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;cursor:pointer;padding:0}
+.anim-vis button svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.anim-vis-x{top:max(12px,env(safe-area-inset-top));right:12px}
+.anim-vis-g,.anim-vis-d{top:50%;margin-top:-24px;display:none!important}
+.anim-vis-g{left:16px}.anim-vis-d{right:16px}
+@media (hover:hover) and (pointer:fine){.anim-vis-g,.anim-vis-d{display:grid!important}}
+.anim-vis button[aria-disabled="true"]{opacity:.25;cursor:default}
+.anim-vis-cpt{position:absolute;left:0;right:0;bottom:max(18px,env(safe-area-inset-bottom));text-align:center;font-size:15px;font-weight:600;letter-spacing:.04em;pointer-events:none}
+/* ---- etapes de l'accueil : le trait qui relie (visible par defaut) ---- */
+#how.etapes ol li{position:relative}
+#how.etapes ol li:not(:last-child)::after{content:"";position:absolute;pointer-events:none;inset-inline-start:50%;top:calc(100% + 6px);height:28px;border-inline-start:2px dashed rgba(28,27,31,.3);transform-origin:50% 0}
+@media (min-width:900px){
+  #how.etapes ol li:not(:last-child)::after{inset-inline-start:calc(50% + 83px);top:75px;height:0;width:calc(100% - 126px);border-inline-start:0;border-top:2px dashed rgba(28,27,31,.3);transform-origin:0 50%}
+  [dir=rtl] #how.etapes ol li:not(:last-child)::after{transform-origin:100% 50%}
+}
+/* ---- flocons ---- */
+.anim-neige{position:absolute;inset:0;z-index:1;overflow:hidden;pointer-events:none}
+.anim-neige i{position:absolute;top:0;left:var(--x);width:var(--s);height:var(--s);margin-top:calc(var(--s) * -2);border-radius:50%;background:#fff;opacity:0}
+/* ---- en-tete colle en haut sur telephone, le menu reste a portee (Moshe 19/10) ---- */
+@media (max-width:899.98px){
+  .nav{position:sticky;top:0}
+  html.strip-vis .nav{top:var(--strip-h,0px)}
+  html.strip-vis .panneau{top:calc(var(--strip-h,0px) + 60px)}
+  body:has(#formDemande) .nav{position:relative;top:0}
+}
+/* ---- bouton Plan your trip flottant, a gauche du WhatsApp (Moshe 19/10) ---- */
+.pyt-flottant{position:fixed;left:16px;bottom:16px;z-index:30;display:inline-flex;align-items:center;min-height:50px;max-width:calc(100% - 110px);padding:0 22px;border-radius:999px;background:var(--jaune);color:var(--encre);font-size:15px;font-weight:600;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-shadow:0 6px 20px rgba(0,0,0,.22)}
+body:has(#formDemande) .pyt-flottant,body:has(.nav .menu[aria-expanded="true"]) :is(.pyt-flottant,.wa-flottant){display:none}
+
+@media (prefers-reduced-motion: no-preference){
+  /* 1. retour au toucher */
+  :where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa,.lead-wp,a.hub-carte,a.carte,summary):not(.demande *){transition:transform 160ms var(--ease-out)}
+  @media (hover:none){:where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa):not(.demande *):active{transform:scale(.97)}}@media (hover:hover){:where(button,.btn-noir,.btn-hero,.wa-flottant,.panneau-wa,.lead-wp,a.hub-carte,a.carte,summary):not(.demande *):active{transform:scale(.97)}}
+  /* 2. galerie */
+  .anim-vis-fond,.anim-vis-cpt,.anim-vis button{will-change:opacity}
+  /* 3. accordeons */
+  details:not(.langue){interpolate-size:allow-keywords}
+  details:not(.langue)::details-content{block-size:0;opacity:0;overflow:clip;transition:block-size 250ms var(--ease-out),opacity 250ms var(--ease-out),content-visibility 250ms allow-discrete}
+  details[open]:not(.langue)::details-content{block-size:auto;opacity:1}
+  .pied summary::after,.faq summary::after{transition:transform 200ms var(--ease-out)}
+  .faq details[open] summary::after{transform:rotate(180deg)}
+  @media (min-width:900px){.pied details::details-content{transition:none}}
+  /* 4. menu */
+  .nav .menu::before{transition:opacity 200ms var(--ease-out)}
+  .nav .menu span::before,.nav .menu span::after{transition:transform 200ms var(--ease-out)}
+  @media (max-width:899.98px){
+    .panneau[hidden]{display:block;visibility:hidden;transform:translateX(100%);transition:transform 250ms var(--ease-drawer),visibility 0s linear 250ms}
+    [dir=rtl] .panneau[hidden]{transform:translateX(-100%)}
+    .panneau:not([hidden]){transform:none;transition:transform 250ms var(--ease-drawer)}
+  }
+  /* 5. selecteur de langue */
+  .langue[open] ul{transform-origin:top right;animation:anim-langue 150ms var(--ease-out) both}
+  [dir=rtl] .langue[open] ul{transform-origin:top left}
+  @keyframes anim-langue{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+  /* 6. bouton WhatsApp flottant */
+  html.wa-cache :is(.wa-flottant,.pyt-flottant){opacity:0;transform:translateY(24px);visibility:hidden;pointer-events:none;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s linear 300ms}
+  html.wa-cache.wa-vu :is(.wa-flottant,.pyt-flottant){opacity:1;transform:none;visibility:visible;pointer-events:auto;transition:opacity 300ms var(--ease-out),transform 300ms var(--ease-out),visibility 0s}
+  html.wa-cache.wa-vu :is(.wa-flottant,.pyt-flottant):active{transform:scale(.97);transition-duration:160ms}
+  /* 9. trait des etapes */
+  html.anim-js #how.etapes ol li:not(:last-child)::after{transform:scaleY(0);transition:transform 600ms var(--ease-out)}
+  html.anim-js #how.etapes.trait-vu ol li:not(:last-child)::after{transform:none}
+  html.anim-js #how.etapes ol li:nth-child(2)::after{transition-delay:150ms}
+  @media (min-width:900px){
+    html.anim-js #how.etapes ol li:not(:last-child)::after{transform:scaleX(0)}
+    html.anim-js #how.etapes.trait-vu ol li:not(:last-child)::after{transform:none}
+  }
+  /* 10. flocons */
+  .anim-neige i{animation:anim-flocon var(--t) linear var(--d) infinite}
+  @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
+}
+/* ===/ANIMATIONS=== */

@@ -7,7 +7,7 @@ import glob, io, os, re
 
 LANGS = ("fr", "es", "he")
 ALPES = {"alps", "kosher-alpe-dhuez", "kosher-annecy", "kosher-chalet-les-deux-alpes", "kosher-chamonix", "kosher-courchevel",
-         "kosher-grenoble", "kosher-chalets", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
+         "kosher-grenoble", "kosher-chalets", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
          "kosher-ski-holidays-french-alps", "kosher-vacation-french-alps", "kosher-val-disere", "kosher-val-thorens",
          "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana", "kosher-cervinia", "kosher-courmayeur", "kosher-cortina",
          "lyon-gateway-to-the-alps-kosher", "summer-in-the-alps-jewish-families", "flights-to-lyon"}
@@ -47,11 +47,11 @@ ENTREES = {"en": ("Winter", "Summer", "Jewish Lyon", "Plan your trip"),
 WA_HE = "דברו איתנו בוואטסאפ"
 # Entrée « Chalets » (19/10, audit du parcours chalet) : 2e entrée, juste après l'hiver. Sur ordinateur, un aperçu des deux chalets
 # s'ouvre au survol ou au clavier ; dans le panneau mobile, les deux vignettes restent visibles sous l'entrée.
-CHALETS = {"en": ("Chalets", "See the three chalets", (("Les Deux Alpes", "6 + 1 bedrooms · 2 min from the slopes"), ("Les Deux Alpes · Slope Chalet", "6 bedrooms · skis on at the door"), ("Courchevel", "5 suites · heated pools"))),
-           "fr": ("Chalets", "Voir les trois chalets", (("Les Deux Alpes", "6 + 1 chambres · à 2 min des pistes"), ("Les Deux Alpes · chalet des pistes", "6 chambres · skis aux pieds"), ("Courchevel", "5 suites · piscines chauffées"))),
-           "es": ("Chalets", "Ver los tres chalets", (("Les Deux Alpes", "6 + 1 habitaciones · a 2 min de las pistas"), ("Les Deux Alpes · chalet de las pistas", "6 habitaciones · esquís puestos en la puerta"), ("Courchevel", "5 suites · piscinas climatizadas"))),
-           "he": ("צ'אלות", "לראות את שלוש הצ'אלות", (("לה דז אלפ", "6 + 1 חדרים · 2 דק' מהמסלולים"), ("לה דז אלפ · צ'אלה המסלולים", "6 חדרים · מגלשיים בדלת"), ("קורשבל", "5 סוויטות · בריכות מחוממות")))}
-CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/wp-ext-bleu.jpg"), ("kosher-slope-chalet-les-deux-alpes", "/img/chalet/slope-facade.jpg"), ("kosher-chalet-courchevel", "/img/chalet/courchevel-ext.jpg"))
+CHALETS = {"en": ("Chalets", "See the four chalets", (("Les Deux Alpes", "6 + 1 bedrooms · 2 min from the slopes"), ("Les Deux Alpes · Slope Chalet", "6 bedrooms · skis on at the door"), ("Courchevel", "5 suites · heated pools"), ("Near Megève", "10 twin bedrooms · Mont Blanc"))),
+           "fr": ("Chalets", "Voir les quatre chalets", (("Les Deux Alpes", "6 + 1 chambres · à 2 min des pistes"), ("Les Deux Alpes · chalet des pistes", "6 chambres · skis aux pieds"), ("Courchevel", "5 suites · piscines chauffées"), ("Près de Megève", "10 chambres twin · Mont Blanc"))),
+           "es": ("Chalets", "Ver los cuatro chalets", (("Les Deux Alpes", "6 + 1 habitaciones · a 2 min de las pistas"), ("Les Deux Alpes · chalet de las pistas", "6 habitaciones · esquís puestos en la puerta"), ("Courchevel", "5 suites · piscinas climatizadas"), ("Cerca de Megève", "10 habitaciones twin · Mont Blanc"))),
+           "he": ("צ'אלות", "לראות את ארבע הצ'אלות", (("לה דז אלפ", "6 + 1 חדרים · 2 דק' מהמסלולים"), ("לה דז אלפ · צ'אלה המסלולים", "6 חדרים · מגלשיים בדלת"), ("קורשבל", "5 סוויטות · בריכות מחוממות"), ("ליד מז'ב", "10 חדרי טווין · מון בלאן")))}
+CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/wp-ext-bleu.jpg"), ("kosher-slope-chalet-les-deux-alpes", "/img/chalet/slope-facade.jpg"), ("kosher-chalet-courchevel", "/img/chalet/courchevel-ext.jpg"), ("kosher-chalet-megeve", "/img/chalet/megeve-n0-apt-sejour.jpg"))
 
 def chalets_html(lang, pre):
     lib, tous, items = CHALETS[lang]
