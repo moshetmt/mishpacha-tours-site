@@ -201,9 +201,9 @@ GALERIE_SL = [("slope-facade", dict(en="The chalet under snow, fifty metres from
               ("slope-salon-canape", dict(en="The living room, open on the snow", fr="Le salon, ouvert sur la neige", es="El salón, abierto a la nieve", he="הסלון, פתוח אל השלג")),
               ("slope-sejour-table", dict(en="The dining table and the kitchen", fr="La table et la cuisine", es="La mesa y la cocina", he="שולחן האוכל והמטבח")),
               ("slope-chambre-double", dict(en="One of the double bedrooms", fr="L'une des chambres doubles", es="Una de las habitaciones dobles", he="אחד מחדרי השינה הזוגיים")),
-              ("slope-chambre-twin", dict(en="The twin bedroom", fr="La chambre à deux lits", es="La habitación con dos camas", he="חדר השינה עם שתי מיטות")),
-              ("slope-chambre-trois-lits", dict(en="The bedroom with three single beds", fr="La chambre à trois lits", es="La habitación con tres camas", he="חדר השינה עם שלוש מיטות")),
-              ("slope-chambre-enfants", dict(en="The kids' room under the roof", fr="La chambre des enfants sous le toit", es="La habitación de los niños bajo el tejado", he="חדר הילדים בעליית הגג")),
+              ("slope-chambre-double-2", dict(en="A second double bedroom", fr="Une deuxième chambre double", es="Una segunda habitación doble", he="חדר שינה זוגי נוסף")),
+              ("slope-chambre-double-3", dict(en="Double bedroom, garden side", fr="Chambre double, côté jardin", es="Habitación doble, lado jardín", he="חדר שינה זוגי, לצד הגינה")),
+              ("slope-chambre-sous-toit", dict(en="The bedroom under the roof", fr="La chambre sous le toit", es="La habitación bajo el tejado", he="חדר השינה בעליית הגג")),
               ("slope-salon-baie", dict(en="The living room and its bay window", fr="Le salon et sa baie vitrée", es="El salón y su ventanal", he="הסלון וחלון הראווה")),
               ("slope-sdb-baignoire", dict(en="The bathroom with a tub", fr="La salle de bain avec baignoire", es="El baño con bañera", he="חדר הרחצה עם אמבטיה"))]
 
