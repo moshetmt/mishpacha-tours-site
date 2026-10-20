@@ -6,7 +6,7 @@
    Marqueur {{SIREN}} : à remplacer ici (SIREN) et dans _pages/legal.py, puis relancer ce script."""
 import re, os, io, json, html, importlib.util
 ICI = os.path.dirname(os.path.abspath(__file__)); os.chdir(ICI)
-SIREN = "{{SIREN}}"
+SIREN = "518 338 413"
 def charge(n):
     sp = importlib.util.spec_from_file_location(n, f"_pages/{n}.py"); m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m); return m.PAGE
 EN_P, EN_L = charge("privacy"), charge("legal")
@@ -67,13 +67,13 @@ FR_L = dict(
   sections=[
     dict(h2="Qui <i>édite</i> ce site", icos=["badge-check", "users", "file-text", "map-pin", "scroll-text", "info"], html=f"""<ul>
 <li><b>Nom commercial :</b> Mishpacha Tours</li>
-<li><b>Exploitée par :</b> Elisabeth Timsit, guide-conférencière</li>
+<li><b>Exploitée par :</b> Elisabeth Eauclaire, guide-conférencière</li>
 <li><b>SIREN :</b> {SIREN}</li>
 <li><b>Adresse :</b> Lyon, France</li>
 <li><b>Forme juridique :</b> entreprise individuelle, sans capital social</li>
 <li><b>TVA :</b> non applicable, article 293 B du Code général des impôts</li>
 </ul>"""),
-    dict(h2="Directrice de la <i>publication</i>", ico="users", html="""<p>Elisabeth Timsit.</p>"""),
+    dict(h2="Directrice de la <i>publication</i>", ico="users", html="""<p>Elisabeth Eauclaire.</p>"""),
     dict(h2="Nous <i>joindre</i>", ico="message-circle", html=f"""<p>Par le <a href="/fr/plan-your-trip/">formulaire de demande</a> ou par e-mail à {MAIL}.</p>"""),
     dict(h2="<i>Hébergement</i>", ico="house", html="""<p>Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.</p>"""),
     dict(h2="<i>Contenu</i> du site", ico="book-open", html="""<p>Les textes et la mise en page de ce site appartiennent à Mishpacha Tours. Les crédits des photographies figurent sur la page <a href="/fr/credits/">Crédits photo</a>.</p>"""),
@@ -87,13 +87,13 @@ ES_L = dict(
   sections=[
     dict(h2="Quién <i>edita</i> este sitio", icos=["badge-check", "users", "file-text", "map-pin", "scroll-text", "info"], html=f"""<ul>
 <li><b>Nombre comercial:</b> Mishpacha Tours</li>
-<li><b>Explotada por:</b> Elisabeth Timsit, guía-conferenciante</li>
+<li><b>Explotada por:</b> Elisabeth Eauclaire, guía-conferenciante</li>
 <li><b>SIREN:</b> {SIREN}</li>
 <li><b>Dirección:</b> Lyon, Francia</li>
 <li><b>Forma jurídica:</b> empresa individual, sin capital social</li>
 <li><b>IVA:</b> no aplicable, artículo 293 B del Código General Tributario francés</li>
 </ul>"""),
-    dict(h2="Directora de la <i>publicación</i>", ico="users", html="""<p>Elisabeth Timsit.</p>"""),
+    dict(h2="Directora de la <i>publicación</i>", ico="users", html="""<p>Elisabeth Eauclaire.</p>"""),
     dict(h2="Cómo <i>contactarnos</i>", ico="message-circle", html=f"""<p>Mediante el <a href="/es/plan-your-trip/">formulario de solicitud</a> o por correo electrónico a {MAIL}.</p>"""),
     dict(h2="<i>Alojamiento</i>", ico="house", html="""<p>Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, Estados Unidos.</p>"""),
     dict(h2="<i>Contenido</i> del sitio", ico="book-open", html="""<p>Los textos y el diseño de este sitio pertenecen a Mishpacha Tours. Los créditos de las fotografías figuran en la página de <a href="/es/credits/">créditos fotográficos</a>.</p>"""),
@@ -107,13 +107,13 @@ HE_L = dict(
   sections=[
     dict(h2="מי <i>מפעיל</i> את האתר", icos=["badge-check", "users", "file-text", "map-pin", "scroll-text", "info"], html=f"""<ul>
 <li><b>שם העסק:</b> Mishpacha Tours</li>
-<li><b>מנוהל על ידי:</b> Elisabeth Timsit, מדריכה מוסמכת (guide-conférencière)</li>
+<li><b>מנוהל על ידי:</b> Elisabeth Eauclaire, מדריכה מוסמכת (guide-conférencière)</li>
 <li><b>SIREN:</b> <span dir="ltr">{SIREN}</span></li>
 <li><b>כתובת:</b> ליון, צרפת</li>
 <li><b>צורת התאגדות:</b> עוסק יחיד (entreprise individuelle), ללא הון מניות</li>
 <li><b>מע״מ:</b> לא חל, סעיף 293 B בקוד המסים הכללי הצרפתי</li>
 </ul>"""),
-    dict(h2="העורכת <i>האחראית</i>", ico="users", html="""<p>Elisabeth Timsit.</p>"""),
+    dict(h2="העורכת <i>האחראית</i>", ico="users", html="""<p>Elisabeth Eauclaire.</p>"""),
     dict(h2="איך <i>יוצרים קשר</i>", ico="message-circle", html=f"""<p>דרך <a href="/he/plan-your-trip/">טופס הבקשה</a> או בדוא״ל אל {MAIL}.</p>"""),
     dict(h2="<i>אחסון</i>", ico="house", html="""<p>Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, ארצות הברית.</p>"""),
     dict(h2="<i>תוכן</i> האתר", ico="book-open", html="""<p>הטקסטים והעיצוב של האתר שייכים ל-Mishpacha Tours. קרדיטים לתמונות מופיעים בעמוד <a href="/he/credits/">קרדיטים לתמונות</a>.</p>"""),
