@@ -14,7 +14,7 @@ os.chdir(ICI)
 sys.path.insert(0, ICI)
 from _zones import zone, LANGS
 
-EXCLUS = {"jewish-lyon-guide", "legal"}
+EXCLUS = {"legal"}
 NUM = "33652092301"
 DEB, FIN = "<!-- OFFRES-LYON -->", "<!-- /OFFRES-LYON -->"
 CSS_DEB, CSS_FIN = "/* OFFRES-LYON */", "/* /OFFRES-LYON */"
