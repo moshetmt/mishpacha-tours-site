@@ -152,10 +152,10 @@ FLOCONS = '<span class="dm-neige" aria-hidden="true">' + "".join(f'<i style="--x
 
 # 20/10 (C4, option A) : accord explicite, art. 9 RGPD (allergies = sante, minyan = pratique religieuse). Case obligatoire sous le bouton d'envoi.
 ACCORD = {
-    "en": ("I agree that my answers (including allergies and religious observance) may be passed to the team in the Alps to prepare my quote.", "Privacy policy", "/privacy/"),
-    "fr": ("J'accepte que mes réponses (dont allergies et pratique religieuse) soient transmises à l'équipe des Alpes pour préparer mon devis.", "Politique de confidentialité", "/fr/privacy/"),
-    "es": ("Acepto que mis respuestas (incluidas las alergias y la práctica religiosa) se transmitan al equipo de los Alpes para preparar mi presupuesto.", "Política de privacidad", "/es/privacy/"),
-    "he": ("אני מסכים/ה שתשובותיי (כולל אלרגיות ושמירת מצוות) יועברו לצוות באלפים לצורך הכנת הצעת המחיר שלי.", "מדיניות הפרטיות", "/he/privacy/"),
+    "en": ("I agree that my answers (including allergies and religious observance) may be passed to the team in the Alps to prepare my quote.", "Privacy policy", "/privacy/", "Please tick this box so we can send your quote."),
+    "fr": ("J'accepte que mes réponses (dont allergies et pratique religieuse) soient transmises à l'équipe des Alpes pour préparer mon devis.", "Politique de confidentialité", "/fr/privacy/", "Cochez cette case pour que nous puissions vous envoyer votre devis."),
+    "es": ("Acepto que mis respuestas (incluidas las alergias y la práctica religiosa) se transmitan al equipo de los Alpes para preparar mi presupuesto.", "Política de privacidad", "/es/privacy/", "Marque esta casilla para que podamos enviarle su presupuesto."),
+    "he": ("אני מסכים/ה שתשובותיי (כולל אלרגיות ושמירת מצוות) יועברו לצוות באלפים לצורך הכנת הצעת המחיר שלי.", "מדיניות הפרטיות", "/he/privacy/", "סמנו את התיבה כדי שנוכל לשלוח לכם את הצעת המחיר."),
 }
 
 def formulaire(lang):
@@ -344,11 +344,13 @@ def formulaire(lang):
     prog = (f'<div class="dm-prog" id="dm-prog" hidden><div class="dm-prog-txt" id="dm-prog-txt" aria-live="polite"></div>'
             f'<div class="dm-piste" id="dm-piste"><span class="dm-hp" aria-hidden="true"><img src="{IMG}picto-hassid-vert.svg" alt="" width="24" height="34"></span>'
             f'<div class="dm-barre" id="dm-barre-c" role="progressbar" aria-label="{E("Progress")}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="dm-barre"></i></div></div></div>')
-    nav = (f'<div class="dm-nav"><button type="button" class="dm-retour" id="dm-back" hidden>{E("Back")}</button>'
+    # 21/10 (Moshe) : la case d'accord vient AVANT les boutons, et le bouton reste cliquable : ce qui manque passe en rouge.
+    nav = (f'<p class="dm-accord" id="dm-accord" hidden><label><input type="checkbox" id="dm-accord-cb" name="accord" required> '
+           f'<span>{esc(ACCORD[lang][0])} <a href="{ACCORD[lang][2]}" target="_blank" rel="noopener">{esc(ACCORD[lang][1])}</a></span></label>'
+           f'<small class="dm-erreur" id="dm-accord-err" role="alert" hidden>{esc(ACCORD[lang][3])}</small></p>'
+           f'<div class="dm-nav"><button type="button" class="dm-retour" id="dm-back" hidden>{E("Back")}</button>'
            f'<button type="button" class="btn-noir" id="dm-next" hidden>{E("Next")}</button>'
            f'<button type="submit" class="btn-noir" id="dm-send">{esc(JSX[lang]["envoyer"])}</button></div>'
-           f'<p class="dm-accord" id="dm-accord" hidden><label><input type="checkbox" id="dm-accord-cb" name="accord" required> '
-           f'<span>{esc(ACCORD[lang][0])} <a href="{ACCORD[lang][2]}" target="_blank" rel="noopener">{esc(ACCORD[lang][1])}</a></span></label></p>'
            f'<p class="dm-petit" id="dm-petit"><small>{esc(JSX[lang]["petit"])}</small></p>')
     noscript = f'<noscript><p class="dm-noscript">{E("This form needs JavaScript. Write to us on WhatsApp instead.")} <a href="{wa}" rel="noopener">WhatsApp</a></p></noscript>'
     piege = {"en": "Company", "fr": "Société", "es": "Empresa", "he": "חברה"}[lang]
@@ -365,7 +367,7 @@ var accord=document.getElementById('dm-accord'),accordCb=document.getElementById
 ctrls.forEach(function(e){e.scr=e.closest('.etape').getAttribute('data-e')});
 var etapes=[].slice.call(f.querySelectorAll('.etape'));
 var prog=document.getElementById('dm-prog'),barre=document.getElementById('dm-barre'),barreC=document.getElementById('dm-barre-c'),ptxt=document.getElementById('dm-prog-txt');
-var bBack=document.getElementById('dm-back'),bNext=document.getElementById('dm-next'),bSend=document.getElementById('dm-send'),petit=document.getElementById('dm-petit');
+var accordErr=document.getElementById('dm-accord-err');var bBack=document.getElementById('dm-back'),bNext=document.getElementById('dm-next'),bSend=document.getElementById('dm-send'),petit=document.getElementById('dm-petit');
 var cur='intention',ret='',lastPc=-1,sent=false;
 var dl=window.dataLayer=window.dataLayer||[];
 var piste=document.getElementById('dm-piste'),mx=document.getElementById('dm-max'),nuitsP=document.getElementById('dm-nuits'),dateErr=document.getElementById('dm-date-err');
@@ -446,7 +448,7 @@ function plis(){[].forEach.call(f.querySelectorAll('.dm-pli'),function(d){var n=
 function render(an){var p=sync();plis();if(p.indexOf(cur)<0)cur='intention';
  etapes.forEach(function(e){e.hidden=e.getAttribute('data-e')!==cur});
  var i=p.indexOf(cur),last=cur==='final',b=branch();f.classList.toggle('avance',cur!=='intention');
- bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;accord.hidden=!last;if(!sent)bSend.disabled=!accordCb.checked;var nn=cur==='sejour'?nights():null,bad=nn!==null&&nn<0;shabbats(nn);
+ bBack.hidden=i<=0;bNext.hidden=last;document.querySelector('.dm-nav').hidden=cur==='intention';bSend.hidden=!last;petit.hidden=!last;accord.hidden=!last;if(!sent)bSend.disabled=false;var nn=cur==='sejour'?nights():null,bad=nn!==null&&nn<0;shabbats(nn);
  nuitsP.hidden=!(nn!==null&&nn>=1);if(!nuitsP.hidden)nuitsP.textContent=nn===1?C.t.nuit:C.t.nuits.replace('{n}',nn);dateErr.hidden=!bad;
  bNext.disabled=(cur==='intention'&&!b)||bad;
  prog.hidden=p.length<2;ptxt.textContent=C.t.step.replace('{n}',i+1).replace('{t}',p.length);
@@ -477,6 +479,8 @@ f.addEventListener('click',function(ev){
  if(!plus&&v0===0)anim(bt.parentNode,'secoue');
  inp.dispatchEvent(new Event('input',{bubbles:true}))});
 function onchg(ev){var t=ev.target;
+ if(t===accordCb&&t.checked){accord.classList.remove('dm-manque');accordErr.hidden=true}
+ if(t.getAttribute&&t.getAttribute('aria-invalid')==='true'&&(t.value||'').trim())t.setAttribute('aria-invalid','false');
  if(t.name==='arrivee'&&t.type==='date'){[].forEach.call(f.querySelectorAll('input[name="depart"]'),function(x){x.min=t.value})}
  if(ev.type==='change'&&t.name==='priorites'){mx.hidden=true;
   if(t.checked&&els('priorites').filter(function(e){return e.checked}).length>3){t.checked=false;mx.hidden=false}}
@@ -488,10 +492,12 @@ f.addEventListener('change',onchg);f.addEventListener('input',onchg);
 window.addEventListener('popstate',function(ev){var id=ev.state&&ev.state.e;show(id||'intention',false,true)});
 f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  if(cur!=='final'){if(!bNext.disabled)next();return}
- if(!accordCb.checked){accordCb.focus();return}
  if(f.elements.societe&&f.elements.societe.value){location.href=C.merci;return}
  var pre=val('prenom'),nom=(pre+' '+val('nom')).trim(),tel=val('tel'),ind=val('indicatif');var err=document.getElementById('dm-erreur');
- if(!pre||!val('nom')||!tel||!ind){err.hidden=false;err.scrollIntoView({behavior:'smooth',block:'center'});return}
+ var manque=[];['prenom','nom','indicatif','tel'].forEach(function(n){var e=f.elements[n];if(!e)return;var vide=!(e.value||'').trim();e.setAttribute('aria-invalid',vide?'true':'false');if(vide)manque.push(e)});
+ accord.classList.toggle('dm-manque',!accordCb.checked);
+ if(manque.length||!accordCb.checked){err.hidden=!manque.length;accordErr.hidden=accordCb.checked;
+  var first=manque.length?manque[0]:accordCb;first.focus({preventScroll:true});first.scrollIntoView({behavior:'smooth',block:'center'});return}
  var parts=[];C.lab.forEach(function(kv){var v=val(kv[0]);if(v)parts.push(kv[1]+': '+v)});
  var partsEn=[];C.labEn.forEach(function(kv){var v=valEn(kv[0]);if(v)partsEn.push(kv[1]+': '+v)});
  var dates=[val('arrivee'),val('depart')].filter(Boolean).join(C.k.datesj);
@@ -505,7 +511,7 @@ f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  bSend.appendChild(im);bSend.appendChild(document.createTextNode(' '+C.t.sending));
  var fini=false,ok=function(){if(fini)return;fini=true;try{sessionStorage.removeItem(KEY)}catch(e){}
   dl.push({event:'generate_lead',branch:branch(),budget:val('budget_total')||val('budget')});location.href=C.merci},
- ko=function(){if(fini)return;fini=true;sent=false;bSend.disabled=!accordCb.checked;bSend.textContent=lab0;
+ ko=function(){if(fini)return;fini=true;sent=false;bSend.disabled=false;bSend.textContent=lab0;
   var T={fr:['Votre demande n’est pas partie. Envoyez-la-nous sur WhatsApp en un geste :','Envoyer sur WhatsApp'],es:['Su solicitud no se envió. Envíenosla por WhatsApp con un toque:','Enviar por WhatsApp'],he:['הבקשה לא נשלחה. שלחו לנו בוואטסאפ בלחיצה אחת:','שליחה בוואטסאפ'],en:['Your request did not go through. Send it to us on WhatsApp in one tap:','Send on WhatsApp']}[(document.documentElement.lang||'en').slice(0,2)]||null;
   T=T||['Your request did not go through. Send it to us on WhatsApp in one tap:','Send on WhatsApp'];
   var txt=(nom+' · '+dates+' · '+pers+'\n'+parts.join('\n')).slice(0,1800);
@@ -643,11 +649,17 @@ details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
 .dm-nav [hidden]{display:none!important}
 .demande form.js .dm-nav[hidden]{display:none}
 .dm-petit{max-width:760px;margin:80px auto 0;text-align:center;font-size:13px;opacity:.7}
-.dm-accord{max-width:760px;margin:16px auto 0;font-size:14px;line-height:1.5}
+.dm-accord{max-width:760px;margin:48px auto 0;font-size:14px;line-height:1.5}
 .dm-accord[hidden]{display:none}
 .dm-accord label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
 .dm-accord input{flex:none;width:22px;height:22px;margin:1px 0 0;accent-color:var(--encre)}
 .dm-accord a{text-decoration:underline;text-underline-offset:3px}
+.dm-accord:not([hidden])+.dm-nav{margin-top:22px}
+.dm-accord .dm-erreur{display:block;margin:8px 0 0;margin-inline-start:34px;text-align:start;font-size:13px}
+.dm-accord .dm-erreur[hidden]{display:none}
+.dm-accord.dm-manque span{color:var(--rouge)}
+.dm-accord.dm-manque input{outline:2px solid var(--rouge);outline-offset:2px;accent-color:var(--rouge)}
+.dm-champ [aria-invalid=true]{border-color:var(--rouge);box-shadow:0 0 0 3px rgba(223,66,37,.18)}
 .demande{padding-bottom:80px}
 .dm-note{font-size:14px;line-height:1.45;padding:12px 16px;border-radius:15px;background:var(--creme);border:1px solid rgba(28,27,31,.15)}
 .dm-nuits{font-weight:600;font-size:15px}
@@ -746,6 +758,7 @@ details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
   .dm-nav .btn-noir,.dm-retour{min-height:52px}
   .dm-nav .btn-noir{flex:1;padding:0 20px}
   .dm-petit{margin-top:16px}
+  .dm-accord{margin-top:22px}
   .etape > .dm-tete{margin-bottom:14px}
   .etape > .dm-tete h2{font-size:23px}
   body:has(#formDemande) .wa-flottant{display:none!important}

@@ -23,6 +23,8 @@ GEN = {  # pages van et villa (zone « general ») : message générique existan
 }
 GENERIQUES = {"kosher-van-transfers", "kosher-villa-saint-tropez"}
 NUM = "33652092301"
+BH = "33781823193"
+BH_HE = "%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D%20%D7%95%D7%A0%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA%20%D7%9B%D7%A9%D7%A8%D7%95%D7%AA%20%D7%91%D7%9E%D7%A9%D7%9C%D7%95%D7%97.%20%D7%90%D7%AA%D7%A8%3A%20%D7%90%D7%9C%D7%A4%20%D7%93%27%D7%95%D7%90%D7%96%20%2F%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%A0%D7%A9%D7%99%D7%9D%3A"  # bouton repas du Beth Habad, message hébreu (QA 21/10, F1)
 LYON = re.compile(r"tour of Lyon|visite juive privée de Lyon|visita judía privada (en|de) L|סיור יהודי פרטי בליון|עצירת הביניים|Stopover tour in Lyon")
 
 def traiter(path):
@@ -46,6 +48,8 @@ def traiter(path):
     # QA du 20/10 (C2) : sur une page hébraïque, un message WhatsApp sans aucune lettre hébraïque est un message
     # anglais oublié (stations Annecy, Cervinia, Chamonix… ) : il passe au message Alpes en hébreu.
     if lang == "he":
+        n = re.sub(r'(href="https://wa\.me/' + BH + r'\?text=)([^"]+)"',
+                   lambda m: m.group(0) if re.search(r"[֐-׿]", unquote(m.group(2))) else m.group(1) + BH_HE + '"', n)
         # QA du 20/10 (C2) : gabarits JavaScript des formulaires courts restés en anglais sur les pages hébraïques
         n = n.replace("`Hello, I would like to check availability for the ${f.tour.value} tour. Dates: ${f.dates.value||'/'} / Number of people: ${f.personnes.value||'/'} / Preferred language:`",
                       "`שלום, אשמח לבדוק זמינות לסיור ${f.tour.value}. תאריכים: ${f.dates.value||'/'} / מספר משתתפים: ${f.personnes.value||'/'} / שפה מועדפת:`")
