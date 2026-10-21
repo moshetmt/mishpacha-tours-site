@@ -132,7 +132,7 @@
     }
     var apres = /\/merci\/?$/.test(location.pathname); // bouton de la page merci : apres la demande, pas une conversion
     gtag('event', 'whatsapp_click', { page: location.pathname, lang: lang, link_location: apres ? 'merci' : emplacement(a),
-      transport_type: 'beacon' });
+      offre: (a && a.getAttribute && a.getAttribute('data-offre')) || undefined, transport_type: 'beacon' });
     if (AWOK && ADS.wa && !apres) gtag('event', 'conversion', { send_to: ADS.id + '/' + ADS.wa, transport_type: 'beacon' });
   }
   document.addEventListener('click', function (e) {

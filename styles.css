@@ -1661,3 +1661,25 @@ body:has(#formDemande) .pyt-flottant,body:has(.nav .menu[aria-expanded="true"]) 
   @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
 }
 /* ===/ANIMATIONS=== */
+/* OFFRES-LYON */
+.of-lyon{background:var(--beige);padding:56px 0 64px}
+.of-lyon h2{font-family:var(--titre);font-weight:300;max-width:20em;text-wrap:balance}
+.of-lyon h2 i{font-style:italic}
+.of-lyon .of-sous{margin-top:12px;font-size:17px;line-height:1.45;max-width:36em}
+.of-grille{display:grid;grid-auto-flow:column;grid-auto-columns:min(78%,300px);gap:14px;margin:28px calc(var(--pad) * -1) 0;padding:0 var(--pad) 6px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--pad);scrollbar-width:none}
+.of-grille::-webkit-scrollbar{display:none}
+.of-carte{display:flex;flex-direction:column;scroll-snap-align:start;background:var(--blanc);border-radius:15px;padding:20px 18px 18px}
+.of-ico{width:64px;height:64px;object-fit:contain;margin-bottom:14px}
+.of-carte h3{font-size:19px;line-height:1.25;font-weight:600;text-wrap:balance}
+.of-carte p{margin-top:8px;font-size:15px;line-height:1.45}
+.of-plus{margin-top:10px;font-size:14px;font-weight:500;color:var(--vert);text-decoration:underline;text-underline-offset:3px;align-self:flex-start}
+.of-plus::after{content:" \2192"}
+[dir=rtl] .of-plus::after{content:" \2190"}
+.of-btn{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:auto;min-height:48px;padding:0 10px;border-radius:999px;background:var(--jaune);color:#000;font-weight:600;font-size:14px;text-decoration:none;text-align:center}
+.of-carte > :nth-last-child(2){margin-bottom:18px}
+.of-btn svg{width:18px;height:18px;fill:currentColor;flex:none}
+.of-btn:hover{filter:brightness(.96)}
+@media (min-width:1100px){
+  .of-grille{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(5,1fr);gap:16px;margin-inline:0;padding-inline:0;overflow:visible;scroll-snap-type:none}
+}
+/* /OFFRES-LYON */
