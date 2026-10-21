@@ -931,11 +931,17 @@ details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
 .dm-nav [hidden]{display:none!important}
 .demande form.js .dm-nav[hidden]{display:none}
 .dm-petit{max-width:760px;margin:80px auto 0;text-align:center;font-size:13px;opacity:.7}
-.dm-accord{max-width:760px;margin:16px auto 0;font-size:14px;line-height:1.5}
+.dm-accord{max-width:760px;margin:48px auto 0;font-size:14px;line-height:1.5}
 .dm-accord[hidden]{display:none}
 .dm-accord label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
 .dm-accord input{flex:none;width:22px;height:22px;margin:1px 0 0;accent-color:var(--encre)}
 .dm-accord a{text-decoration:underline;text-underline-offset:3px}
+.dm-accord:not([hidden])+.dm-nav{margin-top:22px}
+.dm-accord .dm-erreur{display:block;margin:8px 0 0;margin-inline-start:34px;text-align:start;font-size:13px}
+.dm-accord .dm-erreur[hidden]{display:none}
+.dm-accord.dm-manque span{color:var(--rouge)}
+.dm-accord.dm-manque input{outline:2px solid var(--rouge);outline-offset:2px;accent-color:var(--rouge)}
+.dm-champ [aria-invalid=true]{border-color:var(--rouge);box-shadow:0 0 0 3px rgba(223,66,37,.18)}
 .demande{padding-bottom:80px}
 .dm-note{font-size:14px;line-height:1.45;padding:12px 16px;border-radius:15px;background:var(--creme);border:1px solid rgba(28,27,31,.15)}
 .dm-nuits{font-weight:600;font-size:15px}
@@ -1034,6 +1040,7 @@ details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
   .dm-nav .btn-noir,.dm-retour{min-height:52px}
   .dm-nav .btn-noir{flex:1;padding:0 20px}
   .dm-petit{margin-top:16px}
+  .dm-accord{margin-top:22px}
   .etape > .dm-tete{margin-bottom:14px}
   .etape > .dm-tete h2{font-size:23px}
   body:has(#formDemande) .wa-flottant{display:none!important}
