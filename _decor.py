@@ -174,7 +174,7 @@ def garanties(corps, n, noms=()):
 
 def plan(en, page_dir=""):
     """Depuis la page anglaise : pour chaque section texte, la liste des pictos par li, l'illustration du h2, le type."""
-    hero = (re.search(r'img/illus/([a-z-]+)\.png', en) or [None, ""])[1]
+    hero = (re.search(r'img/illus/(?:w/)?([a-z-]+)\.(?:png|webp)', en) or [None, ""])[1]
     P = []
     for m in SEC.finditer(en):
         h2, corps = txt(m.group(3)), m.group(4)
@@ -210,7 +210,8 @@ def vignette(href, page_dir):
     cible = os.path.normpath(os.path.join(page_dir, href.split("#")[0], "index.html"))
     try: t = strip(rd(cible))
     except OSError: t = ""
-    c = re.findall(r'img/((?:stock/|c-)[\w-]+\.jpe?g|illus/[a-z-]+\.png)', t.split("<main", 1)[-1]) or ["illus/flat-jewish-lyon.png"]
+    c = re.findall(r'img/((?:stock/|c-)[\w-]+\.jpe?g|illus/(?:w/)?[a-z-]+\.(?:png|webp))', t.split("<main", 1)[-1]) or ["illus/flat-jewish-lyon.png"]
+    c = [re.sub(r"^illus/w/([a-z-]+)\.webp$", r"illus/\1.png", x) for x in c]   # 21/10 : _images_legeres.py pointe les illustrations sur illus/w/*.webp, les originaux PNG restent la source
     photos = []  # les photos des pages ne collent pas toujours au sujet (traboule sur la page ski) : on prend le dessin du hero
     c = [x for x in c if x.startswith("illus")] or ["illus/flat-jewish-lyon.png"]
     src = (photos or c)[0]
