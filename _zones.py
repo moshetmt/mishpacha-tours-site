@@ -41,7 +41,7 @@ BANDEAU = {  # (texte, lien)
 
 # Menu a 4 entrees (15/10) : Winter, Summer, Jewish Lyon + bouton « Plan your trip ». Reecrit en entier a chaque passage (idempotent).
 ENTREES = {"en": ("Winter", "Summer", "Jewish Lyon", "Plan your trip"),
-           "fr": ("Hiver", "Été", "Lyon juif", "Personnaliser mon séjour"),
+           "fr": ("Hiver", "Été", "Visite juive à Lyon", "Personnaliser mon séjour"),
            "es": ("Invierno", "Verano", "Lyon judío", "Planificar mi viaje"),
            "he": ("חורף", "קיץ", "ליון היהודית", "לתכנן את הטיול")}
 WA_HE = "דברו איתנו בוואטסאפ"
@@ -60,7 +60,7 @@ def chalets_html(lang, pre):
     return (f'<div class="nav-ch"><a class="nav-ch-lien" href="{pre}/kosher-chalets/">{lib}</a>'
             f'<div class="nav-ch-menu">{vign}<a class="nav-ch-tous" href="{pre}/kosher-chalets/">{tous}</a></div></div>')
 SECOND = {"en": ("Our chalet", "Resorts", "Jewish Lyon guide", "Van transfers", "Explore"),
-          "fr": ("Notre chalet", "Stations", "Guide du Lyon juif", "Transferts en van", "Explorer"),
+          "fr": ("Notre chalet", "Stations", "Guide juif de Lyon", "Transferts en van", "Explorer"),
           "es": ("Nuestro chalé", "Estaciones", "Guía del Lyon judío", "Traslados en van", "Explorar"),
           "he": ("הצ'אלה שלנו", "אתרי הסקי", "המדריך ליהדות ליון", "הסעות בוואן", "גלו")}
 
