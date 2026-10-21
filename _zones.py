@@ -51,7 +51,8 @@ CHALETS = {"en": ("Chalets", "See the four chalets", (("Les Deux Alpes", "6 + 1 
            "fr": ("Chalets", "Voir les quatre chalets", (("Les Deux Alpes", "6 + 1 chambres · à 2 min des pistes"), ("Les Deux Alpes · chalet des pistes", "6 chambres · skis aux pieds"), ("Courchevel", "5 suites · piscines chauffées"), ("Près de Megève", "10 chambres twin · Mont Blanc"))),
            "es": ("Chalets", "Ver los cuatro chalets", (("Les Deux Alpes", "6 + 1 habitaciones · a 2 min de las pistas"), ("Les Deux Alpes · chalet de las pistas", "6 habitaciones · esquís puestos en la puerta"), ("Courchevel", "5 suites · piscinas climatizadas"), ("Cerca de Megève", "10 habitaciones twin · Mont Blanc"))),
            "he": ("צ'אלות", "לראות את ארבע הצ'אלות", (("לה דז אלפ", "6 + 1 חדרים · 2 דק' מהמסלולים"), ("לה דז אלפ · צ'אלה המסלולים", "6 חדרים · מגלשיים בדלת"), ("קורשבל", "5 סוויטות · בריכות מחוממות"), ("ליד מז'ב", "10 חדרי טווין · מון בלאן")))}
-CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/wp-ext-bleu.jpg"), ("kosher-slope-chalet-les-deux-alpes", "/img/chalet/slope-facade.jpg"), ("kosher-chalet-courchevel", "/img/chalet/courchevel-ext.jpg"), ("kosher-chalet-megeve", "/img/chalet/megeve-n0-apt-sejour.jpg"))
+# 21/10 : vignettes WebP de 336 px (img/chalet/min/, fabriquées par _images_legeres.py) au lieu des JPG pleine taille (2 032 Ko téléchargés par le tiroir mobile)
+CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/min/wp-ext-bleu-336.webp"), ("kosher-slope-chalet-les-deux-alpes", "/img/chalet/min/slope-facade-336.webp"), ("kosher-chalet-courchevel", "/img/chalet/min/courchevel-ext-336.webp"), ("kosher-chalet-megeve", "/img/chalet/min/megeve-n0-apt-sejour-336.webp"))
 
 def chalets_html(lang, pre):
     lib, tous, items = CHALETS[lang]

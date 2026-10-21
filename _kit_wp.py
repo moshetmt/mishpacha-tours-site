@@ -142,12 +142,16 @@ def seau(lang, cle):
             f'<textPath href="#{i}" textLength="458" lengthAdjust="spacing">{T[lang]["seau"]}</textPath></text>'
             f'<image href="{marque(cle)["or_"]}" x="56" y="56" width="88" height="88"/></svg>')
 
+def min672(src):
+    """21/10 : vignette WebP de 672 px (img/chalet/min/, fabriquée par _images_legeres.py) à la place du JPG pleine taille."""
+    return re.sub(r"/img/(?:chalet|villa)/([\w-]+)\.jpg$", r"/img/chalet/min/\1-672.webp", src)
+
 def carte(lang, cle):
     t, c, d = T[lang], CHALETS[cle], T[lang][cle]
     puces = "".join(f'<li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">{PICTOS[p]}</svg><span><b>{a}</b>{b}</span></li>'
                     for p, (a, b) in zip(c["pictos"], d["s"]))
     titre = f'<a href="{pfx(lang)}{c["lien"]}">{d["t"]}</a>' if c["lien"] else d["t"]
-    return (f'<article class="kwp-carte{" kwp-sp" if CHALETS[cle].get("marque") == "sp" else ""}"><div class="kwp-photo"><img src="{c["img"]}" alt="{d["alt"]}" width="{c["w"]}" height="{c["h"]}" loading="lazy">'
+    return (f'<article class="kwp-carte{" kwp-sp" if CHALETS[cle].get("marque") == "sp" else ""}"><div class="kwp-photo"><img src="{min672(c["img"])}" alt="{d["alt"]}" width="{c["w"]}" height="{c["h"]}" loading="lazy">'
             f'{seau(lang, cle)}</div><div class="kwp-corps"><div class="kwp-lieu">{d["lieu"]} · {d.get("avec", t["avec"])}</div><h3>{titre}</h3>'
             f'<ul class="kwp-chiffres">{puces}</ul><p class="kwp-casher">{d["k"]}</p><p class="kwp-dispo">{t["dispo"]}</p>'
             f'<div class="kwp-pied"><img src="{marque(cle)["noir"]}" alt="{marque(cle)["nom"]}" title="{marque(cle)["nom"]}" width="46" height="46" loading="lazy">'
