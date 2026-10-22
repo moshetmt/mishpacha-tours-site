@@ -46,6 +46,7 @@ PAGES.update({
  'kosher-chalet-courchevel': ('chalet/courchevel-ext.jpg', 'chalet', 'Kosher chalet in Courchevel'),   # 19/10
  'kosher-slope-chalet-les-deux-alpes': ('chalet/slope-facade.jpg', 'chalet', 'Kosher chalet in Les Deux Alpes'),   # 20/10, second chalet
  'kosher-chalet-megeve': ('chalet/megeve-n0-apt-sejour.jpg', 'chalet', 'Kosher chalet near Megève'),   # 20/10
+ 'kosher-chalet-val-thorens': ('chalet/valthorens-exterieur-neige.jpg', 'chalet', 'Kosher chalet in Val Thorens'),   # 22/10
  'kosher-chalets': ('chalet/wp-soleil.jpg', 'chalet', 'Kosher chalet in the Alps'),                       # 19/10, page du menu Chalets
  'kosher-villa-saint-tropez': ('villa/st-tropez-facade.jpg', 'chalet', 'Kosher villa in Saint-Tropez'),   # 19/10, Summer Prestige
 })
@@ -172,7 +173,7 @@ def traiter(slug, lang):
     btn = T['btn_van' if typ == 'van' else 'btn'][lang]
     name = STATIONS[slug][1][lang] if slug in STATIONS else None
     if typ == 'chalet':
-        name = None if slug == 'kosher-chalets' else 'Saint-Tropez' if slug == 'kosher-villa-saint-tropez' else STATIONS['kosher-courchevel' if slug == 'kosher-chalet-courchevel' else 'kosher-les-deux-alpes'][1][lang]
+        name = None if slug == 'kosher-chalets' else 'Saint-Tropez' if slug == 'kosher-villa-saint-tropez' else STATIONS['kosher-courchevel' if slug == 'kosher-chalet-courchevel' else 'kosher-val-thorens' if slug == 'kosher-chalet-val-thorens' else 'kosher-les-deux-alpes'][1][lang]
     # 19/10 : les pages chalet sont en « hiver » (noir et or), _kit_wp.py pose le grand logo dans la bannière ; plus de petit logo ici
     wp = ''
     # 19/10 Moshé : plus de pastilles (lead-puces) dans la bannière, « ça empile et agrandit la bannière » sur téléphone ;

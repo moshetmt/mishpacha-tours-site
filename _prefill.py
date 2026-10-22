@@ -4,7 +4,7 @@
      recoit ?i=...&lieu=...&voyage=... ; menu, panneau et pied restent generiques.
  (2) pages station : lien « Plan your stay in X » dans la section finale lead-final (avant le formulaire ; apres lui en hebreu,
      pour que le bouton WhatsApp passe en premier).
- (3) accueils EN, FR, ES : le chercheur ouvre le formulaire prerempli (hebreu : reste WhatsApp)."""
+ (3) accueils EN, FR, ES, HE : le chercheur ouvre le formulaire prerempli (hebreu aussi depuis le 22/10)."""
 import io, os, re, glob
 from urllib.parse import quote
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -18,6 +18,7 @@ CIBLES = {"kosher-chalet-les-deux-alpes": {"i": "a", "lieu": "Les Deux Alpes", "
           "kosher-chalet-courchevel": {"i": "a", "lieu": "Courchevel", "voyage": SKI}, "kosher-chalets": {"i": "a", "voyage": SKI},
           "kosher-slope-chalet-les-deux-alpes": {"i": "a", "lieu": "Les Deux Alpes", "voyage": SKI},
           "kosher-chalet-megeve": {"i": "a", "lieu": "Megève", "voyage": SKI},
+          "kosher-chalet-val-thorens": {"i": "a", "lieu": "Val Thorens", "voyage": SKI},
           "kosher-villa-saint-tropez": {"i": "a", "lieu": "Saint-Tropez", "voyage": "Summer in the Alps"},
           "kosher-van-transfers": {"i": "c"}, "jewish-lyon-tours": {"i": "d"},
           "summer-in-the-alps-jewish-families": {"i": "a", "voyage": "Summer in the Alps"},
@@ -51,7 +52,8 @@ def page(path, slug, lang, c):
 
 OPT = [("a", SKI), ("a", "Hanukkah in the Alps"), ("a", "Summer in the Alps"), ("b", ""), ("d", ""), ("f", "")]
 LABEL = {"en": ("Plan my stay on WhatsApp", "Plan my stay"), "fr": ("Organiser mon séjour sur WhatsApp", "Organiser mon séjour"),
-         "es": ("Planear mi estancia por WhatsApp", "Planear mi estancia")}
+         "es": ("Planear mi estancia por WhatsApp", "Planear mi estancia"),
+         "he": ("תכננו לי את החופשה בוואטסאפ", "לתכנן את החופשה")}   # hébreu passé au formulaire le 22/10 (Moshé : plus de messages à moitié faits)
 JS = ("/*prefill*/(function(){var f=document.getElementById('chercheur'),a0=f.arrivee,d0=f.depart,t=new Date(Date.now()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,10);"
       "if(a0){a0.min=t;d0.min=t;a0.addEventListener('change',function(){d0.min=a0.value||t;if(d0.value&&d0.value<a0.value)d0.value=''})}"
       "f.addEventListener('submit',function(e){e.preventDefault();var o=f.voyage.options[f.voyage.selectedIndex],"
@@ -60,7 +62,7 @@ JS = ("/*prefill*/(function(){var f=document.getElementById('chercheur'),a0=f.ar
       "if(a0&&a0.value)q.push('arrivee='+a0.value);if(d0&&d0.value)q.push('depart='+d0.value);location.href='PRE/plan-your-trip/?'+q.join('&')})})();/*/prefill*/")
 # Chercheur : deux vraies dates (calendrier du telephone) au lieu d'un texte libre perdu au preremplissage (Moshe, 15/10)
 CH = {"en": ("Arrival", "Departure", "Adults", "Children", "6", "2"), "fr": ("Arrivée", "Départ", "Adultes", "Enfants", "6", "2"),
-      "es": ("Llegada", "Salida", "Adultos", "Niños", "6", "2")}
+      "es": ("Llegada", "Salida", "Adultos", "Niños", "6", "2"), "he": ("הגעה", "עזיבה", "מבוגרים", "ילדים", "6", "2")}
 def champs(lang):
     a, d, ad, en, pa, pe = CH[lang]
     return (f'<div class="duo"><label><span>{a}</span><input name="arrivee" type="date"></label><label><span>{d}</span><input name="depart" type="date"></label></div>'
@@ -109,6 +111,6 @@ if __name__ == "__main__":
         for slug, c in CIBLES.items():
             p = l + slug + "/index.html"
             if os.path.exists(p): n += page(p, slug, lang, c)
-        if lang != "he": n += accueil(l + "index.html", lang)
+        n += accueil(l + "index.html", lang)
 
     print(n, "pages modifiees")
