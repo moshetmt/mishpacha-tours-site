@@ -282,5 +282,6 @@ var wa=D.querySelector('.wa-flottant'),src=D.querySelector('.nav .liens a.nav-ct
 var b=D.createElement('div');b.className='barre-basse';
 var a1=D.createElement('a');a1.className='bb-wa';a1.href=wa.getAttribute('href');a1.rel='noopener';a1.innerHTML=(wa.querySelector('svg')||{outerHTML:''}).outerHTML+'<span>WhatsApp</span>';
 var a2=D.createElement('a');a2.className='bb-plan';a2.href=src.getAttribute('href');a2.textContent=src.textContent.trim();
-b.appendChild(a1);b.appendChild(a2);D.body.appendChild(b);})();
+b.appendChild(a1);b.appendChild(a2);D.body.appendChild(b);
+var f=function(){D.body.classList.toggle('bb-on',window.scrollY>160)};window.addEventListener('scroll',f,{passive:true});f();})();
 /* ===/LUXE=== */

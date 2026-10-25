@@ -46,7 +46,7 @@ h1 i,h2 i,h3 i{{font-style:normal}}
 .cb{{left:0;right:0;bottom:0;max-width:none;border:0;border-top:1px solid rgba(20,20,22,.15);box-shadow:none;padding:8px 16px;font-size:12px;line-height:1.35;gap:6px 12px;flex-wrap:nowrap}}
 .cb button{{min-width:0;min-height:32px;padding:0 10px;font-size:10px;letter-spacing:.1em}}
 .cb-b{{display:flex;gap:6px;flex:none}}
-@media (max-width:899px){{.cb{{bottom:56px}}.cb-b{{width:auto}}.cb p{{flex:1 1 auto;min-width:0}}}}
+@media (max-width:899px){{.cb{{bottom:0;transition:bottom .25s ease}}body.bb-on .cb{{bottom:56px}}.cb-b{{width:auto}}.cb p{{flex:1 1 auto;min-width:0}}}}
 /* Ordinateur : les boutons flottants passent au-dessus du bandeau tant qu'il est affiché. */
 @media (min-width:900px){{body:has(.cb:not([hidden])) :is(.wa-flottant,.pyt-flottant){{bottom:64px}}}}
 /* Picto WhatsApp du bouton flottant : couleur du texte, jamais jaune ni vert (Moshé 25/10). */
@@ -76,7 +76,7 @@ h1 i,h2 i,h3 i{{font-style:normal}}
 body:has(.cb) .ac-hero{{min-height:calc(100svh - 190px)}}
 @media (min-width:900px){{.ac-hero{{min-height:calc(100vh - 72px)}}}}
 .ac-hero > img{{opacity:1}}
-.ac-hero::before{{background:linear-gradient(to top,rgba(10,10,12,.62) 0%,rgba(10,10,12,.18) 45%,rgba(10,10,12,0) 70%)}}
+.ac-hero::before{{background:linear-gradient(to top,rgba(10,10,12,.78) 0%,rgba(10,10,12,.55) 38%,rgba(10,10,12,.22) 62%,rgba(10,10,12,0) 80%)}}
 .ac-hero .hero-texte{{display:block;width:100%;padding:0 var(--pad) 84px}}
 .ac-hero .hero-texte p.hero-sous{{display:block!important;margin-top:12px}}
 .ac-hero .btn-hero{{width:auto}}
@@ -108,7 +108,20 @@ body:has(.cb) .ac-hero{{min-height:calc(100svh - 190px)}}
 #chalet .kwp-cartes.kwp-rail{{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}}
 #chalet .kwp-cartes.kwp-rail::-webkit-scrollbar{{display:none}}
 #chalet .kwp-cartes.kwp-rail .kwp-carte{{flex:0 0 86%;scroll-snap-align:start;display:flex;flex-direction:column;grid-row:auto}}
-#chalet .kwp-cartes.kwp-rail .kwp-corps{{display:block;padding:0 22px 22px}}
+#chalet .kwp-cartes.kwp-rail .kwp-corps{{display:flex;flex-direction:column;flex:1;padding:0 22px 22px}}
+#chalet .kwp-cartes.kwp-rail .kwp-carte .kwp-corps > p.kwp-dispo{{margin-top:auto!important}}
+/* Sceau Winter Prestige dans la photo, plus sur le texte (Moshé 25/10). */
+#chalet .kwp-seau{{bottom:12px;inset-inline-end:12px;width:60px;height:60px}}
+/* « See the five chalets » collé au rail, pleine largeur sur téléphone. */
+#chalet .kwp-tous{{margin:20px 0 0}}
+#chalet .kwp-tous .pill{{display:flex;align-items:center;justify-content:center;width:100%;height:48px;border:1px solid var(--encre);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;text-decoration:none;color:var(--encre)}}
+@media (min-width:900px){{#chalet .kwp-tous .pill{{width:auto;display:inline-flex;padding:0 28px}}}}
+/* Accueil : vides entre sections réduits (120 px de marge + 110 px de rembourrage auparavant). */
+body:has(.ac-hero) .ss{{margin-top:0}}
+body:has(.ac-hero) .ss.beige{{padding-top:56px;padding-bottom:56px}}
+body:has(.ac-hero) #chalet{{padding-top:56px;padding-bottom:16px}}
+body:has(.ac-hero) .ticket-zone{{margin-top:24px}}
+@media (min-width:900px){{body:has(.ac-hero) .ss.beige{{padding-top:88px;padding-bottom:88px}}body:has(.ac-hero) #chalet{{padding-top:88px}}}}
 @media (min-width:900px){{
   #chalet .kwp-cartes.kwp-rail{{gap:24px;margin:24px calc(-1*var(--pad)) 0;padding:0 var(--pad) 4px;scroll-padding-inline:var(--pad)}}
   #chalet .kwp-cartes.kwp-rail .kwp-carte{{flex:0 0 380px}}
@@ -118,7 +131,8 @@ body:has(.cb) .ac-hero{{min-height:calc(100svh - 190px)}}
 @media (max-width:899px){{
   body{{padding-bottom:56px}}
   .wa-flottant,.pyt-flottant{{display:none!important}}
-  .barre-basse{{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1fr;height:56px;border-top:1px solid rgba(255,255,255,.12)}}
+  .barre-basse{{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1fr;height:56px;border-top:1px solid rgba(255,255,255,.12);transform:translateY(100%);transition:transform .25s ease}}
+  body.bb-on .barre-basse{{transform:none}}
   .barre-basse a{{display:flex;align-items:center;justify-content:center;gap:8px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;text-decoration:none;overflow:hidden;white-space:nowrap}}
   .barre-basse .bb-wa{{background:var(--encre);color:var(--creme)}}
   .barre-basse .bb-wa svg{{width:20px;height:20px;fill:var(--creme);flex:none}}
@@ -136,7 +150,8 @@ var wa=D.querySelector('.wa-flottant'),src=D.querySelector('.nav .liens a.nav-ct
 var b=D.createElement('div');b.className='barre-basse';
 var a1=D.createElement('a');a1.className='bb-wa';a1.href=wa.getAttribute('href');a1.rel='noopener';a1.innerHTML=(wa.querySelector('svg')||{outerHTML:''}).outerHTML+'<span>WhatsApp</span>';
 var a2=D.createElement('a');a2.className='bb-plan';a2.href=src.getAttribute('href');a2.textContent=src.textContent.trim();
-b.appendChild(a1);b.appendChild(a2);D.body.appendChild(b);})();
+b.appendChild(a1);b.appendChild(a2);D.body.appendChild(b);
+var f=function(){D.body.classList.toggle('bb-on',window.scrollY>160)};window.addEventListener('scroll',f,{passive:true});f();})();
 """
 anim = sans(lire("js/anim.js"))
 if not STRIP: anim = anim.rstrip("\n") + "\n" + D + JS + F + "\n"
