@@ -39,14 +39,21 @@ BANDEAU = {  # (texte, lien)
              "he": ("סיורים פרטיים, מיום ראשון עד יום שישי בבוקר. ", "בדיקת תאריך בוואטסאפ.")},
 }
 
-# Menu a 4 entrees (15/10) : Winter, Summer, Jewish Lyon + bouton « Plan your trip ». Reecrit en entier a chaque passage (idempotent).
-ENTREES = {"en": ("Winter", "Summer", "Jewish Lyon", "Plan your trip"),
-           "fr": ("Hiver", "Été", "Visite juive à Lyon", "Personnaliser mon séjour"),
-           "es": ("Invierno", "Verano", "Lyon judío", "Planificar mi viaje"),
-           "he": ("חורף", "קיץ", "ליון היהודית", "לתכנן את הטיול")}
+# Menu a 5 entrees (25/10, decisions Moshe) : Chalets, Resorts, Chef & Shabbat, Summer, Jewish Lyon + bouton « Plan your trip ».
+# Panneau telephone plein ecran : les 5 entrees avec une ligne de sous-titre, le bouton, WhatsApp, e-mail, langues en codes.
+# Les 17 stations et les chalets ne sont plus dans le panneau : ils vivent dans le pied (liens texte, maillage) et dans les pages.
+ENTREES = {"en": ("Chalets", "Resorts", "Chef & Shabbat", "Summer", "Jewish Lyon", "Plan your trip"),
+           "fr": ("Chalets", "Stations", "Chef & Chabbat", "Été", "Visite juive à Lyon", "Personnaliser mon séjour"),
+           "es": ("Chalets", "Estaciones", "Chef y Shabat", "Verano", "Lyon judío", "Planificar mi viaje"),
+           "he": ("צ'אלות", "אתרי סקי", "שף ושבת", "קיץ", "ליון היהודית", "לתכנן את הטיול")}
+SOUS = {"en": ("Five private chalets, strictly kosher", "Seventeen resorts in France, Switzerland and Italy", "Private chef, delivered meals, minyan, transfers", "Villa in Saint-Tropez, the lakes, the mountains", "The guided visit and the Jewish guide to Lyon"),
+        "fr": ("Cinq chalets privés, strictement casher", "Dix-sept stations en France, en Suisse et en Italie", "Chef privé, repas livrés, minyan, transferts", "Villa à Saint-Tropez, les lacs, la montagne", "La visite guidée et le guide juif de Lyon"),
+        "es": ("Cinco chalets privados, estrictamente kosher", "Diecisiete estaciones en Francia, Suiza e Italia", "Chef privado, comidas entregadas, minyán, traslados", "Villa en Saint-Tropez, los lagos, la montaña", "La visita guiada y la guía del Lyon judío"),
+        "he": ("חמש צ'אלות פרטיות, כשרות למהדרין", "שבעה־עשר אתרי סקי בצרפת, בשווייץ ובאיטליה", "שף פרטי, ארוחות משלוח, מניין, הסעות", "וילה בסן־טרופה, האגמים, ההרים", "הסיור המודרך והמדריך ליהדות ליון")}
+URLS = ("/kosher-chalets/", "/alps/", "/kosher-services-french-alps/", "/summer-in-the-alps-jewish-families/", "/jewish-lyon-tours/")
+PIED_PAN = {"en": ("Same-day reply. Never on Shabbat.", "contact@mishpachatours.com"), "fr": ("Réponse le jour même. Jamais pendant Chabbat.", "contact@mishpachatours.com"),
+            "es": ("Respuesta el mismo día. Nunca en Shabat.", "contact@mishpachatours.com"), "he": ("מענה באותו יום. לעולם לא בשבת.", "contact@mishpachatours.com")}
 WA_HE = "דברו איתנו בוואטסאפ"
-# Entrée « Chalets » (19/10, audit du parcours chalet) : 2e entrée, juste après l'hiver. Sur ordinateur, un aperçu des deux chalets
-# s'ouvre au survol ou au clavier ; dans le panneau mobile, les deux vignettes restent visibles sous l'entrée.
 CHALETS = {"en": ("Chalets", "See the five chalets", (("Les Deux Alpes", "6 + 1 bedrooms · 2 min from the slopes"), ("Les Deux Alpes · Slope Chalet", "6 bedrooms · skis on at the door"), ("Courchevel", "5 suites · heated pools"), ("Near Megève", "10 twin bedrooms · Mont Blanc"), ("Val Thorens", "3 en-suite bedrooms · ski in ski out"))),
            "fr": ("Chalets", "Voir les cinq chalets", (("Les Deux Alpes", "6 + 1 chambres · à 2 min des pistes"), ("Les Deux Alpes · chalet des pistes", "6 chambres · skis aux pieds"), ("Courchevel", "5 suites · piscines chauffées"), ("Près de Megève", "10 chambres twin · Mont Blanc"), ("Val Thorens", "3 chambres en suite · skis aux pieds"))),
            "es": ("Chalets", "Ver los cinco chalets", (("Les Deux Alpes", "6 + 1 habitaciones · a 2 min de las pistas"), ("Les Deux Alpes · chalet de las pistas", "6 habitaciones · esquís puestos en la puerta"), ("Courchevel", "5 suites · piscinas climatizadas"), ("Cerca de Megève", "10 habitaciones twin · Mont Blanc"), ("Val Thorens", "3 habitaciones con baño · esquí a pie de puerta"))),
@@ -66,12 +73,12 @@ SECOND = {"en": ("Our chalet", "Resorts", "Jewish Lyon guide", "Van transfers", 
           "he": ("הצ'אלה שלנו", "אתרי הסקי", "המדריך ליהדות ליון", "הסעות בוואן", "גלו")}
 
 def menu_html(lang, pre, wa):
-    w, s_, l, p = ENTREES[lang]
-    base = f'<a href="{pre}/alps/">{w}</a>\n    {chalets_html(lang, pre)}\n    <a href="{pre}/summer-in-the-alps-jewish-families/">{s_}</a>\n    <a href="{pre}/jewish-lyon-tours/">{l}</a>\n    '
-    if lang == "he":
-        return base + f'<a href="{pre}/plan-your-trip/">{p}</a>', base + f'<a href="{pre}/plan-your-trip/">{p}</a>', f'\n    <a class="nav-cta nav-cta-wa" href="{wa}" rel="noopener">{WA_HE}</a>'
-    cta = f'<a class="nav-cta" href="{pre}/plan-your-trip/">{p}</a>'
-    return base + cta, base + cta, ""
+    e = ENTREES[lang]; so = SOUS[lang]
+    nav = chalets_html(lang, pre) + "".join(f'\n    <a href="{pre}{u}">{t}</a>' for t, u in zip(e[1:5], URLS[1:]))
+    pan = "".join(f'\n    <a href="{pre}{u}">{t}<small>{st}</small></a>' for t, u, st in zip(e[:5], URLS, so))
+    cta = f'\n    <a class="nav-cta" href="{pre}/plan-your-trip/">{e[5]}</a>'
+    extra = f'\n    <a class="nav-cta nav-cta-wa" href="{wa}" rel="noopener">{WA_HE}</a>' if lang == "he" else ""
+    return nav + cta, pan + cta, extra
 
 def second_links(lang, pre):
     c, r, g, v, _ = SECOND[lang]
@@ -83,8 +90,10 @@ STATIONS = [("Les Deux Alpes", "kosher-les-deux-alpes"), ("Courchevel", "kosher-
             ("La Plagne", "kosher-la-plagne"), ("Chamonix", "kosher-chamonix"), ("Annecy", "kosher-annecy"), ("Grenoble", "kosher-grenoble"),
             ("Zermatt", "kosher-zermatt"), ("St. Moritz", "kosher-st-moritz"), ("Crans-Montana", "kosher-crans-montana"), ("Cervinia", "kosher-cervinia"), ("Courmayeur", "kosher-courmayeur"), ("Cortina d'Ampezzo", "kosher-cortina")]
 def stations_html(lang, pre):
-    return ('\n  <div class="panneau-st"><p>' + SECOND[lang][1] + '</p>' +
-            "".join(f'<a href="{pre}/{slug}/">{nom}</a>' for nom, slug in STATIONS) + '</div>')
+    return ""
+def pied_stations(lang, pre):
+    return ('<details class="pied-stations"><summary>' + SECOND[lang][1] + "</summary><p>" +
+            "<br>".join(f'<a href="{pre}/{slug}/">{nom}</a>' for nom, slug in STATIONS) + "</p></details>")
 
 def zone(page): return "alpes" if page in ALPES else "general" if page in GENERAL else "lyon"
 
@@ -107,10 +116,15 @@ def traiter(path):
     sec = second_links(lang, pre0)
     n = re.sub(r'\s*<div class="panneau-st">.*?</div>', "", n, count=1, flags=re.S)
     n = re.sub(r'\s*<div class="panneau-sec">.*?</div>', "", n, count=1, flags=re.S)
-    n = re.sub(r'(<div class="panneau"[^>]*>\s*<nav[^>]*>.*?</nav>)', lambda m: m.group(1) + stations_html(lang, pre0) + '\n  <div class="panneau-sec">' + "".join(f'<a href="{u}">{t}</a>' for t, u in sec[1:]) + "</div>", n, count=1, flags=re.S)
+    n = re.sub(r'\s*<div class="panneau-bas">.*?</div>\s*</div>', "", n, count=1, flags=re.S)
+    rep, mail = PIED_PAN[lang]
+    cur = ' aria-current="true"'
+    langs = "".join(f'<a href="{("" if l == "en" else "/" + l) + ("/" + page if page else "") + "/"}"{cur if l == lang else ""}>{l.upper()}</a>' for l in ("en", "fr", "es", "he"))
+    n = re.sub(r'(<a class="panneau-wa"[^>]*>.*?</a>)', lambda m: m.group(1) + f'\n  <div class="panneau-bas"><a href="mailto:{mail}">{mail}</a><span>{rep}</span><div class="panneau-langs">{langs}</div></div>', n, count=1, flags=re.S)
     n = re.sub(r'\s*<details class="pied-explore">.*?</details>', "", n, count=1, flags=re.S)
     expl = '\n    <details class="pied-explore"><summary>' + SECOND[lang][4] + "</summary><p>" + "<br>".join(f'<a href="{u}">{t}</a>' for t, u in [sec[0], (SECOND[lang][1], f"{pre0}/#resorts")] + sec[1:]) + "</p></details>"
-    n = re.sub(r'(<footer class="pied">\s*<div class="cols">.*?)(\s*</div>\s*<p class="logo-pied">)', lambda m: m.group(1) + expl + m.group(2), n, count=1, flags=re.S)
+    n = re.sub(r'\s*<details class="pied-stations">.*?</details>', "", n, count=1, flags=re.S)
+    n = re.sub(r'(<footer class="pied">\s*<div class="cols">.*?)(\s*</div>\s*<p class="logo-pied">)', lambda m: m.group(1) + expl + "\n    " + pied_stations(lang, pre0) + m.group(2), n, count=1, flags=re.S)
     base = BASELINE[z] + (PIED_WP if page in HIVER_WP else "")
     n = re.sub(r'(<p class="logo-pied">.*?<small>).*?(</small>)', lambda m: m.group(1) + base + m.group(2), n, count=1, flags=re.S)
     pre = "" if lang == "en" else "/" + lang

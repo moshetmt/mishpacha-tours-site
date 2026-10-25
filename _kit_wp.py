@@ -317,7 +317,7 @@ def accueil(s, lang):
     a = ACC[lang]
     s = re.sub(r'\n?<section class="ss wrap ac-chalet" id="chalet">.*?</section>', "", s, count=1, flags=re.S)
     s = poser(s, "accueil", f'<section class="ss wrap kwp kwp-accueil" id="chalet"><h2>{a["h2"]} <i>{a["i"]}</i></h2>'
-                            f'<div class="kwp-cartes">{carte(lang, "da")}{carte(lang, "co")}</div>{lien_tous(lang)}</section>',
+                            f'<div class="kwp-cartes kwp-rail">{carte(lang, "da")}{carte(lang, "co")}{carte(lang, "vth")}{carte(lang, "me")}{carte(lang, "sl")}</div>{lien_tous(lang)}</section>',   # 25/10 Moshé : les cinq chalets en rail à faire glisser
               avant='<section class="ss beige" id="trips">')
     s = re.sub(rf'<a class="hub-carte" href="{pfx(lang)}/kosher-chalet-les-deux-alpes/">(.*?)<h3>[^<]*</h3><p>[^<]*</p>',
                lambda m: f'<a class="hub-carte" href="{pfx(lang)}/kosher-chalets/">{m.group(1)}<h3>{a["porte"][0]}</h3><p>{a["porte"][1]}</p>', s, count=1, flags=re.S)

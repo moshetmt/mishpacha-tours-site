@@ -276,3 +276,11 @@ D.addEventListener('touchstart',function(){},{passive:true});
 })();
 
 })();
+/* ===LUXE=== */
+(function(){var D=document;if(D.getElementById('formDemande')||D.querySelector('.barre-basse'))return;
+var wa=D.querySelector('.wa-flottant'),src=D.querySelector('.nav .liens a.nav-cta')||D.querySelector('.panneau nav a.nav-cta');if(!wa||!src)return;
+var b=D.createElement('div');b.className='barre-basse';
+var a1=D.createElement('a');a1.className='bb-wa';a1.href=wa.getAttribute('href');a1.rel='noopener';a1.innerHTML=(wa.querySelector('svg')||{outerHTML:''}).outerHTML+'<span>WhatsApp</span>';
+var a2=D.createElement('a');a2.className='bb-plan';a2.href=src.getAttribute('href');a2.textContent=src.textContent.trim();
+b.appendChild(a1);b.appendChild(a2);D.body.appendChild(b);})();
+/* ===/LUXE=== */
