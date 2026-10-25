@@ -813,6 +813,11 @@ body.menu-ouvert{overflow:hidden}
 .lead-final .chercheur input{background:var(--creme);border:1px solid rgba(28,27,31,.2);border-radius:14px;padding:12px 16px;min-height:48px}
 .lead-final .chercheur .duo{grid-template-columns:1.5fr 1fr;gap:12px}
 .lead-final .chercheur button{width:100%;margin-top:2px}
+/* 22/10 : formulaire court -> /plan-your-trip/ (dates natives, deux colonnes égales, rien ne déborde sur téléphone) */
+.lead-plan .duo{grid-template-columns:1fr 1fr}
+.lead-plan .duo>label{min-width:0}
+.lead-plan input{min-width:0;max-width:100%;box-sizing:border-box}
+.lead-plan input[type=date]{-webkit-appearance:none;appearance:none;display:block}
 @media (min-width:900px){
   .lead-intro{grid-template-columns:150px 1fr;gap:36px;align-items:center;text-align:start;justify-items:start}
   .lead-intro .lead-mascotte{width:150px;margin-top:0}
@@ -1477,6 +1482,10 @@ body .dk-suite>li>a::after{content:"";position:absolute;inset:0}
 .kwp-cartes .kwp-corps>.kwp-casher{margin-inline:22px;padding:12px 14px}.kwp-cartes .kwp-corps>.kwp-pied{padding-bottom:24px;margin-top:0;align-self:end}}
 /* 20/10 : trois chalets, jamais de carte orpheline (règle du 19/10) */
 @media (min-width:1000px){.kwp-cartes.kwp-trois{grid-template-columns:repeat(3,minmax(0,1fr))}.kwp-mini-v.kwp-trois{grid-template-columns:repeat(3,minmax(0,420px))}}
+/* 22/10 : cinq chalets, jamais de carte orpheline : 3 + 2 centrées sur 6 colonnes (>= 1000 px), dernière carte centrée en 2 colonnes (900-999 px) */
+@media (min-width:900px) and (max-width:999px){.kwp-cartes.kwp-cinq>.kwp-carte:last-child{grid-column:1/-1;justify-self:center;width:100%;max-width:460px}}
+@media (min-width:1000px){.kwp-cartes.kwp-cinq{grid-template-columns:repeat(6,minmax(0,1fr))}.kwp-cartes.kwp-cinq>.kwp-carte{grid-column:span 2}.kwp-cartes.kwp-cinq>.kwp-carte:nth-child(4){grid-column:2/span 2}.kwp-cartes.kwp-cinq>.kwp-carte:nth-child(5){grid-column:4/span 2}}
+@media (min-width:700px){.kwp-mini-v.kwp-cinq>.kwp-v:last-child{grid-column:1/-1;justify-self:center;width:100%;max-width:420px}}
 /* pages hiver et Alpes (19/10) : noir #141416, or #C9A961, or lumière #E3BE80, givre #C9D2D4, clair #FAF7F0 */
 body.kwp-hiver{background:#141416}
 .kwp-hero-wp{display:flex;flex-direction:column;align-items:flex-start;gap:2px;direction:ltr;margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(201,169,97,.45)}
@@ -1690,3 +1699,212 @@ body:has(#formDemande) .pyt-flottant,body:has(.nav .menu[aria-expanded="true"]) 
   .of-grille{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(5,1fr);gap:16px;margin-inline:0;padding-inline:0;overflow:visible;scroll-snap-type:none}
 }
 /* /OFFRES-LYON */
+/* ===GALERIE=== galerie plein ecran facon Le Collectionist (22/10), pilotee par js/galerie.js, blocs poses par _galerie_chalets.py */
+.gal-rail,.gal-cpt{display:none}
+.gal-btn{position:absolute;z-index:3;inset-inline-end:48px;bottom:72px;margin:0;padding:12px 16px;border:0;border-radius:0;background:rgba(15,15,15,.7);color:#fff;font:inherit;font-size:14px;line-height:19.6px;text-transform:uppercase;letter-spacing:1px;white-space:nowrap;cursor:pointer}
+.gal-btn:hover{background:rgba(15,15,15,.88)}
+.gal-btn:focus-visible,.gal-x:focus-visible,.gal-back:focus-visible,.gal-som a:focus-visible{outline:2px solid #fff;outline-offset:2px;box-shadow:0 0 0 4px #1C1B1F}
+.gal-c{display:none}
+.lead-hero3::before{pointer-events:none}
+html.gal-ouvert,html.gal-ouvert body{overflow:hidden}
+.gal[hidden]{display:none}
+.gal{position:fixed;inset:0;z-index:2147483000;background:#fff;color:#1a1a1a;font-family:inherit;overscroll-behavior:contain;outline:0}
+html body .gal h2,html body .gal h3{font-family:inherit;font-weight:400;font-style:normal;text-transform:uppercase;color:#1a1a1a;margin:0;text-wrap:balance}
+.gal-back{display:none}
+html body .gal .gal-som a{display:block;color:#1a1a1a;text-decoration:none;font-size:14px;font-weight:400}
+.gal .gal-som img{display:none}
+.gal-x{position:absolute;z-index:4;top:24px;inset-inline-end:24px;width:40px;height:40px;border:0;border-radius:50%;background:#fff;color:#1a1a1a;box-shadow:0 1px 6px rgba(0,0,0,.28);cursor:pointer;display:grid;place-items:center;padding:0}
+.gal-x:focus-visible,.gal-back:focus-visible,.gal-som a:focus-visible{outline:2px solid #1a1a1a;box-shadow:none}
+.gal figure{margin:0}
+.gal figure img{display:block}
+@media (min-width:900px){
+  .gal{display:flex}
+  .gal-side{flex:0 0 383px;box-sizing:border-box;padding:56px 32px 40px;overflow-y:auto;scrollbar-width:thin}
+  html body .gal .gal-nom{font-size:28px;line-height:1.2;letter-spacing:.07em;margin-bottom:56px}
+  html body .gal .gal-som a{line-height:29.5px;padding:0}
+  html body .gal .gal-som a:hover,html body .gal .gal-som a[aria-current="true"]{text-decoration:underline;text-underline-offset:4px}
+  html body .gal .gal-som a[aria-current="true"]{font-weight:500}
+  .gal-main{flex:1;min-width:0;overflow-y:auto;scrollbar-width:none;overscroll-behavior:contain}
+  .gal-main::-webkit-scrollbar{display:none}
+  .gal-piece{padding:0 0 8px}
+  html body .gal .gal-piece h3{font-size:24px;line-height:1.25;letter-spacing:.09em;padding:56px 0 24px}
+  html body .gal .gal-piece:first-child h3{padding-top:44px}
+  .gal-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .gal-grid figure{aspect-ratio:520/429;overflow:hidden;background:#f1efec}
+  .gal-grid figure:first-child,.gal-grid figure:last-child:nth-child(even){grid-column:1/-1;aspect-ratio:1057/594}
+  .gal-grid img{width:100%;height:100%;object-fit:cover}
+  .gal-grid figure.v img{object-fit:contain}
+}
+@media (max-width:899px){
+  .gal{overflow-y:auto;-webkit-overflow-scrolling:touch}
+  .gal-x{display:none}
+  .gal-back{display:grid;place-items:center;width:44px;height:44px;margin:6px 0 0 -10px;padding:0;border:0;background:none;color:#1a1a1a;cursor:pointer}
+  [dir="rtl"] .gal-back{margin:6px -10px 0 0;transform:scaleX(-1)}
+  .gal-side{padding:8px 16px 4px}
+  html body .gal .gal-nom{font-size:24px;line-height:1.2;letter-spacing:.06em;margin:14px 0 20px}
+  .gal-som{display:flex;gap:16px;overflow-x:auto;margin:0 -16px;padding:0 16px 12px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .gal-som::-webkit-scrollbar{display:none}
+  html body .gal .gal-som a{flex:0 0 154px}
+  .gal .gal-som img{display:block;width:154px;height:108px;object-fit:cover;background:#f1efec}
+  .gal .gal-som span{display:block;margin-top:8px;line-height:1.3}
+  html body .gal .gal-piece h3{font-size:20px;line-height:1.25;letter-spacing:.08em;padding:28px 16px 12px}
+  .gal-grid figure{margin:0 0 8px}
+  .gal-grid img{width:100%;height:auto}
+  .gal-main{padding-bottom:32px}
+  .lead-hero3.has-gal > img{display:none}
+  .gal-rail{display:flex;position:absolute;inset:0;z-index:0;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .gal-rail::-webkit-scrollbar{display:none}
+  .gal-rail img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;object-position:50% 20%;scroll-snap-align:start;scroll-snap-stop:always}
+  .lead-hero3.has-gal .lead3-texte{pointer-events:none}
+  .lead-hero3.has-gal .lead3-bloc,.lead-hero3.has-gal .lead3-texte a{pointer-events:auto}
+  .gal-cpt{display:block;position:absolute;z-index:3;top:14px;inset-inline-end:14px;padding:6px 10px;background:rgba(15,15,15,.7);color:#fff;font-size:14px;line-height:19.6px;pointer-events:none}
+  .gal-btn{top:14px;bottom:auto;inset-inline-end:auto;inset-inline-start:14px;padding:8px 12px}
+  .gal-l{display:none}.gal-c{display:inline}
+}
+@media (prefers-reduced-motion:reduce){.gal-rail{scroll-behavior:auto}}
+/* ===/GALERIE=== */
+/* ===LUXE=== */
+/* Tokens : un seul univers. */
+:root{--creme:#FAF7F0;--beige:#FAF7F0;--rose:#FAF7F0;--jaune:#C9A961;--vert:#141416;--vert-c:#141416;--encre:#141416;--rouge:#141416;--ecart:64px}
+@media (min-width:900px){:root{--ecart:120px}}
+h1 i,h2 i,h3 i{font-style:normal}
+/* Rectangles partout (les ronds à 50 % ne sont pas touchés). */
+.btn-noir,
+.pill-noir,
+.langue summary,
+.langue ul,
+.langue li a,
+.nav .menu,
+.chercheur,
+.chercheur label,
+.chercheur button,
+.filtres button,
+.carte,
+.carte .tag,
+.photo-cit,
+.citation blockquote,
+.mosaique figure,
+.mosaique figcaption,
+.pill,
+/* ---------- Prix ---------- */ .prix-table ul,
+.ticket input,.ticket select,
+.fiche-photo,
+.fiche-photo .tag,
+.fiche-carte,
+.deux-cartes > div,
+.chips li,
+.liste-lieux li,
+.liste-lieux a,
+.syn,
+.chabad,
+.chabad .tel,
+.cta-pratique > div,
+/* ---------- Cartes OSM, Shabbat, liens ---------- */ .carte-osm,
+.shabbat,
+.hub-carte,
+.wa-flottant,
+.dk-cartes > li,
+.dk-liens > a,
+/* note : une section d'un seul paragraphe */ .dk-note p,
+.dk-suite > li,
+.dk-vig,
+.dk-preuves li,
+.dk-recit h2 + p,
+/* mini-dessins a la place des pictos au trait (choix operateur du 12/10) */ .dk-des,
+.ac-preuves li,
+.ac-stations a,
+.ac-chalet-photos img,
+.ac-saisons > div,
+.ac-lyon-photo img,
+.dm-bloc,
+.dm-chips label,
+.dm-champ input,.dm-champ select,.dm-champ textarea,
+.dm-champ textarea,
+.minyan-corps,
+/* offre van (14/10) : photo en tete de page et bande de l'accueil */ .pratique-tete.tete-photo img.photo-hero,
+.pratique-tete.tete-photo img.photo-hero.illus-hero,
+.ac-van,
+.btn-hero,
+.kashrut-badge,
+.lead3-bloc,
+.lead-hero3 .btn-hero,
+.lead-puces li,
+.lead-cartes figure,
+.lead-wp,
+.lead-final .chercheur,
+.lead-final .chercheur label,
+.lead-final .chercheur input,
+.demande .dm-chips.mini label,
+.dm-auto,
+details.dm-recap,
+.dm-barre,
+.dm-barre i,
+.dm-noscript,
+.dm-intention,
+.dm-tuile,
+.dm-puces li,
+.dm-recap-liste .dm-edit,
+.dm-retour,
+.dm-note,
+.demande .dm-chips label,
+.demande .dm-chips .dm-ic-txt,
+.demande .dm-chips label::before,
+.dm-pli-n,
+.demande .dm-chips:not(.mini) label,
+.sh-moment,
+.ac-chalet > .ac-wp,
+/* ===MESURE=== */ .cb,
+.cb button,
+/* ===/MESURE=== */ /* ===MENU=== */ .nav .liens a.nav-cta,
+.panneau nav a.nav-cta,
+.panneau-st a,
+#chercheur label,
+#chercheur input,#chercheur select,
+.hub-grille .hub-carte,
+.galerie-rail img,
+.lead-cartes img,
+#trips .ac-portes .photo,
+.kwp-diapo-cadre,
+.kwp-carte,
+.kwp-casher,
+.kwp-bandeau,
+.kwp-stations,
+.kwp-pastilles a,
+.kwp-v,
+.kwp-v img,
+.nav-ch-v img,
+.nav .liens .nav-ch-menu,
+.nav .liens .nav-ch-v,
+/* ---- bouton Plan your trip flottant, a gauche du WhatsApp (Moshe 19/10) ---- */ .pyt-flottant,
+.of-carte,
+.of-btn,
+.gal-btn{border-radius:0}
+/* Boutons : capitales espacées, 48 px. */
+.btn-noir,.btn-hero,.cta-hero,.cta-pratique,.cta-etapes,.nav .liens a.nav-cta,.panneau nav a.nav-cta,.pill-noir,.cb button,.demande button,.lead-final button,.lead-plan a,form button{font-family:'Heebo',sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;min-height:48px}
+.panneau nav a.nav-cta{font-size:13px;padding:0 24px;min-height:56px}
+.nav .liens a{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:500}
+.nav .liens a.nav-cta{background:transparent;border:1px solid var(--encre);color:var(--encre)}
+.nav .burger{background:transparent;border:0}
+/* Langues en codes, plus de drapeaux (règle n° 1 : jamais le drapeau). */
+.langue img{display:none}.langue .code{display:inline}
+.langue summary{background:transparent;border:1px solid var(--encre);font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:500}
+.langue ul{box-shadow:none;border:1px solid var(--encre)}
+/* Bande du haut et pied : encre. */
+.strip{background:var(--encre)}
+/* Bandeau cookies : une ligne, sans ombre, au-dessus de la barre basse. */
+.cb{left:0;right:0;bottom:0;max-width:none;border:0;border-top:1px solid rgba(20,20,22,.15);box-shadow:none;padding:10px 16px;font-size:13px;gap:8px 16px}
+.cb button{min-width:0;min-height:36px;padding:0 14px;font-size:11px}
+@media (max-width:899px){.cb{bottom:56px}.cb-b{width:auto}.cb p{flex:1 1 160px}}
+/* Barre basse téléphone : WhatsApp | Plan your trip. */
+.barre-basse{display:none}
+@media (max-width:899px){
+  body{padding-bottom:56px}
+  .wa-flottant,.pyt-flottant{display:none!important}
+  .barre-basse{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1fr;height:56px;border-top:1px solid rgba(255,255,255,.12)}
+  .barre-basse a{display:flex;align-items:center;justify-content:center;gap:8px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;text-decoration:none;overflow:hidden;white-space:nowrap}
+  .barre-basse .bb-wa{background:var(--encre);color:var(--creme)}
+  .barre-basse .bb-wa svg{width:20px;height:20px;fill:#25D366;flex:none}
+  .barre-basse .bb-plan{background:var(--jaune);color:var(--encre)}
+  body:has(#formDemande) .barre-basse{display:none}
+}
+/* ===/LUXE=== */
