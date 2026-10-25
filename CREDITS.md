@@ -1,4 +1,4 @@
-# Crédits photo v3 (Wikimedia Commons, licence lue par l'API le 05/10/2026)
+# Crédits photo v4 (Wikimedia Commons, licence lue par l'API le 05/10/2026 ; 5 photos de Lyon remplacées le 25/10/2026, 10 autres retouchées en lumière par Gemini sans changement de scène)
 
 | Fichier | Titre Commons | Licence | Auteur | Source |
 |---|---|---|---|---|
@@ -11,16 +11,16 @@
 | img/stock/lyon-partdieu.jpg | File:Gare Part-Dieu (Lyon).jpg | CC0 | Sylvie burr | https://commons.wikimedia.org/wiki/File%3AGare_Part-Dieu_%28Lyon%29.jpg |
 | img/stock/hallah.jpg | File:Challah - November 2024 - Sarah Stierch 02.jpg | CC0 | Missvain | https://commons.wikimedia.org/wiki/File%3AChallah_-_November_2024_-_Sarah_Stierch_02.jpg |
 | img/stock/lyon-tetedor.jpg | File:Lyon 6e - Parc de la Tête d'Or - Lac - Pédalos.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File%3ALyon_6e_-_Parc_de_la_T%C3%AAte_d%27Or_-_Lac_-_P%C3%A9dalos.jpg |
-| img/c-synagogue-4.jpg | File:Grande Synagogue Lyon PA00117987 2.jpg | CC BY-SA 3.0 | Alexmar983 | https://commons.wikimedia.org/wiki/File:Grande_Synagogue_Lyon_PA00117987_2.jpg |
+| img/c-synagogue-4.jpg | File:Lyon Grande Synagogue Maison 2.jpg | CC BY-SA 4.0 | Zairon | https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_2.jpg |
 | img/c-synagogue-7.jpg | File:Lyon Grande Synagogue Maison 1.jpg | CC BY-SA 4.0 | Zairon | https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_1.jpg |
 | img/c-synagogue-8.jpg | File:Lyon Grande Synagogue Maison 2.jpg | CC BY-SA 4.0 | Zairon | https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_2.jpg |
-| img/c-chrd-1.jpg | File:Centre d'histoire de la résistance et de la déportation (2018).JPG | CC0 | Benoît Prieur | https://commons.wikimedia.org/wiki/File:Centre_d'histoire_de_la_résistance_et_de_la_déportation_(2018).JPG |
-| img/c-traboule-1.jpg | File:Lyon - Tour Rose du Vieux Lyon.jpg | CC BY-SA 4.0 | SYLOU94 | https://commons.wikimedia.org/wiki/File:Lyon_-_Tour_Rose_du_Vieux_Lyon.jpg |
+| img/c-chrd-1.jpg | File:Lyon 7e - Centre d'Histoire de la Résistance et de la Déportation - Premier couloir de l'exposition permanente.jpg | CC0 | Romainbehar | https://commons.wikimedia.org/wiki/File:Lyon_7e_-_Centre_d%27Histoire_de_la_R%C3%A9sistance_et_de_la_D%C3%A9portation_-_Premier_couloir_de_l%27exposition_permanente.jpg |
+| img/c-traboule-1.jpg | File:Longue traboule Lyon 6.jpg | CC BY-SA 4.0 | Chabe01 | https://commons.wikimedia.org/wiki/File:Longue_traboule_Lyon_6.jpg |
 | img/c-juiverie-3.jpg | File:Lyon 5e - Rue Juiverie - Plaque.jpg | CC BY-SA 4.0 | Sebleouf | https://commons.wikimedia.org/wiki/File:Lyon_5e_-_Rue_Juiverie_-_Plaque.jpg |
 | img/c-juiverie-5.jpg | File:Rue Juiverie, Vieux Lyon.jpg | CC BY-SA 4.0 | Sgroey | https://commons.wikimedia.org/wiki/File:Rue_Juiverie,_Vieux_Lyon.jpg |
 | img/c-montluc-1.jpg | File:Interior National Memorial Prison of Montluc in Lyon France horizontal shot.jpg | CC BY 3.0 | Tim Adams | https://commons.wikimedia.org/wiki/File:Interior_National_Memorial_Prison_of_Montluc_in_Lyon_France_horizontal_shot.jpg |
-| img/c-izieu-4.jpg | File:Maison Enfants Izieu 5.jpg | CC BY-SA 4.0 | Chabe01 | https://commons.wikimedia.org/wiki/File:Maison_Enfants_Izieu_5.jpg |
-| img/c-izieu-8.jpg | File:Vue de la maison d'Izieu en 2019.jpg | CC0 | Benoît Prieur | https://commons.wikimedia.org/wiki/File:Vue_de_la_maison_d'Izieu_en_2019.jpg |
+| img/c-izieu-4.jpg | File:Image aérienne de la maison d'Izieu, septembre 2019 (8).JPG | CC0 | Benoît Prieur | https://commons.wikimedia.org/wiki/File:Image_a%C3%A9rienne_de_la_maison_d%27Izieu,_septembre_2019_(8).JPG |
+| img/c-izieu-8.jpg | File:Intérieur de la Maison d'Izieu - salle de classe (1er étage).jpg | CC0 | Benoît Prieur | https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_de_la_Maison_d%27Izieu_-_salle_de_classe_(1er_%C3%A9tage).jpg |
 
 
 ## Illustrations et drapeaux (v4, 05/10/2026)

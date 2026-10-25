@@ -63,7 +63,7 @@ def selector(h, page, lang):
         n, flag, la, d = names[l]
         cur = ' aria-current="true"' if l == lang else ""
         items.append(f'<li><a href="{link(l)}"{cur}{la}{d}><img class="drapeau" src="/img/flags/{flag}.svg" alt="" width="20" height="20">{n}</a></li>')
-    new = (f'<details class="langue">\n      <summary aria-label="Language: {cur_name}"><img class="drapeau" src="/img/flags/{cur_flag}.svg" alt="" width="20" height="20"><span class="code">{lang.upper()}</span></summary>\n      <ul>\n        '
+    new = (f'<details class="langue">\n      <summary aria-label="{lang.upper()}, language: {cur_name}"><img class="drapeau" src="/img/flags/{cur_flag}.svg" alt="" width="20" height="20"><span class="code">{lang.upper()}</span></summary>\n      <ul>\n        '
            + "\n        ".join(items) + "\n      </ul>\n    </details>")
     return re.sub(r'<details class="langue">.*?</details>', new, h, flags=re.S)
 

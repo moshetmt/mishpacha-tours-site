@@ -234,7 +234,7 @@ body.menu-ouvert{overflow:hidden}
 .pied .logo-pied .mot{color:var(--creme);font-size:34px}
 .pied .logo-pied small{width:100%;font-size:13px;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
 .pied .legal{font-size:13px;line-height:1.7;opacity:.85}
-.pied .legal a{text-decoration:underline;margin-right:14px}
+.pied .legal a{text-decoration:underline;margin-right:14px;display:inline-block;white-space:nowrap;padding:3px 0}
 .pied .bandeau-pied{margin-top:28px;font-size:12px;letter-spacing:.14em;font-weight:600}
 .pied .bandeau-pied [lang="he"]{display:block;letter-spacing:.04em;font-size:14px;margin-top:4px}
 
@@ -1989,3 +1989,6 @@ body:has(.ac-hero) .ticket-zone{margin-top:24px}
   body:has(#formDemande) .barre-basse{display:none}
 }
 /* ===/LUXE=== */
+
+/* accessibilite 25/10 : contraste des libelles du chercheur (Lighthouse 3.53 et 2.91 -> >= 4.5) */
+#chercheur label span,.cherche-bar .chercheur label span,#chercheur small,.cherche-bar .chercheur small{opacity:1;color:#625E57}
