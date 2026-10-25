@@ -49,6 +49,8 @@ h1 i,h2 i,h3 i{{font-style:normal}}
 @media (max-width:899px){{.cb{{bottom:56px}}.cb-b{{width:auto}}.cb p{{flex:1 1 auto;min-width:0}}}}
 /* Ordinateur : les boutons flottants passent au-dessus du bandeau tant qu'il est affiché. */
 @media (min-width:900px){{body:has(.cb:not([hidden])) :is(.wa-flottant,.pyt-flottant){{bottom:64px}}}}
+/* Picto WhatsApp du bouton flottant : couleur du texte, jamais jaune ni vert (Moshé 25/10). */
+.wa-flottant svg{{fill:currentColor}}
 /* Menu plein écran (lot 2) : cinq entrées, sous-titre, bouton, contact, langues. */
 .panneau{{background:var(--creme);padding:16px var(--pad) 32px;display:flex;flex-direction:column}}
 .panneau[hidden]{{display:none}}
