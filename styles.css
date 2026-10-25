@@ -234,7 +234,7 @@ body.menu-ouvert{overflow:hidden}
 .pied .logo-pied .mot{color:var(--creme);font-size:34px}
 .pied .logo-pied small{width:100%;font-size:13px;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
 .pied .legal{font-size:13px;line-height:1.7;opacity:.85}
-.pied .legal a{text-decoration:underline;margin-right:14px}
+.pied .legal a{text-decoration:underline;margin-right:14px;display:inline-block;white-space:nowrap}
 .pied .bandeau-pied{margin-top:28px;font-size:12px;letter-spacing:.14em;font-weight:600}
 .pied .bandeau-pied [lang="he"]{display:block;letter-spacing:.04em;font-size:14px;margin-top:4px}
 
