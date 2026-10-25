@@ -15,8 +15,8 @@ def webp(stem, w):
         im.resize((ww, round(im.height * ww / im.width)), Image.LANCZOS).save(dst, "WEBP", quality=80, method=6)
     return dst
 def balise(stem, W, H, alt, eager):
-    webp(stem, 640); webp(stem, 960)
-    return (f'<img src="/img/chalet/w/{stem}-960.webp" srcset="/img/chalet/w/{stem}-640.webp 640w, /img/chalet/w/{stem}-960.webp 960w, /img/chalet/{stem}.jpg {W}w" '
+    webp(stem, 640); webp(stem, 960); webp(stem, 1280)
+    return (f'<img src="/img/chalet/w/{stem}-960.webp" srcset="/img/chalet/w/{stem}-640.webp 640w, /img/chalet/w/{stem}-960.webp 960w, /img/chalet/w/{stem}-1280.webp 1280w, /img/chalet/{stem}.jpg {W}w" '
             f'sizes="100vw" alt="{alt}" width="{W}" height="{H}" loading="{"eager" if eager else "lazy"}" decoding="async">')
 pages = 0; photos = set()
 for p in glob.glob("**/index.html", recursive=True):

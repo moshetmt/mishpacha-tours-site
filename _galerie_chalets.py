@@ -186,7 +186,7 @@ def bloc_hero(lang, c, hero_attrs):
             imgs.append(f'<img {hero_attrs} alt="{e(nom)}" loading="lazy" decoding="async">')
         else:
             w, h = dim(s)   # WebP 640/960 dans img/chalet/w/ (produits par _rail_leger.py) ; 3 premières en eager : la 3e photo restait noire sur iPhone (25/10)
-            imgs.append(f'<img src="/img/chalet/w/{s}-960.webp" srcset="/img/chalet/w/{s}-640.webp 640w, /img/chalet/w/{s}-960.webp 960w, /img/chalet/{s}.jpg {w}w" sizes="100vw" alt="{e(nom)}" width="{w}" height="{h}" loading="{"eager" if i <= 3 else "lazy"}" decoding="async">')
+            imgs.append(f'<img src="/img/chalet/w/{s}-960.webp" srcset="/img/chalet/w/{s}-640.webp 640w, /img/chalet/w/{s}-960.webp 960w, /img/chalet/w/{s}-1280.webp 1280w, /img/chalet/{s}.jpg {w}w" sizes="100vw" alt="{e(nom)}" width="{w}" height="{h}" loading="{"eager" if i <= 3 else "lazy"}" decoding="async">')
     btn = (f'<button type="button" class="gal-btn" data-gal-open aria-haspopup="dialog" aria-controls="galerie">'
            f'<span class="gal-l">{e(TXT["voir"][lang])}</span><span class="gal-c">{e(TXT["court"][lang])}</span> ({n})</button>')
     return (f'<!--GALERIE:hero--><div class="gal-rail" role="group" aria-roledescription="carousel" aria-label="{e(nom)}" data-n="{n}">{"".join(imgs)}</div>'
