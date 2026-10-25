@@ -163,3 +163,13 @@
 | img/stock/hub-kosher-courmayeur.jpg | File:Mont Blanc depuis Val Ferret.jpg | cc-by-sa-4.0 | Davide Tomatis | https://commons.wikimedia.org/wiki/File%3AMont_Blanc_depuis_Val_Ferret.jpg |
 | img/stock/st-cortina.jpg | File:Cortina d'Ampezzo - Comune di Cortina d'Ampezzo - 2023-09-27 15-35-37 012.jpg | cc-by-sa-4.0 | Acquario51 | https://commons.wikimedia.org/wiki/File%3ACortina_d%27Ampezzo_-_Comune_di_Cortina_d%27Ampezzo_-_2023-09-27_15-35-37_012.jpg |
 | img/stock/hub-kosher-cortina.jpg | File:Cortina d'Ampezzo - Comune di Cortina d'Ampezzo - 2023-09-27 15-35-37 012.jpg | cc-by-sa-4.0 | Acquario51 | https://commons.wikimedia.org/wiki/File%3ACortina_d%27Ampezzo_-_Comune_di_Cortina_d%27Ampezzo_-_2023-09-27_15-35-37_012.jpg |
+
+
+## Accueil « rêve » (25/10/2026)
+
+| Fichier | Source | Licence |
+|---|---|---|
+| img/reve/ski.jpg | Pexels, photo 15318901 (Vome) | Licence Pexels, usage commercial libre, sans crédit obligatoire |
+| img/reve/traineau.jpg | Pexels, photo 5619157 | Licence Pexels, usage commercial libre, sans crédit obligatoire |
+| img/reve/table.jpg | Image générée (Gemini 3 pro image, 25/10/2026) à partir de la salle à manger du chalet des Deux Alpes | Production Mishpacha Tours |
+| img/reve/chef.jpg | Image générée (Gemini 3 pro image, 25/10/2026) à partir de la cuisine du chalet | Production Mishpacha Tours |
