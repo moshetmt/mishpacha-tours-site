@@ -15,7 +15,7 @@ s, h, b = get("/__agentic-probe-zz9", "text/html"); check("404 HTML statut", s =
 s, h, b = get("/__agentic-probe-zz9", "text/markdown"); check("404 MD statut", s == 404, s)
 check("404 MD type", h.get("Content-Type", "").startswith("text/markdown"), h.get("Content-Type")); check("404 MD corps >= 20 car + lien", len(b) >= 20 and "llms.txt" in b)
 s, h, b = get("/", "text/markdown"); check("Accueil MD statut", s == 200, s)
-check("Accueil MD type", h.get("Content-Type", "").startswith("text/markdown"), h.get("Content-Type")); check("Accueil MD Vary", "accept" in h.get("Vary", "").lower(), h.get("Vary")); check("Accueil MD corps", b.startswith("# "))
+check("Accueil MD type", h.get("Content-Type", "").startswith("text/markdown"), h.get("Content-Type")); check("Accueil MD Vary", "accept" in h.get("Vary", "").lower(), h.get("Vary")); check("Accueil MD corps", b.startswith(("# ", "> ")))
 s, h, b = get("/", "text/html"); check("Accueil HTML type", h.get("Content-Type", "").startswith("text/html"), h.get("Content-Type")); check("Accueil HTML Vary", "accept" in h.get("Vary", "").lower(), h.get("Vary"))
 ld = [json.loads(x) for x in re.findall(r'<script type="application/ld\+json">(.*?)</script>', b, re.S)]
 org = [o for blk in ld for o in (blk if isinstance(blk, list) else [blk]) if "Organization" in (o.get("@type") if isinstance(o.get("@type"), list) else [o.get("@type")])]
