@@ -87,3 +87,20 @@
 
   if (location.hash === '#photos') ouvrir();
 })();
+
+/* Rail du héros (25/10) : au défilement, les 3 photos suivantes passent en chargement immédiat,
+   sinon Safari les laisse noires jusqu'au téléchargement complet. */
+(function () {
+  var rail = document.querySelector('.gal-rail');
+  if (!rail) return;
+  var imgs = [].slice.call(rail.querySelectorAll('img'));
+  function avance() {
+    var w = rail.clientWidth || 1;
+    var i = Math.round(Math.abs(rail.scrollLeft) / w);
+    for (var k = i; k <= i + 3 && k < imgs.length; k++) {
+      if (imgs[k].loading === 'lazy') imgs[k].loading = 'eager';
+    }
+  }
+  rail.addEventListener('scroll', avance, { passive: true });
+  rail.addEventListener('touchstart', avance, { passive: true });
+})();

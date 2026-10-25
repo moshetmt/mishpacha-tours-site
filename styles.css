@@ -1992,3 +1992,6 @@ body:has(.ac-hero) .ticket-zone{margin-top:24px}
 
 /* accessibilite 25/10 : contraste des libelles du chercheur (Lighthouse 3.53 et 2.91 -> >= 4.5) */
 #chercheur label span,.cherche-bar .chercheur label span,#chercheur small,.cherche-bar .chercheur small{opacity:1;color:#625E57}
+/* 25/10, retour de Mendel : sur téléphone la photo du héros (villa, stations, chalets) n'apparaissait que sur 88 px au-dessus du panneau sombre.
+   La photo occupe maintenant la première moitié de l'écran, le panneau commence dessous. */
+@media (max-width:899px){body .lead-hero3:not(.lead-hero3-illus) .lead3-texte{padding-top:clamp(300px,56svh,460px)}}
