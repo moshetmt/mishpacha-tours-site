@@ -1995,3 +1995,11 @@ body:has(.ac-hero) .ticket-zone{margin-top:24px}
 /* 25/10, retour de Mendel : sur téléphone la photo du héros (villa, stations, chalets) n'apparaissait que sur 88 px au-dessus du panneau sombre.
    La photo occupe maintenant la première moitié de l'écran, le panneau commence dessous. */
 @media (max-width:899px){body .lead-hero3:not(.lead-hero3-illus) .lead3-texte{padding-top:clamp(300px,56svh,460px)}}
+
+/* Accueil « rêve » (25/10) : bande de 4 visuels sous le chercheur */
+body:has(.ac-hero) .ss.reve{margin-top:0;padding:14px 0 0;background:var(--creme,#FAF6F0)}
+.reve-grille{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.reve-grille figure{margin:0;position:relative;aspect-ratio:4/5;overflow:hidden;background:#1C1B1F}
+.reve-grille img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.reve-grille figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;color:#FFFAED;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;background:linear-gradient(180deg,rgba(20,19,22,0),rgba(20,19,22,.72))}
+@media (min-width:900px){.reve-grille{grid-template-columns:repeat(4,1fr);gap:14px}.reve-grille figure{aspect-ratio:3/4}.reve-grille figcaption{font-size:13px;padding:44px 18px 16px}}
