@@ -43,9 +43,10 @@ h1 i,h2 i,h3 i{{font-style:normal}}
 /* Bande du haut et pied : encre. */
 .strip{{background:var(--encre)}}
 /* Bandeau cookies : une ligne, sans ombre, au-dessus de la barre basse. */
-.cb{{left:0;right:0;bottom:0;max-width:none;border:0;border-top:1px solid rgba(20,20,22,.15);box-shadow:none;padding:10px 16px;font-size:13px;gap:8px 16px}}
-.cb button{{min-width:0;min-height:36px;padding:0 14px;font-size:11px}}
-@media (max-width:899px){{.cb{{bottom:56px}}.cb-b{{width:auto}}.cb p{{flex:1 1 160px}}}}
+.cb{{left:0;right:0;bottom:0;max-width:none;border:0;border-top:1px solid rgba(20,20,22,.15);box-shadow:none;padding:8px 16px;font-size:12px;line-height:1.35;gap:6px 12px;flex-wrap:nowrap}}
+.cb button{{min-width:0;min-height:32px;padding:0 10px;font-size:10px;letter-spacing:.1em}}
+.cb-b{{display:flex;gap:6px;flex:none}}
+@media (max-width:899px){{.cb{{bottom:56px}}.cb-b{{width:auto}}.cb p{{flex:1 1 auto;min-width:0}}}}
 /* Menu plein écran (lot 2) : cinq entrées, sous-titre, bouton, contact, langues. */
 .panneau{{background:var(--creme);padding:16px var(--pad) 32px;display:flex;flex-direction:column}}
 .panneau[hidden]{{display:none}}
@@ -54,7 +55,7 @@ h1 i,h2 i,h3 i{{font-style:normal}}
 .panneau nav a.nav-cta{{margin-top:28px;border:0;background:var(--jaune);color:var(--encre)}}
 .panneau nav a.nav-cta-wa{{margin-top:10px;background:var(--encre);color:var(--creme)}}
 .panneau-wa{{margin-top:24px;font-size:15px;font-weight:400}}
-.panneau-wa svg{{width:20px;height:20px;fill:#25D366}}
+.panneau-wa svg{{width:20px;height:20px;fill:var(--encre)}}
 .panneau-bas{{margin-top:8px;font-size:14px;color:#6E6A62;line-height:1.7}}
 .panneau-bas a{{display:block;color:var(--encre);text-decoration:none}}
 .panneau-langs{{display:flex;gap:20px;margin-top:14px;font-size:12px;letter-spacing:.14em;font-weight:500}}
@@ -68,10 +69,11 @@ h1 i,h2 i,h3 i{{font-style:normal}}
 @media (min-width:900px){{.pied-stations p{{columns:3}}}}
 /* Accueil (lot 3) : la photo, cinq mots, un bouton ; chercheur en barre dessous. */
 .ac-hero{{min-height:calc(100svh - 116px);display:flex;align-items:flex-end}}
+body:has(.cb) .ac-hero{{min-height:calc(100svh - 190px)}}
 @media (min-width:900px){{.ac-hero{{min-height:calc(100vh - 72px)}}}}
 .ac-hero > img{{opacity:1}}
 .ac-hero::before{{background:linear-gradient(to top,rgba(10,10,12,.62) 0%,rgba(10,10,12,.18) 45%,rgba(10,10,12,0) 70%)}}
-.ac-hero .hero-texte{{display:block;width:100%;padding:0 var(--pad) 88px}}
+.ac-hero .hero-texte{{display:block;width:100%;padding:0 var(--pad) 84px}}
 .ac-hero .hero-texte p.hero-sous{{display:block!important;margin-top:12px}}
 .ac-hero .btn-hero{{width:auto}}
 .ac-hero h1{{font-size:44px;line-height:1.08;max-width:10em}}
@@ -106,7 +108,7 @@ h1 i,h2 i,h3 i{{font-style:normal}}
   .barre-basse{{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1fr;height:56px;border-top:1px solid rgba(255,255,255,.12)}}
   .barre-basse a{{display:flex;align-items:center;justify-content:center;gap:8px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;text-decoration:none;overflow:hidden;white-space:nowrap}}
   .barre-basse .bb-wa{{background:var(--encre);color:var(--creme)}}
-  .barre-basse .bb-wa svg{{width:20px;height:20px;fill:#25D366;flex:none}}
+  .barre-basse .bb-wa svg{{width:20px;height:20px;fill:var(--creme);flex:none}}
   .barre-basse .bb-plan{{background:var(--jaune);color:var(--encre)}}
   body:has(#formDemande) .barre-basse{{display:none}}
 }}
