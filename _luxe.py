@@ -46,6 +46,58 @@ h1 i,h2 i,h3 i{{font-style:normal}}
 .cb{{left:0;right:0;bottom:0;max-width:none;border:0;border-top:1px solid rgba(20,20,22,.15);box-shadow:none;padding:10px 16px;font-size:13px;gap:8px 16px}}
 .cb button{{min-width:0;min-height:36px;padding:0 14px;font-size:11px}}
 @media (max-width:899px){{.cb{{bottom:56px}}.cb-b{{width:auto}}.cb p{{flex:1 1 160px}}}}
+/* Menu plein écran (lot 2) : cinq entrées, sous-titre, bouton, contact, langues. */
+.panneau{{background:var(--creme);padding:16px var(--pad) 32px;display:flex;flex-direction:column}}
+.panneau[hidden]{{display:none}}
+.panneau nav a{{font-size:32px;line-height:1.15;padding:14px 0;border-bottom:1px solid #E2DCCF}}
+.panneau nav a small{{display:block;font-family:'Heebo',sans-serif;font-size:13px;font-weight:300;color:#6E6A62;letter-spacing:0;text-transform:none;margin-top:2px}}
+.panneau nav a.nav-cta{{margin-top:28px;border:0;background:var(--jaune);color:var(--encre)}}
+.panneau nav a.nav-cta-wa{{margin-top:10px;background:var(--encre);color:var(--creme)}}
+.panneau-wa{{margin-top:24px;font-size:15px;font-weight:400}}
+.panneau-wa svg{{width:20px;height:20px;fill:#25D366}}
+.panneau-bas{{margin-top:8px;font-size:14px;color:#6E6A62;line-height:1.7}}
+.panneau-bas a{{display:block;color:var(--encre);text-decoration:none}}
+.panneau-langs{{display:flex;gap:20px;margin-top:14px;font-size:12px;letter-spacing:.14em;font-weight:500}}
+.panneau-langs a{{display:inline;color:#6E6A62}}.panneau-langs a[aria-current]{{color:var(--encre)}}
+.panneau-st,.panneau-sec{{display:none}}
+.nav .menu{{width:auto;height:38px;padding:0 10px;background:transparent}}
+.nav .menu span{{box-shadow:0 -5px 0 var(--encre),0 5px 0 var(--encre)}}
+/* Pied : stations en liste texte (maillage). */
+.pied-stations summary{{cursor:pointer;font-weight:500}}
+.pied-stations p{{columns:2;column-gap:24px;margin-top:8px;font-size:14px;line-height:2}}
+@media (min-width:900px){{.pied-stations p{{columns:3}}}}
+/* Accueil (lot 3) : la photo, cinq mots, un bouton ; chercheur en barre dessous. */
+.ac-hero{{min-height:calc(100svh - 116px);display:flex;align-items:flex-end}}
+@media (min-width:900px){{.ac-hero{{min-height:calc(100vh - 72px)}}}}
+.ac-hero > img{{opacity:1}}
+.ac-hero::before{{background:linear-gradient(to top,rgba(10,10,12,.62) 0%,rgba(10,10,12,.18) 45%,rgba(10,10,12,0) 70%)}}
+.ac-hero .hero-texte{{display:block;width:100%;padding:0 var(--pad) 88px}}
+.ac-hero .hero-texte p.hero-sous{{display:block!important;margin-top:12px}}
+.ac-hero .btn-hero{{width:auto}}
+.ac-hero h1{{font-size:44px;line-height:1.08;max-width:10em}}
+.ac-hero h1 i{{display:none}}
+.ac-hero .hero-sous{{margin-top:12px;font-size:17px;max-width:22em;color:#F6F1E6}}
+.ac-hero .btn-hero{{display:inline-flex;align-items:center;justify-content:center;margin-top:24px;height:48px;padding:0 24px;background:var(--creme);color:var(--encre);border:1px solid var(--creme);text-decoration:none;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}}
+.cherche-bar{{position:relative;z-index:3;margin-top:-56px}}
+.cherche-bar .chercheur{{margin:0;padding:0;background:var(--blanc);border:1px solid #E2DCCF;gap:0;grid-template-columns:1fr}}
+.cherche-bar .chercheur > label,.cherche-bar .chercheur .duo label{{border:0;border-bottom:1px solid #E2DCCF;padding:10px 16px;min-height:56px}}
+.cherche-bar .chercheur .duo{{gap:0;grid-template-columns:1fr 1fr}}
+.cherche-bar .chercheur .duo label:first-child{{border-right:1px solid #E2DCCF}}
+.cherche-bar .chercheur label span{{font-size:10px;letter-spacing:.14em;color:#6E6A62;font-weight:500}}
+.cherche-bar .chercheur button{{min-height:56px;border:0;background:var(--encre);color:var(--creme)}}
+.cherche-bar .chercheur button svg{{display:none}}
+.cherche-bar .chercheur small{{padding:10px 0;color:#6E6A62}}
+@media (min-width:900px){{
+  .ac-hero h1{{font-size:72px;max-width:12em}}
+  .ac-hero .hero-texte{{padding:0 var(--pad) 120px}}
+  .ac-hero .hero-sous{{font-size:20px}}
+  .cherche-bar{{margin-top:-72px;max-width:1100px}}
+  .cherche-bar .chercheur{{grid-template-columns:1.2fr 1.6fr 1.2fr 220px;align-items:stretch}}
+  .cherche-bar .chercheur > label,.cherche-bar .chercheur .duo label{{border-bottom:0;border-right:1px solid #E2DCCF;min-height:72px}}
+  .cherche-bar .chercheur .duo label:last-child{{border-right:1px solid #E2DCCF}}
+  .cherche-bar .chercheur button{{min-height:72px}}
+  .cherche-bar .chercheur small{{grid-column:1/-1;text-align:left;padding:8px 16px}}
+}}
 /* Barre basse téléphone : WhatsApp | Plan your trip. */
 .barre-basse{{display:none}}
 @media (max-width:899px){{

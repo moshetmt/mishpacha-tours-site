@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Allègement des images (21/10/2026), sans changer l'apparence. Passe FINALE et idempotente : à relancer en dernier, après
-_zones.py, _kit_wp.py, _lead.py, _chalet_hero.py, _decor.py et _images_cartes.py (ils réécrivent les anciens chemins .jpg/.png).
+_zones.py, _kit_wp.py, _galerie_chalets.py, _lead.py, _chalet_hero.py, _decor.py et _images_cartes.py (ils réécrivent les anciens chemins .jpg/.png).
 Les originaux restent sur le disque ; les WebP sont de nouveaux fichiers, mêmes proportions, aucun recadrage, aucune métadonnée.
 
   1. vignettes des chalets (tiroir du menu, mini(), carte()) : img/chalet/min/<nom>-336.webp et -672.webp
@@ -16,7 +16,7 @@ ICI = os.path.dirname(os.path.abspath(__file__))
 os.chdir(ICI)
 CHECK = "--check" in sys.argv
 Q = 80
-CH = {"wp-ext-bleu": "chalet", "slope-facade": "chalet", "courchevel-ext": "chalet", "megeve-n0-apt-sejour": "chalet", "st-tropez-facade": "villa"}
+CH = {"wp-ext-bleu": "chalet", "slope-facade": "chalet", "courchevel-ext": "chalet", "megeve-n0-apt-sejour": "chalet", "valthorens-exterieur-neige": "chalet", "st-tropez-facade": "villa"}
 PRIS = {}   # destination -> source, pour détecter deux sources de même nom
 
 
