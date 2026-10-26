@@ -10,7 +10,7 @@ s = re.sub(r'(src|href)="(img/|styles\.css|js/)', r'\1="/\2', s)
 s = s.replace('href="./"', 'href="/preview/accueil-sombre/"')
 s = s.replace('<link rel="canonical"', '<meta name="robots" content="noindex, nofollow">\n<link rel="canonical"', 1)
 # logo : Winter Prestige en or, Mishpacha en « powered by » dessous
-s = s.replace('<img class="forme" src="/img/picto-hassid.svg" alt="" width="68" height="95"><span class="mot">mishpacha tours</span>',
+s = s.replace('<img class="forme" src="/img/picto-hassid.svg" alt="" width="68" height="95"><span class="mot" translate="no">mishpacha tours</span>',
               '<span class="wp-logo"><img src="/img/logo-winter-prestige-or.svg" alt="Winter Prestige" width="1144" height="328">'
               '<small>powered by <img src="/img/picto-hassid.svg" alt="" width="68" height="95"> mishpacha tours</small></span>', 1)
 CSS = '''

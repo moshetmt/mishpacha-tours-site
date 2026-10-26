@@ -2011,3 +2011,17 @@ body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
 /* Safari : en grille subgrid, la photo 3:2 débordait sur la 1re ligne de texte (page des chalets, ordinateur) */
 .kwp-cartes .kwp-carte>.kwp-photo{aspect-ratio:auto;height:0;padding-bottom:66.667%}
 @media (min-width:900px){body .kwp-cartes .kwp-corps>.kwp-lieu{margin-top:0;padding:14px 22px 0}.kwp-cartes .kwp-corps>h3:first-child{padding-top:22px}}
+
+/* ANDROID-26-10 */ /* retours Mendel sur Chrome Android 360 px */
+/* 1. La marque ne se traduit pas (translate="no") et ne touche jamais le bouton de langue. */
+.nav .logo{min-width:0;flex:0 1 auto}
+.nav .logo .mot{white-space:nowrap}
+@media (max-width:399.98px){.nav .logo .mot{font-size:24px}.nav .logo{gap:6px}}
+/* 2. Champs date : Chrome Android affiche « jj/mm/aaaa » plus un picto, trop large pour 133 px. */
+@media (max-width:480px){
+  #chercheur input[type=date],.lead-plan input[type=date],.cherche-bar .chercheur input[type=date]{padding-inline:10px;font-size:15px;font-variant-numeric:tabular-nums}
+  #chercheur input[type=date]::-webkit-calendar-picker-indicator,.lead-plan input[type=date]::-webkit-calendar-picker-indicator{width:16px;height:16px;margin:0;padding:0}
+}
+/* 3. Barre basse : le bouton doré prend plus de place et son texte peut passer sur deux lignes. */
+.barre-basse{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
+.barre-basse a{min-width:0;padding:0 8px;font-size:11px;letter-spacing:.1em;white-space:normal;text-align:center;line-height:1.2}
