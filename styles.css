@@ -2079,3 +2079,8 @@ body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
 @media (min-width:600px){.repas-prix .rp-cartes{grid-template-columns:repeat(2,1fr)}}
 @media (min-width:900px){.repas-prix .rp-cartes{grid-template-columns:repeat(3,1fr);gap:20px}.repas-prix .rp-carte b{font-size:22px}}
 .repas-prix .rp-cartes + .prix-table ul{margin-top:20px}
+
+/* ACCUEIL-VIDEO */ /* vidéo muette de la bannière d'accueil, posée sur la photo, fondu à l'entrée (Moshé 26/10) */
+.ac-hero > .ac-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1s ease;pointer-events:none}
+.ac-hero > .ac-video.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.ac-hero > .ac-video{display:none}}

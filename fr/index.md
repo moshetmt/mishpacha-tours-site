@@ -150,7 +150,7 @@ Vous venez chercher un conseil. Vous repartez avec un programme complet.
 
    Chef, transferts, Shabbat et fêtes sont réglés avant votre atterrissage. Un seul contact sur WhatsApp pendant tout le séjour.
 
-## Le Lyon juif, *sur la route*
+## Le patrimoine juif de Lyon, *sur la route*
 
 L'aéroport de Lyon est à environ deux heures des stations. Faites une halte en chemin : la seule visite qui vous fait entrer dans la Grande Synagogue de Lyon, avec une guide juive, pratiquante et membre de la communauté.
 

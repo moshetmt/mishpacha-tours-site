@@ -192,7 +192,7 @@ def page(L):
                 "בליון יש ארבע עונות של ממש. ימי החורף נשארים סביב 7 °C, עם כפור בערך עשרה לילות בחודש; ימי יולי מגיעים בממוצע ל-28 °C; אוקטובר הוא החודש הגשום ביותר. המספרים למטה הם ממוצעים של Météo-France לשנים 1991 עד 2020. בהמשך, תחזית חיה לשבעה ימים אומרת מה לעשות השבוע ומתי נכנסת השבת."),
         chips=[],
         illus="flat-stopover.png",
-        crumb=("../jewish-lyon-guide/", _("Jewish Lyon guide", "Guide du Lyon juif", "Guía del Lyon judío", "המדריך לליון היהודית")),
+        crumb=("../jewish-lyon-guide/", _("Jewish Lyon guide", "Guide juif de Lyon", "Guía del Lyon judío", "המדריך לליון היהודית")),
         sections=[
             dict(type="text", h2=_("Lyon weather <i>by season</i>", "La météo à Lyon <i>par saison</i>", "El tiempo en Lyon <i>por estaciones</i>", "מזג האוויר בליון <i>לפי עונות</i>"), html=seasons),
             dict(type="beige", h2=_("The twelve months, <i>in numbers</i>", "Les douze mois, <i>en chiffres</i>", "Los doce meses, <i>en cifras</i>", "שנים עשר החודשים, <i>במספרים</i>"), html=tab),
@@ -204,7 +204,7 @@ def page(L):
             dict(type="cta", txt=_("Want a Lyon visit and Shabbat planned around the weather?", "Envie d’une visite à Lyon et d’un Shabbat organisés selon le temps ?", "¿Quiere una visita a Lyon y un Shabat organizados según el tiempo?", "רוצים סיור בליון ושבת מתוכננים לפי מזג האוויר?"), msg=WA_MSG[L]),
         ],
         related=[("../things-to-do-in-lyon/", _("Things to do in Lyon", "Que faire à Lyon", "Qué hacer en Lyon", "מה לעשות בליון")),
-                 ("../tours/jewish-lyon/", _("Jewish Lyon tour, 2 h 30", "Visite du Lyon juif, 2 h 30", "Visita del Lyon judío, 2 h 30", "סיור ליון היהודית, שעתיים וחצי")),
+                 ("../tours/jewish-lyon/", _("Jewish Lyon tour, 2 h 30", "Visite du quartier juif de Lyon, 2 h 30", "Visita del Lyon judío, 2 h 30", "סיור ליון היהודית, שעתיים וחצי")),
                  ("../shabbat-in-lyon/", _("Shabbat in Lyon", "Shabbat à Lyon", "Shabat en Lyon", "שבת בליון")),
                  ("../where-to-stay-lyon-jewish-travellers/", _("Where to stay in Lyon", "Où loger à Lyon", "Dónde alojarse en Lyon", "איפה לישון בליון")),
                  ("../kosher-van-transfers/", _("Van and transfers", "Van et transferts", "Furgoneta y traslados", "ואן והסעות")),

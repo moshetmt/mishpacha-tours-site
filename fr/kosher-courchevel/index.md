@@ -94,7 +94,7 @@ Horaires calculés aux coordonnées de Courchevel.
 - **Depuis Lyon-Saint-Exupéry.** 2 h 10 sans circulation. Prévoyez plus un samedi ou sous la neige. Depuis Genève : demandez à votre chauffeur.
 - **Navettes.** L’aéroport recense des navettes de ski, avec correspondance à Moûtiers pour Courchevel (voir [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/)). Les transferts peuvent s’ajouter à un séjour sur mesure, sur devis.
 - **Courses casher avant la montée.** Les commerces sont à Lyon et à Villeurbanne : [courses casher à Lyon](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
-- **En chemin.** Une visite privée de 3 heures du Lyon juif : [l’Escale](https://mishpachatours.com/fr/tours/stopover/).
+- **En chemin.** Une visite privée de 3 heures du patrimoine juif de Lyon : [l’Escale](https://mishpachatours.com/fr/tours/stopover/).
 
 ## Sur la *carte*
 

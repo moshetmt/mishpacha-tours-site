@@ -2,9 +2,9 @@
 
 Source: https://mishpachatours.com/fr/jewish-lyon-guide/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Accueil](https://mishpachatours.com/fr/) / Guide du Lyon juif
+[Accueil](https://mishpachatours.com/fr/) / Guide juif de Lyon
 
-# Le Lyon juif, *le guide complet*
+# Le patrimoine juif de Lyon, *le guide complet*
 
 Tout ce dont un voyageur juif a besoin à Lyon et dans les Alpes, tenu à jour par une guide qui vit ici : où manger casher, où prier, quand le Shabbat entre, qui appeler. Chaque adresse provient du Beth Din, du Consistoire ou de la communauté elle-même, avec une carte et un numéro de téléphone.
 
@@ -133,7 +133,7 @@ De fin novembre à mai : chef, repas, Shabbat, fêtes, minyan à Val d’Isère
 
 Ouvrir](https://mishpachatours.com/fr/kosher-val-disere/)[### L'Escale, 3 heures
 
-Le Lyon juif et la Grande Synagogue entre votre vol et la montée en station. 390 € par groupe
+Le quartier juif et la Grande Synagogue de Lyon entre votre vol et la montée en station. 390 € par groupe
 
 Ouvrir](https://mishpachatours.com/fr/tours/stopover/)[### Séjours de ski casher
 
@@ -179,7 +179,7 @@ Ouvrir](https://mishpachatours.com/fr/maison-izieu/)
 
 ## Organiser le *voyage*
 
-[### Deux jours dans le Lyon juif
+[### Deux jours dans les lieux juifs de Lyon
 
 Un itinéraire construit autour des repas casher et du Shabbat
 
@@ -236,7 +236,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 

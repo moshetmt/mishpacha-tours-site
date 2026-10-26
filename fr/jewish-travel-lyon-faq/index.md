@@ -79,7 +79,7 @@ Groupes privés uniquement, jamais rejoints par des inconnus. Itinéraires et po
 
 Combien coûte une visite ?
 
-Le prix est par groupe, pas par personne. La visite Lyon juif et les visites Mémoire coûtent 290 € pour 1 à 4 personnes, plus 35 € par personne supplémentaire, de la 5e à la 10e. Voir [la visite Lyon juif](https://mishpachatours.com/tours/jewish-lyon/).
+Le prix est par groupe, pas par personne. La visite du quartier juif et les visites Mémoire coûtent 290 € pour 1 à 4 personnes, plus 35 € par personne supplémentaire, de la 5e à la 10e. Voir [la visite du quartier juif](https://mishpachatours.com/tours/jewish-lyon/).
 
 Dans quelles langues guidez-vous ?
 
@@ -95,7 +95,7 @@ Oui, gratuitement jusqu’à 24 heures avant l’heure de début.
 
 Peut-on vraiment entrer dans la Grande Synagogue ?
 
-Oui, lors des visites Lyon juif et Escale à Lyon. La synagogue est fermée aux visiteurs hors Journées du patrimoine, et l’entrée dépend de ses horaires d’ouverture et de l’autorisation de sécurité du jour. Votre guide confirme avant le début de la promenade.
+Oui, lors des visites Visite juive à Lyon et Escale à Lyon. La synagogue est fermée aux visiteurs hors Journées du patrimoine, et l’entrée dépend de ses horaires d’ouverture et de l’autorisation de sécurité du jour. Votre guide confirme avant le début de la promenade.
 
 ## Une question absente de cette liste ?
 
@@ -109,7 +109,7 @@ Réponse dans la journée, jamais le Shabbat.
 - [Où loger à Lyon](https://mishpachatours.com/fr/where-to-stay-lyon-jewish-travellers/)
 - [Traiteurs casher et repas de Shabbat](https://mishpachatours.com/fr/kosher-shabbat-meals-catering-lyon/)
 - [Mikvé à Lyon](https://mishpachatours.com/fr/mikveh-lyon/)
-- [Visite Lyon juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
 
 ## Prêts à *réserver* votre visite ?
 
@@ -121,7 +121,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 

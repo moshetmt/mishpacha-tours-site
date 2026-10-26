@@ -45,7 +45,7 @@ Horaires de prière
 :   Cha’harit le dimanche à 8 h, en semaine à 7 h. Min’ha et Arvit à 18 h 30.  
     Les horaires changent avec la saison. Vérifiez avant de venir.
 
-Fermée aux visiteurs en dehors des Journées du patrimoine. Mishpacha Tours est la seule visite qui vous y fait entrer, dans le cadre des visites Lyon juif et Escale à Lyon.
+Fermée aux visiteurs en dehors des Journées du patrimoine. Mishpacha Tours est la seule visite qui vous y fait entrer, dans le cadre des visites Visite juive à Lyon et Escale à Lyon.
 
 [Voir la visite](https://mishpachatours.com/fr/tours/jewish-lyon/)
 
@@ -142,7 +142,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 

@@ -96,7 +96,7 @@ Horaires calculés aux coordonnées de Grenoble.
 - **Depuis Lyon Part-Dieu en TER.** 1 h 23.
 - **Depuis Paris.** TGV direct en 3 h (SNCF Connect, trajet le plus court : 2 h 59).
 - **Aéroport de Grenoble-Alpes-Isère.** À Saint-Étienne-de-Saint-Geoirs, à 40 minutes de la ville par la route. Sa haute saison va de décembre à avril. Il n’y a pas de liaison ferroviaire.
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route. Courses casher avant la montée : [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route. Courses casher avant la montée : [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
 
 ## Grenoble *sur la carte*
 

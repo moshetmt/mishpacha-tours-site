@@ -92,7 +92,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 ## Pour *aller plus loin*
 
-- [L’Escale, 3 heures dans le Lyon juif](https://mishpachatours.com/fr/tours/stopover/)
+- [L’Escale, 3 heures dans les lieux juifs de Lyon](https://mishpachatours.com/fr/tours/stopover/)
 - [Lyon, la porte des Alpes : temps de route et courses](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/)
 - [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/)
 - [Des vacances casher dans les Alpes](https://mishpachatours.com/fr/kosher-vacation-french-alps/)

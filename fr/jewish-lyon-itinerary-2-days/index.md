@@ -2,11 +2,11 @@
 
 Source: https://mishpachatours.com/fr/jewish-lyon-itinerary-2-days/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Lyon juif en deux jours
+[Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Le patrimoine juif de Lyon en deux jours
 
-# Lyon juif en deux jours *un itinéraire construit autour des repas casher et du Shabbat*
+# Le patrimoine juif de Lyon en deux jours *un itinéraire construit autour des repas casher et du Shabbat*
 
-Deux jours couvrent le Lyon juif : le premier jour, 2 h 30 de marche rue Juiverie, dans la Grande Synagogue et rue Sainte-Catherine ; le second, une seule visite Mémoire, le CHRD ou Montluc, jamais les deux. Les repas casher se trouvent à Villeurbanne et dans le 6e arrondissement. Deux jours complets suffisent pour voir le Lyon juif qui compte : le quartier médiéval et la Grande Synagogue, puis les lieux de mémoire des années de guerre. Voici comment nous les organisons, avec où manger et quand s’arrêter pour le Shabbat.
+Deux jours couvrent le patrimoine juif de Lyon : le premier jour, 2 h 30 de marche rue Juiverie, dans la Grande Synagogue et rue Sainte-Catherine ; le second, une seule visite Mémoire, le CHRD ou Montluc, jamais les deux. Les repas casher se trouvent à Villeurbanne et dans le 6e arrondissement. Deux jours complets suffisent pour voir le patrimoine juif de Lyon qui compte : le quartier médiéval et la Grande Synagogue, puis les lieux de mémoire des années de guerre. Voici comment nous les organisons, avec où manger et quand s’arrêter pour le Shabbat.
 
 - 2 jours, 1 guide
 - Repas casher prévus
@@ -21,7 +21,7 @@ Deux jours couvrent le Lyon juif : le premier jour, 2 h 30 de marche rue Juiv
 - **Dormez près de la Presqu’île ou dans le 6e.** Les deux sont à courte distance à pied ou en métro des synagogues et de la plupart des restaurants casher. Voir [où dormir](https://mishpachatours.com/fr/where-to-stay-lyon-jewish-travellers/).
 - **Réservez tôt la Grande Synagogue.** L’entrée dépend des horaires d’ouverture et de l’autorisation de sécurité du jour ; nous la confirmons avec la réservation. C’est la seule chose à Lyon que vous ne pouvez pas voir par vous-même.
 
-## Jour 1 *Le Lyon juif, du Moyen Âge à aujourd’hui*
+## Jour 1 *Le patrimoine juif de Lyon, du Moyen Âge à aujourd’hui*
 
 **Matin, 2 h 30 à pied.** Le Vieux Lyon et la rue Juiverie, rue du quartier juif médiéval, puis, de l’autre côté du fleuve, la Grande Synagogue du quai Tilsitt, construite en 1864, où nous entrons. Nous terminons rue Sainte-Catherine, où le bureau de l’UGIF a subi une rafle en février 1943. C’est notre [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/).
 
@@ -78,7 +78,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 - [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/)
 - [Le guide juif complet de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/)
-- [Visite Lyon juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
 
 ## Prêts à *réserver* votre visite ?
 
@@ -90,7 +90,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 

@@ -78,7 +78,7 @@
 <main>
 
 <section class="hero ac-hero">
-  <img src="img/h/reve-table-960.webp" srcset="img/h/reve-table-640.webp 640w, img/h/reve-table-960.webp 960w, img/h/reve-table-1600.webp 1600w, img/h/reve-table-2400.webp 2400w" sizes="100vw" alt="A Shabbat table set in the chalet, with the Alps through the window" width="2400" height="1610" fetchpriority="high">
+  <img src="img/h/reve-table-960.webp" srcset="img/h/reve-table-640.webp 640w, img/h/reve-table-960.webp 960w, img/h/reve-table-1600.webp 1600w, img/h/reve-table-2400.webp 2400w" sizes="100vw" alt="A Shabbat table set in the chalet, with the Alps through the window" width="2400" height="1610" fetchpriority="high"><video class="ac-video" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
   <!--LUXE-HERO--><!--<div class="hero-texte">
     <h1>Strictly kosher holidays in the Alps.<br><i>Chalet, chef, Shabbat and minyan, organised for you.</i></h1>
     <p>Ski with your family, and leave the kosher part to us: a private chef, Shabbat and holidays in the resort, transfers from the airport, and Jewish Lyon on the way. One request, a day-by-day programme in return.</p>
@@ -205,5 +205,12 @@ if(matchMedia('(min-width:900px)').matches)document.querySelectorAll('.pied deta
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var msg=[c('lieu')?'Resort or place: '+c('lieu'):'',c('enfants')?'Children and babies: '+c('enfants'):''].filter(Boolean).join(' / ');var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes')+(c('enfants')?' adults + '+c('enfants'):' adults'),langue:c('langue'),nom:c('nom'),contact:(c('indicatif')+' '+c('tel').replace(/[^0-9]/g,'')).trim()+(c('email')?' / '+c('email'):''),message:msg,page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/merci/'})})();
 </script>
 <a class="wa-flottant" href="https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20a%20kosher%20holiday.%20Dates%3A%20%2F%20Adults%3A%20%2F%20Children%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
-<script src="/js/anim.js" defer></script></body>
+<script src="/js/anim.js" defer></script><script>/* ACCUEIL-VIDEO */(function(){var v=document.querySelector('.ac-video');if(!v)return;
+var c=navigator.connection||{};if(c.saveData||/(^|-)2g$/.test(c.effectiveType||'')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+function go(){var t=matchMedia('(max-width:899.98px)').matches?'tel':'pc',b='/img/video/accueil-'+t;
+var saf=/^((?!chrome|chromium|crios|android).)*safari/i.test(navigator.userAgent);
+var s2=document.createElement('source');s2.src=b+'.mp4';s2.type='video/mp4';v.appendChild(s2);v.load();
+v.addEventListener('playing',function(){v.classList.add('on')},{once:true});var p=v.play();if(p&&p.catch)p.catch(function(){});
+if('IntersectionObserver'in window)new IntersectionObserver(function(e){e[0].isIntersecting?v.play().catch(function(){}):v.pause()}).observe(v);}
+if(document.readyState==='complete')setTimeout(go,300);else addEventListener('load',function(){setTimeout(go,300)});})();</script></body>
 </html>

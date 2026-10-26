@@ -58,7 +58,7 @@ NEW = {
 "A van and driver on call": ("Chauffeur et van à disposition", "Chófer y van a disposición", "ואן ונהג לרשותכם"),
 "Activities": ("Activités", "Actividades", "פעילויות"),
 "Tick what tempts you. We arrange it all on site.": ("Cochez ce qui vous tente. Nous organisons tout sur place.", "Marque lo que le apetezca. Lo organizamos todo allí.", "סמנו מה שמושך אתכם. אנחנו מארגנים הכול במקום."),
-"Jewish Lyon walk (2.5 h)": ("Balade dans le Lyon juif (2,5 h)", "Paseo por el Lyon judío (2,5 h)", "הליכה בליון היהודית (2.5 שעות)"),
+"Jewish Lyon walk (2.5 h)": ("Balade dans le quartier juif de Lyon (2,5 h)", "Paseo por el Lyon judío (2,5 h)", "הליכה בליון היהודית (2.5 שעות)"),
 "Stopover (3 h) on the way": ("Escale (3 h) en chemin", "Escala (3 h) de camino", "עצירת ביניים (3 שעות) בדרך"),
 "Memory: Montluc, Neveh Shalom": ("Mémoire : Montluc, Neveh Shalom", "Memoria: Montluc, Neveh Shalom", "זיכרון: מונטלוק, נווה שלום"),
 "Day trip to Izieu": ("Excursion à Izieu", "Excursión a Izieu", "יום טיול לאיזייה"),
@@ -101,7 +101,7 @@ NEW = {
 "Services where we already stay (minyan, Sefer Torah, meals)": ("Services là où nous logeons déjà (minyan, Sefer Torah, repas)", "Servicios donde ya nos alojamos (minyan, Séfer Torá, comidas)", "שירותים במקום שבו אנחנו כבר לנים (מניין, ספר תורה, ארוחות)"),
 "A van transfer": ("Un transfert en van", "Un traslado en van", "הסעה בוואן"),
 "From point A to point B, with a driver.": ("D'un point A à un point B, avec chauffeur.", "De un punto A a un punto B, con conductor.", "מנקודה א׳ לנקודה ב׳, עם נהג."),
-"A Jewish Lyon tour": ("Une visite du Lyon juif", "Una visita del Lyon judío", "סיור בעקבות יהדות ליון"),
+"A Jewish Lyon tour": ("Une visite du quartier juif de Lyon", "Una visita del Lyon judío", "סיור בעקבות יהדות ליון"),
 "A guided walk in English, French or Spanish.": ("Une visite guidée en anglais, en français ou en espagnol.", "Una visita guiada en inglés, francés o español.", "סיור מודרך באנגלית, בצרפתית או בספרדית."),
 "Pesach or a holiday": ("Pessah ou une fête", "Pésaj o una fiesta", "פסח או חג"),
 "A full programme for the holiday, at the kosher standard you keep.": ("Un programme complet pour la fête, au niveau de cacherout que vous suivez.", "Un programa completo para la fiesta, con el nivel de kashrut que usted sigue.", "תוכנית מלאה לחג, ברמת הכשרות שאתם שומרים."),
@@ -318,7 +318,7 @@ SHORT = {
 'Calm for small children': (None, 'Calma para los pequeños', None),
 'Flights included in this budget': (None, 'Vuelos incluidos', None),
 'Ski-in ski-out or near the slopes': ('Skis aux pieds ou près des pistes', 'Acceso directo a pistas o cerca', 'צמוד למסלולים'),
-'Jewish Lyon walk (2.5 h)': ('Balade dans le Lyon juif (2,5 h)', 'Paseo por el Lyon judío (2,5 h)', 'סיור בליון (2.5 שעות)'),
+'Jewish Lyon walk (2.5 h)': ('Balade dans le quartier juif de Lyon (2,5 h)', 'Paseo por el Lyon judío (2,5 h)', 'סיור בליון (2.5 שעות)'),
 }
 for _k, _v in SHORT.items():
     _old = NEW.get(_k) or OLD.get(_k) or (None, None, None)

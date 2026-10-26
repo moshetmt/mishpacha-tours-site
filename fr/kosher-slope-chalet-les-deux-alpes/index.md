@@ -65,7 +65,7 @@ Strictement casher, tout ce qui est servi est 'Halav Yisrael. Les détails de la
 - **Depuis Lyon-Saint-Exupéry.** Environ 2 h 30 par la route. Depuis Genève, environ 3 h. Depuis Grenoble, environ 1 h 30.
 - **Transferts.** Des vans avec sièges enfant de l’aéroport au chalet, aller et retour, sur devis.
 - **Dans la station.** L'arrêt de la navette est à cent mètres de la porte ; la navette de Grenoble s'y arrête aussi.
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon entre l’avion et la route.
 
 ## Le chalet des pistes : *vos questions*
 

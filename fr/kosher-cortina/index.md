@@ -71,7 +71,7 @@ La surveillance est rarement indiquée : renseignez-vous avant de réserver.
 - **Depuis l’aéroport Marco Polo de Venise :** le choix habituel, environ 2 h par la route, de 150 à 190 km selon l’itinéraire. Atterrissez à Venise, louez une voiture ou réservez un transfert privé, et arrivez de jour en hiver. L’aéroport de Trévise est l’autre option en Vénétie ; demandez le temps de trajet à votre chauffeur.
 - **Depuis l’aéroport d’Innsbruck :** environ 165 km et de 2 h 15 à 2 h 30 par le Brenner et le val Pusteria. Un bon choix depuis l’Autriche ou l’Allemagne.
 - **Depuis Milan-Malpensa :** de 350 à 400 km environ, de 4 h 30 à 5 h. Ne le choisissez que si votre vol y atterrit.
-- **Depuis Lyon-Saint-Exupéry :** plus de 800 km et au moins 8 h 30 de route par le tunnel du Mont-Blanc, une journée entière avec le péage. Nous ne le recommandons pas pour une famille avec enfants. Arrivez plutôt par Venise ; une étape à Lyon en chemin est possible : [l’Escale](https://mishpachatours.com/fr/tours/stopover/), une visite privée de 3 heures du Lyon juif.
+- **Depuis Lyon-Saint-Exupéry :** plus de 800 km et au moins 8 h 30 de route par le tunnel du Mont-Blanc, une journée entière avec le péage. Nous ne le recommandons pas pour une famille avec enfants. Arrivez plutôt par Venise ; une étape à Lyon en chemin est possible : [l’Escale](https://mishpachatours.com/fr/tours/stopover/), une visite privée de 3 heures du patrimoine juif de Lyon.
 - **Frontières et routes :** la France, l’Italie et l’Autriche font toutes partie de l’espace Schengen, il n’y a donc pas de contrôle systématique des passeports entre elles, mais gardez vos passeports. Les autoroutes italiennes sont à péage ; les routes de montagne exigent des pneus hiver ou des chaînes de mi-novembre à mi-avril.
 
 ## Cortina *sur la carte*
@@ -121,7 +121,7 @@ Aucun à Cortina même. Un hôtel casher ouvert toute l’année existe ailleurs
 
 Quel est le moyen le plus simple d’arriver depuis la France ?
 
-Prenez l’avion jusqu’à Venise, puis comptez environ 2 h de route. Depuis Lyon, la route prend plus de 8 h 30 par le tunnel du Mont-Blanc. Si vous voulez voir le Lyon juif avant de partir, l’Escale le couvre en 3 heures.
+Prenez l’avion jusqu’à Venise, puis comptez environ 2 h de route. Depuis Lyon, la route prend plus de 8 h 30 par le tunnel du Mont-Blanc. Si vous voulez voir le patrimoine juif de Lyon avant de partir, l’Escale le couvre en 3 heures.
 
 Qui surveille la cacherout des repas ?
 

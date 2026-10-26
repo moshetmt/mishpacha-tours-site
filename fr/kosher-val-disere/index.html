@@ -116,8 +116,8 @@ function dd(s){return new Date(s).toLocaleDateString(C.loc,{weekday:"long",day:"
 function lire(d){var it=d.items||[];return{c:it.find(function(i){return i.category==="candles"}),h:it.find(function(i){return i.category==="havdalah"}),p:it.find(function(i){return i.category==="parashat"})}}
 function rendre(x,etat){var e=$("#m-entree"),s=$("#m-sortie"),ti=$(".sh-tt"),co=$(".shabbat-corps"),pa=x.p?"<small>"+x.p.title+"</small>":"",n=C.note?"<br><small>"+C.note+"</small>":"";
 e.hidden=false;s.hidden=false;$(".sh-moments").hidden=false;ti.textContent=C.mot;
-if(x.c){e.querySelector(".sh-d").textContent=(etat==="apres"?C.suiv+" \u00b7 ":"")+dd(x.c.date);e.querySelector("b").textContent=f(x.c.date)}else e.hidden=true;
-if(x.h){s.querySelector(".sh-d").textContent=dd(x.h.date);s.querySelector("b").textContent=f(x.h.date)}else s.hidden=true;
+if(x.c){e.querySelector(".sh-d").textContent=(etat==="apres"?C.suiv+" \u00b7 ":"")+dd(x.c.date);(e.querySelector("b")||e.querySelector(".sh-d").insertAdjacentElement("afterend",document.createElement("b"))).textContent=f(x.c.date)}else e.hidden=true;
+if(x.h){s.querySelector(".sh-d").textContent=dd(x.h.date);(s.querySelector("b")||s.querySelector(".sh-d").insertAdjacentElement("afterend",document.createElement("b"))).textContent=f(x.h.date)}else s.hidden=true;
 co.innerHTML=pa+n;
 if(etat==="pendant"){ti.textContent=C.paix;e.hidden=true;co.innerHTML=C.rep+"<br>"+pa+n}
 else if(etat==="apres")ti.textContent=C.tov}
@@ -132,7 +132,7 @@ rendre(x,x.c&&x.h&&t>=new Date(x.c.date)?"pendant":"avant")}).catch(function(){}
 <li><img class="dk dk-ico dk-des" src="/img/des/ticket.webp" alt="" width="96" height="96" loading="lazy"><b>En train.</b> Bourg-Saint-Maurice est la gare de la vallée. La station est ensuite à 32 km de route de montagne, soit 45 minutes en bus.</li>
 <li class="dk-lien1"><img class="dk dk-ico dk-des" src="/img/des/car.webp" alt="" width="96" height="96" loading="lazy"><b>Navettes.</b> Des navettes d’hiver partent de l’aéroport de Lyon ; le détail est sur <a href="/fr/lyon-gateway-to-the-alps-kosher/">Lyon, la porte des Alpes</a>. Les transferts peuvent s’ajouter à un séjour sur mesure, sur devis.</li>
 <li class="dk-lien1"><img class="dk dk-ico dk-des" src="/img/des/shopping-basket.webp" alt="" width="96" height="96" loading="lazy"><b>Courses casher avant la montée.</b> Lyon compte des commerces certifiés : <a href="/fr/lyon-gateway-to-the-alps-kosher/">quoi acheter et où</a>.</li>
-<li class="dk-lien1"><img class="dk dk-ico dk-des" src="/img/des/clock.webp" alt="" width="96" height="96" loading="lazy"><b>Vous atterrissez à Lyon avec quelques heures devant vous ?</b> <a href="/fr/tours/stopover/">L’Escale</a> : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.</li>
+<li class="dk-lien1"><img class="dk dk-ico dk-des" src="/img/des/clock.webp" alt="" width="96" height="96" loading="lazy"><b>Vous atterrissez à Lyon avec quelques heures devant vous ?</b> <a href="/fr/tours/stopover/">L’Escale</a> : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.</li>
 </ul></div></div><div class="ss beige"><div class="wrap"><h2 class="dk-h2"><img class="dk dk-h2img" src="/img/picto-hassid-vert.svg" alt="" width="120" height="120" loading="lazy">Le ski, <i>en bref</i></h2><ul class="dk-cartes">
 <li><img class="dk dk-ico dk-des" src="/img/des/snowflake.webp" alt="" width="96" height="96" loading="lazy"><b>Un seul domaine avec Tignes.</b> Le domaine Tignes-Val d’Isère, ancien Espace Killy, offre 300 km de pistes. Le point culminant, 3 456 m, se trouve côté Tignes, à la Grande Motte.</li>
 

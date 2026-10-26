@@ -74,7 +74,7 @@ La surveillance est rarement écrite noir sur blanc : renseignez-vous avant de 
 - **Depuis Sion :** environ 25 minutes en voiture, ou environ 50 minutes en car postal.
 - **Depuis Lyon-Saint-Exupéry :** de 3 h 30 à 3 h 45 par la route via Genève. Lyon convient aux vols long-courriers et à des courses casher avant de monter : [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
 - **Passage depuis la France :** munissez-vous d’un passeport ou d’une carte d’identité pour chaque voyageur, enfants compris, et achetez en ligne la vignette autoroutière suisse avant la frontière, l’A9 étant une autoroute à vignette.
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Crans-Montana *sur la carte*
 

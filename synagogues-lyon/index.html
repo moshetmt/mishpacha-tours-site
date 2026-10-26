@@ -98,8 +98,8 @@ function dd(s){return new Date(s).toLocaleDateString(C.loc,{weekday:"long",day:"
 function lire(d){var it=d.items||[];return{c:it.find(function(i){return i.category==="candles"}),h:it.find(function(i){return i.category==="havdalah"}),p:it.find(function(i){return i.category==="parashat"})}}
 function rendre(x,etat){var e=$("#m-entree"),s=$("#m-sortie"),ti=$(".sh-tt"),co=$(".shabbat-corps"),pa=x.p?"<small>"+x.p.title+"</small>":"",n=C.note?"<br><small>"+C.note+"</small>":"";
 e.hidden=false;s.hidden=false;$(".sh-moments").hidden=false;ti.textContent=C.mot;
-if(x.c){e.querySelector(".sh-d").textContent=(etat==="apres"?C.suiv+" \u00b7 ":"")+dd(x.c.date);e.querySelector("b").textContent=f(x.c.date)}else e.hidden=true;
-if(x.h){s.querySelector(".sh-d").textContent=dd(x.h.date);s.querySelector("b").textContent=f(x.h.date)}else s.hidden=true;
+if(x.c){e.querySelector(".sh-d").textContent=(etat==="apres"?C.suiv+" \u00b7 ":"")+dd(x.c.date);(e.querySelector("b")||e.querySelector(".sh-d").insertAdjacentElement("afterend",document.createElement("b"))).textContent=f(x.c.date)}else e.hidden=true;
+if(x.h){s.querySelector(".sh-d").textContent=dd(x.h.date);(s.querySelector("b")||s.querySelector(".sh-d").insertAdjacentElement("afterend",document.createElement("b"))).textContent=f(x.h.date)}else s.hidden=true;
 co.innerHTML=pa+n;
 if(etat==="pendant"){ti.textContent=C.paix;e.hidden=true;co.innerHTML=C.rep+"<br>"+pa+n}
 else if(etat==="apres")ti.textContent=C.tov}

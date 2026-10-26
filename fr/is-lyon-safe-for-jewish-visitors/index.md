@@ -70,7 +70,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 - [Voyager à Lyon : la FAQ sans détour](https://mishpachatours.com/fr/jewish-travel-lyon-faq/)
 - [La Grande Synagogue de Lyon](https://mishpachatours.com/fr/grande-synagogue-lyon/)
-- [Visite Lyon juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
 - [Synagogues à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)
 
 ## Prêts à *réserver* votre visite ?
@@ -83,7 +83,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 

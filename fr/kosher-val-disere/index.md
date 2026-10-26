@@ -82,7 +82,7 @@ Horaires calculés aux coordonnées de Val d’Isère.
 - **En train.** Bourg-Saint-Maurice est la gare de la vallée. La station est ensuite à 32 km de route de montagne, soit 45 minutes en bus.
 - **Navettes.** Des navettes d’hiver partent de l’aéroport de Lyon ; le détail est sur [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/). Les transferts peuvent s’ajouter à un séjour sur mesure, sur devis.
 - **Courses casher avant la montée.** Lyon compte des commerces certifiés : [quoi acheter et où](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Le ski, *en bref*
 

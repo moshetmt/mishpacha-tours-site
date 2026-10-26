@@ -64,7 +64,7 @@ Strictement casher, tout ce qui est servi est Chalav Yisrael. Les détails de la
 
 - **Depuis Lyon-Saint-Exupéry.** Environ 2 h 15 à 2 h 30 par la route. Depuis Genève, environ 2 h 30.
 - **Transferts.** Des vans avec sièges enfant de l’aéroport au chalet, aller et retour, sur devis.
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon entre l’avion et la route.
 
 Cette semaine
 

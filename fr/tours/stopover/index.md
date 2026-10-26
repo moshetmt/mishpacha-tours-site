@@ -1,4 +1,4 @@
-> Trois heures dans le Lyon juif pendant que votre transfert vous attend. Strictement casher, 390 € par groupe, de 1 à 5 personnes. Réservation sur WhatsApp.
+> Trois heures dans les lieux juifs de Lyon pendant que votre transfert vous attend. Strictement casher, 390 € par groupe, de 1 à 5 personnes. Réservation sur WhatsApp.
 
 Source: https://mishpachatours.com/fr/tours/stopover/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -6,7 +6,7 @@ Visite de ville
 
 [Accueil](https://mishpachatours.com/fr/) / [Visites](https://mishpachatours.com/fr/jewish-lyon-tours/#tours) / Escale à Lyon
 
-# Escale à Lyon *Trois heures dans le Lyon juif pendant que votre transfert vous attend*
+# Escale à Lyon *Trois heures dans les lieux juifs de Lyon pendant que votre transfert vous attend*
 
 Escale à Lyon est une marche privée de 3 heures dans le Vieux Lyon, Grande Synagogue comprise, pour 1 à 5 personnes à 390 € par groupe (+35 € par personne supplémentaire jusqu’à 10), guidée en anglais, en français ou en espagnol. Votre propre transfert vous reprend à la fin, et vous arrivez en station à l’heure. Votre propre transport vous dépose dans le Vieux Lyon et vous reprend au même endroit trois heures plus tard. Vos bagages restent dans le minibus ; vous entrez dans l’histoire juive de Lyon et dans la Grande Synagogue du quai Tilsitt, fermée au public en dehors des Journées du patrimoine.
 
@@ -39,7 +39,7 @@ Réponse dans la journée, jamais le Shabbat. Annulation gratuite jusqu’à 24 
 
    ### Le Vieux Lyon à pied
 
-   Nous parcourons l’histoire juive de la vieille ville médiévale, le même terrain que la visite Lyon juif, à un rythme conçu pour trois heures.
+   Nous parcourons l’histoire juive de la vieille ville médiévale, le même terrain que la visite du quartier juif, à un rythme conçu pour trois heures.
 3. **3**
 
    ### La Grande Synagogue
@@ -96,7 +96,7 @@ Oui, annulation gratuite jusqu’à 24 heures avant l’heure de début.
 
 [Visite de ville
 
-### Lyon juif
+### Visite juive à Lyon
 
 Un parcours privé dans l’histoire juive de Lyon, jusqu’à l’intérieur de la Grande Synagogue
 
@@ -130,7 +130,7 @@ Une journée à la Maison d’Izieu, à une heure de Lyon
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 

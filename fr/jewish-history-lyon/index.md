@@ -163,9 +163,9 @@ Réponse dans la journée, jamais le Shabbat.
 
 ## Pour *aller plus loin*
 
-- [Visite Lyon juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
 - [La Grande Synagogue de Lyon](https://mishpachatours.com/fr/grande-synagogue-lyon/)
-- [La rue Juiverie et le Lyon juif médiéval](https://mishpachatours.com/fr/rue-juiverie-lyon/)
+- [La rue Juiverie et le quartier juif médiéval de Lyon](https://mishpachatours.com/fr/rue-juiverie-lyon/)
 - [Synagogues et Shabbat à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)
 - [Visite Mémoire : le CHRD](https://mishpachatours.com/fr/tours/memory-chrd/)
 
@@ -179,7 +179,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 

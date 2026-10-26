@@ -86,7 +86,7 @@ Horaires calculés aux coordonnées de Courmayeur.
 - **Depuis Milan-Malpensa :** de 190 à 215 km environ, 2 h 30 ou plus selon la circulation. Aucun train ne dessert Courmayeur : la ligne s’arrête à Aoste, et un autocar couvre le dernier tronçon.
 - **Depuis l’aéroport de Lyon-Saint-Exupéry :** environ 3 heures par l’A43, l’A40 et le tunnel du Mont-Blanc, ce qui fait de Courmayeur l’une des stations italiennes les plus proches de Lyon. Lyon convient aux vols long-courriers et à des courses casher avant de monter : [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
 - **Passage de la frontière.** La France et l’Italie font partie de l’espace Schengen : aucun contrôle des passeports au tunnel, seulement le péage. Gardez tout de même vos passeports.
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Courmayeur *sur la carte*
 
