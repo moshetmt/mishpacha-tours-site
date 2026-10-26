@@ -42,9 +42,10 @@ Per person, per day. Starting prices, which depend on the resort and the season:
 - Shabbat: Friday night dinner**€45**
 - Shabbat: Saturday lunch**€40**
 - Seuda shlishit**€35**
+- Pizza night with a pizzaiolo, for groups**€35 per person, from €400**
+
 - Delivery every two days, any resort in France**€180 to €350**
 - Kashering the kitchen of the chalet you rent**from €680**
-- Pizza night with a pizzaiolo, for groups**€35 per person, from €400**
 
 Children up to 5: about 30% less. Delivery is charged per trip; when several groups stay in the same resort the same week, they share it. Order by Wednesday evening, pay in full when you order. A plata or a kumkum can be bought for Shabbat. Kosher supervision: Beth Habad de Grenoble Alpes, Rav Yehia Lahiany.
 

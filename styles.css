@@ -2069,3 +2069,13 @@ body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
 }
 .reve-grille .reve-lien:active figure{transform:scale(.98);transition:transform .15s ease}
 @media (prefers-reduced-motion:reduce){.reve-grille .reve-lien img,.reve-grille .reve-lien figcaption::after{transition:none}}
+
+/* REPAS-CARTES */ /* 26/10 Mendel : une photo par repas, cartes sur fond sombre */
+.repas-prix .rp-cartes{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:16px}
+.repas-prix .rp-carte{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;align-items:start;padding:0 0 16px;border:1px solid rgba(201,169,97,.3);overflow:hidden;background:rgba(250,247,240,.03)}
+.repas-prix .rp-carte img{grid-column:1/-1;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block;margin-bottom:12px}
+.repas-prix .rp-carte span{padding-inline:16px;opacity:.92;font-size:15px;line-height:1.4}
+.repas-prix .rp-carte b{padding-inline:16px;font-family:var(--titre);font-weight:300;font-size:19px;line-height:1.25;color:var(--jaune,#C9A961);text-align:start;text-wrap:balance}
+@media (min-width:600px){.repas-prix .rp-cartes{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:900px){.repas-prix .rp-cartes{grid-template-columns:repeat(3,1fr);gap:20px}.repas-prix .rp-carte b{font-size:22px}}
+.repas-prix .rp-cartes + .prix-table ul{margin-top:20px}

@@ -42,9 +42,10 @@ Por persona y por día. Son precios de partida, según la estación y la tempora
 - Shabat: cena del viernes**45 €**
 - Shabat: almuerzo del sábado**40 €**
 - Seudá shlishit**35 €**
+- Noche de pizza con pizzaiolo, para grupos**35 € por persona, desde 400 €**
+
 - Entrega cada dos días, cualquier estación de Francia**de 180 a 350 €**
 - Kasherización de la cocina del chalé que alquila**desde 680 €**
-- Noche de pizza con pizzaiolo, para grupos**35 € por persona, desde 400 €**
 
 Niños hasta 5 años: alrededor de un 30 % menos. La entrega se paga por viaje; cuando varios grupos están en la misma estación la misma semana, la comparten. Pedido a más tardar el miércoles por la noche, pago completo al hacer el pedido. Plata o kumkum a la venta para Shabat. Supervisión: Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
 
