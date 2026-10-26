@@ -2014,8 +2014,7 @@ body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
 
 /* ANDROID-26-10 */ /* retours Mendel sur Chrome Android 360 px */
 /* 1. La marque ne se traduit pas (translate="no") et ne touche jamais le bouton de langue. */
-.nav .logo{min-width:0;flex:0 1 auto}
-.nav .logo .mot{white-space:nowrap}
+@media (max-width:899.98px){.nav .logo{min-width:0;flex:0 1 auto}.nav .logo .mot{white-space:nowrap}}
 @media (max-width:399.98px){.nav .logo .mot{font-size:24px}.nav .logo{gap:6px}}
 /* 2. Champs date : Chrome Android affiche « jj/mm/aaaa » plus un picto, trop large pour 133 px. */
 @media (max-width:480px){
@@ -2056,3 +2055,17 @@ body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
   .lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 40%,rgba(255,244,214,.95) 50%,transparent 60%) no-repeat;background-size:250% 100%;background-position:120% 0;-webkit-mask:var(--logo) center/100% 100% no-repeat;mask:var(--logo) center/100% 100% no-repeat;animation:wp-reflet 7s ease-in-out 1.2s infinite}
 }
 @media (prefers-reduced-motion:reduce){.lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille::after{animation:none;display:none}}
+
+/* REVE-LIENS */ /* accueil : les 4 visuels sont des liens, zoom doux et flèche au survol (Moshé 26/10) */
+.reve-grille .reve-lien{display:block;color:inherit;text-decoration:none;border-radius:inherit;-webkit-tap-highlight-color:transparent}
+.reve-grille .reve-lien img{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.reve-grille .reve-lien figcaption::after{content:"→";display:inline-block;margin-inline-start:8px;transition:transform .3s ease}
+[dir=rtl] .reve-grille .reve-lien figcaption::after{content:"←"}
+.reve-grille .reve-lien:focus-visible{outline:2px solid var(--jaune,#C9A961);outline-offset:3px}
+@media (hover:hover){
+  .reve-grille .reve-lien:hover img{transform:scale(1.06)}
+  .reve-grille .reve-lien:hover figcaption::after{transform:translateX(4px)}
+  [dir=rtl] .reve-grille .reve-lien:hover figcaption::after{transform:translateX(-4px)}
+}
+.reve-grille .reve-lien:active figure{transform:scale(.98);transition:transform .15s ease}
+@media (prefers-reduced-motion:reduce){.reve-grille .reve-lien img,.reve-grille .reve-lien figcaption::after{transition:none}}

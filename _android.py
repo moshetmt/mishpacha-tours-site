@@ -14,8 +14,7 @@ if "/* ANDROID-26-10 */" not in css:
     css += """
 /* ANDROID-26-10 */ /* retours Mendel sur Chrome Android 360 px */
 /* 1. La marque ne se traduit pas (translate="no") et ne touche jamais le bouton de langue. */
-.nav .logo{min-width:0;flex:0 1 auto}
-.nav .logo .mot{white-space:nowrap}
+@media (max-width:899.98px){.nav .logo{min-width:0;flex:0 1 auto}.nav .logo .mot{white-space:nowrap}}
 @media (max-width:399.98px){.nav .logo .mot{font-size:24px}.nav .logo{gap:6px}}
 /* 2. Champs date : Chrome Android affiche « jj/mm/aaaa » plus un picto, trop large pour 133 px. */
 @media (max-width:480px){

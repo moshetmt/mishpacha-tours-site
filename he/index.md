@@ -10,13 +10,7 @@ Source: https://mishpachatours.com/he/ (HTML version). Every page of the site, o
 
  
 
-שבת בצ'אלה
-
-השף הפרטי שלכם
-
-על המסלולים
-
-מזחלת כלבים
+[שבת בצ'אלה](https://mishpachatours.com/he/kosher-chalets/)[השף הפרטי שלכם](https://mishpachatours.com/he/kosher-services-french-alps/)[על המסלולים](https://mishpachatours.com/he/kosher-ski-holidays-french-alps/)[מזחלת כלבים](https://mishpachatours.com/he/kosher-vacation-french-alps/)
 
 ## הצ'אלות הכשרות שלנו *באלפים*
 

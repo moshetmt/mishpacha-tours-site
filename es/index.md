@@ -10,13 +10,7 @@ Chalet privado, chef privado, Shabat y minyán. Todo organizado para usted.
 
  
 
-Shabat en el chalet
-
-Su chef privado
-
-En las pistas
-
-Trineo de perros
+[Shabat en el chalet](https://mishpachatours.com/es/kosher-chalets/)[Su chef privado](https://mishpachatours.com/es/kosher-services-french-alps/)[En las pistas](https://mishpachatours.com/es/kosher-ski-holidays-french-alps/)[Trineo de perros](https://mishpachatours.com/es/kosher-vacation-french-alps/)
 
 ## Nuestros chalets kosher *en los Alpes*
 
