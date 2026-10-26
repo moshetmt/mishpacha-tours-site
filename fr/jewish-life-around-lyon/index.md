@@ -58,7 +58,7 @@ Touchez un repère pour obtenir l’adresse et l’itinéraire.
 
 ## Stations de ski en *hiver*
 
-Notre visite Escale à Lyon est conçue pour les familles en route vers les pistes : trois heures dans le Lyon juif entre l’aéroport et la station.
+Notre visite Escale à Lyon est conçue pour les familles en route vers les pistes : trois heures dans les lieux juifs de Lyon entre l’aéroport et la station.
 
 - **Courchevel 1850** Synagogue de l’hôtel Le Mont Charvin389 rue des Tovets, 73120 Courchevel[Carte](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)*Saison d’hiver uniquement. Rabbin Daniel Belaïch. Aide pour les besoins casher, le vin et les challot du Shabbat.*
 - **Megève** Chabad des Alpes, minyan d’hiver136 route Edmond de Rothschild, 74120 Megève[Carte](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)*Saison d’hiver. Contactez habadalpes@yahoo.fr avant de venir : le lieu a changé au fil des ans.*

@@ -96,7 +96,7 @@ Oui, annulation gratuite jusqu’à 24 heures avant le départ.
 
 [Visite de ville
 
-### Lyon juif
+### Visite juive à Lyon
 
 Un parcours privé dans l’histoire juive de Lyon, jusqu’à l’intérieur de la Grande Synagogue
 
@@ -116,7 +116,7 @@ Le mémorial de Montluc, puis la seconde synagogue où nous vous faisons entrer
 
 ### Escale à Lyon
 
-Trois heures dans le Lyon juif pendant que votre transfert vous attend
+Trois heures dans les lieux juifs de Lyon pendant que votre transfert vous attend
 
 **390 €** par groupe, de 1 à 5 personnes](https://mishpachatours.com/fr/tours/stopover/)
 
@@ -130,7 +130,7 @@ Trois heures dans le Lyon juif pendant que votre transfert vous attend
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 

@@ -91,7 +91,7 @@ Horaires calculés aux coordonnées de Zermatt.
 - **Depuis l’aéroport de Lyon-Saint-Exupéry :** environ 350 km jusqu’à Täsch, de 4 h à 4 h 30 par la route via Genève. Lyon convient aux vols long-courriers et à des courses casher avant de poursuivre : [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
 - **Depuis Zurich :** environ 3 h 30 en train avec correspondances ; Zurich est l’autre grand aéroport suisse, avec une présence 'Habad en ville.
 - **Depuis Milan-Malpensa :** environ 190 km, 3 h par la route par le col du Simplon et Brigue, avec un passage de frontière. Sion, le petit aéroport du Valais, est à environ une heure de Täsch.
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Zermatt *sur la carte*
 

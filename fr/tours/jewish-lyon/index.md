@@ -4,11 +4,11 @@ Source: https://mishpachatours.com/fr/tours/jewish-lyon/ (HTML version). Every p
 
 Visite de ville
 
-[Accueil](https://mishpachatours.com/fr/) / [Visites](https://mishpachatours.com/fr/jewish-lyon-tours/#tours) / Lyon juif
+[Accueil](https://mishpachatours.com/fr/) / [Visites](https://mishpachatours.com/fr/jewish-lyon-tours/#tours) / Visite juive à Lyon
 
-# Lyon juif *Un parcours privé dans l’histoire juive de Lyon, jusqu’à l’intérieur de la Grande Synagogue*
+# Visite juive à Lyon *Un parcours privé dans l’histoire juive de Lyon, jusqu’à l’intérieur de la Grande Synagogue*
 
-Lyon juif est une visite privée à pied de 2 h 30 dans le Vieux Lyon et la Grande Synagogue, guidée en anglais, en français ou en espagnol, 290 € par groupe de 1 à 4 personnes (+35 € par personne supplémentaire jusqu’à 10), annulation gratuite jusqu’à 24 heures avant. Les visiteurs hébréophones sont guidés en anglais. Rue Juiverie et le Vieux Lyon médiéval, l’intérieur de la Grande Synagogue du quai Tilsitt, puis la rue Sainte-Catherine : deux heures et demie à pied avec une guide qui appartient à la communauté qu’elle vous fait découvrir. La Grande Synagogue est fermée au public en dehors des Journées du patrimoine. L’entrée exige une autorisation spéciale, que Mishpacha Tours détient. Cette visite guidée juive de Lyon est la seule qui vous y fait entrer, sous réserve des horaires et de la sécurité du jour.
+Visite juive à Lyon est une visite privée à pied de 2 h 30 dans le Vieux Lyon et la Grande Synagogue, guidée en anglais, en français ou en espagnol, 290 € par groupe de 1 à 4 personnes (+35 € par personne supplémentaire jusqu’à 10), annulation gratuite jusqu’à 24 heures avant. Les visiteurs hébréophones sont guidés en anglais. Rue Juiverie et le Vieux Lyon médiéval, l’intérieur de la Grande Synagogue du quai Tilsitt, puis la rue Sainte-Catherine : deux heures et demie à pied avec une guide qui appartient à la communauté qu’elle vous fait découvrir. La Grande Synagogue est fermée au public en dehors des Journées du patrimoine. L’entrée exige une autorisation spéciale, que Mishpacha Tours détient. Cette visite guidée juive de Lyon est la seule qui vous y fait entrer, sous réserve des horaires et de la sécurité du jour.
 
 Lieu
 :   Vieux Lyon et quai Tilsitt
@@ -105,7 +105,7 @@ Le mémorial de Montluc, puis la seconde synagogue où nous vous faisons entrer
 
 ### Escale à Lyon
 
-Trois heures dans le Lyon juif pendant que votre transfert vous attend
+Trois heures dans les lieux juifs de Lyon pendant que votre transfert vous attend
 
 **390 €** par groupe, de 1 à 5 personnes](https://mishpachatours.com/fr/tours/stopover/)[Excursion
 
@@ -115,7 +115,7 @@ Une journée à la Maison d’Izieu, à une heure de Lyon
 
 **à partir de 990 €** sur devis](https://mishpachatours.com/fr/tours/izieu/)
 
-## Prêts à *réserver* la visite Lyon juif ?
+## Prêts à *réserver* la visite du quartier juif ?
 
 [Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=d)
 
@@ -125,7 +125,7 @@ Une journée à la Maison d’Izieu, à une heure de Lyon
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 

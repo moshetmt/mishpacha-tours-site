@@ -94,7 +94,7 @@ Horaires calculés aux coordonnées de Val Thorens.
 - **Depuis Lyon-Saint-Exupéry.** 2 h 30 par la route sans circulation. Comptez une heure de plus un samedi de février ou sous la neige.
 - **Navettes.** Altibus et Ben’s Bus assurent des navettes d’hiver depuis l’aéroport ; le détail est sur [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/). Les transferts peuvent s’ajouter à un séjour sur mesure, sur devis.
 - **Courses casher avant la montée.** Lyon compte des commerces certifiés : [quoi acheter et où](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Sur la *carte*
 

@@ -173,3 +173,6 @@
 | img/reve/traineau.jpg | Pexels, photo 5619157 | Licence Pexels, usage commercial libre, sans crédit obligatoire |
 | img/reve/table.jpg | Image générée (Gemini 3 pro image, 25/10/2026) à partir de la salle à manger du chalet des Deux Alpes | Production Mishpacha Tours |
 | img/reve/chef.jpg | Image générée (Gemini 3 pro image, 25/10/2026) à partir de la cuisine du chalet | Production Mishpacha Tours |
+
+## Vidéo de la bannière d'accueil (27/10/2026)
+8 vidéos Pexels (licence Pexels : usage commercial gratuit, sans mention obligatoire), choisies par Moshé : 15416346 (drone, poudreuse), 15383015 (ski en forêt), 4185348 (chalet vu du ciel), 6220836 (motoneige), 15877925 (attelage de huskies), 854877 (gerbe de poudreuse), 5021911 (chalets d'alpage), 15037541 (feu d'artifice sur la station). Originaux dans 00-brief/2026-10-27-videos-pexels/. Fichiers img/video/accueil-pc.mp4 et accueil-tel.mp4.

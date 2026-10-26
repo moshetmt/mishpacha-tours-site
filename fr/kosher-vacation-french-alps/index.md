@@ -60,7 +60,7 @@ Le lac d’Annecy, Aix-les-Bains et Grenoble ont une communauté répertoriée ;
 
 ## Atterrir à Lyon
 
-La plupart des familles atterrissent à Lyon-Saint-Exupéry, à deux ou trois heures des stations. Les courses casher, les navettes et les temps de route sont sur [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/) ; les vols et l’emploi de quelques heures libres sur [vols vers Lyon](https://mishpachatours.com/fr/flights-to-lyon/). Une visite privée de 3 heures du Lyon juif, avec la Grande Synagogue, tient entre l’avion et la route : [l’Escale](https://mishpachatours.com/fr/tours/stopover/), 390 € par groupe.
+La plupart des familles atterrissent à Lyon-Saint-Exupéry, à deux ou trois heures des stations. Les courses casher, les navettes et les temps de route sont sur [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/) ; les vols et l’emploi de quelques heures libres sur [vols vers Lyon](https://mishpachatours.com/fr/flights-to-lyon/). Une visite privée de 3 heures du patrimoine juif de Lyon, avec la Grande Synagogue, tient entre l’avion et la route : [l’Escale](https://mishpachatours.com/fr/tours/stopover/), 390 € par groupe.
 
 ## Un minyan en *station*
 

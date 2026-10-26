@@ -207,7 +207,7 @@ Oui. Chalet, chef ou repas livrés, transferts, Shabbat, fêtes, minyan : plus l
 
 Nous atterrissons à Lyon avant de monter. Y a-t-il quelque chose à faire ?
 
-Oui. Une visite privée de 3 heures du Lyon juif avec la Grande Synagogue, entre l’avion et la route vers la station, 390 € par groupe : [l’Escale à Lyon](https://mishpachatours.com/tours/stopover/). Les courses casher avant de monter sont sur [Lyon, la porte des Alpes](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
+Oui. Une visite privée de 3 heures du patrimoine juif de Lyon avec la Grande Synagogue, entre l’avion et la route vers la station, 390 € par groupe : [l’Escale à Lyon](https://mishpachatours.com/tours/stopover/). Les courses casher avant de monter sont sur [Lyon, la porte des Alpes](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
 
 ## Votre semaine casher dans les Alpes, *organisée*.
 
@@ -219,7 +219,7 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 - [Vacances au ski casher dans les Alpes](https://mishpachatours.com/fr/kosher-ski-holidays-french-alps/)
 - [L’été dans les Alpes pour les familles juives](https://mishpachatours.com/fr/summer-in-the-alps-jewish-families/)
 - [Atterrir à Lyon : temps de route et courses casher](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/)
-- [Escale à Lyon, 3 heures dans le Lyon juif](https://mishpachatours.com/fr/tours/stopover/)
+- [Escale à Lyon, 3 heures dans les lieux juifs de Lyon](https://mishpachatours.com/fr/tours/stopover/)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

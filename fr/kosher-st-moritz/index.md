@@ -84,7 +84,7 @@ Horaires calculés aux coordonnées de Saint-Moritz.
 - **Aéroport d’Engadine, Samedan :** à 6 ou 7 km de Saint-Moritz, utilisé surtout par l’aviation privée. Vérifiez les horaires pour votre date avant de compter dessus.
 - **Depuis l’aéroport de Lyon-Saint-Exupéry par la route :** environ 6 h 30 par l’itinéraire le plus rapide, davantage par Genève et Zurich. Lyon convient aux vols long-courriers et à des courses casher avant de prendre la route : [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
 - **La Suisse est hors de l’Union européenne.** Munissez-vous des passeports de tous, enfants compris. Une vignette est obligatoire sur les autoroutes suisses, et mieux vaut l’acheter avant la frontière. L’hiver, vérifiez l’état des routes et des cols le jour même.
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Saint-Moritz *sur la carte*
 

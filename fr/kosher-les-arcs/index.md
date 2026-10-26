@@ -86,7 +86,7 @@ Horaires calculés aux coordonnées de Les Arcs.
 - **Depuis l’aéroport de Lyon-Saint-Exupéry :** 203 à 212 km, de 2 h 25 à 3 h, jusqu’à Bourg-Saint-Maurice. La montée vers les villages les plus hauts ajoute du temps.
 - **Depuis l’aéroport de Genève :** 2 h 30 à 3 h par la route jusqu’à Bourg-Saint-Maurice.
 - **Saison.** Confirmez sur lesarcs.com avant d’acheter un forfait.
-- **Courses casher avant la montée.** Lyon compte des commerces certifiés : [quoi acheter et où](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/). Vous atterrissez à Lyon avec quelques heures devant vous ? [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Courses casher avant la montée.** Lyon compte des commerces certifiés : [quoi acheter et où](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/). Vous atterrissez à Lyon avec quelques heures devant vous ? [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Les Arcs *sur la carte*
 

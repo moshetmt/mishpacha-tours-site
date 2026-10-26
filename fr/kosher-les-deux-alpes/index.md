@@ -120,7 +120,7 @@ Une escorte professionnelle est disponible sur demande et sur devis, en station 
 - **Depuis Lyon-Saint-Exupéry.** 2 h 10 par la route sur chaussée sèche. Prévoyez plus un samedi d’hiver ou sous la neige.
 - **Navettes.** Les navettes depuis l’aéroport sont présentées sur [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/). Les transferts peuvent s’ajouter à un séjour sur mesure, sur devis.
 - **Courses casher avant la montée.** Lyon compte des commerces certifiés : [quoi acheter et où](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Sur la *carte*
 

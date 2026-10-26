@@ -98,7 +98,7 @@ Horaires calculés aux coordonnées de Les Deux Alpes.
 
 - **Depuis Lyon-Saint-Exupéry.** 2 h 10 par la route sur chaussée sèche. Prévoyez plus un samedi d’hiver ou sous la neige.
 - **Navettes et taxi.** Les navettes depuis l’aéroport sont présentées sur [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/). Les transferts et le taxi peuvent s’ajouter à votre séjour, sur devis.
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Sur la *carte*
 

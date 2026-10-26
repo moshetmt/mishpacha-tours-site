@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/fr/jewish-lyon-tours/ (HTML version). Every p
 
 Une demande, nous organisons tout, de la table au transfert.
 
-### Visite guidée du Lyon juif
+### Visite guidée du quartier juif de Lyon
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 
@@ -47,7 +47,7 @@ Cette visite guidée juive de Lyon vous ouvre la Grande Synagogue du quai Tilsit
 - **Par groupe**jamais par personne
 - **24 h**annulation gratuite
 
-## Cinq visites privées du *Lyon juif*
+## Cinq visites privées du *Visite juive à Lyon*
 
 Votre groupe seul, en anglais, en français ou en espagnol. Prix pour l’ensemble du groupe.
 
@@ -149,7 +149,7 @@ Chalet avec chef, Shabbat, fêtes, minyan : comment ça marche, station par stat
 Ouvrir](https://mishpachatours.com/fr/alps/)
 [### L'Escale, 3 heures
 
-Le Lyon juif et la Grande Synagogue entre votre vol et la montée en station. 390 € par groupe.
+Le quartier juif et la Grande Synagogue de Lyon entre votre vol et la montée en station. 390 € par groupe.
 
 Ouvrir](https://mishpachatours.com/fr/tours/stopover/)
 
@@ -236,7 +236,7 @@ La seule visite qui vous y fait entrer](https://mishpachatours.com/fr/tours/jewi
 - 8 personnes**430 €**
 - 10 personnes**500 €**
 
-Visite Lyon juif. Entrées des musées et des mémoriaux facturées à part. Annulation gratuite jusqu’à 24 heures avant.
+Visite du quartier juif. Entrées des musées et des mémoriaux facturées à part. Annulation gratuite jusqu’à 24 heures avant.
 
 ## Questions avant de *réserver*
 

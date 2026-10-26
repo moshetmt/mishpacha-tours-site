@@ -83,7 +83,7 @@ Horaires calculés aux coordonnées de Chamonix.
 
 - **Depuis l’aéroport de Genève :** 1 h 15 à 1 h 30 par la route, l’aéroport le plus proche, à 82 à 88 km par l’A40. Comptez plus à la frontière suisse et un samedi d’hiver.
 - **Depuis l’aéroport de Lyon-Saint-Exupéry :** 220 km, de 2 h 15 à 3 h selon la circulation. Lyon convient aux vols long-courriers et à des courses casher avant de monter : [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
 ## Chamonix *sur la carte*
 

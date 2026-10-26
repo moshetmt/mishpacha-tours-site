@@ -84,7 +84,7 @@ Horaires calculés aux coordonnées de Cervinia.
 - **Depuis Milan-Malpensa :** de 160 à 185 km, de 2 h à 2 h 30 par la route, presque tout en autoroute jusqu’à Châtillon-Saint-Vincent. Il convient aux vols long-courriers venant des États-Unis.
 - **Depuis Genève :** environ 3 h par la route, par le tunnel du Mont-Blanc puis en descendant le val d’Aoste. Le tunnel est à péage dans chaque sens et peut fermer pour travaux : vérifiez son état avant de partir.
 - **Depuis Lyon-Saint-Exupéry :** de 4 h 30 à 5 h par la route, par le tunnel du Mont-Blanc ou par le tunnel du Fréjus et Turin. Il n’y a pas de contrôle aux frontières entre la France et l’Italie, mais gardez votre passeport. Lyon convient à des courses casher avant de passer la frontière : [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
-- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du Lyon juif, entre l’avion et la route.
+- **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 - **En train :** la gare la plus proche est Châtillon-Saint-Vincent, à environ 29 km du village. Pour une famille ou un groupe avec des bagages, un transfert privé est plus simple : les transferts peuvent faire partie d’un séjour sur mesure, sur devis.
 
 ## Cervinia *sur la carte*

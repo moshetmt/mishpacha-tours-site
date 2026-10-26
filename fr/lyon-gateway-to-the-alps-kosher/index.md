@@ -1,4 +1,4 @@
-> Atterrir à Lyon pour une semaine de ski casher ? Trajets vers 13 stations, navettes, courses casher avant la montée et une escale de 3 heures dans le Lyon juif.
+> Atterrir à Lyon pour une semaine de ski casher ? Trajets vers 13 stations, navettes, courses casher avant la montée et une escale de 3 heures dans les lieux juifs de Lyon.
 
 Source: https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -89,7 +89,7 @@ Apportez de Lyon ce dont vous avez besoin.
 
 [Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20atterrissons%20%C3%A0%20Lyon%20en%20route%20vers%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d'arriv%C3%A9e%20%3A%20/%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20/%20Station%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
-## L’Escale à Lyon : *le Lyon juif entre l’avion et les pistes*
+## L’Escale à Lyon : *le patrimoine juif de Lyon entre l’avion et les pistes*
 
 Trois heures de guidage privé dans le Vieux Lyon et à l’intérieur de la Grande Synagogue, fermée aux visiteurs en dehors des Journées du patrimoine. Prix : 390 € par groupe de 1 à 5 personnes, plus 35 € par personne de la sixième à la dixième. La prise en charge à l’aéroport est possible sur demande, en supplément payant sur devis, et jamais incluse. Voir la [visite Escale à Lyon](https://mishpachatours.com/tours/stopover/).
 
