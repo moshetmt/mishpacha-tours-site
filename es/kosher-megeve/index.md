@@ -22,8 +22,6 @@ Organizamos su estancia kosher: chef privado o comidas entregadas, Shabat, mini�
 
 ## Nuestro chalet *cerca de Megève*
 
-Cerca de Megève · con Winter Prestige
-
 ### [El chalet del Mont Blanc, para varias familias](https://mishpachatours.com/es/kosher-chalet-megeve/)
 
 - **10 + 2**habitaciones twin + buhardillas
@@ -32,6 +30,8 @@ Cerca de Megève · con Winter Prestige
 - **Lanzadera**cada 20 min a las pistas
 
 **Estrictamente kosher.** Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael.
+
+Cerca de Megève · con Winter Prestige
 
 Disponibilidad confirmada para sus fechas en cada solicitud.
 

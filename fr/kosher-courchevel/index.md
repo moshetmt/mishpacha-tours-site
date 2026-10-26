@@ -22,8 +22,6 @@ La saison court du 4 décembre 2026 au 18 avril 2027. Nous organisons votre séj
 
 ## Notre chalet *à Courchevel*
 
-Courchevel · avec Winter Prestige
-
 ### [Un chalet casher au cœur de Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
 
 - **5**chambres en suite
@@ -32,6 +30,8 @@ Courchevel · avec Winter Prestige
 - **Navette privée**vers les pistes
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
 
 Disponibilité confirmée pour vos dates à chaque demande.
 

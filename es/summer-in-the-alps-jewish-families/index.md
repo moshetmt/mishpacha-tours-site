@@ -14,8 +14,6 @@ Para una familia observante significa también averiguar dónde está el minyan,
 
 ## Nuestra villa *en Saint-Tropez*
 
-Saint-Tropez · con Summer Prestige
-
 ### [Villa Beach, una villa kosher a pie de mar](https://mishpachatours.com/es/kosher-villa-saint-tropez/)
 
 - **5**habitaciones, 5 baños
@@ -24,6 +22,8 @@ Saint-Tropez · con Summer Prestige
 - **3 casas**villa, casa de invitados, caseta
 
 **Estrictamente kosher.** Villa kosherizada para ustedes, chef privado, todo lo que se sirve es Chalav Yisrael.
+
+Saint-Tropez · con Summer Prestige
 
 Disponibilidad confirmada para sus fechas en cada solicitud.
 

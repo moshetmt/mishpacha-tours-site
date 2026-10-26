@@ -2025,3 +2025,12 @@ body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
 /* 3. Barre basse : le bouton doré prend plus de place et son texte peut passer sur deux lignes. */
 .barre-basse{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
 .barre-basse a{min-width:0;padding:0 8px;font-size:11px;letter-spacing:.1em;white-space:normal;text-align:center;line-height:1.2}
+
+/* REPAS-PRIX */ /* page des services Alpes : grille des repas livrés de Mendel (26/10) */
+.repas-prix .prix-table ul{max-width:none;margin:28px 0 0;padding:4px 20px;background:transparent;border:1px solid rgba(201,169,97,.35)}
+.repas-prix .prix-table li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px;align-items:baseline;color:inherit;border-color:rgba(201,169,97,.25)}
+.repas-prix .prix-table li span{min-width:0;opacity:.9}
+.repas-prix .prix-table li b{white-space:nowrap;font-size:18px;text-align:end;color:var(--jaune,#C9A961)}
+.repas-prix .note{font-size:15px;opacity:.85}
+@media (max-width:480px){.repas-prix .prix-table li{grid-template-columns:1fr}.repas-prix .prix-table li b{text-align:start}}
+@media (min-width:900px){.repas-prix .prix-table li b{font-size:24px}}

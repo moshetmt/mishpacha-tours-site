@@ -20,8 +20,6 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 
 המטבח מוכשר, שף מבשל או שהארוחות מגיעות במשלוח, ומניין מגיע לפי בקשה. תוכנית אחת, הצעת מחיר אחת.
 
-לה דז אלפ · עם Winter Prestige
-
 ### [הצ'אלה הכשרה שלנו, למרגלות המסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
 
 - **300 מ"ר**צ'אלה פרטית
@@ -31,11 +29,11 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 
 **שומר כשרות.** שף בצ'אלה או ארוחות במשלוח.
 
+לה דז אלפ · עם Winter Prestige
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
-
-לה דז אלפ · עם Winter Prestige
 
 ### [צ'אלה המסלולים, נועלים מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)
 
@@ -46,11 +44,11 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
+לה דז אלפ · עם Winter Prestige
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
-
-קורשבל · עם Winter Prestige
 
 ### [צ'אלה כשרה בלב קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)
 
@@ -61,11 +59,11 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
+קורשבל · עם Winter Prestige
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
-
-ליד מז'ב · עם Winter Prestige
 
 ### [צ'אלה המון בלאן, לכמה משפחות](https://mishpachatours.com/he/kosher-chalet-megeve/)
 
@@ -76,11 +74,11 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
+ליד מז'ב · עם Winter Prestige
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
-
-ואל טורנס · עם Winter Prestige
 
 ### [הצ'אלה בואל טורנס, מגלשיים בדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
@@ -90,6 +88,8 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 - **סקי**מהדלת
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+ואל טורנס · עם Winter Prestige
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 

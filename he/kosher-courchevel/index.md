@@ -22,8 +22,6 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 ## הצ'אלה שלנו *בקורשבל*
 
-קורשבל · עם Winter Prestige
-
 ### [צ'אלה כשרה בלב קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)
 
 - **5**חדרי שינה עם חדר רחצה
@@ -32,6 +30,8 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 - **הסעה פרטית**למסלולים
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 

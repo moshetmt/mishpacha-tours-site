@@ -22,8 +22,6 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 
 ## הצ'אלה שלנו *בואל טורנס*
 
-ואל טורנס · עם Winter Prestige
-
 ### [הצ'אלה בואל טורנס, מגלשיים בדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
 - **165 מ"ר**צ'אלה פרטית
@@ -32,6 +30,8 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 - **סקי**מהדלת
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+ואל טורנס · עם Winter Prestige
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 

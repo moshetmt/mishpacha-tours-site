@@ -28,8 +28,6 @@ Lyon-Saint-Exupéry is about 2 h 10 away by road. We organise your kosher stay: 
 
 **Ski and the glacier**Passes, rental and lessons on request, in a resort that skis up to the glacier.
 
-Les Deux Alpes · with Winter Prestige
-
 ### [Our kosher chalet, at the foot of the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)
 
 - **300 m²**private chalet
@@ -39,11 +37,11 @@ Les Deux Alpes · with Winter Prestige
 
 **Strictly kosher.** Chef or delivered meals, everything served is Chalav Yisrael.
 
+Les Deux Alpes · with Winter Prestige
+
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
-
-Les Deux Alpes · with Winter Prestige
 
 ### [The Slope Chalet, skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)
 
@@ -53,6 +51,8 @@ Les Deux Alpes · with Winter Prestige
 - **Fireplace**and south terrace
 
 **Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Les Deux Alpes · with Winter Prestige
 
 Availability confirmed for your dates with each request.
 

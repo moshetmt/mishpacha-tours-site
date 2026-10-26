@@ -22,8 +22,6 @@ The season runs from 4 December 2026 to 18 April 2027. We organise your kosher s
 
 ## Our chalet *in Courchevel*
 
-Courchevel · with Winter Prestige
-
 ### [A kosher chalet in the heart of Courchevel](https://mishpachatours.com/kosher-chalet-courchevel/)
 
 - **5**en-suite bedrooms
@@ -32,6 +30,8 @@ Courchevel · with Winter Prestige
 - **Private shuttle**to the slopes
 
 **Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Courchevel · with Winter Prestige
 
 Availability confirmed for your dates with each request.
 

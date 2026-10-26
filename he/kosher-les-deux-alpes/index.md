@@ -28,8 +28,6 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 **סקי והקרחון**כרטיסי סקי, השכרה ושיעורים לפי בקשה, באתר שמגיעים בו בסקי עד הקרחון.
 
-לה דז אלפ · עם Winter Prestige
-
 ### [הצ'אלה הכשרה שלנו, למרגלות המסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
 
 - **300 מ"ר**צ'אלה פרטית
@@ -39,11 +37,11 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 **שומר כשרות.** שף בצ'אלה או ארוחות במשלוח.
 
+לה דז אלפ · עם Winter Prestige
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
-
-לה דז אלפ · עם Winter Prestige
 
 ### [צ'אלה המסלולים, נועלים מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)
 
@@ -53,6 +51,8 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 - **אח**ומרפסת דרומית
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+לה דז אלפ · עם Winter Prestige
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 

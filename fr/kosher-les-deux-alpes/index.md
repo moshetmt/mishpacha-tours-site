@@ -28,8 +28,6 @@ Lyon-Saint-Exupéry est à environ 2 h 10 de route. Nous organisons votre séjo
 
 **Le ski et le glacier**Forfaits, location et cours sur demande, dans une station où l'on skie jusqu'au glacier.
 
-Les Deux Alpes · avec Winter Prestige
-
 ### [Notre chalet casher, au pied des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 
 - **300 m²**chalet privé
@@ -39,11 +37,11 @@ Les Deux Alpes · avec Winter Prestige
 
 **Strictement casher.** Chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
+Les Deux Alpes · avec Winter Prestige
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
-
-Les Deux Alpes · avec Winter Prestige
 
 ### [Le chalet des pistes, skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)
 
@@ -53,6 +51,8 @@ Les Deux Alpes · avec Winter Prestige
 - **Cheminée**et terrasse plein sud
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Les Deux Alpes · avec Winter Prestige
 
 Disponibilité confirmée pour vos dates à chaque demande.
 

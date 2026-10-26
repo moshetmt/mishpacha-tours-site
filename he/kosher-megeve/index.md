@@ -22,8 +22,6 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 
 ## הצ'אלה שלנו *ליד מז'ב*
 
-ליד מז'ב · עם Winter Prestige
-
 ### [צ'אלה המון בלאן, לכמה משפחות](https://mishpachatours.com/he/kosher-chalet-megeve/)
 
 - **10 + 2**חדרי טווין + חדרי עליית גג
@@ -32,6 +30,8 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 - **הסעה**כל 20 דק' למסלולים
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+ליד מז'ב · עם Winter Prestige
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 

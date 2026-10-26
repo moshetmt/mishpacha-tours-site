@@ -31,7 +31,24 @@ Mishpacha Tours l’organise dans les stations de l’Isère, de la Savoie et de
 
 [Repas en station : le Beth Habad de Grenoble Alpes sur WhatsApp](https://wa.me/33781823193?text=Hello%2C%20we%20are%20in%20the%20Alps%20and%20would%20like%20kosher%20meals%20delivered.%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A)
 
-Strictement casher : notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+Strictement casher : les repas sont préparés sous la surveillance du Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Le détail vous est remis par écrit avec le devis.
+
+## Repas livrés : *les prix*
+
+Par personne et par jour. Ce sont des prix de départ, selon la station et la saison : vous recevez le total exact par écrit avant de payer.
+
+- Formule complète : matin, midi et soir**à partir de 75 €**
+- Soir seul : entrée, plat, dessert**à partir de 27 €**
+- Chabbat : dîner du vendredi soir**45 €**
+- Chabbat : déjeuner du samedi**40 €**
+- Seouda chlichit**35 €**
+- Livraison tous les deux jours, toute station française**180 à 350 €**
+
+Enfants jusqu’à 5 ans : environ 30 % de moins. La livraison se paie par passage ; quand plusieurs groupes séjournent dans la même station la même semaine, ils la partagent. Commande au plus tard le mercredi soir, paiement complet à la commande. Plata ou koumkoum en vente pour le Chabbat. Surveillance : Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
+
+Cachérisation de la cuisine d’un chalet que vous louez déjà, ou soirée pizza avec un pizzaiolo pour votre groupe : sur devis.
+
+[Commander les repas sur WhatsApp](https://wa.me/33781823193?text=Bonjour%2C%20nous%20serons%20dans%20les%20Alpes%20et%20voudrions%20des%20repas%20casher%20livr%C3%A9s.%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)
 
 ## Comment ça *se passe*
 
@@ -81,11 +98,11 @@ Prières de Shabbat et de semaine avec le Beth Habad des Alpes : indiquez-leur v
 
 La nourriture est-elle strictement casher ?
 
-Oui. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+Oui. Les repas sont préparés sous la surveillance du Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Le détail vous est remis par écrit avec le devis.
 
 Peut-on se faire livrer des repas casher à Val Thorens ou à l’Alpe d’Huez ?
 
-Oui. L’équipe livre un groupe pour la semaine, dans les stations du côté de Grenoble et dans la vallée des Belleville. Envoyez-nous la station, les dates et le nombre de personnes.
+Oui, dans toutes les stations françaises, tous les deux jours, de 180 à 350 € la livraison selon la station. Envoyez-nous la station, les dates et le nombre de personnes.
 
 Peut-on avoir un minyan et un Sefer Torah en station ?
 
@@ -105,7 +122,7 @@ Le plus tôt possible, et avant les vacances scolaires. Un chef pour une semaine
 
 Combien cela coûte-t-il ?
 
-Pas de grille de prix : un chalet avec chef pour une semaine et une douzaine de repas livrés ne sont pas le même travail. Vous recevez un devis écrit avant de vous engager.
+Les repas livrés partent de 27 € par personne et par jour pour le soir seul et de 75 € pour la formule complète, plus la livraison ; les repas de Chabbat coûtent de 35 à 45 €. Un chalet avec chef privé se chiffre pour votre groupe. Vous recevez un devis écrit avant de vous engager.
 
 ## Votre semaine casher dans les Alpes, *organisée*.
 

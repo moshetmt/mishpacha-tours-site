@@ -20,8 +20,6 @@ Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
 Cinq chalets, tout le casher pris en charge : deux aux Deux Alpes, un à Courchevel, un près de Megève, un à Val Thorens avec un chemin skieur à la porte. La cuisine est cachérisée, un chef cuisine ou les repas sont livrés, un minyan vient sur demande. Un programme, un devis.
 
-Les Deux Alpes · avec Winter Prestige
-
 ### [Notre chalet casher, au pied des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 
 - **300 m²**chalet privé
@@ -31,11 +29,11 @@ Les Deux Alpes · avec Winter Prestige
 
 **Strictement casher.** Chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
+Les Deux Alpes · avec Winter Prestige
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
-
-Les Deux Alpes · avec Winter Prestige
 
 ### [Le chalet des pistes, skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)
 
@@ -46,11 +44,11 @@ Les Deux Alpes · avec Winter Prestige
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
+Les Deux Alpes · avec Winter Prestige
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
-
-Courchevel · avec Winter Prestige
 
 ### [Un chalet casher au cœur de Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
 
@@ -61,11 +59,11 @@ Courchevel · avec Winter Prestige
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
+Courchevel · avec Winter Prestige
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
-
-Près de Megève · avec Winter Prestige
 
 ### [Le chalet du Mont Blanc, pour plusieurs familles](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 
@@ -76,11 +74,11 @@ Près de Megève · avec Winter Prestige
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
+Près de Megève · avec Winter Prestige
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
-
-Val Thorens · avec Winter Prestige
 
 ### [Le chalet de Val Thorens, skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
@@ -90,6 +88,8 @@ Val Thorens · avec Winter Prestige
 - **Skis aux pieds**chemin skieur à la porte
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Val Thorens · avec Winter Prestige
 
 Disponibilité confirmée pour vos dates à chaque demande.
 

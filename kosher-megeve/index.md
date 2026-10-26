@@ -22,8 +22,6 @@ We organise your kosher stay: private chef or delivered meals, Shabbat, minyan a
 
 ## Our chalet *near Megève*
 
-Near Megève · with Winter Prestige
-
 ### [The Mont Blanc Chalet, for several families](https://mishpachatours.com/kosher-chalet-megeve/)
 
 - **10 + 2**twin bedrooms + attic rooms
@@ -32,6 +30,8 @@ Near Megève · with Winter Prestige
 - **Shuttle**every 20 min to the lifts
 
 **Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Near Megève · with Winter Prestige
 
 Availability confirmed for your dates with each request.
 

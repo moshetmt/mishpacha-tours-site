@@ -22,8 +22,6 @@ Nous organisons votre séjour casher : chef privé ou repas livrés, Chabbat, m
 
 ## Notre chalet *près de Megève*
 
-Près de Megève · avec Winter Prestige
-
 ### [Le chalet du Mont Blanc, pour plusieurs familles](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 
 - **10 + 2**chambres twin + chambres sous le toit
@@ -32,6 +30,8 @@ Près de Megève · avec Winter Prestige
 - **Navette**toutes les 20 min vers les pistes
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Près de Megève · avec Winter Prestige
 
 Disponibilité confirmée pour vos dates à chaque demande.
 

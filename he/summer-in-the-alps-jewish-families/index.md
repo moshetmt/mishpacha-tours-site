@@ -14,8 +14,6 @@ Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML 
 
 ## הווילה שלנו *בסן טרופה*
 
-סן טרופה · עם Summer Prestige
-
 ### [וילה ביץ׳, וילה כשרה על קו המים](https://mishpachatours.com/he/kosher-villa-saint-tropez/)
 
 - **5**חדרי שינה, 5 חדרי רחצה
@@ -24,6 +22,8 @@ Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML 
 - **3 בתים**וילה, בית אורחים, בית השומר
 
 **שומר כשרות.** הווילה מוכשרת עבורכם, שף פרטי.
+
+סן טרופה · עם Summer Prestige
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 

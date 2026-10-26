@@ -14,8 +14,6 @@ Pour une famille pratiquante, c’est aussi savoir où se trouve le minyan, qui 
 
 ## Notre villa *à Saint-Tropez*
 
-Saint-Tropez · avec Summer Prestige
-
 ### [Villa Beach, une villa casher les pieds dans l’eau](https://mishpachatours.com/fr/kosher-villa-saint-tropez/)
 
 - **5**chambres, 5 salles de bain
@@ -24,6 +22,8 @@ Saint-Tropez · avec Summer Prestige
 - **3 maisons**villa, maison d’invités, loge
 
 **Strictement casher.** Villa cachérisée pour vous, chef privé, tout ce qui est servi est 'Halav Yisrael.
+
+Saint-Tropez · avec Summer Prestige
 
 Disponibilité confirmée pour vos dates à chaque demande.
 

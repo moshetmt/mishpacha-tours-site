@@ -31,7 +31,24 @@ Mishpacha Tours organises it in the resorts of Isère, Savoie and the Hautes-Alp
 
 [Meals in the resort: Beth Habad de Grenoble Alpes on WhatsApp](https://wa.me/33781823193?text=Hello%2C%20we%20are%20in%20the%20Alps%20and%20would%20like%20kosher%20meals%20delivered.%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A)
 
-Strictly kosher: our team in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.
+Strictly kosher: the meals are prepared under the supervision of the Beth Habad de Grenoble Alpes, Rav Yehia Lahiany. The details come in writing with your quote.
+
+## Delivered meals: *the prices*
+
+Per person, per day. Starting prices, which depend on the resort and the season: you get the exact total in writing before you pay.
+
+- Full board: breakfast, lunch and dinner**from €75**
+- Dinner only: starter, main course, dessert**from €27**
+- Shabbat: Friday night dinner**€45**
+- Shabbat: Saturday lunch**€40**
+- Seuda shlishit**€35**
+- Delivery every two days, any resort in France**€180 to €350**
+
+Children up to 5: about 30% less. Delivery is charged per trip; when several groups stay in the same resort the same week, they share it. Order by Wednesday evening, pay in full when you order. A plata or a kumkum can be bought for Shabbat. Kosher supervision: Beth Habad de Grenoble Alpes, Rav Yehia Lahiany.
+
+Kashering the kitchen of a chalet you already rent, or a pizza night with a pizzaiolo for your group: on quote.
+
+[Order meals on WhatsApp](https://wa.me/33781823193?text=Hello%2C%20we%20are%20in%20the%20Alps%20and%20would%20like%20kosher%20meals%20delivered.%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A)
 
 ## How it *works*
 
@@ -81,11 +98,11 @@ Shabbat and weekday prayers with the Beth Habad of the Alps: tell them your date
 
 Is the food strictly kosher?
 
-Yes. Our team in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.
+Yes. The meals are prepared under the supervision of the Beth Habad de Grenoble Alpes, Rav Yehia Lahiany. The details come in writing with your quote.
 
 Can we have kosher meals delivered to Val Thorens or Alpe d'Huez?
 
-Yes. The team delivers to a group for the week, in the resorts of the Grenoble side and in the Belleville valley. Send us the resort, the dates and the number of people.
+Yes, in every resort in France, every two days, from €180 to €350 per delivery depending on the resort. Send us the resort, the dates and the number of people.
 
 Can we have a minyan and a Sefer Torah in the resort?
 
@@ -105,7 +122,7 @@ As early as you can, and before the school holidays. A chef for a week is booked
 
 What does it cost?
 
-No price list: a chalet with a chef for a week and a dozen meals delivered are not the same job. You receive a written quote before you commit to anything.
+Delivered meals start at €27 per person per day for dinner only and €75 for full board, plus delivery; Shabbat meals cost €35 to €45. A chalet with a private chef is quoted for your group. You receive a written quote before you commit to anything.
 
 ## Your kosher week in the Alps, *organised*.
 

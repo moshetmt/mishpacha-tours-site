@@ -22,8 +22,6 @@ Su temporada va del 21 de noviembre de 2026 al 2 de mayo de 2027. Organizamos su
 
 ## Nuestro chalet *en Val Thorens*
 
-Val Thorens · con Winter Prestige
-
 ### [El chalet de Val Thorens, esquís en la puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
 - **165 m²**chalet privado
@@ -32,6 +30,8 @@ Val Thorens · con Winter Prestige
 - **Pista**a pie de puerta
 
 **Estrictamente kosher.** Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael.
+
+Val Thorens · con Winter Prestige
 
 Disponibilidad confirmada para sus fechas en cada solicitud.
 

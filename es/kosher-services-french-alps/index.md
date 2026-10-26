@@ -31,7 +31,24 @@ Mishpacha Tours la organiza en las estaciones de Isère, Saboya y los Altos Alpe
 
 [Comidas en la estación: Beth Habad de Grenoble Alpes por WhatsApp](https://wa.me/33781823193?text=Hello%2C%20we%20are%20in%20the%20Alps%20and%20would%20like%20kosher%20meals%20delivered.%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A)
 
-Estrictamente kosher: nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+Estrictamente kosher: las comidas se preparan bajo la supervisión del Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Los detalles se entregan por escrito con el presupuesto.
+
+## Comidas a domicilio: *los precios*
+
+Por persona y por día. Son precios de partida, según la estación y la temporada: recibe el total exacto por escrito antes de pagar.
+
+- Pensión completa: desayuno, almuerzo y cena**desde 75 €**
+- Solo cena: entrante, plato principal y postre**desde 27 €**
+- Shabat: cena del viernes**45 €**
+- Shabat: almuerzo del sábado**40 €**
+- Seudá shlishit**35 €**
+- Entrega cada dos días, cualquier estación de Francia**de 180 a 350 €**
+
+Niños hasta 5 años: alrededor de un 30 % menos. La entrega se paga por viaje; cuando varios grupos están en la misma estación la misma semana, la comparten. Pedido a más tardar el miércoles por la noche, pago completo al hacer el pedido. Plata o kumkum a la venta para Shabat. Supervisión: Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
+
+Kasherización de la cocina de un chalé que ya alquila, o noche de pizza con pizzaiolo para su grupo: bajo presupuesto.
+
+[Pedir las comidas por WhatsApp](https://wa.me/33781823193?text=Hola%2C%20estaremos%20en%20los%20Alpes%20y%20querr%C3%ADamos%20comidas%20kosher%20a%20domicilio.%20Estaci%C3%B3n%3A%20/%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A)
 
 ## Cómo *funciona*
 
@@ -81,11 +98,11 @@ Oraciones de Shabat y de entre semana con el Beth Habad de los Alpes: indíquele
 
 ¿La comida es estrictamente kosher?
 
-Sí. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+Sí. Las comidas se preparan bajo la supervisión del Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Los detalles se entregan por escrito con el presupuesto.
 
 ¿Pueden entregarnos comidas kosher en Val Thorens o en Alpe d'Huez?
 
-Sí. El equipo entrega a un grupo durante la semana, en las estaciones del lado de Grenoble y en el valle de Belleville. Envíenos la estación, las fechas y el número de personas.
+Sí, en todas las estaciones de Francia, cada dos días, de 180 a 350 € por entrega según la estación. Envíenos la estación, las fechas y el número de personas.
 
 ¿Podemos tener un minyan y un Sefer Torá en la estación?
 
@@ -105,7 +122,7 @@ Cuanto antes, y antes de las vacaciones escolares. Un chef para una semana se re
 
 ¿Cuánto cuesta?
 
-No hay lista de precios: un chalé con chef durante una semana y una docena de comidas entregadas no son el mismo trabajo. Recibe un presupuesto por escrito antes de comprometerse.
+Las comidas a domicilio parten de 27 € por persona y día para la cena y de 75 € para la pensión completa, más la entrega; las comidas de Shabat cuestan de 35 a 45 €. Un chalé con chef privado se presupuesta para su grupo. Recibe un presupuesto por escrito antes de comprometerse.
 
 ## Su semana kosher en los Alpes, *organizada*.
 

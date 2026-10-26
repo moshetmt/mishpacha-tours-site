@@ -16,16 +16,16 @@ Source: https://mishpachatours.com/he/credits/ (HTML version). Every page of the
 
 ## צילומים 45
 
-- **Grande Synagogue Lyon PA00117987 2.jpg**c-synagogue-4.jpg · Alexmar983 · CC BY-SA 3.0[מקור](https://commons.wikimedia.org/wiki/File:Grande_Synagogue_Lyon_PA00117987_2.jpg)
+- **Lyon Grande Synagogue Maison 2.jpg**c-synagogue-4.jpg · Zairon · CC BY-SA 4.0[Source](https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_2.jpg)
 - **Lyon Grande Synagogue Maison 1.jpg**c-synagogue-7.jpg · Zairon · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_1.jpg)
 - **Lyon Grande Synagogue Maison 2.jpg**c-synagogue-8.jpg · Zairon · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_2.jpg)
-- **Centre d'histoire de la résistance et de la déportation (2018).JPG**c-chrd-1.jpg · Benoît Prieur · CC0[מקור](https://commons.wikimedia.org/wiki/File:Centre_d'histoire_de_la_résistance_et_de_la_déportation_(2018).JPG)
-- **Lyon - Tour Rose du Vieux Lyon.jpg**c-traboule-1.jpg · SYLOU94 · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_-_Tour_Rose_du_Vieux_Lyon.jpg)
+- **Lyon 7e - Centre d'Histoire de la Résistance et de la Déportation - Premier couloir de l'exposition permanente.jpg**c-chrd-1.jpg · Romainbehar · CC0[Source](https://commons.wikimedia.org/wiki/File:Lyon_7e_-_Centre_d%27Histoire_de_la_R%C3%A9sistance_et_de_la_D%C3%A9portation_-_Premier_couloir_de_l%27exposition_permanente.jpg)
+- **Longue traboule Lyon 6.jpg**c-traboule-1.jpg · Chabe01 · CC BY-SA 4.0[Source](https://commons.wikimedia.org/wiki/File:Longue_traboule_Lyon_6.jpg)
 - **Lyon 5e - Rue Juiverie - Plaque.jpg**c-juiverie-3.jpg · Sebleouf · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_5e_-_Rue_Juiverie_-_Plaque.jpg)
 - **Rue Juiverie, Vieux Lyon.jpg**c-juiverie-5.jpg · Sgroey · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Rue_Juiverie,_Vieux_Lyon.jpg)
 - **Interior National Memorial Prison of Montluc in Lyon France horizontal shot.jpg**c-montluc-1.jpg · Tim Adams · CC BY 3.0[מקור](https://commons.wikimedia.org/wiki/File:Interior_National_Memorial_Prison_of_Montluc_in_Lyon_France_horizontal_shot.jpg)
-- **Maison Enfants Izieu 5.jpg**c-izieu-4.jpg · Chabe01 · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Maison_Enfants_Izieu_5.jpg)
-- **Vue de la maison d'Izieu en 2019.jpg**c-izieu-8.jpg · Benoît Prieur · CC0[מקור](https://commons.wikimedia.org/wiki/File:Vue_de_la_maison_d'Izieu_en_2019.jpg)
+- **Image aérienne de la maison d'Izieu, septembre 2019 (8).JPG**c-izieu-4.jpg · Benoît Prieur · CC0[Source](https://commons.wikimedia.org/wiki/File:Image_a%C3%A9rienne_de_la_maison_d%27Izieu,_septembre_2019_(8).JPG)
+- **Intérieur de la Maison d'Izieu - salle de classe (1er étage).jpg**c-izieu-8.jpg · Benoît Prieur · CC0[Source](https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_de_la_Maison_d%27Izieu_-_salle_de_classe_(1er_%C3%A9tage).jpg)
 - **Lyon 5e - Rue du Bœuf, plaque.jpg**stock/boeuf-1.jpg · Romainbehar · CC0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_5e_-_Rue_du_Bœuf,_plaque.jpg)
 - **Lyon 5e - Rue du Bœuf, square du Bœuf.jpg**stock/boeuf-2.jpg · Romainbehar · CC0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_5e_-_Rue_du_Bœuf,_square_du_Bœuf.jpg)
 - **Lyon Rue du Boeuf.jpg**stock/boeuf-4.jpg · Andrzej Otrębski · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_Rue_du_Boeuf.jpg)
