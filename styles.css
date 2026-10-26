@@ -2003,3 +2003,11 @@ body:has(.ac-hero) .ss.reve{margin-top:0;padding:14px 0 0;background:var(--creme
 .reve-grille img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .reve-grille figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;color:#FFFAED;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;background:linear-gradient(180deg,rgba(20,19,22,0),rgba(20,19,22,.72))}
 @media (min-width:900px){.reve-grille{grid-template-columns:repeat(4,1fr);gap:14px}.reve-grille figure{aspect-ratio:3/4}.reve-grille figcaption{font-size:13px;padding:44px 18px 16px}}
+
+/* LIEU-BAS */ /* 26/10 : lieu sous l'encadré casher, titre en tête de carte */
+body .kwp-corps>.kwp-lieu{margin-top:14px;padding-inline-end:0}
+body .kwp-carte .kwp-corps>h3:first-child{margin-top:0;padding-top:18px}
+body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
+/* Safari : en grille subgrid, la photo 3:2 débordait sur la 1re ligne de texte (page des chalets, ordinateur) */
+.kwp-cartes .kwp-carte>.kwp-photo{aspect-ratio:auto;height:0;padding-bottom:66.667%}
+@media (min-width:900px){body .kwp-cartes .kwp-corps>.kwp-lieu{margin-top:0;padding:14px 22px 0}.kwp-cartes .kwp-corps>h3:first-child{padding-top:22px}}

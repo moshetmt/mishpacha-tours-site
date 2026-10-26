@@ -167,8 +167,8 @@ def carte(lang, cle):
                     for p, (a, b) in zip(c["pictos"], d["s"]))
     titre = f'<a href="{pfx(lang)}{c["lien"]}">{d["t"]}</a>' if c["lien"] else d["t"]
     return (f'<article class="kwp-carte{" kwp-sp" if CHALETS[cle].get("marque") == "sp" else ""}"><div class="kwp-photo"><img src="{min672(c["img"])}" alt="{d["alt"]}" width="{c["w"]}" height="{c["h"]}" loading="lazy">'
-            f'{seau(lang, cle)}</div><div class="kwp-corps"><div class="kwp-lieu">{d["lieu"]} · {d.get("avec", t["avec"])}</div><h3>{titre}</h3>'
-            f'<ul class="kwp-chiffres">{puces}</ul><p class="kwp-casher">{d["k"]}</p><p class="kwp-dispo">{t["dispo"]}</p>'
+            f'{seau(lang, cle)}</div><div class="kwp-corps"><h3>{titre}</h3>'   # 26/10 Moshé : la ligne du lieu descend sous l'encadré casher
+            f'<ul class="kwp-chiffres">{puces}</ul><p class="kwp-casher">{d["k"]}</p><div class="kwp-lieu">{d["lieu"]} · {d.get("avec", t["avec"])}</div><p class="kwp-dispo">{t["dispo"]}</p>'
             f'<div class="kwp-pied"><img src="{marque(cle)["noir"]}" alt="{marque(cle)["nom"]}" title="{marque(cle)["nom"]}" width="46" height="46" loading="lazy">'
             f'<a class="btn-noir" href="{pfx(lang)}/plan-your-trip/{c["q"]}">{t["btn"]}</a></div></div></article>')
 
