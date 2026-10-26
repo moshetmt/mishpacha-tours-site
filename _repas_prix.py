@@ -19,9 +19,8 @@ T = {
   intro="Per person, per day. Starting prices, which depend on the resort and the season: you get the exact total in writing before you pay.",
   rows=[("Full board: breakfast, lunch and dinner", "from €75"), ("Dinner only: starter, main course, dessert", "from €27"),
         ("Shabbat: Friday night dinner", "€45"), ("Shabbat: Saturday lunch", "€40"), ("Seuda shlishit", "€35"),
-        ("Delivery every two days, any resort in France", "€180 to €350")],
+        ("Delivery every two days, any resort in France", "€180 to €350"), ("Kashering the kitchen of the chalet you rent", "from €680"), ("Pizza night with a pizzaiolo, for groups", "€35 per person, from €400")],
   note="Children up to 5: about 30% less. Delivery is charged per trip; when several groups stay in the same resort the same week, they share it. Order by Wednesday evening, pay in full when you order. A plata or a kumkum can be bought for Shabbat. Kosher supervision: Beth Habad de Grenoble Alpes, Rav Yehia Lahiany.",
-  devis="Kashering the kitchen of a chalet you already rent, or a pizza night with a pizzaiolo for your group: on quote.",
   btn="Order meals on WhatsApp",
   faq=[("Yes. Our team in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.",
         "Yes. The meals are prepared under the supervision of the Beth Habad de Grenoble Alpes, Rav Yehia Lahiany. The details come in writing with your quote."),
@@ -36,9 +35,8 @@ T = {
   intro="Par personne et par jour. Ce sont des prix de départ, selon la station et la saison : vous recevez le total exact par écrit avant de payer.",
   rows=[("Formule complète : matin, midi et soir", "à partir de 75 €"), ("Soir seul : entrée, plat, dessert", "à partir de 27 €"),
         ("Chabbat : dîner du vendredi soir", "45 €"), ("Chabbat : déjeuner du samedi", "40 €"), ("Seouda chlichit", "35 €"),
-        ("Livraison tous les deux jours, toute station française", "180 à 350 €")],
+        ("Livraison tous les deux jours, toute station française", "180 à 350 €"), ("Cachérisation de la cuisine du chalet que vous louez", "à partir de 680 €"), ("Soirée pizza avec un pizzaiolo, pour les groupes", "35 € par personne, à partir de 400 €")],
   note="Enfants jusqu’à 5 ans : environ 30 % de moins. La livraison se paie par passage ; quand plusieurs groupes séjournent dans la même station la même semaine, ils la partagent. Commande au plus tard le mercredi soir, paiement complet à la commande. Plata ou koumkoum en vente pour le Chabbat. Surveillance : Beth Habad de Grenoble Alpes, rav Yehia Lahiany.",
-  devis="Cachérisation de la cuisine d’un chalet que vous louez déjà, ou soirée pizza avec un pizzaiolo pour votre groupe : sur devis.",
   btn="Commander les repas sur WhatsApp",
   faq=[("Oui. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.",
         "Oui. Les repas sont préparés sous la surveillance du Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Le détail vous est remis par écrit avec le devis."),
@@ -51,9 +49,8 @@ T = {
   intro="Por persona y por día. Son precios de partida, según la estación y la temporada: recibe el total exacto por escrito antes de pagar.",
   rows=[("Pensión completa: desayuno, almuerzo y cena", "desde 75 €"), ("Solo cena: entrante, plato principal y postre", "desde 27 €"),
         ("Shabat: cena del viernes", "45 €"), ("Shabat: almuerzo del sábado", "40 €"), ("Seudá shlishit", "35 €"),
-        ("Entrega cada dos días, cualquier estación de Francia", "de 180 a 350 €")],
+        ("Entrega cada dos días, cualquier estación de Francia", "de 180 a 350 €"), ("Kasherización de la cocina del chalé que alquila", "desde 680 €"), ("Noche de pizza con pizzaiolo, para grupos", "35 € por persona, desde 400 €")],
   note="Niños hasta 5 años: alrededor de un 30 % menos. La entrega se paga por viaje; cuando varios grupos están en la misma estación la misma semana, la comparten. Pedido a más tardar el miércoles por la noche, pago completo al hacer el pedido. Plata o kumkum a la venta para Shabat. Supervisión: Beth Habad de Grenoble Alpes, rav Yehia Lahiany.",
-  devis="Kasherización de la cocina de un chalé que ya alquila, o noche de pizza con pizzaiolo para su grupo: bajo presupuesto.",
   btn="Pedir las comidas por WhatsApp",
   faq=[("Sí. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.",
         "Sí. Las comidas se preparan bajo la supervisión del Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Los detalles se entregan por escrito con el presupuesto."),
@@ -66,9 +63,8 @@ T = {
   intro="לאדם ליום. אלה מחירי פתיחה, לפי אתר הסקי והעונה: הסכום המדויק נשלח אליכם בכתב לפני התשלום.",
   rows=[("פנסיון מלא: בוקר, צהריים וערב", "החל מ־" + E("75 €")), ("ערב בלבד: מנה ראשונה, עיקרית וקינוח", "החל מ־" + E("27 €")),
         ("שבת: סעודת ליל שבת", E("45 €")), ("שבת: סעודת יום השבת", E("40 €")), ("סעודה שלישית", E("35 €")),
-        ("משלוח כל יומיים, לכל אתר סקי בצרפת", E("180–350 €"))],
+        ("משלוח כל יומיים, לכל אתר סקי בצרפת", E("180–350 €")), ("הכשרת המטבח בצ'אלה ששכרתם", "החל מ־" + E("680 €")), ("ערב פיצה עם פיצאיולו, לקבוצות", E("35 €") + " לאדם, החל מ־" + E("400 €"))],
   note="ילדים עד גיל 5: כ־30% פחות. המשלוח מחויב לפי נסיעה; כשכמה קבוצות שוהות באותו אתר באותו שבוע, הן מתחלקות בו. הזמנה עד יום רביעי בערב, תשלום מלא בעת ההזמנה. אפשר לרכוש פלטה או קומקום לשבת. השגחה: בית חב\"ד גרנובל אלפים, " + E("Rav Yehia Lahiany") + ".",
-  devis="הכשרת המטבח בצ'אלה שכבר שכרתם, או ערב פיצה עם פיצאיולו לקבוצה שלכם: לפי הצעת מחיר.",
   btn="הזמינו ארוחות בוואטסאפ",
   faq=[("כן. הצוות שלנו באלפים מבשל תחת רשת חב״ד באלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.",
         "כן. הארוחות מוכנות בהשגחת בית חב״ד גרנובל אלפים, " + E("Rav Yehia Lahiany") + ". הפרטים נמסרים בכתב יחד עם הצעת המחיר."),
@@ -83,7 +79,7 @@ def bloc(l):
     lis = "".join(f"<li><span>{a}</span><b>{b}</b></li>" for a, b in t["rows"])
     return (f'<section class="ss wrap minyan-bh repas-prix" id="meal-prices"><div class="minyan-corps">'
             f'<h2>{t["h2"]}</h2><p>{t["intro"]}</p><div class="prix-table"><ul>{lis}</ul></div>'
-            f'<p class="note">{t["note"]}</p><p>{t["devis"]}</p>'
+            f'<p class="note">{t["note"]}</p>'
             f'<p class="cta-hero cta-bh"><a class="btn-noir" href="{WA[l]}" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>{t["btn"]}</a></p>'
             f'</div></section>')
 
