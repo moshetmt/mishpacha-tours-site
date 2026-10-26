@@ -76,9 +76,16 @@ T = {
 
 def bloc(l):
     t = T[l]
-    lis = "".join(f"<li><span>{a}</span><b>{b}</b></li>" for a, b in t["rows"])
+    # 26/10 Mendel : « trop linéaire », des photos par repas. Cartes avec photo pour les repas, lignes simples pour le reste.
+    photos = {0: "petit-dej", 1: "diner", 2: "chabbat-soir", 3: "chabbat-midi", 4: "seouda", 7: "pizza"}
+    cartes = "".join(
+        f'<li class="rp-carte"><img src="/img/repas/{photos[i]}-480.webp" srcset="/img/repas/{photos[i]}-480.webp 480w, /img/repas/{photos[i]}-800.webp 800w" '
+        f'sizes="(min-width:900px) 360px, (min-width:600px) 45vw, 90vw" alt="" width="800" height="600" loading="lazy" decoding="async">'
+        f'<span>{a}</span><b>{b}</b></li>'
+        for i, (a, b) in enumerate(t["rows"]) if i in photos)
+    lis = "".join(f"<li><span>{a}</span><b>{b}</b></li>" for i, (a, b) in enumerate(t["rows"]) if i not in photos)
     return (f'<section class="ss wrap minyan-bh repas-prix" id="meal-prices"><div class="minyan-corps">'
-            f'<h2>{t["h2"]}</h2><p>{t["intro"]}</p><div class="prix-table"><ul>{lis}</ul></div>'
+            f'<h2>{t["h2"]}</h2><p>{t["intro"]}</p><ul class="rp-cartes">{cartes}</ul><div class="prix-table"><ul>{lis}</ul></div>'
             f'<p class="note">{t["note"]}</p>'
             f'<p class="cta-hero cta-bh"><a class="btn-noir" href="{WA[l]}" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>{t["btn"]}</a></p>'
             f'</div></section>')
@@ -125,3 +132,17 @@ if "/* REPAS-PRIX */" not in css:
 @media (min-width:900px){.repas-prix .prix-table li b{font-size:24px}}
 """
     open("styles.css", "w", encoding="utf-8").write(css)
+
+css = open("styles.css", encoding="utf-8").read()
+if "/* REPAS-CARTES */" not in css:
+    open("styles.css", "w", encoding="utf-8").write(css + """
+/* REPAS-CARTES */ /* 26/10 Mendel : une photo par repas, cartes sur fond sombre */
+.repas-prix .rp-cartes{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:16px}
+.repas-prix .rp-carte{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;align-items:start;padding:0 0 16px;border:1px solid rgba(201,169,97,.3);overflow:hidden;background:rgba(250,247,240,.03)}
+.repas-prix .rp-carte img{grid-column:1/-1;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block;margin-bottom:12px}
+.repas-prix .rp-carte span{padding-inline:16px;opacity:.92;font-size:15px;line-height:1.4}
+.repas-prix .rp-carte b{padding-inline:16px;font-family:var(--titre);font-weight:300;font-size:19px;line-height:1.25;color:var(--jaune,#C9A961);text-align:start;text-wrap:balance}
+@media (min-width:600px){.repas-prix .rp-cartes{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:900px){.repas-prix .rp-cartes{grid-template-columns:repeat(3,1fr);gap:20px}.repas-prix .rp-carte b{font-size:22px}}
+.repas-prix .rp-cartes + .prix-table ul{margin-top:20px}
+""")

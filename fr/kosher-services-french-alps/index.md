@@ -42,9 +42,10 @@ Par personne et par jour. Ce sont des prix de départ, selon la station et la sa
 - Chabbat : dîner du vendredi soir**45 €**
 - Chabbat : déjeuner du samedi**40 €**
 - Seouda chlichit**35 €**
+- Soirée pizza avec un pizzaiolo, pour les groupes**35 € par personne, à partir de 400 €**
+
 - Livraison tous les deux jours, toute station française**180 à 350 €**
 - Cachérisation de la cuisine du chalet que vous louez**à partir de 680 €**
-- Soirée pizza avec un pizzaiolo, pour les groupes**35 € par personne, à partir de 400 €**
 
 Enfants jusqu’à 5 ans : environ 30 % de moins. La livraison se paie par passage ; quand plusieurs groupes séjournent dans la même station la même semaine, ils la partagent. Commande au plus tard le mercredi soir, paiement complet à la commande. Plata ou koumkoum en vente pour le Chabbat. Surveillance : Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
 
