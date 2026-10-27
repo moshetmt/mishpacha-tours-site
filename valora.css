@@ -816,3 +816,11 @@ body.valora .panneau .btn-noir,body.valora .panneau a[class*="btn"],body.valora 
 body.valora .panneau nav a.nav-cta{display:flex !important;align-items:center;justify-content:center;gap:10px;background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;color:#141518 !important;border:0 !important;border-radius:999px !important;font-weight:600 !important;min-height:54px}
 body.valora .panneau nav a.nav-cta::after{content:"→";letter-spacing:0;color:#141518}
 html[dir="rtl"] body.valora .panneau nav a.nav-cta::after{content:"←"}
+
+/* En-tête téléphone : 2 éléments à droite seulement (ב"ה + menu) ; la langue se choisit dans le menu (Moshé 27/10 : « ça fait trop ») */
+@media (max-width:900px){
+  body.valora .nav details.langue{display:none !important}
+  body.valora .panneau .panneau-langs{display:flex !important;gap:10px;margin-top:14px}
+  body.valora .panneau .panneau-langs a{padding:8px 14px;border:1px solid rgba(217,169,58,.4) !important;border-radius:999px;font:600 12px/1 Heebo,sans-serif;letter-spacing:.12em;color:#f5f2ec !important;text-decoration:none}
+  body.valora .panneau .panneau-langs a[aria-current="true"]{background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A);color:#141518 !important;border-color:transparent !important}
+}
