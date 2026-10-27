@@ -175,6 +175,9 @@
 | img/reve/chef.jpg | Image générée (Gemini 3 pro image, 25/10/2026) à partir de la cuisine du chalet | Production Mishpacha Tours |
 
 ## Vidéo de la bannière d'accueil (27/10/2026)
-Vidéo d'accueil refaite le 27/10 selon Mendel (plus de pieds de skieur ni de plans tout blancs ; table, spa, chef, intérieur) : photos du site animées (img/h/reve-table, img/h/reve-chef, img/chalet/courchevel-piscine-ext, courchevel-piscine-int, courchevel-salon-cheminee) et vidéos Pexels (licence Pexels : usage commercial gratuit, sans mention obligatoire) 15877925 (huskies), 7082108 (motoneiges), 4185348 (chalet vu du ciel), 15037541 (feu d'artifice). Fichiers img/video/accueil-pc.mp4 et accueil-tel.mp4.
+Vidéos refaites le 27/10 avec uniquement des plans filmés (aucune photo animée). Licence Pexels : usage commercial gratuit, sans mention obligatoire. Originaux dans E:/projet site/Capture/.
 
-Vidéos des pages intérieures (27/10, script video-pages.js, attribut data-video du héros) : img/video/chalets-* (photos des chalets : wp-salon-1, courchevel-piscine-ext et -int, valthorens-salon-baie, slope-salon-baie, courchevel-salon-lustre) ; img/video/stations-* (Pexels 15877925, 7082108, 4185348 et photos reve-chef, reve-table, courchevel-piscine-ext) ; img/video/ete-* (Pexels 14051217 lac et alpages, 12040525 randonnée, 12159913 coucher de soleil sur un lac, et photos annecy-lac, annecy-ete). Originaux Pexels dans E:/projet site/Capture/.
+- img/video/accueil-pc.mp4 et accueil-tel.mp4 : Pexels 15877925 (chiens de traîneau), 12209781 (montagne et forêt vues du ciel), 4185348 (chalet éclairé au crépuscule), 7082108 (motoneiges), 14740063 (feu d'artifice).
+- img/video/chalets-* : Pexels 4185348, 12209781.
+- img/video/stations-* : Pexels 15877925, 7082108, 12209781, 4185348, 15037541 (feu d'artifice sur la station).
+- img/video/ete-* : Pexels 14051217 (lac et alpages), 12040525 (randonnée), 12132979 (randonneurs, téléphone seulement).
