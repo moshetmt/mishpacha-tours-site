@@ -367,3 +367,64 @@ body.valora #tours.ac-lyon .ac-guide a{color:#cfcac1 !important;text-decoration:
 @media (max-width:600px){body.valora #tours.ac-lyon .ac-boutons{grid-template-columns:1fr !important}}
 body.valora #tours.ac-lyon .ac-boutons a{justify-content:space-between !important;white-space:nowrap}
 body.valora #tours.ac-lyon h2 i{-webkit-text-fill-color:transparent !important}
+
+/* ===== Bannière des pages intérieures = bannière de l'accueil (Moshé 27/10) ===== */
+body.valora .lead-hero3:not(.lead-hero3-illus){min-height:min(86svh,860px) !important;display:flex !important;flex-direction:column !important;justify-content:center !important;text-align:center !important;background:#141518 !important}
+body.valora .lead-hero3:not(.lead-hero3-illus)::before{z-index:1 !important;background:linear-gradient(180deg,rgba(18,19,21,.55) 0%,rgba(18,19,21,.35) 38%,rgba(18,19,21,.82) 100%) !important}
+body.valora .lead-hero3 .kwp-hero-wp-tel{display:none !important}
+body.valora .lead-hero3 .lead3-texte{position:relative !important;z-index:2 !important;padding:96px var(--pad,20px) 64px !important;max-width:980px !important;margin:0 auto !important}
+body.valora .lead-hero3 .lead-fil{position:absolute !important;top:18px;left:0;right:0;font-size:11px !important;letter-spacing:.08em;color:rgba(245,242,236,.75) !important;text-shadow:none !important}
+body.valora .lead-hero3 .lead3-bloc{background:none !important;border:0 !important;box-shadow:none !important;backdrop-filter:none !important;padding:0 !important;max-width:none !important;margin:0 auto !important}
+body.valora .lead-hero3 .kwp-hero-wp{display:flex !important;justify-content:center !important;margin:0 auto 18px !important;padding:0 !important;border:0 !important}
+body.valora .lead-hero3 .kwp-hero-wp img,body.valora .lead-hero3 .kwp-hero-wp .wp-brille{width:170px !important;max-width:46vw !important;height:auto !important}
+body.valora .lead-hero3 h1{font-family:'Playfair Display',serif !important;font-weight:500 !important;font-style:normal !important;color:#fff !important;font-size:clamp(34px,5.6vw,76px) !important;line-height:1.06 !important;text-wrap:balance;margin:0 !important;text-shadow:0 2px 24px rgba(0,0,0,.35)}
+body.valora .lead-hero3 h1 i{display:block !important;font-style:normal !important;background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;-webkit-background-clip:text !important;background-clip:text !important;color:transparent !important;-webkit-text-fill-color:transparent !important;text-shadow:none !important}
+body.valora .lead-hero3 .lead3-bloc>p{margin:18px auto 0 !important;max-width:640px !important;font-size:12.5px !important;line-height:1.6 !important;letter-spacing:.16em !important;text-transform:uppercase !important;color:#f1ede5 !important;opacity:.92}
+html[lang="he"] body.valora .lead-hero3 .lead3-bloc>p{letter-spacing:0 !important;text-transform:none !important;font-size:15px !important}
+body.valora .lead-hero3 .lead3-btns{display:flex !important;flex-direction:column !important;align-items:center !important;gap:14px !important;margin-top:28px !important}
+body.valora .lead-hero3 .lead3-btns .btn-hero{background:transparent !important;color:#fff !important;border:1px solid rgba(255,255,255,.6) !important;border-radius:999px !important;min-height:50px !important;padding:0 30px !important;font-size:12px !important;letter-spacing:.18em !important;text-transform:uppercase !important}
+body.valora .lead-hero3 .lead3-btns .btn-hero svg,body.valora .lead-hero3 .lead3-btns .btn-hero img{display:none !important}
+body.valora .lead-hero3 .lead3-wa{color:#f1ede5 !important;font-size:14px !important}
+body.valora .lead-hero3 .lead3-wa svg{fill:currentColor !important;width:18px;height:18px}
+@media (max-width:760px){
+ body.valora .lead-hero3 h1{font-size:34px !important}
+ body.valora .lead-hero3 h1:has(i:only-child){font-size:34px !important}
+ body.valora .lead-hero3 .lead3-texte{padding:80px 20px 48px !important}
+}
+/* Pages Lyon avec photo : voile plus léger */
+body.valora.valora-clair .lead-hero3:not(.lead-hero3-illus)::before{background:linear-gradient(180deg,rgba(18,19,21,.35) 0%,rgba(18,19,21,.2) 40%,rgba(18,19,21,.7) 100%) !important}
+body.valora .lead-hero3 .kwp-hero-wp{width:100% !important;text-align:center !important}
+body.valora .lead-hero3 .kwp-hero-wp .wp-brille{display:block !important;margin:0 auto !important}
+body.valora .lead-hero3 .kwp-hero-wp img{display:block !important;margin:0 auto !important}
+body.valora .lead-hero3 .lead-fil{text-align:center !important}
+body.valora .lead-hero3 .lead3-btns .btn-hero::before{display:none !important;content:none !important}
+
+/* ===== Bloc final « Votre semaine casher… organisée » (lead-final) ===== */
+body.valora .lead-final{background:#141518 !important;padding:56px 0 !important}
+body.valora .lead-final-tete{display:flex !important;flex-direction:column !important;align-items:center !important;text-align:center !important;gap:18px !important;margin-bottom:26px !important}
+body.valora .lead-final-hassid{width:84px !important;height:auto !important;content:url(/img/picto-hassid-or-lumiere.svg)}
+body.valora .lead-final h2{color:#f5f2ec !important;margin:0 0 10px !important;font-size:clamp(30px,4.4vw,52px) !important;line-height:1.1 !important}
+body.valora .lead-final h2 i{font-style:normal !important;background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;-webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;color:transparent !important}
+body.valora .lead-final-tete p{color:#cfcac1 !important;font-size:16px !important;line-height:1.55 !important;max-width:520px;margin:0 auto !important}
+body.valora .lead-final .lead-form{background:#24272c !important;border:1px solid rgba(217,169,58,.35) !important;border-radius:22px !important;box-shadow:none !important;padding:22px !important;max-width:560px !important;margin:0 auto !important}
+body.valora .lead-final .lead-form label span{color:#cfcac1 !important}
+body.valora .lead-final .lead-form input{background:#1b1d21 !important;border:1px solid rgba(245,242,236,.18) !important;color:#f5f2ec !important;border-radius:12px !important;color-scheme:dark}
+body.valora .lead-final .lead-form button[type=submit]{display:flex !important;align-items:center !important;justify-content:center !important;gap:10px !important;width:100% !important;min-height:52px !important;border:0 !important;border-radius:999px !important;background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;color:#141518 !important;font:600 12.5px/1 Heebo,sans-serif !important;letter-spacing:.16em !important;text-transform:uppercase !important}
+body.valora .lead-final .lead-form button[type=submit]::after{content:"→";letter-spacing:0;font-size:16px}
+html[dir="rtl"] body.valora .lead-final .lead-form button[type=submit]::after{content:"←"}
+html[lang="he"] body.valora .lead-final .lead-form button[type=submit]{letter-spacing:0 !important}
+body.valora .lead-final .lead-form small{display:block !important;margin-top:14px !important;color:#cfcac1 !important;font-size:13.5px !important;line-height:1.5 !important;text-align:center !important}
+
+/* ===== « Pour aller plus loin » (dk-suite) ===== */
+body.valora .conseils:has(.dk-suite) h2{margin-bottom:20px !important}
+body.valora .dk-suite{display:grid !important;gap:10px !important;padding:0 !important;list-style:none !important}
+@media (min-width:900px){body.valora .dk-suite{grid-template-columns:1fr 1fr !important;gap:14px !important}}
+body.valora .dk-suite li{position:relative !important;display:grid !important;grid-template-columns:56px 1fr 22px !important;align-items:center !important;gap:16px !important;min-height:84px !important;padding:14px 18px 14px 14px !important;border-radius:18px !important;transition:border-color .2s,transform .2s}
+body.valora .dk-suite li:hover{border-color:#D9A93A !important;transform:translateY(-1px)}
+body.valora .dk-suite li img{width:56px !important;height:56px !important;margin:0 !important;padding:8px !important;border-radius:14px !important;background:#f3ece0 !important;object-fit:contain}
+body.valora .dk-suite li a{font-family:'Playfair Display',serif !important;font-weight:500 !important;font-size:18px !important;line-height:1.25 !important;color:#f5f2ec !important;text-decoration:none !important}
+body.valora .dk-suite li a::after{content:"";position:absolute;inset:0}
+body.valora .dk-suite li .dk-fleche{width:20px !important;height:20px !important;color:#D9A93A !important;fill:none;stroke:#D9A93A !important}
+html[dir="rtl"] body.valora .dk-suite li{padding:14px 14px 14px 18px !important}
+html[dir="rtl"] body.valora .dk-suite li .dk-fleche{transform:scaleX(-1)}
+body.valora .dk-suite li a{text-align:start !important}
