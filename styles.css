@@ -1878,7 +1878,7 @@ details.dm-recap,
 /* ---- bouton Plan your trip flottant, a gauche du WhatsApp (Moshe 19/10) ---- */ .pyt-flottant,
 .of-carte,
 .of-btn,
-.gal-btn{border-radius:0}
+.gal-btn{border-radius:var(--rayon)}
 /* Boutons : capitales espacées, 48 px. */
 .btn-noir,.btn-hero,.cta-hero,.cta-pratique,.cta-etapes,.nav .liens a.nav-cta,.panneau nav a.nav-cta,.pill-noir,.cb button,.demande button,.lead-final button,.lead-plan a,form button{font-family:'Heebo',sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;min-height:48px}
 .panneau nav a.nav-cta{font-size:13px;padding:0 24px;min-height:56px}
@@ -2084,3 +2084,14 @@ body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
 .ac-hero > .ac-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1s ease;pointer-events:none}
 .ac-hero > .ac-video.on{opacity:1}
 @media (prefers-reduced-motion:reduce){.ac-hero > .ac-video{display:none}}
+
+/* ANGLES-ARRONDIS */ /* 27/10 Moshé : plus de carrés, un arrondi doux partout */
+:root{--rayon:12px;--rayon-btn:10px}
+.btn-noir,.btn-hero,.cta-hero .btn-noir,.nav .liens a.nav-cta,.panneau nav a.nav-cta,.pill-noir,.cb button,.of-btn,.gal-btn,.pyt-flottant,
+.barre-basse a,#chercheur input,#chercheur select,#chercheur button,.lead-final .chercheur input,.lead-final button,.demande button,form button,
+.langue summary,.langue ul{border-radius:var(--rayon-btn)}
+.kwp-carte,.carte,.of-carte,.hub-carte,.rp-carte,.dk-cartes>li,.minyan-corps,.prix-table ul,.mosaique figure,.reve-grille figure,
+.lead3-bloc,.chercheur,.ticket,.kwp-photo,.photo-cit,.carte-osm,.dk-note p{border-radius:var(--rayon);overflow:hidden}
+.reve-grille .reve-lien{border-radius:var(--rayon)}
+.barre-basse{border-radius:var(--rayon) var(--rayon) 0 0;overflow:hidden}
+.barre-basse a{border-radius:0}
