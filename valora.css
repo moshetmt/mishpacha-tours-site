@@ -877,3 +877,27 @@ html[dir="rtl"] body.valora .pied .logo-pied small{letter-spacing:.02em !importa
 @media (max-width:760px){
   body.valora .ac-hero{min-height:0 !important;padding-bottom:104px !important}
 }
+
+/* Accueil, bloc Lyon (Moshé 28/10) : marges, titre plus grand, boutons centrés, lien guide en carte */
+@media (max-width:760px){
+  html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-lyon-grille h2{font-size:clamp(38px,10.5vw,46px) !important;line-height:1.08 !important;padding-top:150px !important}
+}
+html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-lyon-liste,
+html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-boutons,
+html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-guide{margin-left:20px !important;margin-right:20px !important}
+@media (min-width:761px){
+  html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-lyon-liste,
+  html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-boutons,
+  html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-guide{margin-left:0 !important;margin-right:0 !important}
+}
+html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-boutons a{justify-content:center !important;gap:12px !important}
+html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-guide{margin-top:18px !important;font-size:inherit !important}
+html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-guide a{display:flex !important;align-items:center !important;justify-content:space-between !important;gap:14px !important;padding:16px 18px !important;border:1px solid #E8E8E8 !important;border-radius:16px !important;background:#FFFFFF !important;box-shadow:0 6px 20px rgba(20,21,24,.06) !important;color:#1c1d20 !important;text-decoration:none !important;font:500 16px/1.35 'Playfair Display',serif !important}
+html body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-guide a::after{content:"→";flex:none;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;border:1px solid #8A6416;color:#8A6416;font:400 16px/1 Heebo,sans-serif}
+html[dir="rtl"] body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-guide a::after{content:"←"}
+
+/* Séparation bloc final noir / pied noir : pied plus profond + filet doré (Moshé 28/10) */
+body.valora footer.pied{background:#0B0C0E !important;position:relative;border-top:0 !important;padding-top:48px !important}
+body.valora footer.pied::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(320px,70%);height:1px;background:linear-gradient(90deg,transparent,#E2B44A 50%,transparent)}
+body.valora footer.pied::after{content:"";position:absolute;top:-5px;left:50%;width:9px;height:9px;transform:translateX(-50%) rotate(45deg);background:#0B0C0E;border:1px solid #E2B44A}
+html[dir="rtl"] body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-boutons a{letter-spacing:0 !important}
