@@ -790,3 +790,29 @@ html body.valora .gal .gal-som a[aria-current="true"]{color:#F6DC8C !important}
 body.valora .gal .gal-grid figure{background:#24272c !important;border-radius:12px}
 body.valora .gal-x{background:#24272c !important;color:#f5f2ec !important;border:1px solid rgba(217,169,58,.5) !important}
 body.valora .gal-back{color:#f5f2ec !important}
+
+/* Icône du menu : trois traits crème (Moshé 27/10 : un seul trait visible) */
+body.valora .nav .menu{width:40px !important;height:40px !important;padding:0 !important;display:grid !important;place-items:center !important;background:transparent !important}
+body.valora .nav .menu::before{content:none !important}
+body.valora .nav .menu span{position:relative !important;display:block !important;width:20px !important;height:2px !important;border-radius:2px;background:var(--v-texte,#f5f2ec) !important;box-shadow:none !important}
+body.valora .nav .menu span::before,body.valora .nav .menu span::after{content:"" !important;position:absolute !important;left:0 !important;width:20px !important;height:2px !important;border-radius:2px;background:var(--v-texte,#f5f2ec) !important;transition:transform .2s}
+body.valora .nav .menu span::before{top:-6px !important}
+body.valora .nav .menu span::after{top:6px !important}
+body.valora .nav .menu[aria-expanded="true"] span{background:transparent !important}
+body.valora .nav .menu[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+body.valora .nav .menu[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+/* Bannière d'accueil sur téléphone : cadrer la table, pas les poutres du plafond */
+@media (max-width:760px){body.valora .ac-hero img,body.valora .ac-hero video{object-position:50% 78% !important}}
+
+/* Menu ouvert (panneau) en sombre : titres crème, bouton doré (Moshé 27/10) */
+body.valora .panneau{background:#141518 !important;color:#f5f2ec !important}
+body.valora .panneau *{border-color:rgba(217,169,58,.22) !important}
+body.valora .panneau nav a{color:#f5f2ec !important}
+body.valora .panneau nav a small{color:#cfcac1 !important}
+body.valora .panneau a,body.valora .panneau p,body.valora .panneau span,body.valora .panneau li{color:#f5f2ec}
+body.valora .panneau small,body.valora .panneau .doux{color:#cfcac1 !important}
+body.valora .panneau svg{fill:#F6DC8C !important;color:#F6DC8C !important}
+body.valora .panneau .btn-noir,body.valora .panneau a[class*="btn"],body.valora .panneau .pill-noir{background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;color:#141518 !important;border:0 !important;border-radius:999px !important}
+body.valora .panneau nav a.nav-cta{display:flex !important;align-items:center;justify-content:center;gap:10px;background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;color:#141518 !important;border:0 !important;border-radius:999px !important;font-weight:600 !important;min-height:54px}
+body.valora .panneau nav a.nav-cta::after{content:"→";letter-spacing:0;color:#141518}
+html[dir="rtl"] body.valora .panneau nav a.nav-cta::after{content:"←"}
