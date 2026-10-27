@@ -872,3 +872,8 @@ html[dir="rtl"] body.valora main>.hero::after,html[dir="rtl"] body.valora:not(:h
 /* Pied : ligne sous le logo à la charte (Heebo 600, capitales espacées, comme « JEWISH TOURS OF LYON ») */
 body.valora .pied .logo-pied small{font-family:Heebo,'Noto Sans Hebrew',system-ui,sans-serif !important;font-weight:600 !important;font-size:11.5px !important;letter-spacing:.2em !important;text-transform:uppercase !important;color:#D9A93A !important;opacity:1 !important;margin-top:6px}
 html[dir="rtl"] body.valora .pied .logo-pied small{letter-spacing:.02em !important;font-weight:700 !important;font-size:13.5px !important;text-transform:none !important}
+
+/* Accueil téléphone : barre de réservation collée sous le bouton de la bannière (Moshé 28/10, remarque Notion) */
+@media (max-width:760px){
+  body.valora .ac-hero{min-height:0 !important;padding-bottom:104px !important}
+}
