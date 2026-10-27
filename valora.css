@@ -231,3 +231,65 @@ body.valora .dk-plus{color:#D9A93A !important;border-color:#D9A93A !important}
 body.valora img[src*="picto-hassid-vert"]{content:url(/img/picto-hassid-or-lumiere.svg)}
 body.valora .dk-cartes li{background:#24272c !important;border:1px solid rgba(217,169,58,.28) !important;color:#cfcac1 !important}
 body.valora .dk-cartes li b{color:#f5f2ec !important}
+
+/* ===== Étape 6 : pages Lyon en version claire (Moshé 27/10 : Lyon reste clair, pas « luxe ») =====
+   En-tête, bandeau, menu et barre basse restent sombres comme partout ; le contenu repasse sur crème. */
+body.valora.valora-clair.valora-clair.valora-clair{background:#f6f1e8;color:#1c1b1f}
+body.valora.valora-clair.valora-clair.valora-clair main{background:#f6f1e8;color:#1c1b1f}
+body.valora.valora-clair.valora-clair.valora-clair main .ss,body.valora.valora-clair.valora-clair.valora-clair main .ss.beige,body.valora.valora-clair.valora-clair.valora-clair main section{background-color:transparent}
+body.valora.valora-clair.valora-clair.valora-clair main .ss.beige{background:#efe7d8 !important}
+body.valora.valora-clair.valora-clair.valora-clair main h1,body.valora.valora-clair.valora-clair.valora-clair main h2,body.valora.valora-clair.valora-clair.valora-clair main h3,body.valora.valora-clair.valora-clair.valora-clair main h4,body.valora.valora-clair.valora-clair.valora-clair main .dk-h2{color:#1c1b1f !important}
+body.valora.valora-clair.valora-clair.valora-clair main h1 i,body.valora.valora-clair.valora-clair.valora-clair main h2 i,body.valora.valora-clair.valora-clair.valora-clair main h3 i{background:linear-gradient(100deg,#B98522,#8C5E10) !important;-webkit-background-clip:text !important;background-clip:text !important;color:transparent !important;-webkit-text-fill-color:transparent}
+body.valora.valora-clair.valora-clair.valora-clair main p,body.valora.valora-clair.valora-clair.valora-clair main li,body.valora.valora-clair.valora-clair.valora-clair main dd,body.valora.valora-clair.valora-clair.valora-clair main dt,body.valora.valora-clair.valora-clair.valora-clair main td,body.valora.valora-clair.valora-clair.valora-clair main th{color:#2a2930 !important}
+body.valora.valora-clair.valora-clair.valora-clair main b,body.valora.valora-clair.valora-clair.valora-clair main strong{color:#1c1b1f !important}
+body.valora.valora-clair.valora-clair.valora-clair main a{color:#1c1b1f}
+body.valora.valora-clair.valora-clair.valora-clair main .liste-lieux li,body.valora.valora-clair.valora-clair.valora-clair main .dk-suite li,body.valora.valora-clair.valora-clair.valora-clair main .dk-note p,body.valora.valora-clair.valora-clair.valora-clair main .conseils li,body.valora.valora-clair.valora-clair.valora-clair main .dk-cartes li,body.valora.valora-clair.valora-clair.valora-clair main .minyan-corps,body.valora.valora-clair.valora-clair.valora-clair main details{background:#fffdf8 !important;border:1px solid rgba(28,27,31,.12) !important;color:#2a2930 !important}
+body.valora.valora-clair.valora-clair.valora-clair main .liste-lieux li a.go,body.valora.valora-clair.valora-clair.valora-clair main .dk-plus{color:#8C5E10 !important;border-color:#8C5E10 !important}
+body.valora.valora-clair.valora-clair.valora-clair main .dk-g-tete{color:#8C5E10 !important}
+body.valora.valora-clair.valora-clair.valora-clair main .btn-noir,body.valora.valora-clair.valora-clair.valora-clair main .minyan-corps .btn-noir{background:#1c1b1f !important;color:#fff !important;border:1px solid #1c1b1f !important}
+body.valora.valora-clair.valora-clair.valora-clair main .pill{color:#1c1b1f !important;border-color:#1c1b1f !important;background:transparent !important}
+body.valora.valora-clair.valora-clair.valora-clair img[src*="picto-hassid-vert"]{content:normal}
+/* Lyon clair : composants qui gardent leur fond sombre */
+body.valora.valora-clair.valora-clair.valora-clair main .shabbat,body.valora.valora-clair.valora-clair.valora-clair main .shabbat *{color:#faf7f0 !important}
+body.valora.valora-clair.valora-clair.valora-clair main .shabbat .sh-d,body.valora.valora-clair.valora-clair.valora-clair main .shabbat b{color:#E2B44A !important}
+body.valora.valora-clair.valora-clair.valora-clair main .tag{color:#fff !important}
+/* pages sombres : puces, formulaire et encart final qui étaient blancs ou or terne */
+body.valora .chips li,body.valora .dk-chips li{background:#24272c !important;border:1px solid rgba(217,169,58,.3) !important;color:#f5f2ec !important}
+body.valora.valora-clair.valora-clair.valora-clair .chips li,body.valora.valora-clair.valora-clair.valora-clair .dk-chips li{background:#fffdf8 !important;border-color:rgba(28,27,31,.15) !important;color:#1c1b1f !important}
+body.valora .dm-bloc{background:#1f2125 !important;border:1px solid rgba(255,255,255,.12) !important;color:#f5f2ec !important}
+body.valora .dm-tuile{background:#2a2d33 !important;border:1px solid rgba(255,255,255,.16) !important;color:#f5f2ec !important}
+body.valora .dm-tuile span{color:#cfcac1 !important}
+body.valora .cta-pratique>div{background:#24272c !important;border:1px solid rgba(217,169,58,.45) !important}
+body.valora .cta-pratique>div h2,body.valora .cta-pratique>div p{color:#f5f2ec !important}
+body.valora.valora-clair.valora-clair.valora-clair main .liste-lieux li span,body.valora.valora-clair.valora-clair.valora-clair main .liste-lieux li small{color:#55525a !important}
+body.valora.valora-clair.valora-clair.valora-clair main .liste-lieux li b,body.valora.valora-clair.valora-clair.valora-clair main .dk-suite li a,body.valora.valora-clair.valora-clair.valora-clair main .conseils li a,body.valora.valora-clair.valora-clair.valora-clair main .dk-cartes li b{color:#1c1b1f !important}
+body.valora.valora-clair.valora-clair.valora-clair main .cta-pratique>div,body.valora.valora-clair.valora-clair.valora-clair main .cta-pratique>div *{color:#f5f2ec !important}
+body.valora.valora-clair.valora-clair.valora-clair main .cta-pratique>div .btn-noir{background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;color:#141518 !important;border:0 !important}
+body.valora main h1 span{color:inherit !important}
+body.valora .dm-sur{color:#cfcac1 !important}
+body.valora .dm-wa a{color:#D9A93A !important}
+body.valora.valora-clair.valora-clair.valora-clair main .ticket-zone,body.valora.valora-clair.valora-clair.valora-clair main #how,body.valora.valora-clair.valora-clair.valora-clair main .etapes{background:#efe7d8 !important}
+body.valora.valora-clair.valora-clair.valora-clair main .ticket{background:#fffdf8 !important;border:1px solid rgba(28,27,31,.14) !important;color:#1c1b1f !important}
+body.valora.valora-clair.valora-clair.valora-clair main .ticket *:not(.btn-noir):not(.btn-noir *){color:#1c1b1f !important}
+body.valora.valora-clair.valora-clair.valora-clair main .ticket input,body.valora.valora-clair.valora-clair.valora-clair main .ticket select{background:#fff !important;border:1px solid rgba(28,27,31,.25) !important;color:#1c1b1f !important}
+body.valora.valora-clair.valora-clair.valora-clair main .etapes *{color:#1c1b1f !important}
+body.valora.valora-clair.valora-clair.valora-clair main #how *{color:#1c1b1f !important}
+body.valora.valora-clair.valora-clair.valora-clair main #how b{color:#8C5E10 !important}
+body.valora.valora-clair.valora-clair.valora-clair main #how .btn-noir,body.valora.valora-clair.valora-clair.valora-clair main #how .btn-noir *{color:#fff !important}
+
+/* ===== Cartes chalet moins massives (Moshé 27/10 : « un peu trop massives ») ===== */
+body.valora .kwp-carte .kwp-photo{padding-bottom:56% !important}
+body.valora .kwp-carte .kwp-seau{width:64px !important;height:64px !important}
+body.valora .kwp-carte .kwp-corps{padding:10px 14px 12px !important}
+body.valora .kwp-carte .kwp-corps>h3{font-size:17px !important;line-height:1.25 !important;padding-top:6px !important;margin-bottom:6px !important;letter-spacing:.03em}
+body.valora .kwp-carte .kwp-chiffres{margin-top:6px !important;gap:4px 12px !important}
+body.valora .kwp-carte .kwp-chiffres li,body.valora .kwp-carte .kwp-chiffres span{font-size:12.5px !important;line-height:1.35 !important}
+body.valora .kwp-carte .kwp-casher{margin-top:10px !important;padding-top:10px !important;font-size:12.5px !important;line-height:1.45 !important}
+body.valora .kwp-carte .kwp-lieu{margin-top:8px !important;font-size:10.5px !important}
+body.valora .kwp-carte .kwp-dispo{display:none !important}
+body.valora .kwp-carte .kwp-pied{margin-top:8px !important}
+body.valora .kwp-carte .kwp-pied .btn-noir{min-height:0 !important;height:auto !important;padding:12px 0 2px !important;font-size:11px !important}
+@media (min-width:900px){
+  body.valora .kwp-carte .kwp-corps>h3{font-size:15.5px !important}
+  body.valora .kwp-carte .kwp-photo{padding-bottom:58% !important}
+}
