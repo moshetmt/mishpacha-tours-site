@@ -1,0 +1,126 @@
+/* Formulaire de demande et page merci en Valora (Moshé 27/10 : zones ratées). CSS seulement, aucun champ touché. */
+body.valora .demande{--f-fond:#141518;--f-carte:#1f2226;--f-champ:#1b1d21;--f-trait:rgba(245,242,236,.16);--f-or:#D9A93A;--f-or-c:#F6DC8C;--f-texte:#f5f2ec;--f-doux:#cfcac1;--f-ph:#9a958c;--f-grad:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A)}
+
+/* 1. Progression : bandeau sombre fin */
+body.valora .demande form.js .dm-prog{background:var(--f-fond) !important;border-bottom:1px solid var(--f-trait) !important;padding:8px 16px 8px !important;gap:2px !important;box-shadow:none !important}
+body.valora .demande .dm-prog-txt{color:var(--f-or-c) !important;opacity:1 !important;font-size:11px !important;letter-spacing:.14em !important}
+body.valora .demande .dm-barre{height:3px !important;background:rgba(245,242,236,.14) !important}
+body.valora .demande .dm-barre i{background:var(--f-grad) !important}
+body.valora .demande form.js .dm-piste{padding-top:24px !important}
+body.valora .demande .dm-hp img{content:url(/img/picto-hassid-or-lumiere.svg);height:22px !important}
+
+/* Blocs */
+body.valora .demande .dm-bloc,body.valora .demande .dm-intention,body.valora .demande .dm-contact{background:var(--f-carte) !important;border:1px solid var(--f-trait) !important;color:var(--f-texte) !important}
+body.valora .demande .dm-bloc h2,body.valora .demande .dm-tete h2{color:var(--f-texte) !important}
+body.valora .demande .dm-tete p,body.valora .demande .dm-aide,body.valora .demande .dm-bloc legend p{color:var(--f-doux) !important;opacity:1 !important}
+body.valora .demande .dm-sur{color:var(--f-or-c) !important}
+body.valora .demande .dm-sous,body.valora .demande .dm-champ label{color:var(--f-texte) !important;opacity:1 !important;letter-spacing:.1em !important}
+
+/* 5. Champs */
+body.valora .demande .dm-champ input,body.valora .demande .dm-champ select,body.valora .demande .dm-champ textarea,body.valora .demande .dm-contact .dm-champ input,body.valora .demande .dm-contact .dm-champ select{background:var(--f-champ) !important;border:1px solid rgba(245,242,236,.24) !important;color:var(--f-texte) !important;-webkit-text-fill-color:var(--f-texte)}
+body.valora .demande .dm-champ input::placeholder,body.valora .demande .dm-champ textarea::placeholder{color:var(--f-ph) !important;-webkit-text-fill-color:var(--f-ph);opacity:1}
+body.valora .demande .dm-champ input:focus,body.valora .demande .dm-champ select:focus,body.valora .demande .dm-champ textarea:focus{outline:none !important;border-color:var(--f-or) !important;box-shadow:0 0 0 3px rgba(217,169,58,.22) !important}
+body.valora .demande .dm-champ select{background-image:linear-gradient(45deg,transparent 50%,var(--f-or) 50%),linear-gradient(135deg,var(--f-or) 50%,transparent 50%) !important;background-position:calc(100% - 20px) 50%,calc(100% - 14px) 50% !important;background-size:6px 6px !important;background-repeat:no-repeat !important;padding-right:38px !important}
+body.valora .demande .dm-champ input[type=date]{color-scheme:dark}
+body.valora .demande .dm-auto{background:var(--f-champ) !important;border-color:rgba(245,242,236,.24) !important}
+body.valora .demande .dm-auto button{color:var(--f-texte) !important;border-top-color:var(--f-trait) !important}
+body.valora .demande .dm-auto button:hover,body.valora .demande .dm-auto button:focus-visible{background:rgba(217,169,58,.18) !important}
+
+/* 3. Compteurs */
+body.valora .demande .dm-cpt{border-bottom-color:var(--f-trait) !important}
+body.valora .demande .dm-cpt .lib{color:var(--f-texte) !important}
+body.valora .demande .cpt button{background:transparent !important;border:1px solid rgba(217,169,58,.6) !important;color:var(--f-or-c) !important;border-radius:12px !important;box-shadow:none !important;font-size:20px !important}
+body.valora .demande .cpt button:active{background:rgba(217,169,58,.18) !important}
+body.valora .demande .cpt-n input{background:transparent !important;border:0 !important;color:var(--f-texte) !important;-webkit-text-fill-color:var(--f-texte);font-weight:600 !important;font-size:20px !important;opacity:1 !important;text-align:center}
+
+/* 4. Cartes de choix à picto */
+body.valora .demande .dm-chips:not(.mini) label,body.valora .demande .dm-contact .dm-chips:not(.mini) label{background:var(--f-champ) !important;border:1px solid rgba(245,242,236,.18) !important;color:var(--f-texte) !important}
+body.valora .demande .dm-chips:not(.mini) label span{color:var(--f-texte) !important;opacity:1 !important}
+body.valora .demande .dm-chips .dm-ic{color:var(--f-or) !important}
+body.valora .demande .dm-chips:not(.mini) label:has(input:checked){background:rgba(217,169,58,.14) !important;border-color:var(--f-or) !important}
+body.valora .demande .dm-chips label:has(input:checked) .dm-ic{color:var(--f-or-c) !important}
+body.valora .demande .dm-chips label:has(input:focus-visible){outline:2px solid var(--f-or) !important}
+
+/* 10. Cases et radios */
+body.valora .demande .dm-chips label::before{background-color:transparent !important;border:1.5px solid rgba(245,242,236,.5) !important}
+body.valora .demande .dm-chips label:has(input:checked)::before{background-color:var(--f-or) !important;border-color:var(--f-or) !important}
+body.valora .demande .dm-chips label:has(input[type=radio]:checked)::before{background-image:radial-gradient(circle,#141518 0 3.5px,transparent 4px) !important;background-size:auto !important}
+
+/* Listes compactes à cocher (.mini) + 8. grille régulière sans trou */
+body.valora .demande .dm-chips.mini{display:grid !important;grid-template-columns:1fr 1fr !important;gap:0 16px !important;align-items:stretch !important}
+body.valora .demande .dm-chips.mini label{background:transparent !important;border:0 !important;border-bottom:1px solid var(--f-trait) !important;border-radius:0 !important;color:var(--f-texte) !important;min-height:48px !important;padding:8px 0 !important;font-size:14.5px !important}
+body.valora .demande .dm-chips.mini label::before{position:static !important;transform:none !important;flex:none}
+body.valora .demande .dm-chips.mini label span{color:var(--f-texte) !important}
+body.valora .demande .dm-chips.mini label:has(input:checked){background:transparent !important;color:var(--f-or-c) !important}
+body.valora .demande .dm-chips.mini label:has(input:checked) span{color:var(--f-or-c) !important}
+
+/* 6. Plis (accordéons) */
+body.valora .demande details.dm-pli{border-top:1px solid var(--f-trait) !important}
+body.valora .demande details.dm-pli:last-of-type{border-bottom:1px solid var(--f-trait)}
+body.valora .demande details.dm-pli summary{color:var(--f-texte) !important;padding:16px 0 !important;min-height:52px}
+body.valora .demande details.dm-pli summary::after{width:9px !important;height:9px !important;border-right:2px solid var(--f-or) !important;border-bottom:2px solid var(--f-or) !important}
+body.valora .demande details.dm-pli summary:hover{color:var(--f-or-c) !important}
+body.valora .demande .dm-pli-n{background:rgba(217,169,58,.2) !important;color:var(--f-or-c) !important}
+
+/* 7. Budget et notes */
+body.valora .demande .dm-champ .dm-aide{margin:2px 0 10px !important;line-height:1.45 !important}
+body.valora .demande .dm-champ label + .dm-aide{margin-top:0 !important}
+body.valora .demande .dm-note{background:var(--f-champ) !important;border-color:var(--f-trait) !important;color:var(--f-doux) !important}
+body.valora .demande .dm-nuits,body.valora .demande .dm-shabbat{color:var(--f-or-c) !important}
+
+/* Tuiles de la question 1 */
+body.valora .demande .dm-tuile{background:var(--f-champ) !important;border:1px solid rgba(245,242,236,.18) !important;color:var(--f-texte) !important}
+body.valora .demande .dm-tuile b{color:var(--f-texte) !important}
+body.valora .demande .dm-tuile span{color:var(--f-doux) !important;opacity:1 !important}
+body.valora .demande .dm-tuile:has(input:checked){background:rgba(217,169,58,.14) !important;border-color:var(--f-or) !important}
+
+/* 9. Relire mes réponses, messages */
+body.valora .demande details.dm-recap{background:var(--f-champ) !important;border:1px solid rgba(245,242,236,.2) !important}
+body.valora .demande details.dm-recap summary{color:var(--f-or-c) !important}
+body.valora .demande .dm-recap-liste li{border-bottom-color:var(--f-trait) !important}
+body.valora .demande .dm-recap-liste .k{color:var(--f-doux) !important;opacity:1 !important}
+body.valora .demande .dm-recap-liste .v,body.valora .demande .dm-recap-liste .vide{color:var(--f-texte) !important;opacity:1 !important}
+body.valora .demande .dm-recap-liste .dm-edit{background:transparent !important;border-color:var(--f-or) !important;color:var(--f-or-c) !important}
+body.valora .demande .dm-erreur,body.valora .demande .dm-max{color:#ff9b85 !important}
+body.valora .demande .dm-accord{color:var(--f-texte) !important}
+body.valora .demande .dm-accord a{color:var(--f-or-c) !important}
+body.valora .demande .dm-accord input{accent-color:var(--f-or) !important}
+body.valora .demande .dm-wa a{color:var(--f-or-c) !important}
+body.valora .demande .dm-petit{color:var(--f-doux) !important;opacity:1 !important}
+
+/* 2. Barre Retour / Suivant */
+body.valora .demande form.js .dm-nav{background:var(--f-fond) !important;border-top:1px solid var(--f-trait) !important}
+body.valora .demande .dm-retour{background:transparent !important;border:1px solid rgba(245,242,236,.5) !important;color:var(--f-texte) !important;border-radius:999px !important}
+body.valora .demande .dm-retour:hover{border-color:var(--f-or) !important;color:var(--f-or-c) !important;background:transparent !important}
+body.valora .demande .dm-nav .btn-noir{background:var(--f-grad) !important;border:0 !important;color:#141518 !important;-webkit-text-fill-color:#141518;border-radius:999px !important;font-weight:600 !important;letter-spacing:.12em !important;opacity:1 !important}
+body.valora .demande .dm-nav .btn-noir:disabled{background:#2a2d32 !important;color:var(--f-doux) !important;-webkit-text-fill-color:var(--f-doux);opacity:1 !important}
+body.valora .demande .dm-nav .btn-noir::before{display:none !important}
+body.valora .demande .dm-nav .btn-noir img.dm-marche{filter:brightness(0) !important;opacity:.85}
+
+/* 11. Page merci */
+body.valora img.hassid-merci{content:url(/img/picto-hassid-or-lumiere.svg);width:110px !important;height:auto !important}
+
+/* Grilles impaires : le dernier choix seul prend toute la largeur (plus de trou) */
+body.valora .demande .dm-chips > label:last-child:nth-child(odd){grid-column:1/-1 !important}
+/* Groupes sans titre (ex. « Je réserve pour un autre ») détachés du groupe précédent */
+body.valora .demande .dm-chips.mini + .dm-chips.mini{margin-top:18px !important}
+/* Budget aéré */
+body.valora .demande [data-b] > .dm-sous + .dm-aide{margin:6px 0 14px !important}
+body.valora .demande [data-b] > .dm-aide + .dm-champ label{color:var(--f-doux) !important}
+body.valora .demande [data-b] > .dm-champ + .dm-chips{margin-top:10px !important}
+body.valora .demande .etape .dm-sous{margin-top:26px !important;margin-bottom:6px !important}
+/* Récap compact, case d'accord sombre */
+body.valora .demande details.dm-recap{padding:2px 16px !important}
+body.valora .demande details.dm-recap:not([open]) summary{padding:14px 0 !important}
+body.valora .demande .dm-accord input{-webkit-appearance:none;appearance:none;width:22px !important;height:22px !important;border:1.5px solid rgba(245,242,236,.55);border-radius:6px;background:transparent center/14px no-repeat}
+body.valora .demande .dm-accord input:checked{background-color:#D9A93A;border-color:#D9A93A;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5l3.2 3L13 4.5' fill='none' stroke='%23141518' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
+/* Merci : bouton WhatsApp doré, lien retour doré */
+body.valora:has(img.hassid-merci) main .btn-noir.large{background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;border:0 !important;color:#141518 !important;border-radius:999px !important}
+body.valora:has(img.hassid-merci) main .btn-noir.large svg,body.valora:has(img.hassid-merci) main .btn-noir.large img{filter:brightness(0) !important;color:#141518 !important}
+body.valora:has(img.hassid-merci) main a[href="/fr/"],body.valora:has(img.hassid-merci) main a[href="/"],body.valora:has(img.hassid-merci) main a[href="/es/"],body.valora:has(img.hassid-merci) main a[href="/he/"]{color:#F6DC8C !important}
+body.valora .demande details.dm-recap{min-height:0 !important;height:auto !important}
+body.valora .demande details.dm-recap:not([open]) > :not(summary){display:none !important}
+body.valora .demande details.dm-recap{display:block !important}
+/* Hébreu : la case est à gauche, la marge doit l'être aussi ; jamais de lettres espacées */
+html[dir="rtl"] body.valora .demande .dm-chips:not(.mini) label{padding:9px 11px 9px 34px !important}
+html[dir="rtl"] body.valora .demande .dm-prog-txt,html[dir="rtl"] body.valora .demande .dm-sous,html[dir="rtl"] body.valora .demande .dm-champ label,html[dir="rtl"] body.valora .demande .dm-nav .btn-noir,html[dir="rtl"] body.valora .demande .dm-retour,html[dir="rtl"] body.valora .demande details.dm-pli summary,html[dir="rtl"] body.valora main .btn-noir.large{letter-spacing:0 !important}
