@@ -1,4 +1,4 @@
 /* Version B « alterné » (Moshé 27/10) : bannière, en-tête et pied sombres ; sections du milieu une sur deux en crème (.clair, voir valora-clair.css). */
-body.valora.theme-b{--c-fond:#F3EEE7}
-/* B inversé (Moshé 27/10) : chalets sombres, « Comment voulez-vous voyager » et bloc Lyon en crème Aman, transitions nettes */
-body.valora.theme-b main>section.clair:not(#z1):not(#z2):not(#z3):not(#z4):not(#z5){background:#F3EEE7 !important;background-image:none !important}
+body.valora.theme-b{--c-fond:#F7F7F7}
+/* B inversé (Moshé 27/10) : chalets sombres, « Comment voulez-vous voyager » et bloc Lyon en blanc Le Collectionist, transitions nettes */
+body.valora.theme-b main>section.clair:not(#z1):not(#z2):not(#z3):not(#z4):not(#z5){background:#F7F7F7 !important;background-image:none !important}
