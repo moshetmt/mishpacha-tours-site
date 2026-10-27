@@ -731,3 +731,6 @@ body.valora .cta-etapes .btn-noir{background:linear-gradient(100deg,#F6DC8C,#E2B
 body.valora .cta-etapes .btn-noir svg{width:18px;height:18px;fill:currentColor}
 body.valora .cta-etapes .pill{background:transparent !important;border:1px solid #D9A93A !important;color:#F6DC8C !important}
 html[dir="rtl"] body.valora .cta-etapes .btn-noir,html[dir="rtl"] body.valora .cta-etapes .pill{letter-spacing:0 !important}
+
+/* Logo Winter Prestige retiré des bannières hors pages chalet (Moshé 27/10, option B) */
+body.valora.sans-wp .kwp-hero-wp,body.valora.sans-wp .kwp-hero-wp-tel{display:none !important}
