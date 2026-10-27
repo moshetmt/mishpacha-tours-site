@@ -293,3 +293,7 @@ body.valora .kwp-carte .kwp-pied .btn-noir{min-height:0 !important;height:auto !
   body.valora .kwp-carte .kwp-corps>h3{font-size:15.5px !important}
   body.valora .kwp-carte .kwp-photo{padding-bottom:58% !important}
 }
+
+/* hébreu : flèches retournées, pas d'espacement des lettres (casse l'hébreu) */
+html[dir="rtl"] body.valora .nav .liens a.nav-cta::after,html[dir="rtl"] body.valora .cherche-bar .chercheur button[type=submit]::after,html[dir="rtl"] body.valora .kwp-carte .kwp-pied .btn-noir::after{content:"←" !important}
+html[dir="rtl"] body.valora *{letter-spacing:0 !important}
