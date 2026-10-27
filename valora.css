@@ -428,3 +428,146 @@ body.valora .dk-suite li .dk-fleche{width:20px !important;height:20px !important
 html[dir="rtl"] body.valora .dk-suite li{padding:14px 14px 14px 18px !important}
 html[dir="rtl"] body.valora .dk-suite li .dk-fleche{transform:scaleX(-1)}
 body.valora .dk-suite li a{text-align:start !important}
+
+/* ===== Page des visites de Lyon en sombre (Moshé 27/10) ===== */
+body.valora-visite{--vg:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A);--vc:#24272c;--vf:rgba(217,169,58,.3)}
+body.valora-visite main .ss,body.valora-visite main .ss.beige,body.valora-visite .of-lyon,body.valora-visite .inspire,body.valora-visite .bande,body.valora-visite .preuves{background:#141518 !important;color:#f5f2ec !important}
+body.valora-visite main .ss.beige{background:#1b1d21 !important}
+body.valora-visite main h2,body.valora-visite main h3{color:#f5f2ec !important}
+body.valora-visite main h2 i{font-style:normal !important;background:var(--vg) !important;-webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;color:transparent !important}
+body.valora-visite main p,body.valora-visite main .sous,body.valora-visite main .of-sous{color:#cfcac1 !important}
+body.valora-visite main .btn-noir,body.valora-visite .of-btn{display:inline-flex !important;align-items:center !important;justify-content:center !important;gap:10px !important;min-height:48px !important;padding:12px 22px !important;border:0 !important;border-radius:999px !important;background:var(--vg) !important;color:#141518 !important;font:600 12px/1.2 Heebo,sans-serif !important;letter-spacing:.12em !important;text-transform:uppercase !important;text-align:center !important;box-shadow:none !important}
+body.valora-visite main .btn-noir svg,body.valora-visite main .btn-noir img,body.valora-visite .of-btn svg{width:18px !important;height:18px !important;fill:currentColor !important}
+body.valora-visite main .btn-noir::before{display:none !important}
+body.valora-visite main .pill,body.valora-visite main .detail,body.valora-visite .of-plus{color:#F6DC8C !important;border-color:#D9A93A !important;background:transparent !important}
+html[lang="he"] body.valora-visite main .btn-noir,html[lang="he"] body.valora-visite .of-btn{letter-spacing:0 !important}
+
+body.valora-visite .of-carte{background:var(--vc) !important;border:1px solid var(--vf) !important;border-radius:20px !important;box-shadow:none !important}
+body.valora-visite .of-carte .of-ico{background:#f3ece0;border-radius:14px;padding:6px}
+body.valora-visite .of-carte h3{color:#f5f2ec !important}
+body.valora-visite .of-carte p{color:#cfcac1 !important}
+
+body.valora-visite .hero:not(.lead-hero3){position:relative !important;min-height:auto !important;text-align:center !important;background:#141518 !important}
+body.valora-visite .hero:not(.lead-hero3)::before{content:"" !important;position:absolute !important;inset:0 !important;z-index:1 !important;background:linear-gradient(180deg,rgba(18,19,21,.62) 0%,rgba(18,19,21,.5) 45%,rgba(18,19,21,.9) 100%) !important}
+body.valora-visite .hero:not(.lead-hero3)>img{position:absolute !important;inset:0 !important;width:100% !important;height:100% !important;object-fit:cover !important}
+body.valora-visite .hero .hero-texte{position:relative !important;z-index:2 !important;max-width:760px !important;margin:0 auto !important;padding:72px 20px 56px !important}
+body.valora-visite .hero h1{font-family:"Playfair Display",serif !important;font-weight:500 !important;font-style:normal !important;color:#fff !important;font-size:clamp(32px,5vw,64px) !important;line-height:1.08 !important;text-wrap:balance;text-shadow:0 2px 24px rgba(0,0,0,.4)}
+body.valora-visite .hero h1 i{display:block !important;margin-top:10px;font-style:normal !important;font-size:.62em !important;line-height:1.2 !important;background:var(--vg) !important;-webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;color:transparent !important;text-shadow:none !important}
+body.valora-visite .hero .hero-texte>p{color:#f1ede5 !important;font-size:15.5px !important;line-height:1.6 !important;margin:18px auto 0 !important;max-width:600px}
+body.valora-visite .hero .chercheur{background:rgba(36,39,44,.94) !important;border:1px solid var(--vf) !important;border-radius:22px !important;box-shadow:none !important;padding:18px !important;margin:26px auto 0 !important;max-width:520px !important;text-align:start !important}
+body.valora-visite .hero .chercheur label span{color:#cfcac1 !important}
+body.valora-visite .hero .chercheur select,body.valora-visite .hero .chercheur input{background:#1b1d21 !important;color:#f5f2ec !important;border:1px solid rgba(245,242,236,.2) !important;border-radius:12px !important;color-scheme:dark}
+body.valora-visite .hero .chercheur button[type=submit]{display:flex !important;align-items:center !important;justify-content:center !important;gap:10px !important;width:100% !important;min-height:52px !important;border:0 !important;border-radius:999px !important;background:var(--vg) !important;color:#141518 !important;font:600 12.5px/1.25 Heebo,sans-serif !important;letter-spacing:.1em !important;text-transform:uppercase !important;padding:10px 18px !important}
+body.valora-visite .hero .chercheur button[type=submit] svg{display:none !important}
+body.valora-visite .hero .chercheur button[type=submit] svg:last-of-type{display:inline-block !important;width:18px !important;height:18px !important;fill:currentColor !important}
+body.valora-visite .hero .chercheur small{color:#cfcac1 !important;text-align:center !important;display:block}
+
+body.valora-visite .preuves{padding:28px 0 !important}
+body.valora-visite .preuves ul{display:grid !important;grid-template-columns:1fr 1fr !important;gap:10px !important;padding:0 20px !important;max-width:1100px;margin:0 auto !important}
+@media (min-width:900px){body.valora-visite .preuves ul{grid-template-columns:repeat(3,1fr) !important}}
+body.valora-visite .preuves li{display:flex !important;flex-direction:column !important;align-items:flex-start !important;gap:6px !important;padding:14px !important;background:var(--vc) !important;border:1px solid var(--vf) !important;border-radius:16px !important;box-shadow:none !important;min-height:0 !important;grid-column:auto !important}
+body.valora-visite .preuves li img{width:44px !important;height:44px !important;margin:0 0 4px !important;background:#f3ece0 !important;border-radius:12px !important;padding:5px !important}
+body.valora-visite .preuves li b{color:#f5f2ec !important;font-family:"Playfair Display",serif !important;font-weight:500 !important;font-size:16px !important;line-height:1.25 !important;white-space:normal !important;overflow:visible !important;text-overflow:clip !important;display:block !important;height:auto !important;max-height:none !important}
+body.valora-visite .preuves li span{color:#cfcac1 !important;font-size:13px !important;line-height:1.4 !important;white-space:normal !important;display:block !important}
+
+body.valora-visite .filtres button{background:transparent !important;color:#f5f2ec !important;border:1px solid rgba(245,242,236,.3) !important;border-radius:999px !important}
+body.valora-visite .filtres button.actif{background:var(--vg) !important;color:#141518 !important;border-color:transparent !important}
+body.valora-visite .rail .carte,body.valora-visite .hub-carte{background:var(--vc) !important;border:1px solid var(--vf) !important;border-radius:20px !important;box-shadow:none !important;overflow:hidden}
+body.valora-visite .rail .carte h3 a,body.valora-visite .hub-carte h3{color:#f5f2ec !important}
+body.valora-visite .rail .carte .ital,body.valora-visite .rail .carte .meta,body.valora-visite .rail .carte .prix,body.valora-visite .hub-carte p{color:#cfcac1 !important}
+body.valora-visite .rail .carte .prix b{color:#f5f2ec !important}
+body.valora-visite .rail .carte .meta svg{stroke:#D9A93A !important;color:#D9A93A !important}
+body.valora-visite .rail .carte .btn-noir{width:100% !important}
+body.valora-visite .hub-carte .btn-noir{min-height:0 !important;padding:0 !important;background:none !important;color:#F6DC8C !important}
+
+body.valora-visite .bande{border-top:1px solid var(--vf);border-bottom:1px solid var(--vf);background:#1b1d21 !important}
+body.valora-visite .bande .petit{color:#cfcac1 !important;letter-spacing:.18em;text-transform:uppercase;font-size:11px !important}
+body.valora-visite .bande .marcheur{content:url(/img/picto-hassid-or-lumiere.svg)}
+body.valora-visite .bande .lieux,body.valora-visite .bande .lieux span{color:#f5f2ec !important}
+
+body.valora-visite .pourquoi>div{display:grid !important;grid-template-columns:96px 1fr !important;column-gap:18px !important;align-items:start !important}
+body.valora-visite .pourquoi>div img{grid-row:1/3;width:96px !important;height:96px !important;object-fit:contain;border-radius:14px;background:#f3ece0;padding:4px}
+body.valora-visite .pourquoi h3{font-size:18px !important;line-height:1.3 !important;margin:2px 0 6px !important;text-decoration:none !important}
+body.valora-visite .pourquoi p{font-size:14.5px !important;margin:0 !important}
+
+body.valora-visite .citation .photo-cit{position:relative;border-radius:20px !important;overflow:visible !important}
+body.valora-visite .citation .photo-cit p{position:static !important;margin:16px 0 0 !important;padding:0 !important;color:#f5f2ec !important;font-family:"Playfair Display",serif !important;font-size:28px !important;line-height:1.15 !important;text-shadow:none !important;background:none !important;transform:none !important}
+body.valora-visite .citation .photo-cit p i{font-style:normal !important;background:var(--vg);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+body.valora-visite .citation .photo-cit img{border-radius:20px !important}
+body.valora-visite .citation blockquote{background:var(--vc) !important;border:1px solid var(--vf) !important;border-radius:20px !important;box-shadow:none !important;color:#f5f2ec !important}
+body.valora-visite .citation blockquote p{color:#f5f2ec !important}
+body.valora-visite .citation .pill-noir{display:inline-block !important;padding:6px 12px !important;min-height:0 !important;border:1px solid #D9A93A !important;border-radius:999px !important;background:transparent !important;color:#F6DC8C !important;font-size:11px !important;letter-spacing:.14em !important}
+body.valora-visite .citation .signature{color:#F6DC8C !important}
+body.valora-visite .citation cite small{color:#cfcac1 !important}
+
+body.valora-visite .etapes li img{background:#f3ece0;border-radius:14px}
+body.valora-visite .etapes li b{color:#D9A93A !important}
+body.valora-visite .etapes li span{color:#f5f2ec !important}
+
+body.valora-visite .lieux-galerie{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:20px 20px 8px;margin:0 -20px;scrollbar-width:none}
+body.valora-visite .lieux-galerie::-webkit-scrollbar{display:none}
+body.valora-visite .lieux-galerie figure{flex:0 0 72%;max-width:320px;margin:0;scroll-snap-align:start;position:relative;border-radius:18px;overflow:hidden;aspect-ratio:4/5;border:1px solid var(--vf)}
+body.valora-visite .lieux-galerie img{width:100%;height:100%;object-fit:cover;display:block}
+body.valora-visite .lieux-galerie figcaption{position:absolute;left:10px;bottom:10px;padding:6px 11px;border-radius:999px;background:rgba(20,21,24,.75);color:#f5f2ec;font:500 11px/1 Heebo,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+
+body.valora-visite .inspire .tete h2{color:#f5f2ec !important}
+body.valora-visite .inspire .pill{border:1px solid #D9A93A !important;border-radius:999px !important}
+
+body.valora-visite .prix-table ul{background:var(--vc) !important;border:1px solid var(--vf) !important;border-radius:20px !important;box-shadow:none !important}
+body.valora-visite .prix-table li{border-color:rgba(245,242,236,.12) !important}
+body.valora-visite .prix-table li span{color:#cfcac1 !important}
+body.valora-visite .prix-table li b{color:#F6DC8C !important}
+
+body.valora-visite .faq details{background:var(--vc) !important;border:1px solid var(--vf) !important;border-radius:16px !important;margin:0 0 10px !important;padding:0 !important;box-shadow:none !important}
+body.valora-visite .faq summary{padding:16px 54px 16px 18px !important;color:#f5f2ec !important;position:relative;list-style:none}
+body.valora-visite .faq summary::-webkit-details-marker{display:none}
+body.valora-visite .faq summary::after{content:"+" !important;position:absolute !important;right:16px !important;left:auto !important;top:50% !important;transform:translateY(-50%) !important;width:26px !important;height:26px !important;border-radius:50% !important;border:1px solid #D9A93A !important;background:transparent !important;color:#F6DC8C !important;font:400 18px/24px Heebo,sans-serif !important;text-align:center !important}
+body.valora-visite .faq details[open] summary::after{content:"\2212" !important}
+body.valora-visite .faq details p{padding:0 18px 16px !important;margin:0 !important;color:#cfcac1 !important}
+html[dir="rtl"] body.valora-visite .faq summary{padding:16px 18px 16px 54px !important}
+html[dir="rtl"] body.valora-visite .faq summary::after{right:auto !important;left:16px !important}
+
+body.valora-visite .ticket{background:var(--vc) !important;border:1px solid var(--vf) !important;border-radius:22px !important;clip-path:none !important;text-align:center !important}
+body.valora-visite .ticket h2{display:flex;flex-direction:column;align-items:center;gap:14px}
+body.valora-visite .ticket .ticket-hassid{content:url(/img/picto-hassid-or-lumiere.svg);width:64px !important;height:auto !important;margin:0 !important}
+body.valora-visite .ticket .btn-noir{width:100% !important}
+body.valora-visite .ticket .btn-noir svg,body.valora-visite .ticket .btn-noir img{display:none !important}
+body.valora-visite .ticket .wa{color:#f5f2ec !important;justify-content:center}
+body.valora-visite .ticket .wa svg{fill:currentColor !important}
+body.valora-visite #tours{background:#1b1d21 !important;color:#f5f2ec !important}
+body.valora-visite #tours h2,body.valora-visite #tours h3,body.valora-visite #tours h3 a,body.valora-visite #tours li{color:#f5f2ec !important}
+body.valora-visite #tours p{color:#cfcac1 !important}
+body.valora-visite #tours h2 i{background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;-webkit-background-clip:text !important;background-clip:text !important}
+body.valora-visite #tours .btn-noir{background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;color:#141518 !important;border:0 !important}
+body.valora-visite #tours .carte .prix b{color:#f5f2ec !important}
+body.valora-visite #tours .carte .meta,body.valora-visite #tours .carte .meta span{color:#cfcac1 !important}
+body.valora-visite #tours .detail{color:#F6DC8C !important}
+body.valora-visite .citation{overflow:hidden}
+body.valora-visite .citation .photo-cit,body.valora-visite .citation blockquote{width:auto !important;max-width:100% !important;margin-left:0 !important;margin-right:0 !important;box-sizing:border-box !important}
+body.valora-visite .citation .photo-cit{background:none !important;overflow:visible !important}
+body.valora-visite .citation .photo-cit::before,body.valora-visite .citation .photo-cit::after{display:none !important}
+body.valora-visite .citation .photo-cit img{width:100% !important;height:auto !important;aspect-ratio:4/3;object-fit:cover}
+
+/* Bande d annonce supprimée (Moshé 27/10), le ב״ה passe dans l en-tête à côté de la langue */
+body.valora .strip,body.valora.strip-vis .strip,.strip-vis body.valora .strip{display:none !important}
+html.strip-vis body.valora .nav{top:0 !important}
+body.valora .nav .droite{display:flex !important;align-items:center !important}
+body.valora .nav .droite::before{content:"\5D1\5F4\5D4";order:-1;font-family:Heebo,sans-serif;font-size:12.5px;line-height:1;color:#cfcac1;opacity:.85;margin-inline-end:12px;direction:rtl;unicode-bidi:isolate;letter-spacing:0}
+body.valora .lead-hero3 .lead-fil{left:0 !important;right:0 !important;width:100% !important;max-width:none !important;margin:0 !important;padding:0 20px !important;box-sizing:border-box}
+body.valora-visite .fiche-carte,body.valora-visite .deux-cartes>div{background:#24272c !important;border:1px solid rgba(217,169,58,.3) !important;border-radius:20px !important;box-shadow:none !important;color:#f5f2ec !important}
+body.valora-visite .fiche-carte dt{color:#cfcac1 !important}
+body.valora-visite .fiche-carte dd{color:#f5f2ec !important}
+body.valora-visite .fiche-carte .fiche-prix b{color:#F6DC8C !important}
+body.valora-visite .fiche-carte .fiche-prix span,body.valora-visite .fiche-carte .fiche-prix small,body.valora-visite .fiche-carte .fiche-note{color:#cfcac1 !important}
+body.valora-visite .fiche-carte .btn-noir{width:100% !important}
+body.valora-visite .deux-cartes h3{color:#f5f2ec !important}
+body.valora-visite .deux-cartes li{color:#cfcac1 !important}
+body.valora-visite .deux-cartes li::marker,body.valora-visite .deux-cartes li::before{color:#D9A93A !important;background-color:#D9A93A !important}
+body.valora-visite .fiche-texte h1{color:#f5f2ec !important}
+body.valora-visite .fiche-texte h1 i{background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;-webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;font-style:normal !important}
+body.valora-visite .fiche-texte .fil,body.valora-visite .fiche-texte .fil a{color:#cfcac1 !important}
+body.valora-visite .garanties-fiche li b{color:#f5f2ec !important}
+html body.valora.valora-visite .ticket img.ticket-hassid{content:url(/img/picto-hassid-or-lumiere.svg) !important}
+body.valora-visite .autres .carte .prix,body.valora-visite .autres .carte .prix span{color:#cfcac1 !important}
+body.valora-visite .autres .carte .prix b{color:#F6DC8C !important}
+html body.valora.valora-visite .ticket img.ticket-hassid{filter:none !important}
