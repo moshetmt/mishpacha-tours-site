@@ -15,13 +15,15 @@ ICI = Path(__file__).parent
 SOURCES = ["valora.css", "valora-form.css"]
 SORTIE = ICI / "valora-clair.css"
 
-# Crème retenu : Aman (#F3EEE7, relevé sur aman.com le 27/10) ; cartes un ton au-dessus.
-FOND = "#F3EEE7"
-FOND_ALT = "#EBE4D9"      # bande crème plus soutenue (ex-.beige)
-CARTE = "#FBF8F3"
+# Blanc retenu (Moshé 27/10 : « pas crème, un blanc luxe ») : Le Collectionist #F7F7F7 (relevé sur
+# lecollectionist.com le 27/10), cartes blanches #FFFFFF à ombre douce et filet gris très clair.
+FOND = "#F7F7F7"
+FOND_ALT = "#F7F7F7"
+CARTE = "#FFFFFF"
+OMBRE = "0 1px 2px rgba(20,21,24,.04),0 10px 28px rgba(20,21,24,.06)"
 ENCRE = "#1C1D20"
-DOUX = "#4E4A43"
-DOUX2 = "#6A645B"
+DOUX = "#4A4C50"
+DOUX2 = "#6B6E73"
 OR_FONCE = "#8A6416"      # doré lisible sur crème (contraste 4,9:1 sur #F3EEE7)
 OR_FILET = "#9C7424"
 GRAD_TEXTE = "linear-gradient(100deg,#B5852A,#7E5410)"
@@ -90,7 +92,7 @@ def conv(tok, prop):
         return None
     if bord:
         if est_dore(c):
-            return f"rgba(138,100,22,{max(a, .35):.2f})" if a < 1 else OR_FILET
+            return "rgba(28,29,32,.09)" if a < 1 else OR_FILET
         if L > 0.6:
             return f"rgba(28,29,32,{min(max(a, .10), .25):.2f})"
         if L < 0.08 and a >= 0.6:
@@ -227,7 +229,7 @@ def regles(css):
 def genere():
     lignes = [
         "/* GÉNÉRÉ par _valora_clair.py : ne pas modifier à la main. Version claire des composants Valora",
-        "   pour les sections .clair (versions B et C, Moshé 27/10). Crème Aman #F3EEE7. */",
+        "   pour les sections .clair (versions B et C, Moshé 27/10). Blanc Le Collectionist #F7F7F7. */",
         f"body.valora .clair{{--v-fond:{FOND};--v-carte:{CARTE};--v-texte:{ENCRE};--v-doux:{DOUX};--v-or:{OR_FONCE};--v-or-clair:{OR_FONCE};--v-trait:rgba(28,29,32,.12);background:{FOND} !important;color:{ENCRE}}}",
         f"body.valora .clair.beige,body.valora .clair .beige{{background:{FOND_ALT} !important}}",
     ]
@@ -271,6 +273,8 @@ def genere():
             dernier = re.split(r"[\s>+~]+", decoupe_selecteurs(pre)[-1].strip())[-1]
             if re.search(r"#|\.ss|\.beige|^section", dernier):
                 ds = [d.replace(CARTE, FOND_ALT) if d.startswith("background") else d for d in ds]
+            if any(d.startswith("background") and CARTE in d for d in ds) and not re.search(r"#|\.ss|\.beige|^section", dernier):
+                ds.append(f"box-shadow:{OMBRE}")
             sels = []
             for s in decoupe_selecteurs(pre):
                 sels += recible(s)
