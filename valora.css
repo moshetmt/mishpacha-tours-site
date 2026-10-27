@@ -849,3 +849,26 @@ html[dir="rtl"] body.valora .ticket .ticket-plan .btn-noir::after{content:"←"}
 /* 7. Bloc final ordinateur : titre à gauche, actions centrées verticalement à droite */
 @media (min-width:900px){body.valora .ticket{display:grid !important;grid-template-columns:1fr auto !important;grid-template-rows:auto auto;column-gap:48px !important;align-items:center !important}body.valora .ticket h2{grid-column:1;grid-row:1/3;margin:0 !important;display:flex;align-items:center;gap:20px}body.valora .ticket h2 .ticket-hassid{position:static !important;width:56px !important;height:auto !important;margin:0 !important;flex:none}body.valora .ticket .ticket-plan{grid-column:2;grid-row:1;margin:0 !important;align-self:end}body.valora .ticket .wa{grid-column:2;grid-row:2;align-self:start;margin-top:12px !important}}
 @media (min-width:900px){body.valora .ticket h2{display:block !important;position:relative;padding-left:80px !important}body.valora .ticket h2 .ticket-hassid{position:absolute !important;left:0;top:50%;transform:translateY(-50%)}html[dir="rtl"] body.valora .ticket h2{padding-left:0 !important;padding-right:80px !important}html[dir="rtl"] body.valora .ticket h2 .ticket-hassid{left:auto;right:0}}
+
+/* ===== Moshé 27/10 soir (remarques Notion de l'accueil) ===== */
+/* 1. Barre de réservation : sans « Votre voyage », remontée sur le bas de la photo, plus serrée */
+body.valora .cherche-bar .v-voyage>span{display:none !important}
+body.valora .cherche-bar{position:relative;z-index:3;margin-top:-92px !important;padding-top:0 !important;padding-bottom:8px !important}
+body.valora .cherche-bar .chercheur{padding:14px 18px 12px !important;gap:6px !important;background:rgba(20,21,24,.82) !important;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+body.valora .cherche-bar .v-ligne{margin:0 !important;padding:0 !important}
+body.valora .cherche-bar .chercheur button[type=submit]{padding-top:10px !important;padding-bottom:4px !important;margin-top:4px !important}
+@media (max-width:760px){
+  body.valora .ac-hero{min-height:570px !important;height:auto !important;padding-top:40px !important;padding-bottom:110px !important;display:flex !important;flex-direction:column;justify-content:center}
+  body.valora .cherche-bar{margin-top:-84px !important}
+}
+@media (min-width:761px){body.valora .ac-hero{padding-bottom:120px !important}body.valora .cherche-bar{margin-top:-104px !important}}
+/* 2. ב"ה : hors de l'en-tête, en petit en haut à droite de la photo (ou du contenu sans photo), à droite aussi en hébreu */
+body.valora .nav .droite::before{content:none !important}
+body.valora main>.hero{position:relative}
+body.valora main>.hero::after,body.valora:not(:has(main>.hero)) main::before{content:"\5D1\5F4\5D4";position:absolute;top:12px;right:16px;left:auto;z-index:4;font:400 12px/1 Heebo,sans-serif;letter-spacing:0;color:rgba(245,242,236,.78);direction:rtl;unicode-bidi:isolate;pointer-events:none;text-shadow:0 1px 6px rgba(0,0,0,.35)}
+body.valora:not(:has(main>.hero)) main{position:relative}
+body.valora:not(:has(main>.hero)) main::before{color:var(--v-doux,#cfcac1);text-shadow:none}
+html[dir="rtl"] body.valora main>.hero::after,html[dir="rtl"] body.valora:not(:has(main>.hero)) main::before{right:16px;left:auto}
+/* Pied : ligne sous le logo à la charte (Heebo 600, capitales espacées, comme « JEWISH TOURS OF LYON ») */
+body.valora .pied .logo-pied small{font-family:Heebo,'Noto Sans Hebrew',system-ui,sans-serif !important;font-weight:600 !important;font-size:11.5px !important;letter-spacing:.2em !important;text-transform:uppercase !important;color:#D9A93A !important;opacity:1 !important;margin-top:6px}
+html[dir="rtl"] body.valora .pied .logo-pied small{letter-spacing:.02em !important;font-weight:700 !important;font-size:13.5px !important;text-transform:none !important}

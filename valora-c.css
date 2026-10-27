@@ -1,0 +1,5 @@
+/* Version C « clair » (Moshé 27/10) : fond crème partout, sombre réservé à la bannière, au pied et au bloc final. */
+body.valora.theme-c main{background:#F3EEE7}
+body.valora.theme-c main > .ticket-zone,body.valora.theme-c main > .lead-final{background:#141518 !important}
+body.valora.theme-c main > .cherche-bar{background:transparent}
+body.valora.theme-c:not(:has(main>.hero)) main::before{color:#4E4A43 !important}
