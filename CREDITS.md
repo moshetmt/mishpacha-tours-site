@@ -177,7 +177,8 @@
 ## Vidéo de la bannière d'accueil (27/10/2026)
 Vidéos refaites le 27/10 avec uniquement des plans filmés (aucune photo animée). Licence Pexels : usage commercial gratuit, sans mention obligatoire. Originaux dans E:/projet site/Capture/.
 
-- img/video/accueil-pc.mp4 et accueil-tel.mp4 : Pexels 15877925 (chiens de traîneau), 12209781 (montagne et forêt vues du ciel), 4185348 (chalet éclairé au crépuscule), 7082108 (motoneiges), 14740063 (feu d'artifice).
-- img/video/chalets-* : Pexels 4185348, 12209781.
+- img/video/accueil-pc.mp4 : Pexels 15877925 (chiens de traîneau), 12209781 (montagne vue du ciel), 4185348 (chalet au crépuscule), 14509347 (jacuzzi), 18453852 (feu de cheminée), 7082108 (motoneiges), 14740063 (feu d'artifice).
+- img/video/accueil-tel.mp4 : Pexels 15877925, 15380155 (chalet sous le ciel bleu), 4185348, 15859845 (jacuzzi extérieur), 12132188 (cheminée), 7082108, 14740063.
+- img/video/chalets-* : Pexels 4185348 et 4185202 (chalet au crépuscule), 14509347 (jacuzzi), 18453852 et 12132188 (cheminée), 12209781 (ordinateur), 15380155 (téléphone).
 - img/video/stations-* : Pexels 15877925, 7082108, 12209781, 4185348, 15037541 (feu d'artifice sur la station).
 - img/video/ete-* : Pexels 14051217 (lac et alpages), 12040525 (randonnée), 12132979 (randonneurs, téléphone seulement).
