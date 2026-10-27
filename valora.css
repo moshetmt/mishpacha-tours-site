@@ -210,3 +210,24 @@ body.valora .barre-basse a{height:48px;border-radius:12px!important}
 body.valora .barre-basse .bb-wa{border:1px solid var(--v-trait)!important;border-right:1px solid var(--v-trait)!important}
 @media (max-width:899.98px){body.valora .kwp-chiffres{display:grid!important;grid-template-columns:1fr 1fr;gap:8px 14px!important}body.valora .kwp-chiffres li{border-right:0!important;margin:0!important;padding:0!important}}
 body.valora .ticket{clip-path:none!important;-webkit-mask:none!important;mask:none!important}
+
+/* ===== Étape 4 : pages Alpes claires (été, van, hubs) ===== */
+body.valora .ss.beige{background:#1b1d21 !important}
+body.valora .ss.beige h2,body.valora .ss.beige .dk-h2,body.valora .minyan-corps h2,body.valora .minyan-corps h3{color:#f5f2ec !important}
+body.valora .liste-lieux li,body.valora .dk-suite li,body.valora .dk-note p,body.valora .conseils li{background:#24272c !important;border:1px solid rgba(217,169,58,.28) !important;color:#f5f2ec !important}
+body.valora .liste-lieux li b,body.valora .dk-suite li a,body.valora .conseils li a{color:#f5f2ec !important}
+body.valora .liste-lieux li small,body.valora .liste-lieux li span{color:#cfcac1 !important}
+body.valora .liste-lieux li a.go{color:#D9A93A !important}
+body.valora .minyan-corps{background:#24272c !important;border:1px solid rgba(217,169,58,.28) !important}
+body.valora .minyan-corps p{color:#cfcac1 !important}
+body.valora .minyan-corps .btn-noir{background:linear-gradient(100deg,#F6DC8C,#E2B44A 45%,#C8902A) !important;color:#141518 !important;border:0 !important}
+body.valora .kwp-hub .kwp-carte h3,body.valora .kwp-hub .kwp-carte h3 a,body.valora .kwp-carte .kwp-casher b{color:#f5f2ec !important}
+body.valora main b,body.valora main strong{color:inherit !important}
+body.valora .liste-lieux li a.go{background:transparent !important;border:1px solid #D9A93A !important;color:#D9A93A !important}
+body.valora .kwp-carte h3 a{color:#f5f2ec !important}
+body.valora .dk-g-tete{color:#D9A93A !important}
+body.valora .dk-recit p{background:transparent !important;color:#cfcac1 !important}
+body.valora .dk-plus{color:#D9A93A !important;border-color:#D9A93A !important}
+body.valora img[src*="picto-hassid-vert"]{content:url(/img/picto-hassid-or-lumiere.svg)}
+body.valora .dk-cartes li{background:#24272c !important;border:1px solid rgba(217,169,58,.28) !important;color:#cfcac1 !important}
+body.valora .dk-cartes li b{color:#f5f2ec !important}
