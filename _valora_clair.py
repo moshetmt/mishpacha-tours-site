@@ -15,12 +15,12 @@ ICI = Path(__file__).parent
 SOURCES = ["valora.css", "valora-form.css"]
 SORTIE = ICI / "valora-clair.css"
 
-# Blanc retenu (Moshé 27/10 : « pas crème, un blanc luxe ») : Le Collectionist #F7F7F7 (relevé sur
+# Blanc retenu (Moshé 28/10) : The Row, blanc pur #FFFFFF ; cartes blanches distinguées par un filet #E8E8E8 et une ombre très douce.
 # lecollectionist.com le 27/10), cartes blanches #FFFFFF à ombre douce et filet gris très clair.
-FOND = "#F7F7F7"
-FOND_ALT = "#F7F7F7"
+FOND = "#FFFFFF"
+FOND_ALT = "#FFFFFF"
 CARTE = "#FFFFFF"
-OMBRE = "0 1px 2px rgba(20,21,24,.04),0 10px 28px rgba(20,21,24,.06)"
+OMBRE = "0 0 0 1px #E8E8E8,0 6px 22px rgba(20,21,24,.05)"
 ENCRE = "#1C1D20"
 DOUX = "#4A4C50"
 DOUX2 = "#6B6E73"
