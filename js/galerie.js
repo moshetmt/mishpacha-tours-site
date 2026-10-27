@@ -4,8 +4,6 @@
   var g = document.getElementById('galerie');
   if (!g) return;
   var html = document.documentElement;
-  var rail = document.querySelector('.gal-rail');
-  var cpt = document.querySelector('.gal-cpt');
   var main = g.querySelector('.gal-main');
   var liens = [].slice.call(g.querySelectorAll('.gal-som a'));
   var reduit = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -41,9 +39,9 @@
   }
 
   document.addEventListener('click', function (ev) {
-    var t = ev.target.closest ? ev.target.closest('[data-gal-open],[data-gal-close],.gal-rail,.gal-som a') : null;
+    var t = ev.target.closest ? ev.target.closest('[data-gal-open],[data-gal-close],.gal-som a') : null;
     if (!t) return;
-    if (t.hasAttribute('data-gal-open') || t.classList.contains('gal-rail')) { ev.preventDefault(); ouvrir(); return; }
+    if (t.hasAttribute('data-gal-open')) { ev.preventDefault(); ouvrir(); return; }
     if (t.hasAttribute('data-gal-close')) { ev.preventDefault(); fermer(false); return; }
     if (t.tagName === 'A' && g.contains(t)) {
       ev.preventDefault();
@@ -70,37 +68,64 @@
   }
   if (main) main.addEventListener('scroll', function () { if (ouvert) suivre(); }, { passive: true });
 
-  /* telephone : compteur du rail */
-  if (rail && cpt) {
-    var n = rail.children.length, att = false;
-    rail.addEventListener('scroll', function () {
-      if (att) return;
-      att = true;
-      requestAnimationFrame(function () {
-        att = false;
-        var w = rail.clientWidth || 1;
-        var i = Math.min(n - 1, Math.max(0, Math.round(Math.abs(rail.scrollLeft) / w)));
-        cpt.textContent = (i + 1) + '/' + n;
-      });
-    }, { passive: true });
-  }
-
   if (location.hash === '#photos') ouvrir();
 })();
 
-/* Rail du héros (25/10) : au défilement, les 3 photos suivantes passent en chargement immédiat,
-   sinon Safari les laisse noires jusqu'au téléchargement complet. */
+/* « Le chalet en images » (27/10) : visionneuse photo par photo. Flèches, glisser au doigt, Échap, compteur 3/19. */
 (function () {
-  var rail = document.querySelector('.gal-rail');
-  if (!rail) return;
-  var imgs = [].slice.call(rail.querySelectorAll('img'));
-  function avance() {
-    var w = rail.clientWidth || 1;
-    var i = Math.round(Math.abs(rail.scrollLeft) / w);
-    for (var k = i; k <= i + 3 && k < imgs.length; k++) {
-      if (imgs[k].loading === 'lazy') imgs[k].loading = 'eager';
-    }
+  var sec = document.querySelector('.chalet-images');
+  if (!sec) return;
+  var tuiles = [].slice.call(sec.querySelectorAll('.ci-tuile'));
+  var n = tuiles.length, cur = 0, retour = null, html = document.documentElement;
+  var rtl = html.dir === 'rtl';
+  var v = document.createElement('div');
+  v.className = 'ci-vue'; v.hidden = true;
+  v.setAttribute('role', 'dialog'); v.setAttribute('aria-modal', 'true'); v.tabIndex = -1;
+  function bouton(cls, lab) { var b = document.createElement('button'); b.type = 'button'; b.className = cls; b.setAttribute('aria-label', lab); return b; }
+  var bx = bouton('ci-x', sec.dataset.lFer), bp = bouton('ci-prv', sec.dataset.lPrv), bn = bouton('ci-nxt', sec.dataset.lNxt);
+  bx.textContent = '×';
+  var fig = document.createElement('figure'), img = document.createElement('img'), cap = document.createElement('figcaption');
+  var cpt = document.createElement('span'), leg = document.createElement('span');
+  cpt.className = 'ci-cpt'; leg.className = 'ci-leg';
+  cap.appendChild(cpt); cap.appendChild(document.createTextNode(' ')); cap.appendChild(leg);
+  fig.appendChild(img); fig.appendChild(cap);
+  v.appendChild(bx); v.appendChild(bp); v.appendChild(fig); v.appendChild(bn);
+  document.body.appendChild(v);
+
+  function montrer(i) {
+    cur = (i + n) % n;
+    var src = tuiles[cur].querySelector('img');
+    img.removeAttribute('srcset');
+    if (src.getAttribute('srcset')) { img.setAttribute('srcset', src.getAttribute('srcset')); img.sizes = '100vw'; }
+    img.src = src.getAttribute('src');
+    img.alt = src.alt; leg.textContent = src.alt; cpt.textContent = (cur + 1) + '/' + n;
+    v.setAttribute('aria-label', src.alt);
+    [cur + 1, cur - 1].forEach(function (k) { var t = tuiles[(k + n) % n].querySelector('img'); if (t.loading === 'lazy') t.loading = 'eager'; });
   }
-  rail.addEventListener('scroll', avance, { passive: true });
-  rail.addEventListener('touchstart', avance, { passive: true });
+  function ouvrir(i) {
+    retour = document.activeElement; v.hidden = false; html.classList.add('gal-ouvert');
+    montrer(i); try { v.focus({ preventScroll: true }); } catch (e) {}
+  }
+  function fermer() {
+    v.hidden = true; html.classList.remove('gal-ouvert');
+    if (retour && retour.focus) { try { retour.focus({ preventScroll: true }); } catch (e) {} }
+  }
+  tuiles.forEach(function (t) { t.addEventListener('click', function () { ouvrir(+t.dataset.ci); }); });
+  bx.addEventListener('click', fermer);
+  bp.addEventListener('click', function () { montrer(cur - 1); });
+  bn.addEventListener('click', function () { montrer(cur + 1); });
+  v.addEventListener('click', function (e) { if (e.target === v) fermer(); });
+  document.addEventListener('keydown', function (e) {
+    if (v.hidden) return;
+    if (e.key === 'Escape' || e.key === 'Esc') { e.preventDefault(); fermer(); }
+    else if (e.key === 'ArrowRight') montrer(cur + (rtl ? -1 : 1));
+    else if (e.key === 'ArrowLeft') montrer(cur + (rtl ? 1 : -1));
+  });
+  var x0 = null;
+  v.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+  v.addEventListener('touchend', function (e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0; x0 = null;
+    if (Math.abs(dx) > 40) montrer(cur + ((dx < 0) !== rtl ? 1 : -1));
+  }, { passive: true });
 })();
