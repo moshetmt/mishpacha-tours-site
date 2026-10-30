@@ -14,6 +14,9 @@ import os, re, io, sys, html, json, glob
 BASE = "https://mishpachatours.com"
 LANGS = {"fr": ("Français", "fr", "fr_FR", "ltr"), "es": ("Español", "es", "es_ES", "ltr"), "he": ("עברית", "il", "he_IL", "rtl")}
 FORCE = "--force" in sys.argv
+# Pages qui n'existent que dans certaines langues (30/10, guide des stations EN + HE, espagnol gelé par le comité).
+SEULES = {"french-ski-resorts-kosher-guide": ("he",)}
+def langs(page): return {l: v for l, v in LANGS.items() if l in SEULES.get(page, LANGS)}
 
 def lot():
     pages = [""]
@@ -46,7 +49,7 @@ def absolutize(h, page):
 def alternates(page):
     p = f"/{page}/" if page else "/"
     out = [f'<link rel="alternate" hreflang="en" href="{BASE}{p}">', f'<link rel="alternate" hreflang="x-default" href="{BASE}{p}">']
-    for l in LANGS: out.append(f'<link rel="alternate" hreflang="{l}" href="{BASE}/{l}{p}">')
+    for l in langs(page): out.append(f'<link rel="alternate" hreflang="{l}" href="{BASE}/{l}{p}">')
     return "\n".join(out) + "\n"
 
 def strip_alt(h): return re.sub(r'<link rel="alternate" hreflang="[^"]*"[^>]*>\n?', "", h)
@@ -59,7 +62,7 @@ def selector(h, page, lang):
     for l, (n, flag, _, d) in LANGS.items(): names[l] = (n, flag, f' lang="{l}"', f' dir="{d}"' if d == "rtl" else "")
     cur_name, cur_flag = names[lang][0], names[lang][1]
     items = []
-    for l in ["en", "fr", "es", "he"]:
+    for l in ["en"] + list(langs(page)):
         n, flag, la, d = names[l]
         cur = ' aria-current="true"' if l == lang else ""
         items.append(f'<li><a href="{link(l)}"{cur}{la}{d}><img class="drapeau" src="/img/flags/{flag}.svg" alt="" width="20" height="20">{n}</a></li>')
@@ -78,7 +81,7 @@ def prepare():
         en2 = en2.replace("</head>", alternates(page) + "</head>", 1)
         en2 = selector(en2, page, "en")
         if en2 != en: wr(src, en2); print("hreflang", src)
-        for lang, (name, flag, locale, d) in LANGS.items():
+        for lang, (name, flag, locale, d) in langs(page).items():
             dst = f"{lang}/{src}"
             if os.path.exists(dst) and not FORCE:
                 t = rd(dst); t2 = selector(strip_alt(t).replace("</head>", alternates(page) + "</head>", 1), page, lang)
@@ -175,7 +178,7 @@ def check():
         src = (page + "/" if page else "") + "index.html"
         if not os.path.exists(src): continue
         en = rd(src); te = tags(en)
-        for lang in LANGS:
+        for lang in langs(page):
             dst = f"{lang}/{src}"
             if not os.path.exists(dst): print("MANQUE", dst); bad += 1; continue
             t = rd(dst)

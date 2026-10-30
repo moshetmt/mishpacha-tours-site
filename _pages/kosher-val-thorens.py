@@ -1,15 +1,24 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-val-thorens",
-  title="Kosher Val Thorens: Chef, Shabbat, Minyan",
-  desc="Kosher Val Thorens at 2,300 m, the highest resort in Europe: private chef in your chalet, delivered meals, Shabbat, holidays and minyan. One written quote.",
-  h1="Val Thorens, strictly kosher", ital="at 2,300 m, the highest resort in Europe",
-  intro="Val Thorens sits at 2,300 m in Les 3 Vallées, the highest ski resort in Europe. Its season runs from 21 November 2026 to 2 May 2027. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
+  title="Kosher Val Thorens: Ski Holiday, Chef",
+  desc="Kosher Val Thorens ski holiday at 2,300 m, the highest resort in Europe: a private chef or delivered meals, Shabbat and a minyan. One written quote.",
+  h1="Kosher Val Thorens", ital="a kosher ski holiday at 2,300 m, the highest resort in Europe",
+  intro="Kosher Val Thorens, for the whole week: the resort sits at 2,300 m in Les 3 Vallées, the highest ski resort in Europe, and our kosher team based in the Alps cooks for you on site. The Val Thorens season runs from 21 November 2026 to 2 May 2027. For a kosher stay in Val Thorens, we arrange a private chef in your chalet or meals delivered to your apartment, Shabbat ready before candle lighting, and a minyan with a Sefer Torah when enough families are there that week. One written quote.",
   chips=["2,300 m, Les 3 Vallées", "About 2 h 30 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
+    dict(type="text", h2="What your Val Thorens quote <i>can include</i>", html="""<!--GUIDE-STATIONS--><ul>
+<li>A private chef in your chalet or apartment, the kitchen made kosher by our team.</li>
+<li>Hot kosher meals delivered to your apartment or hotel, for the week, with notice.</li>
+<li>Shabbat meals, challot and wine on Friday, before candle lighting.</li>
+<li>Hanukkah, Purim or Pesach on the mountain, on request.</li>
+<li>A minyan with a Sefer Torah, depending on how many families are in the resort that week.</li>
+<li>Transfers from Lyon, on quote.</li>
+</ul>
+<p>Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps.</p>"""),
     dict(type="text", h2="What we organise <i>in Val Thorens</i>", html="""<ul>
 <li><b>A chalet or apartment with a private chef.</b> Our kosher team based in the Alps makes the kitchen kosher and cooks on site. Every meal of the week is taken care of.</li>
 <li><b>Meals delivered in the resort.</b> Hot meals delivered to your apartment or your hotel for the week, for a family or a group, with notice.</li>

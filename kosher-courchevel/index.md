@@ -1,12 +1,12 @@
-> Kosher Courchevel 1850 and the villages of Les 3 Vallées: private chef in your chalet, delivered meals, Shabbat, holidays and a minyan. One request, one quote.
+> Kosher Courchevel ski holiday in Courchevel 1850 and its villages: a private chef or delivered meals, Shabbat, holidays and a minyan. One written quote.
 
 Source: https://mishpachatours.com/kosher-courchevel/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Courchevel, strictly kosher
+[Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Kosher Courchevel
 
-# Courchevel, strictly kosher *Courchevel 1850 and its villages, in Les 3 Vallées*
+# Kosher Courchevel *a kosher ski holiday in Courchevel 1850 and its villages, in Les 3 Vallées*
 
-Courchevel 1850 sits at about 1,850 m in Les 3 Vallées.
+Kosher Courchevel, for the whole week: Courchevel 1850 sits at about 1,850 m in Les 3 Vallées, and its Chabad house runs in winter; we coordinate with it for your minyan and your Shabbat.
 
 [Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Courchevel.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
 
@@ -18,7 +18,18 @@ Ski Courchevel by day. Come back to a set table, a minyan, and Shabbat ready.
 
 **One written quote, the same day**Your resort, your dates, your group. One contact from start to finish.
 
-The season runs from 4 December 2026 to 18 April 2027. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.
+The Courchevel season runs from 4 December 2026 to 18 April 2027. For a kosher stay in Courchevel, we arrange a private chef in your chalet or meals delivered to your apartment or hotel, in Courchevel 1850 and the villages, Shabbat ready before candle lighting, and a minyan with a Sefer Torah. One written quote.
+
+## What your Courchevel quote *can include*
+
+- A private chef in your chalet or apartment, the kitchen made kosher by our team.
+- Hot kosher meals delivered in Courchevel 1850 and the villages, for the week, with notice.
+- Shabbat meals, challot and wine on Friday, before candle lighting.
+- Hanukkah, Purim or Pesach, on request.
+- A minyan with a Sefer Torah for your dates, when the families present call for it.
+- Transfers from Lyon, on quote.
+
+Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps.
 
 ## Our chalet *in Courchevel*
 

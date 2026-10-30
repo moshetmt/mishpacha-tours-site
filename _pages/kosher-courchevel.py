@@ -1,15 +1,24 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-courchevel",
-  title="Kosher Courchevel: Chef, Shabbat and Minyan",
-  desc="Kosher Courchevel 1850 and the villages of Les 3 Vallées: private chef in your chalet, delivered meals, Shabbat, holidays and a minyan. One request, one quote.",
-  h1="Courchevel, strictly kosher", ital="Courchevel 1850 and its villages, in Les 3 Vallées",
-  intro="Courchevel 1850 sits at about 1,850 m in Les 3 Vallées. The season runs from 4 December 2026 to 18 April 2027. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
+  title="Kosher Courchevel: Ski Holiday, Chef",
+  desc="Kosher Courchevel ski holiday in Courchevel 1850 and its villages: a private chef or delivered meals, Shabbat, holidays and a minyan. One written quote.",
+  h1="Kosher Courchevel", ital="a kosher ski holiday in Courchevel 1850 and its villages, in Les 3 Vallées",
+  intro="Kosher Courchevel, for the whole week: Courchevel 1850 sits at about 1,850 m in Les 3 Vallées, and its Chabad house runs in winter; we coordinate with it for your minyan and your Shabbat. The Courchevel season runs from 4 December 2026 to 18 April 2027. For a kosher stay in Courchevel, we arrange a private chef in your chalet or meals delivered to your apartment or hotel, in Courchevel 1850 and the villages, Shabbat ready before candle lighting, and a minyan with a Sefer Torah. One written quote.",
   chips=["Courchevel 1850, about 1,850 m, Les 3 Vallées", "About 2 h 10 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),
   wa="33652092301",
   sections=[
+    dict(type="text", h2="What your Courchevel quote <i>can include</i>", html="""<!--GUIDE-STATIONS--><ul>
+<li>A private chef in your chalet or apartment, the kitchen made kosher by our team.</li>
+<li>Hot kosher meals delivered in Courchevel 1850 and the villages, for the week, with notice.</li>
+<li>Shabbat meals, challot and wine on Friday, before candle lighting.</li>
+<li>Hanukkah, Purim or Pesach, on request.</li>
+<li>A minyan with a Sefer Torah for your dates, when the families present call for it.</li>
+<li>Transfers from Lyon, on quote.</li>
+</ul>
+<p>Stays, transfers and meals are organised and invoiced by our kosher team based in the Alps.</p>"""),
     dict(type="text", h2="What we organise <i>in Courchevel</i>", html="""<ul>
 <li><b>A chalet or apartment with a private chef.</b> Our kosher team based in the Alps makes the kitchen kosher and the chef cooks on site. Every meal of the week is taken care of.</li>
 <li><b>Meals delivered in the resort.</b> Hot meals brought to your apartment or hotel in Courchevel 1850 and the villages, for a family or a group, with notice.</li>

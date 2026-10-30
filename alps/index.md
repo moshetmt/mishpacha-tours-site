@@ -140,8 +140,8 @@ Strictly kosher. Our team in the Alps cooks under the Chabad network of the Alps
 
 ## The resorts *we cover*
 
-- **The Grenoble side.** Alpe d'Huez, Les Deux Alpes, Chamrousse and Serre Chevalier, plus Val Thorens and Les Menuires in the Belleville valley: meals, chalets, Shabbat, holidays, minyan and Sefer Torah.
-- **The Courchevel side.** Courchevel 1850 and Megève have a Chabad house in winter: we coordinate with it for your minyan and your Shabbat.
+- **The Grenoble side.** Alpe d'Huez, Les Deux Alpes, Chamrousse and Serre Chevalier, plus Val Thorens and Les Menuires in the Belleville valley: meals, chalets, Shabbat, holidays, minyan and Sefer Torah. Details: [kosher ski holiday in Val Thorens](https://mishpachatours.com/kosher-val-thorens/). Compare them all: [French ski resorts, a kosher guide](https://mishpachatours.com/french-ski-resorts-kosher-guide/).
+- **The Courchevel side.** Courchevel 1850 and Megève have a Chabad house in winter: we coordinate with it for your minyan and your Shabbat. Details: [kosher Courchevel](https://mishpachatours.com/kosher-courchevel/).
 - **A kosher chalet in Les Deux Alpes.** [300 m², 6 bedrooms, 16 beds, 2 minutes from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/), with a private chef, Shabbat and the holidays, and the whole stay organised around it. One written quote.
 
 **Resort by resort.**What we organise in each.
