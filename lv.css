@@ -1,0 +1,335 @@
+/* Charte « Louis Vuitton » (Moshé 30/10/2026, carte A de 06-reports/2026-10-30-charte-references) :
+   « délicat, léger, beau ». Chargée APRÈS valora*.css, active seulement sur <body class="valora lv">.
+   Jost (équivalent libre de la Futura) partout sauf l'hébreu ; blanc dominant ; noir pour l'en-tête,
+   les boutons pleins et le pied ; brun monogramme en touche ; or seulement sur le sceau Winter Prestige
+   et le filet du pied. Coins droits. Ne touche aucun texte. */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7){
+  --lv-blanc:#FFFFFF;--lv-texte:#111111;--lv-doux:#6B6B6B;--lv-filet:#E6E6E6;--lv-noir:#111111;--lv-brun:#5B3A29;
+  --lv-or:linear-gradient(90deg,#F6DC8C 0%,#E2B44A 45%,#C8902A 100%);
+  --lv-sans:'Jost',"Futura","Century Gothic",system-ui,sans-serif;
+  --v-fond:#FFFFFF;--v-carte:#FFFFFF;--v-trait:#E6E6E6;--v-texte:#111111;--v-doux:#6B6B6B;--v-or:#111111;--c-fond:#FFFFFF;
+  --titre:var(--lv-sans);
+  background:#FFFFFF !important;color:#111111 !important;font-family:var(--lv-sans) !important;font-weight:300}
+/* une seule famille, sauf l'hébreu qui garde sa police */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) :is(h1,h2,h3,h4,p,a,li,span,b,strong,i,em,small,label,input,select,button,summary,figcaption,div,textarea):not(:lang(he)){font-family:var(--lv-sans) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) :is(b,strong){font-weight:500}
+/* titres : capitales fines, interlettrage 0,06 em ; l'italique doré devient la même voix */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main :is(h1,h2,h3):not(:lang(he)){font-weight:300 !important;text-transform:uppercase;letter-spacing:.06em !important;font-style:normal !important;color:#111111 !important;line-height:1.15 !important;text-wrap:balance}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main :is(h1,h2,h3) i{font-style:normal !important;color:inherit !important;background:none !important;-webkit-text-fill-color:currentColor !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main h2:not(:lang(he)){font-size:clamp(24px,3.2vw,38px) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main h3:not(:lang(he)){font-size:clamp(15px,1.25vw,17px) !important;letter-spacing:.08em !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main p,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main li{color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .sous{color:#6B6B6B !important;font-weight:300;letter-spacing:.02em}
+/* filet brun sous les titres de section centrés */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .centre>h2::after,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main h2.centre::after,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil>h2::after{content:"";display:block;width:36px;height:1px;background:#5B3A29;margin:18px auto 0}
+
+/* ---------- boutons : plein noir ou contour 1 px, coins droits, capitales 0,2 em ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) :is(.btn-noir,.btn-hero,.pill,.nav-cta,.cherche-bar .chercheur button,.ticket .btn-noir){
+  border-radius:0 !important;box-shadow:none !important;text-transform:uppercase;letter-spacing:.2em !important;font-size:12px !important;font-weight:400 !important;background-image:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .btn-noir,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur button{background:#111111 !important;color:#FFFFFF !important;border:1px solid #111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .btn-noir:hover,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur button:hover{background:#FFFFFF !important;color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main :is(.pill,.hub-carte .btn-noir,.ac-van .btn-noir){background:#FFFFFF !important;color:#111111 !important;border:1px solid #111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main :is(.pill,.hub-carte .btn-noir,.ac-van .btn-noir):hover{background:#111111 !important;color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main :is(.btn-noir,.pill)::after{color:inherit !important;filter:none !important}
+
+/* ---------- bandeau et en-tête : noir ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .strip{background:#111111 !important;color:#BDBDBD !important;letter-spacing:.12em;font-size:11px;text-transform:uppercase}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .strip a{color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .strip .bh{color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav{background:#111111 !important;border-bottom:1px solid #111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .mot{color:#FFFFFF !important;font-weight:400 !important;text-transform:uppercase;letter-spacing:.3em !important;font-size:clamp(14px,1.5vw,19px) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .forme{filter:invert(1) brightness(1.2) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .nav-ch-lien{color:#FFFFFF !important;font-weight:400 !important;letter-spacing:.2em !important;font-size:11px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a.nav-cta{background:transparent !important;border:1px solid rgba(255,255,255,.7) !important;color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu span,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu::before,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu::after{background:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .langue summary{color:#FFFFFF !important;border-color:rgba(255,255,255,.3) !important;border-radius:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .langue ul,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav-ch-menu{background:#FFFFFF !important;border:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:0 12px 30px rgba(0,0,0,.08) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .langue ul a,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav-ch-menu a,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav-ch-menu b{color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav-ch-menu img{border-radius:0 !important}
+/* panneau du menu : blanc, liens en capitales */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .panneau{background:#FFFFFF !important;color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .panneau nav a{color:#111111 !important;text-transform:uppercase;letter-spacing:.14em;font-weight:300 !important;border-color:#E6E6E6 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .panneau nav a small{color:#6B6B6B !important;text-transform:none;letter-spacing:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .panneau .nav-cta{background:#111111 !important;color:#FFFFFF !important;border-radius:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .panneau :is(.panneau-wa,.panneau-bas,.panneau-bas a,.panneau-langs a){color:#111111 !important;border-color:#E6E6E6 !important;background:transparent !important;border-radius:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .panneau .panneau-wa svg{fill:currentColor !important}
+
+/* ---------- héros : photo plein cadre, dégradé léger en bas, texte blanc ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero::before{background:linear-gradient(180deg,rgba(0,0,0,.18) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.08) 55%,rgba(0,0,0,.55) 100%) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero h1{font-family:var(--lv-sans) !important;font-weight:300 !important;font-style:normal !important;text-transform:uppercase;letter-spacing:.06em !important;font-size:clamp(30px,5.4vw,68px) !important;line-height:1.08 !important;color:#FFFFFF !important;text-shadow:0 1px 18px rgba(0,0,0,.25)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero h1 i{font-style:normal !important;color:#FFFFFF !important;background:none !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .hero-sous{color:#FFFFFF !important;font-weight:400;letter-spacing:.2em !important;font-size:12px !important;opacity:1 !important;text-shadow:0 1px 10px rgba(0,0,0,.35)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .btn-hero{background:#FFFFFF !important;color:#111111 !important;border:1px solid #FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .btn-hero:hover{background:transparent !important;color:#FFFFFF !important}
+
+/* ---------- barre de réservation : blanche, filets fins ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur{background:#FFFFFF !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;border:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:0 18px 40px rgba(0,0,0,.08) !important;color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur label span,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur small{color:#6B6B6B !important;letter-spacing:.2em !important;font-size:10px !important;text-transform:uppercase}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur small{letter-spacing:.06em !important;text-transform:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur :is(input,select,.v-cal){color:#111111 !important;border-bottom:1px solid #D0D0D0 !important;border-radius:0 !important;font-weight:300 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur input::placeholder{color:#9A9A9A !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur input[type=date]{color-scheme:light}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur :is(.v-cal,.v-cal-t){color:#111111 !important;background:transparent !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur svg{stroke:currentColor;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur select{background-image:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur button img,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur button svg{filter:invert(1) !important}
+
+/* ---------- bande des 4 visuels ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .reve{background:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .reve-lien,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .reve-lien figure,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .reve-lien img{border-radius:0 !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .reve-lien figcaption{font-family:var(--lv-sans) !important;font-weight:400 !important;text-transform:uppercase;letter-spacing:.18em !important;font-size:12px !important;color:#FFFFFF !important;background:linear-gradient(180deg,transparent,rgba(0,0,0,.5)) !important}
+
+/* ---------- cartes chalet ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp{background:#FFFFFF !important;color:#111111 !important;box-shadow:0 0 0 100vmax #FFFFFF !important;clip-path:inset(0 -100vmax) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-carte{background:#FFFFFF !important;border:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:none !important;color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-photo,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-photo img{border-radius:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-carte h3,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-carte h3 a{color:#111111 !important;text-decoration:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-chiffres,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-chiffres span{color:#6B6B6B !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-chiffres b{color:#111111 !important;font-weight:500}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-chiffres svg{stroke:#5B3A29 !important;fill:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-casher{color:#6B6B6B !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-casher b{color:#5B3A29 !important;text-transform:uppercase;letter-spacing:.2em;font-size:11px;font-weight:500}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-lieu{color:#6B6B6B !important;letter-spacing:.2em !important;text-transform:uppercase;font-size:10px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-prix{color:#111111 !important;font-weight:400 !important;letter-spacing:.04em;background:none !important;-webkit-text-fill-color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-dispo{color:#6B6B6B !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-pied{border-top:1px solid #E6E6E6 !important}
+/* sceau Winter Prestige : le seul or de la carte, au dégradé du site (jamais #C9A961) */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau circle{stroke:#D9A93E !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau text{fill:#E9C468 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau circle:first-of-type{fill:#111111 !important}
+
+/* ---------- sections claires et sombres : tout en blanc ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.clair,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.etapes,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ac-lyon{background:#FFFFFF !important;background-image:none !important;color:#111111 !important;--v-fond:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.etapes{border-top:1px solid #E6E6E6 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.ac-hero{background:#111111 !important}
+/* cartes des 5 voyages */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .hub-carte{background:#FFFFFF !important;border:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .hub-carte .photo,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .hub-carte img{border-radius:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .hub-carte p{color:#6B6B6B !important}
+/* stations : liens texte, plus de pastilles */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-stations-ligne b{color:#5B3A29 !important;letter-spacing:.2em;text-transform:uppercase;font-size:11px;font-weight:500}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-stations a{background:transparent !important;border:0 !important;border-bottom:1px solid transparent !important;border-radius:0 !important;box-shadow:none !important;color:#111111 !important;text-transform:uppercase;letter-spacing:.14em;font-size:11px !important;font-weight:400 !important;padding:6px 4px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-stations a:hover{border-bottom-color:#111111 !important}
+/* bloc van */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .ac-van{background:#FFFFFF !important;border:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .ac-van p{color:#6B6B6B !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .ac-van img{filter:brightness(0) saturate(100%) invert(22%) sepia(28%) saturate(900%) hue-rotate(340deg) brightness(.95) !important}
+/* étapes */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .etapes ol li img{border-radius:0 !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .etapes ol li>b{color:#5B3A29 !important;text-transform:uppercase;letter-spacing:.2em;font-size:11px !important;font-weight:500}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .etapes ol li>span{color:#111111 !important;text-transform:uppercase;letter-spacing:.06em;font-weight:300 !important;font-family:var(--lv-sans) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .etapes ol li p{color:#6B6B6B !important}
+/* Lyon */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-photo,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-photo img{border-radius:0 !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon p{color:#6B6B6B !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-liste li{background:#FFFFFF !important;border:0 !important;border-bottom:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:none !important;color:#6B6B6B !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-liste li:first-child{border-top:1px solid #E6E6E6 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-liste b{color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-liste li::before{background:none !important;border:1px solid #5B3A29 !important;color:#5B3A29 !important;border-radius:0 !important;font-family:var(--lv-sans) !important;font-weight:400 !important;font-size:11px !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-guide,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-guide a{background:#FFFFFF !important;border-radius:0 !important;box-shadow:none !important;color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-guide{border:1px solid #E6E6E6 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-guide a{font-family:var(--lv-sans) !important;text-transform:uppercase;letter-spacing:.08em;font-weight:300 !important;font-size:13px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-guide a::after,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-guide::after{border-color:#111111 !important;color:#111111 !important;border-radius:0 !important;background:none !important}
+
+/* ---------- appel final ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket-zone{background:#FFFFFF !important;border-top:1px solid #E6E6E6 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket{background:#FFFFFF !important;border:0 !important;border-radius:0 !important;box-shadow:none !important;color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket h2,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket h2 i{color:#111111 !important;background:none !important;-webkit-text-fill-color:#111111 !important;font-style:normal !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket .ticket-hassid{filter:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket .wa,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket .wa *{color:#111111 !important;fill:currentColor !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket .wa{text-decoration-color:#111111 !important}
+
+/* ---------- pied : noir, un seul filet d'or ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied{background:#111111 !important;color:#CFCFCF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied::before{width:100% !important;height:1px !important;background:var(--lv-or) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied::after{display:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied summary{color:#FFFFFF !important;text-transform:uppercase;letter-spacing:.2em;font-size:11px;font-weight:400}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied a{color:#E8E8E8 !important;text-decoration-color:rgba(255,255,255,.3) !important;text-underline-offset:3px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .logo-pied .mot{color:#FFFFFF !important;font-weight:400 !important;text-transform:uppercase;letter-spacing:.3em !important;font-size:clamp(20px,3vw,34px) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .logo-pied small{color:#9A9A9A !important;letter-spacing:.2em}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .bandeau-pied{color:#9A9A9A !important;letter-spacing:.2em}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .legal{color:#9A9A9A !important}
+
+/* ---------- bandeau cookies : blanc, boutons noirs droits ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cb{background:#FFFFFF !important;color:#111111 !important;border:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:0 -6px 24px rgba(0,0,0,.06) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cb a{color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cb button{background:#111111 !important;color:#FFFFFF !important;border:1px solid #111111 !important;border-radius:0 !important;letter-spacing:.2em;text-transform:uppercase;font-size:11px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cb button+button{background:#FFFFFF !important;color:#111111 !important}
+
+/* ---------- boutons flottants et barre basse téléphone ---------- */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) :is(.pyt-flottant,.wa-flottant){background:#FFFFFF !important;color:#111111 !important;border:1px solid #111111 !important;border-radius:0 !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;box-shadow:0 6px 20px rgba(0,0,0,.08) !important;text-transform:uppercase;letter-spacing:.16em !important;font-size:11px !important;font-weight:400 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .wa-flottant svg{fill:currentColor !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .barre-basse{background:#FFFFFF !important;border-top:1px solid #E6E6E6 !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .barre-basse a{border-radius:0 !important;letter-spacing:.2em !important;font-weight:400 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .barre-basse .bb-wa{background:#FFFFFF !important;color:#111111 !important;border:1px solid #111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .barre-basse .bb-wa svg{fill:currentColor !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .barre-basse .bb-plan{background:#111111 !important;color:#FFFFFF !important;border:1px solid #111111 !important}
+
+/* corrections après la première capture */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .ac-hero h1:not(:lang(he)),html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .ac-hero h1 i{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu span{background:#FFFFFF !important;box-shadow:0 -5px 0 #FFFFFF,0 5px 0 #FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-stations li{background:transparent !important;border:0 !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-stations{gap:2px 10px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur .v-cal{border:0 !important;border-bottom:1px solid #D0D0D0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .btn-noir{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .btn-noir:hover{color:#111111 !important;-webkit-text-fill-color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main :is(.pill,.hub-carte .btn-noir,.ac-van .btn-noir){color:#111111 !important;-webkit-text-fill-color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main :is(.pill,.hub-carte .btn-noir,.ac-van .btn-noir):hover{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-boutons a{border-radius:0 !important;font-weight:400 !important;letter-spacing:.2em !important;font-size:12px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-boutons .btn-noir{background:#111111 !important;border:1px solid #111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-boutons .pill{background:#FFFFFF !important;border:1px solid #111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon h2 i,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-grille h2 i{background:none !important;color:#111111 !important;-webkit-text-fill-color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-grille h2{color:#111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied :is(small,.bandeau-pied,summary){font-weight:400 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .pied-stations{grid-column:1 / -1}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .pied-stations p{columns:auto 150px !important;font-size:14px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .pied-stations a{white-space:nowrap}
+/* héros : voile un peu plus dense, la vidéo passe sur de la neige très claire */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero::before{background:linear-gradient(180deg,rgba(0,0,0,.38) 0%,rgba(0,0,0,.26) 45%,rgba(0,0,0,.5) 100%) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero :is(h1,.hero-sous){text-shadow:0 1px 3px rgba(0,0,0,.35),0 2px 24px rgba(0,0,0,.35) !important}
+/* téléphone : le titre et l'intro de Lyon sont posés sur la photo, ils restent blancs */
+@media (max-width:899px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-grille h2,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-grille h2 i{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-grille>div:last-child>p:not(.ac-guide){color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-lyon-grille h2::after{background:#FFFFFF !important}
+}
+
+/* ================= v2 (retours de Moshé, 30/10 soir) ================= */
+/* 1. en-tête : barre de 64 px, marque plus grande, toujours fine */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav{height:64px !important;min-height:64px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .forme{height:40px !important;width:auto !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .mot{font-size:clamp(17px,1.9vw,24px) !important;letter-spacing:.24em !important;font-weight:400 !important}
+/* 2. héros : écran moins l'en-tête, texte en bas sur un dégradé bas, chercheur à cheval */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7){--lv-cb-moitie:67px}
+@media (min-width:900px){html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7){--lv-cb-moitie:50px}}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero{height:calc(100svh - 64px) !important;min-height:calc(100svh - 64px) !important;padding-top:0 !important;padding-bottom:0 !important;display:flex !important;flex-direction:column !important;justify-content:flex-end !important;align-items:center !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .hero-texte{padding:0 var(--pad,20px) calc(var(--lv-cb-moitie) + 44px) !important;margin:0 auto !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero::before{background:linear-gradient(180deg,rgba(0,0,0,.12) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.08) 50%,rgba(0,0,0,.5) 82%,rgba(0,0,0,.58) 100%) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.cherche-bar{background:transparent !important;background-image:none !important;border-top:0 !important;margin-top:calc(-1 * var(--lv-cb-moitie)) !important;padding-top:0 !important;position:relative;z-index:6}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur{border-radius:4px !important;box-shadow:0 10px 30px rgba(0,0,0,.07) !important;border:1px solid #ECECEC !important}
+/* 3. rayon 4 px partout, jamais de pilule */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) :is(.btn-noir,.btn-hero,.pill,.nav-cta,.cherche-bar .chercheur button,.pyt-flottant,.wa-flottant,.barre-basse a,.cb button,#tours.ac-lyon .ac-boutons a,.langue summary,.panneau .nav-cta){border-radius:4px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur :is(input,select,.v-cal){border-radius:4px !important}
+/* 4. rythme : blanc / gris très clair, filet, libellé ; une seule section noire = les chalets */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone{border-top:1px solid #E6E6E6 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.ac-hero,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.reve{border-top:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.reve{background:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section#trips{background:#FFFFFF !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section#how{background:#F4F4F2 !important;box-shadow:0 0 0 100vmax #F4F4F2 !important;clip-path:inset(0 -100vmax) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section#tours{background:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket-zone .ticket{background:#F4F4F2 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how .etapes ol li img,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol li img{background:transparent}
+/* section noire des chalets Winter Prestige */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.kwp-accueil{background:#111111 !important;color:#FFFFFF !important;border-top:0 !important;box-shadow:0 0 0 100vmax #111111 !important;clip-path:inset(0 -100vmax) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil>h2,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil>h2 i{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil>h2::after{background:linear-gradient(90deg,#F6DC8C,#C8902A) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-carte{background:#111111 !important;border:1px solid rgba(255,255,255,.16) !important;color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-carte :is(h3,h3 a,.kwp-prix,.kwp-chiffres b){color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-carte :is(.kwp-chiffres,.kwp-chiffres span,.kwp-casher,.kwp-lieu,.kwp-dispo){color:#BDBDBD !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-carte .kwp-casher b{color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-chiffres svg{stroke:#BDBDBD !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-pied{border-top-color:rgba(255,255,255,.16) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-pied img{filter:invert(1) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-carte .btn-noir{background:#FFFFFF !important;color:#111111 !important;-webkit-text-fill-color:#111111 !important;border:1px solid #FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-carte .btn-noir:hover{background:transparent !important;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-tous .pill{background:transparent !important;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;border:1px solid rgba(255,255,255,.7) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-tous .pill:hover{background:#FFFFFF !important;color:#111111 !important;-webkit-text-fill-color:#111111 !important}
+/* v2 : bloc final gris sur toute la largeur, collé au pied ; bouton d'en-tête dans la barre de 64 px */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone{box-shadow:0 0 0 100vmax #F4F4F2 !important;clip-path:inset(0 -100vmax) !important;margin-bottom:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket-zone .ticket{background:transparent !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main{padding-bottom:0 !important;margin-bottom:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied{margin-top:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav a.nav-cta{height:40px !important;min-height:0 !important;align-self:center !important;display:inline-flex !important;align-items:center !important;padding:0 18px !important;margin:0 !important}
+@media (min-width:900px){html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a.nav-cta{top:12px !important;right:20px !important;border:1px solid rgba(255,255,255,.7) !important}}
+
+/* ================= v3 (Moshé, 30/10) ================= */
+/* héros à 85 svh moins l'en-tête, titre fin au centre, sans bouton : le chercheur est le seul appel */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero{height:calc(85svh - 64px) !important;min-height:calc(85svh - 64px) !important;justify-content:center !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .hero-texte{padding:0 var(--pad,20px) var(--lv-cb-moitie) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .btn-hero{display:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero::before{background:radial-gradient(ellipse 75% 34% at 50% calc(50% - var(--lv-cb-moitie) / 2),rgba(0,0,0,.34) 0%,rgba(0,0,0,.14) 55%,rgba(0,0,0,0) 100%) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero h1:not(:lang(he)){font-weight:300 !important;font-size:clamp(28px,4.6vw,60px) !important}
+/* libellés de section (HTML, mots déjà présents sur la page) */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .lv-eyebrow{display:block;margin:0 0 16px !important;font:400 11px/1.2 var(--lv-sans) !important;letter-spacing:.24em !important;text-transform:uppercase;color:#5B3A29 !important;text-align:center}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #chalet>.lv-eyebrow{color:#BDBDBD !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours>.lv-eyebrow{padding-top:0 !important;margin-bottom:28px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket-zone>.lv-eyebrow{margin-bottom:0 !important;padding-top:8px}
+
+/* ---------- v3 bis : bandes pleine largeur, trois tons, aucun cadre hors boutons ---------- */
+/* ordre : blanc (héros, chercheur, visuels) · NOIR chalets · blanc voyages · GRIS how it works · blanc Lyon + contact · noir pied */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone{border-top:0 !important;border-bottom:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section:not(.ac-hero):not(.cherche-bar),html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone{padding-top:72px !important;padding-bottom:72px !important;margin-top:0 !important;margin-bottom:0 !important}
+@media (min-width:900px){html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section:not(.ac-hero):not(.cherche-bar),html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone{padding-top:112px !important;padding-bottom:112px !important}}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.reve{padding-top:40px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section:is(.reve,#trips,#tours),html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone{background:#FFFFFF !important;box-shadow:0 0 0 100vmax #FFFFFF !important;clip-path:inset(0 -100vmax) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section#how{background:#F4F4F2 !important;box-shadow:0 0 0 100vmax #F4F4F2 !important;clip-path:inset(0 -100vmax) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.kwp-accueil{background:#111111 !important;box-shadow:0 0 0 100vmax #111111 !important;clip-path:inset(0 -100vmax) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-tous{margin-bottom:0 !important;padding-bottom:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) :is(#how,#trips,#tours) .wrap,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket-zone .ticket{max-width:1200px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket-zone .ticket{background:transparent !important;box-shadow:none !important;border:0 !important;margin-inline:auto !important}
+/* entre deux blancs (Lyon puis contact) : filet de 64 px centré au-dessus du libellé */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket-zone>.lv-eyebrow::before{content:"";display:block;width:64px;height:1px;background:#E6E6E6;margin:0 auto 28px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket-zone>.lv-eyebrow{margin-bottom:20px !important;padding-top:0 !important}
+/* plus de cadres : listes à filets, cartes nues */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .hub-carte{border:0 !important;box-shadow:none !important;background:transparent !important}
+@media (max-width:899px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .hub-carte{border-bottom:1px solid #E6E6E6 !important;padding-block:14px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .hub-carte:first-child{border-top:1px solid #E6E6E6 !important}
+}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .ac-van{border:0 !important;border-top:1px solid #E6E6E6 !important;border-bottom:1px solid #E6E6E6 !important;box-shadow:none !important;background:transparent !important;border-radius:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-guide{border:0 !important;border-top:1px solid #E6E6E6 !important;border-bottom:1px solid #E6E6E6 !important;box-shadow:none !important;background:transparent !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-guide a{background:transparent !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-accueil .kwp-carte{border:0 !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .cherche-bar .chercheur{border:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon .ac-guide a{border:0 !important;box-shadow:none !important;padding-inline:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #tours.ac-lyon>p.lv-eyebrow{color:#5B3A29 !important}
+
+/* ================= v4 (Moshé, iPhone : « la bannière est un peu vide ») ================= */
+/* bloc texte posé 24 px au-dessus du chercheur, haut de la vidéo libre, dégradé bas qui remonte */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero{justify-content:flex-end !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .hero-texte{padding:0 var(--pad,20px) calc(var(--lv-cb-moitie) + 24px) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero::before{background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.18) 50%,rgba(0,0,0,.48) 75%,rgba(0,0,0,.55) 100%) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .lv-eyebrow{color:rgba(255,255,255,.85) !important;letter-spacing:.25em !important;font-size:11px !important;margin:0 0 14px !important;text-shadow:0 1px 8px rgba(0,0,0,.35)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .lv-reassure{margin:16px 0 0 !important;font:400 11px/1.3 var(--lv-sans) !important;letter-spacing:.25em !important;text-transform:uppercase;color:rgba(255,255,255,.85) !important;text-shadow:0 1px 8px rgba(0,0,0,.35)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .hero-sous{margin-top:14px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero .hero-texte p.lv-reassure{display:block !important}
+
+/* ================= v5 : pictos famille (vectoriels, sans traits de vitesse) dans « How it works » ================= */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol li img{background:transparent !important;padding:0 !important;border:0 !important;box-shadow:none !important;border-radius:0 !important;object-fit:contain !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol li img.lv-large{width:auto !important;max-width:100% !important;aspect-ratio:auto !important}
+@media (max-width:899px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol li{grid-template-columns:84px 1fr !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol li img{width:84px !important;height:64px !important;max-width:none !important}
+}
+
+/* ================= v6 : trois pictos carrés, même cadre, même taille, même ligne ================= */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol li img{width:150px !important;height:150px !important;max-width:none !important;aspect-ratio:1 !important;object-fit:contain !important;object-position:center bottom !important}
+@media (max-width:899px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol li{grid-template-columns:84px 1fr !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol li img{width:84px !important;height:84px !important}
+}
+/* v6 : le bloc van est retiré de l'accueil (HTML gardé) ; le van reste dans le menu, le pied et la page services */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .ac-van{display:none !important}
+/* v6 : téléphone, une seule marge de 56 px par bande, libellés sans marge haute */
+@media (max-width:899px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section:not(.ac-hero):not(.cherche-bar),html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone{padding-top:56px !important;padding-bottom:56px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.reve{padding-top:24px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section>.wrap:first-child,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section>.lv-eyebrow,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section .wrap>.lv-eyebrow:first-child{margin-top:0 !important;padding-top:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .lv-eyebrow{margin-top:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section>:last-child,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section>.wrap>:last-child,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone .ticket>:last-child{margin-bottom:0 !important;padding-bottom:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone .ticket{padding-top:0 !important;padding-bottom:0 !important;margin-block:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .reve-grille{margin-bottom:0 !important;padding-bottom:0 !important}
+/* barre basse : plus de fond ni de filet, deux boutons flottants avec une ombre légère */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .barre-basse{background:transparent !important;border-top:0 !important;box-shadow:none !important;pointer-events:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .barre-basse a{pointer-events:auto;box-shadow:0 6px 18px rgba(0,0,0,.14) !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .barre-basse .bb-wa{background:#FFFFFF !important;border:1px solid #111111 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied{padding-bottom:calc(88px + env(safe-area-inset-bottom)) !important}
+}
+/* v6 : Lyon et Contact sont deux blancs qui se suivent : une seule marge, le filet de 64 px fait la séparation */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>.ticket-zone{padding-top:0 !important}
+@media (max-width:899px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.reve{padding-top:8px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #how ol li:last-child{margin-bottom:0 !important;padding-bottom:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section#tours{padding-bottom:32px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ticket-zone>.lv-eyebrow::before{margin-bottom:20px !important}
+}
