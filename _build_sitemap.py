@@ -5,7 +5,7 @@ BASE = "https://mishpachatours.com"
 urls = ["/"]
 for p in sorted(glob.glob("**/index.html", recursive=True)):
     d = os.path.dirname(p).replace("\\", "/")
-    if not d or d.startswith(("_", "preview")) or "merci" in d.split("/"): continue   # preview/ = maquettes noindex (Moshé 25/10)
+    if not d or d.startswith(("_", "preview")) or "merci" in d.split("/") or d == "espace": continue   # espace/ = Espace Mendel, noindex (30/10)   # preview/ = maquettes noindex (Moshé 25/10)
     if 'data-i18n="todo"' in open(p, encoding="utf-8").read(): continue   # page preparee, pas encore traduite
     urls.append("/" + d + "/")
 today = datetime.date.today().isoformat()
