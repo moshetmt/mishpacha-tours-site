@@ -17,7 +17,7 @@ for nom, col in (('vert', '#2D5132'), ('creme', '#FFFAED')):
 STATIONS = {
  'kosher-val-thorens': ('stock/st-val-thorens.jpg', dict(en='Val Thorens', fr='Val Thorens', es='Val Thorens', he='ואל טורנס')),
  'kosher-courchevel': ('stock/st-courchevel.jpg', dict(en='Courchevel', fr='Courchevel', es='Courchevel', he='קורשבל')),
- 'kosher-megeve': ('stock/st-megeve.jpg', dict(en='Megève', fr='Megève', es='Megève', he="מז'ב")),
+ 'kosher-megeve': ('stock/st-megeve.jpg', dict(en='Megève', fr='Megève', es='Megève', he="מג'ב")),
  'kosher-alpe-dhuez': ('stock/st-alpe-dhuez.jpg', dict(en="Alpe d'Huez", fr="L'Alpe d'Huez", es="Alpe d'Huez", he="אלפ ד'ואז")),
  'kosher-les-deux-alpes': ('chalet/wp-pistes-balcon.jpg', dict(en='Les Deux Alpes', fr='Les Deux Alpes', es='Les Deux Alpes', he='לה דז אלפ')),
  'kosher-grenoble': ('stock/st-grenoble.jpg', dict(en='Grenoble', fr='Grenoble', es='Grenoble', he='גרנובל')),
@@ -29,8 +29,9 @@ STATIONS = {
  'kosher-zermatt': ('stock/st-zermatt.jpg', dict(en="Zermatt", fr="Zermatt", es="Zermatt", he='צרמט')),
  'kosher-st-moritz': ('stock/st-st-moritz.jpg', dict(en="St. Moritz", fr="Saint-Moritz", es="St. Moritz", he='סנט מוריץ')),
  'kosher-crans-montana': ('stock/st-crans-montana.jpg', dict(en="Crans-Montana", fr="Crans-Montana", es="Crans-Montana", he='קראן מונטנה')),
+ 'kosher-verbier': ('stock/st-verbier.jpg', dict(en="Verbier", fr="Verbier", es="Verbier", he='ורבייה')),
  'kosher-cervinia': ('stock/st-cervinia.jpg', dict(en="Cervinia", fr="Cervinia", es="Cervinia", he='צרביניה')),
- 'kosher-courmayeur': ('stock/st-courmayeur.jpg', dict(en="Courmayeur", fr="Courmayeur", es="Courmayeur", he='קורמאייר')),
+ 'kosher-courmayeur': ('stock/st-courmayeur.jpg', dict(en="Courmayeur", fr="Courmayeur", es="Courmayeur", he='קורמאיור')),
  'kosher-cortina': ('stock/st-cortina.jpg', dict(en="Cortina d'Ampezzo", fr="Cortina d'Ampezzo", es="Cortina d'Ampezzo", he='קורטינה')),
 }
 # slug -> (photo, type, voyage EN)
@@ -39,7 +40,7 @@ PAGES.update({
  'kosher-services-french-alps': ('stock/st-val-thorens.jpg', 'alps', 'Kosher services in the Alps'),
  'alps': ('chalet/wp-soleil.jpg', 'alps', 'Kosher stay in the Alps'),            # 15/10 Mendel : la piste brunâtre « fait de la peine », neige éclatante
  'kosher-ski-holidays-french-alps': ('chalet/wp-soleil.jpg', 'alps', 'Kosher ski holiday in the Alps'),
- 'summer-in-the-alps-jewish-families': ('stock/annecy-ete.jpg', 'alps', 'Kosher summer in the Alps'),
+ 'summer-in-the-alps-jewish-families': ('stock/riviera-ete.jpg', 'alps', 'Kosher summer in the Alps'),
  'kosher-vacation-french-alps': ('stock/annecy-lac.jpg', 'alps', 'Kosher vacation in the Alps'),
  'kosher-van-transfers': ('illus/flat-stopover.png', 'van', 'Van transfer'),
  'kosher-chalet-les-deux-alpes': ('chalet/wp-ext-bleu.jpg', 'chalet', 'Kosher chalet in Les Deux Alpes'),

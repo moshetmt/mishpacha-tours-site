@@ -206,6 +206,20 @@ Del mensaje al punto de encuentro, la reserva es sencilla y se hace por escrito.
 
 Fotos reales del recorrido, no imágenes de archivo.
 
+Rue Juiverie
+
+Grande Synagogue
+
+Quai Tilsitt
+
+Vieux Lyon
+
+CHRD
+
+Montluc
+
+Izieu
+
 ## Antes de *venir*
 
 [La guía completa](https://mishpachatours.com/jewish-lyon-guide/)

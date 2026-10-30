@@ -1,4 +1,4 @@
-> Cinco chalés kosher en los Alpes, en Les Deux Alpes, Courchevel, cerca de Megève y en Val Thorens: chef privado, Shabat y minyan en el chalé. Una solicitud, un presupuesto por escrito.
+> Nuestros chalés kosher en los Alpes, en Les Deux Alpes, Courchevel, cerca de Megève y en Val Thorens: chef privado, Shabat y minyan en el chalé. Una solicitud, un presupuesto por escrito.
 
 Source: https://mishpachatours.com/es/kosher-chalets/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/es/kosher-chalets/ (HTML version). Every page
 
 # Nuestros chalés kosher *en Les Deux Alpes, Courchevel, Megève y Val Thorens*
 
-Cinco chalés con todo lo kosher resuelto: dos en Les Deux Alpes, uno en Courchevel, uno cerca de Megève y uno en Val Thorens.
+Nuestros chalés, con todo lo kosher resuelto: dos en Les Deux Alpes, uno en Courchevel, uno cerca de Megève y uno en Val Thorens.
 
 [Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20buscamos%20un%20chal%C3%A9%20kosher.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20o%20Val%20Thorens%3A)
 
@@ -18,7 +18,7 @@ Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
 **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 
-Cinco chalés con todo lo kosher resuelto: dos en Les Deux Alpes, uno en Courchevel, uno cerca de Megève y uno en Val Thorens, con una pista de esquí en la puerta. La cocina se prepara como kosher, un chef cocina o se entregan las comidas, un minyan llega a petición. Un programa, un presupuesto.
+Nuestros chalés, con todo lo kosher resuelto: dos en Les Deux Alpes, uno en Courchevel, uno cerca de Megève y uno en Val Thorens, con una pista de esquí en la puerta. La cocina se prepara como kosher, un chef cocina o se entregan las comidas, un minyan llega a petición. Un programa, un presupuesto.
 
 ### [Nuestro chalet kosher, al pie de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
 
@@ -30,6 +30,8 @@ Cinco chalés con todo lo kosher resuelto: dos en Les Deux Alpes, uno en Courche
 **Estrictamente kosher.** Chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael.
 
 Les Deux Alpes · con Winter Prestige
+
+Desde 13.500 € por semana
 
 Disponibilidad confirmada para sus fechas en cada solicitud.
 
@@ -46,6 +48,8 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 Les Deux Alpes · con Winter Prestige
 
+Desde 13.000 € por semana
+
 Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -60,6 +64,8 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 **Estrictamente kosher.** Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael.
 
 Courchevel · con Winter Prestige
+
+Desde 17.500 € por semana
 
 Disponibilidad confirmada para sus fechas en cada solicitud.
 
@@ -76,6 +82,8 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 Cerca de Megève · con Winter Prestige
 
+Desde 23.500 € por semana
+
 Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -90,6 +98,8 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 **Estrictamente kosher.** Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael.
 
 Val Thorens · con Winter Prestige
+
+Desde 9.500 € por semana
 
 Disponibilidad confirmada para sus fechas en cada solicitud.
 
@@ -129,6 +139,10 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 ¿Qué chalé elegir?
 
 En Les Deux Alpes, el chalé de 15 camas tiene 6 habitaciones más una habitación infantil, a dos minutos de las pistas, y el chalé de las pistas tiene 6 habitaciones y 13 camas, con los esquís puestos en la puerta; los dos están a cinco minutos uno del otro, para cuatro familias. Courchevel tiene 5 habitaciones con baño, piscinas climatizadas y una lanzadera privada, en Les 3 Vallées. Val Thorens tiene 3 habitaciones con baño para hasta 10 personas, con una pista de esquí en la puerta, también en Les 3 Vallées.
+
+¿Cuánto cuesta un chalé?
+
+Por una semana en el chalé: Val Thorens desde 9.500 €, Les Deux Alpes desde 13.000 €, Courchevel desde 17.500 €, cerca de Megève desde 23.500 €. El precio para sus fechas y sus servicios llega en un solo presupuesto por escrito. La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
 
 ¿Están los chalés disponibles en nuestras fechas?
 

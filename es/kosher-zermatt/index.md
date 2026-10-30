@@ -134,11 +134,11 @@ Sí. El glaciar mantiene el esquí de verano y el pueblo se llena de senderistas
 
 Nuestro equipo kosher con base en los Alpes cocina bajo la red Jabad de los Alpes. Indíquenos sus necesidades con su solicitud y le confirmamos los detalles con el presupuesto.
 
-## ¿Prefiere un chalet entero? *Cinco chalets kosher*
+## ¿Prefiere un chalet entero? *Chalets kosher*
 
 [**Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet de las pistas**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
-[Ver los cinco chalets](https://mishpachatours.com/es/kosher-chalets/)
+[Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
 ## Zermatt: su semana, *organizada*.
 

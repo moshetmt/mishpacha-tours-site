@@ -9,7 +9,7 @@ LANGS = ("fr", "es", "he")
 ALPES = {"alps", "kosher-alpe-dhuez", "kosher-annecy", "kosher-chalet-les-deux-alpes", "kosher-chamonix", "kosher-courchevel",
          "kosher-grenoble", "kosher-chalets", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
          "kosher-ski-holidays-french-alps", "kosher-vacation-french-alps", "kosher-val-disere", "kosher-val-thorens",
-         "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana", "kosher-cervinia", "kosher-courmayeur", "kosher-cortina",
+         "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana", "kosher-cervinia", "kosher-verbier", "kosher-courmayeur", "kosher-cortina",
          "lyon-gateway-to-the-alps-kosher", "summer-in-the-alps-jewish-families", "flights-to-lyon"}
 GENERAL = {"", "plan-your-trip", "kosher-villa-saint-tropez", "kosher-van-transfers", "about", "contact", "privacy", "terms", "credits", "merci", "jewish-life-around-lyon"}
 
@@ -46,18 +46,18 @@ ENTREES = {"en": ("Chalets", "Resorts", "Chef & Shabbat", "Summer", "Jewish Lyon
            "fr": ("Chalets", "Stations", "Chef & Chabbat", "Été", "Visite juive à Lyon", "Personnaliser mon séjour"),
            "es": ("Chalets", "Estaciones", "Chef y Shabat", "Verano", "Lyon judío", "Planificar mi viaje"),
            "he": ("צ'אלות", "אתרי סקי", "שף ושבת", "קיץ", "ליון היהודית", "לתכנן את הטיול")}
-SOUS = {"en": ("Five private chalets, strictly kosher", "Seventeen resorts in France, Switzerland and Italy", "Private chef, delivered meals, minyan, transfers", "Villa in Saint-Tropez, the lakes, the mountains", "The guided visit and the Jewish guide to Lyon"),
-        "fr": ("Cinq chalets privés, strictement casher", "Dix-sept stations en France, en Suisse et en Italie", "Chef privé, repas livrés, minyan, transferts", "Villa à Saint-Tropez, les lacs, la montagne", "La visite guidée et le guide juif de Lyon"),
-        "es": ("Cinco chalets privados, estrictamente kosher", "Diecisiete estaciones en Francia, Suiza e Italia", "Chef privado, comidas entregadas, minyán, traslados", "Villa en Saint-Tropez, los lagos, la montaña", "La visita guiada y la guía del Lyon judío"),
-        "he": ("חמש צ'אלות פרטיות, כשרות למהדרין", "שבעה־עשר אתרי סקי בצרפת, בשווייץ ובאיטליה", "שף פרטי, ארוחות משלוח, מניין, הסעות", "וילה בסן־טרופה, האגמים, ההרים", "הסיור המודרך והמדריך ליהדות ליון")}
+SOUS = {"en": ("Five private chalets, strictly kosher", "Eighteen resorts in France, Switzerland and Italy", "Private chef, delivered meals, minyan, transfers", "Villa in Saint-Tropez, the lakes, the mountains", "The guided visit and the Jewish guide to Lyon"),
+        "fr": ("Des chalets privés, strictement casher", "Dix-huit stations en France, en Suisse et en Italie", "Chef privé, repas livrés, minyan, transferts", "Villa à Saint-Tropez, les lacs, la montagne", "La visite guidée et le guide juif de Lyon"),
+        "es": ("Chalets privados, estrictamente kosher", "Dieciocho estaciones en Francia, Suiza e Italia", "Chef privado, comidas entregadas, minyán, traslados", "Villa en Saint-Tropez, los lagos, la montaña", "La visita guiada y la guía del Lyon judío"),
+        "he": ("צ'אלות פרטיות, בהקפדה על כשרות", "שמונה־עשר אתרי סקי בצרפת, בשווייץ ובאיטליה", "שף פרטי, ארוחות משלוח, מניין, הסעות", "וילה בסן־טרופה, האגמים, ההרים", "הסיור המודרך והמדריך ליהדות ליון")}
 URLS = ("/kosher-chalets/", "/alps/", "/kosher-services-french-alps/", "/summer-in-the-alps-jewish-families/", "/jewish-lyon-tours/")
 PIED_PAN = {"en": ("Same-day reply. Never on Shabbat.", "contact@mishpachatours.com"), "fr": ("Réponse le jour même. Jamais pendant Chabbat.", "contact@mishpachatours.com"),
             "es": ("Respuesta el mismo día. Nunca en Shabat.", "contact@mishpachatours.com"), "he": ("מענה באותו יום. לעולם לא בשבת.", "contact@mishpachatours.com")}
 WA_HE = "דברו איתנו בוואטסאפ"
-CHALETS = {"en": ("Chalets", "See the five chalets", (("Les Deux Alpes", "6 + 1 bedrooms · 2 min from the slopes"), ("Les Deux Alpes · Slope Chalet", "6 bedrooms · skis on at the door"), ("Courchevel", "5 suites · heated pools"), ("Near Megève", "10 twin bedrooms · Mont Blanc"), ("Val Thorens", "3 en-suite bedrooms · ski in ski out"))),
-           "fr": ("Chalets", "Voir les cinq chalets", (("Les Deux Alpes", "6 + 1 chambres · à 2 min des pistes"), ("Les Deux Alpes · chalet des pistes", "6 chambres · skis aux pieds"), ("Courchevel", "5 suites · piscines chauffées"), ("Près de Megève", "10 chambres twin · Mont Blanc"), ("Val Thorens", "3 chambres en suite · skis aux pieds"))),
-           "es": ("Chalets", "Ver los cinco chalets", (("Les Deux Alpes", "6 + 1 habitaciones · a 2 min de las pistas"), ("Les Deux Alpes · chalet de las pistas", "6 habitaciones · esquís puestos en la puerta"), ("Courchevel", "5 suites · piscinas climatizadas"), ("Cerca de Megève", "10 habitaciones twin · Mont Blanc"), ("Val Thorens", "3 habitaciones con baño · esquí a pie de puerta"))),
-           "he": ("צ'אלות", "לראות את חמש הצ'אלות", (("לה דז אלפ", "6 + 1 חדרים · 2 דק' מהמסלולים"), ("לה דז אלפ · צ'אלה המסלולים", "6 חדרים · מגלשיים בדלת"), ("קורשבל", "5 סוויטות · בריכות מחוממות"), ("ליד מז'ב", "10 חדרי טווין · מון בלאן"), ("ואל טורנס", "3 חדרי שינה עם חדר רחצה · סקי מהדלת")))}
+CHALETS = {"en": ("Chalets", "See the chalets", (("Les Deux Alpes", "6 + 1 bedrooms · 2 min from the slopes"), ("Les Deux Alpes · Slope Chalet", "6 bedrooms · skis on at the door"), ("Courchevel", "5 suites · heated pools"), ("Near Megève", "10 twin bedrooms · Mont Blanc"), ("Val Thorens", "3 en-suite bedrooms · ski in ski out"))),
+           "fr": ("Chalets", "Voir les chalets", (("Les Deux Alpes", "6 + 1 chambres · à 2 min des pistes"), ("Les Deux Alpes · chalet des pistes", "6 chambres · skis aux pieds"), ("Courchevel", "5 suites · piscines chauffées"), ("Près de Megève", "10 chambres twin · Mont Blanc"), ("Val Thorens", "3 chambres en suite · skis aux pieds"))),
+           "es": ("Chalets", "Ver los chalets", (("Les Deux Alpes", "6 + 1 habitaciones · a 2 min de las pistas"), ("Les Deux Alpes · chalet de las pistas", "6 habitaciones · esquís puestos en la puerta"), ("Courchevel", "5 suites · piscinas climatizadas"), ("Cerca de Megève", "10 habitaciones twin · Mont Blanc"), ("Val Thorens", "3 habitaciones con baño · esquí a pie de puerta"))),
+           "he": ("צ'אלות", "לראות את הצ'אלות", (("לה דז אלפ", "6 + 1 חדרים · 2 דק' מהמסלולים"), ("לה דז אלפ · צ'אלה המסלולים", "6 חדרים · מגלשיים בדלת"), ("קורשבל", "5 סוויטות · בריכות מחוממות"), ("ליד מג'ב", "10 חדרי טווין · מון בלאן"), ("ואל טורנס", "3 חדרי שינה עם חדר רחצה · סקי מהדלת")))}
 # 21/10 : vignettes WebP de 336 px (img/chalet/min/, fabriquées par _images_legeres.py) au lieu des JPG pleine taille (2 032 Ko téléchargés par le tiroir mobile)
 CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/min/wp-ext-bleu-336.webp"), ("kosher-slope-chalet-les-deux-alpes", "/img/chalet/min/slope-facade-336.webp"), ("kosher-chalet-courchevel", "/img/chalet/min/courchevel-ext-336.webp"), ("kosher-chalet-megeve", "/img/chalet/min/megeve-n0-apt-sejour-336.webp"), ("kosher-chalet-val-thorens", "/img/chalet/min/valthorens-exterieur-neige-336.webp"))
 
@@ -88,7 +88,7 @@ def second_links(lang, pre):
 STATIONS = [("Les Deux Alpes", "kosher-les-deux-alpes"), ("Courchevel", "kosher-courchevel"), ("Val Thorens", "kosher-val-thorens"),
             ("Megève", "kosher-megeve"), ("Alpe d'Huez", "kosher-alpe-dhuez"), ("Val d'Isère", "kosher-val-disere"), ("Les Arcs", "kosher-les-arcs"),
             ("La Plagne", "kosher-la-plagne"), ("Chamonix", "kosher-chamonix"), ("Annecy", "kosher-annecy"), ("Grenoble", "kosher-grenoble"),
-            ("Zermatt", "kosher-zermatt"), ("St. Moritz", "kosher-st-moritz"), ("Crans-Montana", "kosher-crans-montana"), ("Cervinia", "kosher-cervinia"), ("Courmayeur", "kosher-courmayeur"), ("Cortina d'Ampezzo", "kosher-cortina")]
+            ("Zermatt", "kosher-zermatt"), ("St. Moritz", "kosher-st-moritz"), ("Crans-Montana", "kosher-crans-montana"), ("Verbier", "kosher-verbier"), ("Cervinia", "kosher-cervinia"), ("Courmayeur", "kosher-courmayeur"), ("Cortina d'Ampezzo", "kosher-cortina")]
 def stations_html(lang, pre):
     return ""
 def pied_stations(lang, pre):

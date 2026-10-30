@@ -901,3 +901,8 @@ body.valora footer.pied{background:#0B0C0E !important;position:relative;border-t
 body.valora footer.pied::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(320px,70%);height:1px;background:linear-gradient(90deg,transparent,#E2B44A 50%,transparent)}
 body.valora footer.pied::after{content:"";position:absolute;top:-5px;left:50%;width:9px;height:9px;transform:translateX(-50%) rotate(45deg);background:#0B0C0E;border:1px solid #E2B44A}
 html[dir="rtl"] body.valora:not(#z1):not(#z2):not(#z3):not(#z4) #tours.ac-lyon .ac-boutons a{letter-spacing:0 !important}
+
+/* PRIX-30-10 */ /* prix « à partir de » des cartes chalet et du bloc des prix (Moshé 30/10) */
+body .kwp-carte .kwp-corps>.kwp-prix{margin:10px 0 0;padding:0 22px;font-size:15px;letter-spacing:.02em;color:var(--jaune,#C9A961)}
+.repas-prix h3{margin:40px 0 8px}
+.repas-prix .prix-chalets a{color:inherit;text-decoration:underline;text-underline-offset:3px}

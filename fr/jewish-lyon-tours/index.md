@@ -206,6 +206,20 @@ Du message au point de rendez-vous, la réservation est simple et confirmée par
 
 De vraies photos de la visite, pas des images de banque d’images.
 
+Rue Juiverie
+
+Grande Synagogue
+
+Quai Tilsitt
+
+Vieux Lyon
+
+CHRD
+
+Montluc
+
+Izieu
+
 ## Avant de *venir*
 
 [Le guide complet](https://mishpachatours.com/jewish-lyon-guide/)

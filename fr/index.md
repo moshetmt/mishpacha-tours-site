@@ -2,7 +2,7 @@
 
 Source: https://mishpachatours.com/fr/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-# Vacances casher dans les Alpes.
+# Vacances casher *dans les Alpes*
 
 Chalet privé, chef privé, Chabbat et minyan. Tout est organisé pour vous.
 
@@ -25,6 +25,8 @@ Chalet privé, chef privé, Chabbat et minyan. Tout est organisé pour vous.
 
 Les Deux Alpes · avec Winter Prestige
 
+À partir de 13 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -39,6 +41,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
 Courchevel · avec Winter Prestige
+
+À partir de 17 500 € la semaine
 
 Disponibilité confirmée pour vos dates à chaque demande.
 
@@ -55,6 +59,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Val Thorens · avec Winter Prestige
 
+À partir de 9 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -69,6 +75,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
 Près de Megève · avec Winter Prestige
+
+À partir de 23 500 € la semaine
 
 Disponibilité confirmée pour vos dates à chaque demande.
 
@@ -85,26 +93,33 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Les Deux Alpes · avec Winter Prestige
 
+À partir de 13 000 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-[Voir les cinq chalets](https://mishpachatours.com/fr/kosher-chalets/)
+[Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
 ## Comment voulez-vous *voyager* ?
 
-Quatre façons de venir, une équipe derrière chacune.
+Cinq façons de venir, une équipe derrière chacune.
 
 [### Vacances au ski, strictement casher
 
 Un chalet ou votre propre hôtel, les repas, Shabbat et le minyan en station.
 
 Voir](https://mishpachatours.com/fr/kosher-ski-holidays-french-alps/)
-[### Nos quatre chalets avec chef privé
+[### Nos chalets avec chef privé
 
-Les Deux Alpes ou Courchevel : chef, Chabbat et minyan au chalet.
+Les Deux Alpes, Courchevel, Megève et Val Thorens : chef, Chabbat et minyan au chalet.
 
 Voir](https://mishpachatours.com/fr/kosher-chalets/)
+[### Pessah dans les Alpes
+
+Un chalet privé cachérisé pour Pessah, les sedarim et les repas préparés. Prix sur demande.
+
+Voir](https://mishpachatours.com/fr/kosher-pesach-french-alps/)
 [### Repas casher dans votre station
 
 Vous avez déjà réservé ? Repas livrés, Shabbat, fêtes et minyan là où vous séjournez.

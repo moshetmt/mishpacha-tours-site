@@ -33,6 +33,8 @@ La saison court du 4 décembre 2026 au 18 avril 2027. Nous organisons votre séj
 
 Courchevel · avec Winter Prestige
 
+À partir de 17 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)

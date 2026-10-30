@@ -6,7 +6,12 @@
   var els = document.querySelectorAll('[data-prix-tpl],[data-prix]');
   if (!els.length || !window.fetch) return;
   var ok = function (v) { return typeof v === 'string' && /^\d+([.,]\d+)?$/.test(v.trim()); };
-  var fmt = function (v) { return v.trim().replace('.', ','); };
+  var lang = (document.documentElement.lang || 'en').slice(0, 2);
+  var fmt = function (v) {
+    var n = v.trim().replace(',', '.'), parts = n.split('.');
+    var sep = (lang === 'en' || lang === 'he') ? ',' : lang === 'es' ? '.' : ' ';
+    return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, sep) + (parts[1] ? (lang === 'en' ? '.' : ',') + parts[1] : '');
+  };
   var ctl = window.AbortController ? new AbortController() : null;
   if (ctl) setTimeout(function () { ctl.abort(); }, 6000);
   fetch(URL, ctl ? { signal: ctl.signal } : {}).then(function (r) { return r.json(); }).then(function (j) {

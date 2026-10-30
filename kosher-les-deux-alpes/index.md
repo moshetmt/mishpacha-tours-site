@@ -39,6 +39,8 @@ Lyon-Saint-Exupéry is about 2 h 10 away by road. We organise your kosher stay: 
 
 Les Deux Alpes · with Winter Prestige
 
+From €13,500 per week
+
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -53,6 +55,8 @@ Availability confirmed for your dates with each request.
 **Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
 
 Les Deux Alpes · with Winter Prestige
+
+From €13,000 per week
 
 Availability confirmed for your dates with each request.
 

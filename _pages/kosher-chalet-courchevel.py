@@ -5,7 +5,7 @@ PAGE = dict(
   slug="kosher-chalet-courchevel",
   title="Kosher Chalet in Courchevel, Pools and Chef",
   desc="A kosher chalet in the heart of Courchevel: 5 en-suite bedrooms, heated pools and hammam, a private chef, Shabbat and a minyan. One written quote.",
-  h1="A kosher chalet in Courchevel", ital="5 suites, heated pools, a private chef",
+  h1="Chalet Flocon Doré, Courchevel", ital="5 suites, heated pools, private chef",
   intro="A chalet in the heart of Courchevel, in the 3 Valleys. Five en-suite bedrooms for 10 to 14 guests, heated pools, a hammam and a private shuttle to the lifts. Our team koshers the kitchen, a private chef cooks every meal, and Shabbat comes with a minyan and a Sefer Torah. One request, one written quote.",
   chips=["5 en-suite bedrooms, 10 to 14 guests", "Heated pools, hammam", "Private shuttle to the lifts", "On written quote"],
   illus="flat-ski.png",
@@ -36,7 +36,7 @@ PAGE = dict(
 <li><b>Land in Lyon with a few hours to spare?</b> <a href="../tours/stopover/">The Stopover</a>: a private 3 hour tour of Jewish Lyon between the plane and the road.</li>
 </ul>"""),
     dict(type="faq", h2="The Courchevel chalet: <i>questions</i>", items=[
-      ("How much does it cost?", "The price depends on your dates, the number of people and the services you choose. You receive a written quote before you commit to anything."),
+      ("How much does it cost?", "<span data-prix-tpl='From €{ch3_basse_vente} per week'>From €17,500 per week</span> for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("How many people can stay?", "Five en-suite bedrooms, for 10 to 14 guests."),
       ("Who cooks the meals?", "A private chef cooks kosher meals at the chalet. Our team kashers the kitchen before you arrive."),
       ("Is there a minyan?", "We bring the bochurim and a Sefer Torah to the chalet for Shabbat, on request. Tell us your dates early."),
@@ -46,7 +46,7 @@ PAGE = dict(
   ],
   related=[("../kosher-chalets/", "Our kosher chalets"), ("../kosher-chalet-les-deux-alpes/", "The kosher chalet in Les Deux Alpes"), ("../kosher-courchevel/", "Kosher in Courchevel"), ("../kosher-services-french-alps/", "Kosher services in the Alps")],
   source="Sources: our team in the Alps (messages of 16/10/2026) for the chalet, the shuttle and the services.",
-  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher chalet in Courchevel", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Courchevel"}, "serviceType": "Kosher chalet with private chef, Shabbat and minyan in Courchevel", "url": "https://mishpachatours.com/kosher-chalet-courchevel/"},
+  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher chalet in Courchevel", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Courchevel"}, "serviceType": "Kosher chalet with private chef, Shabbat and minyan in Courchevel", "url": "https://mishpachatours.com/kosher-chalet-courchevel/", "offers": {"@type": "Offer", "priceCurrency": "EUR", "priceSpecification": {"@type": "UnitPriceSpecification", "minPrice": 17500, "priceCurrency": "EUR", "unitText": "week"}}},
   ticket=True,
   VERIF=[
     "5 en-suite bedrooms, 10 to 14 guests, heated pool indoors and outdoors, hammam, gym, private shuttle 9 am to 6 pm, centre of Courchevel: messages of 16/10/2026 (Mendel), no written contract.",

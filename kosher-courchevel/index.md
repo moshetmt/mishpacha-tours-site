@@ -33,6 +33,8 @@ The season runs from 4 December 2026 to 18 April 2027. We organise your kosher s
 
 Courchevel · with Winter Prestige
 
+From €17,500 per week
+
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)

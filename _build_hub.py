@@ -72,6 +72,7 @@ GROUPS = [
   ("kosher-zermatt/", "stock/alpes-ski.jpg", "Kosher in Zermatt", "Car-free village under the Matterhorn, winter and summer: chef, meals, Shabbat, holidays, minyan"),
   ("kosher-st-moritz/", "stock/alpes-ski.jpg", "Kosher in St. Moritz", "The Engadine in winter and summer: chef, meals, Shabbat, holidays, minyan"),
   ("kosher-crans-montana/", "stock/alpes-ski.jpg", "Kosher in Crans-Montana", "The sunny plateau of the Valais, two hours from Geneva: chef, meals, Shabbat, holidays, minyan"),
+  ("kosher-verbier/", "stock/alpes-ski.jpg", "Kosher in Verbier", "The 4 Vallées above the Rhône valley, winter and summer: chef, meals, Shabbat, holidays, minyan"),
   ("kosher-cervinia/", "stock/alpes-ski.jpg", "Kosher in Cervinia", "Italy's side of the Matterhorn, snow from November to May: chef, meals, Shabbat, holidays, minyan"),
   ("kosher-courmayeur/", "stock/alpes-ski.jpg", "Kosher in Courmayeur", "The Italian side of Mont Blanc, the closest Italian resort to Lyon: chef, meals, Shabbat, holidays, minyan"),
   ("kosher-cortina/", "stock/alpes-ski.jpg", "Kosher in Cortina d'Ampezzo", "The Dolomites, winter and summer: chef, meals, Shabbat, holidays, minyan"),

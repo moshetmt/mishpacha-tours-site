@@ -30,6 +30,7 @@ PHOTO = {
     'kosher-zermatt': 'stock/hub-kosher-zermatt.jpg',
     'kosher-st-moritz': 'stock/hub-kosher-st-moritz.jpg',
     'kosher-crans-montana': 'stock/hub-kosher-crans-montana.jpg',
+    'kosher-verbier': 'stock/hub-kosher-verbier.jpg',
     'kosher-cervinia': 'stock/hub-kosher-cervinia.jpg',
     'kosher-courmayeur': 'stock/hub-kosher-courmayeur.jpg',
     'kosher-cortina': 'stock/hub-kosher-cortina.jpg',

@@ -94,7 +94,7 @@ T = {
             seau="ESTRICTAMENTE KOSHER · CHALAV YISRAEL · SHOMER SHABAT ·"),
  # hébreu : jamais « ישראל » (règle n° 1), donc pas de Chalav Yisrael ; lexique de la charte (שומר כשרות)
  "he": dict(vi_h2="הווילה שלנו", vi_h2_i="בסן טרופה", avec="עם Winter Prestige", part="בשיתוף עם", dispo="הזמינות מאושרת לתאריכים שלכם בכל פנייה.",
-            btn="לבדוק את התאריכים", deux="הצ'אלות הכשרות שלנו", deux_i="באלפים", co_h2="הצ'אלה שלנו", co_h2_i="בקורשבל", me_h2="הצ'אלה שלנו", me_h2_i="ליד מז'ב", vth_h2="הצ'אלה שלנו", vth_h2_i="בואל טורנס",
+            btn="לבדוק את התאריכים", deux="הצ'אלות הכשרות שלנו", deux_i="באלפים", co_h2="הצ'אלה שלנו", co_h2_i="בקורשבל", me_h2="הצ'אלה שלנו", me_h2_i="ליד מג'ב", vth_h2="הצ'אלה שלנו", vth_h2_i="בואל טורנס",
             da=dict(lieu="לה דז אלפ", t="הצ'אלה הכשרה שלנו, למרגלות המסלולים", alt="הצ'אלה בלה דז אלפ תחת שמיים כחולים",
                     s=[("300 מ\"ר", "צ'אלה פרטית"), ("6 + 1", "חדרי שינה + חדר תינוק"), ("עד 16", "אורחים"), ("2 דק'", "מהמסלולים")],
                     k="<b>שומר כשרות.</b> שף בצ'אלה או ארוחות במשלוח."),
@@ -104,7 +104,7 @@ T = {
             sl=dict(lieu="לה דז אלפ", t="צ'אלה המסלולים, נועלים מגלשיים בדלת", alt="צ'אלה המסלולים בלה דז אלפ תחת השלג",
                     s=[("6", "חדרי שינה"), ("עד 13", "אורחים"), ("50 מ'", "מהמסלולים"), ("אח", "ומרפסת דרומית")],
                     k="<b>שומר כשרות.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
-            me=dict(lieu="ליד מז'ב", t="צ'אלה המון בלאן, לכמה משפחות", alt="הסלון של הצ'אלה ליד מז'ב",
+            me=dict(lieu="ליד מג'ב", t="צ'אלה המון בלאן, לכמה משפחות", alt="הסלון של הצ'אלה ליד מג'ב",
                     s=[("10 + 2", "חדרי טווין + חדרי עליית גג"), ("3 עד 4", "משפחות"), ("סאונה, ג'קוזי", "מול המון בלאן"), ("הסעה", "כל 20 דק' למסלולים")],
                     k="<b>שומר כשרות.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
             vth=dict(lieu="ואל טורנס", t="הצ'אלה בואל טורנס, מגלשיים בדלת", alt="הצ'אלה בואל טורנס תחת השלג",
@@ -161,6 +161,15 @@ def min672(src):
     """21/10 : vignette WebP de 672 px (img/chalet/min/, fabriquée par _images_legeres.py) à la place du JPG pleine taille."""
     return re.sub(r"/img/(?:chalet|villa)/([\w-]+)\.jpg$", r"/img/chalet/min/\1-672.webp", src)
 
+# 30/10 Moshé : prix « à partir de » la semaine (grille de Mendel, basse saison, sans hausse) ; même texte que _seo_semaine1.py
+PRIX = {"vth": 9500, "sl": 13000, "da": 13500, "co": 17500, "me": 23500}
+def prix(lang, cle):
+    if cle not in PRIX: return ""
+    n = PRIX[cle]
+    v = {"en": f"From €{n:,} per week", "fr": "À partir de " + f"{n:,}".replace(",", " ") + " € la semaine",
+         "es": "Desde " + f"{n:,}".replace(",", ".") + " € por semana", "he": f'החל מ־<bdi dir="ltr">{n:,} €</bdi> לשבוע'}[lang]
+    return f'<p class="kwp-prix">{v}</p>'
+
 def carte(lang, cle):
     t, c, d = T[lang], CHALETS[cle], T[lang][cle]
     puces = "".join(f'<li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">{PICTOS[p]}</svg><span><b>{a}</b>{b}</span></li>'
@@ -168,7 +177,7 @@ def carte(lang, cle):
     titre = f'<a href="{pfx(lang)}{c["lien"]}">{d["t"]}</a>' if c["lien"] else d["t"]
     return (f'<article class="kwp-carte{" kwp-sp" if CHALETS[cle].get("marque") == "sp" else ""}"><div class="kwp-photo"><img src="{min672(c["img"])}" alt="{d["alt"]}" width="{c["w"]}" height="{c["h"]}" loading="lazy">'
             f'{seau(lang, cle)}</div><div class="kwp-corps"><h3>{titre}</h3>'   # 26/10 Moshé : la ligne du lieu descend sous l'encadré casher
-            f'<ul class="kwp-chiffres">{puces}</ul><p class="kwp-casher">{d["k"]}</p><div class="kwp-lieu">{d["lieu"]} · {d.get("avec", t["avec"])}</div><p class="kwp-dispo">{t["dispo"]}</p>'
+            f'<ul class="kwp-chiffres">{puces}</ul><p class="kwp-casher">{d["k"]}</p><div class="kwp-lieu">{d["lieu"]} · {d.get("avec", t["avec"])}</div>{prix(lang, cle)}<p class="kwp-dispo">{t["dispo"]}</p>'
             f'<div class="kwp-pied"><img src="{marque(cle)["noir"]}" alt="{marque(cle)["nom"]}" title="{marque(cle)["nom"]}" width="46" height="46" loading="lazy">'
             f'<a class="btn-noir" href="{pfx(lang)}/plan-your-trip/{c["q"]}">{t["btn"]}</a></div></div></article>')
 
@@ -195,16 +204,17 @@ def poser(s, nom, html, avant=None, apres=None):
 from _zones import CHALETS as NAV_CH, CH_URL
 STATIONS_SANS_CHALET = ["kosher-val-thorens", "kosher-alpe-dhuez", "kosher-val-disere", "kosher-les-arcs", "kosher-la-plagne",
                         "kosher-chamonix", "kosher-annecy", "kosher-grenoble", "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana",
+                        "kosher-verbier",
                         "kosher-cervinia", "kosher-courmayeur", "kosher-cortina"]
 ACC = {  # titre de la section accueil, porte « chalet » (h3, p), bande des stations (h2, italique)
- "en": dict(h2="Our kosher chalets", i="in the Alps", porte=("Our five chalets, private chef", "Les Deux Alpes, Courchevel, Megève or Val Thorens: chef, Shabbat and minyan in the chalet."),
-            mini=("Prefer a whole chalet?", "Five kosher chalets")),
- "fr": dict(h2="Nos chalets casher", i="dans les Alpes", porte=("Nos cinq chalets avec chef privé", "Les Deux Alpes, Courchevel, Megève ou Val Thorens : chef, Chabbat et minyan au chalet."),
-            mini=("Un chalet rien que pour vous ?", "Cinq chalets casher")),
- "es": dict(h2="Nuestros chalets kosher", i="en los Alpes", porte=("Nuestros cinco chalets con chef privado", "Les Deux Alpes, Courchevel, Megève o Val Thorens: chef, Shabat y minyan en el chalet."),
-            mini=("¿Prefiere un chalet entero?", "Cinco chalets kosher")),
- "he": dict(h2="הצ'אלות הכשרות שלנו", i="באלפים", porte=("חמש הצ'אלות שלנו עם שף פרטי", "לה דז אלפ, קורשבל, מז'ב או ואל טורנס: שף, שבת ומניין בצ'אלה."),
-            mini=("מעדיפים צ'אלה שלם?", "חמש צ'אלות כשרות")),
+ "en": dict(h2="Our kosher chalets", i="in the Alps", porte=("Our chalets, private chef", "Les Deux Alpes, Courchevel, Megève or Val Thorens: chef, Shabbat and minyan in the chalet."),
+            mini=("Prefer a whole chalet?", "Our kosher chalets")),
+ "fr": dict(h2="Nos chalets casher", i="dans les Alpes", porte=("Nos chalets avec chef privé", "Les Deux Alpes, Courchevel, Megève ou Val Thorens : chef, Chabbat et minyan au chalet."),
+            mini=("Un chalet rien que pour vous ?", "Des chalets casher")),
+ "es": dict(h2="Nuestros chalets kosher", i="en los Alpes", porte=("Nuestros chalets con chef privado", "Les Deux Alpes, Courchevel, Megève o Val Thorens: chef, Shabat y minyan en el chalet."),
+            mini=("¿Prefiere un chalet entero?", "Chalets kosher")),
+ "he": dict(h2="הצ'אלות הכשרות שלנו", i="באלפים", porte=("הצ'אלות שלנו עם שף פרטי", "לה דז אלפ, קורשבל, מג'ב או ואל טורנס: שף, שבת ומניין בצ'אלה."),
+            mini=("מעדיפים צ'אלה שלם?", "צ'אלות כשרות")),
 }
 
 GALERIE_CO = [("courchevel-piscine-ext", dict(en="The heated outdoor pool", fr="La piscine chauffée extérieure", es="La piscina exterior climatizada", he="הבריכה החיצונית המחוממת")),
@@ -386,12 +396,12 @@ HIVER = ["alps", "kosher-courchevel", "kosher-les-deux-alpes", "kosher-megeve", 
          "kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens"]  # les pages chalet (Moshé 19/10 « oui »)
 # pastilles FR/ES/HE : la Suisse et l'Italie manquaient aux traductions (Moshé 19/10 « oui ajoute »)
 PAYS_ST = {
-    "fr": [("En Suisse", [("kosher-zermatt", "Zermatt"), ("kosher-st-moritz", "Saint-Moritz"), ("kosher-crans-montana", "Crans-Montana")]),
+    "fr": [("En Suisse", [("kosher-zermatt", "Zermatt"), ("kosher-st-moritz", "Saint-Moritz"), ("kosher-crans-montana", "Crans-Montana"), ("kosher-verbier", "Verbier")]),
            ("En Italie", [("kosher-cervinia", "Cervinia"), ("kosher-courmayeur", "Courmayeur"), ("kosher-cortina", "Cortina d’Ampezzo")])],
-    "es": [("En Suiza", [("kosher-zermatt", "Zermatt"), ("kosher-st-moritz", "St. Moritz"), ("kosher-crans-montana", "Crans-Montana")]),
+    "es": [("En Suiza", [("kosher-zermatt", "Zermatt"), ("kosher-st-moritz", "St. Moritz"), ("kosher-crans-montana", "Crans-Montana"), ("kosher-verbier", "Verbier")]),
            ("En Italia", [("kosher-cervinia", "Cervinia"), ("kosher-courmayeur", "Courmayeur"), ("kosher-cortina", "Cortina d'Ampezzo")])],
-    "he": [("בשוויץ", [("kosher-zermatt", "צרמט"), ("kosher-st-moritz", "סנט מוריץ"), ("kosher-crans-montana", "קראן מונטנה")]),
-           ("באיטליה", [("kosher-cervinia", "צרביניה"), ("kosher-courmayeur", "קורמאייר"), ("kosher-cortina", "קורטינה")])],
+    "he": [("בשוויץ", [("kosher-zermatt", "צרמט"), ("kosher-st-moritz", "סנט מוריץ"), ("kosher-crans-montana", "קראן מונטנה"), ("kosher-verbier", "ורבייה")]),
+           ("באיטליה", [("kosher-cervinia", "צרביניה"), ("kosher-courmayeur", "קורמאיור"), ("kosher-cortina", "קורטינה")])],
 }
 PIED_WP = " · with Winter Prestige"  # pied des pages hiver : notre logo reste, la ligne nomme le partenaire (Moshé 19/10)
 

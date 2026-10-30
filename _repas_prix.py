@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Page des services Alpes, 4 langues : bloc « Repas livrés : les prix » (grille de Mendel du 26/10/2026, prix tels quels,
+"""Chiffres mis à jour le 30/10 (grille de Mendel des 28-29/10) ; le bloc en ligne et la FAQ prix sont tenus par _seo_semaine1.py.
+Page des services Alpes, 4 langues : bloc « Repas livrés : les prix » (grille de Mendel du 26/10/2026, prix tels quels,
 sans majoration, décision de Moshé), et FAQ (cacherout, livraison, prix) mise à jour dans le HTML et le JSON-LD.
 Source : clients/mishpacha-tours/00-brief/2026-10-26-mendel-grille-repas-et-ads.md. Idempotent.
     python _repas_prix.py   (depuis site-v5/, puis python _agentic.py pour les index.md)"""
@@ -17,9 +18,9 @@ T = {
  "": dict(
   h2="Delivered meals: <i>the prices</i>",
   intro="Per person, per day. Starting prices, which depend on the resort and the season: you get the exact total in writing before you pay.",
-  rows=[("Full board: breakfast, lunch and dinner", "from €75"), ("Dinner only: starter, main course, dessert", "from €27"),
-        ("Shabbat: Friday night dinner", "€45"), ("Shabbat: Saturday lunch", "€40"), ("Seuda shlishit", "€35"),
-        ("Delivery every two days, any resort in France", "€180 to €350"), ("Kashering the kitchen of the chalet you rent", "from €680"), ("Pizza night with a pizzaiolo, for groups", "€35 per person, from €400")],
+  rows=[("Full board: breakfast, lunch and dinner", "from €78"), ("Dinner only: starter, main course, dessert", "from €28"),
+        ("Shabbat: Friday night dinner", "€45"), ("Shabbat: Saturday lunch", "€40"), ("Seuda shlishit", "€30"),
+        ("Delivery every two days, any resort in France", "€180 to €360"), ("Kashering the kitchen of the chalet you rent", "from €680"), ("Pizza night with a pizzaiolo, for groups", "€35 per person, from €400")],
   note="Children up to 5: about 30% less. Delivery is charged per trip; when several groups stay in the same resort the same week, they share it. Order by Wednesday evening, pay in full when you order. A plata or a kumkum can be bought for Shabbat. Kosher supervision: Beth Habad de Grenoble Alpes, Rav Yehia Lahiany.",
   btn="Order meals on WhatsApp",
   faq=[("Yes. Our team in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.",
@@ -33,9 +34,9 @@ T = {
  "fr": dict(
   h2="Repas livrés : <i>les prix</i>",
   intro="Par personne et par jour. Ce sont des prix de départ, selon la station et la saison : vous recevez le total exact par écrit avant de payer.",
-  rows=[("Formule complète : matin, midi et soir", "à partir de 75 €"), ("Soir seul : entrée, plat, dessert", "à partir de 27 €"),
-        ("Chabbat : dîner du vendredi soir", "45 €"), ("Chabbat : déjeuner du samedi", "40 €"), ("Seouda chlichit", "35 €"),
-        ("Livraison tous les deux jours, toute station française", "180 à 350 €"), ("Cachérisation de la cuisine du chalet que vous louez", "à partir de 680 €"), ("Soirée pizza avec un pizzaiolo, pour les groupes", "35 € par personne, à partir de 400 €")],
+  rows=[("Formule complète : matin, midi et soir", "à partir de 78 €"), ("Soir seul : entrée, plat, dessert", "à partir de 28 €"),
+        ("Chabbat : dîner du vendredi soir", "45 €"), ("Chabbat : déjeuner du samedi", "40 €"), ("Seouda chlichit", "30 €"),
+        ("Livraison tous les deux jours, toute station française", "180 à 360 €"), ("Cachérisation de la cuisine du chalet que vous louez", "à partir de 680 €"), ("Soirée pizza avec un pizzaiolo, pour les groupes", "35 € par personne, à partir de 400 €")],
   note="Enfants jusqu’à 5 ans : environ 30 % de moins. La livraison se paie par passage ; quand plusieurs groupes séjournent dans la même station la même semaine, ils la partagent. Commande au plus tard le mercredi soir, paiement complet à la commande. Plata ou koumkoum en vente pour le Chabbat. Surveillance : Beth Habad de Grenoble Alpes, rav Yehia Lahiany.",
   btn="Commander les repas sur WhatsApp",
   faq=[("Oui. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.",
@@ -47,9 +48,9 @@ T = {
  "es": dict(
   h2="Comidas a domicilio: <i>los precios</i>",
   intro="Por persona y por día. Son precios de partida, según la estación y la temporada: recibe el total exacto por escrito antes de pagar.",
-  rows=[("Pensión completa: desayuno, almuerzo y cena", "desde 75 €"), ("Solo cena: entrante, plato principal y postre", "desde 27 €"),
-        ("Shabat: cena del viernes", "45 €"), ("Shabat: almuerzo del sábado", "40 €"), ("Seudá shlishit", "35 €"),
-        ("Entrega cada dos días, cualquier estación de Francia", "de 180 a 350 €"), ("Kasherización de la cocina del chalé que alquila", "desde 680 €"), ("Noche de pizza con pizzaiolo, para grupos", "35 € por persona, desde 400 €")],
+  rows=[("Pensión completa: desayuno, almuerzo y cena", "desde 78 €"), ("Solo cena: entrante, plato principal y postre", "desde 28 €"),
+        ("Shabat: cena del viernes", "45 €"), ("Shabat: almuerzo del sábado", "40 €"), ("Seudá shlishit", "30 €"),
+        ("Entrega cada dos días, cualquier estación de Francia", "de 180 a 360 €"), ("Kasherización de la cocina del chalé que alquila", "desde 680 €"), ("Noche de pizza con pizzaiolo, para grupos", "35 € por persona, desde 400 €")],
   note="Niños hasta 5 años: alrededor de un 30 % menos. La entrega se paga por viaje; cuando varios grupos están en la misma estación la misma semana, la comparten. Pedido a más tardar el miércoles por la noche, pago completo al hacer el pedido. Plata o kumkum a la venta para Shabat. Supervisión: Beth Habad de Grenoble Alpes, rav Yehia Lahiany.",
   btn="Pedir las comidas por WhatsApp",
   faq=[("Sí. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.",
@@ -61,9 +62,9 @@ T = {
  "he": dict(
   h2="ארוחות במשלוח: <i>המחירים</i>",
   intro="לאדם ליום. אלה מחירי פתיחה, לפי אתר הסקי והעונה: הסכום המדויק נשלח אליכם בכתב לפני התשלום.",
-  rows=[("פנסיון מלא: בוקר, צהריים וערב", "החל מ־" + E("75 €")), ("ערב בלבד: מנה ראשונה, עיקרית וקינוח", "החל מ־" + E("27 €")),
-        ("שבת: סעודת ליל שבת", E("45 €")), ("שבת: סעודת יום השבת", E("40 €")), ("סעודה שלישית", E("35 €")),
-        ("משלוח כל יומיים, לכל אתר סקי בצרפת", E("180–350 €")), ("הכשרת המטבח בצ'אלה ששכרתם", "החל מ־" + E("680 €")), ("ערב פיצה עם פיצאיולו, לקבוצות", E("35 €") + " לאדם, החל מ־" + E("400 €"))],
+  rows=[("פנסיון מלא: בוקר, צהריים וערב", "החל מ־" + E("78 €")), ("ערב בלבד: מנה ראשונה, עיקרית וקינוח", "החל מ־" + E("28 €")),
+        ("שבת: סעודת ליל שבת", E("45 €")), ("שבת: סעודת יום השבת", E("40 €")), ("סעודה שלישית", E("30 €")),
+        ("משלוח כל יומיים, לכל אתר סקי בצרפת", E("180–360 €")), ("הכשרת המטבח בצ'אלה ששכרתם", "החל מ־" + E("680 €")), ("ערב פיצה עם פיצאיולו, לקבוצות", E("35 €") + " לאדם, החל מ־" + E("400 €"))],
   note="ילדים עד גיל 5: כ־30% פחות. המשלוח מחויב לפי נסיעה; כשכמה קבוצות שוהות באותו אתר באותו שבוע, הן מתחלקות בו. הזמנה עד יום רביעי בערב, תשלום מלא בעת ההזמנה. אפשר לרכוש פלטה או קומקום לשבת. השגחה: בית חב\"ד גרנובל אלפים, " + E("Rav Yehia Lahiany") + ".",
   btn="הזמינו ארוחות בוואטסאפ",
   faq=[("כן. הצוות שלנו באלפים מבשל תחת רשת חב״ד באלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.",

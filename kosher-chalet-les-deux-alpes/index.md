@@ -2,11 +2,9 @@
 
 Source: https://mishpachatours.com/kosher-chalet-les-deux-alpes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-1/26
-
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / A kosher chalet in Les Deux Alpes
 
-# A kosher chalet in Les Deux Alpes *300 m², 16 beds, 2 minutes from the slopes*
+# Chalet King David, Les Deux Alpes *300 m², 16 guests, private chef*
 
 A chalet of 300 m² in Les Deux Alpes, 2 minutes from the slopes.
 
@@ -39,6 +37,8 @@ Six bedrooms and 16 beds, for three small families or one large one. A private c
 - **Kitchen.** Made kosher by our team for your stay. Strictly kosher meals, cooked on site by a private chef or delivered to the chalet.
 
 Dates: ask for your dates. The chalet is offered in winter (Hanukkah, the February holidays, Pesach) and in summer.
+
+## The chalet *in pictures*
 
 ## Everything around *the chalet*
 
@@ -120,7 +120,7 @@ Kosher meals brought to your accommodation in the resort, ordered through the Be
 
 How much does it cost?
 
-There is no price list. The price depends on your dates, the number of people and the services you choose: chef, transfers, ski rental, activities. You receive a written quote before you commit to anything.
+From €13,500 per week for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps.
 
 How many people can stay?
 
@@ -138,11 +138,11 @@ Can you arrange activities?
 
 Yes, on request: ski rental, dog sledding, a masseur or pedicure at the chalet, car rental, transfers and event extras. Everything appears on one quote.
 
-## Prefer a whole chalet? *Five kosher chalets*
+## Prefer a whole chalet? *Our kosher chalets*
 
 [**Les Deux Alpes · Slope Chalet**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
-[See the five chalets](https://mishpachatours.com/kosher-chalets/)
+[See the chalets](https://mishpachatours.com/kosher-chalets/)
 
 ## Les Deux Alpes: your week, *organised*.
 

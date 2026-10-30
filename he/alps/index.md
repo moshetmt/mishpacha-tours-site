@@ -33,6 +33,8 @@ Source: https://mishpachatours.com/he/alps/ (HTML version). Every page of the si
 
 לה דז אלפ · עם Winter Prestige
 
+החל מ־13,500 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -47,6 +49,8 @@ Source: https://mishpachatours.com/he/alps/ (HTML version). Every page of the si
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
 לה דז אלפ · עם Winter Prestige
+
+החל מ־13,000 € לשבוע
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
@@ -63,6 +67,8 @@ Source: https://mishpachatours.com/he/alps/ (HTML version). Every page of the si
 
 קורשבל · עם Winter Prestige
 
+החל מ־17,500 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -76,7 +82,9 @@ Source: https://mishpachatours.com/he/alps/ (HTML version). Every page of the si
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
-ליד מז'ב · עם Winter Prestige
+ליד מג'ב · עם Winter Prestige
+
+החל מ־23,500 € לשבוע
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
@@ -92,6 +100,8 @@ Source: https://mishpachatours.com/he/alps/ (HTML version). Every page of the si
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
 ואל טורנס · עם Winter Prestige
+
+החל מ־9,500 € לשבוע
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
@@ -131,14 +141,14 @@ Source: https://mishpachatours.com/he/alps/ (HTML version). Every page of the si
 ## האתרים *שאנו מכסים*
 
 - **צד גרנובל.** אלפ ד'ואז, לה דז אלפ, שמרוס וסר שבלייה, וכן ואל טורנס ולה מנואיר בעמק בלוויל: ארוחות, צ'אלות, שבת, חגים, מניין וספר תורה.
-- **צד קורשבל.** בקורשבל 1850 ובמז'ב יש בית חב״ד בחורף: אנו מתאמים איתו את המניין ואת השבת שלכם.
+- **צד קורשבל.** בקורשבל 1850 ובמג'ב יש בית חב״ד בחורף: אנו מתאמים איתו את המניין ואת השבת שלכם.
 - **צ'אלה כשרה בלה דז אלפ.** [300 מ"ר, 6 חדרי שינה, 16 מיטות, 2 דקות מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/), עם שף פרטי, שבת וחגים, וכל החופשה מאורגנת סביבה. הצעת מחיר אחת בכתב.
 
 **אתר אחר אתר.**
 
 - [ואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/)
 - [קורשבל](https://mishpachatours.com/he/kosher-courchevel/)
-- [מז'ב](https://mishpachatours.com/he/kosher-megeve/)
+- [מג'ב](https://mishpachatours.com/he/kosher-megeve/)
 - [אלפ ד'ואז](https://mishpachatours.com/he/kosher-alpe-dhuez/)
 - [לה דז אלפ](https://mishpachatours.com/he/kosher-les-deux-alpes/)
 - [גרנובל](https://mishpachatours.com/he/kosher-grenoble/)
@@ -151,9 +161,10 @@ Source: https://mishpachatours.com/he/alps/ (HTML version). Every page of the si
 - [צרמט](https://mishpachatours.com/he/kosher-zermatt/)
 - [סנט מוריץ](https://mishpachatours.com/he/kosher-st-moritz/)
 - [קראן מונטנה](https://mishpachatours.com/he/kosher-crans-montana/)
+- [ורבייה](https://mishpachatours.com/he/kosher-verbier/)
 - באיטליה
 - [צרביניה](https://mishpachatours.com/he/kosher-cervinia/)
-- [קורמאייר](https://mishpachatours.com/he/kosher-courmayeur/)
+- [קורמאיור](https://mishpachatours.com/he/kosher-courmayeur/)
 - [קורטינה](https://mishpachatours.com/he/kosher-cortina/)
 
 **כל אתר אחר.** טין (Tignes), ואל ד'איזר (Val d'Isère), לה פלאן (La Plagne), לז ארק (Les Arcs), שמוני (Chamonix), מורזין (Morzine): שלחו לנו את התאריכים ונאמר לכם באותו יום מה אפשרי.
@@ -191,7 +202,7 @@ Source: https://mishpachatours.com/he/alps/ (HTML version). Every page of the si
 
 האם יש מניין באתר?
 
-בקורשבל 1850 ובמז'ב יש בית חב״ד בחורף. בשאר האתרים, מניין תלוי בכמה משפחות נמצאות שם באותו שבוע: מסרו לנו את התאריכים מוקדם ואנו מרכזים אותן, עם ספר תורה.
+בקורשבל 1850 ובמג'ב יש בית חב״ד בחורף. בשאר האתרים, מניין תלוי בכמה משפחות נמצאות שם באותו שבוע: מסרו לנו את התאריכים מוקדם ואנו מרכזים אותן, עם ספר תורה.
 
 האם האוכל כשר לחלוטין?
 

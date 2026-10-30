@@ -33,19 +33,30 @@ Mishpacha Tours organises it in the resorts of Isère, Savoie and the Hautes-Alp
 
 Strictly kosher: the meals are prepared under the supervision of the Beth Habad de Grenoble Alpes, Rav Yehia Lahiany. The details come in writing with your quote.
 
-## Delivered meals: *the prices*
+## The prices: *meals, chef and chalets*
 
-Per person, per day. Starting prices, which depend on the resort and the season: you get the exact total in writing before you pay.
+Meals: per person, per day. Starting prices, which depend on the resort and the season: you get the exact total in writing before you pay.
 
-- Full board: breakfast, lunch and dinner**from €75**
-- Dinner only: starter, main course, dessert**from €27**
+- Full board: breakfast, lunch and dinner**from €78**
+- Dinner only: starter, main course, dessert**from €28**
 - Shabbat: Friday night dinner**€45**
 - Shabbat: Saturday lunch**€40**
-- Seuda shlishit**€35**
-- Pizza night with a pizzaiolo, for groups**€35 per person, from €400**
+- Seuda shlishit**€30**
+- Pizza night with a pizzaiolo, for groups**On request**
 
-- Delivery every two days, any resort in France**€180 to €350**
-- Kashering the kitchen of the chalet you rent**from €680**
+- Delivery every two days, any resort in France**€180 to €360**
+- Kashering the kitchen of the chalet you rent**On request**
+- Private kosher chef in your chalet, per day**from €1,568**
+
+### A chalet *for the week*
+
+Per chalet, per week. Starting prices: the price for your dates comes in writing with your quote.
+
+- [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/kosher-chalet-val-thorens/)**from €9,500**
+- [Chalet Rochebrune, Les Deux Alpes](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)**from €13,000**
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)**from €13,500**
+- [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel/)**from €17,500**
+- [Chalet Loup Blanc, near Megève](https://mishpachatours.com/kosher-chalet-megeve/)**from €23,500**
 
 Children up to 5: about 30% less. Delivery is charged per trip; when several groups stay in the same resort the same week, they share it. Order by Wednesday evening, pay in full when you order. A plata or a kumkum can be bought for Shabbat. Kosher supervision: Beth Habad de Grenoble Alpes, Rav Yehia Lahiany.
 
@@ -103,7 +114,7 @@ Yes. The meals are prepared under the supervision of the Beth Habad de Grenoble 
 
 Can we have kosher meals delivered to Val Thorens or Alpe d'Huez?
 
-Yes, in every resort in France, every two days, from €180 to €350 per delivery depending on the resort. Send us the resort, the dates and the number of people.
+Yes, in every resort in France, every two days, from €180 to €360 per delivery depending on the resort. Send us the resort, the dates and the number of people.
 
 Can we have a minyan and a Sefer Torah in the resort?
 
@@ -115,7 +126,7 @@ A lighting, a Megillah reading, a Purim meal, Pesach on request: tell us which h
 
 Do you organise the chalet yourselves?
 
-Yes. Mishpacha Tours takes your request and organises it with its kosher team based in the Alps. You deal with one contact from start to finish.
+Yes. Mishpacha Tours takes your request and organises it with its kosher team based in the Alps. You deal with one contact from start to finish. The stay is quoted and invoiced by our kosher team based in the Alps.
 
 How far ahead should we ask?
 
@@ -123,7 +134,7 @@ As early as you can, and before the school holidays. A chef for a week is booked
 
 What does it cost?
 
-Delivered meals start at €27 per person per day for dinner only and €75 for full board, plus delivery; Shabbat meals cost €35 to €45. A chalet with a private chef is quoted for your group. You receive a written quote before you commit to anything.
+Delivered meals start at €28 per person per day for dinner only and €78 for full board, plus delivery; Shabbat meals cost €30 to €45. A private chef starts at €1,568 per day, a chalet at €9,500 per week. You receive a written quote before you commit to anything.
 
 ## Your kosher week in the Alps, *organised*.
 

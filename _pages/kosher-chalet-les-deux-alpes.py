@@ -3,7 +3,7 @@ PAGE = dict(
   slug="kosher-chalet-les-deux-alpes",
   title="Kosher Chalet in Les Deux Alpes, 16 Beds",
   desc="A 300 m² kosher chalet in Les Deux Alpes: 6 bedrooms, 16 beds, 2 minutes from the slopes. Private chef, Shabbat and holidays, everything organised. One quote.",
-  h1="A kosher chalet in Les Deux Alpes", ital="300 m², 16 beds, 2 minutes from the slopes",
+  h1="Chalet King David, Les Deux Alpes", ital="300 m², 16 guests, private chef",
   intro="A chalet of 300 m² in Les Deux Alpes, 2 minutes from the slopes. Six bedrooms and 16 beds, for three small families or one large one. A private chef cooks kosher meals in the chalet, or meals are delivered; Shabbat and the holidays come with a minyan and a Sefer Torah, depending on the families present. One request, one written quote.",
   chips=["300 m², 6 bedrooms, 16 beds", "2 minutes from the slopes", "Chef, Shabbat, holidays", "On written quote"],
   illus="flat-ski.png",
@@ -45,7 +45,7 @@ PAGE = dict(
 </ul>"""),
     dict(type="map", h2="On the <i>map</i>", points=[("Les Deux Alpes", "Les Deux Alpes, 38860")], note="Town-level pin: the chalet address is given with your quote."),
     dict(type="faq", h2="The kosher chalet: <i>questions</i>", items=[
-      ("How much does it cost?", "There is no price list. The price depends on your dates, the number of people and the services you choose: chef, transfers, ski rental, activities. You receive a written quote before you commit to anything."),
+      ("How much does it cost?", "<span data-prix-tpl='From €{ch1_basse_vente} per week'>From €13,500 per week</span> for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("How many people can stay?", "16 beds in 6 bedrooms, so three small families or one large family."),
       ("Who cooks the meals?", "A private chef cooks kosher meals at the chalet, or meals are delivered to it. Our team makes the kitchen kosher for your stay. Ask for the supervision details in writing with your quote."),
       ("Is Shabbat organised?", "Yes. Shabbat meals and the holidays (Hanukkah, February, Pesach) are organised. A minyan and a Sefer Torah depend on the families present that week: give us your dates early."),
@@ -55,7 +55,7 @@ PAGE = dict(
   ],
   related=[("../alps/", "The Alps, strictly kosher"), ("../kosher-les-deux-alpes/", "Kosher in Les Deux Alpes"), ("../kosher-services-french-alps/", "Kosher services in the Alps"), ("../kosher-ski-holidays-french-alps/", "Kosher ski holidays in the Alps"), ("../tours/stopover/", "Stopover tour, 3 hours")],
   source="Sources: our team in the Alps (voice message of 09/10/2026) for the chalet and services; j2ski.com (Lyon-Saint-Exupéry transfer); guide-ski.fr (altitude).",
-  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher chalet in Les Deux Alpes", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Les Deux Alpes"}, "serviceType": "Kosher chalet rental with chef, meals, Shabbat and concierge services in Les Deux Alpes", "url": "https://mishpachatours.com/kosher-chalet-les-deux-alpes/"},
+  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher chalet in Les Deux Alpes", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Les Deux Alpes"}, "serviceType": "Kosher chalet rental with chef, meals, Shabbat and concierge services in Les Deux Alpes", "url": "https://mishpachatours.com/kosher-chalet-les-deux-alpes/", "offers": {"@type": "Offer", "priceCurrency": "EUR", "priceSpecification": {"@type": "UnitPriceSpecification", "minPrice": 13500, "priceCurrency": "EUR", "unitText": "week"}}},
   ticket=True,
   VERIF=[
     "Surface 300 m2, 6 bedrooms, 16 beds, 'three small families or one large family', 2 minutes from the slopes, direct access to the ski area: voice message of 09/10/2026, no written confirmation.",

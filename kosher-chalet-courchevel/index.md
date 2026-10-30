@@ -2,11 +2,9 @@
 
 Source: https://mishpachatours.com/kosher-chalet-courchevel/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-1/19
-
 [Home](https://mishpachatours.com/) / [Our kosher chalets](https://mishpachatours.com/kosher-chalets/) / A kosher chalet in Courchevel
 
-# A kosher chalet in Courchevel *5 suites, heated pools, a private chef*
+# Chalet Flocon Doré, Courchevel *5 suites, heated pools, private chef*
 
 A chalet in the heart of Courchevel, in the 3 Valleys.
 
@@ -33,6 +31,8 @@ Five en-suite bedrooms for 10 to 14 guests, heated pools, a hammam and a private
 - **Kitchen.** Kashered by our team before you arrive, included. A private chef cooks every meal.
 
 Availability is confirmed for your dates with each request.
+
+## The chalet *in pictures*
 
 ## Shabbat *in the chalet*
 
@@ -93,7 +93,7 @@ Kosher meals brought to your accommodation in the resort, ordered through the Be
 
 How much does it cost?
 
-The price depends on your dates, the number of people and the services you choose. You receive a written quote before you commit to anything.
+From €17,500 per week for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps.
 
 How many people can stay?
 
@@ -111,11 +111,11 @@ How do we get to the slopes?
 
 On foot in five to six minutes, or with the private shuttle from 9 am to 6 pm.
 
-## Prefer a whole chalet? *Five kosher chalets*
+## Prefer a whole chalet? *Our kosher chalets*
 
 [**Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · Slope Chalet**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
-[See the five chalets](https://mishpachatours.com/kosher-chalets/)
+[See the chalets](https://mishpachatours.com/kosher-chalets/)
 
 ## Courchevel: your week, *organised*.
 

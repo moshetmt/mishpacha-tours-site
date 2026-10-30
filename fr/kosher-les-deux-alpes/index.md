@@ -39,6 +39,8 @@ Lyon-Saint-Exupéry est à environ 2 h 10 de route. Nous organisons votre séjo
 
 Les Deux Alpes · avec Winter Prestige
 
+À partir de 13 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -53,6 +55,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
 Les Deux Alpes · avec Winter Prestige
+
+À partir de 13 000 € la semaine
 
 Disponibilité confirmée pour vos dates à chaque demande.
 

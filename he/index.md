@@ -2,7 +2,7 @@
 
 Source: https://mishpachatours.com/he/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-# חופשת סקי כשרה באלפים.
+# חופשת סקי כשרה *באלפים*
 
 צ'אלה פרטית, שף פרטי, שבת ומניין. הכול מאורגן בשבילכם.
 
@@ -25,6 +25,8 @@ Source: https://mishpachatours.com/he/ (HTML version). Every page of the site, o
 
 לה דז אלפ · עם Winter Prestige
 
+החל מ־13,500 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -39,6 +41,8 @@ Source: https://mishpachatours.com/he/ (HTML version). Every page of the site, o
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
 קורשבל · עם Winter Prestige
+
+החל מ־17,500 € לשבוע
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
@@ -55,6 +59,8 @@ Source: https://mishpachatours.com/he/ (HTML version). Every page of the site, o
 
 ואל טורנס · עם Winter Prestige
 
+החל מ־9,500 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -68,7 +74,9 @@ Source: https://mishpachatours.com/he/ (HTML version). Every page of the site, o
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
-ליד מז'ב · עם Winter Prestige
+ליד מג'ב · עם Winter Prestige
+
+החל מ־23,500 € לשבוע
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
@@ -85,26 +93,33 @@ Source: https://mishpachatours.com/he/ (HTML version). Every page of the site, o
 
 לה דז אלפ · עם Winter Prestige
 
+החל מ־13,000 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-[לראות את חמש הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
+[לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
 ## איך תרצו *לנסוע*?
 
-ארבע דרכים להגיע, וצוות אחד מאחורי כל אחת מהן.
+חמש דרכים להגיע, וצוות אחד מאחורי כל אחת מהן.
 
 [### חופשת סקי, כשרה לחלוטין
 
 צ'אלה או המלון שלכם, ארוחות, שבת ומניין באתר.
 
 לפתיחה](https://mishpachatours.com/he/kosher-ski-holidays-french-alps/)
-[### ארבע הצ'אלות שלנו עם שף פרטי
+[### הצ'אלות שלנו עם שף פרטי
 
-לה דז אלפ או קורשבל: שף, שבת ומניין בצ'אלה.
+לה דז אלפ, קורשבל, מג'ב וואל טורנס: שף, שבת ומניין בצ'אלה.
 
 לפתיחה](https://mishpachatours.com/he/kosher-chalets/)
+[### פסח באלפים
+
+צ'אלה פרטית מוכשרת לפסח, הסדרים והארוחות מוכנים. מחיר לפי בקשה.
+
+לפתיחה](https://mishpachatours.com/he/kosher-pesach-french-alps/)
 [### ארוחות כשרות באתר שלכם
 
 כבר הזמנתם? ארוחות במשלוח, שבת, חגים ומניין במקום שבו אתם שוהים.
@@ -121,7 +136,7 @@ Source: https://mishpachatours.com/he/ (HTML version). Every page of the site, o
 - [לה דז אלפ](https://mishpachatours.com/he/kosher-les-deux-alpes/)
 - [קורשבל](https://mishpachatours.com/he/kosher-courchevel/)
 - [ואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/)
-- [מז'ב](https://mishpachatours.com/he/kosher-megeve/)
+- [מג'ב](https://mishpachatours.com/he/kosher-megeve/)
 - [אלפ ד'ואז](https://mishpachatours.com/he/kosher-alpe-dhuez/)
 - [ואל דיזר](https://mishpachatours.com/he/kosher-val-disere/)
 - [לז ארק](https://mishpachatours.com/he/kosher-les-arcs/)

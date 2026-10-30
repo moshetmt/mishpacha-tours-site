@@ -28,7 +28,7 @@ Source: https://mishpachatours.com/he/lyon-gateway-to-the-alps-kosher/ (HTML ver
 - **שאמוני:** 2 h
 - **מריבל:** 2 h
 - **קורשבל:** 2 h 10
-- **מז'ב:** 2 h 10
+- **מג'ב:** 2 h 10
 - **לה ז'ה:** 2 h 10
 - **לה דו זאלפ:** 2 h 10
 - **מורזין:** 2 h 20

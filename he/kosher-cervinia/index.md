@@ -129,11 +129,11 @@ Source: https://mishpachatours.com/he/kosher-cervinia/ (HTML version). Every pag
 
 הצוות הכשר שלנו שבסיסו באלפים מבשל תחת רשת חב״ד של האלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
 
-## מעדיפים צ'אלה שלם? *חמש צ'אלות כשרות*
+## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**לה דז אלפ · צ'אלה המסלולים**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מז'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**לה דז אלפ · צ'אלה המסלולים**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
-[לראות את חמש הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
+[לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
 ## צרביניה: השבוע שלכם, *מאורגן*.
 
@@ -147,7 +147,7 @@ Source: https://mishpachatours.com/he/kosher-cervinia/ (HTML version). Every pag
 - [קיץ באלפים למשפחות יהודיות](https://mishpachatours.com/he/summer-in-the-alps-jewish-families/)
 - [ליון, שער האלפים](https://mishpachatours.com/he/lyon-gateway-to-the-alps-kosher/)
 - [כשר בצרמט, מעבר להר מטרהורן](https://mishpachatours.com/he/kosher-zermatt/)
-- [כשר בקורמאייר](https://mishpachatours.com/he/kosher-courmayeur/)
+- [כשר בקורמאיור](https://mishpachatours.com/he/kosher-courmayeur/)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

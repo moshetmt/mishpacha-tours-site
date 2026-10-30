@@ -1,10 +1,10 @@
-> La rue Juiverie, dans le Vieux Lyon, doit son nom à la communauté juive médiévale. Ce qui reste, ce qui a disparu et comment la visiter avec une guide juive.
+> La rue Juiverie, ancien quartier juif de Lyon dans le Vieux Lyon, doit son nom à la communauté médiévale. Ce qui reste, ce qui a disparu, comment la visiter.
 
 Source: https://mishpachatours.com/fr/rue-juiverie-lyon/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Rue Juiverie, Lyon
 
-# Rue Juiverie, Lyon *la rue qui a gardé le nom*
+# Rue Juiverie *le quartier juif de Lyon*
 
 La rue Juiverie traverse le Vieux Lyon, dans le 5e arrondissement. Elle porte le nom de la communauté juive qui vivait dans le Lyon médiéval. Cette communauté a disparu depuis longtemps. Le nom est resté, ainsi que les maisons Renaissance construites après son départ. Nous la parcourons avec vous, puis nous poursuivons vers la rue Sainte-Catherine, où commence l’histoire de la guerre.
 

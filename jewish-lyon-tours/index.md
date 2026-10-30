@@ -206,6 +206,20 @@ From message to meeting point, booking is simple and in writing.
 
 Real photos of the walk, not stock images.
 
+Rue Juiverie
+
+Grande Synagogue
+
+Quai Tilsitt
+
+Vieux Lyon
+
+CHRD
+
+Montluc
+
+Izieu
+
 ## Before you *come*
 
 [The complete guide](https://mishpachatours.com/jewish-lyon-guide/)

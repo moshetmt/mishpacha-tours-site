@@ -39,6 +39,8 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 לה דז אלפ · עם Winter Prestige
 
+החל מ־13,500 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -53,6 +55,8 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
 לה דז אלפ · עם Winter Prestige
+
+החל מ־13,000 € לשבוע
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 

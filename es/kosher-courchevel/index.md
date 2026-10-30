@@ -33,6 +33,8 @@ La temporada va del 4 de diciembre de 2026 al 18 de abril de 2027. Organizamos s
 
 Courchevel · con Winter Prestige
 
+Desde 17.500 € por semana
+
 Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)

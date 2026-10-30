@@ -6,7 +6,7 @@ PAGE = dict(
   slug="kosher-slope-chalet-les-deux-alpes",
   title="Kosher Chalet in Les Deux Alpes, Ski In Ski Out, 13 Beds",
   desc="A kosher ski-in ski-out chalet in Les Deux Alpes: 6 bedrooms, 13 beds, a fireplace, a south-facing terrace. Chef or delivered meals, Shabbat and minyan. One written quote.",
-  h1="The Slope Chalet in Les Deux Alpes", ital="6 bedrooms, 13 beds, skis on at the door",
+  h1="Chalet Rochebrune, Les Deux Alpes", ital="6 bedrooms, skis on at the door",
   intro="A 165 m² chalet in Les Deux Alpes, fifty metres from the slopes: you put your skis on at the door. Six bedrooms and 13 beds, a living room with a fireplace, a south-facing terrace. Our team koshers the kitchen, a chef cooks or kosher meals are delivered, and Shabbat comes with a minyan on request. Five minutes on foot from our other chalet, for a group of two families. One request, one written quote.",
   chips=["6 bedrooms, 13 beds", "Skis on at the door", "Fireplace, south terrace", "On written quote"],
   illus="flat-ski.png",
@@ -38,7 +38,7 @@ PAGE = dict(
 <li><b>Land in Lyon with a few hours to spare?</b> <a href="../tours/stopover/">The Stopover</a>: a private 3 hour tour of Jewish Lyon between the plane and the road.</li>
 </ul>"""),
     dict(type="faq", h2="The Slope Chalet: <i>questions</i>", items=[
-      ("How much does it cost?", "The price depends on your dates, the number of people and the services you choose. You receive a written quote before you commit to anything."),
+      ("How much does it cost?", "<span data-prix-tpl='From €{ch2_basse_vente} per week'>From €13,000 per week</span> for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("How many people can stay?", "Six bedrooms and 13 beds, for two families or one large family."),
       ("Can two families take both chalets?", "Yes. Our 15-bed chalet is five minutes on foot. Four families, two houses, one chef for the dinners together."),
       ("Who cooks the meals?", "A chef cooks kosher meals in the chalet, or ready meals are delivered. Our team kashers the kitchen before you arrive."),
@@ -49,7 +49,7 @@ PAGE = dict(
   ],
   related=[("../kosher-chalets/", "Our kosher chalets"), ("../kosher-chalet-les-deux-alpes/", "Our 15-bed chalet in Les Deux Alpes"), ("../kosher-les-deux-alpes/", "Kosher in Les Deux Alpes"), ("../kosher-services-french-alps/", "Kosher services in the Alps")],
   source="Sources: our team in the Alps (links of 20/10/2026) for the chalet and its layout.",
-  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher ski-in ski-out chalet in Les Deux Alpes", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Les Deux Alpes"}, "serviceType": "Kosher chalet with chef or delivered meals, Shabbat and minyan in Les Deux Alpes", "url": "https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/"},
+  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher ski-in ski-out chalet in Les Deux Alpes", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Les Deux Alpes"}, "serviceType": "Kosher chalet with chef or delivered meals, Shabbat and minyan in Les Deux Alpes", "url": "https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/", "offers": {"@type": "Offer", "priceCurrency": "EUR", "priceSpecification": {"@type": "UnitPriceSpecification", "minPrice": 13000, "priceCurrency": "EUR", "unitText": "week"}}},
   ticket=True,
   VERIF=[
     "165 m², 13 guests, bed plan (160 or 2x80, 2x90, 140, 3x90, 140 + 2 bunk beds 90), bathroom with tub + shower room + 2 WC, fireplace, terrace south-west, garden, barbecue, garage, 2 parking, laundry, boot dryer, smart TV, Wi-Fi, 50 to 300 m from the slopes, ski school 300 m, shops 100 m, shuttle 100 m, beds made on arrival in winter: resort booking listing read on 20/10/2026.",

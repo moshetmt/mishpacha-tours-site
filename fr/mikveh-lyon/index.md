@@ -1,12 +1,12 @@
-> Huit mikvaot à Lyon et Villeurbanne, avec adresses et téléphones. Le Mikvé Haya Mouchka, 60 rue Crillon, est indiqué ouvert chaque soir. Comment demander avant de voyager.
+> Mikvé (ou mikve) à Lyon et Villeurbanne : huit adresses avec téléphones, le Mikvé Haya Mouchka ouvert chaque soir, et comment réserver avant de voyager.
 
 Source: https://mishpachatours.com/fr/mikveh-lyon/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Mikvé à Lyon
 
-# Mikvé à Lyon *adresses et qui appeler*
+# Mikvé à Lyon *adresses, horaires, comment réserver*
 
-Lyon et Villeurbanne comptent plusieurs mikvaot.
+Lyon et Villeurbanne comptent plusieurs mikvaot (on écrit aussi mikve ou mikveh).
 
 - 8 mikvaot répertoriés
 - Mikvé Haya Mouchka : ouvert chaque soir

@@ -33,6 +33,8 @@ En hiver, le rabbin Daniel Belaïch assure des offices Chabad à Courchevel 1850
 
 Les Deux Alpes · avec Winter Prestige
 
+À partir de 13 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -47,6 +49,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
 Les Deux Alpes · avec Winter Prestige
+
+À partir de 13 000 € la semaine
 
 Disponibilité confirmée pour vos dates à chaque demande.
 
@@ -63,6 +67,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Courchevel · avec Winter Prestige
 
+À partir de 17 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -78,6 +84,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Près de Megève · avec Winter Prestige
 
+À partir de 23 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -92,6 +100,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
 Val Thorens · avec Winter Prestige
+
+À partir de 9 500 € la semaine
 
 Disponibilité confirmée pour vos dates à chaque demande.
 
@@ -160,6 +170,7 @@ dans les Alpes
 | [Zermatt](https://mishpachatours.com/fr/kosher-zermatt/) |  |  |
 | [Saint-Moritz](https://mishpachatours.com/fr/kosher-st-moritz/) |  |  |
 | [Crans-Montana](https://mishpachatours.com/fr/kosher-crans-montana/) |  |  |
+| [Verbier](https://mishpachatours.com/fr/kosher-verbier/) |  |  |
 | [Cervinia](https://mishpachatours.com/fr/kosher-cervinia/) |  |  |
 | [Courmayeur](https://mishpachatours.com/fr/kosher-courmayeur/) |  |  |
 | [Cortina d'Ampezzo](https://mishpachatours.com/fr/kosher-cortina/) |  |  |

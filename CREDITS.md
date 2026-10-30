@@ -182,3 +182,10 @@ Vidéos refaites le 27/10 avec uniquement des plans filmés (aucune photo animé
 - img/video/chalets-* : Pexels 4185348 et 4185202 (chalet au crépuscule), 14509347 (jacuzzi), 18453852 et 12132188 (cheminée), 12209781 (ordinateur), 15380155 (téléphone).
 - img/video/stations-* : Pexels 15877925, 7082108, 12209781, 4185348, 15037541 (feu d'artifice sur la station).
 - img/video/ete-* : Pexels 14051217 (lac et alpages), 12040525 (randonnée), 12132979 (randonneurs, téléphone seulement).
+| img/stock/st-verbier.jpg | File:Verbier Valais 029.JPG | cc-by-2.5 | Norbert Aepli, Switzerland (User:Noebu) | https://commons.wikimedia.org/wiki/File%3AVerbier_Valais_029.JPG |
+| img/stock/hub-kosher-verbier.jpg | File:Verbier Valais 029.JPG | cc-by-2.5 | Norbert Aepli, Switzerland (User:Noebu) | https://commons.wikimedia.org/wiki/File%3AVerbier_Valais_029.JPG |
+
+## Page été : bannière Riviera (29/10/2026)
+Moshé 29/10 : plus de montagnes en été. Licence Pexels, usage commercial gratuit, sans mention obligatoire. Originaux dans le scratchpad de la session, à archiver dans `00-brief/2026-10-29-videos-pexels-ete/`.
+- img/stock/riviera-ete.jpg et img/h/riviera-ete-{640,960,1600}.webp : Pexels photo 30615185 (piscine à débordement sur la mer).
+- img/video/ete-pc.mp4 et ete-tel.mp4 : Pexels 36065028 (piscine vue du ciel), 37293572 (baie méditerranéenne, bateau), 34122179 (plage de Nice), 5844838 (ruelles de Saint-Tropez).

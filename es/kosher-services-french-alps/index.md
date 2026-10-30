@@ -33,19 +33,30 @@ Mishpacha Tours la organiza en las estaciones de Isère, Saboya y los Altos Alpe
 
 Estrictamente kosher: las comidas se preparan bajo la supervisión del Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Los detalles se entregan por escrito con el presupuesto.
 
-## Comidas a domicilio: *los precios*
+## Los precios: *comidas, chef y chalés*
 
-Por persona y por día. Son precios de partida, según la estación y la temporada: recibe el total exacto por escrito antes de pagar.
+Comidas: por persona y por día. Son precios de partida, según la estación y la temporada: recibe el total exacto por escrito antes de pagar.
 
-- Pensión completa: desayuno, almuerzo y cena**desde 75 €**
-- Solo cena: entrante, plato principal y postre**desde 27 €**
+- Pensión completa: desayuno, almuerzo y cena**desde 78 €**
+- Solo cena: entrante, plato principal y postre**desde 28 €**
 - Shabat: cena del viernes**45 €**
 - Shabat: almuerzo del sábado**40 €**
-- Seudá shlishit**35 €**
-- Noche de pizza con pizzaiolo, para grupos**35 € por persona, desde 400 €**
+- Seudá shlishit**30 €**
+- Noche de pizza con pizzaiolo, para grupos**Bajo pedido**
 
-- Entrega cada dos días, cualquier estación de Francia**de 180 a 350 €**
-- Kasherización de la cocina del chalé que alquila**desde 680 €**
+- Entrega cada dos días, cualquier estación de Francia**de 180 a 360 €**
+- Kasherización de la cocina del chalé que alquila**Bajo pedido**
+- Chef privado kosher en su chalé, por día**desde 1.568 €**
+
+### Un chalé *para la semana*
+
+Por chalé y por semana. Precios de partida: el precio para sus fechas llega por escrito con el presupuesto.
+
+- [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/es/kosher-chalet-val-thorens/)**desde 9.500 €**
+- [Chalet Rochebrune, Les Deux Alpes](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)**desde 13.000 €**
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)**desde 13.500 €**
+- [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)**desde 17.500 €**
+- [Chalet Loup Blanc, cerca de Megève](https://mishpachatours.com/es/kosher-chalet-megeve/)**desde 23.500 €**
 
 Niños hasta 5 años: alrededor de un 30 % menos. La entrega se paga por viaje; cuando varios grupos están en la misma estación la misma semana, la comparten. Pedido a más tardar el miércoles por la noche, pago completo al hacer el pedido. Plata o kumkum a la venta para Shabat. Supervisión: Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
 
@@ -103,7 +114,7 @@ Sí. Las comidas se preparan bajo la supervisión del Beth Habad de Grenoble Alp
 
 ¿Pueden entregarnos comidas kosher en Val Thorens o en Alpe d'Huez?
 
-Sí, en todas las estaciones de Francia, cada dos días, de 180 a 350 € por entrega según la estación. Envíenos la estación, las fechas y el número de personas.
+Sí, en todas las estaciones de Francia, cada dos días, de 180 a 360 € por entrega según la estación. Envíenos la estación, las fechas y el número de personas.
 
 ¿Podemos tener un minyan y un Sefer Torá en la estación?
 
@@ -115,7 +126,7 @@ Un encendido, una lectura de la Meguilá, una comida de Purim, Pésaj bajo petic
 
 ¿Organizan ustedes el chalé?
 
-Sí. Mishpacha Tours recibe su solicitud y la organiza con su equipo kosher con base en los Alpes. Trata con un solo contacto de principio a fin.
+Sí. Mishpacha Tours recibe su solicitud y la organiza con su equipo kosher con base en los Alpes. Trata con un solo contacto de principio a fin. La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
 
 ¿Con cuánta antelación hay que pedirlo?
 
@@ -123,7 +134,7 @@ Cuanto antes, y antes de las vacaciones escolares. Un chef para una semana se re
 
 ¿Cuánto cuesta?
 
-Las comidas a domicilio parten de 27 € por persona y día para la cena y de 75 € para la pensión completa, más la entrega; las comidas de Shabat cuestan de 35 a 45 €. Un chalé con chef privado se presupuesta para su grupo. Recibe un presupuesto por escrito antes de comprometerse.
+Las comidas a domicilio parten de 28 € por persona y día para la cena y de 78 € para la pensión completa, más la entrega; las comidas de Shabat cuestan de 30 a 45 €. Un chef privado parte de 1.568 € por día y un chalé de 9.500 € por semana. Recibe un presupuesto por escrito antes de comprometerse.
 
 ## Su semana kosher en los Alpes, *organizada*.
 

@@ -33,6 +33,8 @@ We organise your kosher stay: private chef or delivered meals, Shabbat, minyan a
 
 Near Megève · with Winter Prestige
 
+From €23,500 per week
+
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)

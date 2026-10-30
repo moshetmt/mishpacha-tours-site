@@ -33,6 +33,8 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 
 ואל טורנס · עם Winter Prestige
 
+החל מ־9,500 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)

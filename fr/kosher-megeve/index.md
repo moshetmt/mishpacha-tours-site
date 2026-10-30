@@ -33,6 +33,8 @@ Nous organisons votre séjour casher : chef privé ou repas livrés, Chabbat, m
 
 Près de Megève · avec Winter Prestige
 
+À partir de 23 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)

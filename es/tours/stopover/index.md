@@ -67,6 +67,20 @@ Respuesta el mismo día, nunca en Shabat. Cancelación gratuita hasta 24 horas a
 
 ## Los lugares donde *estará*
 
+Rue Juiverie
+
+Grande Synagogue
+
+Quai Tilsitt
+
+Vieux Lyon
+
+CHRD
+
+Montluc
+
+Izieu
+
 ## Cómo nos movemos por *Lyon*
 
 - **Solo grupos privados.** Su reserva nunca se une a desconocidos.

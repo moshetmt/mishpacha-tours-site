@@ -33,6 +33,8 @@ Its season runs from 21 November 2026 to 2 May 2027. We organise your kosher sta
 
 Val Thorens · with Winter Prestige
 
+From €9,500 per week
+
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)

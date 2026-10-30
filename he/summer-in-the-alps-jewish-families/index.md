@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML 
 
 [דף הבית](https://mishpachatours.com/he/) / [המדריך לליון היהודית](https://mishpachatours.com/he/jewish-lyon-guide/) / קיץ באלפים למשפחות יהודיות
 
-# קיץ באלפים למשפחות יהודיות *אגמים, מסלולי הליכה ומניין בהישג יד*
+# הקיץ הכשר שלכם, באופן פרטי *הריביירה, האגמים, האלפים*
 
 קיץ באלפים פירושו אגמים, הליכה וערבים ארוכים.
 
@@ -47,7 +47,7 @@ Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML 
 
 ## אתרי הרים גבוהים בקיץ
 
-- **קורשבל (Courchevel) ומז'ב (Megève).**כתבו להרב דניאל בלעיש (Daniel Belaïch), habadalpes@yahoo.fr, לפני שאתם מסתמכים על אחד מהם.
+- **קורשבל (Courchevel) ומג'ב (Megève).**כתבו להרב דניאל בלעיש (Daniel Belaïch), habadalpes@yahoo.fr, לפני שאתם מסתמכים על אחד מהם.
 - **שאמוני (Chamonix).** הטיולים מיועדים למבוגרים מעל גיל 50, ולכן אינם מתאימים למשפחה עם ילדים. התאריכים באתר שלו.
 - **אוויאן (Évian) ואגם ז'נבה.** לז'נבה יש קהילה משלה, מעבר לגבול.
 - **מלונות או מרכזים כשרים לקיץ באלפים.** איננו מציינים אף אחד.
@@ -73,7 +73,7 @@ Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML 
 | --- | --- | --- |
 | [קורשבל](https://mishpachatours.com/he/kosher-courchevel/) |  |  |
 | [ואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/) |  |  |
-| [מז'ב](https://mishpachatours.com/he/kosher-megeve/) |  |  |
+| [מג'ב](https://mishpachatours.com/he/kosher-megeve/) |  |  |
 | [אלפ ד'ואז](https://mishpachatours.com/he/kosher-alpe-dhuez/) |  |  |
 | [לה דז אלפ](https://mishpachatours.com/he/kosher-les-deux-alpes/) |  |  |
 | [שמוני](https://mishpachatours.com/he/kosher-chamonix/) |  |  |
@@ -85,8 +85,9 @@ Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML 
 | [צרמט](https://mishpachatours.com/he/kosher-zermatt/) |  |  |
 | [סנט מוריץ](https://mishpachatours.com/he/kosher-st-moritz/) |  |  |
 | [קראן מונטנה](https://mishpachatours.com/he/kosher-crans-montana/) |  |  |
+| [ורבייה](https://mishpachatours.com/he/kosher-verbier/) |  |  |
 | [צרביניה](https://mishpachatours.com/he/kosher-cervinia/) |  |  |
-| [קורמאייר](https://mishpachatours.com/he/kosher-courmayeur/) |  |  |
+| [קורמאיור](https://mishpachatours.com/he/kosher-courmayeur/) |  |  |
 | [קורטינה](https://mishpachatours.com/he/kosher-cortina/) |  |  |
 
 לכל אתר זמנים משלו: הם מחושבים לפי הקואורדינטות של כל אתר בנפרד.
@@ -142,7 +143,7 @@ Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML 
 
 בית חב״ד אנמס, במרחק 40 דקות, הוא הקרוב ביותר. במרכז הקהילתי של אנסי יש נציג רבני.
 
-שירותי חב״ד בקורשבל ובמז'ב פועלים בקיץ?
+שירותי חב״ד בקורשבל ובמג'ב פועלים בקיץ?
 
 כתבו להרב בלעיש לפני שאתם מתכננים סביב אחד מהם.
 

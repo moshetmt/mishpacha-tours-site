@@ -81,16 +81,17 @@ PLACES = {  # slug : (geonameid, {lang: nom})
     "kosher-la-plagne": (2996874, dict(en="La Plagne", fr="La Plagne", es="La Plagne", he="לה פלאן")),
     "kosher-les-arcs": (3030949, dict(en="Les Arcs", fr="Les Arcs", es="Les Arcs", he="לז ארק")),
     "kosher-les-deux-alpes": (6354942, dict(en="Les Deux Alpes", fr="Les Deux Alpes", es="Les Deux Alpes", he="לה דז אלפ")),
-    "kosher-megeve": (2994768, dict(en="Megève", fr="Megève", es="Megève", he="מז'ב")),
-    "kosher-chalet-megeve": (2994768, dict(en="Megève", fr="Megève", es="Megève", he="מז'ב")),
+    "kosher-megeve": (2994768, dict(en="Megève", fr="Megève", es="Megève", he="מג'ב")),
+    "kosher-chalet-megeve": (2994768, dict(en="Megève", fr="Megève", es="Megève", he="מג'ב")),
     "kosher-val-disere": (2971074, dict(en="Val d'Isère", fr="Val d’Isère", es="Val d'Isère", he="ואל דיזר")),
     "kosher-val-thorens": (6544556, dict(en="Val Thorens", fr="Val Thorens", es="Val Thorens", he="ואל טורנס")),
     "kosher-chalet-val-thorens": (6544556, dict(en="Val Thorens", fr="Val Thorens", es="Val Thorens", he="ואל טורנס")),
     "kosher-zermatt": (2657928, dict(en="Zermatt", fr="Zermatt", es="Zermatt", he="צרמט")),
     "kosher-st-moritz": (2658813, dict(en="St. Moritz", fr="Saint-Moritz", es="St. Moritz", he="סנט מוריץ")),
     "kosher-crans-montana": (6559506, dict(en="Crans-Montana", fr="Crans-Montana", es="Crans-Montana", he="קראן מונטנה")),
+    "kosher-verbier": (2658168, dict(en="Verbier", fr="Verbier", es="Verbier", he="ורבייה")),
     "kosher-cervinia": (6534766, dict(en="Cervinia", fr="Cervinia", es="Cervinia", he="צרביניה")),
-    "kosher-courmayeur": (3177872, dict(en="Courmayeur", fr="Courmayeur", es="Courmayeur", he="קורמאייר")),
+    "kosher-courmayeur": (3177872, dict(en="Courmayeur", fr="Courmayeur", es="Courmayeur", he="קורמאיור")),
     "kosher-cortina": (3177952, dict(en="Cortina d'Ampezzo", fr="Cortina d'Ampezzo", es="Cortina d'Ampezzo", he="קורטינה")),
     # pages multi-stations : Albertville, au centre des Alpes
     "kosher-ski-holidays-french-alps": (3038266, dict(en="the Alps", fr="les Alpes", es="los Alpes", he="האלפים")),
@@ -110,7 +111,7 @@ COORDS = {  # slug : (latitude, longitude, tzid)
     "kosher-grenoble": (45.1885, 5.7245, "Europe/Paris"), "kosher-la-plagne": (45.5070, 6.6780, "Europe/Paris"),
     "kosher-les-arcs": (45.5726, 6.8279, "Europe/Paris"), "kosher-val-disere": (45.4481, 6.9800, "Europe/Paris"),
     "kosher-zermatt": (46.0200, 7.7486, "Europe/Zurich"), "kosher-st-moritz": (46.4994, 9.8433, "Europe/Zurich"),
-    "kosher-crans-montana": (46.3132, 7.4791, "Europe/Zurich"), "kosher-cervinia": (45.9336, 7.6297, "Europe/Rome"),
+    "kosher-crans-montana": (46.3132, 7.4791, "Europe/Zurich"), "kosher-verbier": (46.1002, 7.22651, "Europe/Zurich"), "kosher-cervinia": (45.9336, 7.6297, "Europe/Rome"),
     "kosher-courmayeur": (45.7966, 6.9689, "Europe/Rome"), "kosher-cortina": (46.5369, 12.1390, "Europe/Rome"),
 }
 STATIONS = [s for s in COORDS if s not in ("kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens")]  # tableau des pages multi-stations
@@ -418,7 +419,7 @@ WA_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>'
 
 
 def bloc_minyan(h, lang, slug):
-    if 'class="ss wrap minyan-bh"' in h:
+    if re.search(r'class="[^"]*\bminyan-bh\b', h):   # 29/10 : Valora préfixe les classes (« clair ss wrap minyan-bh »)
         return h
     t = MINYAN[lang]
     lieu = PLACES[slug][1][lang] if slug in PLACES and slug not in MULTI else ""

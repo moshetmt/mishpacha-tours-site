@@ -33,6 +33,8 @@ Sa saison court du 21 novembre 2026 au 2 mai 2027. Nous organisons votre séjour
 
 Val Thorens · avec Winter Prestige
 
+À partir de 9 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)

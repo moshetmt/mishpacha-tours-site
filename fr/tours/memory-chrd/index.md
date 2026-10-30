@@ -61,6 +61,20 @@ Réponse dans la journée, jamais le Shabbat. Annulation gratuite jusqu’à 24 
 
 ## Les lieux où vous *marcherez*
 
+Rue Juiverie
+
+Grande Synagogue
+
+Quai Tilsitt
+
+Vieux Lyon
+
+CHRD
+
+Montluc
+
+Izieu
+
 ## Notre façon de circuler à *Lyon*
 
 - **Groupes privés uniquement.** Votre réservation n’est jamais associée à d’autres voyageurs.

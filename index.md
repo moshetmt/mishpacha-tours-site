@@ -2,7 +2,7 @@
 
 Source: https://mishpachatours.com/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-# Kosher holidays in the Alps.
+# Kosher holidays *in the Alps*
 
 Private chalet, private chef, Shabbat and minyan. Organised for you.
 
@@ -25,6 +25,8 @@ Private chalet, private chef, Shabbat and minyan. Organised for you.
 
 Les Deux Alpes · with Winter Prestige
 
+From €13,500 per week
+
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -39,6 +41,8 @@ Availability confirmed for your dates with each request.
 **Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
 
 Courchevel · with Winter Prestige
+
+From €17,500 per week
 
 Availability confirmed for your dates with each request.
 
@@ -55,6 +59,8 @@ Availability confirmed for your dates with each request.
 
 Val Thorens · with Winter Prestige
 
+From €9,500 per week
+
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -69,6 +75,8 @@ Availability confirmed for your dates with each request.
 **Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
 
 Near Megève · with Winter Prestige
+
+From €23,500 per week
 
 Availability confirmed for your dates with each request.
 
@@ -85,26 +93,33 @@ Availability confirmed for your dates with each request.
 
 Les Deux Alpes · with Winter Prestige
 
+From €13,000 per week
+
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-[See the five chalets](https://mishpachatours.com/kosher-chalets/)
+[See the chalets](https://mishpachatours.com/kosher-chalets/)
 
 ## How do you want *to travel*?
 
-Four ways to come, one team behind each of them.
+Five ways to come, one team behind each of them.
 
 [### Ski holiday, strictly kosher
 
 A chalet or your own hotel, meals, Shabbat and minyan in the resort.
 
 Open](https://mishpachatours.com/kosher-ski-holidays-french-alps/)
-[### Our four chalets, private chef
+[### Our chalets, private chef
 
-Les Deux Alpes or Courchevel: chef, Shabbat and minyan in the chalet.
+Les Deux Alpes, Courchevel, Megève and Val Thorens: chef, Shabbat and minyan in the chalet.
 
 Open](https://mishpachatours.com/kosher-chalets/)
+[### Pesach in the Alps
+
+A private chalet kashered for Pesach, the sedarim and the meals prepared. Price on request.
+
+Open](https://mishpachatours.com/kosher-pesach-french-alps/)
 [### Kosher meals in your resort
 
 Already booked? Delivered meals, Shabbat, holidays and a minyan where you stay.

@@ -18,7 +18,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 **הצעת מחיר אחת בכתב, באותו יום**האתר שלכם, התאריכים שלכם, הקבוצה שלכם. איש קשר אחד מההתחלה ועד הסוף.
 
-בחורף מפעיל הרב דניאל בלאיש (Daniel Belaïch) שירותי חב״ד בקורשבל 1850 (Courchevel) ובמז'ב (Megève). באלפ ד'ואז (Alpe d'Huez), לה דז אלפ (Les Deux Alpes), סר שבלייה (Serre Chevalier), שמרוס (Chamrousse) ו־ואל טורנס (Val Thorens), אנו מארגנים מניין וספר תורה עם רשת חב״ד באלפים: ספרו לנו את התאריכים שלכם. ליון היא המקום לנחות בו, לקנות ולעצור כמה שעות בדרך למעלה. באתר הסקי, הצוות הכשר שלנו מארגן שף, ארוחות עד הדירה, שבת ומניין: [פנייה אחת, הצעת מחיר אחת](https://mishpachatours.com/he/kosher-services-french-alps/).
+בחורף מפעיל הרב דניאל בלאיש (Daniel Belaïch) שירותי חב״ד בקורשבל 1850 (Courchevel) ובמג'ב (Megève). באלפ ד'ואז (Alpe d'Huez), לה דז אלפ (Les Deux Alpes), סר שבלייה (Serre Chevalier), שמרוס (Chamrousse) ו־ואל טורנס (Val Thorens), אנו מארגנים מניין וספר תורה עם רשת חב״ד באלפים: ספרו לנו את התאריכים שלכם. ליון היא המקום לנחות בו, לקנות ולעצור כמה שעות בדרך למעלה. באתר הסקי, הצוות הכשר שלנו מארגן שף, ארוחות עד הדירה, שבת ומניין: [פנייה אחת, הצעת מחיר אחת](https://mishpachatours.com/he/kosher-services-french-alps/).
 
 ## הצ'אלות הכשרות שלנו *באלפים*
 
@@ -32,6 +32,8 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 **שומר כשרות.** שף בצ'אלה או ארוחות במשלוח.
 
 לה דז אלפ · עם Winter Prestige
+
+החל מ־13,500 € לשבוע
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
@@ -48,6 +50,8 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 לה דז אלפ · עם Winter Prestige
 
+החל מ־13,000 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -63,6 +67,8 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 קורשבל · עם Winter Prestige
 
+החל מ־17,500 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -76,7 +82,9 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 **שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
 
-ליד מז'ב · עם Winter Prestige
+ליד מג'ב · עם Winter Prestige
+
+החל מ־23,500 € לשבוע
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
@@ -93,6 +101,8 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 ואל טורנס · עם Winter Prestige
 
+החל מ־9,500 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -102,7 +112,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 את שניהם מפעיל הרב דניאל בלאיש (habadalpes@yahoo.fr).
 
 - **קורשבל 1850.** תפילות בעונת החורף, ב-389 rue des Tovets. הרב כותב שהוא עוזר בצורכי כשרות, ביין ובחלות לשבת, ובקדיש.
-- **מז'ב.** תפילות באולם «Maison de la Montagne». כתבו לפני שאתם יוצאים: המקום השתנה במהלך השנים.
+- **מג'ב.** תפילות באולם «Maison de la Montagne». כתבו לפני שאתם יוצאים: המקום השתנה במהלך השנים.
 - **אלפ ד'ואז, לה דז אלפ, סר שבלייה, שמרוס, ואל טורנס, לה מנואיר (Les Menuires).** אין תפילה קבועה. ספרו לנו את התאריכים ואת האתר שלכם: אנו מארגנים את המניין וספר תורה עם רשת חב״ד באלפים, שמאגדת את המשפחות הנמצאות במקום. בקשו מוקדם.
 - **לה זארק, טין, ואל ד'איזר, לה פלאן, שאמוני.** מפעילים פרטיים (למטה) מארגנים מניין כשמגיעים מספיק משתתפים.
 
@@ -111,7 +121,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 ## אנשי קשר *של חב״ד* 3
 
 - **בית כנסת במלון Le Mont Charvin, הרב דניאל בלאיש** עונת החורף. יין וחלות לשבת לפי בקשה389 rue des Tovets, 73120 Courchevel[מפה](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
-- **חב״ד האלפים במז'ב, הרב דניאל בלאיש** חורף. habadalpes@yahoo.fr. המקום: אשרו לפני שאתם מגיעים136 route Edmond de Rothschild, 74120 Megève[מפה](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
+- **חב״ד האלפים במג'ב, הרב דניאל בלאיש** חורף. habadalpes@yahoo.fr. המקום: אשרו לפני שאתם מגיעים136 route Edmond de Rothschild, 74120 Megève[מפה](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
 - **בית חב״ד גרנובל, הרב יחיא להיאני** עומד בראש רשת חב״ד באלפים: habadgrenoblealpes.com10 rue Lazare Carnot, 38000 Grenoble[מפה](https://www.google.com/maps/search/?api=1&query=10%20rue%20Lazare%20Carnot%2C%2038000%20Grenoble%2C%20France)
 
 ## תוכניות סקי כשרות *לפי אתר*
@@ -148,7 +158,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 | --- | --- | --- |
 | [קורשבל](https://mishpachatours.com/he/kosher-courchevel/) |  |  |
 | [ואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/) |  |  |
-| [מז'ב](https://mishpachatours.com/he/kosher-megeve/) |  |  |
+| [מג'ב](https://mishpachatours.com/he/kosher-megeve/) |  |  |
 | [אלפ ד'ואז](https://mishpachatours.com/he/kosher-alpe-dhuez/) |  |  |
 | [לה דז אלפ](https://mishpachatours.com/he/kosher-les-deux-alpes/) |  |  |
 | [שמוני](https://mishpachatours.com/he/kosher-chamonix/) |  |  |
@@ -160,8 +170,9 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 | [צרמט](https://mishpachatours.com/he/kosher-zermatt/) |  |  |
 | [סנט מוריץ](https://mishpachatours.com/he/kosher-st-moritz/) |  |  |
 | [קראן מונטנה](https://mishpachatours.com/he/kosher-crans-montana/) |  |  |
+| [ורבייה](https://mishpachatours.com/he/kosher-verbier/) |  |  |
 | [צרביניה](https://mishpachatours.com/he/kosher-cervinia/) |  |  |
-| [קורמאייר](https://mishpachatours.com/he/kosher-courmayeur/) |  |  |
+| [קורמאיור](https://mishpachatours.com/he/kosher-courmayeur/) |  |  |
 | [קורטינה](https://mishpachatours.com/he/kosher-cortina/) |  |  |
 
 לכל אתר זמנים משלו: הם מחושבים לפי הקואורדינטות של כל אתר בנפרד.
@@ -228,7 +239,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 באילו אתרי סקי בצרפת יש מניין כשר?
 
-לקורשבל 1850 ולמז'ב יש שירות חב״ד בחורף, בניהול הרב דניאל בלאיש. בצד גרנובל, באלפ ד'ואז, לה דז אלפ, סר שבלייה, שמרוס ו־ואל טורנס, אנו מארגנים לפי בקשה מניין עם רשת חב״ד באלפים, שמאגדת את המשפחות הנמצאות במקום.
+לקורשבל 1850 ולמג'ב יש שירות חב״ד בחורף, בניהול הרב דניאל בלאיש. בצד גרנובל, באלפ ד'ואז, לה דז אלפ, סר שבלייה, שמרוס ו־ואל טורנס, אנו מארגנים לפי בקשה מניין עם רשת חב״ד באלפים, שמאגדת את המשפחות הנמצאות במקום.
 
 האם יש בצרפת מפעילי חופשות סקי כשרות?
 

@@ -129,11 +129,11 @@ Qui surveille la cacherout des repas ?
 
 Notre équipe casher basée dans les Alpes cuisine sous le réseau 'Habad des Alpes. Le détail de la surveillance vous est remis avec le devis.
 
-## Un chalet rien que pour vous ? *Cinq chalets casher*
+## Un chalet rien que pour vous ? *Des chalets casher*
 
 [**Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet des pistes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
-[Voir les cinq chalets](https://mishpachatours.com/fr/kosher-chalets/)
+[Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
 ## Cervinia : votre semaine, *organisée*.
 

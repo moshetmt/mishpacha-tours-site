@@ -1,4 +1,4 @@
-> Cinq chalets strictement casher dans les Alpes, aux Deux Alpes, à Courchevel, près de Megève et à Val Thorens : chef privé, Chabbat et minyan au chalet. Une demande, un devis écrit.
+> Des chalets strictement casher dans les Alpes, aux Deux Alpes, à Courchevel, près de Megève et à Val Thorens : chef privé, Chabbat et minyan au chalet. Une demande, un devis écrit.
 
 Source: https://mishpachatours.com/fr/kosher-chalets/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/fr/kosher-chalets/ (HTML version). Every page
 
 # Nos chalets casher *aux Deux Alpes, à Courchevel, à Megève et à Val Thorens*
 
-Cinq chalets, tout le casher pris en charge : deux aux Deux Alpes, un à Courchevel, un près de Megève.
+Nos chalets, tout le casher pris en charge : aux Deux Alpes, à Courchevel et près de Megève.
 
 [Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20cherchons%20un%20chalet%20casher.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20ou%20Val%20Thorens%20%3A)
 
@@ -18,7 +18,7 @@ Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
 **Un devis écrit, le jour même**Votre station, vos dates, votre groupe. Un seul interlocuteur du début à la fin.
 
-Cinq chalets, tout le casher pris en charge : deux aux Deux Alpes, un à Courchevel, un près de Megève, un à Val Thorens avec un chemin skieur à la porte. La cuisine est cachérisée, un chef cuisine ou les repas sont livrés, un minyan vient sur demande. Un programme, un devis.
+Nos chalets, tout le casher pris en charge : aux Deux Alpes, à Courchevel, près de Megève et à Val Thorens avec un chemin skieur à la porte. La cuisine est cachérisée, un chef cuisine ou les repas sont livrés, un minyan vient sur demande. Un programme, un devis.
 
 ### [Notre chalet casher, au pied des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 
@@ -30,6 +30,8 @@ Cinq chalets, tout le casher pris en charge : deux aux Deux Alpes, un à Courche
 **Strictement casher.** Chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
 Les Deux Alpes · avec Winter Prestige
+
+À partir de 13 500 € la semaine
 
 Disponibilité confirmée pour vos dates à chaque demande.
 
@@ -46,6 +48,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Les Deux Alpes · avec Winter Prestige
 
+À partir de 13 000 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -60,6 +64,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
 Courchevel · avec Winter Prestige
+
+À partir de 17 500 € la semaine
 
 Disponibilité confirmée pour vos dates à chaque demande.
 
@@ -76,6 +82,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Près de Megève · avec Winter Prestige
 
+À partir de 23 500 € la semaine
+
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
@@ -90,6 +98,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
 Val Thorens · avec Winter Prestige
+
+À partir de 9 500 € la semaine
 
 Disponibilité confirmée pour vos dates à chaque demande.
 
@@ -129,6 +139,10 @@ Vous avez déjà un logement ? [Les services casher dans votre station](https://
 Quel chalet choisir ?
 
 Aux Deux Alpes, le chalet de 15 lits compte 6 chambres plus une chambre bébé, à deux minutes des pistes, et le chalet des pistes compte 6 chambres et 13 lits, skis aux pieds ; les deux sont à cinq minutes l'un de l'autre, pour quatre familles. Courchevel compte 5 chambres en suite, des piscines chauffées et une navette privée, dans Les 3 Vallées. Val Thorens compte 3 chambres avec salle de bain pour 10 personnes au plus, avec un chemin skieur à la porte, dans Les 3 Vallées aussi.
+
+Combien coûte un chalet ?
+
+Pour une semaine au chalet : Val Thorens à partir de 9 500 €, Les Deux Alpes à partir de 13 000 €, Courchevel à partir de 17 500 €, près de Megève à partir de 23 500 €. Le prix pour vos dates et vos services vous est remis dans un seul devis écrit. Le séjour est devisé et facturé par notre équipe casher basée dans les Alpes.
 
 Les chalets sont-ils disponibles à nos dates ?
 

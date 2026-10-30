@@ -2,11 +2,9 @@
 
 Source: https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-1/26
-
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Un chalé kosher en Les Deux Alpes
 
-# Un chalé kosher en Les Deux Alpes *300 m², 16 camas, a 2 minutos de las pistas*
+# Chalet King David, Les Deux Alpes *300 m², 16 plazas, chef privado*
 
 Un chalé de 300 m² en Les Deux Alpes, a 2 minutos de las pistas.
 
@@ -39,6 +37,8 @@ Seis habitaciones y 16 camas, para tres familias pequeñas o una grande. Chef pr
 - **Cocina.** Preparada como kosher por nuestro equipo para su estancia. Comidas estrictamente kosher, cocinadas en el lugar por un chef privado o entregadas en el chalé.
 
 Fechas: consúltenos las suyas. El chalé se ofrece en invierno (Janucá, las vacaciones de febrero, Pésaj) y en verano.
+
+## El chalé *en imágenes*
 
 ## Todo lo que rodea *al chalé*
 
@@ -120,7 +120,7 @@ Comidas kosher entregadas en su alojamiento en la estación, encargadas al Beth 
 
 ¿Cuánto cuesta?
 
-No hay lista de precios. El precio depende de sus fechas, del número de personas y de los servicios que elija: chef, traslados, alquiler de esquí, actividades. Recibe un presupuesto por escrito antes de comprometerse.
+Desde 13.500 € por semana el chalé. El precio final depende de sus fechas, del número de personas y de los servicios que elija: recibe un presupuesto por escrito antes de comprometerse. La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
 
 ¿Cuántas personas caben?
 
@@ -138,11 +138,11 @@ Sí. Se organizan las comidas de Shabat y las fiestas (Janucá, febrero, Pésaj)
 
 Sí, bajo petición: alquiler de esquí, trineo de perros, masajista o pedicura en el chalé, alquiler de coche, traslados y extras para eventos. Todo figura en un único presupuesto.
 
-## ¿Prefiere un chalet entero? *Cinco chalets kosher*
+## ¿Prefiere un chalet entero? *Chalets kosher*
 
 [**Les Deux Alpes · chalet de las pistas**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
-[Ver los cinco chalets](https://mishpachatours.com/es/kosher-chalets/)
+[Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
 ## Les Deux Alpes: su semana, *organizada*.
 

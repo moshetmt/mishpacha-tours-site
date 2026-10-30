@@ -34,7 +34,7 @@ Source: https://mishpachatours.com/he/kosher-chamonix/ (HTML version). Every pag
 ## כשר *בשמוני*
 
 - **מלון, מסעדה או חנות כשרים בשמוני.** תכננו להביא את האוכל שלכם או לקבל אותו במשלוח.
-- **בית חב״ד בעמק.** הנוכחות החב״דית הקרובה ביותר שאנו מכירים היא במז'ב, במרחק 35 ק"מ: ראו [כשר במז'ב](https://mishpachatours.com/he/kosher-megeve/).
+- **בית חב״ד בעמק.** הנוכחות החב״דית הקרובה ביותר שאנו מכירים היא במג'ב, במרחק 35 ק"מ: ראו [כשר במג'ב](https://mishpachatours.com/he/kosher-megeve/).
 - **טיולים קבוצתיים.** ארגון הסטודנטים היהודי Aish on Campus פרסם שבוע בצ'אלות בשמוני במרץ 2022, עם סקי ביום ולימוד יהודי בערב. המודעה אינה מזכירה קייטרינג כשר, והתאריכים עברו.
 - **עונה.** מעליות הסקי בעמק נפתחות בהדרגה מסוף נובמבר עד אפריל, ואתר גראן מונטה נבנה מחדש, עם מעליות חדשות שהוכרזו לדצמבר 2026.
 
@@ -125,11 +125,11 @@ Source: https://mishpachatours.com/he/kosher-chamonix/ (HTML version). Every pag
 
 הצוות הכשר שלנו שבסיסו באלפים מבשל תחת רשת חב״ד באלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
 
-## מעדיפים צ'אלה שלם? *חמש צ'אלות כשרות*
+## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**לה דז אלפ · צ'אלה המסלולים**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מז'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**לה דז אלפ · צ'אלה המסלולים**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
-[לראות את חמש הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
+[לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
 ## שמוני: השבוע שלכם, *מאורגן*.
 

@@ -62,6 +62,20 @@ Same-day reply, never on Shabbat. Free cancellation up to 24 hours before the st
 
 ## Places you will *stand* in
 
+Rue Juiverie
+
+Grande Synagogue
+
+Quai Tilsitt
+
+Vieux Lyon
+
+CHRD
+
+Montluc
+
+Izieu
+
 ## How we move through *Lyon*
 
 - **Private groups only.** Your booking is never joined to strangers.

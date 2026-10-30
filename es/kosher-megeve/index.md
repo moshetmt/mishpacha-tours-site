@@ -33,6 +33,8 @@ Organizamos su estancia kosher: chef privado o comidas entregadas, Shabat, mini�
 
 Cerca de Megève · con Winter Prestige
 
+Desde 23.500 € por semana
+
 Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)

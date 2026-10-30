@@ -41,7 +41,7 @@ Source: https://mishpachatours.com/he/kosher-grenoble/ (HTML version). Every pag
 - **לה דז אלפ.** Jet2 מציינת 114 ק"מ משדה התעופה גרנובל-אלפ-איזר.
 - **סר שבלייה.** גם שם אנו מארגנים שירותים כשרים, מגרנובל. שאלו אותנו על התאריכים שלכם.
 
-לאתרים אחרים יש עמוד משלהם: [אלפ ד'ואז](https://mishpachatours.com/he/kosher-alpe-dhuez/), [לה דז אלפ](https://mishpachatours.com/he/kosher-les-deux-alpes/), [ואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/), [קורשבל](https://mishpachatours.com/he/kosher-courchevel/) ו[מז'ב](https://mishpachatours.com/he/kosher-megeve/).
+לאתרים אחרים יש עמוד משלהם: [אלפ ד'ואז](https://mishpachatours.com/he/kosher-alpe-dhuez/), [לה דז אלפ](https://mishpachatours.com/he/kosher-les-deux-alpes/), [ואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/), [קורשבל](https://mishpachatours.com/he/kosher-courchevel/) ו[מג'ב](https://mishpachatours.com/he/kosher-megeve/).
 
 ## כשר *בגרנובל*
 
@@ -140,11 +140,11 @@ Source: https://mishpachatours.com/he/kosher-grenoble/ (HTML version). Every pag
 
 הצוות הכשר שלנו שבסיסו באלפים מבשל תחת רשת חב״ד באלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
 
-## מעדיפים צ'אלה שלם? *חמש צ'אלות כשרות*
+## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**לה דז אלפ · צ'אלה המסלולים**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מז'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**לה דז אלפ · צ'אלה המסלולים**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
-[לראות את חמש הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
+[לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
 ## גרנובל: השבוע שלכם, *מאורגן*.
 

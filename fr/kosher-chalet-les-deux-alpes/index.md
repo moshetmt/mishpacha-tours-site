@@ -2,11 +2,9 @@
 
 Source: https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-1/26
-
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Un chalet casher aux Deux Alpes
 
-# Un chalet casher aux Deux Alpes *300 m², 16 lits, à 2 minutes des pistes*
+# Chalet King David, Les Deux Alpes *300 m², 16 couchages, chef privé*
 
 Un chalet de 300 m² aux Deux Alpes, à 2 minutes des pistes.
 
@@ -39,6 +37,8 @@ Six chambres, 16 lits, pour trois petites familles ou une grande. Un chef privé
 - **Cuisine.** Rendue casher par notre équipe pour votre séjour. Repas strictement casher, cuisinés sur place par un chef privé ou livrés au chalet.
 
 Dates : indiquez les vôtres. Le chalet est proposé en hiver (Hanouka, vacances de février, Pessah) et en été.
+
+## Le chalet *en images*
 
 ## Tout ce qui entoure *le chalet*
 
@@ -120,7 +120,7 @@ Des repas casher livrés à votre hébergement en station, commandés auprès du
 
 Combien ça coûte ?
 
-Il n’y a pas de grille tarifaire. Le prix dépend de vos dates, du nombre de personnes et des services choisis : chef, transferts, location de skis, activités. Vous recevez un devis écrit avant de vous engager.
+À partir de 13 500 € la semaine pour le chalet. Le prix final dépend de vos dates, du nombre de personnes et des services que vous choisissez : vous recevez un devis écrit avant tout engagement. Le séjour est devisé et facturé par notre équipe casher basée dans les Alpes.
 
 Combien de personnes peuvent loger ?
 
@@ -138,11 +138,11 @@ Pouvez-vous organiser des activités ?
 
 Oui, sur demande : location de skis, traîneau à chiens, masseur ou pédicure au chalet, location de voiture, transferts et extras pour événements. Tout figure sur un seul devis.
 
-## Un chalet rien que pour vous ? *Cinq chalets casher*
+## Un chalet rien que pour vous ? *Des chalets casher*
 
 [**Les Deux Alpes · chalet des pistes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
-[Voir les cinq chalets](https://mishpachatours.com/fr/kosher-chalets/)
+[Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
 ## Les Deux Alpes : votre semaine, *organisée*.
 

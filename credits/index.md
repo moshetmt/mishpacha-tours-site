@@ -14,7 +14,7 @@ The photographs on this site come from Wikimedia Commons, under Creative Commons
 
 [Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20your%20services.%20Dates%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
 
-## Photographs 84
+## Photographs 86
 
 - **Looking down the Mandarines slope, Megève, 2025.jpg**stock/alpes-ski.jpg · DimiTalen · CC0[Source](https://commons.wikimedia.org/wiki/File%3ALooking_down_the_Mandarines_slope%2C_Meg%C3%A8ve%2C_2025.jpg)
 - **View of Megève and the Mont Blanc massif from Le Christomet, Megève, 2025.jpg**stock/alpes-montblanc.jpg · DimiTalen · CC0[Source](https://commons.wikimedia.org/wiki/File%3AView_of_Meg%C3%A8ve_and_the_Mont_Blanc_massif_from_Le_Christomet%2C_Meg%C3%A8ve%2C_2025.jpg)
@@ -94,6 +94,8 @@ The photographs on this site come from Wikimedia Commons, under Creative Commons
 - **Lake St. Moritz in winter.jpg**stock/hub-kosher-st-moritz.jpg · Etiaetia1020 · cc-by-sa-3.0[Source](https://commons.wikimedia.org/wiki/File%3ALake_St._Moritz_in_winter.jpg)
 - **Crans Montana Valais Suisse 20190316.jpg**stock/st-crans-montana.jpg · PhilippeA · cc-by-sa-4.0[Source](https://commons.wikimedia.org/wiki/File%3ACrans_Montana_Valais_Suisse_20190316.jpg)
 - **Crans Montana Valais Suisse 20190316.jpg**stock/hub-kosher-crans-montana.jpg · PhilippeA · cc-by-sa-4.0[Source](https://commons.wikimedia.org/wiki/File%3ACrans_Montana_Valais_Suisse_20190316.jpg)
+- **Verbier Valais 029.JPG**stock/st-verbier.jpg · Norbert Aepli, Switzerland (User:Noebu) · cc-by-2.5[Source](https://commons.wikimedia.org/wiki/File%3AVerbier_Valais_029.JPG)
+- **Verbier Valais 029.JPG**stock/hub-kosher-verbier.jpg · Norbert Aepli, Switzerland (User:Noebu) · cc-by-2.5[Source](https://commons.wikimedia.org/wiki/File%3AVerbier_Valais_029.JPG)
 - **Skigebiet am Plateau Rosa Breuil-Cervinia-2.jpg**stock/st-cervinia.jpg · Rufus46 · cc-by-sa-3.0[Source](https://commons.wikimedia.org/wiki/File%3ASkigebiet_am_Plateau_Rosa_Breuil-Cervinia-2.jpg)
 - **Skigebiet am Plateau Rosa Breuil-Cervinia-2.jpg**stock/hub-kosher-cervinia.jpg · Rufus46 · cc-by-sa-3.0[Source](https://commons.wikimedia.org/wiki/File%3ASkigebiet_am_Plateau_Rosa_Breuil-Cervinia-2.jpg)
 - **Mont Blanc depuis Val Ferret.jpg**stock/st-courmayeur.jpg · Davide Tomatis · cc-by-sa-4.0[Source](https://commons.wikimedia.org/wiki/File%3AMont_Blanc_depuis_Val_Ferret.jpg)

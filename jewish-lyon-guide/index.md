@@ -143,7 +143,11 @@ Open](https://mishpachatours.com/kosher-st-moritz/)[### Kosher in Crans-Montana
 
 The sunny plateau of the Valais, two hours from Geneva: chef, meals, Shabbat, holidays, minyan
 
-Open](https://mishpachatours.com/kosher-crans-montana/)[### Kosher in Cervinia
+Open](https://mishpachatours.com/kosher-crans-montana/)[### Kosher in Verbier
+
+The 4 Vallées above the Rhône valley, winter and summer: chef, meals, Shabbat, holidays, minyan
+
+Open](https://mishpachatours.com/kosher-verbier/)[### Kosher in Cervinia
 
 Italy's side of the Matterhorn, snow from November to May: chef, meals, Shabbat, holidays, minyan
 

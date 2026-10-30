@@ -128,11 +128,11 @@ Who supervises the food?
 
 Our kosher team based in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.
 
-## Prefer a whole chalet? *Five kosher chalets*
+## Prefer a whole chalet? *Our kosher chalets*
 
 [**Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · Slope Chalet**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
-[See the five chalets](https://mishpachatours.com/kosher-chalets/)
+[See the chalets](https://mishpachatours.com/kosher-chalets/)
 
 ## Les Arcs: your week, *organised*.
 

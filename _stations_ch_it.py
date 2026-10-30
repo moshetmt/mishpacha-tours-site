@@ -6,7 +6,7 @@ NEW = [  # slug, en, fr, es, he, geonameid, carte (titre, texte)
  ("kosher-st-moritz", "St. Moritz", "Saint-Moritz", "St. Moritz", "סנט מוריץ", 2658813, ("Kosher in St. Moritz", "The Engadine in winter and summer: chef, meals, Shabbat, holidays, minyan")),
  ("kosher-crans-montana", "Crans-Montana", "Crans-Montana", "Crans-Montana", "קראן מונטנה", 6559506, ("Kosher in Crans-Montana", "The sunny plateau of the Valais, two hours from Geneva: chef, meals, Shabbat, holidays, minyan")),
  ("kosher-cervinia", "Cervinia", "Cervinia", "Cervinia", "צרביניה", 6534766, ("Kosher in Cervinia", "Italy's side of the Matterhorn, snow from November to May: chef, meals, Shabbat, holidays, minyan")),
- ("kosher-courmayeur", "Courmayeur", "Courmayeur", "Courmayeur", "קורמאייר", 3177872, ("Kosher in Courmayeur", "The Italian side of Mont Blanc, the closest Italian resort to Lyon: chef, meals, Shabbat, holidays, minyan")),
+ ("kosher-courmayeur", "Courmayeur", "Courmayeur", "Courmayeur", "קורמאיור", 3177872, ("Kosher in Courmayeur", "The Italian side of Mont Blanc, the closest Italian resort to Lyon: chef, meals, Shabbat, holidays, minyan")),
  ("kosher-cortina", "Cortina d'Ampezzo", "Cortina d'Ampezzo", "Cortina d'Ampezzo", "קורטינה", 3177952, ("Kosher in Cortina d'Ampezzo", "The Dolomites, winter and summer: chef, meals, Shabbat, holidays, minyan")),
 ]
 def rd(p): return io.open(p, encoding="utf-8").read()

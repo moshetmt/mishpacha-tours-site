@@ -2,11 +2,9 @@
 
 Source: https://mishpachatours.com/es/kosher-chalet-val-thorens/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-1/13
-
 [Inicio](https://mishpachatours.com/es/) / [Our kosher chalets](https://mishpachatours.com/es/kosher-chalets/) / El chalet de Val Thorens, esquí a pie de puerta
 
-# El chalet de Val Thorens, esquí a pie de puerta *165 m², tres habitaciones con baño, orientado al sur*
+# Chalet Belle Étoile, Val Thorens *esquís en la puerta, 3 suites*
 
 Un chalé privado de madera sobre Val Thorens, en Les 3 Vallées, orientado al sur.
 
@@ -32,6 +30,8 @@ Una pista de esquí empieza en la puerta; el pueblo está a pocos minutos a pie.
 - **Cocina.** Kosherizada por nuestro equipo antes de su llegada, incluido. Un chef cocina en el chalé, o llegan comidas kosher listas para calentar.
 
 El chalet acoge hasta 10 personas, 8 adultos como máximo. La disponibilidad se confirma para sus fechas en cada solicitud.
+
+## El chalé *en imágenes*
 
 ## Shabat *en el chalé*
 
@@ -92,7 +92,7 @@ Comidas kosher entregadas en su alojamiento en la estación, encargadas al Beth 
 
 ¿Cuánto cuesta?
 
-El precio depende de sus fechas, del número de personas y de los servicios que elija. Recibe un presupuesto por escrito antes de comprometerse.
+Desde 9.500 € por semana el chalé. El precio final depende de sus fechas, del número de personas y de los servicios que elija: recibe un presupuesto por escrito antes de comprometerse. La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
 
 ¿Cuántas personas caben?
 
@@ -114,11 +114,11 @@ Un chef cocina comidas kosher en el chalé, o se entregan comidas preparadas. Nu
 
 Llevamos los bochurim y un Sefer Torá al chalé para Shabat, a petición. Indíquenos sus fechas con antelación.
 
-## ¿Prefiere un chalet entero? *Cinco chalets kosher*
+## ¿Prefiere un chalet entero? *Chalets kosher*
 
 [**Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet de las pistas**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)
 
-[Ver los cinco chalets](https://mishpachatours.com/es/kosher-chalets/)
+[Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
 ## Val Thorens: su semana, *organizada*.
 

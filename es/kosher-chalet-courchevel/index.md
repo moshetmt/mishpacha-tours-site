@@ -2,11 +2,9 @@
 
 Source: https://mishpachatours.com/es/kosher-chalet-courchevel/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-1/19
-
 [Inicio](https://mishpachatours.com/es/) / [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/) / Un chalé kosher en Courchevel
 
-# Un chalé kosher en Courchevel *5 suites, piscinas climatizadas, un chef privado*
+# Chalet Flocon Doré, Courchevel *5 suites, piscinas climatizadas, chef privado*
 
 Un chalé en el corazón de Courchevel, en Les 3 Vallées.
 
@@ -33,6 +31,8 @@ Cinco habitaciones con baño para 10 a 14 personas, piscinas climatizadas, hamma
 - **Cocina.** Preparada como kosher por nuestro equipo antes de su llegada, incluido. Un chef privado cocina todas las comidas.
 
 La disponibilidad se confirma para sus fechas con cada solicitud.
+
+## El chalé *en imágenes*
 
 ## Shabat *en el chalé*
 
@@ -93,7 +93,7 @@ Comidas kosher entregadas en su alojamiento en la estación, encargadas al Beth 
 
 ¿Cuánto cuesta?
 
-El precio depende de sus fechas, del número de personas y de los servicios que elija. Recibe un presupuesto por escrito antes de comprometerse.
+Desde 17.500 € por semana el chalé. El precio final depende de sus fechas, del número de personas y de los servicios que elija: recibe un presupuesto por escrito antes de comprometerse. La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
 
 ¿Cuántas personas caben?
 
@@ -111,11 +111,11 @@ Llevamos los bochurim y un Sefer Torá al chalé para Shabat, a petición. Indí
 
 A pie en cinco o seis minutos, o con la lanzadera privada de 9 h a 18 h.
 
-## ¿Prefiere un chalet entero? *Cinco chalets kosher*
+## ¿Prefiere un chalet entero? *Chalets kosher*
 
 [**Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet de las pistas**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
-[Ver los cinco chalets](https://mishpachatours.com/es/kosher-chalets/)
+[Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
 ## Courchevel: su semana, *organizada*.
 

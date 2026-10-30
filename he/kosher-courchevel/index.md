@@ -33,6 +33,8 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 קורשבל · עם Winter Prestige
 
+החל מ־17,500 € לשבוע
+
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)

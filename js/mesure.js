@@ -150,7 +150,7 @@
   function montrer() {
     if (bar) { bar.hidden = false; return; }
     bar = document.createElement('div');
-    bar.className = 'cb' + (/\/plan-your-trip\/?$/.test(location.pathname) ? ' cb-haut' : '');
+    bar.className = 'cb';
     bar.setAttribute('role', 'dialog');
     bar.setAttribute('aria-label', 'Cookies');
     var p = document.createElement('p');

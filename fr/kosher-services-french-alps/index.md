@@ -33,19 +33,30 @@ Mishpacha Tours l’organise dans les stations de l’Isère, de la Savoie et de
 
 Strictement casher : les repas sont préparés sous la surveillance du Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Le détail vous est remis par écrit avec le devis.
 
-## Repas livrés : *les prix*
+## Les prix : *repas, chef et chalets*
 
-Par personne et par jour. Ce sont des prix de départ, selon la station et la saison : vous recevez le total exact par écrit avant de payer.
+Repas : par personne et par jour. Ce sont des prix de départ, selon la station et la saison : vous recevez le total exact par écrit avant de payer.
 
-- Formule complète : matin, midi et soir**à partir de 75 €**
-- Soir seul : entrée, plat, dessert**à partir de 27 €**
+- Formule complète : matin, midi et soir**à partir de 78 €**
+- Soir seul : entrée, plat, dessert**à partir de 28 €**
 - Chabbat : dîner du vendredi soir**45 €**
 - Chabbat : déjeuner du samedi**40 €**
-- Seouda chlichit**35 €**
-- Soirée pizza avec un pizzaiolo, pour les groupes**35 € par personne, à partir de 400 €**
+- Seouda chlichit**30 €**
+- Soirée pizza avec un pizzaiolo, pour les groupes**Sur demande**
 
-- Livraison tous les deux jours, toute station française**180 à 350 €**
-- Cachérisation de la cuisine du chalet que vous louez**à partir de 680 €**
+- Livraison tous les deux jours, toute station française**180 à 360 €**
+- Cachérisation de la cuisine du chalet que vous louez**Sur demande**
+- Chef privé casher dans votre chalet, par jour**à partir de 1 568 €**
+
+### Un chalet *pour la semaine*
+
+Par chalet et par semaine. Prix de départ : le prix pour vos dates vous est remis par écrit avec le devis.
+
+- [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)**à partir de 9 500 €**
+- [Chalet Rochebrune, Les Deux Alpes](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)**à partir de 13 000 €**
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)**à partir de 13 500 €**
+- [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)**à partir de 17 500 €**
+- [Chalet Loup Blanc, près de Megève](https://mishpachatours.com/fr/kosher-chalet-megeve/)**à partir de 23 500 €**
 
 Enfants jusqu’à 5 ans : environ 30 % de moins. La livraison se paie par passage ; quand plusieurs groupes séjournent dans la même station la même semaine, ils la partagent. Commande au plus tard le mercredi soir, paiement complet à la commande. Plata ou koumkoum en vente pour le Chabbat. Surveillance : Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
 
@@ -103,7 +114,7 @@ Oui. Les repas sont préparés sous la surveillance du Beth Habad de Grenoble Al
 
 Peut-on se faire livrer des repas casher à Val Thorens ou à l’Alpe d’Huez ?
 
-Oui, dans toutes les stations françaises, tous les deux jours, de 180 à 350 € la livraison selon la station. Envoyez-nous la station, les dates et le nombre de personnes.
+Oui, dans toutes les stations françaises, tous les deux jours, de 180 à 360 € la livraison selon la station. Envoyez-nous la station, les dates et le nombre de personnes.
 
 Peut-on avoir un minyan et un Sefer Torah en station ?
 
@@ -115,7 +126,7 @@ Un allumage, une lecture de la Méguila, un repas de Pourim, Pessah sur demande�
 
 Organisez-vous le chalet vous-mêmes ?
 
-Oui. Mishpacha Tours prend votre demande et l’organise avec son équipe casher basée dans les Alpes. Vous traitez avec un seul interlocuteur du début à la fin.
+Oui. Mishpacha Tours prend votre demande et l’organise avec son équipe casher basée dans les Alpes. Vous traitez avec un seul interlocuteur du début à la fin. Le séjour est devisé et facturé par notre équipe casher basée dans les Alpes.
 
 Combien de temps à l’avance faut-il demander ?
 
@@ -123,7 +134,7 @@ Le plus tôt possible, et avant les vacances scolaires. Un chef pour une semaine
 
 Combien cela coûte-t-il ?
 
-Les repas livrés partent de 27 € par personne et par jour pour le soir seul et de 75 € pour la formule complète, plus la livraison ; les repas de Chabbat coûtent de 35 à 45 €. Un chalet avec chef privé se chiffre pour votre groupe. Vous recevez un devis écrit avant de vous engager.
+Les repas livrés partent de 28 € par personne et par jour pour le soir seul et de 78 € pour la formule complète, plus la livraison ; les repas de Chabbat coûtent de 30 à 45 €. Un chef privé part de 1 568 € par jour, un chalet de 9 500 € la semaine. Vous recevez un devis écrit avant de vous engager.
 
 ## Votre semaine casher dans les Alpes, *organisée*.
 

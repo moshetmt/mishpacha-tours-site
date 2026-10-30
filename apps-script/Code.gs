@@ -133,6 +133,11 @@ function doGet(e) {
     var r = formater_(sh, true);
     return ContentService.createTextOutput('Feuille mise en forme : ' + r);
   }
+  // Grille tarifaire (Grille.gs, hors depot public) : pages de saisie et JSON public des prix.
+  if (typeof grilleRoute_ === 'function') {
+    var g = grilleRoute_(p);
+    if (g) return g;
+  }
   return ContentService.createTextOutput('Mishpacha Tours form endpoint - OK');
 }
 

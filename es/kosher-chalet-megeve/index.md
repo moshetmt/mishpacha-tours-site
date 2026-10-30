@@ -2,11 +2,9 @@
 
 Source: https://mishpachatours.com/es/kosher-chalet-megeve/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-1/13
-
 [Inicio](https://mishpachatours.com/es/) / [Nuestros chalets kosher](https://mishpachatours.com/es/kosher-chalets/) / El chalet del Mont Blanc, cerca de Megève
 
-# El chalet del Mont Blanc, cerca de Megève *10 habitaciones twin, sauna y jacuzzi frente al Mont Blanc*
+# Chalet Loup Blanc, cerca de Megève *10 habitaciones frente al Mont Blanc*
 
 Un gran chalet en el valle del Mont Blanc, a pocos minutos de Megève, pensado para varias familias a la vez.
 
@@ -26,82 +24,84 @@ Diez habitaciones twin, dos buhardillas y un apartamento anexo con su propia pue
 
 Todas las habitaciones tienen dos camas individuales, así que cada familia dispone las camas como necesita. La disponibilidad se confirma para sus fechas con cada solicitud.
 
+## El chalé *en imágenes*
+
 ## Shabat *en el chalet*
 
 El chef prepara en el chalet las comidas de Shabat y de las fiestas, o las comidas llegan antes del encendido de velas. Para un minyán, llevamos los bajurim y un Sefer Torá: con los hombres de su grupo, Shajarit se celebra en su salón.
 
 Estrictamente kosher, todo lo que se sirve es Jalav Yisrael. Los detalles de la supervisión se entregan por escrito con el presupuesto.
 
-## How it *works*
+## Cómo *funciona*
 
 1. **1**
 
-   ### Tell us
+   ### Cuéntenos
 
-   Your dates, the number of families and what you want. By WhatsApp or with the form at the bottom of this page. Hebrew-speaking guests are welcome.
+   Sus fechas, el número de familias y lo que desea. Por WhatsApp o con el formulario al final de esta página. Los viajeros de habla hebrea son bienvenidos.
 2. **2**
 
-   ### We check the chalet
+   ### Comprobamos el chalé
 
-   Our team in the Alps confirms the chalet for your dates, then the chef, the transfers and the minyan.
+   Nuestro equipo en los Alpes confirma el chalé para sus fechas, y después el chef, los traslados y el minyan.
 3. **3**
 
-   ### You get one programme
+   ### Recibe un programa
 
-   A day-by-day programme and one written quote for the whole stay, before you commit to anything.
+   Un programa día a día y un presupuesto por escrito para toda la estancia, antes de comprometerse.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20/%20Number%20of%20families%3A)[Get a quote](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20/%20Number%20of%20families%3A)[Pedir presupuesto](#book)
 
-## Getting *there*
+## Cómo *llegar*
 
-- **From Geneva airport.** About 1 h 15 by road. Lyon-Saint-Exupéry, about 2 h 15.
-- **Transfers.** Vans with car seats from the airport to the chalet and back, on quote.
-- **Land in Lyon with a few hours to spare?** [The Stopover](https://mishpachatours.com/es/tours/stopover/): a private 3 hour tour of Jewish Lyon between the plane and the road.
+- **Desde el aeropuerto de Ginebra.** Unos 1 h 15 por carretera. Lyon-Saint-Exupéry, unas 2 h 15.
+- **Traslados.** Furgonetas con sillas infantiles del aeropuerto al chalé y de vuelta, con presupuesto.
+- **¿Aterriza en Lyon con unas horas libres?** [La Escala](https://mishpachatours.com/es/tours/stopover/): una visita privada de 3 horas por el Lyon judío entre el avión y la carretera.
 
-## The Mont Blanc Chalet: *questions*
+## El chalet del Mont Blanc: *preguntas*
 
-How much does it cost?
+¿Cuánto cuesta?
 
-The price depends on your dates, the number of people and the services you choose. You receive a written quote before you commit to anything.
+Desde 23.500 € por semana el chalé. El precio final depende de sus fechas, del número de personas y de los servicios que elija: recibe un presupuesto por escrito antes de comprometerse. La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
 
-How many people can stay?
+¿Cuántas personas caben?
 
-Ten twin bedrooms and two attic rooms, plus the apartment: three or four families under one roof, each with its own bedrooms.
+Diez habitaciones twin y dos buhardillas, más el apartamento: tres o cuatro familias bajo un mismo techo, cada una con sus habitaciones.
 
-Is the apartment separate?
+¿El apartamento es independiente?
 
-It adjoins the chalet and has its own front door, living room and kitchen. One family can have it to itself.
+Es anexo al chalet y tiene su propia puerta de entrada, salón y cocina. Una familia puede tenerlo para ella sola.
 
-Who cooks the meals?
+¿Quién cocina las comidas?
 
-A chef cooks kosher meals in the chalet, or ready meals are delivered. Our team kashers the kitchen before you arrive.
+Un chef cocina comidas kosher en el chalé, o se entregan comidas preparadas. Nuestro equipo kosheriza la cocina antes de su llegada.
 
-Is there a minyan?
+¿Hay minyan?
 
-We bring the bochurim and a Sefer Torah to the chalet for Shabbat, on request. Tell us your dates early.
+Llevamos los bochurim y un Sefer Torá al chalé para Shabat, a petición. Indíquenos sus fechas con antelación.
 
-How do we get to the slopes?
+¿Cómo llegamos a las pistas?
 
-A shuttle stops at the foot of the chalet every twenty minutes; the lifts are six to eight minutes away.
+Una lanzadera para al pie del chalet cada veinte minutos; los remontes están a seis u ocho minutos.
 
-## ¿Prefiere un chalet entero? *Cinco chalets kosher*
+## ¿Prefiere un chalet entero? *Chalets kosher*
 
 [**Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet de las pistas**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
-[Ver los cinco chalets](https://mishpachatours.com/es/kosher-chalets/)
+[Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
-## Les Deux Alpes: su semana, *organizada*.
+## Megève: su semana, *organizada*.
 
 Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
-## Keep *reading*
+## Siga *leyendo*
 
-- [Our kosher chalets](https://mishpachatours.com/es/kosher-chalets/)
-- [Kosher in Megève](https://mishpachatours.com/es/kosher-megeve/)
-- [Our chalet in Les Deux Alpes](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
-- [Kosher services in the Alps](https://mishpachatours.com/es/kosher-services-french-alps/)
+- [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/)
+- [Kosher en Megève](https://mishpachatours.com/es/kosher-megeve/)
+- [Nuestro chalé en Les Deux Alpes](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
+- [Servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/)
 
-Sources: our team in the Alps (document and messages of 16/10/2026) for the chalet, the shuttle and the services. Compiled by Mishpacha Tours from these sources. Checked 7 October 2026.
+Fuentes: nuestro equipo en los Alpes (documento y mensajes del 16/10/2026) para el chalet, la lanzadera y los servicios. Redactado por Mishpacha Tours a partir de estas fuentes. Verificado el 7 de octubre de 2026.
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

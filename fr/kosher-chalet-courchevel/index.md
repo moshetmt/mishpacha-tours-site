@@ -2,11 +2,9 @@
 
 Source: https://mishpachatours.com/fr/kosher-chalet-courchevel/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-1/19
-
 [Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Un chalet casher à Courchevel
 
-# Un chalet casher à Courchevel *5 suites, piscines chauffées, un chef privé*
+# Chalet Flocon Doré, Courchevel *5 suites, piscines chauffées, chef privé*
 
 Un chalet au cœur de Courchevel, dans Les 3 Vallées.
 
@@ -33,6 +31,8 @@ Cinq chambres avec salle de bain pour 10 à 14 personnes, piscines chauffées, h
 - **Cuisine.** Cachérisée par notre équipe avant votre arrivée, incluse. Un chef privé prépare chaque repas.
 
 La disponibilité est confirmée pour vos dates à chaque demande.
+
+## Le chalet *en images*
 
 ## Chabbat *au chalet*
 
@@ -93,7 +93,7 @@ Des repas casher livrés à votre hébergement en station, commandés auprès du
 
 Combien ça coûte ?
 
-Le prix dépend de vos dates, du nombre de personnes et des services que vous choisissez. Vous recevez un devis écrit avant tout engagement.
+À partir de 17 500 € la semaine pour le chalet. Le prix final dépend de vos dates, du nombre de personnes et des services que vous choisissez : vous recevez un devis écrit avant tout engagement. Le séjour est devisé et facturé par notre équipe casher basée dans les Alpes.
 
 Combien de personnes peut-on loger ?
 
@@ -111,11 +111,11 @@ Comment rejoindre les pistes ?
 
 À pied en cinq ou six minutes, ou avec la navette privée de 9 h à 18 h.
 
-## Un chalet rien que pour vous ? *Cinq chalets casher*
+## Un chalet rien que pour vous ? *Des chalets casher*
 
 [**Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet des pistes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
-[Voir les cinq chalets](https://mishpachatours.com/fr/kosher-chalets/)
+[Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
 ## Courchevel : votre semaine, *organisée*.
 

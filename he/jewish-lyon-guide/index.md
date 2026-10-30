@@ -87,7 +87,7 @@ Source: https://mishpachatours.com/he/jewish-lyon-guide/ (HTML version). Every p
 
 פתחו](https://mishpachatours.com/he/kosher-val-thorens/)[### כשר בקורשבל
 
-פתחו](https://mishpachatours.com/he/kosher-courchevel/)[### כשר במז'ב
+פתחו](https://mishpachatours.com/he/kosher-courchevel/)[### כשר במג'ב
 
 פתחו](https://mishpachatours.com/he/kosher-megeve/)[### כשר באלפ ד'ואז
 
@@ -191,7 +191,7 @@ Source: https://mishpachatours.com/he/jewish-lyon-guide/ (HTML version). Every p
 
 פתחו](https://mishpachatours.com/he/is-lyon-safe-for-jewish-visitors/)[### סביב ליון והאלפים
 
-גרנובל, אנסי, אקס-לה-בן, קורשבל, מז'ב: איפה מתפללים ואוכלים
+גרנובל, אנסי, אקס-לה-בן, קורשבל, מג'ב: איפה מתפללים ואוכלים
 
 פתחו](https://mishpachatours.com/he/jewish-life-around-lyon/)[### בתוך בית הכנסת הגדול
 

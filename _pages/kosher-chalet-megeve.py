@@ -6,7 +6,7 @@ PAGE = dict(
   slug="kosher-chalet-megeve",
   title="Kosher Chalet near Megève, 10 Bedrooms, Mont Blanc",
   desc="A kosher chalet near Megève facing Mont Blanc: ten twin bedrooms, two attic rooms, an adjoining apartment, sauna and jacuzzi. Chef, Shabbat and minyan. One written quote.",
-  h1="The Mont Blanc Chalet, near Megève", ital="10 twin bedrooms, sauna and jacuzzi facing Mont Blanc",
+  h1="Chalet Loup Blanc, near Megève", ital="10 bedrooms facing Mont Blanc",
   intro="A large chalet in the Mont Blanc valley, a few minutes from Megève, built for several families at once. Ten twin bedrooms, two attic rooms and an adjoining apartment with its own front door. A sauna and a jacuzzi facing Mont Blanc, a shuttle at the foot of the chalet every twenty minutes to the lifts. Our team koshers the kitchen, a chef cooks or kosher meals are delivered, and Shabbat comes with a minyan on request. One request, one written quote.",
   chips=["10 twin bedrooms + 2 attic rooms", "Adjoining apartment", "Sauna, jacuzzi, Mont Blanc", "On written quote"],
   illus="flat-ski.png",
@@ -37,7 +37,7 @@ PAGE = dict(
 <li><b>Land in Lyon with a few hours to spare?</b> <a href="../tours/stopover/">The Stopover</a>: a private 3 hour tour of Jewish Lyon between the plane and the road.</li>
 </ul>"""),
     dict(type="faq", h2="The Mont Blanc Chalet: <i>questions</i>", items=[
-      ("How much does it cost?", "The price depends on your dates, the number of people and the services you choose. You receive a written quote before you commit to anything."),
+      ("How much does it cost?", "<span data-prix-tpl='From €{ch4_basse_vente} per week'>From €23,500 per week</span> for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("How many people can stay?", "Ten twin bedrooms and two attic rooms, plus the apartment: three or four families under one roof, each with its own bedrooms."),
       ("Is the apartment separate?", "It adjoins the chalet and has its own front door, living room and kitchen. One family can have it to itself."),
       ("Who cooks the meals?", "A chef cooks kosher meals in the chalet, or ready meals are delivered. Our team kashers the kitchen before you arrive."),
@@ -48,7 +48,7 @@ PAGE = dict(
   ],
   related=[("../kosher-chalets/", "Our kosher chalets"), ("../kosher-megeve/", "Kosher in Megève"), ("../kosher-chalet-les-deux-alpes/", "Our chalet in Les Deux Alpes"), ("../kosher-services-french-alps/", "Kosher services in the Alps")],
   source="Sources: our team in the Alps (document and messages of 16/10/2026) for the chalet, the shuttle and the services.",
-  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher chalet near Megève", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Megève"}, "serviceType": "Kosher chalet with chef or delivered meals, Shabbat and minyan near Megève", "url": "https://mishpachatours.com/kosher-chalet-megeve/"},
+  jsonld={"@context": "https://schema.org", "@type": "Service", "name": "Kosher chalet near Megève", "provider": {"@id": "https://mishpachatours.com/#organization"}, "areaServed": {"@type": "Place", "name": "Megève"}, "serviceType": "Kosher chalet with chef or delivered meals, Shabbat and minyan near Megève", "url": "https://mishpachatours.com/kosher-chalet-megeve/", "offers": {"@type": "Offer", "priceCurrency": "EUR", "priceSpecification": {"@type": "UnitPriceSpecification", "minPrice": 23500, "priceCurrency": "EUR", "unitText": "week"}}},
   ticket=True,
   VERIF=[
     "Ground floor (lounge and bar, dining room, kitchen, ski room, twin bedroom), apartment (living room, kitchen, twin + bunk bedrooms), 7 twin bedrooms with shower rooms on the first floor around a landing with terrace, 2 attic rooms: agency PDF « configuration twin » of 16/10/2026.",

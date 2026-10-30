@@ -4,9 +4,9 @@
 PAGE = dict(
   slug="kosher-chalets",
   title="Kosher Chalets in the Alps: Chef, Shabbat, Minyan",
-  desc="Five kosher chalets in the Alps, in Les Deux Alpes, Courchevel, Megève and Val Thorens: a private chef, Shabbat and a minyan in the chalet. One request, one written quote.",
+  desc="Our kosher chalets in the Alps, in Les Deux Alpes, Courchevel, Megève and Val Thorens: a private chef, Shabbat and a minyan in the chalet. One request, one written quote.",
   h1="Our kosher chalets", ital="in Les Deux Alpes, Courchevel, Megève and Val Thorens",
-  intro="Five chalets, everything kosher taken care of: two in Les Deux Alpes, one in Courchevel, one near Megève, one in Val Thorens with a ski path at the door. The kitchen is kashered, a chef cooks or meals are delivered, a minyan comes on request. One programme, one quote.",
+  intro="Our chalets, everything kosher taken care of: Les Deux Alpes, Courchevel, near Megève, and Val Thorens with a ski path at the door. The kitchen is kashered, a chef cooks or meals are delivered, a minyan comes on request. One programme, one quote.",
   chips=["Les Deux Alpes and Courchevel", "Private chef or delivered meals", "Shabbat and minyan in the chalet", "Availability confirmed for your dates"],
   illus="flat-ski.png",
   crumb=("../alps/", "The Alps, strictly kosher"),
@@ -26,6 +26,7 @@ PAGE = dict(
     ]),
     dict(type="faq", h2="Kosher chalets: <i>questions</i>", items=[
       ("Which chalet should we choose?", "In Les Deux Alpes, the 15-bed chalet has 6 bedrooms plus a nursery, two minutes from the slopes, and the Slope Chalet has 6 bedrooms and 13 beds with the skis on at the door; the two are five minutes apart, for four families. Courchevel has 5 en-suite bedrooms, heated pools and a private shuttle, in the 3 Valleys. Val Thorens has 3 en-suite bedrooms for up to 10 guests, with a ski path at the door, also in the 3 Valleys."),
+      ("How much does a chalet cost?", "For a week in the chalet: Val Thorens <span data-prix-tpl='from €{ch5_basse_vente}'>from €9,500</span>, Les Deux Alpes <span data-prix-tpl='from €{ch2_basse_vente}'>from €13,000</span>, Courchevel <span data-prix-tpl='from €{ch3_basse_vente}'>from €17,500</span>, near Megève <span data-prix-tpl='from €{ch4_basse_vente}'>from €23,500</span>. The price for your dates and your services comes in one written quote. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("Are the chalets available for our dates?", "Availability is confirmed with each request. Send your dates and we check the same day."),
       ("Is everything strictly kosher?", "Yes. The kitchen is kashered by our team and everything served is Chalav Yisrael. The supervision details come in writing with your quote."),
       ("Can we have a minyan?", "Yes, on request: we bring the bochurim and a Sefer Torah to the chalet for Shabbat."),

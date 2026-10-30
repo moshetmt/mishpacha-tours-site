@@ -2,11 +2,9 @@
 
 Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-1/10
-
 [דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה המסלולים בלה דז אלפ
 
-# צ'אלה המסלולים בלה דז אלפ *6 חדרי שינה, 13 מיטות, מגלשיים בדלת*
+# צ'אלה רושברון, לה דז אלפ *6 חדרים, סקי מהדלת*
 
 צ'אלה של 165 מ״ר בלה דז אלפ, חמישים מטר מהמסלולים: נועלים את המגלשיים ליד הדלת.
 
@@ -33,6 +31,8 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 - **מטבח.** מוכשר בידי הצוות שלנו לפני שתגיעו, כלול במחיר. שף מבשל בצ'אלה, או שארוחות כשרות מגיעות מוכנות לחימום.
 
 המיטות מוכנות עם ההגעה בחורף, מצעים ומגבות כלולים. הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+## הצ'אלה *בתמונות*
 
 ## שבת *בצ'אלה*
 
@@ -71,7 +71,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 כמה זה עולה?
 
-המחיר תלוי בתאריכים, במספר המשתתפים ובשירותים שתבחרו. אתם מקבלים הצעת מחיר בכתב לפני שאתם מתחייבים לדבר.
+החל מ־13,000 € לשבוע לצ'אלה. המחיר הסופי תלוי בתאריכים, במספר המשתתפים ובשירותים שתבחרו: אתם מקבלים הצעת מחיר בכתב לפני שאתם מתחייבים לדבר. השהייה מתומחרת ומחויבת על ידי הצוות הכשר שלנו שבסיסו באלפים.
 
 כמה אנשים יכולים להתארח?
 
@@ -93,11 +93,11 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 חמישים מטר: נועלים את המגלשיים ליד הדלת. נקודת המפגש של בית הספר לסקי במרחק שלוש מאות מטר.
 
-## מעדיפים צ'אלה שלם? *חמש צ'אלות כשרות*
+## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מז'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
-[לראות את חמש הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
+[לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
 ## לה דז אלפ: השבוע שלכם, *מאורגן*.
 
