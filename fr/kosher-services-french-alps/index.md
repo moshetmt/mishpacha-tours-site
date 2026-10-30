@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-services-french-alps/ (HTML version
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Services casher dans les Alpes
 
-# Services casher dans les Alpes *chalet, chef, repas, Shabbat, fêtes, minyan : une seule demande*
+# Services casher dans les Alpes *chalet, chef, repas, Shabbat*
 
 Une semaine casher à la montagne n’oblige ni à emporter une valise de nourriture depuis Lyon, ni à passer Shabbat seul.
 

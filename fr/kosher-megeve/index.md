@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-megeve/ (HTML version). Every page 
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Megève, strictement casher
 
-# Megève, strictement casher *445 km de pistes reliées, une seule demande pour le casher*
+# Megève, strictement casher *445 km de pistes reliées*
 
 Megève se trouve à environ 1 050 m, en Haute-Savoie, sur le domaine skiable de l’Évasion Mont-Blanc, 445 km de pistes.
 
@@ -20,9 +20,9 @@ Skiez à Megève le jour. Retrouvez le soir une table dressée, un minyan et Cha
 
 Nous organisons votre séjour casher : chef privé ou repas livrés, Chabbat, minyan et Sefer Torah, en un seul devis écrit.
 
-## Notre chalet *près de Megève*
+## Chalet Loup Blanc *près de Megève*
 
-### [Le chalet du Mont Blanc, pour plusieurs familles](https://mishpachatours.com/fr/kosher-chalet-megeve/)
+### [Chalet Loup Blanc, près de Megève](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 
 - **10 + 2**chambres twin + chambres sous le toit
 - **3 à 4**familles
@@ -49,6 +49,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 - **Un séjour sur mesure, de A à Z.** Chalet, chef ou repas livrés, transferts, Shabbat, les fêtes, un minyan : une demande, un devis. Les familles et les groupes venus de l’étranger sont notre cœur de cible ; pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.
 
 Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis. Détail de chaque service : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
+
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Casher *à Megève*
 
@@ -144,6 +146,13 @@ Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau
 ## Megève : votre semaine, *organisée*.
 
 Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
+
+## Stations *voisines*
+
+- [Chamonix casher](https://mishpachatours.com/kosher-chamonix/)
+- [Annecy casher](https://mishpachatours.com/kosher-annecy/)
+- [Courmayeur casher (Italie)](https://mishpachatours.com/kosher-courmayeur/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
 
 ## Pour *aller plus loin*
 

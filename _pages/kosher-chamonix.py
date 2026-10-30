@@ -3,7 +3,7 @@ PAGE = dict(
   slug="kosher-chamonix",
   title="Kosher Chamonix: Chef, Shabbat and Minyan",
   desc="Kosher Chamonix under Mont Blanc, in winter and summer: private chef in your chalet, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One quote.",
-  h1="Chamonix, strictly kosher", ital="under Mont Blanc, in winter and in summer",
+  h1="Chamonix, strictly kosher", ital="under Mont Blanc",
   intro="Chamonix sits at about 1,040 m in the Arve valley, at the foot of Mont Blanc. The Aiguille du Midi cable car climbs to 3,842 m. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,040 m, Aiguille du Midi 3,842 m", "About 1 h 15 from Geneva, 2 h 15 and more from Lyon", "Winter and summer", "Checked 8 October 2026"],
   illus="flat-ski.png",

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-shabbat-meals-catering-lyon/ (HTML 
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Traiteurs casher et repas de Shabbat à Lyon
 
-# Traiteurs casher et repas de Shabbat à Lyon *qui cuisine, comment commander*
+# Traiteurs casher *à Lyon, repas de Shabbat, qui cuisine*
 
 Six traiteurs de la liste officielle du Beth Din de Lyon cuisinent pour le Shabbat, et les maisons Chabad reçoivent sur demande. Nous vous aidons à rédiger, et vous payez directement le traiteur.
 
@@ -25,7 +25,7 @@ Six traiteurs de la liste officielle du Beth Din de Lyon cuisinent pour le Shabb
 
 ## Livraison à *votre hôtel*
 
-Demandez à chacun : livrez-vous à mon hôtel, quel jour et à quelle heure, et que vous faut-il de ma part ? Prévenez l’hôtel qu’une livraison arrive et demandez s’il peut conserver les plats jusqu’au vendredi après-midi.
+Demandez à chacun : livrez-vous à mon hôtel, quel jour et à quelle heure, et que vous faut-il de ma part ? Prévenez l’hôtel qu’une livraison arrive et demandez s’il peut conserver les plats jusqu’au vendredi après-midi. Associez le repas à [une visite guidée des lieux juifs de Lyon](https://mishpachatours.com/jewish-lyon-tours/) avant Shabbat.
 
 Trois établissements de la liste du Beth Din indiquent la vente à emporter ou la livraison : La Darka, Planet Sandwich et, sur Deliveroo et Uber Eats, Mika Sushi. Ce sont des options pour les jours de semaine. Rien n’est livré le Shabbat.
 

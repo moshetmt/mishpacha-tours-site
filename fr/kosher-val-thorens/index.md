@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-val-thorens/ (HTML version). Every 
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Val Thorens, strictement casher
 
-# Val Thorens, strictement casher *à 2 300 m, la plus haute station d’Europe*
+# Val Thorens, strictement casher *la plus haute d’Europe*
 
 Val Thorens se trouve à 2 300 m, dans Les 3 Vallées, la plus haute station de ski d’Europe.
 
@@ -20,9 +20,9 @@ Skiez à Val Thorens le jour. Retrouvez le soir une table dressée, un minyan et
 
 Sa saison court du 21 novembre 2026 au 2 mai 2027. Nous organisons votre séjour casher : chef privé ou repas livrés, Chabbat, minyan et Sefer Torah, en un seul devis écrit.
 
-## Notre chalet *à Val Thorens*
+## Chalet Belle Étoile *à Val Thorens*
 
-### [Le chalet de Val Thorens, skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+### [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 - **165 m²**chalet privé
 - **3**chambres avec salle de bain
@@ -49,6 +49,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 - **Un séjour sur mesure, de A à Z.** Chalet, chef ou repas livrés, transferts, Shabbat, les fêtes, un minyan : une demande, un devis. Les familles et les groupes venus de l’étranger sont notre cœur de cible ; pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.
 
 Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Casher *à Val Thorens*
 
@@ -139,6 +141,14 @@ Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Al
 ## Val Thorens : votre semaine, *organisée*.
 
 Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
+
+## Stations *voisines*
+
+- [Courchevel casher](https://mishpachatours.com/kosher-courchevel/)
+- [La Plagne casher](https://mishpachatours.com/kosher-la-plagne/)
+- [Les Arcs casher](https://mishpachatours.com/kosher-les-arcs/)
+- [Val d’Isère casher](https://mishpachatours.com/kosher-val-disere/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
 
 ## Pour *aller plus loin*
 

@@ -30,6 +30,8 @@ STATIONS = {
  'kosher-st-moritz': ('stock/st-st-moritz.jpg', dict(en="St. Moritz", fr="Saint-Moritz", es="St. Moritz", he='סנט מוריץ')),
  'kosher-crans-montana': ('stock/st-crans-montana.jpg', dict(en="Crans-Montana", fr="Crans-Montana", es="Crans-Montana", he='קראן מונטנה')),
  'kosher-verbier': ('stock/st-verbier.jpg', dict(en="Verbier", fr="Verbier", es="Verbier", he='ורבייה')),
+ 'kosher-gstaad': ('stock/st-gstaad.jpg', dict(en="Gstaad", fr="Gstaad", es="Gstaad", he='גשטאד')),
+ 'kosher-davos': ('stock/st-davos.jpg', dict(en="Davos", fr="Davos", es="Davos", he='דאבוס')),
  'kosher-cervinia': ('stock/st-cervinia.jpg', dict(en="Cervinia", fr="Cervinia", es="Cervinia", he='צרביניה')),
  'kosher-courmayeur': ('stock/st-courmayeur.jpg', dict(en="Courmayeur", fr="Courmayeur", es="Courmayeur", he='קורמאיור')),
  'kosher-cortina': ('stock/st-cortina.jpg', dict(en="Cortina d'Ampezzo", fr="Cortina d'Ampezzo", es="Cortina d'Ampezzo", he='קורטינה')),
@@ -38,6 +40,7 @@ STATIONS = {
 PAGES = {s: (p, 'station', f"Kosher stay in {n['en']}") for s, (p, n) in STATIONS.items()}
 PAGES.update({
  'kosher-services-french-alps': ('stock/st-val-thorens.jpg', 'alps', 'Kosher services in the Alps'),
+ 'kosher-ski-anywhere': ('stock/st-anywhere.jpg', 'alps', 'Kosher stay, any resort'),   # 30/10
  'alps': ('chalet/wp-soleil.jpg', 'alps', 'Kosher stay in the Alps'),            # 15/10 Mendel : la piste brunâtre « fait de la peine », neige éclatante
  'kosher-ski-holidays-french-alps': ('chalet/wp-soleil.jpg', 'alps', 'Kosher ski holiday in the Alps'),
  'summer-in-the-alps-jewish-families': ('stock/riviera-ete.jpg', 'alps', 'Kosher summer in the Alps'),

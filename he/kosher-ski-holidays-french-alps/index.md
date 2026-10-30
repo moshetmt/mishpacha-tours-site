@@ -22,7 +22,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 ## הצ'אלות הכשרות שלנו *באלפים*
 
-### [הצ'אלה הכשרה שלנו, למרגלות המסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
+### [צ'אלה קינג דייוויד, לה דז אלפ](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
 
 - **300 מ"ר**צ'אלה פרטית
 - **6 + 1**חדרי שינה + חדר תינוק
@@ -39,7 +39,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [צ'אלה המסלולים, נועלים מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)
+### [צ'אלה רושברון, לה דז אלפ](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)
 
 - **6**חדרי שינה
 - **עד 13**אורחים
@@ -56,7 +56,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [צ'אלה כשרה בלב קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)
+### [צ'אלה פלוקון דורה, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)
 
 - **5**חדרי שינה עם חדר רחצה
 - **10 עד 14**אורחים
@@ -73,7 +73,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [צ'אלה המון בלאן, לכמה משפחות](https://mishpachatours.com/he/kosher-chalet-megeve/)
+### [צ'אלה לו בלאן, ליד מג'ב](https://mishpachatours.com/he/kosher-chalet-megeve/)
 
 - **10 + 2**חדרי טווין + חדרי עליית גג
 - **3 עד 4**משפחות
@@ -90,7 +90,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [הצ'אלה בואל טורנס, מגלשיים בדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+### [צ'אלה בל אטואל, ואל טורנס](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
 - **165 מ"ר**צ'אלה פרטית
 - **3**חדרי שינה עם חדר רחצה
@@ -171,6 +171,8 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 | [סנט מוריץ](https://mishpachatours.com/he/kosher-st-moritz/) |  |  |
 | [קראן מונטנה](https://mishpachatours.com/he/kosher-crans-montana/) |  |  |
 | [ורבייה](https://mishpachatours.com/he/kosher-verbier/) |  |  |
+| [גשטאד](https://mishpachatours.com/he/kosher-gstaad/) |  |  |
+| [דאבוס](https://mishpachatours.com/he/kosher-davos/) |  |  |
 | [צרביניה](https://mishpachatours.com/he/kosher-cervinia/) |  |  |
 | [קורמאיור](https://mishpachatours.com/he/kosher-courmayeur/) |  |  |
 | [קורטינה](https://mishpachatours.com/he/kosher-cortina/) |  |  |

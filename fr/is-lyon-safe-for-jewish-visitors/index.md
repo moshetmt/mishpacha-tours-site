@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/is-lyon-safe-for-jewish-visitors/ (HTML ve
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Lyon est-elle sûre pour les visiteurs juifs ?
 
-# Lyon est-elle sûre pour les visiteurs juifs ? *une réponse directe, et ce que nous faisons*
+# Lyon est-elle sûre ? *visiteurs juifs : une réponse directe*
 
 Chaque visite Mishpacha Tours est conduite comme une visite sécurisée : un groupe privé, des parcours et des points de rendez-vous fixés à l’avance, une guide issue de la communauté, et une escorte de sécurité professionnelle sur demande. Notre standard et les gestes pratiques suivent.
 

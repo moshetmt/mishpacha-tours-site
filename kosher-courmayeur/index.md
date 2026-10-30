@@ -131,13 +131,20 @@ Our kosher team based in the Alps cooks under the Chabad network of the Alps. Th
 
 ## Prefer a whole chalet? *Our kosher chalets*
 
-[**Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · Slope Chalet**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Chalet Loup Blanc · near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
 [See the chalets](https://mishpachatours.com/kosher-chalets/)
 
 ## Courmayeur: your week, *organised*.
 
 Tell us your dates. We send a day-by-day programme the same day.
+
+## Nearby *resorts*
+
+- [Kosher Chamonix (France)](https://mishpachatours.com/kosher-chamonix/)
+- [Kosher Cervinia](https://mishpachatours.com/kosher-cervinia/)
+- [Kosher Cortina](https://mishpachatours.com/kosher-cortina/)
+- [All our resorts in the Alps](https://mishpachatours.com/alps/)
 
 ## Keep *reading*
 

@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/es/jewish-cemetery-lyon/ (HTML version). Ever
 
 # El cementerio judío de Lyon *La Mouche, en Gerland, desde 1795*
 
-El cementerio judío de Lyon es el cementerio de La Mouche, en el barrio de Gerland, en el 7.º distrito. Se fundó en 1795 y alberga más de 4.900 tumbas, un monumento a los soldados judíos de Francia y un memorial de la deportación. Lo gestiona el Consistoire, no la ciudad.
+El cementerio judío de Lyon es el cementerio de La Mouche, en el barrio de Gerland, en el 7.º distrito. Se fundó en 1795 y alberga más de 4.900 tumbas, un monumento a los soldados judíos de Francia y un memorial de la deportación. Lo gestiona el Consistoire, no la ciudad. El cementerio se añade a [una visita privada por el Lyon judío](https://mishpachatours.com/jewish-lyon-tours/) bajo petición.
 
 - 11 rue Abraham-Bloch, 69007 Lyon
 - Fundado en 1795

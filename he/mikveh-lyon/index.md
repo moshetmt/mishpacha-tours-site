@@ -16,7 +16,7 @@ Source: https://mishpachatours.com/he/mikveh-lyon/ (HTML version). Every page of
 
 ## המקווה *להתחיל ממנו*
 
-**מקווה חיה מושקה**, 60 rue Crillon, 69006 Lyon. צמוד לבית חב״ד ליון 6 (Beth Habad Lyon 6e), בהשגחת הרב יואל נמנוב (Yoel Nemanow). שעות רשומות: פתוח מדי לילה. המקווה נוהג לפי מנהג חב״ד ורשום עם בור על גבי בור ובור גשמים מתחת לבריכת הטבילה.
+**מקווה חיה מושקה**, 60 rue Crillon, 69006 Lyon. צמוד לבית חב״ד ליון 6 (Beth Habad Lyon 6e), בהשגחת הרב יואל נמנוב (Yoel Nemanow). שעות רשומות: פתוח מדי לילה. המקווה נוהג לפי מנהג חב״ד ורשום עם בור על גבי בור ובור גשמים מתחת לבריכת הטבילה. המדריכה שלנו מובילה גם את [סיורי המורשת היהודית של ליון](https://mishpachatours.com/jewish-lyon-tours/).
 
 כתבו או התקשרו עם התאריכים שלכם, וציינו שאתם מטיילים.
 
@@ -85,6 +85,7 @@ Source: https://mishpachatours.com/he/mikveh-lyon/ (HTML version). Every page of
 - [חב״ד בליון](https://mishpachatours.com/he/chabad-lyon/)
 - [בתי כנסת בליון](https://mishpachatours.com/he/synagogues-lyon/)
 - [נסיעה לליון למטיילים יהודים: שאלות ותשובות בכנות](https://mishpachatours.com/he/jewish-travel-lyon-faq/)
+- [ליון היהודית בשני ימים](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
 
 ## ליון, הכל מסודר *בהודעה אחת*
 

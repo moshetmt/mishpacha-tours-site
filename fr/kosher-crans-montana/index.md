@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-crans-montana/ (HTML version). Ever
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Crans-Montana, strictement casher
 
-# Crans-Montana, strictement casher *sur le plateau ensoleillé au-dessus de la vallée du Rhône*
+# Crans-Montana *strictement casher, au-dessus du Rhône*
 
 Crans-Montana s’étend sur un plateau exposé au sud, à environ 1 500 m, en Valais, avec un glacier qui monte à 2 927 m.
 
@@ -131,13 +131,20 @@ Notre équipe casher basée dans les Alpes cuisine sous le réseau 'Habad des Al
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet des pistes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
 ## Crans-Montana : votre semaine, *organisée*.
 
 Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
+
+## Stations *voisines*
+
+- [Verbier casher](https://mishpachatours.com/kosher-verbier/)
+- [Zermatt casher](https://mishpachatours.com/kosher-zermatt/)
+- [Gstaad casher](https://mishpachatours.com/kosher-gstaad/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
 
 ## Pour *aller plus loin*
 

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-courchevel/ (HTML version). Every page
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Courchevel, strictly kosher
 
-# Courchevel, strictly kosher *Courchevel 1850 and its villages, in Les 3 Vallées*
+# Courchevel, strictly kosher *1850 and Les 3 Vallées*
 
 Courchevel 1850 sits at about 1,850 m in Les 3 Vallées.
 
@@ -20,9 +20,9 @@ Ski Courchevel by day. Come back to a set table, a minyan, and Shabbat ready.
 
 The season runs from 4 December 2026 to 18 April 2027. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.
 
-## Our chalet *in Courchevel*
+## Chalet Flocon Doré *in Courchevel*
 
-### [A kosher chalet in the heart of Courchevel](https://mishpachatours.com/kosher-chalet-courchevel/)
+### [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel/)
 
 - **5**en-suite bedrooms
 - **10 to 14**guests
@@ -49,6 +49,8 @@ Availability confirmed for your dates with each request.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.
 
 Strictly kosher. Our team cooks under the Chabad network of the Alps: the supervision details come in writing with your quote.
+
+We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Kosher *in Courchevel*
 
@@ -139,6 +141,14 @@ Yes. Our team in the Alps cooks under the Chabad network of the Alps. The superv
 ## Courchevel: your week, *organised*.
 
 Tell us your dates. We send a day-by-day programme the same day.
+
+## Nearby *resorts*
+
+- [Kosher Val Thorens](https://mishpachatours.com/kosher-val-thorens/)
+- [Kosher La Plagne](https://mishpachatours.com/kosher-la-plagne/)
+- [Kosher Les Arcs](https://mishpachatours.com/kosher-les-arcs/)
+- [Kosher Val d’Isère](https://mishpachatours.com/kosher-val-disere/)
+- [All our resorts in the Alps](https://mishpachatours.com/alps/)
 
 ## Keep *reading*
 

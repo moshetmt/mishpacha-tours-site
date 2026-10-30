@@ -1,4 +1,4 @@
-> Diecinueve respuestas directas para un viajero judío a Lyon: cómo llegar, kosher, Shabat, seguridad, oración y nuestras visitas privadas. Revisado el 7 de octubre de 2026.
+> Diecinueve respuestas directas para un viajero judío a Lyon: cómo llegar, kosher, Shabat, seguridad, oración y nuestras visitas privadas. Revisado en octubre de 2026.
 
 Source: https://mishpachatours.com/es/jewish-travel-lyon-faq/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-cortina/ (HTML version). Every page of
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Cortina d'Ampezzo, strictly kosher
 
-# Cortina d'Ampezzo, strictly kosher *the Dolomites, in winter and in summer*
+# Cortina d'Ampezzo *strictly kosher, the Dolomites*
 
 Cortina d'Ampezzo sits at about 1,224 m in the Dolomites, and hosted the Winter Olympics in 1956 and February 2026.
 
@@ -129,13 +129,20 @@ Our kosher team based in the Alps cooks under the Chabad network of the Alps. Ev
 
 ## Prefer a whole chalet? *Our kosher chalets*
 
-[**Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · Slope Chalet**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Chalet Loup Blanc · near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
 [See the chalets](https://mishpachatours.com/kosher-chalets/)
 
 ## Cortina d'Ampezzo: your week, *organised*.
 
 Tell us your dates. We send a day-by-day programme the same day.
+
+## Nearby *resorts*
+
+- [Kosher Cervinia](https://mishpachatours.com/kosher-cervinia/)
+- [Kosher Courmayeur](https://mishpachatours.com/kosher-courmayeur/)
+- [Kosher St. Moritz (Switzerland)](https://mishpachatours.com/kosher-st-moritz/)
+- [All our resorts in the Alps](https://mishpachatours.com/alps/)
 
 ## Keep *reading*
 

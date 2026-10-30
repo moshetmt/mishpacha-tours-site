@@ -25,7 +25,7 @@ PAGE = dict(
       ("You get one programme", "A day-by-day programme and one written quote, before you commit to anything."),
     ]),
     dict(type="faq", h2="Kosher chalets: <i>questions</i>", items=[
-      ("Which chalet should we choose?", "In Les Deux Alpes, the 15-bed chalet has 6 bedrooms plus a nursery, two minutes from the slopes, and the Slope Chalet has 6 bedrooms and 13 beds with the skis on at the door; the two are five minutes apart, for four families. Courchevel has 5 en-suite bedrooms, heated pools and a private shuttle, in the 3 Valleys. Val Thorens has 3 en-suite bedrooms for up to 10 guests, with a ski path at the door, also in the 3 Valleys."),
+      ("Which chalet should we choose?", "In Les Deux Alpes, Chalet King David has 6 bedrooms plus a nursery, two minutes from the slopes, and Chalet Rochebrune has 6 bedrooms and 13 beds with the skis on at the door; the two are five minutes apart, for four families. Courchevel has 5 en-suite bedrooms, heated pools and a private shuttle, in the 3 Valleys. Val Thorens has 3 en-suite bedrooms for up to 10 guests, with a ski path at the door, also in the 3 Valleys."),
       ("How much does a chalet cost?", "For a week in the chalet: Val Thorens <span data-prix-tpl='from €{ch5_basse_vente}'>from €9,500</span>, Les Deux Alpes <span data-prix-tpl='from €{ch2_basse_vente}'>from €13,000</span>, Courchevel <span data-prix-tpl='from €{ch3_basse_vente}'>from €17,500</span>, near Megève <span data-prix-tpl='from €{ch4_basse_vente}'>from €23,500</span>. The price for your dates and your services comes in one written quote. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("Are the chalets available for our dates?", "Availability is confirmed with each request. Send your dates and we check the same day."),
       ("Is everything strictly kosher?", "Yes. The kitchen is kashered by our team and everything served is Chalav Yisrael. The supervision details come in writing with your quote."),
@@ -33,11 +33,11 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Which chalet for your dates?", msg="Hello, we are looking for a kosher chalet. Dates: / Number of people: / Les Deux Alpes, Courchevel, Megève or Val Thorens:"),
   ],
-  related=[("../kosher-chalet-les-deux-alpes/", "The kosher chalet in Les Deux Alpes"), ("../kosher-slope-chalet-les-deux-alpes/", "The Slope Chalet in Les Deux Alpes"), ("../kosher-chalet-courchevel/", "The kosher chalet in Courchevel"), ("../kosher-chalet-megeve/", "The Mont Blanc Chalet near Megève"), ("../kosher-chalet-val-thorens/", "The Val Thorens Chalet"), ("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps")],
+  related=[("../kosher-chalet-les-deux-alpes/", "The kosher chalet in Les Deux Alpes"), ("../kosher-slope-chalet-les-deux-alpes/", "Chalet Rochebrune in Les Deux Alpes"), ("../kosher-chalet-courchevel/", "The kosher chalet in Courchevel"), ("../kosher-chalet-megeve/", "Chalet Loup Blanc near Megève"), ("../kosher-chalet-val-thorens/", "Chalet Belle Étoile"), ("../alps/", "The Alps, strictly kosher"), ("../kosher-services-french-alps/", "Kosher services in the Alps")],
   source="Sources: our team in the Alps (messages of 09/10, 14/10 and 16/10/2026).",
   jsonld={"@context": "https://schema.org", "@type": "ItemList", "name": "Kosher chalets in the Alps", "itemListElement": [
     {"@type": "ListItem", "position": 1, "url": "https://mishpachatours.com/kosher-chalet-les-deux-alpes/", "name": "Kosher chalet in Les Deux Alpes"},
-    {"@type": "ListItem", "position": 2, "url": "https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/", "name": "The Slope Chalet in Les Deux Alpes"},
+    {"@type": "ListItem", "position": 2, "url": "https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/", "name": "Chalet Rochebrune in Les Deux Alpes"},
     {"@type": "ListItem", "position": 3, "url": "https://mishpachatours.com/kosher-chalet-courchevel/", "name": "Kosher chalet in Courchevel"},
     {"@type": "ListItem", "position": 4, "url": "https://mishpachatours.com/kosher-chalet-megeve/", "name": "Kosher chalet near Megève"},
     {"@type": "ListItem", "position": 5, "url": "https://mishpachatours.com/kosher-chalet-val-thorens/", "name": "Kosher chalet in Val Thorens"}]},

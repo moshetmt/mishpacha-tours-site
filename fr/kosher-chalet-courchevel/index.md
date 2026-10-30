@@ -1,8 +1,8 @@
-> Un chalet strictement casher au cœur de Courchevel : 5 chambres en suite, piscines chauffées et hammam, chef privé, Chabbat et minyan. Un devis écrit.
+> Chalet Flocon Doré à Courchevel : chalet strictement casher, 5 chambres en suite, piscines chauffées et hammam, chef privé, Chabbat et minyan.
 
 Source: https://mishpachatours.com/fr/kosher-chalet-courchevel/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Un chalet casher à Courchevel
+[Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Flocon Doré, Courchevel
 
 # Chalet Flocon Doré, Courchevel *5 suites, piscines chauffées, chef privé*
 
@@ -39,6 +39,8 @@ La disponibilité est confirmée pour vos dates à chaque demande.
 Le chef prépare au chalet les repas de Chabbat et des fêtes. Pour un minyan, nous amenons les ba'hourim et un Sefer Torah : avec les hommes de votre famille, Cha'harit a lieu dans votre salon.
 
 Strictement casher, tout ce qui est servi est Chalav Yisrael. Les détails de la surveillance figurent par écrit dans votre devis.
+
+Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Comment *ça marche*
 
@@ -89,7 +91,7 @@ Des repas casher livrés à votre hébergement en station, commandés auprès du
 
 [Repas casher livrés : écrire au Beth Habad sur WhatsApp](https://wa.me/33781823193?text=Bonjour%2C%20nous%20sommes%20dans%20les%20Alpes%20et%20aimerions%20des%20repas%20casher%20livr%C3%A9s.%20Station%20%3A%20Courchevel%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
-## Le chalet de Courchevel : *vos questions*
+## Le Chalet Flocon Doré : *vos questions*
 
 Combien ça coûte ?
 
@@ -113,7 +115,7 @@ Comment rejoindre les pistes ?
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet des pistes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
@@ -124,7 +126,7 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 ## Pour *aller plus loin*
 
 - [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/)
-- [Le chalet casher aux Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 - [Casher à Courchevel](https://mishpachatours.com/fr/kosher-courchevel/)
 - [Services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/)
 

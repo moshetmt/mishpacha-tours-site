@@ -20,6 +20,11 @@ EN = dict(phrase="Ski by day. Come back to a set table, a minyan, and Shabbat re
                   ("One written quote, the same day", "Your resort, your dates, your group. One contact from start to finish.")])
 CHALETS = ("kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens")
 
+CHEF_SEUL = {"kosher-verbier", "kosher-gstaad", "kosher-davos", "kosher-ski-anywhere"}   # 30/10 : plus de livraison au-delà de 3 h de Grenoble
+LIGNES_CHEF = {"en": ("A private chef in your chalet", "The kitchen is kashered, the chef cooks every meal of the week on site."),
+               "fr": ("Un chef privé dans votre chalet", "La cuisine est cachérisée, le chef cuisine sur place tous les repas de la semaine."),
+               "es": ("Un chef privado en su chalé", "La cocina se kosheriza y el chef cocina allí mismo todas las comidas de la semana."),
+               "he": ("שף פרטי בצ'אלה שלכם", "המטבח מוכשר, והשף מבשל במקום כל ארוחה בשבוע.")}
 def textes(lang, slug):
     t = EN if lang == "en" else TRAD.get(lang)
     if not t: return None
@@ -27,7 +32,8 @@ def textes(lang, slug):
         phrase = t["phrase_station"].format(x=STATIONS[slug][1][lang])
     else:
         phrase = t["phrase"]
-    return phrase, t["lignes"]
+    lignes = [LIGNES_CHEF[lang]] + list(t["lignes"][1:]) if slug in CHEF_SEUL else t["lignes"]
+    return phrase, lignes
 
 def bloc(phrase, lignes):
     col = "".join(f'<div><b>{a}</b><span>{b}</span></div>' for a, b in lignes)

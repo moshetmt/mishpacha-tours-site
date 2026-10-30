@@ -4,7 +4,7 @@ PAGE = dict(
   slug="flights-to-lyon",
   title="Flights to Lyon and the road to the ski resorts",
   desc="Flights to Lyon-Saint-Exupéry, the airport for Val Thorens, Courchevel and Alpe d'Huez: direct flights from Tel Aviv, drive times and kosher shopping.",
-  h1="Flights to Lyon", ital="the airport for the French Alps, and what to do between the plane and the slopes",
+  h1="Flights to Lyon", ital="the airport for the French Alps",
   intro="Lyon-Saint-Exupéry is the airport for the Tarentaise and the Grenoble side: Val Thorens, Courchevel, Méribel, Alpe d'Huez and Les Deux Alpes are two to three hours away by road. Direct flights from Tel Aviv are operated by El Al and Transavia, one to two a week depending on the season, about four and a half hours. This page gives the flights, the drive times, where to buy kosher before you climb, and how to use a few spare hours in Lyon. We sell no flights and no transfers: we guide in Lyon, and our kosher team organises your week in the resort.",
   chips=["Direct flights from Tel Aviv: El Al, Transavia", "Val Thorens 2 h 30, Courchevel 2 h 10", "Kosher shops in Lyon, not at the airport", "Checked 8 October 2026"],
   illus="flat-stopover.png",

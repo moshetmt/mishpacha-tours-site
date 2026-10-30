@@ -77,7 +77,7 @@ TXT = {
 CHALETS = {
     "kosher-chalet-courchevel": dict(
         hero="courchevel-ext",
-        nom=t("Courchevel Chalet", "Chalet de Courchevel", "Chalé de Courchevel", "הצ'אלה בקורשבל"),
+        nom=t("Chalet Flocon Doré", "Chalet Flocon Doré", "Chalet Flocon Doré", "צ'אלה פלוקון דורה"),
         pieces=[("salon", "salon", ["courchevel-salon-cheminee", "courchevel-salon-lustre", "courchevel-salon-1"]),
                 ("salle", "salle", ["courchevel-salle-a-manger"]),
                 ("cuisine", "cuisine", ["courchevel-cuisine-1"]),
@@ -88,7 +88,7 @@ CHALETS = {
                 ("ext", "ext", ["courchevel-ext"])]),
     "kosher-chalet-les-deux-alpes": dict(
         hero="wp-ext-bleu",
-        nom=t("Les Deux Alpes Chalet", "Chalet des Deux Alpes", "Chalé de Les Deux Alpes", "הצ'אלה בלה דז אלפ"),
+        nom=t("Chalet King David", "Chalet King David", "Chalet King David", "צ'אלה קינג דייוויד"),
         pieces=[("salon", "salon", ["wp-salon-1", "living", "wp-salon-2", "wp-salon-3"]),
                 ("salle", "salle", ["dining", "wp-salle-a-manger-1"]),
                 ("cuisine", "cuisine", ["kitchen", "wp-cuisine-1"]),
@@ -98,7 +98,7 @@ CHALETS = {
                 ("vues", "vues", ["wp-pistes-balcon", "wp-soleil", "view"])]),
     "kosher-slope-chalet-les-deux-alpes": dict(
         hero="slope-facade",
-        nom=t("The Slope Chalet", "Le chalet des pistes", "El chalet de las pistas", "צ'אלה המסלולים"),
+        nom=t("Chalet Rochebrune", "Le Chalet Rochebrune", "El Chalet Rochebrune", "צ'אלה רושברון"),
         pieces=[("salon", "salon", ["slope-salon-canape", "slope-salon-baie"]),
                 ("salle-cuisine", "salle-cuisine", ["slope-sejour-table"]),
                 ("chambres", "chambres", ["slope-chambre-double", "slope-chambre-double-2", "slope-chambre-double-3", "slope-chambre-sous-toit"]),
@@ -106,7 +106,7 @@ CHALETS = {
                 ("ext", "ext", ["slope-facade", "slope-exterieur-neige"])]),
     "kosher-chalet-megeve": dict(
         hero="megeve-n0-apt-sejour",
-        nom=t("The Mont Blanc Chalet", "Le chalet du Mont Blanc", "El chalet del Mont Blanc", "צ'אלה מון בלאן"),
+        nom=t("Chalet Loup Blanc", "Le Chalet Loup Blanc", "El Chalet Loup Blanc", "צ'אלה לו בלאן"),
         pieces=[("apt-salon", "apt-salon", ["megeve-n0-apt-sejour"]),
                 ("n1", "n1", ["megeve-n1-chambre-1", "megeve-n1-chambre-2", "megeve-n1-chambre-3", "megeve-n1-chambre-4", "megeve-n1-chambre-5",
                               "megeve-n1-chambre-6", "megeve-n1-chambre-7"]),
@@ -114,7 +114,7 @@ CHALETS = {
                 ("n2", "n2", ["megeve-n2-chambre-1", "megeve-n2-chambre-2"])]),
     "kosher-chalet-val-thorens": dict(
         hero="valthorens-exterieur-neige",
-        nom=t("The Val Thorens Chalet", "Le chalet de Val Thorens", "El chalet de Val Thorens", "הצ'אלה בואל טורנס"),
+        nom=t("Chalet Belle Étoile", "Le Chalet Belle Étoile", "El Chalet Belle Étoile", "צ'אלה בל אטואל"),
         pieces=[("salon", "salon", ["valthorens-salon-poele", "valthorens-salon-baie"]),
                 ("salle-cuisine", "salle-cuisine", ["valthorens-cuisine-salle-a-manger", "valthorens-table"]),
                 ("suite", "suite", ["valthorens-suite-parentale", "valthorens-suite-mezzanine"]),

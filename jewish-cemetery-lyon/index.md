@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/jewish-cemetery-lyon/ (HTML version). Every p
 
 # The Jewish cemetery of Lyon *La Mouche, in Gerland, since 1795*
 
-Lyon's Jewish cemetery is the cimetière israélite de la Mouche, in the Gerland district of the 7th arrondissement. It was founded in 1795 and holds more than 4,900 graves, a monument to the Jewish soldiers of France and a memorial to the deportation. It is managed by the Consistoire, not by the city.
+Lyon's Jewish cemetery is the cimetière israélite de la Mouche, in the Gerland district of the 7th arrondissement. It was founded in 1795 and holds more than 4,900 graves, a monument to the Jewish soldiers of France and a memorial to the deportation. It is managed by the Consistoire, not by the city. The cemetery can be added to [a private tour of Jewish Lyon](https://mishpachatours.com/jewish-lyon-tours/) on request.
 
 - 11 rue Abraham-Bloch, 69007 Lyon
 - Founded 1795

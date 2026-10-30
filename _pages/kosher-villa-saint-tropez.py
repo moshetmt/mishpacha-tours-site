@@ -7,7 +7,7 @@ PAGE = dict(
   slug="kosher-villa-saint-tropez",
   title="Kosher Villa in Saint-Tropez, Private Beach",
   desc="Villa Beach, a kosher villa on the water in Saint-Tropez: private sand beach, boat garage, 5 bedrooms for 12 guests, heated pool, private chef, Shabbat and a minyan. One written quote.",
-  h1="A kosher villa on the water in Saint-Tropez", ital="private beach, boat, chef and Shabbat",
+  h1="Villa in Saint-Tropez", ital="kosher, on the water, private beach",
   intro="Villa Beach sits with its feet in the water, in the gulf of Saint-Tropez. It is the only villa for rent in Saint-Tropez with a private sand beach and its own boat garage with a launching ramp. Five bedrooms and five bathrooms for 12 guests, a heated pool and a jacuzzi in the garden, a hammam and a sauna over the sea. Our team koshers the kitchen, a private chef cooks every meal, and Shabbat is kept in the villa with a minyan if you wish.",
   chips=["5 bedrooms, 12 guests", "Private sand beach, boat garage", "Heated pool, jacuzzi", "On written quote"],
   illus="flat-stopover.png",

@@ -4,7 +4,7 @@ PAGE = dict(
   slug="kosher-vacation-french-alps",
   title="Kosher Vacation in the Alps",
   desc="A kosher vacation in the Alps: your chalet or apartment, our chef, delivered meals, Shabbat and a minyan. Ski in winter, lakes in summer. One quote.",
-  h1="A kosher vacation in the Alps", ital="you choose the resort and the dates, we take care of everything kosher",
+  h1="A kosher vacation in the Alps", ital="you choose, we handle kosher",
   intro="You want a kosher vacation abroad without a kosher hotel: a chalet or an apartment of your own, in a real ski resort in winter or by a lake in summer, and the certainty that food, Shabbat and prayer are taken care of. That is what Mishpacha Tours organises in the French Alps, two to three hours from Lyon: a private chef in your chalet or hot meals delivered to your door, Shabbat meals with challot and wine, the holidays, a minyan and a Sefer Torah when several families share a resort. Our kosher team is based in the Alps. You send your resort, your dates and your group; you receive one written quote, the same day.",
   chips=["Chalet or apartment, not a hotel", "Chef, meals, Shabbat, minyan", "Val Thorens, Courchevel, Alpe d'Huez, Annecy", "Checked 8 October 2026"],
   illus="flat-ski.png",

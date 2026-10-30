@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/kosher-restaurants-lyon/ (HTML version). Ever
 
 # Kosher in Lyon *31 certified places to eat and shop*
 
-The Beth Din de Lyon certifies 31 kosher restaurants, bakeries, butchers, groceries and caterers in Lyon, Villeurbanne and Écully, most of them in Villeurbanne and the 6th arrondissement. Vieux Lyon has none. Every address below is on the official list of the Beth Din de Lyon, the rabbinical court that supervises kashrut in Lyon, Villeurbanne and Écully. We list only what the Beth Din certifies: no self-declared places, no secondary directories. Call before you go: opening hours change, and most close for Shabbat from Friday afternoon.
+The Beth Din de Lyon certifies 31 kosher restaurants, bakeries, butchers, groceries and caterers in Lyon, Villeurbanne and Écully, most of them in Villeurbanne and the 6th arrondissement. Vieux Lyon has none. Every address below is on the official list of the Beth Din de Lyon, the rabbinical court that supervises kashrut in Lyon, Villeurbanne and Écully. We list only what the Beth Din certifies: no self-declared places, no secondary directories. Call before you go: opening hours change, and most close for Shabbat from Friday afternoon. Lunch here fits between two stops of [the Jewish Lyon tour](https://mishpachatours.com/jewish-lyon-tours/).
 
 - Beth Din de Lyon supervision
 - Lyon · Villeurbanne · Écully

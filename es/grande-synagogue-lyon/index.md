@@ -1,10 +1,10 @@
-> La Gran Sinagoga de Lyon, construida en 1864, está cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Cómo entrar, los horarios de oración y la dirección.
+> La Gran Sinagoga de Lyon, de 1864, está cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Cómo entrar, horarios de oración y dirección.
 
 Source: https://mishpachatours.com/es/grande-synagogue-lyon/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/) / Gran Sinagoga de Lyon
 
-# Gran Sinagoga de Lyon *el interior de un edificio cerrado a los visitantes*
+# Gran Sinagoga de Lyon *el interior de un edificio cerrado*
 
 La Gran Sinagoga de Lyon, en el 13 quai Tilsitt, a orillas del Saona, se inauguró en 1864 y sigue siendo una sinagoga en activo. Está cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Mishpacha Tours cuenta con la autorización especial necesaria para entrar y lleva a grupos privados a su interior en su visita Lyon judío de 2 h 30, 290 € por grupo, sujeta al horario de apertura y a la seguridad del día.
 
@@ -17,7 +17,7 @@ La Gran Sinagoga de Lyon, en el 13 quai Tilsitt, a orillas del Saona, se inaugur
 
 ## Historia *en breve*
 
-La primera piedra se colocó el 20 de mayo de 1863. La sinagoga se inauguró el 23 de junio de 1864.
+La primera piedra se colocó el 20 de mayo de 1863. La sinagoga se inauguró el 23 de junio de 1864. La entrada forma parte de [la única visita que entra en la Gran Sinagoga](https://mishpachatours.com/jewish-lyon-tours/).
 
 - **Arquitecto.** Abraham Hirsch (1828-1913), arquitecto judío que llegó a ser el arquitecto de la ciudad de Lyon.
 - **Estilo.** Neobizantino.

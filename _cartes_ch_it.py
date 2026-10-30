@@ -6,7 +6,7 @@ import glob, html, io, json, os, re
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 from _build_guide import LEAFLET, geocode
 import importlib.util
-SLUGS = ("kosher-st-moritz", "kosher-zermatt", "kosher-crans-montana", "kosher-verbier", "kosher-cervinia", "kosher-courmayeur", "kosher-cortina")
+SLUGS = ("kosher-st-moritz", "kosher-zermatt", "kosher-crans-montana", "kosher-verbier", "kosher-gstaad", "kosher-davos", "kosher-cervinia", "kosher-courmayeur", "kosher-cortina")
 LANGS = ("", "fr/", "es/", "he/")
 
 def points(slug):

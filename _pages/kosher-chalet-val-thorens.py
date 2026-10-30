@@ -2,11 +2,11 @@
 # Chalet de Val Thorens (3 Vallées), page créée le 22/10 (Moshé : « ajoute le chalet Val Thorens sur le site », cinquième chalet).
 # Source : annonces Airbnb et allChalets lues le 22/10 (00-brief/references/2026-10-22-chalet-val-thorens-bennett/), photos re-rendues par Gemini.
 # Jamais le nom du chalet, de l'hôte, de Saint-Martin-de-Belleville, ni « seul chalet privé de Val Thorens ». Prix : seulement le « à partir de » basse saison de la grille de Mendel (décision Moshé 30/10, _seo_semaine1.py).
-# Nom affiché « The Val Thorens Chalet » et slug choisis par Claude, à confirmer par Moshé.
+# Nom affiché « Chalet Belle Étoile » et slug choisis par Claude, à confirmer par Moshé.
 PAGE = dict(
   slug="kosher-chalet-val-thorens",
-  title="Kosher Chalet in Val Thorens, Ski In Ski Out, 10 Guests",
-  desc="A private kosher chalet in Val Thorens, south-facing with a ski path at the door: three en-suite bedrooms, up to 10 guests. Chef, Shabbat and minyan. One written quote.",
+  title="Chalet Belle Étoile, kosher, Val Thorens",
+  desc="Chalet Belle Étoile in Val Thorens: a private kosher chalet, ski path at the door, 3 en-suite bedrooms, up to 10 guests. Chef, Shabbat, minyan.",
   h1="Chalet Belle Étoile, Val Thorens", ital="ski in, ski out, 3 suites",
   intro="A private wooden chalet above Val Thorens, in the 3 Valleys, facing south. A ski path starts at the door; the village is a few minutes on foot. 165 m², three en-suite bedrooms, up to 10 guests (8 adults). Chef or delivered meals, Shabbat and minyan.",
   chips=[],
@@ -36,7 +36,7 @@ PAGE = dict(
 <li><b>Transfers.</b> Vans with car seats from Geneva or Lyon to the chalet and back, on quote.</li>
 <li><b>Land in Lyon with a few hours to spare?</b> <a href="../tours/stopover/">The Stopover</a>: a private 3 hour tour of Jewish Lyon between the plane and the road.</li>
 </ul>"""),
-    dict(type="faq", h2="The Val Thorens Chalet: <i>questions</i>", items=[
+    dict(type="faq", h2="Chalet Belle Étoile: <i>questions</i>", items=[
       ("How much does it cost?", "<span data-prix-tpl='From €{ch5_basse_vente} per week'>From €9,500 per week</span> for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("How many people can stay?", "Up to 10 guests, 8 adults at most, in three en-suite bedrooms: one large family, or two families with children."),
       ("Is it really ski in, ski out?", "A ski path starts in front of the door. Good skiers ski back to the chalet; for the others, the last 100 metres are on foot."),
@@ -44,7 +44,7 @@ PAGE = dict(
       ("Who cooks the meals?", "A chef cooks kosher meals in the chalet, or ready meals are delivered. Our team kashers the kitchen before you arrive."),
       ("Is there a minyan?", "We bring the bochurim and a Sefer Torah to the chalet for Shabbat, on request. Tell us your dates early."),
     ]),
-    dict(type="cta", txt="The Val Thorens Chalet for your dates?", msg="Hello, we would like the kosher chalet in Val Thorens. Dates: / Number of guests:"),
+    dict(type="cta", txt="Chalet Belle Étoile for your dates?", msg="Hello, we would like the kosher chalet in Val Thorens. Dates: / Number of guests:"),
   ],
   related=[("../kosher-chalets/", "Our kosher chalets"), ("../kosher-val-thorens/", "Kosher in Val Thorens"), ("../kosher-chalet-courchevel/", "Our chalet in Courchevel"), ("../kosher-services-french-alps/", "Kosher services in the Alps")],
   source="Sources: our team in the Alps (listings read on 22/10/2026) for the chalet, the ski path and the services.",
@@ -53,6 +53,6 @@ PAGE = dict(
   VERIF=[
     "165 m², living floor of 60 m², three en-suite bedrooms (28, 18 and 15 m²), ski room with boot warmers, wifi, washer, dryer, cot and high chair, ski path at the door, south-facing, quiet area a few minutes on foot from the centre: Airbnb and allChalets listings read on 22/10/2026, no written confirmation from the owner.",
     "Capacity: the listing says 10 guests with 8 adults at most. Page says « up to 10 guests (8 adults) ». A group of 10 adults does not fit (see the Bennett file).",
-    "Geneva about 2 h 45 and Lyon about 3 h by road: estimates, not measured. Name « The Val Thorens Chalet » and slug chosen by Claude, to confirm by Moshé. Never the chalet's name, the host, Saint-Martin-de-Belleville, or any claim of being the only private chalet. Price: only the low-season « from » price of Mendel's grid (Moshé, 30/10).",
+    "Geneva about 2 h 45 and Lyon about 3 h by road: estimates, not measured. Name « Chalet Belle Étoile » and slug chosen by Claude, to confirm by Moshé. Never the chalet's name, the host, Saint-Martin-de-Belleville, or any claim of being the only private chalet. Price: only the low-season « from » price of Mendel's grid (Moshé, 30/10).",
   ],
 )

@@ -1,10 +1,10 @@
-> Cómo Mishpacha Tours protege sus visitas judías privadas por Lyon: itinerarios discretos, una guía de la comunidad, escolta de seguridad bajo petición. Los hechos, con fuentes.
+> Cómo Mishpacha Tours protege sus visitas judías privadas por Lyon: itinerarios discretos, una guía de la comunidad, escolta bajo petición. Los hechos, con fuentes.
 
 Source: https://mishpachatours.com/es/is-lyon-safe-for-jewish-visitors/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/) / ¿Es seguro Lyon para los visitantes judíos?
 
-# ¿Es Lyon segura para los visitantes judíos? *una respuesta directa y lo que hacemos al respecto*
+# ¿Es Lyon segura? *para visitantes judíos, una respuesta directa*
 
 Cada visita de Mishpacha Tours se organiza como una visita protegida: un grupo privado, itinerarios y puntos de encuentro discretos fijados de antemano, una guía que pertenece a la comunidad y una escolta de seguridad profesional bajo petición. Nuestro estándar y los pasos prácticos siguen a continuación.
 

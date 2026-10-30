@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/grande-synagogue-lyon/ (HTML version). Eve
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Grande Synagogue de Lyon
 
-# Grande Synagogue de Lyon *à l’intérieur d’un édifice fermé aux visiteurs*
+# Grande Synagogue de Lyon *à l’intérieur d’un édifice fermé*
 
 La Grande Synagogue de Lyon, 13 quai Tilsitt, au bord de la Saône, a été inaugurée en 1864 et reste une synagogue en activité. Elle est fermée aux visiteurs en dehors des Journées du patrimoine. Mishpacha Tours détient l’autorisation spéciale requise pour y entrer et y conduit des groupes privés lors de sa visite du quartier juif de 2 h 30, à 290 € par groupe, sous réserve des horaires d’ouverture et de la sécurité du jour.
 
@@ -16,7 +16,7 @@ La Grande Synagogue de Lyon, 13 quai Tilsitt, au bord de la Saône, a été inau
 
 ## Histoire *en bref*
 
-La première pierre a été posée le 20 mai 1863. La synagogue a été inaugurée le 23 juin 1864.
+La première pierre a été posée le 20 mai 1863. La synagogue a été inaugurée le 23 juin 1864. L’entrée fait partie de [la seule visite qui entre dans la Grande Synagogue](https://mishpachatours.com/jewish-lyon-tours/).
 
 - **Architecte.** Abraham Hirsch (1828-1913), architecte juif devenu par la suite architecte de la ville de Lyon.
 - **Style.** Néo-byzantin.

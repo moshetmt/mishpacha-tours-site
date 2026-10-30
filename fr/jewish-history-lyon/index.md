@@ -16,7 +16,7 @@ Des Juifs ont vécu à Lyon au Moyen Âge, ont disparu pendant trois siècles, s
 
 ## Le Moyen Âge *et la fin au XVe siècle*
 
-Des Juifs vivent à Lyon dès le IXe siècle. L’évêque Agobard tente d’imposer des conversions vers 820. En 1250, l’archevêque Philippe de Savoie expulse la communauté, alors installée sur l’actuelle rue Ferrachat. Une nouvelle communauté se forme dans la seconde moitié du XIVe siècle. Elle paie des taxes municipales, et la ville désigne des officiers pour traiter avec elle.
+Des Juifs vivent à Lyon dès le IXe siècle. L’évêque Agobard tente d’imposer des conversions vers 820. En 1250, l’archevêque Philippe de Savoie expulse la communauté, alors installée sur l’actuelle rue Ferrachat. Une nouvelle communauté se forme dans la seconde moitié du XIVe siècle. Elle paie des taxes municipales, et la ville désigne des officiers pour traiter avec elle. Cette histoire se raconte sur place, pendant [nos visites du patrimoine juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/).
 
 Cette communauté vivait sur la [rue Juiverie](https://mishpachatours.com/rue-juiverie-lyon/), au pied de la colline de Fourvière. La rue a gardé son nom. En 1394, le roi Charles VI expulse les Juifs du royaume de France, et la ville de Lyon date de cette année la fin de sa propre communauté. L’Encyclopaedia Judaica note que Lyon ne faisait pas encore partie du royaume et retient 1420 environ, date à laquelle la plupart des familles s’installent à Trévoux, toute proche.
 

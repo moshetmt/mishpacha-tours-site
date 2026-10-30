@@ -36,7 +36,7 @@ Une présence discrète auprès de votre groupe, seulement si vous la demandez.
 
 [Voir le détail](https://mishpachatours.com/fr/is-lyon-safe-for-jewish-visitors/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20une%20escorte%20priv%C3%A9e%20discr%C3%A8te%20%C3%A0%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
-# La seule visite qui vous fait entrer dans la Grande Synagogue de Lyon. *Privée, strictement casher, construite avec vous.*
+# Dans la Grande Synagogue de Lyon. *La seule visite qui vous y fait entrer. Privée, strictement casher, construite avec vous.*
 
 Cette visite guidée juive de Lyon vous ouvre la Grande Synagogue du quai Tilsitt, fermée au public en dehors des Journées européennes du patrimoine. Votre guide est juive, pratiquante et membre de la communauté lyonnaise.
 

@@ -12,7 +12,7 @@ Give Lyon two or three days: Vieux Lyon and its traboules first, the Parc de la 
 
 ## How to read *this page*
 
-Each place shows time, children, kosher nearby and when it is closed; the rest is under Read more. We do not guide on Shabbat, so every plan runs Sunday to Friday. Hours were read on each venue’s website on 21 October 2026.
+Each place shows time, children, kosher nearby and when it is closed; the rest is under Read more. We do not guide on Shabbat, so every plan runs Sunday to Friday. Hours were read on each venue’s website on 21 October 2026. For the Jewish side of the city, start with [our guided tours of Jewish Lyon](https://mishpachatours.com/jewish-lyon-tours/).
 
 ## Old Lyon *and its hills*
 

@@ -189,7 +189,7 @@ body.menu-ouvert{overflow:hidden}
 .prix-table li{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid rgba(28,27,31,.12);font-size:16px}
 .prix-table li:last-child{border-bottom:0}
 .prix-table li b{font-family:var(--titre);font-weight:300;font-size:22px}
-.prix-table .note{margin-top:14px;font-size:13px;opacity:.75;max-width:30em;margin-left:auto;margin-right:auto}
+.prix-table .note{margin-top:14px;font-size:14px;opacity:.75;max-width:30em;margin-left:auto;margin-right:auto}
 
 /* ---------- Questions ---------- */
 .faq details{border-bottom:1px solid rgba(28,27,31,.2)}
@@ -1084,7 +1084,7 @@ details.dm-pli[open] summary::after{transform:rotate(-135deg)}
   .dm-bloc{padding:16px 14px 18px;border-radius:14px}
   .etape > .dm-tete{margin-bottom:10px}
   .etape > .dm-tete h2{font-size:21px;line-height:1.15}
-  .etape > .dm-tete p{margin-top:3px;font-size:13px;line-height:1.35}
+  .etape > .dm-tete p{margin-top:3px;font-size:15px;line-height:1.45}
   .etape > * + *{margin-top:12px}
   .etape .dm-sous{margin-top:16px;font-size:11px}
   .dm-champ label{font-size:11px;margin-bottom:4px}
@@ -1111,7 +1111,7 @@ details.dm-pli[open] summary::after{transform:rotate(-135deg)}
   .dm-intention{padding:14px 12px 12px}
   .dm-auto button{padding:10px 13px;font-size:14.5px}
   .dm-shabbat,.dm-nuits{font-size:13px}
-  .dm-aide{font-size:12.5px}
+  .dm-aide{font-size:14px}
   details.dm-recap{margin-top:14px}
   details.dm-recap summary{padding:10px 0;font-size:14px}
   .demande form.js .dm-nav{padding:8px 16px calc(8px + env(safe-area-inset-bottom));margin-top:14px}
@@ -1312,7 +1312,7 @@ h2 + .hub-grille,h2 + .sous + .hub-grille{margin-top:28px}   /* titre plus colle
   #trips .ac-portes .photo{width:84px;height:84px;aspect-ratio:1/1;border-radius:12px;overflow:hidden}
   #trips .ac-portes .photo img{width:100%;height:100%;object-fit:cover}
   #trips .ac-portes h3{font-size:17px;line-height:1.15;margin:0 0 3px}
-  #trips .ac-portes .corps p{font-size:13px;line-height:1.35;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin:0}
+  #trips .ac-portes .corps p{font-size:15px;line-height:1.4;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin:0}
   #trips .ac-stations-ligne{margin-top:18px;font-size:13px}
   #trips .ac-stations{gap:6px;margin-top:10px}
   #trips .ac-stations a{min-height:36px;padding:0 13px;font-size:13.5px}
@@ -1327,7 +1327,7 @@ h2 + .hub-grille,h2 + .sous + .hub-grille{margin-top:28px}   /* titre plus colle
   #how.etapes li img{width:56px;height:56px;margin:0;grid-row:1 / span 3}
   #how.etapes li > b{font-size:12px}
   #how.etapes li > span{font-size:19px;margin-top:0}
-  #how.etapes li p{font-size:13px;line-height:1.4;margin:3px 0 0;max-width:none}
+  #how.etapes li p{font-size:15px;line-height:1.45;margin:3px 0 0;max-width:none}
   /* Lyon */
   #tours .ac-lyon-photo img{aspect-ratio:16/9}
   #tours .ac-lyon-grille{gap:16px}

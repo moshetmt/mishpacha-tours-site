@@ -2,7 +2,7 @@
 
 Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[דף הבית](https://mishpachatours.com/he/) / [המדריך לליון היהודית](https://mishpachatours.com/he/jewish-lyon-guide/) / קיץ באלפים למשפחות יהודיות
+[דף הבית](https://mishpachatours.com/he/) / קיץ באלפים למשפחות יהודיות
 
 # הקיץ הכשר שלכם, באופן פרטי *הריביירה, האגמים, האלפים*
 
@@ -86,6 +86,8 @@ Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML 
 | [סנט מוריץ](https://mishpachatours.com/he/kosher-st-moritz/) |  |  |
 | [קראן מונטנה](https://mishpachatours.com/he/kosher-crans-montana/) |  |  |
 | [ורבייה](https://mishpachatours.com/he/kosher-verbier/) |  |  |
+| [גשטאד](https://mishpachatours.com/he/kosher-gstaad/) |  |  |
+| [דאבוס](https://mishpachatours.com/he/kosher-davos/) |  |  |
 | [צרביניה](https://mishpachatours.com/he/kosher-cervinia/) |  |  |
 | [קורמאיור](https://mishpachatours.com/he/kosher-courmayeur/) |  |  |
 | [קורטינה](https://mishpachatours.com/he/kosher-cortina/) |  |  |

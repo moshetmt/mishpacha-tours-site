@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-chalet-les-deux-alpes",
-  title="Kosher Chalet in Les Deux Alpes, 16 Beds",
-  desc="A 300 m² kosher chalet in Les Deux Alpes: 6 bedrooms, 16 beds, 2 minutes from the slopes. Private chef, Shabbat and holidays, everything organised. One quote.",
+  title="Chalet King David, kosher, Les Deux Alpes",
+  desc="Chalet King David in Les Deux Alpes: a 300 m² kosher chalet, 6 bedrooms, 16 beds, 2 minutes from the slopes. Private chef, Shabbat and holidays. One quote.",
   h1="Chalet King David, Les Deux Alpes", ital="300 m², 16 guests, private chef",
   intro="A chalet of 300 m² in Les Deux Alpes, 2 minutes from the slopes. Six bedrooms and 16 beds, for three small families or one large one. A private chef cooks kosher meals in the chalet, or meals are delivered; Shabbat and the holidays come with a minyan and a Sefer Torah, depending on the families present. One request, one written quote.",
   chips=["300 m², 6 bedrooms, 16 beds", "2 minutes from the slopes", "Chef, Shabbat, holidays", "On written quote"],
@@ -44,7 +44,7 @@ PAGE = dict(
 <li><b>Land in Lyon with a few hours to spare?</b> <a href="../tours/stopover/">The Stopover</a>: a private 3 hour tour of Jewish Lyon between the plane and the road.</li>
 </ul>"""),
     dict(type="map", h2="On the <i>map</i>", points=[("Les Deux Alpes", "Les Deux Alpes, 38860")], note="Town-level pin: the chalet address is given with your quote."),
-    dict(type="faq", h2="The kosher chalet: <i>questions</i>", items=[
+    dict(type="faq", h2="Chalet King David: <i>questions</i>", items=[
       ("How much does it cost?", "<span data-prix-tpl='From €{ch1_basse_vente} per week'>From €13,500 per week</span> for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("How many people can stay?", "16 beds in 6 bedrooms, so three small families or one large family."),
       ("Who cooks the meals?", "A private chef cooks kosher meals at the chalet, or meals are delivered to it. Our team makes the kitchen kosher for your stay. Ask for the supervision details in writing with your quote."),

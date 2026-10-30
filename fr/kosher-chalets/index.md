@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-chalets/ (HTML version). Every page
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Nos chalets casher
 
-# Nos chalets casher *aux Deux Alpes, à Courchevel, à Megève et à Val Thorens*
+# Nos chalets casher *Deux Alpes, Courchevel, Megève, Val Thorens*
 
 Nos chalets, tout le casher pris en charge : aux Deux Alpes, à Courchevel et près de Megève.
 
@@ -20,7 +20,7 @@ Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
 Nos chalets, tout le casher pris en charge : aux Deux Alpes, à Courchevel, près de Megève et à Val Thorens avec un chemin skieur à la porte. La cuisine est cachérisée, un chef cuisine ou les repas sont livrés, un minyan vient sur demande. Un programme, un devis.
 
-### [Notre chalet casher, au pied des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
+### [Chalet King David, Les Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 
 - **300 m²**chalet privé
 - **6 + 1**chambres + chambre bébé
@@ -37,7 +37,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Le chalet des pistes, skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)
+### [Chalet Rochebrune, Les Deux Alpes](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)
 
 - **6**chambres
 - **Jusqu’à 13**personnes
@@ -54,7 +54,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Un chalet casher au cœur de Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
+### [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
 
 - **5**chambres en suite
 - **10 à 14**personnes
@@ -71,7 +71,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Le chalet du Mont Blanc, pour plusieurs familles](https://mishpachatours.com/fr/kosher-chalet-megeve/)
+### [Chalet Loup Blanc, près de Megève](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 
 - **10 + 2**chambres twin + chambres sous le toit
 - **3 à 4**familles
@@ -88,7 +88,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Le chalet de Val Thorens, skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+### [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 - **165 m²**chalet privé
 - **3**chambres avec salle de bain
@@ -114,6 +114,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Vous avez déjà un logement ? [Les services casher dans votre station](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
+Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+
 ## Comment *ça marche*
 
 1. **1**
@@ -138,7 +140,7 @@ Vous avez déjà un logement ? [Les services casher dans votre station](https://
 
 Quel chalet choisir ?
 
-Aux Deux Alpes, le chalet de 15 lits compte 6 chambres plus une chambre bébé, à deux minutes des pistes, et le chalet des pistes compte 6 chambres et 13 lits, skis aux pieds ; les deux sont à cinq minutes l'un de l'autre, pour quatre familles. Courchevel compte 5 chambres en suite, des piscines chauffées et une navette privée, dans Les 3 Vallées. Val Thorens compte 3 chambres avec salle de bain pour 10 personnes au plus, avec un chemin skieur à la porte, dans Les 3 Vallées aussi.
+Aux Deux Alpes, le Chalet King David compte 6 chambres plus une chambre bébé, à deux minutes des pistes, et le Chalet Rochebrune compte 6 chambres et 13 lits, skis aux pieds ; les deux sont à cinq minutes l'un de l'autre, pour quatre familles. Courchevel compte 5 chambres en suite, des piscines chauffées et une navette privée, dans Les 3 Vallées. Val Thorens compte 3 chambres avec salle de bain pour 10 personnes au plus, avec un chemin skieur à la porte, dans Les 3 Vallées aussi.
 
 Combien coûte un chalet ?
 
@@ -162,8 +164,8 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Pour *aller plus loin*
 
-- [Le chalet casher aux Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
-- [Le chalet casher à Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
+- [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
 - [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/)
 - [Services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/)
 

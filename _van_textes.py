@@ -7,7 +7,7 @@ SVC = {"@context": "https://schema.org", "@type": "Service"}
 FR = dict(
   title="Transferts en van privé en France et à l'étranger",
   desc="Un van privé depuis un aéroport, une gare, un hôtel ou une station, partout en France et à l'étranger. Chauffeur agréé, sur devis, jamais le Shabbat.",
-  h1="Transferts en van privé", ital="d'un point A à un point B, jamais le Shabbat",
+  h1="Transferts en van privé", ital="jamais le Shabbat",
   intro="Un seul message, un seul chauffeur. Dites-nous d'où vous partez, où vous allez, la date, combien vous êtes et combien de bagages vous avez. Nous trouvons un chauffeur agréé dans notre réseau et organisons un van privé pour votre famille ou votre groupe, avec de la place pour les valises, les poussettes et les skis. Aéroport, gare, hôtel, station de ski ou ville : partout en France, et à l'étranger aussi.",
   chips=["D'un point A à un point B", "Vans pour familles et groupes", "Sur devis", "Jamais le Shabbat"],
   crumb=("../jewish-lyon-guide/", "Guide juif de Lyon"),
@@ -48,7 +48,7 @@ FR = dict(
 ES = dict(
   title="Traslados en van privado en Francia y el extranjero",
   desc="Un van privado desde un aeropuerto, una estación o un hotel, a toda Francia y al extranjero. Conductor autorizado de nuestra red, con presupuesto, nunca en Shabat.",
-  h1="Traslados en van privado", ital="de un punto A a un punto B, nunca en Shabat",
+  h1="Traslados en van privado", ital="nunca en Shabat",
   intro="Un solo mensaje, un solo conductor. Díganos desde dónde sale, adónde va, la fecha, cuántos viajan y cuánto equipaje llevan. Encontramos un conductor autorizado en nuestra red y organizamos un van privado para su familia o su grupo, con espacio para maletas, cochecitos y esquís. Aeropuerto, estación, hotel, estación de esquí o ciudad: a cualquier punto de Francia, y también del extranjero.",
   chips=["De un punto A a un punto B", "Vans para familias y grupos", "Con presupuesto", "Nunca en Shabat"],
   crumb=("../jewish-lyon-guide/", "Guía del Lyon judío"),

@@ -3,7 +3,7 @@ PAGE = dict(
   slug="kosher-cortina",
   title="Kosher Cortina: Chef, Shabbat and Minyan",
   desc="Kosher Cortina d'Ampezzo in the Dolomites, winter and summer: private chef in your chalet, delivered meals, Shabbat, holidays, minyan. One request, one quote.",
-  h1="Cortina d'Ampezzo, strictly kosher", ital="the Dolomites, in winter and in summer",
+  h1="Cortina d'Ampezzo", ital="strictly kosher, the Dolomites",
   intro="Cortina d'Ampezzo sits at about 1,224 m in the Dolomites, and hosted the Winter Olympics in 1956 and February 2026. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,224 m, Tofana di Mezzo 3,244 m", "About 2 h from Venice airport", "Winter and summer", "Checked 16 October 2026"],
   illus="flat-ski.png",

@@ -1,4 +1,4 @@
-> Cómo funciona la reserva de una visita judía privada por Lyon: precios por grupo, pago, cancelación gratuita hasta 24 horas antes, entradas facturadas aparte, sin visitas en Shabat.
+> Cómo funciona la reserva de una visita judía privada por Lyon: precio por grupo, pago, cancelación gratuita hasta 24 horas antes, entradas aparte, sin visitas en Shabat.
 
 Source: https://mishpachatours.com/es/terms/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 

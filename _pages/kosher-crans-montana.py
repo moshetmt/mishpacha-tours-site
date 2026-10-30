@@ -3,7 +3,7 @@ PAGE = dict(
   slug="kosher-crans-montana",
   title="Kosher Crans-Montana: Chef, Shabbat and Minyan",
   desc="Kosher Crans-Montana, Valais, in winter and summer: private chef in your chalet, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One quote.",
-  h1="Crans-Montana, strictly kosher", ital="on the sunny plateau above the Rhône valley",
+  h1="Crans-Montana", ital="strictly kosher, above the Rhône",
   intro="Crans-Montana sits on a south-facing plateau at about 1,500 m in the Valais, with a glacier reaching 2,927 m. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,500 m, Plaine Morte 2,927 m", "About 2 h from Geneva, 3 h 30 and more from Lyon", "Winter and summer", "Checked 16 October 2026"],
   illus="flat-ski.png",

@@ -3,7 +3,7 @@ PAGE = dict(
   slug="kosher-st-moritz",
   title="Kosher St. Moritz: Chef, Shabbat and Minyan",
   desc="Kosher St. Moritz in the Engadine, winter and summer: private chef in your chalet, delivered meals, Shabbat, holidays, minyan and Sefer Torah. One quote.",
-  h1="St. Moritz, strictly kosher", ital="in the Engadine, above the frozen lake in winter",
+  h1="St. Moritz, strictly kosher", ital="in the Engadine",
   intro="St. Moritz sits at about 1,822 m in the Engadine, around a lake that freezes in winter. Three ski areas share the valley. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,822 m, Corviglia, Corvatsch, Diavolezza", "About 3 h from Zurich or Milan Malpensa", "Winter and summer", "Checked 16 October 2026"],
   illus="flat-ski.png",

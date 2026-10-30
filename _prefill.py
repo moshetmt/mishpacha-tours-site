@@ -12,7 +12,7 @@ LANGS = ("fr", "es", "he")
 STATIONS = {"kosher-alpe-dhuez": "Alpe d'Huez", "kosher-annecy": "Annecy", "kosher-chamonix": "Chamonix", "kosher-courchevel": "Courchevel",
             "kosher-grenoble": "Grenoble", "kosher-la-plagne": "La Plagne", "kosher-les-arcs": "Les Arcs", "kosher-les-deux-alpes": "Les Deux Alpes",
             "kosher-megeve": "Megève", "kosher-val-disere": "Val d'Isère", "kosher-val-thorens": "Val Thorens",
-            "kosher-zermatt": "Zermatt", "kosher-st-moritz": "St. Moritz", "kosher-crans-montana": "Crans-Montana", "kosher-verbier": "Verbier", "kosher-cervinia": "Cervinia", "kosher-courmayeur": "Courmayeur", "kosher-cortina": "Cortina d'Ampezzo"}
+            "kosher-zermatt": "Zermatt", "kosher-st-moritz": "St. Moritz", "kosher-crans-montana": "Crans-Montana", "kosher-verbier": "Verbier", "kosher-gstaad": "Gstaad", "kosher-davos": "Davos", "kosher-cervinia": "Cervinia", "kosher-courmayeur": "Courmayeur", "kosher-cortina": "Cortina d'Ampezzo"}
 SKI = "Ski holiday with a chalet"
 CIBLES = {"kosher-chalet-les-deux-alpes": {"i": "a", "lieu": "Les Deux Alpes", "voyage": SKI},
           "kosher-chalet-courchevel": {"i": "a", "lieu": "Courchevel", "voyage": SKI}, "kosher-chalets": {"i": "a", "voyage": SKI},
@@ -22,7 +22,7 @@ CIBLES = {"kosher-chalet-les-deux-alpes": {"i": "a", "lieu": "Les Deux Alpes", "
           "kosher-villa-saint-tropez": {"i": "a", "lieu": "Saint-Tropez", "voyage": "Summer in the Alps"},
           "kosher-van-transfers": {"i": "c"}, "jewish-lyon-tours": {"i": "d"},
           "summer-in-the-alps-jewish-families": {"i": "a", "voyage": "Summer in the Alps"},
-          "kosher-ski-holidays-french-alps": {"i": "a", "voyage": SKI}}
+          "kosher-ski-holidays-french-alps": {"i": "a", "voyage": SKI}, "kosher-ski-anywhere": {"i": "a", "voyage": SKI}}
 for s in ("izieu", "jewish-lyon", "memory-chrd", "memory-montluc-neveh-shalom", "stopover"): CIBLES["tours/" + s] = {"i": "d"}
 for k, v in STATIONS.items(): CIBLES[k] = {"i": "a", "lieu": v}
 PLAN = {"en": "Plan your stay in {x}", "fr": "Préparer mon séjour : {x}", "es": "Planificar mi estancia: {x}", "he": "לתכנן את השהות: {x}"}

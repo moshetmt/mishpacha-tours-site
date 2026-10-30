@@ -1,10 +1,10 @@
-> Seis proveedores de catering certificados por el Beth Din de Lyon, comidas de Shabat de Chabad y tiendas de alimentación kosher para un Shabat en un apartamento. Cómo encargar antes de aterrizar.
+> Seis caterings certificados por el Beth Din de Lyon, comidas de Shabat de Chabad y tiendas kosher para un Shabat en un apartamento. Cómo encargar antes de aterrizar.
 
 Source: https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/) / Catering kosher y comidas de Shabat en Lyon
 
-# Catering kosher y comidas de Shabat en Lyon *quién cocina, cómo encargar*
+# Catering kosher *en Lyon: comidas de Shabat, quién cocina*
 
 Seis proveedores de catering de la lista oficial del Beth Din de Lyon cocinan para Shabat, y las casas Chabad reciben bajo petición. Le ayudamos a redactar el mensaje, y usted paga directamente al proveedor.
 
@@ -26,7 +26,7 @@ Seis proveedores de catering de la lista oficial del Beth Din de Lyon cocinan pa
 
 ## Entrega en *su hotel*
 
-Ningún proveedor de la lista publica un servicio de entrega en hoteles ni una zona de entrega. Pregunte a cada uno: ¿entregan en mi hotel, qué día y a qué hora, y qué necesitan de mí? Avise al hotel de que llegará una entrega y pregunte si puede conservar la comida hasta el viernes por la tarde.
+Ningún proveedor de la lista publica un servicio de entrega en hoteles ni una zona de entrega. Pregunte a cada uno: ¿entregan en mi hotel, qué día y a qué hora, y qué necesitan de mí? Avise al hotel de que llegará una entrega y pregunte si puede conservar la comida hasta el viernes por la tarde. Combine la comida con [una visita guiada por el Lyon judío](https://mishpachatours.com/jewish-lyon-tours/) antes del Shabat.
 
 Tres lugares de la lista del Beth Din indican comida para llevar o entrega: La Darka, Planet Sandwich y, en Deliveroo y Uber Eats, Mika Sushi. Son opciones para los días laborables. No se entrega nada en Shabat.
 

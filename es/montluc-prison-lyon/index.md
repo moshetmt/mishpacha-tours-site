@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/montluc-prison-lyon/ (HTML version). Every
 
 [Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/) / Memorial de la prisión de Montluc
 
-# Memorial de la prisión de Montluc *donde la Gestapo retuvo a judíos y resistentes en Lyon*
+# Memorial de Montluc *donde la Gestapo retuvo a judíos*
 
 La prisión de Montluc es un memorial nacional en el 3.er distrito de Lyon. De 1943 a 1944, los alemanes retuvieron aquí a resistentes, rehenes y judíos, muchos de ellos antes de su deportación. Los niños de Izieu pasaron por aquí el 6 de abril de 1944. La entrada es gratuita.
 
@@ -17,7 +17,7 @@ La prisión de Montluc es un memorial nacional en el 3.er distrito de Lyon. De 1
 
 ## Historia *en breve*
 
-Montluc se construyó en 1921 como prisión militar. Tras requisar los alemanes una parte en enero de 1943, ocuparon toda la prisión el 17 de febrero de 1943 y la conservaron hasta la liberación de Lyon el 24 de agosto de 1944.
+Montluc se construyó en 1921 como prisión militar. Tras requisar los alemanes una parte en enero de 1943, ocuparon toda la prisión el 17 de febrero de 1943 y la conservaron hasta la liberación de Lyon el 24 de agosto de 1944. Montluc es una etapa de [nuestra visita Memoria, Montluc y el CHRD](https://mishpachatours.com/jewish-lyon-tours/).
 
 - **Quién estuvo retenido.** Más de 9.000 hombres, mujeres y niños pasaron por aquí en ese tiempo: resistentes, rehenes y judíos. Jean Moulin y el historiador Marc Bloch estuvieron retenidos aquí.
 - **Los judíos de Montluc.** La prisión sirvió de punto de reunión de judíos antes de enviarlos a Drancy y después a Auschwitz-Birkenau. Un bloque aparte, conocido como la baraque aux Juifs, albergaba sobre todo a hombres judíos mayores de 15 años. Se trajo aquí a familias enteras.
@@ -86,6 +86,7 @@ Respuesta el mismo día, nunca en Shabat.
 - [El CHRD en Lyon](https://mishpachatours.com/es/chrd-lyon/)
 - [Maison d'Izieu](https://mishpachatours.com/es/maison-izieu/)
 - [Sinagogas en Lyon](https://mishpachatours.com/es/synagogues-lyon/)
+- [Lyon judío en dos días](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
 
 ## ¿Desea *reservar* su visita?
 

@@ -17,7 +17,7 @@ Hubo judíos en Lyon en la Edad Media, desaparecieron durante tres siglos, volvi
 
 ## La Edad Media, *y el final en el siglo XV*
 
-Había judíos en Lyon desde el siglo IX. El obispo Agobardo intentó imponer conversiones hacia el año 820. En 1250, el arzobispo Felipe de Saboya expulsó a la comunidad, que vivía entonces en la actual rue Ferrachat. En la segunda mitad del siglo XIV se formó una nueva comunidad. Pagaba impuestos municipales y la ciudad nombraba a funcionarios para tratar con ella.
+Había judíos en Lyon desde el siglo IX. El obispo Agobardo intentó imponer conversiones hacia el año 820. En 1250, el arzobispo Felipe de Saboya expulsó a la comunidad, que vivía entonces en la actual rue Ferrachat. En la segunda mitad del siglo XIV se formó una nueva comunidad. Pagaba impuestos municipales y la ciudad nombraba a funcionarios para tratar con ella. Esta historia se cuenta sobre el terreno, en [la visita a pie por el Lyon judío](https://mishpachatours.com/jewish-lyon-tours/).
 
 Esta comunidad vivía en la [rue Juiverie](https://mishpachatours.com/rue-juiverie-lyon/), al pie de la colina de Fourvière. La calle conservó el nombre. En 1394, el rey Carlos VI expulsó a los judíos del reino de Francia, y la ciudad de Lyon sitúa en ese año el fin de su propia comunidad. La Encyclopaedia Judaica señala que Lyon aún no formaba parte del reino y propone hacia 1420, cuando la mayoría de las familias se trasladó a la cercana Trévoux.
 

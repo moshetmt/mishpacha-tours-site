@@ -16,7 +16,7 @@ The Grande Synagogue of Lyon, 13 quai Tilsitt on the bank of the Saône, was ina
 
 ## History *in short*
 
-The foundation stone was laid on 20 May 1863. The synagogue was inaugurated on 23 June 1864.
+The foundation stone was laid on 20 May 1863. The synagogue was inaugurated on 23 June 1864. Entry is part of [the only tour inside the Grande Synagogue](https://mishpachatours.com/jewish-lyon-tours/).
 
 - **Architect.** Abraham Hirsch (1828-1913), a Jewish architect who later became the city architect of Lyon.
 - **Style.** Neo-Byzantine.

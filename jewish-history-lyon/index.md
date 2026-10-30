@@ -16,7 +16,7 @@ Jews lived in Lyon in the Middle Ages, disappeared for three centuries, came bac
 
 ## The Middle Ages, *and the end in the 1400s*
 
-Jews lived in Lyon by the ninth century. Bishop Agobard tried to force conversions 820. In 1250 Archbishop Philip of Savoy expelled the community, then living on the present rue Ferrachat. A new community formed in the second half of the 14th century. It paid municipal taxes, and the city named officials to deal with it.
+Jews lived in Lyon by the ninth century. Bishop Agobard tried to force conversions 820. In 1250 Archbishop Philip of Savoy expelled the community, then living on the present rue Ferrachat. A new community formed in the second half of the 14th century. It paid municipal taxes, and the city named officials to deal with it. This history is told on site, on [the walking tour of Jewish Lyon](https://mishpachatours.com/jewish-lyon-tours/).
 
 This community lived on [rue Juiverie](https://mishpachatours.com/rue-juiverie-lyon/), at the foot of the Fourvière hill. The street kept the name. In 1394 King Charles VI expelled the Jews from the kingdom of France, and the city of Lyon dates the end of its own community to that year. The Encyclopaedia Judaica notes that Lyon was not yet part of the kingdom and gives 1420, when most families moved to nearby Trévoux.
 

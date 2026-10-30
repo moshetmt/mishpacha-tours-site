@@ -6,7 +6,7 @@ City walk
 
 [Home](https://mishpachatours.com/) / [Tours](https://mishpachatours.com/jewish-lyon-tours/#tours) / Jewish Lyon
 
-# Jewish Lyon *A private walk through the Jewish story of Lyon, inside the Grande Synagogue*
+# Jewish Lyon *A private walk, inside the Grande Synagogue*
 
 Jewish Lyon is a private 2 h 30 walking tour of Vieux Lyon and the Grande Synagogue, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before. Hebrew-speaking guests are guided in English. Rue Juiverie and medieval Old Lyon, the Grande Synagogue on quai Tilsitt from the inside, and rue Sainte-Catherine: two and a half hours on foot with a guide who is part of the community she shows you. The Grande Synagogue is closed to visitors outside the Heritage Days. Entry requires a special authorisation that Mishpacha Tours holds. This is the only tour that takes you inside, subject to opening hours and security on the day.
 

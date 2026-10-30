@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-villa-saint-tropez/ (HTML version).
 
 [Accueil](https://mishpachatours.com/fr/) / [Été](https://mishpachatours.com/fr/summer-in-the-alps-jewish-families/) / Une villa casher les pieds dans l'eau à Saint-Tropez
 
-# Une villa casher les pieds dans l'eau à Saint-Tropez *plage privée, bateau, chef et Chabbat*
+# Villa à Saint-Tropez *casher, les pieds dans l’eau, plage privée*
 
 Villa Beach a les pieds dans l'eau, dans le golfe de Saint-Tropez.
 

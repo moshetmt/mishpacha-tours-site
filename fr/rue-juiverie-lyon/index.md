@@ -16,7 +16,7 @@ La rue Juiverie traverse le Vieux Lyon, dans le 5e arrondissement. Elle porte le
 
 ## Les Juifs de Lyon *au Moyen Âge*
 
-Des Juifs vivent à Lyon depuis une date ancienne. Lorsqu’ils sont expulsés en 1250 par l’archevêque Philippe de Savoie, ils habitent l’actuelle rue Ferrachat. Plus tard dans le siècle, une nouvelle communauté s’installe. Dans la seconde moitié du XIVe siècle, les habitants juifs paient des impôts municipaux et la ville nomme des officiers chargés de les administrer. La ville de Lyon situe cette communauté rue Juiverie aux XIIIe et XIVe siècles.
+Des Juifs vivent à Lyon depuis une date ancienne. Lorsqu’ils sont expulsés en 1250 par l’archevêque Philippe de Savoie, ils habitent l’actuelle rue Ferrachat. Plus tard dans le siècle, une nouvelle communauté s’installe. Dans la seconde moitié du XIVe siècle, les habitants juifs paient des impôts municipaux et la ville nomme des officiers chargés de les administrer. La ville de Lyon situe cette communauté rue Juiverie aux XIIIe et XIVe siècles. Nous parcourons cette rue pendant [la visite guidée du quartier juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/).
 
 - **1394.** Le roi Charles VI expulse les Juifs du royaume de France. La ville de Lyon date de cette année l’expulsion de sa communauté juive.
 - **Vers 1420.** L’Encyclopaedia Judaica note que Lyon ne faisait pas encore partie du royaume en 1394. Elle donne 1420 pour l’expulsion de Lyon et indique que la plupart des familles se sont installées à Trévoux, à proximité.
@@ -112,6 +112,7 @@ Réponse dans la journée, jamais le Shabbat.
 - [La Grande Synagogue de Lyon](https://mishpachatours.com/fr/grande-synagogue-lyon/)
 - [Histoire juive de Lyon](https://mishpachatours.com/fr/jewish-history-lyon/)
 - [Synagogues et Shabbat à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)
+- [Le patrimoine juif de Lyon en deux jours](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
 
 ## Prêts à *réserver* votre visite ?
 

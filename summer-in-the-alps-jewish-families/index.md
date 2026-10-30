@@ -2,7 +2,7 @@
 
 Source: https://mishpachatours.com/summer-in-the-alps-jewish-families/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Home](https://mishpachatours.com/) / [Jewish Lyon guide](https://mishpachatours.com/jewish-lyon-guide/) / Summer in the Alps for Jewish families
+[Home](https://mishpachatours.com/) / Summer in the Alps for Jewish families
 
 # Your private kosher summer *the Riviera, the lakes, the Alps*
 
@@ -85,6 +85,8 @@ in the Alps
 | [St. Moritz](https://mishpachatours.com/kosher-st-moritz/) |  |  |
 | [Crans-Montana](https://mishpachatours.com/kosher-crans-montana/) |  |  |
 | [Verbier](https://mishpachatours.com/kosher-verbier/) |  |  |
+| [Gstaad](https://mishpachatours.com/kosher-gstaad/) |  |  |
+| [Davos](https://mishpachatours.com/kosher-davos/) |  |  |
 | [Cervinia](https://mishpachatours.com/kosher-cervinia/) |  |  |
 | [Courmayeur](https://mishpachatours.com/kosher-courmayeur/) |  |  |
 | [Cortina d'Ampezzo](https://mishpachatours.com/kosher-cortina/) |  |  |

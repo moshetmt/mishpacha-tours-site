@@ -20,9 +20,9 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 
 אנחנו מארגנים לכם שהות כשרה: שף פרטי או ארוחות עד הדירה, שבת, מניין וספר תורה, בהצעת מחיר אחת בכתב.
 
-## הצ'אלה שלנו *ליד מג'ב*
+## צ'אלה לו בלאן *ליד מג'ב*
 
-### [צ'אלה המון בלאן, לכמה משפחות](https://mishpachatours.com/he/kosher-chalet-megeve/)
+### [צ'אלה לו בלאן, ליד מג'ב](https://mishpachatours.com/he/kosher-chalet-megeve/)
 
 - **10 + 2**חדרי טווין + חדרי עליית גג
 - **3 עד 4**משפחות
@@ -49,6 +49,8 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 - **שהייה בהתאמה אישית, מא' ועד ת'.** צ'אלה, שף או ארוחות במשלוח, הסעות, שבת, החגים, מניין: פנייה אחת, הצעת מחיר אחת. משפחות וקבוצות מחו"ל הן הלב שלנו; קבוצה קטנה מאוד שרוצה משלוח אחד בלבד, אמרו לנו ונגיד מה אפשרי.
 
 כשר לחלוטין. הצוות הכשר שלנו שבסיסו באלפים מבשל תחת רשת חב״ד באלפים; פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר. פירוט כל שירות: [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/).
+
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## כשר *במג'ב*
 
@@ -142,6 +144,13 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 ## מג'ב: השבוע שלכם, *מאורגן*.
 
 ספרו לנו את התאריכים. נשלח באותו יום תוכנית יום אחר יום.
+
+## אתרי סקי *סמוכים*
+
+- [כשר בשמוני](https://mishpachatours.com/kosher-chamonix/)
+- [כשר באנסי](https://mishpachatours.com/kosher-annecy/)
+- [כשר בקורמאיור (איטליה)](https://mishpachatours.com/kosher-courmayeur/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
 
 ## להמשך *קריאה*
 

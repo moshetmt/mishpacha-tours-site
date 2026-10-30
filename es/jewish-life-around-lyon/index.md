@@ -1,10 +1,10 @@
-> Sinagogas y casas Chabad en Grenoble, Annecy, Aix-les-Bains, Chambéry, Valence y Clermont-Ferrand, minyanim de invierno en Courchevel y Megève. Revisado el 7 de octubre de 2026.
+> Sinagogas y casas Chabad en Grenoble, Annecy, Aix-les-Bains, Chambéry, Valence y Clermont-Ferrand, minyanim de invierno en Courchevel y Megève. Direcciones y teléfonos.
 
 Source: https://mishpachatours.com/es/jewish-life-around-lyon/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Inicio](https://mishpachatours.com/es/) / [Guía](https://mishpachatours.com/es/jewish-lyon-guide/) / Alrededor de Lyon
 
-# Vida judía alrededor de Lyon *Grenoble, Annecy, los Alpes y la Auvernia*
+# Vida judía cerca de Lyon *Grenoble, Annecy, los Alpes*
 
 Lyon es la puerta de los Alpes. En menos de dos horas se llega a nueve comunidades judías y, en invierno, a los minyanim de las estaciones de esquí. Aquí figura dónde rezar y a quién llamar, ciudad por ciudad. Cada dirección procede del Consistoire regional o de la propia comunidad. Llame antes de ir: ninguna de estas páginas muestra una fecha.
 

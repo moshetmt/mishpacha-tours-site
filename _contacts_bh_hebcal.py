@@ -90,6 +90,8 @@ PLACES = {  # slug : (geonameid, {lang: nom})
     "kosher-st-moritz": (2658813, dict(en="St. Moritz", fr="Saint-Moritz", es="St. Moritz", he="סנט מוריץ")),
     "kosher-crans-montana": (6559506, dict(en="Crans-Montana", fr="Crans-Montana", es="Crans-Montana", he="קראן מונטנה")),
     "kosher-verbier": (2658168, dict(en="Verbier", fr="Verbier", es="Verbier", he="ורבייה")),
+    "kosher-gstaad": (2660461, dict(en="Gstaad", fr="Gstaad", es="Gstaad", he="גשטאד")),
+    "kosher-davos": (2661039, dict(en="Davos", fr="Davos", es="Davos", he="דאבוס")),
     "kosher-cervinia": (6534766, dict(en="Cervinia", fr="Cervinia", es="Cervinia", he="צרביניה")),
     "kosher-courmayeur": (3177872, dict(en="Courmayeur", fr="Courmayeur", es="Courmayeur", he="קורמאיור")),
     "kosher-cortina": (3177952, dict(en="Cortina d'Ampezzo", fr="Cortina d'Ampezzo", es="Cortina d'Ampezzo", he="קורטינה")),
@@ -111,7 +113,7 @@ COORDS = {  # slug : (latitude, longitude, tzid)
     "kosher-grenoble": (45.1885, 5.7245, "Europe/Paris"), "kosher-la-plagne": (45.5070, 6.6780, "Europe/Paris"),
     "kosher-les-arcs": (45.5726, 6.8279, "Europe/Paris"), "kosher-val-disere": (45.4481, 6.9800, "Europe/Paris"),
     "kosher-zermatt": (46.0200, 7.7486, "Europe/Zurich"), "kosher-st-moritz": (46.4994, 9.8433, "Europe/Zurich"),
-    "kosher-crans-montana": (46.3132, 7.4791, "Europe/Zurich"), "kosher-verbier": (46.1002, 7.22651, "Europe/Zurich"), "kosher-cervinia": (45.9336, 7.6297, "Europe/Rome"),
+    "kosher-crans-montana": (46.3132, 7.4791, "Europe/Zurich"), "kosher-verbier": (46.1002, 7.22651, "Europe/Zurich"), "kosher-gstaad": (46.47215, 7.28685, "Europe/Zurich"), "kosher-davos": (46.80429, 9.83723, "Europe/Zurich"), "kosher-cervinia": (45.9336, 7.6297, "Europe/Rome"),
     "kosher-courmayeur": (45.7966, 6.9689, "Europe/Rome"), "kosher-cortina": (46.5369, 12.1390, "Europe/Rome"),
 }
 STATIONS = [s for s in COORDS if s not in ("kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens")]  # tableau des pages multi-stations
@@ -418,6 +420,7 @@ PAGES_BH = {"alps", "kosher-services-french-alps", "kosher-ski-holidays-french-a
 WA_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>'
 
 
+SANS_LIVRAISON = {"kosher-services-french-alps", "kosher-verbier", "kosher-gstaad", "kosher-davos", "kosher-ski-anywhere"}   # 30/10 : plus de livraison au-delà de 3 h de Grenoble
 def bloc_minyan(h, lang, slug):
     if re.search(r'class="[^"]*\bminyan-bh\b', h):   # 29/10 : Valora préfixe les classes (« clair ss wrap minyan-bh »)
         return h
@@ -426,7 +429,7 @@ def bloc_minyan(h, lang, slug):
     url = lambda m: "https://wa.me/%s?text=%s" % (WA_BH, urllib.parse.quote(m.format(lieu).replace(" Station : / ", " ").replace(" Resort: / ", " ")
                                                                            if not lieu else m.format(lieu), safe=""))
     btn = lambda href, txt: '<p class="cta-hero cta-bh"><a class="btn-noir" href="%s" rel="noopener">%s%s</a></p>' % (href, WA_SVG, txt)
-    meals = slug != "kosher-services-french-alps"  # la page services a deja son bouton repas vers le Beth Habad
+    meals = slug not in SANS_LIVRAISON  # la page services a deja son bouton repas ; Suisse et ailleurs : chef privé seulement (Mendel 30/10)
     b = ('<section class="ss wrap minyan-bh"><div class="minyan-corps"><h2>%s</h2><p>%s</p>%s'
          % (t["h2"], t["p"], btn(url(t["m"]), t["b"])))
     if meals:

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/synagogues-lyon/ (HTML version). Every pag
 
 [Inicio](https://mishpachatours.com/es/) / [Antes de venir](https://mishpachatours.com/es/#before) / Sinagogas en Lyon
 
-# Sinagogas en Lyon *Dónde reza la comunidad y cuándo entra el Shabat*
+# Sinagogas en Lyon *Dónde reza la comunidad, el Shabat*
 
 Lyon cuenta con ocho casas de Chabad, dos grandes sinagogas históricas y 25 minyanim de barrio, la mayoría en Villeurbanne. Para rezar, una comida de Shabat o cualquier duda sobre el terreno, empiece por una casa de Chabad: reciben a los viajeros todos los días. Los visitantes son bienvenidos al rezo en todas partes: llegue unos minutos antes, lleve su documento de identidad y espere un control de seguridad en la puerta, como en toda sinagoga de Francia hoy. Para un minyan cerca de su hotel, escríbanos.
 
@@ -16,7 +16,7 @@ Lyon cuenta con ocho casas de Chabad, dos grandes sinagogas históricas y 25 min
 
 ## Empiece por *Chabad*
 
-Ocho casas de Chabad en Lyon, Villeurbanne, Écully y Craponne reciben a los viajeros todos los días: rezo, comida de Shabat, consejos kosher. Nuestra primera recomendación, antes que cualquier otra dirección.
+Ocho casas de Chabad en Lyon, Villeurbanne, Écully y Craponne reciben a los viajeros todos los días: rezo, comida de Shabat, consejos kosher. Nuestra primera recomendación, antes que cualquier otra dirección. [Nuestras visitas privadas por el Lyon judío](https://mishpachatours.com/jewish-lyon-tours/) le llevan al interior de la Gran Sinagoga.
 
 - **Beth Habad Centre-Ville**10 rue Mulet, 69001 Lyon[Mapa](https://www.google.com/maps/search/?api=1&query=10%20rue%20Mulet%2C%2069001%20Lyon)
 - **Chabad Loubavitch Lyon 6**60 rue Crillon, 69006 Lyon[Mapa](https://www.google.com/maps/search/?api=1&query=60%20rue%20Crillon%2C%2069006%20Lyon)

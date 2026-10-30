@@ -12,7 +12,7 @@ Dedique a Lyon dos o tres días: primero Vieux Lyon y sus traboules, después el
 
 ## Cómo leer *esta página*
 
-Cada lugar indica duración, niños, comida kosher cerca y día de cierre; el resto está en «Leer más». No guiamos en Shabat: cada plan va de domingo a viernes. Horarios leídos en la web de cada lugar el 21 de octubre de 2026.
+Cada lugar indica duración, niños, comida kosher cerca y día de cierre; el resto está en «Leer más». No guiamos en Shabat: cada plan va de domingo a viernes. Horarios leídos en la web de cada lugar el 21 de octubre de 2026. Para el lado judío de la ciudad, empiece por [nuestras visitas guiadas por el Lyon judío](https://mishpachatours.com/jewish-lyon-tours/).
 
 ## El Lyon antiguo *y sus colinas*
 

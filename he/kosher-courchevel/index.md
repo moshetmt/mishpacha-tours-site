@@ -20,9 +20,9 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 העונה נמשכת מ-4 בדצמבר 2026 עד 18 באפריל 2027. אנחנו מארגנים לכם שהות כשרה: שף פרטי או ארוחות עד הדירה, שבת, מניין וספר תורה, בהצעת מחיר אחת בכתב.
 
-## הצ'אלה שלנו *בקורשבל*
+## צ'אלה פלוקון דורה *בקורשבל*
 
-### [צ'אלה כשרה בלב קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)
+### [צ'אלה פלוקון דורה, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)
 
 - **5**חדרי שינה עם חדר רחצה
 - **10 עד 14**אורחים
@@ -49,6 +49,8 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 - **שהייה בהתאמה אישית, מא' ועד ת'.** צ'אלה, שף או ארוחות במשלוח, הסעות, שבת, החגים, מניין: פנייה אחת, הצעת מחיר אחת. משפחות וקבוצות מחו"ל הן הלב שלנו; קבוצה קטנה מאוד שרוצה משלוח אחד בלבד, אמרו לנו ונגיד מה אפשרי.
 
 כשר לחלוטין. הצוות שלנו מבשל תחת רשת חב״ד באלפים: פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
+
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## כשר *בקורשבל*
 
@@ -139,6 +141,14 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 ## קורשבל: השבוע שלכם, *מאורגן*.
 
 ספרו לנו את התאריכים. נשלח באותו יום תוכנית יום אחר יום.
+
+## אתרי סקי *סמוכים*
+
+- [כשר בואל טורנס](https://mishpachatours.com/kosher-val-thorens/)
+- [כשר בלה פלאן](https://mishpachatours.com/kosher-la-plagne/)
+- [כשר בלז ארק](https://mishpachatours.com/kosher-les-arcs/)
+- [כשר בואל דיזר](https://mishpachatours.com/kosher-val-disere/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
 
 ## להמשך *קריאה*
 

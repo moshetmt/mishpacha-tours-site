@@ -225,7 +225,7 @@ Source: https://mishpachatours.com/he/jewish-lyon-tours/ (HTML version). Every p
 תשע ערים, שלושה אתרי סקי](https://mishpachatours.com/jewish-life-around-lyon/)
 [### בתוך בית הכנסת הגדול
 
-הסיור היחיד שמכניס אתכם פנימה](https://mishpachatours.com/he/tours/jewish-lyon/)
+הסיור היחיד שמכניס אתכם פנימה, באישור מיוחד](https://mishpachatours.com/he/tours/jewish-lyon/)
 
 ## משלמים לקבוצה, *לעולם לא* לאדם
 

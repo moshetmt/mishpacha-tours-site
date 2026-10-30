@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/montluc-prison-lyon/ (HTML version). Every
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Mémorial de la prison de Montluc
 
-# Mémorial de la prison de Montluc *où la Gestapo détenait des Juifs et des résistants à Lyon*
+# Mémorial de Montluc *où la Gestapo détenait les Juifs*
 
 La prison de Montluc est un mémorial national situé dans le 3e arrondissement de Lyon. De 1943 à 1944, les Allemands y ont détenu des résistants, des otages et des Juifs, dont beaucoup avant leur déportation. Les enfants d’Izieu y sont passés le 6 avril 1944. L’entrée est gratuite.
 
@@ -16,7 +16,7 @@ La prison de Montluc est un mémorial national situé dans le 3e arrondissement 
 
 ## Histoire *en bref*
 
-Montluc a été construite en 1921 comme prison militaire. Après en avoir réquisitionné une partie en janvier 1943, les Allemands ont pris toute la prison le 17 février 1943 et l’ont gardée jusqu’à la libération de Lyon, le 24 août 1944.
+Montluc a été construite en 1921 comme prison militaire. Après en avoir réquisitionné une partie en janvier 1943, les Allemands ont pris toute la prison le 17 février 1943 et l’ont gardée jusqu’à la libération de Lyon, le 24 août 1944. Montluc est une étape de [notre visite Mémoire, Montluc et le CHRD](https://mishpachatours.com/jewish-lyon-tours/).
 
 - **Qui y était détenu.** Plus de 9 000 hommes, femmes et enfants y sont passés durant cette période : résistants, otages et Juifs. Jean Moulin et l’historien Marc Bloch y ont été détenus.
 - **Les Juifs de Montluc.** La prison servait de point de rassemblement pour les Juifs avant leur envoi à Drancy, puis à Auschwitz-Birkenau. Un bloc séparé, la baraque aux Juifs, détenait surtout des hommes juifs de plus de 15 ans. Des familles entières y étaient amenées.
@@ -85,6 +85,7 @@ Réponse dans la journée, jamais le Shabbat.
 - [Le CHRD à Lyon](https://mishpachatours.com/fr/chrd-lyon/)
 - [Maison d’Izieu](https://mishpachatours.com/fr/maison-izieu/)
 - [Synagogues à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)
+- [Le patrimoine juif de Lyon en deux jours](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
 
 ## Prêts à *réserver* votre visite ?
 

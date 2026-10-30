@@ -16,7 +16,7 @@ Lyon et Villeurbanne comptent plusieurs mikvaot (on écrit aussi mikve ou mikveh
 
 ## Le mikvé *pour commencer*
 
-**Mikvé Haya Mouchka**, 60 rue Crillon, 69006 Lyon. Rattaché à Beth Habad Lyon 6e, sous la supervision du rabbin Yoel Nemanow. Horaires indiqués : ouvert chaque soir. Le mikvé suit la coutume Chabad et est indiqué avec un bor al gabei bor et un bor geshamim sous le bassin d’immersion.
+**Mikvé Haya Mouchka**, 60 rue Crillon, 69006 Lyon. Rattaché à Beth Habad Lyon 6e, sous la supervision du rabbin Yoel Nemanow. Horaires indiqués : ouvert chaque soir. Le mikvé suit la coutume Chabad et est indiqué avec un bor al gabei bor et un bor geshamim sous le bassin d’immersion. Notre guide mène aussi [les visites du patrimoine juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/).
 
 Écrivez ou appelez avec vos dates et précisez que vous voyagez.
 
@@ -81,6 +81,7 @@ Réponse dans la journée, jamais le Shabbat.
 - [Chabad à Lyon](https://mishpachatours.com/fr/chabad-lyon/)
 - [Synagogues à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)
 - [Voyager à Lyon : la FAQ sans détour](https://mishpachatours.com/fr/jewish-travel-lyon-faq/)
+- [Le patrimoine juif de Lyon en deux jours](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
 
 ## Lyon, réservé en *un message*
 

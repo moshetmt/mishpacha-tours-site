@@ -16,7 +16,7 @@ Lyon compte huit Beth Habad, deux grandes synagogues historiques et 25 minyanim 
 
 ## Commencez par *Habad*
 
-Huit Beth Habad à Lyon, Villeurbanne, Écully et Craponne accueillent les voyageurs tous les jours : prière, repas de Shabbat, conseils casher. Notre première recommandation, avant toute autre adresse.
+Huit Beth Habad à Lyon, Villeurbanne, Écully et Craponne accueillent les voyageurs tous les jours : prière, repas de Shabbat, conseils casher. Notre première recommandation, avant toute autre adresse. [Nos visites privées du patrimoine juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/) vous font entrer dans la Grande Synagogue.
 
 - **Beth Habad Centre-Ville**10 rue Mulet, 69001 Lyon[Carte](https://www.google.com/maps/search/?api=1&query=10%20rue%20Mulet%2C%2069001%20Lyon)
 - **Chabad Loubavitch Lyon 6**60 rue Crillon, 69006 Lyon[Carte](https://www.google.com/maps/search/?api=1&query=60%20rue%20Crillon%2C%2069006%20Lyon)

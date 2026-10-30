@@ -16,7 +16,7 @@ Rue Juiverie runs through the Vieux Lyon, in the 5th arrondissement. It takes it
 
 ## Jews of Lyon *in the Middle Ages*
 
-Jews lived in Lyon from an early date. When they were expelled in 1250 by Archbishop Philip of Savoy, they were living on the present rue Ferrachat. Later in the century a new community settled. In the second half of the 14th century Jewish residents paid municipal taxes, and the city appointed officials with authority over them. The city of Lyon places this community on rue Juiverie in the 13th and 14th centuries.
+Jews lived in Lyon from an early date. When they were expelled in 1250 by Archbishop Philip of Savoy, they were living on the present rue Ferrachat. Later in the century a new community settled. In the second half of the 14th century Jewish residents paid municipal taxes, and the city appointed officials with authority over them. The city of Lyon places this community on rue Juiverie in the 13th and 14th centuries. We walk this street on [the guided walk through Jewish Lyon](https://mishpachatours.com/jewish-lyon-tours/).
 
 - **1394.** King Charles VI expelled the Jews from the kingdom of France. The city of Lyon dates the expulsion of its Jewish community to that year.
 - **Around 1420.** The Encyclopaedia Judaica notes that Lyon was not yet part of the kingdom in 1394. It gives 1420 for the expulsion from Lyon, and says most families moved to nearby Trévoux.
@@ -112,6 +112,7 @@ Same-day reply, never on Shabbat.
 - [The Grande Synagogue of Lyon](https://mishpachatours.com/grande-synagogue-lyon/)
 - [Jewish history of Lyon](https://mishpachatours.com/jewish-history-lyon/)
 - [Synagogues and Shabbat in Lyon](https://mishpachatours.com/synagogues-lyon/)
+- [Jewish Lyon in two days](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
 
 ## Ready to *book* your tour?
 

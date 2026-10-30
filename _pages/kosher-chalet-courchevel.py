@@ -3,8 +3,8 @@
 # Ni nom du chalet, ni hameau, ni surface (ETAT 16/10) ; photos d'origine (décision du 18/10).
 PAGE = dict(
   slug="kosher-chalet-courchevel",
-  title="Kosher Chalet in Courchevel, Pools and Chef",
-  desc="A kosher chalet in the heart of Courchevel: 5 en-suite bedrooms, heated pools and hammam, a private chef, Shabbat and a minyan. One written quote.",
+  title="Chalet Flocon Doré, kosher, Courchevel",
+  desc="Chalet Flocon Doré in Courchevel: a kosher chalet with 5 en-suite bedrooms, heated pools and hammam, private chef, Shabbat and minyan. One written quote.",
   h1="Chalet Flocon Doré, Courchevel", ital="5 suites, heated pools, private chef",
   intro="A chalet in the heart of Courchevel, in the 3 Valleys. Five en-suite bedrooms for 10 to 14 guests, heated pools, a hammam and a private shuttle to the lifts. Our team koshers the kitchen, a private chef cooks every meal, and Shabbat comes with a minyan and a Sefer Torah. One request, one written quote.",
   chips=["5 en-suite bedrooms, 10 to 14 guests", "Heated pools, hammam", "Private shuttle to the lifts", "On written quote"],
@@ -35,7 +35,7 @@ PAGE = dict(
 <li><b>Transfers.</b> Vans with car seats from the airport to the chalet and back, on quote.</li>
 <li><b>Land in Lyon with a few hours to spare?</b> <a href="../tours/stopover/">The Stopover</a>: a private 3 hour tour of Jewish Lyon between the plane and the road.</li>
 </ul>"""),
-    dict(type="faq", h2="The Courchevel chalet: <i>questions</i>", items=[
+    dict(type="faq", h2="Chalet Flocon Doré: <i>questions</i>", items=[
       ("How much does it cost?", "<span data-prix-tpl='From €{ch3_basse_vente} per week'>From €17,500 per week</span> for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("How many people can stay?", "Five en-suite bedrooms, for 10 to 14 guests."),
       ("Who cooks the meals?", "A private chef cooks kosher meals at the chalet. Our team kashers the kitchen before you arrive."),

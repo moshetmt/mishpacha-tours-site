@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/jewish-lyon-itinerary-2-days/ (HTML version).
 
 [Home](https://mishpachatours.com/) / [Jewish Lyon guide](https://mishpachatours.com/jewish-lyon-guide/) / Jewish Lyon in two days
 
-# Jewish Lyon in two days *an itinerary built around kosher meals and Shabbat*
+# Jewish Lyon in two days *around Shabbat and kosher meals*
 
 Two days cover Jewish Lyon: day one is a 2 h 30 walk through rue Juiverie, inside the Grande Synagogue and along rue Sainte-Catherine; day two is one Memory visit, the CHRD or Montluc, never both. Kosher meals are in Villeurbanne and the 6th arrondissement. Two full days are enough to see the Jewish Lyon that matters: the medieval quarter and the Grande Synagogue, then the places of memory of the war years. Here is how we would lay them out, with where to eat and when to stop for Shabbat.
 

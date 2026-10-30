@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-vacation-french-alps/ (HTML version). 
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / A kosher vacation in the Alps
 
-# A kosher vacation in the Alps *you choose the resort and the dates, we take care of everything kosher*
+# A kosher vacation in the Alps *you choose, we handle kosher*
 
 You want a kosher vacation abroad without a kosher hotel: a chalet or an apartment of your own, in a real ski resort in winter or by a lake in summer.
 

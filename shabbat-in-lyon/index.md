@@ -26,7 +26,7 @@ Candle lighting falls as early as 16:30 in December and after 21:00 in June.
 
 ## Shabbat with a *family*
 
-You do not have to spend Shabbat in a hotel room. Send us your dates and how many you are, and we put you in touch with a Chabad family in Lyon or Villeurbanne for the Friday night meal and the Shabbat lunch. This is Chabad hospitality: no charge, and a donation to the house is customary.
+You do not have to spend Shabbat in a hotel room. Send us your dates and how many you are, and we put you in touch with a Chabad family in Lyon or Villeurbanne for the Friday night meal and the Shabbat lunch. This is Chabad hospitality: no charge, and a donation to the house is customary. Before Shabbat comes in, [a Friday walk through Jewish Lyon](https://mishpachatours.com/jewish-lyon-tours/) ends well before candle lighting.
 
 If you would rather have a Shabbat organised for your group alone, with the meals, the walk to the synagogue and the candle-lighting times taken care of, we arrange it on quote.
 

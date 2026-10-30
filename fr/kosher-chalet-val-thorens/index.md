@@ -1,8 +1,8 @@
-> Un chalet casher privé à Val Thorens, plein sud, avec un chemin skieur à la porte : trois chambres avec salle de bain, jusqu’à 10 personnes. Chef, Chabbat et minyan. Un devis écrit.
+> Chalet Belle Étoile à Val Thorens : chalet casher privé, chemin skieur à la porte, 3 chambres en suite, jusqu'à 10 personnes. Chef, Chabbat, minyan.
 
 Source: https://mishpachatours.com/fr/kosher-chalet-val-thorens/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Le chalet de Val Thorens, skis aux pieds
+[Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Belle Étoile, Val Thorens
 
 # Chalet Belle Étoile, Val Thorens *skis aux pieds, 3 suites*
 
@@ -38,6 +38,8 @@ Le chalet accueille jusqu’à 10 personnes, dont 8 adultes au plus. La disponib
 Le chef prépare au chalet les repas de Chabbat et des fêtes, ou les repas arrivent avant l’allumage des bougies. La table de la salle à manger accueille dix convives. Pour un minyan, nous amenons les ba'hourim et un Sefer Torah : avec les hommes de votre groupe, Cha'harit a lieu dans votre salon.
 
 Strictement casher, tout ce qui est servi est Chalav Yisrael. Les détails de la surveillance figurent par écrit dans votre devis.
+
+Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Comment ça *se passe*
 
@@ -88,7 +90,7 @@ Des repas casher livrés à votre hébergement en station, commandés auprès du
 
 [Repas casher livrés : écrire au Beth Habad sur WhatsApp](https://wa.me/33781823193?text=Bonjour%2C%20nous%20sommes%20dans%20les%20Alpes%20et%20aimerions%20des%20repas%20casher%20livr%C3%A9s.%20Station%20%3A%20Val%20Thorens%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
-## Le chalet de Val Thorens : *questions*
+## Le Chalet Belle Étoile : *questions*
 
 Combien ça coûte ?
 
@@ -116,7 +118,7 @@ Nous amenons les ba'hourim et un Sefer Torah au chalet pour Chabbat, sur demande
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet des pistes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
@@ -128,7 +130,7 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 - [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/)
 - [Casher à Val Thorens](https://mishpachatours.com/fr/kosher-val-thorens/)
-- [Notre chalet à Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
+- [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
 - [Services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/)
 
 ---

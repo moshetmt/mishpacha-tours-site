@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-villa-saint-tropez/ (HTML version). Ev
 
 [Home](https://mishpachatours.com/) / [Summer](https://mishpachatours.com/summer-in-the-alps-jewish-families/) / A kosher villa on the water in Saint-Tropez
 
-# A kosher villa on the water in Saint-Tropez *private beach, boat, chef and Shabbat*
+# Villa in Saint-Tropez *kosher, on the water, private beach*
 
 Villa Beach sits with its feet in the water, in the gulf of Saint-Tropez.
 

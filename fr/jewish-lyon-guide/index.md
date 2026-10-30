@@ -103,7 +103,7 @@ Ouvrir](https://mishpachatours.com/fr/kosher-alpe-dhuez/)[### Casher à Les Deux
 
 Chef, repas, Shabbat, fêtes, minyan à Les Deux Alpes : ce que nous organisons
 
-Ouvrir](https://mishpachatours.com/fr/kosher-les-deux-alpes/)[### Chalet casher aux Deux Alpes
+Ouvrir](https://mishpachatours.com/fr/kosher-les-deux-alpes/)[### Chalet King David, Les Deux Alpes
 
 300 m², 6 chambres, 16 lits, à 2 minutes des pistes : chef, Chabbat, tout organisé
 
