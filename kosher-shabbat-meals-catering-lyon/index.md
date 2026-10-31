@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/ (HTML ver
 
 [Home](https://mishpachatours.com/) / [Jewish Lyon guide](https://mishpachatours.com/jewish-lyon-guide/) / Kosher catering and Shabbat meals in Lyon
 
-# Kosher catering and Shabbat meals in Lyon *who cooks, how to order*
+# Kosher catering in Lyon *Shabbat meals, who cooks*
 
 Six caterers on the official list of the Beth Din de Lyon cook for Shabbat, and Chabad houses host on request. We help you write, and you pay the caterer directly.
 
@@ -25,7 +25,7 @@ Six caterers on the official list of the Beth Din de Lyon cook for Shabbat, and 
 
 ## Delivery to *your hotel*
 
-Ask each one: do you deliver to my hotel, on which day and at what hour, and what do you need from me? Tell the hotel that a delivery is coming, and ask whether it can keep the food until Friday afternoon.
+Ask each one: do you deliver to my hotel, on which day and at what hour, and what do you need from me? Tell the hotel that a delivery is coming, and ask whether it can keep the food until Friday afternoon. Pair the meal with [a guided visit of Jewish Lyon](https://mishpachatours.com/jewish-lyon-tours/) before Shabbat.
 
 Three places on the Beth Din list state take-away or delivery: La Darka, Planet Sandwich and, on Deliveroo and Uber Eats, Mika Sushi. These are weekday options. Nothing is delivered on Shabbat.
 

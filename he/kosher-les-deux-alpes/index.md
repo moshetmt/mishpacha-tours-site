@@ -28,7 +28,7 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 **סקי והקרחון**כרטיסי סקי, השכרה ושיעורים לפי בקשה, באתר שמגיעים בו בסקי עד הקרחון.
 
-### [הצ'אלה הכשרה שלנו, למרגלות המסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
+### [צ'אלה קינג דייוויד, לה דז אלפ](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
 
 - **300 מ"ר**צ'אלה פרטית
 - **6 + 1**חדרי שינה + חדר תינוק
@@ -45,7 +45,7 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [צ'אלה המסלולים, נועלים מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)
+### [צ'אלה רושברון, לה דז אלפ](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)
 
 - **6**חדרי שינה
 - **עד 13**אורחים
@@ -72,6 +72,8 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 - **שהייה בהתאמה אישית, מא' ועד ת'.** צ'אלה, שף או ארוחות במשלוח, הסעות, שבת, החגים, מניין: פנייה אחת, הצעת מחיר אחת. משפחות וקבוצות מחו"ל הן הלב שלנו; קבוצה קטנה מאוד שרוצה משלוח אחד בלבד, אמרו לנו ונגיד מה אפשרי.
 
 כשר לחלוטין. כשרות בהשגחת בית חב״ד גרנובל-אלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
+
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## כשר *בלה דז אלפ*
 
@@ -164,6 +166,13 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 ## לה דז אלפ: השבוע שלכם, *מאורגן*.
 
 ספרו לנו את התאריכים. נשלח באותו יום תוכנית יום אחר יום.
+
+## אתרי סקי *סמוכים*
+
+- [כשר באלפ ד'ואז](https://mishpachatours.com/kosher-alpe-dhuez/)
+- [כשר בגרנובל](https://mishpachatours.com/kosher-grenoble/)
+- [כשר בואל טורנס](https://mishpachatours.com/kosher-val-thorens/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
 
 ## להמשך *קריאה*
 

@@ -16,7 +16,7 @@ Lyon and Villeurbanne have several mikvahs.
 
 ## The mikvah *to start with*
 
-**Mikvah Haya Mouchka**, 60 rue Crillon, 69006 Lyon. Attached to Beth Habad Lyon 6e, under the supervision of Rabbi Yoel Nemanow. Hours listed: open nightly. The mikvah follows the Chabad custom and is listed with a bor al gabei bor and a bor geshamim below the immersion pool.
+**Mikvah Haya Mouchka**, 60 rue Crillon, 69006 Lyon. Attached to Beth Habad Lyon 6e, under the supervision of Rabbi Yoel Nemanow. Hours listed: open nightly. The mikvah follows the Chabad custom and is listed with a bor al gabei bor and a bor geshamim below the immersion pool. Our guide also leads [the Jewish heritage tours of Lyon](https://mishpachatours.com/jewish-lyon-tours/).
 
 Write or call with your dates, and say that you are travelling.
 
@@ -81,6 +81,7 @@ Same-day reply, never on Shabbat.
 - [Chabad in Lyon](https://mishpachatours.com/chabad-lyon/)
 - [Synagogues in Lyon](https://mishpachatours.com/synagogues-lyon/)
 - [Jewish travel to Lyon: the FAQ](https://mishpachatours.com/jewish-travel-lyon-faq/)
+- [Jewish Lyon in two days](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
 
 ## Lyon, booked in *one message*
 

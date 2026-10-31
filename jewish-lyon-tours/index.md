@@ -36,7 +36,7 @@ A quiet presence beside your group, only when you ask for it.
 
 [See the details](https://mishpachatours.com/is-lyon-safe-for-jewish-visitors/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20discreet%20private%20escort%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
-# The only tour that takes you inside the Grande Synagogue of Lyon. *Private, strictly kosher, shaped by you.*
+# The only tour inside the Grande Synagogue of Lyon. *Private, strictly kosher, shaped by you.*
 
 The Grande Synagogue on quai Tilsitt is closed to visitors outside the Heritage Days. With us, you go inside, with a guide who is Jewish, observant and part of Lyon's community.
 

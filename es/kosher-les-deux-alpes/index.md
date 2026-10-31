@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-les-deux-alpes/ (HTML version). Eve
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Les Deux Alpes, estrictamente kosher
 
-# Les Deux Alpes, estrictamente kosher *una estación de glaciar a 1.650 m, con una temporada kosher de verano propia*
+# Les Deux Alpes *estrictamente kosher, glaciar a 1.650 m*
 
 Les Deux Alpes se encuentra a 1.650 m en Isère, con un glaciar por encima.
 
@@ -28,7 +28,7 @@ Lyon-Saint-Exupéry queda a unas 2 h 10 por carretera. Organizamos su estancia k
 
 **Esquí y glaciar**Forfaits, alquiler y clases a petición, en una estación que llega hasta el glaciar.
 
-### [Nuestro chalet kosher, al pie de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
+### [Chalet King David, Les Deux Alpes](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
 
 - **300 m²**chalet privado
 - **6 + 1**habitaciones + cuarto del bebé
@@ -45,7 +45,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [El chalet de las pistas, esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)
+### [Chalet Rochebrune, Les Deux Alpes](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)
 
 - **6**habitaciones
 - **Hasta 13**personas
@@ -72,6 +72,8 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 - **Una estancia a medida, de la A a la Z.** Chalé, chef o comidas entregadas, traslados, Shabat, las fiestas, un minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo; si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
 Estrictamente kosher. Kashrut bajo la supervisión del Beth Habad Grenoble-Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+
+También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Kosher *en Les Deux Alpes*
 
@@ -167,6 +169,13 @@ Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles
 ## Les Deux Alpes: su semana, *organizada*.
 
 Díganos sus fechas. Enviamos un programa día a día el mismo día.
+
+## Estaciones *cercanas*
+
+- [Alpe d’Huez kosher](https://mishpachatours.com/kosher-alpe-dhuez/)
+- [Grenoble kosher](https://mishpachatours.com/kosher-grenoble/)
+- [Val Thorens kosher](https://mishpachatours.com/kosher-val-thorens/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
 
 ## Siga *leyendo*
 

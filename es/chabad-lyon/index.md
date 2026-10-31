@@ -4,9 +4,9 @@ Source: https://mishpachatours.com/es/chabad-lyon/ (HTML version). Every page of
 
 [Inicio](https://mishpachatours.com/es/) / [Antes de venir](https://mishpachatours.com/es/#before) / Chabad en Lyon
 
-# Chabad en Lyon *Ocho casas Chabad, una mesa de Shabat siempre abierta*
+# Chabad en Lyon *Ocho casas, una mesa de Shabat abierta*
 
-Lyon cuenta con ocho centros Chabad: centro de la ciudad, distritos 3.º y 6.º, Villeurbanne, Charpennes, Écully y el campus universitario. Venga de donde venga, puede llamar antes de Shabat y pedir una comida o un minyan. Nuestra guía forma parte de esta comunidad.
+Lyon cuenta con ocho centros Chabad: centro de la ciudad, distritos 3.º y 6.º, Villeurbanne, Charpennes, Écully y el campus universitario. Venga de donde venga, puede llamar antes de Shabat y pedir una comida o un minyan. Nuestra guía forma parte de esta comunidad. Para el patrimonio, [nuestras visitas guiadas por el Lyon judío](https://mishpachatours.com/jewish-lyon-tours/) salen a pocos minutos.
 
 - 8 casas Chabad
 - Comidas de Shabat bajo petición

@@ -1,4 +1,4 @@
-> Fuente, autor y licencia de cada fotografía utilizada en mishpachatours.com. Imágenes de Wikimedia Commons con licencias CC0, CC BY y CC BY-SA, recortadas y redimensionadas.
+> Fuente, autor y licencia de cada fotografía de mishpachatours.com. Imágenes de Wikimedia Commons con licencias CC0, CC BY y CC BY-SA.
 
 Source: https://mishpachatours.com/es/credits/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 

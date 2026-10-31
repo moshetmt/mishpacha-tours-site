@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/flights-to-lyon/ (HTML version). Every page o
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Flights to Lyon
 
-# Flights to Lyon *the airport for the French Alps, and what to do between the plane and the slopes*
+# Flights to Lyon *the airport for the French Alps*
 
 Lyon-Saint-Exupéry is the airport for the Tarentaise and the Grenoble side: Val Thorens, Courchevel, Méribel, Alpe d'Huez and Les Deux Alpes are two to three hours away by road. Direct flights from Tel Aviv are operated by El Al and Transavia, one to two a week depending on the season, about four and a half hours. This page gives the flights, the drive times, where to buy kosher before you climb, and how to use a few spare hours in Lyon. We sell no flights and no transfers: we guide in Lyon, and our kosher team organises your week in the resort.
 

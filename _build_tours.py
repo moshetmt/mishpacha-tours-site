@@ -8,7 +8,7 @@ WA = "https://wa.me/33652092301?text="
 def wa(txt): return WA + html.escape(__import__('urllib.parse').parse.quote(txt))
 
 TOURS = [
- dict(slug="jewish-lyon", tag="City walk", h1="Jewish Lyon", ital="A private walk through the Jewish story of Lyon, inside the Grande Synagogue",
+ dict(slug="jewish-lyon", tag="City walk", h1="Jewish Lyon", ital="A private walk, inside the Grande Synagogue",
    title="Jewish Tour of Lyon Inside the Grande Synagogue", photo="synagogue-tilsitt-galerie.jpg", lieu="Vieux Lyon and quai Tilsitt", duree="2 hours 30 minutes", format="On foot, private group",
    prix="290 €", prix2="per group, 1 to 4 people", prix3="+35 € per extra person, 5th to 10th",
    reponse="Jewish Lyon is a private 2 h 30 walking tour of Vieux Lyon and the Grande Synagogue, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before. Hebrew-speaking guests are guided in English.",
@@ -24,7 +24,7 @@ TOURS = [
         ("Can I cancel if my plans change?","Yes, free cancellation up to 24 hours before the start time."),
         ("Is a security escort available?","Yes, on request, on any tour. It is priced separately and quoted on demand, never included in the tour price.")],
    photos=[("c-synagogue-7.jpg","Grande Synagogue, quai Tilsitt"),("synagogue-tilsitt-galerie.jpg","The women's gallery"),("c-juiverie-3.jpg","Rue Juiverie"),("stock/juiverie-6.jpg","Rue Juiverie, looking down"),("stock/juiverie-3.jpg","A Renaissance plaque, rue Juiverie"),("stock/stecath-1.jpg","Rue Sainte-Catherine"),("stock/stecath-6.jpg","Rue Sainte-Catherine today")]),
- dict(slug="memory-chrd", tag="Memory", h1="Memory: the CHRD", ital="A private visit of the Centre d'histoire de la résistance et de la déportation",
+ dict(slug="memory-chrd", tag="Memory", h1="Memory: the CHRD", ital="The Resistance museum, privately",
    photo="c-chrd-1.jpg", lieu="Lyon 7e", duree="About 2 hours 30 minutes", format="Museum visit, private group",
    prix="290 €", prix2="per group, 1 to 4 people", prix3="+35 € per extra person, 5th to 10th. Booked separately from the Montluc and Neveh Shalom visit.",
    reponse="Memory: the CHRD is a private 2 h 30 visit of Lyon's Resistance and deportation museum, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before.",
@@ -40,7 +40,7 @@ TOURS = [
         ("Can I combine this with the Montluc and Neveh Shalom visit on the same day?","No. The two Memory visits are booked separately and never run on the same day: each one carries enough history and emotional weight on its own."),
         ("Can I cancel if my plans change?","Yes, free cancellation up to 24 hours before the start time.")],
    photos=[("c-chrd-1.jpg","The CHRD entrance"),("stock/chrd-1.jpg","A 1940s kitchen, reconstructed"),("stock/chrd-3.jpg","The posters of the Occupation"),("stock/chrd-4.jpg","The permanent exhibition"),("stock/chrd-7.jpg","A liaison agent's satchel")]),
- dict(slug="memory-montluc-neveh-shalom", tag="Memory", h1="Memory: Montluc and Neveh Shalom", ital="The Montluc memorial, then the second synagogue we take you inside",
+ dict(slug="memory-montluc-neveh-shalom", tag="Memory", h1="Memory: Montluc and Neveh Shalom", ital="Memorial, then synagogue",
    photo="c-montluc-1.jpg", lieu="Lyon 3e", duree="About 2 hours 30 minutes", format="On foot, private group",
    prix="290 €", prix2="per group, 1 to 4 people", prix3="+35 € per extra person, 5th to 10th. Booked separately from the CHRD visit.",
    reponse="Memory: Montluc and Neveh Shalom is a private 2 h 30 walk from the Montluc memorial to the Neveh Shalom synagogue, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before.",

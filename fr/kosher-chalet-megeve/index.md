@@ -1,8 +1,8 @@
-> Un chalet casher près de Megève face au Mont Blanc : dix chambres twin, deux chambres sous le toit, un appartement attenant, sauna et jacuzzi. Chef, Chabbat et minyan. Un devis écrit.
+> Chalet Loup Blanc près de Megève, face au Mont Blanc : dix chambres twin, deux sous le toit, un appartement, sauna et jacuzzi. Chef, Chabbat, minyan.
 
 Source: https://mishpachatours.com/fr/kosher-chalet-megeve/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Le chalet du Mont Blanc, près de Megève
+[Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Loup Blanc, près de Megève
 
 # Chalet Loup Blanc, près de Megève *10 chambres face au Mont-Blanc*
 
@@ -32,6 +32,8 @@ Le chef prépare au chalet les repas de Chabbat et des fêtes, ou les repas arri
 
 Strictement casher, tout ce qui est servi est Chalav Yisrael. Les détails de la surveillance figurent par écrit dans votre devis.
 
+Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+
 ## Comment *ça marche*
 
 1. **1**
@@ -58,7 +60,7 @@ Strictement casher, tout ce qui est servi est Chalav Yisrael. Les détails de la
 - **Transferts.** Des vans avec sièges enfant de l’aéroport au chalet, aller et retour, sur devis.
 - **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/): une visite privée de 3 heures du patrimoine juif de Lyon entre l’avion et la route.
 
-## Le chalet du Mont Blanc : *vos questions*
+## Le Chalet Loup Blanc : *vos questions*
 
 Combien ça coûte ?
 
@@ -86,7 +88,7 @@ Une navette s'arrête au pied du chalet toutes les vingt minutes ; les remontée
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet des pistes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
@@ -98,7 +100,7 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 - [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/)
 - [Casher à Megève](https://mishpachatours.com/fr/kosher-megeve/)
-- [Notre chalet aux Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 - [Services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/)
 
 Sources : notre équipe dans les Alpes (document et messages du 16/10/2026) pour le chalet, la navette et les services. Rédigé par Mishpacha Tours à partir de ces sources. Vérifié le 7 octobre 2026.

@@ -1,4 +1,4 @@
-> La única visita que entra en la Gran Sinagoga de Lyon. Cinco visitas judías privadas con una guía judía, observante y titulada. Estrictamente kosher, shomer Shabat, precio por grupo.
+> La única visita que entra en la Gran Sinagoga de Lyon. Visitas judías privadas con una guía judía, observante y titulada. Kosher, shomer Shabat, precio por grupo.
 
 Source: https://mishpachatours.com/es/jewish-lyon-tours/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -36,7 +36,7 @@ Una presencia discreta junto a su grupo, solo si usted la pide.
 
 [Ver el detalle](https://mishpachatours.com/es/is-lyon-safe-for-jewish-visitors/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20una%20escolta%20privada%20discreta%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
-# La única visita que le lleva al interior de la Gran Sinagoga de Lyon. *Privada, estrictamente kosher, a su medida.*
+# Dentro de la Gran Sinagoga de Lyon. *La única visita que le lleva al interior. Privada, estrictamente kosher, a su medida.*
 
 La Gran Sinagoga del quai Tilsitt está cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Con nosotros, usted accede al interior con una guía judía, observante y miembro de la comunidad de Lyon.
 

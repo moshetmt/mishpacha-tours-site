@@ -20,9 +20,9 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 
 העונה נמשכת מ-21 בנובמבר 2026 עד 2 במאי 2027. אנחנו מארגנים לכם שהות כשרה: שף פרטי או ארוחות עד הדירה, שבת, מניין וספר תורה, בהצעת מחיר אחת בכתב.
 
-## הצ'אלה שלנו *בואל טורנס*
+## צ'אלה בל אטואל *בואל טורנס*
 
-### [הצ'אלה בואל טורנס, מגלשיים בדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+### [צ'אלה בל אטואל, ואל טורנס](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
 - **165 מ"ר**צ'אלה פרטית
 - **3**חדרי שינה עם חדר רחצה
@@ -49,6 +49,8 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 - **שהייה בהתאמה אישית, מא' ועד ת'.** צ'אלה, שף או ארוחות במשלוח, הסעות, שבת, החגים, מניין: פנייה אחת, הצעת מחיר אחת. משפחות וקבוצות מחו"ל הן הלב שלנו; קבוצה קטנה מאוד שרוצה משלוח אחד בלבד, אמרו לנו ונגיד מה אפשרי.
 
 כשר לחלוטין. הצוות שלנו מבשל תחת רשת חב״ד באלפים; פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
+
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## כשר *בוואל טורנס*
 
@@ -139,6 +141,14 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 ## ואל טורנס: השבוע שלכם, *מאורגן*.
 
 ספרו לנו את התאריכים. נשלח באותו יום תוכנית יום אחר יום.
+
+## אתרי סקי *סמוכים*
+
+- [כשר בקורשבל](https://mishpachatours.com/kosher-courchevel/)
+- [כשר בלה פלאן](https://mishpachatours.com/kosher-la-plagne/)
+- [כשר בלז ארק](https://mishpachatours.com/kosher-les-arcs/)
+- [כשר בואל דיזר](https://mishpachatours.com/kosher-val-disere/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
 
 ## להמשך *קריאה*
 

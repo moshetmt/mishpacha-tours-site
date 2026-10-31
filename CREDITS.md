@@ -184,8 +184,18 @@ Vidéos refaites le 27/10 avec uniquement des plans filmés (aucune photo animé
 - img/video/ete-* : Pexels 14051217 (lac et alpages), 12040525 (randonnée), 12132979 (randonneurs, téléphone seulement).
 | img/stock/st-verbier.jpg | File:Verbier Valais 029.JPG | cc-by-2.5 | Norbert Aepli, Switzerland (User:Noebu) | https://commons.wikimedia.org/wiki/File%3AVerbier_Valais_029.JPG |
 | img/stock/hub-kosher-verbier.jpg | File:Verbier Valais 029.JPG | cc-by-2.5 | Norbert Aepli, Switzerland (User:Noebu) | https://commons.wikimedia.org/wiki/File%3AVerbier_Valais_029.JPG |
+| img/stock/st-gstaad.jpg | File:Gstaad. Palace Hotel from The Promenade, Switzerland - panoramio.jpg | cc-by-3.0 | Николай Максимович | https://commons.wikimedia.org/wiki/File%3AGstaad._Palace_Hotel_from_The_Promenade%2C_Switzerland_-_panoramio.jpg |
+| img/stock/hub-kosher-gstaad.jpg | File:Gstaad. Palace Hotel from The Promenade, Switzerland - panoramio.jpg | cc-by-3.0 | Николай Максимович | https://commons.wikimedia.org/wiki/File%3AGstaad._Palace_Hotel_from_The_Promenade%2C_Switzerland_-_panoramio.jpg |
+| img/stock/st-davos.jpg | File:Weissfluhjoch-2010.jpg | cc-by-3.0 | Matthias v.d. Elbe | https://commons.wikimedia.org/wiki/File%3AWeissfluhjoch-2010.jpg |
+| img/stock/hub-kosher-davos.jpg | File:Weissfluhjoch-2010.jpg | cc-by-3.0 | Matthias v.d. Elbe | https://commons.wikimedia.org/wiki/File%3AWeissfluhjoch-2010.jpg |
+| img/stock/st-anywhere.jpg | File:St. Johann in Tirol Winter 2015.JPG | cc0 | HellasX | https://commons.wikimedia.org/wiki/File%3ASt._Johann_in_Tirol_Winter_2015.JPG |
+| img/stock/hub-kosher-ski-anywhere.jpg | File:St. Johann in Tirol Winter 2015.JPG | cc0 | HellasX | https://commons.wikimedia.org/wiki/File%3ASt._Johann_in_Tirol_Winter_2015.JPG |
 
 ## Page été : bannière Riviera (29/10/2026)
 Moshé 29/10 : plus de montagnes en été. Licence Pexels, usage commercial gratuit, sans mention obligatoire. Originaux dans le scratchpad de la session, à archiver dans `00-brief/2026-10-29-videos-pexels-ete/`.
 - img/stock/riviera-ete.jpg et img/h/riviera-ete-{640,960,1600}.webp : Pexels photo 30615185 (piscine à débordement sur la mer).
 - img/video/ete-pc.mp4 et ete-tel.mp4 : Pexels 36065028 (piscine vue du ciel), 37293572 (baie méditerranéenne, bateau), 34122179 (plage de Nice), 5844838 (ruelles de Saint-Tropez).
+
+## Icônes or (30/10/2026)
+
+36 pictogrammes au trait dans `img/illus/or/` (contact, programme, skieur, Chabbat, synagogue, mikvé, traboule, Izieu…), générés par Canva (génération d'images, compte Mishpacha/123digital) à partir des prompts de `_icones_or.py`, dans le langage calligraphique du flocon Winter Prestige (version du 30/10 au soir), recolorés en or #D9A93A en local. Ils remplacent les 14 dessins Gemini de `img/illus/w/` (plus référencés, décision Moshé du 30/10).

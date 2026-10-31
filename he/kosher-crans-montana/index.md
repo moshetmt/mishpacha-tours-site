@@ -131,13 +131,20 @@ Source: https://mishpachatours.com/he/kosher-crans-montana/ (HTML version). Ever
 
 ## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**לה דז אלפ · צ'אלה המסלולים**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
 [לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
 ## קראן מונטנה: השבוע שלכם, *מאורגן*.
 
 ספרו לנו את התאריכים. נשלח באותו יום תוכנית יום אחר יום.
+
+## אתרי סקי *סמוכים*
+
+- [כשר בורבייה](https://mishpachatours.com/kosher-verbier/)
+- [כשר בצרמט](https://mishpachatours.com/kosher-zermatt/)
+- [כשר בגשטאד](https://mishpachatours.com/kosher-gstaad/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
 
 ## להמשך *קריאה*
 

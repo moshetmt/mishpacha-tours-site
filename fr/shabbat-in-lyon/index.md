@@ -26,7 +26,7 @@ L’allumage des bougies tombe dès 16:30 en décembre et après 21:00 en juin.
 
 ## Shabbat *en famille*
 
-Vous n’avez pas à passer Shabbat dans une chambre d’hôtel. Envoyez-nous vos dates et votre nombre, et nous vous mettons en relation avec une famille Habad de Lyon ou de Villeurbanne pour le repas du vendredi soir et celui du Shabbat midi. C’est l’hospitalité Habad : sans frais, un don à la maison est d’usage.
+Vous n’avez pas à passer Shabbat dans une chambre d’hôtel. Envoyez-nous vos dates et votre nombre, et nous vous mettons en relation avec une famille Habad de Lyon ou de Villeurbanne pour le repas du vendredi soir et celui du Shabbat midi. C’est l’hospitalité Habad : sans frais, un don à la maison est d’usage. Avant l’entrée du Shabbat, [une visite du quartier juif de Lyon le vendredi](https://mishpachatours.com/jewish-lyon-tours/) se termine bien avant l’allumage.
 
 Si vous préférez un Shabbat organisé pour votre groupe seul, repas, marche vers la synagogue et horaires d’allumage pris en charge, nous l’organisons sur devis.
 

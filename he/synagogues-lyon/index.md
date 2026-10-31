@@ -16,7 +16,7 @@ Source: https://mishpachatours.com/he/synagogues-lyon/ (HTML version). Every pag
 
 ## התחילו *בחב״ד*
 
-שמונה בתי חב״ד בליון, וילרבאן, אקולי וקרפון (Craponne) מקבלים מטיילים בכל יום: תפילה, סעודת שבת, ייעוץ בענייני כשרות. ההמלצה הראשונה שלנו, לפני כל כתובת אחרת.
+שמונה בתי חב״ד בליון, וילרבאן, אקולי וקרפון (Craponne) מקבלים מטיילים בכל יום: תפילה, סעודת שבת, ייעוץ בענייני כשרות. ההמלצה הראשונה שלנו, לפני כל כתובת אחרת. [הסיורים הפרטיים שלנו בליון היהודית](https://mishpachatours.com/jewish-lyon-tours/) מכניסים אתכם לבית הכנסת הגדול.
 
 - **Beth Habad Centre-Ville**10 rue Mulet, 69001 Lyon[מפה](https://www.google.com/maps/search/?api=1&query=10%20rue%20Mulet%2C%2069001%20Lyon)
 - **Chabad Loubavitch Lyon 6**60 rue Crillon, 69006 Lyon[מפה](https://www.google.com/maps/search/?api=1&query=60%20rue%20Crillon%2C%2069006%20Lyon)
@@ -45,7 +45,7 @@ Source: https://mishpachatours.com/he/synagogues-lyon/ (HTML version). Every pag
 :   שחרית ביום ראשון ב-8:00, בימי חול ב-7:00. מנחה וערבית ב-18:30.  
     הזמנים משתנים לפי העונה. בדקו לפני שאתם מגיעים.
 
-סגור למבקרים מחוץ לימי המורשת האירופיים. Mishpacha Tours היא הגוף היחיד שמכניס אתכם פנימה, בסיורים ליון היהודית ועצירת ביניים.
+סגור למבקרים מחוץ לימי המורשת האירופיים. Mishpacha Tours מחזיקה באישור מיוחד והיא הסיור היחיד שמכניס אתכם פנימה, בסיורי ליון היהודית ועצירת ביניים.
 
 [ראו את הסיור](https://mishpachatours.com/he/tours/jewish-lyon/)
 

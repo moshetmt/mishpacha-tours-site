@@ -6,7 +6,7 @@ Recorrido urbano
 
 [Inicio](https://mishpachatours.com/es/) / [Visitas](https://mishpachatours.com/es/jewish-lyon-tours/#tours) / Escala
 
-# Escala *Tres horas en el Lyon judío mientras su traslado espera*
+# Escala en Lyon *Tres horas en el Lyon judío, el traslado espera*
 
 Escala es un recorrido privado a pie de 3 horas por Vieux Lyon, Gran Sinagoga incluida, para 1 a 5 personas por 390 € por grupo (+35 € por persona adicional hasta 10), guiado en inglés, francés o español. Su propio transfer le recoge al final y llega a la estación de esquí a tiempo. Su propio transporte le deja en Vieux Lyon y le recoge en el mismo lugar tres horas después. Su equipaje se queda en el vehículo; usted entra en la historia judía de Lyon y en la Gran Sinagoga del quai Tilsitt, cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio.
 

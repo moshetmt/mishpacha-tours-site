@@ -1,10 +1,10 @@
-> Vuelos a Lyon-Saint-Exupéry, el aeropuerto de Val Thorens, Courchevel y Alpe d'Huez: vuelos directos desde Tel Aviv, tiempos de trayecto hasta las estaciones, compras kosher y qué hacer con tres horas en Lyon.
+> Vuelos a Lyon-Saint-Exupéry, el aeropuerto de Val Thorens, Courchevel y Alpe d'Huez: vuelos directos desde Tel Aviv, trayectos hasta las estaciones y compras kosher.
 
 Source: https://mishpachatours.com/es/flights-to-lyon/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Vuelos a Lyon
 
-# Vuelos a Lyon *el aeropuerto de los Alpes franceses, y qué hacer entre el avión y las pistas*
+# Vuelos a Lyon *el aeropuerto de los Alpes franceses*
 
 Lyon-Saint-Exupéry es el aeropuerto de la Tarentaise y del lado de Grenoble: Val Thorens, Courchevel, Méribel, Alpe d'Huez y Les Deux Alpes están a entre dos y tres horas por carretera. Los vuelos directos desde Tel Aviv los operan El Al y Transavia, uno o dos por semana según la temporada, unas cuatro horas y media. Esta página reúne los vuelos, los tiempos de trayecto, dónde comprar kosher antes de subir y cómo aprovechar unas horas libres en Lyon. No vendemos vuelos ni traslados: guiamos en Lyon, y nuestro equipo kosher organiza su semana en la estación.
 

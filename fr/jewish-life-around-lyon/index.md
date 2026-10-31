@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/jewish-life-around-lyon/ (HTML version). E
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide](https://mishpachatours.com/fr/jewish-lyon-guide/) / Autour de Lyon
 
-# La vie juive autour de Lyon *Grenoble, Annecy, les Alpes et l’Auvergne*
+# La vie juive autour de Lyon *Grenoble, Annecy, les Alpes*
 
 Lyon est la porte des Alpes. En moins de deux heures, vous atteignez neuf communautés juives et, en hiver, les minyanim des stations de ski. Voici où prier et qui appeler, ville par ville. Chaque adresse provient du Consistoire régional ou de la communauté elle-même. Téléphonez avant de vous déplacer : aucune de ces fiches n’affiche de date.
 

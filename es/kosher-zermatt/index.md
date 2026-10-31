@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-zermatt/ (HTML version). Every page
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Zermatt, estrictamente kosher
 
-# Zermatt, estrictamente kosher *al pie del Cervino, en un pueblo sin coches*
+# Zermatt *estrictamente kosher, al pie del Cervino*
 
 Zermatt se encuentra a unos 1.600 m en el Valais, al pie del Cervino (Matterhorn).
 
@@ -136,13 +136,20 @@ Nuestro equipo kosher con base en los Alpes cocina bajo la red Jabad de los Alpe
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 
-[**Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet de las pistas**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
 [Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
 ## Zermatt: su semana, *organizada*.
 
 Díganos sus fechas. Enviamos un programa día a día el mismo día.
+
+## Estaciones *cercanas*
+
+- [Crans-Montana kosher](https://mishpachatours.com/kosher-crans-montana/)
+- [Verbier kosher](https://mishpachatours.com/kosher-verbier/)
+- [Cervinia kosher (Italia)](https://mishpachatours.com/kosher-cervinia/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
 
 ## Siga *leyendo*
 

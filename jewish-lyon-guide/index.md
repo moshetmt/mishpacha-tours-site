@@ -103,7 +103,7 @@ Open](https://mishpachatours.com/kosher-alpe-dhuez/)[### Kosher in Les Deux Alpe
 
 Chef, meals, Shabbat, holidays, minyan in Les Deux Alpes: what we organise
 
-Open](https://mishpachatours.com/kosher-les-deux-alpes/)[### Kosher chalet in Les Deux Alpes
+Open](https://mishpachatours.com/kosher-les-deux-alpes/)[### Chalet King David, Les Deux Alpes
 
 300 m², 6 bedrooms, 16 beds, 2 minutes from the slopes: chef, Shabbat, everything arranged
 
@@ -145,9 +145,17 @@ The sunny plateau of the Valais, two hours from Geneva: chef, meals, Shabbat, ho
 
 Open](https://mishpachatours.com/kosher-crans-montana/)[### Kosher in Verbier
 
-The 4 Vallées above the Rhône valley, winter and summer: chef, meals, Shabbat, holidays, minyan
+The 4 Vallées above the Rhône valley, winter and summer: private chef, Shabbat, holidays, minyan
 
-Open](https://mishpachatours.com/kosher-verbier/)[### Kosher in Cervinia
+Open](https://mishpachatours.com/kosher-verbier/)[### Kosher in Gstaad
+
+The Saanenland and Glacier 3000, winter and summer: private chef, Shabbat, holidays, minyan
+
+Open](https://mishpachatours.com/kosher-gstaad/)[### Kosher in Davos
+
+The highest town in the Alps, Parsenn and Jakobshorn, winter and summer: private chef, Shabbat, holidays, minyan
+
+Open](https://mishpachatours.com/kosher-davos/)[### Kosher in Cervinia
 
 Italy's side of the Matterhorn, snow from November to May: chef, meals, Shabbat, holidays, minyan
 
@@ -159,7 +167,11 @@ Open](https://mishpachatours.com/kosher-courmayeur/)[### Kosher in Cortina d'Amp
 
 The Dolomites, winter and summer: chef, meals, Shabbat, holidays, minyan
 
-Open](https://mishpachatours.com/kosher-cortina/)[### The Stopover, 3 hours
+Open](https://mishpachatours.com/kosher-cortina/)[### Kosher ski, anywhere
+
+Austria, North America or any resort not on our list: a private chef who travels with you, Shabbat, minyan, transfers
+
+Open](https://mishpachatours.com/kosher-ski-anywhere/)[### The Stopover, 3 hours
 
 Jewish Lyon and the Grande Synagogue between your flight and the drive up. 390 € per group
 

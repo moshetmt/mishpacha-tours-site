@@ -128,6 +128,10 @@ def point_insertion(s):
     f = s.find("<form")
     if f > -1:
         d = s.rfind("<section", 0, f)
+        # 30/10 : le formulaire de recherche du héros (jewish-lyon-tours) ne compte pas, sinon le bloc passe au-dessus du titre
+        if d > -1 and re.match(r'<section class="[^"]*\bhero\b', s[d:]):
+            f = s.find("<form", s.find("</section>", f))
+            d = s.rfind("<section", 0, f) if f > -1 else -1
         if d > -1: return d
     return s.index("</main>")
 

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/jewish-lyon-itinerary-2-days/ (HTML versio
 
 [Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/) / Lyon judío en dos días
 
-# Lyon judío en dos días *un itinerario construido en torno a las comidas kosher y al Shabat*
+# Lyon judío en dos días *comidas kosher y Shabat*
 
 Dos días bastan para recorrer el Lyon judío: el primero es un paseo de 2 h 30 por la rue Juiverie, el interior de la Gran Sinagoga y la rue Sainte-Catherine; el segundo es una visita de Memoria, el CHRD o Montluc, nunca las dos. Las comidas kosher están en Villeurbanne y en el 6.º distrito. Dos días completos alcanzan para ver el Lyon judío que importa: el barrio medieval y la Gran Sinagoga, y después los lugares de memoria de los años de guerra. Así los organizaríamos, con dónde comer y cuándo parar por el Shabat.
 

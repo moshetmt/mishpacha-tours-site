@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/alps/ (HTML version). Every page of the si
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Les Alpes, strictement casher
 
-# Les Alpes, strictement casher *le ski l’hiver, les lacs l’été, une seule demande pour tout*
+# Les Alpes, strictement casher *ski l’hiver, lacs l’été*
 
 Vous avez votre station, vos dates et votre appartement ou votre chalet.
 
@@ -22,7 +22,7 @@ Des stations françaises à la Suisse et à l’Italie, une équipe casher gère
 
 ## Nos chalets casher *dans les Alpes*
 
-### [Notre chalet casher, au pied des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
+### [Chalet King David, Les Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 
 - **300 m²**chalet privé
 - **6 + 1**chambres + chambre bébé
@@ -39,7 +39,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Le chalet des pistes, skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)
+### [Chalet Rochebrune, Les Deux Alpes](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)
 
 - **6**chambres
 - **Jusqu’à 13**personnes
@@ -56,7 +56,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Un chalet casher au cœur de Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
+### [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
 
 - **5**chambres en suite
 - **10 à 14**personnes
@@ -73,7 +73,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Le chalet du Mont Blanc, pour plusieurs familles](https://mishpachatours.com/fr/kosher-chalet-megeve/)
+### [Chalet Loup Blanc, près de Megève](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 
 - **10 + 2**chambres twin + chambres sous le toit
 - **3 à 4**familles
@@ -90,7 +90,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Le chalet de Val Thorens, skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+### [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 - **165 m²**chalet privé
 - **3**chambres avec salle de bain
@@ -142,7 +142,7 @@ Strictement casher. Notre équipe dans les Alpes cuisine sous l’autorité du r
 
 - **Le côté Grenoble.** L’Alpe d’Huez, Les Deux Alpes, Chamrousse et Serre Chevalier, plus Val Thorens et Les Menuires dans la vallée des Belleville : repas, chalets, Shabbat, fêtes, minyan et Sefer Torah.
 - **Le côté Courchevel.** Courchevel 1850 et Megève ont une maison Chabad en hiver : nous nous coordonnons avec elle pour votre minyan et votre Shabbat.
-- **Un chalet casher aux Deux Alpes.** [300 m², 6 chambres, 16 lits, à 2 minutes des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/), avec un chef privé, le Chabbat et les fêtes, et tout le séjour organisé autour. Un seul devis écrit.
+- **Chalet King David, Les Deux Alpes.** [300 m², 6 chambres, 16 lits, à 2 minutes des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/), avec un chef privé, le Chabbat et les fêtes, et tout le séjour organisé autour. Un seul devis écrit.
 
 **Station par station.**Ce que nous organisons dans chacune.
 
@@ -162,10 +162,13 @@ Strictement casher. Notre équipe dans les Alpes cuisine sous l’autorité du r
 - [Saint-Moritz](https://mishpachatours.com/fr/kosher-st-moritz/)
 - [Crans-Montana](https://mishpachatours.com/fr/kosher-crans-montana/)
 - [Verbier](https://mishpachatours.com/fr/kosher-verbier/)
+- [Gstaad](https://mishpachatours.com/fr/kosher-gstaad/)
+- [Davos](https://mishpachatours.com/fr/kosher-davos/)
 - En Italie
 - [Cervinia](https://mishpachatours.com/fr/kosher-cervinia/)
 - [Courmayeur](https://mishpachatours.com/fr/kosher-courmayeur/)
 - [Cortina d’Ampezzo](https://mishpachatours.com/fr/kosher-cortina/)
+- [Ailleurs, sur demande](https://mishpachatours.com/fr/kosher-ski-anywhere/)
 
 **Toute autre station.** Tignes, Val d’Isère, La Plagne, Les Arcs, Chamonix, Morzine : envoyez vos dates, nous vous disons le jour même ce qui est possible.
 

@@ -1,8 +1,8 @@
-> צ'אלה כשרה בלה דז אלפ עם מגלשיים בדלת: 6 חדרי שינה, 13 מיטות, אח ומרפסת הפונה דרומה. שף או ארוחות במשלוח, שבת ומניין. הצעת מחיר אחת בכתב.
+> צ'אלה רושברון בלה דז אלפ: צ'אלה כשרה עם מגלשיים בדלת, 6 חדרי שינה, 13 מיטות, אח ומרפסת הפונה דרומה. שף או ארוחות במשלוח, שבת ומניין. הצעת מחיר בכתב.
 
 Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה המסלולים בלה דז אלפ
+[דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה רושברון, לה דז אלפ
 
 # צ'אלה רושברון, לה דז אלפ *6 חדרים, סקי מהדלת*
 
@@ -18,7 +18,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 **הצעת מחיר אחת בכתב, באותו יום**האתר שלכם, התאריכים שלכם, הקבוצה שלכם. איש קשר אחד מההתחלה ועד הסוף.
 
-שישה חדרי שינה ו-13 מיטות, סלון עם אח ומרפסת הפונה דרומה. הצוות שלנו מכשיר את המטבח, שף מבשל או שארוחות כשרות מגיעות במשלוח, ובשבת יש מניין לפי בקשה. חמש דקות הליכה מהצ'אלה שלנו עם 15 המיטות, לקבוצה של שתי משפחות. בקשה אחת, הצעת מחיר אחת בכתב.
+שישה חדרי שינה ו-13 מיטות, סלון עם אח ומרפסת הפונה דרומה. הצוות שלנו מכשיר את המטבח, שף מבשל או שארוחות כשרות מגיעות במשלוח, ובשבת יש מניין לפי בקשה. חמש דקות הליכה מצ'אלה קינג דייוויד, לקבוצה של שתי משפחות. בקשה אחת, הצעת מחיר אחת בכתב.
 
 ## הצ'אלה *בקצרה*
 
@@ -27,7 +27,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 - **אזור המגורים.** סלון עם אח, שולחן אוכל לכולם, מטבח מאובזר, טלוויזיה חכמה ואינטרנט אלחוטי.
 - **בחוץ.** מרפסת הפונה דרום-מערב וגינה, מנגל, מוסך ושני מקומות חניה. חדר כביסה עם מכונת כביסה ומייבש מגפיים.
 - **מיקום.** לה דז אלפ, בגובה 1,650 מטר. המסלולים במרחק חמישים מטר, נקודת המפגש של בית הספר לסקי במרחק שלוש מאות, והחנויות ותחנת ההסעה במרחק מאה.
-- **עם הצ'אלה השני שלנו.** חמש דקות הליכה מ[הצ'אלה שלנו עם 15 המיטות](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/): שתי משפחות בכל בית, ארוחת ערב משותפת באחד מהם.
+- **עם הצ'אלה השני שלנו.** חמש דקות הליכה מ[צ'אלה קינג דייוויד](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/): שתי משפחות בכל בית, ארוחת ערב משותפת באחד מהם.
 - **מטבח.** מוכשר בידי הצוות שלנו לפני שתגיעו, כלול במחיר. שף מבשל בצ'אלה, או שארוחות כשרות מגיעות מוכנות לחימום.
 
 המיטות מוכנות עם ההגעה בחורף, מצעים ומגבות כלולים. הזמינות מאושרת לתאריכים שלכם בכל פנייה.
@@ -39,6 +39,8 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 השף מכין בצ'אלה את סעודות השבת והחגים, או שהארוחות מגיעות לפני הדלקת הנרות. למניין אנחנו מביאים בחורים וספר תורה: עם הגברים של הקבוצה שלכם, תפילת שחרית נערכת בסלון שלכם.
 
 כשר לחלוטין. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
+
+לפסח אנחנו מכינים גם את הצ'אלה: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## איך זה *עובד*
 
@@ -67,7 +69,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 - **באתר.** תחנת ההסעה במרחק מאה מטר מהדלת; גם ההסעה מגרנובל עוצרת שם.
 - **נוחתים בליון עם כמה שעות פנויות?** [עצירת הביניים](https://mishpachatours.com/he/tours/stopover/): סיור פרטי בן שלוש שעות בליון היהודית, בין הטיסה לדרך.
 
-## צ'אלה המסלולים: *שאלות*
+## צ'אלה רושברון: *שאלות*
 
 כמה זה עולה?
 
@@ -79,7 +81,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 האם שתי משפחות יכולות לקחת את שתי הצ'אלות?
 
-כן. הצ'אלה שלנו עם 15 המיטות במרחק חמש דקות בהליכה. ארבע משפחות, שני בתים, שף אחד לארוחות הערב המשותפות.
+כן. צ'אלה קינג דייוויד במרחק חמש דקות בהליכה. ארבע משפחות, שני בתים, שף אחד לארוחות הערב המשותפות.
 
 מי מבשל את הארוחות?
 
@@ -95,7 +97,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 ## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
 [לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
@@ -106,7 +108,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 ## להמשך *קריאה*
 
 - [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/)
-- [הצ'אלה שלנו עם 15 המיטות בלה דז אלפ](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
+- [צ'אלה קינג דייוויד, לה דז אלפ](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
 - [כשר בלה דז אלפ](https://mishpachatours.com/he/kosher-les-deux-alpes/)
 - [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/)
 

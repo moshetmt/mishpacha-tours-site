@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-chalets/ (HTML version). Every page
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Nuestros chalés kosher
 
-# Nuestros chalés kosher *en Les Deux Alpes, Courchevel, Megève y Val Thorens*
+# Nuestros chalés kosher *Les Deux Alpes, Courchevel, Megève*
 
 Nuestros chalés, con todo lo kosher resuelto: dos en Les Deux Alpes, uno en Courchevel, uno cerca de Megève y uno en Val Thorens.
 
@@ -20,7 +20,7 @@ Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
 Nuestros chalés, con todo lo kosher resuelto: dos en Les Deux Alpes, uno en Courchevel, uno cerca de Megève y uno en Val Thorens, con una pista de esquí en la puerta. La cocina se prepara como kosher, un chef cocina o se entregan las comidas, un minyan llega a petición. Un programa, un presupuesto.
 
-### [Nuestro chalet kosher, al pie de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
+### [Chalet King David, Les Deux Alpes](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
 
 - **300 m²**chalet privado
 - **6 + 1**habitaciones + cuarto del bebé
@@ -37,7 +37,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [El chalet de las pistas, esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)
+### [Chalet Rochebrune, Les Deux Alpes](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)
 
 - **6**habitaciones
 - **Hasta 13**personas
@@ -54,7 +54,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Un chalet kosher en el corazón de Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
+### [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
 
 - **5**habitaciones con baño
 - **De 10 a 14**personas
@@ -71,7 +71,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [El chalet del Mont Blanc, para varias familias](https://mishpachatours.com/es/kosher-chalet-megeve/)
+### [Chalet Loup Blanc, cerca de Megève](https://mishpachatours.com/es/kosher-chalet-megeve/)
 
 - **10 + 2**habitaciones twin + buhardillas
 - **3 a 4**familias
@@ -88,7 +88,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [El chalet de Val Thorens, esquís en la puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
+### [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
 - **165 m²**chalet privado
 - **3**habitaciones con baño
@@ -114,6 +114,8 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 ¿Ya tiene alojamiento? [Servicios kosher en su estación](https://mishpachatours.com/es/kosher-services-french-alps/).
 
+Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
+
 ## Cómo *funciona*
 
 1. **1**
@@ -138,7 +140,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 ¿Qué chalé elegir?
 
-En Les Deux Alpes, el chalé de 15 camas tiene 6 habitaciones más una habitación infantil, a dos minutos de las pistas, y el chalé de las pistas tiene 6 habitaciones y 13 camas, con los esquís puestos en la puerta; los dos están a cinco minutos uno del otro, para cuatro familias. Courchevel tiene 5 habitaciones con baño, piscinas climatizadas y una lanzadera privada, en Les 3 Vallées. Val Thorens tiene 3 habitaciones con baño para hasta 10 personas, con una pista de esquí en la puerta, también en Les 3 Vallées.
+En Les Deux Alpes, el Chalet King David tiene 6 habitaciones más una habitación infantil, a dos minutos de las pistas, y el Chalet Rochebrune tiene 6 habitaciones y 13 camas, con los esquís puestos en la puerta; los dos están a cinco minutos uno del otro, para cuatro familias. Courchevel tiene 5 habitaciones con baño, piscinas climatizadas y una lanzadera privada, en Les 3 Vallées. Val Thorens tiene 3 habitaciones con baño para hasta 10 personas, con una pista de esquí en la puerta, también en Les 3 Vallées.
 
 ¿Cuánto cuesta un chalé?
 
@@ -162,8 +164,8 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Siga *leyendo*
 
-- [El chalé kosher en Les Deux Alpes](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
-- [El chalé kosher en Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
+- [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
 - [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/)
 - [Servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/)
 

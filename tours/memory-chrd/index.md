@@ -6,7 +6,7 @@ Memory
 
 [Home](https://mishpachatours.com/) / [Tours](https://mishpachatours.com/jewish-lyon-tours/#tours) / Memory: the CHRD
 
-# Memory: the CHRD *A private visit of the Centre d'histoire de la résistance et de la déportation*
+# Memory: the CHRD *The Resistance museum, privately*
 
 Memory: the CHRD is a private 2 h 30 visit of Lyon's Resistance and deportation museum, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before. Your guide walks you through Lyon's Centre d'histoire de la résistance et de la déportation, housed in the former Gestapo headquarters, with the Jewish dimension of that history at the centre of the visit. This booking is never combined with the Montluc and Neveh Shalom visit on the same day.
 

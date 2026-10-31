@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-megeve/ (HTML version). Every page 
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Megève, estrictamente kosher
 
-# Megève, estrictamente kosher *445 km de pistas enlazadas, una sola solicitud para lo kosher*
+# Megève *estrictamente kosher, 445 km de pistas*
 
 Megève se encuentra a unos 1.050 m en la Alta Saboya, en el dominio esquiable Évasion Mont-Blanc, de 445 km de pistas.
 
@@ -20,9 +20,9 @@ Esquíe en Megève de día. Vuelva a la mesa servida, un minyan y el Shabat list
 
 Organizamos su estancia kosher: chef privado o comidas entregadas, Shabat, minián y Sefer Torá, en un solo presupuesto por escrito.
 
-## Nuestro chalet *cerca de Megève*
+## Chalet Loup Blanc *cerca de Megève*
 
-### [El chalet del Mont Blanc, para varias familias](https://mishpachatours.com/es/kosher-chalet-megeve/)
+### [Chalet Loup Blanc, cerca de Megève](https://mishpachatours.com/es/kosher-chalet-megeve/)
 
 - **10 + 2**habitaciones twin + buhardillas
 - **3 a 4**familias
@@ -49,6 +49,8 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 - **Una estancia a medida, de la A a la Z.** Chalé, chef o comidas entregadas, traslados, Shabat, las fiestas, un minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo; si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
 Estrictamente kosher. Nuestro equipo kosher con base en los Alpes cocina bajo la red Chabad de los Alpes; los detalles de la supervisión se entregan por escrito con el presupuesto. Detalle de cada servicio: [servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/).
+
+También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Kosher *en Megève*
 
@@ -143,6 +145,13 @@ Nuestro equipo kosher con base en los Alpes cocina bajo la red Chabad de los Alp
 ## Megève: su semana, *organizada*.
 
 Díganos sus fechas. Enviamos un programa día a día el mismo día.
+
+## Estaciones *cercanas*
+
+- [Chamonix kosher](https://mishpachatours.com/kosher-chamonix/)
+- [Annecy kosher](https://mishpachatours.com/kosher-annecy/)
+- [Courmayeur kosher (Italia)](https://mishpachatours.com/kosher-courmayeur/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
 
 ## Siga *leyendo*
 

@@ -1,8 +1,8 @@
-> Un chalé kosher privado en Val Thorens, orientado al sur y con una pista de esquí en la puerta: tres habitaciones con baño, hasta 10 personas. Chef, Shabat y minyan. Un presupuesto por escrito.
+> Chalet Belle Étoile en Val Thorens: chalet kosher privado, pista en la puerta, 3 habitaciones con baño, hasta 10 personas. Chef, Shabat, minyán.
 
 Source: https://mishpachatours.com/es/kosher-chalet-val-thorens/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Inicio](https://mishpachatours.com/es/) / [Our kosher chalets](https://mishpachatours.com/es/kosher-chalets/) / El chalet de Val Thorens, esquí a pie de puerta
+[Inicio](https://mishpachatours.com/es/) / [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/) / Chalet Belle Étoile, Val Thorens
 
 # Chalet Belle Étoile, Val Thorens *esquís en la puerta, 3 suites*
 
@@ -38,6 +38,8 @@ El chalet acoge hasta 10 personas, 8 adultos como máximo. La disponibilidad se 
 El chef prepara en el chalé las comidas de Shabat y de las fiestas, o las comidas llegan antes del encendido de velas. La mesa del comedor tiene capacidad para diez. Para un minyan, llevamos los bochurim y un Sefer Torá: con los hombres de su grupo, Shajarit se celebra en su salón.
 
 Estrictamente kosher, todo lo que se sirve es Chalav Yisrael. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+
+Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Cómo *funciona*
 
@@ -88,7 +90,7 @@ Comidas kosher entregadas en su alojamiento en la estación, encargadas al Beth 
 
 [Comidas kosher a domicilio: escribir al Beth Habad por WhatsApp](https://wa.me/33781823193?text=Hola%2C%20estamos%20en%20los%20Alpes%20y%20nos%20gustar%C3%ADa%20que%20nos%20entregaran%20comidas%20kosher.%20Estaci%C3%B3n%3A%20Val%20Thorens%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
-## El chalet de Val Thorens: *preguntas*
+## El Chalet Belle Étoile: *preguntas*
 
 ¿Cuánto cuesta?
 
@@ -116,7 +118,7 @@ Llevamos los bochurim y un Sefer Torá al chalé para Shabat, a petición. Indí
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 
-[**Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet de las pistas**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)
+[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)
 
 [Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
@@ -128,7 +130,7 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 - [Our kosher chalets](https://mishpachatours.com/es/kosher-chalets/)
 - [Kosher en Val Thorens](https://mishpachatours.com/es/kosher-val-thorens/)
-- [Nuestro chalé en Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
+- [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
 - [Servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/)
 
 ---

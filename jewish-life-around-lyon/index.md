@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/jewish-life-around-lyon/ (HTML version). Ever
 
 [Home](https://mishpachatours.com/) / [Guide](https://mishpachatours.com/jewish-lyon-guide/) / Around Lyon
 
-# Jewish life around Lyon *Grenoble, Annecy, the Alps and the Auvergne*
+# Jewish life around Lyon *Grenoble, Annecy, the Alps*
 
 Lyon is the gateway to the Alps. Within two hours you reach nine Jewish communities and, in winter, the minyanim of the ski resorts. Here is where to pray and who to call, town by town. Every address comes from the regional Consistoire or the community itself. Phone before you go: none of these pages shows a date.
 

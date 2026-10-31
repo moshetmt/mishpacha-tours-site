@@ -3,7 +3,7 @@ PAGE = dict(
   slug="kosher-val-disere",
   title="Kosher Val d'Isère: Chef, Shabbat, Minyan",
   desc="Kosher Val d'Isère at 1,850 m, with shared slopes with Tignes up to 3,456 m: private chef in your chalet, delivered meals, Shabbat, minyan. One quote.",
-  h1="Val d'Isère, strictly kosher", ital="1,850 m, shared slopes with Tignes up to 3,456 m",
+  h1="Val d'Isère, strictly kosher", ital="1,850 m, linked to Tignes",
   intro="Val d'Isère sits at 1,850 m in the Haute Tarentaise and shares 300 km of pistes with Tignes. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["1,850 m, Tignes-Val d'Isère, about 300 km of pistes", "About 2 h 30 to 3 h from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",

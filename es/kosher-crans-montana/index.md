@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-crans-montana/ (HTML version). Ever
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Crans-Montana, estrictamente kosher
 
-# Crans-Montana, estrictamente kosher *en la soleada meseta sobre el valle del Ródano*
+# Crans-Montana *estrictamente kosher, sobre el Ródano*
 
 Crans-Montana se encuentra en una meseta orientada al sur, a unos 1.500 m en el Valais, con un glaciar que llega a 2.927 m.
 
@@ -131,13 +131,20 @@ Nuestro equipo kosher con base en los Alpes cocina bajo la red Jabad de los Alpe
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 
-[**Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet de las pistas**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
 [Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
 ## Crans-Montana: su semana, *organizada*.
 
 Díganos sus fechas. Enviamos un programa día a día el mismo día.
+
+## Estaciones *cercanas*
+
+- [Verbier kosher](https://mishpachatours.com/kosher-verbier/)
+- [Zermatt kosher](https://mishpachatours.com/kosher-zermatt/)
+- [Gstaad kosher](https://mishpachatours.com/kosher-gstaad/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
 
 ## Siga *leyendo*
 

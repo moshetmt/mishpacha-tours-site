@@ -5,7 +5,7 @@ PAGE = dict(
   slug="kosher-van-transfers",
   title="Private Van Transfers in France and Abroad",
   desc="A private van from an airport, station, hotel or ski resort to anywhere in France, and abroad. A licensed driver from our network. Quote on request, never on Shabbat.",
-  h1="Private van transfers", ital="from point A to point B, never on Shabbat",
+  h1="Private van transfers", ital="never on Shabbat",
   intro="One message, one driver. Tell us where you start, where you are going, the date, how many of you are travelling and how much luggage you have. We find a licensed driver in our network and set up a private van for your family or group, with room for bags, strollers and skis. Airport, station, hotel, ski resort or city: anywhere in France, and abroad too.",
   chips=["Point A to point B", "Family and group vans", "Quote on request", "Never on Shabbat"],
   illus="flat-ski.png",

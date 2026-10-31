@@ -1,4 +1,4 @@
-> 31 restaurantes, panaderías, carnicerías, tiendas de alimentación y proveedores de catering kosher en Lyon, Villeurbanne y Écully, todos en la lista oficial del Beth Din de Lyon. Revisado el 7 de octubre de 2026.
+> 31 restaurantes, panaderías, carnicerías, tiendas y caterings kosher en Lyon, Villeurbanne y Écully, todos en la lista oficial del Beth Din de Lyon.
 
 Source: https://mishpachatours.com/es/kosher-restaurants-lyon/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/es/kosher-restaurants-lyon/ (HTML version). E
 
 # Kosher en Lyon *31 lugares certificados donde comer y comprar*
 
-El Beth Din de Lyon certifica 31 restaurantes, panaderías, carnicerías, tiendas de alimentación y proveedores de catering kosher en Lyon, Villeurbanne y Écully, la mayoría en Villeurbanne y en el 6.º distrito. Vieux Lyon no tiene ninguno. Todas las direcciones de abajo figuran en la lista oficial del Beth Din de Lyon, el tribunal rabínico que supervisa la kashrut en Lyon, Villeurbanne y Écully. Solo enumeramos lo que certifica el Beth Din: ningún lugar autodeclarado ni directorios secundarios. Llame antes de ir: los horarios cambian y la mayoría cierra por Shabat desde el viernes por la tarde.
+El Beth Din de Lyon certifica 31 restaurantes, panaderías, carnicerías, tiendas de alimentación y proveedores de catering kosher en Lyon, Villeurbanne y Écully, la mayoría en Villeurbanne y en el 6.º distrito. Vieux Lyon no tiene ninguno. Todas las direcciones de abajo figuran en la lista oficial del Beth Din de Lyon, el tribunal rabínico que supervisa la kashrut en Lyon, Villeurbanne y Écully. Solo enumeramos lo que certifica el Beth Din: ningún lugar autodeclarado ni directorios secundarios. Llame antes de ir: los horarios cambian y la mayoría cierra por Shabat desde el viernes por la tarde. Un almuerzo aquí encaja entre dos paradas de [la visita por el Lyon judío](https://mishpachatours.com/jewish-lyon-tours/).
 
 - Supervisión del Beth Din de Lyon
 - Lyon · Villeurbanne · Écully

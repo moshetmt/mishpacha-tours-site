@@ -3,7 +3,7 @@ PAGE = dict(
   slug="kosher-zermatt",
   title="Kosher Zermatt: Chef, Shabbat and Minyan",
   desc="Kosher Zermatt under the Matterhorn, car-free, in winter and summer: private chef in your chalet, delivered meals, Shabbat, holidays and a minyan. One quote.",
-  h1="Zermatt, strictly kosher", ital="under the Matterhorn, in a village without cars",
+  h1="Zermatt, strictly kosher", ital="under the Matterhorn, car-free",
   intro="Zermatt sits at about 1,600 m in the Valais, at the foot of the Matterhorn. You leave the car in Täsch and take the train. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["About 1,600 m, glacier 3,883 m", "Car-free: train from Täsch", "Winter, and summer skiing on the glacier", "Checked 16 October 2026"],
   illus="flat-ski.png",

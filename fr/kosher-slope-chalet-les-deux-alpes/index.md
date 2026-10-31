@@ -1,8 +1,8 @@
-> Un chalet casher skis aux pieds aux Deux Alpes : 6 chambres, 13 couchages, une cheminée, une terrasse plein sud. Chef ou repas livrés, Chabbat et minyan. Un devis écrit.
+> Chalet Rochebrune aux Deux Alpes : chalet casher skis aux pieds, 6 chambres, 13 couchages, cheminée, terrasse plein sud. Chef, Chabbat et minyan.
 
 Source: https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Le chalet des pistes aux Deux Alpes
+[Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Rochebrune, Les Deux Alpes
 
 # Chalet Rochebrune, Les Deux Alpes *6 chambres, skis aux pieds*
 
@@ -27,7 +27,7 @@ Six chambres et 13 couchages, un salon avec cheminée, une terrasse plein sud. N
 - **Pièces de vie.** Un salon avec cheminée, une table pour tout le monde, une cuisine équipée, une télévision connectée et le Wi-Fi.
 - **Extérieur.** Une terrasse sud-ouest et un jardin, un barbecue, un garage et deux places de stationnement. Une buanderie avec lave-linge et sèche-chaussures.
 - **Situation.** Les Deux Alpes, à 1 650 m. Les pistes sont à cinquante mètres, le point de rendez-vous de l'école de ski à trois cents, les commerces et l'arrêt de la navette à cent.
-- **Avec notre autre chalet.** À cinq minutes à pied de [notre chalet de 15 couchages](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/) : deux familles dans chaque maison, le dîner ensemble dans l'une des deux.
+- **Avec notre autre chalet.** À cinq minutes à pied du [Chalet King David](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/) : deux familles dans chaque maison, le dîner ensemble dans l'une des deux.
 - **Cuisine.** Cachérisée par notre équipe avant votre arrivée, incluse. Un chef cuisine au chalet, ou des repas casher arrivent prêts à réchauffer.
 
 En hiver, les lits sont faits à votre arrivée, le linge et les serviettes sont inclus. La disponibilité est confirmée pour vos dates à chaque demande.
@@ -39,6 +39,8 @@ En hiver, les lits sont faits à votre arrivée, le linge et les serviettes sont
 Le chef prépare au chalet les repas de Chabbat et des fêtes, ou les repas arrivent avant l'allumage des bougies. Pour un minyan, nous amenons les ba'hourim et un Sefer Torah : avec les hommes de votre groupe, Cha'harit a lieu dans votre salon.
 
 Strictement casher, tout ce qui est servi est 'Halav Yisrael. Les détails de la surveillance figurent par écrit dans votre devis.
+
+Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Comment *ça marche*
 
@@ -67,7 +69,7 @@ Strictement casher, tout ce qui est servi est 'Halav Yisrael. Les détails de la
 - **Dans la station.** L'arrêt de la navette est à cent mètres de la porte ; la navette de Grenoble s'y arrête aussi.
 - **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/) : une visite privée de 3 heures du patrimoine juif de Lyon entre l’avion et la route.
 
-## Le chalet des pistes : *vos questions*
+## Le Chalet Rochebrune : *vos questions*
 
 Combien ça coûte ?
 
@@ -79,7 +81,7 @@ Six chambres et 13 couchages, pour deux familles ou une grande famille.
 
 Deux familles peuvent-elles prendre les deux chalets ?
 
-Oui. Notre chalet de 15 couchages est à cinq minutes à pied. Quatre familles, deux maisons, un seul chef pour les dîners en commun.
+Oui. Le Chalet King David est à cinq minutes à pied. Quatre familles, deux maisons, un seul chef pour les dîners en commun.
 
 Qui prépare les repas ?
 
@@ -95,7 +97,7 @@ Nous amenons les ba'hourim et un Sefer Torah au chalet pour Chabbat, sur demande
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
@@ -106,7 +108,7 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 ## Pour *aller plus loin*
 
 - [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/)
-- [Notre chalet de 15 couchages aux Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 - [Casher aux Deux Alpes](https://mishpachatours.com/fr/kosher-les-deux-alpes/)
 - [Services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/)
 

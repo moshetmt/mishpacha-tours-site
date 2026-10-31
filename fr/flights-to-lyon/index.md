@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/flights-to-lyon/ (HTML version). Every pag
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Vols vers Lyon
 
-# Vols vers Lyon *l’aéroport des Alpes françaises, et que faire entre l’avion et les pistes*
+# Vols vers Lyon *l’aéroport des Alpes françaises*
 
 Lyon-Saint-Exupéry est l’aéroport de la Tarentaise et du côté Grenoble : Val Thorens, Courchevel, Méribel, l’Alpe d’Huez et Les Deux Alpes sont à deux ou trois heures de route. Les vols directs depuis Tel-Aviv sont assurés par El Al et Transavia, un à deux par semaine selon la saison, en environ quatre heures et demie. Cette page donne les vols, les temps de route, l’endroit où acheter casher avant de monter et la façon d’employer quelques heures libres à Lyon. Nous ne vendons ni vols ni transferts : nous guidons à Lyon, et notre équipe casher organise votre semaine en station.
 

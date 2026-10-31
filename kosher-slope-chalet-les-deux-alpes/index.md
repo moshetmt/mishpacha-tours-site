@@ -1,8 +1,8 @@
-> A kosher ski-in ski-out chalet in Les Deux Alpes: 6 bedrooms, 13 beds, a fireplace, a south-facing terrace. Chef or delivered meals, Shabbat and minyan. One written quote.
+> Chalet Rochebrune in Les Deux Alpes: a kosher ski-in ski-out chalet, 6 bedrooms, 13 beds, fireplace, south terrace. Chef, Shabbat and minyan. One quote.
 
 Source: https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Home](https://mishpachatours.com/) / [Our kosher chalets](https://mishpachatours.com/kosher-chalets/) / The Slope Chalet in Les Deux Alpes
+[Home](https://mishpachatours.com/) / [Our kosher chalets](https://mishpachatours.com/kosher-chalets/) / Chalet Rochebrune, Les Deux Alpes
 
 # Chalet Rochebrune, Les Deux Alpes *6 bedrooms, skis on at the door*
 
@@ -27,7 +27,7 @@ Six bedrooms and 13 beds, a living room with a fireplace, a south-facing terrace
 - **Living.** A living room with a fireplace, a dining table for everyone, an equipped kitchen, a smart TV and Wi-Fi.
 - **Outside.** A south-west terrace and a garden, a barbecue, a garage and two parking spaces. A laundry with a washing machine and a boot dryer.
 - **Location.** Les Deux Alpes, at 1,650 m. The slopes are fifty metres away, the ski school meeting point three hundred, the shops and the shuttle stop a hundred.
-- **With our other chalet.** Five minutes on foot from [our 15-bed chalet](https://mishpachatours.com/kosher-chalet-les-deux-alpes/): two families in each house, dinner together in one.
+- **With our other chalet.** Five minutes on foot from [Chalet King David](https://mishpachatours.com/kosher-chalet-les-deux-alpes/): two families in each house, dinner together in one.
 - **Kitchen.** Kashered by our team before you arrive, included. A chef cooks in the chalet, or kosher meals arrive ready to reheat.
 
 Beds made on arrival in winter, linen and towels included. Availability is confirmed for your dates with each request.
@@ -39,6 +39,8 @@ Beds made on arrival in winter, linen and towels included. Availability is confi
 The chef prepares the Shabbat meals and the holidays in the chalet, or the meals arrive before candle lighting. For a minyan, we bring the bochurim and a Sefer Torah: with the men of your group, Shacharis takes place in your living room.
 
 Strictly kosher, everything served is Chalav Yisrael. The supervision details come in writing with your quote.
+
+For Pesach, we prepare the chalet too: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## How it *works*
 
@@ -67,7 +69,7 @@ Strictly kosher, everything served is Chalav Yisrael. The supervision details co
 - **In the resort.** The shuttle stop is a hundred metres from the door; the shuttle from Grenoble stops there too.
 - **Land in Lyon with a few hours to spare?** [The Stopover](https://mishpachatours.com/tours/stopover/): a private 3 hour tour of Jewish Lyon between the plane and the road.
 
-## The Slope Chalet: *questions*
+## Chalet Rochebrune: *questions*
 
 How much does it cost?
 
@@ -79,7 +81,7 @@ Six bedrooms and 13 beds, for two families or one large family.
 
 Can two families take both chalets?
 
-Yes. Our 15-bed chalet is five minutes on foot. Four families, two houses, one chef for the dinners together.
+Yes. Chalet King David is five minutes on foot. Four families, two houses, one chef for the dinners together.
 
 Who cooks the meals?
 
@@ -95,7 +97,7 @@ Fifty metres: you put your skis on at the door. The ski school meeting point is 
 
 ## Prefer a whole chalet? *Our kosher chalets*
 
-[**Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Chalet Loup Blanc · near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
 [See the chalets](https://mishpachatours.com/kosher-chalets/)
 
@@ -106,7 +108,7 @@ Tell us your dates. We send a day-by-day programme the same day.
 ## Keep *reading*
 
 - [Our kosher chalets](https://mishpachatours.com/kosher-chalets/)
-- [Our 15-bed chalet in Les Deux Alpes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)
 - [Kosher in Les Deux Alpes](https://mishpachatours.com/kosher-les-deux-alpes/)
 - [Kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/)
 

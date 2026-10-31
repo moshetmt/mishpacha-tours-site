@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-les-deux-alpes/ (HTML version). Eve
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Les Deux Alpes, strictement casher
 
-# Les Deux Alpes, strictement casher *une station de glacier à 1 650 m, avec sa propre saison casher l’été*
+# Les Deux Alpes *strictement casher, glacier à 1 650 m*
 
 Les Deux Alpes se trouvent à 1 650 m, en Isère, sous un glacier.
 
@@ -28,7 +28,7 @@ Lyon-Saint-Exupéry est à environ 2 h 10 de route. Nous organisons votre séjo
 
 **Le ski et le glacier**Forfaits, location et cours sur demande, dans une station où l'on skie jusqu'au glacier.
 
-### [Notre chalet casher, au pied des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
+### [Chalet King David, Les Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 
 - **300 m²**chalet privé
 - **6 + 1**chambres + chambre bébé
@@ -45,7 +45,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [Le chalet des pistes, skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)
+### [Chalet Rochebrune, Les Deux Alpes](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)
 
 - **6**chambres
 - **Jusqu’à 13**personnes
@@ -72,6 +72,8 @@ Disponibilité confirmée pour vos dates à chaque demande.
 - **Un séjour sur mesure, de A à Z.** Chalet, chef ou repas livrés, transferts, Shabbat, les fêtes, un minyan : une demande, un devis. Les familles et les groupes venus de l’étranger sont notre cœur de cible ; pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.
 
 Strictement casher. Cacherout sous la surveillance du Beth Habad Grenoble-Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Casher *aux Deux Alpes*
 
@@ -167,6 +169,13 @@ Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Al
 ## Les Deux Alpes : votre semaine, *organisée*.
 
 Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
+
+## Stations *voisines*
+
+- [Alpe d’Huez casher](https://mishpachatours.com/kosher-alpe-dhuez/)
+- [Grenoble casher](https://mishpachatours.com/kosher-grenoble/)
+- [Val Thorens casher](https://mishpachatours.com/kosher-val-thorens/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
 
 ## Pour *aller plus loin*
 

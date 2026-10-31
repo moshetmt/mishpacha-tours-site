@@ -3,7 +3,7 @@ PAGE = dict(
   slug="is-lyon-safe-for-jewish-visitors",
   title="Is Lyon safe for Jewish visitors? Our standard",
   desc="How Mishpacha Tours secures its private Jewish tours of Lyon: discreet routes, a guide from the community, security escort on request. The sourced facts.",
-  h1="Is Lyon safe for Jewish visitors?", ital="a straight answer, and what we do about it",
+  h1="Is Lyon safe for Jewish visitors?", ital="a straight answer, and what we do",
   intro="Most Jewish visits to Lyon pass without incident, and every Mishpacha Tours visit is run as a secured tour: a private group, discreet routes and meeting points fixed in advance, a guide who belongs to the community, and a professional security escort on request. Antisemitic acts do occur in the Lyon area, so we give you the figures and the practical steps below, without alarm and without spin.",
   chips=["Private groups only", "Discreet routes, fixed in advance", "Security escort on request", "Checked 7 October 2026"],
   illus="line-doorway.png",

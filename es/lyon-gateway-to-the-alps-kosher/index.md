@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/lyon-gateway-to-the-alps-kosher/ (HTML ver
 
 [Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/) / Lyon, puerta de los Alpes
 
-# Lyon, puerta de los Alpes *para el viajero judío que va camino de la montaña*
+# Lyon, puerta de los Alpes *para el viajero judío*
 
 El aeropuerto de Lyon-Saint-Exupéry está a unas 2 h 10 de Courchevel y a 2 h 30 de Val Thorens sin tráfico. Las tiendas de alimentación y carnicerías kosher certificadas están en Lyon y Villeurbanne, no en el aeropuerto. La mayoría de las familias judías que esquían en los Alpes franceses aterrizan en Lyon y conducen después de dos a tres horas hasta la estación. El aeropuerto de Lyon-Saint-Exupéry está junto a la autopista, la ciudad tiene tiendas kosher que abren antes de subir y una Gran Sinagoga que merece tres horas de su día. Esta página da los tiempos de trayecto, las opciones de autobús lanzadera y la lista de la compra. En la estación, nuestro equipo kosher organiza chef, comidas entregadas, Shabat y minián: [una solicitud, un presupuesto](https://mishpachatours.com/es/kosher-services-french-alps/). No vendemos traslados ni alojamiento.
 

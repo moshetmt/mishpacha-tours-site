@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-chamonix/ (HTML version). Every page o
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Chamonix, strictly kosher
 
-# Chamonix, strictly kosher *under Mont Blanc, in winter and in summer*
+# Chamonix, strictly kosher *under Mont Blanc*
 
 Chamonix sits at about 1,040 m in the Arve valley, at the foot of Mont Blanc.
 
@@ -30,6 +30,8 @@ The Aiguille du Midi cable car climbs to 3,842 m. We organise your kosher stay: 
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core, including large groups and Hebrew-speaking guests. For a very small group asking for one delivery only, say so and we tell you what is feasible.
 
 Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the supervision details come in writing with your quote. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
+
+We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Kosher *in Chamonix*
 
@@ -127,13 +129,20 @@ Our kosher team based in the Alps cooks under the Chabad network of the Alps. Th
 
 ## Prefer a whole chalet? *Our kosher chalets*
 
-[**Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · Slope Chalet**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Chalet Loup Blanc · near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
 [See the chalets](https://mishpachatours.com/kosher-chalets/)
 
 ## Chamonix: your week, *organised*.
 
 Tell us your dates. We send a day-by-day programme the same day.
+
+## Nearby *resorts*
+
+- [Kosher Megève](https://mishpachatours.com/kosher-megeve/)
+- [Kosher Annecy](https://mishpachatours.com/kosher-annecy/)
+- [Kosher Courmayeur (Italy)](https://mishpachatours.com/kosher-courmayeur/)
+- [All our resorts in the Alps](https://mishpachatours.com/alps/)
 
 ## Keep *reading*
 

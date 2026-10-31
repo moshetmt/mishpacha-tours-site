@@ -3,7 +3,7 @@ PAGE = dict(
   slug="kosher-les-arcs",
   title="Kosher Les Arcs: Chef, Shabbat and Minyan",
   desc="Kosher Les Arcs, four villages from 1,600 to 2,000 m linked to La Plagne: chef in your chalet, delivered meals, Shabbat, minyan and Sefer Torah. One quote.",
-  h1="Les Arcs, strictly kosher", ital="four villages from 1,600 to 2,000 m, linked to La Plagne",
+  h1="Les Arcs, strictly kosher", ital="four villages, linked to La Plagne",
   intro="Les Arcs is a string of villages above Bourg-Saint-Maurice: Arc 1600, 1800, 1950 and 2000. The Vanoise Express links it to La Plagne. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["Arc 1600 to Arc 2000, with Paradiski", "Train to Bourg-Saint-Maurice, funicular to Arc 1600", "Winter and summer", "Checked 8 October 2026"],
   illus="flat-ski.png",

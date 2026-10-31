@@ -1,10 +1,10 @@
-> Un chalé kosher en el corazón de Courchevel: 5 habitaciones con baño, piscinas climatizadas y hammam, chef privado, Shabat y minyan. Un presupuesto por escrito.
+> Chalet Flocon Doré en Courchevel: chalet kosher con 5 habitaciones con baño, piscinas climatizadas y hammam, chef privado, Shabat y minyán.
 
 Source: https://mishpachatours.com/es/kosher-chalet-courchevel/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Inicio](https://mishpachatours.com/es/) / [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/) / Un chalé kosher en Courchevel
+[Inicio](https://mishpachatours.com/es/) / [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/) / Chalet Flocon Doré, Courchevel
 
-# Chalet Flocon Doré, Courchevel *5 suites, piscinas climatizadas, chef privado*
+# Chalet Flocon Doré, Courchevel *5 suites, piscinas, chef privado*
 
 Un chalé en el corazón de Courchevel, en Les 3 Vallées.
 
@@ -39,6 +39,8 @@ La disponibilidad se confirma para sus fechas con cada solicitud.
 El chef prepara en el chalé las comidas de Shabat y de las fiestas. Para un minyan, llevamos los bochurim y un Sefer Torá: con los hombres de su familia, Shajarit se celebra en su salón.
 
 Estrictamente kosher, todo lo que se sirve es Chalav Yisrael. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+
+Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Cómo *funciona*
 
@@ -89,7 +91,7 @@ Comidas kosher entregadas en su alojamiento en la estación, encargadas al Beth 
 
 [Comidas kosher a domicilio: escribir al Beth Habad por WhatsApp](https://wa.me/33781823193?text=Hola%2C%20estamos%20en%20los%20Alpes%20y%20nos%20gustar%C3%ADa%20que%20nos%20entregaran%20comidas%20kosher.%20Estaci%C3%B3n%3A%20Courchevel%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
-## El chalé de Courchevel: *preguntas*
+## El Chalet Flocon Doré: *preguntas*
 
 ¿Cuánto cuesta?
 
@@ -113,7 +115,7 @@ A pie en cinco o seis minutos, o con la lanzadera privada de 9 h a 18 h.
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 
-[**Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet de las pistas**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
 [Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
@@ -124,7 +126,7 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 ## Siga *leyendo*
 
 - [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/)
-- [El chalé kosher en Les Deux Alpes](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
+- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)
 - [Kosher en Courchevel](https://mishpachatours.com/es/kosher-courchevel/)
 - [Servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/)
 

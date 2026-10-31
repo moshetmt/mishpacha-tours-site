@@ -1,8 +1,8 @@
-> צ'אלה כשרה בלב קורשבל: 5 חדרי שינה עם חדר רחצה, בריכות מחוממות וחמאם, שף פרטי, שבת ומניין. הצעת מחיר אחת בכתב.
+> צ'אלה פלוקון דורה בלב קורשבל: צ'אלה כשרה עם 5 חדרי שינה עם חדר רחצה, בריכות מחוממות וחמאם, שף פרטי, שבת ומניין. הצעת מחיר אחת בכתב.
 
 Source: https://mishpachatours.com/he/kosher-chalet-courchevel/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה כשרה בקורשבל
+[דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה פלוקון דורה, קורשבל
 
 # צ'אלה פלוקון דורה, קורשבל *5 סוויטות, בריכות מחוממות, שף פרטי*
 
@@ -39,6 +39,8 @@ Source: https://mishpachatours.com/he/kosher-chalet-courchevel/ (HTML version). 
 השף מכין בצ'אלה את סעודות השבת והחגים. למניין אנחנו מביאים בחורים וספר תורה: עם הגברים של המשפחה שלכם, תפילת שחרית נערכת בסלון שלכם.
 
 כשר לחלוטין. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
+
+לפסח אנחנו מכינים גם את הצ'אלה: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## איך זה *עובד*
 
@@ -89,7 +91,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-courchevel/ (HTML version). 
 
 [ארוחות כשרות במשלוח: כתבו לבית חב״ד בוואטסאפ](https://wa.me/33781823193?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D%20%D7%95%D7%A0%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA%20%D7%9B%D7%A9%D7%A8%D7%95%D7%AA%20%D7%91%D7%9E%D7%A9%D7%9C%D7%95%D7%97.%20%D7%90%D7%AA%D7%A8%3A%20%D7%A7%D7%95%D7%A8%D7%A9%D7%91%D7%9C%20%2F%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%A0%D7%A9%D7%99%D7%9D%3A)
 
-## הצ'אלה בקורשבל: *שאלות*
+## צ'אלה פלוקון דורה: *שאלות*
 
 כמה זה עולה?
 
@@ -113,7 +115,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-courchevel/ (HTML version). 
 
 ## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**לה דז אלפ · צ'אלה המסלולים**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
 [לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
@@ -124,7 +126,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-courchevel/ (HTML version). 
 ## להמשך *קריאה*
 
 - [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/)
-- [הצ'אלה הכשרה בלה דז אלפ](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
+- [צ'אלה קינג דייוויד, לה דז אלפ](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
 - [כשר בקורשבל](https://mishpachatours.com/he/kosher-courchevel/)
 - [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/)
 

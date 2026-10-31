@@ -27,7 +27,7 @@ El encendido de velas cae hacia las 16:30 en diciembre y después de las 21:00 e
 
 ## Shabat *en familia*
 
-No tiene por qué pasar Shabat en una habitación de hotel. Envíenos sus fechas y cuántos son, y le ponemos en contacto con una familia de Chabad en Lyon o Villeurbanne para la cena del viernes y la comida de Shabat. Es la hospitalidad de Chabad: sin coste, y es costumbre hacer un donativo a la casa.
+No tiene por qué pasar Shabat en una habitación de hotel. Envíenos sus fechas y cuántos son, y le ponemos en contacto con una familia de Chabad en Lyon o Villeurbanne para la cena del viernes y la comida de Shabat. Es la hospitalidad de Chabad: sin coste, y es costumbre hacer un donativo a la casa. Antes de que entre el Shabat, [una visita por el Lyon judío el viernes](https://mishpachatours.com/jewish-lyon-tours/) termina mucho antes del encendido.
 
 Si prefiere un Shabat organizado solo para su grupo, con las comidas, el paseo hasta la sinagoga y los horarios de encendido resueltos, lo organizamos con presupuesto.
 

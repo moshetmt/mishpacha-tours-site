@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-courchevel/ (HTML version). Every p
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Courchevel, estrictamente kosher
 
-# Courchevel, estrictamente kosher *Courchevel 1850 y sus pueblos, en Les 3 Vallées*
+# Courchevel *estrictamente kosher, Les 3 Vallées*
 
 Courchevel 1850 se encuentra a unos 1.850 m en Les 3 Vallées.
 
@@ -20,9 +20,9 @@ Esquíe en Courchevel de día. Vuelva a la mesa servida, un minyan y el Shabat l
 
 La temporada va del 4 de diciembre de 2026 al 18 de abril de 2027. Organizamos su estancia kosher: chef privado o comidas entregadas, Shabat, minián y Sefer Torá, en un solo presupuesto por escrito.
 
-## Nuestro chalet *en Courchevel*
+## Chalet Flocon Doré *en Courchevel*
 
-### [Un chalet kosher en el corazón de Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
+### [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
 
 - **5**habitaciones con baño
 - **De 10 a 14**personas
@@ -49,6 +49,8 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 - **Una estancia a medida, de la A a la Z.** Chalé, chef o comidas entregadas, traslados, Shabat, las fiestas, un minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo; si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
 Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes: los detalles de la supervisión se entregan por escrito con el presupuesto.
+
+También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Kosher *en Courchevel*
 
@@ -139,6 +141,14 @@ Sí. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes.
 ## Courchevel: su semana, *organizada*.
 
 Díganos sus fechas. Enviamos un programa día a día el mismo día.
+
+## Estaciones *cercanas*
+
+- [Val Thorens kosher](https://mishpachatours.com/kosher-val-thorens/)
+- [La Plagne kosher](https://mishpachatours.com/kosher-la-plagne/)
+- [Les Arcs kosher](https://mishpachatours.com/kosher-les-arcs/)
+- [Val d’Isère kosher](https://mishpachatours.com/kosher-val-disere/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
 
 ## Siga *leyendo*
 

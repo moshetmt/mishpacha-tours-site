@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-van-transfers/ (HTML version). Ever
 
 [Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/jewish-lyon-guide/) / Traslados en van privado
 
-# Traslados en van privado *de un punto A a un punto B, nunca en Shabat*
+# Traslados en van privado *nunca en Shabat*
 
 Un solo mensaje, un solo conductor.
 

@@ -1,10 +1,10 @@
-> Villa Beach, una villa kosher junto al mar en Saint-Tropez: playa de arena privada, garaje para barco, 5 habitaciones para 12 personas, piscina climatizada, chef privado, Shabat y minyan. Un presupuesto por escrito.
+> Villa Beach, una villa kosher junto al mar en Saint-Tropez: playa privada, 5 habitaciones para 12 personas, piscina climatizada, chef privado, Shabat y minyan.
 
 Source: https://mishpachatours.com/es/kosher-villa-saint-tropez/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Inicio](https://mishpachatours.com/es/) / [Verano](https://mishpachatours.com/es/summer-in-the-alps-jewish-families/) / Una villa kosher junto al mar en Saint-Tropez
 
-# Una villa kosher junto al mar en Saint-Tropez *playa privada, barco, chef y Shabat*
+# Villa en Saint-Tropez *kosher, junto al mar, playa privada*
 
 Villa Beach tiene los pies en el agua, en el golfo de Saint-Tropez.
 

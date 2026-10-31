@@ -31,6 +31,8 @@ Source: https://mishpachatours.com/he/kosher-annecy/ (HTML version). Every page 
 
 כשר לחלוטין. הצוות הכשר שלנו שבסיסו באלפים מבשל תחת רשת חב״ד באלפים; פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר. פירוט כל שירות: [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/).
 
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+
 ## כשר *באנסי*
 
 - **בית כנסת.** 18 rue de Narvik, 74000 Annecy. מאמר בעיתון על הקהילה מציין שהוא נפתח בשבתות ובחגים בלבד, משום שקשה לאסוף מניין, ושבמתחם יש מקווה לנשים.
@@ -131,13 +133,20 @@ Source: https://mishpachatours.com/he/kosher-annecy/ (HTML version). Every page 
 
 ## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**לה דז אלפ · צ'אלה המסלולים**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
 [לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
 ## אנסי: השבוע שלכם, *מאורגן*.
 
 ספרו לנו את התאריכים. נשלח באותו יום תוכנית יום אחר יום.
+
+## אתרי סקי *סמוכים*
+
+- [כשר במג'ב](https://mishpachatours.com/kosher-megeve/)
+- [כשר בשמוני](https://mishpachatours.com/kosher-chamonix/)
+- [כשר בקורשבל](https://mishpachatours.com/kosher-courchevel/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
 
 ## להמשך *קריאה*
 

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-les-arcs/ (HTML version). Every pag
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Les Arcs, strictement casher
 
-# Les Arcs, strictement casher *quatre villages de 1 600 à 2 000 m, reliés à La Plagne*
+# Les Arcs, strictement casher *quatre villages, reliés à La Plagne*
 
 Les Arcs forment un chapelet de villages au-dessus de Bourg-Saint-Maurice : Arc 1600, 1800, 1950 et 2000.
 
@@ -30,6 +30,8 @@ Le Vanoise Express les relie à La Plagne. Nous organisons votre séjour casher�
 - **Un séjour sur mesure, de A à Z.** Chalet, chef ou repas livrés, transferts, Shabbat, les fêtes, un minyan : une demande, un devis. Les familles et les groupes venus de l’étranger sont notre cœur de cible, dont les grands groupes et les familles hébréophones. Pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.
 
 Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis. Détail de chaque service : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
+
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Casher *aux Arcs*
 
@@ -132,13 +134,21 @@ Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet des pistes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
 ## Les Arcs : votre semaine, *organisée*.
 
 Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
+
+## Stations *voisines*
+
+- [La Plagne casher](https://mishpachatours.com/kosher-la-plagne/)
+- [Val d’Isère casher](https://mishpachatours.com/kosher-val-disere/)
+- [Courchevel casher](https://mishpachatours.com/kosher-courchevel/)
+- [Val Thorens casher](https://mishpachatours.com/kosher-val-thorens/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
 
 ## Pour *aller plus loin*
 

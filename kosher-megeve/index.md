@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-megeve/ (HTML version). Every page of 
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Megève, strictly kosher
 
-# Megève, strictly kosher *445 km of linked pistes, one request for the kosher side*
+# Megève, strictly kosher *445 km of linked pistes*
 
 Megève sits at about 1,050 m in Haute-Savoie, on the Évasion Mont-Blanc ski area of 445 km of pistes.
 
@@ -20,9 +20,9 @@ Ski Megève by day. Come back to a set table, a minyan, and Shabbat ready.
 
 We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.
 
-## Our chalet *near Megève*
+## Chalet Loup Blanc *near Megève*
 
-### [The Mont Blanc Chalet, for several families](https://mishpachatours.com/kosher-chalet-megeve/)
+### [Chalet Loup Blanc, near Megève](https://mishpachatours.com/kosher-chalet-megeve/)
 
 - **10 + 2**twin bedrooms + attic rooms
 - **3 to 4**families
@@ -49,6 +49,8 @@ Availability confirmed for your dates with each request.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.
 
 Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the supervision details come in writing with your quote. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
+
+We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 ## Kosher *in Megève*
 
@@ -140,6 +142,13 @@ Our kosher team based in the Alps cooks under the Chabad network of the Alps. Th
 ## Megève: your week, *organised*.
 
 Tell us your dates. We send a day-by-day programme the same day.
+
+## Nearby *resorts*
+
+- [Kosher Chamonix](https://mishpachatours.com/kosher-chamonix/)
+- [Kosher Annecy](https://mishpachatours.com/kosher-annecy/)
+- [Kosher Courmayeur (Italy)](https://mishpachatours.com/kosher-courmayeur/)
+- [All our resorts in the Alps](https://mishpachatours.com/alps/)
 
 ## Keep *reading*
 

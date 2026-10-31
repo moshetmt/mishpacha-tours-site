@@ -12,7 +12,7 @@ Accordez deux ou trois jours à Lyon : le Vieux Lyon et ses traboules d’abord,
 
 ## Comment lire *cette page*
 
-Chaque lieu indique la durée, les enfants, le casher à proximité et le jour de fermeture ; le reste est sous « Lire la suite ». Nous ne guidons pas le Shabbat : chaque plan va du dimanche au vendredi. Horaires lus sur le site de chaque lieu le 21 octobre 2026.
+Chaque lieu indique la durée, les enfants, le casher à proximité et le jour de fermeture ; le reste est sous « Lire la suite ». Nous ne guidons pas le Shabbat : chaque plan va du dimanche au vendredi. Horaires lus sur le site de chaque lieu le 21 octobre 2026. Pour le côté juif de la ville, commencez par [nos visites guidées du patrimoine juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/).
 
 ## Le vieux Lyon *et ses collines*
 

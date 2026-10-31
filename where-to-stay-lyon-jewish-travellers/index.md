@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/where-to-stay-lyon-jewish-travellers/ (HTML v
 
 [Home](https://mishpachatours.com/) / [Jewish Lyon guide](https://mishpachatours.com/jewish-lyon-guide/) / Where to stay in Lyon
 
-# Where to stay in Lyon *for a Jewish traveller who keeps Shabbat*
+# Where to stay in Lyon *for a traveller who keeps Shabbat*
 
 Lyon has no kosher hotel that we know of. Observant visitors sleep within walking distance of a synagogue, 10 minutes from the Grande Synagogue when they stay on the Presqu'île, and order Shabbat meals from a Beth Din-certified caterer before Thursday. Three areas work: the Presqu'île near the Grande Synagogue, the 6th arrondissement near the kosher restaurants, and Villeurbanne at the heart of community life.
 

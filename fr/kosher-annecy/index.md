@@ -31,6 +31,8 @@ La Clusaz et Le Grand-Bornand sont à 30 ou 40 minutes de route, plus haut dans 
 
 Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis. Détail de chaque service : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+
 ## Casher *à Annecy*
 
 - **Commerce ou restaurant casher.** Apportez vos provisions de Lyon ou de Genève, ou laissez-nous vous livrer des repas.
@@ -130,13 +132,20 @@ Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · chalet des pistes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
 ## Annecy : votre semaine, *organisée*.
 
 Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
+
+## Stations *voisines*
+
+- [Megève casher](https://mishpachatours.com/kosher-megeve/)
+- [Chamonix casher](https://mishpachatours.com/kosher-chamonix/)
+- [Courchevel casher](https://mishpachatours.com/kosher-courchevel/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
 
 ## Pour *aller plus loin*
 

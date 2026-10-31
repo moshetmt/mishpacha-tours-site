@@ -6,7 +6,7 @@ Memoria
 
 [Inicio](https://mishpachatours.com/es/) / [Visitas](https://mishpachatours.com/es/jewish-lyon-tours/#tours) / Memoria: Montluc y Neveh Shalom
 
-# Memoria: Montluc y Neveh Shalom *El memorial de Montluc y, después, la segunda sinagoga a la que le llevamos*
+# Memoria: Montluc y Neveh Shalom *Memorial, luego sinagoga*
 
 Memoria: Montluc y Neveh Shalom es un recorrido privado a pie de 2 h 30 desde el memorial de Montluc hasta la sinagoga Neveh Shalom, guiado en inglés, francés o español, 290 € por grupo de 1 a 4 personas (+35 € por persona adicional hasta 10), con cancelación gratuita hasta 24 horas antes. El memorial de la prisión de Montluc, después Neveh Shalom, la segunda sinagoga a cuyo interior le lleva su guía, y el Institut culturel du judaïsme, justo al lado: memoria y vida judía actual en un mismo recorrido. Esta reserva nunca se combina con la visita al CHRD el mismo día.
 

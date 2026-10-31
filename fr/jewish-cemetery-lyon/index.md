@@ -4,9 +4,9 @@ Source: https://mishpachatours.com/fr/jewish-cemetery-lyon/ (HTML version). Ever
 
 [Accueil](https://mishpachatours.com/fr/) / [Avant de venir](https://mishpachatours.com/fr/#before) / Le cimetière juif de Lyon
 
-# Le cimetière juif de Lyon *La Mouche, à Gerland, depuis 1795*
+# Le cimetière juif de Lyon *La Mouche, depuis 1795*
 
-Le cimetière juif de Lyon est le cimetière israélite de la Mouche, dans le quartier de Gerland, dans le 7e arrondissement. Fondé en 1795, il compte plus de 4 900 tombes, un monument aux soldats juifs de France et un mémorial de la déportation. Il est géré par le Consistoire, et non par la ville.
+Le cimetière juif de Lyon est le cimetière israélite de la Mouche, dans le quartier de Gerland, dans le 7e arrondissement. Fondé en 1795, il compte plus de 4 900 tombes, un monument aux soldats juifs de France et un mémorial de la déportation. Il est géré par le Consistoire, et non par la ville. Le cimetière s’ajoute à [une visite privée du patrimoine juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/) sur demande.
 
 - 11 rue Abraham-Bloch, 69007 Lyon
 - Fondé en 1795

@@ -1,4 +1,4 @@
-> Restaurantes kosher, sinagogas, casas Chabad, cementerio judío y horarios de Shabat en Lyon, además de los Alpes. Mapas, teléfonos, indicaciones. Revisado el 7 de octubre de 2026.
+> Restaurantes kosher, sinagogas, casas Chabad, cementerio judío y horarios de Shabat en Lyon y en los Alpes. Mapas, teléfonos, indicaciones. Revisado en octubre de 2026.
 
 Source: https://mishpachatours.com/es/jewish-lyon-guide/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -104,7 +104,7 @@ Abrir](https://mishpachatours.com/es/kosher-alpe-dhuez/)[### Kosher en Les Deux 
 
 Chef, comidas, Shabat, fiestas, minián en Les Deux Alpes: lo que organizamos
 
-Abrir](https://mishpachatours.com/es/kosher-les-deux-alpes/)[### Chalé kosher en Les Deux Alpes
+Abrir](https://mishpachatours.com/es/kosher-les-deux-alpes/)[### Chalet King David, Les Deux Alpes
 
 300 m², 6 habitaciones, 16 camas, a 2 minutos de las pistas: chef, Shabat, todo organizado
 

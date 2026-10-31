@@ -4,8 +4,8 @@
 # Jamais le nom du chalet, de l'agence ni de Saint-Gervais (décision 16/10) ; photos re-rendues par Gemini (introuvables).
 PAGE = dict(
   slug="kosher-chalet-megeve",
-  title="Kosher Chalet near Megève, 10 Bedrooms, Mont Blanc",
-  desc="A kosher chalet near Megève facing Mont Blanc: ten twin bedrooms, two attic rooms, an adjoining apartment, sauna and jacuzzi. Chef, Shabbat and minyan. One written quote.",
+  title="Chalet Loup Blanc, kosher, near Megève",
+  desc="Chalet Loup Blanc near Megève, facing Mont Blanc: ten twin bedrooms, two attic rooms, an apartment, sauna and jacuzzi. Kosher chef, Shabbat, minyan.",
   h1="Chalet Loup Blanc, near Megève", ital="10 bedrooms facing Mont Blanc",
   intro="A large chalet in the Mont Blanc valley, a few minutes from Megève, built for several families at once. Ten twin bedrooms, two attic rooms and an adjoining apartment with its own front door. A sauna and a jacuzzi facing Mont Blanc, a shuttle at the foot of the chalet every twenty minutes to the lifts. Our team koshers the kitchen, a chef cooks or kosher meals are delivered, and Shabbat comes with a minyan on request. One request, one written quote.",
   chips=["10 twin bedrooms + 2 attic rooms", "Adjoining apartment", "Sauna, jacuzzi, Mont Blanc", "On written quote"],
@@ -36,7 +36,7 @@ PAGE = dict(
 <li><b>Transfers.</b> Vans with car seats from the airport to the chalet and back, on quote.</li>
 <li><b>Land in Lyon with a few hours to spare?</b> <a href="../tours/stopover/">The Stopover</a>: a private 3 hour tour of Jewish Lyon between the plane and the road.</li>
 </ul>"""),
-    dict(type="faq", h2="The Mont Blanc Chalet: <i>questions</i>", items=[
+    dict(type="faq", h2="Chalet Loup Blanc: <i>questions</i>", items=[
       ("How much does it cost?", "<span data-prix-tpl='From €{ch4_basse_vente} per week'>From €23,500 per week</span> for the chalet. The final price depends on your dates, the number of people and the services you choose: you receive a written quote before you commit to anything. The stay is quoted and invoiced by our kosher team based in the Alps."),
       ("How many people can stay?", "Ten twin bedrooms and two attic rooms, plus the apartment: three or four families under one roof, each with its own bedrooms."),
       ("Is the apartment separate?", "It adjoins the chalet and has its own front door, living room and kitchen. One family can have it to itself."),
@@ -44,7 +44,7 @@ PAGE = dict(
       ("Is there a minyan?", "We bring the bochurim and a Sefer Torah to the chalet for Shabbat, on request. Tell us your dates early."),
       ("How do we get to the slopes?", "A shuttle stops at the foot of the chalet every twenty minutes; the lifts are six to eight minutes away."),
     ]),
-    dict(type="cta", txt="The Mont Blanc Chalet for your dates?", msg="Hello, we would like the kosher chalet near Megève. Dates: / Number of families:"),
+    dict(type="cta", txt="Chalet Loup Blanc for your dates?", msg="Hello, we would like the kosher chalet near Megève. Dates: / Number of families:"),
   ],
   related=[("../kosher-chalets/", "Our kosher chalets"), ("../kosher-megeve/", "Kosher in Megève"), ("../kosher-chalet-les-deux-alpes/", "Our chalet in Les Deux Alpes"), ("../kosher-services-french-alps/", "Kosher services in the Alps")],
   source="Sources: our team in the Alps (document and messages of 16/10/2026) for the chalet, the shuttle and the services.",

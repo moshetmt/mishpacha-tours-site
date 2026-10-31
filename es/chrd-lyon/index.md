@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/chrd-lyon/ (HTML version). Every page of t
 
 [Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/) / El CHRD en Lyon
 
-# El CHRD en Lyon *el museo de la Resistencia y la deportación, en la antigua sede de la Gestapo*
+# El CHRD en Lyon *el museo de la Resistencia y la deportación*
 
 El Centre d'histoire de la résistance et de la déportation está en la antigua escuela de sanidad militar de Lyon, donde la Gestapo de Klaus Barbie tenía su sede. Cuenta la historia de Lyon en guerra: la Resistencia, la represión, la deportación y la persecución de los judíos. Abre de miércoles a domingo.
 
@@ -17,7 +17,7 @@ El Centre d'histoire de la résistance et de la déportation está en la antigua
 
 ## Lo que *verá*
 
-El edificio forma parte de la historia. Albergaba la École du service de santé militaire y, durante la Ocupación, se convirtió en la sede de la Gestapo en Lyon, bajo Klaus Barbie. El museo está instalado allí desde los años noventa.
+El edificio forma parte de la historia. Albergaba la École du service de santé militaire y, durante la Ocupación, se convirtió en la sede de la Gestapo en Lyon, bajo Klaus Barbie. El museo está instalado allí desde los años noventa. El CHRD es uno de los dos lugares de [la visita Memoria, Montluc y el CHRD](https://mishpachatours.com/jewish-lyon-tours/).
 
 La exposición permanente sigue los seis años de guerra en Lyon a través de objetos, fotografías, archivos y testimonios grabados. Abarca la vida cotidiana bajo la Ocupación, las políticas antisemitas, la Resistencia y la represión. Incluye también reconstrucciones, entre ellas el apartamento de un resistente con su imprenta clandestina.
 

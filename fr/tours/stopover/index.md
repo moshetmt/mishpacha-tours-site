@@ -6,7 +6,7 @@ Visite de ville
 
 [Accueil](https://mishpachatours.com/fr/) / [Visites](https://mishpachatours.com/fr/jewish-lyon-tours/#tours) / Escale à Lyon
 
-# Escale à Lyon *Trois heures dans les lieux juifs de Lyon pendant que votre transfert vous attend*
+# Escale à Lyon *Trois heures dans les lieux juifs de Lyon*
 
 Escale à Lyon est une marche privée de 3 heures dans le Vieux Lyon, Grande Synagogue comprise, pour 1 à 5 personnes à 390 € par groupe (+35 € par personne supplémentaire jusqu’à 10), guidée en anglais, en français ou en espagnol. Votre propre transfert vous reprend à la fin, et vous arrivez en station à l’heure. Votre propre transport vous dépose dans le Vieux Lyon et vous reprend au même endroit trois heures plus tard. Vos bagages restent dans le minibus ; vous entrez dans l’histoire juive de Lyon et dans la Grande Synagogue du quai Tilsitt, fermée au public en dehors des Journées du patrimoine.
 

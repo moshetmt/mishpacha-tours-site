@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/montluc-prison-lyon/ (HTML version). Every pa
 
 [Home](https://mishpachatours.com/) / [Jewish Lyon guide](https://mishpachatours.com/jewish-lyon-guide/) / Montluc prison memorial
 
-# Montluc prison memorial *where the Gestapo held Jews and resistance fighters in Lyon*
+# Montluc memorial *where the Gestapo held Jews in Lyon*
 
 The Montluc prison is a national memorial in Lyon's 3rd arrondissement. From 1943 to 1944, the Germans held Resistance fighters, hostages and Jews here, many of them before deportation. The children of Izieu passed through on 6 April 1944. Entry is free.
 
@@ -16,7 +16,7 @@ The Montluc prison is a national memorial in Lyon's 3rd arrondissement. From 194
 
 ## History *in short*
 
-Montluc was built in 1921 as a military prison. After the Germans requisitioned part of it in January 1943, they took the whole prison on 17 February 1943 and kept it until the liberation of Lyon on 24 August 1944.
+Montluc was built in 1921 as a military prison. After the Germans requisitioned part of it in January 1943, they took the whole prison on 17 February 1943 and kept it until the liberation of Lyon on 24 August 1944. Montluc is a stop on [our Memory tour of Montluc and the CHRD](https://mishpachatours.com/jewish-lyon-tours/).
 
 - **Who was held.** More than 9,000 men, women and children passed through in that time: Resistance fighters, hostages and Jews. Jean Moulin and the historian Marc Bloch were held here.
 - **The Jews of Montluc.** The prison served as a gathering point for Jews before they were sent to Drancy and then to Auschwitz-Birkenau. A separate block, known as the baraque aux Juifs, held mainly Jewish men over 15. Whole families were brought here.
@@ -85,6 +85,7 @@ Same-day reply, never on Shabbat.
 - [The CHRD in Lyon](https://mishpachatours.com/chrd-lyon/)
 - [Maison d'Izieu](https://mishpachatours.com/maison-izieu/)
 - [Synagogues in Lyon](https://mishpachatours.com/synagogues-lyon/)
+- [Jewish Lyon in two days](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
 
 ## Ready to *book* your tour?
 

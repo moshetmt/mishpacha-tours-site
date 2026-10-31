@@ -17,7 +17,7 @@ La rue Juiverie atraviesa el Vieux Lyon, en el 5.º distrito. Debe su nombre a l
 
 ## Los judíos de Lyon *en la Edad Media*
 
-Había judíos en Lyon desde fecha temprana. Cuando fueron expulsados en 1250 por el arzobispo Felipe de Saboya, vivían en la actual rue Ferrachat. Más tarde, en ese mismo siglo, se instaló una nueva comunidad. En la segunda mitad del siglo XIV, los residentes judíos pagaban impuestos municipales y la ciudad nombraba a funcionarios con autoridad sobre ellos. La ciudad de Lyon sitúa esta comunidad en la rue Juiverie en los siglos XIII y XIV.
+Había judíos en Lyon desde fecha temprana. Cuando fueron expulsados en 1250 por el arzobispo Felipe de Saboya, vivían en la actual rue Ferrachat. Más tarde, en ese mismo siglo, se instaló una nueva comunidad. En la segunda mitad del siglo XIV, los residentes judíos pagaban impuestos municipales y la ciudad nombraba a funcionarios con autoridad sobre ellos. La ciudad de Lyon sitúa esta comunidad en la rue Juiverie en los siglos XIII y XIV. Recorremos esta calle durante [la visita guiada por el Lyon judío](https://mishpachatours.com/jewish-lyon-tours/).
 
 Dos fuentes datan de forma distinta el final de esa comunidad.
 
@@ -115,6 +115,7 @@ Respuesta el mismo día, nunca en Shabat.
 - [La Gran Sinagoga de Lyon](https://mishpachatours.com/es/grande-synagogue-lyon/)
 - [Historia judía de Lyon](https://mishpachatours.com/es/jewish-history-lyon/)
 - [Sinagogas y Shabat en Lyon](https://mishpachatours.com/es/synagogues-lyon/)
+- [Lyon judío en dos días](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
 
 ## ¿Desea *reservar* su visita?
 

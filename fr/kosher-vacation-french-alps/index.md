@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-vacation-french-alps/ (HTML version
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Des vacances casher dans les Alpes
 
-# Des vacances casher dans les Alpes *vous choisissez la station et les dates, nous nous occupons de tout le casher*
+# Vacances casher *dans les Alpes, le casher pris en charge*
 
 Vous voulez des vacances casher à l’étranger sans hôtel casher : un chalet ou un appartement rien qu’à vous.
 

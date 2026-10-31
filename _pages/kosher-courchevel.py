@@ -3,7 +3,7 @@ PAGE = dict(
   slug="kosher-courchevel",
   title="Kosher Courchevel: Chef, Shabbat and Minyan",
   desc="Kosher Courchevel 1850 and the villages of Les 3 Vallées: private chef in your chalet, delivered meals, Shabbat, holidays and a minyan. One request, one quote.",
-  h1="Courchevel, strictly kosher", ital="Courchevel 1850 and its villages, in Les 3 Vallées",
+  h1="Courchevel, strictly kosher", ital="1850 and Les 3 Vallées",
   intro="Courchevel 1850 sits at about 1,850 m in Les 3 Vallées. The season runs from 4 December 2026 to 18 April 2027. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["Courchevel 1850, about 1,850 m, Les 3 Vallées", "About 2 h 10 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",

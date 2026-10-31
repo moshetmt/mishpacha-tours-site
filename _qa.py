@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """QA locale : liens internes cassés, images manquantes, mots interdits, title/description, canonical. python _qa.py (depuis site-v5/)"""
 import re, os, glob, html
-INTERDITS = [r"\bchurch", r"\bIsrael\b", r"\bIsraeli", r"kosher-friendly", r"\bfounder", "—", r"מורת דרך", r"שומר כשרות"]
+INTERDITS = [r"\bchurch", r"\bIsrael\b", r"\bIsraeli", r"kosher-friendly", r"\bfounder", "—", r"מורת דרך"]   # « שומר כשרות » : formule validée le 06/10, retirée le 30/10
 pages = sorted(p for p in glob.glob("**/index.html", recursive=True) if not p.startswith("_"))
 pass
 err = 0

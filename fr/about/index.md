@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/about/ (HTML version). Every page of the s
 
 [Accueil](https://mishpachatours.com/fr/) / À propos de Mishpacha Tours
 
-# À propos de Mishpacha Tours *une guide juive, pour des voyageurs juifs*
+# Mishpacha Tours *une guide juive, pour des voyageurs juifs*
 
 Mishpacha signifie famille. Nous guidons les voyageurs juifs à travers Lyon comme vous montreriez votre propre ville à des cousins venus de l’étranger : en privé, à votre rythme, sans rien avoir à expliquer d’abord sur la cacherout ou le Shabbat.
 

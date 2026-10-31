@@ -1,4 +1,4 @@
-> Un solo formulario para todo su viaje: fechas, familia, chalé u hotel, chef y comidas, Shabat y minyan, traslados, esquí, visitas de Lyon. Recibirá un programa día por día con el precio.
+> Un solo formulario para todo su viaje: fechas, familia, chalé u hotel, chef y comidas, Shabat y minyan, traslados, esquí, visitas de Lyon. Un programa día por día.
 
 Source: https://mishpachatours.com/es/plan-your-trip/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 

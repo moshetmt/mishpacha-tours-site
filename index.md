@@ -14,7 +14,7 @@ Private chalet, private chef, Shabbat and minyan. Organised for you.
 
 ## Our kosher chalets *in the Alps*
 
-### [Our kosher chalet, at the foot of the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)
+### [Chalet King David, Les Deux Alpes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)
 
 - **300 m²**private chalet
 - **6 + 1**bedrooms + nursery
@@ -31,7 +31,7 @@ Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [A kosher chalet in the heart of Courchevel](https://mishpachatours.com/kosher-chalet-courchevel/)
+### [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel/)
 
 - **5**en-suite bedrooms
 - **10 to 14**guests
@@ -48,7 +48,7 @@ Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [The Val Thorens Chalet, skis on at the door](https://mishpachatours.com/kosher-chalet-val-thorens/)
+### [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
 - **165 m²**private chalet
 - **3**en-suite bedrooms
@@ -65,7 +65,7 @@ Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [The Mont Blanc Chalet, for several families](https://mishpachatours.com/kosher-chalet-megeve/)
+### [Chalet Loup Blanc, near Megève](https://mishpachatours.com/kosher-chalet-megeve/)
 
 - **10 + 2**twin bedrooms + attic rooms
 - **3 to 4**families
@@ -82,7 +82,7 @@ Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Meg%C3%A8ve&voyage=Ski%20holiday%20with%20a%20chalet)
 
-### [The Slope Chalet, skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)
+### [Chalet Rochebrune, Les Deux Alpes](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)
 
 - **6**bedrooms
 - **Up to 13**guests
@@ -103,7 +103,7 @@ Availability confirmed for your dates with each request.
 
 ## How do you want *to travel*?
 
-Five ways to come, one team behind each of them.
+Five ways to come, one team behind each of them. For Pesach, we prepare the chalet too: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
 [### Ski holiday, strictly kosher
 

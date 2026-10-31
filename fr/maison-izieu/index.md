@@ -16,7 +16,7 @@ La Maison d’Izieu, mémorial des 44 enfants juifs et des 7 adultes arrêtés i
 
 ## Ce qui s’est passé *à Izieu*
 
-En mai 1943, Sabine et Miron Zlatin installent une maison d’enfants juifs dans une demeure d’Izieu, dans l’Ain. Entre 1943 et 1944, elle accueille plus d’une centaine d’enfants.
+En mai 1943, Sabine et Miron Zlatin installent une maison d’enfants juifs dans une demeure d’Izieu, dans l’Ain. Entre 1943 et 1944, elle accueille plus d’une centaine d’enfants. Nous vous y emmenons avec [l’excursion à Izieu avec une guide juive](https://mishpachatours.com/jewish-lyon-tours/).
 
 Le matin du 6 avril 1944, la Gestapo de Lyon, sous les ordres de Klaus Barbie, arrête les 44 enfants et les 7 éducateurs présents dans la maison. Sabine Zlatin était absente ce jour-là. Les enfants sont détenus à la prison de Montluc, à Lyon, puis envoyés à Drancy.
 

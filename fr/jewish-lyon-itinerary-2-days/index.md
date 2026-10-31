@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/jewish-lyon-itinerary-2-days/ (HTML versio
 
 [Accueil](https://mishpachatours.com/fr/) / [Guide juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/) / Le patrimoine juif de Lyon en deux jours
 
-# Le patrimoine juif de Lyon en deux jours *un itinéraire construit autour des repas casher et du Shabbat*
+# Le patrimoine juif de Lyon *deux jours, repas casher et Shabbat*
 
 Deux jours couvrent le patrimoine juif de Lyon : le premier jour, 2 h 30 de marche rue Juiverie, dans la Grande Synagogue et rue Sainte-Catherine ; le second, une seule visite Mémoire, le CHRD ou Montluc, jamais les deux. Les repas casher se trouvent à Villeurbanne et dans le 6e arrondissement. Deux jours complets suffisent pour voir le patrimoine juif de Lyon qui compte : le quartier médiéval et la Grande Synagogue, puis les lieux de mémoire des années de guerre. Voici comment nous les organisons, avec où manger et quand s’arrêter pour le Shabbat.
 

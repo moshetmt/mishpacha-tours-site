@@ -93,7 +93,7 @@ Source: https://mishpachatours.com/he/jewish-lyon-guide/ (HTML version). Every p
 
 פתחו](https://mishpachatours.com/he/kosher-alpe-dhuez/)[### כשר בלה דז אלפ
 
-פתחו](https://mishpachatours.com/he/kosher-les-deux-alpes/)[### צ'אלה כשרה בלה דז אלפ
+פתחו](https://mishpachatours.com/he/kosher-les-deux-alpes/)[### צ'אלה קינג דייוויד, לה דז אלפ
 
 300 מ"ר, 6 חדרי שינה, 16 מיטות, 2 דקות מהמסלולים: שף, שבת, הכול מאורגן
 

@@ -11,7 +11,7 @@ PAGE = dict(
   slug="kosher-shabbat-meals-catering-lyon",
   title="Kosher catering and Shabbat meals in Lyon",
   desc="Six caterers certified by the Beth Din de Lyon, Chabad Shabbat meals and kosher groceries for a Shabbat in an apartment. How to order before you land.",
-  h1="Kosher catering and Shabbat meals in Lyon", ital="who cooks, how to order",
+  h1="Kosher catering in Lyon", ital="Shabbat meals, who cooks",
   intro="Six caterers on the official list of the Beth Din de Lyon cook for Shabbat, and Chabad houses host on request. Whether each caterer delivers to a hotel is not published, so you ask before you order. We help you write, and you pay the caterer directly.",
   chips=["6 caterers certified by the Beth Din de Lyon", "2 kosher groceries", "Order before Thursday", "Checked 7 October 2026"],
   illus="flat-kosher.png",
