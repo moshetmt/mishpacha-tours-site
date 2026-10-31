@@ -1,10 +1,10 @@
-> Unas vacaciones kosher en los Alpes: su chalé o apartamento, nuestro chef, comidas a domicilio, Shabat, fiestas y un minián. Esquí en invierno, lagos en verano.
+> Unas vacaciones kosher en el extranjero, en los Alpes: su chalé o apartamento, nuestro chef, comidas entregadas, Shabat, fiestas y un minián. Esquí en invierno, lagos en verano. Una solicitud, un presupuesto por escrito.
 
 Source: https://mishpachatours.com/es/kosher-vacation-french-alps/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Unas vacaciones kosher en los Alpes
 
-# Vacaciones kosher *en los Alpes, todo lo kosher resuelto*
+# Unas vacaciones kosher en los Alpes *usted elige la estación y las fechas, nosotros nos ocupamos de todo lo kosher*
 
 Usted quiere unas vacaciones kosher en el extranjero sin hotel kosher: un chalé o un apartamento propio.
 

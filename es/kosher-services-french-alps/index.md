@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-services-french-alps/ (HTML version
 
 [Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/) / Servicios kosher en los Alpes
 
-# Servicios kosher *en los Alpes: chalé, chef, comidas, Shabat*
+# Servicios kosher en los Alpes *chalé, chef, comidas, Shabat, fiestas, minyan: una sola solicitud*
 
 Una semana kosher en la montaña no tiene por qué significar una maleta de comida desde Lyon y un Shabat en soledad.
 

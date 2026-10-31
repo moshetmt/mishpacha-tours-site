@@ -1,8 +1,8 @@
-> Chalet Loup Blanc near Megève, facing Mont Blanc: ten twin bedrooms, two attic rooms, an apartment, sauna and jacuzzi. Kosher chef, Shabbat, minyan.
+> A kosher chalet near Megève facing Mont Blanc: ten twin bedrooms, two attic rooms, an adjoining apartment, sauna and jacuzzi. Chef, Shabbat and minyan. One written quote.
 
 Source: https://mishpachatours.com/kosher-chalet-megeve/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Home](https://mishpachatours.com/) / [Our kosher chalets](https://mishpachatours.com/kosher-chalets/) / Chalet Loup Blanc, near Megève
+[Home](https://mishpachatours.com/) / [Our kosher chalets](https://mishpachatours.com/kosher-chalets/) / The Mont Blanc Chalet, near Megève
 
 # Chalet Loup Blanc, near Megève *10 bedrooms facing Mont Blanc*
 
@@ -32,8 +32,6 @@ The chef prepares the Shabbat meals and the holidays in the chalet, or the meals
 
 Strictly kosher, everything served is Chalav Yisrael. The supervision details come in writing with your quote.
 
-For Pesach, we prepare the chalet too: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
-
 ## How it *works*
 
 1. **1**
@@ -60,7 +58,7 @@ For Pesach, we prepare the chalet too: [Pesach in the Alps, private chalet and k
 - **Transfers.** Vans with car seats from the airport to the chalet and back, on quote.
 - **Land in Lyon with a few hours to spare?** [The Stopover](https://mishpachatours.com/tours/stopover/): a private 3 hour tour of Jewish Lyon between the plane and the road.
 
-## Chalet Loup Blanc: *questions*
+## The Mont Blanc Chalet: *questions*
 
 How much does it cost?
 
@@ -88,7 +86,7 @@ A shuttle stops at the foot of the chalet every twenty minutes; the lifts are si
 
 ## Prefer a whole chalet? *Our kosher chalets*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Chalet Belle Étoile · Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
+[**Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Les Deux Alpes · Slope Chalet**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
 [See the chalets](https://mishpachatours.com/kosher-chalets/)
 
@@ -100,7 +98,7 @@ Tell us your dates. We send a day-by-day programme the same day.
 
 - [Our kosher chalets](https://mishpachatours.com/kosher-chalets/)
 - [Kosher in Megève](https://mishpachatours.com/kosher-megeve/)
-- [Chalet King David, Les Deux Alpes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)
+- [Our chalet in Les Deux Alpes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)
 - [Kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/)
 
 Sources: our team in the Alps (document and messages of 16/10/2026) for the chalet, the shuttle and the services. Compiled by Mishpacha Tours from these sources. Checked 7 October 2026.
