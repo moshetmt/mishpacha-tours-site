@@ -48,6 +48,8 @@ body.valora .demande .dm-chips label:has(input[type=radio]:checked)::before{back
 
 /* Listes compactes à cocher (.mini) + 8. grille régulière sans trou */
 body.valora .demande .dm-chips.mini{display:grid !important;grid-template-columns:1fr 1fr !important;gap:0 16px !important;align-items:stretch !important}
+/* 31/10 : les groupes d'options d'une autre branche (hidden) restaient affichés, inputs désactivés, 8 options mortes à l'écran 2 */
+body.valora .demande .dm-chips[hidden],body.valora .demande .dm-chips.mini[hidden]{display:none !important}
 body.valora .demande .dm-chips.mini label{background:transparent !important;border:0 !important;border-bottom:1px solid var(--f-trait) !important;border-radius:0 !important;color:var(--f-texte) !important;min-height:48px !important;padding:8px 0 !important;font-size:14.5px !important}
 body.valora .demande .dm-chips.mini label::before{position:static !important;transform:none !important;flex:none}
 body.valora .demande .dm-chips.mini label span{color:var(--f-texte) !important}

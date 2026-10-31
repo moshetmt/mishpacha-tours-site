@@ -679,6 +679,7 @@ body.menu-ouvert{overflow:hidden}
 .dm-bloc legend + *{margin-top:18px}
 .dm-bloc > * + *{margin-top:16px}
 .dm-chips{display:flex;flex-wrap:wrap;gap:8px;clear:both}
+.dm-chips[hidden]{display:none!important}
 .dm-chips label{position:relative;display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid rgba(28,27,31,.25);background:var(--creme);font-size:15px;cursor:pointer}
 .dm-chips input{position:absolute;opacity:0;width:0;height:0}
 .dm-chips input:checked + span{font-weight:600}
