@@ -63,5 +63,20 @@ def suisse_sans_livraison():
             if n != s: wr(p, n); k += 1
     print("pages suisses sans livraison :", k)
 
+ALT_SYNAGOGUE = {".": "The women's gallery and chandeliers inside the Grande Synagogue of Lyon",
+    "fr": "La galerie des femmes et les lustres à l'intérieur de la Grande Synagogue de Lyon",
+    "es": "La galería de mujeres y las lámparas en el interior de la Gran Sinagoga de Lyon",
+    "he": "עזרת הנשים והנברשות בתוך בית הכנסת הגדול של ליון"}
+HERO_LYON = re.compile(r'<img src="/img/h/c-juiverie-5-960\.webp" srcset="[^"]*" sizes="100vw" alt="[^"]*" width="1200" height="1600" fetchpriority="high">')
+
+def heros_lyon_tours():
+    # 31/10 (Moshé « improvise ») : le premier écran de la page des visites montre l'intérieur de la Grande Synagogue, la preuve du « seul tour qui entre », au lieu de la rue sombre
+    k = 0
+    for d, alt in ALT_SYNAGOGUE.items():
+        p = f"{d}/jewish-lyon-tours/index.html"; s = rd(p)
+        n = HERO_LYON.sub(f'<img src="/img/h/synagogue-tilsitt-galerie-960.webp" srcset="/img/h/synagogue-tilsitt-galerie-640.webp 640w, /img/h/synagogue-tilsitt-galerie-960.webp 960w, /img/h/synagogue-tilsitt-galerie-1000.webp 1000w" sizes="100vw" alt="{alt}" width="1000" height="1000" fetchpriority="high">', s, count=1)
+        if n != s: wr(p, n); k += 1
+    print("héros Lyon tours :", k, "pages")
+
 if __name__ == "__main__":
-    fil_ete(); credits(); suisse_sans_livraison()
+    fil_ete(); credits(); suisse_sans_livraison(); heros_lyon_tours()
