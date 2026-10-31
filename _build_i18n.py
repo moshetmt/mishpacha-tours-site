@@ -15,11 +15,14 @@ BASE = "https://mishpachatours.com"
 LANGS = {"fr": ("Français", "fr", "fr_FR", "ltr"), "es": ("Español", "es", "es_ES", "ltr"), "he": ("עברית", "il", "he_IL", "rtl")}
 FORCE = "--force" in sys.argv
 
+# Pages EN seules en attendant leur traduction (formulaire court du 31/10 : FR, ES, HE apres validation de Moshe).
+EN_SEULES = {"contact-quick", "contact-quick/thanks"}
+
 def lot():
     pages = [""]
     for p in sorted(glob.glob("**/index.html", recursive=True)):
         d = os.path.dirname(p).replace("\\", "/")
-        if not d or d.startswith("_") or d.split("/")[0] in LANGS: continue
+        if not d or d.startswith("_") or d.split("/")[0] in LANGS or d in EN_SEULES: continue
         pages.append(d)
     return pages
 LOT = lot()

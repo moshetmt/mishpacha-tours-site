@@ -310,5 +310,15 @@ load();prefill();f.classList.add('js');show(cur,false,false);try{history.replace
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/es/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:(c('indicatif')+' '+c('tel').replace(/[^0-9]/g,'')).trim()+(c('email')?' / '+c('email'):''),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/es/merci/'})})();
 </script>
 <a class="wa-flottant" href="https://wa.me/33652092301?text=Hola%2C%20quisiera%20consultar%20sobre%20sus%20servicios.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
-<script src="/js/anim.js" defer></script></body>
+<script src="/js/anim.js" defer></script><!--PREFILL-COURT--><script>(function(){var f=document.getElementById('formDemande');if(!f)return;
+var h={};(location.hash||'').replace(/^#/,'').split('&').forEach(function(kv){var i=kv.indexOf('=');if(i>0)try{h[kv.slice(0,i)]=decodeURIComponent(kv.slice(i+1).replace(/\+/g,' '))}catch(x){}});
+var q;try{q=new URLSearchParams(location.search)}catch(x){q=null}
+function g(k){var v=h[k]||(q&&q.get(k))||'';return String(v).replace(/[\u0000-\u001f<>]/g,'').trim().slice(0,60)}
+var pre=g('prenom'),wa=g('wa').replace(/[^0-9]/g,'');if(!pre&&!wa)return;
+var P=f.elements.prenom,I=f.elements.indicatif,T=f.elements.tel;
+if(pre&&P&&!P.value)P.value=pre;
+if(wa&&I&&T&&!T.value){var best='';[].forEach.call(I.options,function(o){var c=o.value.replace(/[^0-9]/g,'');if(c&&wa.indexOf(c)===0&&c.length>best.length)best=c});
+ if(best){I.value='+'+best;T.value=wa.slice(best.length)}else T.value=wa}
+f.dispatchEvent(new Event('input',{bubbles:true}));
+if(h.prenom||h.wa){try{history.replaceState(history.state,'',location.pathname+location.search)}catch(x){}}})();</script><!--/PREFILL-COURT--></body>
 </html>
