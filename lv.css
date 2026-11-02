@@ -406,3 +406,8 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau circle:first-of-type{fill:transparent !important;stroke-width:1 !important;stroke-opacity:.9}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau circle:nth-of-type(2){stroke-width:.6 !important;opacity:.55 !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau text{fill:#FFFFFF !important;font-family:'Jost',sans-serif !important;font-weight:400 !important;font-size:11.5px !important;letter-spacing:3px !important}
+
+/* Petit bonhomme Mishpacha (hassid du logo) devant « Plan your trip » de la barre basse, couleur du texte (Moshé 02/11) */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .barre-basse .bb-plan{display:flex !important;align-items:center !important;justify-content:center !important;gap:12px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pyt-flottant{gap:12px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) :is(.pyt-flottant,.barre-basse .bb-plan)::before{content:"";flex:none;width:26px;height:26px;background:currentColor;-webkit-mask:url(/img/picto-hassid.svg) center/contain no-repeat;mask:url(/img/picto-hassid.svg) center/contain no-repeat}
