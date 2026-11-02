@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / מג'ב, כשרה לחלוטין
 
-# מג'ב, כשרה לחלוטין *445 ק"מ של מסלולים מחוברים, בקשה אחת לצד הכשר*
+# צ'אלה כשרה ליד מג'ב *445 ק"מ של מסלולים מחוברים*
 
 מג'ב שוכנת בגובה של כ-1,050 מ' בהוט-סבויה, באזור הסקי אווזיון מון בלן, 445 ק״מ של מסלולים.
 

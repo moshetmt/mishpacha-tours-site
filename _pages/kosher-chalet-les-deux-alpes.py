@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-chalet-les-deux-alpes",
-  title="Chalet King David, kosher, Les Deux Alpes",
+  title="Kosher Chalet King David, Les Deux Alpes",
   desc="Chalet King David in Les Deux Alpes: a 300 m² kosher chalet, 6 bedrooms, 16 beds, 2 minutes from the slopes. Private chef, Shabbat and holidays. One quote.",
-  h1="Chalet King David, Les Deux Alpes", ital="300 m², 16 guests, private chef",
+  h1="Kosher chalet King David", ital="Les Deux Alpes, 300 m², private chef",
   intro="A chalet of 300 m² in Les Deux Alpes, 2 minutes from the slopes. Six bedrooms and 16 beds, for three small families or one large one. A private chef cooks kosher meals in the chalet, or meals are delivered; Shabbat and the holidays come with a minyan and a Sefer Torah, depending on the families present. One request, one written quote.",
   chips=["300 m², 6 bedrooms, 16 beds", "2 minutes from the slopes", "Chef, Shabbat, holidays", "On written quote"],
   illus="flat-ski.png",

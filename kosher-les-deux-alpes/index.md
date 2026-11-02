@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-les-deux-alpes/ (HTML version). Every 
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Les Deux Alpes, strictly kosher
 
-# Les Deux Alpes *strictly kosher, glacier at 1,650 m*
+# Kosher chalets in Les Deux Alpes *the glacier resort, at 1,650 m*
 
 Les Deux Alpes sits at 1,650 m in Isère, with a glacier above it.
 

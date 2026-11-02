@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-megeve/ (HTML version). Ever
 
 [דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה לו בלאן, ליד מג'ב
 
-# צ'אלה לו בלאן, ליד מג'ב *10 חדרים מול המון בלאן*
+# צ'אלה כשרה לו בלאן *ליד מג'ב, מול המון בלאן*
 
 צ'אלה גדולה בעמק המון בלאן, כמה דקות ממג'ב, שנבנתה לכמה משפחות יחד.
 

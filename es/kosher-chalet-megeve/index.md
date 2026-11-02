@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-chalet-megeve/ (HTML version). Ever
 
 [Inicio](https://mishpachatours.com/es/) / [Nuestros chalets kosher](https://mishpachatours.com/es/kosher-chalets/) / Chalet Loup Blanc, cerca de Megève
 
-# Chalet Loup Blanc, cerca de Megève *10 habitaciones, Mont Blanc*
+# Chalet kosher Loup Blanc *cerca de Megève, frente al Mont Blanc*
 
 Un gran chalet en el valle del Mont Blanc, a pocos minutos de Megève, pensado para varias familias a la vez.
 

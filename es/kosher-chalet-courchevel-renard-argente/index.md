@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-chalet-courchevel-renard-argente/ (
 
 [Inicio](https://mishpachatours.com/es/) / [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/) / Chalet Renard Argenté, Courchevel
 
-# Chalet Renard Argenté, Courchevel *dos suites, baño nórdico*
+# Chalet kosher Renard Argenté *Courchevel, dos suites, baño nórdico*
 
 Un chalet íntimo en una aldea privada de Courchevel 1550, con su baño nórdico bajo los alerces.
 

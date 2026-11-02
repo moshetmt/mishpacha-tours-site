@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / לה דז אלפ, כשרה לחלוטין
 
-# לה דז אלפ, כשרה לחלוטין *אתר קרחון בגובה 1,650 מ', עם עונת קיץ כשרה משלו*
+# צ'אלות כשרות בלה דז אלפ *אתר הקרחון, בגובה 1,650 מ'*
 
 לה דז אלפ שוכנת בגובה 1,650 מ' באיזר, עם קרחון מעליה.
 

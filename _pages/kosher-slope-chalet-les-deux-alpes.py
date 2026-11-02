@@ -4,9 +4,9 @@
 # Ni nom du chalet, ni numéro, ni adresse ; photos retouchées (miroir, recadrage, étalonnage) pour ne pas retrouver l'annonce.
 PAGE = dict(
   slug="kosher-slope-chalet-les-deux-alpes",
-  title="Chalet Rochebrune, kosher, Les Deux Alpes",
+  title="Kosher Chalet Rochebrune, Les Deux Alpes",
   desc="Chalet Rochebrune in Les Deux Alpes: a kosher ski-in ski-out chalet, 6 bedrooms, 13 beds, fireplace, south terrace. Chef, Shabbat and minyan. One quote.",
-  h1="Chalet Rochebrune, Les Deux Alpes", ital="6 bedrooms, skis on at the door",
+  h1="Kosher chalet Rochebrune", ital="Les Deux Alpes, skis on at the door",
   intro="A 165 m² chalet in Les Deux Alpes, fifty metres from the slopes: you put your skis on at the door. Six bedrooms and 13 beds, a living room with a fireplace, a south-facing terrace. Our team koshers the kitchen, a chef cooks or kosher meals are delivered, and Shabbat comes with a minyan on request. Five minutes on foot from our other chalet, for a group of two families. One request, one written quote.",
   chips=["6 bedrooms, 13 beds", "Skis on at the door", "Fireplace, south terrace", "On written quote"],
   illus="flat-ski.png",

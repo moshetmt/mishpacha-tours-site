@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / ואל טורנס, כשר לחלוטין
 
-# ואל טורנס, כשר לחלוטין *בגובה 2,300 מ', האתר הגבוה באירופה*
+# צ'אלה כשרה בואל טורנס *בגובה 2,300 מ', האתר הגבוה באירופה*
 
 ואל טורנס שוכנת בגובה 2,300 מ' בשלושת העמקים, אתר הסקי הגבוה באירופה.
 
@@ -20,7 +20,7 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 
 העונה נמשכת מ-21 בנובמבר 2026 עד 2 במאי 2027. אנחנו מארגנים לכם שהות כשרה: שף פרטי או ארוחות עד הדירה, שבת, מניין וספר תורה, בהצעת מחיר אחת בכתב.
 
-## צ'אלה בל אטואל *בואל טורנס*
+## הצ'אלות שלנו *בשלושת העמקים*
 
 ### [צ'אלה בל אטואל, ואל טורנס](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
 
@@ -38,6 +38,23 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [צ'אלה אגל רויאל, לה מנואר](https://mishpachatours.com/he/kosher-chalet-les-menuires/)
+
+- **7**סוויטות
+- **עד 15**אורחים
+- **ספא**ג'קוזי וסאונה
+- **7 דק'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+לה מנואר · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
 
 ## מה אנחנו מארגנים *בוואל טורנס*
 
@@ -144,6 +161,7 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 
 ## אתרי סקי *סמוכים*
 
+- [צ'אלה כשרה בלה מנואר](https://mishpachatours.com/kosher-les-menuires/)
 - [כשר בקורשבל](https://mishpachatours.com/kosher-courchevel/)
 - [כשר בלה פלאן](https://mishpachatours.com/kosher-la-plagne/)
 - [כשר בלז ארק](https://mishpachatours.com/kosher-les-arcs/)

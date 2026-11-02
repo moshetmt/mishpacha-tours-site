@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-chalet-courchevel/ (HTML version). 
 
 [Inicio](https://mishpachatours.com/es/) / [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/) / Chalet Flocon Doré, Courchevel
 
-# Chalet Flocon Doré, Courchevel *5 suites, piscinas, chef privado*
+# Chalet kosher Flocon Doré *Courchevel, 5 suites, piscinas*
 
 Un chalé en el corazón de Courchevel, en Les 3 Vallées.
 

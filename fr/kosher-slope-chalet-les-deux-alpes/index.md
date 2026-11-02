@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 [Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Rochebrune, Les Deux Alpes
 
-# Chalet Rochebrune, Les Deux Alpes *6 chambres, skis aux pieds*
+# Chalet casher Rochebrune *Les Deux Alpes, skis aux pieds*
 
 Un chalet de 165 m² aux Deux Alpes, à cinquante mètres des pistes : vous chaussez vos skis devant la porte.
 

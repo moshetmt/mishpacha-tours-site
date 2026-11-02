@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/ (HTML versio
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / צ'אלה קינג דייוויד, לה דז אלפ
 
-# צ'אלה קינג דייוויד, לה דז אלפ *300 מ"ר, 16 אורחים, שף פרטי*
+# צ'אלה כשרה קינג דייוויד *לה דז אלפ, 300 מ"ר, שף פרטי*
 
 צ'אלה של 300 מ״ר בלה דז אלפ, 2 דקות מהמסלולים.
 

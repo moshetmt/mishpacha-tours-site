@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / קורשבל, כשר לחלוטין
 
-# קורשבל, כשר לחלוטין *קורשבל 1850 וכפריה, בשלושת העמקים*
+# צ'אלות כשרות בקורשבל *קורשבל 1850 וכפריה, בשלושת העמקים*
 
 קורשבל 1850 שוכנת בגובה של כ-1,850 מ' בשלושת העמקים.
 
@@ -20,7 +20,7 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 העונה נמשכת מ-4 בדצמבר 2026 עד 18 באפריל 2027. אנחנו מארגנים לכם שהות כשרה: שף פרטי או ארוחות עד הדירה, שבת, מניין וספר תורה, בהצעת מחיר אחת בכתב.
 
-## צ'אלה פלוקון דורה *בקורשבל*
+## הצ'אלות שלנו *בקורשבל*
 
 ### [צ'אלה פלוקון דורה, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)
 
@@ -34,6 +34,40 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 קורשבל · עם Winter Prestige
 
 החל מ־17,500 € לשבוע
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [צ'אלה אורור בוראל, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**סוויטות + חדר טלוויזיה
+- **6 עד 8**אורחים
+- **בריכה מחוממת**חמאם וג'קוזי
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [צ'אלה רנאר ארז'נטה, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
+
+- **2**סוויטות
+- **2 עד 6**אורחים
+- **אמבט נורדי**מחומם ל-40 מעלות
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
 
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
@@ -144,6 +178,7 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 ## אתרי סקי *סמוכים*
 
+- [צ'אלה כשרה בלה מנואר](https://mishpachatours.com/kosher-les-menuires/)
 - [כשר בואל טורנס](https://mishpachatours.com/kosher-val-thorens/)
 - [כשר בלה פלאן](https://mishpachatours.com/kosher-la-plagne/)
 - [כשר בלז ארק](https://mishpachatours.com/kosher-les-arcs/)

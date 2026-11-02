@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-chalet-val-thorens/ (HTML version). Ev
 
 [Home](https://mishpachatours.com/) / [Our kosher chalets](https://mishpachatours.com/kosher-chalets/) / Chalet Belle Étoile, Val Thorens
 
-# Chalet Belle Étoile, Val Thorens *ski in, ski out, 3 suites*
+# Kosher chalet Belle Étoile *Val Thorens, ski in, ski out*
 
 A private wooden chalet above Val Thorens, in the 3 Valleys, facing south.
 

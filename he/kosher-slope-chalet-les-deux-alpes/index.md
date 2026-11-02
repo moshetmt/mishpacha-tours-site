@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 [דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה רושברון, לה דז אלפ
 
-# צ'אלה רושברון, לה דז אלפ *6 חדרים, סקי מהדלת*
+# צ'אלה כשרה רושברון *לה דז אלפ, סקי מהדלת*
 
 צ'אלה של 165 מ״ר בלה דז אלפ, חמישים מטר מהמסלולים: נועלים את המגלשיים ליד הדלת.
 

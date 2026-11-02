@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-megeve/ (HTML version). Every page 
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Megève, strictement casher
 
-# Megève, strictement casher *445 km de pistes reliées*
+# Chalet casher près de Megève *445 km de pistes reliées*
 
 Megève se trouve à environ 1 050 m, en Haute-Savoie, sur le domaine skiable de l’Évasion Mont-Blanc, 445 km de pistes.
 

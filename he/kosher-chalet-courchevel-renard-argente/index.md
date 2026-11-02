@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/ (
 
 [דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה רנאר ארז'נטה, קורשבל
 
-# צ'אלה רנאר ארז'נטה, קורשבל *שתי סוויטות, אמבט נורדי*
+# צ'אלה כשרה רנאר ארז'נטה *קורשבל, שתי סוויטות, אמבט נורדי*
 
 צ'אלה אינטימית בכפר פרטי בקורשבל 1550, עם אמבט נורדי בין עצי הלגש.
 

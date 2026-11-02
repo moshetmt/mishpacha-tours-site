@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-megeve/ (HTML version). Every page 
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Megève, estrictamente kosher
 
-# Megève *estrictamente kosher, 445 km de pistas*
+# Chalet kosher cerca de Megève *445 km de pistas*
 
 Megève se encuentra a unos 1.050 m en la Alta Saboya, en el dominio esquiable Évasion Mont-Blanc, de 445 km de pistas.
 
