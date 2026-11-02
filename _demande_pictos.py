@@ -15,7 +15,7 @@ PICTOS = {   # branche du formulaire -> picto
     "b": "base/mere-petit.svg",               # j'ai déjà mon logement : la mère, sans objet
     "e": "base/garcon-petit.svg",             # Pessah ou une fête : le garçon (kippa, tsitsit)
     "d": "base/pere-petit.svg",               # visite de Lyon : le père qui marche, canne
-    "c": "montagne/traineau-carre-petit.svg", # transfert en van : le traîneau (seuls les chiens tirent)
+    "c": "montagne/van-petit.svg",            # transfert en van : le van (dessiné le 02/11, Moshé : plus de chiens)
     "f": "base/fille-petit.svg",              # autre chose : la fille
 }
 MARGE = 0.04
