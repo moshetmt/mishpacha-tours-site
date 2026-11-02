@@ -846,7 +846,7 @@ body.menu-ouvert{overflow:hidden}
 .pf-etape[hidden],.pf [data-b][hidden],.pf [data-s][hidden],.pf [data-si][hidden],.pf .cache,.pf [hidden]{display:none!important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf-hero:not(#pf0){padding:18px 0 0!important;margin:0!important;background:#FFFFFF}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .wrap{max-width:768px!important;margin:0 auto!important;padding:0 24px!important;box-sizing:border-box}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .fil{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#6B6B6B!important;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .fil{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#6B6B6B!important;opacity:1!important;margin:0}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .fil a{color:#6B6B6B!important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-hero h1{margin:10px 0 0!important;font-size:clamp(26px,4.4vw,44px)!important;font-weight:300!important;letter-spacing:.08em!important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-promesse{margin:10px 0 0;max-width:34em;font-size:15px;line-height:1.5;color:#6B6B6B!important}
