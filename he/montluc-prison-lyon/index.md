@@ -49,7 +49,7 @@ Source: https://mishpachatours.com/he/montluc-prison-lyon/ (HTML version). Every
 
 נווה שלום והמכון התרבותי ליהדות (Institut culturel du judaïsme) נמצאים באותה כתובת, 317 rue Duguesclin. בית הכנסת הוא השני שהמדריכה שלכם מכניסה אתכם אליו, יחד עם [בית הכנסת הגדול ברציף טילסיט](https://mishpachatours.com/he/grande-synagogue-lyon/). ביקורים בפנים תלויים בהסכמה עם הקהילה ובביטחון של אותו יום, ואנו מבקשים בשמכם.
 
-איננו מציגים באתר זה תמונה של נווה שלום. המדריכה שלכם מראה לכם אותו במקום. הסיור [זיכרון: מונלוק ונווה שלום](https://mishpachatours.com/he/tours/memory-montluc-neveh-shalom/) מחבר את אתר הזיכרון ואת בית הכנסת בהליכה אחת, כשעתיים וחצי. איננו משלבים אותו לעולם עם ה-[CHRD](https://mishpachatours.com/he/chrd-lyon/) באותו יום.
+איננו מציגים באתר זה תמונה של נווה שלום. המדריכה שלכם מראה לכם אותו במקום. הסיור [זיכרון: מונלוק ונווה שלום](https://mishpachatours.com/he/tours/memory-montluc-neveh-shalom/) מחבר את אתר הזיכרון ואת בית הכנסת בהליכה אחת, כשעתיים. איננו משלבים אותו לעולם עם ה-[CHRD](https://mishpachatours.com/he/chrd-lyon/) באותו יום.
 
 ## שאלות *שאנו מקבלים*
 

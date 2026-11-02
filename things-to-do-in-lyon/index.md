@@ -80,16 +80,16 @@ Each place shows time, children, kosher nearby and when it is closed; the rest i
 
 ## Jewish Lyon *and memory*
 
-- **Grande Synagogue: the building we take you inside.** Inaugurated in 1864 and closed to the public, it is the one building we take you inside, on our 2 h 30 Jewish Lyon tour, subject to opening hours and security.  
-  2 h 30 with the tour · Children from about 8 · Kosher 2nd arr. · no visitors on ShabbatRead more
+- **Grande Synagogue: the building we take you inside.** Inaugurated in 1864 and closed to the public, it is the one building we take you inside, on our 2-hour Jewish Lyon tour, subject to opening hours and security.  
+  2 hours with the tour · Children from about 8 · Kosher 2nd arr. · no visitors on ShabbatRead more
 
-  Inaugurated in 1864 at 13 quai Tilsitt, it is still a working synagogue and is closed to visitors outside the Heritage Days. Mishpacha Tours holds the special authorisation and takes private groups inside on its 2 h 30 [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/), subject to opening hours and security on the day. It is the one visit on this page that you cannot make alone. [The Grande Synagogue, in detail](https://mishpachatours.com/grande-synagogue-lyon/).  
-  **Time:** 2 h 30 with the tour. **Children:** from about eight. **Kosher:** the 2nd arrondissement, a short walk. See [Kosher in Lyon](https://mishpachatours.com/kosher-restaurants-lyon/). **Shabbat:** services are held, but visitors are not admitted; our visits run Sunday to Friday morning.
+  Inaugurated in 1864 at 13 quai Tilsitt, it is still a working synagogue and is closed to visitors outside the Heritage Days. Mishpacha Tours holds the special authorisation and takes private groups inside on its 2 hours [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/), subject to opening hours and security on the day. It is the one visit on this page that you cannot make alone. [The Grande Synagogue, in detail](https://mishpachatours.com/grande-synagogue-lyon/).  
+  **Time:** 2 hours with the tour. **Children:** from about eight. **Kosher:** the 2nd arrondissement, a short walk. See [Kosher in Lyon](https://mishpachatours.com/kosher-restaurants-lyon/). **Shabbat:** services are held, but visitors are not admitted; our visits run Sunday to Friday morning.
 - **CHRD: the memory museum.** The resistance and deportation museum, in the former Gestapo headquarters.  
-  2 h 30 · Children teenagers · Kosher 6th or 2nd arr. · closed Monday and TuesdayRead more
+  2 hours · Children teenagers · Kosher 6th or 2nd arr. · closed Monday and TuesdayRead more
 
   The Centre d’histoire de la résistance et de la déportation, at 14 avenue Berthelot, in the former Gestapo headquarters of Lyon. Our private visit follows the Jewish thread of the occupation: the raids, the deportations, the children of Izieu. [The CHRD, in detail](https://mishpachatours.com/chrd-lyon/).  
-  **Time:** 2 h 30. **Children:** teenagers; for younger ones, talk to us first. **Kosher:** the 6th or the 2nd arrondissement, by metro. See [Kosher in Lyon](https://mishpachatours.com/kosher-restaurants-lyon/). **Shabbat:** open Wednesday to Sunday, 10:00 to 18:00, closed Monday and Tuesday. We visit on Wednesday to Friday or Sunday.
+  **Time:** 2 hours. **Children:** teenagers; for younger ones, talk to us first. **Kosher:** the 6th or the 2nd arrondissement, by metro. See [Kosher in Lyon](https://mishpachatours.com/kosher-restaurants-lyon/). **Shabbat:** open Wednesday to Sunday, 10:00 to 18:00, closed Monday and Tuesday. We visit on Wednesday to Friday or Sunday.
 - **Izieu: a full-day visit.** The memorial to the 44 Jewish children arrested on 6 April 1944, one hour from Lyon by road.  
   a full day · Children from about 8 · Kosher bring your own food · check the memorial’s hoursRead more
 
@@ -143,7 +143,7 @@ Same-day reply, never on Shabbat.
 
 ## Keep *reading*
 
-- [Jewish Lyon tour, 2 h 30](https://mishpachatours.com/tours/jewish-lyon/)
+- [Jewish Lyon tour, 2 hours](https://mishpachatours.com/tours/jewish-lyon/)
 - [Lyon weather by season and this week’s forecast](https://mishpachatours.com/lyon-weather/)
 - [Shabbat in Lyon](https://mishpachatours.com/shabbat-in-lyon/)
 - [Van and transfers](https://mishpachatours.com/kosher-van-transfers/)

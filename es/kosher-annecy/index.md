@@ -35,9 +35,10 @@ También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kashe
 
 ## Kosher *en Annecy*
 
-- **Tienda o restaurante kosher.** El mismo artículo afirma que Annecy no tiene ninguna tienda ni ningún restaurante kosher, y que los residentes compran la comida kosher en ciudades cercanas. Traiga su comida desde Lyon o Ginebra, o deje que le entreguemos las comidas.
+- **Una sinagoga.** 18 rue de Narvik, 74000 Annecy.
+- **Tienda o restaurante kosher.** Traiga su comida desde Lyon o Ginebra, o deje que le entreguemos las comidas.
 - **Una casa Chabad.** Nuestro equipo trabaja bajo la red Chabad de los Alpes.
-- **Tamaño de la comunidad.** El artículo la sitúa en unas 50 familias. Es una comunidad pequeña, por lo que un minián de visita debe formarse con antelación.
+- **Tamaño de la comunidad.** Es una comunidad pequeña, por lo que un minián de visita debe formarse con antelación.
 
 ## Verano en el lago, *invierno en los Aravis*
 

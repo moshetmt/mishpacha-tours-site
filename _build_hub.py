@@ -149,8 +149,8 @@ VILLES = [
    ("Communauté de Bourg-en-Bresse","1718 avenue de Lyon, 01960 Péronnas","","")]),
 ]
 STATIONS = [
- ("Courchevel 1850","Synagogue at Hôtel Le Mont Charvin","389 rue des Tovets, 73120 Courchevel","06 20 60 72 58","Winter season only. Rabbi Daniel Belaïch. Help with kosher needs, wine and challot for Shabbat."),
- ("Megève","Chabad of the Alps, winter minyan","136 route Edmond de Rothschild, 74120 Megève","","Winter season. Contact habadalpes@yahoo.fr before you come: the venue has changed over the years."),
+ ("Courchevel 1850","Synagogue at Hôtel Le Mont Charvin","389 rue des Tovets, 73120 Courchevel","06 20 60 72 58","Winter season only."),
+ ("Megève","Chabad of the Alps, winter minyan","136 route Edmond de Rothschild, 74120 Megève","","Winter season. The venue has changed over the years: ask us before you come."),
  ("Val Thorens, Les Menuires, Les Arcs","No permanent minyan published","","","Private operators organise kosher chalets and a minyan when numbers allow (skikosher.com). Supervision not published: ask them directly, and ask us."),
 ]
 def lis(items, ville=True):

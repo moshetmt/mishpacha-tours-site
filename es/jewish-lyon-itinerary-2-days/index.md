@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/es/jewish-lyon-itinerary-2-days/ (HTML versio
 
 # Lyon judío en dos días *comidas kosher y Shabat*
 
-Dos días bastan para recorrer el Lyon judío: el primero es un paseo de 2 h 30 por la rue Juiverie, el interior de la Gran Sinagoga y la rue Sainte-Catherine; el segundo es una visita de Memoria, el CHRD o Montluc, nunca las dos. Las comidas kosher están en Villeurbanne y en el 6.º distrito. Dos días completos alcanzan para ver el Lyon judío que importa: el barrio medieval y la Gran Sinagoga, y después los lugares de memoria de los años de guerra. Así los organizaríamos, con dónde comer y cuándo parar por el Shabat.
+Dos días bastan para recorrer el Lyon judío: el primero es un paseo de 2 h por la rue Juiverie, el interior de la Gran Sinagoga y la rue Sainte-Catherine; el segundo es una visita de Memoria, el CHRD o Montluc, nunca las dos. Las comidas kosher están en Villeurbanne y en el 6.º distrito. Dos días completos alcanzan para ver el Lyon judío que importa: el barrio medieval y la Gran Sinagoga, y después los lugares de memoria de los años de guerra. Así los organizaríamos, con dónde comer y cuándo parar por el Shabat.
 
 - 2 días, 1 guía
 - Comidas kosher previstas
@@ -23,7 +23,7 @@ Dos días bastan para recorrer el Lyon judío: el primero es un paseo de 2 h 30 
 
 ## Día 1 *El Lyon judío, de la Edad Media a hoy*
 
-**Mañana, 2 h 30 a pie.** Vieux Lyon y la rue Juiverie, la calle del barrio judío medieval, y luego, al otro lado del río, la Gran Sinagoga del quai Tilsitt, construida en 1864, donde entramos. Terminamos en la rue Sainte-Catherine, donde la oficina de la UGIF fue objeto de una redada en febrero de 1943. Es nuestra [visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/).
+**Mañana, 2 h a pie.** Vieux Lyon y la rue Juiverie, la calle del barrio judío medieval, y luego, al otro lado del río, la Gran Sinagoga del quai Tilsitt, construida en 1864, donde entramos. Terminamos en la rue Sainte-Catherine, donde la oficina de la UGIF fue objeto de una redada en febrero de 1943. Es nuestra [visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/).
 
 **Almuerzo.** Los lugares kosher certificados más cercanos están en el 2.º y el 6.º distrito; le decimos cuáles abren ese día. Lista completa en [Kosher en Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/).
 
@@ -35,8 +35,8 @@ Dos días bastan para recorrer el Lyon judío: el primero es un paseo de 2 h 30 
 
 Elija una de las dos visitas de Memoria. Nunca hacemos las dos el mismo día: cada una necesita su tiempo y la segunda se perdería.
 
-- **Opción A, el CHRD.** El Centre d'histoire de la résistance et de la déportation, en la antigua sede de la Gestapo de Klaus Barbie, con la historia judía de la ocupación en el centro: las redadas, las deportaciones, Izieu. Unas 2 h 30. [Memoria: CHRD](https://mishpachatours.com/es/tours/memory-chrd/).
-- **Opción B, Montluc y Neveh Shalom.** La prisión donde estuvieron Jean Moulin y los niños de Izieu, y después la sinagoga Neveh Shalom y el instituto cultural judío contiguo: los muertos y los vivos en un solo paseo. Unas 2 h 30. [Memoria: Montluc](https://mishpachatours.com/es/tours/memory-montluc-neveh-shalom/).
+- **Opción A, el CHRD.** El Centre d'histoire de la résistance et de la déportation, en la antigua sede de la Gestapo de Klaus Barbie, con la historia judía de la ocupación en el centro: las redadas, las deportaciones, Izieu. Unas 2 h. [Memoria: CHRD](https://mishpachatours.com/es/tours/memory-chrd/).
+- **Opción B, Montluc y Neveh Shalom.** La prisión donde estuvieron Jean Moulin y los niños de Izieu, y después la sinagoga Neveh Shalom y el instituto cultural judío contiguo: los muertos y los vivos en un solo paseo. Unas 2 h. [Memoria: Montluc](https://mishpachatours.com/es/tours/memory-montluc-neveh-shalom/).
 
 **Tarde.** Almuerzo en el 6.º distrito y, después, el [cementerio judío de La Mouche](https://mishpachatours.com/es/jewish-cemetery-lyon/) si tiene familiares que buscar, o un final de jornada tranquilo en el Parc de la Tête d'Or.
 
@@ -78,7 +78,7 @@ Respuesta el mismo día, nunca en Shabat.
 
 - [Shabat en Lyon](https://mishpachatours.com/es/shabbat-in-lyon/)
 - [La guía completa del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/)
-- [Visita Lyon judío, 2 h 30](https://mishpachatours.com/es/tours/jewish-lyon/)
+- [Visita Lyon judío, 2 h](https://mishpachatours.com/es/tours/jewish-lyon/)
 
 ## ¿Desea *reservar* su visita?
 

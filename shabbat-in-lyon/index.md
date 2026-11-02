@@ -81,7 +81,7 @@ Shabbat ends at the Havdalah time shown in the box at the top of this page for L
 
 ## Our tours and *Shabbat*
 
-We never guide on Shabbat or on Jewish holidays. Your guide keeps Shabbat herself. A Sunday morning tour is possible, and so is a Friday morning tour that ends well before candle lighting. See the [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/): 2 hours 30 minutes, private group, inside the Grande Synagogue.
+We never guide on Shabbat or on Jewish holidays. Your guide keeps Shabbat herself. A Sunday morning tour is possible, and so is a Friday morning tour that ends well before candle lighting. See the [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/): 2 hours, private group, inside the Grande Synagogue.
 
 ## Shabbat in Lyon: *questions*
 

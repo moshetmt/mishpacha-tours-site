@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/es/grande-synagogue-lyon/ (HTML version). Eve
 
 # Gran Sinagoga de Lyon *el interior de un edificio cerrado*
 
-La Gran Sinagoga de Lyon, en el 13 quai Tilsitt, a orillas del Saona, se inauguró en 1864 y sigue siendo una sinagoga en activo. Está cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Mishpacha Tours cuenta con la autorización especial necesaria para entrar y lleva a grupos privados a su interior en su visita Lyon judío de 2 h 30, 290 € por grupo, sujeta al horario de apertura y a la seguridad del día.
+La Gran Sinagoga de Lyon, en el 13 quai Tilsitt, a orillas del Saona, se inauguró en 1864 y sigue siendo una sinagoga en activo. Está cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Mishpacha Tours cuenta con la autorización especial necesaria para entrar y lleva a grupos privados a su interior en su visita Lyon judío de 2 h, 290 € por grupo, sujeta al horario de apertura y a la seguridad del día.
 
 - Inaugurada en 1864
 - 13 quai Tilsitt, Lyon 2e

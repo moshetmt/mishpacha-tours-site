@@ -106,7 +106,7 @@ ICONES = {
     # activites : pour tous
     "Paragliding": "wind", "Massage and spa": "bath", "A van and driver on call": "bus",
     # lyon
-    "Jewish Lyon walk (2.5 h)": "footprints", "Stopover (3 h) on the way": "hourglass", "Memory: CHRD museum": "library", "Memory: Montluc, Neveh Shalom": "lock",
+    "Jewish Lyon walk (2 h)": "footprints", "Stopover (3 h) on the way": "hourglass", "Memory: CHRD museum": "library", "Memory: Montluc, Neveh Shalom": "lock",
     "Day trip to Izieu": "bus", "Kosher restaurant tips": "utensils", "Shabbat with a Chabad family": "heart",
     "English": "txt:EN", "Hebrew": "txt:עב", "French": "txt:FR", "Spanish": "txt:ES",   # langues : code de la langue, pas de bulle (reproche du 15/10)
     # extras
@@ -227,7 +227,7 @@ def formulaire(lang):
         tuile("a", "mountain-snow", "A full stay in the Alps", "Chalet, chef, Shabbat, minyan", "A full stay in the Alps"),
         tuile("b", "house", "I already have my place", "Chef, meals, minyan, transfers", "Services where we already stay (chef, meals, minyan, transfers)"),
         tuile("e", "sparkles", "Pesach or a holiday", "A full holiday programme", "Holiday programme (Pesach or other)"),
-        tuile("d", "landmark", "A Jewish Lyon tour", "Guided, 2.5 hours", "Jewish Lyon tour"),
+        tuile("d", "landmark", "A Jewish Lyon tour", "Guided, 2 hours", "Jewish Lyon tour"),
         tuile("c", "car", "A van transfer", "From A to B, with a driver", "Van transfer, point A to point B"),
         tuile("f", "message-circle", "Something else", "Tell us in your words", "Something else"),
     ]) + "</div>"
@@ -263,7 +263,7 @@ def formulaire(lang):
                    champ("vol-van", "vol", "Flight numbers or landing times, if known", ph="Landing 11:40, departing 15:30")))
     # ---- Lyon : la visite, le jour, la langue
     S.append(etape("lyon", "Which visit, and when?", "Tours are held in English, French or Spanish.",
-                   chips("lyon", ["Jewish Lyon walk (2.5 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
+                   chips("lyon", ["Jewish Lyon walk (2 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
                                   "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Shabbat with a Chabad family"], mini=True) +
                    sous("Which day?") + champ("arrivee-jour", "arrivee", "Date", typ="date") + chips("creneau", ["Morning", "Afternoon", "Either"], multi=False, mini=True) +
                    sous("Language of the visit") + chips("langue_visite", ["English", "French", "Spanish"], multi=False, mini=True) +
@@ -312,7 +312,7 @@ def formulaire(lang):
                                  ("Farm and cheese visit", "", "", "s"), "Paragliding", "Massage and spa"], mini=True) +
                    champ("niveau", "niveau", "Ski levels in the group", ph="4 good skiers, 2 beginners, 2 children in ski school", sa="w"), b="abe") +
                    sugg("niveau", ["Beginners", "Intermediate", "Good skiers", "Children in ski school"], sa="w") +
-                   pli("Visits in Lyon", chips("lyon", ["Jewish Lyon walk (2.5 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
+                   pli("Visits in Lyon", chips("lyon", ["Jewish Lyon walk (2 h)", "Stopover (3 h) on the way", "Memory: CHRD museum",
                                                          "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Shabbat with a Chabad family"], mini=True)) +
                    pli("Extras", chips("extras", ["Babysitter", "A wedding on the slopes", "A simcha to celebrate", "Fireworks", "Photographer or videographer", "DJ or live music",
                                                    "Flowers and table decoration", "Kids' entertainer", "Security escort (quoted)", "Reduced mobility"], mini=True))))

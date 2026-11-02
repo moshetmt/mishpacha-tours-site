@@ -16,9 +16,11 @@ Source: https://mishpachatours.com/he/jewish-history-lyon/ (HTML version). Every
 
 ## ימי הביניים, *והסוף במאה ה-15*
 
-יהודים חיו בליון כבר במאה התשיעית. הבישוף אגובארד ניסה לכפות המרות דת בסביבות שנת 820. בשנת 1250 גירש הארכיבישוף פיליפ מסבויה את הקהילה, שחיה אז ברחוב פראשה (rue Ferrachat) של ימינו. קהילה חדשה קמה במחצית השנייה של המאה ה-14. היא שילמה מסים עירוניים, והעיר מינתה פקידים שיטפלו בה. ההיסטוריה הזאת מסופרת במקום, [בסיור הרגלי בעקבות יהדות ליון](https://mishpachatours.com/he/jewish-lyon-tours/).
+יהודים חיו בליון כבר במאה התשיעית. הבישוף אגובארד ניסה לכפות המרות דת בסביבות שנת 820. בשנת 1250 גירש הארכיבישוף פיליפ מסבויה את הקהילה, שחיה אז ברחוב פראשה (rue Ferrachat) של ימינו. קהילה חדשה קמה במחצית השנייה של המאה ה-14. היא שילמה מסים עירוניים, והעיר מינתה פקידים שיטפלו בה. ההיסטוריה הזאת מסופרת במקום, [בסיור הרגלי בעקבות יהדות ליון](https://mishpachatours.com/jewish-lyon-tours/).
 
 הקהילה הזו חיה ב[רחוב ז'ויברי (rue Juiverie)](https://mishpachatours.com/he/rue-juiverie-lyon/), למרגלות גבעת פורביאר. הרחוב שמר על שמו. ב-1394 גירש המלך שארל השישי את היהודים מממלכת צרפת, ועיריית ליון קובעת את סוף הקהילה שלה לאותה שנה. האנציקלופדיה יודאיקה מציינת שליון עדיין לא הייתה חלק מהממלכה ומתארכת את הסוף לסביבות 1420, כשרוב המשפחות עברו לטרבו (Trévoux) הסמוכה.
+
+על התוצאה כולם מסכימים: במשך כשלוש מאות שנה לא מתועדת שום קהילה יהודית בליון.
 
 ## החזרה, *המאות ה-18 וה-19*
 
@@ -125,7 +127,7 @@ Source: https://mishpachatours.com/he/jewish-history-lyon/ (HTML version). Every
 - [בית איזיה (Maison d'Izieu)](https://mishpachatours.com/he/maison-izieu/): הטיול ליום אחד, במרחק שעה מליון. ראו את[יום איזיה](https://mishpachatours.com/he/tours/izieu/).
 - [כשרות בליון](https://mishpachatours.com/he/kosher-restaurants-lyon/) ואת[בית הקברות היהודי](https://mishpachatours.com/he/jewish-cemetery-lyon/): הקהילה החיה.
 
-אם יש לכם רק כמה שעות, בחרו ב[סיור ליון היהודית](https://mishpachatours.com/he/tours/jewish-lyon/). זהו סיור רגלי של שעתיים וחצי עם מדריכה יהודית, בהקפדה על כשרות ולעולם לא בשבת. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית.
+אם יש לכם רק כמה שעות, בחרו ב[סיור ליון היהודית](https://mishpachatours.com/he/tours/jewish-lyon/). זהו סיור רגלי של שעתיים עם מדריכה יהודית, בהקפדה על כשרות ולעולם לא בשבת. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית.
 
 ## שאלות נפוצות
 
@@ -161,7 +163,7 @@ Source: https://mishpachatours.com/he/jewish-history-lyon/ (HTML version). Every
 
 ## להמשך *קריאה*
 
-- [סיור ליון היהודית, שעתיים וחצי](https://mishpachatours.com/he/tours/jewish-lyon/)
+- [סיור ליון היהודית, שעתיים](https://mishpachatours.com/he/tours/jewish-lyon/)
 - [בית הכנסת הגדול של ליון](https://mishpachatours.com/he/grande-synagogue-lyon/)
 - [רחוב ז'ויברי וליון היהודית של ימי הביניים](https://mishpachatours.com/he/rue-juiverie-lyon/)
 - [בתי כנסת ושבת בליון](https://mishpachatours.com/he/synagogues-lyon/)

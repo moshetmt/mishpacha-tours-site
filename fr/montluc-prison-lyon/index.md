@@ -49,7 +49,7 @@ Vous traversez le bâtiment des cellules, où une soixantaine de cellules prése
 
 Neveh Chalom et l’Institut culturel du judaïsme se trouvent à la même adresse, 317 rue Duguesclin. La synagogue est la seconde que votre guide vous fait visiter de l’intérieur, avec la [Grande Synagogue du quai Tilsitt](https://mishpachatours.com/fr/grande-synagogue-lyon/). Les visites de l’intérieur dépendent d’un accord avec la communauté et de la sécurité du jour, et nous demandons pour vous.
 
-Nous ne montrons aucune photo de Neveh Chalom sur ce site. Votre guide vous la présente sur place. Notre [visite Mémoire : Montluc et Neveh Shalom](https://mishpachatours.com/fr/tours/memory-montluc-neveh-shalom/) réunit le mémorial et la synagogue en une seule promenade, d’2 h 30. Nous ne la combinons jamais avec le [CHRD](https://mishpachatours.com/fr/chrd-lyon/) le même jour.
+Nous ne montrons aucune photo de Neveh Chalom sur ce site. Votre guide vous la présente sur place. Notre [visite Mémoire : Montluc et Neveh Shalom](https://mishpachatours.com/fr/tours/memory-montluc-neveh-shalom/) réunit le mémorial et la synagogue en une seule promenade, de 2 h. Nous ne la combinons jamais avec le [CHRD](https://mishpachatours.com/fr/chrd-lyon/) le même jour.
 
 ## Questions *fréquentes*
 

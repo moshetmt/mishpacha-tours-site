@@ -47,7 +47,7 @@ Availability confirmed for your dates with each request.
 
 ## High resorts in summer
 
-- **Courchevel and Megève.** Nothing says they run in summer. Write to Rabbi Daniel Belaïch (habadalpes@yahoo.fr) before you count on one.
+- **Courchevel and Megève.** Nothing says their winter Chabad services run in summer: ask us before you count on one.
 - **Chamonix.** Its trips are designed for adults over 50, so they do not suit a family with children. Dates are on its website.
 - **Evian and Lake Geneva.** Geneva has its own community, across the border.
 
@@ -104,7 +104,7 @@ Each resort has its own times: they are calculated for its coordinates, resort b
 
    ### Take a Lyon tour
 
-   The [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/) lasts 2 h 30, with the inside of the Grande Synagogue. The [Stopover](https://mishpachatours.com/tours/stopover/) lasts 3 hours, for families who drive on the same day.
+   The [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/) lasts 2 hours, with the inside of the Grande Synagogue. The [Stopover](https://mishpachatours.com/tours/stopover/) lasts 3 hours, for families who drive on the same day.
 3. **3**
 
    ### Add Izieu
@@ -146,7 +146,7 @@ The Beth Habad of Annemasse, 40 minutes away, is the nearest. The Annecy communi
 
 Do the Chabad services of Courchevel and Megève run in summer?
 
-Write to Rabbi Belaïch before you plan around one.
+Nothing says they do. Ask us before you plan around one.
 
 Can we keep Shabbat while hiking?
 
@@ -154,7 +154,7 @@ Plan lodging near a minyan, cook before Shabbat and finish your walk well before
 
 Can we combine Lyon with the Alps?
 
-Yes. Land in Lyon, take a 2 h 30 city tour or the 3 hour Stopover, and add Izieu. Grenoble and Aix-les-Bains are 1 h 15 from Lyon by train, Chambéry 1 h 20.
+Yes. Land in Lyon, take a 2-hour city tour or the 3 hour Stopover, and add Izieu. Grenoble and Aix-les-Bains are 1 h 15 from Lyon by train, Chambéry 1 h 20.
 
 ## Your kosher week in the Alps, *organised*.
 

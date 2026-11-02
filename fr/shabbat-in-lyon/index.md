@@ -81,7 +81,7 @@ Le Shabbat se termine à l’heure de la Havdala indiquée dans l’encadré en 
 
 ## Nos visites et le *Shabbat*
 
-Nous ne guidons jamais le Shabbat ni les jours de fête juive. Votre guide observe elle-même le Shabbat. Une visite le dimanche matin est possible, ainsi qu’une visite le vendredi matin qui se termine bien avant l’allumage des bougies. Voir la [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/): 2 h 30, groupe privé, à l’intérieur de la Grande Synagogue.
+Nous ne guidons jamais le Shabbat ni les jours de fête juive. Votre guide observe elle-même le Shabbat. Une visite le dimanche matin est possible, ainsi qu’une visite le vendredi matin qui se termine bien avant l’allumage des bougies. Voir la [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/): 2 h, groupe privé, à l’intérieur de la Grande Synagogue.
 
 ## Shabbat à Lyon : *questions*
 

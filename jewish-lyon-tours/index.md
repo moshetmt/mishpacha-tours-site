@@ -53,7 +53,7 @@ Your group only, in English, French or Spanish. Prices for the whole group.
 
 City walk
 
-Vieux Lyon2.5 hours
+Vieux Lyon2 hours
 
 ### [Jewish Lyon](https://mishpachatours.com/tours/jewish-lyon/)
 

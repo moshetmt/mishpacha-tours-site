@@ -53,7 +53,7 @@ Source: https://mishpachatours.com/he/jewish-lyon-tours/ (HTML version). Every p
 
 סיור הליכה בעיר
 
-ליון העתיקהשעתיים וחצי
+ליון העתיקהשעתיים
 
 ### [ליון היהודית](https://mishpachatours.com/he/tours/jewish-lyon/)
 

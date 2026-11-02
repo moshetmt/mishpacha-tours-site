@@ -37,7 +37,7 @@ PAGE = dict(
     dict(type="text", h2="Havdalah and <i>Sunday</i>",
       html="<p>Shabbat ends at the Havdalah time shown in the box at the top of this page, from Hebcal for Lyon. Havdalah times at each synagogue are not published. The Grande Synagogue holds Shacharit on Sunday at 8:00.</p>"),
     dict(type="text", h2="Our tours and <i>Shabbat</i>",
-      html="<p>We never guide on Shabbat or on Jewish holidays. Your guide keeps Shabbat herself. A Sunday morning tour is possible, and so is a Friday morning tour that ends well before candle lighting. See the <a href='../tours/jewish-lyon/'>Jewish Lyon tour</a>: 2 hours 30 minutes, private group, inside the Grande Synagogue.</p>"),
+      html="<p>We never guide on Shabbat or on Jewish holidays. Your guide keeps Shabbat herself. A Sunday morning tour is possible, and so is a Friday morning tour that ends well before candle lighting. See the <a href='../tours/jewish-lyon/'>Jewish Lyon tour</a>: 2 hours, private group, inside the Grande Synagogue.</p>"),
     dict(type="faq", h2="Shabbat in Lyon: <i>questions</i>", items=[
       ("When does Shabbat start in Lyon?", "The box at the top of this page shows candle lighting and Havdalah for this week, from Hebcal. For your dates, write to us and we send the exact times."),
       ("Can I find a minyan on Shabbat?", "Yes. The Grande Synagogue and Neveh Chalom hold services, and so do the Chabad houses and 25 neighbourhood minyanim. Tell us your hotel and we point you to the nearest one. Shabbat times are published for Neveh Chalom only: call the others."),

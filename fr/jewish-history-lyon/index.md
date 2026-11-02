@@ -127,7 +127,7 @@ Notre [page des synagogues](https://mishpachatours.com/fr/synagogues-lyon/) indi
 - [La Maison d’Izieu](https://mishpachatours.com/fr/maison-izieu/) : l’excursion d’une journée, à une heure de Lyon. Voir [la journée à Izieu](https://mishpachatours.com/fr/tours/izieu/).
 - [Casher à Lyon](https://mishpachatours.com/fr/kosher-restaurants-lyon/) et [cimetière juif](https://mishpachatours.com/fr/jewish-cemetery-lyon/) : la communauté vivante.
 
-Si vous n’avez que quelques heures, choisissez la [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/). Elle dure 2 h 30, à pied, avec une guide juive, strictement casher et jamais le Shabbat.
+Si vous n’avez que quelques heures, choisissez la [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/). Elle dure 2 h, à pied, avec une guide juive, strictement casher et jamais le Shabbat.
 
 ## Questions fréquentes
 
@@ -163,7 +163,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 ## Pour *aller plus loin*
 
-- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h](https://mishpachatours.com/fr/tours/jewish-lyon/)
 - [La Grande Synagogue de Lyon](https://mishpachatours.com/fr/grande-synagogue-lyon/)
 - [La rue Juiverie et le quartier juif médiéval de Lyon](https://mishpachatours.com/fr/rue-juiverie-lyon/)
 - [Synagogues et Shabbat à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)

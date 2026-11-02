@@ -53,7 +53,7 @@ Solo su grupo, en inglés, francés o español. Precios para todo el grupo.
 
 Recorrido urbano
 
-Vieux Lyon2,5 horas
+Vieux Lyon2 horas
 
 ### [Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/)
 

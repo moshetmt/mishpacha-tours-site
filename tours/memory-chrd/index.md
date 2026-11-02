@@ -8,13 +8,13 @@ Memory
 
 # Memory: the CHRD *The Resistance museum, privately*
 
-Memory: the CHRD is a private 2 h 30 visit of Lyon's Resistance and deportation museum, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before. Your guide walks you through Lyon's Centre d'histoire de la résistance et de la déportation, housed in the former Gestapo headquarters, with the Jewish dimension of that history at the centre of the visit. This booking is never combined with the Montluc and Neveh Shalom visit on the same day.
+Memory: the CHRD is a private 2-hour visit of Lyon's Resistance and deportation museum, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before. Your guide walks you through Lyon's Centre d'histoire de la résistance et de la déportation, housed in the former Gestapo headquarters, with the Jewish dimension of that history at the centre of the visit. This booking is never combined with the Montluc and Neveh Shalom visit on the same day.
 
 Where
 :   Lyon 7e
 
 Duration
-:   2 hours 30 minutes
+:   2 hours
 
 Format
 :   Museum visit, private group
@@ -50,7 +50,7 @@ Same-day reply, never on Shabbat. Free cancellation up to 24 hours before the st
 
 ### Included
 
-- A private guide, 2 hours 30 minutes, in English, French or Spanish.
+- A private guide, 2 hours, in English, French or Spanish.
 - Guiding through the CHRD exhibition, with the Jewish dimension of the history explained throughout.
 
 ### Not included
@@ -86,7 +86,7 @@ Izieu
 
 How long does this visit last?
 
-2 hours 30 minutes. The exact timing is confirmed once your group size and the CHRD's hours on the day are set.
+2 hours. The exact timing is confirmed once your group size and the CHRD's hours on the day are set.
 
 Is the museum entry ticket included?
 

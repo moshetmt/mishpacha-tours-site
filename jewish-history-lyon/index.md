@@ -127,7 +127,7 @@ Our [synagogue page](https://mishpachatours.com/synagogues-lyon/) lists the pray
 - [The Maison d'Izieu](https://mishpachatours.com/maison-izieu/): the day trip, one hour from Lyon. See the [Izieu day](https://mishpachatours.com/tours/izieu/).
 - [Kosher in Lyon](https://mishpachatours.com/kosher-restaurants-lyon/) and the [Jewish cemetery](https://mishpachatours.com/jewish-cemetery-lyon/): the living community.
 
-If you have only a few hours, take the [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/). It runs 2 hours 30 minutes, on foot, with a Jewish guide, strictly kosher and never on Shabbat.
+If you have only a few hours, take the [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/). It runs 2 hours, on foot, with a Jewish guide, strictly kosher and never on Shabbat.
 
 ## Questions we get
 
@@ -163,7 +163,7 @@ Same-day reply, never on Shabbat.
 
 ## Keep *reading*
 
-- [Jewish Lyon tour, 2 hours 30 minutes](https://mishpachatours.com/tours/jewish-lyon/)
+- [Jewish Lyon tour, 2 hours](https://mishpachatours.com/tours/jewish-lyon/)
 - [The Grande Synagogue of Lyon](https://mishpachatours.com/grande-synagogue-lyon/)
 - [Rue Juiverie and medieval Jewish Lyon](https://mishpachatours.com/rue-juiverie-lyon/)
 - [Synagogues and Shabbat in Lyon](https://mishpachatours.com/synagogues-lyon/)

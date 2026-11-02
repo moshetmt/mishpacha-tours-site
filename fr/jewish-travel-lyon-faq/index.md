@@ -109,7 +109,7 @@ Réponse dans la journée, jamais le Shabbat.
 - [Où loger à Lyon](https://mishpachatours.com/fr/where-to-stay-lyon-jewish-travellers/)
 - [Traiteurs casher et repas de Shabbat](https://mishpachatours.com/fr/kosher-shabbat-meals-catering-lyon/)
 - [Mikvé à Lyon](https://mishpachatours.com/fr/mikveh-lyon/)
-- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h](https://mishpachatours.com/fr/tours/jewish-lyon/)
 
 ## Prêts à *réserver* votre visite ?
 

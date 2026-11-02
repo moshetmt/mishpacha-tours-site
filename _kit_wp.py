@@ -449,6 +449,7 @@ PAYS_ST = {
            ("באיטליה", [("kosher-cervinia", "צרביניה"), ("kosher-courmayeur", "קורמאיור"), ("kosher-cortina", "קורטינה")]), ("יעד אחר", [("kosher-ski-anywhere", "לפי בקשה")])],
 }
 PIED_WP = " · with Winter Prestige"  # pied des pages hiver : notre logo reste, la ligne nomme le partenaire (Moshé 19/10)
+PIED_WP_LANG = {"en": " · with Winter Prestige", "fr": " · avec Winter Prestige", "es": " · con Winter Prestige", "he": " · עם Winter Prestige"}  # traduit le 02/11
 
 def hiver(s, lang):
     s = re.sub(r"<body(?![^>]*kwp-hiver)([^>]*)>", lambda m: '<body class="kwp-hiver"%s>' % m.group(1)
@@ -466,7 +467,8 @@ def hiver(s, lang):
     if i >= 0:
         i += len('<div class="lead3-bloc">')
         s = s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><img src="/img/wp-long-or-powered.svg" alt="Winter Prestige, {POWERED}" width="1222" height="430"></div>') + s[i:]
-    s = re.sub(r'(<p class="logo-pied">.*?<small>)([^<]*?)(?:' + re.escape(PIED_WP) + r')?(</small>)', lambda m: m.group(1) + m.group(2) + PIED_WP + m.group(3), s, count=1, flags=re.S)
+    wp = PIED_WP_LANG.get(lang, PIED_WP)
+    s = re.sub(r'(<p class="logo-pied">.*?<small>)([^<]*?)(?:' + "|".join(map(re.escape, PIED_WP_LANG.values())) + r')?(</small>)', lambda m: m.group(1) + m.group(2) + wp + m.group(3), s, count=1, flags=re.S)
     s = stations(s)
     i = s.find('<!--KIT-WP:stations-->')
     if i >= 0 and lang in PAYS_ST and "kosher-zermatt/" not in s[i:s.find('<!--/KIT-WP:stations-->', i)]:

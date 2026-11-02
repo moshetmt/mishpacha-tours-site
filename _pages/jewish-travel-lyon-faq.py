@@ -39,7 +39,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Have a question that is not here?", msg="Hello, I have a question about travelling to Lyon. Dates: / Number of people:"),
   ],
-  related=[("../shabbat-in-lyon/", "Shabbat in Lyon"), ("../where-to-stay-lyon-jewish-travellers/", "Where to stay in Lyon"), ("../kosher-shabbat-meals-catering-lyon/", "Kosher catering and Shabbat meals"), ("../mikveh-lyon/", "Mikveh in Lyon"), ("../tours/jewish-lyon/", "Jewish Lyon tour, 2h30")],
+  related=[("../shabbat-in-lyon/", "Shabbat in Lyon"), ("../where-to-stay-lyon-jewish-travellers/", "Where to stay in Lyon"), ("../kosher-shabbat-meals-catering-lyon/", "Kosher catering and Shabbat meals"), ("../mikveh-lyon/", "Mikveh in Lyon"), ("../tours/jewish-lyon/", "Jewish Lyon tour, 2 hours")],
   source="Sources: rhonexpress.fr, tcl.fr, bethdin-lyon.fr, consistoiredelyon.fr, nevehchalom.fr, mikvah.org, lyon.fr, lyoncapitale.fr (1 November 2023), connexionfrance.com (9 October 2023).",
   jsonld=None, ticket=True,
   VERIF=[

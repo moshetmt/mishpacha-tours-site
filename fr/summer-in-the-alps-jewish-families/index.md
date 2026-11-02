@@ -47,7 +47,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 ## Stations d’altitude en été
 
-- **Courchevel et Megève.** Rien n’indique qu’ils fonctionnent l’été. Écrivez au rabbin Daniel Belaïch (habadalpes@yahoo.fr) avant de compter sur l’un d’eux.
+- **Courchevel et Megève.** Rien n’indique que leurs offices Chabad d’hiver ont lieu l’été : demandez-nous avant de compter sur l’un d’eux.
 - **Chamonix.** Ses voyages s’adressent aux adultes de plus de 50 ans : ils ne conviennent pas à une famille avec enfants. Les dates figurent sur son site.
 - **Évian et le lac Léman.** Genève a sa propre communauté, de l’autre côté de la frontière.
 
@@ -104,7 +104,7 @@ Chaque station a ses horaires : ils sont calculés aux coordonnées de la statio
 
    ### Faire une visite à Lyon
 
-   Notre [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/) dure 2 h 30, avec l’intérieur de la Grande Synagogue. Notre [Escale à Lyon](https://mishpachatours.com/fr/tours/stopover/) dure 3 heures, pour les familles qui prennent la route le jour même.
+   Notre [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/) dure 2 h, avec l’intérieur de la Grande Synagogue. Notre [Escale à Lyon](https://mishpachatours.com/fr/tours/stopover/) dure 3 heures, pour les familles qui prennent la route le jour même.
 3. **3**
 
    ### Ajouter Izieu
@@ -146,7 +146,7 @@ Nous n’en avons trouvé aucune à Annecy même. Le Beth Habad d’Annemasse, �
 
 Les offices Chabad de Courchevel et Megève ont-ils lieu l’été ?
 
-Écrivez au rabbin Belaïch avant de bâtir un projet autour de l’un d’eux.
+Rien ne l’indique. Demandez-nous avant de bâtir un projet autour de l’un d’eux.
 
 Peut-on observer le Shabbat en randonnée ?
 
@@ -154,7 +154,7 @@ Prévoyez un logement près d’un minyan, cuisinez avant le Shabbat et terminez
 
 Peut-on associer Lyon et les Alpes ?
 
-Oui. Atterrissez à Lyon, faites une visite de la ville de 2 h 30 ou l’Escale à Lyon de 3 heures, et ajoutez Izieu. Grenoble et Aix-les-Bains sont à 1 h 15 de Lyon en train, Chambéry à 1 h 20.
+Oui. Atterrissez à Lyon, faites une visite de la ville de 2 h ou l’Escale à Lyon de 3 heures, et ajoutez Izieu. Grenoble et Aix-les-Bains sont à 1 h 15 de Lyon en train, Chambéry à 1 h 20.
 
 ## Votre semaine casher dans les Alpes, *organisée*.
 

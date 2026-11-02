@@ -18,7 +18,7 @@ Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
 **Un devis écrit, le jour même**Votre station, vos dates, votre groupe. Un seul interlocuteur du début à la fin.
 
-En hiver, le rabbin Daniel Belaïch assure des offices Chabad à Courchevel 1850 et à Megève. Pour l’Alpe d’Huez, Les Deux Alpes, Serre Chevalier, Chamrousse et Val Thorens, nous organisons un minyan et un Sefer Torah avec le réseau Chabad des Alpes : indiquez-nous vos dates. Des opérateurs privés listent des chalets et des hôtels casher dans une douzaine de stations. Il faut donc demander avant de réserver. Lyon est l’endroit où atterrir, faire ses courses et s’arrêter quelques heures en montant. En station, notre équipe casher organise chef, repas livrés, Shabbat et minyan : [une demande, un devis](https://mishpachatours.com/fr/kosher-services-french-alps/).
+En hiver, des offices Chabad ont lieu à Courchevel 1850 et à Megève. Pour l’Alpe d’Huez, Les Deux Alpes, Serre Chevalier, Chamrousse et Val Thorens, nous organisons un minyan et un Sefer Torah avec le réseau Chabad des Alpes : indiquez-nous vos dates. Des opérateurs privés listent des chalets et des hôtels casher dans une douzaine de stations. Il faut donc demander avant de réserver. Lyon est l’endroit où atterrir, faire ses courses et s’arrêter quelques heures en montant. En station, notre équipe casher organise chef, repas livrés, Shabbat et minyan : [une demande, un devis](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
 ## Nos chalets casher *dans les Alpes*
 
@@ -160,7 +160,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 ## Où trouver un minyan *en hiver*
 
-Deux stations ont un office Chabad. Les deux sont assurés par le rabbin Daniel Belaïch (habadalpes@yahoo.fr).
+Deux stations ont un office Chabad.
 
 - **Courchevel 1850.** Offices pendant la saison d’hiver, au 389 rue des Tovets. Le rabbin écrit qu’il aide pour les besoins casher, le vin et les challot de Shabbat, et pour un Kaddish.
 - **Megève.** Offices dans la salle « Maison de la Montagne ». Écrivez avant de partir : le lieu a changé au fil des années.
@@ -171,8 +171,8 @@ Le réseau Chabad des Alpes est dirigé par le Beth Habad de Grenoble. Les repas
 
 ## Contacts *Chabad* 3
 
-- **Synagogue de l’hôtel Le Mont Charvin, rabbin Daniel Belaïch** Saison d’hiver. Vin et challot pour Shabbat sur demande389 rue des Tovets, 73120 Courchevel[Carte](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
-- **Chabad des Alpes à Megève, rabbin Daniel Belaïch** Hiver. habadalpes@yahoo.fr. Lieu : à confirmer avant de venir136 route Edmond de Rothschild, 74120 Megève[Carte](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
+- **Synagogue de l’hôtel Le Mont Charvin** Saison d’hiver. Vin et challot pour Shabbat sur demande389 rue des Tovets, 73120 Courchevel[Carte](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
+- **Chabad des Alpes à Megève** Hiver. Lieu : à confirmer avec nous avant de venir136 route Edmond de Rothschild, 74120 Megève[Carte](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
 - **Beth Habad de Grenoble, rabbin Yhia Lahiany** Dirige le réseau Chabad des Alpes : habadgrenoblealpes.com10 rue Lazare Carnot, 38000 Grenoble[Carte](https://www.google.com/maps/search/?api=1&query=10%20rue%20Lazare%20Carnot%2C%2038000%20Grenoble%2C%20France)
 
 ## Séjours de ski casher *listés par station*
@@ -292,7 +292,7 @@ Des repas casher livrés à votre hébergement en station, commandés auprès du
 
 Quelles stations de ski françaises ont un minyan casher ?
 
-Courchevel 1850 et Megève ont un office Chabad en hiver, assuré par le rabbin Daniel Belaïch. Côté Grenoble, à l’Alpe d’Huez, aux Deux Alpes, à Serre Chevalier, Chamrousse et Val Thorens, nous organisons sur demande un minyan avec le réseau Chabad des Alpes, qui réunit les familles présentes.
+Courchevel 1850 et Megève ont un office Chabad en hiver. Côté Grenoble, à l’Alpe d’Huez, aux Deux Alpes, à Serre Chevalier, Chamrousse et Val Thorens, nous organisons sur demande un minyan avec le réseau Chabad des Alpes, qui réunit les familles présentes.
 
 Peut-on se faire livrer de la nourriture casher en station ?
 

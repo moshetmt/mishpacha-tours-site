@@ -26,10 +26,6 @@ Source: https://mishpachatours.com/he/is-lyon-safe-for-jewish-visitors/ (HTML ve
 
 הרשויות הצרפתיות משאירות כוחות ביטחון גלויים סביב בתי כנסת ובתי ספר יהודיים. בבית הכנסת הגדול ובנווה שלום, הכניסה תלויה בשעות הפתיחה ובאישור הביטחוני של אותו יום: הביאו תעודה מזהה עם תמונה וצפו לבדיקת תיק בכניסה. אם הכניסה נדחית ביום עצמו, הסיור נמשך בחוץ והמחיר אינו משתנה.
 
-## העובדות
-
-מה שאנו מבטיחים הוא הסטנדרט שלמעלה, בכל סיור.
-
 ## שכל ישר *בדרכים*
 
 - שמרו את התוכניות בתוך הקבוצה שלכם. אל תפרסמו בזמן אמת את המסלול, את המלון או את בית הכנסת.
@@ -70,7 +66,7 @@ Source: https://mishpachatours.com/he/is-lyon-safe-for-jewish-visitors/ (HTML ve
 
 - [נסיעה לליון למטיילים יהודים: שאלות ותשובות בכנות](https://mishpachatours.com/he/jewish-travel-lyon-faq/)
 - [בית הכנסת הגדול של ליון](https://mishpachatours.com/he/grande-synagogue-lyon/)
-- [סיור ליון היהודית, שעתיים וחצי](https://mishpachatours.com/he/tours/jewish-lyon/)
+- [סיור ליון היהודית, שעתיים](https://mishpachatours.com/he/tours/jewish-lyon/)
 - [בתי כנסת בליון](https://mishpachatours.com/he/synagogues-lyon/)
 
 ## מוכנים *להזמין* את הסיור?

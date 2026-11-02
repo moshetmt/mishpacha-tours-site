@@ -80,7 +80,7 @@ Respuesta el mismo día, nunca en Shabat.
 
 ## Siga *leyendo*
 
-- [Lyon judío, el recorrido de 2 h 30](https://mishpachatours.com/es/tours/jewish-lyon/)
+- [Lyon judío, el recorrido de 2 h](https://mishpachatours.com/es/tours/jewish-lyon/)
 - [La guía completa del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/)
 - [Contacto](https://mishpachatours.com/es/contact/)
 

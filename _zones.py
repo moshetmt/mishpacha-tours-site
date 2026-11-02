@@ -13,17 +13,21 @@ ALPES = {"alps", "kosher-alpe-dhuez", "kosher-annecy", "kosher-chalet-les-deux-a
          "lyon-gateway-to-the-alps-kosher", "summer-in-the-alps-jewish-families", "flights-to-lyon"}
 GENERAL = {"", "plan-your-trip", "kosher-villa-saint-tropez", "kosher-van-transfers", "about", "contact", "privacy", "terms", "credits", "merci", "jewish-life-around-lyon"}
 
-BASELINE = {"alpes": "Kosher Stays in the Alps", "general": "Kosher Holidays in the Alps and Lyon", "lyon": "Jewish Tours of Lyon"}
+# Baseline du pied traduite le 02/11 ; « Jewish Tours of Lyon » reste en anglais dans toutes les langues (ligne du logo, nom commercial).
+BASELINE = {"en": {"alpes": "Kosher Stays in the Alps", "general": "Kosher Holidays in the Alps and Lyon", "lyon": "Jewish Tours of Lyon"},
+            "fr": {"alpes": "Séjours casher dans les Alpes", "general": "Séjours casher dans les Alpes et à Lyon", "lyon": "Jewish Tours of Lyon"},
+            "es": {"alpes": "Estancias kosher en los Alpes", "general": "Vacaciones kosher en los Alpes y Lyon", "lyon": "Jewish Tours of Lyon"},
+            "he": {"alpes": "חופשות כשרות באלפים", "general": "חופשות כשרות באלפים ובליון", "lyon": "Jewish Tours of Lyon"}}
 # Pages hiver (noir et or, Moshé 19/10) : la baseline nomme le partenaire, notre logo reste. La liste vit dans _kit_wp.py (HIVER).
-# _kit_wp importe _zones (menu Chalets), donc pas d'import en retour : on lit HIVER et PIED_WP dans le texte du script.
+# _kit_wp importe _zones (menu Chalets), donc pas d'import en retour : on lit HIVER et PIED_WP_LANG dans le texte du script.
 def _liste_hiver():
     src = io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "_kit_wp.py"), encoding="utf-8").read()
     ns = {}
-    for nom in ("STATIONS_SANS_CHALET", "HIVER", "PIED_WP"):
+    for nom in ("STATIONS_SANS_CHALET", "HIVER", "PIED_WP_LANG"):
         m = re.search(r"^%s = (.*?)(?=^\S)" % nom, src, flags=re.S | re.M)
         exec(nom + " = " + m.group(1).split("  #")[0].strip(), ns)
-    return set(ns["HIVER"]), ns["PIED_WP"]
-HIVER_WP, PIED_WP = _liste_hiver()
+    return set(ns["HIVER"]), ns["PIED_WP_LANG"]
+HIVER_WP, PIED_WP = _liste_hiver()   # PIED_WP : {langue: suffixe}
 BANDEAU = {  # (texte, lien)
     "alpes": {"en": ("Strictly kosher stays in the Alps, one day-by-day programme. ", "Describe your stay."),
               "fr": ("Séjours strictement casher dans les Alpes, un programme jour par jour. ", "Décrivez votre séjour."),
@@ -126,7 +130,7 @@ def traiter(path):
     expl = '\n    <details class="pied-explore"><summary>' + SECOND[lang][4] + "</summary><p>" + "<br>".join(f'<a href="{u}">{t}</a>' for t, u in [sec[0], (SECOND[lang][1], f"{pre0}/#resorts")] + sec[1:]) + "</p></details>"
     n = re.sub(r'\s*<details class="pied-stations">.*?</details>', "", n, count=1, flags=re.S)
     n = re.sub(r'(<footer class="pied">\s*<div class="cols">.*?)(\s*</div>\s*<p class="logo-pied">)', lambda m: m.group(1) + expl + "\n    " + pied_stations(lang, pre0) + m.group(2), n, count=1, flags=re.S)
-    base = BASELINE[z] + (PIED_WP if page in HIVER_WP else "")
+    base = BASELINE[lang][z] + (PIED_WP[lang] if page in HIVER_WP else "")
     n = re.sub(r'(<p class="logo-pied">.*?<small>).*?(</small>)', lambda m: m.group(1) + base + m.group(2), n, count=1, flags=re.S)
     pre = "" if lang == "en" else "/" + lang
     n = re.sub(r'href="(?:(?:\.\./)+|/(?:fr/|es/|he/)?)#(tours|guide)"', lambda m: f'href="{pre}/jewish-lyon-tours/#{m.group(1)}"', n)

@@ -80,7 +80,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 ## Pour *aller plus loin*
 
-- [Visite juive à Lyon, la visite de 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite juive à Lyon, la visite de 2 h](https://mishpachatours.com/fr/tours/jewish-lyon/)
 - [Le guide juif complet de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/)
 - [Nous contacter](https://mishpachatours.com/fr/contact/)
 

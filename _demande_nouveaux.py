@@ -58,7 +58,7 @@ NEW = {
 "A van and driver on call": ("Chauffeur et van à disposition", "Chófer y van a disposición", "ואן ונהג לרשותכם"),
 "Activities": ("Activités", "Actividades", "פעילויות"),
 "Tick what tempts you. We arrange it all on site.": ("Cochez ce qui vous tente. Nous organisons tout sur place.", "Marque lo que le apetezca. Lo organizamos todo allí.", "סמנו מה שמושך אתכם. אנחנו מארגנים הכול במקום."),
-"Jewish Lyon walk (2.5 h)": ("Balade dans le quartier juif de Lyon (2,5 h)", "Paseo por el Lyon judío (2,5 h)", "הליכה בליון היהודית (2.5 שעות)"),
+"Jewish Lyon walk (2 h)": ("Balade dans le quartier juif de Lyon (2 h)", "Paseo por el Lyon judío (2 h)", "הליכה בליון היהודית (שעתיים)"),
 "Stopover (3 h) on the way": ("Escale (3 h) en chemin", "Escala (3 h) de camino", "עצירת ביניים (3 שעות) בדרך"),
 "Memory: Montluc, Neveh Shalom": ("Mémoire : Montluc, Neveh Shalom", "Memoria: Montluc, Neveh Shalom", "זיכרון: מונטלוק, נווה שלום"),
 "Day trip to Izieu": ("Excursion à Izieu", "Excursión a Izieu", "יום טיול לאיזייה"),
@@ -263,7 +263,7 @@ NEW.update({
 "I already have my place": ("J'ai déjà mon logement", "Ya tengo mi alojamiento", "כבר יש לנו לינה"),
 "Minyan, meals, Sefer Torah": ("Minyan, repas, Sefer Torah", "Minyan, comidas, Séfer Torá", "מניין, ארוחות, ספר תורה"),
 "A full holiday programme": ("Un programme complet pour la fête", "Un programa completo para la fiesta", "תוכנית מלאה לחג"),
-"Guided, 2.5 hours": ("Visite guidée, 2 h 30", "Visita guiada, 2,5 horas", "סיור מודרך, שעתיים וחצי"),
+"Guided, 2 hours": ("Visite guidée, 2 h", "Visita guiada, 2 horas", "סיור מודרך, שעתיים"),
 "From A to B, with a driver": ("De A à B, avec chauffeur", "De A a B, con conductor", "מנקודה א׳ לנקודה ב׳, עם נהג"),
 "Tell us in your words": ("Dites-le avec vos mots", "Cuéntenos con sus palabras", "ספרו לנו במילים שלכם"),
 "Prefer to talk?": ("Vous préférez parler ?", "¿Prefiere hablar?", "מעדיפים לדבר?"),
@@ -318,7 +318,7 @@ SHORT = {
 'Calm for small children': (None, 'Calma para los pequeños', None),
 'Flights included in this budget': (None, 'Vuelos incluidos', None),
 'Ski-in ski-out or near the slopes': ('Skis aux pieds ou près des pistes', 'Acceso directo a pistas o cerca', 'צמוד למסלולים'),
-'Jewish Lyon walk (2.5 h)': ('Balade dans le quartier juif de Lyon (2,5 h)', 'Paseo por el Lyon judío (2,5 h)', 'סיור בליון (2.5 שעות)'),
+'Jewish Lyon walk (2 h)': ('Balade dans le quartier juif de Lyon (2 h)', 'Paseo por el Lyon judío (2 h)', 'סיור בליון (שעתיים)'),
 }
 for _k, _v in SHORT.items():
     _old = NEW.get(_k) or OLD.get(_k) or (None, None, None)

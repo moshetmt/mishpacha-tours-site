@@ -109,7 +109,7 @@ Source: https://mishpachatours.com/he/jewish-travel-lyon-faq/ (HTML version). Ev
 - [איפה לישון בליון](https://mishpachatours.com/he/where-to-stay-lyon-jewish-travellers/)
 - [קייטרינג כשר וארוחות שבת](https://mishpachatours.com/he/kosher-shabbat-meals-catering-lyon/)
 - [מקווה בליון](https://mishpachatours.com/he/mikveh-lyon/)
-- [סיור ליון היהודית, שעתיים וחצי](https://mishpachatours.com/he/tours/jewish-lyon/)
+- [סיור ליון היהודית, שעתיים](https://mishpachatours.com/he/tours/jewish-lyon/)
 
 ## מוכנים *להזמין* את הסיור?
 

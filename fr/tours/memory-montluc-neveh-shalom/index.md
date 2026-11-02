@@ -8,13 +8,13 @@ Mémoire
 
 # Mémoire : Montluc et Neveh Shalom *Mémorial, puis synagogue*
 
-Mémoire : Montluc et Neveh Shalom est une marche privée de 2 h 30 du mémorial de Montluc à la synagogue Neveh Shalom, guidée en anglais, en français ou en espagnol, 290 € par groupe de 1 à 4 personnes (+35 € par personne supplémentaire jusqu’à 10), annulation gratuite jusqu’à 24 heures avant. Le mémorial de la prison de Montluc, puis Neveh Shalom, la seconde synagogue où votre guide vous fait entrer, et l’Institut culturel du judaïsme voisin : la mémoire et la vie juive d’aujourd’hui dans la même visite. Cette réservation n’est jamais combinée avec la visite du CHRD le même jour.
+Mémoire : Montluc et Neveh Shalom est une marche privée de 2 h du mémorial de Montluc à la synagogue Neveh Shalom, guidée en anglais, en français ou en espagnol, 290 € par groupe de 1 à 4 personnes (+35 € par personne supplémentaire jusqu’à 10), annulation gratuite jusqu’à 24 heures avant. Le mémorial de la prison de Montluc, puis Neveh Shalom, la seconde synagogue où votre guide vous fait entrer, et l’Institut culturel du judaïsme voisin : la mémoire et la vie juive d’aujourd’hui dans la même visite. Cette réservation n’est jamais combinée avec la visite du CHRD le même jour.
 
 Lieu
 :   Lyon 3e
 
 Durée
-:   2 h 30
+:   2 h
 
 Format
 :   À pied, groupe privé
@@ -50,7 +50,7 @@ Réponse dans la journée, jamais le Shabbat. Annulation gratuite jusqu’à 24 
 
 ### Compris
 
-- Une guide privée, 2 h 30, en anglais, en français ou en espagnol.
+- Une guide privée, 2 h, en anglais, en français ou en espagnol.
 - Le parcours à pied de Montluc à Neveh Shalom et à l’Institut culturel du judaïsme.
 - L’entrée de Neveh Shalom, la seconde synagogue où nous vous faisons entrer.
 
@@ -87,7 +87,7 @@ Izieu
 
 Combien de temps dure cette visite ?
 
-2 h 30. Votre guide confirme la durée exacte une fois la taille du groupe fixée.
+2 h. Votre guide confirme la durée exacte une fois la taille du groupe fixée.
 
 Puis-je combiner cette visite avec celle du CHRD le même jour ?
 

@@ -38,7 +38,6 @@ La surveillance est rarement indiquée : renseignez-vous avant de réserver.
 - **Hôtel, restaurant ou commerce casher à Courmayeur.** Aucun trouvé. Les répertoires de restaurants de la ville et des pistes de Checrouit mentionnent des menus végétariens et sans gluten, jamais casher. Prévoyez d’apporter votre nourriture ou de vous la faire livrer.
 - **Beth 'Habad ou synagogue dans le val d’Aoste.** Aucun trouvé à Courmayeur ni à Aoste. La présence juive la plus proche se trouve dans les villes : Turin, à environ deux heures, a une communauté juive organisée, et Milan, à environ trois heures, a un centre 'Habad qui accueille des repas de Shabbat. Côté français, la présence 'Habad la plus proche que nous connaissons est à Megève : voir [casher à Megève](https://mishpachatours.com/fr/kosher-megeve/).
 - **L’autre côté du tunnel.** Chamonix est à 11,6 km par le tunnel du Mont-Blanc et n’a pas de beth 'Habad non plus. Si vous hésitez entre les deux, lisez [casher à Chamonix](https://mishpachatours.com/fr/kosher-chamonix/). Les services que nous organisons sont les mêmes des deux côtés.
-- **Saison.** Vérifiez avant de prendre un forfait.
 
 ## L’hiver et l’été *dans la vallée*
 

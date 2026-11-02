@@ -61,8 +61,8 @@ Toque un marcador para ver la dirección y cómo llegar.
 
 Nuestra visita Escala está pensada para las familias que van hacia las pistas: tres horas en el Lyon judío entre el aeropuerto y la estación.
 
-- **Courchevel 1850** Synagogue at Hôtel Le Mont Charvin389 rue des Tovets, 73120 Courchevel[Mapa](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)*Solo en temporada de invierno. Rabino Daniel Belaïch. Ayuda con las necesidades kosher, vino y jalot para Shabat.*
-- **Megève** Chabad of the Alps, minyan de invierno136 route Edmond de Rothschild, 74120 Megève[Mapa](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)*Temporada de invierno. Contacte con habadalpes@yahoo.fr antes de ir: el lugar ha cambiado con los años.*
+- **Courchevel 1850** Synagogue at Hôtel Le Mont Charvin389 rue des Tovets, 73120 Courchevel[Mapa](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)*Solo en temporada de invierno.*
+- **Megève** Chabad of the Alps, minyan de invierno136 route Edmond de Rothschild, 74120 Megève[Mapa](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)*Temporada de invierno. El lugar ha cambiado con los años: pregúntenos antes de ir.*
 - **Val Thorens, Les Menuires, Les Arcs** *Operadores privados organizan chalets kosher y un minyan cuando el número de participantes lo permite. Pregunte directamente a los operadores y pregúntenos a nosotros.*
 
 ## ¿Va a los Alpes pasando por Lyon?
