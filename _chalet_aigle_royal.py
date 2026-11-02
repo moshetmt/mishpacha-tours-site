@@ -285,6 +285,8 @@ def page(lang):
     main = wa_liens(main, lang)
     main = remplace_noms(main, lang)
     main = main.replace("lieu=Val%20Thorens", "lieu=" + t.get("lieu_q", "Les%20M%C3%A9nuires"))
+    # 02/11 : champ caché « lieu » du formulaire, en latin, que remplace_noms ne touchait pas en hébreu (leads HE notés « Val Thorens »)
+    main = main.replace('name="lieu" value="Val Thorens"', f'name="lieu" value="{t.get("svc", "Les Ménuires")}"')
 
     # « À lire aussi » : le chalet de Val Thorens (même domaine) à la place de Courchevel
     voisin = t.get("voisin", MODELE)   # chalet voisin proposé dans « À lire aussi » (Aigle Royal : Belle Étoile ; Courchevel : Flocon Doré)
