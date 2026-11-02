@@ -128,7 +128,7 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Siga *leyendo*
 
-- [Our kosher chalets](https://mishpachatours.com/es/kosher-chalets/)
+- [Nuestros chalets kosher](https://mishpachatours.com/es/kosher-chalets/)
 - [Kosher en Val Thorens](https://mishpachatours.com/es/kosher-val-thorens/)
 - [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
 - [Servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/)

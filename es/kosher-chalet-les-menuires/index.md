@@ -1,12 +1,12 @@
-> Chalet Aigle Royal en Les Ménuires, 3 Valles: chalet kosher privado para 15 personas, 7 habitaciones con baño, jacuzzi exterior y sauna. Chef, Shabat, minyán.
+> Chalet Aigle Royal en Les Ménuires, 3 Valles: chalet kosher privado de lujo para 15 personas, siete suites, spa con jacuzzi y sauna, chef privado.
 
 Source: https://mishpachatours.com/es/kosher-chalet-les-menuires/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Inicio](https://mishpachatours.com/es/) / [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/) / Chalet Aigle Royal, Les Ménuires
 
-# Chalet Aigle Royal, Les Ménuires *7 habitaciones, jacuzzi y sauna*
+# Chalet Aigle Royal, Les Ménuires *siete suites, spa, 3 Valles*
 
-Un gran chalet de madera en una aldea tranquila de Les Ménuires, en los 3 Valles.
+Un chalet privado en el corazón de los 3 Valles, con su spa y sus siete suites.
 
 [Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Les%20M%C3%A9nuires.%20Dates%3A%20/%20Number%20of%20guests%3A)
 
@@ -18,19 +18,19 @@ Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
 **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 
-Un telesilla a 230 metros le sube a las pistas en 7 minutos; una pista azul le devuelve al chalet. Siete habitaciones, cada una con su baño, hasta 15 personas. Jacuzzi exterior, sauna, balcón orientado al sur. Chef o comidas a domicilio, Shabat y minyán.
+Siete suites, un spa con jacuzzi exterior y sauna, un salón orientado al sur para toda la familia. Las pistas de los 3 Valles están a siete minutos en telesilla, y una pista azul le devuelve a la puerta. Chef privado, Shabat y minyán, organizados para usted.
 
 ## El chalé, *en resumen*
 
-- **Ubicación.** En una aldea tranquila justo debajo de Les Ménuires, en los 3 Valles y sus 600 km de pistas. Un telesilla de cuatro plazas, a 230 metros de la puerta, sube a la estación en 7 minutos; por la tarde, una pista azul le devuelve al chalet.
-- **La planta principal.** En el primer piso, un salón de 50 m² con cocina abierta, una mesa para todo el grupo y un balcón orientado al sur. Dos habitaciones en la misma planta.
-- **Siete habitaciones,** cada una con su baño y aseo. Dos en la planta baja, dos en el primer piso y tres bajo el tejado: una doble, una con dos camas y una con tres camas. Dos cunas.
-- **Jacuzzi y sauna.** Un jacuzzi exterior, una sauna con su ducha y una sala de juegos y televisión de 20 m² para los niños.
-- **Guardaesquís.** Un gran guardaesquís con secadores de botas, y un lavadero.
-- **Comodidades.** Construido en 2006 y renovado en 2022. Camas hechas a la llegada, limpieza final incluida. Dos plazas de aparcamiento delante de la puerta y aparcamiento público gratuito a 50 metros.
+- **El entorno.** Una aldea tranquila justo debajo de Les Ménuires, en el corazón de los 3 Valles y sus 600 km de pistas. El telesilla, a 230 metros de la puerta, le sube en siete minutos; por la tarde, vuelve esquiando al chalet.
+- **La planta principal.** Un salón de 50 m² abierto a la cocina y a un balcón orientado al sur, con una sola mesa para todo el grupo.
+- **Siete suites,** cada una con su baño, en tres plantas: intimidad para cada familia, hasta 15 personas.
+- **El spa.** Un jacuzzi exterior bajo la nieve, una sauna con su ducha y una sala de juegos y cine para los niños.
+- **Guardaesquís.** Un amplio guardaesquís con secadores de botas, junto a la puerta.
+- **El servicio.** Totalmente renovado. Ropa de cama, camas hechas a la llegada y limpieza de salida, incluidas.
 - **Cocina.** Kosherizada por nuestro equipo antes de su llegada, incluida. Un chef cocina en el chalet, o las comidas kosher llegan listas para calentar.
 
-El chalet recibe hasta 15 personas. Las estancias van de domingo a domingo. La disponibilidad se confirma para sus fechas con cada solicitud.
+El chalet recibe hasta 15 personas, de domingo a domingo. La disponibilidad se confirma para sus fechas con cada solicitud.
 
 ## El chalé *en imágenes*
 
@@ -68,7 +68,7 @@ Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado
 - **Traslados.** Vans con sillas infantiles de Ginebra o de Lyon al chalé y vuelta, con presupuesto.
 - **¿Aterriza en Lyon con unas horas libres?** [La Escala](https://mishpachatours.com/es/tours/stopover/): una visita privada de 3 horas por el Lyon judío, entre el avión y la carretera.
 
-Un telesilla a 230 metros le sube a las pistas en 7 minutos; una pista azul le devuelve al chalet. Siete habitaciones, cada una con su baño, hasta 15 personas. Jacuzzi exterior, sauna, balcón orientado al sur. Chef o comidas a domicilio, Shabat y minyán.
+Siete suites, un spa con jacuzzi exterior y sauna, un salón orientado al sur para toda la familia. Las pistas de los 3 Valles están a siete minutos en telesilla, y una pista azul le devuelve a la puerta. Chef privado, Shabat y minyán, organizados para usted.
 
 Shabat  
 en Les Ménuires
@@ -97,17 +97,17 @@ Comidas kosher entregadas en su alojamiento en la estación, encargadas al Beth 
 
 Precio a consultar el chalé. El precio final depende de sus fechas, del número de personas y de los servicios que elija: recibe un presupuesto por escrito antes de comprometerse. La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
 
-¿Cuántas personas pueden alojarse?
+¿Cuántas personas?
 
-Hasta 15 personas en siete habitaciones, cada una con su baño y aseo: dos o tres familias juntas, o una gran familia con los abuelos. Dos cunas.
+Hasta 15 personas en siete suites con baño: dos o tres familias juntas, o una familia de varias generaciones.
 
 ¿Cómo se llega a las pistas?
 
-Un telesilla de cuatro plazas, a 230 metros del chalet, sube a Les Ménuires en 7 minutos. Al final del día, una pista azul le devuelve al chalet.
+El telesilla, a 230 metros del chalet, sube a Les Ménuires en siete minutos. Al final del día, una pista azul le devuelve a la puerta.
 
-¿Hay jacuzzi y sauna?
+¿Hay spa?
 
-Sí: un jacuzzi exterior, una sauna con su ducha y una sala de juegos y televisión.
+Sí: un jacuzzi exterior, una sauna con su ducha y una sala de juegos y cine.
 
 ¿Quién cocina las comidas?
 
@@ -119,7 +119,7 @@ Llevamos los bochurim y un Sefer Torá al chalé para Shabat, a petición. Indí
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscina climatizada](https://mishpachatours.com/es/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · baño nórdico](https://mishpachatours.com/es/kosher-chalet-courchevel-renard-argente/)
 
 [Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
@@ -129,7 +129,7 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Siga *leyendo*
 
-- [Our kosher chalets](https://mishpachatours.com/es/kosher-chalets/)
+- [Nuestros chalets kosher](https://mishpachatours.com/es/kosher-chalets/)
 - [Kosher en Val Thorens](https://mishpachatours.com/es/kosher-val-thorens/)
 - [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 - [Servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/)
