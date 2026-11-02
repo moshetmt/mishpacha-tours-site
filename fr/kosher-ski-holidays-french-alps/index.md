@@ -73,6 +73,40 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aurore Boréale, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**suites + salon TV
+- **6 à 8**personnes
+- **Piscine chauffée**hammam, bain à remous
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Renard Argenté, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
+
+- **2**suites
+- **2 à 6**personnes
+- **Bain nordique**chauffé à 40 °C
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ### [Chalet Loup Blanc, près de Megève](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 
 - **10 + 2**chambres twin + chambres sous le toit
@@ -106,6 +140,23 @@ Val Thorens · avec Winter Prestige
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Aigle Royal, Les Ménuires](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)
+
+- **7**suites
+- **Jusqu'à 15**personnes
+- **Spa**jacuzzi et sauna
+- **7 min**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Les Ménuires · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
 
 ## Où trouver un minyan *en hiver*
 
@@ -147,7 +198,7 @@ L’allumage des bougies dans les Alpes ne tombe pas à l’heure de Lyon, et il
 - **Cuisinez avant le début de Shabbat.** Préparez le repas du vendredi soir le jeudi ou le vendredi matin, et montez la nourriture avec vous.
 - **Repérez votre minyan le plus proche.** Notez-le avant de quitter Lyon : les réseaux mobiles décrochent dans les vallées.
 
-Pour les questions halakhiques, demandez à votre propre rabbin. Nous ne donnons que des repères pratiques. Voir aussi [Shabbat à Lyon](https://mishpachatours.com/shabbat-in-lyon/).
+Pour les questions halakhiques, demandez à votre propre rabbin. Nous ne donnons que des repères pratiques. Voir aussi [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/).
 
 Cette semaine
 
@@ -191,7 +242,7 @@ Des chefs privés annoncent une cuisine « glatt casher » à Megève, Chamonix 
 
    ### Atterrissez à Lyon
 
-   Lyon-Saint-Exupéry se trouve à deux ou trois heures de la plupart des stations de Savoie. Les temps de trajet vers 13 stations figurent sur notre [page consacrée à Lyon, porte des Alpes](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
+   Lyon-Saint-Exupéry se trouve à deux ou trois heures de la plupart des stations de Savoie. Les temps de trajet vers 13 stations figurent sur notre [page consacrée à Lyon, porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
 2. **2**
 
    ### Faites vos courses casher
@@ -201,7 +252,7 @@ Des chefs privés annoncent une cuisine « glatt casher » à Megève, Chamonix 
 
    ### Choisissez notre Escale à Lyon de 3 heures
 
-   Votre propre transport vous attend pendant que nous vous guidons dans le Vieux Lyon et à l’intérieur de la Grande Synagogue. 390 € par groupe de 1 à 5 personnes. Voir la [visite Escale à Lyon](https://mishpachatours.com/tours/stopover/).
+   Votre propre transport vous attend pendant que nous vous guidons dans le Vieux Lyon et à l’intérieur de la Grande Synagogue. 390 € par groupe de 1 à 5 personnes. Voir la [visite Escale à Lyon](https://mishpachatours.com/fr/tours/stopover/).
 4. **4**
 
    ### Montez en station
@@ -219,7 +270,7 @@ Nous ne pouvons pas promettre un risque nul. Nos conseils sont simples.
 - Ne vous déplacez pas seul la nuit.
 - Dites-nous si vous avez des inquiétudes : nous nous adaptons. Une escorte professionnelle est disponible sur demande lors de nos visites, facturée à part et sur devis.
 
-Plus dans notre [FAQ franche](https://mishpachatours.com/jewish-travel-lyon-faq/).
+Plus dans notre [FAQ franche](https://mishpachatours.com/fr/jewish-travel-lyon-faq/).
 
 ## Les stations *sur la carte*
 

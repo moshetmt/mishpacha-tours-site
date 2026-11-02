@@ -50,7 +50,7 @@ Source: https://mishpachatours.com/he/kosher-les-menuires/ (HTML version). Every
 
 כשר לחלוטין. הצוות שלנו מבשל תחת רשת חב״ד באלפים; פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
 
-אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## כשר *בלה מנואר*
 
@@ -156,9 +156,9 @@ Source: https://mishpachatours.com/he/kosher-les-menuires/ (HTML version). Every
 
 ## אתרי סקי *סמוכים*
 
-- [כשר בוואל טורנס](https://mishpachatours.com/kosher-val-thorens/)
-- [כשר בקורשבל](https://mishpachatours.com/kosher-courchevel/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [כשר בוואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/)
+- [כשר בקורשבל](https://mishpachatours.com/he/kosher-courchevel/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

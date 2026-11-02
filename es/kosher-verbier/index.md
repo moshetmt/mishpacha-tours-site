@@ -127,7 +127,7 @@ Nuestro equipo kosher con base en los Alpes cocina bajo la red Jabad de los Alpe
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 habitaciones con baño · jacuzzi y sauna](https://mishpachatours.com/es/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscina climatizada](https://mishpachatours.com/es/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · baño nórdico](https://mishpachatours.com/es/kosher-chalet-courchevel-renard-argente/)
 
 [Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
@@ -137,10 +137,10 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Estaciones *cercanas*
 
-- [Crans-Montana kosher](https://mishpachatours.com/kosher-crans-montana/)
-- [Zermatt kosher](https://mishpachatours.com/kosher-zermatt/)
-- [Gstaad kosher](https://mishpachatours.com/kosher-gstaad/)
-- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
+- [Crans-Montana kosher](https://mishpachatours.com/es/kosher-crans-montana/)
+- [Zermatt kosher](https://mishpachatours.com/es/kosher-zermatt/)
+- [Gstaad kosher](https://mishpachatours.com/es/kosher-gstaad/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/es/alps/)
 
 ## Siga *leyendo*
 

@@ -81,7 +81,7 @@ Mishpacha פירושו משפחה. אנו מובילים מטיילים יהוד
 ## להמשך *קריאה*
 
 - [ליון היהודית, סיור הליכה של שעתיים וחצי](https://mishpachatours.com/he/tours/jewish-lyon/)
-- [המדריך המלא לליון היהודית](https://mishpachatours.com/jewish-lyon-guide/)
+- [המדריך המלא לליון היהודית](https://mishpachatours.com/he/jewish-lyon-guide/)
 - [יצירת קשר](https://mishpachatours.com/he/contact/)
 
 ## מוכנים *להזמין* את הסיור?

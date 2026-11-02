@@ -100,22 +100,22 @@ Cada estación tiene sus propios horarios: se calculan para sus coordenadas, una
 
    ### Aterrizar y comprar en Lyon
 
-   Compre carne, pan y lácteos en Hypercacher, Lilly Market o en las carnicerías. Vea [Lyon, puerta de los Alpes](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
+   Compre carne, pan y lácteos en Hypercacher, Lilly Market o en las carnicerías. Vea [Lyon, puerta de los Alpes](https://mishpachatours.com/es/lyon-gateway-to-the-alps-kosher/).
 2. **2**
 
    ### Haga una visita por Lyon
 
-   La [visita Lyon judío](https://mishpachatours.com/tours/jewish-lyon/) dura 2 h 30, con el interior de la Gran Sinagoga. La [Escala](https://mishpachatours.com/tours/stopover/) dura 3 horas, para las familias que conducen el mismo día.
+   La [visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/) dura 2 h 30, con el interior de la Gran Sinagoga. La [Escala](https://mishpachatours.com/es/tours/stopover/) dura 3 horas, para las familias que conducen el mismo día.
 3. **3**
 
    ### Añada Izieu
 
-   La [Maison d'Izieu](https://mishpachatours.com/tours/izieu/) : excursión de un día desde Lyon. Izieu está en el Ain, al este de Lyon, en dirección a Saboya. Precio desde 990 €, bajo presupuesto.
+   La [Maison d'Izieu](https://mishpachatours.com/es/tours/izieu/) : excursión de un día desde Lyon. Izieu está en el Ain, al este de Lyon, en dirección a Saboya. Precio desde 990 €, bajo presupuesto.
 4. **4**
 
    ### Suba y vuelva
 
-   Lyon sirve de base para excursiones de un día en tren a Grenoble, Aix-les-Bains y Chambéry. Pase el Shabat en Lyon: vea [Shabat en Lyon](https://mishpachatours.com/shabbat-in-lyon/).
+   Lyon sirve de base para excursiones de un día en tren a Grenoble, Aix-les-Bains y Chambéry. Pase el Shabat en Lyon: vea [Shabat en Lyon](https://mishpachatours.com/es/shabbat-in-lyon/).
 
 [Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20viajamos%20a%20los%20Alpes%20este%20verano%20pasando%20por%20Lyon%20y%20quisi%C3%A9ramos%20una%20visita.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%3A)[Pedir presupuesto](#book)
 

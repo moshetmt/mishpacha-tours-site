@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-chalets/ (HTML version). Every page of
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Our kosher chalets
 
-# Our kosher chalets *in Les Deux Alpes, Courchevel, Megève and Val Thorens*
+# Our kosher chalets *in Les Deux Alpes, Courchevel, Megève, Val Thorens and Les Ménuires*
 
 Our chalets, everything kosher taken care of: Les Deux Alpes, Courchevel and near Megève.
 

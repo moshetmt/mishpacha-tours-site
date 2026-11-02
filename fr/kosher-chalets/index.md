@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-chalets/ (HTML version). Every page
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Nos chalets casher
 
-# Nos chalets casher *Deux Alpes, Courchevel, Megève, Val Thorens*
+# Nos chalets casher *Deux Alpes, Courchevel, Megève, Val Thorens, Ménuires*
 
 Nos chalets, tout le casher pris en charge : aux Deux Alpes, à Courchevel et près de Megève.
 
@@ -165,7 +165,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Vous avez déjà un logement ? [Les services casher dans votre station](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
-Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Comment *ça marche*
 

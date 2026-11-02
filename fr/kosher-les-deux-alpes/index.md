@@ -73,7 +73,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Strictement casher. Cacherout sous la surveillance du Beth Habad Grenoble-Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
 
-Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Casher *aux Deux Alpes*
 
@@ -172,10 +172,10 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Stations *voisines*
 
-- [Alpe d’Huez casher](https://mishpachatours.com/kosher-alpe-dhuez/)
-- [Grenoble casher](https://mishpachatours.com/kosher-grenoble/)
-- [Val Thorens casher](https://mishpachatours.com/kosher-val-thorens/)
-- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
+- [Alpe d’Huez casher](https://mishpachatours.com/fr/kosher-alpe-dhuez/)
+- [Grenoble casher](https://mishpachatours.com/fr/kosher-grenoble/)
+- [Val Thorens casher](https://mishpachatours.com/fr/kosher-val-thorens/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/fr/alps/)
 
 ## Pour *aller plus loin*
 

@@ -17,7 +17,7 @@ El Centre d'histoire de la résistance et de la déportation está en la antigua
 
 ## Lo que *verá*
 
-El edificio forma parte de la historia. Albergaba la École du service de santé militaire y, durante la Ocupación, se convirtió en la sede de la Gestapo en Lyon, bajo Klaus Barbie. El museo está instalado allí desde los años noventa. El CHRD es uno de los dos lugares de [la visita Memoria, Montluc y el CHRD](https://mishpachatours.com/jewish-lyon-tours/).
+El edificio forma parte de la historia. Albergaba la École du service de santé militaire y, durante la Ocupación, se convirtió en la sede de la Gestapo en Lyon, bajo Klaus Barbie. El museo está instalado allí desde los años noventa. El CHRD es uno de los dos lugares de [la visita Memoria, Montluc y el CHRD](https://mishpachatours.com/es/jewish-lyon-tours/).
 
 La exposición permanente sigue los seis años de guerra en Lyon a través de objetos, fotografías, archivos y testimonios grabados. Abarca la vida cotidiana bajo la Ocupación, las políticas antisemitas, la Resistencia y la represión. Incluye también reconstrucciones, entre ellas el apartamento de un resistente con su imprenta clandestina.
 
@@ -26,8 +26,8 @@ La exposición permanente sigue los seis años de guerra en Lyon a través de ob
 La historia judía recorre toda la visita. Estos son los hilos que sigue su guía.
 
 - **Persecución y deportación.** La exposición muestra las políticas antisemitas de los años de la Ocupación y la deportación que siguió.
-- **Izieu.** El museo presenta testimonios del juicio de Barbie de 1987, entre ellos el relato de quien dirigía la casa de niños de Izieu. Nuestra página sobre la [Maison d'Izieu](https://mishpachatours.com/maison-izieu/) cuenta esa historia.
-- **Rue Sainte-Catherine.** El 9 de febrero de 1943, los hombres de Barbie detuvieron a 86 personas en la oficina de la UGIF, 12 rue Sainte-Catherine, en el 1.er distrito. Su guía vincula esta redada con el relato del museo sobre la Gestapo en Lyon. La calle figura también en nuestra [visita Lyon judío](https://mishpachatours.com/tours/jewish-lyon/).
+- **Izieu.** El museo presenta testimonios del juicio de Barbie de 1987, entre ellos el relato de quien dirigía la casa de niños de Izieu. Nuestra página sobre la [Maison d'Izieu](https://mishpachatours.com/es/maison-izieu/) cuenta esa historia.
+- **Rue Sainte-Catherine.** El 9 de febrero de 1943, los hombres de Barbie detuvieron a 86 personas en la oficina de la UGIF, 12 rue Sainte-Catherine, en el 1.er distrito. Su guía vincula esta redada con el relato del museo sobre la Gestapo en Lyon. La calle figura también en nuestra [visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/).
 - **Testigos.** La exposición se nutre de testimonios y de objetos donados por antiguos resistentes y deportados.
 
 ## Horarios, precios y *acceso* 1
@@ -49,7 +49,7 @@ La historia judía recorre toda la visita. Estos son los hilos que sigue su guí
 
    ### Reserve una guía privada
 
-   El museo vende visitas guiadas y las visitas de grupo requieren reserva. Nuestra visita privada sigue la historia judía de Lyon a través de la exposición y responde a sus preguntas en el lugar. Vea la [visita Memoria: el CHRD](https://mishpachatours.com/tours/memory-chrd/).
+   El museo vende visitas guiadas y las visitas de grupo requieren reserva. Nuestra visita privada sigue la historia judía de Lyon a través de la exposición y responde a sus preguntas en el lugar. Vea la [visita Memoria: el CHRD](https://mishpachatours.com/es/tours/memory-chrd/).
 3. **3**
 
    ### Calcule su tiempo
@@ -59,7 +59,7 @@ La historia judía recorre toda la visita. Estos son los hilos que sigue su guí
 
    ### Resérvelo para un día propio
 
-   Nunca combinamos el CHRD y el [memorial de Montluc](https://mishpachatours.com/montluc-prison-lyon/) el mismo día. Cada uno tiene historia suficiente para una visita completa.
+   Nunca combinamos el CHRD y el [memorial de Montluc](https://mishpachatours.com/es/montluc-prison-lyon/) el mismo día. Cada uno tiene historia suficiente para una visita completa.
 
 [Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Memoria%3A%20el%20CHRD.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%20preferido%3A)[Pedir presupuesto](#book)
 

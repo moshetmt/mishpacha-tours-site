@@ -2,6 +2,10 @@
 
 Source: https://mishpachatours.com/he/jewish-lyon-tours/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
+# הסיור היחיד שמכניס אתכם לבית הכנסת הגדול של ליון. *פרטי, שומר כשרות, בהתאמה אישית לכם.*
+
+בית הכנסת הגדול (Grande Synagogue) ברציף טילסיט (quai Tilsitt) סגור למבקרים מחוץ לימי המורשת האירופיים. אצלנו נכנסים פנימה, עם מדריכה יהודייה, שומרת מצוות וחלק מהקהילה היהודית של ליון.
+
 ## ליון, הכל מסודר *בהודעה אחת*
 
 בקשה אחת, ואנחנו מסדרים הכל, מהשולחן ועד ההסעה.
@@ -35,10 +39,6 @@ Source: https://mishpachatours.com/he/jewish-lyon-tours/ (HTML version). Every p
 נוכחות שקטה לצד הקבוצה שלכם, רק כשמבקשים.
 
 [לפרטים](https://mishpachatours.com/he/is-lyon-safe-for-jewish-visitors/)[הזמינו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%9C%D7%99%D7%95%D7%95%D7%99%20%D7%A4%D7%A8%D7%98%D7%99%20%D7%95%D7%93%D7%99%D7%A1%D7%A7%D7%A8%D7%98%D7%99%20%D7%91%D7%9C%D7%99%D7%95%D7%9F.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99%D7%9D%3A)
-
-# הסיור היחיד שמכניס אתכם לבית הכנסת הגדול של ליון. *פרטי, שומר כשרות, בהתאמה אישית לכם.*
-
-בית הכנסת הגדול (Grande Synagogue) ברציף טילסיט (quai Tilsitt) סגור למבקרים מחוץ לימי המורשת האירופיים. אצלנו נכנסים פנימה, עם מדריכה יהודייה, שומרת מצוות וחלק מהקהילה היהודית של ליון.
 
 - **הסיור היחיד שנכנס**לבית הכנסת הגדול של ליון
 - **מדריכה מוסמכת (guide-conférencier)**רישיון ממשלתי צרפתי
@@ -206,23 +206,23 @@ Source: https://mishpachatours.com/he/jewish-lyon-tours/ (HTML version). Every p
 
 ## לפני ש*מגיעים*
 
-[המדריך המלא](https://mishpachatours.com/jewish-lyon-guide/)
+[המדריך המלא](https://mishpachatours.com/he/jewish-lyon-guide/)
 
 [### כשרות בליון
 
-31 מקומות בעלי תעודת כשרות, על המפה](https://mishpachatours.com/kosher-restaurants-lyon/)
+31 מקומות בעלי תעודת כשרות, על המפה](https://mishpachatours.com/he/kosher-restaurants-lyon/)
 [### בתי כנסת ושבת
 
-זמני תפילה והדלקת נרות השבוע](https://mishpachatours.com/synagogues-lyon/)
+זמני תפילה והדלקת נרות השבוע](https://mishpachatours.com/he/synagogues-lyon/)
 [### בתי חב״ד
 
-שמונה מרכזים, שולחן שבת לפי בקשה](https://mishpachatours.com/chabad-lyon/)
+שמונה מרכזים, שולחן שבת לפי בקשה](https://mishpachatours.com/he/chabad-lyon/)
 [### בית הקברות היהודי
 
-לה מוש, מאז 1795](https://mishpachatours.com/jewish-cemetery-lyon/)
+לה מוש, מאז 1795](https://mishpachatours.com/he/jewish-cemetery-lyon/)
 [### סביב ליון והאלפים
 
-תשע ערים, שלושה אתרי סקי](https://mishpachatours.com/jewish-life-around-lyon/)
+תשע ערים, שלושה אתרי סקי](https://mishpachatours.com/he/jewish-life-around-lyon/)
 [### בתוך בית הכנסת הגדול
 
 הסיור היחיד שמכניס אתכם פנימה, באישור מיוחד](https://mishpachatours.com/he/tours/jewish-lyon/)

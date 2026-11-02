@@ -50,7 +50,7 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 
 כשר לחלוטין. הצוות הכשר שלנו שבסיסו באלפים מבשל תחת רשת חב״ד באלפים; פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר. פירוט כל שירות: [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/).
 
-אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## כשר *במג'ב*
 
@@ -147,10 +147,10 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 
 ## אתרי סקי *סמוכים*
 
-- [כשר בשמוני](https://mishpachatours.com/kosher-chamonix/)
-- [כשר באנסי](https://mishpachatours.com/kosher-annecy/)
-- [כשר בקורמאיור (איטליה)](https://mishpachatours.com/kosher-courmayeur/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [כשר בשמוני](https://mishpachatours.com/he/kosher-chamonix/)
+- [כשר באנסי](https://mishpachatours.com/he/kosher-annecy/)
+- [כשר בקורמאיור (איטליה)](https://mishpachatours.com/he/kosher-courmayeur/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

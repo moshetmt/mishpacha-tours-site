@@ -19,7 +19,7 @@ L’aéroport de Lyon-Saint-Exupéry se trouve à 2 h 10 de Courchevel et 2 h
 - **L’aéroport.** Lyon-Saint-Exupéry se trouve à l’est de la ville, avec le réseau autoroutier vers la Savoie et la Haute-Savoie à courte distance. Altibus et Ben’s Bus y assurent tous deux des navettes ski (voir ci-dessous).
 - **La gare.** Lyon Part-Dieu est la principale gare de la ville. Si vous venez en train, Part-Dieu est le point où faire vos courses, vous reposer ou visiter avant l’étape suivante.
 - **L’autoroute.** L’A43 quitte Lyon en direction de Chambéry et des vallées de Savoie. Les stations de la Tarentaise (Courchevel, Méribel, Val Thorens, Les Arcs, La Plagne, Tignes, Val d’Isère) et la Maurienne se trouvent au-delà.
-- **La communauté.** Lyon compte des épiceries, boucheries et boulangeries casher certifiées, un Beth Din et une Grande Synagogue. Voir [casher à Lyon](https://mishpachatours.com/kosher-restaurants-lyon/) et [synagogues](https://mishpachatours.com/synagogues-lyon/).
+- **La communauté.** Lyon compte des épiceries, boucheries et boulangeries casher certifiées, un Beth Din et une Grande Synagogue. Voir [casher à Lyon](https://mishpachatours.com/fr/kosher-restaurants-lyon/) et [synagogues](https://mishpachatours.com/fr/synagogues-lyon/).
 
 ## Temps de trajet depuis l’aéroport *vers chaque station*
 
@@ -46,7 +46,7 @@ Nous ne vendons pas de transport.
 - **Ben’s Bus.** Listé sur le site de l’aéroport pour Val d’Isère, Tignes, Les 2 Alpes, Courchevel, Méribel, La Plagne et d’autres. Prise en charge à la gare routière, Terminal 1.
 - **Vans privés et taxis.** Nous ne citons aucune société de taxi : demandez un devis, et un siège enfant si vous en avez besoin.
 
-Une navette partagée qui roule le samedi ne convient pas à une famille qui garde Shabbat. Si vous atterrissez un vendredi, laissez une large marge avant l’allumage des bougies, ou réservez une nuit à Lyon (voir [Shabbat à Lyon](https://mishpachatours.com/shabbat-in-lyon/)).
+Une navette partagée qui roule le samedi ne convient pas à une famille qui garde Shabbat. Si vous atterrissez un vendredi, laissez une large marge avant l’allumage des bougies, ou réservez une nuit à Lyon (voir [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/)).
 
 ## Courses casher avant *la montée* 5
 
@@ -62,7 +62,7 @@ Apportez de Lyon ce dont vous avez besoin.
 
 - **Faites vos courses à Villeurbanne ou dans les 3e et 6e arrondissements.** Les commerces ci-dessus sont en ville, pas à l’aéroport. Réservez votre chauffeur pour cette tournée.
 - **Apportez un sac isotherme et des blocs réfrigérants.** Viande, poisson et produits laitiers voyagent deux à trois heures.
-- **Demandez le vin et les challot au rabbin Chabad.** Voir [vacances au ski casher](https://mishpachatours.com/kosher-ski-holidays-french-alps/).
+- **Demandez le vin et les challot au rabbin Chabad.** Voir [vacances au ski casher](https://mishpachatours.com/fr/kosher-ski-holidays-french-alps/).
 
 ## L’arrivée type *d’une semaine de ski*
 
@@ -91,11 +91,11 @@ Apportez de Lyon ce dont vous avez besoin.
 
 ## L’Escale à Lyon : *le patrimoine juif de Lyon entre l’avion et les pistes*
 
-Trois heures de guidage privé dans le Vieux Lyon et à l’intérieur de la Grande Synagogue, fermée aux visiteurs en dehors des Journées du patrimoine. Prix : 390 € par groupe de 1 à 5 personnes, plus 35 € par personne de la sixième à la dixième. La prise en charge à l’aéroport est possible sur demande, en supplément payant sur devis, et jamais incluse. Voir la [visite Escale à Lyon](https://mishpachatours.com/tours/stopover/).
+Trois heures de guidage privé dans le Vieux Lyon et à l’intérieur de la Grande Synagogue, fermée aux visiteurs en dehors des Journées du patrimoine. Prix : 390 € par groupe de 1 à 5 personnes, plus 35 € par personne de la sixième à la dixième. La prise en charge à l’aéroport est possible sur demande, en supplément payant sur devis, et jamais incluse. Voir la [visite Escale à Lyon](https://mishpachatours.com/fr/tours/stopover/).
 
 ## Shabbat à Lyon, *avant ou après la montagne*
 
-Une famille qui arrive un jeudi ou un vendredi peut passer Shabbat à Lyon et monter le dimanche. Une famille qui redescend le jeudi peut dormir à Lyon avant un vol du vendredi matin. Nous guidons du dimanche au vendredi matin, jamais le Shabbat ni les jours de fête juive. Voir [Shabbat à Lyon](https://mishpachatours.com/shabbat-in-lyon/) et [où dormir](https://mishpachatours.com/where-to-stay-lyon-jewish-travellers/).
+Une famille qui arrive un jeudi ou un vendredi peut passer Shabbat à Lyon et monter le dimanche. Une famille qui redescend le jeudi peut dormir à Lyon avant un vol du vendredi matin. Nous guidons du dimanche au vendredi matin, jamais le Shabbat ni les jours de fête juive. Voir [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/) et [où dormir](https://mishpachatours.com/fr/where-to-stay-lyon-jewish-travellers/).
 
 ## Votre étape lyonnaise *sur la carte*
 

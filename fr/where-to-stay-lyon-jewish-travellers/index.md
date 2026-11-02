@@ -42,11 +42,11 @@ Nous ne disons pas ce que fait tel ou tel hôtel. Posez ces questions à l’hô
 
 ## Hôtels *casher*
 
-Lyon n’a, à notre connaissance, aucun hôtel casher. Si vous en connaissez un, dites-le-nous et nous l’ajoutons. À défaut, prévoyez vos repas de Shabbat avant d’arriver : voir [traiteurs casher et repas de Shabbat à Lyon](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/).
+Lyon n’a, à notre connaissance, aucun hôtel casher. Si vous en connaissez un, dites-le-nous et nous l’ajoutons. À défaut, prévoyez vos repas de Shabbat avant d’arriver : voir [traiteurs casher et repas de Shabbat à Lyon](https://mishpachatours.com/fr/kosher-shabbat-meals-catering-lyon/).
 
 ## Associez votre séjour à *votre Shabbat*
 
-Choisissez d’abord la synagogue, puis l’hôtel. Les horaires de prière et les adresses figurent sur notre page [Shabbat à Lyon](https://mishpachatours.com/shabbat-in-lyon/) et sur la page [synagogues de Lyon](https://mishpachatours.com/synagogues-lyon/) . Dites-nous où vous dormez et nous vous indiquons le minyan le plus proche et l’adresse de repas la plus proche.
+Choisissez d’abord la synagogue, puis l’hôtel. Les horaires de prière et les adresses figurent sur notre page [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/) et sur la page [synagogues de Lyon](https://mishpachatours.com/fr/synagogues-lyon/) . Dites-nous où vous dormez et nous vous indiquons le minyan le plus proche et l’adresse de repas la plus proche.
 
 ## Séjourner à Lyon : *questions*
 

@@ -57,7 +57,7 @@ for p in sorted(glob.glob("**/index.html", recursive=True)):
     url = BASE + "/" + (d + "/" if d else "")
     text = md(body, heading_style="ATX", strip=["img"], bullets="-")
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
-    text = re.sub(r"\]\((?!https?:|mailto:|tel:|#)\.?/?([^)]*)\)", lambda mm: "](" + BASE + "/" + mm.group(1).lstrip("./") + ")", text)
+    text = re.sub(r"\]\((?!https?:|mailto:|tel:|#)([^)\s]*)\)", lambda mm: "](" + __import__("urllib.parse").parse.urljoin(url, mm.group(1)) + ")", text)  # 02/11 : lien relatif résolu depuis la page (../ en FR/ES/HE restait en EN)
     if not re.search(r"^# ", text, re.M): text = f"# {title}\n\n" + text
     out = (f"> {meta(h, 'description')}\n\nSource: {url} (HTML version). Every page of the site, one line each: {BASE}/llms.txt\n\n"
            f"{text}\n\n---\nMishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.\n")

@@ -165,7 +165,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 ¿Ya tiene alojamiento? [Servicios kosher en su estación](https://mishpachatours.com/es/kosher-services-french-alps/).
 
-Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
+Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
 ## Cómo *funciona*
 

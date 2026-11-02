@@ -25,7 +25,7 @@ Six traiteurs de la liste officielle du Beth Din de Lyon cuisinent pour le Shabb
 
 ## Livraison à *votre hôtel*
 
-Demandez à chacun : livrez-vous à mon hôtel, quel jour et à quelle heure, et que vous faut-il de ma part ? Prévenez l’hôtel qu’une livraison arrive et demandez s’il peut conserver les plats jusqu’au vendredi après-midi. Associez le repas à [une visite guidée des lieux juifs de Lyon](https://mishpachatours.com/jewish-lyon-tours/) avant Shabbat.
+Demandez à chacun : livrez-vous à mon hôtel, quel jour et à quelle heure, et que vous faut-il de ma part ? Prévenez l’hôtel qu’une livraison arrive et demandez s’il peut conserver les plats jusqu’au vendredi après-midi. Associez le repas à [une visite guidée des lieux juifs de Lyon](https://mishpachatours.com/fr/jewish-lyon-tours/) avant Shabbat.
 
 Trois établissements de la liste du Beth Din indiquent la vente à emporter ou la livraison : La Darka, Planet Sandwich et, sur Deliveroo et Uber Eats, Mika Sushi. Ce sont des options pour les jours de semaine. Rien n’est livré le Shabbat.
 
@@ -63,7 +63,7 @@ Envoyez-nous vos dates et votre nombre, et nous vous mettons en relation avec un
 
 ## Courses pour un Shabbat *en appartement*
 
-Trois épiceries sont certifiées par le Beth Din de Lyon : Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, son nouveau Hypercacher Garibaldi, 46 rue Garibaldi, 69006 Lyon, et Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. Lilly Market a un second magasin à Écully. Appelez, et faites vos achats le jeudi ou le vendredi matin. Trois boucheries figurent aussi sur la liste : [toutes les adresses casher de Lyon](https://mishpachatours.com/kosher-restaurants-lyon/).
+Trois épiceries sont certifiées par le Beth Din de Lyon : Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, son nouveau Hypercacher Garibaldi, 46 rue Garibaldi, 69006 Lyon, et Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. Lilly Market a un second magasin à Écully. Appelez, et faites vos achats le jeudi ou le vendredi matin. Trois boucheries figurent aussi sur la liste : [toutes les adresses casher de Lyon](https://mishpachatours.com/fr/kosher-restaurants-lyon/).
 
 ## Traiteurs et épiceries sur la *carte*
 
