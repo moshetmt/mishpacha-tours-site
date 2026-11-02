@@ -97,9 +97,7 @@ Horaires calculés aux coordonnées de Les Deux Alpes.
 
 ## La sécurité, *pensée dès le départ*
 
-Le même reportage cite des familles qui disent se sentir bien accueillies.
-
-Une escorte professionnelle est disponible sur demande et sur devis, en station comme à Lyon.[Lyon est-elle sûre pour les visiteurs juifs ?](https://mishpachatours.com/fr/is-lyon-safe-for-jewish-visitors/)
+Une escorte professionnelle est disponible sur demande et sur devis, en station comme à Lyon. Notre standard est décrit sur la page [Lyon est-elle sûre pour les visiteurs juifs ?](https://mishpachatours.com/fr/is-lyon-safe-for-jewish-visitors/)
 
 ## Comment ça *se passe*
 

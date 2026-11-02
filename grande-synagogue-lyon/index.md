@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/grande-synagogue-lyon/ (HTML version). Every 
 
 # Grande Synagogue of Lyon *inside the building closed to visitors*
 
-The Grande Synagogue of Lyon, 13 quai Tilsitt on the bank of the Saône, was inaugurated in 1864 and is still a working synagogue. It is closed to visitors outside the Heritage Days. Mishpacha Tours holds the special authorisation required to enter and takes private groups inside on its 2 h 30 Jewish Lyon tour, 290 € per group, subject to opening hours and security on the day.
+The Grande Synagogue of Lyon, 13 quai Tilsitt on the bank of the Saône, was inaugurated in 1864 and is still a working synagogue. It is closed to visitors outside the Heritage Days. Mishpacha Tours holds the special authorisation required to enter and takes private groups inside on its 2-hour Jewish Lyon tour, 290 € per group, subject to opening hours and security on the day.
 
 - Inaugurated 1864
 - 13 quai Tilsitt, Lyon 2e
@@ -54,7 +54,7 @@ If you come to pray, you are welcome at services. Arrive a few minutes early and
 
    ### We finish on rue Sainte-Catherine
 
-   The walk ends where the war story of Lyon's Jews meets the Resistance. This is the Jewish Lyon tour, 2 hours 30 minutes.
+   The walk ends where the war story of Lyon's Jews meets the Resistance. This is the Jewish Lyon tour, 2 hours.
 
 [Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20and%20the%20Grande%20Synagogue%20visit.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)[Get a quote](#book)
 
@@ -111,7 +111,7 @@ Same-day reply, never on Shabbat.
 
 ## Keep *reading*
 
-- [Jewish Lyon tour, 2 hours 30 minutes](https://mishpachatours.com/tours/jewish-lyon/)
+- [Jewish Lyon tour, 2 hours](https://mishpachatours.com/tours/jewish-lyon/)
 - [Synagogues and Shabbat in Lyon](https://mishpachatours.com/synagogues-lyon/)
 - [Rue Juiverie and medieval Jewish Lyon](https://mishpachatours.com/rue-juiverie-lyon/)
 - [Jewish history of Lyon](https://mishpachatours.com/jewish-history-lyon/)

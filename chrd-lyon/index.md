@@ -53,7 +53,7 @@ Jewish history runs through the visit. These are the threads your guide follows.
 
    ### Allow your time
 
-   Our visit takes 2 hours 30. We plan the pace with your group, and with children in particular.
+   Our visit takes 2 hours. We plan the pace with your group, and with children in particular.
 4. **4**
 
    ### Keep it on its own day
@@ -70,7 +70,7 @@ No. We book them as two separate visits on two different days. Each one carries 
 
 How long does a visit take?
 
-Our private visit takes 2 hours 30.
+Our private visit takes 2 hours.
 
 Is the CHRD suitable for children?
 

@@ -18,7 +18,7 @@ Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 
 **One written quote, the same day**Your resort, your dates, your group. One contact from start to finish.
 
-In winter, Rabbi Daniel Belaïch runs Chabad services in Courchevel 1850 and Megève. For Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse and Val Thorens, we organise a minyan and a Sefer Torah with the Chabad network of the Alps: tell us your dates. Private operators list kosher chalets and hotels in a dozen resorts. Supervision is rarely published, so you ask before you book. Lyon is the place to land, shop and stop for a few hours on the way up. In the resort, our kosher team organises chef, delivered meals, Shabbat and minyan: [one request, one quote](https://mishpachatours.com/kosher-services-french-alps/).
+In winter, Chabad services are held in Courchevel 1850 and Megève. For Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse and Val Thorens, we organise a minyan and a Sefer Torah with the Chabad network of the Alps: tell us your dates. Private operators list kosher chalets and hotels in a dozen resorts. Supervision is rarely published, so you ask before you book. Lyon is the place to land, shop and stop for a few hours on the way up. In the resort, our kosher team organises chef, delivered meals, Shabbat and minyan: [one request, one quote](https://mishpachatours.com/kosher-services-french-alps/).
 
 ## Our kosher chalets *in the Alps*
 
@@ -73,6 +73,40 @@ Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aurore Boréale, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**suites + TV lounge
+- **6 to 8**guests
+- **Heated pool**hammam, hot tub
+- **400 m**to the slopes
+
+**Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Courchevel · with Winter Prestige
+
+Price on request
+
+Availability confirmed for your dates with each request.
+
+[Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Renard Argenté, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel-renard-argente/)
+
+- **2**suites
+- **2 to 6**guests
+- **Nordic bath**heated to 40 °C
+- **400 m**to the slopes
+
+**Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Courchevel · with Winter Prestige
+
+Price on request
+
+Availability confirmed for your dates with each request.
+
+[Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ### [Chalet Loup Blanc, near Megève](https://mishpachatours.com/kosher-chalet-megeve/)
 
 - **10 + 2**twin bedrooms + attic rooms
@@ -107,9 +141,26 @@ Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aigle Royal, Les Ménuires](https://mishpachatours.com/kosher-chalet-les-menuires/)
+
+- **7**suites
+- **Up to 15**guests
+- **Spa**jacuzzi and sauna
+- **7 min**to the slopes
+
+**Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Les Ménuires · with Winter Prestige
+
+Price on request
+
+Availability confirmed for your dates with each request.
+
+[Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ## Where to find a minyan *in winter*
 
-Two resorts have a Chabad service. Both are run by Rabbi Daniel Belaïch (habadalpes@yahoo.fr).
+Two resorts have a Chabad service.
 
 - **Courchevel 1850.** Services during the winter season, at 389 rue des Tovets. The rabbi writes that he helps with kosher needs, wine and challot for Shabbat, and with a Kaddish.
 - **Megève.** Services in the 'Maison de la Montagne' room. Write before you go: the venue has changed over the years.
@@ -120,8 +171,8 @@ The Chabad network of the Alps is headed by the Beth Habad of Grenoble. Kosher m
 
 ## Chabad *contacts* 3
 
-- **Synagogue at Hôtel Le Mont Charvin, Rabbi Daniel Belaïch** Winter season. Wine and challot for Shabbat on request389 rue des Tovets, 73120 Courchevel[Map](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
-- **Chabad of the Alps in Megève, Rabbi Daniel Belaïch** Winter. habadalpes@yahoo.fr. Venue: confirm before you come136 route Edmond de Rothschild, 74120 Megève[Map](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
+- **Synagogue at Hôtel Le Mont Charvin** Winter season. Wine and challot for Shabbat on request389 rue des Tovets, 73120 Courchevel[Map](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
+- **Chabad of the Alps in Megève** Winter. Venue: confirm with us before you come136 route Edmond de Rothschild, 74120 Megève[Map](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
 - **Beth Habad de Grenoble, Rabbi Yhia Lahiany** Heads the Chabad network of the Alps: habadgrenoblealpes.com10 rue Lazare Carnot, 38000 Grenoble[Map](https://www.google.com/maps/search/?api=1&query=10%20rue%20Lazare%20Carnot%2C%2038000%20Grenoble%2C%20France)
 
 ## Kosher ski programs *listed by resort*
@@ -241,7 +292,7 @@ Kosher meals brought to your accommodation in the resort, ordered through the Be
 
 Which French ski resorts have a kosher minyan?
 
-Courchevel 1850 and Megève have a Chabad service in winter, run by Rabbi Daniel Belaïch. On the Grenoble side, Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse and Val Thorens, we organise a minyan on request with the Chabad network of the Alps, which groups the families present.
+Courchevel 1850 and Megève have a Chabad service in winter. On the Grenoble side, Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse and Val Thorens, we organise a minyan on request with the Chabad network of the Alps, which groups the families present.
 
 Can we get kosher food delivered to the resort?
 

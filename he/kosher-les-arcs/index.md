@@ -35,7 +35,7 @@ Source: https://mishpachatours.com/he/kosher-les-arcs/ (HTML version). Every pag
 
 ## כשר *בלז ארק*
 
-- **מלון כשר עונתי בארק 2000.**עונת 2026 נמשכה מ-1 ביולי עד 18 באוגוסט.
+- **מלון כשר עונתי בארק 2000.** האתר שלו מציין משגיח במשרה מלאה והשגחה של רב מפריז. עונת 2026 נמשכה מ-1 ביולי עד 18 באוגוסט.
 - **מסעדה או חנות כשרה באתר.** תכננו להביא את האוכל שלכם או לקבל אותו במשלוח.
 - **בית חב״ד בלז ארק.** למניין ולשירותים בחורף, ראו בהמשך.
 
@@ -132,7 +132,7 @@ Source: https://mishpachatours.com/he/kosher-les-arcs/ (HTML version). Every pag
 
 ## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)[**צ'אלה אגל רויאל · לה מנואר**7 חדרי שינה · ג'קוזי וסאונה](https://mishpachatours.com/he/kosher-chalet-les-menuires/)[**צ'אלה אורור בוראל · קורשבל**3 סוויטות · בריכה מחוממת](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)[**צ'אלה רנאר ארז'נטה · קורשבל**2 סוויטות · אמבט נורדי](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
 
 [לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 

@@ -20,7 +20,7 @@ Pésaj en la montaña, sin kasherizar nada ustedes mismos.
 
 El chalé se kasheriza para Pésaj antes de su llegada. Los sedarim, las comidas de la fiesta y las de Shabat se preparan para ustedes, y un minián viene a petición. Disponibilidad y detalles enviados con su presupuesto. Precio bajo pedido.
 
-La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
+Un programa de Pésaj solo para su familia o su grupo, en un chalé privado de los Alpes franceses. ¿Comparan un programa de Pésaj en hotel con un chalé solo para ustedes? Envíen sus fechas: recibirán un presupuesto por escrito. La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
 
 ## Qué incluye una estancia *de Pésaj*
 

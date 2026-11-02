@@ -42,11 +42,11 @@ Source: https://mishpachatours.com/he/where-to-stay-lyon-jewish-travellers/ (HTM
 
 ## מלונות *כשרים*
 
-למיטב ידיעתנו אין בליון מלון כשר. אם אתם מכירים אחד, ספרו לנו ונוסיף אותו. בלעדיו, תכננו את ארוחות השבת לפני ההגעה: ראו [קייטרינג כשר וארוחות שבת בליון](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/).
+למיטב ידיעתנו אין בליון מלון כשר. אם אתם מכירים אחד, ספרו לנו ונוסיף אותו. בלעדיו, תכננו את ארוחות השבת לפני ההגעה: ראו [קייטרינג כשר וארוחות שבת בליון](https://mishpachatours.com/he/kosher-shabbat-meals-catering-lyon/).
 
 ## התאימו את הלינה *לשבת שלכם*
 
-בחרו קודם את בית הכנסת, ואחר כך את המלון. זמני תפילה וכתובות מופיעים בדף [שבת בליון](https://mishpachatours.com/shabbat-in-lyon/) ובדף [בתי הכנסת של ליון](https://mishpachatours.com/synagogues-lyon/) . ספרו לנו איפה אתם ישנים ונכוון אתכם למניין הקרוב ולמקור הארוחות הקרוב ביותר.
+בחרו קודם את בית הכנסת, ואחר כך את המלון. זמני תפילה וכתובות מופיעים בדף [שבת בליון](https://mishpachatours.com/he/shabbat-in-lyon/) ובדף [בתי הכנסת של ליון](https://mishpachatours.com/he/synagogues-lyon/) . ספרו לנו איפה אתם ישנים ונכוון אתכם למניין הקרוב ולמקור הארוחות הקרוב ביותר.
 
 ## לינה בליון: *שאלות*
 

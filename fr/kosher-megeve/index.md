@@ -62,8 +62,6 @@ Posez la question avant de réserver.
 
 ## Minyan et Shabbat *à Megève*
 
-L’information date de 2014 : confirmez l’adresse pour vos dates.
-
 Les horaires de Shabbat changent chaque semaine. Si vous souhaitez un minyan pour une semaine précise, donnez-nous vos dates tôt : nous le montons avec le réseau Chabad des Alpes et apportons un Sefer Torah.
 
 Cette semaine

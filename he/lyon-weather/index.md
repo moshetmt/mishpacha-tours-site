@@ -97,7 +97,7 @@ Source: https://mishpachatours.com/he/lyon-weather/ (HTML version). Every page o
 ## להמשך *קריאה*
 
 - [מה לעשות בליון](https://mishpachatours.com/he/things-to-do-in-lyon/)
-- [סיור ליון היהודית, שעתיים וחצי](https://mishpachatours.com/he/tours/jewish-lyon/)
+- [סיור ליון היהודית, שעתיים](https://mishpachatours.com/he/tours/jewish-lyon/)
 - [שבת בליון](https://mishpachatours.com/he/shabbat-in-lyon/)
 - [איפה לישון בליון](https://mishpachatours.com/he/where-to-stay-lyon-jewish-travellers/)
 - [ואן והסעות](https://mishpachatours.com/he/kosher-van-transfers/)

@@ -21,7 +21,7 @@ Montluc se construyó en 1921 como prisión militar. Tras requisar los alemanes 
 
 - **Quién estuvo retenido.** Más de 9.000 hombres, mujeres y niños pasaron por aquí en ese tiempo: resistentes, rehenes y judíos. Jean Moulin y el historiador Marc Bloch estuvieron retenidos aquí.
 - **Los judíos de Montluc.** La prisión sirvió de punto de reunión de judíos antes de enviarlos a Drancy y después a Auschwitz-Birkenau. Un bloque aparte, conocido como la baraque aux Juifs, albergaba sobre todo a hombres judíos mayores de 15 años. Se trajo aquí a familias enteras.
-- **Izieu.** El 6 de abril de 1944, los niños detenidos en la [Maison d'Izieu](https://mishpachatours.com/maison-izieu/) estuvieron retenidos en Montluc antes de su deportación.
+- **Izieu.** El 6 de abril de 1944, los niños detenidos en la [Maison d'Izieu](https://mishpachatours.com/es/maison-izieu/) estuvieron retenidos en Montluc antes de su deportación.
 - **Ejecuciones.** Algunos presos fueron fusilados en la propia prisión, en el camino de ronda, en un lugar que hoy se llama mur des fusillés. Otros fueron sacados de Lyon y fusilados en otro lugar.
 
 La prisión cerró en 2009 y se abrió al público como memorial nacional en 2010.
@@ -48,9 +48,9 @@ Usted recorre el edificio de las celdas, donde unas sesenta celdas presentan las
 
 ## De la memoria a la *vida judía actual*
 
-Neveh Chalom y el Institut culturel du judaïsme están en la misma dirección, 317 rue Duguesclin. La sinagoga es la segunda a cuyo interior le lleva su guía, junto con la [Gran Sinagoga del quai Tilsitt](https://mishpachatours.com/grande-synagogue-lyon/). Las visitas al interior dependen de un acuerdo con la comunidad y de la seguridad del día, y las solicitamos en su nombre.
+Neveh Chalom y el Institut culturel du judaïsme están en la misma dirección, 317 rue Duguesclin. La sinagoga es la segunda a cuyo interior le lleva su guía, junto con la [Gran Sinagoga del quai Tilsitt](https://mishpachatours.com/es/grande-synagogue-lyon/). Las visitas al interior dependen de un acuerdo con la comunidad y de la seguridad del día, y las solicitamos en su nombre.
 
-No mostramos ninguna foto de Neveh Chalom en este sitio. Su guía se la enseña en el lugar. Nuestra [visita Memoria: Montluc y Neveh Shalom](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/) reúne el memorial y la sinagoga en un solo recorrido, de unas 2 h 30. Nunca la combinamos con el [CHRD](https://mishpachatours.com/chrd-lyon/) el mismo día.
+No mostramos ninguna foto de Neveh Chalom en este sitio. Su guía se la enseña en el lugar. Nuestra [visita Memoria: Montluc y Neveh Shalom](https://mishpachatours.com/es/tours/memory-montluc-neveh-shalom/) reúne el memorial y la sinagoga en un solo recorrido, de unas 2 h. Nunca la combinamos con el [CHRD](https://mishpachatours.com/es/chrd-lyon/) el mismo día.
 
 ## Preguntas *frecuentes*
 

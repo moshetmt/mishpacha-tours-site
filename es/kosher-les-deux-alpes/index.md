@@ -97,8 +97,6 @@ Horarios calculados para las coordenadas de Les Deux Alpes.
 
 ## Seguridad, *por diseño*
 
-El mismo reportaje recoge a familias que dicen sentirse bienvenidas.
-
 Hay escolta profesional bajo petición y con presupuesto, en la estación como en Lyon. Nuestro estándar está en [¿Es seguro Lyon para los visitantes judíos?](https://mishpachatours.com/es/is-lyon-safe-for-jewish-visitors/).
 
 ## Cómo *funciona*

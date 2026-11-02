@@ -33,10 +33,10 @@ Si prefiere un Shabat organizado solo para su grupo, con las comidas, el paseo h
 
 ## Planifíquelo en *cuatro decisiones*
 
-- **Dónde dormir.** Elija un hotel al que pueda llegar a pie desde una sinagoga. Las estimaciones a pie y las preguntas que conviene hacer están en nuestra página [dónde alojarse en Lyon](https://mishpachatours.com/where-to-stay-lyon-jewish-travellers/).
+- **Dónde dormir.** Elija un hotel al que pueda llegar a pie desde una sinagoga. Las estimaciones a pie y las preguntas que conviene hacer están en nuestra página [dónde alojarse en Lyon](https://mishpachatours.com/es/where-to-stay-lyon-jewish-travellers/).
 - **Dónde rezar.** Elija la sinagoga antes que el hotel. Los detalles, más abajo.
-- **Quién le da de comer.** Encargue antes del jueves. Nuestra página sobre [catering kosher y comidas de Shabat](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/) explica cómo hacerlo.
-- **Cómo llegar.** Aterrice e instálese antes del encendido de velas. Cuando empieza el Shabat, el metro y los taxis quedan descartados. Vea las [preguntas frecuentes de viaje](https://mishpachatours.com/jewish-travel-lyon-faq/).
+- **Quién le da de comer.** Encargue antes del jueves. Nuestra página sobre [catering kosher y comidas de Shabat](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/) explica cómo hacerlo.
+- **Cómo llegar.** Aterrice e instálese antes del encendido de velas. Cuando empieza el Shabat, el metro y los taxis quedan descartados. Vea las [preguntas frecuentes de viaje](https://mishpachatours.com/es/jewish-travel-lyon-faq/).
 
 ## Dónde *rezar* 5
 
@@ -48,25 +48,25 @@ Si prefiere un Shabat organizado solo para su grupo, con las comidas, el paseo h
 
 ## En la *entrada*
 
-Las autoridades francesas mantienen fuerzas de seguridad visibles alrededor de los lugares judíos, así que cuente con un control a la entrada de una sinagoga. Lleve un documento de identidad con foto y llegue unos minutos antes. Avise a la sinagoga de cuándo piensa ir. Más información en la página de las [sinagogas de Lyon](https://mishpachatours.com/synagogues-lyon/) .
+Las autoridades francesas mantienen fuerzas de seguridad visibles alrededor de los lugares judíos, así que cuente con un control a la entrada de una sinagoga. Lleve un documento de identidad con foto y llegue unos minutos antes. Avise a la sinagoga de cuándo piensa ir. Más información en la página de las [sinagogas de Lyon](https://mishpachatours.com/es/synagogues-lyon/) .
 
 ## Comidas de *Shabat*
 
 No conocemos ningún hotel de Lyon que sirva comidas kosher. Organice sus comidas de Shabat antes de llegar.
 
-- **Proveedores de catering.** Siete proveedores de catering están certificados por el Beth Din de Lyon. Le ayudamos a elegir y a redactar el mensaje. Vea [catering kosher en Lyon](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/).
-- **Chabad.** Una casa Chabad puede recibirle para una comida. Llame antes del mediodía del viernes e indique cuántos son. Vea [Chabad en Lyon](https://mishpachatours.com/chabad-lyon/).
+- **Proveedores de catering.** Siete proveedores de catering están certificados por el Beth Din de Lyon. Le ayudamos a elegir y a redactar el mensaje. Vea [catering kosher en Lyon](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/).
+- **Chabad.** Una casa Chabad puede recibirle para una comida. Llame antes del mediodía del viernes e indique cuántos son. Vea [Chabad en Lyon](https://mishpachatours.com/es/chabad-lyon/).
 - **Shabat en un apartamento.** Dos tiendas de alimentación certificadas por el Beth Din, Hypercacher y Lilly Market, venden lo que necesita. Compre el jueves: las tiendas cierran el viernes por la tarde.
 
 ## Dónde *dormir*
 
-Camine a rezar, camine a comer, camine de vuelta. La Presqu'île, alrededor de Bellecour, le sitúa a unos diez minutos de la Gran Sinagoga. El 6.º distrito es el barrio de la mayoría de los restaurantes kosher del lado de Lyon, a unos treinta y cinco minutos a pie de Tilsitt. Villeurbanne es el centro de la vida comunitaria, lejos del casco antiguo. Nuestra página [dónde alojarse en Lyon](https://mishpachatours.com/where-to-stay-lyon-jewish-travellers/) da las estimaciones, el mapa y las preguntas que conviene hacer a un hotel sobre llaves, plantas y puertas.
+Camine a rezar, camine a comer, camine de vuelta. La Presqu'île, alrededor de Bellecour, le sitúa a unos diez minutos de la Gran Sinagoga. El 6.º distrito es el barrio de la mayoría de los restaurantes kosher del lado de Lyon, a unos treinta y cinco minutos a pie de Tilsitt. Villeurbanne es el centro de la vida comunitaria, lejos del casco antiguo. Nuestra página [dónde alojarse en Lyon](https://mishpachatours.com/es/where-to-stay-lyon-jewish-travellers/) da las estimaciones, el mapa y las preguntas que conviene hacer a un hotel sobre llaves, plantas y puertas.
 
 ## Qué *cierra* el viernes
 
 Todos los restaurantes, panaderías, carnicerías y tiendas de alimentación kosher de la lista del Beth Din cierran por Shabat el viernes por la tarde. Cuente con que es temprano y compre el jueves o el viernes por la mañana. Llame antes de planificar una cena del sábado por la noche.
 
-El cementerio judío sigue el mismo ritmo: abierto hasta las 16:00 el viernes y cerrado el sábado (vea [la página del cementerio](https://mishpachatours.com/jewish-cemetery-lyon/)).
+El cementerio judío sigue el mismo ritmo: abierto hasta las 16:00 el viernes y cerrado el sábado (vea [la página del cementerio](https://mishpachatours.com/es/jewish-cemetery-lyon/)).
 
 ## Eruv *y transporte de objetos*
 
@@ -74,7 +74,7 @@ Si en su casa cuenta con un eruv, pregunte a la sinagoga o a su anfitrión antes
 
 ## Mikve
 
-Lyon tiene varias mikvaot. La Mikvah Haya Mouchka, 60 rue Crillon (6.º distrito), figura como abierta todas las noches. Las direcciones, los teléfonos y cómo reservar están en nuestra [página de la mikve](https://mishpachatours.com/mikveh-lyon/). El Consistoire se ocupa también de las mikvaot de la comunidad: Maison du Consistoire.
+Lyon tiene varias mikvaot. La Mikvah Haya Mouchka, 60 rue Crillon (6.º distrito), figura como abierta todas las noches. Las direcciones, los teléfonos y cómo reservar están en nuestra [página de la mikve](https://mishpachatours.com/es/mikveh-lyon/). El Consistoire se ocupa también de las mikvaot de la comunidad: Maison du Consistoire.
 
 ## Havdalá y *domingo*
 
@@ -82,7 +82,7 @@ El Shabat termina a la hora de Havdalá que indica el recuadro de la parte super
 
 ## Nuestras visitas y *Shabat*
 
-Nunca guiamos en Shabat ni en las fiestas judías. Su guía guarda el Shabat. Es posible una visita el domingo por la mañana, y también una visita el viernes por la mañana que termina mucho antes del encendido de velas. Vea la [visita Lyon judío](https://mishpachatours.com/tours/jewish-lyon/): 2 horas y 30 minutos, grupo privado, con acceso al interior de la Gran Sinagoga.
+Nunca guiamos en Shabat ni en las fiestas judías. Su guía guarda el Shabat. Es posible una visita el domingo por la mañana, y también una visita el viernes por la mañana que termina mucho antes del encendido de velas. Vea la [visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/): 2 horas y 30 minutos, grupo privado, con acceso al interior de la Gran Sinagoga.
 
 ## Shabat en Lyon: *preguntas*
 

@@ -63,7 +63,7 @@ Envoyez-nous vos dates et votre nombre, et nous vous mettons en relation avec un
 
 ## Courses pour un Shabbat *en appartement*
 
-Trois épiceries sont certifiées par le Beth Din de Lyon : Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, son nouveau Hypercacher Garibaldi, 46 rue Garibaldi, 69006 Lyon, et Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. Lilly Market a un second magasin à Écully. Appelez, et faites vos achats le jeudi ou le vendredi matin. Trois boucheries figurent aussi sur la liste : [toutes les adresses casher de Lyon](https://mishpachatours.com/kosher-restaurants-lyon/).
+Trois épiceries sont certifiées par le Beth Din de Lyon : Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, son nouveau Hypercacher Garibaldi, 46 rue Garibaldi, 69006 Lyon, et Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. Lilly Market a un second magasin à Écully. Appelez, et faites vos achats le jeudi ou le vendredi matin. Trois boucheries figurent aussi sur la liste : [toutes les adresses casher de Lyon](https://mishpachatours.com/fr/kosher-restaurants-lyon/).
 
 ## Traiteurs et épiceries sur la *carte*
 

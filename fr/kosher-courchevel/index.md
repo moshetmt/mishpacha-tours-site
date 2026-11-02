@@ -88,7 +88,7 @@ Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine 
 
 ## Casher *à Courchevel*
 
-- **Chabad en hiver.** Le rabbin Daniel Belaïch dirige des offices à l’Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, pendant la saison d’hiver. Il écrit qu’il aide pour les besoins casher, le vin et les challot de Shabbat.
+- **Chabad en hiver.** Des offices ont lieu à l’Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, pendant la saison d’hiver.
 - **Programmes casher saisonniers.** Un hôtel cachérisé est un hôtel ordinaire rendu casher pour une ou deux semaines. Les noms d’hôtels et les dates changent chaque saison.
 - **Chefs privés.** Des agences proposent à Courchevel des chefs privés glatt casher. Leurs pages n’indiquent pas la surveillance rabbinique.
 

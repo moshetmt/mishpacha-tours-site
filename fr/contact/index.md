@@ -43,8 +43,8 @@ Oui. Écrivez à contact@mishpachatours.com pour obtenir les tarifs nets de l’
 ## Pour *aller plus loin*
 
 - [À propos de Mishpacha Tours](https://mishpachatours.com/fr/about/)
-- [Voyage juif à Lyon, la FAQ](https://mishpachatours.com/jewish-travel-lyon-faq/)
-- [Le guide juif complet de Lyon](https://mishpachatours.com/jewish-lyon-guide/)
+- [Voyage juif à Lyon, la FAQ](https://mishpachatours.com/fr/jewish-travel-lyon-faq/)
+- [Le guide juif complet de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/)
 
 ## Prêts à *réserver* votre visite ?
 

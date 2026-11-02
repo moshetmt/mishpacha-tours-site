@@ -97,7 +97,7 @@ Respuesta el mismo día, nunca en Shabat.
 ## Siga *leyendo*
 
 - [Qué hacer en Lyon](https://mishpachatours.com/es/things-to-do-in-lyon/)
-- [Visita del Lyon judío, 2 h 30](https://mishpachatours.com/es/tours/jewish-lyon/)
+- [Visita del Lyon judío, 2 h](https://mishpachatours.com/es/tours/jewish-lyon/)
 - [Shabat en Lyon](https://mishpachatours.com/es/shabbat-in-lyon/)
 - [Dónde alojarse en Lyon](https://mishpachatours.com/es/where-to-stay-lyon-jewish-travellers/)
 - [Furgoneta y traslados](https://mishpachatours.com/es/kosher-van-transfers/)

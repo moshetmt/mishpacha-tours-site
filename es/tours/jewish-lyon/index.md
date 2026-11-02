@@ -8,7 +8,7 @@ Recorrido urbano
 
 # Lyon judío *Un paseo privado, con entrada a la Gran Sinagoga*
 
-Lyon judío es una visita privada a pie de 2 h 30 por Vieux Lyon y la Gran Sinagoga, guiada en inglés, francés o español, 290 € por grupo de 1 a 4 personas (+35 € por persona adicional hasta 10), con cancelación gratuita hasta 24 horas antes. Los visitantes de habla hebrea reciben la visita en inglés. Visita guiada judía por el Lyon medieval: la rue Juiverie, la Gran Sinagoga de Lyon por dentro, en el quai Tilsitt, y la rue Sainte-Catherine. Son dos horas y media a pie con una guía que forma parte de la comunidad que le muestra. La Gran Sinagoga está cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. La entrada requiere una autorización especial, que Mishpacha Tours posee. Esta es la única visita que le lleva al interior, sujeta al horario y a la seguridad del día.
+Lyon judío es una visita privada a pie de 2 h por Vieux Lyon y la Gran Sinagoga, guiada en inglés, francés o español, 290 € por grupo de 1 a 4 personas (+35 € por persona adicional hasta 10), con cancelación gratuita hasta 24 horas antes. Los visitantes de habla hebrea reciben la visita en inglés. Visita guiada judía por el Lyon medieval: la rue Juiverie, la Gran Sinagoga de Lyon por dentro, en el quai Tilsitt, y la rue Sainte-Catherine. Son dos horas a pie con una guía que forma parte de la comunidad que le muestra. La Gran Sinagoga está cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. La entrada requiere una autorización especial, que Mishpacha Tours posee. Esta es la única visita que le lleva al interior, sujeta al horario y a la seguridad del día.
 
 Lugar
 :   Vieux Lyon y quai Tilsitt

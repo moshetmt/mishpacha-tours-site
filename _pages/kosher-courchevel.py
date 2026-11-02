@@ -20,7 +20,7 @@ PAGE = dict(
 </ul>
 <p>Strictly kosher. Our team cooks under the Chabad network of the Alps: ask for the supervision details in writing with your quote.</p>"""),
     dict(type="beige", h2="Kosher in Courchevel: <i>what is published</i>", html="""<ul>
-<li><b>Chabad in winter.</b> Rabbi Daniel Belaïch holds services at the Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, during the winter season. He writes that he helps with kosher needs, wine and challot for Shabbat. Sources: synalpes.wordpress.com and jtropez.com, read 7 October 2026. Season dates not published.</li>
+<li><b>Chabad in winter.</b> Services are held at the Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, during the winter season. Sources: synalpes.wordpress.com and jtropez.com, read 7 October 2026. Season dates not published.</li>
 <li><b>Seasonal kosher programs.</b> The Jewish press (JTA) reports that a tour agency advertises kosherized ski hotels in Courchevel, and skikosher.com lists a seasonal program for the resort. A kosherized hotel is a regular hotel made kosher for a week or two. Hotel names and dates change each season.</li>
 <li><b>Private chefs.</b> Agencies advertise glatt kosher private chefs in Courchevel. Supervision is not stated on their pages.</li>
 <li><b>Shop or restaurant.</b> No kosher shop and no kosher restaurant published in the resort.</li>

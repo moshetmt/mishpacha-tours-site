@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/fr/jewish-lyon-itinerary-2-days/ (HTML versio
 
 # Le patrimoine juif de Lyon *deux jours, repas casher et Shabbat*
 
-Deux jours couvrent le patrimoine juif de Lyon : le premier jour, 2 h 30 de marche rue Juiverie, dans la Grande Synagogue et rue Sainte-Catherine ; le second, une seule visite Mémoire, le CHRD ou Montluc, jamais les deux. Les repas casher se trouvent à Villeurbanne et dans le 6e arrondissement. Deux jours complets suffisent pour voir le patrimoine juif de Lyon qui compte : le quartier médiéval et la Grande Synagogue, puis les lieux de mémoire des années de guerre. Voici comment nous les organisons, avec où manger et quand s’arrêter pour le Shabbat.
+Deux jours couvrent le patrimoine juif de Lyon : le premier jour, 2 h de marche rue Juiverie, dans la Grande Synagogue et rue Sainte-Catherine ; le second, une seule visite Mémoire, le CHRD ou Montluc, jamais les deux. Les repas casher se trouvent à Villeurbanne et dans le 6e arrondissement. Deux jours complets suffisent pour voir le patrimoine juif de Lyon qui compte : le quartier médiéval et la Grande Synagogue, puis les lieux de mémoire des années de guerre. Voici comment nous les organisons, avec où manger et quand s’arrêter pour le Shabbat.
 
 - 2 jours, 1 guide
 - Repas casher prévus
@@ -23,7 +23,7 @@ Deux jours couvrent le patrimoine juif de Lyon : le premier jour, 2 h 30 de m
 
 ## Jour 1 *Le patrimoine juif de Lyon, du Moyen Âge à aujourd’hui*
 
-**Matin, 2 h 30 à pied.** Le Vieux Lyon et la rue Juiverie, rue du quartier juif médiéval, puis, de l’autre côté du fleuve, la Grande Synagogue du quai Tilsitt, construite en 1864, où nous entrons. Nous terminons rue Sainte-Catherine, où le bureau de l’UGIF a subi une rafle en février 1943. C’est notre [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/).
+**Matin, 2 h à pied.** Le Vieux Lyon et la rue Juiverie, rue du quartier juif médiéval, puis, de l’autre côté du fleuve, la Grande Synagogue du quai Tilsitt, construite en 1864, où nous entrons. Nous terminons rue Sainte-Catherine, où le bureau de l’UGIF a subi une rafle en février 1943. C’est notre [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/).
 
 **Déjeuner.** Les adresses certifiées casher les plus proches se trouvent dans le 2e et le 6e ; nous vous disons lesquelles sont ouvertes ce jour-là. Liste complète sur [Casher à Lyon](https://mishpachatours.com/fr/kosher-restaurants-lyon/).
 
@@ -35,8 +35,8 @@ Deux jours couvrent le patrimoine juif de Lyon : le premier jour, 2 h 30 de m
 
 Choisissez l’une des deux visites Mémoire. Nous ne faisons jamais les deux le même jour : chacune demande son temps, et la seconde serait perdue.
 
-- **Option A, le CHRD.** Le Centre d’histoire de la résistance et de la déportation, dans l’ancien siège de la Gestapo de Klaus Barbie, avec au centre l’histoire juive de l’Occupation : les rafles, les déportations, Izieu. 2 h 30. [Mémoire : CHRD](https://mishpachatours.com/fr/tours/memory-chrd/).
-- **Option B, Montluc et Neveh Shalom.** La prison où Jean Moulin et les enfants d’Izieu ont été détenus, puis la synagogue Neveh Shalom et l’Institut culturel du judaïsme voisin : les morts et les vivants dans une même promenade. 2 h 30. [Mémoire : Montluc](https://mishpachatours.com/fr/tours/memory-montluc-neveh-shalom/).
+- **Option A, le CHRD.** Le Centre d’histoire de la résistance et de la déportation, dans l’ancien siège de la Gestapo de Klaus Barbie, avec au centre l’histoire juive de l’Occupation : les rafles, les déportations, Izieu. 2 h. [Mémoire : CHRD](https://mishpachatours.com/fr/tours/memory-chrd/).
+- **Option B, Montluc et Neveh Shalom.** La prison où Jean Moulin et les enfants d’Izieu ont été détenus, puis la synagogue Neveh Shalom et l’Institut culturel du judaïsme voisin : les morts et les vivants dans une même promenade. 2 h. [Mémoire : Montluc](https://mishpachatours.com/fr/tours/memory-montluc-neveh-shalom/).
 
 **Après-midi.** Déjeuner dans le 6e, puis le [cimetière israélite de la Mouche](https://mishpachatours.com/fr/jewish-cemetery-lyon/) si vous avez de la famille à retrouver, ou une fin de journée au calme au parc de la Tête d’Or.
 
@@ -78,7 +78,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 - [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/)
 - [Le guide juif complet de Lyon](https://mishpachatours.com/fr/jewish-lyon-guide/)
-- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h](https://mishpachatours.com/fr/tours/jewish-lyon/)
 
 ## Prêts à *réserver* votre visite ?
 

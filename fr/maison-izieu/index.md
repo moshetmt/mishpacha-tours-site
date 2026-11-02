@@ -54,11 +54,11 @@ La maison se visite uniquement lors d’une visite guidée avec un médiateur du
 
 ## Notre *excursion d’une journée* à Izieu
 
-Notre [excursion d’une journée à Izieu](https://mishpachatours.com/tours/izieu/) part de Lyon, à partir de 990 €, sur devis. Le van et le chauffeur sont organisés et facturés séparément. L’entrée du mémorial est facturée par le mémorial.
+Notre [excursion d’une journée à Izieu](https://mishpachatours.com/fr/tours/izieu/) part de Lyon, à partir de 990 €, sur devis. Le van et le chauffeur sont organisés et facturés séparément. L’entrée du mémorial est facturée par le mémorial.
 
 Votre guide raconte l’histoire sur la route de l’aller et tout au long de la journée. La maison elle-même se visite avec le médiateur du mémorial, et votre guide la parcourt avec vous. Nous réservons la visite auprès du mémorial et vous prévenons tôt si votre groupe est en dessous du minimum requis pour une visite en anglais.
 
-La journée à Izieu et les visites du [CHRD](https://mishpachatours.com/chrd-lyon/) ou de [Montluc](https://mishpachatours.com/montluc-prison-lyon/) sont des réservations distinctes et n’ont jamais lieu le même jour.
+La journée à Izieu et les visites du [CHRD](https://mishpachatours.com/fr/chrd-lyon/) ou de [Montluc](https://mishpachatours.com/fr/montluc-prison-lyon/) sont des réservations distinctes et n’ont jamais lieu le même jour.
 
 ## Questions *fréquentes*
 

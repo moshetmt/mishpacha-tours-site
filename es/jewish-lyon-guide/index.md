@@ -132,7 +132,47 @@ Abrir](https://mishpachatours.com/es/kosher-la-plagne/)[### Kosher en Val d'Isè
 
 De finales de noviembre a mayo: chef, comidas, Shabat, fiestas, minián en Val d'Isère
 
-Abrir](https://mishpachatours.com/es/kosher-val-disere/)[### La Escala, 3 horas
+Abrir](https://mishpachatours.com/es/kosher-val-disere/)[### Kosher en Zermatt
+
+Pueblo sin coches al pie del Cervino, invierno y verano: chef, comidas, Shabat, fiestas, minián
+
+Abrir](https://mishpachatours.com/es/kosher-zermatt/)[### Kosher en St. Moritz
+
+La Engadina, en invierno y en verano: chef, comidas, Shabat, fiestas, minián
+
+Abrir](https://mishpachatours.com/es/kosher-st-moritz/)[### Kosher en Crans-Montana
+
+La meseta soleada del Valais, a dos horas de Ginebra: chef, comidas, Shabat, fiestas, minián
+
+Abrir](https://mishpachatours.com/es/kosher-crans-montana/)[### Kosher en Verbier
+
+Las 4 Vallées sobre el valle del Ródano, invierno y verano: chef privado, Shabat, fiestas, minián
+
+Abrir](https://mishpachatours.com/es/kosher-verbier/)[### Kosher en Gstaad
+
+El Saanenland y Glacier 3000, invierno y verano: chef privado, Shabat, fiestas, minián
+
+Abrir](https://mishpachatours.com/es/kosher-gstaad/)[### Kosher en Davos
+
+La ciudad más alta de los Alpes, Parsenn y Jakobshorn, invierno y verano: chef privado, Shabat, fiestas, minián
+
+Abrir](https://mishpachatours.com/es/kosher-davos/)[### Kosher en Cervinia
+
+La vertiente italiana del Cervino, nieve de noviembre a mayo: chef, comidas, Shabat, fiestas, minián
+
+Abrir](https://mishpachatours.com/es/kosher-cervinia/)[### Kosher en Courmayeur
+
+La vertiente italiana del Mont Blanc, la estación italiana más cercana a Lyon: chef, comidas, Shabat, fiestas, minián
+
+Abrir](https://mishpachatours.com/es/kosher-courmayeur/)[### Kosher en Cortina d'Ampezzo
+
+Los Dolomitas, invierno y verano: chef, comidas, Shabat, fiestas, minián
+
+Abrir](https://mishpachatours.com/es/kosher-cortina/)[### Esquí kosher, en cualquier lugar
+
+Austria, Norteamérica o cualquier estación fuera de nuestra lista: un chef privado que viaja con usted, Shabat, minián, traslados
+
+Abrir](https://mishpachatours.com/es/kosher-ski-anywhere/)[### La Escala, 3 horas
 
 El Lyon judío y la Gran Sinagoga entre su vuelo y la subida a la estación. 390 € por grupo
 

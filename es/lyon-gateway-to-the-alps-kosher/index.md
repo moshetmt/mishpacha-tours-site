@@ -20,7 +20,7 @@ El aeropuerto de Lyon-Saint-Exupéry está a unas 2 h 10 de Courchevel y a 2 h 3
 - **El aeropuerto.** Lyon-Saint-Exupéry se encuentra al este de la ciudad, con la red de autopistas hacia Saboya y Alta Saboya a poca distancia. Altibus y Ben's Bus ofrecen lanzaderas de esquí desde allí (vea más abajo).
 - **La estación de tren.** Lyon Part-Dieu es la principal estación de tren de la ciudad. Si viaja en tren, Part-Dieu es el lugar donde comprar, descansar o visitar antes del siguiente tramo.
 - **La autopista.** La A43 sale de Lyon hacia Chambéry y los valles de Saboya. Más allá se encuentran las estaciones de la Tarentaise (Courchevel, Méribel, Val Thorens, Les Arcs, La Plagne, Tignes, Val d'Isère) y la Maurienne.
-- **La comunidad.** Lyon tiene tiendas de alimentación, carnicerías y panaderías kosher certificadas, un Beth Din y una Gran Sinagoga. Vea [kosher en Lyon](https://mishpachatours.com/kosher-restaurants-lyon/) y [sinagogas](https://mishpachatours.com/synagogues-lyon/).
+- **La comunidad.** Lyon tiene tiendas de alimentación, carnicerías y panaderías kosher certificadas, un Beth Din y una Gran Sinagoga. Vea [kosher en Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/) y [sinagogas](https://mishpachatours.com/es/synagogues-lyon/).
 
 ## Tiempos de trayecto desde el aeropuerto *a cada estación*
 
@@ -47,7 +47,7 @@ No vendemos transporte.
 - **Ben's Bus.** Figura en la web del aeropuerto para Val d'Isère, Tignes, Les 2 Alpes, Courchevel, Méribel, La Plagne y otras. Recogida en la estación de autobuses, Terminal 1.
 - **Furgonetas privadas y taxis.** No recomendamos ninguna empresa de taxis: pida un presupuesto y, si lo necesita, una silla infantil.
 
-Un autobús lanzadera compartido que circula en sábado no conviene a una familia que guarda Shabat. Si aterriza un viernes, deje un amplio margen antes del encendido de las velas, o reserve una noche en Lyon (vea [Shabat en Lyon](https://mishpachatours.com/shabbat-in-lyon/)).
+Un autobús lanzadera compartido que circula en sábado no conviene a una familia que guarda Shabat. Si aterriza un viernes, deje un amplio margen antes del encendido de las velas, o reserve una noche en Lyon (vea [Shabat en Lyon](https://mishpachatours.com/es/shabbat-in-lyon/)).
 
 ## Compras kosher antes de *subir a la montaña* 5
 
@@ -63,7 +63,7 @@ Lleve desde Lyon lo que necesite.
 
 - **Compre en Villeurbanne o en los distritos 3.º y 6.º.** Las tiendas citadas están en la ciudad, no en el aeropuerto. Reserve a su conductor para el recorrido.
 - **Lleve una bolsa isotérmica y acumuladores de frío.** La carne, el pescado y los lácteos aguantan el viaje de dos a tres horas.
-- **Pida al rabino de Chabad vino y jalot.** Vea [vacaciones de esquí kosher](https://mishpachatours.com/kosher-ski-holidays-french-alps/).
+- **Pida al rabino de Chabad vino y jalot.** Vea [vacaciones de esquí kosher](https://mishpachatours.com/es/kosher-ski-holidays-french-alps/).
 
 ## Una semana de esquí típica, *la llegada*
 
@@ -92,11 +92,11 @@ Lleve desde Lyon lo que necesite.
 
 ## La Escala: *el Lyon judío entre el avión y las pistas*
 
-Tres horas de guía privada en Vieux Lyon y en el interior de la Gran Sinagoga, cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Precio: 390 € por grupo de 1 a 5 personas, más 35 € por persona de la sexta a la décima. La recogida en el aeropuerto es posible bajo petición, como complemento de pago con presupuesto, y nunca está incluida. Vea la [visita Escala](https://mishpachatours.com/tours/stopover/).
+Tres horas de guía privada en Vieux Lyon y en el interior de la Gran Sinagoga, cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Precio: 390 € por grupo de 1 a 5 personas, más 35 € por persona de la sexta a la décima. La recogida en el aeropuerto es posible bajo petición, como complemento de pago con presupuesto, y nunca está incluida. Vea la [visita Escala](https://mishpachatours.com/es/tours/stopover/).
 
 ## Shabat en Lyon, *antes o después de la montaña*
 
-Una familia que llega un jueves o un viernes puede guardar Shabat en Lyon y subir el domingo. Una familia que baja el jueves puede dormir en Lyon antes de un vuelo el viernes por la mañana. Guiamos de domingo a viernes por la mañana, nunca en Shabat ni en las fiestas judías. Vea [Shabat en Lyon](https://mishpachatours.com/shabbat-in-lyon/) y [dónde alojarse](https://mishpachatours.com/where-to-stay-lyon-jewish-travellers/).
+Una familia que llega un jueves o un viernes puede guardar Shabat en Lyon y subir el domingo. Una familia que baja el jueves puede dormir en Lyon antes de un vuelo el viernes por la mañana. Guiamos de domingo a viernes por la mañana, nunca en Shabat ni en las fiestas judías. Vea [Shabat en Lyon](https://mishpachatours.com/es/shabbat-in-lyon/) y [dónde alojarse](https://mishpachatours.com/es/where-to-stay-lyon-jewish-travellers/).
 
 ## Su parada en Lyon *en el mapa*
 

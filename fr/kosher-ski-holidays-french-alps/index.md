@@ -18,7 +18,7 @@ Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
 **Un devis écrit, le jour même**Votre station, vos dates, votre groupe. Un seul interlocuteur du début à la fin.
 
-En hiver, le rabbin Daniel Belaïch assure des offices Chabad à Courchevel 1850 et à Megève. Pour l’Alpe d’Huez, Les Deux Alpes, Serre Chevalier, Chamrousse et Val Thorens, nous organisons un minyan et un Sefer Torah avec le réseau Chabad des Alpes : indiquez-nous vos dates. Des opérateurs privés listent des chalets et des hôtels casher dans une douzaine de stations. Il faut donc demander avant de réserver. Lyon est l’endroit où atterrir, faire ses courses et s’arrêter quelques heures en montant. En station, notre équipe casher organise chef, repas livrés, Shabbat et minyan : [une demande, un devis](https://mishpachatours.com/fr/kosher-services-french-alps/).
+En hiver, des offices Chabad ont lieu à Courchevel 1850 et à Megève. Pour l’Alpe d’Huez, Les Deux Alpes, Serre Chevalier, Chamrousse et Val Thorens, nous organisons un minyan et un Sefer Torah avec le réseau Chabad des Alpes : indiquez-nous vos dates. Des opérateurs privés listent des chalets et des hôtels casher dans une douzaine de stations. Il faut donc demander avant de réserver. Lyon est l’endroit où atterrir, faire ses courses et s’arrêter quelques heures en montant. En station, notre équipe casher organise chef, repas livrés, Shabbat et minyan : [une demande, un devis](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
 ## Nos chalets casher *dans les Alpes*
 
@@ -73,6 +73,40 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aurore Boréale, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**suites + salon TV
+- **6 à 8**personnes
+- **Piscine chauffée**hammam, bain à remous
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Renard Argenté, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
+
+- **2**suites
+- **2 à 6**personnes
+- **Bain nordique**chauffé à 40 °C
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ### [Chalet Loup Blanc, près de Megève](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 
 - **10 + 2**chambres twin + chambres sous le toit
@@ -107,9 +141,26 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aigle Royal, Les Ménuires](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)
+
+- **7**suites
+- **Jusqu'à 15**personnes
+- **Spa**jacuzzi et sauna
+- **7 min**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Les Ménuires · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ## Où trouver un minyan *en hiver*
 
-Deux stations ont un office Chabad. Les deux sont assurés par le rabbin Daniel Belaïch (habadalpes@yahoo.fr).
+Deux stations ont un office Chabad.
 
 - **Courchevel 1850.** Offices pendant la saison d’hiver, au 389 rue des Tovets. Le rabbin écrit qu’il aide pour les besoins casher, le vin et les challot de Shabbat, et pour un Kaddish.
 - **Megève.** Offices dans la salle « Maison de la Montagne ». Écrivez avant de partir : le lieu a changé au fil des années.
@@ -120,8 +171,8 @@ Le réseau Chabad des Alpes est dirigé par le Beth Habad de Grenoble. Les repas
 
 ## Contacts *Chabad* 3
 
-- **Synagogue de l’hôtel Le Mont Charvin, rabbin Daniel Belaïch** Saison d’hiver. Vin et challot pour Shabbat sur demande389 rue des Tovets, 73120 Courchevel[Carte](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
-- **Chabad des Alpes à Megève, rabbin Daniel Belaïch** Hiver. habadalpes@yahoo.fr. Lieu : à confirmer avant de venir136 route Edmond de Rothschild, 74120 Megève[Carte](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
+- **Synagogue de l’hôtel Le Mont Charvin** Saison d’hiver. Vin et challot pour Shabbat sur demande389 rue des Tovets, 73120 Courchevel[Carte](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
+- **Chabad des Alpes à Megève** Hiver. Lieu : à confirmer avec nous avant de venir136 route Edmond de Rothschild, 74120 Megève[Carte](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
 - **Beth Habad de Grenoble, rabbin Yhia Lahiany** Dirige le réseau Chabad des Alpes : habadgrenoblealpes.com10 rue Lazare Carnot, 38000 Grenoble[Carte](https://www.google.com/maps/search/?api=1&query=10%20rue%20Lazare%20Carnot%2C%2038000%20Grenoble%2C%20France)
 
 ## Séjours de ski casher *listés par station*
@@ -147,7 +198,7 @@ L’allumage des bougies dans les Alpes ne tombe pas à l’heure de Lyon, et il
 - **Cuisinez avant le début de Shabbat.** Préparez le repas du vendredi soir le jeudi ou le vendredi matin, et montez la nourriture avec vous.
 - **Repérez votre minyan le plus proche.** Notez-le avant de quitter Lyon : les réseaux mobiles décrochent dans les vallées.
 
-Pour les questions halakhiques, demandez à votre propre rabbin. Nous ne donnons que des repères pratiques. Voir aussi [Shabbat à Lyon](https://mishpachatours.com/shabbat-in-lyon/).
+Pour les questions halakhiques, demandez à votre propre rabbin. Nous ne donnons que des repères pratiques. Voir aussi [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/).
 
 Cette semaine
 
@@ -191,7 +242,7 @@ Des chefs privés annoncent une cuisine « glatt casher » à Megève, Chamonix 
 
    ### Atterrissez à Lyon
 
-   Lyon-Saint-Exupéry se trouve à deux ou trois heures de la plupart des stations de Savoie. Les temps de trajet vers 13 stations figurent sur notre [page consacrée à Lyon, porte des Alpes](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
+   Lyon-Saint-Exupéry se trouve à deux ou trois heures de la plupart des stations de Savoie. Les temps de trajet vers 13 stations figurent sur notre [page consacrée à Lyon, porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
 2. **2**
 
    ### Faites vos courses casher
@@ -201,7 +252,7 @@ Des chefs privés annoncent une cuisine « glatt casher » à Megève, Chamonix 
 
    ### Choisissez notre Escale à Lyon de 3 heures
 
-   Votre propre transport vous attend pendant que nous vous guidons dans le Vieux Lyon et à l’intérieur de la Grande Synagogue. 390 € par groupe de 1 à 5 personnes. Voir la [visite Escale à Lyon](https://mishpachatours.com/tours/stopover/).
+   Votre propre transport vous attend pendant que nous vous guidons dans le Vieux Lyon et à l’intérieur de la Grande Synagogue. 390 € par groupe de 1 à 5 personnes. Voir la [visite Escale à Lyon](https://mishpachatours.com/fr/tours/stopover/).
 4. **4**
 
    ### Montez en station
@@ -219,7 +270,7 @@ Nous ne pouvons pas promettre un risque nul. Nos conseils sont simples.
 - Ne vous déplacez pas seul la nuit.
 - Dites-nous si vous avez des inquiétudes : nous nous adaptons. Une escorte professionnelle est disponible sur demande lors de nos visites, facturée à part et sur devis.
 
-Plus dans notre [FAQ franche](https://mishpachatours.com/jewish-travel-lyon-faq/).
+Plus dans notre [FAQ franche](https://mishpachatours.com/fr/jewish-travel-lyon-faq/).
 
 ## Les stations *sur la carte*
 
@@ -241,7 +292,7 @@ Des repas casher livrés à votre hébergement en station, commandés auprès du
 
 Quelles stations de ski françaises ont un minyan casher ?
 
-Courchevel 1850 et Megève ont un office Chabad en hiver, assuré par le rabbin Daniel Belaïch. Côté Grenoble, à l’Alpe d’Huez, aux Deux Alpes, à Serre Chevalier, Chamrousse et Val Thorens, nous organisons sur demande un minyan avec le réseau Chabad des Alpes, qui réunit les familles présentes.
+Courchevel 1850 et Megève ont un office Chabad en hiver. Côté Grenoble, à l’Alpe d’Huez, aux Deux Alpes, à Serre Chevalier, Chamrousse et Val Thorens, nous organisons sur demande un minyan avec le réseau Chabad des Alpes, qui réunit les familles présentes.
 
 Peut-on se faire livrer de la nourriture casher en station ?
 

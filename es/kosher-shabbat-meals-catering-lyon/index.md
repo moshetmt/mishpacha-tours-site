@@ -60,11 +60,11 @@ Guiamos a pie y no ofrecemos autobuses. Su propio transporte, o el que contrate 
 
 ## Comidas de Shabat con *Contactos*
 
-Lyon tiene cuatro casas Chabad: Centre-Ville (10 rue Mulet), Lyon 6 (60 rue Crillon), Villeurbanne (295 rue Francis-de-Pressensé) y la casa del campus. Llame a la casa más cercana a su hotel antes del mediodía del viernes e indique cuántos son. Vea [Chabad en Lyon](https://mishpachatours.com/chabad-lyon/) para las direcciones y los teléfonos.
+Lyon tiene cuatro casas Chabad: Centre-Ville (10 rue Mulet), Lyon 6 (60 rue Crillon), Villeurbanne (295 rue Francis-de-Pressensé) y la casa del campus. Llame a la casa más cercana a su hotel antes del mediodía del viernes e indique cuántos son. Vea [Chabad en Lyon](https://mishpachatours.com/es/chabad-lyon/) para las direcciones y los teléfonos.
 
 ## Tiendas de alimentación para un Shabat *en un apartamento*
 
-Tres tiendas de alimentación están certificadas por el Beth Din de Lyon: Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, su nueva Hypercacher Garibaldi, 46 rue Garibaldi, 69006 Lyon, y Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. Lilly Market tiene una segunda tienda en Écully. Llame y compre el jueves o el viernes por la mañana. En la lista figuran también tres carnicerías: [todas las direcciones kosher de Lyon](https://mishpachatours.com/kosher-restaurants-lyon/).
+Tres tiendas de alimentación están certificadas por el Beth Din de Lyon: Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, su nueva Hypercacher Garibaldi, 46 rue Garibaldi, 69006 Lyon, y Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. Lilly Market tiene una segunda tienda en Écully. Llame y compre el jueves o el viernes por la mañana. En la lista figuran también tres carnicerías: [todas las direcciones kosher de Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/).
 
 ## Proveedores de catering y tiendas de alimentación en el *mapa*
 

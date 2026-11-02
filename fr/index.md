@@ -48,6 +48,40 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aurore Boréale, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**suites + salon TV
+- **6 à 8**personnes
+- **Piscine chauffée**hammam, bain à remous
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Renard Argenté, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
+
+- **2**suites
+- **2 à 6**personnes
+- **Bain nordique**chauffé à 40 °C
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ### [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
 - **165 m²**chalet privé
@@ -64,6 +98,23 @@ Val Thorens · avec Winter Prestige
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Aigle Royal, Les Ménuires](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)
+
+- **7**suites
+- **Jusqu'à 15**personnes
+- **Spa**jacuzzi et sauna
+- **7 min**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Les Ménuires · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
 
 ### [Chalet Loup Blanc, près de Megève](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 

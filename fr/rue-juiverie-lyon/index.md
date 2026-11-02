@@ -59,7 +59,7 @@ Nous nous y arrêtons aussi longtemps que votre groupe en a besoin.
 
    ### Avec nous
 
-   La visite du quartier juif commence ici. Elle dure 2 h 30, à pied, en privé pour votre groupe, et comprend la Grande Synagogue et la rue Sainte-Catherine.
+   La visite du quartier juif commence ici. Elle dure 2 h, à pied, en privé pour votre groupe, et comprend la Grande Synagogue et la rue Sainte-Catherine.
 3. **3**
 
    ### Rue Sainte-Catherine
@@ -98,7 +98,7 @@ Le 9 février 1943, la Gestapo a fait irruption dans le bureau de l’UGIF et ar
 
 Combien de temps prévoir ici ?
 
-Seul, 20 minutes pour la rue et 20 minutes pour la rue Sainte-Catherine. Avec nous, les deux font partie de la visite du quartier juif de 2 h 30.
+Seul, 20 minutes pour la rue et 20 minutes pour la rue Sainte-Catherine. Avec nous, les deux font partie de la visite du quartier juif de 2 h.
 
 ## Parcourir la rue *avec nous* ?
 
@@ -108,7 +108,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 ## Pour *aller plus loin*
 
-- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h](https://mishpachatours.com/fr/tours/jewish-lyon/)
 - [La Grande Synagogue de Lyon](https://mishpachatours.com/fr/grande-synagogue-lyon/)
 - [Histoire juive de Lyon](https://mishpachatours.com/fr/jewish-history-lyon/)
 - [Synagogues et Shabbat à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)

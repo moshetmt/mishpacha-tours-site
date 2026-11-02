@@ -63,7 +63,7 @@ Source: https://mishpachatours.com/he/kosher-shabbat-meals-catering-lyon/ (HTML 
 
 ## מצרכים לשבת *בדירה*
 
-שלוש חנויות מכולת מוסמכות בידי בית הדין של ליון: Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, Hypercacher Garibaldi החדשה, 46 rue Garibaldi, 69006 Lyon, ו-Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. ל-Lilly Market יש חנות שנייה באקולי (Écully). התקשרו, וקנו ביום חמישי או ביום שישי בבוקר. שלוש קצביות נמצאות גם הן ברשימה: [כל הכתובות הכשרות בליון](https://mishpachatours.com/kosher-restaurants-lyon/).
+שלוש חנויות מכולת מוסמכות בידי בית הדין של ליון: Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, Hypercacher Garibaldi החדשה, 46 rue Garibaldi, 69006 Lyon, ו-Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. ל-Lilly Market יש חנות שנייה באקולי (Écully). התקשרו, וקנו ביום חמישי או ביום שישי בבוקר. שלוש קצביות נמצאות גם הן ברשימה: [כל הכתובות הכשרות בליון](https://mishpachatours.com/he/kosher-restaurants-lyon/).
 
 ## קייטרינג וחנויות מכולת *על המפה*
 

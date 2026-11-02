@@ -35,9 +35,10 @@ También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kashe
 
 ## Kosher *en Annecy*
 
-- **Tienda o restaurante kosher.** El mismo artículo afirma que Annecy no tiene ninguna tienda ni ningún restaurante kosher, y que los residentes compran la comida kosher en ciudades cercanas. Traiga su comida desde Lyon o Ginebra, o deje que le entreguemos las comidas.
+- **Una sinagoga.** 18 rue de Narvik, 74000 Annecy.
+- **Tienda o restaurante kosher.** Traiga su comida desde Lyon o Ginebra, o deje que le entreguemos las comidas.
 - **Una casa Chabad.** Nuestro equipo trabaja bajo la red Chabad de los Alpes.
-- **Tamaño de la comunidad.** El artículo la sitúa en unas 50 familias. Es una comunidad pequeña, por lo que un minián de visita debe formarse con antelación.
+- **Tamaño de la comunidad.** Es una comunidad pequeña, por lo que un minián de visita debe formarse con antelación.
 
 ## Verano en el lago, *invierno en los Aravis*
 
@@ -132,7 +133,7 @@ Nuestro equipo kosher con base en los Alpes cocina bajo la red Chabad de los Alp
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 habitaciones con baño · jacuzzi y sauna](https://mishpachatours.com/es/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscina climatizada](https://mishpachatours.com/es/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · baño nórdico](https://mishpachatours.com/es/kosher-chalet-courchevel-renard-argente/)
 
 [Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 

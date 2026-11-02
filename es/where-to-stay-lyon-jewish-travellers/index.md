@@ -43,11 +43,11 @@ No decimos lo que hace ningún hotel. Plantee estas preguntas al hotel antes de 
 
 ## Hoteles *kosher*
 
-Lyon no tiene ningún hotel kosher que conozcamos. Si usted conoce alguno, díganoslo y lo añadimos. Sin él, planifique las comidas de Shabat antes de llegar: vea [catering kosher y comidas de Shabat en Lyon](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/).
+Lyon no tiene ningún hotel kosher que conozcamos. Si usted conoce alguno, díganoslo y lo añadimos. Sin él, planifique las comidas de Shabat antes de llegar: vea [catering kosher y comidas de Shabat en Lyon](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/).
 
 ## Combine su alojamiento con *su Shabat*
 
-Elija primero la sinagoga y después el hotel. Los horarios de oración y las direcciones están en nuestra página [Shabat en Lyon](https://mishpachatours.com/shabbat-in-lyon/) y en la página de [sinagogas de Lyon](https://mishpachatours.com/synagogues-lyon/) .
+Elija primero la sinagoga y después el hotel. Los horarios de oración y las direcciones están en nuestra página [Shabat en Lyon](https://mishpachatours.com/es/shabbat-in-lyon/) y en la página de [sinagogas de Lyon](https://mishpachatours.com/es/synagogues-lyon/) .
 
 ## Alojarse en Lyon: *preguntas*
 

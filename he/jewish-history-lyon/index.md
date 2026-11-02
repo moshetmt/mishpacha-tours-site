@@ -18,7 +18,9 @@ Source: https://mishpachatours.com/he/jewish-history-lyon/ (HTML version). Every
 
 יהודים חיו בליון כבר במאה התשיעית. הבישוף אגובארד ניסה לכפות המרות דת בסביבות שנת 820. בשנת 1250 גירש הארכיבישוף פיליפ מסבויה את הקהילה, שחיה אז ברחוב פראשה (rue Ferrachat) של ימינו. קהילה חדשה קמה במחצית השנייה של המאה ה-14. היא שילמה מסים עירוניים, והעיר מינתה פקידים שיטפלו בה. ההיסטוריה הזאת מסופרת במקום, [בסיור הרגלי בעקבות יהדות ליון](https://mishpachatours.com/jewish-lyon-tours/).
 
-הקהילה הזו חיה ב[רחוב ז'ויברי (rue Juiverie)](https://mishpachatours.com/rue-juiverie-lyon/), למרגלות גבעת פורביאר. הרחוב שמר על שמו. ב-1394 גירש המלך שארל השישי את היהודים מממלכת צרפת, ועיריית ליון קובעת את סוף הקהילה שלה לאותה שנה. האנציקלופדיה יודאיקה מציינת שליון עדיין לא הייתה חלק מהממלכה ומתארכת את הסוף לסביבות 1420, כשרוב המשפחות עברו לטרבו (Trévoux) הסמוכה.
+הקהילה הזו חיה ב[רחוב ז'ויברי (rue Juiverie)](https://mishpachatours.com/he/rue-juiverie-lyon/), למרגלות גבעת פורביאר. הרחוב שמר על שמו. ב-1394 גירש המלך שארל השישי את היהודים מממלכת צרפת, ועיריית ליון קובעת את סוף הקהילה שלה לאותה שנה. האנציקלופדיה יודאיקה מציינת שליון עדיין לא הייתה חלק מהממלכה ומתארכת את הסוף לסביבות 1420, כשרוב המשפחות עברו לטרבו (Trévoux) הסמוכה.
+
+על התוצאה כולם מסכימים: במשך כשלוש מאות שנה לא מתועדת שום קהילה יהודית בליון.
 
 ## החזרה, *המאות ה-18 וה-19*
 
@@ -26,7 +28,7 @@ Source: https://mishpachatours.com/he/jewish-history-lyon/ (HTML version). Every
 
 הצו מ-28 בספטמבר 1791 איפשר ליהודים אשכנזים מאלזס להתיישב בחופשיות, והקהילה גדלה. עד 1840-1841 היא מנתה 760 חברים.
 
-הסימן הגדול לצמיחה הזו הוא [בית הכנסת הגדול](https://mishpachatours.com/grande-synagogue-lyon/) ברציף טילסיט (quai Tilsitt). אברהם הירש תכנן אותו. אבן הפינה הונחה ב-1863 והמבנה נחנך ב-23 ביוני 1864. הוא פועל לפי הנוסח הקונסיסטוריאלי, המבנה שארגן את הפולחן היהודי בצרפת במאה ה-19.
+הסימן הגדול לצמיחה הזו הוא [בית הכנסת הגדול](https://mishpachatours.com/he/grande-synagogue-lyon/) ברציף טילסיט (quai Tilsitt). אברהם הירש תכנן אותו. אבן הפינה הונחה ב-1863 והמבנה נחנך ב-23 ביוני 1864. הוא פועל לפי הנוסח הקונסיסטוריאלי, המבנה שארגן את הפולחן היהודי בצרפת במאה ה-19.
 
 ## המאה העשרים: *שתי קהילות, ואחר כך אחת*
 
@@ -40,8 +42,8 @@ Source: https://mishpachatours.com/he/jewish-history-lyon/ (HTML version). Every
 
 בנובמבר 1942 כבשו הגרמנים את האזור הדרומי, וקלאוס ברבי, בן 29, קיבל את הפיקוד על הגסטאפו בליון. שלושה מקומות מספרים מה קרה אחר כך.
 
-- **ה-CHRD.** במארס 1943 החרים הגסטאפו את בית הספר הצבאי לבריאות לשעבר בשדרות ברתלו 14 (14 avenue Berthelot) והשתמש בו לחקירת לוחמי התנגדות ויהודים. מאז 1992 שוכן בו המרכז להיסטוריה של ההתנגדות והגירוש (Centre d'histoire de la résistance et de la déportation). [קראו על ה-CHRD](https://mishpachatours.com/chrd-lyon/).
-- **מונלוק.** הגרמנים השתלטו על הכלא מפברואר 1943 עד אוגוסט 1944. כמעט 10,000 בני אדם נכלאו בו. אתר זיכרון לאומי נפתח בספטמבר 2010. [קראו על מונלוק](https://mishpachatours.com/montluc-prison-lyon/).
+- **ה-CHRD.** במארס 1943 החרים הגסטאפו את בית הספר הצבאי לבריאות לשעבר בשדרות ברתלו 14 (14 avenue Berthelot) והשתמש בו לחקירת לוחמי התנגדות ויהודים. מאז 1992 שוכן בו המרכז להיסטוריה של ההתנגדות והגירוש (Centre d'histoire de la résistance et de la déportation). [קראו על ה-CHRD](https://mishpachatours.com/he/chrd-lyon/).
+- **מונלוק.** הגרמנים השתלטו על הכלא מפברואר 1943 עד אוגוסט 1944. כמעט 10,000 בני אדם נכלאו בו. אתר זיכרון לאומי נפתח בספטמבר 2010. [קראו על מונלוק](https://mishpachatours.com/he/montluc-prison-lyon/).
 - **רחוב סנט-קתרין (rue Sainte-Catherine).** ב-9 בפברואר 1943 פשט הגסטאפו על משרד ה-UGIF במספר 12 ועצר 86 בני אדם. שמונים מהם גורשו.
 
 ברבי עצר גם את ז'אן מולן (Jean Moulin), נציגו של הגנרל דה גול בהתנגדות, ולפי הביוגרפיה שלו עינה אותו למוות.
@@ -98,7 +100,7 @@ Source: https://mishpachatours.com/he/jewish-history-lyon/ (HTML version). Every
 
 ## איזיה, *והמשפט*
 
-ב-6 באפריל 1944, בכפר איזיה במחוז אן (Ain), עצר הגסטאפו של ליון 44 ילדים יהודים ו-7 מאנשי הצוות שטיפלו בהם בבית שהסתיר אותם. הקבוצה נלקחה למונלוק, ולמחרת לדרנסי. כמעט כולם נרצחו באושוויץ-בירקנאו. סיפור הילדים מסופר ב[בית איזיה](https://mishpachatours.com/maison-izieu/), הנמצא במרחק שעה מליון בכביש.
+ב-6 באפריל 1944, בכפר איזיה במחוז אן (Ain), עצר הגסטאפו של ליון 44 ילדים יהודים ו-7 מאנשי הצוות שטיפלו בהם בבית שהסתיר אותם. הקבוצה נלקחה למונלוק, ולמחרת לדרנסי. כמעט כולם נרצחו באושוויץ-בירקנאו. סיפור הילדים מסופר ב[בית איזיה](https://mishpachatours.com/he/maison-izieu/), הנמצא במרחק שעה מליון בכביש.
 
 ברבי נעצר בלה פס (La Paz) בפברואר 1983 והוסגר לצרפת כעבור כמה ימים. משפטו נפתח בליון ב-11 במאי 1987. רצח ילדי איזיה היה מרכזי בתיק. ב-4 ביולי 1987 הורשע בפשעים נגד האנושות ונידון למאסר עולם. בין העדים היו ניצולים מהפשיטה ברחוב סנט-קתרין.
 
@@ -111,21 +113,21 @@ Source: https://mishpachatours.com/he/jewish-history-lyon/ (HTML version). Every
 החיים היהודיים בליון מאורגנים בכמה שכבות.
 
 - **הקונסיסטוריה (Consistoire).** הקונסיסטוריה של ליון (Consistoire de Lyon) מנהלת את בית הכנסת הגדול, והקונסיסטוריה הספרדית של ליון (Consistoire Israélite Sépharade de Lyon) מנהלת את נווה שלום.
-- **בית הדין של ליון (Beth Din de Lyon).** ההשגחה על הכשרות נמצאת בידי בית הדין של הקונסיסטוריה האזורית, שמעניק תעודה ל-36 מקומות אוכל וקנייה בליון, בוילרבאן ובאקולי (Écully). ראו [מסעדות כשרות בליון](https://mishpachatours.com/kosher-restaurants-lyon/).
+- **בית הדין של ליון (Beth Din de Lyon).** ההשגחה על הכשרות נמצאת בידי בית הדין של הקונסיסטוריה האזורית, שמעניק תעודה ל-36 מקומות אוכל וקנייה בליון, בוילרבאן ובאקולי (Écully). ראו [מסעדות כשרות בליון](https://mishpachatours.com/he/kosher-restaurants-lyon/).
 - **וילרבאן (Villeurbanne).** רוב המניינים השכונתיים נמצאים בוילרבאן, שבה מפעילה חב״ד גם בית כנסת, ישיבה ובית ספר.
-- **חב״ד.** ארבעה בתי חב״ד, במרכז העיר, ברובע ה-6, בוילרבאן ובקמפוס. ראו [חב״ד בליון](https://mishpachatours.com/chabad-lyon/).
+- **חב״ד.** ארבעה בתי חב״ד, במרכז העיר, ברובע ה-6, בוילרבאן ובקמפוס. ראו [חב״ד בליון](https://mishpachatours.com/he/chabad-lyon/).
 
-זמני התפילה מופיעים ב[דף בתי הכנסת שלנו](https://mishpachatours.com/synagogues-lyon/).[בית הקברות היהודי](https://mishpachatours.com/jewish-cemetery-lyon/) של לה מוש (La Mouche), בז'רלן (Gerland), הוא בית הקברות היהודי הפעיל היחיד בעיר.
+זמני התפילה מופיעים ב[דף בתי הכנסת שלנו](https://mishpachatours.com/he/synagogues-lyon/).[בית הקברות היהודי](https://mishpachatours.com/he/jewish-cemetery-lyon/) של לה מוש (La Mouche), בז'רלן (Gerland), הוא בית הקברות היהודי הפעיל היחיד בעיר.
 
 ## איפה *לראות*
 
-- [רחוב ז'ויברי](https://mishpachatours.com/rue-juiverie-lyon/): הרחוב מימי הביניים. לא נראה בו דבר יהודי מימי הביניים. השם הוא הסימן שנשאר.
-- [בית הכנסת הגדול](https://mishpachatours.com/grande-synagogue-lyon/): סגור למבקרים מחוץ לימי המורשת האירופיים.[סיור ליון היהודית](https://mishpachatours.com/tours/jewish-lyon/) נכנס פנימה, בכפוף לשעות הפתיחה ולאבטחה ביום עצמו.
-- [ה-CHRD](https://mishpachatours.com/chrd-lyon/) ו[מונלוק](https://mishpachatours.com/montluc-prison-lyon/): המלחמה בליון. אנו מבקרים בהם בימים נפרדים: ראו את[הביקור ב-CHRD](https://mishpachatours.com/tours/memory-chrd/) ואת[הביקור במונלוק ובנווה שלום](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/).
-- [בית איזיה (Maison d'Izieu)](https://mishpachatours.com/maison-izieu/): הטיול ליום אחד, במרחק שעה מליון. ראו את[יום איזיה](https://mishpachatours.com/tours/izieu/).
-- [כשרות בליון](https://mishpachatours.com/kosher-restaurants-lyon/) ואת[בית הקברות היהודי](https://mishpachatours.com/jewish-cemetery-lyon/): הקהילה החיה.
+- [רחוב ז'ויברי](https://mishpachatours.com/he/rue-juiverie-lyon/): הרחוב מימי הביניים. לא נראה בו דבר יהודי מימי הביניים. השם הוא הסימן שנשאר.
+- [בית הכנסת הגדול](https://mishpachatours.com/he/grande-synagogue-lyon/): סגור למבקרים מחוץ לימי המורשת האירופיים.[סיור ליון היהודית](https://mishpachatours.com/he/tours/jewish-lyon/) נכנס פנימה, בכפוף לשעות הפתיחה ולאבטחה ביום עצמו.
+- [ה-CHRD](https://mishpachatours.com/he/chrd-lyon/) ו[מונלוק](https://mishpachatours.com/he/montluc-prison-lyon/): המלחמה בליון. אנו מבקרים בהם בימים נפרדים: ראו את[הביקור ב-CHRD](https://mishpachatours.com/he/tours/memory-chrd/) ואת[הביקור במונלוק ובנווה שלום](https://mishpachatours.com/he/tours/memory-montluc-neveh-shalom/).
+- [בית איזיה (Maison d'Izieu)](https://mishpachatours.com/he/maison-izieu/): הטיול ליום אחד, במרחק שעה מליון. ראו את[יום איזיה](https://mishpachatours.com/he/tours/izieu/).
+- [כשרות בליון](https://mishpachatours.com/he/kosher-restaurants-lyon/) ואת[בית הקברות היהודי](https://mishpachatours.com/he/jewish-cemetery-lyon/): הקהילה החיה.
 
-אם יש לכם רק כמה שעות, בחרו ב[סיור ליון היהודית](https://mishpachatours.com/tours/jewish-lyon/). זהו סיור רגלי של שעתיים וחצי עם מדריכה יהודית, בהקפדה על כשרות ולעולם לא בשבת. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית.
+אם יש לכם רק כמה שעות, בחרו ב[סיור ליון היהודית](https://mishpachatours.com/he/tours/jewish-lyon/). זהו סיור רגלי של שעתיים עם מדריכה יהודית, בהקפדה על כשרות ולעולם לא בשבת. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית.
 
 ## שאלות נפוצות
 
@@ -161,7 +163,7 @@ Source: https://mishpachatours.com/he/jewish-history-lyon/ (HTML version). Every
 
 ## להמשך *קריאה*
 
-- [סיור ליון היהודית, שעתיים וחצי](https://mishpachatours.com/he/tours/jewish-lyon/)
+- [סיור ליון היהודית, שעתיים](https://mishpachatours.com/he/tours/jewish-lyon/)
 - [בית הכנסת הגדול של ליון](https://mishpachatours.com/he/grande-synagogue-lyon/)
 - [רחוב ז'ויברי וליון היהודית של ימי הביניים](https://mishpachatours.com/he/rue-juiverie-lyon/)
 - [בתי כנסת ושבת בליון](https://mishpachatours.com/he/synagogues-lyon/)

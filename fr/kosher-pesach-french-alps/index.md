@@ -20,7 +20,7 @@ Pessah à la montagne, sans rien cachériser vous-même.
 
 Le chalet est cachérisé pour Pessah avant votre arrivée. Les sedarim, les repas de la fête et ceux de Chabbat sont préparés pour vous, et un minyan vient sur demande. Disponibilités et détails envoyés avec votre devis. Prix sur demande.
 
-Le séjour est devisé et facturé par notre équipe casher basée dans les Alpes.
+Un programme de Pessah pour votre seule famille ou votre seul groupe, dans un chalet privé des Alpes françaises. Vous comparez un programme de Pessah à l’hôtel et un chalet rien qu’à vous ? Envoyez vos dates : vous recevez un devis écrit. Le séjour est devisé et facturé par notre équipe casher basée dans les Alpes.
 
 ## Ce que comprend un séjour *de Pessah*
 

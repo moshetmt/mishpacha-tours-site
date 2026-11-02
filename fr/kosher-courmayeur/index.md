@@ -38,7 +38,6 @@ La surveillance est rarement indiquée : renseignez-vous avant de réserver.
 - **Hôtel, restaurant ou commerce casher à Courmayeur.** Aucun trouvé. Les répertoires de restaurants de la ville et des pistes de Checrouit mentionnent des menus végétariens et sans gluten, jamais casher. Prévoyez d’apporter votre nourriture ou de vous la faire livrer.
 - **Beth 'Habad ou synagogue dans le val d’Aoste.** Aucun trouvé à Courmayeur ni à Aoste. La présence juive la plus proche se trouve dans les villes : Turin, à environ deux heures, a une communauté juive organisée, et Milan, à environ trois heures, a un centre 'Habad qui accueille des repas de Shabbat. Côté français, la présence 'Habad la plus proche que nous connaissons est à Megève : voir [casher à Megève](https://mishpachatours.com/fr/kosher-megeve/).
 - **L’autre côté du tunnel.** Chamonix est à 11,6 km par le tunnel du Mont-Blanc et n’a pas de beth 'Habad non plus. Si vous hésitez entre les deux, lisez [casher à Chamonix](https://mishpachatours.com/fr/kosher-chamonix/). Les services que nous organisons sont les mêmes des deux côtés.
-- **Saison.** Vérifiez avant de prendre un forfait.
 
 ## L’hiver et l’été *dans la vallée*
 
@@ -132,7 +131,7 @@ Notre équipe casher basée dans les Alpes cuisine sous le réseau 'Habad des Al
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 chambres avec salle d'eau · jacuzzi et sauna](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscine chauffée](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · bain nordique](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 

@@ -80,16 +80,16 @@ Cada lugar indica duración, niños, comida kosher cerca y día de cierre; el re
 
 ## El Lyon judío *y la memoria*
 
-- **La Gran Sinagoga: el edificio al que le llevamos dentro.** Inaugurada en 1864 y cerrada al público, es el único edificio al que le llevamos dentro, en nuestra visita del Lyon judío de 2 h 30, sujeta al horario y a la seguridad.  
-  2 h 30 con la visita · Niños desde unos 8 años · Kosher 2.º dist. · sin visitantes en ShabatLeer más
+- **La Gran Sinagoga: el edificio al que le llevamos dentro.** Inaugurada en 1864 y cerrada al público, es el único edificio al que le llevamos dentro, en nuestra visita del Lyon judío de 2 h, sujeta al horario y a la seguridad.  
+  2 h con la visita · Niños desde unos 8 años · Kosher 2.º dist. · sin visitantes en ShabatLeer más
 
-  Inaugurada en 1864 en el 13 quai Tilsitt, sigue siendo una sinagoga en activo y está cerrada a los visitantes fuera de las Jornadas del Patrimonio. Mishpacha Tours posee la autorización especial y lleva a grupos privados al interior en su [visita del Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/) de 2 h 30, sujeta al horario y a la seguridad del día. Es la única visita de esta página que no puede hacer por su cuenta. [La Gran Sinagoga, en detalle](https://mishpachatours.com/es/grande-synagogue-lyon/).  
-  **Duración:** 2 h 30 con la visita. **Niños:** a partir de unos ocho años. **Kosher:** el 2.º distrito, a pocos pasos. Vea [Kosher en Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/). **Shabat:** se celebran oficios, pero no se admiten visitantes; nuestras visitas son de domingo a viernes por la mañana.
+  Inaugurada en 1864 en el 13 quai Tilsitt, sigue siendo una sinagoga en activo y está cerrada a los visitantes fuera de las Jornadas del Patrimonio. Mishpacha Tours posee la autorización especial y lleva a grupos privados al interior en su [visita del Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/) de 2 h, sujeta al horario y a la seguridad del día. Es la única visita de esta página que no puede hacer por su cuenta. [La Gran Sinagoga, en detalle](https://mishpachatours.com/es/grande-synagogue-lyon/).  
+  **Duración:** 2 h con la visita. **Niños:** a partir de unos ocho años. **Kosher:** el 2.º distrito, a pocos pasos. Vea [Kosher en Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/). **Shabat:** se celebran oficios, pero no se admiten visitantes; nuestras visitas son de domingo a viernes por la mañana.
 - **El CHRD: el museo de la memoria.** El museo de la resistencia y la deportación, en la antigua sede de la Gestapo.  
-  2 h 30 · Niños adolescentes · Kosher 6.º o 2.º dist. · cerrado lunes y martesLeer más
+  2 h · Niños adolescentes · Kosher 6.º o 2.º dist. · cerrado lunes y martesLeer más
 
   El Centre d’histoire de la résistance et de la déportation, en el 14 avenue Berthelot, en la antigua sede de la Gestapo en Lyon. Nuestra visita privada sigue el hilo judío de la ocupación: las redadas, las deportaciones, los niños de Izieu. [El CHRD, en detalle](https://mishpachatours.com/es/chrd-lyon/).  
-  **Duración:** 2 h 30. **Niños:** adolescentes; para los más pequeños, hable antes con nosotros. **Kosher:** el 6.º o el 2.º distrito, en metro. Vea [Kosher en Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/). **Shabat:** abierto de miércoles a domingo, de 10:00 a 18:00, cerrado lunes y martes. Visitamos de miércoles a viernes o el domingo.
+  **Duración:** 2 h. **Niños:** adolescentes; para los más pequeños, hable antes con nosotros. **Kosher:** el 6.º o el 2.º distrito, en metro. Vea [Kosher en Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/). **Shabat:** abierto de miércoles a domingo, de 10:00 a 18:00, cerrado lunes y martes. Visitamos de miércoles a viernes o el domingo.
 - **Izieu: una visita de un día entero.** El memorial de los 44 niños judíos detenidos el 6 de abril de 1944, a una hora de Lyon por carretera.  
   un día entero · Niños desde unos 8 años · Kosher lleve su comida · compruebe el horario del memorialLeer más
 
@@ -143,7 +143,7 @@ Respuesta el mismo día, nunca en Shabat.
 
 ## Siga *leyendo*
 
-- [Visita del Lyon judío, 2 h 30](https://mishpachatours.com/es/tours/jewish-lyon/)
+- [Visita del Lyon judío, 2 h](https://mishpachatours.com/es/tours/jewish-lyon/)
 - [El tiempo en Lyon por estaciones y previsión de la semana](https://mishpachatours.com/es/lyon-weather/)
 - [Shabat en Lyon](https://mishpachatours.com/es/shabbat-in-lyon/)
 - [Furgoneta y traslados](https://mishpachatours.com/es/kosher-van-transfers/)

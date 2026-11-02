@@ -73,6 +73,40 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aurore Boréale, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**suites + salon TV
+- **6 à 8**personnes
+- **Piscine chauffée**hammam, bain à remous
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Renard Argenté, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
+
+- **2**suites
+- **2 à 6**personnes
+- **Bain nordique**chauffé à 40 °C
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ### [Chalet Loup Blanc, près de Megève](https://mishpachatours.com/fr/kosher-chalet-megeve/)
 
 - **10 + 2**chambres twin + chambres sous le toit
@@ -106,6 +140,23 @@ Val Thorens · avec Winter Prestige
 Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Aigle Royal, Les Ménuires](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)
+
+- **7**suites
+- **Jusqu'à 15**personnes
+- **Spa**jacuzzi et sauna
+- **7 min**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Les Ménuires · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
 
 ## Tout le casher, *une seule demande*
 
@@ -221,7 +272,7 @@ Oui. Chalet, chef ou repas livrés, transferts, Shabbat, fêtes, minyan : plus l
 
 Nous atterrissons à Lyon avant de monter. Y a-t-il quelque chose à faire ?
 
-Oui. Une visite privée de 3 heures du patrimoine juif de Lyon avec la Grande Synagogue, entre l’avion et la route vers la station, 390 € par groupe : [l’Escale à Lyon](https://mishpachatours.com/tours/stopover/). Les courses casher avant de monter sont sur [Lyon, la porte des Alpes](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
+Oui. Une visite privée de 3 heures du patrimoine juif de Lyon avec la Grande Synagogue, entre l’avion et la route vers la station, 390 € par groupe : [l’Escale à Lyon](https://mishpachatours.com/fr/tours/stopover/). Les courses casher avant de monter sont sur [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
 
 ## Votre semaine casher dans les Alpes, *organisée*.
 

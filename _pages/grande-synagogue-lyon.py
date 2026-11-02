@@ -4,7 +4,7 @@ PAGE = dict(
   title="Grande Synagogue of Lyon: How to Visit",
   desc="The Grande Synagogue of Lyon, built 1864, is closed to visitors outside the Heritage Days. See how to get in, the prayer times and the address.",
   h1="Grande Synagogue of Lyon", ital="inside the building closed to visitors",
-  intro="The Grande Synagogue of Lyon, 13 quai Tilsitt on the bank of the Saône, was inaugurated in 1864 and is still a working synagogue. It is closed to visitors outside the Heritage Days. Mishpacha Tours holds the special authorisation required to enter and takes private groups inside on its 2 h 30 Jewish Lyon tour, 290 € per group, subject to opening hours and security on the day.",
+  intro="The Grande Synagogue of Lyon, 13 quai Tilsitt on the bank of the Saône, was inaugurated in 1864 and is still a working synagogue. It is closed to visitors outside the Heritage Days. Mishpacha Tours holds the special authorisation required to enter and takes private groups inside on its 2-hour Jewish Lyon tour, 290 € per group, subject to opening hours and security on the day.",
   chips=["Inaugurated 1864", "13 quai Tilsitt, Lyon 2e", "Architect Abraham Hirsch", "Checked 7 October 2026"],
   illus="line-synagogue.png",
   crumb=("../jewish-lyon-guide/", "Jewish Lyon guide"),
@@ -27,7 +27,7 @@ PAGE = dict(
       ("We meet in the Vieux Lyon", "The walk starts on rue Juiverie, in the streets where the medieval Jewish community lived. Your guide tells that story first, so the synagogue makes sense when you reach it."),
       ("We walk to quai Tilsitt", "We cross the Saône and reach 13 quai Tilsitt on foot. Your guide checks the security situation before anyone goes near the door."),
       ("We go inside", "Subject to the day's opening hours and security, we enter. Your guide explains what you see, answers your questions and lets you take the time you need."),
-      ("We finish on rue Sainte-Catherine", "The walk ends where the war story of Lyon's Jews meets the Resistance. This is the Jewish Lyon tour, 2 hours 30 minutes.")]),
+      ("We finish on rue Sainte-Catherine", "The walk ends where the war story of Lyon's Jews meets the Resistance. This is the Jewish Lyon tour, 2 hours.")]),
     dict(type="text", h2="What you will <i>see inside</i>", html=(
       "<ul>"
       "<li><b>The Holy Ark.</b> The focal point of the hall, photographed on this page.</li>"
@@ -54,7 +54,7 @@ PAGE = dict(
       ("What if the synagogue is closed on the day of my tour?", "Your guide checks with you before the walk begins. If entry is not possible, the rest of the tour runs as planned and she tells you what you would have seen.")]),
     dict(type="cta", txt="Want to go <i>inside</i> with us?", msg="Hello, I would like to ask about the Jewish Lyon tour and the Grande Synagogue visit. Dates: / Number of people: / Preferred language:"),
   ],
-  related=[("../tours/jewish-lyon/", "Jewish Lyon tour, 2 hours 30 minutes"), ("../synagogues-lyon/", "Synagogues and Shabbat in Lyon"), ("../rue-juiverie-lyon/", "Rue Juiverie and medieval Jewish Lyon"), ("../jewish-history-lyon/", "Jewish history of Lyon")],
+  related=[("../tours/jewish-lyon/", "Jewish Lyon tour, 2 hours"), ("../synagogues-lyon/", "Synagogues and Shabbat in Lyon"), ("../rue-juiverie-lyon/", "Rue Juiverie and medieval Jewish Lyon"), ("../jewish-history-lyon/", "Jewish history of Lyon")],
   source="Sources: consistoiredelyon.fr; lyon.fr; fr.wikipedia.org (Grande synagogue de Lyon).",
   jsonld={'@context': 'https://schema.org', '@type': ['TouristAttraction', 'Synagogue'], '@id': 'https://mishpachatours.com/grande-synagogue-lyon/#place', 'name': 'Grande Synagogue de Lyon', 'alternateName': 'Grande Synagogue of Lyon', 'url': 'https://mishpachatours.com/grande-synagogue-lyon/', 'description': 'Neo-Byzantine synagogue inaugurated on 23 June 1864, architect Abraham Hirsch, listed as a historic monument on 5 December 1984. Closed to visitors outside the Heritage Days; Mishpacha Tours takes private groups inside by special authorisation.', 'address': {'@type': 'PostalAddress', 'streetAddress': '13 quai Tilsitt', 'postalCode': '69002', 'addressLocality': 'Lyon', 'addressCountry': 'FR'}, 'telephone': '+33478371343', 'publicAccess': False, 'sameAs': ['https://fr.wikipedia.org/wiki/Grande_synagogue_de_Lyon'], 'geo': {'@type': 'GeoCoordinates', 'latitude': 45.757235, 'longitude': 4.8275188}},
   ticket=True,

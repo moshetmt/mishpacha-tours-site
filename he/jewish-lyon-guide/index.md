@@ -85,13 +85,23 @@ Source: https://mishpachatours.com/he/jewish-lyon-guide/ (HTML version). Every p
 
 פתחו](https://mishpachatours.com/he/kosher-van-transfers/)[### כשר בואל טורנס
 
+שף, ארוחות, שבת, חגים, מניין בואל טורנס: מה אנחנו מסדרים
+
 פתחו](https://mishpachatours.com/he/kosher-val-thorens/)[### כשר בקורשבל
+
+שף, ארוחות, שבת, חגים, מניין בקורשבל: מה אנחנו מסדרים
 
 פתחו](https://mishpachatours.com/he/kosher-courchevel/)[### כשר במג'ב
 
+שף, ארוחות, שבת, חגים, מניין במג'ב: מה אנחנו מסדרים
+
 פתחו](https://mishpachatours.com/he/kosher-megeve/)[### כשר באלפ ד'ואז
 
+שף, ארוחות, שבת, חגים, מניין באלפ ד'ואז: מה אנחנו מסדרים
+
 פתחו](https://mishpachatours.com/he/kosher-alpe-dhuez/)[### כשר בלה דז אלפ
+
+שף, ארוחות, שבת, חגים, מניין בלה דז אלפ: מה אנחנו מסדרים
 
 פתחו](https://mishpachatours.com/he/kosher-les-deux-alpes/)[### צ'אלה קינג דייוויד, לה דז אלפ
 
@@ -121,7 +131,47 @@ Source: https://mishpachatours.com/he/jewish-lyon-guide/ (HTML version). Every p
 
 מסוף נובמבר עד מאי: שף, ארוחות, שבת, חגים, מניין בואל דיזר
 
-פתחו](https://mishpachatours.com/he/kosher-val-disere/)[### עצירת ביניים, 3 שעות
+פתחו](https://mishpachatours.com/he/kosher-val-disere/)[### כשר בצרמט
+
+כפר ללא מכוניות מתחת להר מטרהורן, בחורף ובקיץ: שף, ארוחות, שבת, חגים, מניין
+
+פתחו](https://mishpachatours.com/he/kosher-zermatt/)[### כשר בסנט מוריץ
+
+האנגדין, בחורף ובקיץ: שף, ארוחות, שבת, חגים, מניין
+
+פתחו](https://mishpachatours.com/he/kosher-st-moritz/)[### כשר בקראן מונטנה
+
+הרמה השטופה בשמש של הוואלה, שעתיים מז'נבה: שף, ארוחות, שבת, חגים, מניין
+
+פתחו](https://mishpachatours.com/he/kosher-crans-montana/)[### כשר בורבייה
+
+ארבעת העמקים מעל עמק הרון, בחורף ובקיץ: שף פרטי, שבת, חגים, מניין
+
+פתחו](https://mishpachatours.com/he/kosher-verbier/)[### כשר בגשטאד
+
+אזור זאנן וקרחון Glacier 3000, בחורף ובקיץ: שף פרטי, שבת, חגים, מניין
+
+פתחו](https://mishpachatours.com/he/kosher-gstaad/)[### כשר בדאבוס
+
+העיר הגבוהה ביותר באלפים, פרסן ויאקובסהורן, בחורף ובקיץ: שף פרטי, שבת, חגים, מניין
+
+פתחו](https://mishpachatours.com/he/kosher-davos/)[### כשר בצרביניה
+
+הצד האיטלקי של המטרהורן, שלג מנובמבר עד מאי: שף, ארוחות, שבת, חגים, מניין
+
+פתחו](https://mishpachatours.com/he/kosher-cervinia/)[### כשר בקורמאיור
+
+הצד האיטלקי של המון בלאן, אתר הסקי האיטלקי הקרוב ביותר לליון: שף, ארוחות, שבת, חגים, מניין
+
+פתחו](https://mishpachatours.com/he/kosher-courmayeur/)[### כשר בקורטינה ד'אמפצו
+
+הדולומיטים, בחורף ובקיץ: שף, ארוחות, שבת, חגים, מניין
+
+פתחו](https://mishpachatours.com/he/kosher-cortina/)[### סקי כשר, בכל יעד
+
+אוסטריה, צפון אמריקה או כל אתר שאינו ברשימה שלנו: שף פרטי שנוסע איתכם, שבת, מניין, הסעות
+
+פתחו](https://mishpachatours.com/he/kosher-ski-anywhere/)[### עצירת ביניים, 3 שעות
 
 ליון היהודית ובית הכנסת הגדול בין הטיסה לנסיעה לאתר. 390 € לקבוצה
 

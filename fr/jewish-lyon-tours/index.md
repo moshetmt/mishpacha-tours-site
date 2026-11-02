@@ -2,6 +2,10 @@
 
 Source: https://mishpachatours.com/fr/jewish-lyon-tours/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
+# Dans la Grande Synagogue de Lyon. *La seule visite qui vous y fait entrer. Privée, strictement casher, construite avec vous.*
+
+Cette visite guidée juive de Lyon vous ouvre la Grande Synagogue du quai Tilsitt, fermée au public en dehors des Journées européennes du patrimoine. Votre guide est juive, pratiquante et membre de la communauté lyonnaise.
+
 ## Lyon, réservé en *un message*
 
 Une demande, nous organisons tout, de la table au transfert.
@@ -36,10 +40,6 @@ Une présence discrète auprès de votre groupe, seulement si vous la demandez.
 
 [Voir le détail](https://mishpachatours.com/fr/is-lyon-safe-for-jewish-visitors/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20une%20escorte%20priv%C3%A9e%20discr%C3%A8te%20%C3%A0%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
-# Dans la Grande Synagogue de Lyon. *La seule visite qui vous y fait entrer. Privée, strictement casher, construite avec vous.*
-
-Cette visite guidée juive de Lyon vous ouvre la Grande Synagogue du quai Tilsitt, fermée au public en dehors des Journées européennes du patrimoine. Votre guide est juive, pratiquante et membre de la communauté lyonnaise.
-
 - **La seule visite à l’intérieur de**la Grande Synagogue de Lyon
 - **Guide-conférencière**carte professionnelle française
 - **Strictement casher**shomer Shabbat
@@ -53,7 +53,7 @@ Votre groupe seul, en anglais, en français ou en espagnol. Prix pour l’ensemb
 
 Visite de ville
 
-Vieux Lyon2 h 30
+Vieux Lyon2 h
 
 ### [Visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/)
 
@@ -222,23 +222,23 @@ Izieu
 
 ## Avant de *venir*
 
-[Le guide complet](https://mishpachatours.com/jewish-lyon-guide/)
+[Le guide complet](https://mishpachatours.com/fr/jewish-lyon-guide/)
 
 [### Casher à Lyon
 
-31 adresses certifiées, sur la carte](https://mishpachatours.com/kosher-restaurants-lyon/)
+31 adresses certifiées, sur la carte](https://mishpachatours.com/fr/kosher-restaurants-lyon/)
 [### Synagogues et Shabbat
 
-Horaires de prière, allumage des bougies cette semaine](https://mishpachatours.com/synagogues-lyon/)
+Horaires de prière, allumage des bougies cette semaine](https://mishpachatours.com/fr/synagogues-lyon/)
 [### Maisons Habad
 
-Huit centres, une table de Shabbat sur demande](https://mishpachatours.com/chabad-lyon/)
+Huit centres, une table de Shabbat sur demande](https://mishpachatours.com/fr/chabad-lyon/)
 [### Le cimetière juif
 
-La Mouche, depuis 1795](https://mishpachatours.com/jewish-cemetery-lyon/)
+La Mouche, depuis 1795](https://mishpachatours.com/fr/jewish-cemetery-lyon/)
 [### Autour de Lyon et dans les Alpes
 
-Neuf villes, trois stations de ski](https://mishpachatours.com/jewish-life-around-lyon/)
+Neuf villes, trois stations de ski](https://mishpachatours.com/fr/jewish-life-around-lyon/)
 [### Dans la Grande Synagogue
 
 La seule visite qui vous y fait entrer](https://mishpachatours.com/fr/tours/jewish-lyon/)

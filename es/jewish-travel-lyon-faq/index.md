@@ -31,39 +31,39 @@ Planifique sus traslados antes del encendido de velas. Cuando empieza el Shabat,
 
 ¿Se puede ir a pie entre la sinagoga, el casco antiguo y la Presqu'île?
 
-Sí. La Gran Sinagoga del quai Tilsitt está a poca distancia a pie del Vieux Lyon y. Villeurbanne queda mucho más lejos: vea [dónde alojarse en Lyon](https://mishpachatours.com/where-to-stay-lyon-jewish-travellers/).
+Sí. La Gran Sinagoga del quai Tilsitt está a poca distancia a pie del Vieux Lyon y. Villeurbanne queda mucho más lejos: vea [dónde alojarse en Lyon](https://mishpachatours.com/es/where-to-stay-lyon-jewish-travellers/).
 
 ## Kosher, Shabat *y comunidad*
 
 ¿Dónde puedo comer kosher en Lyon?
 
-El Beth Din de Lyon certifica 36 lugares en Lyon, Villeurbanne y Écully: restaurantes, panaderías, carnicerías, tiendas de alimentación y proveedores de catering. La mayoría están en Villeurbanne y en el 6.º distrito. El Vieux Lyon no tiene ninguno. Vea [restaurantes kosher en Lyon](https://mishpachatours.com/kosher-restaurants-lyon/).
+El Beth Din de Lyon certifica 36 lugares en Lyon, Villeurbanne y Écully: restaurantes, panaderías, carnicerías, tiendas de alimentación y proveedores de catering. La mayoría están en Villeurbanne y en el 6.º distrito. El Vieux Lyon no tiene ninguno. Vea [restaurantes kosher en Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/).
 
 ¿Puedo conseguir una comida de Shabat?
 
-Sí, con antelación. Encargue a un proveedor de catering certificado por el Beth Din antes del jueves, o pida una comida a una casa Chabad. Vea [catering kosher y comidas de Shabat](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/).
+Sí, con antelación. Encargue a un proveedor de catering certificado por el Beth Din antes del jueves, o pida una comida a una casa Chabad. Vea [catering kosher y comidas de Shabat](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/).
 
 ¿Hay un hotel kosher y hay un eruv?
 
-Nuestra página [Shabat en Lyon](https://mishpachatours.com/shabbat-in-lyon/) explica cómo organizar el fin de semana.
+Nuestra página [Shabat en Lyon](https://mishpachatours.com/es/shabbat-in-lyon/) explica cómo organizar el fin de semana.
 
 ¿Dónde puedo rezar y hay un minyan?
 
-La Gran Sinagoga (rito consistorial) y Neveh Chalom (sefardí) celebran servicios, y también ocho casas Chabad y 25 sinagogas de barrio. Vea [sinagogas en Lyon](https://mishpachatours.com/synagogues-lyon/).
+La Gran Sinagoga (rito consistorial) y Neveh Chalom (sefardí) celebran servicios, y también ocho casas Chabad y 25 sinagogas de barrio. Vea [sinagogas en Lyon](https://mishpachatours.com/es/synagogues-lyon/).
 
 ¿Hay una mikve?
 
-Sí, varias. La Mikvah Haya Mouchka, 60 rue Crillon, figura como abierta todas las noches. Vea [mikve en Lyon](https://mishpachatours.com/mikveh-lyon/) para las direcciones y los teléfonos.
+Sí, varias. La Mikvah Haya Mouchka, 60 rue Crillon, figura como abierta todas las noches. Vea [mikve en Lyon](https://mishpachatours.com/es/mikveh-lyon/) para las direcciones y los teléfonos.
 
 ¿Dónde está el cementerio judío y puedo visitar una tumba familiar?
 
-El cementerio judío de Lyon es La Mouche, 11 rue Abraham-Bloch, abierto de domingo a jueves de 8:00 a 18:00 y el viernes de 8:00 a 16:00. Llame primero al Consistoire con el nombre de la persona. Vea [la página del cementerio](https://mishpachatours.com/jewish-cemetery-lyon/).
+El cementerio judío de Lyon es La Mouche, 11 rue Abraham-Bloch, abierto de domingo a jueves de 8:00 a 18:00 y el viernes de 8:00 a 16:00. Llame primero al Consistoire con el nombre de la persona. Vea [la página del cementerio](https://mishpachatours.com/es/jewish-cemetery-lyon/).
 
 ## Seguridad: *una respuesta directa*
 
 ¿Es Lyon segura para los visitantes judíos?
 
-Cada visita de Mishpacha Tours se desarrolla como una visita protegida: grupo privado, itinerarios discretos, una guía de la comunidad y, si lo desea, escolta de seguridad. Vea [nuestro estándar de seguridad](https://mishpachatours.com/is-lyon-safe-for-jewish-visitors/).
+Cada visita de Mishpacha Tours se desarrolla como una visita protegida: grupo privado, itinerarios discretos, una guía de la comunidad y, si lo desea, escolta de seguridad. Vea [nuestro estándar de seguridad](https://mishpachatours.com/es/is-lyon-safe-for-jewish-visitors/).
 
 ¿Están protegidas las sinagogas?
 
@@ -81,7 +81,7 @@ Solo grupos privados, nunca unidos a desconocidos. Itinerarios y puntos de encue
 
 ¿Cuánto cuesta una visita?
 
-El precio es por grupo, no por persona. La visita Lyon judío y las visitas Memoria cuestan 290 € para 1 a 4 personas, más 35 € por persona adicional de la 5.ª a la 10.ª. Vea [la visita Lyon judío](https://mishpachatours.com/tours/jewish-lyon/).
+El precio es por grupo, no por persona. La visita Lyon judío y las visitas Memoria cuestan 290 € para 1 a 4 personas, más 35 € por persona adicional de la 5.ª a la 10.ª. Vea [la visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/).
 
 ¿En qué idiomas guían?
 
@@ -111,7 +111,7 @@ Respuesta el mismo día, nunca en Shabat.
 - [Dónde alojarse en Lyon](https://mishpachatours.com/es/where-to-stay-lyon-jewish-travellers/)
 - [Catering kosher y comidas de Shabat](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/)
 - [Mikve en Lyon](https://mishpachatours.com/es/mikveh-lyon/)
-- [Visita Lyon judío, 2 h 30](https://mishpachatours.com/es/tours/jewish-lyon/)
+- [Visita Lyon judío, 2 h](https://mishpachatours.com/es/tours/jewish-lyon/)
 
 ## ¿Desea *reservar* su visita?
 

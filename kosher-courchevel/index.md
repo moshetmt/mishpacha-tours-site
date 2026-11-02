@@ -88,7 +88,7 @@ We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitche
 
 ## Kosher *in Courchevel*
 
-- **Chabad in winter.** Rabbi Daniel Belaïch holds services at the Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, during the winter season. He writes that he helps with kosher needs, wine and challot for Shabbat.
+- **Chabad in winter.** Services are held at the Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, during the winter season.
 - **Seasonal kosher programs.** A kosherized hotel is a regular hotel made kosher for a week or two. Hotel names and dates change each season.
 - **Private chefs.** Agencies advertise glatt kosher private chefs in Courchevel. Supervision is not stated on their pages.
 
