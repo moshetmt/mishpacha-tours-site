@@ -73,6 +73,40 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [צ'אלה אורור בוראל, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**סוויטות + חדר טלוויזיה
+- **6 עד 8**אורחים
+- **בריכה מחוממת**חמאם וג'קוזי
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [צ'אלה רנאר ארז'נטה, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
+
+- **2**סוויטות
+- **2 עד 6**אורחים
+- **אמבט נורדי**מחומם ל-40 מעלות
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ### [צ'אלה לו בלאן, ליד מג'ב](https://mishpachatours.com/he/kosher-chalet-megeve/)
 
 - **10 + 2**חדרי טווין + חדרי עליית גג
@@ -106,6 +140,23 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [צ'אלה אגל רויאל, לה מנואר](https://mishpachatours.com/he/kosher-chalet-les-menuires/)
+
+- **7**סוויטות
+- **עד 15**אורחים
+- **ספא**ג'קוזי וסאונה
+- **7 דק'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+לה מנואר · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
 
 ## איפה למצוא מניין *בחורף*
 
@@ -147,7 +198,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 - **בשלו לפני שהיא מתחילה.** הכינו את סעודת ליל שבת ביום חמישי או ביום שישי בבוקר, והעלו את האוכל איתכם.
 - **דעו איפה המניין הקרוב.** רשמו אותו לפני שאתם יוצאים מליון: הרשתות הסלולריות נופלות בעמקים.
 
-לשאלות הלכתיות, שאלו את הרב שלכם. אנו נותנים רק נקודות מעשיות. ראו גם [שבת בליון](https://mishpachatours.com/shabbat-in-lyon/).
+לשאלות הלכתיות, שאלו את הרב שלכם. אנו נותנים רק נקודות מעשיות. ראו גם [שבת בליון](https://mishpachatours.com/he/shabbat-in-lyon/).
 
 השבוע
 
@@ -191,7 +242,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
    ### נחיתה בליון
 
-   נמל התעופה ליון-סן-אכזיפרי נמצא במרחק שעתיים עד שלוש מרוב אתרי הסקי בסבויה. זמני נסיעה ל-13 אתרים מופיעים ב [דף השער שלנו](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
+   נמל התעופה ליון-סן-אכזיפרי נמצא במרחק שעתיים עד שלוש מרוב אתרי הסקי בסבויה. זמני נסיעה ל-13 אתרים מופיעים ב [דף השער שלנו](https://mishpachatours.com/he/lyon-gateway-to-the-alps-kosher/).
 2. **2**
 
    ### קנו כשר
@@ -201,7 +252,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
    ### קחו את עצירת הביניים שלנו בת שלוש השעות
 
-   ההסעה שלכם ממתינה בזמן שאנו מדריכים אתכם בליון העתיקה ובתוך בית הכנסת הגדול. 390 € לקבוצה של 1 עד 5 משתתפים. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית. ראו את [סיור עצירת הביניים](https://mishpachatours.com/tours/stopover/).
+   ההסעה שלכם ממתינה בזמן שאנו מדריכים אתכם בליון העתיקה ובתוך בית הכנסת הגדול. 390 € לקבוצה של 1 עד 5 משתתפים. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית. ראו את [סיור עצירת הביניים](https://mishpachatours.com/he/tours/stopover/).
 4. **4**
 
    ### עלו לאתר
@@ -219,7 +270,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 - טיילו עם מלווה בלילה.
 - ספרו לנו אם יש לכם חששות: אנו מתאימים. ליווי מקצועי זמין לפי בקשה בסיורים שלנו, בתמחור נפרד ובהצעת מחיר לפי דרישה.
 
-עוד ב[שאלות ותשובות הכנות שלנו](https://mishpachatours.com/jewish-travel-lyon-faq/).
+עוד ב[שאלות ותשובות הכנות שלנו](https://mishpachatours.com/he/jewish-travel-lyon-faq/).
 
 ## אתרי הסקי *על המפה*
 

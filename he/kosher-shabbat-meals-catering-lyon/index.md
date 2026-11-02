@@ -25,7 +25,7 @@ Source: https://mishpachatours.com/he/kosher-shabbat-meals-catering-lyon/ (HTML 
 
 ## משלוח *למלון שלכם*
 
-שאלו כל אחד: האם אתם מוסרים למלון שלי, באיזה יום ובאיזו שעה, ומה אתם צריכים ממני? עדכנו את המלון שמשלוח מגיע, ושאלו אם אפשר לשמור את האוכל עד יום שישי אחר הצהריים. שלבו את הארוחה עם [סיור מודרך בליון היהודית](https://mishpachatours.com/jewish-lyon-tours/) לפני שבת.
+שאלו כל אחד: האם אתם מוסרים למלון שלי, באיזה יום ובאיזו שעה, ומה אתם צריכים ממני? עדכנו את המלון שמשלוח מגיע, ושאלו אם אפשר לשמור את האוכל עד יום שישי אחר הצהריים. שלבו את הארוחה עם [סיור מודרך בליון היהודית](https://mishpachatours.com/he/jewish-lyon-tours/) לפני שבת.
 
 שלושה מקומות ברשימת בית הדין מציינים טייק-אוויי או משלוח: La Darka, Planet Sandwich ו-Mika Sushi, ב-Deliveroo וב-Uber Eats. אלה אפשרויות לימי חול. שום דבר אינו נמסר בשבת.
 
@@ -63,7 +63,7 @@ Source: https://mishpachatours.com/he/kosher-shabbat-meals-catering-lyon/ (HTML 
 
 ## מצרכים לשבת *בדירה*
 
-שלוש חנויות מכולת מוסמכות בידי בית הדין של ליון: Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, Hypercacher Garibaldi החדשה, 46 rue Garibaldi, 69006 Lyon, ו-Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. ל-Lilly Market יש חנות שנייה באקולי (Écully). התקשרו, וקנו ביום חמישי או ביום שישי בבוקר. שלוש קצביות נמצאות גם הן ברשימה: [כל הכתובות הכשרות בליון](https://mishpachatours.com/kosher-restaurants-lyon/).
+שלוש חנויות מכולת מוסמכות בידי בית הדין של ליון: Hypercacher, 17 rue Claudius-Pionchon, 69003 Lyon, Hypercacher Garibaldi החדשה, 46 rue Garibaldi, 69006 Lyon, ו-Lilly Market, 140 rue Dedieu, 69100 Villeurbanne. ל-Lilly Market יש חנות שנייה באקולי (Écully). התקשרו, וקנו ביום חמישי או ביום שישי בבוקר. שלוש קצביות נמצאות גם הן ברשימה: [כל הכתובות הכשרות בליון](https://mishpachatours.com/he/kosher-restaurants-lyon/).
 
 ## קייטרינג וחנויות מכולת *על המפה*
 

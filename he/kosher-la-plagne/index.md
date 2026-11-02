@@ -31,7 +31,7 @@ Source: https://mishpachatours.com/he/kosher-la-plagne/ (HTML version). Every pa
 
 כשר לחלוטין. הצוות הכשר שלנו שבסיסו באלפים מבשל תחת רשת חב״ד באלפים; פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר. פירוט כל שירות: [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/).
 
-אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## כשר *בלה פלאן*
 
@@ -138,7 +138,7 @@ Source: https://mishpachatours.com/he/kosher-la-plagne/ (HTML version). Every pa
 
 ## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)[**צ'אלה אגל רויאל · לה מנואר**7 חדרי שינה · ג'קוזי וסאונה](https://mishpachatours.com/he/kosher-chalet-les-menuires/)[**צ'אלה אורור בוראל · קורשבל**3 סוויטות · בריכה מחוממת](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)[**צ'אלה רנאר ארז'נטה · קורשבל**2 סוויטות · אמבט נורדי](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
 
 [לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
@@ -148,11 +148,11 @@ Source: https://mishpachatours.com/he/kosher-la-plagne/ (HTML version). Every pa
 
 ## אתרי סקי *סמוכים*
 
-- [כשר בלז ארק](https://mishpachatours.com/kosher-les-arcs/)
-- [כשר בואל דיזר](https://mishpachatours.com/kosher-val-disere/)
-- [כשר בקורשבל](https://mishpachatours.com/kosher-courchevel/)
-- [כשר בואל טורנס](https://mishpachatours.com/kosher-val-thorens/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [כשר בלז ארק](https://mishpachatours.com/he/kosher-les-arcs/)
+- [כשר בואל דיזר](https://mishpachatours.com/he/kosher-val-disere/)
+- [כשר בקורשבל](https://mishpachatours.com/he/kosher-courchevel/)
+- [כשר בואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

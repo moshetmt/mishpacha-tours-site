@@ -84,7 +84,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes: los detalles de la supervisión se entregan por escrito con el presupuesto.
 
-También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
+También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
 ## Kosher *en Courchevel*
 
@@ -178,12 +178,12 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Estaciones *cercanas*
 
-- [Chalet kosher en Les Ménuires](https://mishpachatours.com/kosher-les-menuires/)
-- [Val Thorens kosher](https://mishpachatours.com/kosher-val-thorens/)
-- [La Plagne kosher](https://mishpachatours.com/kosher-la-plagne/)
-- [Les Arcs kosher](https://mishpachatours.com/kosher-les-arcs/)
-- [Val d’Isère kosher](https://mishpachatours.com/kosher-val-disere/)
-- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
+- [Chalet kosher en Les Ménuires](https://mishpachatours.com/es/kosher-les-menuires/)
+- [Val Thorens kosher](https://mishpachatours.com/es/kosher-val-thorens/)
+- [La Plagne kosher](https://mishpachatours.com/es/kosher-la-plagne/)
+- [Les Arcs kosher](https://mishpachatours.com/es/kosher-les-arcs/)
+- [Val d’Isère kosher](https://mishpachatours.com/es/kosher-val-disere/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/es/alps/)
 
 ## Siga *leyendo*
 

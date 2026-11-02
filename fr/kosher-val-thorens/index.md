@@ -67,7 +67,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
 
-Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Casher *à Val Thorens*
 
@@ -161,12 +161,12 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Stations *voisines*
 
-- [Chalet casher aux Ménuires](https://mishpachatours.com/kosher-les-menuires/)
-- [Courchevel casher](https://mishpachatours.com/kosher-courchevel/)
-- [La Plagne casher](https://mishpachatours.com/kosher-la-plagne/)
-- [Les Arcs casher](https://mishpachatours.com/kosher-les-arcs/)
-- [Val d’Isère casher](https://mishpachatours.com/kosher-val-disere/)
-- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
+- [Chalet casher aux Ménuires](https://mishpachatours.com/fr/kosher-les-menuires/)
+- [Courchevel casher](https://mishpachatours.com/fr/kosher-courchevel/)
+- [La Plagne casher](https://mishpachatours.com/fr/kosher-la-plagne/)
+- [Les Arcs casher](https://mishpachatours.com/fr/kosher-les-arcs/)
+- [Val d’Isère casher](https://mishpachatours.com/fr/kosher-val-disere/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/fr/alps/)
 
 ## Pour *aller plus loin*
 

@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/fr/kosher-restaurants-lyon/ (HTML version). E
 
 # Casher à Lyon *31 adresses certifiées, table et courses*
 
-Le Beth Din de Lyon certifie 31 restaurants, boulangeries, boucheries, épiceries et traiteurs casher à Lyon, Villeurbanne et Écully, la plupart à Villeurbanne et dans le 6e arrondissement. Le Vieux Lyon n’en compte aucun. Chaque adresse ci-dessous figure sur la liste officielle du Beth Din de Lyon, le tribunal rabbinique qui supervise la cacherout à Lyon, Villeurbanne et Écully. Nous ne listons que ce que le Beth Din certifie : ni adresses autodéclarées, ni annuaires secondaires. Appelez avant de vous déplacer : les horaires changent et la plupart ferment pour le Shabbat dès le vendredi après-midi. Un déjeuner ici se cale entre deux étapes de [la visite du quartier juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/).
+Le Beth Din de Lyon certifie 31 restaurants, boulangeries, boucheries, épiceries et traiteurs casher à Lyon, Villeurbanne et Écully, la plupart à Villeurbanne et dans le 6e arrondissement. Le Vieux Lyon n’en compte aucun. Chaque adresse ci-dessous figure sur la liste officielle du Beth Din de Lyon, le tribunal rabbinique qui supervise la cacherout à Lyon, Villeurbanne et Écully. Nous ne listons que ce que le Beth Din certifie : ni adresses autodéclarées, ni annuaires secondaires. Appelez avant de vous déplacer : les horaires changent et la plupart ferment pour le Shabbat dès le vendredi après-midi. Un déjeuner ici se cale entre deux étapes de [la visite du quartier juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-tours/).
 
 - Supervision du Beth Din de Lyon
 - Lyon · Villeurbanne · Écully

@@ -40,7 +40,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-les-menuires/ (HTML version)
 
 כשר לחלוטין. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
 
-לפסח אנחנו מכינים גם את הצ'אלה: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+לפסח אנחנו מכינים גם את הצ'אלה: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## איך זה *עובד*
 

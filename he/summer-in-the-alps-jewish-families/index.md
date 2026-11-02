@@ -100,22 +100,22 @@ Source: https://mishpachatours.com/he/summer-in-the-alps-jewish-families/ (HTML 
 
    ### נחיתה וקנייה בליון
 
-   קנו בשר, לחם ומוצרי חלב ב-Hypercacher, ב-Lilly Market או אצל הקצבים. ראו [ליון, שער האלפים](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
+   קנו בשר, לחם ומוצרי חלב ב-Hypercacher, ב-Lilly Market או אצל הקצבים. ראו [ליון, שער האלפים](https://mishpachatours.com/he/lyon-gateway-to-the-alps-kosher/).
 2. **2**
 
    ### צאו לסיור בליון
 
-   הסיור [ליון היהודית](https://mishpachatours.com/tours/jewish-lyon/) נמשך שעתיים וחצי וכולל את הכניסה לבית הכנסת הגדול. הסיור [עצירת ביניים](https://mishpachatours.com/tours/stopover/) נמשך 3 שעות, למשפחות שנוסעות באותו יום. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית.
+   הסיור [ליון היהודית](https://mishpachatours.com/he/tours/jewish-lyon/) נמשך שעתיים וחצי וכולל את הכניסה לבית הכנסת הגדול. הסיור [עצירת ביניים](https://mishpachatours.com/he/tours/stopover/) נמשך 3 שעות, למשפחות שנוסעות באותו יום. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית.
 3. **3**
 
    ### הוסיפו את איזיה
 
-   טיול היום אל [בית איזיה](https://mishpachatours.com/tours/izieu/) יוצא מליון. איזיה נמצאת במחוז אן (Ain), ממזרח לליון, בכיוון סבואה (Savoie). מחיר מ-990 €, לפי הצעת מחיר.
+   טיול היום אל [בית איזיה](https://mishpachatours.com/he/tours/izieu/) יוצא מליון. איזיה נמצאת במחוז אן (Ain), ממזרח לליון, בכיוון סבואה (Savoie). מחיר מ-990 €, לפי הצעת מחיר.
 4. **4**
 
    ### עלו וחזרו
 
-   ליון מתאימה כבסיס לטיולי יום ברכבת לגרנובל, לאקס-לה-בן ולשאמברי. את השבת עשו בליון: ראו [שבת בליון](https://mishpachatours.com/shabbat-in-lyon/).
+   ליון מתאימה כבסיס לטיולי יום ברכבת לגרנובל, לאקס-לה-בן ולשאמברי. את השבת עשו בליון: ראו [שבת בליון](https://mishpachatours.com/he/shabbat-in-lyon/).
 
 [כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%9E%D7%98%D7%99%D7%99%D7%9C%D7%99%D7%9D%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D%20%D7%91%D7%A7%D7%99%D7%A5%20%D7%93%D7%A8%D7%9A%20%D7%9C%D7%99%D7%95%D7%9F%20%D7%95%D7%A8%D7%95%D7%A6%D7%99%D7%9D%20%D7%A1%D7%99%D7%95%D7%A8.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20/%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99%D7%9D%3A%20/%20%D7%A9%D7%A4%D7%94%3A)[בקשו הצעת מחיר](#book)
 

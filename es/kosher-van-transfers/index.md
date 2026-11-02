@@ -2,7 +2,7 @@
 
 Source: https://mishpachatours.com/es/kosher-van-transfers/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/jewish-lyon-guide/) / Traslados en van privado
+[Inicio](https://mishpachatours.com/es/) / [Guía del Lyon judío](https://mishpachatours.com/es/jewish-lyon-guide/) / Traslados en van privado
 
 # Traslados en van privado *nunca en Shabat*
 
@@ -51,7 +51,7 @@ El trayecto lo realiza y lo factura un conductor autorizado de nuestra red; noso
 
 - **Aeropuertos y estaciones de tren.** Recogida cuando aterriza o llega, y traslado para su salida.
 - **Hoteles y chalés.** De su puerta a la siguiente.
-- **Estaciones de esquí.** Del aeropuerto o de la estación directamente a la estación de esquí, con los esquís. Vea nuestras [vacaciones de esquí kosher](https://mishpachatours.com/kosher-ski-holidays-french-alps/).
+- **Estaciones de esquí.** Del aeropuerto o de la estación directamente a la estación de esquí, con los esquís. Vea nuestras [vacaciones de esquí kosher](https://mishpachatours.com/es/kosher-ski-holidays-french-alps/).
 - **Ciudades y largas distancias.** De Lyon a París, de una ciudad a otra, o a cualquier otro lugar. Fuera de Francia, envíenos el trayecto y consultamos a nuestros contactos.
 
 ## Shabat y *las fiestas*
@@ -86,11 +86,11 @@ Díganos de dónde sale y adónde va. Enviamos un presupuesto el mismo día.
 
 ## Siga *leyendo*
 
-- [Servicios kosher en los Alpes](https://mishpachatours.com/kosher-services-french-alps/)
-- [Vacaciones de esquí kosher en los Alpes](https://mishpachatours.com/kosher-ski-holidays-french-alps/)
-- [Lyon, puerta de los Alpes](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/)
-- [Vuelos a Lyon](https://mishpachatours.com/flights-to-lyon/)
-- [Planifique su viaje](https://mishpachatours.com/plan-your-trip/?i=c)
+- [Servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/)
+- [Vacaciones de esquí kosher en los Alpes](https://mishpachatours.com/es/kosher-ski-holidays-french-alps/)
+- [Lyon, puerta de los Alpes](https://mishpachatours.com/es/lyon-gateway-to-the-alps-kosher/)
+- [Vuelos a Lyon](https://mishpachatours.com/es/flights-to-lyon/)
+- [Planifique su viaje](https://mishpachatours.com/es/plan-your-trip/?i=c)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

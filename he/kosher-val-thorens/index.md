@@ -67,7 +67,7 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 
 כשר לחלוטין. הצוות שלנו מבשל תחת רשת חב״ד באלפים; פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
 
-אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## כשר *בוואל טורנס*
 
@@ -161,12 +161,12 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 
 ## אתרי סקי *סמוכים*
 
-- [צ'אלה כשרה בלה מנואר](https://mishpachatours.com/kosher-les-menuires/)
-- [כשר בקורשבל](https://mishpachatours.com/kosher-courchevel/)
-- [כשר בלה פלאן](https://mishpachatours.com/kosher-la-plagne/)
-- [כשר בלז ארק](https://mishpachatours.com/kosher-les-arcs/)
-- [כשר בואל דיזר](https://mishpachatours.com/kosher-val-disere/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [צ'אלה כשרה בלה מנואר](https://mishpachatours.com/he/kosher-les-menuires/)
+- [כשר בקורשבל](https://mishpachatours.com/he/kosher-courchevel/)
+- [כשר בלה פלאן](https://mishpachatours.com/he/kosher-la-plagne/)
+- [כשר בלז ארק](https://mishpachatours.com/he/kosher-les-arcs/)
+- [כשר בואל דיזר](https://mishpachatours.com/he/kosher-val-disere/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

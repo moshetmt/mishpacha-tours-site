@@ -73,7 +73,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 Estrictamente kosher. Kashrut bajo la supervisión del Beth Habad Grenoble-Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.
 
-También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
+También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
 ## Kosher *en Les Deux Alpes*
 
@@ -172,10 +172,10 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Estaciones *cercanas*
 
-- [Alpe d’Huez kosher](https://mishpachatours.com/kosher-alpe-dhuez/)
-- [Grenoble kosher](https://mishpachatours.com/kosher-grenoble/)
-- [Val Thorens kosher](https://mishpachatours.com/kosher-val-thorens/)
-- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
+- [Alpe d’Huez kosher](https://mishpachatours.com/es/kosher-alpe-dhuez/)
+- [Grenoble kosher](https://mishpachatours.com/es/kosher-grenoble/)
+- [Val Thorens kosher](https://mishpachatours.com/es/kosher-val-thorens/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/es/alps/)
 
 ## Siga *leyendo*
 

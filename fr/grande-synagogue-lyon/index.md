@@ -16,7 +16,7 @@ La Grande Synagogue de Lyon, 13 quai Tilsitt, au bord de la Saône, a été inau
 
 ## Histoire *en bref*
 
-La première pierre a été posée le 20 mai 1863. La synagogue a été inaugurée le 23 juin 1864. L’entrée fait partie de [la seule visite qui entre dans la Grande Synagogue](https://mishpachatours.com/jewish-lyon-tours/).
+La première pierre a été posée le 20 mai 1863. La synagogue a été inaugurée le 23 juin 1864. L’entrée fait partie de [la seule visite qui entre dans la Grande Synagogue](https://mishpachatours.com/fr/jewish-lyon-tours/).
 
 - **Architecte.** Abraham Hirsch (1828-1913), architecte juif devenu par la suite architecte de la ville de Lyon.
 - **Style.** Néo-byzantin.
@@ -75,7 +75,7 @@ Les règles de photographie sont fixées par la synagogue et peuvent changer d�
 
 - **Métro.** Bellecour, lignes A et D, est la station la plus proche. De là, le quai est à quelques pas.
 - **Depuis le Vieux Lyon.** Traversez la Saône à pied et suivez le quai Tilsitt.
-- **Shabbat.** Lyon se parcourt à pied. Les horaires d’allumage des bougies figurent sur notre [page des synagogues](https://mishpachatours.com/synagogues-lyon/).
+- **Shabbat.** Lyon se parcourt à pied. Les horaires d’allumage des bougies figurent sur notre [page des synagogues](https://mishpachatours.com/fr/synagogues-lyon/).
 
 ## Sur la *carte*
 

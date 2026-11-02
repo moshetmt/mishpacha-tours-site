@@ -50,7 +50,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 Estrictamente kosher. Nuestro equipo kosher con base en los Alpes cocina bajo la red Chabad de los Alpes; los detalles de la supervisión se entregan por escrito con el presupuesto. Detalle de cada servicio: [servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/).
 
-También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
+También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
 ## Kosher *en Megève*
 
@@ -148,10 +148,10 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Estaciones *cercanas*
 
-- [Chamonix kosher](https://mishpachatours.com/kosher-chamonix/)
-- [Annecy kosher](https://mishpachatours.com/kosher-annecy/)
-- [Courmayeur kosher (Italia)](https://mishpachatours.com/kosher-courmayeur/)
-- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
+- [Chamonix kosher](https://mishpachatours.com/es/kosher-chamonix/)
+- [Annecy kosher](https://mishpachatours.com/es/kosher-annecy/)
+- [Courmayeur kosher (Italia)](https://mishpachatours.com/es/kosher-courmayeur/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/es/alps/)
 
 ## Siga *leyendo*
 

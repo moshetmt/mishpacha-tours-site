@@ -39,7 +39,7 @@ Le chef prépare au chalet les repas de Chabbat et des fêtes, ou les repas arri
 
 Strictement casher, tout ce qui est servi est Chalav Yisrael. Les détails de la surveillance figurent par écrit dans votre devis.
 
-Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Comment ça *se passe*
 

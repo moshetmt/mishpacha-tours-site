@@ -43,3 +43,14 @@ for l, ancre in ANCRE.items():
         wr(p, s[:i] + neuf + s[i:]); n += 1
 print(f"stations voisines : {n} page(s)")
 print("(dry)" if DRY else "fait")
+
+# 3. /alps/ (4 langues) : pastille « Les Ménuires » après Val Thorens (Moshé 02/11)
+n = 0
+for l, nom in (("", "Les Ménuires"), ("fr/", "Les Ménuires"), ("es/", "Les Ménuires"), ("he/", "לה מנואר")):
+    p = f"{l}alps/index.html"; s = rd(p)
+    m = re.search(r'<ul class="kwp-pastilles">.*?</ul>', s, re.S)
+    if not m or f"{S}/" in m.group(0): continue
+    ul = re.sub(r'(<li><a href="((?:\.\./|/(?:fr/|es/|he/)?))kosher-val-thorens/">[^<]*</a></li>)',
+                lambda x: x.group(1) + f'<li><a href="{x.group(2)}{S}/">{nom}</a></li>', m.group(0), count=1)
+    if ul != m.group(0): wr(p, s[:m.start()] + ul + s[m.end():]); n += 1
+print(f"/alps/ : {n} page(s)")

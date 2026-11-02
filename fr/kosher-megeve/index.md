@@ -50,7 +50,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis. Détail de chaque service : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
-Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Casher *à Megève*
 
@@ -149,10 +149,10 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Stations *voisines*
 
-- [Chamonix casher](https://mishpachatours.com/kosher-chamonix/)
-- [Annecy casher](https://mishpachatours.com/kosher-annecy/)
-- [Courmayeur casher (Italie)](https://mishpachatours.com/kosher-courmayeur/)
-- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
+- [Chamonix casher](https://mishpachatours.com/fr/kosher-chamonix/)
+- [Annecy casher](https://mishpachatours.com/fr/kosher-annecy/)
+- [Courmayeur casher (Italie)](https://mishpachatours.com/fr/kosher-courmayeur/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/fr/alps/)
 
 ## Pour *aller plus loin*
 

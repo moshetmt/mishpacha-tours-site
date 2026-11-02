@@ -73,7 +73,7 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 כשר לחלוטין. כשרות בהשגחת בית חב״ד גרנובל-אלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
 
-אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## כשר *בלה דז אלפ*
 
@@ -169,10 +169,10 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 ## אתרי סקי *סמוכים*
 
-- [כשר באלפ ד'ואז](https://mishpachatours.com/kosher-alpe-dhuez/)
-- [כשר בגרנובל](https://mishpachatours.com/kosher-grenoble/)
-- [כשר בואל טורנס](https://mishpachatours.com/kosher-val-thorens/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [כשר באלפ ד'ואז](https://mishpachatours.com/he/kosher-alpe-dhuez/)
+- [כשר בגרנובל](https://mishpachatours.com/he/kosher-grenoble/)
+- [כשר בואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

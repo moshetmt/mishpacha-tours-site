@@ -108,25 +108,25 @@ Yes, free cancellation up to 24 hours before the start time.
 
 A private walk through the Jewish story of Lyon, inside the Grande Synagogue
 
-**290 €** per group, 1 to 4 people](https://mishpachatours.com/jewish-lyon/)[Memory
+**290 €** per group, 1 to 4 people](https://mishpachatours.com/tours/jewish-lyon/)[Memory
 
 ### Memory: Montluc and Neveh Shalom
 
 The Montluc memorial, then the second synagogue we take you inside
 
-**290 €** per group, 1 to 4 people](https://mishpachatours.com/memory-montluc-neveh-shalom/)[City walk
+**290 €** per group, 1 to 4 people](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/)[City walk
 
 ### Stopover
 
 Three hours in Jewish Lyon while your transfer waits
 
-**390 €** per group, 1 to 5 people](https://mishpachatours.com/stopover/)[Day trip
+**390 €** per group, 1 to 5 people](https://mishpachatours.com/tours/stopover/)[Day trip
 
 ### Izieu
 
 A full day at the Maison d'Izieu, one hour from Lyon
 
-**from 990 €** quote on request](https://mishpachatours.com/izieu/)
+**from 990 €** quote on request](https://mishpachatours.com/tours/izieu/)
 
 ## Ready to *book* Memory: the CHRD?
 

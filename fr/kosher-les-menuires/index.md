@@ -50,7 +50,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
 
-Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Casher *aux Ménuires*
 
@@ -156,9 +156,9 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Stations *voisines*
 
-- [Val Thorens casher](https://mishpachatours.com/kosher-val-thorens/)
-- [Courchevel casher](https://mishpachatours.com/kosher-courchevel/)
-- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
+- [Val Thorens casher](https://mishpachatours.com/fr/kosher-val-thorens/)
+- [Courchevel casher](https://mishpachatours.com/fr/kosher-courchevel/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/fr/alps/)
 
 ## Pour *aller plus loin*
 

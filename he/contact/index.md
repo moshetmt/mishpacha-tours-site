@@ -43,8 +43,8 @@ Source: https://mishpachatours.com/he/contact/ (HTML version). Every page of the
 ## להמשך *קריאה*
 
 - [אודות Mishpacha Tours](https://mishpachatours.com/he/about/)
-- [טיול יהודי בליון, שאלות ותשובות](https://mishpachatours.com/jewish-travel-lyon-faq/)
-- [המדריך המלא לליון היהודית](https://mishpachatours.com/jewish-lyon-guide/)
+- [טיול יהודי בליון, שאלות ותשובות](https://mishpachatours.com/he/jewish-travel-lyon-faq/)
+- [המדריך המלא לליון היהודית](https://mishpachatours.com/he/jewish-lyon-guide/)
 
 ## מוכנים *להזמין* את הסיור?
 

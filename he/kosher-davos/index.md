@@ -125,7 +125,7 @@ Source: https://mishpachatours.com/he/kosher-davos/ (HTML version). Every page o
 
 ## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)[**צ'אלה אגל רויאל · לה מנואר**7 חדרי שינה · ג'קוזי וסאונה](https://mishpachatours.com/he/kosher-chalet-les-menuires/)[**צ'אלה אורור בוראל · קורשבל**3 סוויטות · בריכה מחוממת](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)[**צ'אלה רנאר ארז'נטה · קורשבל**2 סוויטות · אמבט נורדי](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
 
 [לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
@@ -135,10 +135,10 @@ Source: https://mishpachatours.com/he/kosher-davos/ (HTML version). Every page o
 
 ## אתרי סקי *סמוכים*
 
-- [כשר בסנט מוריץ](https://mishpachatours.com/kosher-st-moritz/)
-- [כשר בגשטאד](https://mishpachatours.com/kosher-gstaad/)
-- [כשר בצרמט](https://mishpachatours.com/kosher-zermatt/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [כשר בסנט מוריץ](https://mishpachatours.com/he/kosher-st-moritz/)
+- [כשר בגשטאד](https://mishpachatours.com/he/kosher-gstaad/)
+- [כשר בצרמט](https://mishpachatours.com/he/kosher-zermatt/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

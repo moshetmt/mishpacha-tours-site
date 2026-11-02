@@ -40,7 +40,7 @@ El chef prepara en el chalet las comidas de Shabat y de las fiestas, o las comid
 
 Estrictamente kosher, todo lo que se sirve es Chalav Yisrael. Los detalles de la supervisión se entregan por escrito con el presupuesto.
 
-Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
+Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
 ## Cómo *funciona*
 

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / הצ'אלות הכשרות שלנו
 
-# הצ'אלות הכשרות שלנו *בלה דז אלפ, בקורשבל, ליד מג'ב ובואל טורנס*
+# הצ'אלות הכשרות שלנו *בלה דז אלפ, בקורשבל, ליד מג'ב, בוואל טורנס ובלה מנואר*
 
 הצ'אלות שלנו, שבהן כל מה שקשור לכשרות מסודר: בלה דז אלפ, בקורשבל, ליד מג'ב ובואל טורנס, עם שביל סקי ליד הדלת.
 
@@ -165,7 +165,7 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 
 כבר יש לכם מקום לינה? [שירותים כשרים באתר הסקי שלכם](https://mishpachatours.com/he/kosher-services-french-alps/).
 
-לפסח אנחנו מכינים גם את הצ'אלה: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+לפסח אנחנו מכינים גם את הצ'אלה: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## איך זה *עובד*
 

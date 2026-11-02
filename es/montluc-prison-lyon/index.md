@@ -17,11 +17,11 @@ La prisión de Montluc es un memorial nacional en el 3.er distrito de Lyon. De 1
 
 ## Historia *en breve*
 
-Montluc se construyó en 1921 como prisión militar. Tras requisar los alemanes una parte en enero de 1943, ocuparon toda la prisión el 17 de febrero de 1943 y la conservaron hasta la liberación de Lyon el 24 de agosto de 1944. Montluc es una etapa de [nuestra visita Memoria, Montluc y el CHRD](https://mishpachatours.com/jewish-lyon-tours/).
+Montluc se construyó en 1921 como prisión militar. Tras requisar los alemanes una parte en enero de 1943, ocuparon toda la prisión el 17 de febrero de 1943 y la conservaron hasta la liberación de Lyon el 24 de agosto de 1944. Montluc es una etapa de [nuestra visita Memoria, Montluc y el CHRD](https://mishpachatours.com/es/jewish-lyon-tours/).
 
 - **Quién estuvo retenido.** Más de 9.000 hombres, mujeres y niños pasaron por aquí en ese tiempo: resistentes, rehenes y judíos. Jean Moulin y el historiador Marc Bloch estuvieron retenidos aquí.
 - **Los judíos de Montluc.** La prisión sirvió de punto de reunión de judíos antes de enviarlos a Drancy y después a Auschwitz-Birkenau. Un bloque aparte, conocido como la baraque aux Juifs, albergaba sobre todo a hombres judíos mayores de 15 años. Se trajo aquí a familias enteras.
-- **Izieu.** El 6 de abril de 1944, los niños detenidos en la [Maison d'Izieu](https://mishpachatours.com/maison-izieu/) estuvieron retenidos en Montluc antes de su deportación.
+- **Izieu.** El 6 de abril de 1944, los niños detenidos en la [Maison d'Izieu](https://mishpachatours.com/es/maison-izieu/) estuvieron retenidos en Montluc antes de su deportación.
 - **Ejecuciones.** Algunos presos fueron fusilados en la propia prisión, en el camino de ronda, en un lugar que hoy se llama mur des fusillés. Otros fueron sacados de Lyon y fusilados en otro lugar.
 
 La prisión cerró en 2009 y se abrió al público como memorial nacional en 2010.
@@ -48,9 +48,9 @@ Usted recorre el edificio de las celdas, donde unas sesenta celdas presentan las
 
 ## De la memoria a la *vida judía actual*
 
-Neveh Chalom y el Institut culturel du judaïsme están en la misma dirección, 317 rue Duguesclin. La sinagoga es la segunda a cuyo interior le lleva su guía, junto con la [Gran Sinagoga del quai Tilsitt](https://mishpachatours.com/grande-synagogue-lyon/). Las visitas al interior dependen de un acuerdo con la comunidad y de la seguridad del día, y las solicitamos en su nombre.
+Neveh Chalom y el Institut culturel du judaïsme están en la misma dirección, 317 rue Duguesclin. La sinagoga es la segunda a cuyo interior le lleva su guía, junto con la [Gran Sinagoga del quai Tilsitt](https://mishpachatours.com/es/grande-synagogue-lyon/). Las visitas al interior dependen de un acuerdo con la comunidad y de la seguridad del día, y las solicitamos en su nombre.
 
-No mostramos ninguna foto de Neveh Chalom en este sitio. Su guía se la enseña en el lugar. Nuestra [visita Memoria: Montluc y Neveh Shalom](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/) reúne el memorial y la sinagoga en un solo recorrido, de unas 2 h 30. Nunca la combinamos con el [CHRD](https://mishpachatours.com/chrd-lyon/) el mismo día.
+No mostramos ninguna foto de Neveh Chalom en este sitio. Su guía se la enseña en el lugar. Nuestra [visita Memoria: Montluc y Neveh Shalom](https://mishpachatours.com/es/tours/memory-montluc-neveh-shalom/) reúne el memorial y la sinagoga en un solo recorrido, de unas 2 h 30. Nunca la combinamos con el [CHRD](https://mishpachatours.com/es/chrd-lyon/) el mismo día.
 
 ## Preguntas *frecuentes*
 
@@ -86,7 +86,7 @@ Respuesta el mismo día, nunca en Shabat.
 - [El CHRD en Lyon](https://mishpachatours.com/es/chrd-lyon/)
 - [Maison d'Izieu](https://mishpachatours.com/es/maison-izieu/)
 - [Sinagogas en Lyon](https://mishpachatours.com/es/synagogues-lyon/)
-- [Lyon judío en dos días](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
+- [Lyon judío en dos días](https://mishpachatours.com/es/jewish-lyon-itinerary-2-days/)
 
 ## ¿Desea *reservar* su visita?
 
