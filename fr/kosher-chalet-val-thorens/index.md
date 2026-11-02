@@ -20,7 +20,7 @@ Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
 Un chemin skieur part de la porte ; le village est à quelques minutes à pied. 165 m², trois chambres avec salle de bain, jusqu’à 10 personnes (8 adultes). Chef ou repas livrés, Chabbat et minyan.
 
-## The chalet, *en bref*
+## Le chalet, *en bref*
 
 - **Location.** Au-dessus du village de Val Thorens, la plus haute station d’Europe, dans un quartier calme plein sud. Le centre et les restaurants sont à quelques minutes à pied. Un chemin skieur part devant la porte : les bons skieurs rentrent au chalet skis aux pieds, les autres font à pied les 100 derniers mètres.
 - **L’étage de vie.** 60 m² au premier étage : un salon, une salle à manger avec une table pour dix, une cuisine ouverte haut de gamme, un poêle à bois rotatif, de grandes baies plein sud et un balcon.

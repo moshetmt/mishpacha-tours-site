@@ -135,9 +135,13 @@ TX = {
   web="צ'אלה כשרה בלה מנואר, 15 אורחים, ג'קוזי וסאונה",
   ld_desc="צ'אלה כשרה פרטית בלה מנואר, בשלושת העמקים: שבעה חדרי שינה עם חדר מקלחת, עד 15 אורחים, ג'קוזי חיצוני וסאונה, רכבל במרחק 230 מטר. שף או ארוחות במשלוח, שבת ומניין."),
 }
+import _chalets_textes_luxe as LUXE   # noqa: E402  (Moshé 02/11 : « on est une entreprise de luxe »)
+LUXE.appliquer(TX, LUXE.AR)
+for _l in TX:
+    K.T[_l]["ar"]["s"] = LUXE.CARTE_AR[_l]
 SUFFIXE = " | Mishpacha Tours"
 VOILE = ('<style id="voile-heros">.lead-hero3::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;'
-         'background:linear-gradient(180deg,rgba(17,17,17,.72) 0%,rgba(17,17,17,.6) 38%,rgba(17,17,17,.15) 62%,rgba(17,17,17,0) 75%)}</style>')
+         'background:linear-gradient(180deg,rgba(17,17,17,.72) 0%,rgba(17,17,17,.6) 38%,rgba(17,17,17,.45) 70%,rgba(17,17,17,.4) 100%)}</style>')
 attr_ = lambda v: H.escape(v, quote=False).replace('"', "&quot;")   # apostrophes en clair, comme le reste du site
 COORD_VT, COORD_AR = "latitude=45.2978&longitude=6.5838", "latitude=45.3236&longitude=6.5389"   # Les Ménuires (station), Shabbat Hebcal
 
@@ -151,7 +155,7 @@ def webp(stem):
     if stem == HERO:
         sorties.update({ICI / "img" / "h" / f"{stem}-{w}.webp": w for w in (640, 960, im.width)})
     for d, w in sorties.items():
-        if d.exists():
+        if d.exists() and d.stat().st_mtime >= src.stat().st_mtime:
             continue
         d.parent.mkdir(parents=True, exist_ok=True)
         w = min(w, im.width)   # jamais d'agrandissement : le fichier « -1280 » garde la taille d'origine
@@ -225,7 +229,9 @@ def page(lang):
     tete = re.sub(r'(<link rel="(?:canonical|alternate)"[^>]*href="[^"]*/)' + MODELE + '/', r"\g<1>" + SLUG + "/", tete)
     tete = re.sub(r'(<meta property="og:url" content="[^"]*/)' + MODELE + '/', r"\g<1>" + SLUG + "/", tete)
     # sélecteur de langue (en-tête et panneau)
-    tete = re.sub(r'(href="(?:/(?:fr|es|he))?/)' + MODELE + '/"', r'\g<1>' + SLUG + '/"', tete)
+    langues = lambda m: re.sub(r'(href="(?:/(?:fr|es|he))?/)' + MODELE + '/"', r'\g<1>' + SLUG + '/"', m.group(0))
+    tete = re.sub(r'<details class="langue">.*?</details>', langues, tete, flags=re.S)   # seulement le sélecteur de langue,
+    tete = re.sub(r'<div class="panneau-langs">.*?</div>', langues, tete, flags=re.S)   # jamais le lien Belle Étoile du menu
 
     # voile sombre en haut du héros : la photo a un ciel clair, le fil d'Ariane tombait à 1,4:1 (qa_site du 02/11) ;
     # dégradé léger sans cadre ni pastille, comme décidé par Moshé le 01/11 pour les héros des Alpes
@@ -278,11 +284,14 @@ def page(lang):
     # noms et liens WhatsApp
     main = wa_liens(main, lang)
     main = remplace_noms(main, lang)
-    main = main.replace("lieu=Val%20Thorens", "lieu=Les%20M%C3%A9nuires")
+    main = main.replace("lieu=Val%20Thorens", "lieu=" + t.get("lieu_q", "Les%20M%C3%A9nuires"))
 
     # « À lire aussi » : le chalet de Val Thorens (même domaine) à la place de Courchevel
+    voisin = t.get("voisin", MODELE)   # chalet voisin proposé dans « À lire aussi » (Aigle Royal : Belle Étoile ; Courchevel : Flocon Doré)
     suite = re.sub(r'<a href="(?:\.\./|/(?:fr|es|he)/)kosher-chalet-courchevel/">[^<]*</a>',
-                   lambda m: m.group(0).split('"')[0] + '"' + m.group(0).split('"')[1].replace("kosher-chalet-courchevel", MODELE) + '">' + H.escape(t["vt_lien"], quote=False) + "</a>", suite, count=1)
+                   lambda m: m.group(0).split('"')[0] + '"' + m.group(0).split('"')[1].replace("kosher-chalet-courchevel", voisin) + '">' + H.escape(t["vt_lien"], quote=False) + "</a>", suite, count=1)
+    for a, b in t.get("suite_noms", []):   # station proposée (lot 2 : Courchevel au lieu de Val Thorens)
+        suite = suite.replace(a, b)
     main = main.replace("@@SUITE@@", suite)
     # bande « un chalet entier ? » : les autres chalets, dont Belle Étoile
     main = main.replace("@@MINI@@", K.bloc("mini", K.mini(lang, SLUG)))
@@ -331,8 +340,9 @@ def jsonld(h, lang):
             elif ty == "WebPage":
                 x.update({"@id": url, "url": url, "name": t["web"], "description": t["ld_desc"]})
             elif ty == "Service":
-                x.update({"name": "Kosher chalet in Les Ménuires", "areaServed": {"@type": "Place", "name": "Les Ménuires"},
-                          "serviceType": "Kosher chalet with chef or delivered meals, Shabbat and minyan in Les Ménuires", "url": url})
+                lieu = t.get("svc", "Les Ménuires")
+                x.update({"name": f"Kosher chalet in {lieu}", "areaServed": {"@type": "Place", "name": lieu},
+                          "serviceType": f"Kosher chalet with chef or delivered meals, Shabbat and minyan in {lieu}", "url": url})
                 x.pop("offers", None)   # prix sur demande : aucun montant tant que Mendel n'a pas rempli la grille
             out.append(x)
         return '<script type="application/ld+json">' + json.dumps(out if isinstance(d, list) else out[0], ensure_ascii=False) + "</script>"
@@ -373,11 +383,18 @@ def apres_carte_vth(bloc, lang):
     return bloc[:j] + carte_ar(lang) + bloc[j:]
 
 
+def retirer(s, lang, slug):
+    """Enlève l'entrée de menu et les cartes déjà posées pour ce chalet (relancer met le texte à jour)."""
+    p = pfx(lang)
+    s = re.sub(rf'<a class="nav-ch-v" href="{p}/{slug}/">.*?</a>', "", s, flags=re.S)
+    return re.sub(rf'<article class="kwp-carte[^"]*">(?:(?!</article>).)*?href="{p}/{slug}/"(?:(?!</article>).)*?</article>', "", s, flags=re.S)
+
+
 def brancher():
     n = 0
     nav_tpl = {}
     for lang in LANGS:
-        nav = K.NAV_CH[lang][2][-1]
+        nav = (K.NAV_CH[lang][2][[u for u, _ in K.CH_URL].index(SLUG)][0], LUXE.NAV_AR[lang])
         nav_tpl[lang] = (f'<a class="nav-ch-v" href="{pfx(lang)}/{SLUG}/"><img src="/img/chalet/min/{HERO}-336.webp" alt="" width="96" height="64" loading="lazy">'
                          f'<span><b>{H.escape(nav[0], quote=False)}</b>{H.escape(nav[1], quote=False)}</span></a>')
     for p in sorted(ICI.glob("**/index.html")):
@@ -388,6 +405,7 @@ def brancher():
         slug = r[len(lang) + 1:] if lang != "en" else r
         slug = slug[: -len("index.html")].strip("/")
         s = lire(p); o = s
+        s = retirer(s, lang, SLUG)
         # menu « Chalets » de l'en-tête
         if f'class="nav-ch-v" href="{pfx(lang)}/{SLUG}/"' not in s:
             s = re.sub(rf'(<a class="nav-ch-v" href="{pfx(lang)}/{MODELE}/">.*?</a>)', lambda m: m.group(1) + nav_tpl[lang], s, count=1, flags=re.S)

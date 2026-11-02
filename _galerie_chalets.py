@@ -64,6 +64,10 @@ PIECE = {
     "n1": t("First-floor bedrooms", "Chambres du premier étage", "Habitaciones del primer piso", "חדרי שינה בקומה הראשונה"),
     "n0": t("Ground-floor bedrooms", "Chambres du rez-de-chaussée", "Habitaciones de la planta baja", "חדרי שינה בקומת הקרקע"),
     "n2": t("Attic bedrooms", "Chambres sous le toit", "Habitaciones bajo el tejado", "חדרי שינה בעליית הגג"),
+    "suites": t("Suites", "Les suites", "Las suites", "סוויטות"),   # 02/11, lot 2
+    "salon-tv": t("TV lounge", "Salon TV", "Sala de TV", "חדר טלוויזיה"),
+    "piscine": t("Pool", "Piscine", "Piscina", "בריכה"),
+    "bain": t("Nordic bath", "Bain nordique", "Baño nórdico", "אמבט נורדי"),
     "sdb-eau": t("Shower room", "Salle d'eau", "Baño", "חדר מקלחת"),   # 02/11, Aigle Royal
     "detente": t("Sauna and games room", "Sauna et salle de jeux", "Sauna y sala de juegos", "סאונה וחדר משחקים"),
 }
@@ -128,11 +132,31 @@ CHALETS = {
         hero="aigle-exterieur-neige",
         nom=t("Chalet Aigle Royal", "Le Chalet Aigle Royal", "El Chalet Aigle Royal", "צ'אלה אגל רויאל"),
         pieces=[("salon", "salon", ["aigle-sejour", "aigle-salon", "aigle-salon-cuisine"]),
-                ("salle-cuisine", "salle-cuisine", ["aigle-table", "aigle-cuisine"]),
+                ("salle-cuisine", "cuisine", ["aigle-cuisine"]),
                 ("chambres", "chambres", ["aigle-chambre-double", "aigle-chambre-lits", "aigle-chambre-trois-lits", "aigle-chambre-bleue"]),
                 ("sdb", "sdb-eau", ["aigle-salle-d-eau"]),
                 ("detente", "detente", ["aigle-sauna", "aigle-salon-jeux"]),
                 ("ext-vues", "ext-vues", ["aigle-exterieur-neige", "aigle-chalet-hiver", "aigle-balcon-sud"])]),
+    # 02/11 : lot 2 de Courchevel 1550 (photos réelles, _marcandou_photos.py) ; pages posées par _chalets_courchevel_lot2.py
+    "kosher-chalet-courchevel-aurore-boreale": dict(
+        hero="aurore-exterieur-piscine",
+        nom=t("Chalet Aurore Boréale", "Le Chalet Aurore Boréale", "El Chalet Aurore Boréale", "צ'אלה אורור בוראל"),
+        pieces=[("salon", "salon", ["aurore-sejour", "aurore-salon", "aurore-salon-cheminee"]),
+                ("salle-cuisine", "salle-cuisine", ["aurore-salle-a-manger", "aurore-cuisine"]),
+                ("suites", "suites", ["aurore-suite-1", "aurore-suite-2", "aurore-suite-3"]),
+                ("salon-tv", "salon-tv", ["aurore-salon-tv"]),
+                ("sdb", "sdb", ["aurore-salle-de-bain-1", "aurore-salle-de-bain-2", "aurore-salle-de-bain-3"]),
+                ("piscine", "piscine", ["aurore-piscine", "aurore-piscine-facade"]),
+                ("ext-vues", "ext-vues", ["aurore-exterieur-piscine", "aurore-vue-aerienne"])]),
+    "kosher-chalet-courchevel-renard-argente": dict(
+        hero="renard-exterieur-neige",
+        nom=t("Chalet Renard Argenté", "Le Chalet Renard Argenté", "El Chalet Renard Argenté", "צ'אלה רנאר ארז'נטה"),
+        pieces=[("salon", "salon", ["renard-sejour", "renard-salon", "renard-salon-vue"]),
+                ("salle-cuisine", "salle-cuisine", ["renard-salle-a-manger", "renard-cuisine"]),
+                ("suites", "suites", ["renard-suite-1", "renard-suite-2", "renard-chambre"]),
+                ("sdb", "sdb1", ["renard-salle-de-bain"]),
+                ("bain", "bain", ["renard-bain-nordique"]),
+                ("ext-vues", "ext-vues", ["renard-exterieur-neige", "renard-facade", "renard-chalet-neige"])]),
 }
 
 SVG_X = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>'
