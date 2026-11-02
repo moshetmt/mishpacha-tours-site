@@ -18,7 +18,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 **הצעת מחיר אחת בכתב, באותו יום**האתר שלכם, התאריכים שלכם, הקבוצה שלכם. איש קשר אחד מההתחלה ועד הסוף.
 
-בחורף מפעיל הרב דניאל בלאיש (Daniel Belaïch) שירותי חב״ד בקורשבל 1850 (Courchevel) ובמג'ב (Megève). באלפ ד'ואז (Alpe d'Huez), לה דז אלפ (Les Deux Alpes), סר שבלייה (Serre Chevalier), שמרוס (Chamrousse) ו־ואל טורנס (Val Thorens), אנו מארגנים מניין וספר תורה עם רשת חב״ד באלפים: ספרו לנו את התאריכים שלכם. ליון היא המקום לנחות בו, לקנות ולעצור כמה שעות בדרך למעלה. באתר הסקי, הצוות הכשר שלנו מארגן שף, ארוחות עד הדירה, שבת ומניין: [פנייה אחת, הצעת מחיר אחת](https://mishpachatours.com/he/kosher-services-french-alps/).
+בחורף מתקיימים שירותי חב״ד בקורשבל 1850 (Courchevel) ובמג'ב (Megève). באלפ ד'ואז (Alpe d'Huez), לה דז אלפ (Les Deux Alpes), סר שבלייה (Serre Chevalier), שמרוס (Chamrousse) ו־ואל טורנס (Val Thorens), אנו מארגנים מניין וספר תורה עם רשת חב״ד באלפים: ספרו לנו את התאריכים שלכם. ליון היא המקום לנחות בו, לקנות ולעצור כמה שעות בדרך למעלה. באתר הסקי, הצוות הכשר שלנו מארגן שף, ארוחות עד הדירה, שבת ומניין: [פנייה אחת, הצעת מחיר אחת](https://mishpachatours.com/he/kosher-services-french-alps/).
 
 ## הצ'אלות הכשרות שלנו *באלפים*
 
@@ -73,6 +73,40 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [צ'אלה אורור בוראל, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**סוויטות + חדר טלוויזיה
+- **6 עד 8**אורחים
+- **בריכה מחוממת**חמאם וג'קוזי
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [צ'אלה רנאר ארז'נטה, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
+
+- **2**סוויטות
+- **2 עד 6**אורחים
+- **אמבט נורדי**מחומם ל-40 מעלות
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ### [צ'אלה לו בלאן, ליד מג'ב](https://mishpachatours.com/he/kosher-chalet-megeve/)
 
 - **10 + 2**חדרי טווין + חדרי עליית גג
@@ -107,9 +141,26 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [צ'אלה אגל רויאל, לה מנואר](https://mishpachatours.com/he/kosher-chalet-les-menuires/)
+
+- **7**סוויטות
+- **עד 15**אורחים
+- **ספא**ג'קוזי וסאונה
+- **7 דק'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+לה מנואר · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ## איפה למצוא מניין *בחורף*
 
-את שניהם מפעיל הרב דניאל בלאיש (habadalpes@yahoo.fr).
+בשני אתרים יש שירות חב״ד בחורף.
 
 - **קורשבל 1850.** תפילות בעונת החורף, ב-389 rue des Tovets. הרב כותב שהוא עוזר בצורכי כשרות, ביין ובחלות לשבת, ובקדיש.
 - **מג'ב.** תפילות באולם «Maison de la Montagne». כתבו לפני שאתם יוצאים: המקום השתנה במהלך השנים.
@@ -120,8 +171,8 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 ## אנשי קשר *של חב״ד* 3
 
-- **בית כנסת במלון Le Mont Charvin, הרב דניאל בלאיש** עונת החורף. יין וחלות לשבת לפי בקשה389 rue des Tovets, 73120 Courchevel[מפה](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
-- **חב״ד האלפים במג'ב, הרב דניאל בלאיש** חורף. habadalpes@yahoo.fr. המקום: אשרו לפני שאתם מגיעים136 route Edmond de Rothschild, 74120 Megève[מפה](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
+- **בית כנסת במלון Le Mont Charvin** עונת החורף. יין וחלות לשבת לפי בקשה389 rue des Tovets, 73120 Courchevel[מפה](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
+- **חב״ד האלפים במג'ב** חורף. המקום: אשרו איתנו לפני שאתם מגיעים136 route Edmond de Rothschild, 74120 Megève[מפה](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
 - **בית חב״ד גרנובל, הרב יחיא להיאני** עומד בראש רשת חב״ד באלפים: habadgrenoblealpes.com10 rue Lazare Carnot, 38000 Grenoble[מפה](https://www.google.com/maps/search/?api=1&query=10%20rue%20Lazare%20Carnot%2C%2038000%20Grenoble%2C%20France)
 
 ## תוכניות סקי כשרות *לפי אתר*
@@ -147,7 +198,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 - **בשלו לפני שהיא מתחילה.** הכינו את סעודת ליל שבת ביום חמישי או ביום שישי בבוקר, והעלו את האוכל איתכם.
 - **דעו איפה המניין הקרוב.** רשמו אותו לפני שאתם יוצאים מליון: הרשתות הסלולריות נופלות בעמקים.
 
-לשאלות הלכתיות, שאלו את הרב שלכם. אנו נותנים רק נקודות מעשיות. ראו גם [שבת בליון](https://mishpachatours.com/shabbat-in-lyon/).
+לשאלות הלכתיות, שאלו את הרב שלכם. אנו נותנים רק נקודות מעשיות. ראו גם [שבת בליון](https://mishpachatours.com/he/shabbat-in-lyon/).
 
 השבוע
 
@@ -183,7 +234,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 אין חנות כשרה באתרי הסקי. הארוחות, לעומת זאת, יכולות להגיע אליכם: הצוות הכשר שלנו באלפים משלח לקבוצה לכל השבוע, או מציב שף בצ'אלה שלכם. [שלחו לנו את הבקשה](https://mishpachatours.com/he/kosher-services-french-alps/). אחרת, הביאו את האוכל מליון: החנויות בדף שלנו [ליון, שער האלפים](https://mishpachatours.com/he/lyon-gateway-to-the-alps-kosher/). הרב של קורשבל עוזר ביין ובחלות. המפעילים שלמעלה מספקים ארוחות בתוכניות שלהם: שאלו מי משגיח.
 
-בקשו את התעודה.
+שפים פרטיים מפרסמים בישול 'גלאט כשר' במג'ב, בשמוני ובקורשבל. ההשגחה שלהם אינה מצוינת באתרים שלהם, ולכן איננו מציגים אותם כמלונות כשרים. בקשו את התעודה.
 
 ## מליון *אל אתר הסקי שלכם*
 
@@ -191,7 +242,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
    ### נחיתה בליון
 
-   נמל התעופה ליון-סן-אכזיפרי נמצא במרחק שעתיים עד שלוש מרוב אתרי הסקי בסבויה. זמני נסיעה ל-13 אתרים מופיעים ב [דף השער שלנו](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
+   נמל התעופה ליון-סן-אכזיפרי נמצא במרחק שעתיים עד שלוש מרוב אתרי הסקי בסבויה. זמני נסיעה ל-13 אתרים מופיעים ב [דף השער שלנו](https://mishpachatours.com/he/lyon-gateway-to-the-alps-kosher/).
 2. **2**
 
    ### קנו כשר
@@ -201,7 +252,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
    ### קחו את עצירת הביניים שלנו בת שלוש השעות
 
-   ההסעה שלכם ממתינה בזמן שאנו מדריכים אתכם בליון העתיקה ובתוך בית הכנסת הגדול. 390 € לקבוצה של 1 עד 5 משתתפים. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית. ראו את [סיור עצירת הביניים](https://mishpachatours.com/tours/stopover/).
+   ההסעה שלכם ממתינה בזמן שאנו מדריכים אתכם בליון העתיקה ובתוך בית הכנסת הגדול. 390 € לקבוצה של 1 עד 5 משתתפים. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית. ראו את [סיור עצירת הביניים](https://mishpachatours.com/he/tours/stopover/).
 4. **4**
 
    ### עלו לאתר
@@ -219,7 +270,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 - טיילו עם מלווה בלילה.
 - ספרו לנו אם יש לכם חששות: אנו מתאימים. ליווי מקצועי זמין לפי בקשה בסיורים שלנו, בתמחור נפרד ובהצעת מחיר לפי דרישה.
 
-עוד ב[שאלות ותשובות הכנות שלנו](https://mishpachatours.com/jewish-travel-lyon-faq/).
+עוד ב[שאלות ותשובות הכנות שלנו](https://mishpachatours.com/he/jewish-travel-lyon-faq/).
 
 ## אתרי הסקי *על המפה*
 
@@ -241,7 +292,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 באילו אתרי סקי בצרפת יש מניין כשר?
 
-לקורשבל 1850 ולמג'ב יש שירות חב״ד בחורף, בניהול הרב דניאל בלאיש. בצד גרנובל, באלפ ד'ואז, לה דז אלפ, סר שבלייה, שמרוס ו־ואל טורנס, אנו מארגנים לפי בקשה מניין עם רשת חב״ד באלפים, שמאגדת את המשפחות הנמצאות במקום.
+לקורשבל 1850 ולמג'ב יש שירות חב״ד בחורף. בצד גרנובל, באלפ ד'ואז, לה דז אלפ, סר שבלייה, שמרוס ו־ואל טורנס, אנו מארגנים לפי בקשה מניין עם רשת חב״ד באלפים, שמאגדת את המשפחות הנמצאות במקום.
 
 האם יש בצרפת מפעילי חופשות סקי כשרות?
 

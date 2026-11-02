@@ -123,6 +123,36 @@ PICTOS = {
  "eau": '<path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>',
  "navette": '<path d="M8 6v6"/><path d="M15 6v6"/><path d="M2 12h19.6"/><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"/><circle cx="7" cy="18" r="2"/><path d="M9 18h5"/><circle cx="16" cy="18" r="2"/>',
 }
+# 02/11 : septième chalet « Aigle Royal », Les Ménuires (3 Vallées), photos réelles retouchées légèrement ; prix « Sur demande » tant que
+# la ligne ch6 de la grille de Mendel est vide (js/prix.js). Jamais le vrai nom du chalet ni du hameau (Moshé 02/11).
+_K = {l: T[l]["vth"]["k"] for l in T}
+T["en"]["ar"] = dict(lieu="Les Ménuires", t="Chalet Aigle Royal, Les Ménuires", alt="Chalet Aigle Royal in Les Ménuires under snow",
+                     s=[("7", "suites"), ("Up to 15", "guests"), ("Spa", "jacuzzi and sauna"), ("7 min", "to the slopes")], k=_K["en"])
+T["fr"]["ar"] = dict(lieu="Les Ménuires", t="Chalet Aigle Royal, Les Ménuires", alt="Le Chalet Aigle Royal aux Ménuires sous la neige",
+                     s=[("7", "suites"), ("Jusqu'à 15", "personnes"), ("Spa", "jacuzzi et sauna"), ("7 min", "des pistes")], k=_K["fr"])
+T["es"]["ar"] = dict(lieu="Les Ménuires", t="Chalet Aigle Royal, Les Ménuires", alt="El Chalet Aigle Royal en Les Ménuires bajo la nieve",
+                     s=[("7", "suites"), ("Hasta 15", "personas"), ("Spa", "jacuzzi y sauna"), ("7 min", "de las pistas")], k=_K["es"])
+T["he"]["ar"] = dict(lieu="לה מנואר", t="צ'אלה אגל רויאל, לה מנואר", alt="צ'אלה אגל רויאל בלה מנואר תחת השלג",
+                     s=[("7", "סוויטות"), ("עד 15", "אורחים"), ("ספא", "ג'קוזי וסאונה"), ("7 דק'", "מהמסלולים")], k=_K["he"])
+
+# 02/11 : lot 2 de Courchevel 1550, noms choisis par Moshé (Aurore Boréale, Renard Argenté), prix « Sur demande » (lignes ch7, ch8 vides)
+T["en"]["au"] = dict(lieu="Courchevel", t="Chalet Aurore Boréale, Courchevel", alt="Chalet Aurore Boréale in Courchevel, the pool under snow",
+                     s=[("3 + 1", "suites + TV lounge"), ("6 to 8", "guests"), ("Heated pool", "hammam, hot tub"), ("400 m", "to the slopes")], k=_K["en"])
+T["fr"]["au"] = dict(lieu="Courchevel", t="Chalet Aurore Boréale, Courchevel", alt="Le Chalet Aurore Boréale à Courchevel, la piscine sous la neige",
+                     s=[("3 + 1", "suites + salon TV"), ("6 à 8", "personnes"), ("Piscine chauffée", "hammam, bain à remous"), ("400 m", "des pistes")], k=_K["fr"])
+T["es"]["au"] = dict(lieu="Courchevel", t="Chalet Aurore Boréale, Courchevel", alt="El Chalet Aurore Boréale en Courchevel, la piscina bajo la nieve",
+                     s=[("3 + 1", "suites + sala de TV"), ("6 a 8", "personas"), ("Piscina climatizada", "hammam, jacuzzi"), ("400 m", "de las pistas")], k=_K["es"])
+T["he"]["au"] = dict(lieu="קורשבל", t="צ'אלה אורור בוראל, קורשבל", alt="צ'אלה אורור בוראל בקורשבל, הבריכה תחת השלג",
+                     s=[("3 + 1", "סוויטות + חדר טלוויזיה"), ("6 עד 8", "אורחים"), ("בריכה מחוממת", "חמאם וג'קוזי"), ("400 מ'", "מהמסלולים")], k=_K["he"])
+T["en"]["re"] = dict(lieu="Courchevel", t="Chalet Renard Argenté, Courchevel", alt="Chalet Renard Argenté in Courchevel under snow",
+                     s=[("2", "suites"), ("2 to 6", "guests"), ("Nordic bath", "heated to 40 °C"), ("400 m", "to the slopes")], k=_K["en"])
+T["fr"]["re"] = dict(lieu="Courchevel", t="Chalet Renard Argenté, Courchevel", alt="Le Chalet Renard Argenté à Courchevel sous la neige",
+                     s=[("2", "suites"), ("2 à 6", "personnes"), ("Bain nordique", "chauffé à 40 °C"), ("400 m", "des pistes")], k=_K["fr"])
+T["es"]["re"] = dict(lieu="Courchevel", t="Chalet Renard Argenté, Courchevel", alt="El Chalet Renard Argenté en Courchevel bajo la nieve",
+                     s=[("2", "suites"), ("2 a 6", "personas"), ("Baño nórdico", "a 40 °C"), ("400 m", "de las pistas")], k=_K["es"])
+T["he"]["re"] = dict(lieu="קורשבל", t="צ'אלה רנאר ארז'נטה, קורשבל", alt="צ'אלה רנאר ארז'נטה בקורשבל תחת השלג",
+                     s=[("2", "סוויטות"), ("2 עד 6", "אורחים"), ("אמבט נורדי", "מחומם ל-40 מעלות"), ("400 מ'", "מהמסלולים")], k=_K["he"])
+
 CHALETS = {
  "da": dict(img="/img/chalet/wp-ext-bleu.jpg", w=1600, h=1067, pictos=["maison", "lit", "gens", "pistes"], lien="/kosher-chalet-les-deux-alpes/",
             q="?i=a&amp;lieu=Les%20Deux%20Alpes&amp;voyage=Ski%20holiday%20with%20a%20chalet"),
@@ -141,6 +171,12 @@ CHALETS = {
  "vi": dict(img="/img/villa/st-tropez-facade.jpg", w=1368, h=912, pictos=["lit", "gens", "eau", "maison"], lien="/kosher-villa-saint-tropez/",
             q="?i=a&amp;lieu=Saint-Tropez&amp;voyage=Summer%20in%20the%20Alps", marque="sp"),
 }
+CHALETS["ar"] = dict(img="/img/chalet/aigle-exterieur-neige.jpg", w=1067, h=800, pictos=["lit", "gens", "eau", "pistes"], lien="/kosher-chalet-les-menuires/",
+                     q="?i=a&amp;lieu=Les%20M%C3%A9nuires&amp;voyage=Ski%20holiday%20with%20a%20chalet")   # 02/11, Aigle Royal
+CHALETS["au"] = dict(img="/img/chalet/aurore-exterieur-piscine.jpg", w=1081, h=720, pictos=["lit", "gens", "eau", "pistes"], lien="/kosher-chalet-courchevel-aurore-boreale/",
+                     q="?i=a&amp;lieu=Courchevel&amp;voyage=Ski%20holiday%20with%20a%20chalet")   # 02/11, lot 2
+CHALETS["re"] = dict(img="/img/chalet/renard-exterieur-neige.jpg", w=1081, h=720, pictos=["lit", "gens", "eau", "pistes"], lien="/kosher-chalet-courchevel-renard-argente/",
+                     q="?i=a&amp;lieu=Courchevel&amp;voyage=Ski%20holiday%20with%20a%20chalet")
 MARQUE = {"wp": dict(nom="Winter Prestige", or_="/img/wp-flocon-or.svg", noir="/img/wp-flocon-noir.svg"),
           "sp": dict(nom="Summer Prestige", or_="/img/sp-symbole-or.svg", noir="/img/sp-symbole-noir.svg")}
 def marque(cle): return MARQUE[CHALETS[cle].get("marque", "wp")]
@@ -281,6 +317,10 @@ GALERIE_VT = [("valthorens-exterieur-neige", dict(en="The chalet under snow, abo
               ("valthorens-chambre-3", dict(en="The third en-suite bedroom", fr="La troisième chambre avec salle de bain", es="La tercera habitación con baño", he="חדר השינה השלישי עם חדר רחצה")),
               ("valthorens-salle-de-bain", dict(en="One of the three bathrooms", fr="L'une des trois salles de bain", es="Uno de los tres baños", he="אחד משלושת חדרי הרחצה"))]
 
+VTH_H2 = {"en": ("Our chalets", "in the 3 Valleys"), "fr": ("Nos chalets", "aux 3 Vallées"), "es": ("Nuestros chalets", "en los 3 Valles"), "he": ("הצ'אלות שלנו", "בשלושת העמקים")}
+
+H2_CO = {"en": ("Our chalets", "in Courchevel"), "fr": ("Nos chalets", "à Courchevel"), "es": ("Nuestros chalets", "en Courchevel"), "he": ("הצ'אלות שלנו", "בקורשבל")}   # 02/11, lot 2
+
 def galerie_vt(lang):
     return diapo(lang, GALERIE_VT, "chalet")
 
@@ -330,7 +370,7 @@ def accueil(s, lang):
     a = ACC[lang]
     s = re.sub(r'\n?<section class="ss wrap ac-chalet" id="chalet">.*?</section>', "", s, count=1, flags=re.S)
     s = poser(s, "accueil", f'<section class="ss wrap kwp kwp-accueil" id="chalet"><h2>{a["h2"]} <i>{a["i"]}</i></h2>'
-                            f'<div class="kwp-cartes kwp-rail">{carte(lang, "da")}{carte(lang, "co")}{carte(lang, "vth")}{carte(lang, "me")}{carte(lang, "sl")}</div>{lien_tous(lang)}</section>',   # 25/10 Moshé : les cinq chalets en rail à faire glisser
+                            f'<div class="kwp-cartes kwp-rail">{carte(lang, "da")}{carte(lang, "co")}{carte(lang, "au")}{carte(lang, "re")}{carte(lang, "vth")}{carte(lang, "ar")}{carte(lang, "me")}{carte(lang, "sl")}</div>{lien_tous(lang)}</section>',   # 25/10 Moshé : les cinq chalets en rail à faire glisser
               avant='<section class="ss beige" id="trips">')
     s = re.sub(rf'<a class="hub-carte" href="{pfx(lang)}/kosher-chalet-les-deux-alpes/">(.*?)<h3>[^<]*</h3><p>[^<]*</p>',
                lambda m: f'<a class="hub-carte" href="{pfx(lang)}/kosher-chalets/">{m.group(1)}<h3>{a["porte"][0]}</h3><p>{a["porte"][1]}</p>', s, count=1, flags=re.S)
@@ -342,7 +382,7 @@ def page(slug, lang):
     if slug == "":
         s = accueil(s, lang)
     elif slug == "kosher-chalets":
-        s = poser(s, "hub", f'<section class="ss wrap kwp kwp-hub"><div class="kwp-cartes kwp-cinq">{carte(lang, "da")}{carte(lang, "sl")}{carte(lang, "co")}{carte(lang, "me")}{carte(lang, "vth")}</div>{bandeau(lang)}</section>',
+        s = poser(s, "hub", f'<section class="ss wrap kwp kwp-hub"><div class="kwp-cartes kwp-six">{carte(lang, "da")}{carte(lang, "sl")}{carte(lang, "co")}{carte(lang, "au")}{carte(lang, "re")}{carte(lang, "me")}{carte(lang, "vth")}{carte(lang, "ar")}</div>{bandeau(lang)}</section>',
                   apres='<section class="ss wrap lead-intro"')
     elif slug == "kosher-villa-saint-tropez":
         s = poser(s, "galerie", galerie_vi(lang), avant='</main>')   # 19/10 Moshé : jamais sous la bannière, juste avant le pied
@@ -362,10 +402,12 @@ def page(slug, lang):
     elif slug == "kosher-chalet-val-thorens":   # 22/10, cinquième chalet
         s = poser(s, "galerie", galerie_vt(lang), avant='</main>')
         s = poser(s, "bandeau", f'<section class="ss wrap kwp kwp-seul-bandeau">{bandeau(lang)}</section>', avant='<section class="ss lead-final"')
+    elif slug == "kosher-chalet-les-menuires":   # 02/11, Aigle Royal (la galerie Le Collectionist est posée par _chalet_aigle_royal.py)
+        s = poser(s, "bandeau", f'<section class="ss wrap kwp kwp-seul-bandeau">{bandeau(lang)}</section>', avant='<section class="ss lead-final"')
     elif slug == "kosher-val-thorens":   # 22/10, carte du chalet sur la page station (bloc « vth », jamais « vt » = fondu entre chartes)
         s = re.sub(r"<!--KIT-WP:mini-->.*?<!--/KIT-WP:mini-->\n?", "", s, flags=re.S)   # la bande des chalets cède la place à la carte
-        s = poser(s, "vth", f'<section class="ss wrap kwp"><h2>{t["vth_h2"]} <i>{t["vth_h2_i"]}</i></h2>'
-                            f'<div class="kwp-cartes kwp-seule">{carte(lang, "vth")}</div></section>', apres='<section class="ss wrap lead-intro"')
+        s = poser(s, "vth", f'<section class="ss wrap kwp"><h2>{VTH_H2[lang][0]} <i>{VTH_H2[lang][1]}</i></h2>'
+                            f'<div class="kwp-cartes">{carte(lang, "vth")}{carte(lang, "ar")}</div></section>', apres='<section class="ss wrap lead-intro"')   # 02/11 : + Aigle Royal (Les Ménuires)
     elif slug == "kosher-megeve":
         s = poser(s, "me", f'<section class="ss wrap kwp"><h2>{t["me_h2"]} <i>{t["me_h2_i"]}</i></h2>'
                            f'<div class="kwp-cartes kwp-seule">{carte(lang, "me")}</div></section>', apres='<section class="ss wrap lead-intro"')
@@ -378,11 +420,11 @@ def page(slug, lang):
         j = s.find("</section>", i)
         s = s[:j] + bloc("da", f'<div class="kwp-cartes">{carte(lang, "da")}{carte(lang, "sl")}</div>') + "\n" + s[j:]
     elif slug == "kosher-courchevel":
-        s = poser(s, "co", f'<section class="ss wrap kwp"><h2>{t["co_h2"]} <i>{t["co_h2_i"]}</i></h2>'
-                           f'<div class="kwp-cartes kwp-seule">{carte(lang, "co")}</div></section>', apres='<section class="ss wrap lead-intro"')
+        s = poser(s, "co", f'<section class="ss wrap kwp"><h2>{H2_CO[lang][0]} <i>{H2_CO[lang][1]}</i></h2>'
+                           f'<div class="kwp-cartes kwp-six">{carte(lang, "co")}{carte(lang, "au")}{carte(lang, "re")}</div></section>', apres='<section class="ss wrap lead-intro"')
     elif slug in ("alps", "kosher-ski-holidays-french-alps"):
         s = poser(s, "duo", f'<section class="ss wrap kwp"><h2>{t["deux"]} <i>{t["deux_i"]}</i></h2>'
-                            f'<div class="kwp-cartes kwp-cinq">{carte(lang, "da")}{carte(lang, "sl")}{carte(lang, "co")}{carte(lang, "me")}{carte(lang, "vth")}</div>{bandeau(lang)}</section>',
+                            f'<div class="kwp-cartes kwp-six">{carte(lang, "da")}{carte(lang, "sl")}{carte(lang, "co")}{carte(lang, "au")}{carte(lang, "re")}{carte(lang, "me")}{carte(lang, "vth")}{carte(lang, "ar")}</div>{bandeau(lang)}</section>',
                   apres='<section class="ss wrap lead-intro"')   # 19/10 : remonté juste après l'intro (9e écran -> 2e) ; 20/10 : 3 chalets
     elif slug == "kosher-chalet-les-deux-alpes":
         s = poser(s, "bandeau", f'<section class="ss wrap kwp kwp-seul-bandeau">{bandeau(lang)}</section>', avant='<section class="ss lead-final"')
@@ -396,7 +438,7 @@ def page(slug, lang):
 # menu, pied, formulaire lead-final et boutons restent Mishpacha. Signature : logo avec « Powered by Mishpacha Tours ».
 # Moshé 19/10 « oui étends » : /alps/, les 17 pages station, services et ski.
 HIVER = ["alps", "kosher-courchevel", "kosher-les-deux-alpes", "kosher-megeve", *STATIONS_SANS_CHALET, "kosher-services-french-alps", "kosher-ski-holidays-french-alps",
-         "kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens"]  # les pages chalet (Moshé 19/10 « oui »)
+         "kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens", "kosher-chalet-les-menuires"]  # les pages chalet (Moshé 19/10 « oui »)
 # pastilles FR/ES/HE : la Suisse et l'Italie manquaient aux traductions (Moshé 19/10 « oui ajoute »)
 PAYS_ST = {
     "fr": [("En Suisse", [("kosher-zermatt", "Zermatt"), ("kosher-st-moritz", "Saint-Moritz"), ("kosher-crans-montana", "Crans-Montana"), ("kosher-verbier", "Verbier"), ("kosher-gstaad", "Gstaad"), ("kosher-davos", "Davos")]),
@@ -407,6 +449,7 @@ PAYS_ST = {
            ("באיטליה", [("kosher-cervinia", "צרביניה"), ("kosher-courmayeur", "קורמאיור"), ("kosher-cortina", "קורטינה")]), ("יעד אחר", [("kosher-ski-anywhere", "לפי בקשה")])],
 }
 PIED_WP = " · with Winter Prestige"  # pied des pages hiver : notre logo reste, la ligne nomme le partenaire (Moshé 19/10)
+PIED_WP_LANG = {"en": " · with Winter Prestige", "fr": " · avec Winter Prestige", "es": " · con Winter Prestige", "he": " · עם Winter Prestige"}  # traduit le 02/11
 
 def hiver(s, lang):
     s = re.sub(r"<body(?![^>]*kwp-hiver)([^>]*)>", lambda m: '<body class="kwp-hiver"%s>' % m.group(1)
@@ -424,7 +467,8 @@ def hiver(s, lang):
     if i >= 0:
         i += len('<div class="lead3-bloc">')
         s = s[:i] + bloc("hero", f'<div class="kwp-hero-wp"><img src="/img/wp-long-or-powered.svg" alt="Winter Prestige, {POWERED}" width="1222" height="430"></div>') + s[i:]
-    s = re.sub(r'(<p class="logo-pied">.*?<small>)([^<]*?)(?:' + re.escape(PIED_WP) + r')?(</small>)', lambda m: m.group(1) + m.group(2) + PIED_WP + m.group(3), s, count=1, flags=re.S)
+    wp = PIED_WP_LANG.get(lang, PIED_WP)
+    s = re.sub(r'(<p class="logo-pied">.*?<small>)([^<]*?)(?:' + "|".join(map(re.escape, PIED_WP_LANG.values())) + r')?(</small>)', lambda m: m.group(1) + m.group(2) + wp + m.group(3), s, count=1, flags=re.S)
     s = stations(s)
     i = s.find('<!--KIT-WP:stations-->')
     if i >= 0 and lang in PAYS_ST and "kosher-zermatt/" not in s[i:s.find('<!--/KIT-WP:stations-->', i)]:
@@ -527,6 +571,7 @@ CSS = """/* ===KIT-WP=== */
 @media (min-width:900px) and (max-width:999px){.kwp-cartes.kwp-cinq>.kwp-carte:last-child{grid-column:1/-1;justify-self:center;width:100%;max-width:460px}}
 @media (min-width:1000px){.kwp-cartes.kwp-cinq{grid-template-columns:repeat(6,minmax(0,1fr))}.kwp-cartes.kwp-cinq>.kwp-carte{grid-column:span 2}.kwp-cartes.kwp-cinq>.kwp-carte:nth-child(4){grid-column:2/span 2}.kwp-cartes.kwp-cinq>.kwp-carte:nth-child(5){grid-column:4/span 2}}
 @media (min-width:700px){.kwp-mini-v.kwp-cinq>.kwp-v:last-child{grid-column:1/-1;justify-self:center;width:100%;max-width:420px}}
+@media (min-width:1000px){.kwp-cartes.kwp-six{grid-template-columns:repeat(3,minmax(0,1fr))}} /* 02/11 : six chalets = 3 + 3 (2 + 2 + 2 entre 700 et 999 px, grille de base) */
 /* pages hiver et Alpes (19/10) : noir #141416, or #C9A961, or lumière #E3BE80, givre #C9D2D4, clair #FAF7F0 */
 body.kwp-hiver{background:#141416}
 .kwp-hero-wp{display:flex;flex-direction:column;align-items:flex-start;gap:2px;direction:ltr;margin:0 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(201,169,97,.45)}

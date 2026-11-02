@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-val-thorens/ (HTML version). Every 
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Val Thorens, strictement casher
 
-# Val Thorens, strictement casher *la plus haute d’Europe*
+# Chalet casher à Val Thorens *la plus haute d’Europe*
 
 Val Thorens se trouve à 2 300 m, dans Les 3 Vallées, la plus haute station de ski d’Europe.
 
@@ -20,7 +20,7 @@ Skiez à Val Thorens le jour. Retrouvez le soir une table dressée, un minyan et
 
 Sa saison court du 21 novembre 2026 au 2 mai 2027. Nous organisons votre séjour casher : chef privé ou repas livrés, Chabbat, minyan et Sefer Torah, en un seul devis écrit.
 
-## Chalet Belle Étoile *à Val Thorens*
+## Nos chalets *aux 3 Vallées*
 
 ### [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
 
@@ -39,6 +39,23 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aigle Royal, Les Ménuires](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)
+
+- **7**suites
+- **Jusqu'à 15**personnes
+- **Spa**jacuzzi et sauna
+- **7 min**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Les Ménuires · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ## Ce que nous organisons *à Val Thorens*
 
 - **Un chalet ou un appartement avec chef privé.** Notre équipe casher basée dans les Alpes rend la cuisine casher et cuisine sur place. Tous les repas de la semaine sont réglés.
@@ -50,7 +67,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
 
-Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Casher *à Val Thorens*
 
@@ -144,11 +161,12 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Stations *voisines*
 
-- [Courchevel casher](https://mishpachatours.com/kosher-courchevel/)
-- [La Plagne casher](https://mishpachatours.com/kosher-la-plagne/)
-- [Les Arcs casher](https://mishpachatours.com/kosher-les-arcs/)
-- [Val d’Isère casher](https://mishpachatours.com/kosher-val-disere/)
-- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
+- [Chalet casher aux Ménuires](https://mishpachatours.com/fr/kosher-les-menuires/)
+- [Courchevel casher](https://mishpachatours.com/fr/kosher-courchevel/)
+- [La Plagne casher](https://mishpachatours.com/fr/kosher-la-plagne/)
+- [Les Arcs casher](https://mishpachatours.com/fr/kosher-les-arcs/)
+- [Val d’Isère casher](https://mishpachatours.com/fr/kosher-val-disere/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/fr/alps/)
 
 ## Pour *aller plus loin*
 

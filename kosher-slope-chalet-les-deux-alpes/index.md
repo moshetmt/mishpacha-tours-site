@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/ (HTML ver
 
 [Home](https://mishpachatours.com/) / [Our kosher chalets](https://mishpachatours.com/kosher-chalets/) / Chalet Rochebrune, Les Deux Alpes
 
-# Chalet Rochebrune, Les Deux Alpes *6 bedrooms, skis on at the door*
+# Kosher chalet Rochebrune *Les Deux Alpes, skis on at the door*
 
 A 165 m² chalet in Les Deux Alpes, fifty metres from the slopes: you put your skis on at the door.
 
@@ -97,7 +97,7 @@ Fifty metres: you put your skis on at the door. The ski school meeting point is 
 
 ## Prefer a whole chalet? *Our kosher chalets*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Chalet Loup Blanc · near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Chalet Loup Blanc · near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 en-suite bedrooms · jacuzzi and sauna](https://mishpachatours.com/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · heated pool](https://mishpachatours.com/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · Nordic bath](https://mishpachatours.com/kosher-chalet-courchevel-renard-argente/)
 
 [See the chalets](https://mishpachatours.com/kosher-chalets/)
 

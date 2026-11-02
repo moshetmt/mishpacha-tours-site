@@ -35,10 +35,9 @@ Source: https://mishpachatours.com/he/kosher-courmayeur/ (HTML version). Every p
 
 השגחה כמעט אף פעם לא מוצהרת, לכן בדקו לפני ההזמנה.
 
-- **מלון, מסעדה או חנות כשרים בקורמאיור.** רשימות המסעדות של העיירה ושל מסלולי Checrouit מזכירות תפריטים צמחוניים וללא גלוטן, אף פעם לא כשרים. תכננו להביא את האוכל שלכם או לקבל אותו במשלוח.
-- **בית חב״ד או בית כנסת בעמק אאוסטה.** הנוכחות היהודית הקרובה אליכם נמצאת בערים: בטורינו, כשעתיים משם, יש קהילה יהודית מאורגנת, ובמילאנו, כשלוש שעות משם, יש מרכז חב״ד שמארח סעודות שבת. בצד הצרפתי, נוכחות חב״ד הקרובה ביותר שאנו מכירים היא במג'ב: ראו [כשר במג'ב](https://mishpachatours.com/he/kosher-megeve/).
+- **מלון, מסעדה או חנות כשרים בקורמאיור.** לא מצאנו. רשימות המסעדות של העיירה ושל מסלולי Checrouit מזכירות תפריטים צמחוניים וללא גלוטן, אף פעם לא כשרים. תכננו להביא את האוכל שלכם או לקבל אותו במשלוח.
+- **בית חב״ד או בית כנסת בעמק אאוסטה.** לא מצאנו בקורמאיור ולא באאוסטה. הנוכחות היהודית הקרובה אליכם נמצאת בערים: בטורינו, כשעתיים משם, יש קהילה יהודית מאורגנת, ובמילאנו, כשלוש שעות משם, יש מרכז חב״ד שמארח סעודות שבת. בצד הצרפתי, נוכחות חב״ד הקרובה ביותר שאנו מכירים היא במג'ב: ראו [כשר במג'ב](https://mishpachatours.com/he/kosher-megeve/).
 - **הצד השני של המנהרה.** שמוני נמצאת 11.6 ק"מ משם דרך מנהרת המון בלאן, וגם בה אין בית חב״ד. אם אתם מתלבטים בין השתיים, קראו [כשר בשמוני](https://mishpachatours.com/he/kosher-chamonix/). השירותים שאנו מארגנים זהים בשני הצדדים.
-- **עונה.** תאריכי הפתיחה של המעליות ושל ה-Skyway
 
 ## חורף וקיץ *בעמק*
 
@@ -132,7 +131,7 @@ Source: https://mishpachatours.com/he/kosher-courmayeur/ (HTML version). Every p
 
 ## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)
+[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה רושברון · לה דז אלפ**6 חדרים · מגלשיים בדלת](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)[**צ'אלה אגל רויאל · לה מנואר**7 חדרי שינה · ג'קוזי וסאונה](https://mishpachatours.com/he/kosher-chalet-les-menuires/)[**צ'אלה אורור בוראל · קורשבל**3 סוויטות · בריכה מחוממת](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)[**צ'אלה רנאר ארז'נטה · קורשבל**2 סוויטות · אמבט נורדי](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
 
 [לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 
@@ -142,10 +141,10 @@ Source: https://mishpachatours.com/he/kosher-courmayeur/ (HTML version). Every p
 
 ## אתרי סקי *סמוכים*
 
-- [כשר בשמוני (צרפת)](https://mishpachatours.com/kosher-chamonix/)
-- [כשר בצרביניה](https://mishpachatours.com/kosher-cervinia/)
-- [כשר בקורטינה ד'אמפצו](https://mishpachatours.com/kosher-cortina/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [כשר בשמוני (צרפת)](https://mishpachatours.com/he/kosher-chamonix/)
+- [כשר בצרביניה](https://mishpachatours.com/he/kosher-cervinia/)
+- [כשר בקורטינה ד'אמפצו](https://mishpachatours.com/he/kosher-cortina/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

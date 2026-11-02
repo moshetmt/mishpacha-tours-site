@@ -16,7 +16,7 @@ La rue Juiverie traverse le Vieux Lyon, dans le 5e arrondissement. Elle porte le
 
 ## Les Juifs de Lyon *au Moyen Âge*
 
-Des Juifs vivent à Lyon depuis une date ancienne. Lorsqu’ils sont expulsés en 1250 par l’archevêque Philippe de Savoie, ils habitent l’actuelle rue Ferrachat. Plus tard dans le siècle, une nouvelle communauté s’installe. Dans la seconde moitié du XIVe siècle, les habitants juifs paient des impôts municipaux et la ville nomme des officiers chargés de les administrer. La ville de Lyon situe cette communauté rue Juiverie aux XIIIe et XIVe siècles. Nous parcourons cette rue pendant [la visite guidée du quartier juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/).
+Des Juifs vivent à Lyon depuis une date ancienne. Lorsqu’ils sont expulsés en 1250 par l’archevêque Philippe de Savoie, ils habitent l’actuelle rue Ferrachat. Plus tard dans le siècle, une nouvelle communauté s’installe. Dans la seconde moitié du XIVe siècle, les habitants juifs paient des impôts municipaux et la ville nomme des officiers chargés de les administrer. La ville de Lyon situe cette communauté rue Juiverie aux XIIIe et XIVe siècles. Nous parcourons cette rue pendant [la visite guidée du quartier juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-tours/).
 
 - **1394.** Le roi Charles VI expulse les Juifs du royaume de France. La ville de Lyon date de cette année l’expulsion de sa communauté juive.
 - **Vers 1420.** L’Encyclopaedia Judaica note que Lyon ne faisait pas encore partie du royaume en 1394. Elle donne 1420 pour l’expulsion de Lyon et indique que la plupart des familles se sont installées à Trévoux, à proximité.
@@ -59,7 +59,7 @@ Nous nous y arrêtons aussi longtemps que votre groupe en a besoin.
 
    ### Avec nous
 
-   La visite du quartier juif commence ici. Elle dure 2 h 30, à pied, en privé pour votre groupe, et comprend la Grande Synagogue et la rue Sainte-Catherine.
+   La visite du quartier juif commence ici. Elle dure 2 h, à pied, en privé pour votre groupe, et comprend la Grande Synagogue et la rue Sainte-Catherine.
 3. **3**
 
    ### Rue Sainte-Catherine
@@ -98,7 +98,7 @@ Le 9 février 1943, la Gestapo a fait irruption dans le bureau de l’UGIF et ar
 
 Combien de temps prévoir ici ?
 
-Seul, 20 minutes pour la rue et 20 minutes pour la rue Sainte-Catherine. Avec nous, les deux font partie de la visite du quartier juif de 2 h 30.
+Seul, 20 minutes pour la rue et 20 minutes pour la rue Sainte-Catherine. Avec nous, les deux font partie de la visite du quartier juif de 2 h.
 
 ## Parcourir la rue *avec nous* ?
 
@@ -108,11 +108,11 @@ Réponse dans la journée, jamais le Shabbat.
 
 ## Pour *aller plus loin*
 
-- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h](https://mishpachatours.com/fr/tours/jewish-lyon/)
 - [La Grande Synagogue de Lyon](https://mishpachatours.com/fr/grande-synagogue-lyon/)
 - [Histoire juive de Lyon](https://mishpachatours.com/fr/jewish-history-lyon/)
 - [Synagogues et Shabbat à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)
-- [Le patrimoine juif de Lyon en deux jours](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
+- [Le patrimoine juif de Lyon en deux jours](https://mishpachatours.com/fr/jewish-lyon-itinerary-2-days/)
 
 ## Prêts à *réserver* votre visite ?
 

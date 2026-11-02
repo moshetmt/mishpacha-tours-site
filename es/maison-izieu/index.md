@@ -17,7 +17,7 @@ La Maison d'Izieu, memorial de los 44 niños judíos y los 7 adultos detenidos a
 
 ## Lo que ocurrió *en Izieu*
 
-En mayo de 1943, Sabine y Miron Zlatin instalaron un hogar para niños judíos en una casa de Izieu, en el Ain. Entre 1943 y 1944 acogió a más de cien niños. Le llevamos allí con [la excursión a Izieu con una guía judía](https://mishpachatours.com/jewish-lyon-tours/).
+En mayo de 1943, Sabine y Miron Zlatin instalaron un hogar para niños judíos en una casa de Izieu, en el Ain. Entre 1943 y 1944 acogió a más de cien niños. Le llevamos allí con [la excursión a Izieu con una guía judía](https://mishpachatours.com/es/jewish-lyon-tours/).
 
 En la mañana del 6 de abril de 1944, la Gestapo de Lyon, bajo las órdenes de Klaus Barbie, detuvo a los 44 niños y a los 7 educadores que se encontraban en la casa. Sabine Zlatin estaba ausente ese día. Los niños fueron retenidos en la prisión de Montluc, en Lyon, y luego enviados a Drancy.
 
@@ -55,11 +55,11 @@ La casa solo puede visitarse en una visita guiada con un mediador del memorial. 
 
 ## Nuestra *excursión de un día* a Izieu
 
-Nuestra [excursión de un día a Izieu](https://mishpachatours.com/tours/izieu/) parte de Lyon y cuesta desde 990 €, presupuesto bajo petición. El vehículo y el conductor se organizan por separado y se facturan por separado. La entrada al memorial la factura el memorial.
+Nuestra [excursión de un día a Izieu](https://mishpachatours.com/es/tours/izieu/) parte de Lyon y cuesta desde 990 €, presupuesto bajo petición. El vehículo y el conductor se organizan por separado y se facturan por separado. La entrada al memorial la factura el memorial.
 
 Su guía cuenta la historia durante el trayecto de ida y a lo largo del resto del día. La casa se visita con el mediador del memorial, y su guía la recorre con usted. Reservamos la visita con el memorial y le avisamos pronto si su grupo no alcanza el mínimo exigido para una visita en inglés.
 
-La jornada de Izieu y las visitas del [CHRD](https://mishpachatours.com/chrd-lyon/) o de [Montluc](https://mishpachatours.com/montluc-prison-lyon/) son reservas distintas y nunca se hacen el mismo día.
+La jornada de Izieu y las visitas del [CHRD](https://mishpachatours.com/es/chrd-lyon/) o de [Montluc](https://mishpachatours.com/es/montluc-prison-lyon/) son reservas distintas y nunca se hacen el mismo día.
 
 ## Preguntas *frecuentes*
 

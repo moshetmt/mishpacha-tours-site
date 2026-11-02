@@ -35,9 +35,8 @@ Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous le r
 
 La surveillance casher est rarement annoncée dans une station suisse : renseignez-vous avant de réserver.
 
-- **Hôtel, restaurant ou commerce casher à Zermatt.** Nous n’en avons trouvé aucun. Prévoyez d’apporter votre nourriture ou de vous la faire livrer. Une recherche qui ne donne rien ne prouve pas que rien n’existe, et nous continuons de vérifier.
-- **Beth 'Habad ou synagogue au village.** Nous n’en avons trouvé aucun à Zermatt. Les centres 'Habad que nous connaissons en Suisse se trouvent dans les grandes villes, dont Genève et Zurich, loin du Cervin.
-- **Hôtes juifs à Zermatt.** C’est pourquoi un minyan s’y constitue semaine après semaine.
+- **Hôtel, restaurant ou commerce casher à Zermatt.** Prévoyez d’apporter votre nourriture ou de vous la faire livrer. Une recherche qui ne donne rien ne prouve pas que rien n’existe, et nous continuons de vérifier.
+- **Beth 'Habad ou synagogue au village.** Les centres 'Habad que nous connaissons en Suisse se trouvent dans les grandes villes, dont Genève et Zurich, loin du Cervin.
 - **Saison.** Les remontées du Matterhorn Ski Paradise ont fonctionné du 1er novembre à début mai pendant l’hiver 2025-2026. La société des remontées fixe les dates de l’hiver 2026-2027 : vérifiez-les avant de prendre un forfait.
 
 ## Un village *sans voitures*
@@ -137,7 +136,7 @@ Notre équipe casher basée dans les Alpes cuisine sous le réseau 'Habad des Al
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 chambres avec salle d'eau · jacuzzi et sauna](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscine chauffée](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · bain nordique](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 
@@ -147,10 +146,10 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Stations *voisines*
 
-- [Crans-Montana casher](https://mishpachatours.com/kosher-crans-montana/)
-- [Verbier casher](https://mishpachatours.com/kosher-verbier/)
-- [Cervinia casher (Italie)](https://mishpachatours.com/kosher-cervinia/)
-- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
+- [Crans-Montana casher](https://mishpachatours.com/fr/kosher-crans-montana/)
+- [Verbier casher](https://mishpachatours.com/fr/kosher-verbier/)
+- [Cervinia casher (Italie)](https://mishpachatours.com/fr/kosher-cervinia/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/fr/alps/)
 
 ## Pour *aller plus loin*
 

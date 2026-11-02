@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/fr/grande-synagogue-lyon/ (HTML version). Eve
 
 # Grande Synagogue de Lyon *à l’intérieur d’un édifice fermé*
 
-La Grande Synagogue de Lyon, 13 quai Tilsitt, au bord de la Saône, a été inaugurée en 1864 et reste une synagogue en activité. Elle est fermée aux visiteurs en dehors des Journées du patrimoine. Mishpacha Tours détient l’autorisation spéciale requise pour y entrer et y conduit des groupes privés lors de sa visite du quartier juif de 2 h 30, à 290 € par groupe, sous réserve des horaires d’ouverture et de la sécurité du jour.
+La Grande Synagogue de Lyon, 13 quai Tilsitt, au bord de la Saône, a été inaugurée en 1864 et reste une synagogue en activité. Elle est fermée aux visiteurs en dehors des Journées du patrimoine. Mishpacha Tours détient l’autorisation spéciale requise pour y entrer et y conduit des groupes privés lors de sa visite du quartier juif de 2 h, à 290 € par groupe, sous réserve des horaires d’ouverture et de la sécurité du jour.
 
 - Inaugurée en 1864
 - 13 quai Tilsitt, Lyon 2e
@@ -16,7 +16,7 @@ La Grande Synagogue de Lyon, 13 quai Tilsitt, au bord de la Saône, a été inau
 
 ## Histoire *en bref*
 
-La première pierre a été posée le 20 mai 1863. La synagogue a été inaugurée le 23 juin 1864. L’entrée fait partie de [la seule visite qui entre dans la Grande Synagogue](https://mishpachatours.com/jewish-lyon-tours/).
+La première pierre a été posée le 20 mai 1863. La synagogue a été inaugurée le 23 juin 1864. L’entrée fait partie de [la seule visite qui entre dans la Grande Synagogue](https://mishpachatours.com/fr/jewish-lyon-tours/).
 
 - **Architecte.** Abraham Hirsch (1828-1913), architecte juif devenu par la suite architecte de la ville de Lyon.
 - **Style.** Néo-byzantin.
@@ -54,7 +54,7 @@ Si vous venez prier, vous êtes les bienvenus aux offices. Arrivez quelques minu
 
    ### Nous terminons rue Sainte-Catherine
 
-   La promenade s’achève là où l’histoire de guerre des Juifs de Lyon rejoint celle de la Résistance. C’est la visite du quartier juif, 2 h 30.
+   La promenade s’achève là où l’histoire de guerre des Juifs de Lyon rejoint celle de la Résistance. C’est la visite du quartier juif, 2 h.
 
 [Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20me%20renseigner%20sur%20la%20visite%20Lyon%20juif%20et%20la%20visite%20de%20la%20Grande%20Synagogue.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Langue%20souhait%C3%A9e%20%3A)[Demander un devis](#book)
 
@@ -75,7 +75,7 @@ Les règles de photographie sont fixées par la synagogue et peuvent changer d�
 
 - **Métro.** Bellecour, lignes A et D, est la station la plus proche. De là, le quai est à quelques pas.
 - **Depuis le Vieux Lyon.** Traversez la Saône à pied et suivez le quai Tilsitt.
-- **Shabbat.** Lyon se parcourt à pied. Les horaires d’allumage des bougies figurent sur notre [page des synagogues](https://mishpachatours.com/synagogues-lyon/).
+- **Shabbat.** Lyon se parcourt à pied. Les horaires d’allumage des bougies figurent sur notre [page des synagogues](https://mishpachatours.com/fr/synagogues-lyon/).
 
 ## Sur la *carte*
 
@@ -111,7 +111,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 ## Pour *aller plus loin*
 
-- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h](https://mishpachatours.com/fr/tours/jewish-lyon/)
 - [Synagogues et Shabbat à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)
 - [La rue Juiverie et le quartier juif médiéval de Lyon](https://mishpachatours.com/fr/rue-juiverie-lyon/)
 - [Histoire juive de Lyon](https://mishpachatours.com/fr/jewish-history-lyon/)

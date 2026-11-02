@@ -12,7 +12,7 @@ Accordez deux ou trois jours à Lyon : le Vieux Lyon et ses traboules d’abord,
 
 ## Comment lire *cette page*
 
-Chaque lieu indique la durée, les enfants, le casher à proximité et le jour de fermeture ; le reste est sous « Lire la suite ». Nous ne guidons pas le Shabbat : chaque plan va du dimanche au vendredi. Horaires lus sur le site de chaque lieu le 21 octobre 2026. Pour le côté juif de la ville, commencez par [nos visites guidées du patrimoine juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/).
+Chaque lieu indique la durée, les enfants, le casher à proximité et le jour de fermeture ; le reste est sous « Lire la suite ». Nous ne guidons pas le Shabbat : chaque plan va du dimanche au vendredi. Horaires lus sur le site de chaque lieu le 21 octobre 2026. Pour le côté juif de la ville, commencez par [nos visites guidées du patrimoine juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-tours/).
 
 ## Le vieux Lyon *et ses collines*
 
@@ -80,16 +80,16 @@ Chaque lieu indique la durée, les enfants, le casher à proximité et le jour d
 
 ## Le patrimoine juif de Lyon *et la mémoire*
 
-- **La Grande Synagogue : le bâtiment où nous vous faisons entrer.** Inaugurée en 1864 et fermée au public, c’est le seul bâtiment où nous vous faisons entrer, lors de notre visite du quartier juif de Lyon de 2 h 30, sous réserve des horaires et de la sécurité.  
-  2 h 30 avec la visite · Enfants dès 8 ans environ · Casher 2e arr. · pas de visiteurs le ShabbatLire la suite
+- **La Grande Synagogue : le bâtiment où nous vous faisons entrer.** Inaugurée en 1864 et fermée au public, c’est le seul bâtiment où nous vous faisons entrer, lors de notre visite du quartier juif de Lyon de 2 h, sous réserve des horaires et de la sécurité.  
+  2 h avec la visite · Enfants dès 8 ans environ · Casher 2e arr. · pas de visiteurs le ShabbatLire la suite
 
-  Inaugurée en 1864 au 13 quai Tilsitt, elle reste une synagogue en activité et est fermée aux visiteurs hors Journées du patrimoine. Mishpacha Tours détient l’autorisation spéciale et fait entrer des groupes privés lors de sa [visite du quartier juif de Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/) de 2 h 30, sous réserve des horaires et de la sécurité du jour. C’est la seule visite de cette page que vous ne pouvez pas faire seuls. [La Grande Synagogue, en détail](https://mishpachatours.com/fr/grande-synagogue-lyon/).  
-  **Durée :** 2 h 30 avec la visite. **Enfants :** à partir d’environ huit ans. **Casher :** le 2e arrondissement, à quelques pas. Voir [Casher à Lyon](https://mishpachatours.com/fr/kosher-restaurants-lyon/). **Shabbat :** des offices ont lieu, mais les visiteurs ne sont pas admis ; nos visites ont lieu du dimanche au vendredi matin.
+  Inaugurée en 1864 au 13 quai Tilsitt, elle reste une synagogue en activité et est fermée aux visiteurs hors Journées du patrimoine. Mishpacha Tours détient l’autorisation spéciale et fait entrer des groupes privés lors de sa [visite du quartier juif de Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/) de 2 h, sous réserve des horaires et de la sécurité du jour. C’est la seule visite de cette page que vous ne pouvez pas faire seuls. [La Grande Synagogue, en détail](https://mishpachatours.com/fr/grande-synagogue-lyon/).  
+  **Durée :** 2 h avec la visite. **Enfants :** à partir d’environ huit ans. **Casher :** le 2e arrondissement, à quelques pas. Voir [Casher à Lyon](https://mishpachatours.com/fr/kosher-restaurants-lyon/). **Shabbat :** des offices ont lieu, mais les visiteurs ne sont pas admis ; nos visites ont lieu du dimanche au vendredi matin.
 - **Le CHRD : le musée de la mémoire.** Le musée de la résistance et de la déportation, dans l’ancien siège de la Gestapo.  
-  2 h 30 · Enfants adolescents · Casher 6e ou 2e arr. · fermé lundi et mardiLire la suite
+  2 h · Enfants adolescents · Casher 6e ou 2e arr. · fermé lundi et mardiLire la suite
 
   Le Centre d’histoire de la résistance et de la déportation, au 14 avenue Berthelot, dans l’ancien siège de la Gestapo à Lyon. Notre visite privée suit le fil juif de l’Occupation : les rafles, les déportations, les enfants d’Izieu. [Le CHRD, en détail](https://mishpachatours.com/fr/chrd-lyon/).  
-  **Durée :** 2 h 30. **Enfants :** adolescents ; pour des plus jeunes, parlez-en d’abord avec nous. **Casher :** le 6e ou le 2e arrondissement, en métro. Voir [Casher à Lyon](https://mishpachatours.com/fr/kosher-restaurants-lyon/). **Shabbat :** ouvert du mercredi au dimanche, de 10 h à 18 h, fermé le lundi et le mardi. Nous visitons du mercredi au vendredi ou le dimanche.
+  **Durée :** 2 h. **Enfants :** adolescents ; pour des plus jeunes, parlez-en d’abord avec nous. **Casher :** le 6e ou le 2e arrondissement, en métro. Voir [Casher à Lyon](https://mishpachatours.com/fr/kosher-restaurants-lyon/). **Shabbat :** ouvert du mercredi au dimanche, de 10 h à 18 h, fermé le lundi et le mardi. Nous visitons du mercredi au vendredi ou le dimanche.
 - **Izieu : une visite d’une journée.** Le mémorial des 44 enfants juifs arrêtés le 6 avril 1944, à une heure de Lyon par la route.  
   une journée · Enfants dès 8 ans environ · Casher apportez votre repas · horaires du mémorial à vérifierLire la suite
 
@@ -143,7 +143,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 ## Pour *aller plus loin*
 
-- [Visite du quartier juif de Lyon, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif de Lyon, 2 h](https://mishpachatours.com/fr/tours/jewish-lyon/)
 - [Météo à Lyon par saison et prévisions de la semaine](https://mishpachatours.com/fr/lyon-weather/)
 - [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/)
 - [Van et transferts](https://mishpachatours.com/fr/kosher-van-transfers/)

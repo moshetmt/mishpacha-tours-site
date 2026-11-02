@@ -16,11 +16,11 @@ Source: https://mishpachatours.com/he/montluc-prison-lyon/ (HTML version). Every
 
 ## ההיסטוריה *בקצרה*
 
-מונלוק נבנה ב-1921 ככלא צבאי. אחרי שהגרמנים תפסו חלק ממנו בינואר 1943, הם השתלטו על הכלא כולו ב-17 בפברואר 1943 והחזיקו בו עד שחרור ליון ב-24 באוגוסט 1944. מונלוק הוא תחנה [בסיור הזיכרון שלנו, מונלוק ו-CHRD](https://mishpachatours.com/jewish-lyon-tours/).
+מונלוק נבנה ב-1921 ככלא צבאי. אחרי שהגרמנים תפסו חלק ממנו בינואר 1943, הם השתלטו על הכלא כולו ב-17 בפברואר 1943 והחזיקו בו עד שחרור ליון ב-24 באוגוסט 1944. מונלוק הוא תחנה [בסיור הזיכרון שלנו, מונלוק ו-CHRD](https://mishpachatours.com/he/jewish-lyon-tours/).
 
 - **מי הוחזק.** יותר מ-9,000 גברים, נשים וילדים עברו בו בתקופה הזו: לוחמי התנגדות, בני ערובה ויהודים. ז'אן מולן (Jean Moulin) וההיסטוריון מרק בלוק (Marc Bloch) הוחזקו כאן.
 - **היהודים במונלוק.** הכלא שימש נקודת איסוף ליהודים לפני שנשלחו לדרנסי ומשם לאושוויץ-בירקנאו. אגף נפרד, שנקרא baraque aux Juifs, החזיק בעיקר גברים יהודים מעל גיל 15. משפחות שלמות הובאו לכאן.
-- **איזיה.**ב-6 באפריל 1944, הילדים שנעצרו ב[בית איזיה](https://mishpachatours.com/maison-izieu/) הוחזקו במונלוק לפני גירושם.
+- **איזיה.**ב-6 באפריל 1944, הילדים שנעצרו ב[בית איזיה](https://mishpachatours.com/he/maison-izieu/) הוחזקו במונלוק לפני גירושם.
 - **הוצאות להורג.** חלק מהאסירים נורו בתוך הכלא עצמו, על שביל ההליכה, במקום שנקרא היום mur des fusillés (קיר הנורים). אחרים הוצאו מליון ונורו במקום אחר.
 
 הכלא נסגר ב-2009 ונפתח לציבור כאתר זיכרון לאומי ב-2010.
@@ -47,9 +47,9 @@ Source: https://mishpachatours.com/he/montluc-prison-lyon/ (HTML version). Every
 
 ## מזיכרון *לחיים יהודיים פעילים*
 
-נווה שלום והמכון התרבותי ליהדות (Institut culturel du judaïsme) נמצאים באותה כתובת, 317 rue Duguesclin. בית הכנסת הוא השני שהמדריכה שלכם מכניסה אתכם אליו, יחד עם [בית הכנסת הגדול ברציף טילסיט](https://mishpachatours.com/grande-synagogue-lyon/). ביקורים בפנים תלויים בהסכמה עם הקהילה ובביטחון של אותו יום, ואנו מבקשים בשמכם.
+נווה שלום והמכון התרבותי ליהדות (Institut culturel du judaïsme) נמצאים באותה כתובת, 317 rue Duguesclin. בית הכנסת הוא השני שהמדריכה שלכם מכניסה אתכם אליו, יחד עם [בית הכנסת הגדול ברציף טילסיט](https://mishpachatours.com/he/grande-synagogue-lyon/). ביקורים בפנים תלויים בהסכמה עם הקהילה ובביטחון של אותו יום, ואנו מבקשים בשמכם.
 
-איננו מציגים באתר זה תמונה של נווה שלום. המדריכה שלכם מראה לכם אותו במקום. הסיור [זיכרון: מונלוק ונווה שלום](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/) מחבר את אתר הזיכרון ואת בית הכנסת בהליכה אחת, כשעתיים וחצי. איננו משלבים אותו לעולם עם ה-[CHRD](https://mishpachatours.com/chrd-lyon/) באותו יום.
+איננו מציגים באתר זה תמונה של נווה שלום. המדריכה שלכם מראה לכם אותו במקום. הסיור [זיכרון: מונלוק ונווה שלום](https://mishpachatours.com/he/tours/memory-montluc-neveh-shalom/) מחבר את אתר הזיכרון ואת בית הכנסת בהליכה אחת, כשעתיים. איננו משלבים אותו לעולם עם ה-[CHRD](https://mishpachatours.com/he/chrd-lyon/) באותו יום.
 
 ## שאלות *שאנו מקבלים*
 
@@ -85,7 +85,7 @@ Source: https://mishpachatours.com/he/montluc-prison-lyon/ (HTML version). Every
 - [ה-CHRD בליון](https://mishpachatours.com/he/chrd-lyon/)
 - [בית איזיה](https://mishpachatours.com/he/maison-izieu/)
 - [בתי כנסת בליון](https://mishpachatours.com/he/synagogues-lyon/)
-- [ליון היהודית בשני ימים](https://mishpachatours.com/jewish-lyon-itinerary-2-days/)
+- [ליון היהודית בשני ימים](https://mishpachatours.com/he/jewish-lyon-itinerary-2-days/)
 
 ## מוכנים *להזמין* את הסיור?
 

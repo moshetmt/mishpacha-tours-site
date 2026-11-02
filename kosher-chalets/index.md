@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-chalets/ (HTML version). Every page of
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Our kosher chalets
 
-# Our kosher chalets *in Les Deux Alpes, Courchevel, Megève and Val Thorens*
+# Our kosher chalets *in Les Deux Alpes, Courchevel, Megève, Val Thorens and Les Ménuires*
 
 Our chalets, everything kosher taken care of: Les Deux Alpes, Courchevel and near Megève.
 
@@ -71,6 +71,40 @@ Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aurore Boréale, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**suites + TV lounge
+- **6 to 8**guests
+- **Heated pool**hammam, hot tub
+- **400 m**to the slopes
+
+**Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Courchevel · with Winter Prestige
+
+Price on request
+
+Availability confirmed for your dates with each request.
+
+[Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Renard Argenté, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel-renard-argente/)
+
+- **2**suites
+- **2 to 6**guests
+- **Nordic bath**heated to 40 °C
+- **400 m**to the slopes
+
+**Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Courchevel · with Winter Prestige
+
+Price on request
+
+Availability confirmed for your dates with each request.
+
+[Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ### [Chalet Loup Blanc, near Megève](https://mishpachatours.com/kosher-chalet-megeve/)
 
 - **10 + 2**twin bedrooms + attic rooms
@@ -104,6 +138,23 @@ From €9,500 per week
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Aigle Royal, Les Ménuires](https://mishpachatours.com/kosher-chalet-les-menuires/)
+
+- **7**suites
+- **Up to 15**guests
+- **Spa**jacuzzi and sauna
+- **7 min**to the slopes
+
+**Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Les Ménuires · with Winter Prestige
+
+Price on request
+
+Availability confirmed for your dates with each request.
+
+[Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
 
 ## What every chalet stay *includes*
 

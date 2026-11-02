@@ -31,14 +31,13 @@ Su centro queda a un breve paseo de los remontes. Organizamos su estancia kosher
 
 Estrictamente kosher. Nuestro equipo kosher con base en los Alpes cocina bajo la red Jabad de los Alpes. Los detalles de la supervisión se entregan con el presupuesto. Detalle de cada servicio: [servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/).
 
-## Kosher en Courmayeur: *lo que encontramos*
+## Kosher en Courmayeur
 
 La supervisión rara vez se indica: compruébelo antes de reservar.
 
-- **Hotel, restaurante o tienda kosher en Courmayeur.** Los listados de restaurantes de la ciudad y de las pistas de Checrouit mencionan menús vegetarianos y sin gluten, nunca kosher. Prevea traer su comida o que se la entreguen.
-- **Casa Jabad o sinagoga en el valle de Aosta.** La presencia judía más cercana está en las ciudades: Turín, a unas dos horas, tiene una comunidad judía organizada, y Milán, a unas tres horas, tiene un centro Jabad que acoge comidas de Shabat. En el lado francés, la presencia Jabad más cercana que conocemos está en Megève: véase [kosher en Megève](https://mishpachatours.com/es/kosher-megeve/).
+- **Hotel, restaurante o tienda kosher en Courmayeur.** No hemos encontrado ninguno. Los listados de restaurantes de la ciudad y de las pistas de Checrouit mencionan menús vegetarianos y sin gluten, nunca kosher. Prevea traer su comida o que se la entreguen.
+- **Casa Jabad o sinagoga en el valle de Aosta.** Ninguna en Courmayeur ni en Aosta. La presencia judía más cercana está en las ciudades: Turín, a unas dos horas, tiene una comunidad judía organizada, y Milán, a unas tres horas, tiene un centro Jabad que acoge comidas de Shabat. En el lado francés, la presencia Jabad más cercana que conocemos está en Megève: véase [kosher en Megève](https://mishpachatours.com/es/kosher-megeve/).
 - **El otro lado del túnel.** Chamonix está a 11,6 km por el túnel del Mont Blanc y tampoco tiene casa Jabad. Si duda entre las dos, lea [kosher en Chamonix](https://mishpachatours.com/es/kosher-chamonix/). Los servicios que organizamos son los mismos en ambos lados.
-- **Temporada.** Compruébelas antes de comprar un forfait.
 
 ## Invierno y verano *en el valle*
 
@@ -132,7 +131,7 @@ Nuestro equipo kosher con base en los Alpes cocina bajo la red Jabad de los Alpe
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
+[**Chalet King David · Les Deux Alpes**6 + 1 habitaciones · a 2 min de las pistas](https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 habitaciones · esquís puestos en la puerta](https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscinas climatizadas](https://mishpachatours.com/es/kosher-chalet-courchevel/)[**Chalet Loup Blanc · cerca de Megève**10 habitaciones twin · Mont Blanc](https://mishpachatours.com/es/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 habitaciones con baño · esquí a pie de puerta](https://mishpachatours.com/es/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 habitaciones con baño · jacuzzi y sauna](https://mishpachatours.com/es/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscina climatizada](https://mishpachatours.com/es/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · baño nórdico](https://mishpachatours.com/es/kosher-chalet-courchevel-renard-argente/)
 
 [Ver los chalets](https://mishpachatours.com/es/kosher-chalets/)
 
@@ -142,10 +141,10 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Estaciones *cercanas*
 
-- [Chamonix kosher (Francia)](https://mishpachatours.com/kosher-chamonix/)
-- [Cervinia kosher](https://mishpachatours.com/kosher-cervinia/)
-- [Cortina kosher](https://mishpachatours.com/kosher-cortina/)
-- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
+- [Chamonix kosher (Francia)](https://mishpachatours.com/es/kosher-chamonix/)
+- [Cervinia kosher](https://mishpachatours.com/es/kosher-cervinia/)
+- [Cortina kosher](https://mishpachatours.com/es/kosher-cortina/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/es/alps/)
 
 ## Siga *leyendo*
 

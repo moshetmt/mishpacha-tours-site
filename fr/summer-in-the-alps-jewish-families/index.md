@@ -47,7 +47,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 ## Stations d’altitude en été
 
-- **Courchevel et Megève.** Rien n’indique qu’ils fonctionnent l’été. Écrivez au rabbin Daniel Belaïch (habadalpes@yahoo.fr) avant de compter sur l’un d’eux.
+- **Courchevel et Megève.** Rien n’indique que leurs offices Chabad d’hiver ont lieu l’été : demandez-nous avant de compter sur l’un d’eux.
 - **Chamonix.** Ses voyages s’adressent aux adultes de plus de 50 ans : ils ne conviennent pas à une famille avec enfants. Les dates figurent sur son site.
 - **Évian et le lac Léman.** Genève a sa propre communauté, de l’autre côté de la frontière.
 
@@ -99,22 +99,22 @@ Chaque station a ses horaires : ils sont calculés aux coordonnées de la statio
 
    ### Atterrir et faire ses courses à Lyon
 
-   Achetez viande, pain et produits laitiers chez Hypercacher, Lilly Market ou les boucheries. Voir [Lyon, la porte des Alpes](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/).
+   Achetez viande, pain et produits laitiers chez Hypercacher, Lilly Market ou les boucheries. Voir [Lyon, la porte des Alpes](https://mishpachatours.com/fr/lyon-gateway-to-the-alps-kosher/).
 2. **2**
 
    ### Faire une visite à Lyon
 
-   Notre [visite juive à Lyon](https://mishpachatours.com/tours/jewish-lyon/) dure 2 h 30, avec l’intérieur de la Grande Synagogue. Notre [Escale à Lyon](https://mishpachatours.com/tours/stopover/) dure 3 heures, pour les familles qui prennent la route le jour même.
+   Notre [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/) dure 2 h, avec l’intérieur de la Grande Synagogue. Notre [Escale à Lyon](https://mishpachatours.com/fr/tours/stopover/) dure 3 heures, pour les familles qui prennent la route le jour même.
 3. **3**
 
    ### Ajouter Izieu
 
-   L’excursion d’une journée à la [Maison d’Izieu](https://mishpachatours.com/tours/izieu/) part de Lyon. Izieu se trouve dans l’Ain, à l’est de Lyon, en direction de la Savoie. Prix à partir de 990 €, sur devis.
+   L’excursion d’une journée à la [Maison d’Izieu](https://mishpachatours.com/fr/tours/izieu/) part de Lyon. Izieu se trouve dans l’Ain, à l’est de Lyon, en direction de la Savoie. Prix à partir de 990 €, sur devis.
 4. **4**
 
    ### Monter, redescendre
 
-   Lyon fait une bonne base pour des excursions d’une journée en train vers Grenoble, Aix-les-Bains et Chambéry. Passez le Shabbat à Lyon : voir [Shabbat à Lyon](https://mishpachatours.com/shabbat-in-lyon/).
+   Lyon fait une bonne base pour des excursions d’une journée en train vers Grenoble, Aix-les-Bains et Chambéry. Passez le Shabbat à Lyon : voir [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/).
 
 [Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20voyageons%20dans%20les%20Alpes%20cet%20%C3%A9t%C3%A9%20en%20passant%20par%20Lyon%20et%20souhaitons%20une%20visite.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Langue%20%3A)[Demander un devis](#book)
 
@@ -146,7 +146,7 @@ Nous n’en avons trouvé aucune à Annecy même. Le Beth Habad d’Annemasse, �
 
 Les offices Chabad de Courchevel et Megève ont-ils lieu l’été ?
 
-Écrivez au rabbin Belaïch avant de bâtir un projet autour de l’un d’eux.
+Rien ne l’indique. Demandez-nous avant de bâtir un projet autour de l’un d’eux.
 
 Peut-on observer le Shabbat en randonnée ?
 
@@ -154,7 +154,7 @@ Prévoyez un logement près d’un minyan, cuisinez avant le Shabbat et terminez
 
 Peut-on associer Lyon et les Alpes ?
 
-Oui. Atterrissez à Lyon, faites une visite de la ville de 2 h 30 ou l’Escale à Lyon de 3 heures, et ajoutez Izieu. Grenoble et Aix-les-Bains sont à 1 h 15 de Lyon en train, Chambéry à 1 h 20.
+Oui. Atterrissez à Lyon, faites une visite de la ville de 2 h ou l’Escale à Lyon de 3 heures, et ajoutez Izieu. Grenoble et Aix-les-Bains sont à 1 h 15 de Lyon en train, Chambéry à 1 h 20.
 
 ## Votre semaine casher dans les Alpes, *organisée*.
 

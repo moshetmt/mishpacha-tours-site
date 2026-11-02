@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / מג'ב, כשרה לחלוטין
 
-# מג'ב, כשרה לחלוטין *445 ק"מ של מסלולים מחוברים, בקשה אחת לצד הכשר*
+# צ'אלה כשרה ליד מג'ב *445 ק"מ של מסלולים מחוברים*
 
 מג'ב שוכנת בגובה של כ-1,050 מ' בהוט-סבויה, באזור הסקי אווזיון מון בלן, 445 ק״מ של מסלולים.
 
@@ -50,7 +50,7 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 
 כשר לחלוטין. הצוות הכשר שלנו שבסיסו באלפים מבשל תחת רשת חב״ד באלפים; פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר. פירוט כל שירות: [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/).
 
-אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## כשר *במג'ב*
 
@@ -59,8 +59,6 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 - **חנות או מסעדה כשרה.** הביאו את האוכל שלכם מליון, או תנו לנו להביא לכם ארוחות.
 
 ## מניין ושבת *במג'ב*
-
-136 route Edmond de Rothschild, 74120 Megève, או חדר בשם "Maison de la Montagne". הפרסום הוא מ-2014, ולכן אשרו את הכתובת לתאריכים שלכם.
 
 זמני השבת משתנים בכל שבוע. אם אתם רוצים מניין לשבוע מסוים, מסרו לנו את התאריכים מוקדם: אנו בונים אותו עם רשת חב״ד באלפים ומביאים ספר תורה.
 
@@ -147,10 +145,10 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 
 ## אתרי סקי *סמוכים*
 
-- [כשר בשמוני](https://mishpachatours.com/kosher-chamonix/)
-- [כשר באנסי](https://mishpachatours.com/kosher-annecy/)
-- [כשר בקורמאיור (איטליה)](https://mishpachatours.com/kosher-courmayeur/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [כשר בשמוני](https://mishpachatours.com/he/kosher-chamonix/)
+- [כשר באנסי](https://mishpachatours.com/he/kosher-annecy/)
+- [כשר בקורמאיור (איטליה)](https://mishpachatours.com/he/kosher-courmayeur/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

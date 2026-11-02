@@ -97,7 +97,7 @@ Same-day reply, never on Shabbat.
 ## Keep *reading*
 
 - [Things to do in Lyon](https://mishpachatours.com/things-to-do-in-lyon/)
-- [Jewish Lyon tour, 2 h 30](https://mishpachatours.com/tours/jewish-lyon/)
+- [Jewish Lyon tour, 2 hours](https://mishpachatours.com/tours/jewish-lyon/)
 - [Shabbat in Lyon](https://mishpachatours.com/shabbat-in-lyon/)
 - [Where to stay in Lyon](https://mishpachatours.com/where-to-stay-lyon-jewish-travellers/)
 - [Van and transfers](https://mishpachatours.com/kosher-van-transfers/)

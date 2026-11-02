@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-val-thorens/ (HTML version). Every pag
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Val Thorens, strictly kosher
 
-# Val Thorens, strictly kosher *Europe's highest resort*
+# Kosher chalet in Val Thorens *Europe's highest resort*
 
 Val Thorens sits at 2,300 m in Les 3 Vallées, the highest ski resort in Europe.
 
@@ -20,7 +20,7 @@ Ski Val Thorens by day. Come back to a set table, a minyan, and Shabbat ready.
 
 Its season runs from 21 November 2026 to 2 May 2027. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.
 
-## Chalet Belle Étoile *in Val Thorens*
+## Our chalets *in the 3 Valleys*
 
 ### [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/kosher-chalet-val-thorens/)
 
@@ -38,6 +38,23 @@ From €9,500 per week
 Availability confirmed for your dates with each request.
 
 [Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Aigle Royal, Les Ménuires](https://mishpachatours.com/kosher-chalet-les-menuires/)
+
+- **7**suites
+- **Up to 15**guests
+- **Spa**jacuzzi and sauna
+- **7 min**to the slopes
+
+**Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Les Ménuires · with Winter Prestige
+
+Price on request
+
+Availability confirmed for your dates with each request.
+
+[Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
 
 ## What we organise *in Val Thorens*
 
@@ -144,6 +161,7 @@ Tell us your dates. We send a day-by-day programme the same day.
 
 ## Nearby *resorts*
 
+- [Kosher chalet in Les Ménuires](https://mishpachatours.com/kosher-les-menuires/)
 - [Kosher Courchevel](https://mishpachatours.com/kosher-courchevel/)
 - [Kosher La Plagne](https://mishpachatours.com/kosher-la-plagne/)
 - [Kosher Les Arcs](https://mishpachatours.com/kosher-les-arcs/)

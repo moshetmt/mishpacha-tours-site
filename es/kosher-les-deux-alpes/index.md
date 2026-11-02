@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-les-deux-alpes/ (HTML version). Eve
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Les Deux Alpes, estrictamente kosher
 
-# Les Deux Alpes *estrictamente kosher, glaciar a 1.650 m*
+# Chalets kosher en Les Deux Alpes *la estación del glaciar, a 1.650 m*
 
 Les Deux Alpes se encuentra a 1.650 m en Isère, con un glaciar por encima.
 
@@ -73,7 +73,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 Estrictamente kosher. Kashrut bajo la supervisión del Beth Habad Grenoble-Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.
 
-También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
+También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
 ## Kosher *en Les Deux Alpes*
 
@@ -96,8 +96,6 @@ Havdalá
 Horarios calculados para las coordenadas de Les Deux Alpes.
 
 ## Seguridad, *por diseño*
-
-El mismo reportaje recoge a familias que dicen sentirse bienvenidas.
 
 Hay escolta profesional bajo petición y con presupuesto, en la estación como en Lyon. Nuestro estándar está en [¿Es seguro Lyon para los visitantes judíos?](https://mishpachatours.com/es/is-lyon-safe-for-jewish-visitors/).
 
@@ -172,10 +170,10 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Estaciones *cercanas*
 
-- [Alpe d’Huez kosher](https://mishpachatours.com/kosher-alpe-dhuez/)
-- [Grenoble kosher](https://mishpachatours.com/kosher-grenoble/)
-- [Val Thorens kosher](https://mishpachatours.com/kosher-val-thorens/)
-- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
+- [Alpe d’Huez kosher](https://mishpachatours.com/es/kosher-alpe-dhuez/)
+- [Grenoble kosher](https://mishpachatours.com/es/kosher-grenoble/)
+- [Val Thorens kosher](https://mishpachatours.com/es/kosher-val-thorens/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/es/alps/)
 
 ## Siga *leyendo*
 

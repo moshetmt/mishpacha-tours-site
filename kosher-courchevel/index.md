@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-courchevel/ (HTML version). Every page
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Courchevel, strictly kosher
 
-# Courchevel, strictly kosher *1850 and Les 3 Vallées*
+# Kosher chalets in Courchevel *1850 and Les 3 Vallées*
 
 Courchevel 1850 sits at about 1,850 m in Les 3 Vallées.
 
@@ -20,7 +20,7 @@ Ski Courchevel by day. Come back to a set table, a minyan, and Shabbat ready.
 
 The season runs from 4 December 2026 to 18 April 2027. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.
 
-## Chalet Flocon Doré *in Courchevel*
+## Our chalets *in Courchevel*
 
 ### [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel/)
 
@@ -34,6 +34,40 @@ The season runs from 4 December 2026 to 18 April 2027. We organise your kosher s
 Courchevel · with Winter Prestige
 
 From €17,500 per week
+
+Availability confirmed for your dates with each request.
+
+[Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Aurore Boréale, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**suites + TV lounge
+- **6 to 8**guests
+- **Heated pool**hammam, hot tub
+- **400 m**to the slopes
+
+**Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Courchevel · with Winter Prestige
+
+Price on request
+
+Availability confirmed for your dates with each request.
+
+[Check my dates](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Renard Argenté, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel-renard-argente/)
+
+- **2**suites
+- **2 to 6**guests
+- **Nordic bath**heated to 40 °C
+- **400 m**to the slopes
+
+**Strictly kosher.** Chalet koshered for you, chef or delivered meals, everything served is Chalav Yisrael.
+
+Courchevel · with Winter Prestige
+
+Price on request
 
 Availability confirmed for your dates with each request.
 
@@ -54,7 +88,7 @@ We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitche
 
 ## Kosher *in Courchevel*
 
-- **Chabad in winter.** Rabbi Daniel Belaïch holds services at the Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, during the winter season. He writes that he helps with kosher needs, wine and challot for Shabbat.
+- **Chabad in winter.** Services are held at the Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, during the winter season.
 - **Seasonal kosher programs.** A kosherized hotel is a regular hotel made kosher for a week or two. Hotel names and dates change each season.
 - **Private chefs.** Agencies advertise glatt kosher private chefs in Courchevel. Supervision is not stated on their pages.
 
@@ -144,6 +178,7 @@ Tell us your dates. We send a day-by-day programme the same day.
 
 ## Nearby *resorts*
 
+- [Kosher chalet in Les Ménuires](https://mishpachatours.com/kosher-les-menuires/)
 - [Kosher Val Thorens](https://mishpachatours.com/kosher-val-thorens/)
 - [Kosher La Plagne](https://mishpachatours.com/kosher-la-plagne/)
 - [Kosher Les Arcs](https://mishpachatours.com/kosher-les-arcs/)

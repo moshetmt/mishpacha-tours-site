@@ -39,7 +39,7 @@ PAGE = dict(
       "<p>We stand there for as long as your group needs.</p>")),
     dict(type="steps", h2="How to <i>visit</i>", items=[
       ("On your own", "Rue Juiverie is a public street. Take line D to Vieux-Lyon and walk in. There is no ticket and no opening hour. Wear comfortable shoes: the street is cobbled."),
-      ("With us", "The Jewish Lyon tour starts here. It lasts 2 hours 30 minutes, on foot, privately for your group, and it includes the Grande Synagogue and rue Sainte-Catherine."),
+      ("With us", "The Jewish Lyon tour starts here. It lasts 2 hours, on foot, privately for your group, and it includes the Grande Synagogue and rue Sainte-Catherine."),
       ("Rue Sainte-Catherine", "Take the metro to Hôtel de Ville or Croix-Paquet and walk to number 12. The passage is a traboule: respect the residents and keep your voice low.")]),
     dict(type="beige", h2="Why walk it <i>with a Jewish guide</i>", html=(
       "<p>The street teaches little if nobody tells you what the name meant. Your guide is Jewish, observant and strictly kosher, and a member of the community she shows you. She explains the vocabulary, the history and the present, and she answers the questions you would hesitate to ask a stranger.</p>"
@@ -50,10 +50,10 @@ PAGE = dict(
       ("Why is it called rue Juiverie?", "The name goes back to the Middle Ages and refers to the Jewish community that lived there in the 13th and 14th centuries, according to the city of Lyon."),
       ("When were the Jews expelled from Lyon?", "Sources differ. The city of Lyon gives 1394, the year Charles VI expelled the Jews from the kingdom of France. The Encyclopaedia Judaica says Lyon was outside the kingdom at that date and gives about 1420."),
       ("What happened at 12 rue Sainte-Catherine?", "On 9 February 1943 the Gestapo raided the UGIF office and arrested 86 people. Eighty were deported. A plaque in the traboule commemorates them."),
-      ("How long should I plan to spend here?", "On your own, 20 minutes for the street and 20 minutes for rue Sainte-Catherine. With us, both are part of the 2 hours 30 minutes Jewish Lyon tour.")]),
+      ("How long should I plan to spend here?", "On your own, 20 minutes for the street and 20 minutes for rue Sainte-Catherine. With us, both are part of the 2 hours Jewish Lyon tour.")]),
     dict(type="cta", txt="Walk the street <i>with us</i>?", msg="Hello, I would like to ask about the Jewish Lyon tour (rue Juiverie, Grande Synagogue, rue Sainte-Catherine). Dates: / Number of people: / Preferred language:"),
   ],
-  related=[("../tours/jewish-lyon/", "Jewish Lyon tour, 2 hours 30 minutes"), ("../grande-synagogue-lyon/", "The Grande Synagogue of Lyon"), ("../jewish-history-lyon/", "Jewish history of Lyon"), ("../synagogues-lyon/", "Synagogues and Shabbat in Lyon")],
+  related=[("../tours/jewish-lyon/", "Jewish Lyon tour, 2 hours"), ("../grande-synagogue-lyon/", "The Grande Synagogue of Lyon"), ("../jewish-history-lyon/", "Jewish history of Lyon"), ("../synagogues-lyon/", "Synagogues and Shabbat in Lyon")],
   source="Sources: lyon.fr (La rue Juiverie); Encyclopaedia Judaica (Lyons), via jewishvirtuallibrary.org; Mémorial de la Shoah (9 février 1943, la rafle de la rue Sainte-Catherine); en.wikipedia.org (Rue Sainte-Catherine).",
   jsonld={"@context": "https://schema.org", "@type": "TouristAttraction", "name": "Rue Juiverie, Lyon", "url": "https://mishpachatours.com/rue-juiverie-lyon/",
     "address": {"@type": "PostalAddress", "streetAddress": "rue Juiverie", "postalCode": "69005", "addressLocality": "Lyon", "addressCountry": "FR"}},

@@ -49,7 +49,7 @@ You walk through the cell building, where about sixty cells present the biograph
 
 Neveh Chalom and the Institut culturel du judaïsme stand at the same address, 317 rue Duguesclin. The synagogue is the second one your guide takes you inside, with the [Grande Synagogue on quai Tilsitt](https://mishpachatours.com/grande-synagogue-lyon/). Interior visits depend on an agreement with the community and on the day's security, and we ask on your behalf.
 
-We show no photo of Neveh Chalom on this site. Your guide shows it to you on the spot. Our [Memory tour: Montluc and Neveh Shalom](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/) puts the memorial and the synagogue in one walk, 2 hours 30. We never combine it with the [CHRD](https://mishpachatours.com/chrd-lyon/) on the same day.
+We show no photo of Neveh Chalom on this site. Your guide shows it to you on the spot. Our [Memory tour: Montluc and Neveh Shalom](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/) puts the memorial and the synagogue in one walk, 2 hours. We never combine it with the [CHRD](https://mishpachatours.com/chrd-lyon/) on the same day.
 
 ## Questions *we get*
 

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-courchevel",
-  title="Kosher Courchevel: Chef, Shabbat and Minyan",
+  title="Kosher Chalets in Courchevel: Chef, Shabbat, Minyan",
   desc="Kosher Courchevel 1850 and the villages of Les 3 Vallées: private chef in your chalet, delivered meals, Shabbat, holidays and a minyan. One request, one quote.",
-  h1="Courchevel, strictly kosher", ital="1850 and Les 3 Vallées",
+  h1="Kosher chalets in Courchevel", ital="1850 and Les 3 Vallées",
   intro="Courchevel 1850 sits at about 1,850 m in Les 3 Vallées. The season runs from 4 December 2026 to 18 April 2027. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["Courchevel 1850, about 1,850 m, Les 3 Vallées", "About 2 h 10 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",
@@ -20,7 +20,7 @@ PAGE = dict(
 </ul>
 <p>Strictly kosher. Our team cooks under the Chabad network of the Alps: ask for the supervision details in writing with your quote.</p>"""),
     dict(type="beige", h2="Kosher in Courchevel: <i>what is published</i>", html="""<ul>
-<li><b>Chabad in winter.</b> Rabbi Daniel Belaïch holds services at the Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, during the winter season. He writes that he helps with kosher needs, wine and challot for Shabbat. Sources: synalpes.wordpress.com and jtropez.com, read 7 October 2026. Season dates not published.</li>
+<li><b>Chabad in winter.</b> Services are held at the Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, during the winter season. Sources: synalpes.wordpress.com and jtropez.com, read 7 October 2026. Season dates not published.</li>
 <li><b>Seasonal kosher programs.</b> The Jewish press (JTA) reports that a tour agency advertises kosherized ski hotels in Courchevel, and skikosher.com lists a seasonal program for the resort. A kosherized hotel is a regular hotel made kosher for a week or two. Hotel names and dates change each season.</li>
 <li><b>Private chefs.</b> Agencies advertise glatt kosher private chefs in Courchevel. Supervision is not stated on their pages.</li>
 <li><b>Shop or restaurant.</b> No kosher shop and no kosher restaurant published in the resort.</li>

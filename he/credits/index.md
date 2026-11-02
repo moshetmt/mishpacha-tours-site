@@ -14,7 +14,7 @@ Source: https://mishpachatours.com/he/credits/ (HTML version). Every page of the
 
 [כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%9C%20%D7%9E%D7%99%D7%93%D7%A2%20%D7%A2%D7%9C%20%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%D7%A9%D7%9C%D7%9B%D7%9D.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20/%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%A0%D7%A9%D7%99%D7%9D%3A)[בקשו הצעת מחיר](#book)
 
-## צילומים 45
+## צילומים 74
 
 - **Lyon Grande Synagogue Maison 2.jpg**c-synagogue-4.jpg · Zairon · CC BY-SA 4.0[Source](https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_2.jpg)
 - **Lyon Grande Synagogue Maison 1.jpg**c-synagogue-7.jpg · Zairon · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_Grande_Synagogue_Maison_1.jpg)
@@ -57,10 +57,39 @@ Source: https://mishpachatours.com/he/credits/ (HTML version). Every page of the
 - **Lyon rue Saint Jean 32 DSCF2885.jpg**stock/stjean-7.jpg · DamTESC · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_rue_Saint_Jean_32_DSCF2885.jpg)
 - **Lyon - Tour Rose du Vieux Lyon.jpg**stock/traboule-1.jpg · SYLOU94 · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/File:Lyon_-_Tour_Rose_du_Vieux_Lyon.jpg)
 - **ארון הקודש של בית הכנסת הגדול, רציף טילסיט**synagogue-tilsitt-galerie.jpg · FLLL · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/User:FLLL)
-- **עזרת הנשים, בית הכנסת הגדול, רציף טילסיט**synagogue-tilsitt-galerie.jpg · FLLL · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/User:FLLL)
 - **שלט רחוב ז'ויברי, ליון העתיקה**rue-juiverie-plaque.jpg · Sebleouf · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/User:Sebleouf)
 - **קיר ההוצאות להורג, אתר הזיכרון בכלא מונלוק**montluc-mur-des-fusilles.jpg · Romainbehar · CC0[מקור](https://commons.wikimedia.org/wiki/User:Romainbehar)
 - **התריסים של בית איזיה**maison-izieu-volets.jpg · Chabe01 · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/User:Chabe01)
+- **Looking down the Mandarines slope, Megève, 2025.jpg**stock/alpes-ski.jpg · DimiTalen · CC0[מקור](https://commons.wikimedia.org/wiki/File%3ALooking_down_the_Mandarines_slope%2C_Meg%C3%A8ve%2C_2025.jpg)
+- **View of Megève and the Mont Blanc massif from Le Christomet, Megève, 2025.jpg**stock/alpes-montblanc.jpg · DimiTalen · CC0[מקור](https://commons.wikimedia.org/wiki/File%3AView_of_Meg%C3%A8ve_and_the_Mont_Blanc_massif_from_Le_Christomet%2C_Meg%C3%A8ve%2C_2025.jpg)
+- **Lac d'Annecy 2024 (1).jpg**stock/annecy-lac.jpg · Protokitoy · CC0[מקור](https://commons.wikimedia.org/wiki/File%3ALac_d%27Annecy_2024_%281%29.jpg)
+- **Bluer than Tahoe (19705283769).jpg**stock/annecy-ete.jpg · Miwok from France · CC0[מקור](https://commons.wikimedia.org/wiki/File%3ABluer_than_Tahoe_%2819705283769%29.jpg)
+- **Lyon 2e - Place Bellecour - Statue équestre de Louis XIV, après restauration 04.jpg**stock/lyon-bellecour.jpg · Romainbehar · CC0[מקור](https://commons.wikimedia.org/wiki/File%3ALyon_2e_-_Place_Bellecour_-_Statue_%C3%A9questre_de_Louis_XIV%2C_apr%C3%A8s_restauration_04.jpg)
+- **Lyon 1er - Place des Terreaux - Depuis le balcon de l'hôtel de ville.jpg**stock/lyon-terreaux.jpg · Romainbehar · CC0[מקור](https://commons.wikimedia.org/wiki/File%3ALyon_1er_-_Place_des_Terreaux_-_Depuis_le_balcon_de_l%27h%C3%B4tel_de_ville.jpg)
+- **Gare Part-Dieu (Lyon).jpg**stock/lyon-partdieu.jpg · Sylvie burr · CC0[מקור](https://commons.wikimedia.org/wiki/File%3AGare_Part-Dieu_%28Lyon%29.jpg)
+- **Challah - November 2024 - Sarah Stierch 02.jpg**stock/hallah.jpg · Missvain · CC0[מקור](https://commons.wikimedia.org/wiki/File%3AChallah_-_November_2024_-_Sarah_Stierch_02.jpg)
+- **Lyon 6e - Parc de la Tête d'Or - Lac - Pédalos.jpg**stock/lyon-tetedor.jpg · Romainbehar · CC0[מקור](https://commons.wikimedia.org/wiki/File%3ALyon_6e_-_Parc_de_la_T%C3%AAte_d%27Or_-_Lac_-_P%C3%A9dalos.jpg)
+- **The Ark of the Grande Synagogue, quai Tilsitt**synagogue-tilsitt-arche.jpg · FLLL · CC BY-SA 4.0[מקור](https://commons.wikimedia.org/wiki/User:FLLL)
+- **Zermatt (132078539).jpeg**stock/st-zermatt.jpg · Raphael Andres · cc-by-3.0[מקור](https://commons.wikimedia.org/wiki/File%3AZermatt_%28132078539%29.jpeg)
+- **Zermatt (132078539).jpeg**stock/hub-kosher-zermatt.jpg · Raphael Andres · cc-by-3.0[מקור](https://commons.wikimedia.org/wiki/File%3AZermatt_%28132078539%29.jpeg)
+- **Lake St. Moritz in winter.jpg**stock/st-st-moritz.jpg · Etiaetia1020 · cc-by-sa-3.0[מקור](https://commons.wikimedia.org/wiki/File%3ALake_St._Moritz_in_winter.jpg)
+- **Lake St. Moritz in winter.jpg**stock/hub-kosher-st-moritz.jpg · Etiaetia1020 · cc-by-sa-3.0[מקור](https://commons.wikimedia.org/wiki/File%3ALake_St._Moritz_in_winter.jpg)
+- **Crans Montana Valais Suisse 20190316.jpg**stock/st-crans-montana.jpg · PhilippeA · cc-by-sa-4.0[מקור](https://commons.wikimedia.org/wiki/File%3ACrans_Montana_Valais_Suisse_20190316.jpg)
+- **Crans Montana Valais Suisse 20190316.jpg**stock/hub-kosher-crans-montana.jpg · PhilippeA · cc-by-sa-4.0[מקור](https://commons.wikimedia.org/wiki/File%3ACrans_Montana_Valais_Suisse_20190316.jpg)
+- **Verbier Valais 029.JPG**stock/st-verbier.jpg · Norbert Aepli, Switzerland (User:Noebu) · cc-by-2.5[מקור](https://commons.wikimedia.org/wiki/File%3AVerbier_Valais_029.JPG)
+- **Verbier Valais 029.JPG**stock/hub-kosher-verbier.jpg · Norbert Aepli, Switzerland (User:Noebu) · cc-by-2.5[מקור](https://commons.wikimedia.org/wiki/File%3AVerbier_Valais_029.JPG)
+- **Gstaad. Palace Hotel from The Promenade, Switzerland - panoramio.jpg**stock/st-gstaad.jpg · Николай Максимович · cc-by-3.0[מקור](https://commons.wikimedia.org/wiki/File%3AGstaad._Palace_Hotel_from_The_Promenade%2C_Switzerland_-_panoramio.jpg)
+- **Gstaad. Palace Hotel from The Promenade, Switzerland - panoramio.jpg**stock/hub-kosher-gstaad.jpg · Николай Максимович · cc-by-3.0[מקור](https://commons.wikimedia.org/wiki/File%3AGstaad._Palace_Hotel_from_The_Promenade%2C_Switzerland_-_panoramio.jpg)
+- **Weissfluhjoch-2010.jpg**stock/st-davos.jpg · Matthias v.d. Elbe · cc-by-3.0[מקור](https://commons.wikimedia.org/wiki/File%3AWeissfluhjoch-2010.jpg)
+- **Weissfluhjoch-2010.jpg**stock/hub-kosher-davos.jpg · Matthias v.d. Elbe · cc-by-3.0[מקור](https://commons.wikimedia.org/wiki/File%3AWeissfluhjoch-2010.jpg)
+- **St. Johann in Tirol Winter 2015.JPG**stock/st-anywhere.jpg · HellasX · cc0[מקור](https://commons.wikimedia.org/wiki/File%3ASt._Johann_in_Tirol_Winter_2015.JPG)
+- **St. Johann in Tirol Winter 2015.JPG**stock/hub-kosher-ski-anywhere.jpg · HellasX · cc0[מקור](https://commons.wikimedia.org/wiki/File%3ASt._Johann_in_Tirol_Winter_2015.JPG)
+- **Skigebiet am Plateau Rosa Breuil-Cervinia-2.jpg**stock/st-cervinia.jpg · Rufus46 · cc-by-sa-3.0[מקור](https://commons.wikimedia.org/wiki/File%3ASkigebiet_am_Plateau_Rosa_Breuil-Cervinia-2.jpg)
+- **Skigebiet am Plateau Rosa Breuil-Cervinia-2.jpg**stock/hub-kosher-cervinia.jpg · Rufus46 · cc-by-sa-3.0[מקור](https://commons.wikimedia.org/wiki/File%3ASkigebiet_am_Plateau_Rosa_Breuil-Cervinia-2.jpg)
+- **Mont Blanc depuis Val Ferret.jpg**stock/st-courmayeur.jpg · Davide Tomatis · cc-by-sa-4.0[מקור](https://commons.wikimedia.org/wiki/File%3AMont_Blanc_depuis_Val_Ferret.jpg)
+- **Mont Blanc depuis Val Ferret.jpg**stock/hub-kosher-courmayeur.jpg · Davide Tomatis · cc-by-sa-4.0[מקור](https://commons.wikimedia.org/wiki/File%3AMont_Blanc_depuis_Val_Ferret.jpg)
+- **Cortina d'Ampezzo - Comune di Cortina d'Ampezzo - 2023-09-27 15-35-37 012.jpg**stock/st-cortina.jpg · Acquario51 · cc-by-sa-4.0[מקור](https://commons.wikimedia.org/wiki/File%3ACortina_d%27Ampezzo_-_Comune_di_Cortina_d%27Ampezzo_-_2023-09-27_15-35-37_012.jpg)
+- **Cortina d'Ampezzo - Comune di Cortina d'Ampezzo - 2023-09-27 15-35-37 012.jpg**stock/hub-kosher-cortina.jpg · Acquario51 · cc-by-sa-4.0[מקור](https://commons.wikimedia.org/wiki/File%3ACortina_d%27Ampezzo_-_Comune_di_Cortina_d%27Ampezzo_-_2023-09-27_15-35-37_012.jpg)
 
 הרישיונות נקראו ב-Wikimedia Commons בעת ההורדה (אוגוסט ואוקטובר 2026). תמונות CC BY-SA משמשות ללא שינוי ברישיון; אם אתם משתמשים בהן שוב, שמרו על הייחוס.
 

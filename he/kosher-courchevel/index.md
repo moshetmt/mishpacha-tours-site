@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / קורשבל, כשר לחלוטין
 
-# קורשבל, כשר לחלוטין *קורשבל 1850 וכפריה, בשלושת העמקים*
+# צ'אלות כשרות בקורשבל *קורשבל 1850 וכפריה, בשלושת העמקים*
 
 קורשבל 1850 שוכנת בגובה של כ-1,850 מ' בשלושת העמקים.
 
@@ -20,7 +20,7 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 העונה נמשכת מ-4 בדצמבר 2026 עד 18 באפריל 2027. אנחנו מארגנים לכם שהות כשרה: שף פרטי או ארוחות עד הדירה, שבת, מניין וספר תורה, בהצעת מחיר אחת בכתב.
 
-## צ'אלה פלוקון דורה *בקורשבל*
+## הצ'אלות שלנו *בקורשבל*
 
 ### [צ'אלה פלוקון דורה, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)
 
@@ -39,6 +39,40 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [צ'אלה אורור בוראל, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**סוויטות + חדר טלוויזיה
+- **6 עד 8**אורחים
+- **בריכה מחוממת**חמאם וג'קוזי
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [צ'אלה רנאר ארז'נטה, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
+
+- **2**סוויטות
+- **2 עד 6**אורחים
+- **אמבט נורדי**מחומם ל-40 מעלות
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ## מה אנחנו מארגנים *בקורשבל*
 
 - **צ'אלה או דירה עם שף פרטי.** הצוות הכשר שלנו שבסיסו באלפים מכשיר את המטבח, והשף מבשל במקום. כל ארוחה בשבוע מסודרת.
@@ -50,11 +84,11 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 כשר לחלוטין. הצוות שלנו מבשל תחת רשת חב״ד באלפים: פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
 
-אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## כשר *בקורשבל*
 
-- **חב״ד בחורף.** הרב דניאל בלאיש מקיים תפילות במלון Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, בעונת החורף. הוא כותב שהוא מסייע בצרכים כשרים, ביין ובחלות לשבת.
+- **חב״ד בחורף.** בעונת החורף מתקיימות תפילות במלון Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel.
 - **תוכניות כשרות עונתיות.** מלון שהוכשר הוא מלון רגיל שהופך לכשר לשבוע או לשבועיים. שמות המלונות והתאריכים משתנים בכל עונה.
 - **שפים פרטיים.** ההשגחה אינה מצוינת בדפים שלהן.
 
@@ -144,11 +178,12 @@ Source: https://mishpachatours.com/he/kosher-courchevel/ (HTML version). Every p
 
 ## אתרי סקי *סמוכים*
 
-- [כשר בואל טורנס](https://mishpachatours.com/kosher-val-thorens/)
-- [כשר בלה פלאן](https://mishpachatours.com/kosher-la-plagne/)
-- [כשר בלז ארק](https://mishpachatours.com/kosher-les-arcs/)
-- [כשר בואל דיזר](https://mishpachatours.com/kosher-val-disere/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [צ'אלה כשרה בלה מנואר](https://mishpachatours.com/he/kosher-les-menuires/)
+- [כשר בואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/)
+- [כשר בלה פלאן](https://mishpachatours.com/he/kosher-la-plagne/)
+- [כשר בלז ארק](https://mishpachatours.com/he/kosher-les-arcs/)
+- [כשר בואל דיזר](https://mishpachatours.com/he/kosher-val-disere/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

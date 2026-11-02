@@ -5,7 +5,7 @@ PAGE = dict(
   slug="kosher-chalets",
   title="Kosher Chalets in the Alps: Chef, Shabbat, Minyan",
   desc="Our kosher chalets in the Alps, in Les Deux Alpes, Courchevel, Megève and Val Thorens: a private chef, Shabbat and a minyan in the chalet. One request, one written quote.",
-  h1="Our kosher chalets", ital="in Les Deux Alpes, Courchevel, Megève and Val Thorens",
+  h1="Our kosher chalets", ital="in Les Deux Alpes, Courchevel, Megève, Val Thorens and Les Ménuires",
   intro="Our chalets, everything kosher taken care of: Les Deux Alpes, Courchevel, near Megève, and Val Thorens with a ski path at the door. The kitchen is kashered, a chef cooks or meals are delivered, a minyan comes on request. One programme, one quote.",
   chips=["Les Deux Alpes and Courchevel", "Private chef or delivered meals", "Shabbat and minyan in the chalet", "Availability confirmed for your dates"],
   illus="flat-ski.png",

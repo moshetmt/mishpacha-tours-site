@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-megeve/ (HTML version). Every page 
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Megève, estrictamente kosher
 
-# Megève *estrictamente kosher, 445 km de pistas*
+# Chalet kosher cerca de Megève *445 km de pistas*
 
 Megève se encuentra a unos 1.050 m en la Alta Saboya, en el dominio esquiable Évasion Mont-Blanc, de 445 km de pistas.
 
@@ -50,18 +50,15 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 Estrictamente kosher. Nuestro equipo kosher con base en los Alpes cocina bajo la red Chabad de los Alpes; los detalles de la supervisión se entregan por escrito con el presupuesto. Detalle de cada servicio: [servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/).
 
-También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
+También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
 ## Kosher *en Megève*
 
-- **Kosher Ski Club, Chalet Princesse.** Un cliente lo sitúa a 8 km del pueblo y dice que hace falta un taxi. No hemos comprobado que funcione esta temporada ni quién lo supervisa.
-- **Un programa de Kosher Winter Sports.**No la hemos comprobado.
+- **Kosher Ski Club, Chalet Princesse.** Un cliente lo sitúa a 8 km del pueblo y dice que hace falta un taxi.
 - **Chefs privados.** Agencias locales anuncian chefs «glatt kosher» a domicilio en Megève. No se indica la supervisión. Considérelos chefs, no hoteles kosher.
 - **Tienda o restaurante kosher.** Traiga su comida desde Lyon, o deje que le entreguemos las comidas.
 
 ## Minián y Shabat *en Megève*
-
-En las fuentes aparecen dos lugares: 136 route Edmond de Rothschild, 74120 Megève, o una sala llamada «Maison de la Montagne». Como se publicó en 2014, confirme la dirección para sus fechas.
 
 Los horarios de Shabat cambian cada semana. Si desea un minián para una semana concreta, indíquenos sus fechas con antelación: lo formamos con la red Chabad de los Alpes y llevamos un Sefer Torá.
 
@@ -148,10 +145,10 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Estaciones *cercanas*
 
-- [Chamonix kosher](https://mishpachatours.com/kosher-chamonix/)
-- [Annecy kosher](https://mishpachatours.com/kosher-annecy/)
-- [Courmayeur kosher (Italia)](https://mishpachatours.com/kosher-courmayeur/)
-- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
+- [Chamonix kosher](https://mishpachatours.com/es/kosher-chamonix/)
+- [Annecy kosher](https://mishpachatours.com/es/kosher-annecy/)
+- [Courmayeur kosher (Italia)](https://mishpachatours.com/es/kosher-courmayeur/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/es/alps/)
 
 ## Siga *leyendo*
 

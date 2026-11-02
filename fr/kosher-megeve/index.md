@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-megeve/ (HTML version). Every page 
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Megève, strictement casher
 
-# Megève, strictement casher *445 km de pistes reliées*
+# Chalet casher près de Megève *445 km de pistes reliées*
 
 Megève se trouve à environ 1 050 m, en Haute-Savoie, sur le domaine skiable de l’Évasion Mont-Blanc, 445 km de pistes.
 
@@ -50,7 +50,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis. Détail de chaque service : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
-Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Casher *à Megève*
 
@@ -61,8 +61,6 @@ Posez la question avant de réserver.
 - **Commerce ou restaurant casher.** Apportez vos provisions depuis Lyon, ou laissez-nous vous livrer des repas.
 
 ## Minyan et Shabbat *à Megève*
-
-L’information date de 2014 : confirmez l’adresse pour vos dates.
 
 Les horaires de Shabbat changent chaque semaine. Si vous souhaitez un minyan pour une semaine précise, donnez-nous vos dates tôt : nous le montons avec le réseau Chabad des Alpes et apportons un Sefer Torah.
 
@@ -149,10 +147,10 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Stations *voisines*
 
-- [Chamonix casher](https://mishpachatours.com/kosher-chamonix/)
-- [Annecy casher](https://mishpachatours.com/kosher-annecy/)
-- [Courmayeur casher (Italie)](https://mishpachatours.com/kosher-courmayeur/)
-- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
+- [Chamonix casher](https://mishpachatours.com/fr/kosher-chamonix/)
+- [Annecy casher](https://mishpachatours.com/fr/kosher-annecy/)
+- [Courmayeur casher (Italie)](https://mishpachatours.com/fr/kosher-courmayeur/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/fr/alps/)
 
 ## Pour *aller plus loin*
 

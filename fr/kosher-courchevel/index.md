@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-courchevel/ (HTML version). Every p
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Courchevel, strictement casher
 
-# Courchevel *strictement casher, Les 3 Vallées*
+# Chalets casher à Courchevel *1850 et Les 3 Vallées*
 
 Courchevel 1850 se trouve à environ 1 850 m, dans Les 3 Vallées.
 
@@ -20,7 +20,7 @@ Skiez à Courchevel le jour. Retrouvez le soir une table dressée, un minyan et 
 
 La saison court du 4 décembre 2026 au 18 avril 2027. Nous organisons votre séjour casher : chef privé ou repas livrés, Chabbat, minyan et Sefer Torah, en un seul devis écrit.
 
-## Chalet Flocon Doré *à Courchevel*
+## Nos chalets *à Courchevel*
 
 ### [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)
 
@@ -39,6 +39,40 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 [Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aurore Boréale, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**suites + salon TV
+- **6 à 8**personnes
+- **Piscine chauffée**hammam, bain à remous
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Renard Argenté, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
+
+- **2**suites
+- **2 à 6**personnes
+- **Bain nordique**chauffé à 40 °C
+- **400 m**des pistes
+
+**Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
+
+Courchevel · avec Winter Prestige
+
+Prix sur demande
+
+Disponibilité confirmée pour vos dates à chaque demande.
+
+[Vérifier mes dates](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ## Ce que nous organisons *à Courchevel*
 
 - **Un chalet ou un appartement avec chef privé.** Notre équipe casher basée dans les Alpes rend la cuisine casher et le chef cuisine sur place. Tous les repas de la semaine sont réglés.
@@ -50,11 +84,11 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
 
-Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Casher *à Courchevel*
 
-- **Chabad en hiver.** Le rabbin Daniel Belaïch dirige des offices à l’Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, pendant la saison d’hiver. Il écrit qu’il aide pour les besoins casher, le vin et les challot de Shabbat.
+- **Chabad en hiver.** Des offices ont lieu à l’Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, pendant la saison d’hiver.
 - **Programmes casher saisonniers.** Un hôtel cachérisé est un hôtel ordinaire rendu casher pour une ou deux semaines. Les noms d’hôtels et les dates changent chaque saison.
 - **Chefs privés.** Des agences proposent à Courchevel des chefs privés glatt casher. Leurs pages n’indiquent pas la surveillance rabbinique.
 
@@ -144,11 +178,12 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Stations *voisines*
 
-- [Val Thorens casher](https://mishpachatours.com/kosher-val-thorens/)
-- [La Plagne casher](https://mishpachatours.com/kosher-la-plagne/)
-- [Les Arcs casher](https://mishpachatours.com/kosher-les-arcs/)
-- [Val d’Isère casher](https://mishpachatours.com/kosher-val-disere/)
-- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
+- [Chalet casher aux Ménuires](https://mishpachatours.com/fr/kosher-les-menuires/)
+- [Val Thorens casher](https://mishpachatours.com/fr/kosher-val-thorens/)
+- [La Plagne casher](https://mishpachatours.com/fr/kosher-la-plagne/)
+- [Les Arcs casher](https://mishpachatours.com/fr/kosher-les-arcs/)
+- [Val d’Isère casher](https://mishpachatours.com/fr/kosher-val-disere/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/fr/alps/)
 
 ## Pour *aller plus loin*
 

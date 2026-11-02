@@ -131,7 +131,47 @@ Ouvrir](https://mishpachatours.com/fr/kosher-la-plagne/)[### Casher à Val d’I
 
 De fin novembre à mai : chef, repas, Shabbat, fêtes, minyan à Val d’Isère
 
-Ouvrir](https://mishpachatours.com/fr/kosher-val-disere/)[### L'Escale, 3 heures
+Ouvrir](https://mishpachatours.com/fr/kosher-val-disere/)[### Casher à Zermatt
+
+Village sans voitures au pied du Cervin, l’hiver comme l’été : chef, repas, Shabbat, fêtes, minyan
+
+Ouvrir](https://mishpachatours.com/fr/kosher-zermatt/)[### Casher à Saint-Moritz
+
+L’Engadine, l’hiver comme l’été : chef, repas, Shabbat, fêtes, minyan
+
+Ouvrir](https://mishpachatours.com/fr/kosher-st-moritz/)[### Casher à Crans-Montana
+
+Le plateau ensoleillé du Valais, à deux heures de Genève : chef, repas, Shabbat, fêtes, minyan
+
+Ouvrir](https://mishpachatours.com/fr/kosher-crans-montana/)[### Casher à Verbier
+
+Les 4 Vallées au-dessus de la vallée du Rhône, l’hiver comme l’été : chef privé, Shabbat, fêtes, minyan
+
+Ouvrir](https://mishpachatours.com/fr/kosher-verbier/)[### Casher à Gstaad
+
+Le Saanenland et Glacier 3000, l’hiver comme l’été : chef privé, Shabbat, fêtes, minyan
+
+Ouvrir](https://mishpachatours.com/fr/kosher-gstaad/)[### Casher à Davos
+
+La ville la plus haute des Alpes, Parsenn et Jakobshorn, l’hiver comme l’été : chef privé, Shabbat, fêtes, minyan
+
+Ouvrir](https://mishpachatours.com/fr/kosher-davos/)[### Casher à Cervinia
+
+Le versant italien du Cervin, de la neige de novembre à mai : chef, repas, Shabbat, fêtes, minyan
+
+Ouvrir](https://mishpachatours.com/fr/kosher-cervinia/)[### Casher à Courmayeur
+
+Le versant italien du Mont-Blanc, la station italienne la plus proche de Lyon : chef, repas, Shabbat, fêtes, minyan
+
+Ouvrir](https://mishpachatours.com/fr/kosher-courmayeur/)[### Casher à Cortina d’Ampezzo
+
+Les Dolomites, l’hiver comme l’été : chef, repas, Shabbat, fêtes, minyan
+
+Ouvrir](https://mishpachatours.com/fr/kosher-cortina/)[### Ski casher, ailleurs
+
+Autriche, Amérique du Nord ou toute station hors de notre liste : un chef privé qui voyage avec vous, Shabbat, minyan, transferts
+
+Ouvrir](https://mishpachatours.com/fr/kosher-ski-anywhere/)[### L'Escale, 3 heures
 
 Le quartier juif et la Grande Synagogue de Lyon entre votre vol et la montée en station. 390 € par groupe
 

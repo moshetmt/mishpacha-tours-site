@@ -16,7 +16,7 @@ Le Centre d’histoire de la résistance et de la déportation occupe l’ancien
 
 ## Ce que vous *verrez*
 
-Le bâtiment fait partie de l’histoire. Il abritait l’École du service de santé militaire et, sous l’Occupation, il est devenu le siège de la Gestapo à Lyon, sous Klaus Barbie. Le musée y est installé depuis les années 1990. Le CHRD est l’un des deux lieux de [la visite Mémoire, Montluc et le CHRD](https://mishpachatours.com/jewish-lyon-tours/).
+Le bâtiment fait partie de l’histoire. Il abritait l’École du service de santé militaire et, sous l’Occupation, il est devenu le siège de la Gestapo à Lyon, sous Klaus Barbie. Le musée y est installé depuis les années 1990. Le CHRD est l’un des deux lieux de [la visite Mémoire, Montluc et le CHRD](https://mishpachatours.com/fr/jewish-lyon-tours/).
 
 L’exposition permanente suit les six années de guerre à Lyon à travers des objets, des photographies, des archives et des témoignages enregistrés. Elle couvre la vie quotidienne sous l’Occupation, les politiques antisémites, la Résistance et la répression. Elle comprend aussi des reconstitutions, dont l’appartement d’un résistant avec son imprimerie clandestine.
 
@@ -25,8 +25,8 @@ L’exposition permanente suit les six années de guerre à Lyon à travers des 
 L’histoire juive traverse toute la visite. Voici les fils que suit votre guide.
 
 - **Persécution et déportation.** L’exposition montre les politiques antisémites des années d’Occupation et la déportation qui a suivi.
-- **Izieu.** Le musée présente des témoignages du procès Barbie de 1987, dont celui de la responsable de la colonie d’enfants d’Izieu. Notre page sur la [Maison d’Izieu](https://mishpachatours.com/maison-izieu/) raconte cette histoire.
-- **Rue Sainte-Catherine.** Le 9 février 1943, les hommes de Barbie arrêtent 86 personnes au bureau de l’UGIF, 12 rue Sainte-Catherine, dans le 1er arrondissement. Votre guide relie cette rafle au récit que fait le musée de la Gestapo à Lyon. La rue figure aussi sur notre [visite juive à Lyon](https://mishpachatours.com/tours/jewish-lyon/).
+- **Izieu.** Le musée présente des témoignages du procès Barbie de 1987, dont celui de la responsable de la colonie d’enfants d’Izieu. Notre page sur la [Maison d’Izieu](https://mishpachatours.com/fr/maison-izieu/) raconte cette histoire.
+- **Rue Sainte-Catherine.** Le 9 février 1943, les hommes de Barbie arrêtent 86 personnes au bureau de l’UGIF, 12 rue Sainte-Catherine, dans le 1er arrondissement. Votre guide relie cette rafle au récit que fait le musée de la Gestapo à Lyon. La rue figure aussi sur notre [visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/).
 - **Témoins.** L’exposition s’appuie sur des témoignages et des objets donnés par d’anciens résistants et déportés.
 
 ## Horaires, tarifs et *accès* 1
@@ -48,17 +48,17 @@ L’histoire juive traverse toute la visite. Voici les fils que suit votre guide
 
    ### Réservez une guide privée
 
-   Le musée propose des visites guidées, et les visites de groupe nécessitent une réservation. Notre visite privée suit l’histoire juive de Lyon à travers l’exposition et répond à vos questions sur place. Voir la [visite Mémoire : le CHRD](https://mishpachatours.com/tours/memory-chrd/).
+   Le musée propose des visites guidées, et les visites de groupe nécessitent une réservation. Notre visite privée suit l’histoire juive de Lyon à travers l’exposition et répond à vos questions sur place. Voir la [visite Mémoire : le CHRD](https://mishpachatours.com/fr/tours/memory-chrd/).
 3. **3**
 
    ### Prévoyez votre temps
 
-   Notre visite dure 2 h 30. Nous calons le rythme avec votre groupe, et en particulier avec les enfants.
+   Notre visite dure 2 h. Nous calons le rythme avec votre groupe, et en particulier avec les enfants.
 4. **4**
 
    ### Gardez-la pour un jour à part
 
-   Nous ne combinons jamais le CHRD et le [mémorial de Montluc](https://mishpachatours.com/montluc-prison-lyon/) le même jour. Chacun porte assez d’histoire pour une visite complète.
+   Nous ne combinons jamais le CHRD et le [mémorial de Montluc](https://mishpachatours.com/fr/montluc-prison-lyon/) le même jour. Chacun porte assez d’histoire pour une visite complète.
 
 [Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20me%20renseigner%20sur%20la%20visite%20M%C3%A9moire%20%3A%20le%20CHRD.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Langue%20souhait%C3%A9e%20%3A)[Demander un devis](#book)
 
@@ -70,7 +70,7 @@ Non. Nous les réservons comme deux visites distinctes, sur deux jours différen
 
 Combien de temps dure une visite ?
 
-Notre visite privée dure 2 h 30.
+Notre visite privée dure 2 h.
 
 Le CHRD convient-il aux enfants ?
 

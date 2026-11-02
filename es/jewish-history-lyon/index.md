@@ -17,9 +17,9 @@ Hubo judíos en Lyon en la Edad Media, desaparecieron durante tres siglos, volvi
 
 ## La Edad Media, *y el final en el siglo XV*
 
-Había judíos en Lyon desde el siglo IX. El obispo Agobardo intentó imponer conversiones hacia el año 820. En 1250, el arzobispo Felipe de Saboya expulsó a la comunidad, que vivía entonces en la actual rue Ferrachat. En la segunda mitad del siglo XIV se formó una nueva comunidad. Pagaba impuestos municipales y la ciudad nombraba a funcionarios para tratar con ella. Esta historia se cuenta sobre el terreno, en [la visita a pie por el Lyon judío](https://mishpachatours.com/jewish-lyon-tours/).
+Había judíos en Lyon desde el siglo IX. El obispo Agobardo intentó imponer conversiones hacia el año 820. En 1250, el arzobispo Felipe de Saboya expulsó a la comunidad, que vivía entonces en la actual rue Ferrachat. En la segunda mitad del siglo XIV se formó una nueva comunidad. Pagaba impuestos municipales y la ciudad nombraba a funcionarios para tratar con ella. Esta historia se cuenta sobre el terreno, en [la visita a pie por el Lyon judío](https://mishpachatours.com/es/jewish-lyon-tours/).
 
-Esta comunidad vivía en la [rue Juiverie](https://mishpachatours.com/rue-juiverie-lyon/), al pie de la colina de Fourvière. La calle conservó el nombre. En 1394, el rey Carlos VI expulsó a los judíos del reino de Francia, y la ciudad de Lyon sitúa en ese año el fin de su propia comunidad. La Encyclopaedia Judaica señala que Lyon aún no formaba parte del reino y propone hacia 1420, cuando la mayoría de las familias se trasladó a la cercana Trévoux.
+Esta comunidad vivía en la [rue Juiverie](https://mishpachatours.com/es/rue-juiverie-lyon/), al pie de la colina de Fourvière. La calle conservó el nombre. En 1394, el rey Carlos VI expulsó a los judíos del reino de Francia, y la ciudad de Lyon sitúa en ese año el fin de su propia comunidad. La Encyclopaedia Judaica señala que Lyon aún no formaba parte del reino y propone hacia 1420, cuando la mayoría de las familias se trasladó a la cercana Trévoux.
 
 Las fuentes no coinciden en el año exacto. Coinciden en el resultado: durante unos tres siglos no se registra ninguna comunidad judía en Lyon.
 
@@ -29,7 +29,7 @@ Los judíos volvieron poco a poco. En el siglo XVII se formó de nuevo una comun
 
 El decreto del 28 de septiembre de 1791 permitió a los judíos asquenazíes de Alsacia establecerse libremente, y la comunidad creció. En 1840-1841 contaba con 760 miembros.
 
-El gran signo de ese crecimiento es la [Gran Sinagoga](https://mishpachatours.com/grande-synagogue-lyon/) en el quai Tilsitt. Abraham Hirsch la diseñó. La primera piedra se colocó en 1863 y el edificio se inauguró el 23 de junio de 1864. Sigue el rito consistorial, la estructura que organizó el culto judío francés en el siglo XIX.
+El gran signo de ese crecimiento es la [Gran Sinagoga](https://mishpachatours.com/es/grande-synagogue-lyon/) en el quai Tilsitt. Abraham Hirsch la diseñó. La primera piedra se colocó en 1863 y el edificio se inauguró el 23 de junio de 1864. Sigue el rito consistorial, la estructura que organizó el culto judío francés en el siglo XIX.
 
 ## El siglo XX: *dos comunidades, luego una*
 
@@ -43,8 +43,8 @@ Tras el armisticio de 1940, Lyon quedó en la zona no ocupada y se convirtió en
 
 En noviembre de 1942 los alemanes ocuparon la zona sur, y Klaus Barbie, de 29 años, asumió la dirección de la Gestapo en Lyon. Tres lugares cuentan lo que siguió.
 
-- **El CHRD.** En marzo de 1943 la Gestapo requisó la antigua escuela militar de sanidad del 14 avenue Berthelot y la utilizó para interrogar a resistentes y a judíos. Desde 1992 alberga el Centre d'histoire de la résistance et de la déportation. [Lea sobre el CHRD](https://mishpachatours.com/chrd-lyon/).
-- **Montluc.** Los alemanes se hicieron con la prisión de febrero de 1943 a agosto de 1944. Casi 10.000 personas estuvieron internadas allí. Un memorial nacional se abrió en septiembre de 2010. [Lea sobre Montluc](https://mishpachatours.com/montluc-prison-lyon/).
+- **El CHRD.** En marzo de 1943 la Gestapo requisó la antigua escuela militar de sanidad del 14 avenue Berthelot y la utilizó para interrogar a resistentes y a judíos. Desde 1992 alberga el Centre d'histoire de la résistance et de la déportation. [Lea sobre el CHRD](https://mishpachatours.com/es/chrd-lyon/).
+- **Montluc.** Los alemanes se hicieron con la prisión de febrero de 1943 a agosto de 1944. Casi 10.000 personas estuvieron internadas allí. Un memorial nacional se abrió en septiembre de 2010. [Lea sobre Montluc](https://mishpachatours.com/es/montluc-prison-lyon/).
 - **Rue Sainte-Catherine.** El 9 de febrero de 1943 la Gestapo hizo una redada en la oficina de la UGIF, en el número 12, y detuvo a 86 personas. Ochenta fueron deportadas.
 
 Barbie detuvo también a Jean Moulin, representante del general de Gaulle ante la Resistencia y lo torturó hasta la muerte.
@@ -101,7 +101,7 @@ Barbie detuvo también a Jean Moulin, representante del general de Gaulle ante l
 
 ## Izieu, *y el juicio*
 
-El 6 de abril de 1944, en el pueblo de Izieu, en el Ain, la Gestapo de Lyon detuvo a 44 niños judíos y a 7 de sus cuidadores en la casa que los acogía. El grupo fue llevado a Montluc y, al día siguiente, a Drancy. Casi todos fueron asesinados en Auschwitz-Birkenau. La historia de los niños se cuenta en la [Maison d'Izieu](https://mishpachatours.com/maison-izieu/), a una hora de Lyon por carretera.
+El 6 de abril de 1944, en el pueblo de Izieu, en el Ain, la Gestapo de Lyon detuvo a 44 niños judíos y a 7 de sus cuidadores en la casa que los acogía. El grupo fue llevado a Montluc y, al día siguiente, a Drancy. Casi todos fueron asesinados en Auschwitz-Birkenau. La historia de los niños se cuenta en la [Maison d'Izieu](https://mishpachatours.com/es/maison-izieu/), a una hora de Lyon por carretera.
 
 Barbie fue detenido en La Paz en febrero de 1983 y entregado a Francia pocos días después. Su juicio se abrió en Lyon el 11 de mayo de 1987. Los asesinatos de los niños de Izieu ocuparon un lugar central en la causa. El 4 de julio de 1987 fue condenado por crímenes contra la humanidad a cadena perpetua. Entre los testigos había supervivientes de la redada de la rue Sainte-Catherine.
 
@@ -114,21 +114,21 @@ No damos una cifra actual de miembros. En Francia no existe un censo oficial de 
 La vida judía de Lyon se organiza en varios niveles.
 
 - **El Consistoire.** El Consistoire de Lyon dirige la Gran Sinagoga, y el Consistoire Israélite Sépharade de Lyon dirige Neveh Chalom.
-- **El Beth Din de Lyon.** El Beth Din del Consistoire regional supervisa la kashrut y certifica 36 lugares donde comer y comprar en Lyon, Villeurbanne y Écully. Vea [restaurantes kosher en Lyon](https://mishpachatours.com/kosher-restaurants-lyon/).
+- **El Beth Din de Lyon.** El Beth Din del Consistoire regional supervisa la kashrut y certifica 36 lugares donde comer y comprar en Lyon, Villeurbanne y Écully. Vea [restaurantes kosher en Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/).
 - **Villeurbanne.** La mayoría de los minyanim de barrio están en Villeurbanne, donde Chabad dirige también una sinagoga, una yeshivá y una escuela.
-- **Chabad.** Cuatro casas Chabad, en el centro de la ciudad, en el 6.º distrito, en Villeurbanne y en el campus. Vea [Chabad en Lyon](https://mishpachatours.com/chabad-lyon/).
+- **Chabad.** Cuatro casas Chabad, en el centro de la ciudad, en el 6.º distrito, en Villeurbanne y en el campus. Vea [Chabad en Lyon](https://mishpachatours.com/es/chabad-lyon/).
 
-Nuestra [página de sinagogas](https://mishpachatours.com/synagogues-lyon/) indica los horarios de oración. El [cementerio judío](https://mishpachatours.com/jewish-cemetery-lyon/) de La Mouche, en Gerland, es el único cementerio judío activo de la ciudad.
+Nuestra [página de sinagogas](https://mishpachatours.com/es/synagogues-lyon/) indica los horarios de oración. El [cementerio judío](https://mishpachatours.com/es/jewish-cemetery-lyon/) de La Mouche, en Gerland, es el único cementerio judío activo de la ciudad.
 
 ## Dónde *verlo*
 
-- [Rue Juiverie](https://mishpachatours.com/rue-juiverie-lyon/): la calle medieval. No queda a la vista nada judío ni medieval. El nombre es la huella.
-- [La Gran Sinagoga](https://mishpachatours.com/grande-synagogue-lyon/): cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Nuestra [visita Lyon judío](https://mishpachatours.com/tours/jewish-lyon/) entra en ella, según el horario de apertura y la seguridad del día.
-- [El CHRD](https://mishpachatours.com/chrd-lyon/) y [Montluc](https://mishpachatours.com/montluc-prison-lyon/): la guerra en Lyon. Las visitamos en días distintos: vea la [visita del CHRD](https://mishpachatours.com/tours/memory-chrd/) y la [visita de Montluc y Neveh Shalom](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/).
-- [La Maison d'Izieu](https://mishpachatours.com/maison-izieu/): la excursión de un día, a una hora de Lyon. Vea la [excursión a Izieu](https://mishpachatours.com/tours/izieu/).
-- [Kosher en Lyon](https://mishpachatours.com/kosher-restaurants-lyon/) y la [cementerio judío](https://mishpachatours.com/jewish-cemetery-lyon/): la comunidad viva.
+- [Rue Juiverie](https://mishpachatours.com/es/rue-juiverie-lyon/): la calle medieval. No queda a la vista nada judío ni medieval. El nombre es la huella.
+- [La Gran Sinagoga](https://mishpachatours.com/es/grande-synagogue-lyon/): cerrada a los visitantes fuera de las Jornadas Europeas del Patrimonio. Nuestra [visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/) entra en ella, según el horario de apertura y la seguridad del día.
+- [El CHRD](https://mishpachatours.com/es/chrd-lyon/) y [Montluc](https://mishpachatours.com/es/montluc-prison-lyon/): la guerra en Lyon. Las visitamos en días distintos: vea la [visita del CHRD](https://mishpachatours.com/es/tours/memory-chrd/) y la [visita de Montluc y Neveh Shalom](https://mishpachatours.com/es/tours/memory-montluc-neveh-shalom/).
+- [La Maison d'Izieu](https://mishpachatours.com/es/maison-izieu/): la excursión de un día, a una hora de Lyon. Vea la [excursión a Izieu](https://mishpachatours.com/es/tours/izieu/).
+- [Kosher en Lyon](https://mishpachatours.com/es/kosher-restaurants-lyon/) y la [cementerio judío](https://mishpachatours.com/es/jewish-cemetery-lyon/): la comunidad viva.
 
-Si solo dispone de unas horas, elija la [visita Lyon judío](https://mishpachatours.com/tours/jewish-lyon/). Dura 2 horas 30 minutos, a pie, con una guía judía, estrictamente kosher y nunca en Shabat.
+Si solo dispone de unas horas, elija la [visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/). Dura 2 horas 30 minutos, a pie, con una guía judía, estrictamente kosher y nunca en Shabat.
 
 ## Preguntas frecuentes
 

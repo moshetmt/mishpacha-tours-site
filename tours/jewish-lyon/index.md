@@ -8,13 +8,13 @@ City walk
 
 # Jewish Lyon *A private walk, inside the Grande Synagogue*
 
-Jewish Lyon is a private 2 h 30 walking tour of Vieux Lyon and the Grande Synagogue, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before. Hebrew-speaking guests are guided in English. Rue Juiverie and medieval Old Lyon, the Grande Synagogue on quai Tilsitt from the inside, and rue Sainte-Catherine: two and a half hours on foot with a guide who is part of the community she shows you. The Grande Synagogue is closed to visitors outside the Heritage Days. Entry requires a special authorisation that Mishpacha Tours holds. This is the only tour that takes you inside, subject to opening hours and security on the day.
+Jewish Lyon is a private 2-hour walking tour of Vieux Lyon and the Grande Synagogue, guided in English, French or Spanish, 290 € per group of 1 to 4 people (+35 € per extra person up to 10), with free cancellation up to 24 hours before. Hebrew-speaking guests are guided in English. Rue Juiverie and medieval Old Lyon, the Grande Synagogue on quai Tilsitt from the inside, and rue Sainte-Catherine: two hours on foot with a guide who is part of the community she shows you. The Grande Synagogue is closed to visitors outside the Heritage Days. Entry requires a special authorisation that Mishpacha Tours holds. This is the only tour that takes you inside, subject to opening hours and security on the day.
 
 Where
 :   Vieux Lyon and quai Tilsitt
 
 Duration
-:   2 hours 30 minutes
+:   2 hours
 
 Format
 :   On foot, private group
@@ -50,7 +50,7 @@ Same-day reply, never on Shabbat. Free cancellation up to 24 hours before the st
 
 ### Included
 
-- A private guide for 2 hours 30 minutes, in English, French or Spanish.
+- A private guide for 2 hours, in English, French or Spanish.
 - Entry to the Grande Synagogue on quai Tilsitt, subject to opening hours and security clearance on the day.
 - The walking route through Vieux Lyon and rue Sainte-Catherine.
 
@@ -109,25 +109,25 @@ Yes, on request, on any tour. It is priced separately and quoted on demand, neve
 
 A private visit of the Centre d'histoire de la résistance et de la déportation
 
-**290 €** per group, 1 to 4 people](https://mishpachatours.com/memory-chrd/)[Memory
+**290 €** per group, 1 to 4 people](https://mishpachatours.com/tours/memory-chrd/)[Memory
 
 ### Memory: Montluc and Neveh Shalom
 
 The Montluc memorial, then the second synagogue we take you inside
 
-**290 €** per group, 1 to 4 people](https://mishpachatours.com/memory-montluc-neveh-shalom/)[City walk
+**290 €** per group, 1 to 4 people](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/)[City walk
 
 ### Stopover
 
 Three hours in Jewish Lyon while your transfer waits
 
-**390 €** per group, 1 to 5 people](https://mishpachatours.com/stopover/)[Day trip
+**390 €** per group, 1 to 5 people](https://mishpachatours.com/tours/stopover/)[Day trip
 
 ### Izieu
 
 A full day at the Maison d'Izieu, one hour from Lyon
 
-**from 990 €** quote on request](https://mishpachatours.com/izieu/)
+**from 990 €** quote on request](https://mishpachatours.com/tours/izieu/)
 
 ## Ready to *book* Jewish Lyon?
 

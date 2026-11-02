@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / לה דז אלפ, כשרה לחלוטין
 
-# לה דז אלפ, כשרה לחלוטין *אתר קרחון בגובה 1,650 מ', עם עונת קיץ כשרה משלו*
+# צ'אלות כשרות בלה דז אלפ *אתר הקרחון, בגובה 1,650 מ'*
 
 לה דז אלפ שוכנת בגובה 1,650 מ' באיזר, עם קרחון מעליה.
 
@@ -73,11 +73,12 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 כשר לחלוטין. כשרות בהשגחת בית חב״ד גרנובל-אלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.
 
-אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/kosher-pesach-french-alps/).
+אנחנו מארגנים גם את פסח: [פסח באלפים, צ'אלה פרטית ומטבח מוכשר](https://mishpachatours.com/he/kosher-pesach-french-alps/).
 
 ## כשר *בלה דז אלפ*
 
-- **מלונות שלמים.** אף מלון ואף תוכנית אינם מוזכרים בשמם ללה דז אלפ.
+- **עונת קיץ כשרה.** משפחות יהודיות אורתודוקסיות מגיעות ללה דז אלפ בקיץ כבר עשרות שנים, וסמינר של בית ליובאוויטש, של כמה מאות משתתפים במשך שלושה שבועות, עובר בין אתרי האלפים.
+- **מלונות שלמים.** ארגונים כשרים שוכרים לעיתים קרובות מלונות שלמים באתרי האלפים לקיץ. אף מלון ואף תוכנית אינם מוזכרים בשמם בלה דז אלפ.
 
 ## מניין ושבת *בלה דז אלפ*
 
@@ -169,10 +170,10 @@ Source: https://mishpachatours.com/he/kosher-les-deux-alpes/ (HTML version). Eve
 
 ## אתרי סקי *סמוכים*
 
-- [כשר באלפ ד'ואז](https://mishpachatours.com/kosher-alpe-dhuez/)
-- [כשר בגרנובל](https://mishpachatours.com/kosher-grenoble/)
-- [כשר בואל טורנס](https://mishpachatours.com/kosher-val-thorens/)
-- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/alps/)
+- [כשר באלפ ד'ואז](https://mishpachatours.com/he/kosher-alpe-dhuez/)
+- [כשר בגרנובל](https://mishpachatours.com/he/kosher-grenoble/)
+- [כשר בואל טורנס](https://mishpachatours.com/he/kosher-val-thorens/)
+- [כל אתרי הסקי שלנו באלפים](https://mishpachatours.com/he/alps/)
 
 ## להמשך *קריאה*
 

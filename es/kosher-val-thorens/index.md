@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-val-thorens/ (HTML version). Every 
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Val Thorens, estrictamente kosher
 
-# Val Thorens *estrictamente kosher, la más alta de Europa*
+# Chalet kosher en Val Thorens *la más alta de Europa*
 
 Val Thorens se encuentra a 2.300 m en Les 3 Vallées, la estación de esquí más alta de Europa.
 
@@ -20,7 +20,7 @@ Esquíe en Val Thorens de día. Vuelva a la mesa servida, un minyan y el Shabat 
 
 Su temporada va del 21 de noviembre de 2026 al 2 de mayo de 2027. Organizamos su estancia kosher: chef privado o comidas entregadas, Shabat, minián y Sefer Torá, en un solo presupuesto por escrito.
 
-## Chalet Belle Étoile *en Val Thorens*
+## Nuestros chalets *en los 3 Valles*
 
 ### [Chalet Belle Étoile, Val Thorens](https://mishpachatours.com/es/kosher-chalet-val-thorens/)
 
@@ -39,6 +39,23 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 [Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [Chalet Aigle Royal, Les Ménuires](https://mishpachatours.com/es/kosher-chalet-les-menuires/)
+
+- **7**suites
+- **Hasta 15**personas
+- **Spa**jacuzzi y sauna
+- **7 min**de las pistas
+
+**Estrictamente kosher.** Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael.
+
+Les Ménuires · con Winter Prestige
+
+Precio a consultar
+
+Disponibilidad confirmada para sus fechas en cada solicitud.
+
+[Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ## Lo que organizamos *en Val Thorens*
 
 - **Un chalé o un apartamento con chef privado.** Nuestro equipo kosher con base en los Alpes prepara la cocina para que sea kosher y cocina en el lugar. Todas las comidas de la semana quedan resueltas.
@@ -50,7 +67,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes; los detalles de la supervisión se entregan por escrito con el presupuesto.
 
-También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/kosher-pesach-french-alps/).
+También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
 ## Kosher *en Val Thorens*
 
@@ -144,11 +161,12 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Estaciones *cercanas*
 
-- [Courchevel kosher](https://mishpachatours.com/kosher-courchevel/)
-- [La Plagne kosher](https://mishpachatours.com/kosher-la-plagne/)
-- [Les Arcs kosher](https://mishpachatours.com/kosher-les-arcs/)
-- [Val d’Isère kosher](https://mishpachatours.com/kosher-val-disere/)
-- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/alps/)
+- [Chalet kosher en Les Ménuires](https://mishpachatours.com/es/kosher-les-menuires/)
+- [Courchevel kosher](https://mishpachatours.com/es/kosher-courchevel/)
+- [La Plagne kosher](https://mishpachatours.com/es/kosher-la-plagne/)
+- [Les Arcs kosher](https://mishpachatours.com/es/kosher-les-arcs/)
+- [Val d’Isère kosher](https://mishpachatours.com/es/kosher-val-disere/)
+- [Todas nuestras estaciones en los Alpes](https://mishpachatours.com/es/alps/)
 
 ## Siga *leyendo*
 

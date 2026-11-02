@@ -59,7 +59,7 @@ We stand there for as long as your group needs.
 
    ### With us
 
-   The Jewish Lyon tour starts here. It lasts 2 hours 30 minutes, on foot, privately for your group, and it includes the Grande Synagogue and rue Sainte-Catherine.
+   The Jewish Lyon tour starts here. It lasts 2 hours, on foot, privately for your group, and it includes the Grande Synagogue and rue Sainte-Catherine.
 3. **3**
 
    ### Rue Sainte-Catherine
@@ -98,7 +98,7 @@ On 9 February 1943 the Gestapo raided the UGIF office and arrested 86 people. Ei
 
 How long should I plan to spend here?
 
-On your own, 20 minutes for the street and 20 minutes for rue Sainte-Catherine. With us, both are part of the 2 hours 30 minutes Jewish Lyon tour.
+On your own, 20 minutes for the street and 20 minutes for rue Sainte-Catherine. With us, both are part of the 2 hours Jewish Lyon tour.
 
 ## Walk the street *with us*?
 
@@ -108,7 +108,7 @@ Same-day reply, never on Shabbat.
 
 ## Keep *reading*
 
-- [Jewish Lyon tour, 2 hours 30 minutes](https://mishpachatours.com/tours/jewish-lyon/)
+- [Jewish Lyon tour, 2 hours](https://mishpachatours.com/tours/jewish-lyon/)
 - [The Grande Synagogue of Lyon](https://mishpachatours.com/grande-synagogue-lyon/)
 - [Jewish history of Lyon](https://mishpachatours.com/jewish-history-lyon/)
 - [Synagogues and Shabbat in Lyon](https://mishpachatours.com/synagogues-lyon/)

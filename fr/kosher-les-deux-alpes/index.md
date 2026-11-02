@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-les-deux-alpes/ (HTML version). Eve
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Les Deux Alpes, strictement casher
 
-# Les Deux Alpes *strictement casher, glacier à 1 650 m*
+# Chalets casher aux Deux Alpes *la station du glacier, à 1 650 m*
 
 Les Deux Alpes se trouvent à 1 650 m, en Isère, sous un glacier.
 
@@ -73,7 +73,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 
 Strictement casher. Cacherout sous la surveillance du Beth Habad Grenoble-Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
 
-Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/kosher-pesach-french-alps/).
+Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
 ## Casher *aux Deux Alpes*
 
@@ -97,9 +97,7 @@ Horaires calculés aux coordonnées de Les Deux Alpes.
 
 ## La sécurité, *pensée dès le départ*
 
-Le même reportage cite des familles qui disent se sentir bien accueillies.
-
-Une escorte professionnelle est disponible sur demande et sur devis, en station comme à Lyon.[Lyon est-elle sûre pour les visiteurs juifs ?](https://mishpachatours.com/fr/is-lyon-safe-for-jewish-visitors/)
+Une escorte professionnelle est disponible sur demande et sur devis, en station comme à Lyon. Notre standard est décrit sur la page [Lyon est-elle sûre pour les visiteurs juifs ?](https://mishpachatours.com/fr/is-lyon-safe-for-jewish-visitors/)
 
 ## Comment ça *se passe*
 
@@ -172,10 +170,10 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 
 ## Stations *voisines*
 
-- [Alpe d’Huez casher](https://mishpachatours.com/kosher-alpe-dhuez/)
-- [Grenoble casher](https://mishpachatours.com/kosher-grenoble/)
-- [Val Thorens casher](https://mishpachatours.com/kosher-val-thorens/)
-- [Toutes nos stations dans les Alpes](https://mishpachatours.com/alps/)
+- [Alpe d’Huez casher](https://mishpachatours.com/fr/kosher-alpe-dhuez/)
+- [Grenoble casher](https://mishpachatours.com/fr/kosher-grenoble/)
+- [Val Thorens casher](https://mishpachatours.com/fr/kosher-val-thorens/)
+- [Toutes nos stations dans les Alpes](https://mishpachatours.com/fr/alps/)
 
 ## Pour *aller plus loin*
 

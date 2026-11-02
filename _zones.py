@@ -7,23 +7,27 @@ import glob, io, os, re
 
 LANGS = ("fr", "es", "he")
 ALPES = {"alps", "kosher-alpe-dhuez", "kosher-annecy", "kosher-chalet-les-deux-alpes", "kosher-chamonix", "kosher-courchevel",
-         "kosher-grenoble", "kosher-chalets", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
+         "kosher-grenoble", "kosher-chalets", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens", "kosher-chalet-les-menuires", "kosher-chalet-courchevel-aurore-boreale", "kosher-chalet-courchevel-renard-argente", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
          "kosher-ski-holidays-french-alps", "kosher-vacation-french-alps", "kosher-pesach-french-alps", "kosher-val-disere", "kosher-val-thorens",
          "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana", "kosher-cervinia", "kosher-verbier", "kosher-gstaad", "kosher-davos", "kosher-ski-anywhere", "kosher-courmayeur", "kosher-cortina",
          "lyon-gateway-to-the-alps-kosher", "summer-in-the-alps-jewish-families", "flights-to-lyon"}
 GENERAL = {"", "plan-your-trip", "kosher-villa-saint-tropez", "kosher-van-transfers", "about", "contact", "privacy", "terms", "credits", "merci", "jewish-life-around-lyon"}
 
-BASELINE = {"alpes": "Kosher Stays in the Alps", "general": "Kosher Holidays in the Alps and Lyon", "lyon": "Jewish Tours of Lyon"}
+# Baseline du pied traduite le 02/11 ; « Jewish Tours of Lyon » reste en anglais dans toutes les langues (ligne du logo, nom commercial).
+BASELINE = {"en": {"alpes": "Kosher Stays in the Alps", "general": "Kosher Holidays in the Alps and Lyon", "lyon": "Jewish Tours of Lyon"},
+            "fr": {"alpes": "Séjours casher dans les Alpes", "general": "Séjours casher dans les Alpes et à Lyon", "lyon": "Jewish Tours of Lyon"},
+            "es": {"alpes": "Estancias kosher en los Alpes", "general": "Vacaciones kosher en los Alpes y Lyon", "lyon": "Jewish Tours of Lyon"},
+            "he": {"alpes": "חופשות כשרות באלפים", "general": "חופשות כשרות באלפים ובליון", "lyon": "Jewish Tours of Lyon"}}
 # Pages hiver (noir et or, Moshé 19/10) : la baseline nomme le partenaire, notre logo reste. La liste vit dans _kit_wp.py (HIVER).
-# _kit_wp importe _zones (menu Chalets), donc pas d'import en retour : on lit HIVER et PIED_WP dans le texte du script.
+# _kit_wp importe _zones (menu Chalets), donc pas d'import en retour : on lit HIVER et PIED_WP_LANG dans le texte du script.
 def _liste_hiver():
     src = io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "_kit_wp.py"), encoding="utf-8").read()
     ns = {}
-    for nom in ("STATIONS_SANS_CHALET", "HIVER", "PIED_WP"):
+    for nom in ("STATIONS_SANS_CHALET", "HIVER", "PIED_WP_LANG"):
         m = re.search(r"^%s = (.*?)(?=^\S)" % nom, src, flags=re.S | re.M)
         exec(nom + " = " + m.group(1).split("  #")[0].strip(), ns)
-    return set(ns["HIVER"]), ns["PIED_WP"]
-HIVER_WP, PIED_WP = _liste_hiver()
+    return set(ns["HIVER"]), ns["PIED_WP_LANG"]
+HIVER_WP, PIED_WP = _liste_hiver()   # PIED_WP : {langue: suffixe}
 BANDEAU = {  # (texte, lien)
     "alpes": {"en": ("Strictly kosher stays in the Alps, one day-by-day programme. ", "Describe your stay."),
               "fr": ("Séjours strictement casher dans les Alpes, un programme jour par jour. ", "Décrivez votre séjour."),
@@ -54,12 +58,12 @@ URLS = ("/kosher-chalets/", "/alps/", "/kosher-services-french-alps/", "/summer-
 PIED_PAN = {"en": ("Same-day reply. Never on Shabbat.", "contact@mishpachatours.com"), "fr": ("Réponse le jour même. Jamais pendant Chabbat.", "contact@mishpachatours.com"),
             "es": ("Respuesta el mismo día. Nunca en Shabat.", "contact@mishpachatours.com"), "he": ("מענה באותו יום. לעולם לא בשבת.", "contact@mishpachatours.com")}
 WA_HE = "דברו איתנו בוואטסאפ"
-CHALETS = {"en": ("Chalets", "See the chalets", (("Chalet King David · Les Deux Alpes", "6 + 1 bedrooms · 2 min from the slopes"), ("Chalet Rochebrune · Les Deux Alpes", "6 bedrooms · skis on at the door"), ("Chalet Flocon Doré · Courchevel", "5 suites · heated pools"), ("Chalet Loup Blanc · near Megève", "10 twin bedrooms · Mont Blanc"), ("Chalet Belle Étoile · Val Thorens", "3 en-suite bedrooms · ski in ski out"))),
-           "fr": ("Chalets", "Voir les chalets", (("Chalet King David · Les Deux Alpes", "6 + 1 chambres · à 2 min des pistes"), ("Chalet Rochebrune · Les Deux Alpes", "6 chambres · skis aux pieds"), ("Chalet Flocon Doré · Courchevel", "5 suites · piscines chauffées"), ("Chalet Loup Blanc · près de Megève", "10 chambres twin · Mont Blanc"), ("Chalet Belle Étoile · Val Thorens", "3 chambres en suite · skis aux pieds"))),
-           "es": ("Chalets", "Ver los chalets", (("Chalet King David · Les Deux Alpes", "6 + 1 habitaciones · a 2 min de las pistas"), ("Chalet Rochebrune · Les Deux Alpes", "6 habitaciones · esquís puestos en la puerta"), ("Chalet Flocon Doré · Courchevel", "5 suites · piscinas climatizadas"), ("Chalet Loup Blanc · cerca de Megève", "10 habitaciones twin · Mont Blanc"), ("Chalet Belle Étoile · Val Thorens", "3 habitaciones con baño · esquí a pie de puerta"))),
-           "he": ("צ'אלות", "לראות את הצ'אלות", (("צ'אלה קינג דייוויד · לה דז אלפ", "6 + 1 חדרים · 2 דק' מהמסלולים"), ("צ'אלה רושברון · לה דז אלפ", "6 חדרים · מגלשיים בדלת"), ("צ'אלה פלוקון דורה · קורשבל", "5 סוויטות · בריכות מחוממות"), ("צ'אלה לו בלאן · ליד מג'ב", "10 חדרי טווין · מון בלאן"), ("צ'אלה בל אטואל · ואל טורנס", "3 חדרי שינה עם חדר רחצה · סקי מהדלת")))}
+CHALETS = {"en": ("Chalets", "See the chalets", (("Chalet King David · Les Deux Alpes", "6 + 1 bedrooms · 2 min from the slopes"), ("Chalet Rochebrune · Les Deux Alpes", "6 bedrooms · skis on at the door"), ("Chalet Flocon Doré · Courchevel", "5 suites · heated pools"), ("Chalet Loup Blanc · near Megève", "10 twin bedrooms · Mont Blanc"), ("Chalet Belle Étoile · Val Thorens", "3 en-suite bedrooms · ski in ski out"), ("Chalet Aigle Royal · Les Ménuires", "7 suites · spa"), ("Chalet Aurore Boréale · Courchevel", "3 suites · heated pool"), ("Chalet Renard Argenté · Courchevel", "2 suites · Nordic bath"))),
+           "fr": ("Chalets", "Voir les chalets", (("Chalet King David · Les Deux Alpes", "6 + 1 chambres · à 2 min des pistes"), ("Chalet Rochebrune · Les Deux Alpes", "6 chambres · skis aux pieds"), ("Chalet Flocon Doré · Courchevel", "5 suites · piscines chauffées"), ("Chalet Loup Blanc · près de Megève", "10 chambres twin · Mont Blanc"), ("Chalet Belle Étoile · Val Thorens", "3 chambres en suite · skis aux pieds"), ("Chalet Aigle Royal · Les Ménuires", "7 suites · spa"), ("Chalet Aurore Boréale · Courchevel", "3 suites · piscine chauffée"), ("Chalet Renard Argenté · Courchevel", "2 suites · bain nordique"))),
+           "es": ("Chalets", "Ver los chalets", (("Chalet King David · Les Deux Alpes", "6 + 1 habitaciones · a 2 min de las pistas"), ("Chalet Rochebrune · Les Deux Alpes", "6 habitaciones · esquís puestos en la puerta"), ("Chalet Flocon Doré · Courchevel", "5 suites · piscinas climatizadas"), ("Chalet Loup Blanc · cerca de Megève", "10 habitaciones twin · Mont Blanc"), ("Chalet Belle Étoile · Val Thorens", "3 habitaciones con baño · esquí a pie de puerta"), ("Chalet Aigle Royal · Les Ménuires", "7 suites · spa"), ("Chalet Aurore Boréale · Courchevel", "3 suites · piscina climatizada"), ("Chalet Renard Argenté · Courchevel", "2 suites · baño nórdico"))),
+           "he": ("צ'אלות", "לראות את הצ'אלות", (("צ'אלה קינג דייוויד · לה דז אלפ", "6 + 1 חדרים · 2 דק' מהמסלולים"), ("צ'אלה רושברון · לה דז אלפ", "6 חדרים · מגלשיים בדלת"), ("צ'אלה פלוקון דורה · קורשבל", "5 סוויטות · בריכות מחוממות"), ("צ'אלה לו בלאן · ליד מג'ב", "10 חדרי טווין · מון בלאן"), ("צ'אלה בל אטואל · ואל טורנס", "3 חדרי שינה עם חדר רחצה · סקי מהדלת"), ("צ'אלה אגל רויאל · לה מנואר", "7 סוויטות · ספא"), ("צ'אלה אורור בוראל · קורשבל", "3 סוויטות · בריכה מחוממת"), ("צ'אלה רנאר ארז'נטה · קורשבל", "2 סוויטות · אמבט נורדי")))}
 # 21/10 : vignettes WebP de 336 px (img/chalet/min/, fabriquées par _images_legeres.py) au lieu des JPG pleine taille (2 032 Ko téléchargés par le tiroir mobile)
-CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/min/wp-ext-bleu-336.webp"), ("kosher-slope-chalet-les-deux-alpes", "/img/chalet/min/slope-facade-336.webp"), ("kosher-chalet-courchevel", "/img/chalet/min/courchevel-ext-336.webp"), ("kosher-chalet-megeve", "/img/chalet/min/megeve-n0-apt-sejour-336.webp"), ("kosher-chalet-val-thorens", "/img/chalet/min/valthorens-exterieur-neige-336.webp"))
+CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/min/wp-ext-bleu-336.webp"), ("kosher-slope-chalet-les-deux-alpes", "/img/chalet/min/slope-facade-336.webp"), ("kosher-chalet-courchevel", "/img/chalet/min/courchevel-ext-336.webp"), ("kosher-chalet-megeve", "/img/chalet/min/megeve-n0-apt-sejour-336.webp"), ("kosher-chalet-val-thorens", "/img/chalet/min/valthorens-exterieur-neige-336.webp"), ("kosher-chalet-les-menuires", "/img/chalet/min/aigle-exterieur-neige-336.webp"), ("kosher-chalet-courchevel-aurore-boreale", "/img/chalet/min/aurore-exterieur-piscine-336.webp"), ("kosher-chalet-courchevel-renard-argente", "/img/chalet/min/renard-exterieur-neige-336.webp"))
 
 def chalets_html(lang, pre):
     lib, tous, items = CHALETS[lang]
@@ -126,7 +130,7 @@ def traiter(path):
     expl = '\n    <details class="pied-explore"><summary>' + SECOND[lang][4] + "</summary><p>" + "<br>".join(f'<a href="{u}">{t}</a>' for t, u in [sec[0], (SECOND[lang][1], f"{pre0}/#resorts")] + sec[1:]) + "</p></details>"
     n = re.sub(r'\s*<details class="pied-stations">.*?</details>', "", n, count=1, flags=re.S)
     n = re.sub(r'(<footer class="pied">\s*<div class="cols">.*?)(\s*</div>\s*<p class="logo-pied">)', lambda m: m.group(1) + expl + "\n    " + pied_stations(lang, pre0) + m.group(2), n, count=1, flags=re.S)
-    base = BASELINE[z] + (PIED_WP if page in HIVER_WP else "")
+    base = BASELINE[lang][z] + (PIED_WP[lang] if page in HIVER_WP else "")
     n = re.sub(r'(<p class="logo-pied">.*?<small>).*?(</small>)', lambda m: m.group(1) + base + m.group(2), n, count=1, flags=re.S)
     pre = "" if lang == "en" else "/" + lang
     n = re.sub(r'href="(?:(?:\.\./)+|/(?:fr/|es/|he/)?)#(tours|guide)"', lambda m: f'href="{pre}/jewish-lyon-tours/#{m.group(1)}"', n)

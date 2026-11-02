@@ -2,7 +2,7 @@
 
 Source: https://mishpachatours.com/he/kosher-van-transfers/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
-[דף הבית](https://mishpachatours.com/he/) / [המדריך לליון היהודית](https://mishpachatours.com/jewish-lyon-guide/) / הסעות בוואן פרטי
+[דף הבית](https://mishpachatours.com/he/) / [המדריך לליון היהודית](https://mishpachatours.com/he/jewish-lyon-guide/) / הסעות בוואן פרטי
 
 # הסעות בוואן פרטי *מנקודה א׳ לנקודה ב׳, לעולם לא בשבת*
 
@@ -51,7 +51,7 @@ Source: https://mishpachatours.com/he/kosher-van-transfers/ (HTML version). Ever
 
 - **שדות תעופה ותחנות רכבת.** איסוף בנחיתה או בהגעה, והסעה ליציאה שלכם.
 - **מלונות וצ׳אלטים.** מהדלת שלכם עד הדלת הבאה.
-- **אתרי סקי.** משדה התעופה או מהתחנה ישר לאתר, עם ציוד הסקי. ראו את [חופשות הסקי הכשרות](https://mishpachatours.com/kosher-ski-holidays-french-alps/) שלנו.
+- **אתרי סקי.** משדה התעופה או מהתחנה ישר לאתר, עם ציוד הסקי. ראו את [חופשות הסקי הכשרות](https://mishpachatours.com/he/kosher-ski-holidays-french-alps/) שלנו.
 - **ערים ומרחקים ארוכים.** מליון לפריז, מעיר לעיר, או לכל מקום אחר. מחוץ לצרפת, שלחו לנו את המסלול ואנחנו פונים לאנשי הקשר שלנו.
 
 ## שבת *וחגים*
@@ -86,11 +86,11 @@ Source: https://mishpachatours.com/he/kosher-van-transfers/ (HTML version). Ever
 
 ## להמשך *קריאה*
 
-- [שירותים כשרים באלפים](https://mishpachatours.com/kosher-services-french-alps/)
-- [חופשות סקי כשרות באלפים](https://mishpachatours.com/kosher-ski-holidays-french-alps/)
-- [ליון, שער האלפים](https://mishpachatours.com/lyon-gateway-to-the-alps-kosher/)
-- [טיסות לליון](https://mishpachatours.com/flights-to-lyon/)
-- [תכננו את הטיול](https://mishpachatours.com/plan-your-trip/?i=c)
+- [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/)
+- [חופשות סקי כשרות באלפים](https://mishpachatours.com/he/kosher-ski-holidays-french-alps/)
+- [ליון, שער האלפים](https://mishpachatours.com/he/lyon-gateway-to-the-alps-kosher/)
+- [טיסות לליון](https://mishpachatours.com/he/flights-to-lyon/)
+- [תכננו את הטיול](https://mishpachatours.com/he/plan-your-trip/?i=c)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

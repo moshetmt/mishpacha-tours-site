@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/fr/chabad-lyon/ (HTML version). Every page of
 
 # Chabad à Lyon *Huit maisons, une table de Shabbat*
 
-Lyon compte huit centres Chabad : centre-ville, 3e et 6e arrondissements, Villeurbanne, Charpennes, Écully et le campus universitaire. D’où que vous veniez, vous pouvez appeler avant Shabbat et demander un repas ou un minyan. Notre guide fait partie de cette communauté. Pour le patrimoine, [nos visites guidées du quartier juif de Lyon](https://mishpachatours.com/jewish-lyon-tours/) partent à quelques minutes de là.
+Lyon compte huit centres Chabad : centre-ville, 3e et 6e arrondissements, Villeurbanne, Charpennes, Écully et le campus universitaire. D’où que vous veniez, vous pouvez appeler avant Shabbat et demander un repas ou un minyan. Notre guide fait partie de cette communauté. Pour le patrimoine, [nos visites guidées du quartier juif de Lyon](https://mishpachatours.com/fr/jewish-lyon-tours/) partent à quelques minutes de là.
 
 - 8 maisons Chabad
 - Repas de Shabbat sur demande

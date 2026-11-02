@@ -2,6 +2,10 @@
 
 Source: https://mishpachatours.com/jewish-lyon-tours/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
+# The only tour inside the Grande Synagogue of Lyon. *Private, strictly kosher, shaped by you.*
+
+The Grande Synagogue on quai Tilsitt is closed to visitors outside the Heritage Days. With us, you go inside, with a guide who is Jewish, observant and part of Lyon's community.
+
 ## Lyon, booked in *one message*
 
 One request, we organise everything, from the table to the transfer.
@@ -36,10 +40,6 @@ A quiet presence beside your group, only when you ask for it.
 
 [See the details](https://mishpachatours.com/is-lyon-safe-for-jewish-visitors/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20discreet%20private%20escort%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
-# The only tour inside the Grande Synagogue of Lyon. *Private, strictly kosher, shaped by you.*
-
-The Grande Synagogue on quai Tilsitt is closed to visitors outside the Heritage Days. With us, you go inside, with a guide who is Jewish, observant and part of Lyon's community.
-
 - **The only tour inside**the Grande Synagogue of Lyon
 - **Guide-conférencier**French state licence
 - **Strictly kosher**shomer shabbat
@@ -53,7 +53,7 @@ Your group only, in English, French or Spanish. Prices for the whole group.
 
 City walk
 
-Vieux Lyon2.5 hours
+Vieux Lyon2 hours
 
 ### [Jewish Lyon](https://mishpachatours.com/tours/jewish-lyon/)
 
