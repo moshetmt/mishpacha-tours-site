@@ -106,6 +106,87 @@ T = {
 }
 SUFFIXE = " | Mishpacha Tours"
 
+# Textes propres à la station (02/11, similarité avec Val Thorens trop haute) : intro des Belleville, Shabbat en pratique,
+# deux questions de FAQ, « ce que nous organisons » et « comment ça se passe » réécrits.
+# Belleville : « three exceptional resorts in the Vallée des Belleville (Saint-Martin-de-Belleville, Les Menuires and Val Thorens) »,
+# https://lesmenuires.com/en/ . Pas d'érouv ni de commerce casher publiés : rien trouvé, formulé « publié », jamais « il n'existe pas ».
+T2 = {
+ "en": dict(
+  intro="Les Ménuires is one of the three resorts of the Belleville valley, with Saint-Martin-de-Belleville and Val Thorens.",
+  shab=("Shabbat in Les Ménuires,", "in practice"),
+  shab_p=[("scroll-text", "The minyan, in your chalet.", "No permanent minyan and no eruv are published in the resort. When your group, or the families we bring together that week, make up the number, the minyan is held in the chalet, and we bring a Sefer Torah on request."),
+          ("mountain-snow", "Val Thorens is not a Shabbat walk.", "It lies several kilometres further up the valley by road, so families who keep Shabbat stay in Les Ménuires from candle lighting to Havdalah."),
+          ("shopping-basket", "No kosher shop in the resort.", "No kosher grocery or restaurant is published in Les Ménuires: shop in Lyon before you drive up ({a}), or let the chef and the delivered meals take care of the week.")],
+  lien="our Lyon guide",
+  faq=[("Can we walk to a minyan in Val Thorens on Shabbat?", "No. Val Thorens is several kilometres further up the valley by road, and no eruv is published. On Shabbat, the minyan takes place in your chalet when the group or the families gathered that week make up the number, with a Sefer Torah on request."),
+       ("Where is the kosher chalet in Les Ménuires?", "Our kosher chalet in Les Ménuires is the {aigle}: seven suites, a spa with jacuzzi and sauna, up to 15 guests, seven minutes from the slopes by chairlift.")],
+  org=[("Your private chef in the chalet.", "Our kosher team from the Alps koshers the kitchen before you arrive and cooks in the chalet all week, from breakfast to the Shabbat table."),
+       ("Meals brought to your door.", "Staying in an apartment or a hotel in Les Ménuires? Hot kosher meals arrive for the week, for a family or a group, ordered in advance."),
+       ("Shabbat, prepared.", "Challot, wine and the Shabbat meals are in place on Friday before candle lighting. Nothing is delivered on Shabbat itself."),
+       ("The holidays on the mountain.", "Hanukkah candles, a Megillah reading for Purim, or Pesach in a kashered chalet: tell us which holiday falls in your week."),
+       ("A minyan with a Sefer Torah.", "We bring together the families who write to us for the same week; the earlier you send your dates, the better the chances of a minyan."),
+       ("The whole stay, in one quote.", "Chalet, chef or delivered meals, transfers from Lyon or Geneva, Shabbat and the holidays: one request, one written quote. For a very small group asking for a single delivery, tell us and we say what is feasible.")],
+  etapes=["Send us your dates and the number of guests, children included. Tell us whether you stay in our chalet or in your own accommodation in Les Ménuires, and what the week needs.",
+          "The same day, our team in the Alps checks the chef, the kitchen, the deliveries and the minyan for your week in Les Ménuires. One contact from start to finish.",
+          "You receive a written quote: the price follows the dates, the number of guests and the menu. Nothing is committed before you say yes."]),
+ "fr": dict(
+  intro="Les Ménuires sont l’une des trois stations de la vallée des Belleville, avec Saint-Martin-de-Belleville et Val Thorens.",
+  shab=("Shabbat aux Ménuires,", "en pratique"),
+  shab_p=[("scroll-text", "Le minyan, dans votre chalet.", "Aucun minyan permanent ni érouv n’est publié dans la station. Quand votre groupe, ou les familles que nous réunissons cette semaine-là, atteignent le nombre, le minyan se tient au chalet, et nous apportons un Sefer Torah sur demande."),
+          ("mountain-snow", "Val Thorens, pas à pied le Shabbat.", "La station se trouve à plusieurs kilomètres de route en montée, plus haut dans la vallée : les familles qui gardent le Shabbat restent aux Ménuires de l’allumage des bougies à la Havdala."),
+          ("shopping-basket", "Pas de commerce casher en station.", "Aucune épicerie ni aucun restaurant casher n’est publié aux Ménuires : faites vos courses à Lyon avant de monter ({a}), ou laissez le chef et les repas livrés s’occuper de la semaine.")],
+  lien="notre guide de Lyon",
+  faq=[("Peut-on aller à pied à un minyan à Val Thorens le Shabbat ?", "Non. Val Thorens se trouve à plusieurs kilomètres de route en montée, et aucun érouv n’est publié. Le Shabbat, le minyan se tient dans votre chalet quand le groupe ou les familles réunies cette semaine-là atteignent le nombre, avec un Sefer Torah sur demande."),
+       ("Où se trouve le chalet casher aux Ménuires ?", "Notre chalet casher aux Ménuires est le {aigle} : sept suites, un spa avec jacuzzi et sauna, jusqu’à 15 personnes, à sept minutes des pistes en télésiège.")],
+  org=[("Votre chef privé au chalet.", "Notre équipe casher des Alpes cachérise la cuisine avant votre arrivée et cuisine au chalet toute la semaine, du petit-déjeuner à la table de Shabbat."),
+       ("Des repas jusqu’à votre porte.", "Vous logez en appartement ou à l’hôtel aux Ménuires ? Des repas casher chauds arrivent pour la semaine, pour une famille ou un groupe, sur commande à l’avance."),
+       ("Shabbat, préparé.", "Hallot, vin et repas de Shabbat sont en place le vendredi avant l’allumage des bougies. Rien n’est livré pendant le Shabbat."),
+       ("Les fêtes à la montagne.", "Bougies de Hanouka, lecture de la Méguila à Pourim, ou Pessah dans un chalet cachérisé : dites-nous quelle fête tombe pendant votre semaine."),
+       ("Un minyan avec Sefer Torah.", "Nous réunissons les familles qui nous écrivent pour la même semaine ; plus vos dates arrivent tôt, plus le minyan a de chances de se former."),
+       ("Tout le séjour, en un devis.", "Chalet, chef ou repas livrés, transferts depuis Lyon ou Genève, Shabbat et fêtes : une demande, un devis écrit. Pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.")],
+  etapes=["Envoyez-nous vos dates et le nombre de personnes, enfants compris. Dites-nous si vous logez dans notre chalet ou dans votre propre hébergement aux Ménuires, et ce dont la semaine a besoin.",
+          "Le jour même, notre équipe dans les Alpes vérifie le chef, la cuisine, les livraisons et le minyan pour votre semaine aux Ménuires. Un seul interlocuteur du début à la fin.",
+          "Vous recevez un devis écrit : le prix suit les dates, le nombre de personnes et le menu. Rien n’est engagé avant votre accord."]),
+ "es": dict(
+  intro="Les Ménuires es una de las tres estaciones del valle de Les Belleville, junto a Saint-Martin-de-Belleville y Val Thorens.",
+  shab=("Shabat en Les Ménuires,", "en la práctica"),
+  shab_p=[("scroll-text", "El minián, en su chalet.", "En la estación no hay publicado ningún minián permanente ni ningún eruv. Cuando su grupo, o las familias que reunimos esa semana, completan el número, el minián se celebra en el chalet, y llevamos un Sefer Torá bajo petición."),
+          ("mountain-snow", "Val Thorens no se alcanza a pie en Shabat.", "Está a varios kilómetros de carretera, más arriba en el valle: las familias que guardan Shabat se quedan en Les Ménuires desde el encendido de las velas hasta la Havdalá."),
+          ("shopping-basket", "Sin tienda kosher en la estación.", "No hay publicada ninguna tienda ni restaurante kosher en Les Ménuires: haga la compra en Lyon antes de subir ({a}), o deje que el chef y las comidas entregadas se ocupen de la semana.")],
+  lien="nuestra guía de Lyon",
+  faq=[("¿Podemos ir a pie a un minián en Val Thorens en Shabat?", "No. Val Thorens está a varios kilómetros de carretera en subida y no hay ningún eruv publicado. En Shabat, el minián se celebra en su chalet cuando el grupo o las familias reunidas esa semana completan el número, con un Sefer Torá bajo petición."),
+       ("¿Dónde está el chalet kosher de Les Ménuires?", "Nuestro chalet kosher en Les Ménuires es el {aigle}: siete suites, un spa con jacuzzi y sauna, hasta 15 personas, a siete minutos de las pistas en telesilla.")],
+  org=[("Su chef privado en el chalet.", "Nuestro equipo kosher de los Alpes kosheriza la cocina antes de su llegada y cocina en el chalet toda la semana, del desayuno a la mesa de Shabat."),
+       ("Comidas hasta su puerta.", "¿Se aloja en un apartamento o un hotel de Les Ménuires? Llegan comidas kosher calientes para la semana, para una familia o un grupo, encargadas con antelación."),
+       ("Shabat, preparado.", "Jalot, vino y comidas de Shabat están listos el viernes antes del encendido de las velas. No se entrega nada durante el Shabat."),
+       ("Las fiestas en la montaña.", "Velas de Janucá, lectura de la Meguilá en Purim, o Pésaj en un chalet kosherizado: indíquenos qué fiesta cae en su semana."),
+       ("Un minián con Sefer Torá.", "Reunimos a las familias que nos escriben para la misma semana; cuanto antes lleguen sus fechas, más probable es el minián."),
+       ("Toda la estancia, en un presupuesto.", "Chalet, chef o comidas entregadas, traslados desde Lyon o Ginebra, Shabat y fiestas: una solicitud, un presupuesto por escrito. Si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.")],
+  etapes=["Envíenos sus fechas y el número de personas, niños incluidos. Díganos si se aloja en nuestro chalet o en su propio alojamiento en Les Ménuires, y qué necesita la semana.",
+          "El mismo día, nuestro equipo en los Alpes comprueba el chef, la cocina, las entregas y el minián para su semana en Les Ménuires. Un solo contacto de principio a fin.",
+          "Recibe un presupuesto por escrito: el precio depende de las fechas, del número de personas y del menú. Nada se compromete antes de su conformidad."]),
+ "he": dict(
+  intro="לה מנואר היא אחד משלושה אתרי סקי באותו עמק, לצד Saint-Martin-de-Belleville וואל טורנס.",
+  shab=("שבת בלה מנואר,", "הלכה למעשה"),
+  shab_p=[("scroll-text", "המניין, בצ'אלה שלכם.", "באתר לא מתפרסם מניין קבוע, וגם לא עירוב. כשהקבוצה שלכם, או המשפחות שאנחנו מרכזים באותו שבוע, משלימות מניין, התפילה מתקיימת בצ'אלה, ואנחנו מביאים ספר תורה לפי בקשה."),
+          ("mountain-snow", "ואל טורנס לא בהליכה בשבת.", "היא נמצאת כמה קילומטרים במעלה העמק, בכביש, ולכן משפחות שומרות שבת נשארות בלה מנואר מהדלקת הנרות ועד ההבדלה."),
+          ("shopping-basket", "אין חנות כשרה באתר.", "בלה מנואר לא מתפרסמת מכולת כשרה ולא מסעדה כשרה: עושים קניות בליון לפני העלייה ({a}), או שהשף והארוחות במשלוח דואגים לכל השבוע.")],
+  lien="המדריך שלנו לליון",
+  faq=[("אפשר ללכת ברגל למניין בוואל טורנס בשבת?", "לא. ואל טורנס נמצאת כמה קילומטרים במעלה העמק, בכביש, ולא מתפרסם עירוב. בשבת המניין מתקיים בצ'אלה שלכם כשהקבוצה או המשפחות שמתאספות באותו שבוע משלימות מניין, עם ספר תורה לפי בקשה."),
+       ("איפה הצ'אלה הכשרה בלה מנואר?", "הצ'אלה הכשרה שלנו בלה מנואר היא {aigle}: שבע סוויטות, ספא עם ג'קוזי וסאונה, עד 15 אורחים, שבע דקות מהמסלולים ברכבל.")],
+  org=[("שף פרטי בצ'אלה שלכם.", "הצוות הכשר שלנו מהאלפים מכשיר את המטבח לפני שאתם מגיעים ומבשל בצ'אלה לאורך כל השבוע, מארוחת הבוקר ועד שולחן השבת."),
+       ("ארוחות עד הדלת.", "לנים בדירה או במלון בלה מנואר? ארוחות כשרות חמות מגיעות לאורך השבוע, למשפחה או לקבוצה, בהזמנה מראש."),
+       ("שבת, מוכנה.", "חלות, יין וסעודות השבת מגיעים ביום שישי לפני הדלקת הנרות. בשבת עצמה שום דבר לא מגיע."),
+       ("החגים בהרים.", "נרות חנוכה, קריאת מגילה בפורים, או פסח בצ'אלה מוכשרת: כתבו לנו איזה חג חל בשבוע שלכם."),
+       ("מניין עם ספר תורה.", "אנחנו מרכזים את המשפחות שכותבות לנו לאותו שבוע; ככל ששולחים את התאריכים מוקדם יותר, כך גדל הסיכוי למניין."),
+       ("כל החופשה, בהצעת מחיר אחת.", "צ'אלה, שף או ארוחות במשלוח, הסעות מליון או מז'נבה, שבת וחגים: פנייה אחת, הצעת מחיר אחת בכתב. קבוצה קטנה מאוד שרוצה משלוח אחד בלבד? ספרו לנו ונגיד מה אפשרי.")],
+  etapes=["שלחו לנו את התאריכים ואת מספר האורחים, כולל ילדים. ספרו לנו אם אתם בצ'אלה שלנו או בלינה משלכם בלה מנואר, ומה השבוע צריך.",
+          "באותו יום הצוות שלנו באלפים בודק את השף, המטבח, המשלוחים והמניין לשבוע שלכם בלה מנואר. איש קשר אחד לאורך כל הדרך.",
+          "אתם מקבלים הצעת מחיר בכתב: המחיר תלוי בתאריכים, במספר האורחים ובתפריט. שום דבר לא מחייב לפני שאתם אומרים כן."]),
+}
+for _l in T:
+    T[_l].update(T2[_l])
+
 
 def carte_aigle(pre):
     """Carte kwp de l'Aigle Royal telle qu'elle existe dans /kosher-chalets/ de la même langue (avec son data-prix-tpl)."""
@@ -198,6 +279,38 @@ def page(lang, pre):
             assert os.path.exists(f"{pre}{re.search(r'kosher-[a-z-]+/', x).group(0)}index.html")
         return m.group(1) + vt + cou[0] + tout[0] + m.group(3)
     s = sub1(r'(<section class="clair ss wrap conseils" id="voisines">.*?<ul class="dk-suite">)(.*?)(</ul></section>)', voisines, s)
+
+    # 12. intro : les trois stations de la vallée des Belleville (lesmenuires.com)
+    s = sub1(r"(<!--/MANIFESTE--><p>)", lambda m: m.group(1) + t["intro"] + " ", s)
+    # 13. « Ce que nous organisons » : six cartes réécrites, mêmes icônes
+    def organise(m):
+        icos = re.findall(r"<li>(<img[^>]*>)", m.group(2))
+        assert len(icos) == len(t["org"]) == 6, lang
+        return m.group(1) + "".join(f"<li>{i}<b>{b}</b> {p}</li>\n" for i, (b, p) in zip(icos, t["org"])) + m.group(3)
+    s = sub1(r'(<section class="clair ss wrap conseils"><h2>[^<]*<i>[^<]*</i></h2><ul class="dk-cartes dk-rail">\n)(.*?)(</ul>)', organise, s)
+    # 14. Shabbat en pratique (remplace la note « Minyan et Shabbat »), lien courses vers la page Lyon, porte des Alpes
+    lyon = re.search(r'<a href="([^"]*lyon-gateway-to-the-alps-kosher/)">', s).group(1)
+    lien_a = f'<a href="{lyon}">{t["lien"]}</a>'
+    ps = "".join(f'<p><img class="dk dk-ico dk-ico-note dk-des" src="/img/ico/or/{ico}.svg" alt="" width="96" height="96" loading="lazy">'
+                 f'<b>{b}</b> {p.format(a=lien_a)}</p>\n' for ico, b, p in t["shab_p"])
+    s = sub1(r'<section class="clair ss wrap conseils dk-note">.*?</section>',
+             lambda _: f'<section class="clair ss wrap conseils dk-note"><h2>{t["shab"][0]} <i>{t["shab"][1]}</i></h2>{ps}</section>', s)
+    # 15. « Comment ça se passe » : les trois paragraphes réécrits
+    et = iter(t["etapes"])
+    s = sub1(r'<section class="ss wrap etapes">.*?</section>',
+             lambda m: re.sub(r"(<h3>[^<]*</h3><p>)[^<]*(</p>)", lambda k: k.group(1) + next(et) + k.group(2), m.group(0)), s)
+    assert next(et, None) is None, lang
+    # 16. FAQ : deux questions propres à la station, en HTML et dans le FAQPage
+    href = re.search(r'<h3><a href="([^"]*kosher-chalet-les-menuires/)">', carte_aigle(pre)).group(1)
+    aigle_a = f'<a href="{href}">Chalet Aigle Royal</a>'
+    det = "".join(f"<details><summary>{q}</summary><p>{r.format(aigle=aigle_a)}</p></details>" for q, r in t["faq"])
+    s = sub1(r'(<section class="clair clair-2 ss wrap faq">.*?)(</section>)', lambda m: m.group(1) + det + m.group(2), s)
+    m = re.search(r'(<script type="application/ld\+json">)(.*?)(</script>)', s, re.S)
+    ld = json.loads(m.group(2))
+    fp = [o for o in ld if o["@type"] == "FAQPage"][0]["mainEntity"]
+    for q, r in t["faq"]:
+        fp.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r.format(aigle="Chalet Aigle Royal")}})
+    s = s[:m.start(2)] + json.dumps(ld, ensure_ascii=False) + s[m.end(2):]
 
     for i, g in enumerate(gardes):
         s = s.replace(f"\x00{i}\x00", g)

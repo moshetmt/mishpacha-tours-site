@@ -18,7 +18,7 @@ Esquíe en Les Ménuires de día. Vuelva a la mesa servida, un minyan y el Shaba
 
 **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 
-Su temporada va del 5 de diciembre de 2026 al 18 de abril de 2027. Organizamos su estancia kosher: chef privado o comidas entregadas, Shabat, minián y Sefer Torá, en un solo presupuesto por escrito.
+Les Ménuires es una de las tres estaciones del valle de Les Belleville, junto a Saint-Martin-de-Belleville y Val Thorens. Su temporada va del 5 de diciembre de 2026 al 18 de abril de 2027. Organizamos su estancia kosher: chef privado o comidas entregadas, Shabat, minián y Sefer Torá, en un solo presupuesto por escrito.
 
 ## Nuestro chalet *en Les Ménuires*
 
@@ -41,12 +41,12 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 ## Lo que organizamos *en Les Ménuires*
 
-- **Un chalé o un apartamento con chef privado.** Nuestro equipo kosher con base en los Alpes prepara la cocina para que sea kosher y cocina en el lugar. Todas las comidas de la semana quedan resueltas.
-- **Comidas entregadas en la estación.** Comidas calientes entregadas en su apartamento o en su hotel durante la semana, para una familia o un grupo, con aviso previo.
-- **Shabat.** Comidas de Shabat, jalot y vino entregados el viernes antes del encendido de las velas. No se entrega nada en Shabat.
-- **Las fiestas.** Janucá, Purim o Pésaj en la montaña. Indíquenos qué fiesta cae en su semana.
-- **Un minián y un Sefer Torá.** El tamaño del minián depende de cuántas familias estén en la estación esa semana. Dénos sus fechas y reunimos a las familias que nos escriban.
-- **Una estancia a medida, de la A a la Z.** Chalé, chef o comidas entregadas, traslados, Shabat, las fiestas, un minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo; si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
+- **Su chef privado en el chalet.** Nuestro equipo kosher de los Alpes kosheriza la cocina antes de su llegada y cocina en el chalet toda la semana, del desayuno a la mesa de Shabat.
+- **Comidas hasta su puerta.** ¿Se aloja en un apartamento o un hotel de Les Ménuires? Llegan comidas kosher calientes para la semana, para una familia o un grupo, encargadas con antelación.
+- **Shabat, preparado.** Jalot, vino y comidas de Shabat están listos el viernes antes del encendido de las velas. No se entrega nada durante el Shabat.
+- **Las fiestas en la montaña.** Velas de Janucá, lectura de la Meguilá en Purim, o Pésaj en un chalet kosherizado: indíquenos qué fiesta cae en su semana.
+- **Un minián con Sefer Torá.** Reunimos a las familias que nos escriben para la misma semana; cuanto antes lleguen sus fechas, más probable es el minián.
+- **Toda la estancia, en un presupuesto.** Chalet, chef o comidas entregadas, traslados desde Lyon o Ginebra, Shabat y fiestas: una solicitud, un presupuesto por escrito. Si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
 Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes; los detalles de la supervisión se entregan por escrito con el presupuesto.
 
@@ -58,9 +58,13 @@ También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kashe
 - **Les 3 Vallées.** Desde Les Ménuires se esquía por todo Les 3 Vallées, hasta Val Thorens, Méribel y Courchevel.
 - **Organizado para ustedes.** Chef privado, comidas entregadas, Shabat y un minián con Sefer Torá según el número de familias, organizados para su semana.
 
-## Minián y Shabat *en Les Ménuires*
+## Shabat en Les Ménuires, *en la práctica*
 
-Nuestro propio minián depende de cuántas familias estén en la estación esa semana: indíquenos sus fechas.
+**El minián, en su chalet.** En la estación no hay publicado ningún minián permanente ni ningún eruv. Cuando su grupo, o las familias que reunimos esa semana, completan el número, el minián se celebra en el chalet, y llevamos un Sefer Torá bajo petición.
+
+**Val Thorens no se alcanza a pie en Shabat.** Está a varios kilómetros de carretera, más arriba en el valle: las familias que guardan Shabat se quedan en Les Ménuires desde el encendido de las velas hasta la Havdalá.
+
+**Sin tienda kosher en la estación.** No hay publicada ninguna tienda ni restaurante kosher en Les Ménuires: haga la compra en Lyon antes de subir ([nuestra guía de Lyon](https://mishpachatours.com/es/lyon-gateway-to-the-alps-kosher/)), o deje que el chef y las comidas entregadas se ocupen de la semana.
 
 Esta semana
 
@@ -79,17 +83,17 @@ Horarios calculados para las coordenadas de Les Ménuires.
 
    ### Cuéntenos
 
-   Fechas, número de personas, su chalé, apartamento u hotel en Les Ménuires y lo que necesita: un chef, comidas entregadas, Shabat, una fiesta, un minián. Por WhatsApp o con el formulario al final de esta página.
+   Envíenos sus fechas y el número de personas, niños incluidos. Díganos si se aloja en nuestro chalet o en su propio alojamiento en Les Ménuires, y qué necesita la semana.
 2. **2**
 
    ### Lo organizamos
 
-   El mismo día comprobamos con nuestro equipo en los Alpes qué es posible para sus fechas en Les Ménuires: chef, cocina, entregas, minián. Un solo contacto de principio a fin.
+   El mismo día, nuestro equipo en los Alpes comprueba el chef, la cocina, las entregas y el minián para su semana en Les Ménuires. Un solo contacto de principio a fin.
 3. **3**
 
    ### Recibe un presupuesto
 
-   El precio depende de las fechas, el número de personas y el menú. Recibe un presupuesto por escrito antes de comprometerse.
+   Recibe un presupuesto por escrito: el precio depende de las fechas, del número de personas y del menú. Nada se compromete antes de su conformidad.
 
 [Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20vamos%20a%20Les%20M%C3%A9nuires.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
 
@@ -137,6 +141,14 @@ Sí. Indíquenos qué fiesta cae en su semana. Las velas de Janucá, la lectura 
 ¿Quién supervisa la comida kosher?
 
 Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+
+¿Podemos ir a pie a un minián en Val Thorens en Shabat?
+
+No. Val Thorens está a varios kilómetros de carretera en subida y no hay ningún eruv publicado. En Shabat, el minián se celebra en su chalet cuando el grupo o las familias reunidas esa semana completan el número, con un Sefer Torá bajo petición.
+
+¿Dónde está el chalet kosher de Les Ménuires?
+
+Nuestro chalet kosher en Les Ménuires es el [Chalet Aigle Royal](https://mishpachatours.com/es/kosher-chalet-les-menuires/): siete suites, un spa con jacuzzi y sauna, hasta 15 personas, a siete minutos de las pistas en telesilla.
 
 ## Les Ménuires: su semana, *organizada*.
 
