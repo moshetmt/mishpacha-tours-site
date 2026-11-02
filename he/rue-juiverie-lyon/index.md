@@ -59,7 +59,7 @@ Source: https://mishpachatours.com/he/rue-juiverie-lyon/ (HTML version). Every p
 
    ### איתנו
 
-   סיור ליון היהודית מתחיל כאן. זהו סיור רגלי של שעתיים וחצי, פרטי לקבוצה שלכם, והוא כולל את בית הכנסת הגדול ואת רחוב סנט-קתרין. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית.
+   סיור ליון היהודית מתחיל כאן. זהו סיור רגלי של שעתיים, פרטי לקבוצה שלכם, והוא כולל את בית הכנסת הגדול ואת רחוב סנט-קתרין. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית.
 3. **3**
 
    ### רחוב סנט-קתרין
@@ -98,7 +98,7 @@ Source: https://mishpachatours.com/he/rue-juiverie-lyon/ (HTML version). Every p
 
 כמה זמן כדאי להקדיש כאן?
 
-בכוחות עצמכם, 20 דקות לרחוב ו-20 דקות לרחוב סנט-קתרין. איתנו, שניהם חלק מסיור ליון היהודית של שעתיים וחצי.
+בכוחות עצמכם, 20 דקות לרחוב ו-20 דקות לרחוב סנט-קתרין. איתנו, שניהם חלק מסיור ליון היהודית של שעתיים.
 
 ## ללכת ברחוב *איתנו*?
 
@@ -108,7 +108,7 @@ Source: https://mishpachatours.com/he/rue-juiverie-lyon/ (HTML version). Every p
 
 ## להמשך *קריאה*
 
-- [סיור ליון היהודית, שעתיים וחצי](https://mishpachatours.com/he/tours/jewish-lyon/)
+- [סיור ליון היהודית, שעתיים](https://mishpachatours.com/he/tours/jewish-lyon/)
 - [בית הכנסת הגדול של ליון](https://mishpachatours.com/he/grande-synagogue-lyon/)
 - [ההיסטוריה היהודית של ליון](https://mishpachatours.com/he/jewish-history-lyon/)
 - [בתי כנסת ושבת בליון](https://mishpachatours.com/he/synagogues-lyon/)

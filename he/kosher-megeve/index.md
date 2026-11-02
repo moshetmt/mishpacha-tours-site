@@ -60,8 +60,6 @@ Source: https://mishpachatours.com/he/kosher-megeve/ (HTML version). Every page 
 
 ## מניין ושבת *במג'ב*
 
-136 route Edmond de Rothschild, 74120 Megève, או חדר בשם "Maison de la Montagne". הפרסום הוא מ-2014, ולכן אשרו את הכתובת לתאריכים שלכם.
-
 זמני השבת משתנים בכל שבוע. אם אתם רוצים מניין לשבוע מסוים, מסרו לנו את התאריכים מוקדם: אנו בונים אותו עם רשת חב״ד באלפים ומביאים ספר תורה.
 
 השבוע

@@ -35,6 +35,7 @@ Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine 
 
 ## Casher *à Annecy*
 
+- **Une synagogue.** 18 rue de Narvik, 74000 Annecy.
 - **Commerce ou restaurant casher.** Apportez vos provisions de Lyon ou de Genève, ou laissez-nous vous livrer des repas.
 - **Une maison Chabad.** Notre équipe travaille sous l’autorité du réseau Chabad des Alpes.
 - **Taille de la communauté.** C’est une petite communauté, d’où la nécessité de constituer à l’avance un minyan pour les visiteurs.

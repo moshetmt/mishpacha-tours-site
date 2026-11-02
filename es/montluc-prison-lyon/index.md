@@ -50,7 +50,7 @@ Usted recorre el edificio de las celdas, donde unas sesenta celdas presentan las
 
 Neveh Chalom y el Institut culturel du judaïsme están en la misma dirección, 317 rue Duguesclin. La sinagoga es la segunda a cuyo interior le lleva su guía, junto con la [Gran Sinagoga del quai Tilsitt](https://mishpachatours.com/es/grande-synagogue-lyon/). Las visitas al interior dependen de un acuerdo con la comunidad y de la seguridad del día, y las solicitamos en su nombre.
 
-No mostramos ninguna foto de Neveh Chalom en este sitio. Su guía se la enseña en el lugar. Nuestra [visita Memoria: Montluc y Neveh Shalom](https://mishpachatours.com/es/tours/memory-montluc-neveh-shalom/) reúne el memorial y la sinagoga en un solo recorrido, de unas 2 h 30. Nunca la combinamos con el [CHRD](https://mishpachatours.com/es/chrd-lyon/) el mismo día.
+No mostramos ninguna foto de Neveh Chalom en este sitio. Su guía se la enseña en el lugar. Nuestra [visita Memoria: Montluc y Neveh Shalom](https://mishpachatours.com/es/tours/memory-montluc-neveh-shalom/) reúne el memorial y la sinagoga en un solo recorrido, de unas 2 h. Nunca la combinamos con el [CHRD](https://mishpachatours.com/es/chrd-lyon/) el mismo día.
 
 ## Preguntas *frecuentes*
 

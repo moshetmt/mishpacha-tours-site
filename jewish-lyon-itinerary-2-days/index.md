@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/jewish-lyon-itinerary-2-days/ (HTML version).
 
 # Jewish Lyon in two days *around Shabbat and kosher meals*
 
-Two days cover Jewish Lyon: day one is a 2 h 30 walk through rue Juiverie, inside the Grande Synagogue and along rue Sainte-Catherine; day two is one Memory visit, the CHRD or Montluc, never both. Kosher meals are in Villeurbanne and the 6th arrondissement. Two full days are enough to see the Jewish Lyon that matters: the medieval quarter and the Grande Synagogue, then the places of memory of the war years. Here is how we would lay them out, with where to eat and when to stop for Shabbat.
+Two days cover Jewish Lyon: day one is a 2-hour walk through rue Juiverie, inside the Grande Synagogue and along rue Sainte-Catherine; day two is one Memory visit, the CHRD or Montluc, never both. Kosher meals are in Villeurbanne and the 6th arrondissement. Two full days are enough to see the Jewish Lyon that matters: the medieval quarter and the Grande Synagogue, then the places of memory of the war years. Here is how we would lay them out, with where to eat and when to stop for Shabbat.
 
 - 2 days, 1 guide
 - Kosher meals planned
@@ -23,7 +23,7 @@ Two days cover Jewish Lyon: day one is a 2 h 30 walk through rue Juiverie, insid
 
 ## Day 1 *Jewish Lyon, from the Middle Ages to today*
 
-**Morning, 2h30 on foot.** Vieux Lyon and rue Juiverie, the street of the medieval Jewish quarter, then across the river to the Grande Synagogue on quai Tilsitt, built in 1864, where we go inside. We finish on rue Sainte-Catherine, where the UGIF office was raided in February 1943. This is our [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/).
+**Morning, 2 hours on foot.** Vieux Lyon and rue Juiverie, the street of the medieval Jewish quarter, then across the river to the Grande Synagogue on quai Tilsitt, built in 1864, where we go inside. We finish on rue Sainte-Catherine, where the UGIF office was raided in February 1943. This is our [Jewish Lyon tour](https://mishpachatours.com/tours/jewish-lyon/).
 
 **Lunch.** The nearest certified kosher places are in the 2nd and the 6th; we tell you which ones are open that day. Full list on [Kosher in Lyon](https://mishpachatours.com/kosher-restaurants-lyon/).
 
@@ -35,8 +35,8 @@ Two days cover Jewish Lyon: day one is a 2 h 30 walk through rue Juiverie, insid
 
 Choose one of the two Memory visits. We never do both on the same day: each needs its time, and the second one would be lost.
 
-- **Option A, the CHRD.** The Centre d'histoire de la résistance et de la déportation, in the former Gestapo headquarters of Klaus Barbie, with the Jewish story of the occupation at the centre: the raids, the deportations, Izieu. 2h30. [Memory: CHRD](https://mishpachatours.com/tours/memory-chrd/).
-- **Option B, Montluc and Neveh Shalom.** The prison where Jean Moulin and the children of Izieu were held, then the synagogue Neveh Shalom and the Jewish cultural institute next door: the dead and the living in one walk. 2h30. [Memory: Montluc](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/).
+- **Option A, the CHRD.** The Centre d'histoire de la résistance et de la déportation, in the former Gestapo headquarters of Klaus Barbie, with the Jewish story of the occupation at the centre: the raids, the deportations, Izieu. 2 hours. [Memory: CHRD](https://mishpachatours.com/tours/memory-chrd/).
+- **Option B, Montluc and Neveh Shalom.** The prison where Jean Moulin and the children of Izieu were held, then the synagogue Neveh Shalom and the Jewish cultural institute next door: the dead and the living in one walk. 2 hours. [Memory: Montluc](https://mishpachatours.com/tours/memory-montluc-neveh-shalom/).
 
 **Afternoon.** Lunch in the 6th, then the [Jewish cemetery of La Mouche](https://mishpachatours.com/jewish-cemetery-lyon/) if you have family to look for, or a quiet end of day at the Parc de la Tête d'Or.
 
@@ -78,7 +78,7 @@ Same-day reply, never on Shabbat.
 
 - [Shabbat in Lyon](https://mishpachatours.com/shabbat-in-lyon/)
 - [The complete Jewish Lyon guide](https://mishpachatours.com/jewish-lyon-guide/)
-- [Jewish Lyon tour, 2h30](https://mishpachatours.com/tours/jewish-lyon/)
+- [Jewish Lyon tour, 2 hours](https://mishpachatours.com/tours/jewish-lyon/)
 
 ## Ready to *book* your tour?
 

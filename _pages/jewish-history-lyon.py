@@ -62,7 +62,7 @@ PAGE = dict(
       "<li><a href='../maison-izieu/'>The Maison d'Izieu</a>: the day trip, one hour from Lyon. See the <a href='../tours/izieu/'>Izieu day</a>.</li>"
       "<li><a href='../kosher-restaurants-lyon/'>Kosher in Lyon</a> and the <a href='../jewish-cemetery-lyon/'>Jewish cemetery</a>: the living community.</li>"
       "</ul>"
-      "<p>If you have only a few hours, take the <a href='../tours/jewish-lyon/'>Jewish Lyon tour</a>. It runs 2 hours 30 minutes, on foot, with a Jewish guide, strictly kosher and never on Shabbat.</p>")),
+      "<p>If you have only a few hours, take the <a href='../tours/jewish-lyon/'>Jewish Lyon tour</a>. It runs 2 hours, on foot, with a Jewish guide, strictly kosher and never on Shabbat.</p>")),
     dict(type="faq", h2="Questions we get", items=[
       ("When did Jews first live in Lyon?", "By the ninth century. Bishop Agobard tried to force conversions around 820, and the community was expelled in 1250. A new community lived on rue Juiverie in the 14th century."),
       ("When were Jews expelled from Lyon in the Middle Ages?", "Sources differ. The city of Lyon dates the expulsion to 1394, when Charles VI expelled the Jews from the kingdom of France. The Encyclopaedia Judaica says Lyon was outside the kingdom at that date and gives about 1420."),
@@ -72,7 +72,7 @@ PAGE = dict(
       ("How large is the Jewish community of Lyon today?", "No official figure exists and we do not quote one. Jewish life is spread across the Consistoire, the Sephardi community, Villeurbanne and four Chabad houses.")]),
     dict(type="cta", txt="Want to walk this history <i>with us</i>?", msg="Hello, I would like to ask about a Jewish history tour of Lyon. Dates: / Number of people: / Preferred language:"),
   ],
-  related=[("../tours/jewish-lyon/", "Jewish Lyon tour, 2 hours 30 minutes"), ("../grande-synagogue-lyon/", "The Grande Synagogue of Lyon"), ("../rue-juiverie-lyon/", "Rue Juiverie and medieval Jewish Lyon"), ("../synagogues-lyon/", "Synagogues and Shabbat in Lyon"), ("../tours/memory-chrd/", "Memory tour: the CHRD")],
+  related=[("../tours/jewish-lyon/", "Jewish Lyon tour, 2 hours"), ("../grande-synagogue-lyon/", "The Grande Synagogue of Lyon"), ("../rue-juiverie-lyon/", "Rue Juiverie and medieval Jewish Lyon"), ("../synagogues-lyon/", "Synagogues and Shabbat in Lyon"), ("../tours/memory-chrd/", "Memory tour: the CHRD")],
   source="Sources: fr.wikipedia.org (Histoire des Juifs à Lyon); Encyclopaedia Judaica (Lyons), via jewishvirtuallibrary.org; lyon.fr; Mémorial de la Shoah; memorial-montluc.fr; en.wikipedia.org (Klaus Barbie); jewishvirtuallibrary.org (The Children of Izieu).",
   jsonld=None,
   ticket=True,

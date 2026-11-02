@@ -26,7 +26,7 @@ PAGE = dict(
     ]),
     dict(type="cta", txt="Want a secured tour with an escort?", msg="Hello, I would like a quote for a tour with a security escort. Dates: / Number of people: / Preferred language:"),
   ],
-  related=[("../jewish-travel-lyon-faq/", "Jewish travel to Lyon: the honest FAQ"), ("../grande-synagogue-lyon/", "The Grande Synagogue of Lyon"), ("../tours/jewish-lyon/", "Jewish Lyon tour, 2h30"), ("../synagogues-lyon/", "Synagogues in Lyon")],
+  related=[("../jewish-travel-lyon-faq/", "Jewish travel to Lyon: the honest FAQ"), ("../grande-synagogue-lyon/", "The Grande Synagogue of Lyon"), ("../tours/jewish-lyon/", "Jewish Lyon tour, 2 hours"), ("../synagogues-lyon/", "Synagogues in Lyon")],
   source="Sources: Lyon Capitale (November 2023), statements of the Préfecture du Rhône reported in the press (November 2023), national press on the Interior Ministry instruction (late August 2026), our booking terms.",
   jsonld=None, ticket=True,
   VERIF=[

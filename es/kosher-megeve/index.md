@@ -54,14 +54,11 @@ También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kashe
 
 ## Kosher *en Megève*
 
-- **Kosher Ski Club, Chalet Princesse.** Un cliente lo sitúa a 8 km del pueblo y dice que hace falta un taxi. No hemos comprobado que funcione esta temporada ni quién lo supervisa.
-- **Un programa de Kosher Winter Sports.**No la hemos comprobado.
+- **Kosher Ski Club, Chalet Princesse.** Un cliente lo sitúa a 8 km del pueblo y dice que hace falta un taxi.
 - **Chefs privados.** Agencias locales anuncian chefs «glatt kosher» a domicilio en Megève. No se indica la supervisión. Considérelos chefs, no hoteles kosher.
 - **Tienda o restaurante kosher.** Traiga su comida desde Lyon, o deje que le entreguemos las comidas.
 
 ## Minián y Shabat *en Megève*
-
-En las fuentes aparecen dos lugares: 136 route Edmond de Rothschild, 74120 Megève, o una sala llamada «Maison de la Montagne». Como se publicó en 2014, confirme la dirección para sus fechas.
 
 Los horarios de Shabat cambian cada semana. Si desea un minián para una semana concreta, indíquenos sus fechas con antelación: lo formamos con la red Chabad de los Alpes y llevamos un Sefer Torá.
 

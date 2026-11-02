@@ -47,10 +47,9 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 ## Estaciones de altura en verano
 
-- **Courchevel y Megève.** Nada indica que funcionen en verano. Escriba al rabino Daniel Belaïch (habadalpes@yahoo.fr) antes de contar con uno.
+- **Courchevel y Megève.** Nada indica que sus servicios de Chabad de invierno funcionen en verano: pregúntenos antes de contar con uno.
 - **Chamonix.** Sus viajes están pensados para adultos de más de 50 años, por lo que no convienen a una familia con niños. Las fechas figuran en su sitio web.
 - **Evian y el lago Lemán.** Ginebra tiene su propia comunidad, al otro lado de la frontera.
-- **Hoteles o centros kosher de verano en los Alpes.** No nombramos ninguno.
 
 ## Senderismo y Shabat *en la montaña*
 
@@ -105,7 +104,7 @@ Cada estación tiene sus propios horarios: se calculan para sus coordenadas, una
 
    ### Haga una visita por Lyon
 
-   La [visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/) dura 2 h 30, con el interior de la Gran Sinagoga. La [Escala](https://mishpachatours.com/es/tours/stopover/) dura 3 horas, para las familias que conducen el mismo día.
+   La [visita Lyon judío](https://mishpachatours.com/es/tours/jewish-lyon/) dura 2 h, con el interior de la Gran Sinagoga. La [Escala](https://mishpachatours.com/es/tours/stopover/) dura 3 horas, para las familias que conducen el mismo día.
 3. **3**
 
    ### Añada Izieu
@@ -147,7 +146,7 @@ La Beth Habad de Annemasse, a 40 minutos, es la más cercana. El centro comunita
 
 ¿Funcionan en verano los servicios de Chabad de Courchevel y Megève?
 
-Escriba al rabino Belaïch antes de planificar en torno a uno.
+Nada lo indica. Pregúntenos antes de planificar en torno a uno.
 
 ¿Podemos guardar el Shabat durante una caminata?
 
@@ -155,7 +154,7 @@ Planifique el alojamiento cerca de un minyan, cocine antes del Shabat y termine 
 
 ¿Se puede combinar Lyon con los Alpes?
 
-Sí. Aterrice en Lyon, haga una visita de 2 h 30 por la ciudad o la Escala de 3 horas, y añada Izieu. Grenoble y Aix-les-Bains están a unas 1 h 15 de Lyon en tren, y Chambéry a 1 h 20.
+Sí. Aterrice en Lyon, haga una visita de 2 h por la ciudad o la Escala de 3 horas, y añada Izieu. Grenoble y Aix-les-Bains están a unas 1 h 15 de Lyon en tren, y Chambéry a 1 h 20.
 
 ## Su semana kosher en los Alpes, *organizada*.
 

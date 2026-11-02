@@ -88,7 +88,7 @@ También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kashe
 
 ## Kosher *en Courchevel*
 
-- **Chabad en invierno.** El rabino Daniel Belaïch dirige los oficios en el Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, durante la temporada de invierno. Escribe que ayuda con las necesidades kosher, el vino y las jalot para Shabat.
+- **Chabad en invierno.** Hay oficios en el Hôtel Le Mont Charvin, 389 rue des Tovets, 73120 Courchevel, durante la temporada de invierno.
 - **Programas kosher de temporada.** Un hotel adaptado al kosher es un hotel corriente que se prepara como kosher durante una o dos semanas. Los nombres de los hoteles y las fechas cambian cada temporada.
 - **Chefs privados.** Varias agencias anuncian chefs privados glatt kosher en Courchevel. Sus páginas no indican la supervisión.
 

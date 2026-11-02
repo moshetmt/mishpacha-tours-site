@@ -60,8 +60,8 @@ Source: https://mishpachatours.com/he/jewish-life-around-lyon/ (HTML version). E
 
 סיור עצירת הביניים שלנו בנוי למשפחות בדרך למדרונות: שלוש שעות בליון היהודית בין שדה התעופה לאתר הסקי. ההדרכה באנגלית, בצרפתית או בספרדית, לא בעברית.
 
-- **קורשבל 1850 (Courchevel 1850)** בית כנסת במלון Le Mont Charvin389 rue des Tovets, 73120 Courchevel[מפה](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)*עונת החורף בלבד. הרב דניאל בלעיש (Daniel Belaïch). עזרה בצרכי כשרות, יין וחלות לשבת.*
-- **מג'ב (Megève)** חב״ד של האלפים, מניין חורף136 route Edmond de Rothschild, 74120 Megève[מפה](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)*עונת החורף. פנו אל habadalpes@yahoo.fr לפני שאתם מגיעים: המקום השתנה עם השנים.*
+- **קורשבל 1850 (Courchevel 1850)** בית כנסת במלון Le Mont Charvin389 rue des Tovets, 73120 Courchevel[מפה](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)*עונת החורף בלבד.*
+- **מג'ב (Megève)** חב״ד של האלפים, מניין חורף136 route Edmond de Rothschild, 74120 Megève[מפה](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)*עונת החורף. המקום השתנה עם השנים: שאלו אותנו לפני שאתם מגיעים.*
 - **ואל טורנס, לה מנוויר, לה זארק** *גורמים פרטיים מארגנים בקתות כשרות ומניין כשהמספר מאפשר.*
 
 ## בדרך לאלפים דרך ליון?

@@ -204,7 +204,7 @@ def page(L):
             dict(type="cta", txt=_("Want a Lyon visit and Shabbat planned around the weather?", "Envie d’une visite à Lyon et d’un Shabbat organisés selon le temps ?", "¿Quiere una visita a Lyon y un Shabat organizados según el tiempo?", "רוצים סיור בליון ושבת מתוכננים לפי מזג האוויר?"), msg=WA_MSG[L]),
         ],
         related=[("../things-to-do-in-lyon/", _("Things to do in Lyon", "Que faire à Lyon", "Qué hacer en Lyon", "מה לעשות בליון")),
-                 ("../tours/jewish-lyon/", _("Jewish Lyon tour, 2 h 30", "Visite du quartier juif de Lyon, 2 h 30", "Visita del Lyon judío, 2 h 30", "סיור ליון היהודית, שעתיים וחצי")),
+                 ("../tours/jewish-lyon/", _("Jewish Lyon tour, 2 h", "Visite du quartier juif de Lyon, 2 h", "Visita del Lyon judío, 2 h", "סיור ליון היהודית, שעתיים")),
                  ("../shabbat-in-lyon/", _("Shabbat in Lyon", "Shabbat à Lyon", "Shabat en Lyon", "שבת בליון")),
                  ("../where-to-stay-lyon-jewish-travellers/", _("Where to stay in Lyon", "Où loger à Lyon", "Dónde alojarse en Lyon", "איפה לישון בליון")),
                  ("../kosher-van-transfers/", _("Van and transfers", "Van et transferts", "Furgoneta y traslados", "ואן והסעות")),

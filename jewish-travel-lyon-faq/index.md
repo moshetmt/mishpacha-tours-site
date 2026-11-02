@@ -109,7 +109,7 @@ Same-day reply, never on Shabbat.
 - [Where to stay in Lyon](https://mishpachatours.com/where-to-stay-lyon-jewish-travellers/)
 - [Kosher catering and Shabbat meals](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/)
 - [Mikveh in Lyon](https://mishpachatours.com/mikveh-lyon/)
-- [Jewish Lyon tour, 2h30](https://mishpachatours.com/tours/jewish-lyon/)
+- [Jewish Lyon tour, 2 hours](https://mishpachatours.com/tours/jewish-lyon/)
 
 ## Ready to *book* your tour?
 

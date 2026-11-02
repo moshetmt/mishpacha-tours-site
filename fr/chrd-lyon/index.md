@@ -53,7 +53,7 @@ L’histoire juive traverse toute la visite. Voici les fils que suit votre guide
 
    ### Prévoyez votre temps
 
-   Notre visite dure 2 h 30. Nous calons le rythme avec votre groupe, et en particulier avec les enfants.
+   Notre visite dure 2 h. Nous calons le rythme avec votre groupe, et en particulier avec les enfants.
 4. **4**
 
    ### Gardez-la pour un jour à part
@@ -70,7 +70,7 @@ Non. Nous les réservons comme deux visites distinctes, sur deux jours différen
 
 Combien de temps dure une visite ?
 
-Notre visite privée dure 2 h 30.
+Notre visite privée dure 2 h.
 
 Le CHRD convient-il aux enfants ?
 

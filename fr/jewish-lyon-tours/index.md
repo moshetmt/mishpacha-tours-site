@@ -53,7 +53,7 @@ Votre groupe seul, en anglais, en français ou en espagnol. Prix pour l’ensemb
 
 Visite de ville
 
-Vieux Lyon2 h 30
+Vieux Lyon2 h
 
 ### [Visite juive à Lyon](https://mishpachatours.com/fr/tours/jewish-lyon/)
 

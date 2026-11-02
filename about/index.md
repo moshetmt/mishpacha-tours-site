@@ -80,7 +80,7 @@ Same-day reply, never on Shabbat.
 
 ## Keep *reading*
 
-- [Jewish Lyon, the 2h30 walk](https://mishpachatours.com/tours/jewish-lyon/)
+- [Jewish Lyon, the 2-hour walk](https://mishpachatours.com/tours/jewish-lyon/)
 - [The complete Jewish Lyon guide](https://mishpachatours.com/jewish-lyon-guide/)
 - [Contact us](https://mishpachatours.com/contact/)
 

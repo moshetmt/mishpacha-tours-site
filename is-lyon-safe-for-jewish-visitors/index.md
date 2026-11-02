@@ -66,7 +66,7 @@ Same-day reply, never on Shabbat.
 
 - [Jewish travel to Lyon: the FAQ](https://mishpachatours.com/jewish-travel-lyon-faq/)
 - [The Grande Synagogue of Lyon](https://mishpachatours.com/grande-synagogue-lyon/)
-- [Jewish Lyon tour, 2h30](https://mishpachatours.com/tours/jewish-lyon/)
+- [Jewish Lyon tour, 2 hours](https://mishpachatours.com/tours/jewish-lyon/)
 - [Synagogues in Lyon](https://mishpachatours.com/synagogues-lyon/)
 
 ## Ready to *book* your tour?

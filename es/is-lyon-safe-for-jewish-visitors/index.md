@@ -27,10 +27,6 @@ Cada visita de Mishpacha Tours se organiza como una visita protegida: un grupo p
 
 Las autoridades francesas mantienen fuerzas de seguridad visibles alrededor de las sinagogas y de las escuelas judías. En la Gran Sinagoga y en Neveh Shalom, la entrada depende del horario de apertura y de la autorización de seguridad del día: lleve un documento de identidad con foto y cuente con un control de bolsos en la puerta. Si se deniega la entrada ese día, la visita continúa en el exterior y el precio no cambia.
 
-## Los hechos, *con fuentes*
-
-Lo que prometemos es el estándar descrito arriba, en cada visita.
-
 ## Sentido común *en el camino*
 
 - Mantenga sus planes dentro de su grupo. No publique su itinerario, su hotel ni su sinagoga en tiempo real.
@@ -71,7 +67,7 @@ Respuesta el mismo día, nunca en Shabat.
 
 - [Viaje judío a Lyon: las preguntas frecuentes, sin rodeos](https://mishpachatours.com/es/jewish-travel-lyon-faq/)
 - [La Gran Sinagoga de Lyon](https://mishpachatours.com/es/grande-synagogue-lyon/)
-- [Visita Lyon judío, 2 h 30](https://mishpachatours.com/es/tours/jewish-lyon/)
+- [Visita Lyon judío, 2 h](https://mishpachatours.com/es/tours/jewish-lyon/)
 - [Sinagogas en Lyon](https://mishpachatours.com/es/synagogues-lyon/)
 
 ## ¿Desea *reservar* su visita?

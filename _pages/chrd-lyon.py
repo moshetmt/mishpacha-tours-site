@@ -27,12 +27,12 @@ PAGE = dict(
     dict(type="steps", h2="How to <i>visit</i>", items=[
       ("Pick a day the museum is open", "The museum is closed on Monday and Tuesday. We do not guide on Shabbat or on Jewish holidays, so our visits run from Wednesday to Friday morning, or on Sunday."),
       ("Book a private guide", "The museum sells guided tours, and group visits need a reservation. Our private visit follows the Jewish history of Lyon through the exhibition and answers your questions on the spot. See the <a href='../tours/memory-chrd/'>Memory: CHRD tour</a>."),
-      ("Allow your time", "The museum publishes no recommended duration. Our visit takes about 2 hours 30. We plan the pace with your group, and with children in particular."),
+      ("Allow your time", "The museum publishes no recommended duration. Our visit takes about 2 hours. We plan the pace with your group, and with children in particular."),
       ("Keep it on its own day", "We never combine the CHRD and the <a href='../montluc-prison-lyon/'>Montluc memorial</a> on the same day. Each carries enough history for a full visit."),
     ]),
     dict(type="faq", h2="Questions <i>we get</i>", items=[
       ("Can we do the CHRD and Montluc on the same day?", "No. We book them as two separate visits on two different days. Each one carries enough history and weight on its own."),
-      ("How long does a visit take?", "The museum publishes no duration. Our private visit takes about 2 hours 30."),
+      ("How long does a visit take?", "The museum publishes no duration. Our private visit takes about 2 hours."),
       ("Is the CHRD suitable for children?", "The museum publishes no recommended age on the pages we read, and admission is free under 18. Tell us the ages in your group and we adapt the route and the words."),
       ("Can I visit in English?", "Our private visit runs in English, French or Spanish. The languages of the museum's own guided tours are not published: ask the museum."),
       ("How do I get there?", "Take tram T2 to Centre Berthelot. Metro A to Perrache and metro B to Jean Macé also serve the area. The museum lists a car park, LPA Berthelot, and a Vélo'v station at Centre Berthelot."),
@@ -53,7 +53,7 @@ PAGE = dict(
     "Gestapo headquarters under Barbie in the former École du service de santé militaire: chrd.lyon.fr homepage ('ancien siège de la Gestapo') and lyon.fr. 'Since the 1990s': secondary sources (inauguration 1992), exact date not stated.",
     "Exhibition content (antisemitic policies, Resistance, repression, resistance fighter's apartment with printing press, objects and testimonies of former resistance fighters and deportees, Barbie trial testimonies including the head of the Izieu home): secondary summaries (lyon.fr, CHRD press material found by search). Not read on the current permanent-exhibition page (404). To confirm with the museum, and confirm that the current layout still has these elements.",
     "Rue Sainte-Catherine: 9 February 1943, 86 arrested, UGIF office at 12 rue Sainte-Catherine, Barbie: Mémorial de la Shoah and en.wikipedia (secondary). The sentence saying our guide links it to the museum is our tour design, not a museum claim.",
-    "Recommended duration, age recommendation and languages of the museum's guided tours: not published. Our 2h30: the Memory tour page.",
+    "Recommended duration, age recommendation and languages of the museum's guided tours: not published. Our 2 hours: the Memory tour page.",
     "'Closed on Monday and Tuesday' is deduced from 'Wednesday to Sunday'. Our visit days (Wednesday to Friday morning, Sunday) follow the operator rule 'no tour on Shabbat or holidays'. Operator to confirm.",
     "Photos: stock/chrd-7.jpg is the satchel of liaison agent Andrée Merle (Commons title), not a deportee's. The Memory tour page /tours/memory-montluc-neveh-shalom/ captions it 'A deportee's satchel, CHRD': wrong, to correct. CHRD photos credits in CREDITS.md (CC0 and CC BY-SA 4.0, Pierre Verrier for chrd-1, 3 and 4 of stock).",
   ],

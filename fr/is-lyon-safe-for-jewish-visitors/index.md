@@ -26,10 +26,6 @@ Chaque visite Mishpacha Tours est conduite comme une visite sécurisée : un gr
 
 Les autorités françaises maintiennent des forces de sécurité visibles autour des synagogues et des écoles juives. À la Grande Synagogue et à Neveh Shalom, l’entrée dépend des horaires d’ouverture et de l’autorisation de sécurité du jour : munissez-vous d’une pièce d’identité avec photo et attendez-vous à un contrôle des sacs à la porte. Si l’entrée est refusée ce jour-là, la visite se poursuit à l’extérieur et le prix ne change pas.
 
-## Les faits
-
-Ce que nous promettons, c’est le standard ci-dessus, à chaque visite.
-
 ## Bon sens *sur la route*
 
 - Gardez vos projets au sein de votre groupe. Ne publiez pas en temps réel votre parcours, votre hôtel ou votre synagogue.
@@ -70,7 +66,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 - [Voyager à Lyon : la FAQ sans détour](https://mishpachatours.com/fr/jewish-travel-lyon-faq/)
 - [La Grande Synagogue de Lyon](https://mishpachatours.com/fr/grande-synagogue-lyon/)
-- [Visite du quartier juif, 2 h 30](https://mishpachatours.com/fr/tours/jewish-lyon/)
+- [Visite du quartier juif, 2 h](https://mishpachatours.com/fr/tours/jewish-lyon/)
 - [Synagogues à Lyon](https://mishpachatours.com/fr/synagogues-lyon/)
 
 ## Prêts à *réserver* votre visite ?

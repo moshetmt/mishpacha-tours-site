@@ -35,9 +35,8 @@ Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous le r
 
 La surveillance casher est rarement annoncée dans une station suisse : renseignez-vous avant de réserver.
 
-- **Hôtel, restaurant ou commerce casher à Zermatt.** Nous n’en avons trouvé aucun. Prévoyez d’apporter votre nourriture ou de vous la faire livrer. Une recherche qui ne donne rien ne prouve pas que rien n’existe, et nous continuons de vérifier.
-- **Beth 'Habad ou synagogue au village.** Nous n’en avons trouvé aucun à Zermatt. Les centres 'Habad que nous connaissons en Suisse se trouvent dans les grandes villes, dont Genève et Zurich, loin du Cervin.
-- **Hôtes juifs à Zermatt.** C’est pourquoi un minyan s’y constitue semaine après semaine.
+- **Hôtel, restaurant ou commerce casher à Zermatt.** Prévoyez d’apporter votre nourriture ou de vous la faire livrer. Une recherche qui ne donne rien ne prouve pas que rien n’existe, et nous continuons de vérifier.
+- **Beth 'Habad ou synagogue au village.** Les centres 'Habad que nous connaissons en Suisse se trouvent dans les grandes villes, dont Genève et Zurich, loin du Cervin.
 - **Saison.** Les remontées du Matterhorn Ski Paradise ont fonctionné du 1er novembre à début mai pendant l’hiver 2025-2026. La société des remontées fixe les dates de l’hiver 2026-2027 : vérifiez-les avant de prendre un forfait.
 
 ## Un village *sans voitures*

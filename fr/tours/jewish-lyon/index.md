@@ -8,13 +8,13 @@ Visite de ville
 
 # Visite juive à Lyon *Un parcours privé, jusque dans la Grande Synagogue*
 
-Visite juive à Lyon est une visite privée à pied de 2 h 30 dans le Vieux Lyon et la Grande Synagogue, guidée en anglais, en français ou en espagnol, 290 € par groupe de 1 à 4 personnes (+35 € par personne supplémentaire jusqu’à 10), annulation gratuite jusqu’à 24 heures avant. Les visiteurs hébréophones sont guidés en anglais. Rue Juiverie et le Vieux Lyon médiéval, l’intérieur de la Grande Synagogue du quai Tilsitt, puis la rue Sainte-Catherine : deux heures et demie à pied avec une guide qui appartient à la communauté qu’elle vous fait découvrir. La Grande Synagogue est fermée au public en dehors des Journées du patrimoine. L’entrée exige une autorisation spéciale, que Mishpacha Tours détient. Cette visite guidée juive de Lyon est la seule qui vous y fait entrer, sous réserve des horaires et de la sécurité du jour.
+Visite juive à Lyon est une visite privée à pied de 2 h dans le Vieux Lyon et la Grande Synagogue, guidée en anglais, en français ou en espagnol, 290 € par groupe de 1 à 4 personnes (+35 € par personne supplémentaire jusqu’à 10), annulation gratuite jusqu’à 24 heures avant. Les visiteurs hébréophones sont guidés en anglais. Rue Juiverie et le Vieux Lyon médiéval, l’intérieur de la Grande Synagogue du quai Tilsitt, puis la rue Sainte-Catherine : deux heures à pied avec une guide qui appartient à la communauté qu’elle vous fait découvrir. La Grande Synagogue est fermée au public en dehors des Journées du patrimoine. L’entrée exige une autorisation spéciale, que Mishpacha Tours détient. Cette visite guidée juive de Lyon est la seule qui vous y fait entrer, sous réserve des horaires et de la sécurité du jour.
 
 Lieu
 :   Vieux Lyon et quai Tilsitt
 
 Durée
-:   2 h 30
+:   2 h
 
 Format
 :   À pied, groupe privé
@@ -50,7 +50,7 @@ Réponse dans la journée, jamais le Shabbat. Annulation gratuite jusqu’à 24 
 
 ### Compris
 
-- Une guide privée pendant 2 h 30, en anglais, en français ou en espagnol.
+- Une guide privée pendant 2 h, en anglais, en français ou en espagnol.
 - L’entrée de la Grande Synagogue du quai Tilsitt, sous réserve des horaires d’ouverture et de l’autorisation de sécurité du jour.
 - Le parcours à pied dans le Vieux Lyon et rue Sainte-Catherine.
 

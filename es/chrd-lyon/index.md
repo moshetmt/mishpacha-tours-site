@@ -54,7 +54,7 @@ La historia judía recorre toda la visita. Estos son los hilos que sigue su guí
 
    ### Calcule su tiempo
 
-   Nuestra visita dura unas 2 h 30. Planificamos el ritmo con su grupo, y en particular si viajan niños.
+   Nuestra visita dura unas 2 h. Planificamos el ritmo con su grupo, y en particular si viajan niños.
 4. **4**
 
    ### Resérvelo para un día propio
@@ -71,7 +71,7 @@ No. Los reservamos como dos visitas separadas en dos días distintos. Cada una t
 
 ¿Cuánto dura una visita?
 
-Nuestra visita privada dura unas 2 h 30.
+Nuestra visita privada dura unas 2 h.
 
 ¿Es el CHRD adecuado para niños?
 

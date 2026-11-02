@@ -111,7 +111,7 @@ Respuesta el mismo día, nunca en Shabat.
 - [Dónde alojarse en Lyon](https://mishpachatours.com/es/where-to-stay-lyon-jewish-travellers/)
 - [Catering kosher y comidas de Shabat](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/)
 - [Mikve en Lyon](https://mishpachatours.com/es/mikveh-lyon/)
-- [Visita Lyon judío, 2 h 30](https://mishpachatours.com/es/tours/jewish-lyon/)
+- [Visita Lyon judío, 2 h](https://mishpachatours.com/es/tours/jewish-lyon/)
 
 ## ¿Desea *reservar* su visita?
 

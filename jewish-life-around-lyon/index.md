@@ -60,8 +60,8 @@ Tap a marker for the address and directions.
 
 Our Stopover tour is built for families on their way to the slopes: three hours in Jewish Lyon between the airport and the resort.
 
-- **Courchevel 1850** Synagogue at Hôtel Le Mont Charvin389 rue des Tovets, 73120 Courchevel[Map](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)*Winter season only. Rabbi Daniel Belaïch. Help with kosher needs, wine and challot for Shabbat.*
-- **Megève** Chabad of the Alps, winter minyan136 route Edmond de Rothschild, 74120 Megève[Map](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)*Winter season. Contact habadalpes@yahoo.fr before you come: the venue has changed over the years.*
+- **Courchevel 1850** Synagogue at Hôtel Le Mont Charvin389 rue des Tovets, 73120 Courchevel[Map](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)*Winter season only.*
+- **Megève** Chabad of the Alps, winter minyan136 route Edmond de Rothschild, 74120 Megève[Map](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)*Winter season. The venue has changed over the years: ask us before you come.*
 - **Val Thorens, Les Menuires, Les Arcs** *Private operators organise kosher chalets and a minyan when numbers allow.*
 
 ## Heading to the Alps through Lyon?

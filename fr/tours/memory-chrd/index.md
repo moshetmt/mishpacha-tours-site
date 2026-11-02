@@ -8,13 +8,13 @@ Mémoire
 
 # Mémoire : le CHRD *Visite privée du musée de la Résistance*
 
-Mémoire : le CHRD est une visite privée de 2 h 30 du musée lyonnais de la Résistance et de la Déportation, guidée en anglais, en français ou en espagnol, 290 € par groupe de 1 à 4 personnes (+35 € par personne supplémentaire jusqu’à 10), annulation gratuite jusqu’à 24 heures avant. Votre guide vous conduit dans le Centre d’histoire de la résistance et de la déportation de Lyon, installé dans l’ancien siège de la Gestapo, avec la dimension juive de cette histoire au centre de la visite. Cette réservation n’est jamais combinée avec la visite de Montluc et Neveh Shalom le même jour.
+Mémoire : le CHRD est une visite privée de 2 h du musée lyonnais de la Résistance et de la Déportation, guidée en anglais, en français ou en espagnol, 290 € par groupe de 1 à 4 personnes (+35 € par personne supplémentaire jusqu’à 10), annulation gratuite jusqu’à 24 heures avant. Votre guide vous conduit dans le Centre d’histoire de la résistance et de la déportation de Lyon, installé dans l’ancien siège de la Gestapo, avec la dimension juive de cette histoire au centre de la visite. Cette réservation n’est jamais combinée avec la visite de Montluc et Neveh Shalom le même jour.
 
 Lieu
 :   Lyon 7e
 
 Durée
-:   2 h 30
+:   2 h
 
 Format
 :   Visite de musée, groupe privé
@@ -50,7 +50,7 @@ Réponse dans la journée, jamais le Shabbat. Annulation gratuite jusqu’à 24 
 
 ### Compris
 
-- Une guide privée, 2 h 30, en anglais, en français ou en espagnol.
+- Une guide privée, 2 h, en anglais, en français ou en espagnol.
 - La visite guidée de l’exposition du CHRD, avec la dimension juive de cette histoire expliquée tout au long.
 
 ### Non compris
@@ -86,7 +86,7 @@ Izieu
 
 Combien de temps dure cette visite ?
 
-2 h 30. La durée exacte est confirmée une fois fixés la taille de votre groupe et les horaires du CHRD ce jour-là.
+2 h. La durée exacte est confirmée une fois fixés la taille de votre groupe et les horaires du CHRD ce jour-là.
 
 Le billet d’entrée du musée est-il compris ?
 

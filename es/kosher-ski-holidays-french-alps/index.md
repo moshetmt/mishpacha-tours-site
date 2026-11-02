@@ -18,7 +18,7 @@ Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
 **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 
-En invierno, el rabino Daniel Belaïch dirige los servicios de Chabad en Courchevel 1850 y en Megève. Para Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse y Val Thorens, organizamos un minyan y un Sefer Torá con la red Chabad de los Alpes: díganos sus fechas. Operadores privados anuncian chalés y hoteles kosher en una docena de estaciones. Lyon es el lugar donde aterrizar, hacer la compra y detenerse unas horas camino de la montaña. En la estación, nuestro equipo kosher organiza chef, comidas entregadas, Shabat y minián: [una solicitud, un presupuesto](https://mishpachatours.com/es/kosher-services-french-alps/).
+En invierno hay servicios de Chabad en Courchevel 1850 y en Megève. Para Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse y Val Thorens, organizamos un minyan y un Sefer Torá con la red Chabad de los Alpes: díganos sus fechas. Operadores privados anuncian chalés y hoteles kosher en una docena de estaciones. Lyon es el lugar donde aterrizar, hacer la compra y detenerse unas horas camino de la montaña. En la estación, nuestro equipo kosher organiza chef, comidas entregadas, Shabat y minián: [una solicitud, un presupuesto](https://mishpachatours.com/es/kosher-services-french-alps/).
 
 ## Nuestros chalets kosher *en los Alpes*
 
@@ -160,7 +160,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 
 ## Dónde encontrar un minyan *en invierno*
 
-Dos estaciones tienen un servicio de Chabad. Ambos los dirige el rabino Daniel Belaïch (habadalpes@yahoo.fr).
+Dos estaciones tienen un servicio de Chabad.
 
 - **Courchevel 1850.** Servicios durante la temporada de invierno, en el 389 rue des Tovets. El rabino escribe que ayuda con las necesidades kosher, vino y jalot para Shabat, y con un Kadish.
 - **Megève.** Servicios en la sala «Maison de la Montagne». Escriba antes de ir: el lugar ha cambiado con los años.
@@ -171,8 +171,8 @@ La red Chabad de los Alpes la encabeza el Beth Habad de Grenoble. Las comidas ko
 
 ## Contactos *de Chabad* 3
 
-- **Sinagoga en el Hôtel Le Mont Charvin, rabino Daniel Belaïch** Temporada de invierno. Vino y jalot para Shabat, bajo petición389 rue des Tovets, 73120 Courchevel[Mapa](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
-- **Chabad de los Alpes en Megève, rabino Daniel Belaïch** Invierno. habadalpes@yahoo.fr. Local: confirme antes de ir136 route Edmond de Rothschild, 74120 Megève[Mapa](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
+- **Sinagoga en el Hôtel Le Mont Charvin** Temporada de invierno. Vino y jalot para Shabat, bajo petición389 rue des Tovets, 73120 Courchevel[Mapa](https://www.google.com/maps/search/?api=1&query=389%20rue%20des%20Tovets%2C%2073120%20Courchevel%2C%20France)
+- **Chabad de los Alpes en Megève** Invierno. Local: confírmelo con nosotros antes de ir136 route Edmond de Rothschild, 74120 Megève[Mapa](https://www.google.com/maps/search/?api=1&query=136%20route%20Edmond%20de%20Rothschild%2C%2074120%20Meg%C3%A8ve%2C%20France)
 - **Beth Habad de Grenoble, rabino Yhia Lahiany** Encabeza la red Chabad de los Alpes: habadgrenoblealpes.com10 rue Lazare Carnot, 38000 Grenoble[Mapa](https://www.google.com/maps/search/?api=1&query=10%20rue%20Lazare%20Carnot%2C%2038000%20Grenoble%2C%20France)
 
 ## Programas de esquí kosher *por estación*
@@ -292,7 +292,7 @@ Comidas kosher entregadas en su alojamiento en la estación, encargadas al Beth 
 
 ¿Qué estaciones de esquí francesas tienen un minyan kosher?
 
-Courchevel 1850 y Megève tienen un servicio de Chabad en invierno, dirigido por el rabino Daniel Belaïch. En el lado de Grenoble, Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse y Val Thorens, organizamos un minyan a petición con la red Chabad de los Alpes, que reúne a las familias presentes.
+Courchevel 1850 y Megève tienen un servicio de Chabad en invierno. En el lado de Grenoble, Alpe d'Huez, Les Deux Alpes, Serre Chevalier, Chamrousse y Val Thorens, organizamos un minyan a petición con la red Chabad de los Alpes, que reúne a las familias presentes.
 
 ¿Se puede recibir comida kosher en la estación?
 
