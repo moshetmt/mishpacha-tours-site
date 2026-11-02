@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/ (
 
 [דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה אורור בוראל, קורשבל
 
-# צ'אלה אורור בוראל, קורשבל *שלוש סוויטות, בריכה מחוממת, חמאם*
+# צ'אלה כשרה אורור בוראל *קורשבל, שלוש סוויטות, בריכה מחוממת*
 
 צ'אלה מאבן ומעץ לגש בכפר פרטי בקורשבל 1550, עם בריכה מחוממת כל השנה.
 

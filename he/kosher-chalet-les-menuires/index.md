@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-les-menuires/ (HTML version)
 
 [דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה אגל רויאל, לה מנואר
 
-# צ'אלה אגל רויאל, לה מנואר *שבע סוויטות, ספא, שלושת העמקים*
+# צ'אלה כשרה אגל רויאל *לה מנואר, שבע סוויטות, ספא*
 
 צ'אלה פרטית בלב שלושת העמקים, עם ספא ושבע סוויטות.
 

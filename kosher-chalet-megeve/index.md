@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-chalet-megeve/ (HTML version). Every p
 
 [Home](https://mishpachatours.com/) / [Our kosher chalets](https://mishpachatours.com/kosher-chalets/) / Chalet Loup Blanc, near Megève
 
-# Chalet Loup Blanc, near Megève *10 bedrooms facing Mont Blanc*
+# Kosher chalet Loup Blanc *near Megève, facing Mont Blanc*
 
 A large chalet in the Mont Blanc valley, a few minutes from Megève, built for several families at once.
 

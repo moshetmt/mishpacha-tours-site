@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-courchevel/ (HTML version). 
 
 [דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה פלוקון דורה, קורשבל
 
-# צ'אלה פלוקון דורה, קורשבל *5 סוויטות, בריכות מחוממות, שף פרטי*
+# צ'אלה כשרה פלוקון דורה *קורשבל, 5 סוויטות, בריכות מחוממות*
 
 צ'אלה בלב קורשבל, בשלושת העמקים.
 

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 PAGE = dict(
   slug="kosher-les-deux-alpes",
-  title="Kosher Les Deux Alpes: Chef, Shabbat, Minyan",
+  title="Kosher Chalets in Les Deux Alpes: Chef, Shabbat, Minyan",
   desc="Kosher Les Deux Alpes, a glacier resort at 1,650 m with its own kosher summer season: private chef, delivered meals, Shabbat, holidays and minyan. One quote.",
-  h1="Les Deux Alpes", ital="strictly kosher, glacier at 1,650 m",
+  h1="Kosher chalets in Les Deux Alpes", ital="the glacier resort, at 1,650 m",
   intro="Les Deux Alpes sits at 1,650 m in Isère, with a glacier above it. Lyon-Saint-Exupéry is about 2 h 10 away by road. We organise your kosher stay: private chef or delivered meals, Shabbat, minyan and Sefer Torah, in one written quote.",
   chips=["Resort at 1,650 m, glacier above", "About 2 h 10 from Lyon airport", "Chef, meals, Shabbat, minyan", "Checked 8 October 2026"],
   illus="flat-ski.png",

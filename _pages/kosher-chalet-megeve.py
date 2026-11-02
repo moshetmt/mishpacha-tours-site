@@ -4,9 +4,9 @@
 # Jamais le nom du chalet, de l'agence ni de Saint-Gervais (décision 16/10) ; photos re-rendues par Gemini (introuvables).
 PAGE = dict(
   slug="kosher-chalet-megeve",
-  title="Chalet Loup Blanc, kosher, near Megève",
+  title="Kosher Chalet Loup Blanc, near Megève",
   desc="Chalet Loup Blanc near Megève, facing Mont Blanc: ten twin bedrooms, two attic rooms, an apartment, sauna and jacuzzi. Kosher chef, Shabbat, minyan.",
-  h1="Chalet Loup Blanc, near Megève", ital="10 bedrooms facing Mont Blanc",
+  h1="Kosher chalet Loup Blanc", ital="near Megève, facing Mont Blanc",
   intro="A large chalet in the Mont Blanc valley, a few minutes from Megève, built for several families at once. Ten twin bedrooms, two attic rooms and an adjoining apartment with its own front door. A sauna and a jacuzzi facing Mont Blanc, a shuttle at the foot of the chalet every twenty minutes to the lifts. Our team koshers the kitchen, a chef cooks or kosher meals are delivered, and Shabbat comes with a minyan on request. One request, one written quote.",
   chips=["10 twin bedrooms + 2 attic rooms", "Adjoining apartment", "Sauna, jacuzzi, Mont Blanc", "On written quote"],
   illus="flat-ski.png",

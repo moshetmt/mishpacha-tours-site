@@ -5,9 +5,9 @@
 # Nom affiché « Chalet Belle Étoile » et slug choisis par Claude, à confirmer par Moshé.
 PAGE = dict(
   slug="kosher-chalet-val-thorens",
-  title="Chalet Belle Étoile, kosher, Val Thorens",
+  title="Kosher Chalet Belle Étoile, Val Thorens",
   desc="Chalet Belle Étoile in Val Thorens: a private kosher chalet, ski path at the door, 3 en-suite bedrooms, up to 10 guests. Chef, Shabbat, minyan.",
-  h1="Chalet Belle Étoile, Val Thorens", ital="ski in, ski out, 3 suites",
+  h1="Kosher chalet Belle Étoile", ital="Val Thorens, ski in, ski out",
   intro="A private wooden chalet above Val Thorens, in the 3 Valleys, facing south. A ski path starts at the door; the village is a few minutes on foot. 165 m², three en-suite bedrooms, up to 10 guests (8 adults). Chef or delivered meals, Shabbat and minyan.",
   chips=[],
   illus="flat-ski.png",

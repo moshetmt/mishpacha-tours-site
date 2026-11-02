@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-courchevel/ (HTML version). Every p
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Courchevel, estrictamente kosher
 
-# Courchevel *estrictamente kosher, Les 3 Vallées*
+# Chalets kosher en Courchevel *1850 y Les 3 Vallées*
 
 Courchevel 1850 se encuentra a unos 1.850 m en Les 3 Vallées.
 
@@ -20,7 +20,7 @@ Esquíe en Courchevel de día. Vuelva a la mesa servida, un minyan y el Shabat l
 
 La temporada va del 4 de diciembre de 2026 al 18 de abril de 2027. Organizamos su estancia kosher: chef privado o comidas entregadas, Shabat, minián y Sefer Torá, en un solo presupuesto por escrito.
 
-## Chalet Flocon Doré *en Courchevel*
+## Nuestros chalets *en Courchevel*
 
 ### [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)
 
@@ -34,6 +34,40 @@ La temporada va del 4 de diciembre de 2026 al 18 de abril de 2027. Organizamos s
 Courchevel · con Winter Prestige
 
 Desde 17.500 € por semana
+
+Disponibilidad confirmada para sus fechas en cada solicitud.
+
+[Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Aurore Boréale, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**suites + sala de TV
+- **6 a 8**personas
+- **Piscina climatizada**hammam, jacuzzi
+- **400 m**de las pistas
+
+**Estrictamente kosher.** Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael.
+
+Courchevel · con Winter Prestige
+
+Precio a consultar
+
+Disponibilidad confirmada para sus fechas en cada solicitud.
+
+[Consultar mis fechas](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [Chalet Renard Argenté, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel-renard-argente/)
+
+- **2**suites
+- **2 a 6**personas
+- **Baño nórdico**a 40 °C
+- **400 m**de las pistas
+
+**Estrictamente kosher.** Chalet kosherizado para ustedes, chef o comidas a domicilio, todo lo que se sirve es Chalav Yisrael.
+
+Courchevel · con Winter Prestige
+
+Precio a consultar
 
 Disponibilidad confirmada para sus fechas en cada solicitud.
 
@@ -144,6 +178,7 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 
 ## Estaciones *cercanas*
 
+- [Chalet kosher en Les Ménuires](https://mishpachatours.com/kosher-les-menuires/)
 - [Val Thorens kosher](https://mishpachatours.com/kosher-val-thorens/)
 - [La Plagne kosher](https://mishpachatours.com/kosher-la-plagne/)
 - [Les Arcs kosher](https://mishpachatours.com/kosher-les-arcs/)

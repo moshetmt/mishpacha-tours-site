@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/ (
 
 [Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Renard Argenté, Courchevel
 
-# Chalet Renard Argenté, Courchevel *deux suites, bain nordique*
+# Chalet casher Renard Argenté *Courchevel, deux suites, bain nordique*
 
 Un chalet intime dans un hameau privé de Courchevel 1550, avec son bain nordique sous les mélèzes.
 

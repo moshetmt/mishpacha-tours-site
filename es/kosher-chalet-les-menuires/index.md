@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-chalet-les-menuires/ (HTML version)
 
 [Inicio](https://mishpachatours.com/es/) / [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/) / Chalet Aigle Royal, Les Ménuires
 
-# Chalet Aigle Royal, Les Ménuires *siete suites, spa, 3 Valles*
+# Chalet kosher Aigle Royal *Les Ménuires, siete suites, spa*
 
 Un chalet privado en el corazón de los 3 Valles, con su spa y sus siete suites.
 

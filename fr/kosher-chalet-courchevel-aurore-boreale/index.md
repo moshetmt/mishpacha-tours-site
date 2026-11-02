@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/ (
 
 [Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Aurore Boréale, Courchevel
 
-# Chalet Aurore Boréale, Courchevel *trois suites, piscine chauffée, hammam*
+# Chalet casher Aurore Boréale *Courchevel, trois suites, piscine chauffée*
 
 Un chalet de pierre et de mélèze dans un hameau privé de Courchevel 1550, avec sa piscine chauffée toute l'année.
 

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-les-deux-alpes/ (HTML version). Eve
 
 [Accueil](https://mishpachatours.com/fr/) / [Les Alpes, strictement casher](https://mishpachatours.com/fr/alps/) / Les Deux Alpes, strictement casher
 
-# Les Deux Alpes *strictement casher, glacier à 1 650 m*
+# Chalets casher aux Deux Alpes *la station du glacier, à 1 650 m*
 
 Les Deux Alpes se trouvent à 1 650 m, en Isère, sous un glacier.
 

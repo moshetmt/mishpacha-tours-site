@@ -71,6 +71,40 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
 
+### [צ'אלה אורור בוראל, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)
+
+- **3 + 1**סוויטות + חדר טלוויזיה
+- **6 עד 8**אורחים
+- **בריכה מחוממת**חמאם וג'קוזי
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [צ'אלה רנאר ארז'נטה, קורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
+
+- **2**סוויטות
+- **2 עד 6**אורחים
+- **אמבט נורדי**מחומם ל-40 מעלות
+- **400 מ'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+קורשבל · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)
+
 ### [צ'אלה לו בלאן, ליד מג'ב](https://mishpachatours.com/he/kosher-chalet-megeve/)
 
 - **10 + 2**חדרי טווין + חדרי עליית גג
@@ -104,6 +138,23 @@ Source: https://mishpachatours.com/he/kosher-chalets/ (HTML version). Every page
 הזמינות מאושרת לתאריכים שלכם בכל פנייה.
 
 [לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)
+
+### [צ'אלה אגל רויאל, לה מנואר](https://mishpachatours.com/he/kosher-chalet-les-menuires/)
+
+- **7**סוויטות
+- **עד 15**אורחים
+- **ספא**ג'קוזי וסאונה
+- **7 דק'**מהמסלולים
+
+**שומר כשרות.** הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח.
+
+לה מנואר · עם Winter Prestige
+
+מחיר לפי בקשה
+
+הזמינות מאושרת לתאריכים שלכם בכל פנייה.
+
+[לבדוק את התאריכים](https://mishpachatours.com/he/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires&voyage=Ski%20holiday%20with%20a%20chalet)
 
 ## מה כלול בכל שהייה *בצ'אלה*
 

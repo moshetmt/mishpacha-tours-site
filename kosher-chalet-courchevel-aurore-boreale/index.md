@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-chalet-courchevel-aurore-boreale/ (HTM
 
 [Home](https://mishpachatours.com/) / [Our kosher chalets](https://mishpachatours.com/kosher-chalets/) / Chalet Aurore Boréale, Courchevel
 
-# Chalet Aurore Boréale, Courchevel *three suites, heated pool, hammam*
+# Kosher chalet Aurore Boréale *Courchevel, three suites, heated pool*
 
 A stone and larch chalet in a private hamlet of Courchevel 1550, with its pool heated all year.
 

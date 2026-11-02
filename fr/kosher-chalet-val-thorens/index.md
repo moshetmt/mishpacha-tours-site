@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-chalet-val-thorens/ (HTML version).
 
 [Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Belle Étoile, Val Thorens
 
-# Chalet Belle Étoile, Val Thorens *skis aux pieds, 3 suites*
+# Chalet casher Belle Étoile *Val Thorens, skis aux pieds*
 
 Un chalet privé en bois au-dessus de Val Thorens, dans Les 3 Vallées, plein sud.
 

@@ -3,9 +3,9 @@
 # Ni nom du chalet, ni hameau, ni surface (ETAT 16/10) ; photos d'origine (décision du 18/10).
 PAGE = dict(
   slug="kosher-chalet-courchevel",
-  title="Chalet Flocon Doré, kosher, Courchevel",
+  title="Kosher Chalet Flocon Doré, Courchevel",
   desc="Chalet Flocon Doré in Courchevel: a kosher chalet with 5 en-suite bedrooms, heated pools and hammam, private chef, Shabbat and minyan. One written quote.",
-  h1="Chalet Flocon Doré, Courchevel", ital="5 suites, heated pools, private chef",
+  h1="Kosher chalet Flocon Doré", ital="Courchevel, 5 suites, heated pools",
   intro="A chalet in the heart of Courchevel, in the 3 Valleys. Five en-suite bedrooms for 10 to 14 guests, heated pools, a hammam and a private shuttle to the lifts. Our team koshers the kitchen, a private chef cooks every meal, and Shabbat comes with a minyan and a Sefer Torah. One request, one written quote.",
   chips=["5 en-suite bedrooms, 10 to 14 guests", "Heated pools, hammam", "Private shuttle to the lifts", "On written quote"],
   illus="flat-ski.png",

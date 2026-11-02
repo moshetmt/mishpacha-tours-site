@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-megeve/ (HTML version). Every page of 
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Megève, strictly kosher
 
-# Megève, strictly kosher *445 km of linked pistes*
+# Kosher chalet near Megève *445 km of linked pistes*
 
 Megève sits at about 1,050 m in Haute-Savoie, on the Évasion Mont-Blanc ski area of 445 km of pistes.
 

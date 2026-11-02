@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/ (HTML versio
 
 [Inicio](https://mishpachatours.com/es/) / [Los Alpes, estrictamente kosher](https://mishpachatours.com/es/alps/) / Chalet King David, Les Deux Alpes
 
-# Chalet King David, Les Deux Alpes *300 m², 16 plazas, chef privado*
+# Chalet kosher King David *Les Deux Alpes, 300 m², chef privado*
 
 Un chalé de 300 m² en Les Deux Alpes, a 2 minutos de las pistas.
 
