@@ -64,6 +64,8 @@ PIECE = {
     "n1": t("First-floor bedrooms", "Chambres du premier étage", "Habitaciones del primer piso", "חדרי שינה בקומה הראשונה"),
     "n0": t("Ground-floor bedrooms", "Chambres du rez-de-chaussée", "Habitaciones de la planta baja", "חדרי שינה בקומת הקרקע"),
     "n2": t("Attic bedrooms", "Chambres sous le toit", "Habitaciones bajo el tejado", "חדרי שינה בעליית הגג"),
+    "sdb-eau": t("Shower room", "Salle d'eau", "Baño", "חדר מקלחת"),   # 02/11, Aigle Royal
+    "detente": t("Sauna and games room", "Sauna et salle de jeux", "Sauna y sala de juegos", "סאונה וחדר משחקים"),
 }
 TXT = {
     "voir": t("View all photos", "Voir toutes les photos", "Ver todas las fotos", "לכל התמונות"),
@@ -121,6 +123,16 @@ CHALETS = {
                 ("chambres", "chambres", ["valthorens-chambre-balcon", "valthorens-chambre-2", "valthorens-chambre-3"]),
                 ("sdb", "sdb1", ["valthorens-salle-de-bain"]),
                 ("ext-vues", "ext-vues", ["valthorens-exterieur-neige", "valthorens-chalet-neige", "valthorens-vue-balcon"])]),
+    # 02/11 : Aigle Royal, Les Ménuires (photos réelles, _aigle_royal_photos.py) ; la page est posée par _chalet_aigle_royal.py
+    "kosher-chalet-les-menuires": dict(
+        hero="aigle-exterieur-neige",
+        nom=t("Chalet Aigle Royal", "Le Chalet Aigle Royal", "El Chalet Aigle Royal", "צ'אלה אגל רויאל"),
+        pieces=[("salon", "salon", ["aigle-sejour", "aigle-salon", "aigle-salon-cuisine"]),
+                ("salle-cuisine", "salle-cuisine", ["aigle-table", "aigle-cuisine"]),
+                ("chambres", "chambres", ["aigle-chambre-double", "aigle-chambre-lits", "aigle-chambre-trois-lits", "aigle-chambre-bleue"]),
+                ("sdb", "sdb-eau", ["aigle-salle-d-eau"]),
+                ("detente", "detente", ["aigle-sauna", "aigle-salon-jeux"]),
+                ("ext-vues", "ext-vues", ["aigle-exterieur-neige", "aigle-chalet-hiver", "aigle-balcon-sud"])]),
 }
 
 SVG_X = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>'
