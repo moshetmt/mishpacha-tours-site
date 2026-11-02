@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Chalet de Tignes (Espace Killy), clé ch9, 02/11/2026 : deux chalets mitoyens qui communiquent, loués ensemble, 9 suites, jusqu'à
-21 personnes, deux jacuzzis extérieurs, ski aux pieds. Même moteur que _chalet_aigle_royal.py et _chalets_courchevel_lot2.py (clone
+21 personnes, deux jacuzzis extérieurs, à une minute des pistes (Mendel 02/11 : PAS skis aux pieds). Même moteur que _chalet_aigle_royal.py et _chalets_courchevel_lot2.py (clone
 de la page Val Thorens publiée), carte et menu posés après le dernier chalet (Renard Argenté). Idempotent.
 Nom commercial : _chalet_tignes_nom.py (une constante). Photos : _chalet_tignes_photos.py doit avoir tourné.
 🛑 Jamais le nom d'origine des deux chalets, de l'exploitant, de la piste ni du quartier de la station (liste dans 00-brief, hors site).
@@ -33,10 +33,10 @@ PRIX = {"en": ("From €{%s_basse_vente} per week", "Price on request"), "fr": (
 T = {
  "en": dict(
   title=f"Kosher Chalet {NOM}, Tignes",
-  desc=f"Chalet {NOM} in Tignes, Espace Killy: two adjoining luxury kosher chalets for up to 21 guests, nine suites, two outdoor jacuzzis, ski in, ski out.",
-  ital="Tignes, nine suites, ski in, ski out", hero="Two adjoining chalets in Tignes, at the heart of the Espace Killy, with the slope at the door.",
-  intro="Two adjoining chalets that connect inside, taken together: nine suites, each with its own shower room, for up to 21 guests. The slope is less than a minute on foot, and you ski back to the door when the snow allows. Two outdoor jacuzzis facing the peaks, two living rooms with a fireplace. A private chef, Shabbat and minyan, arranged for you.",
-  bref=[("map-pin", "Ski in, ski out.", "In Tignes, at the heart of the Espace Killy. The slope is less than a minute on foot from the door; at the end of the day, you ski back to the chalet when the snow allows."),
+  desc=f"Chalet {NOM} in Tignes, Espace Killy: two adjoining luxury kosher chalets for up to 21 guests, nine suites, two outdoor jacuzzis, one minute from the slopes.",
+  ital="Tignes, nine suites, one minute from the slopes", hero="Two adjoining chalets in Tignes, at the heart of the Espace Killy, one minute from the slopes.",
+  intro="Two adjoining chalets that connect inside, taken together: nine suites, each with its own shower room, for up to 21 guests. The slopes are one minute away on foot. Two outdoor jacuzzis facing the peaks, two living rooms with a fireplace. A private chef, Shabbat and minyan, arranged for you.",
+  bref=[("map-pin", "One minute from the slopes.", "In Tignes, at the heart of the Espace Killy. The slopes are less than a minute on foot from the chalet."),
         ("house", "Two chalets that connect.", "Two adjoining chalets, connected inside and taken together: each family has its own chalet, and everyone meets at the table. Three floors in each."),
         ("bed-double", "Nine suites,", "nine shower rooms, up to 21 guests, each suite with a balcony or the terrace. A family suite with a bunk room for the children, a master suite under the roof with an extra single bed."),
         ("waves", "Two jacuzzis.", "Two outdoor jacuzzis facing the peaks, for the end of the ski day."),
@@ -45,7 +45,7 @@ T = {
   shabbat="The chef prepares the Shabbat and holiday meals in the chalet, or the meals arrive before candle lighting. Two tables for twelve, one in each chalet. A private minyan and a Sefer Torah on request: tell us your dates early.",
   acces="<b>From Lyon-Saint-Exupéry.</b> About 2 h 45 by road. Geneva, about 2 h 45 to 3 h.",
   faq=[("How many guests?", "Up to 21 guests in nine suites, each with its own shower room: several families together, each in its own chalet, connected inside."),
-       ("How far is the slope?", "Less than a minute on foot from the door. At the end of the day, you ski back to the chalet when the snow allows."),
+       ("How far are the slopes?", "Less than a minute on foot from the chalet."),
        ("Can we rent only one of the two chalets?", "The two chalets are rented together, for one group. Each has its own kitchen, its own living room and its own table for twelve.")],
   alt=f"Chalet {NOM}", vt_lien="Chalet Flocon Doré, Courchevel", suite_noms=[("kosher-val-thorens/", "kosher-val-disere/"), ("Val Thorens", "Val d'Isère")],
   noms=[("Chalet Belle Étoile", f"Chalet {NOM}"), ("Belle Étoile", NOM), ("Val Thorens", "Tignes")],
@@ -53,10 +53,10 @@ T = {
   ld_desc="Two adjoining private kosher chalets in Tignes, Espace Killy, rented together: nine suites with shower rooms for up to 21 guests, two outdoor jacuzzis, the slope less than a minute away. Chef or delivered meals, Shabbat and minyan."),
  "fr": dict(
   title=f"Chalet casher {NOM}, Tignes",
-  desc=f"Le Chalet {NOM} à Tignes, Espace Killy : deux chalets casher de luxe mitoyens pour 21 personnes, neuf suites, deux jacuzzis extérieurs, skis aux pieds.",
-  ital="Tignes, neuf suites, skis aux pieds", hero="Deux chalets mitoyens à Tignes, au cœur de l'Espace Killy, la piste à la porte.",
-  intro="Deux chalets mitoyens qui communiquent, loués ensemble : neuf suites, chacune avec sa salle de douche, jusqu'à 21 personnes. La piste est à moins d'une minute à pied, et vous rentrez skis aux pieds quand la neige le permet. Deux jacuzzis extérieurs face aux sommets, deux salons avec cheminée. Chef privé, Chabbat et minyan, organisés pour vous.",
-  bref=[("map-pin", "Skis aux pieds.", "À Tignes, au cœur de l'Espace Killy. La piste est à moins d'une minute à pied de la porte ; en fin de journée, vous rentrez au chalet skis aux pieds quand la neige le permet."),
+  desc=f"Le Chalet {NOM} à Tignes, Espace Killy : deux chalets casher de luxe mitoyens pour 21 personnes, neuf suites, deux jacuzzis extérieurs, à une minute des pistes.",
+  ital="Tignes, neuf suites, à une minute des pistes", hero="Deux chalets mitoyens à Tignes, au cœur de l'Espace Killy, à une minute des pistes.",
+  intro="Deux chalets mitoyens qui communiquent, loués ensemble : neuf suites, chacune avec sa salle de douche, jusqu'à 21 personnes. Les pistes sont à une minute à pied. Deux jacuzzis extérieurs face aux sommets, deux salons avec cheminée. Chef privé, Chabbat et minyan, organisés pour vous.",
+  bref=[("map-pin", "À une minute des pistes.", "À Tignes, au cœur de l'Espace Killy. Les pistes sont à moins d'une minute à pied du chalet."),
         ("house", "Deux chalets qui communiquent.", "Deux chalets mitoyens, reliés de l'intérieur et loués ensemble : chaque famille a son chalet, tout le monde se retrouve à table. Trois niveaux dans chacun."),
         ("bed-double", "Neuf suites,", "neuf salles de douche, jusqu'à 21 personnes, chaque suite avec son balcon ou la terrasse. Une suite familiale avec chambre d'enfants à lits superposés, une suite parentale sous les toits avec un lit simple en plus."),
         ("waves", "Deux jacuzzis.", "Deux jacuzzis extérieurs face aux sommets, pour la fin de la journée de ski."),
@@ -65,7 +65,7 @@ T = {
   shabbat="Le chef prépare au chalet les repas de Chabbat et des fêtes, ou les repas arrivent avant l'allumage des bougies. Deux tables de douze couverts, une dans chaque chalet. Minyan privé et Séfer Torah sur demande : donnez-nous vos dates tôt.",
   acces="<b>Depuis Lyon-Saint-Exupéry.</b> Environ 2 h 45 par la route. Depuis Genève, environ 2 h 45 à 3 h.",
   faq=[("Combien de personnes ?", "Jusqu'à 21 personnes dans neuf suites, chacune avec sa salle de douche : plusieurs familles ensemble, chacune dans son chalet, reliés de l'intérieur."),
-       ("La piste est-elle loin ?", "À moins d'une minute à pied de la porte. En fin de journée, vous rentrez au chalet skis aux pieds quand la neige le permet."),
+       ("Les pistes sont-elles loin ?", "À moins d'une minute à pied du chalet."),
        ("Peut-on louer un seul des deux chalets ?", "Les deux chalets se louent ensemble, pour un seul groupe. Chacun a sa cuisine, son salon et sa table de douze couverts.")],
   alt=f"Le Chalet {NOM}", vt_lien="Chalet Flocon Doré, Courchevel", suite_noms=[("kosher-val-thorens/", "kosher-val-disere/"), ("Val Thorens", "Val d’Isère")],
   noms=[("Chalet Belle Étoile", f"Chalet {NOM}"), ("Belle Étoile", NOM), ("Val Thorens", "Tignes")],
@@ -73,10 +73,10 @@ T = {
   ld_desc="Deux chalets casher privés et mitoyens à Tignes, Espace Killy, loués ensemble : neuf suites avec salle de douche pour 21 personnes, deux jacuzzis extérieurs, la piste à moins d'une minute. Chef ou repas livrés, Chabbat et minyan."),
  "es": dict(
   title=f"Chalet kosher {NOM}, Tignes",
-  desc=f"Chalet {NOM} en Tignes, Espace Killy: dos chalets kosher de lujo contiguos para 21 personas, nueve suites, dos jacuzzis exteriores, esquí a pie de pista.",
-  ital="Tignes, nueve suites, esquí a pie de pista", hero="Dos chalets contiguos en Tignes, en el corazón del Espace Killy, con la pista en la puerta.",
-  intro="Dos chalets contiguos que se comunican por dentro, alquilados juntos: nueve suites, cada una con su ducha, hasta 21 personas. La pista está a menos de un minuto a pie, y vuelve esquiando hasta la puerta cuando la nieve lo permite. Dos jacuzzis exteriores frente a las cumbres, dos salones con chimenea. Chef privado, Shabat y minyán, organizados para usted.",
-  bref=[("map-pin", "Esquí a pie de pista.", "En Tignes, en el corazón del Espace Killy. La pista está a menos de un minuto a pie de la puerta; al final del día, vuelve esquiando al chalet cuando la nieve lo permite."),
+  desc=f"Chalet {NOM} en Tignes, Espace Killy: dos chalets kosher de lujo contiguos para 21 personas, nueve suites, dos jacuzzis exteriores, a un minuto de las pistas.",
+  ital="Tignes, nueve suites, a un minuto de las pistas", hero="Dos chalets contiguos en Tignes, en el corazón del Espace Killy, a un minuto de las pistas.",
+  intro="Dos chalets contiguos que se comunican por dentro, alquilados juntos: nueve suites, cada una con su ducha, hasta 21 personas. Las pistas están a un minuto a pie. Dos jacuzzis exteriores frente a las cumbres, dos salones con chimenea. Chef privado, Shabat y minyán, organizados para usted.",
+  bref=[("map-pin", "A un minuto de las pistas.", "En Tignes, en el corazón del Espace Killy. Las pistas están a menos de un minuto a pie del chalet."),
         ("house", "Dos chalets comunicados.", "Dos chalets contiguos, unidos por dentro y alquilados juntos: cada familia tiene su chalet y todos se reúnen en la mesa. Tres plantas en cada uno."),
         ("bed-double", "Nueve suites,", "nueve baños con ducha, hasta 21 personas, cada suite con balcón o terraza. Una suite familiar con dormitorio infantil con literas, una suite principal bajo el tejado con una cama individual adicional."),
         ("waves", "Dos jacuzzis.", "Dos jacuzzis exteriores frente a las cumbres, para el final del día de esquí."),
@@ -85,18 +85,18 @@ T = {
   shabbat="El chef prepara en el chalet las comidas de Shabat y de las fiestas, o las comidas llegan antes del encendido de las velas. Dos mesas para doce, una en cada chalet. Minyán privado y Séfer Torá bajo petición: indíquenos sus fechas con tiempo.",
   acces="<b>Desde Lyon-Saint-Exupéry.</b> Unas 2 h 45 por carretera. Desde Ginebra, unas 2 h 45 a 3 h.",
   faq=[("¿Cuántas personas?", "Hasta 21 personas en nueve suites, cada una con su ducha: varias familias juntas, cada una en su chalet, unidos por dentro."),
-       ("¿Está lejos la pista?", "A menos de un minuto a pie de la puerta. Al final del día, vuelve esquiando al chalet cuando la nieve lo permite."),
+       ("¿Están lejos las pistas?", "A menos de un minuto a pie del chalet."),
        ("¿Se puede alquilar uno solo de los dos chalets?", "Los dos chalets se alquilan juntos, para un solo grupo. Cada uno tiene su cocina, su salón y su mesa para doce.")],
   alt=f"El Chalet {NOM}", vt_lien="Chalet Flocon Doré, Courchevel", suite_noms=[("kosher-val-thorens/", "kosher-val-disere/"), ("Val Thorens", "Val d'Isère")],
   noms=[("Chalet Belle Étoile", f"Chalet {NOM}"), ("Belle Étoile", NOM), ("Val Thorens", "Tignes")],
   web=f"Chalet kosher de lujo en Tignes, 21 personas, nueve suites, dos jacuzzis",
   ld_desc="Dos chalets kosher privados y contiguos en Tignes, Espace Killy, alquilados juntos: nueve suites con ducha para 21 personas, dos jacuzzis exteriores, la pista a menos de un minuto. Chef o comidas a domicilio, Shabat y minyán."),
  "he": dict(
-  title=f"צ'אלה כשרה {NOM_HE}, טין: סקי מהדלת",
-  desc=f"צ'אלה {NOM_HE} בטין, באזור הסקי של טין וואל דיזר: שתי צ'אלות כשרות יוקרתיות וצמודות לעד 21 אורחים, תשע סוויטות, שני ג'קוזי חיצוניים, סקי מהדלת.",
-  ital="טין, תשע סוויטות, סקי מהדלת", hero="שתי צ'אלות צמודות בטין, בלב אזור הסקי של טין וואל דיזר, והמסלול ליד הדלת.",
-  intro="שתי צ'אלות צמודות עם מעבר פנימי ביניהן, המושכרות יחד: תשע סוויטות, לכל אחת חדר מקלחת משלה, לעד 21 אורחים. המסלול במרחק פחות מדקה הליכה, ובסוף היום חוזרים בסקי עד הדלת כשהשלג מאפשר. שני ג'קוזי חיצוניים מול הפסגות, שני סלונים עם אח. שף פרטי, שבת ומניין: הכל מאורגן.",
-  bref=[("map-pin", "סקי מהדלת.", "בטין, באזור הסקי המשותף לטין ולואל דיזר. המסלול במרחק פחות מדקה הליכה מהדלת; בסוף היום חוזרים לצ'אלה בסקי כשהשלג מאפשר."),
+  title=f"צ'אלה כשרה {NOM_HE}, טין: דקה מהמסלולים",
+  desc=f"צ'אלה {NOM_HE} בטין, באזור הסקי של טין וואל דיזר: שתי צ'אלות כשרות יוקרתיות וצמודות לעד 21 אורחים, תשע סוויטות, שני ג'קוזי חיצוניים, דקה מהמסלולים.",
+  ital="טין, תשע סוויטות, דקה מהמסלולים", hero="שתי צ'אלות צמודות בטין, בלב אזור הסקי של טין וואל דיזר, דקה מהמסלולים.",
+  intro="שתי צ'אלות צמודות עם מעבר פנימי ביניהן, המושכרות יחד: תשע סוויטות, לכל אחת חדר מקלחת משלה, לעד 21 אורחים. המסלולים במרחק דקה הליכה. שני ג'קוזי חיצוניים מול הפסגות, שני סלונים עם אח. שף פרטי, שבת ומניין: הכל מאורגן.",
+  bref=[("map-pin", "דקה מהמסלולים.", "בטין, באזור הסקי המשותף לטין ולואל דיזר. המסלולים במרחק פחות מדקה הליכה מהצ'אלה."),
         ("house", "שתי צ'אלות מחוברות.", "שתי צ'אלות צמודות, מחוברות מבפנים ומושכרות יחד: לכל משפחה צ'אלה משלה, וכולם נפגשים סביב השולחן. שלוש קומות בכל אחת."),
         ("bed-double", "תשע סוויטות,", "תשעה חדרי מקלחת, עד 21 אורחים, ולכל סוויטה מרפסת או יציאה למרפסת הגדולה. סוויטה משפחתית עם חדר ילדים ובו מיטות קומותיים, וסוויטת הורים בעליית הגג עם מיטת יחיד נוספת."),
         ("waves", "שני ג'קוזי.", "שני ג'קוזי חיצוניים מול הפסגות, לסוף יום הסקי."),
@@ -105,7 +105,7 @@ T = {
   shabbat="השף מכין בצ'אלה את סעודות השבת והחגים, או שהארוחות מגיעות לפני הדלקת הנרות. שני שולחנות ל-12 סועדים, אחד בכל צ'אלה. מניין פרטי וספר תורה לפי בקשה: ספרו לנו את התאריכים מוקדם.",
   acces="<b>מנמל התעופה ליון-סנט-אקזופרי.</b> כשלוש שעות פחות רבע בנסיעה. מז'נבה, כשלוש שעות.",
   faq=[("כמה אורחים?", "עד 21 אורחים בתשע סוויטות, לכל אחת חדר מקלחת משלה: כמה משפחות יחד, כל אחת בצ'אלה שלה, עם מעבר פנימי ביניהן."),
-       ("המסלול רחוק?", "פחות מדקה הליכה מהדלת. בסוף היום חוזרים לצ'אלה בסקי כשהשלג מאפשר."),
+       ("המסלולים רחוקים?", "פחות מדקה הליכה מהצ'אלה."),
        ("אפשר לשכור רק אחת משתי הצ'אלות?", "שתי הצ'אלות מושכרות יחד, לקבוצה אחת. לכל אחת מטבח, סלון ושולחן ל-12 סועדים משלה.")],
   alt="הצ'אלה בטין", vt_lien="צ'אלה פלוקון דורה, קורשבל", suite_noms=[("kosher-val-thorens/", "kosher-val-disere/"), ("בואל טורנס", "בואל דיזר"), ("ואל טורנס", "ואל דיזר")],
   noms=[("בל אטואל", NOM_HE), ("בואל טורנס", "בטין"), ("ואל טורנס", "טין"), ('value="Val Thorens"', 'value="Tignes"'), ("מג'נבה", "מז'נבה")],   # champ caché du formulaire, en latin
@@ -177,7 +177,7 @@ def brancher():
                 s = s[:m.start()] + apres_derniere_carte(m.group(0), lang) + s[m.end():]
         # bandes « un chalet entier ? »
         m = re.search(r"<!--KIT-WP:mini-->.*?<!--/KIT-WP:mini-->", s, flags=re.S)
-        if m and slug != SLUG and f'href="{pfx(lang)}/{SLUG}/"' not in m.group(0):
+        if m and slug != SLUG:   # toujours reposée : la vignette Tignes suit le texte de _zones.py
             sauf = slug if slug in [u for u, _ in K.CH_URL] else None
             s = s[:m.start()] + K.bloc("mini", K.mini(lang, sauf)) + s[m.end():]
         n += A.ecrire(p, s, o)
@@ -196,7 +196,7 @@ def sitemap_llms():
     p = ICI / "llms.txt"; s = A.lire(p); o = s
     lignes = [l for l in s.split("\n") if f"/{SLUG}/" not in l]
     i = next(k for k, l in enumerate(lignes) if "/kosher-chalet-courchevel-renard-argente/" in l)
-    lignes.insert(i + 1, f"- [Kosher Chalet {NOM}, Tignes]({A.BASE}/{SLUG}/): two adjoining private kosher chalets in Tignes (Espace Killy) rented together, up to 21 guests, nine suites with shower rooms, two outdoor jacuzzis, ski in, ski out; price on request.")
+    lignes.insert(i + 1, f"- [Kosher Chalet {NOM}, Tignes]({A.BASE}/{SLUG}/): two adjoining private kosher chalets in Tignes (Espace Killy) rented together, up to 21 guests, nine suites with shower rooms, two outdoor jacuzzis, one minute from the slopes; price on request.")
     return n + A.ecrire(p, "\n".join(lignes), o)
 
 

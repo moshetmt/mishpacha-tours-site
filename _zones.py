@@ -62,8 +62,8 @@ CHALETS = {"en": ("Chalets", "See the chalets", (("Chalet King David · Les Deux
 CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/min/wp-ext-bleu-336.webp"), ("kosher-slope-chalet-les-deux-alpes", "/img/chalet/min/slope-facade-336.webp"), ("kosher-chalet-courchevel", "/img/chalet/min/courchevel-ext-336.webp"), ("kosher-chalet-megeve", "/img/chalet/min/megeve-n0-apt-sejour-336.webp"), ("kosher-chalet-val-thorens", "/img/chalet/min/valthorens-exterieur-neige-336.webp"), ("kosher-chalet-les-menuires", "/img/chalet/min/aigle-exterieur-neige-336.webp"), ("kosher-chalet-courchevel-aurore-boreale", "/img/chalet/min/aurore-exterieur-piscine-336.webp"), ("kosher-chalet-courchevel-renard-argente", "/img/chalet/min/renard-exterieur-neige-336.webp"))
 # 02/11 : chalet de Tignes (ch9, deux chalets mitoyens), nom en un seul endroit : _chalet_tignes_nom.py
 from _chalet_tignes_nom import NOM as _TG, NOM_HE as _TG_HE, PREFIXE as _TGP
-_TG_NAV = {"en": (f"Chalet {_TG} · Tignes", "9 suites · ski in, ski out"), "fr": (f"Chalet {_TG} · Tignes", "9 suites · skis aux pieds"),
-           "es": (f"Chalet {_TG} · Tignes", "9 suites · esquí a pie de pista"), "he": (f"צ'אלה {_TG_HE} · טין", "9 סוויטות · סקי מהדלת")}
+_TG_NAV = {"en": (f"Chalet {_TG} · Tignes", "9 suites · one minute from the slopes"), "fr": (f"Chalet {_TG} · Tignes", "9 suites · à une minute des pistes"),
+           "es": (f"Chalet {_TG} · Tignes", "9 suites · a un minuto de las pistas"), "he": (f"צ'אלה {_TG_HE} · טין", "9 סוויטות · דקה מהמסלולים")}
 for _l in CHALETS:
     if not any(_TG in n or _TG_HE in n for n, _ in CHALETS[_l][2]):
         CHALETS[_l] = (CHALETS[_l][0], CHALETS[_l][1], CHALETS[_l][2] + (_TG_NAV[_l],))

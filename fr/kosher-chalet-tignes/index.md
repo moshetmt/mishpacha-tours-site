@@ -1,12 +1,12 @@
-> Le Chalet Étoile Polaire à Tignes, Espace Killy : deux chalets casher de luxe mitoyens pour 21 personnes, neuf suites, deux jacuzzis extérieurs, skis aux pieds.
+> Le Chalet Étoile Polaire à Tignes, Espace Killy : deux chalets casher de luxe mitoyens pour 21 personnes, neuf suites, deux jacuzzis extérieurs, à une minute des pistes.
 
 Source: https://mishpachatours.com/fr/kosher-chalet-tignes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Étoile Polaire, Tignes
 
-# Chalet casher Étoile Polaire *Tignes, neuf suites, skis aux pieds*
+# Chalet casher Étoile Polaire *Tignes, neuf suites, à une minute des pistes*
 
-Deux chalets mitoyens à Tignes, au cœur de l'Espace Killy, la piste à la porte.
+Deux chalets mitoyens à Tignes, au cœur de l'Espace Killy, à une minute des pistes.
 
 [Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Tignes&voyage=Ski%20holiday%20with%20a%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Tignes.%20Dates%3A%20/%20Number%20of%20guests%3A)
 
@@ -18,11 +18,11 @@ Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
 **Un devis écrit, le jour même**Votre station, vos dates, votre groupe. Un seul interlocuteur du début à la fin.
 
-Deux chalets mitoyens qui communiquent, loués ensemble : neuf suites, chacune avec sa salle de douche, jusqu'à 21 personnes. La piste est à moins d'une minute à pied, et vous rentrez skis aux pieds quand la neige le permet. Deux jacuzzis extérieurs face aux sommets, deux salons avec cheminée. Chef privé, Chabbat et minyan, organisés pour vous.
+Deux chalets mitoyens qui communiquent, loués ensemble : neuf suites, chacune avec sa salle de douche, jusqu'à 21 personnes. Les pistes sont à une minute à pied. Deux jacuzzis extérieurs face aux sommets, deux salons avec cheminée. Chef privé, Chabbat et minyan, organisés pour vous.
 
 ## Le chalet, *en bref*
 
-- **Skis aux pieds.** À Tignes, au cœur de l'Espace Killy. La piste est à moins d'une minute à pied de la porte ; en fin de journée, vous rentrez au chalet skis aux pieds quand la neige le permet.
+- **À une minute des pistes.** À Tignes, au cœur de l'Espace Killy. Les pistes sont à moins d'une minute à pied du chalet.
 - **Deux chalets qui communiquent.** Deux chalets mitoyens, reliés de l'intérieur et loués ensemble : chaque famille a son chalet, tout le monde se retrouve à table. Trois niveaux dans chacun.
 - **Neuf suites,** neuf salles de douche, jusqu'à 21 personnes, chaque suite avec son balcon ou la terrasse. Une suite familiale avec chambre d'enfants à lits superposés, une suite parentale sous les toits avec un lit simple en plus.
 - **Deux jacuzzis.** Deux jacuzzis extérieurs face aux sommets, pour la fin de la journée de ski.
@@ -67,7 +67,7 @@ Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet pr
 - **Transferts.** Vans avec sièges enfant de Genève ou de Lyon au chalet et retour, sur devis.
 - **Vous atterrissez à Lyon avec quelques heures devant vous ?** [L’Escale](https://mishpachatours.com/fr/tours/stopover/): une visite privée de 3 heures du patrimoine juif de Lyon, entre l’avion et la route.
 
-Deux chalets mitoyens qui communiquent, loués ensemble : neuf suites, chacune avec sa salle de douche, jusqu'à 21 personnes. La piste est à moins d'une minute à pied, et vous rentrez skis aux pieds quand la neige le permet. Deux jacuzzis extérieurs face aux sommets, deux salons avec cheminée. Chef privé, Chabbat et minyan, organisés pour vous.
+Deux chalets mitoyens qui communiquent, loués ensemble : neuf suites, chacune avec sa salle de douche, jusqu'à 21 personnes. Les pistes sont à une minute à pied. Deux jacuzzis extérieurs face aux sommets, deux salons avec cheminée. Chef privé, Chabbat et minyan, organisés pour vous.
 
 Chabbat  
 à Tignes
@@ -88,9 +88,9 @@ Combien de personnes ?
 
 Jusqu'à 21 personnes dans neuf suites, chacune avec sa salle de douche : plusieurs familles ensemble, chacune dans son chalet, reliés de l'intérieur.
 
-La piste est-elle loin ?
+Les pistes sont-elles loin ?
 
-À moins d'une minute à pied de la porte. En fin de journée, vous rentrez au chalet skis aux pieds quand la neige le permet.
+À moins d'une minute à pied du chalet.
 
 Peut-on louer un seul des deux chalets ?
 

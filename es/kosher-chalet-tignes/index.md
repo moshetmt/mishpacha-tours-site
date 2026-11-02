@@ -1,12 +1,12 @@
-> Chalet Étoile Polaire en Tignes, Espace Killy: dos chalets kosher de lujo contiguos para 21 personas, nueve suites, dos jacuzzis exteriores, esquí a pie de pista.
+> Chalet Étoile Polaire en Tignes, Espace Killy: dos chalets kosher de lujo contiguos para 21 personas, nueve suites, dos jacuzzis exteriores, a un minuto de las pistas.
 
 Source: https://mishpachatours.com/es/kosher-chalet-tignes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Inicio](https://mishpachatours.com/es/) / [Nuestros chalés kosher](https://mishpachatours.com/es/kosher-chalets/) / Chalet Étoile Polaire, Tignes
 
-# Chalet kosher Étoile Polaire *Tignes, nueve suites, esquí a pie de pista*
+# Chalet kosher Étoile Polaire *Tignes, nueve suites, a un minuto de las pistas*
 
-Dos chalets contiguos en Tignes, en el corazón del Espace Killy, con la pista en la puerta.
+Dos chalets contiguos en Tignes, en el corazón del Espace Killy, a un minuto de las pistas.
 
 [Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Tignes&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Tignes.%20Dates%3A%20/%20Number%20of%20guests%3A)
 
@@ -18,11 +18,11 @@ Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
 **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 
-Dos chalets contiguos que se comunican por dentro, alquilados juntos: nueve suites, cada una con su ducha, hasta 21 personas. La pista está a menos de un minuto a pie, y vuelve esquiando hasta la puerta cuando la nieve lo permite. Dos jacuzzis exteriores frente a las cumbres, dos salones con chimenea. Chef privado, Shabat y minyán, organizados para usted.
+Dos chalets contiguos que se comunican por dentro, alquilados juntos: nueve suites, cada una con su ducha, hasta 21 personas. Las pistas están a un minuto a pie. Dos jacuzzis exteriores frente a las cumbres, dos salones con chimenea. Chef privado, Shabat y minyán, organizados para usted.
 
 ## El chalé, *en resumen*
 
-- **Esquí a pie de pista.** En Tignes, en el corazón del Espace Killy. La pista está a menos de un minuto a pie de la puerta; al final del día, vuelve esquiando al chalet cuando la nieve lo permite.
+- **A un minuto de las pistas.** En Tignes, en el corazón del Espace Killy. Las pistas están a menos de un minuto a pie del chalet.
 - **Dos chalets comunicados.** Dos chalets contiguos, unidos por dentro y alquilados juntos: cada familia tiene su chalet y todos se reúnen en la mesa. Tres plantas en cada uno.
 - **Nueve suites,** nueve baños con ducha, hasta 21 personas, cada suite con balcón o terraza. Una suite familiar con dormitorio infantil con literas, una suite principal bajo el tejado con una cama individual adicional.
 - **Dos jacuzzis.** Dos jacuzzis exteriores frente a las cumbres, para el final del día de esquí.
@@ -67,7 +67,7 @@ Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado
 - **Traslados.** Vans con sillas infantiles de Ginebra o de Lyon al chalé y vuelta, con presupuesto.
 - **¿Aterriza en Lyon con unas horas libres?** [La Escala](https://mishpachatours.com/es/tours/stopover/): una visita privada de 3 horas por el Lyon judío, entre el avión y la carretera.
 
-Dos chalets contiguos que se comunican por dentro, alquilados juntos: nueve suites, cada una con su ducha, hasta 21 personas. La pista está a menos de un minuto a pie, y vuelve esquiando hasta la puerta cuando la nieve lo permite. Dos jacuzzis exteriores frente a las cumbres, dos salones con chimenea. Chef privado, Shabat y minyán, organizados para usted.
+Dos chalets contiguos que se comunican por dentro, alquilados juntos: nueve suites, cada una con su ducha, hasta 21 personas. Las pistas están a un minuto a pie. Dos jacuzzis exteriores frente a las cumbres, dos salones con chimenea. Chef privado, Shabat y minyán, organizados para usted.
 
 Shabat  
 en Tignes
@@ -88,9 +88,9 @@ Precio a consultar el chalé. El precio final depende de sus fechas, del número
 
 Hasta 21 personas en nueve suites, cada una con su ducha: varias familias juntas, cada una en su chalet, unidos por dentro.
 
-¿Está lejos la pista?
+¿Están lejos las pistas?
 
-A menos de un minuto a pie de la puerta. Al final del día, vuelve esquiando al chalet cuando la nieve lo permite.
+A menos de un minuto a pie del chalet.
 
 ¿Se puede alquilar uno solo de los dos chalets?
 
