@@ -393,3 +393,9 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 /* 4. mot-clé des titres : même police que le titre (Jost fin, capitales), Suez One réservée au logo (Moshé 02/11 : « j'aime pas la police en gras ») */
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) em.lv-cle{font-family:inherit !important;font-style:normal !important;font-weight:inherit !important;text-transform:inherit !important;letter-spacing:inherit !important;font-size:1em !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero h1{margin-left:auto !important;margin-right:auto !important}
+
+/* Burger (Moshé 02/11 : traits noirs et blancs mêlés, croix posée sur les traits) : un seul dessin, trait du milieu = span, haut et bas = ::before et ::after, tous blancs, aucune ombre ; ouvert = trait du milieu effacé, croix seule */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu span{box-shadow:none !important;background:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu span::before,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu span::after{background:#FFFFFF !important;box-shadow:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu::before{content:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu[aria-expanded="true"] span{background:transparent !important}
