@@ -399,3 +399,10 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu span::before,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu span::after{background:#FFFFFF !important;box-shadow:none !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu::before{content:none !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .menu[aria-expanded="true"] span{background:transparent !important}
+
+/* Sceau Winter Prestige en mode Louis Vuitton (Moshé 02/11 : « refais le tampon en mode luxe ») : verre fumé au lieu du disque noir, filets blancs fins, texte Jost fin espacé, flocon or seul (or réservé au logo WP) */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau{border-radius:50% !important;background:rgba(17,17,17,.32) !important;-webkit-backdrop-filter:blur(8px) saturate(1.1);backdrop-filter:blur(8px) saturate(1.1);filter:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau circle{stroke:#FFFFFF !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau circle:first-of-type{fill:transparent !important;stroke-width:1 !important;stroke-opacity:.9}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau circle:nth-of-type(2){stroke-width:.6 !important;opacity:.55 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .kwp-seau text{fill:#FFFFFF !important;font-family:'Jost',sans-serif !important;font-weight:400 !important;font-size:11.5px !important;letter-spacing:3px !important}
