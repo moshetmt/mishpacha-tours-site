@@ -72,7 +72,7 @@ T = {
   "en": ("Kosher Chalet in Val Thorens: Chef, Shabbat, Minyan", "Kosher chalet in Val Thorens", "Europe's highest resort"),
   "fr": ("Chalet casher à Val Thorens : chef, repas, Shabbat, minyan", "Chalet casher à Val Thorens", "la plus haute d’Europe"),
   "es": ("Chalet kosher en Val Thorens: chef, comidas, Shabat, minián", "Chalet kosher en Val Thorens", "la más alta de Europa"),
-  "he": ("צ'אלה כשרה בואל טורנס: שף פרטי, שבת ומניין", "צ'אלה כשרה בואל טורנס", "בגובה 2,300 מ', האתר הגבוה באירופה")},
+  "he": ("צ'אלה כשרה בוואל טורנס: שף פרטי, שבת ומניין", "צ'אלה כשרה בוואל טורנס", "בגובה 2,300 מ', האתר הגבוה באירופה")},
  "kosher-megeve": {
   "en": ("Kosher Chalet near Megève: Chef, Shabbat, Minyan", "Kosher chalet near Megève", "445 km of linked pistes"),
   "fr": ("Chalet casher près de Megève : chef, repas, Shabbat, minyan", "Chalet casher près de Megève", "445 km de pistes reliées"),

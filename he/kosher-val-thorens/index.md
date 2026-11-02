@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-val-thorens/ (HTML version). Every 
 
 [דף הבית](https://mishpachatours.com/he/) / [האלפים, כשרים לחלוטין](https://mishpachatours.com/he/alps/) / ואל טורנס, כשר לחלוטין
 
-# צ'אלה כשרה בואל טורנס *בגובה 2,300 מ', האתר הגבוה באירופה*
+# צ'אלה כשרה בוואל טורנס *בגובה 2,300 מ', האתר הגבוה באירופה*
 
 ואל טורנס שוכנת בגובה 2,300 מ' בשלושת העמקים, אתר הסקי הגבוה באירופה.
 
