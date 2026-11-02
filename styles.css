@@ -2096,3 +2096,5 @@ body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
 .reve-grille .reve-lien{border-radius:var(--rayon)}
 .barre-basse{border-radius:var(--rayon) var(--rayon) 0 0;overflow:hidden}
 .barre-basse a{border-radius:0}
+@media (min-width:1000px){.kwp-cartes.kwp-six{grid-template-columns:repeat(3,minmax(0,1fr))}} /* 02/11 : six chalets = 3 + 3 (2 + 2 + 2 entre 700 et 999 px, grille de base) */
+@media (max-width:767px){html[dir=rtl] section.conseils{overflow-x:clip}} /* 02/11 : en hébreu, le bloc « en bref » faisait déborder la page de 550 px sur téléphone (Val Thorens et Aigle Royal) */
