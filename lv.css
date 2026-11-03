@@ -706,3 +706,31 @@ html[dir="rtl"] body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5)
 html[dir="rtl"] body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .nav .liens a.nav-cta{right:auto !important;left:20px !important}
 html[dir="rtl"] body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .nav .liens a.nav-cta.nav-cta-wa{display:none !important}
 }
+
+/* ================= phase 3, icônes (03/11, décision de Moshé : « les icônes ne font pas luxe, pas LV ») =================
+   A. Les icônes des listes descriptives sont retirées du HTML par scripts/_charte_lv_p3_icones.py ; le parent reçoit .dk-sans-ico et la colonne qu'elles occupaient se replie, texte au bord.
+   C. Celles qui restent (cartes de services, garanties, van) sont en Phosphor Thin, or brossé #A88F5E, 28 px (img/ico/fin/). L'or ne sert plus qu'aux petites icônes, au libellé, au filet et au lien actif. */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) :is(.dk-cartes>li,.dk-suite>li,.dk-note p,.dk-recit p).dk-sans-ico{min-height:0 !important;padding-inline-start:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-cartes>li.dk-sans-ico{padding-top:14px !important;padding-bottom:14px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-recit p.dk-sans-ico{padding-top:0 !important;padding-bottom:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-note p.dk-sans-ico{padding-top:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-suite>li.dk-sans-ico{grid-template-columns:1fr 22px !important;min-height:48px !important}
+@media (max-width:899.98px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-cartes>li.dk-sans-ico{grid-template-columns:1fr !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-cartes>li.dk-sans-ico>b,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-cartes>li.dk-sans-ico>.dk-corps{grid-column:1 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-cartes>li.dk-sans-ico>b{margin-bottom:4px !important}
+}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) img.ico-fin{width:28px !important;height:28px !important;max-width:28px !important;padding:0 !important;margin:0 !important;background:none !important;border-radius:0 !important;box-shadow:none !important;filter:none !important;object-fit:contain}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main .of-carte img.of-ico.ico-fin{margin-bottom:18px !important;filter:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-g-ligne{padding-inline-start:44px !important;min-height:28px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .dk-g-ligne img.dk-gico.ico-fin{top:1px !important;inset-inline-start:0 !important}
+/* Contact des accueils : sur ordinateur, le libellé passe au-dessus du titre, aligné à gauche (à droite en hébreu), puis le titre, le filet, le formulaire en face. */
+@media (min-width:900px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main>.ticket-zone{display:grid !important;grid-template-columns:minmax(0,1200px) !important;justify-content:center !important;padding-top:112px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main>.ticket-zone>.lv-eyebrow{grid-column:1;text-align:start !important;padding-inline-start:96px !important;margin:0 0 16px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main>.ticket-zone>.lv-eyebrow::before{display:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main>.ticket-zone .ticket{grid-column:1;align-items:start !important;padding-top:0 !important;padding-bottom:0 !important;width:100% !important;margin-inline:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main>.ticket-zone .ticket form.form-court{margin-top:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main>.ticket-zone .ticket h2{align-self:start !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main>.ticket-zone .ticket h2::after{content:"";display:block;width:36px;height:1px;background:var(--or-brosse-filet,#A88F5E);margin:0;position:absolute;inset-inline-start:0;top:calc(100% + 18px)}
+}
