@@ -551,7 +551,7 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 }
 /* signature sous le H1 des pages chalet */
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .wp-signature{display:flex;align-items:center;gap:12px;margin:16px 0 0;direction:inherit}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .wp-signature img{width:34px;height:34px;flex:none;display:block;filter:drop-shadow(0 1px 6px rgba(0,0,0,.7))}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .wp-signature img{width:34px;height:34px;flex:none;display:block;filter:drop-shadow(0 0 3px rgba(0,0,0,.95)) drop-shadow(0 0 10px rgba(0,0,0,.7))}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .wp-signature span{font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;line-height:1.3}
 html[lang="he"] body.lv .wp-signature span{letter-spacing:.02em;text-transform:none;font-size:15px}
 /* pied de page : « with » + logo Winter Prestige sous le logo Mishpacha Tours (le texte seul est remplace) */
