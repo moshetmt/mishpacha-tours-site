@@ -27,7 +27,6 @@ CSS_SRC = r"""/* Fiches chalet façon fiche produit LV (phase 3, 03/11). Génér
 @@ .lc-compte{position:absolute;inset-inline-end:14px;bottom:16px;background:rgba(255,255,255,.92);color:#111;font-size:12px;padding:4px 8px;border-radius:4px}
 @@ .lc-produit{padding:24px 20px 8px}
 @@ .lc-ref{margin:0 !important;font-size:12px !important;letter-spacing:.24em !important;text-transform:uppercase;color:var(--or) !important}
-@@ .lc-wp{display:block;width:120px;height:auto;margin:10px 0 0;border:0 !important;border-radius:0 !important;filter:none !important}
 @@ h1.lc-h1{margin:8px 0 8px !important;padding:0 !important;font-size:clamp(22px,2.2vw,30px) !important;line-height:1.25 !important;font-weight:300 !important;color:#111 !important;text-align:start !important;max-width:none !important;width:auto !important}
 @@ h1.lc-h1 i{display:block !important;margin-top:8px;font-size:.52em !important;letter-spacing:.14em !important;color:var(--gris) !important}
 @@ h1.lc-h1::after{content:"";display:block;width:36px;height:1px;margin-top:16px;background:var(--filet-or)}
@@ -228,7 +227,6 @@ def transforme(src, slug):
   <div class="lc-galerie"><div class="lc-piste" id="lcPiste">{rail_html}</div><div class="lc-progres"><i id="lcBarre" style="width:{100 / n:.3f}%"></i></div><span class="lc-compte" id="lcCompte" dir="ltr">1 / {n}</span></div>
   <div class="lc-produit">
     <p class="lc-ref">{lieu}</p>
-    <img class="lc-wp" src="/img/wp-long-or-powered.svg" alt="Winter Prestige, powered by Mishpacha Tours" width="120" height="42">
     <h1 class="lc-h1">{h1html}</h1>
     <p class="lc-prix">{prix}</p>
     <p class="lc-chiffres">{chiffres}</p>
