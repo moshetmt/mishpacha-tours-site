@@ -819,3 +819,19 @@ html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not
 html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pyt-flottant{bottom:12px !important}
 }
 /* ===/LOGO-WP-2026-11-03=== */
+
+/* ===BANDEAU-OFF-2026-11-03=== */
+/* Le bandeau du haut n'existe plus (_strip_off.py) : il ne reste qu'un ב״ה (span.bh-haut). Les pages qui chargent valora.css
+   gardent leur ב״ה d'origine (main>.hero::after, valora.css) : le span y est masqué. Les autres pages (chalets, À propos,
+   Contact...) le posent en haut à droite, là où la barre le portait ; plus aucune bande, l'en-tête remonte à 0. */
+.bh-haut{display:none}
+html:not(:has(link[href*="valora.css"])) .bh-haut{display:block;position:absolute;top:11px;right:16px;z-index:70;font:400 13px/1 Heebo,'Noto Serif Hebrew',sans-serif;letter-spacing:0;color:#d9d9d9;direction:rtl;unicode-bidi:isolate;pointer-events:none}
+@media (max-width:699.98px){html:not(:has(link[href*="valora.css"])) .bh-haut{top:6px;right:14px;font-size:12px}}
+/* 360 px : le mot-marque touchait le bouton langue (fin du mot 257 px, début du groupe 253 px). Écart d'au moins 12 px :
+   d'abord langue et burger se rapprochent (14 px à 8 px), puis le mot-marque descend de 23 à 21 px à 360 px et regagne
+   son corps de 23 px à 380 px. Le bonhomme ne bouge pas. Pages Alpes (wp-nav, lockup Winter Prestige) exclues. */
+@media (max-width:389.98px){
+html body.valora.lv:not(.wp-nav):not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .nav .droite{gap:8px !important}
+html body.valora.lv:not(.wp-nav):not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) .nav .logo .mot{font-size:clamp(21px,calc(21px + (100vw - 360px) * .1),23px) !important}
+}
+/* ===/BANDEAU-OFF-2026-11-03=== */
