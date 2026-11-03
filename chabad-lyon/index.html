@@ -37,7 +37,7 @@
   <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
 </svg>
 
-<div class="strip"><span class="bh" lang="he">ב״ה</span>Private tours, Sunday to Friday morning. <a href="../#book">Check a date on WhatsApp.</a></div>
+<div class="strip"><span class="bh" lang="he">ב״ה</span>Private tours, Sunday to Friday morning. <a href="../#book">Check a date.</a></div>
 
 <header class="nav">
   <a class="logo" href="../" aria-label="Mishpacha Tours, Jewish Tours of Lyon"><img class="forme" src="../img/picto-hassid.svg" alt="" width="68" height="95"><span class="mot" translate="no">mishpacha tours</span></a>
@@ -77,12 +77,19 @@
 </div>
 
 <main>
+<section class="lv-hero-photo">
+  <img src="/img/h/hl-synagogue-tilsitt-facade-960.webp" srcset="/img/h/hl-synagogue-tilsitt-facade-640.webp 640w, /img/h/hl-synagogue-tilsitt-facade-960.webp 960w, /img/h/hl-synagogue-tilsitt-facade-1600.webp 1600w" sizes="100vw" alt="The Grande Synagogue of Lyon on quai Tilsitt" width="1600" height="1067" fetchpriority="high" decoding="async">
+  <div class="hero-texte">
+    <p class="fil"><a href="../">Home</a> / <a href="../#before">Before you come</a> / Chabad in Lyon</p>
+    <p class="lv-eyebrow">Jewish Lyon</p>
+    <h1>Chabad in Lyon<br><i>Eight Chabad houses, a Shabbat table always open</i></h1>
+  </div>
+</section>
 <section class="pratique-hero">
   <div class="wrap">
-    <p class="fil"><a href="../">Home</a> / <a href="../#before">Before you come</a> / Chabad in Lyon</p>
+    
     <div class="pratique-tete">
-      <div><h1>Chabad in Lyon<br><i>Eight Chabad houses, a Shabbat table always open</i></h1><p class="intro-fiche">Lyon has eight Chabad centres: city centre, 3rd and 6th arrondissements, Villeurbanne, Charpennes, Écully, Craponne and the university campus. Wherever you come from, you can call before Shabbat and ask for a meal or a minyan. Our guide is part of this community. For the heritage side, <a href="../jewish-lyon-tours/">our guided tours of Jewish Lyon</a> start a few minutes away.</p><ul class="chips dk-chips"><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>8 Chabad houses</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>Shabbat meals on request</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>Lyon · Villeurbanne · Écully · Campus</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20be%20put%20in%20touch%20with%20a%20Chabad%20house%20in%20Lyon%20for%20Shabbat.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>
-      <img  alt="" src="../img/illus/or/mezouza.webp" width="700" height="700" data-illus="mezouza">
+      <div><p class="intro-fiche">Lyon has eight Chabad centres: city centre, 3rd and 6th arrondissements, Villeurbanne, Charpennes, Écully, Craponne and the university campus. Wherever you come from, you can call before Shabbat and ask for a meal or a minyan. Our guide is part of this community. For the heritage side, <a href="../jewish-lyon-tours/">our guided tours of Jewish Lyon</a> start a few minutes away.</p><ul class="chips dk-chips"><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>8 Chabad houses</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>Shabbat meals on request</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>Lyon · Villeurbanne · Écully · Campus</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20be%20put%20in%20touch%20with%20a%20Chabad%20house%20in%20Lyon%20for%20Shabbat.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Ask on WhatsApp</a><a class="pill" href="#book">Get a quote</a></p></div>
     </div>
   </div>
 </section>
@@ -141,5 +148,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
 <a class="wa-flottant" href="https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20be%20put%20in%20touch%20with%20a%20Chabad%20house%20in%20Lyon%20for%20Shabbat.%20Dates%3A%20/%20Number%20of%20people%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
-<script src="/js/anim.js" defer></script></body>
+<script src="/js/anim.js" defer></script><script>/*LV-ENTETE*/(function(){var b=document.body;if(!document.querySelector(".ac-hero,.lv-hero-photo,main>section.hero"))return;b.classList.add("lv-transp");var f=function(){b.classList.toggle("lv-plein",window.scrollY>60)};window.addEventListener("scroll",f,{passive:true});f()})();</script>
+</body>
 </html>

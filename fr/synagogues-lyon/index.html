@@ -39,7 +39,7 @@
   <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
 </svg>
 
-<div class="strip"><span class="bh" lang="he">ב״ה</span>Visites privées, du dimanche au vendredi matin. <a href="/fr/#book">Vérifier une date sur WhatsApp.</a></div>
+<div class="strip"><span class="bh" lang="he">ב״ה</span>Visites privées, dimanche au vendredi matin. <a href="/fr/#book">Vérifier une date.</a></div>
 
 <header class="nav">
   <a class="logo" href="/fr/" aria-label="Mishpacha Tours, Jewish Tours of Lyon"><img class="forme" src="/img/picto-hassid.svg" alt="" width="68" height="95"><span class="mot" translate="no">mishpacha tours</span></a>
@@ -79,12 +79,19 @@
 </div>
 
 <main>
+<section class="lv-hero-photo">
+  <img src="/img/h/hl-synagogue-tilsitt-facade-960.webp" srcset="/img/h/hl-synagogue-tilsitt-facade-640.webp 640w, /img/h/hl-synagogue-tilsitt-facade-960.webp 960w, /img/h/hl-synagogue-tilsitt-facade-1600.webp 1600w" sizes="100vw" alt="La Grande Synagogue de Lyon, quai Tilsitt" width="1600" height="1067" fetchpriority="high" decoding="async">
+  <div class="hero-texte">
+    <p class="fil"><a href="/fr/">Accueil</a> / <a href="/fr/#before">Avant de venir</a> / Synagogues à Lyon</p>
+    <p class="lv-eyebrow">Patrimoine juif de Lyon</p>
+    <h1>Synagogues à Lyon<br><i>où la communauté prie, et quand le Shabbat entre</i></h1>
+  </div>
+</section>
 <section class="pratique-hero">
   <div class="wrap">
-    <p class="fil"><a href="/fr/">Accueil</a> / <a href="/fr/#before">Avant de venir</a> / Synagogues à Lyon</p>
+    
     <div class="pratique-tete">
-      <div><h1>Synagogues à Lyon<br><i>où la communauté prie, et quand le Shabbat entre</i></h1><p class="intro-fiche dk-intro">Lyon compte huit Beth Habad, deux grandes synagogues historiques et 25 minyanim de quartier, la plupart à Villeurbanne. Pour la prière, un repas de Shabbat ou toute question sur place, commencez par un Beth Habad : ils accueillent les voyageurs tous les jours. Les visiteurs sont les bienvenus à la prière partout : arrivez quelques minutes en avance, ayez votre pièce d’identité et attendez-vous à un contrôle de sécurité à la porte, comme dans toute synagogue en France aujourd’hui. Pour un minyan près de votre hôtel, écrivez-nous.</p><button class="dk dk-plus" type="button" aria-expanded="false" onclick="this.previousElementSibling.classList.add('dk-ouvert');this.remove()">Lire la suite</button><ul class="chips dk-chips"><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>8 Beth Habad d’abord</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>2 synagogues historiques</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>25 minyanim de quartier</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20visite%20Lyon%20juif%2C%20celle%20qui%20entre%20dans%20la%20Grande%20Synagogue.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Écrire sur WhatsApp</a><a class="pill" href="#book">Demander un devis</a></p></div>
-      <img  alt="" src="/img/illus/or/mezouza.webp" width="700" height="700" data-illus="mezouza">
+      <div><p class="intro-fiche dk-intro">Lyon compte huit Beth Habad, deux grandes synagogues historiques et 25 minyanim de quartier, la plupart à Villeurbanne. Pour la prière, un repas de Shabbat ou toute question sur place, commencez par un Beth Habad : ils accueillent les voyageurs tous les jours. Les visiteurs sont les bienvenus à la prière partout : arrivez quelques minutes en avance, ayez votre pièce d’identité et attendez-vous à un contrôle de sécurité à la porte, comme dans toute synagogue en France aujourd’hui. Pour un minyan près de votre hôtel, écrivez-nous.</p><button class="dk dk-plus" type="button" aria-expanded="false" onclick="this.previousElementSibling.classList.add('dk-ouvert');this.remove()">Lire la suite</button><ul class="chips dk-chips"><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>8 Beth Habad d’abord</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>2 synagogues historiques</li><li><svg class="dk dk-coche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#check"/></svg>25 minyanim de quartier</li></ul><p class="cta-hero"><a class="btn-noir" href="https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20visite%20Lyon%20juif%2C%20celle%20qui%20entre%20dans%20la%20Grande%20Synagogue.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>Écrire sur WhatsApp</a><a class="pill" href="#book">Demander un devis</a></p></div>
     </div>
   </div>
 </section>
@@ -167,5 +174,6 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 document.querySelectorAll(".carte-osm").forEach(el=>{const pts=JSON.parse(el.dataset.points);const m=L.map(el,{scrollWheelZoom:false});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(m);const g=L.featureGroup();pts.forEach(p=>{L.circleMarker(p.ll,{radius:9,color:"#1C1B1F",weight:2,fillColor:"#FCDE73",fillOpacity:1}).bindPopup("<b>"+p.n+"</b><br>"+p.a+"<br><a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.a+", France")+"\" target=\"_blank\" rel=\"noopener\">Directions</a>").addTo(g)});g.addTo(m);m.fitBounds(g.getBounds().pad(0.15),{maxZoom:15})});
 </script>
 <a class="wa-flottant" href="https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20visite%20Lyon%20juif%2C%20celle%20qui%20entre%20dans%20la%20Grande%20Synagogue.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
-<script src="/js/anim.js" defer></script></body>
+<script src="/js/anim.js" defer></script><script>/*LV-ENTETE*/(function(){var b=document.body;if(!document.querySelector(".ac-hero,.lv-hero-photo,main>section.hero"))return;b.classList.add("lv-transp");var f=function(){b.classList.toggle("lv-plein",window.scrollY>60)};window.addEventListener("scroll",f,{passive:true});f()})();</script>
+</body>
 </html>

@@ -38,7 +38,7 @@
   <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
 </svg>
 
-<div class="strip"><span class="bh" lang="he">ב״ה</span>Séjours strictement casher dans les Alpes et à Lyon, shomer shabbat. <a href="/fr/plan-your-trip/">Décrivez votre séjour.</a></div>
+<div class="strip"><span class="bh" lang="he">ב״ה</span>Casher strict dans les Alpes. <a href="/fr/plan-your-trip/">Décrivez votre séjour.</a></div>
 
 <header class="nav">
   <a class="logo" href="/fr/" aria-label="Mishpacha Tours, Jewish Tours of Lyon"><img class="forme" src="/img/picto-hassid.svg" alt="" width="68" height="95"><span class="mot" translate="no">mishpacha tours</span></a>
@@ -115,5 +115,5 @@ document.getElementById('chercheur')&&document.getElementById('chercheur').addEv
 (function(){var f=document.getElementById('formReserver');if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();if(f.elements.societe&&f.elements.societe.value){location.href='/fr/merci/';return}var c=function(n){var el=f.elements[n];return el?el.value.trim():''};var payload=JSON.stringify({tour:c('tour'),dates:c('dates'),personnes:c('personnes'),langue:c('langue'),nom:c('nom'),contact:c('contact'),page:location.pathname,params:location.search});try{var u=window.MISHPACHA_ENDPOINT||'ENDPOINT_APPS_SCRIPT_A_POSER';if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([payload],{type:'text/plain;charset=UTF-8'}))}else{fetch(u,{method:'POST',mode:'no-cors',keepalive:true,body:payload})}}catch(e){}location.href='/fr/merci/'})})();
 </script>
 <a class="wa-flottant" href="https://wa.me/33652092301?text=Bonjour%2C%20je%20viens%20d'envoyer%20une%20demande%20de%20r%C3%A9servation%20sur%20le%20site." rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp</span></a>
-<script src="/js/anim.js" defer></script></body>
+<script src="/js/anim.js" defer></script><script>/*LV-ENTETE*/(function(){var b=document.body;if(!document.querySelector(".ac-hero,.lv-hero-photo,main>section.hero:not(.lead-hero3-illus)"))return;b.classList.add("lv-transp");var f=function(){b.classList.toggle("lv-plein",window.scrollY>60)};window.addEventListener("scroll",f,{passive:true});f()})();</script></body>
 </html>
