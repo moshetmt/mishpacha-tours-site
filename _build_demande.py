@@ -30,6 +30,7 @@ NEUF = {
     "Where, when, how many?": ("Où, quand, combien ?", "¿Dónde, cuándo, cuántos?", "איפה, מתי, כמה?"),
     "Your contact": ("Vos coordonnées", "Sus datos de contacto", "פרטי הקשר שלכם"),
     "We answer you on WhatsApp.": ("Nous vous répondons sur WhatsApp.", "Le respondemos por WhatsApp.", "נחזור אליכם בוואטסאפ."),
+    "We answer you on WhatsApp the same day.": ("Nous vous répondons sur WhatsApp le jour même.", "Le respondemos por WhatsApp el mismo día.", "נחזור אליכם בוואטסאפ באותו היום."),
     "Not chosen yet, advise us": ("Pas encore choisi, conseillez-nous", "Aún sin elegir, aconséjennos", "עוד לא בחרנו, ייעצו לנו"),
     "More details (optional)": ("Plus de détails (facultatif)", "Más detalles (opcional)", "פרטים נוספים (לא חובה)"),
     "Accommodation": ("Hébergement", "Alojamiento", "לינה"),
@@ -160,19 +161,33 @@ def tt(s, lang):
     if s in NEUF: return s if lang == "en" else NEUF[s][LANGS.index(lang) - 1]
     return t(s, lang)
 
-# 03/11 : prix « a partir de » deja publies sur le site (services, chalets, visites de Lyon), meme formulation par langue ; aucun chiffre nouveau.
-# Les montants de l'estimation (JS, C.prix) viennent de la meme table : PRIX_N. Pas de prix publie = « sur demande ».
-PRIX_N = {"chalet": 9500, "chef": 1568, "soir": 28, "livraison": 180, "shabbat": 115, "lyon": 290}   # shabbat = 45 + 40 + 30 (vendredi, samedi, seouda)
-PRIX = {
-    "en": {"chalet": "from €9,500 / week", "chef": "from €1,568 / day", "soir": "from €28 / person / day", "shabbat": "€30 to €45 / person / meal",
-           "lyon": "€290 / group of 1 to 4", "demande": "On request"},
-    "fr": {"chalet": "à partir de 9 500 € / semaine", "chef": "à partir de 1 568 € / jour", "soir": "à partir de 28 € / pers. / jour", "shabbat": "30 à 45 € / pers. / repas",
-           "lyon": "290 € / groupe de 1 à 4", "demande": "Sur demande"},
-    "es": {"chalet": "desde 9.500 € / semana", "chef": "desde 1.568 € / día", "soir": "desde 28 € / pers. / día", "shabbat": "30 a 45 € / pers. / comida",
-           "lyon": "290 € / grupo de 1 a 4", "demande": "A consultar"},
-    "he": {"chalet": 'החל מ־<bdi dir="ltr">9,500 €</bdi> / שבוע', "chef": 'החל מ־<bdi dir="ltr">1,568 €</bdi> / יום', "soir": 'החל מ־<bdi dir="ltr">28 €</bdi> / אדם / יום',
-           "shabbat": '<bdi dir="ltr">30–45 €</bdi> / אדם / ארוחה', "lyon": '<bdi dir="ltr">290 €</bdi> / קבוצה של 1 עד 4', "demande": "לפי בקשה"},
+# 03/11 (Moshe : « Mendel change un prix dans sa grille, le formulaire suit ») : les prix viennent de la grille de Mendel, comme le reste du site.
+# js/prix.js lit le JSON public (?prix=1, lignes cochees « Public ») et l'expose (window.MT_PRIX + evenement mt-prix) ; le JS du formulaire
+# en tire les vignettes et l'estimation (fonction grille()). Les valeurs ci-dessous ne servent que de REPLI (grille muette ou ligne non publiee) :
+# ce sont les prix deja publies sur le site au 30/10. Cles lues : ch1..ch11_basse_vente, c_chef_vente, r_soir_vente, r_vendredi/samedi/seouda_vente, l_zoneA_vente.
+PRIX_N = {"chalet": 9500, "chef": 1568, "soir": 28, "livraison": 180, "shabbat": 115, "shab_min": 30, "shab_max": 45, "lyon": 290}   # shabbat = 45 + 40 + 30 (vendredi, samedi, seouda)
+# vignettes : {a} (et {b}) = montants, remplaces par le JS quand la grille repond ; « lyon » n'est pas dans la grille de Mendel (visites de la guide)
+PRIX_TPL = {
+    "en": {"chalet": "from €{a} / week", "chef": "from €{a} / day", "soir": "from €{a} / person / day", "shabbat": "€{a} to €{b} / person / meal",
+           "lyon": "€290 / group of 1 to 4", "demande": "On request"},
+    "fr": {"chalet": "à partir de {a} € / semaine", "chef": "à partir de {a} € / jour", "soir": "à partir de {a} € / pers. / jour", "shabbat": "{a} à {b} € / pers. / repas",
+           "lyon": "290 € / groupe de 1 à 4", "demande": "Sur demande"},
+    "es": {"chalet": "desde {a} € / semana", "chef": "desde {a} € / día", "soir": "desde {a} € / pers. / día", "shabbat": "{a} a {b} € / pers. / comida",
+           "lyon": "290 € / grupo de 1 a 4", "demande": "A consultar"},
+    "he": {"chalet": 'החל מ־<bdi dir="ltr">{a} €</bdi> / שבוע', "chef": 'החל מ־<bdi dir="ltr">{a} €</bdi> / יום', "soir": 'החל מ־<bdi dir="ltr">{a} €</bdi> / אדם / יום',
+           "shabbat": '<bdi dir="ltr">{a}–{b} €</bdi> / אדם / ארוחה', "lyon": '<bdi dir="ltr">290 €</bdi> / קבוצה של 1 עד 4', "demande": "לפי בקשה"},
 }
+PRIX_AB = {"chalet": ("chalet", None), "chef": ("chef", None), "soir": ("soir", None), "shabbat": ("shab_min", "shab_max")}
+def montant(n, lang):
+    s = f"{int(n):,}"
+    return s.replace(",", " " if lang == "fr" else "." if lang == "es" else ",")
+def prix_vignette(lang, k):
+    """<small> d'une vignette : texte de repli + data-pf / data-pf-tpl pour la mise a jour par la grille."""
+    tpl = PRIX_TPL[lang][k].replace(" €", " €")   # montant et euro jamais separes
+    if k not in PRIX_AB: return f"<small>{tpl}</small>"
+    a, b = PRIX_AB[k]
+    txt = tpl.replace("{a}", montant(PRIX_N[a], lang)).replace("{b}", montant(PRIX_N[b], lang) if b else "")
+    return f'<small data-pf="{k}" data-pf-tpl="{html.escape(tpl, quote=True)}">{txt}</small>'
 
 def hero(lang):
     T = lambda s: html.escape(tt(s, lang), quote=True)
@@ -301,7 +316,7 @@ def formulaire(lang):
     def tuile(name, val_en, titre, photo, prix, b="", sa="", svc=""):
         return (f'<label class="pf-tl"{battr(b)}{sattr(sa)}><input type="checkbox" name="{name}" value="{E(val_en)}" data-en="{esc(val_en)}" data-svc="{svc}">'
                 f'<span class="pf-tl-img"><img src="{IMG}illus/form-svc/{photo}.webp" alt="" width="480" height="360" loading="lazy"><b>{E(titre)}</b><i aria-hidden="true"></i></span>'
-                f'<small>{PRIX[lang][prix]}</small></label>')
+                + prix_vignette(lang, prix) + '</label>')
     services = ('<div class="pf-tls">' +
                 tuile("logement", "A private chalet", "Private chalet", "chalet", "chalet", b="aef", svc="chalet") +
                 tuile("repas", "Private chef in the chalet", "Private chef", "chef", "chef", svc="chef") +
@@ -370,7 +385,7 @@ def formulaire(lang):
         champ("email", "email", "Email (optional)", typ="email", extra=' autocomplete="email"') +
         zone("message-fin", "message", "Anything else we should know", "Anything that helps: a baby, a late arrival, a special diet.", b="abcde") +
         '<p class="pf-resume" id="dm-resume" hidden></p>')
-    S.append(etape("final", "Your contact", "We answer you on WhatsApp.", contact + f'<p class="pf-erreur" id="dm-erreur" hidden>{esc(JSX[lang]["err"])}</p>', "pf-contact"))
+    S.append(etape("final", "Your contact", "We answer you on WhatsApp the same day.", contact + f'<p class="pf-erreur" id="dm-erreur" hidden>{esc(JSX[lang]["err"])}</p>', "pf-contact"))
 
     prog = (f'<div class="pf-prog" id="dm-prog"><button type="button" class="pf-retour" id="dm-back" hidden aria-label="{E("Back")}"><span aria-hidden="true"></span>{E("Back")}</button>'
             f'<span class="pf-prog-txt" id="dm-prog-txt" aria-live="polite"></span>'
@@ -450,6 +465,19 @@ function majBr(){var dj=f.elements.deja,v=base;if('abe'.indexOf(base)>=0){var ho
  var r=ctrls.filter(function(e){return e.name==='intention'&&e.value===v})[0];if(r)r.checked=true}
 function dnum0(n){var e=ctrls.filter(function(x){return x.name===n&&!x.disabled&&x.type==='date'})[0];return e?dnum(e.value):null}
 function nshab(nn){var a=dnum(raw('arrivee'));if(a===null)return Math.max(1,Math.floor(nn/7));var c=0;for(var k=0;k<nn;k++){if(new Date(a+k*864e5).getUTCDay()===5)c++}return c}
+/* 03/11 : prix de la grille de Mendel (js/prix.js expose window.MT_PRIX et l'evenement mt-prix) ; sans grille, C.prix et C.chaletBase (repli) restent.
+   Chalet d'une station = semaine basse la moins chere de ses chalets : Deux Alpes ch1 ch2, Courchevel ch3 ch7 ch8, Megeve ch4, Val Thorens ch5, Tignes ch9 a ch11 ;
+   Les Menuires estimee comme Val Thorens tant que Mendel n'a pas repondu (Moshe 03/11) ; sans station : le moins cher de tous.
+   Chef c_chef_vente ; repas du soir r_soir_vente ; Chabbat vendredi + samedi + seouda ; livraison l_zoneA_vente (la plus basse : l'estimation reste basse). */
+function grille(G){if(!G)return;var g=function(){var l=[].slice.call(arguments).map(function(k){return G[k]}).filter(function(v){return v>0});return l.length?Math.min.apply(null,l):0};
+ var b=function(i){return 'ch'+i+'_basse_vente'},st={'Les Deux Alpes':g(b(1),b(2)),'Courchevel':g(b(3),b(7),b(8)),'Megève':g(b(4)),'Val Thorens':g(b(5)),'Tignes':g(b(9),b(10),b(11))};
+ st['Les Menuires']=st['Val Thorens'];Object.keys(st).forEach(function(k){if(st[k])C.chaletBase[k]=st[k]});
+ var tous=g(b(1),b(2),b(3),b(4),b(5),b(6),b(7),b(8),b(9),b(10),b(11));if(tous)C.prix.chalet=tous;
+ if(G.c_chef_vente>0)C.prix.chef=G.c_chef_vente;if(G.r_soir_vente>0)C.prix.soir=G.r_soir_vente;if(G.l_zoneA_vente>0)C.prix.livraison=G.l_zoneA_vente;
+ var sh=[G.r_vendredi_vente,G.r_samedi_vente,G.r_seouda_vente];if(sh.every(function(v){return v>0})){C.prix.shabbat=sh[0]+sh[1]+sh[2];C.prix.shab_min=Math.min.apply(null,sh);C.prix.shab_max=Math.max.apply(null,sh)}
+ var ab={chalet:['chalet'],chef:['chef'],soir:['soir'],shabbat:['shab_min','shab_max']},sep=C.lang==='fr'?'\u00a0':C.lang==='es'?'.':',';
+ var m=function(n){return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,sep)};
+ [].forEach.call(f.querySelectorAll('[data-pf]'),function(el){var k=ab[el.getAttribute('data-pf')];if(!k)return;var t=el.getAttribute('data-pf-tpl').replace('{a}',m(C.prix[k[0]]));if(k[1])t=t.replace('{b}',m(C.prix[k[1]]));el.innerHTML=t})}
 function chaletBase(){var l=stSel().map(function(x){return C.chaletBase[x]||C.prix.chalet});return l.length?Math.min.apply(null,l):C.prix.chalet}
 /* Estimation indicative « a partir de » (03/11), volontairement basse : elle sert a prevenir, jamais a refuser. Prix = ceux publies sur le site (PRIX_N, CHALET_BASE).
    nuits = depart - arrivee ; sans dates fixes : une semaine (7 nuits, 1 Chabbat). personnes = adultes + enfants (bebes non comptes) ; Chabbat = vendredis du sejour.
@@ -643,6 +671,7 @@ function devine(sel){if(!sel||sel.value)return;var R={US:'+1',CA:'+1',GB:'+44',I
 function cb(){var c=document.querySelector('.cb'),h=c&&!c.hidden?Math.ceil(c.getBoundingClientRect().height):0;document.documentElement.style.setProperty('--pf-cb',h+'px')}
 try{new MutationObserver(cb).observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden']})}catch(x){}
 window.addEventListener('resize',cb);
+if(window.MT_PRIX)grille(window.MT_PRIX);document.addEventListener('mt-prix',function(ev){grille(ev.detail);majBudget()});
 load();prefill();majBr();if(!restaure)preajout();initLieu();devine(f.elements.indicatif);f.classList.add('js');dl.push({event:'form_start',branch:branch()});show(cur||path()[0],false,false);cb();try{history.replaceState({e:cur},'')}catch(x){}
 })();
 </script>'''
@@ -933,6 +962,61 @@ P .pf-merci-b:not(#pf0){display:inline-flex;align-items:center;gap:10px;margin-t
 P .pf-merci-b svg{width:18px;height:18px;fill:currentColor}
 P .pf-merci-r{margin-top:26px;font-size:13px}
 P .pf-merci-r a{color:#111111!important;text-decoration:underline;text-underline-offset:3px}
+/* 03/11 : vignette « Lyon tour » (prix sur deux lignes au besoin, jamais coupe) */
+P .pf-tls2 .pf-tl small{white-space:normal;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:clip}
+/* 03/11 : petits ecrans (iPhone SE 375 x 667) : chaque ecran tient au-dessus de Continuer, bandeau cookies affiche, sans defiler */
+@media (max-width:699px) and (max-height:760px){
+  P main>section.pf:not(#pf0){padding-top:30px!important}
+  P .pf-prog{margin:0 0 10px;min-height:22px}
+  P .pf-tete{margin:0 0 10px}
+  P main .pf-tete h2{font-size:18px!important;line-height:1.2!important}
+  P .pf-tete p{margin-top:3px;font-size:12.5px;line-height:1.35}
+  P .pf-etape > * + *,P .pf [data-b] > * + *{margin-top:8px}
+  P .pf-sous{margin:10px 0 4px!important}
+  P .pf-pastilles{gap:6px}
+  P .pf-pas{min-height:36px;padding:3px 4px;font-size:12px;line-height:1.15}
+  P #e-ou{display:grid;grid-template-columns:1fr 1fr;column-gap:8px;align-items:start}
+  P #e-ou>*{grid-column:1/-1}
+  P #e-ou>.pf-chips,P #e-ou>div[data-b="abe"]{grid-column:auto}
+  P #e-ou>.pf-chips .pf-c,P #e-ou>div[data-b="abe"] .pf-c{height:100%}
+  P #e-ou>.pf-chips{display:grid}
+  P .pf-chips{gap:6px}
+  P .pf-c{min-height:40px;padding:7px 12px;font-size:13px;line-height:1.25}
+  P .pf-cpt{min-height:40px}
+  P .pf-cpt .cpt button{width:34px;height:34px}
+  P .pf-champ{gap:3px}
+  P .pf-champ :is(input,select){min-height:40px;padding:7px 12px}
+  P .pf-champ textarea{min-height:40px;height:40px}
+  P .pf-tls{gap:6px}
+  P .pf-tl{height:54px;padding:4px 40px 4px 4px;grid-template-columns:46px 1fr}
+  P .pf-tl:has(input:checked){padding:3px 39px 3px 3px}
+  P .pf-tl img{width:46px;height:46px}
+  P .pf-tls2 .pf-tl{height:50px;grid-template-columns:38px 1fr}
+  P .pf-tls2 .pf-tl img{width:38px;height:38px}
+  P .pf-bess{gap:6px}
+  P .pf-bes{gap:4px;padding:0 0 6px}
+  P .pf-bes-t img{width:26px;height:26px}
+  P .pf-niv{min-height:34px}
+  P .pf-resume{margin-top:8px;padding-top:6px;font-size:12.5px;line-height:1.4}
+  P .pf-res-b{font-size:12.5px!important}
+  P .pf-accord{margin-top:8px!important;font-size:11.5px;line-height:1.35}
+  P .pf-nav{padding:6px 24px calc(6px + env(safe-area-inset-bottom))!important}
+  P .pf-nav .btn-noir:not(#pf0){min-height:44px}
+  P:has(#formDemande) .cb{padding:8px 12px!important;gap:8px!important}
+  P:has(#formDemande) .cb p{font-size:12px!important;line-height:1.3!important}
+  P:has(#formDemande) .cb button{min-height:34px!important;padding:0 10px!important;letter-spacing:.08em!important}
+  P:has(#formDemande.avance) main>section.pf:not(#pf0){padding-top:30px!important}
+  P .pf-champ>*+*{margin-top:0!important}
+  P .pf-resume{display:none!important}
+  P .pf-tls:not(.pf-tls2){grid-template-columns:1fr 1fr}
+  P .pf-tls:not(.pf-tls2) .pf-tl{height:60px;grid-template-columns:38px 1fr;gap:0 8px;padding:4px 26px 4px 4px}
+  P .pf-tls:not(.pf-tls2) .pf-tl:has(input:checked){padding:3px 25px 3px 3px}
+  P .pf-tls:not(.pf-tls2) .pf-tl img{width:38px;height:52px}
+  P .pf-tls:not(.pf-tls2) .pf-tl b{font-size:11.5px;letter-spacing:.04em;white-space:normal;line-height:1.15}
+  P .pf-tls:not(.pf-tls2) .pf-tl small{font-size:10.5px;white-space:normal;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:clip}
+  P .pf-tls:not(.pf-tls2) .pf-tl i{width:16px;height:16px;margin-top:-8px;inset-inline-end:6px}
+  P .pf-tls:not(.pf-tls2) .pf-tl:has(input:checked) i::after{left:5px;top:2px;width:3.5px;height:7px}
+}
 """.replace("P:has", P + ":has").replace("P ", P + " ").replace(",P ", "," + P + " ") + CSS_Z
 
 def update_css():
@@ -957,6 +1041,7 @@ if __name__ == "__main__":
         s, n2 = FORM_RE.subn(lambda m: formulaire(lang), s, count=1)
         s, n3 = JS_RE.subn(lambda m: js(lang), s, count=1)
         assert (n1, n2, n3) == (1, 1, 1), (p, n1, n2, n3)
-        s = s.replace('<link rel="stylesheet" href="/valora-form.css">', "")   # 02/11 : formulaire en charte LV, plus de feuille Valora du formulaire
+        s = s.replace('<link rel="stylesheet" href="/valora-form.css">', "")
+        if '/js/prix.js' not in s: s = s.replace('</body>', '<script src="/js/prix.js" defer></script>\n</body>', 1)   # 03/11 : prix de la grille de Mendel
         io.open(p, "w", encoding="utf-8", newline="\n").write(s)
         print("ok", p)
