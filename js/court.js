@@ -23,11 +23,13 @@
   var dl = window.dataLayer = window.dataLayer || [];
   forms.forEach(function (f) {
     var sel = f.elements.indicatif, err = f.querySelector('.fc-erreur'), b = f.querySelector('button[type=submit]'), sent = false;
+    // 03/11 : textes des accueils FR/ES/HE lus dans data-* (l'EN n'en a pas et garde l'anglais)
+    var T = function (k, d) { return f.getAttribute('data-' + k) || d; };
     devine(sel);
     f.addEventListener('input', function (ev) { var t = ev.target; if (t.getAttribute('aria-invalid') === 'true' && (t.value || '').trim()) t.setAttribute('aria-invalid', 'false'); });
     function dire(txt, lien) {
       err.hidden = false; err.textContent = txt;
-      if (lien) { var a = document.createElement('a'); a.href = lien; a.rel = 'noopener'; a.textContent = 'Send on WhatsApp'; err.appendChild(document.createTextNode(' ')); err.appendChild(a); }
+      if (lien) { var a = document.createElement('a'); a.href = lien; a.rel = 'noopener'; a.textContent = T('msg-wa', 'Send on WhatsApp'); err.appendChild(document.createTextNode(' ')); err.appendChild(a); }
     }
     f.addEventListener('submit', function (ev) {
       ev.preventDefault(); if (sent) return;
@@ -35,7 +37,7 @@
       var pre = f.elements.prenom.value.trim(), ind = sel.value, tel = f.elements.tel.value.replace(/[^0-9]/g, ''), manque = [];
       if (!pre) manque.push(f.elements.prenom); if (!ind) manque.push(sel); if (tel.length < 6) manque.push(f.elements.tel);
       [f.elements.prenom, sel, f.elements.tel].forEach(function (e) { e.setAttribute('aria-invalid', manque.indexOf(e) >= 0 ? 'true' : 'false'); });
-      if (manque.length) { dire('Please add your first name and your WhatsApp number.'); manque[0].focus(); return; }
+      if (manque.length) { dire(T('msg-manque', 'Please add your first name and your WhatsApp number.')); manque[0].focus(); return; }
       err.hidden = true;
       if (ind !== '+39') tel = tel.replace(/^0+/, '');
       var ou = (f.elements.ou.value || '').trim().slice(0, 200), ou_ = f.getAttribute('data-ou') || 'home',
@@ -43,9 +45,9 @@
           parts = ['Trip: Quick request (short form)'];
       if (ou) parts.push('Where and when: ' + ou);
       parts.push('Source: short form, home page (' + ou_ + '), ref ' + lead);
-      var payload = JSON.stringify({ tour: 'Quick request', dates: '', personnes: '', langue: 'English', nom: pre, contact: (ind + ' ' + tel).trim(),
+      var payload = JSON.stringify({ tour: 'Quick request', dates: '', personnes: '', langue: T('langue', 'English'), nom: pre, contact: (ind + ' ' + tel).trim(),
         message: parts.join(' | '), message_en: parts.join(' | '), nuits: '', page: location.pathname, params: '?form=' + ou_, source: 'court', lead: lead });
-      sent = true; var lab = b.textContent; b.disabled = true; b.textContent = 'Sending';
+      sent = true; var lab = b.textContent; b.disabled = true; b.textContent = T('msg-envoi', 'Sending');
       var fini = false,
           ok = function () {
             if (fini) return; fini = true;
@@ -55,8 +57,8 @@
           },
           ko = function () {
             if (fini) return; fini = true; sent = false; b.disabled = false; b.textContent = lab;
-            var t = 'Hello, I am ' + pre + '.' + (ou ? ' ' + ou + '.' : '');
-            dire('Your request did not go through.', 'https://wa.me/33652092301?text=' + encodeURIComponent(t));
+            var t = T('msg-salut', 'Hello, I am') + ' ' + pre + '.' + (ou ? ' ' + ou + '.' : '');
+            dire(T('msg-ko', 'Your request did not go through.'), 'https://wa.me/33652092301?text=' + encodeURIComponent(t));
             dl.push({ event: 'form_error' });
           };
       setTimeout(ko, 20000);
