@@ -49,6 +49,7 @@ h1{{font-family:'Jost','Heebo',sans-serif;font-weight:400;font-size:46px;line-he
 .wp .col{{display:flex;flex-direction:column;gap:9px}}
 .wp .mot{{width:330px;height:auto;display:block}}
 .wp .pw{{width:330px;height:auto;display:block}}
+.wp .sp{{width:440px;height:auto;display:block}}
 .base{{font-weight:300;font-size:17px;letter-spacing:.2em;text-transform:uppercase;color:#6B6B6B}}
 [dir=rtl] .kicker{{letter-spacing:.12em}}
 [dir=rtl] h1{{font-family:'Heebo',sans-serif;font-weight:300;letter-spacing:0;font-size:56px}}
@@ -66,9 +67,15 @@ h1{{font-family:'Jost','Heebo',sans-serif;font-weight:400;font-size:46px;line-he
 LOCKUP_MT = '<div class="logo"><img src="file:///{picto}" alt=""><span class="mot">mishpacha tours</span></div>'
 LOCKUP_WP = ('<div class="wp"><img class="fl" src="file:///{d}/wp-flocon-brosse.svg" alt=""><div class="col">'
              '<img class="mot" src="file:///{d}/wp-mot-brosse.svg" alt=""><img class="pw" src="file:///{d}/wp-powered-brosse.svg" alt=""></div></div>')
+LOCKUP_SP = '<div class="wp"><img class="sp" src="file:///{d}/sp-long-brosse.svg" alt=""></div>'
 OR_KIT, OR_BROSSE = "#C9A961", "#7A6440"   # or du kit WP -> or brosse fonce de la charte LV (5,1:1 sur fond clair, phase 2 du 03/11)
 
 # Pages Alpes (35 familles, image partagee par les 4 langues, texte sans langue comme la generique) : (kicker, titre)
+# Pages ete (logo Summer Prestige, sp-long-or.svg recolore en or brosse) : (kicker, titre)
+SP_TEXTES = {
+    "summer-in-the-alps-jewish-families": ("KOSHER SUMMER", "The Riviera,<br>the lakes, the Alps"),
+    "kosher-villa-saint-tropez": ("KOSHER VILLA · PRIVATE BEACH", "Saint-Tropez"),
+}
 WP_TEXTES = {
     "alps": ("THE ALPS", "Strictly kosher,<br>winter and summer"),
     "kosher-alpe-dhuez": ("KOSHER SKI · ISÈRE", "Alpe d'Huez"),
@@ -113,6 +120,8 @@ def svg_brosses(tmpdir):
     for n in ("flocon", "mot", "powered"):
         t = open(os.path.join(ROOT, "img", f"wp-{n}-or.svg"), encoding="utf-8").read().replace(OR_KIT, OR_BROSSE)
         open(os.path.join(tmpdir, f"wp-{n}-brosse.svg"), "w", encoding="utf-8").write(t)
+    t = open(os.path.join(ROOT, "img", "sp-long-or.svg"), encoding="utf-8").read().replace("#E3C48E", OR_BROSSE).replace("#F6EFE3", OR_BROSSE)
+    open(os.path.join(tmpdir, "sp-long-brosse.svg"), "w", encoding="utf-8").write(t)
 
 
 def rendre_html(pg, html, dest):
@@ -149,9 +158,10 @@ def photo_fiche(h):
 
 
 def rendre_wp(pg, slug, photo, tmpdir, dest):
-    kicker, titre = WP_TEXTES[slug]
+    sp = slug in SP_TEXTES
+    kicker, titre = (SP_TEXTES if sp else WP_TEXTES)[slug]
     html = GABARIT.format(W=W, H=H, lang="en", dir="ltr", photo=photo.replace("\\", "/"), kicker=kicker, titre=titre,
-                          base=TEXTES[None][2], lockup=LOCKUP_WP.format(d=tmpdir.replace("\\", "/")))
+                          base=TEXTES[None][2], lockup=(LOCKUP_SP if sp else LOCKUP_WP).format(d=tmpdir.replace("\\", "/")))
     return rendre_html(pg, html, dest)
 
 
@@ -166,7 +176,7 @@ def wp(apercu=False):
         svg_brosses(tmpdir)
         b = p.chromium.launch(); pg = b.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
         gros, sans = [], []
-        for slug in sorted(WP_TEXTES):
+        for slug in sorted(WP_TEXTES) + sorted(SP_TEXTES):
             f = os.path.join(ROOT, slug, "index.html")
             h = open(f, encoding="utf-8").read() if os.path.isfile(f) else ""
             ph = photo_heros(h) or photo_fiche(h)
@@ -176,7 +186,16 @@ def wp(apercu=False):
         b.close()
     tmp = os.path.join(ROOT, "_og_lv_tmp.html")
     if os.path.exists(tmp): os.remove(tmp)
-    print("images WP ecrites :", len(WP_TEXTES) - len(sans), "| sans photo :", sans, "| > 180 Ko :", gros, "| dossier :", out)
+    modif = 0   # pages ete : balises og:image / twitter:image vers img/og/<slug>.jpg (les pages WP les ont deja par _og_wp.py)
+    for slug in SP_TEXTES:
+        for lang in ("en", "fr", "es", "he"):
+            f = os.path.join(ROOT, slug if lang == "en" else os.path.join(lang, slug), "index.html")
+            if not os.path.isfile(f): continue
+            h = open(f, encoding="utf-8").read(); url = f"{BASE}/img/og/{slug}.jpg"
+            n = re.sub(r'(<meta (?:property="og:image"|name="twitter:image") content=")[^"]*(")', lambda m: m.group(1) + url + m.group(2), h)
+            if n != h and not apercu: open(f, "w", encoding="utf-8", newline="").write(n); modif += 1
+    print("pages ete modifiees :", modif)
+    print("images WP + SP ecrites :", len(WP_TEXTES) + len(SP_TEXTES) - len(sans), "| sans photo :", sans, "| > 180 Ko :", gros, "| dossier :", out)
 
 
 def rendre(pg, lang, dest):
