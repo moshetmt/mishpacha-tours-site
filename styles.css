@@ -845,23 +845,23 @@ body.menu-ouvert{overflow:hidden}
 /* Formulaire /plan-your-trip/ en 3 ecrans, charte LV (02/11) : blanc, noir pour les boutons, filets gris, coins 4 px, aucune carte ni ombre. */
 .pf-etape[hidden],.pf [data-b][hidden],.pf [data-s][hidden],.pf [data-si][hidden],.pf .cache,.pf [hidden]{display:none!important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf-hero:not(#pf0){padding:18px 0 0!important;margin:0!important;background:#FFFFFF}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .wrap{max-width:768px!important;margin:0 auto!important;padding:0 24px!important;box-sizing:border-box}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .wrap{max-width:688px!important;margin:0 auto!important;padding:0 24px!important;box-sizing:border-box}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .fil{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#6B6B6B!important;opacity:1!important;margin:0}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .fil a{color:#6B6B6B!important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-hero h1{margin:10px 0 0!important;font-size:clamp(26px,4.4vw,44px)!important;font-weight:300!important;letter-spacing:.08em!important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-promesse{margin:10px 0 0;max-width:34em;font-size:15px;line-height:1.5;color:#6B6B6B!important}
 body:has(#formDemande.avance) .pf-hero{display:none!important}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf:not(#pf0){padding:22px 24px 72px!important;max-width:768px!important;box-sizing:border-box;margin:0 auto!important;background:#FFFFFF;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf:not(#pf0){padding:22px 24px 72px!important;max-width:688px!important;box-sizing:border-box;margin:0 auto!important;background:#FFFFFF;color:#111111}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form{max-width:720px;margin:0}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf .piege{position:absolute;left:0;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 /* progression 1 / 3 */
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog{display:flex;align-items:center;gap:14px;margin:0 0 22px}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog-txt{flex:none;font-size:12px;font-weight:400;letter-spacing:.2em;color:#111111}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-barre{flex:1;height:2px;background:#E6E6E6;overflow:hidden}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:12px 14px;min-height:28px;margin:0 0 30px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog-txt{grid-column:2;justify-self:end;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-barre{grid-column:1 / -1;height:1px;background:#E6E6E6;overflow:hidden}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-barre i{display:block;height:100%;width:33%;background:#111111;transition:width .3s}
 /* tetes d'ecran */
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete{margin:0 0 18px}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2{margin:0!important;font-size:22px!important;letter-spacing:.08em!important;outline:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete{margin:0 0 30px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2{margin:0!important;font-size:26px!important;line-height:1.2!important;letter-spacing:.08em!important;outline:none}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete p{margin:6px 0 0;font-size:14px;line-height:1.45;color:#6B6B6B!important}
 /* ecran 1 : six lignes, picto 48 px centre, hauteur fixe (controle_alignement.py --ancre centre) */
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-choix{border-top:1px solid #E6E6E6}
@@ -879,7 +879,7 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-wa{margin:20px 0 0;text-align:center;font-size:14px;color:#6B6B6B!important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-wa a{color:#111111!important;text-decoration:underline;text-underline-offset:3px}
 /* champs */
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-etape > * + *{margin-top:16px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-etape > * + *{margin-top:20px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-sous{margin:26px 0 8px!important;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#111111!important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ{position:relative;display:grid;gap:6px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ label{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6B6B6B}
@@ -901,10 +901,17 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-auto button:first-child{border-top:0}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-auto button:hover,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-auto button:focus-visible{background:#F4F4F2}
 /* cases : liste a coches, sans cadre ni pastille, deux colonnes */
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{display:flex;align-items:center;gap:10px;min-height:46px;padding:8px 0;border-bottom:1px solid #E6E6E6;font-size:14.5px;line-height:1.25;cursor:pointer}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c input{flex:none;width:18px;height:18px;margin:0;accent-color:#111111}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c:has(input:checked) span{color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{display:grid;grid-template-columns:1fr;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{position:relative;display:flex;align-items:center;min-height:56px;padding:14px 18px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;font-size:15px;line-height:1.3;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c:hover{border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pastilles{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas{min-height:56px;padding:12px 14px;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;color:#111111;font-size:15px;font-weight:300;line-height:1.25;text-align:center;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas:hover{border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas.on{background:#111111;border-color:#111111;color:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c:has(input:checked){background:#111111;border-color:#111111;color:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c:has(input:checked) span{color:#FFFFFF!important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips:has(> .pf-c:only-child){grid-template-columns:1fr}
 /* compteurs */
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:56px;border-bottom:1px solid #E6E6E6}
@@ -939,26 +946,32 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord a{color:#111111!important;text-decoration:underline;text-underline-offset:3px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord .pf-erreur{display:block;margin:8px 0 0;margin-inline-start:32px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord.pf-manque span{color:#9B2C1F}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav{display:flex;align-items:center;gap:12px;margin:28px 0 0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav{display:flex;align-items:center;gap:12px;margin:36px 0 0}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:not(#pf0){min-height:52px;padding:0 34px;margin-inline-start:auto;background:#111111!important;color:#FFFFFF!important;-webkit-text-fill-color:#FFFFFF!important;border:1px solid #111111!important;border-radius:4px!important;font-size:12px!important;letter-spacing:.2em!important;text-transform:uppercase}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:disabled{opacity:.35;cursor:default}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:not(#pf0):lang(he){letter-spacing:0!important;font-size:15px!important}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-retour{min-height:52px;padding:0 22px;border:1px solid #111111;border-radius:4px;background:#FFFFFF;color:#111111;font-size:12px;letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-retour{grid-column:1;display:inline-flex;align-items:center;gap:8px;min-height:28px;padding:0;border:0;background:none;color:#111111;font-size:11px;letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-retour span{width:7px;height:7px;border-left:1px solid #111111;border-bottom:1px solid #111111;transform:rotate(45deg)}
+html[dir=rtl] .pf-retour span{transform:rotate(-135deg)!important}
+@media (prefers-reduced-motion:no-preference){html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form[data-dir] .pf-etape:not([hidden]){animation:pf-in .38s ease-out}html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form[data-dir=back]{--pf-dx:-18px}html[dir=rtl] .pf-form[data-dir=fwd]{--pf-dx:-18px}html[dir=rtl] .pf-form[data-dir=back]{--pf-dx:18px}}
+@keyframes pf-in{from{opacity:0;transform:translateX(var(--pf-dx,18px))}}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-petit{margin:16px 0 0;text-align:center;font-size:12.5px;color:#6B6B6B!important}
 body:has(#formDemande) .wa-flottant{display:none!important}
 @media (min-width:700px){
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf-hero:not(#pf0){padding-top:36px!important}
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf:not(#pf0){padding-top:34px!important}
-  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2{font-size:28px!important}
-  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{grid-template-columns:repeat(3,1fr);gap:0 24px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2{font-size:34px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{grid-template-columns:1fr 1fr;gap:12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pastilles{grid-template-columns:repeat(3,1fr)}
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ligne{height:84px}
 }
 @media (max-width:699px){
   /* telephone : Continuer colle en bas, au-dessus du bandeau cookies quand il est affiche (--pf-cb, mesure en JS) */
-  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav{position:sticky;bottom:var(--pf-cb,0px);z-index:20;margin:24px -24px 0;padding:10px 24px calc(10px + env(safe-area-inset-bottom));background:#FFFFFF;border-top:1px solid #E6E6E6}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form{padding-bottom:96px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav{position:fixed;left:0;right:0;bottom:var(--pf-cb,0px);z-index:60;margin:0;padding:10px 24px calc(10px + env(safe-area-inset-bottom));background:#FFFFFF;border-top:1px solid #E6E6E6}
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir{flex:1;padding:0 18px}
-  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{gap:0 14px}
-  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{font-size:14px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{gap:10px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{font-size:15px}
   body:has(#formDemande.avance) .pied{display:none}
 }
 /* ===/DEMANDE-ETAPES=== */
