@@ -44,6 +44,8 @@ NEUF = {
     "Both are optional.": ("Les deux sont facultatifs.", "Ambos son opcionales.", "שניהם לא חובה."),
     "Anything else?": ("Autre chose ?", "¿Algo más?", "עוד משהו?"),
     "Morzine, Zermatt, Verbier": ("Morzine, Zermatt, Verbier", "Morzine, Zermatt, Verbier", "צרמט, סנט מוריץ"),
+    "Flying to Grenoble": ("Vol vers Grenoble", "Vuelo a Grenoble", "טסים לגרנובל"),
+    "Another airport, or not sure yet": ("Un autre aéroport, ou pas encore décidé", "Otro aeropuerto, o aún no decidido", "שדה תעופה אחר, או שעוד לא החלטנו"),
     "Optional.": ("Facultatif.", "Opcional.", "לא חובה."),
 }
 def tt(s, lang):
@@ -165,16 +167,23 @@ def formulaire(lang):
              '<p class="pf-info" id="dm-nuits" hidden aria-live="polite"></p>' +
              f'<p class="pf-info" id="dm-shabbat" hidden data-t="{E("Shabbat during your stay:")}"></p>' +
              f'<p class="pf-erreur" id="dm-date-err" role="alert" hidden>{E("The departure is before the arrival.")}</p>' +
-             chips("flexible", ["Dates are fixed", "Dates are flexible"], multi=False))
+             chips("flexible", ["Dates are fixed", "Dates are flexible"], multi=False) +
+             f'<div data-b="abe">{sous("Your flights")}' +
+             chips("aeroport", ["Flying to Lyon", "Flying to Geneva", "Flying to Grenoble", "Another airport, or not sure yet"], multi=False) +
+             chips("vols_pris", ["Flights already booked", "Not booked yet"], multi=False) +
+             champ("vol_ville", "vol_ville", "City you fly from", ph="New York, Tel Aviv, London") +
+             sugg("vol_ville", [("New York",), ("Brooklyn",), ("Miami",), ("Los Angeles",), ("Montreal",), ("Toronto",), ("Tel Aviv",), ("Jerusalem",), ("London",), ("Manchester",), ("Paris",), ("Antwerp",), ("Brussels",), ("Zurich",), ("Geneva",), ("Buenos Aires",), ("Mexico City",), ("São Paulo",), ("Johannesburg",)]) + "</div>")
     qui = (compteur("adultes", "Adults", v=2) + compteur("enfants", "Children") +
            ages("enfants", "Ages of the children", "9 and 12", [(str(n),) for n in range(2, 18)]) +
            compteur("bebes", "Babies") + ages("bebes", "Ages of the babies", "10 months", ["3 months", "6 months", "1 year", "18 months", "2 years"]) +
            '<div class="pf-mat cache" data-for="bebes">' + chips("bebe_materiel", ["Baby cots", "High chairs", "Car seats"]) + "</div>" +
            compteur("familles", "Families or households", b="abef", v=1) +
+           compteur("chambres", "Bedrooms", b="a") +
            f'<div data-b="c">{sous("Luggage and equipment")}' + chips("bagages", ["Large suitcases", "Cabin bags only", "Skis or snowboards", "Baby seats or boosters", "Wheelchair or walker"]) + "</div>")
     sejour = (f'<div data-b="ae">{sous("Accommodation")}' + chips("logement", ["A private chalet", "Apartments, same residence", "A hotel", "Advise me"], multi=False) + "</div>" +
               champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b") +
-              sous("Meals") + chips("repas", ["Private chef in the chalet", "Meals delivered, ready to heat", "Shabbat meals only", "Advise me", ("No meals needed", "", "none")], multi=False))
+              sous("Meals") + chips("repas", ["Private chef in the chalet", "Meals delivered, ready to heat", "Shabbat meals only", "Advise me", ("No meals needed", "", "none")], multi=False) +
+              champ("allergies", "allergies", "Allergies or special diets", ph="Nut allergy for one child"))
     minyan = (chips("minyan_niveau", ["The minyan is essential", "Nice to have", "Not needed"], multi=False) +
               si("minyan_niveau!=Not needed", compteur("hommes", "Men over bar mitzvah age, for the minyan")) +
               chips("religieux", ["Sefer Torah in the chalet"]))
@@ -470,6 +479,9 @@ P .pf-auto button:first-child{border-top:0}
 P .pf-auto button:hover,P .pf-auto button:focus-visible{background:#F4F4F2}
 /* cases : liste a coches, sans cadre ni pastille, deux colonnes */
 P .pf-chips{display:grid;grid-template-columns:1fr;gap:10px}
+P #e-quand .pf-chips{grid-template-columns:1fr 1fr}
+P .pf [data-b] > * + *{margin-top:20px}
+P #e-quand .pf-c{padding:12px 14px;font-size:14.5px}
 P .pf-c{position:relative;display:flex;align-items:center;min-height:56px;padding:14px 18px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;font-size:15px;line-height:1.3;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
 P .pf-c input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
 P .pf-c:hover{border-color:#111111}
