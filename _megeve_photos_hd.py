@@ -10,12 +10,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__)); os.chdir(ROOT)
 HD = os.path.join(ROOT, "..", "..", "00-brief", "references", "2026-10-16-megeve-bibi", "originaux-hd")
 P = "Chalet-Remy-St-Gervais-"
 MAP = {"n0-apt-chambre-twin": "appartement-chambre", "n0-apt-chambre-superposes": "appartement-dortoir",
-       "n0-apt-sejour": "appartement-interieur1", "n0-chalet-chambre-twin": "chalet-RDC-Suite-PMR-5-1",
-       "n1-chambre-1": "chalet-1er-Chambres-twin-EST-2", "n1-chambre-2": "chalet-1er-Chambres-twin-EST-3",
-       "n1-chambre-3": "chalet-RDC-Suite-PMR-2", "n1-chambre-4": "chalet-1er-Junior-suite-OUEST-1",
-       "n1-chambre-5": "chalet-1er-Junior-suite-OUEST-5", "n1-chambre-6": "chalet-1er-Junior-suite-OUEST-3",
-       "n1-chambre-7": "chalet-2eme-palier-enfants-01",
-       "n2-chambre-1": "chalet-2eme-dortoirs-enfants-1", "n2-chambre-2": "chalet-2eme-dortoirs-enfants-2"}
+       "n2-chambre-1": "chalet-2eme-dortoirs-enfants-1"}
+# 04/11 : seules ces 3 paires sont LA MÊME PIÈCE (IA locale qwen3-vl deux passes + œil, scripts/comparer_photos_piece.py, seuil 70 %) ;
+# les 10 autres photos HD montraient d'autres pièces du chalet : anciennes photos (PDF x4) remises, à améliorer par agrandissement fidèle.
 def traiter(src, W, H):
     im = ImageOps.mirror(ImageOps.exif_transpose(Image.open(src)).convert("RGB"))
     rot = random.uniform(-0.6, 0.6); im = im.rotate(rot, Image.BICUBIC, expand=False)
