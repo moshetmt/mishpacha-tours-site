@@ -31,7 +31,7 @@ for stem, hd in MAP.items():
     jpg = f"img/chalet/megeve-{stem}.jpg"; W, H = Image.open(jpg).size
     out = traiter(os.path.join(HD, P + hd + ".jpg"), W, H)
     out.save(jpg, "JPEG", quality=86, optimize=True, progressive=True); n += 1
-    for d in ("img/chalet/w", "img/chalet/min"):
+    for d in ("img/chalet/w", "img/chalet/min", "img/h"):  # img/h = variantes du héros (oubliées au 1er passage)
         for f in os.listdir(d):
             if f.startswith(f"megeve-{stem}-") and f.endswith(".webp"):
                 ww, hh = Image.open(os.path.join(d, f)).size
