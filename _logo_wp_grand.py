@@ -5,7 +5,7 @@
       portent encore (compteur « sign » = pages ou elle a ete retiree) et ne la repose plus.
    2. Pied de page : « with Winter Prestige » en texte devient le logo wp-long-or.svg precede de with / avec / con / עם,
       bloc <!--LOGO-WP:pied-->...<!--/LOGO-WP:pied-->. Le logo Mishpacha Tours reste en premier.
-   3. En-tete co-marque (demande Moshe 03/11) : filet dore + logotype wp-long-or.svg + « Powered by Mishpacha Tours » (texte 12 px) a droite du logo
+   3. En-tete co-marque (demande Moshe 03/11) : filet dore + flocon wp-flocon-or.svg + mot-marque wp-mot-or.svg (extrait de wp-long-or.svg) + « Powered by Mishpacha Tours » (texte 11 px) a droite du logo
       Mishpacha Tours, bloc <!--LOGO-WP:entete--> (HTML present des le chargement ; mini script inline : animation une fois par visite, cle
       sessionStorage wpEntete, jamais si prefers-reduced-motion cote CSS).
    4. Le CSS (heros ordinateur plus large, signature, pied) est dans lv.css, bloc ===LOGO-WP-2026-11-03===.
@@ -32,6 +32,10 @@ def dans_perimetre(h):
 def est_chalet(slug):
     return slug.startswith(("kosher-chalet-", "kosher-slope-chalet-"))
 
+def reparer_bandeau_he(f, h):
+    """he/*/index.html : le CSS en clair qui a pris la place de « ב״ה » dans <span class="bh"> (4 pages sur master) est remplace par la ligne saine."""
+    return re.sub(r'(<span class="bh" lang="he">)html\[dir=rtl\][^<]*(</span>)', lambda m: m.group(1) + "ב״ה" + m.group(2), h)
+
 def main():
     cnt = {"sign": {}, "pied": {}, "entete": {}}
     for f in sorted(glob.glob(os.path.join(ROOT, "**", "index.html"), recursive=True)):
@@ -55,11 +59,12 @@ def main():
             if n2 != n: n = n2; cnt["pied"][lang] = cnt["pied"].get(lang, 0) + 1
         if True:
             bloc = ('<!--LOGO-WP:entete--><script>try{if(!sessionStorage.getItem("wpEntete")){sessionStorage.setItem("wpEntete","1");document.documentElement.classList.add("wp-anim")}}catch(e){}</script>'
-                    '<div class="wp-entete"><span class="wp-e-txt"><span class="wp-lt"><img src="/img/wp-long-or.svg" alt="Winter Prestige" width="1222" height="430"></span><small translate="no">Powered by Mishpacha Tours</small></span></div><!--/LOGO-WP:entete-->')
+                    '<div class="wp-entete"><img class="wp-fl" src="/img/wp-flocon-or.svg" alt="" width="40" height="40"><span class="wp-e-txt"><img class="wp-mot" src="/img/wp-mot-or.svg" alt="Winter Prestige" width="173" height="14"><small translate="no">Powered by Mishpacha Tours</small></span></div><!--/LOGO-WP:entete-->')
             n = re.sub(r"<!--LOGO-WP:entete-->.*?<!--/LOGO-WP:entete-->", "", n, flags=re.S)
             n2 = re.sub(r'(<header class="nav">\s*<a class="logo".*?</a>)', lambda m: m.group(1) + bloc, n, count=1, flags=re.S)
             if n2 != n: n = n2
             if n != h: cnt["entete"][lang] = cnt["entete"].get(lang, 0) + 1
+        n = reparer_bandeau_he(f, n) if lang == "he" else n
         if n != h: open(f, "w", encoding="utf-8", newline="").write(n)
     print("signatures retirees :", cnt["sign"], "| pieds de page :", cnt["pied"], "| en-tetes :", cnt["entete"])
 

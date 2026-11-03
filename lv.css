@@ -560,17 +560,23 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .logo-pied .wp-pied-logo{height:36px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .logo-pied .wp-pied-logo img{height:50px;margin-top:-7px}
 }
-/* en-tete co-marque (Moshe 03/11, revu apres relecture) : etat final = bonhomme | filet or | logotype wp-long-or.svg (flocon + WINTER PRESTIGE, jamais retape)
-   avec « Powered by Mishpacha Tours » en texte 12 px dessous. Le mot-marque « mishpacha tours » est masque (aria-label du lien conserve).
-   Un seul or : celui du SVG ; le filet est un SVG de cet or (img/wp-filet.svg). Animation 1re visite : fondu enchaine, aucune mise en page ne bouge. */
+/* en-tete co-marque (Moshe 03/11, passe 3, polish) : UN objet sur une grille de 4/8 px, tout sur le meme axe horizontal.
+   bonhomme (H+3 px) 12 | filet or 1 px (H) 12 | flocon (H x H) 10 | mot-marque WINTER PRESTIGE (wp-mot-or.svg, extrait de wp-long-or.svg, jamais retape)
+   dessus « Powered by Mishpacha Tours » (petites capitales 10 px, jamais plus large que le mot). H = hauteur du bloc mot + Powered by.
+   Le mot-marque « mishpacha tours » est masque (aria-label du lien conserve). Un seul or : celui des SVG (filet = img/wp-filet.svg).
+   Animation 1re visite : transform et opacity seulement, aucune largeur ne change. */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav{--wph:31px;--wpmot:14px;--wpmotw:172.8px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo{position:relative;flex:none !important}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .mot{position:absolute !important;inset-inline-start:calc(100% + 16px);top:50%;transform:translateY(-50%);opacity:0;pointer-events:none;white-space:nowrap}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{display:flex;align-items:center;gap:12px;margin-inline-start:16px;margin-inline-end:auto;flex:none;direction:ltr}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete::before{content:"";width:1px;height:40px;background:url(/img/wp-filet.svg) center/100% 100% no-repeat;flex:none}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt{display:flex;flex-direction:column;align-items:flex-start;gap:2px;line-height:1}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-lt{display:block;width:141px;height:38px;overflow:hidden;position:relative}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-lt img{position:absolute;left:-1px;top:-7px;width:149px;height:52px;max-width:none;display:block;filter:none !important}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt small{font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:12px;letter-spacing:.02em;color:#BDBDBD;white-space:nowrap}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .forme{height:calc(var(--wph) + 3px) !important;width:auto !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .mot{position:absolute !important;inset-inline-start:calc(100% + 12px);top:50%;transform:translateY(-50%);opacity:0;pointer-events:none;white-space:nowrap}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{display:flex;align-items:center;gap:12px;height:var(--wph);margin-inline-start:12px;margin-inline-end:auto;flex:none;direction:ltr}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete::before{content:"";width:1px;height:var(--wph);background:url(/img/wp-filet.svg) center/100% 100% no-repeat;flex:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-fl{width:var(--wph);height:var(--wph);display:block;flex:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;height:var(--wph);margin-inline-start:-2px;min-width:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-mot{display:block;height:var(--wpmot);width:var(--wpmotw);max-width:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt small{display:block;font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:11px;line-height:10px;height:10px;font-variant-caps:all-small-caps;letter-spacing:.12em;color:#E6E6E6;opacity:.7;white-space:nowrap;max-width:var(--wpmotw)}
+html[dir="rtl"] body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{direction:rtl}
+html[dir="rtl"] body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt{direction:ltr}
 /* 900 a 1199 px : menu resserre pour que le bloc Winter Prestige ne le pousse pas sur deux lignes */
 @media (min-width:900px) and (max-width:1199.98px){
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens{gap:12px !important}
@@ -578,16 +584,26 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a.nav-cta{padding-inline:14px !important}
 }
 @media (max-width:899.98px){
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{gap:10px;margin-inline-start:12px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav{--wph:28px;--wpmot:12px;--wpmotw:153.6px}
+}
+@media (max-width:380px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav{padding-inline:16px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{gap:8px;margin-inline-start:8px}
 }
 @keyframes wpEntFondu{from{opacity:0}to{opacity:1}}
 @keyframes wpEntMot{from{opacity:1}to{opacity:0}}
+@keyframes wpEntBonhomme{from{transform:translateX(14px)}to{transform:none}}
+@keyframes wpEntBonhommeRtl{from{transform:translateX(-14px)}to{transform:none}}
 @media (prefers-reduced-motion:no-preference){
 html.wp-anim body.lv .nav .wp-entete{animation:wpEntFondu .45s cubic-bezier(.22,.61,.36,1) both}
 html.wp-anim body.lv .nav .logo .mot{animation:wpEntMot .45s cubic-bezier(.22,.61,.36,1) both}
+html.wp-anim body.lv .nav .logo .forme{animation:wpEntBonhomme .45s cubic-bezier(.22,.61,.36,1) both}
+html[dir="rtl"].wp-anim body.lv .nav .logo .forme{animation-name:wpEntBonhommeRtl}
 }
 @media (min-width:900px) and (max-width:1049.98px){
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{margin-inline-end:14px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav{padding-inline:24px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav{--wph:28px;--wpmot:12px;--wpmotw:153.6px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{margin-inline-end:12px;gap:8px;margin-inline-start:10px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens{gap:9px !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .nav-ch-lien{letter-spacing:.05em !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a.nav-cta{padding-inline:10px !important}
