@@ -903,6 +903,34 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 /* cases : liste a coches, sans cadre ni pastille, deux colonnes */
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{display:grid;grid-template-columns:1fr;gap:10px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand .pf-chips{grid-template-columns:1fr 1fr}
+/* 03/11 : cartes de services (« Build your stay »), panier, estimation et alertes de budget */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svcs{display:grid;grid-template-columns:1fr;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc{position:relative;display:grid;grid-template-columns:1fr auto;align-items:center;gap:6px 14px;padding:16px 16px 16px 18px;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;cursor:pointer;transition:border-color .15s,background-color .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:hover{border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-t{display:grid;gap:4px;min-width:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-t b{font-size:13.5px;font-weight:400!important;letter-spacing:.1em;text-transform:uppercase;line-height:1.3;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-t small{font-size:13.5px;line-height:1.4;color:#6B6B6B}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-p{font-style:normal;font-size:13px;color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-add{flex:none;min-width:92px;padding:9px 12px;border:1px solid #111111;border-radius:4px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:#111111;background:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-add .d{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-add i{font-style:normal!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:checked){border-color:#111111;background:#F4F4F2}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:checked) .pf-svc-add{background:#111111;color:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:checked) .pf-svc-add .a{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:checked) .pf-svc-add .d{display:inline}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-add:lang(he),html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-t b:lang(he){letter-spacing:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nsvc{flex:none;font-size:12px;letter-spacing:.08em;color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-est{margin:0 0 6px;padding:16px 0;border-top:1px solid #E6E6E6;border-bottom:1px solid #E6E6E6;font-size:16px;line-height:1.45;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-est:empty{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit{margin:10px 0 0;padding:0 0 0 14px;border-left:2px solid #6B6B6B;font-size:14px;line-height:1.5;color:#111111}
+html[dir=rtl] .pf-fit{padding:0 14px 0 0!important;border-left:0!important;border-right:2px solid #6B6B6B!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit-fits{border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit-fits::before{content:'¹3  '}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit-below{border-color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit-far-below{border-color:#9B2C1F;color:#9B2C1F}
+
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf [data-b] > * + *{margin-top:20px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand .pf-c{padding:12px 14px;font-size:14.5px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{position:relative;display:flex;align-items:center;min-height:56px;padding:14px 18px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;font-size:15px;line-height:1.3;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}

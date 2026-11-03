@@ -14,6 +14,7 @@ from _demande_nouveaux import t, LAB, LAB_NEW, JSX
 import re, os, json, html, io
 
 LANGS = ("en", "fr", "es", "he")
+LAB_NEW["budget_fit"] = ("Budget fit", "Adéquation du budget", "Ajuste del presupuesto", "התאמת התקציב")   # 03/11 : ligne ajoutee au message, ignoree par fiche_() de Code.gs (libelle inconnu = resume seulement)
 LOCALE = {"en": "en-GB", "fr": "fr-FR", "es": "es-ES", "he": "he-IL"}
 MERCI = {"en": "/merci/", "fr": "/fr/merci/", "es": "/es/merci/", "he": "/he/merci/"}
 
@@ -46,11 +47,63 @@ NEUF = {
     "Morzine, Zermatt, Verbier": ("Morzine, Zermatt, Verbier", "Morzine, Zermatt, Verbier", "צרמט, סנט מוריץ"),
     "Flying to Grenoble": ("Vol vers Grenoble", "Vuelo a Grenoble", "טסים לגרנובל"),
     "Another airport, or not sure yet": ("Un autre aéroport, ou pas encore décidé", "Otro aeropuerto, o aún no decidido", "שדה תעופה אחר, או שעוד לא החלטנו"),
+    "Build your stay": ("Composez votre séjour", "Diseñe su estancia", "בנו את החופשה שלכם"),
+    "Add everything you would like. We confirm each service with you.": ("Ajoutez tout ce qui vous ferait plaisir. Nous confirmons chaque service avec vous.", "Añada todo lo que le apetezca. Confirmamos cada servicio con usted.", "הוסיפו כל מה שתרצו. נאשר איתכם כל שירות."),
+    "+ Add": ("+ Ajouter", "+ Añadir", "+ הוספה"),
+    "Added ✓": ("Ajouté ✓", "Añadido ✓", "נוסף ✓"),
+    "1 service added": ("1 service ajouté", "1 servicio añadido", "שירות אחד נוסף"),
+    "{n} services added": ("{n} services ajoutés", "{n} servicios añadidos", "{n} שירותים נוספו"),
+    "Private chalet": ("Chalet privé", "Chalé privado", "צ'אלה פרטית"),
+    "Kosher chalets with the Winter Prestige team.": ("Des chalets casher avec l'équipe Winter Prestige.", "Chalés kosher con el equipo de Winter Prestige.", "צ'אלות כשרות עם הצוות של Winter Prestige"),
+    "Private chef": ("Chef privé", "Chef privado", "שף פרטי"),
+    "A kosher chef cooks every meal in your chalet.": ("Un chef casher cuisine tous vos repas au chalet.", "Un chef kosher cocina todas sus comidas en el chalé.", "שף כשר מבשל את כל הארוחות בצ'אלה."),
+    "Meals delivered": ("Repas livrés", "Comidas a domicilio", "ארוחות במשלוח"),
+    "Ready-to-heat kosher meals, delivered every two days.": ("Des repas casher prêts à réchauffer, livrés tous les deux jours.", "Comidas kosher listas para calentar, entregadas cada dos días.", "ארוחות כשרות מוכנות לחימום, במשלוח כל יומיים."),
+    "Shabbat meals": ("Repas de Chabbat", "Comidas de Shabat", "ארוחות שבת"),
+    "Friday dinner, Saturday lunch and seuda shlishit.": ("Dîner du vendredi, déjeuner du samedi et seouda chlichit.", "Cena del viernes, almuerzo del sábado y seudá shlishit.", "ארוחת ליל שבת, סעודת שבת וסעודה שלישית."),
+    "Private minyan and Sefer Torah": ("Minyan privé et Sefer Torah", "Minyan privado y Séfer Torá", "מניין פרטי וספר תורה"),
+    "We gather the minyan and bring a Sefer Torah to your chalet.": ("Nous réunissons le minyan et apportons un Sefer Torah au chalet.", "Reunimos el minyan y llevamos un Séfer Torá al chalé.", "אנחנו מארגנים מניין ומביאים ספר תורה לצ'אלה."),
+    "Private butler": ("Majordome privé", "Mayordomo privado", "באטלר פרטי"),
+    "A butler at your service in the chalet.": ("Un majordome à votre service au chalet.", "Un mayordomo a su servicio en el chalé.", "באטלר לשירותכם בצ'אלה."),
+    "Airport transfer by van": ("Transfert aéroport en van", "Traslado en van desde el aeropuerto", "הסעה בוואן משדה התעופה"),
+    "From Lyon or Geneva airport to your door, with a driver.": ("De l'aéroport de Lyon ou de Genève jusqu'à votre porte, avec chauffeur.", "Del aeropuerto de Lyon o Ginebra hasta su puerta, con conductor.", "משדה התעופה של ליון או ז'נבה עד הדלת, עם נהג."),
+    "Ski lessons, equipment, passes": ("Cours, matériel et forfaits de ski", "Clases, material y forfaits de esquí", "שיעורי סקי, ציוד וכרטיסי מעליות"),
+    "Instructors, rental delivered to the chalet, passes ready.": ("Moniteurs, matériel livré au chalet, forfaits prêts.", "Monitores, material entregado en el chalé, forfaits listos.", "מדריכים, ציוד שמגיע לצ'אלה, כרטיסים מוכנים."),
+    "Snowmobile or dog sledding": ("Motoneige ou chiens de traîneau", "Moto de nieve o trineo de perros", "אופנוע שלג או מזחלת כלבים"),
+    "Activities": ("Activités", "Actividades", "פעילויות"),
+    "Snowmobile, dog sledding.": ("Motoneige, chiens de traîneau.", "Moto de nieve, trineo de perros.", "אופנוע שלג, מזחלת כלבים."),
+    "Guided, 2 hours, before or after the Alps.": ("Visite guidée de 2 h, avant ou après les Alpes.", "Visita guiada de 2 horas, antes o después de los Alpes.", "סיור מודרך של שעתיים, לפני או אחרי האלפים."),
+    "Your budget": ("Votre budget", "Su presupuesto", "התקציב שלכם"),
+    "From about {x} for your selection": ("À partir d'environ {x} pour votre sélection", "Desde unos {x} para su selección", "החל מכ־{x} לבחירה שלכם"),
+    ", plus services on request.": (", plus les services sur demande.", ", más los servicios a consultar.", ", ועוד שירותים לפי בקשה."),
+    "Your selection is a large project: we will build it with you.": ("Votre sélection est un beau projet : nous le construirons avec vous.", "Su selección es un gran proyecto: lo construiremos con usted.", "הבחירה שלכם היא פרויקט גדול: נבנה אותו יחד איתכם."),
+    "Add your dates to see an estimate.": ("Ajoutez vos dates pour voir une estimation.", "Añada sus fechas para ver una estimación.", "הוסיפו תאריכים כדי לראות הערכה."),
+    "Your budget fits your selection.": ("Votre budget correspond à votre sélection.", "Su presupuesto se ajusta a su selección.", "התקציב שלכם מתאים לבחירה שלכם."),
+    "With this budget we will suggest the closest option (delivered meals instead of a chef, for example).": ("Avec ce budget, nous vous proposerons l'option la plus proche (des repas livrés plutôt qu'un chef, par exemple).", "Con este presupuesto le propondremos la opción más cercana (comidas a domicilio en lugar de un chef, por ejemplo).", "עם התקציב הזה נציע לכם את האפשרות הקרובה ביותר (למשל ארוחות במשלוח במקום שף)."),
+    "This is below what a private kosher stay in the Alps costs. We may not be able to help; consider delivered meals or an apartment.": ("C'est en dessous du prix d'un séjour casher privé dans les Alpes. Nous risquons de ne pas pouvoir vous aider ; pensez aux repas livrés ou à un appartement.", "Está por debajo de lo que cuesta una estancia kosher privada en los Alpes. Es posible que no podamos ayudarle; piense en comidas a domicilio o en un apartamento.", "זה פחות ממה שעולה חופשה כשרה פרטית באלפים. ייתכן שלא נוכל לעזור; שקלו ארוחות במשלוח או דירה."),
+    "fits": ("correspond", "se ajusta", "מתאים"),
+    "below": ("en dessous", "por debajo", "מתחת"),
+    "far below": ("très en dessous", "muy por debajo", "הרבה מתחת"),
+    "estimate": ("estimation", "estimación", "הערכה"),
     "Optional.": ("Facultatif.", "Opcional.", "לא חובה."),
 }
 def tt(s, lang):
     if s in NEUF: return s if lang == "en" else NEUF[s][LANGS.index(lang) - 1]
     return t(s, lang)
+
+# 03/11 : prix « a partir de » deja publies sur le site (services, chalets, visites de Lyon), meme formulation par langue ; aucun chiffre nouveau.
+# Les montants de l'estimation (JS, C.prix) viennent de la meme table : PRIX_N. Pas de prix publie = « sur demande ».
+PRIX_N = {"chalet": 9500, "chef": 1568, "soir": 28, "livraison": 180, "shabbat": 115, "lyon": 290}   # shabbat = 45 + 40 + 30 (vendredi, samedi, seouda)
+PRIX = {
+    "en": {"chalet": "from €9,500 per week", "chef": "from €1,568 per day", "soir": "from €28 per person per day", "shabbat": "€30 to €45 per person per meal",
+           "lyon": "€290 per group of 1 to 4", "demande": "Price on request"},
+    "fr": {"chalet": "à partir de 9 500 € la semaine", "chef": "à partir de 1 568 € par jour", "soir": "à partir de 28 € par personne et par jour", "shabbat": "de 30 à 45 € par personne et par repas",
+           "lyon": "290 € par groupe de 1 à 4", "demande": "Prix sur demande"},
+    "es": {"chalet": "desde 9.500 € por semana", "chef": "desde 1.568 € por día", "soir": "desde 28 € por persona y día", "shabbat": "de 30 a 45 € por persona y comida",
+           "lyon": "290 € por grupo de 1 a 4", "demande": "Precio a consultar"},
+    "he": {"chalet": 'החל מ־<bdi dir="ltr">9,500 €</bdi> לשבוע', "chef": 'החל מ־<bdi dir="ltr">1,568 €</bdi> ליום', "soir": 'החל מ־<bdi dir="ltr">28 €</bdi> לאדם ליום',
+           "shabbat": 'בין <bdi dir="ltr">30</bdi> ל־<bdi dir="ltr">45 €</bdi> לאדם לארוחה', "lyon": '<bdi dir="ltr">290 €</bdi> לקבוצה של 1 עד 4', "demande": "מחיר לפי בקשה"},
+}
 
 def hero(lang):
     T = lambda s: html.escape(tt(s, lang), quote=True)
@@ -63,7 +116,7 @@ def hero(lang):
 
 # ---------------------------------------------------------------- le formulaire, par langue
 # Branches : a sejour complet, b j'ai deja mon logement, c van, d Lyon, e fete, f autre. Trois ecrans pour toutes.
-ALPES = ["intention", "ou", "quand", "qui", "sejour", "minyan", "budget", "final"]
+ALPES = ["intention", "ou", "quand", "qui", "services", "minyan", "budget", "final"]
 PATHS = {"a": ALPES, "b": ALPES, "e": ALPES, "c": ["intention", "trajet", "quandvan", "qui", "budget", "final"],
          "d": ["intention", "lyon", "qui", "budget", "final"], "f": ["intention", "message", "ou", "quand", "qui", "budget", "final"]}
 STATIONS_PRINC = ["Courchevel", "Val Thorens", "Les Menuires", "Tignes", "Megève", "Les Deux Alpes", "Val d'Isère", "Alpe d'Huez", "Chamonix", "Les Arcs", "La Plagne"]
@@ -71,7 +124,7 @@ STATIONS_HE = {"Courchevel": "קורשבל", "Val Thorens": "ואל טורנס",
                "Alpe d'Huez": "אלפ ד'ואז", "Chamonix": "שמוני", "Les Arcs": "לז ארק", "La Plagne": "לה פלאן"}
 LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "aller_retour", "arrivee", "creneau", "depart", "heure", "retour_date", "retour_heure", "flexible", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
              "logement", "chambres", "sdb", "logement_opt", "repas", "repas_jours", "allergies", "cacherout", "cacherout_detail", "minyan_niveau", "religieux", "rite", "aeroport", "vol_ville", "vols_pris", "vol", "transport",
-             "ski", "niveau", "lyon", "langue_visite", "extras", "budget_total", "budget", "budget_vols", "priorites", "message", "ville", "urgence", "pour_qui"]
+             "ski", "niveau", "lyon", "langue_visite", "extras", "budget_total", "budget_fit", "budget", "budget_vols", "priorites", "message", "ville", "urgence", "pour_qui"]
 INDICATIFS = '<option value="">{code}</option>' + "".join(f'<option value="{v}">{v} {c}</option>' for v, c in [
     ("+1", "US / CA"), ("+44", "UK"), ("+972", "IL"), ("+33", "FR"), ("+32", "BE"), ("+41", "CH"), ("+34", "ES"), ("+39", "IT"), ("+49", "DE"), ("+31", "NL"),
     ("+54", "AR"), ("+52", "MX"), ("+55", "BR"), ("+61", "AU"), ("+27", "ZA"), ("+7", "RU"), ("+380", "UA")])
@@ -180,14 +233,29 @@ def formulaire(lang):
            compteur("familles", "Families or households", b="abef", v=1) +
            compteur("chambres", "Bedrooms", b="a") +
            f'<div data-b="c">{sous("Luggage and equipment")}' + chips("bagages", ["Large suitcases", "Cabin bags only", "Skis or snowboards", "Baby seats or boosters", "Wheelchair or walker"]) + "</div>")
-    sejour = (f'<div data-b="ae">{sous("Accommodation")}' + chips("logement", ["A private chalet", "Apartments, same residence", "A hotel", "Advise me"], multi=False) + "</div>" +
-              champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b") +
-              sous("Meals") + chips("repas", ["Private chef in the chalet", "Meals delivered, ready to heat", "Shabbat meals only", "Advise me", ("No meals needed", "", "none")], multi=False) +
-              champ("allergies", "allergies", "Allergies or special diets", ph="Nut allergy for one child"))
+    # ---- 03/11 (Moshe) : « Build your stay », cartes de services a ajouter, prix « a partir de » deja publies sur le site (texte en dur, meme table que l'estimation)
+    def carte(name, val_en, titre, desc, prix, b="", sa="", svc=""):
+        return (f'<label class="pf-svc"{battr(b)}{sattr(sa)}><input type="checkbox" name="{name}" value="{E(val_en)}" data-en="{esc(val_en)}" data-svc="{svc}">'
+                f'<span class="pf-svc-t"><b>{E(titre)}</b><small>{E(desc)}</small><em class="pf-svc-p">{PRIX[lang][prix]}</em></span>'
+                f'<span class="pf-svc-add" aria-hidden="true"><i class="a">{E("+ Add")}</i><i class="d">{E("Added ✓")}</i></span></label>')
+    services = ('<div class="pf-svcs">' +
+                carte("logement", "A private chalet", "Private chalet", "Kosher chalets with the Winter Prestige team.", "chalet", b="ae", svc="chalet") +
+                carte("repas", "Private chef in the chalet", "Private chef", "A kosher chef cooks every meal in your chalet.", "chef", svc="chef") +
+                carte("repas", "Meals delivered, ready to heat", "Meals delivered", "Ready-to-heat kosher meals, delivered every two days.", "soir", svc="livre") +
+                carte("repas", "Shabbat meals only", "Shabbat meals", "Friday dinner, Saturday lunch and seuda shlishit.", "shabbat", svc="shabbat") +
+                carte("religieux", "Sefer Torah in the chalet", "Private minyan and Sefer Torah", "We gather the minyan and bring a Sefer Torah to your chalet.", "demande") +
+                carte("extras", "Private butler", "Private butler", "A butler at your service in the chalet.", "demande") +
+                carte("transport", "Private airport transfer", "Airport transfer by van", "From Lyon or Geneva airport to your door, with a driver.", "demande") +
+                carte("ski", "Ski lessons, equipment, passes", "Ski lessons, equipment, passes", "Instructors, rental delivered to the chalet, passes ready.", "demande", sa="w") +
+                carte("ski", "Snowmobile or dog sledding", "Activities", "Snowmobile, dog sledding.", "demande", sa="w") +
+                carte("lyon", "Jewish Lyon walk (2 h)", "A Jewish Lyon tour", "Guided, 2 hours, before or after the Alps.", "lyon", svc="lyon") + "</div>" +
+                champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b") +
+                champ("allergies", "allergies", "Allergies or special diets", ph="Nut allergy for one child"))
     minyan = (chips("minyan_niveau", ["The minyan is essential", "Nice to have", "Not needed"], multi=False) +
-              si("minyan_niveau!=Not needed", compteur("hommes", "Men over bar mitzvah age, for the minyan")) +
-              chips("religieux", ["Sefer Torah in the chalet"]))
-    budget = (champ("budget-total", "budget_total", "Total budget for the whole stay", ph="€", extra=' inputmode="numeric"', b="abef") +
+              si("minyan_niveau!=Not needed", compteur("hommes", "Men over bar mitzvah age, for the minyan")))
+    budget = (f'<p class="pf-est" id="dm-est" data-b="abe" aria-live="polite"></p>' +
+              champ("budget-total", "budget_total", "Total budget for the whole stay", ph="€", extra=' inputmode="numeric"', b="abef") +
+              f'<p class="pf-fit" id="dm-fit" role="status" hidden></p>' +
               f'<p class="pf-aide" data-b="abef">{E("Optional, but it helps us aim right. One figure for the whole group and the whole stay, flights aside.")}</p>' +
               zone("message-fin", "message", "Anything else we should know", "Anything that helps: a baby, a late arrival, a special diet.", b="abcde"))
     trajet = (champ("van_depart", "van_depart", "Pick-up point", ph="Lyon Saint-Exupéry airport") +
@@ -211,9 +279,9 @@ def formulaire(lang):
           etape("quandvan", "When?", "Date and time of each trip. Add the flight if you land or take off.", quandvan),
           etape("lyon", "Which visit, and when?", "Tours are held in English, French or Spanish.", lyon),
           etape("qui", "Who is coming?", [("Count the whole group, all families together.", "abef"), ("Children's ages help us choose rooms, ski school and cots.", "cd")], qui),
-          etape("sejour", "Your stay and meals", "Pick what suits you. We advise if you are not sure.", sejour),
+          etape("services", "Build your stay", "Add everything you would like. We confirm each service with you.", services),
           etape("minyan", "Minyan and Shabbat", "", minyan),
-          etape("budget", [("Your budget and your wishes", "abef"), ("Anything else?", "cd")], [("Both are optional.", "abe"), ("Optional.", "cdf")], budget)]
+          etape("budget", [("Your budget", "abe"), ("Your budget and your wishes", "f"), ("Anything else?", "cd")], [("Both are optional.", "abe"), ("Optional.", "cdf")], budget)]
 
     # ================= dernier ecran : contact
     contact = (champ("prenom", "prenom", "First name", extra=' autocomplete="given-name" required') +
@@ -228,7 +296,7 @@ def formulaire(lang):
     nav = (f'<p class="pf-accord" id="dm-accord" hidden><label><input type="checkbox" id="dm-accord-cb" name="accord" required> '
            f'<span>{esc(ACCORD[lang][0])} <a href="{ACCORD[lang][2]}" target="_blank" rel="noopener">{esc(ACCORD[lang][1])}</a></span></label>'
            f'<small class="pf-erreur" id="dm-accord-err" role="alert" hidden>{esc(ACCORD[lang][3])}</small></p>'
-           f'<div class="pf-nav" id="dm-nav" hidden>'
+           f'<div class="pf-nav" id="dm-nav" hidden><span class="pf-nsvc" id="dm-nsvc" hidden data-un="{E("1 service added")}" data-n="{E("{n} services added")}"></span>'
            f'<button type="button" class="btn-noir" id="dm-next" hidden>{E("Continue")}</button>'
            f'<button type="submit" class="btn-noir" id="dm-send" hidden>{esc(JSX[lang]["envoyer"])}</button></div>'
            f'<p class="pf-petit" id="dm-petit" hidden><small>{esc(JSX[lang]["petit"])}</small></p>')
@@ -241,7 +309,7 @@ def formulaire(lang):
 JS_TPL = r'''<script>
 (function(){var f=document.getElementById('formDemande');if(!f)return;
 var C=__CFG__;
-var KEY='mt-plan-v2-'+C.lang,TTL=2592e6;
+var KEY='mt-plan-v3-'+C.lang,TTL=2592e6;
 var ctrls=[].slice.call(f.querySelectorAll('input,select,textarea')).filter(function(e){return e.name!=='societe'&&e.name!=='accord'});
 var accord=document.getElementById('dm-accord'),accordCb=document.getElementById('dm-accord-cb'),accordErr=document.getElementById('dm-accord-err');
 ctrls.forEach(function(e){e.scr=e.closest('.pf-etape').getAttribute('data-e')});
@@ -283,8 +351,35 @@ function val(n,en){
  if(n==='enfants'||n==='bebes'){var y=parseInt(raw(n),10);if(!(y>0))return '';var g=raw(n+'_ages');return y+(g?' ('+g+')':'')}
  if(n==='voyage')return voyage(en);
  if(n==='logement'&&branch()==='b')return en?'Already booked, I need services only':C.k.logementB;
- if(n==='budget_total')return euros(raw(n));
+ if(n==='budget_total'){var bn=bnum(raw(n));return bn?euros(String(bn)):raw(n)}
+ if(n==='budget_fit'){var fr=fit();if(!fr)return '';return (en?fr.k:C.t[fr.k])+' ('+(en?'estimate':C.t.estimate)+' '+euros(String(fr.e))+')'}
  return en?rawEn(n):raw(n)}
+/* budget saisi : chiffres seuls, « 20k », « 20 mil », « 20 mille », « 20 אלף » = milliers */
+function bnum(s){s=String(s||'').toLowerCase();var m=/(\d[\d\s.,\u00a0]*)\s*(k|mil|mille|\u05d0\u05dc\u05e3)?/.exec(s);if(!m)return 0;var d=m[1].replace(/[^\d]/g,'');if(!d)return 0;var v=parseInt(d,10);if(m[2])v*=1000;return v}
+function pers(){return (parseInt(raw('adultes'),10)||0)+(parseInt(raw('enfants'),10)||0)}
+function nshab(){var a=dnum(raw('arrivee')),nn=nights();if(a===null||!(nn>0))return 0;var c=0;for(var k=0;k<nn;k++){if(new Date(a+k*864e5).getUTCDay()===5)c++}return c}
+/* Estimation indicative « a partir de » (03/11), volontairement basse : elle sert a prevenir, jamais a refuser. Prix = ceux publies sur le site (PRIX_N).
+   nuits = depart - arrivee ; personnes = adultes + enfants (bebes non comptes) ; Chabbat = vendredis du sejour.
+   chalet : 9 500 x nuits / 7 (au prorata, jamais arrondi a la semaine) ; chef : 1 568 x nuits ;
+   si chef : repas livres et repas de Chabbat comptent 0 (regle des devis de Mendel, espace.html : le chef annule les lignes de repas) ;
+   sinon repas livres : 28 (diner seul) x personnes x nuits + 180 x arrondi superieur (nuits / 2) livraisons ; Chabbat : (45 + 40 + 30) x personnes x Chabbat ;
+   visite de Lyon : 290 par groupe ; services sur demande : 0 (« plus les services sur demande »). Sans dates : pas d'estimation. */
+function estim(){var nn=nights();if(!(nn>0))return null;var s={},dem=false;ctrls.forEach(function(e){if(!e.checked||e.disabled||!e.closest('.pf-svc'))return;var k=e.getAttribute('data-svc');if(k)s[k]=1;else dem=true});
+ var P=C.prix,p=pers(),e=0;
+ if(s.chalet)e+=P.chalet*nn/7;
+ if(s.chef)e+=P.chef*nn;else{if(s.livre)e+=P.soir*p*nn+P.livraison*Math.ceil(nn/2);if(s.shabbat)e+=P.shabbat*p*nshab()}
+ if(s.lyon)e+=P.lyon;
+ return {e:Math.floor(e),dem:dem}}
+/* alerte : budget >= 90 % de l'estimation = ok ; 50 a 90 % = option la plus proche ; < 50 % = tres en dessous. Rien sous 1 000 € saisis ni sans estimation. Jamais bloquant. */
+function fit(){if('abe'.indexOf(branch()||'x')<0)return null;var es=estim();if(!es||!es.e)return null;var b=bnum(raw('budget_total'));if(b<1000)return null;var r=b/es.e;return {k:r>=.9?'fits':r>=.5?'below':'far below',e:es.e}}
+function majEst(){var el=document.getElementById('dm-est'),ft=document.getElementById('dm-fit');if(!el)return;if('abe'.indexOf(branch()||'x')<0){el.textContent='';ft.hidden=true;return}
+ var es=estim();el.textContent='';
+ if(es===null)el.textContent=C.t.nodates;
+ else if(es.e>=1e5)el.textContent=C.t.large;
+ else if(es.e>0){var r=es.e<1000?Math.floor(es.e/100)*100:Math.floor(es.e/500)*500,t=C.t.est.split('{x}');el.appendChild(document.createTextNode(t[0]));var bd=document.createElement('bdi');bd.dir='ltr';bd.textContent=r.toLocaleString(C.loc)+' €';el.appendChild(bd);el.appendChild(document.createTextNode(t[1]+(es.dem?C.t.dem:'.')))}
+ var fr=fit();ft.hidden=!fr;if(fr){ft.className='pf-fit pf-fit-'+fr.k.replace(' ','-');ft.textContent=C.t['al_'+fr.k.replace(' ','_')]}}
+function majN(){var el=document.getElementById('dm-nsvc');if(!el)return;var n=ctrls.filter(function(e){return e.checked&&!e.disabled&&e.closest('.pf-svc')}).length;el.hidden=!(cur==='services'&&n>0);el.textContent='';
+ if(n===1)el.textContent=el.getAttribute('data-un');else{var t=el.getAttribute('data-n').split('{n}'),b=document.createElement('bdi');b.textContent=n;el.appendChild(document.createTextNode(t[0]));el.appendChild(b);el.appendChild(document.createTextNode(t[1]||''))}}
 function ckey(e){return (e.type==='checkbox'||e.type==='radio')?'k:'+e.name+'|'+(e.getAttribute('data-en')||e.value):'i:'+(e.id||e.name)}
 /* 02/11 : reponses gardees dans ce navigateur (localStorage, 30 jours), par champ et non par position ; effacees a l'envoi */
 function save(){try{var v={};ctrls.forEach(function(e){if(e.type==='checkbox'||e.type==='radio'){if(e.checked)v[ckey(e)]=1}else if(e.value)v[ckey(e)]=e.value});
@@ -312,6 +407,7 @@ function render(){var p=sync();plis();if(p.indexOf(cur)<0)cur='intention';
  bNext.disabled=(cur==='intention'&&!b)||bad;
  var n=i+1,N=b?p.length:C.total;ptxt.textContent=C.t.step.replace('{n}',n).replace('{t}',N);var pc=Math.round(n/N*100);
  [].forEach.call(f.querySelectorAll('.pf-pas'),function(x){var on=!!lieuIn&&lieuIn.value===x.getAttribute('data-lieu');x.classList.toggle('on',on);x.setAttribute('aria-pressed',on?'true':'false')});barre.style.width=pc+'%';barreC.setAttribute('aria-valuenow',pc);
+ majN();majEst();
  save()}
 function show(id,push,focus){var p=sync();if(p.indexOf(id)<0)id='intention';
  var oi=p.indexOf(cur),ni=p.indexOf(id);f.setAttribute('data-dir',ni<oi?'back':'fwd');
@@ -410,7 +506,7 @@ def js(lang):
            "lab": [[k, lab[k]] for k in LAB_ORDER], "labEn": [[k, lab_en[k]] for k in LAB_ORDER],
            "k": {"tour": JSX[lang]["tour"], "none": JSX[lang]["none"], "datesj": JSX[lang]["datesj"], "adultes": JSX[lang]["adultes"], "enfants": JSX[lang]["enfants"],
                  "bebes": JSX[lang]["bebes"], "logementB": T("Already booked, I need services only")},
-           "t": {"step": T("Step {n} of {t}"), "nuits": T("{n} nights"), "nuit": T("1 night"), "sending": T("Sending…"), "ko": KO}}
+           "prix": PRIX_N, "t": {"step": T("Step {n} of {t}"), "est": T("From about {x} for your selection"), "dem": T(", plus services on request."), "large": T("Your selection is a large project: we will build it with you."), "nodates": T("Add your dates to see an estimate."), "fits": T("fits"), "below": T("below"), "far below": T("far below"), "estimate": T("estimate"), "al_fits": T("Your budget fits your selection."), "al_below": T("With this budget we will suggest the closest option (delivered meals instead of a chef, for example)."), "al_far_below": T("This is below what a private kosher stay in the Alps costs. We may not be able to help; consider delivered meals or an apartment."), "nuits": T("{n} nights"), "nuit": T("1 night"), "sending": T("Sending…"), "ko": KO}}
     assert set(LAB_ORDER) >= set(LAB[lang]), set(LAB[lang]) - set(LAB_ORDER)
     return JS_TPL.replace("__CFG__", json.dumps(cfg, ensure_ascii=False))
 
@@ -480,6 +576,34 @@ P .pf-auto button:hover,P .pf-auto button:focus-visible{background:#F4F4F2}
 /* cases : liste a coches, sans cadre ni pastille, deux colonnes */
 P .pf-chips{display:grid;grid-template-columns:1fr;gap:10px}
 P #e-quand .pf-chips{grid-template-columns:1fr 1fr}
+/* 03/11 : cartes de services (« Build your stay »), panier, estimation et alertes de budget */
+P .pf-svcs{display:grid;grid-template-columns:1fr;gap:10px}
+P .pf-svc{position:relative;display:grid;grid-template-columns:1fr auto;align-items:center;gap:6px 14px;padding:16px 16px 16px 18px;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;cursor:pointer;transition:border-color .15s,background-color .15s}
+P .pf-svc input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+P .pf-svc:hover{border-color:#111111}
+P .pf-svc:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+P .pf-svc-t{display:grid;gap:4px;min-width:0}
+P .pf-svc-t b{font-size:13.5px;font-weight:400!important;letter-spacing:.1em;text-transform:uppercase;line-height:1.3;color:#111111}
+P .pf-svc-t small{font-size:13.5px;line-height:1.4;color:#6B6B6B}
+P .pf-svc-p{font-style:normal;font-size:13px;color:#5B3A29}
+P .pf-svc-add{flex:none;min-width:92px;padding:9px 12px;border:1px solid #111111;border-radius:4px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:#111111;background:#FFFFFF}
+P .pf-svc-add .d{display:none}
+P .pf-svc-add i{font-style:normal!important}
+P .pf-svc:has(input:checked){border-color:#111111;background:#F4F4F2}
+P .pf-svc:has(input:checked) .pf-svc-add{background:#111111;color:#FFFFFF}
+P .pf-svc:has(input:checked) .pf-svc-add .a{display:none}
+P .pf-svc:has(input:checked) .pf-svc-add .d{display:inline}
+P .pf-svc-add:lang(he),P .pf-svc-t b:lang(he){letter-spacing:0}
+P .pf-nsvc{flex:none;font-size:12px;letter-spacing:.08em;color:#5B3A29}
+P .pf-est{margin:0 0 6px;padding:16px 0;border-top:1px solid #E6E6E6;border-bottom:1px solid #E6E6E6;font-size:16px;line-height:1.45;color:#111111}
+P .pf-est:empty{display:none}
+P .pf-fit{margin:10px 0 0;padding:0 0 0 14px;border-left:2px solid #6B6B6B;font-size:14px;line-height:1.5;color:#111111}
+html[dir=rtl] .pf-fit{padding:0 14px 0 0!important;border-left:0!important;border-right:2px solid #6B6B6B!important}
+P .pf-fit-fits{border-color:#111111}
+P .pf-fit-fits::before{content:'\2713  '}
+P .pf-fit-below{border-color:#5B3A29}
+P .pf-fit-far-below{border-color:#9B2C1F;color:#9B2C1F}
+
 P .pf [data-b] > * + *{margin-top:20px}
 P #e-quand .pf-c{padding:12px 14px;font-size:14.5px}
 P .pf-c{position:relative;display:flex;align-items:center;min-height:56px;padding:14px 18px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;font-size:15px;line-height:1.3;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
