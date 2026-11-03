@@ -4,7 +4,7 @@
 
    PERIMETRE : toute page <lang>/<slug>/index.html dont le <body> porte la classe kwp-hiver ou kwp-ete,
    OU dont le HTML contient <!--KIT-WP:hero-->. L'accueil, Lyon, legales, merci, demande ne bougent pas.
-   IMAGE : img/og/<slug>.jpg 1200x630 (qualite 82, < 180 Ko), photo REELLE du heros (plus grande variante de img/h/),
+   IMAGE (depuis le 03/11 soir : rendue par _og_lv.py wp, gabarit blanc LV + lockup or brosse ; l ancien rendu ci-dessous est conserve pour memoire) : img/og/<slug>.jpg 1200x630 (qualite 82, < 180 Ko), photo REELLE du heros (plus grande variante de img/h/),
    degrade sombre en bas, logo wp-long-or-powered.svg centre en bas (630 px de large : le carre central 630x630 le garde entier).
    Une image par FAMILLE de page (slug sans prefixe de langue) : les 4 langues partagent la meme.
    LOGO : le SVG est rendu par Chromium (Playwright) a 3x puis reduit, aucun logo redessine.
@@ -113,13 +113,9 @@ def main():
         if ph and (slug not in sources or lang == "en"): sources[slug] = ph
     manque = sorted({famille(r)[1] for r, _, _ in pages} - set(sources))
     if manque: print("SANS PHOTO DE HEROS (image Mishpacha conservee) :", manque)
-    with tempfile.TemporaryDirectory() as tmp:
-        logo = rendre_logo(tmp)
-        gros = []
-        for slug, ph in sorted(sources.items()):
-            n = fabriquer(ph, logo, os.path.join(ROOT, "img", "og", slug + ".jpg"))
-            if n > 179000: gros.append((slug, n))
-    print("images ecrites :", len(sources), "| au-dessus de 180 Ko :", gros)
+    # 03/11 soir (Moshe : logo WP invisible sur la photo, or du kit au lieu de l'or brosse) : les images sont rendues par _og_lv.py wp
+    # (gabarit blanc de la charte LV, lockup en or brosse) ; ce script ne fait plus que poser les balises.
+    import _og_lv; _og_lv.wp()
     modif = 0
     for rel, f, h in pages:
         slug = famille(rel)[1]
