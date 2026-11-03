@@ -1005,6 +1005,106 @@ body:has(#formDemande) .wa-flottant{display:none!important}
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{font-size:15px}
   body:has(#formDemande.avance) .pied{display:none}
 }
+/* 03/11 v4 (Moshe : « condense, ultra luxe, sans swiper ») : chaque ecran tient dans 390 x 844, en-tete, barre, bouton et bandeau cookies compris */
+body:has(#formDemande) .pied{display:none!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl{position:relative;display:grid;grid-template-columns:52px 1fr;align-items:center;gap:0 14px;height:64px;padding:6px 40px 6px 6px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;cursor:pointer;overflow:hidden;transition:border-color .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl-img{display:contents}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl img{grid-row:1 / span 2;width:52px;height:52px;object-fit:cover;border-radius:2px;display:block}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl b{align-self:end;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:13px;font-weight:400!important;letter-spacing:.06em;text-transform:uppercase;line-height:1.2;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl small{align-self:start;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px;line-height:1.25;color:#5B3A29;margin-top:3px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl i{position:absolute;top:50%;margin-top:-10px;inset-inline-end:12px;width:20px;height:20px;border:1px solid #CFCFCF;box-sizing:border-box;background:#FFFFFF!important;opacity:1!important;border-radius:50%;background:#111111;opacity:0;transition:opacity .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl:has(input:checked) i::after{content:"";position:absolute;left:6px;top:3px;width:4px;height:8px;border-right:1.5px solid #FFFFFF;border-bottom:1.5px solid #FFFFFF;transform:rotate(45deg)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl:has(input:checked){border:2px solid #111111;padding:5px 39px 5px 5px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl{--x:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl:has(input:checked) i{background:#111111!important;border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl b:lang(he){letter-spacing:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls{display:grid;grid-template-columns:1fr;gap:8px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mcs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc{position:relative;display:grid;justify-items:center;align-content:center;gap:8px;height:112px;padding:8px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;text-align:center;font-size:13.5px;line-height:1.25;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc img{width:48px;height:48px;display:block}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc:has(input:checked){border:2px solid #111111;padding:7px;background:#F4F4F2}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pastilles{grid-template-columns:repeat(3,1fr)!important;gap:8px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas{min-height:44px;padding:6px 6px;font-size:13px;letter-spacing:.02em}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas.on{background:#111111!important;border-color:#111111!important;color:#FFFFFF!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas.on span{color:#FFFFFF!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-perso{margin:0;font-size:17px;line-height:1.45;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-notes{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:4px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-notes li{font-size:13px;line-height:1.4;color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-notes li::before{content:"";display:inline-block;width:5px;height:5px;margin-inline-end:8px;vertical-align:2px;background:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-notes:empty{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-avis .pf-chips{grid-template-columns:1fr 1fr!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-avis[hidden]{display:none!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-resume{margin:12px 0 0;padding:8px 0 0;text-transform:none!important;letter-spacing:0!important;border-top:1px solid #E6E6E6;font-size:13.5px;line-height:1.5;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-res-b{padding:0;border:0;background:none;font:inherit;font-size:13.5px!important;text-transform:none!important;letter-spacing:0!important;color:inherit;text-decoration:underline;text-decoration-color:#CFCFCF;text-underline-offset:3px;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-res-e{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6B6B6B}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand .pf-chips{grid-template-columns:1fr 1fr}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand [data-si] .pf-chips{grid-template-columns:repeat(4,1fr)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand [data-si] .pf-c{padding:8px 4px;justify-content:center;text-align:center;font-size:13px}
+@media (max-width:699px){
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf-hero:not(#pf0){position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);padding:0!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf:not(#pf0){padding:40px 24px 0!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form{padding-bottom:calc(76px + var(--pf-cb,0px))}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog{margin:0 0 16px;min-height:24px;gap:8px 12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete{margin:0 0 14px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2{font-size:21px!important;line-height:1.2!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete p{margin-top:4px;font-size:13px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-etape > * + *,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf [data-b] > * + *{margin-top:12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-sous{margin:16px 0 6px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{gap:8px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{min-height:46px;padding:10px 14px;font-size:14px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt{min-height:50px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt button{width:38px;height:38px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ{gap:4px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ :is(input,select){min-height:44px;padding:9px 12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ textarea{min-height:52px;height:52px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav{padding:8px 24px calc(8px + env(safe-area-inset-bottom))!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:not(#pf0){min-height:48px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord{margin-top:14px;font-size:12.5px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-petit{display:none!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-wa{display:none}
+}
+/* 03/11 v5 : dates par mois par defaut, extras compacts sur 2 colonnes, minyan en lignes a trois pastilles, bouton « essentiels » */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-off{display:none!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bascule{grid-template-columns:1fr 1fr!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2{grid-template-columns:1fr 1fr!important;gap:8px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl{grid-template-columns:40px 1fr;gap:0 8px;height:56px;padding:5px 26px 5px 5px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl:has(input:checked){padding:4px 25px 4px 4px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl img{width:40px;height:40px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl b{font-size:11.5px;letter-spacing:.04em;white-space:normal;line-height:1.15;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl small{font-size:10.5px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl i{width:16px;height:16px;margin-top:-8px;inset-inline-end:6px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl:has(input:checked) i::after{left:5px;top:2px;width:3.5px;height:7px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bess{display:grid;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes{display:grid;gap:6px;padding:0 0 10px;border-bottom:1px solid #E6E6E6}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t{display:flex;align-items:center;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t img{width:32px;height:32px;object-fit:cover;border-radius:2px;flex:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t b{font-size:13px;font-weight:400!important;letter-spacing:.06em;text-transform:uppercase;line-height:1.25}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t b:lang(he){letter-spacing:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nivs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv{position:relative;display:flex;align-items:center;justify-content:center;min-height:38px;padding:4px 6px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;font-size:12.5px;line-height:1.15;text-align:center;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv:has(input:checked){background:#111111;border-color:#111111;color:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ess{margin:10px 0 0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ess-b{min-height:40px;padding:0 16px;border:1px solid #111111;border-radius:4px;background:#FFFFFF;color:#111111;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ess-b:lang(he){letter-spacing:0}
+/* 03/11 : page /merci/ en charte LV */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf-merci:not(#pf0){padding:56px 24px 72px!important;background:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-c{max-width:640px;margin:0 auto;text-align:center}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-hp{display:block;width:40px;height:auto;margin:0 auto 22px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci .fil{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#6B6B6B!important;opacity:1!important;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci .fil a{color:#6B6B6B!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-merci h1{margin:14px 0 0!important;font-size:clamp(24px,4vw,38px)!important;font-weight:300!important;letter-spacing:.08em!important;line-height:1.2!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-merci h1:lang(he){letter-spacing:0!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-t{margin:16px auto 0;max-width:30em;font-size:16px;line-height:1.55;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-b:not(#pf0){display:inline-flex;align-items:center;gap:10px;margin-top:30px;min-height:52px;padding:0 28px;background:#111111!important;color:#FFFFFF!important;-webkit-text-fill-color:#FFFFFF!important;border:1px solid #111111!important;border-radius:4px!important;font-size:12px!important;letter-spacing:.18em!important;text-transform:uppercase}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-b svg{width:18px;height:18px;fill:currentColor}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-r{margin-top:26px;font-size:13px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-r a{color:#111111!important;text-decoration:underline;text-underline-offset:3px}
 /* ===/DEMANDE-ETAPES=== */
 /* SHABBAT v2 (15/10) */
 .shabbat .sh-tete{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
