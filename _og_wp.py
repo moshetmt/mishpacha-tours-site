@@ -5,7 +5,7 @@
    PERIMETRE : toute page <lang>/<slug>/index.html dont le <body> porte la classe kwp-hiver ou kwp-ete,
    OU dont le HTML contient <!--KIT-WP:hero-->. L'accueil, Lyon, legales, merci, demande ne bougent pas.
    IMAGE : img/og/<slug>.jpg 1200x630 (qualite 82, < 180 Ko), photo REELLE du heros (plus grande variante de img/h/),
-   degrade sombre en bas, logo wp-long-or-powered.svg en bas a gauche (hauteur 120 px).
+   degrade sombre en bas, logo wp-long-or-powered.svg centre en bas (630 px de large : le carre central 630x630 le garde entier).
    Une image par FAMILLE de page (slug sans prefixe de langue) : les 4 langues partagent la meme.
    LOGO : le SVG est rendu par Chromium (Playwright) a 3x puis reduit, aucun logo redessine.
    Puis og:image et twitter:image des pages du perimetre pointent sur https://mishpachatours.com/img/og/<slug>.jpg.
@@ -16,7 +16,7 @@ from PIL import Image, ImageDraw
 ROOT = os.path.dirname(os.path.abspath(__file__))
 BASE = "https://mishpachatours.com"
 LANGS = ("fr", "es", "he")
-W, H, LOGO_H = 1200, 630, 120
+W, H, LOGO_W = 1200, 630, 630
 
 def famille(rel):
     """'fr/kosher-chalet-x/index.html' -> ('fr','kosher-chalet-x')"""
@@ -52,21 +52,20 @@ def photo_heros(h):
     return None
 
 def rendre_logo(tmp):
-    """SVG -> PNG transparent via Chromium, 3x puis LANCZOS a LOGO_H de haut."""
+    """SVG -> PNG transparent via Chromium (2x), recadre sur le dessin, puis LANCZOS a LOGO_W de large (630 = carre central 630x630 de l'image :
+    un recadrage carre garde le logo entier ; la ligne Powered by atteint ~14 px de haut de lettres)."""
     from playwright.sync_api import sync_playwright
     svg = os.path.join(ROOT, "img", "wp-long-or-powered.svg")
-    ratio = 1221.6 / 430.2
-    w, h = round(LOGO_H * ratio * 3), LOGO_H * 3
     out = os.path.join(tmp, "logo.png")
+    html = os.path.join(tmp, "logo.html")
+    open(html, "w", encoding="utf-8").write(f'<body style="margin:0;background:transparent"><img id="l" src="file:///{svg.replace(chr(92),"/")}" style="width:2444px;height:860px;display:block"></body>')
     with sync_playwright() as p:
-        b = p.chromium.launch(); pg = b.new_page(viewport={"width": w, "height": h})
-        html = os.path.join(tmp, "logo.html")
-        open(html, "w", encoding="utf-8").write(f'<body style="margin:0;background:transparent"><img id="l" src="file:///{svg.replace(chr(92),"/")}" style="width:{w}px;height:{h}px;display:block"></body>')
+        b = p.chromium.launch(); pg = b.new_page(viewport={"width": 2444, "height": 860})
         pg.goto("file:///" + html.replace(chr(92), "/"))
         pg.wait_for_function("document.getElementById('l').complete && document.getElementById('l').naturalWidth>0")
         pg.screenshot(path=out, omit_background=True); b.close()
-    im = Image.open(out).convert("RGBA")
-    return im.resize((round(LOGO_H * ratio), LOGO_H), Image.LANCZOS)
+    im = Image.open(out).convert("RGBA"); im = im.crop(im.getchannel("A").getbbox())
+    return im.resize((LOGO_W, round(im.height * LOGO_W / im.width)), Image.LANCZOS)
 
 def fabriquer(photo, logo, dest):
     im = Image.open(photo).convert("RGB")
@@ -74,23 +73,21 @@ def fabriquer(photo, logo, dest):
     im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
     x = (im.width - W) // 2; y = max(0, min(im.height - H, round((im.height - H) * 0.4)))
     im = im.crop((x, y, x + W, y + H)).convert("RGBA")
+    lh = logo.height
+    ly = H - lh - 64                      # logo centre, sous le milieu de l'image
     deg = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(deg)
     for yy in range(H):
         t = yy / H
-        a = 0.12 * 255 + (max(0, (t - 0.40) / 0.60) ** 1.0) * 0.82 * 255
-        d.line([(0, yy), (W, yy)], fill=(10, 10, 12, round(min(a, 235))))
+        a = 0.14 * 255 + (max(0, (t - 0.28) / 0.72) ** 1.0) * 0.80 * 255
+        d.line([(0, yy), (W, yy)], fill=(8, 8, 10, round(min(a, 235))))
     im = Image.alpha_composite(im, deg)
-    # voile supplementaire a gauche sous le logo, pour que la ligne Powered by se lise sur un bois clair
-    voile = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dv = ImageDraw.Draw(voile)
-    for xx in range(700):
-        a = round(0.5 * 255 * (1 - xx / 700) ** 1.3)
-        dv.line([(xx, H - 260), (xx, H)], fill=(8, 8, 10, a))
-    mask = Image.linear_gradient("L").resize((1, 260)).resize((700, 260))
-    voile_a = voile.crop((0, H - 260, 700, H)); r, g, b, al = voile_a.split()
-    from PIL import ImageChops
-    voile_a.putalpha(ImageChops.multiply(al, mask))
-    im.alpha_composite(voile_a, (0, H - 260))
-    im.alpha_composite(logo, (48, H - LOGO_H - 40))
+    # voile elliptique sombre derriere le logo (lisible sur bois clair et neige, y compris a 300 px de large)
+    from PIL import ImageFilter
+    ell = Image.new("L", (W, H), 0); ImageDraw.Draw(ell).ellipse((W // 2 - 520, ly - 70, W // 2 + 520, ly + lh + 70), fill=170)
+    ell = ell.filter(ImageFilter.GaussianBlur(45))
+    voile = Image.new("RGBA", (W, H), (6, 6, 8, 0)); voile.putalpha(ell)
+    im = Image.alpha_composite(im, voile)
+    im.alpha_composite(logo, ((W - logo.width) // 2, ly))
     im = im.convert("RGB")
     for q in (82, 78, 74, 70):
         buf = io.BytesIO(); im.save(buf, "JPEG", quality=q, optimize=True, progressive=True)

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """Logo Winter Prestige en grand sur les pages Alpes (Mendel Attal, 03/11/2026). Idempotent : un bloc deja pose n'est pas repose.
    PERIMETRE (meme regle que _og_wp.py) : <body> avec la classe kwp-hiver ou kwp-ete, ou HTML contenant <!--KIT-WP:hero-->.
-   1. Signature « A Winter Prestige chalet » (flocon wp-flocon-or.svg + texte) sous le H1 du heros des pages chalet
-      (dossiers kosher-chalet-*/ et kosher-slope-chalet-*/, 4 langues), bloc <!--LOGO-WP:sign-->...<!--/LOGO-WP:sign-->.
+   1. Signature « A Winter Prestige chalet » sous le H1 : RETIREE par decision de Moshe (03/11). Le script l'enleve des pages qui la
+      portent encore (compteur « sign » = pages ou elle a ete retiree) et ne la repose plus.
    2. Pied de page : « with Winter Prestige » en texte devient le logo wp-long-or.svg precede de with / avec / con / עם,
       bloc <!--LOGO-WP:pied-->...<!--/LOGO-WP:pied-->. Le logo Mishpacha Tours reste en premier.
-   3. En-tete co-marque (demande Moshe 03/11) : filet dore + flocon + « WINTER PRESTIGE / Powered by Mishpacha Tours » a droite du logo
+   3. En-tete co-marque (demande Moshe 03/11) : filet dore + logotype wp-long-or.svg + « Powered by Mishpacha Tours » (texte 12 px) a droite du logo
       Mishpacha Tours, bloc <!--LOGO-WP:entete--> (HTML present des le chargement ; mini script inline : animation une fois par visite, cle
       sessionStorage wpEntete, jamais si prefers-reduced-motion cote CSS).
    4. Le CSS (heros ordinateur plus large, signature, pied) est dans lv.css, bloc ===LOGO-WP-2026-11-03===.
@@ -41,11 +41,9 @@ def main():
         if not dans_perimetre(h): continue
         lang, slug = lang_slug(rel)
         n = h
-        if est_chalet(slug) and "<!--LOGO-WP:sign-->" not in n:
-            bloc = ('<!--LOGO-WP:sign--><div class="wp-signature"><img src="/img/wp-flocon-or.svg" alt="" width="28" height="28">'
-                    f'<span>{SIGNATURE[lang]}</span></div><!--/LOGO-WP:sign-->')
-            n2 = re.sub(r'(<section class="hero.*?</h1>)', lambda m: m.group(1) + bloc, n, count=1, flags=re.S)
-            if n2 != n: n = n2; cnt["sign"][lang] = cnt["sign"].get(lang, 0) + 1
+        # Signature « A Winter Prestige chalet » : RETIREE (decision Moshe 03/11). On l'enleve des pages qui la portent encore.
+        n2 = re.sub(r"<!--LOGO-WP:sign(?:ature)?-->.*?<!--/LOGO-WP:sign(?:ature)?-->", "", n, flags=re.S)
+        if n2 != n: n = n2; cnt["sign"][lang] = cnt["sign"].get(lang, 0) + 1
         if "<!--LOGO-WP:pied-->" not in n:
             def pied(m):
                 texte = m.group(2)
@@ -55,12 +53,14 @@ def main():
                         '</em><span class="wp-pied-logo"><img src="/img/wp-long-or.svg" alt="Winter Prestige" width="172" height="61"></span></span><!--/LOGO-WP:pied--></p>')
             n2 = re.sub(r'(<p class="logo-pied">.*?<span class="mot"[^>]*>[^<]*</span>)<small>([^<]*)</small></p>', pied, n, count=1, flags=re.S)
             if n2 != n: n = n2; cnt["pied"][lang] = cnt["pied"].get(lang, 0) + 1
-        if "<!--LOGO-WP:entete-->" not in n:
+        if True:
             bloc = ('<!--LOGO-WP:entete--><script>try{if(!sessionStorage.getItem("wpEntete")){sessionStorage.setItem("wpEntete","1");document.documentElement.classList.add("wp-anim")}}catch(e){}</script>'
-                    '<div class="wp-entete"><img src="/img/wp-flocon-or.svg" alt="" width="34" height="34"><span class="wp-e-txt"><b translate="no">Winter Prestige</b><small translate="no">Powered by Mishpacha Tours</small></span></div><!--/LOGO-WP:entete-->')
+                    '<div class="wp-entete"><span class="wp-e-txt"><span class="wp-lt"><img src="/img/wp-long-or.svg" alt="Winter Prestige" width="1222" height="430"></span><small translate="no">Powered by Mishpacha Tours</small></span></div><!--/LOGO-WP:entete-->')
+            n = re.sub(r"<!--LOGO-WP:entete-->.*?<!--/LOGO-WP:entete-->", "", n, flags=re.S)
             n2 = re.sub(r'(<header class="nav">\s*<a class="logo".*?</a>)', lambda m: m.group(1) + bloc, n, count=1, flags=re.S)
-            if n2 != n: n = n2; cnt["entete"][lang] = cnt["entete"].get(lang, 0) + 1
+            if n2 != n: n = n2
+            if n != h: cnt["entete"][lang] = cnt["entete"].get(lang, 0) + 1
         if n != h: open(f, "w", encoding="utf-8", newline="").write(n)
-    print("signatures posees :", cnt["sign"], "| pieds de page :", cnt["pied"], "| en-tetes :", cnt["entete"])
+    print("signatures retirees :", cnt["sign"], "| pieds de page :", cnt["pied"], "| en-tetes :", cnt["entete"])
 
 if __name__ == "__main__": main()

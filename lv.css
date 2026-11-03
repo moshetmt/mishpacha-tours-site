@@ -549,11 +549,6 @@ html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.hero .lead3-bloc .kwp-hero-wp .wp-brille{width:440px !important;max-width:min(440px,100%) !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.hero .lead3-bloc .kwp-hero-wp .wp-brille img{width:100% !important;max-width:100% !important}
 }
-/* signature sous le H1 des pages chalet */
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .wp-signature{display:flex;align-items:center;gap:12px;margin:16px 0 0;direction:inherit}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .wp-signature img{width:34px;height:34px;flex:none;display:block;filter:drop-shadow(0 0 3px rgba(0,0,0,.95)) drop-shadow(0 0 10px rgba(0,0,0,.7))}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .wp-signature span{font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;line-height:1.3}
-html[lang="he"] body.lv .wp-signature span{letter-spacing:.02em;text-transform:none;font-size:15px}
 /* pied de page : « with » + logo Winter Prestige sous le logo Mishpacha Tours (le texte seul est remplace) */
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .logo-pied .wp-pied{display:flex;align-items:center;gap:14px;width:100%;margin-top:6px;direction:ltr}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .logo-pied .wp-pied em{font-style:normal;font-family:'Jost',system-ui,sans-serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#9A9A9A}
@@ -565,34 +560,45 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .logo-pied .wp-pied-logo{height:36px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) footer.pied .logo-pied .wp-pied-logo img{height:50px;margin-top:-7px}
 }
-/* en-tete co-marque (Moshe 03/11) : etat final = bonhomme | filet or | flocon | WINTER PRESTIGE / Powered by Mishpacha Tours ; le mot-marque est masque
-   (le lien garde son aria-label « Mishpacha Tours »). Animation a la 1re visite : mot-marque visible puis fondu et repli, le bloc WP apparait. */
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .mot{display:none !important}
+/* en-tete co-marque (Moshe 03/11, revu apres relecture) : etat final = bonhomme | filet or | logotype wp-long-or.svg (flocon + WINTER PRESTIGE, jamais retape)
+   avec « Powered by Mishpacha Tours » en texte 12 px dessous. Le mot-marque « mishpacha tours » est masque (aria-label du lien conserve).
+   Un seul or : celui du SVG ; le filet est un SVG de cet or (img/wp-filet.svg). Animation 1re visite : fondu enchaine, aucune mise en page ne bouge. */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo{position:relative;flex:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .mot{position:absolute !important;inset-inline-start:calc(100% + 16px);top:50%;transform:translateY(-50%);opacity:0;pointer-events:none;white-space:nowrap}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{display:flex;align-items:center;gap:12px;margin-inline-start:16px;margin-inline-end:auto;flex:none;direction:ltr}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete::before{content:"";width:1px;height:36px;background:#D9A93A;flex:none}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete img{width:32px;height:32px;display:block;flex:none}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt{display:flex;flex-direction:column;gap:4px;line-height:1}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt b{font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:15px;letter-spacing:.26em;text-transform:uppercase;color:#D9A93A;white-space:nowrap}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt small{font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:11px;letter-spacing:.1em;color:#BDBDBD;white-space:nowrap}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete::before{content:"";width:1px;height:40px;background:url(/img/wp-filet.svg) center/100% 100% no-repeat;flex:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt{display:flex;flex-direction:column;align-items:flex-start;gap:2px;line-height:1}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-lt{display:block;width:141px;height:38px;overflow:hidden;position:relative}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-lt img{position:absolute;left:-1px;top:-7px;width:149px;height:52px;max-width:none;display:block;filter:none !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt small{font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:12px;letter-spacing:.02em;color:#BDBDBD;white-space:nowrap}
+/* 900 a 1199 px : menu resserre pour que le bloc Winter Prestige ne le pousse pas sur deux lignes */
+@media (min-width:900px) and (max-width:1199.98px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens{gap:12px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .nav-ch-lien{letter-spacing:.1em !important;white-space:nowrap !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a.nav-cta{padding-inline:14px !important}
+}
 @media (max-width:899.98px){
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{gap:8px;margin-inline-start:10px}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete::before{height:30px}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete img{width:26px;height:26px}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt{gap:3px}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt b{font-size:11px;letter-spacing:.14em}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt small{font-size:10px;letter-spacing:.03em}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{gap:10px;margin-inline-start:12px}
 }
-@media (max-width:899.98px) and (min-width:381px){
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt b{font-size:12px}
-}
-@media (min-width:900px) and (max-width:1100px){
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt{display:none}
-}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo{flex:none !important}
 @keyframes wpEntFondu{from{opacity:0}to{opacity:1}}
-@keyframes wpEntMot{from{opacity:1;max-width:240px}60%{opacity:0}to{opacity:0;max-width:0}}
+@keyframes wpEntMot{from{opacity:1}to{opacity:0}}
 @media (prefers-reduced-motion:no-preference){
 html.wp-anim body.lv .nav .wp-entete{animation:wpEntFondu .45s cubic-bezier(.22,.61,.36,1) both}
-html.wp-anim body.lv .nav .logo .mot{display:inline-block !important;overflow:hidden;white-space:nowrap;animation:wpEntMot .45s cubic-bezier(.22,.61,.36,1) both}
+html.wp-anim body.lv .nav .logo .mot{animation:wpEntMot .45s cubic-bezier(.22,.61,.36,1) both}
+}
+@media (min-width:900px) and (max-width:1049.98px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{margin-inline-end:14px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens{gap:9px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .nav-ch-lien{letter-spacing:.05em !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .liens a.nav-cta{padding-inline:10px !important}
+}
+/* heros ordinateur (ecran de 1000 px de haut au plus) : le bouton « Plan my trip » reste au-dessus de la barre flottante « Plan your trip » (mesure 1440x900 : bouton a 848-902 px contre barre a 810-860 avant) */
+@media (min-width:900px) and (max-height:1000px){
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.hero.lead-hero3:not(.ac-hero){padding:24px 0 16px !important;min-height:0 !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.hero.lead-hero3 .lead3-texte{padding-top:28px !important;padding-bottom:16px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.hero.lead-hero3 .lead3-bloc .kwp-hero-wp{padding-bottom:8px !important;margin-bottom:8px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.hero.lead-hero3 .lead3-btns{margin-top:14px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.hero.lead-hero3 .lead3-bloc>p{margin-top:12px !important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pyt-flottant{bottom:12px !important}
 }
 /* ===/LOGO-WP-2026-11-03=== */
