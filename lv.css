@@ -569,10 +569,10 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
    (le lien garde son aria-label « Mishpacha Tours »). Animation a la 1re visite : mot-marque visible puis fondu et repli, le bloc WP apparait. */
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .logo .mot{display:none !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{display:flex;align-items:center;gap:12px;margin-inline-start:16px;margin-inline-end:auto;flex:none;direction:ltr}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete::before{content:"";width:1px;height:36px;background:#C9A961;flex:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete::before{content:"";width:1px;height:36px;background:#D9A93A;flex:none}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete img{width:32px;height:32px;display:block;flex:none}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt{display:flex;flex-direction:column;gap:4px;line-height:1}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt b{font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:15px;letter-spacing:.26em;text-transform:uppercase;color:#C9A961;white-space:nowrap}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt b{font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:15px;letter-spacing:.26em;text-transform:uppercase;color:#D9A93A;white-space:nowrap}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete .wp-e-txt small{font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:11px;letter-spacing:.1em;color:#BDBDBD;white-space:nowrap}
 @media (max-width:899.98px){
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .nav .wp-entete{gap:8px;margin-inline-start:10px}
