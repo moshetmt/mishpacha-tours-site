@@ -35,3 +35,28 @@ for stem, hd in MAP.items():
                 out.resize((ww, hh), Image.LANCZOS).save(os.path.join(d, f), "WEBP", quality=80, method=6); n += 1
     print(stem, "<-", hd, (W, H))
 print("fichiers écrits :", n)
+
+# ---- 04/11 : les 10 photos sans équivalent HD, agrandissement fidèle B (essai E:\taches\megeve-essais-agrandissement.jpg) :
+# Real-ESRGAN x4plus (déjà calculé en octobre dans _tmp/) puis réduction DIRECTE aux dimensions du site + grain fin, au lieu de
+# l'étirement à 2000 px d'octobre qui donnait le rendu lisse « 3D ». Miroir et recadrage comme avant, aucune IA générative.
+import numpy as np
+TMP = os.path.join(ROOT, "..", "..", "00-brief", "references", "2026-10-16-megeve-bibi", "_tmp")
+BASSE = {"n0-apt-sejour": "img-p01-07-583x389", "n0-chalet-chambre-twin": "img-p01-08-712x474",
+         "n1-chambre-1": "img-p02-06-607x405", "n1-chambre-2": "img-p02-07-575x383", "n1-chambre-3": "img-p02-08-575x383",
+         "n1-chambre-4": "img-p02-09-573x382", "n1-chambre-5": "img-p02-10-573x382", "n1-chambre-6": "img-p02-11-611x408",
+         "n1-chambre-7": "img-p02-12-584x389", "n2-chambre-2": "img-p03-03-925x617"}
+def grain(im, force=4):
+    a = np.asarray(im).astype("int16"); n = np.random.default_rng(1).normal(0, force, a.shape[:2])[..., None]
+    return Image.fromarray(np.clip(a + n, 0, 255).astype("uint8"))
+random.seed(2027)
+for stem, src in BASSE.items():
+    jpg = f"img/chalet/megeve-{stem}.jpg"; W, H = Image.open(jpg).size
+    out = grain(traiter(os.path.join(TMP, src + "-x4.png"), W, H))
+    out.save(jpg, "JPEG", quality=86, optimize=True, progressive=True); n += 1
+    for d in ("img/chalet/w", "img/chalet/min", "img/h"):
+        for f in os.listdir(d):
+            if f.startswith(f"megeve-{stem}-") and f.endswith(".webp"):
+                ww, hh = Image.open(os.path.join(d, f)).size
+                out.resize((ww, hh), Image.LANCZOS).save(os.path.join(d, f), "WEBP", quality=80, method=6); n += 1
+    print(stem, "<- x4 réduit + grain", (W, H))
+print("fichiers écrits au total :", n)
