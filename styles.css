@@ -842,285 +842,323 @@ body.menu-ouvert{overflow:hidden}
 .lead-hero3-illus .lead3-bloc{background:rgba(20,19,22,.92)}
 .lead-hero3-illus .lead-fil{color:#1C1B1F;text-shadow:none}.lead-hero3-illus .lead-fil a{color:#1C1B1F}
 /* ===DEMANDE-ETAPES=== */
-.etape[hidden],[data-b][hidden],[data-s][hidden],[data-si][hidden],.cache{display:none!important}
-/* 19/10 : une fois la premiere question passee, la question remonte en haut de l'ecran (plus de titre de page ni de bandeau au-dessus) */
-body:has(#formDemande.avance) .demande-hero,body:has(#formDemande.avance) .strip{display:none!important}
-body:has(#formDemande.avance) .demande-hero ~ .ss.demande{margin-top:8px}
-/* 19/10 (Moshe : « les pills qui vont pas ensemble, l'une en dessous de l'autre ») : listes compactes en deux colonnes
-   a coches, sans cadre ni pastille (regle Mishpacha : liste a coches sans cadre) ; un seul choix = pleine largeur */
-.demande .dm-chips.mini{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
-.demande .dm-chips.mini label{display:flex;flex-direction:row;align-items:center;gap:10px;min-height:46px;padding:8px 0;border:0;border-bottom:1px solid rgba(28,27,31,.14);border-radius:0;background:transparent;font-size:14.5px;font-weight:500;line-height:1.2;overflow:visible}
-.demande .dm-chips.mini .dm-ic{display:none}
-.demande .dm-chips.mini label::before{display:block;position:static;flex:none;width:18px;height:18px}
-.demande .dm-chips.mini label:has(input:checked){background:transparent;border-color:rgba(28,27,31,.14);color:var(--encre)}
-.demande .dm-chips.mini:has(> label:only-child){grid-template-columns:1fr}
-@media (min-width:700px){.demande .dm-chips.mini{grid-template-columns:repeat(3,1fr);gap:0 24px}}
-.dm-shabbat{font-size:14px;font-weight:600;color:var(--vert)}
-.dm-shabbat[hidden]{display:none}
-.dm-aide{margin:2px 0 0;font-size:13.5px;opacity:.7}
-.dm-champ{position:relative}
-.dm-auto{position:absolute;left:0;right:0;z-index:5;margin:0!important;background:var(--blanc);border:1px solid rgba(28,27,31,.2);border-radius:12px;box-shadow:0 10px 24px rgba(28,27,31,.14);overflow:hidden}
-.dm-auto button{display:block;width:100%;text-align:start;padding:12px 14px;border:0;border-top:1px solid rgba(28,27,31,.08);background:transparent;font:inherit;font-size:15px;color:var(--encre);cursor:pointer}
-.dm-auto button:first-child{border-top:0}
-.dm-auto button:hover,.dm-auto button:focus-visible{background:var(--jaune)}
-.dm-auto[hidden],.dm-auto button[hidden]{display:none}
-.etape .dm-sous{margin-top:22px}
-details.dm-recap{margin-top:22px;border:1px solid rgba(28,27,31,.15);border-radius:14px;padding:4px 16px;background:var(--blanc)}
-details.dm-recap summary{padding:12px 0;font-weight:600;cursor:pointer}
-.demande .piege{position:absolute;left:0;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
-.demande form{max-width:760px}
-.dm-prog,.dm-nav,.dm-petit{display:none}
-.demande form.js .dm-prog{display:grid;gap:8px}
-.demande form.js .dm-prog[hidden]{display:none}
-.demande form.js .dm-nav{display:flex}
-.demande form.js .dm-petit{display:block}
-.demande form.js .dm-petit[hidden]{display:none}
-.dm-prog-txt{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
-.dm-barre{height:8px;border-radius:999px;background:rgba(28,27,31,.12);overflow:hidden}
-.dm-barre i{display:block;height:100%;width:0;background:var(--vert);border-radius:999px;transition:width .25s}
-.dm-bloc legend h2:focus{outline:none}
-.etape{display:block}
-.etape > .dm-tete{margin:0 0 20px}
-.etape > .dm-tete h2{font-size:26px}
-.etape > .dm-tete p{margin-top:4px;font-size:14px;opacity:.7}
-.etape > * + *{margin-top:16px}
-.dm-noscript{padding:14px 18px;border-radius:15px;background:var(--jaune);font-weight:600}
-.dm-sous{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;margin:6px 0 -6px}
-.dm-intention{background:var(--blanc);border-radius:18px;padding:16px 14px 14px}
-.dm-intention > .dm-tete{margin-bottom:12px}
-.dm-sur{margin:0;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--vert);opacity:1}
-.etape > .dm-tete p.dm-sur{margin-top:0;font-size:12px;opacity:1}
-.dm-intention > .dm-tete h2{margin:4px 0 0;font-family:var(--titre);font-weight:700;font-size:23px;line-height:1.15}
-.dm-tuiles{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.dm-tuile{position:relative;display:grid;gap:3px;align-content:start;min-height:112px;padding:10px 12px;border-radius:14px;border:1px solid rgba(28,27,31,.2);background:var(--creme);cursor:pointer}
-.dm-tuile input{position:absolute;opacity:0;width:0;height:0}
-.dm-tuile img{width:44px;height:44px;object-fit:contain}
-.dm-tuile b{font-weight:700;font-size:15px;line-height:1.2}
-.dm-tuile span{font-size:12.5px;line-height:1.3;opacity:.7}
-.dm-tuile:has(input:checked){background:var(--jaune);border-color:var(--jaune)}
-.dm-tuile:has(input:focus-visible){outline:3px solid var(--vert-c);outline-offset:2px}
-.dm-wa{margin:14px 0 4px;text-align:center;font-size:14px}
-.dm-wa a{color:var(--encre);font-weight:600}
-.demande-hero{padding:14px 0 0}
-.demande-hero ~ .ss.demande{margin-top:16px;padding-top:0}
-.demande-hero h1{margin:6px 0 0;font-family:var(--titre);font-weight:700;font-size:36px;line-height:1.05;letter-spacing:-.01em}
-.demande-hero h1 span{color:var(--vert)}
-.dm-promesse{margin:10px 0 0;font-size:16px;line-height:1.45;max-width:36em}
-.dm-puces{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0;padding:0;list-style:none}
-.dm-puces li{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;background:var(--beige);border-radius:999px;padding:5px 10px}
-.dm-puces svg{width:14px;height:14px;fill:none;stroke:var(--vert);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
-.dm-hassid{display:block;width:200px;height:auto;margin:0 auto}
-.dm-cpt{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:8px 0;border-bottom:1px solid rgba(28,27,31,.1)}
-.dm-cpt .lib{font-weight:600;font-size:16px;line-height:1.3}
-.cpt{display:flex;align-items:center;gap:6px;direction:ltr;flex:none}
-.cpt button{width:48px;height:48px;border-radius:50%;border:1px solid rgba(28,27,31,.25);background:var(--creme);font-size:24px;line-height:1;cursor:pointer;color:var(--encre);padding:0}
-.cpt button:hover{background:var(--jaune)}
-.cpt input{width:56px;text-align:center;border:0;background:transparent;padding:0;font:inherit;font-size:22px;font-weight:600;color:var(--encre);-moz-appearance:textfield;appearance:textfield}
-.cpt input::-webkit-outer-spin-button,.cpt input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
-.dm-champ input[type=date],.dm-champ input[type=time]{min-height:50px}
-.dm-ages{padding-top:4px}
-.dm-recap{display:grid;gap:18px;align-items:center}
-.dm-recap h3{font-family:var(--titre);font-weight:400;font-size:22px;margin-bottom:8px}
-.dm-recap-liste{list-style:none;margin:0;padding:0;display:grid;gap:2px}
-.dm-recap-liste li{display:grid;grid-template-columns:1fr auto;gap:0 12px;align-items:center;padding:8px 0;border-bottom:1px solid rgba(28,27,31,.12)}
-.dm-recap-liste .k{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;opacity:.7;grid-column:1}
-.dm-recap-liste .v{grid-column:1;font-size:16px;line-height:1.35}
-.dm-recap-liste .dm-edit{grid-column:2;grid-row:1 / span 2;min-height:44px;min-width:44px;padding:0 14px;border-radius:999px;border:1px solid rgba(28,27,31,.25);background:var(--blanc);font:inherit;font-size:14px;font-weight:600;cursor:pointer;color:var(--encre)}
-.dm-recap-liste .dm-edit:hover{background:var(--jaune)}
-.dm-recap-liste .vide{display:block;opacity:.7}
-.dm-contact .dm-recap{padding-bottom:18px}
-.dm-nav{max-width:760px;margin:80px auto 0;justify-content:space-between;align-items:center;gap:14px}
-.dm-retour{min-height:54px;padding:0 28px;border-radius:999px;border:1px solid var(--encre);background:transparent;font:inherit;font-size:16px;font-weight:600;color:var(--encre);cursor:pointer}
-.dm-retour:hover{background:var(--jaune);border-color:var(--jaune)}
-.dm-nav .btn-noir{min-height:54px;padding:0 36px;font-size:16px;margin-inline-start:auto}
-.dm-nav .btn-noir:disabled{opacity:.35;cursor:default}
-.dm-nav [hidden]{display:none!important}
-.demande form.js .dm-nav[hidden]{display:none}
-.dm-petit{max-width:760px;margin:80px auto 0;text-align:center;font-size:13px;opacity:.7}
-.dm-accord{max-width:760px;margin:48px auto 0;font-size:14px;line-height:1.5}
-.dm-accord[hidden]{display:none}
-.dm-accord label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
-.dm-accord input{flex:none;width:22px;height:22px;margin:1px 0 0;accent-color:var(--encre)}
-.dm-accord a{text-decoration:underline;text-underline-offset:3px}
-.dm-accord:not([hidden])+.dm-nav{margin-top:22px}
-.dm-accord .dm-erreur{display:block;margin:8px 0 0;margin-inline-start:34px;text-align:start;font-size:13px}
-.dm-accord .dm-erreur[hidden]{display:none}
-.dm-accord.dm-manque span{color:var(--rouge)}
-.dm-accord.dm-manque input{outline:2px solid var(--rouge);outline-offset:2px;accent-color:var(--rouge)}
-.dm-champ [aria-invalid=true]{border-color:var(--rouge);box-shadow:0 0 0 3px rgba(223,66,37,.18)}
-.demande{padding-bottom:80px}
-.dm-note{font-size:14px;line-height:1.45;padding:12px 16px;border-radius:15px;background:var(--creme);border:1px solid rgba(28,27,31,.15)}
-.dm-nuits{font-weight:600;font-size:15px}
-.dm-max{font-size:14px;font-weight:600;color:var(--rouge)}
-.dm-erreur[hidden],.dm-nuits[hidden],.dm-max[hidden]{display:none}
-.dm-coche,.dm-bougie,.dm-neige,.dm-hp{display:none}
-.dm-coche{fill:none;stroke:var(--encre);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.cpt-n{display:block;position:relative;width:56px;overflow:hidden}
-.cpt-n input{display:block;width:100%}
-.dm-tete{position:relative}
-@media (prefers-reduced-motion: no-preference){
-  /* 1. hassid sur la barre */
-  .demande form.js .dm-piste{position:relative;padding-top:38px}
-  .dm-hp{display:block;position:absolute;bottom:calc(100% - 38px + 6px);left:var(--pc,0%);transform:translateX(-100%);transition:left .4s cubic-bezier(.2,.8,.2,1);line-height:0;pointer-events:none}
-  .dm-hp img{display:block;height:34px;width:auto}
-  [dir=rtl] .dm-hp{left:auto;right:var(--pc,0%);transform:translateX(100%);transition-property:right}
-  [dir=rtl] .dm-hp img{transform:scaleX(-1)}
-  .dm-hp img.saute{animation:dm-saute .4s ease-out}
-  @keyframes dm-saute{0%,50%,100%{translate:0 0}25%,75%{translate:0 -3px}}
-  /* 2. tuiles */
-  .dm-tuile{transition:transform .2s ease-out,box-shadow .2s ease-out,background-color .2s}
-  @media (hover:hover) and (pointer:fine){.dm-tuile:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(28,27,31,.12)}}
-  .dm-tuile.dm-anim img{animation:dm-rebond .35s ease-out}
-  @keyframes dm-rebond{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
-  /* 3. cases */
-  .dm-chips label{transition:background-color .2s,border-color .2s}
-  .dm-chips label.dm-anim{animation:dm-pop .25s cubic-bezier(.2,.8,.2,1)}
-  @keyframes dm-pop{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
-  .dm-coche{display:inline-block;width:0;height:16px;margin-inline-end:0;stroke-dasharray:16;stroke-dashoffset:16;transition:stroke-dashoffset .25s ease-out .05s,width .2s ease-out,margin .2s ease-out}
-  .dm-chips label:has(input:checked) .dm-coche{width:16px;margin-inline-end:6px;stroke-dashoffset:0}
-  .dm-chips label{overflow:hidden}
-  .dm-chips span{display:inline-flex;align-items:center}
-  /* 4. compteurs */
-  .cpt-old{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:600;color:var(--encre);pointer-events:none}
-  .cpt-n[data-sens=up] .cpt-old{animation:dm-sort-haut .2s ease-out forwards}
-  .cpt-n[data-sens=up] input.glisse{animation:dm-entre-bas .2s ease-out}
-  .cpt-n[data-sens=down] .cpt-old{animation:dm-sort-bas .2s ease-out forwards}
-  .cpt-n[data-sens=down] input.glisse{animation:dm-entre-haut .2s ease-out}
-  @keyframes dm-sort-haut{to{transform:translateY(-100%);opacity:0}}
-  @keyframes dm-sort-bas{to{transform:translateY(100%);opacity:0}}
-  @keyframes dm-entre-bas{from{transform:translateY(100%);opacity:0}}
-  @keyframes dm-entre-haut{from{transform:translateY(-100%);opacity:0}}
-  .cpt.secoue{animation:dm-secoue .25s ease-out}
-  @keyframes dm-secoue{0%,100%{transform:translateX(0)}20%{transform:translateX(-5px)}45%{transform:translateX(5px)}70%{transform:translateX(-3px)}}
-  /* 5. bougie et flocons */
-  .dm-bougie{display:inline-block;vertical-align:-6px;margin-inline-start:10px;overflow:visible}
-  .dm-bougie .cire{fill:var(--blanc);stroke:var(--encre);stroke-width:1.5}
-  .dm-bougie .meche{stroke:var(--encre);stroke-width:1.5;stroke-linecap:round}
-  .dm-bougie .flamme{fill:var(--jaune);stroke:var(--encre);stroke-width:1;transform-box:fill-box;transform-origin:50% 100%;animation:dm-vacille 2.5s ease-in-out infinite}
-  @keyframes dm-vacille{0%,100%{opacity:1;transform:scale(1) rotate(0)}30%{opacity:.82;transform:scale(.93,1.06) rotate(-3deg)}60%{opacity:.95;transform:scale(1.05,.95) rotate(2deg)}80%{opacity:.86;transform:scale(.96,1.04) rotate(-1deg)}}
-  .dm-neige{display:block;position:absolute;inset:0;overflow:hidden;pointer-events:none}
-  .dm-neige i{position:absolute;top:-20px;left:var(--x);opacity:0;line-height:0;animation:dm-tombe 3.6s linear var(--d) infinite}
-  .dm-neige svg{fill:none;stroke:var(--vert);stroke-width:1.2;stroke-linecap:round}
-  [dir=rtl] .dm-neige i{left:auto;right:var(--x)}
-  @keyframes dm-tombe{0%{opacity:0;transform:translateY(0) rotate(0)}12%{opacity:.75}85%{opacity:.75}100%{opacity:0;transform:translateY(120px) rotate(200deg)}}
-  /* 6. passage d'ecran */
-  .demande form[data-dir=fwd]{--dx:24px}
-  .demande form[data-dir=back]{--dx:-24px}
-  [dir=rtl] .demande form[data-dir=fwd]{--dx:-24px}
-  [dir=rtl] .demande form[data-dir=back]{--dx:24px}
-  .demande form[data-dir] .etape:not([hidden]){animation:dm-entre .3s ease-out backwards}
-  @keyframes dm-entre{from{opacity:0;transform:translateX(var(--dx))}}
-  /* 7. recapitulatif */
-  .dm-recap-liste li.ap{animation:dm-ligne .3s ease-out calc(var(--i)*30ms) backwards}
-  @keyframes dm-ligne{from{opacity:0;transform:translateY(6px)}}
-  /* 8. envoi */
-  .dm-nav .btn-noir img.dm-marche{display:inline-block;vertical-align:middle;height:30px;width:auto;margin-inline-end:6px;transform-origin:50% 100%;animation:dm-marche .3s ease-in-out infinite alternate}
-  @keyframes dm-marche{from{transform:rotate(-6deg) translateY(0)}to{transform:rotate(6deg) translateY(-3px)}}
-  /* 9. page merci : le hassid danse a l'ouverture */
-  img.hassid-merci{transform-origin:50% 100%;animation:dm-danse 3.2s ease-in-out infinite}
-  @keyframes dm-danse{0%,60%,100%{transform:rotate(0) translateY(0)}7.5%,37.5%{transform:rotate(-6deg) translateY(-6px)}15%,45%{transform:rotate(0) translateY(0)}22.5%,52.5%{transform:rotate(6deg) translateY(-6px)}30%{transform:rotate(0) translateY(0)}}
-  [dir=rtl] img.hassid-merci{animation-name:dm-danse-rtl}
-  @keyframes dm-danse-rtl{0%,60%,100%{transform:scaleX(-1) rotate(0) translateY(0)}7.5%,37.5%{transform:scaleX(-1) rotate(-6deg) translateY(-6px)}15%,45%{transform:scaleX(-1) rotate(0) translateY(0)}22.5%,52.5%{transform:scaleX(-1) rotate(6deg) translateY(-6px)}30%{transform:scaleX(-1) rotate(0) translateY(0)}}
-}
+/* Formulaire /plan-your-trip/ en 3 ecrans, charte LV (02/11) : blanc, noir pour les boutons, filets gris, coins 4 px, aucune carte ni ombre. */
+.pf-etape[hidden],.pf [data-b][hidden],.pf [data-s][hidden],.pf [data-si][hidden],.pf .cache,.pf [hidden]{display:none!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf-hero:not(#pf0){padding:18px 0 0!important;margin:0!important;background:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .wrap{max-width:688px!important;margin:0 auto!important;padding:0 24px!important;box-sizing:border-box}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .fil{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#6B6B6B!important;opacity:1!important;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-hero .fil a{color:#6B6B6B!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-hero h1{margin:10px 0 0!important;font-size:clamp(26px,4.4vw,44px)!important;font-weight:300!important;letter-spacing:.08em!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-promesse{margin:10px 0 0;max-width:34em;font-size:15px;line-height:1.5;color:#6B6B6B!important}
+body:has(#formDemande.avance) .pf-hero{display:none!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf:not(#pf0){padding:22px 24px 72px!important;max-width:688px!important;box-sizing:border-box;margin:0 auto!important;background:#FFFFFF;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form{max-width:720px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf .piege{position:absolute;left:0;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+/* progression 1 / 3 */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:12px 14px;min-height:28px;margin:0 0 30px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog-txt{grid-column:2;justify-self:end;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-barre{grid-column:1 / -1;height:1px;background:#E6E6E6;overflow:hidden}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-barre i{display:block;height:100%;width:33%;background:#111111;transition:width .3s}
+/* tetes d'ecran */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete{margin:0 0 30px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2{margin:0!important;font-size:26px!important;line-height:1.2!important;letter-spacing:.08em!important;outline:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete p{margin:6px 0 0;font-size:14px;line-height:1.45;color:#6B6B6B!important}
+/* ecran 1 : six lignes, picto 48 px centre, hauteur fixe (controle_alignement.py --ancre centre) */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-choix{border-top:1px solid #E6E6E6}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ligne{position:relative;display:grid;grid-template-columns:56px 1fr 20px;align-items:center;gap:0 14px;height:80px;padding:0 4px;border-bottom:1px solid #E6E6E6;cursor:pointer;overflow:hidden;transition:background-color .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ligne input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ligne img{display:block;width:48px;height:48px;object-fit:contain;justify-self:center}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-l-t{display:grid;gap:3px;min-width:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-l-t b{font-size:13.5px;font-weight:400!important;letter-spacing:.1em;text-transform:uppercase;line-height:1.25;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-l-t small{font-size:13px;line-height:1.3;color:#6B6B6B}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fl{width:9px;height:9px;border-top:1px solid #111111;border-right:1px solid #111111;transform:rotate(45deg);justify-self:center}
+html[dir=rtl] .pf-ligne .pf-fl{transform:rotate(-135deg)!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ligne:hover,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ligne:has(input:checked){background:#F4F4F2}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ligne:has(input:checked) b{color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ligne:has(input:focus-visible){outline:2px solid #111111;outline-offset:-2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-wa{margin:20px 0 0;text-align:center;font-size:14px;color:#6B6B6B!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-wa a{color:#111111!important;text-decoration:underline;text-underline-offset:3px}
+/* champs */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-etape > * + *{margin-top:20px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-sous{margin:26px 0 8px!important;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:#111111!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ{position:relative;display:grid;gap:6px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ label{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6B6B6B}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ :is(input,select,textarea){width:100%;box-sizing:border-box;min-height:48px;padding:11px 13px;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;color:#111111;font-size:16px;font-weight:300;box-shadow:none;color-scheme:light}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ textarea{min-height:88px;resize:vertical}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ :is(input,select,textarea):focus{outline:none;border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ ::placeholder{color:#9A9A9A}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ [aria-invalid=true]{border-color:#9B2C1F}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-duo{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tel{display:grid;grid-template-columns:136px 1fr;gap:8px;direction:ltr}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf :is(.btn-noir,.pf-retour,summary,.pf-sous,label,.pf-l-t b):lang(he){letter-spacing:0!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf :is(.pf-tel input,.pf-tel select,.cpt input,.pf-prog-txt){font-family:'Jost',system-ui,sans-serif!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog-txt{direction:ltr;unicode-bidi:isolate}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2:lang(he),html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-hero h1:lang(he){letter-spacing:0!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):has(#formDemande.avance) main>section.pf:not(#pf0){padding-top:48px!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tel select{-webkit-appearance:none;appearance:none;padding:0 28px 0 12px;background:#FFFFFF url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23111' stroke-width='1.2'/%3E%3C/svg%3E") no-repeat right 10px center;font-size:15px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-auto{position:absolute;top:100%;left:0;right:0;z-index:5;margin-top:2px;background:#FFFFFF;border:1px solid #111111;border-radius:4px;overflow:hidden}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-auto button{display:block;width:100%;text-align:start;padding:12px 14px;border:0;border-top:1px solid #E6E6E6;background:#FFFFFF;font-size:15px;font-weight:300;color:#111111;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-auto button:first-child{border-top:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-auto button:hover,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-auto button:focus-visible{background:#F4F4F2}
+/* cases : liste a coches, sans cadre ni pastille, deux colonnes */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{display:grid;grid-template-columns:1fr;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand .pf-chips{grid-template-columns:1fr 1fr}
+/* 03/11 : cartes de services (« Build your stay »), panier, estimation et alertes de budget */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svcs{display:grid;grid-template-columns:1fr;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc{position:relative;display:grid;grid-template-columns:1fr auto;align-items:center;gap:6px 14px;padding:16px 16px 16px 18px;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;cursor:pointer;transition:border-color .15s,background-color .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:hover{border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-t{display:grid;gap:4px;min-width:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-t b{font-size:13.5px;font-weight:400!important;letter-spacing:.1em;text-transform:uppercase;line-height:1.3;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-t small{font-size:13.5px;line-height:1.4;color:#6B6B6B}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-p{font-style:normal;font-size:13px;color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-add{flex:none;min-width:92px;padding:9px 12px;border:1px solid #111111;border-radius:4px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;text-align:center;color:#111111;background:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-add .d{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-add i{font-style:normal!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:checked){border-color:#111111;background:#F4F4F2}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:checked) .pf-svc-add{background:#111111;color:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:checked) .pf-svc-add .a{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc:has(input:checked) .pf-svc-add .d{display:inline}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-add:lang(he),html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-t b:lang(he){letter-spacing:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nsvc{flex:none;font-size:12px;letter-spacing:.08em;color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-est{margin:0 0 6px;padding:16px 0;border-top:1px solid #E6E6E6;border-bottom:1px solid #E6E6E6;font-size:16px;line-height:1.45;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-est:empty{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit{margin:10px 0 0;padding:0 0 0 14px;border-left:2px solid #6B6B6B;font-size:14px;line-height:1.5;color:#111111}
+html[dir=rtl] .pf-fit{padding:0 14px 0 0!important;border-left:0!important;border-right:2px solid #6B6B6B!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit-fits{border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit-fits::before{content:'¹3  '}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit-below{border-color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit-far-below{border-color:#9B2C1F;color:#9B2C1F}
+
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf [data-b] > * + *{margin-top:20px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand .pf-c{padding:12px 14px;font-size:14.5px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{position:relative;display:flex;align-items:center;min-height:56px;padding:14px 18px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;font-size:15px;line-height:1.3;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c:hover{border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pastilles{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas{min-height:56px;padding:12px 14px;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;color:#111111;font-size:15px;font-weight:300;line-height:1.25;text-align:center;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas:hover{border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas.on{background:#111111;border-color:#111111;color:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c:has(input:checked){background:#111111;border-color:#111111;color:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c:has(input:checked) span{color:#FFFFFF!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips:has(> .pf-c:only-child){grid-template-columns:1fr}
+/* compteurs */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:56px;border-bottom:1px solid #E6E6E6}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .lib{font-size:15px;line-height:1.3}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt{display:flex;align-items:center;gap:4px;direction:ltr;flex:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt button{width:42px;height:42px;padding:0;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;color:#111111;font-size:20px;font-weight:300;line-height:1;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt button:hover{border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt input{width:44px;border:0;background:transparent;padding:0;text-align:center;font-size:19px;font-weight:300;color:#111111;-moz-appearance:textfield;appearance:textfield}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt input::-webkit-outer-spin-button,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+/* sections repliees */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-plus{margin-top:30px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) details.pf-pli{border-top:1px solid #E6E6E6;margin:0!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) details.pf-pli:last-child{border-bottom:1px solid #E6E6E6}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) details.pf-pli summary{display:flex;align-items:center;gap:10px;min-height:52px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#111111;cursor:pointer;list-style:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) details.pf-pli summary::-webkit-details-marker{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) details.pf-pli summary::after{content:"";margin-inline-start:auto;width:8px;height:8px;border-right:1px solid #111111;border-bottom:1px solid #111111;transform:rotate(45deg);transition:transform .2s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) details.pf-pli[open] summary::after{transform:rotate(-135deg)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pli-n{font-size:11px;letter-spacing:.04em;text-transform:none;color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pli-c{padding:0 0 18px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pli-c > * + *{margin-top:14px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-contact .pf-pli:first-of-type{margin-top:28px!important}
+/* textes d'aide, erreurs, notes */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-info{font-size:13.5px;color:#5B3A29!important;margin:8px 0 0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-aide{font-size:13px;color:#6B6B6B!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-erreur{font-size:13.5px;color:#9B2C1F!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-erreur .btn-noir{display:table;margin:14px auto 0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-note{font-size:13.5px;line-height:1.5;padding:12px 0 0;border-top:1px solid #E6E6E6;color:#6B6B6B!important}
+/* accord, navigation */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord{margin:32px 0 0;font-size:13.5px;line-height:1.5}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord input{flex:none;width:20px;height:20px;margin:1px 0 0;accent-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord a{color:#111111!important;text-decoration:underline;text-underline-offset:3px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord .pf-erreur{display:block;margin:8px 0 0;margin-inline-start:32px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord.pf-manque span{color:#9B2C1F}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav{display:flex;align-items:center;gap:12px;margin:36px 0 0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:not(#pf0){min-height:52px;padding:0 34px;margin-inline-start:auto;background:#111111!important;color:#FFFFFF!important;-webkit-text-fill-color:#FFFFFF!important;border:1px solid #111111!important;border-radius:4px!important;font-size:12px!important;letter-spacing:.2em!important;text-transform:uppercase}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:disabled{opacity:.35;cursor:default}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:not(#pf0):lang(he){letter-spacing:0!important;font-size:15px!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-retour{grid-column:1;display:inline-flex;align-items:center;gap:8px;min-height:28px;padding:0;border:0;background:none;color:#111111;font-size:11px;letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-retour span{width:7px;height:7px;border-left:1px solid #111111;border-bottom:1px solid #111111;transform:rotate(45deg)}
+html[dir=rtl] .pf-retour span{transform:rotate(-135deg)!important}
+@media (prefers-reduced-motion:no-preference){html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form[data-dir] .pf-etape:not([hidden]){animation:pf-in .38s ease-out}html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form[data-dir=back]{--pf-dx:-18px}html[dir=rtl] .pf-form[data-dir=fwd]{--pf-dx:-18px}html[dir=rtl] .pf-form[data-dir=back]{--pf-dx:18px}}
+@keyframes pf-in{from{opacity:0;transform:translateX(var(--pf-dx,18px))}}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-petit{margin:16px 0 0;text-align:center;font-size:12.5px;color:#6B6B6B!important}
+body:has(#formDemande) .wa-flottant{display:none!important}
 @media (min-width:700px){
-  .demande-hero{padding-top:24px}
-  .demande-hero ~ .ss.demande{margin-top:28px}
-  .demande-hero ~ .ss.demande form{margin-inline:0}
-  .demande-hero h1{font-size:48px}
-  .dm-promesse{font-size:19px}
-  .dm-intention{padding:24px 24px 20px}
-  .dm-intention > .dm-tete h2{font-size:28px}
-  .dm-tuile{min-height:128px;padding:16px;gap:6px}
-  .dm-tuile b{font-size:17px}
-  .dm-tuile span{font-size:14px}
-  .dm-recap{grid-template-columns:200px 1fr;gap:28px}
-}
-@media (min-width:900px){
-  .dm-tuiles{grid-template-columns:repeat(3,1fr);gap:12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf-hero:not(#pf0){padding-top:36px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf:not(#pf0){padding-top:34px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2{font-size:34px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{grid-template-columns:1fr 1fr;gap:12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pastilles{grid-template-columns:repeat(3,1fr)}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ligne{height:84px}
 }
 @media (max-width:699px){
-  /* telephone (Moshe, 15/10 : « il faut scroller pour l'utiliser ») : en-tete reduit, progression en haut, Retour et Suivant toujours sous le pouce */
-  body:has(#formDemande) .pratique-hero{padding-bottom:0}
-  .demande form.js .dm-prog{position:sticky;top:0;z-index:19;background:var(--creme);padding:10px 0 8px;margin:0 -16px;padding-inline:16px}
-  .demande form.js .dm-nav{position:static;margin:20px -16px 0;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:var(--creme);border-top:1px solid rgba(28,27,31,.12)}
-  .dm-nav .btn-noir,.dm-retour{min-height:52px}
-  .dm-nav .btn-noir{flex:1;padding:0 20px}
-  .dm-petit{margin-top:16px}
-  .dm-accord{margin-top:22px}
-  .etape > .dm-tete{margin-bottom:14px}
-  .etape > .dm-tete h2{font-size:23px}
-  body:has(#formDemande) .wa-flottant{display:none!important}
-  .demande{padding-bottom:24px}
-}
-/* cases en cartes a pictogramme (Moshe 15/10 : « il ne faut pas avoir besoin de lire pour comprendre ») : picto 26 px en haut a gauche (a droite en RTL), mot dessous, case 18 px dans le coin oppose */
-.demande .dm-chips{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.demande .dm-chips label{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:8px;min-height:84px;padding:12px;border-radius:14px;line-height:1.2;font-size:15px;font-weight:500;text-align:start;overflow:hidden}
-.demande .dm-chips .dm-ic{flex:none;display:block;width:26px;height:26px;color:var(--vert);transition:color .15s}
-.demande .dm-chips label:has(input:checked) .dm-ic{color:var(--encre)}
-.demande .dm-chips .dm-ic-txt{width:auto;min-width:34px;padding:0 6px;box-sizing:border-box;border:1.75px solid currentColor;border-radius:8px;font-size:13px;font-weight:700;line-height:22.5px;text-align:center;letter-spacing:.04em}
-.demande .dm-chips span{display:block}
-.demande .dm-chips label::before{content:"";position:absolute;inset-inline-end:12px;top:16px;width:18px;height:18px;border:1.5px solid rgba(28,27,31,.45);border-radius:6px;background:var(--blanc) center/12px no-repeat;transition:background-color .15s,border-color .15s}
-.demande .dm-chips label:has(input[type=radio])::before{border-radius:50%}
-.demande .dm-chips label:has(input:checked)::before{background-color:var(--encre);border-color:var(--encre);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.2l3.2 3.2L13 4.6' fill='none' stroke='%23FCDE73' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
-.demande .dm-chips .dm-coche{display:none!important}
-.demande .dm-chips input:checked ~ span{font-weight:600}
-@media (min-width:700px){.demande .dm-chips{grid-template-columns:repeat(3,1fr)}}
-/* ---- plis : listes facultatives repliees, badge du nombre de choix */
-details.dm-pli{border-top:1px solid rgba(28,27,31,.12);margin-top:14px!important}
-details.dm-pli summary{display:flex;align-items:center;gap:10px;padding:12px 0;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;list-style:none}
-details.dm-pli summary::-webkit-details-marker{display:none}
-details.dm-pli summary::after{content:"";margin-inline-start:auto;width:8px;height:8px;border-right:1.5px solid var(--encre);border-bottom:1.5px solid var(--encre);transform:rotate(45deg);transition:transform .2s}
-details.dm-pli[open] summary::after{transform:rotate(-135deg)}
-.dm-pli-n{font-size:11px;font-weight:600;text-transform:none;letter-spacing:0;color:var(--vert);background:var(--jaune);border-radius:999px;padding:2px 8px}
-.dm-pli-n[hidden]{display:none}
-.dm-pli-c{padding-bottom:12px}
-.dm-pli-c > * + *{margin-top:12px}
-/* ---- compactage telephone (20/10) : tout tient en moins d'ecrans, duos cote a cote, cartes a picto en ligne */
-@media (max-width:699px){
-  .demande form.js .dm-prog{padding:6px 0 4px;gap:4px}
-  .dm-prog-txt{font-size:11px}
-  .demande form.js .dm-piste{padding-top:26px}
-  .dm-hp img{height:24px}
-  .dm-barre{height:5px}
-  .dm-bloc{padding:16px 14px 18px;border-radius:14px}
-  .etape > .dm-tete{margin-bottom:10px}
-  .etape > .dm-tete h2{font-size:21px;line-height:1.15}
-  .etape > .dm-tete p{margin-top:3px;font-size:15px;line-height:1.45}
-  .etape > * + *{margin-top:12px}
-  .etape .dm-sous{margin-top:16px;font-size:11px}
-  .dm-champ label{font-size:11px;margin-bottom:4px}
-  .dm-champ input,.dm-champ select,.dm-champ textarea{padding:10px 13px;border-radius:12px;font-size:16px}
-  .dm-champ input[type=date],.dm-champ input[type=time]{min-height:44px}
-  .dm-champ textarea{min-height:72px}
-  .demande .dm-duo{grid-template-columns:1fr 1fr;gap:10px}
-  .dm-cpt{padding:5px 0;gap:10px}
-  .dm-cpt .lib{font-size:15px}
-  .cpt button{width:40px;height:40px;font-size:20px}
-  .cpt input,.cpt-old{font-size:19px}
-  .cpt-n,.cpt input{width:44px}
-  .dm-ages{padding-top:0}
-  .demande .dm-chips:not(.mini){gap:6px}
-  .demande .dm-chips:not(.mini) label{flex-direction:row;align-items:center;gap:9px;min-height:50px;padding:9px 34px 9px 11px;font-size:14px;line-height:1.2;border-radius:12px}
-  .demande .dm-chips:not(.mini) .dm-ic{width:22px;height:22px}
-  .demande .dm-chips:not(.mini) label::before{top:50%;transform:translateY(-50%);inset-inline-end:10px;width:16px;height:16px}
-  .demande .dm-chips.mini{gap:0 16px}
-  .demande .dm-chips.mini label{min-height:34px;padding:6px 11px;font-size:13.5px}
-  .dm-tuile{min-height:96px;padding:9px 10px}
-  .dm-tuile img{width:36px;height:36px}
-  .dm-tuile b{font-size:14px}
-  .dm-tuile span{font-size:12px}
-  .dm-intention{padding:14px 12px 12px}
-  .dm-auto button{padding:10px 13px;font-size:14.5px}
-  .dm-shabbat,.dm-nuits{font-size:13px}
-  .dm-aide{font-size:14px}
-  details.dm-recap{margin-top:14px}
-  details.dm-recap summary{padding:10px 0;font-size:14px}
-  .demande form.js .dm-nav{padding:8px 16px calc(8px + env(safe-area-inset-bottom));margin-top:14px}
-  .dm-nav .btn-noir,.dm-retour{min-height:46px}
-  .dm-retour{padding:0 20px}
-  .dm-petit{margin-top:10px;font-size:12px}
-  /* pendant les etapes, rien sous le formulaire : le pied revient sur merci */
+  /* telephone : Continuer colle en bas, au-dessus du bandeau cookies quand il est affiche (--pf-cb, mesure en JS) */
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form{padding-bottom:96px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav{position:fixed;left:0;right:0;bottom:var(--pf-cb,0px);z-index:60;margin:0;padding:10px 24px calc(10px + env(safe-area-inset-bottom));background:#FFFFFF;border-top:1px solid #E6E6E6}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir{flex:1;padding:0 18px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{gap:10px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{font-size:15px}
   body:has(#formDemande.avance) .pied{display:none}
+}
+/* 03/11 v4 (Moshe : « condense, ultra luxe, sans swiper ») : chaque ecran tient dans 390 x 844, en-tete, barre, bouton et bandeau cookies compris */
+body:has(#formDemande) .pied{display:none!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl{position:relative;display:grid;grid-template-columns:52px 1fr;align-items:center;gap:0 14px;height:64px;padding:6px 40px 6px 6px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;cursor:pointer;overflow:hidden;transition:border-color .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl-img{display:contents}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl img{grid-row:1 / span 2;width:52px;height:52px;object-fit:cover;border-radius:2px;display:block}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl b{align-self:end;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:13px;font-weight:400!important;letter-spacing:.06em;text-transform:uppercase;line-height:1.2;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl small{align-self:start;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px;line-height:1.25;color:#5B3A29;margin-top:3px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl i{position:absolute;top:50%;margin-top:-10px;inset-inline-end:12px;width:20px;height:20px;border:1px solid #CFCFCF;box-sizing:border-box;background:#FFFFFF!important;opacity:1!important;border-radius:50%;background:#111111;opacity:0;transition:opacity .15s}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl:has(input:checked) i::after{content:"";position:absolute;left:6px;top:3px;width:4px;height:8px;border-right:1.5px solid #FFFFFF;border-bottom:1.5px solid #FFFFFF;transform:rotate(45deg)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl:has(input:checked){border:2px solid #111111;padding:5px 39px 5px 5px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl{--x:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl:has(input:checked) i{background:#111111!important;border-color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl b:lang(he){letter-spacing:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls{display:grid;grid-template-columns:1fr;gap:8px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mcs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc{position:relative;display:grid;justify-items:center;align-content:center;gap:8px;height:112px;padding:8px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;text-align:center;font-size:13.5px;line-height:1.25;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc img{width:48px;height:48px;display:block}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc:has(input:checked){border:2px solid #111111;padding:7px;background:#F4F4F2}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pastilles{grid-template-columns:repeat(3,1fr)!important;gap:8px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas{min-height:44px;padding:6px 6px;font-size:13px;letter-spacing:.02em}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas.on{background:#111111!important;border-color:#111111!important;color:#FFFFFF!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas.on span{color:#FFFFFF!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-perso{margin:0;font-size:17px;line-height:1.45;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-notes{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:4px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-notes li{font-size:13px;line-height:1.4;color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-notes li::before{content:"";display:inline-block;width:5px;height:5px;margin-inline-end:8px;vertical-align:2px;background:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-notes:empty{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-avis .pf-chips{grid-template-columns:1fr 1fr!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-avis[hidden]{display:none!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-resume{margin:12px 0 0;padding:8px 0 0;text-transform:none!important;letter-spacing:0!important;border-top:1px solid #E6E6E6;font-size:13.5px;line-height:1.5;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-res-b{padding:0;border:0;background:none;font:inherit;font-size:13.5px!important;text-transform:none!important;letter-spacing:0!important;color:inherit;text-decoration:underline;text-decoration-color:#CFCFCF;text-underline-offset:3px;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-res-e{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6B6B6B}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand .pf-chips{grid-template-columns:1fr 1fr}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand [data-si] .pf-chips{grid-template-columns:repeat(4,1fr)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-quand [data-si] .pf-c{padding:8px 4px;justify-content:center;text-align:center;font-size:13px}
+@media (max-width:699px){
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf-hero:not(#pf0){position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);padding:0!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf:not(#pf0){padding:40px 24px 0!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-form{padding-bottom:calc(76px + var(--pf-cb,0px))}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog{margin:0 0 16px;min-height:24px;gap:8px 12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete{margin:0 0 14px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2{font-size:21px!important;line-height:1.2!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete p{margin-top:4px;font-size:13px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-etape > * + *,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf [data-b] > * + *{margin-top:12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-sous{margin:16px 0 6px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{gap:8px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{min-height:46px;padding:10px 14px;font-size:14px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt{min-height:50px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt button{width:38px;height:38px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ{gap:4px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ :is(input,select){min-height:44px;padding:9px 12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ textarea{min-height:52px;height:52px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav{padding:8px 24px calc(8px + env(safe-area-inset-bottom))!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:not(#pf0){min-height:48px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord{margin-top:14px;font-size:12.5px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-petit{display:none!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-wa{display:none}
+}
+/* 03/11 v5 : dates par mois par defaut, extras compacts sur 2 colonnes, minyan en lignes a trois pastilles, bouton « essentiels » */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-off{display:none!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bascule{grid-template-columns:1fr 1fr!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2{grid-template-columns:1fr 1fr!important;gap:8px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl{grid-template-columns:40px 1fr;gap:0 8px;height:56px;padding:5px 26px 5px 5px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl:has(input:checked){padding:4px 25px 4px 4px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl img{width:40px;height:40px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl b{font-size:11.5px;letter-spacing:.04em;white-space:normal;line-height:1.15;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl small{font-size:10.5px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl i{width:16px;height:16px;margin-top:-8px;inset-inline-end:6px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl:has(input:checked) i::after{left:5px;top:2px;width:3.5px;height:7px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bess{display:grid;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes{display:grid;gap:6px;padding:0 0 10px;border-bottom:1px solid #E6E6E6}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t{display:flex;align-items:center;gap:10px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t img{width:32px;height:32px;object-fit:cover;border-radius:2px;flex:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t b{font-size:13px;font-weight:400!important;letter-spacing:.06em;text-transform:uppercase;line-height:1.25}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t b:lang(he){letter-spacing:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nivs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv{position:relative;display:flex;align-items:center;justify-content:center;min-height:38px;padding:4px 6px;box-sizing:border-box;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;font-size:12.5px;line-height:1.15;text-align:center;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv:has(input:checked){background:#111111;border-color:#111111;color:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv:has(input:focus-visible){outline:2px solid #111111;outline-offset:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ess{margin:10px 0 0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ess-b{min-height:40px;padding:0 16px;border:1px solid #111111;border-radius:4px;background:#FFFFFF;color:#111111;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ess-b:lang(he){letter-spacing:0}
+/* 03/11 : page /merci/ en charte LV */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf-merci:not(#pf0){padding:56px 24px 72px!important;background:#FFFFFF}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-c{max-width:640px;margin:0 auto;text-align:center}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-hp{display:block;width:40px;height:auto;margin:0 auto 22px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci .fil{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#6B6B6B!important;opacity:1!important;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci .fil a{color:#6B6B6B!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-merci h1{margin:14px 0 0!important;font-size:clamp(24px,4vw,38px)!important;font-weight:300!important;letter-spacing:.08em!important;line-height:1.2!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-merci h1:lang(he){letter-spacing:0!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-t{margin:16px auto 0;max-width:30em;font-size:16px;line-height:1.55;color:#111111}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-b:not(#pf0){display:inline-flex;align-items:center;gap:10px;margin-top:30px;min-height:52px;padding:0 28px;background:#111111!important;color:#FFFFFF!important;-webkit-text-fill-color:#FFFFFF!important;border:1px solid #111111!important;border-radius:4px!important;font-size:12px!important;letter-spacing:.18em!important;text-transform:uppercase}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-b svg{width:18px;height:18px;fill:currentColor}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-r{margin-top:26px;font-size:13px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-r a{color:#111111!important;text-decoration:underline;text-underline-offset:3px}
+/* 03/11 : vignette « Lyon tour » (prix sur deux lignes au besoin, jamais coupe) */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl small{white-space:normal;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:clip}
+/* 03/11 : petits ecrans (iPhone SE 375 x 667) : chaque ecran tient au-dessus de Continuer, bandeau cookies affiche, sans defiler */
+@media (max-width:699px) and (max-height:760px){
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main>section.pf:not(#pf0){padding-top:30px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-prog{margin:0 0 10px;min-height:22px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete{margin:0 0 10px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) main .pf-tete h2{font-size:18px!important;line-height:1.2!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tete p{margin-top:3px;font-size:12.5px;line-height:1.35}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-etape > * + *,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf [data-b] > * + *{margin-top:8px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-sous{margin:10px 0 4px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pastilles{gap:6px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas{min-height:36px;padding:3px 4px;font-size:12px;line-height:1.15}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-ou{display:grid;grid-template-columns:1fr 1fr;column-gap:8px;align-items:start}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-ou>*{grid-column:1/-1}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-ou>.pf-chips,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-ou>div[data-b="abe"]{grid-column:auto}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-ou>.pf-chips .pf-c,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-ou>div[data-b="abe"] .pf-c{height:100%}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-ou>.pf-chips{display:grid}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-chips{gap:6px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c{min-height:40px;padding:7px 12px;font-size:13px;line-height:1.25}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt{min-height:40px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt button{width:34px;height:34px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ{gap:3px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ :is(input,select){min-height:40px;padding:7px 12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ textarea{min-height:40px;height:40px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls{gap:6px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl{height:54px;padding:4px 40px 4px 4px;grid-template-columns:46px 1fr}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl:has(input:checked){padding:3px 39px 3px 3px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl img{width:46px;height:46px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl{height:50px;grid-template-columns:38px 1fr}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls2 .pf-tl img{width:38px;height:38px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bess{gap:6px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes{gap:4px;padding:0 0 6px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t img{width:26px;height:26px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv{min-height:34px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-resume{margin-top:8px;padding-top:6px;font-size:12.5px;line-height:1.4}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-res-b{font-size:12.5px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-accord{margin-top:8px!important;font-size:11.5px;line-height:1.35}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav{padding:6px 24px calc(6px + env(safe-area-inset-bottom))!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:not(#pf0){min-height:44px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):has(#formDemande) .cb{padding:8px 12px!important;gap:8px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):has(#formDemande) .cb p{font-size:12px!important;line-height:1.3!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):has(#formDemande) .cb button{min-height:34px!important;padding:0 10px!important;letter-spacing:.08em!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):has(#formDemande.avance) main>section.pf:not(#pf0){padding-top:30px!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ>*+*{margin-top:0!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-resume{display:none!important}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls:not(.pf-tls2){grid-template-columns:1fr 1fr}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls:not(.pf-tls2) .pf-tl{height:60px;grid-template-columns:38px 1fr;gap:0 8px;padding:4px 26px 4px 4px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls:not(.pf-tls2) .pf-tl:has(input:checked){padding:3px 25px 3px 3px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls:not(.pf-tls2) .pf-tl img{width:38px;height:52px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls:not(.pf-tls2) .pf-tl b{font-size:11.5px;letter-spacing:.04em;white-space:normal;line-height:1.15}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls:not(.pf-tls2) .pf-tl small{font-size:10.5px;white-space:normal;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;text-overflow:clip}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls:not(.pf-tls2) .pf-tl i{width:16px;height:16px;margin-top:-8px;inset-inline-end:6px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tls:not(.pf-tls2) .pf-tl:has(input:checked) i::after{left:5px;top:2px;width:3.5px;height:7px}
 }
 /* ===/DEMANDE-ETAPES=== */
 /* SHABBAT v2 (15/10) */

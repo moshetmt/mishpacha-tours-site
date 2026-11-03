@@ -75,7 +75,7 @@
     gtag('event', o.event, p);
   }
   function e164() {
-    var i = document.querySelector('[name=indicatif]'), t = document.querySelector('[name=tel]');
+    var fm = window.MT_FORM || document, i = fm.querySelector('[name=indicatif]'), t = fm.querySelector('[name=tel]');   // accueil : deux formulaires courts
     var c = i ? String(i.value).replace(/\D/g, '') : '', n = t ? String(t.value).replace(/\D/g, '') : '';
     if (!c || n.length < 6) return '';
     if (c !== '39') n = n.replace(/^0+/, '');
@@ -100,7 +100,7 @@
     if (AWOK && ADS.lead) gtag('event', 'conversion', { send_to: ADS.id + '/' + ADS.lead, transaction_id: d.id });
   }
   function leadMerci() {
-    if (!granted || !/\/merci\/?$/.test(location.pathname)) return;
+    if (!granted || !/\/(merci|contact-quick\/thanks)\/?$/.test(location.pathname)) return;
     var d = null;
     try { d = JSON.parse(sessionStorage.getItem(LEAD) || 'null'); sessionStorage.removeItem(LEAD); } catch (e) {}
     if (d && d.id && Date.now() - d.t < 1800000) envoyerLead(d);
@@ -130,7 +130,7 @@
       gtag('event', 'beth_habad_click', { page: location.pathname, lang: lang, link_location: emplacement(a), transport_type: 'beacon' });
       return;
     }
-    var apres = /\/merci\/?$/.test(location.pathname); // bouton de la page merci : apres la demande, pas une conversion
+    var apres = /\/(merci|contact-quick\/thanks)\/?$/.test(location.pathname); // bouton de la page merci : apres la demande, pas une conversion
     gtag('event', 'whatsapp_click', { page: location.pathname, lang: lang, link_location: apres ? 'merci' : emplacement(a),
       offre: (a && a.getAttribute && a.getAttribute('data-offre')) || undefined, transport_type: 'beacon' });
     if (AWOK && ADS.wa && !apres) gtag('event', 'conversion', { send_to: ADS.id + '/' + ADS.wa, transport_type: 'beacon' });

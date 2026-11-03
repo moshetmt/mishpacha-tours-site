@@ -83,6 +83,7 @@ def bas(s, lang):
 
 def accueil(path, lang):
     s = io.open(path, encoding="utf-8", newline="").read(); o = s
+    if "form-court" in s: return 0   # accueil v9 (31/10) : formulaire court a la place du chercheur, rien a preremplir
     m = re.search(r'(<select name="voyage">)(.*?)(</select>)', s, re.S)
     if not m: return 0
     ops = re.findall(r"<option[^>]*>([^<]*)</option>", m.group(2))

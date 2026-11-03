@@ -1,16 +1,24 @@
 /* Prix publics de la grille tarifaire (Apps Script, onglet « Grille Mendel », lignes cochées « Public » par Moshé).
    data-prix-tpl="à partir de {r_soir_vente} €" : remplacé seulement si toutes les clés existent et sont des nombres.
-   data-prix="cle" : remplace le texte par la valeur. Sans réponse ou sans valeur : le texte d'origine reste. */
+   data-prix="cle" : remplace le texte par la valeur. Sans réponse ou sans valeur : le texte d'origine reste.
+   03/11 : la grille lue est aussi exposée (window.MT_PRIX = {cle: nombre}) avec l'événement « mt-prix » sur document,
+   pour le formulaire /plan-your-trip/ (vignettes et estimation) ; {} si la grille ne répond pas en 6 s. */
 (function () {
   var URL = 'https://script.google.com/macros/s/AKfycbz9BOV80s-OY8i66FZsFM-zoD4icjchnWwckSBWVtcg7KzPq6xSgPqHF9D2NGP_M7KW/exec?prix=1';
   var els = document.querySelectorAll('[data-prix-tpl],[data-prix]');
-  if (!els.length || !window.fetch) return;
+  if (!window.fetch) return;
   var ok = function (v) { return typeof v === 'string' && /^\d+([.,]\d+)?$/.test(v.trim()); };
   var lang = (document.documentElement.lang || 'en').slice(0, 2);
   var fmt = function (v) {
     var n = v.trim().replace(',', '.'), parts = n.split('.');
-    var sep = (lang === 'en' || lang === 'he') ? ',' : lang === 'es' ? '.' : ' ';
+    var sep = (lang === 'en' || lang === 'he') ? ',' : lang === 'es' ? '.' : ' ';
     return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, sep) + (parts[1] ? (lang === 'en' ? '.' : ',') + parts[1] : '');
+  };
+  var publier = function (P) {
+    var N = {};
+    Object.keys(P).forEach(function (k) { if (ok(P[k])) N[k] = parseFloat(P[k].trim().replace(',', '.')); });
+    window.MT_PRIX = N;
+    try { document.dispatchEvent(new CustomEvent('mt-prix', { detail: N })); } catch (e) {}
   };
   var ctl = window.AbortController ? new AbortController() : null;
   if (ctl) setTimeout(function () { ctl.abort(); }, 6000);
@@ -27,5 +35,6 @@
         if (ok(P[k])) el.textContent = fmt(P[k]);
       }
     });
-  }).catch(function () {});
+    publier(P);
+  }).catch(function () { publier({}); });
 })();
