@@ -5,10 +5,12 @@
       portent encore (compteur « sign » = pages ou elle a ete retiree) et ne la repose plus.
    2. Pied de page : « with Winter Prestige » en texte devient le logo wp-long-or.svg precede de with / avec / con / עם,
       bloc <!--LOGO-WP:pied-->...<!--/LOGO-WP:pied-->. Le logo Mishpacha Tours reste en premier.
-   3. En-tete co-marque (demande Moshe 03/11) : filet dore + flocon wp-flocon-or.svg + mot-marque wp-mot-or.svg (extrait de wp-long-or.svg) + « Powered by Mishpacha Tours » (texte 11 px) a droite du logo
+   3. En-tete co-marque (demande Moshe 03/11) : filet dore + flocon wp-flocon-or.svg + mot-marque wp-mot-or.svg (extrait de wp-long-or.svg) + « Powered by Mishpacha Tours » (tracé du SVG, jamais retapé) a droite du logo
       Mishpacha Tours, bloc <!--LOGO-WP:entete--> (HTML present des le chargement ; mini script inline : animation une fois par visite, cle
       sessionStorage wpEntete, jamais si prefers-reduced-motion cote CSS).
-   4. Le CSS (heros ordinateur plus large, signature, pied) est dans lv.css, bloc ===LOGO-WP-2026-11-03===.
+   4. Classe « wp-nav » sur le <body> de chaque page du perimetre : TOUT le CSS du bloc LOGO-WP-2026-11-03 est prefixe par body.wp-nav (accueil, Lyon,
+      legales, merci, demande rendent comme master).
+   5. Le CSS (heros ordinateur plus large, signature, pied) est dans lv.css, bloc ===LOGO-WP-2026-11-03===.
    Python systeme, depuis site-v5/ : python _logo_wp_grand.py"""
 import glob, os, re
 
@@ -27,7 +29,7 @@ def dans_perimetre(h):
     """kwp-hiver / kwp-ete, ou bloc KIT-WP:hero. Exclu : le bloc porte le logo Summer Prestige (villa de Saint-Tropez, /img/sp-)."""
     b = re.search(r"<!--KIT-WP:hero-->.*?<!--/KIT-WP:hero-->", h, re.S)
     if b and "/img/sp-" in b.group(0): return False
-    return bool(re.search(r'<body[^>]*class="[^"]*kwp-(hiver|ete)', h)) or "<!--KIT-WP:hero-->" in h
+    return bool(re.search(r'<body[^>]*class="[^"]*\bkwp-(hiver|ete)\b', h)) or "<!--KIT-WP:hero-->" in h
 
 def est_chalet(slug):
     return slug.startswith(("kosher-chalet-", "kosher-slope-chalet-"))
@@ -59,11 +61,13 @@ def main():
             if n2 != n: n = n2; cnt["pied"][lang] = cnt["pied"].get(lang, 0) + 1
         if True:
             bloc = ('<!--LOGO-WP:entete--><script>try{if(!sessionStorage.getItem("wpEntete")){sessionStorage.setItem("wpEntete","1");document.documentElement.classList.add("wp-anim")}}catch(e){}</script>'
-                    '<div class="wp-entete"><img class="wp-fl" src="/img/wp-flocon-or.svg" alt="" width="40" height="40"><span class="wp-e-txt"><img class="wp-mot" src="/img/wp-mot-or.svg" alt="Winter Prestige" width="173" height="14"><small translate="no">Powered by Mishpacha Tours</small></span></div><!--/LOGO-WP:entete-->')
+                    '<div class="wp-entete"><img class="wp-fl" src="/img/wp-flocon-or.svg" alt="" width="48" height="48"><span class="wp-e-txt"><img class="wp-mot" src="/img/wp-mot-or.svg" alt="Winter Prestige" width="179" height="14"><img class="wp-pw" src="/img/wp-powered-or.svg" alt="Powered by Mishpacha Tours" width="179" height="6"></span></div><!--/LOGO-WP:entete-->')
             n = re.sub(r"<!--LOGO-WP:entete-->.*?<!--/LOGO-WP:entete-->", "", n, flags=re.S)
             n2 = re.sub(r'(<header class="nav">\s*<a class="logo".*?</a>)', lambda m: m.group(1) + bloc, n, count=1, flags=re.S)
             if n2 != n: n = n2
             if n != h: cnt["entete"][lang] = cnt["entete"].get(lang, 0) + 1
+        if "wp-nav" not in re.search(r"<body[^>]*>", n).group(0):
+            n = re.sub(r'(<body[^>]*class=")([^"]*)"', lambda m: m.group(1) + m.group(2) + ' wp-nav"', n, count=1)
         n = reparer_bandeau_he(f, n) if lang == "he" else n
         if n != h: open(f, "w", encoding="utf-8", newline="").write(n)
     print("signatures retirees :", cnt["sign"], "| pieds de page :", cnt["pied"], "| en-tetes :", cnt["entete"])

@@ -29,7 +29,7 @@ def dans_perimetre(h):
     """kwp-hiver / kwp-ete, ou bloc KIT-WP:hero. Exclu : le bloc porte le logo Summer Prestige (villa de Saint-Tropez, /img/sp-)."""
     b = re.search(r"<!--KIT-WP:hero-->.*?<!--/KIT-WP:hero-->", h, re.S)
     if b and "/img/sp-" in b.group(0): return False
-    return bool(re.search(r'<body[^>]*class="[^"]*kwp-(hiver|ete)', h)) or "<!--KIT-WP:hero-->" in h
+    return bool(re.search(r'<body[^>]*class="[^"]*\bkwp-(hiver|ete)\b', h)) or "<!--KIT-WP:hero-->" in h
 
 def photo_heros(h):
     """Premiere <img> photo (pas un SVG, pas un logo wp-) apres <section class="hero" ; plus grande variante existante."""
