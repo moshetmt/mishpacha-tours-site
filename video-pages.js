@@ -1,7 +1,7 @@
 /* Vidéo de fond des héros intérieurs : <section class="hero lead-hero3" data-video="chalets">.
    La photo s'affiche d'abord ; la vidéo se charge après la page, jamais en économie de données ni en mouvement réduit. */
 (function(){
-var h=document.querySelector('.lead-hero3[data-video]');if(!h)return;
+var h=document.querySelector('.lead-hero3[data-video],.lv-hero-station[data-video]');if(!h)return;
 var c=navigator.connection||{};
 if(c.saveData||/(^|-)2g$/.test(c.effectiveType||'')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
 function go(){

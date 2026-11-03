@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Chalet Belle Étoile, Val Thorens · Mishpacha Tours (maquette)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap">
+<style>
+/* Maquette fiche chalet « façon fiche produit Louis Vuitton » (Moshé 03/11). Blanc, noir, or brossé discret. */
+:root{--noir:#111;--gris:#6B6B6B;--filet:#E6E6E6;--fond:#F4F4F2;--or:#A88F5E}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Jost,system-ui,sans-serif;font-weight:300;color:var(--noir);background:#fff;letter-spacing:.01em}
+a{color:inherit}
+.bh{position:fixed;top:6px;right:12px;font-size:12px;z-index:60;color:var(--gris)}
+/* en-tête minimal, logo au centre */
+.tete{position:sticky;top:0;z-index:50;background:#fff;height:64px;display:grid;grid-template-columns:48px 1fr 48px;align-items:center;padding:0 12px;border-bottom:1px solid var(--filet)}
+.tete .logo{justify-self:center;display:flex;align-items:center;gap:8px;text-decoration:none}
+.tete .logo img{height:30px}
+.tete .logo span{font:400 18px/1 'Suez One',Georgia,serif;letter-spacing:0}
+.ico{width:22px;height:22px;stroke:var(--noir);fill:none;stroke-width:1.2}
+/* barre collante façon LV (apparaît au défilement) */
+.colle{position:fixed;top:0;left:0;right:0;z-index:70;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px calc(12px);border-bottom:1px solid var(--filet);transform:translateY(-110%);transition:transform .3s}
+.colle.on{transform:none}
+.colle b{display:block;font-weight:400;font-size:15px}
+.colle small{color:var(--gris);font-size:13px}
+/* galerie plein écran, défilement horizontal */
+.galerie{position:relative;background:var(--fond)}
+.piste{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.piste::-webkit-scrollbar{display:none}
+.piste img{flex:0 0 100%;width:100%;aspect-ratio:4/5;object-fit:cover;scroll-snap-align:start;display:block}
+.progres{height:2px;background:var(--filet)}
+.progres i{display:block;height:2px;width:7.7%;background:var(--noir);transition:transform .2s}
+.compte{position:absolute;right:14px;bottom:14px;background:rgba(255,255,255,.9);font-size:12px;padding:4px 8px;border-radius:4px}
+/* bloc produit */
+.produit{padding:24px 20px 8px}
+.ref{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--or)}
+h1{font-weight:300;font-size:26px;line-height:1.25;margin:8px 0 6px;letter-spacing:.01em}
+.prix{font-size:16px;margin:0 0 4px}
+.chiffres{font-size:14px;color:var(--gris);margin:0 0 22px}
+.btn{display:block;width:100%;text-align:center;text-decoration:none;font:400 16px Jost;letter-spacing:.02em;padding:17px;border-radius:4px;margin:0 0 12px}
+.btn-noir{background:var(--noir);color:#fff}
+.btn-blanc{border:1px solid var(--noir);color:var(--noir);display:flex;align-items:center;justify-content:center;gap:10px}
+.lien{display:block;text-align:center;font-size:15px;margin:18px 0 22px;text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
+.note{color:var(--gris);font-size:15px;line-height:1.6;margin:0 0 26px}
+.desc{color:var(--gris);font-size:15px;line-height:1.65;margin:0;max-height:5em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 40%,transparent)}
+.desc.ouvert{max-height:none;-webkit-mask-image:none}
+.voir{background:none;border:0;padding:0;margin:10px 0 0;font:400 15px Jost;text-decoration:underline;text-underline-offset:6px;cursor:pointer}
+/* détails repliés */
+.plis{margin:30px 20px 0;border-top:1px solid var(--filet)}
+details{border-bottom:1px solid var(--filet)}
+summary{list-style:none;display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-size:16px;cursor:pointer}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:22px;font-weight:300}
+details[open] summary::after{content:"−"}
+details div{padding:0 0 22px;color:var(--gris);font-size:15px;line-height:1.65}
+details ul{margin:0;padding:0;list-style:none}
+details li{padding:6px 0}
+.fleches{margin:18px 20px 0}
+.fleches a{display:flex;justify-content:space-between;align-items:center;padding:16px 0;text-decoration:none;font-size:16px}
+.fleches a::after{content:"›";font-size:24px;font-weight:300}
+/* le chalet en images */
+h2{font-weight:300;font-size:24px;margin:48px 20px 18px;letter-spacing:.01em}
+h2::after{content:"";display:block;width:36px;height:1px;margin-top:14px;background:linear-gradient(100deg,#8F7646,#D2BC8C 45%,#A88F5E 55%,#8F7646)}
+.photos img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;margin:0 0 4px}
+.photos .duo{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.photos .duo img{aspect-ratio:3/4}
+/* autres chalets */
+.autres{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--filet)}
+.autres a{text-decoration:none;border-bottom:1px solid var(--filet)}
+.autres a:nth-child(odd){border-right:1px solid var(--filet)}
+.autres img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;background:var(--fond)}
+.autres .nom{display:block;padding:14px 14px 2px;font-size:15px;line-height:1.35}
+.autres .lieu{display:block;padding:0 14px 18px;font-size:14px;color:var(--gris)}
+/* pied minimal */
+.pied{margin-top:56px;text-align:center}
+.pied .marque{font:400 24px 'Suez One',Georgia,serif;margin:0 0 6px}
+.pied .fil{font-size:14px;color:var(--gris);margin:0 0 28px}
+.pied .fil a{text-decoration:underline;text-underline-offset:5px}
+.pied details{text-align:left;margin:0 20px}
+.pied .legal{font-size:14px;padding:28px 20px 40px;display:flex;flex-wrap:wrap;gap:12px 22px;justify-content:center}
+@media(min-width:900px){
+  .haut{display:grid;grid-template-columns:1.4fr 1fr;gap:0;max-width:1440px;margin:0 auto}
+  .piste img{aspect-ratio:4/3}
+  .produit{padding:56px 56px 0;position:sticky;top:64px;align-self:start}
+  .plis,.fleches{margin-left:56px;margin-right:56px}
+  .bas{max-width:1440px;margin:0 auto}
+  .photos{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+  .photos .duo{grid-column:span 2}
+  .autres{grid-template-columns:repeat(4,1fr)}
+  .autres a:nth-child(odd){border-right:0}.autres a{border-right:1px solid var(--filet)}
+}
+</style>
+</head>
+<body>
+<span class="bh" lang="he">ב״ה</span>
+
+<div class="colle" id="colle"><div><b>Chalet Belle Étoile</b><small>From €9,500 per week</small></div><a class="btn btn-noir" style="width:auto;margin:0;padding:12px 18px;font-size:15px" href="/plan-your-trip/?chalet=val-thorens">Plan your stay</a></div>
+
+<header class="tete">
+  <svg class="ico" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  <a class="logo" href="/"><img src="/img/picto-hassid.svg" alt=""><span translate="no">mishpacha tours</span></a>
+  <svg class="ico" viewBox="0 0 24 24" style="justify-self:end"><path d="M12 21s-7-4.4-9.3-8.6C1 9 2.8 5 6.6 5c2.1 0 3.5 1.2 5.4 3.3C13.9 6.2 15.3 5 17.4 5 21.2 5 23 9 21.3 12.4 19 16.6 12 21 12 21z"/></svg>
+</header>
+
+<main>
+<div class="haut">
+  <div class="galerie">
+    <div class="piste" id="piste">
+      <img src="/img/chalet/valthorens-exterieur-neige.jpg" alt="Chalet Belle Étoile under snow">
+      <img src="/img/chalet/valthorens-salon-baie.jpg" alt="Living room and bay window">
+      <img src="/img/chalet/valthorens-salon-poele.jpg" alt="Living room with stove">
+      <img src="/img/chalet/valthorens-table.jpg" alt="Dining table">
+      <img src="/img/chalet/valthorens-cuisine-salle-a-manger.jpg" alt="Kitchen and dining room">
+      <img src="/img/chalet/valthorens-suite-parentale.jpg" alt="Master suite">
+      <img src="/img/chalet/valthorens-suite-mezzanine.jpg" alt="Suite with mezzanine">
+      <img src="/img/chalet/valthorens-chambre-balcon.jpg" alt="Bedroom with balcony">
+      <img src="/img/chalet/valthorens-chambre-2.jpg" alt="Bedroom">
+      <img src="/img/chalet/valthorens-chambre-3.jpg" alt="Bedroom">
+      <img src="/img/chalet/valthorens-salle-de-bain.jpg" alt="Bathroom">
+      <img src="/img/chalet/valthorens-vue-balcon.jpg" alt="View from the balcony">
+      <img src="/img/chalet/valthorens-chalet-neige.jpg" alt="The chalet in winter">
+    </div>
+    <div class="progres"><i id="barre"></i></div>
+    <span class="compte" id="compte">1 / 13</span>
+  </div>
+
+  <div class="produit">
+    <div class="ref">Val Thorens · 3 Valleys</div>
+    <h1>Chalet Belle Étoile</h1>
+    <p class="prix">From €9,500 per week</p>
+    <p class="chiffres">10 guests · 3 en-suite bedrooms · 165 m²</p>
+    <a class="btn btn-noir" id="cta" href="/plan-your-trip/?chalet=val-thorens">Plan your stay</a>
+    <a class="btn btn-blanc" href="https://wa.me/33652092301"><svg class="ico" viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/></svg>WhatsApp</a>
+    <a class="lien" href="/plan-your-trip/">Talk to our concierge</a>
+    <p class="note">Strictly kosher, Chalav Yisrael. A day-by-day programme and a written quote the same day, never on Shabbat.</p>
+    <p class="desc" id="desc">A private wooden chalet above Val Thorens, facing south, with a ski path at the door and the village a few minutes away on foot. The chef cooks every meal in the kashered kitchen, or kosher meals are delivered. Shabbat is ready when you come back from the slopes: challot, wine, candles, and a minyan with a Sefer Torah on request, in your living room.</p>
+    <button class="voir" onclick="document.getElementById('desc').classList.add('ouvert');this.remove()">See more</button>
+  </div>
+</div>
+
+<div class="bas">
+  <div class="plis">
+    <details><summary>The chalet</summary><div><ul><li>165 m² on three floors, facing south</li><li>Three large en-suite bedrooms, up to 10 guests (8 adults)</li><li>Living room with stove and bay window, dining table for ten</li><li>Ski room, balconies over the valley</li></ul></div></details>
+    <details><summary>Included with your stay</summary><div><ul><li>Private chef, or kosher meals delivered</li><li>Kitchen kashered before you arrive</li><li>Shabbat and the holidays ready, minyan with a Sefer Torah on request</li><li>One contact in the Alps, from the quote to departure</li></ul></div></details>
+    <details><summary>Location and access</summary><div>Val Thorens, in the 3 Valleys. Geneva airport about 2 h 30 by private transfer, Lyon about 2 h 30. Transfers arranged on request, never on Shabbat.</div></details>
+    <details><summary>Questions</summary><div><ul><li><b>Who cooks?</b> A private chef, or meals delivered by the Beth Habad of the Alps.</li><li><b>Is there a minyan?</b> Yes, on request, with the men of your group and the bochurim we bring.</li><li><b>How do we book?</b> Send your dates; you receive a day-by-day programme and a written quote the same day.</li></ul></div></details>
+  </div>
+  <div class="fleches">
+    <a href="/kosher-pesach-alps/">Pesach in the chalet</a>
+    <a href="/legal/">Booking terms and deposit</a>
+  </div>
+
+  <h2>The chalet in pictures</h2>
+  <div class="photos">
+    <img src="/img/chalet/valthorens-salon-baie.jpg" alt="">
+    <div class="duo"><img src="/img/chalet/valthorens-table.jpg" alt=""><img src="/img/chalet/valthorens-suite-parentale.jpg" alt=""></div>
+    <img src="/img/chalet/valthorens-vue-balcon.jpg" alt="">
+  </div>
+
+  <h2>Discover our other chalets</h2>
+  <div class="autres">
+    <a href="/kosher-chalet-les-deux-alpes/"><img src="/img/chalet/min/wp-ext-bleu-336.webp" alt=""><span class="nom">Chalet King David</span><span class="lieu">Les Deux Alpes</span></a>
+    <a href="/kosher-chalet-courchevel/"><img src="/img/chalet/min/courchevel-ext-336.webp" alt=""><span class="nom">Chalet Flocon Doré</span><span class="lieu">Courchevel</span></a>
+    <a href="/kosher-chalet-les-menuires/"><img src="/img/chalet/min/aigle-exterieur-neige-336.webp" alt=""><span class="nom">Chalet Aigle Royal</span><span class="lieu">Les Ménuires</span></a>
+    <a href="/kosher-chalet-courchevel-renard-argente/"><img src="/img/chalet/min/renard-exterieur-neige-336.webp" alt=""><span class="nom">Chalet Renard Argenté</span><span class="lieu">Courchevel</span></a>
+  </div>
+</div>
+</main>
+
+<footer class="pied">
+  <p class="marque" translate="no">mishpacha tours</p>
+  <p class="fil">Alps · <a href="/kosher-chalets/">Chalets</a> · Chalet Belle Étoile</p>
+  <div style="border-top:1px solid var(--filet)">
+    <details><summary>Contact</summary><div>WhatsApp · contact@mishpachatours.com</div></details>
+    <details><summary>Resorts</summary><div>Val Thorens, Courchevel, Les Deux Alpes, Megève, Les Ménuires…</div></details>
+    <details><summary>About Mishpacha Tours</summary><div>Strictly kosher stays in the Alps, with Winter Prestige. Shomer Shabbat.</div></details>
+  </div>
+  <div class="legal"><a href="/legal/">Legal notice</a><a href="/credits/">Photo credits</a><span>Strictly kosher · Shomer Shabbat</span></div>
+</footer>
+
+<script>
+const p=document.getElementById('piste'),b=document.getElementById('barre'),c=document.getElementById('compte'),n=p.children.length;
+p.addEventListener('scroll',()=>{const i=Math.round(p.scrollLeft/p.clientWidth);b.style.transform='translateX('+(i*100)+'%)';c.textContent=(i+1)+' / '+n},{passive:true});
+const cta=document.getElementById('cta'),colle=document.getElementById('colle');
+new IntersectionObserver(e=>colle.classList.toggle('on',!e[0].isIntersecting&&e[0].boundingClientRect.top<0)).observe(cta);
+</script>
+</body>
+</html>

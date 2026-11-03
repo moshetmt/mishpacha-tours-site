@@ -126,7 +126,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/ (
 
 ספרו לנו את התאריכים. נשלח באותו יום תוכנית יום אחר יום.
 
-## document.querySelectorAll('.lead-form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();var t='שלום, אנחנו מתכננים: '+f.voyage.value+'.';f.querySelectorAll('label').forEach(function(l){t+=' '+l.querySelector('span').textContent+': '+(l.querySelector('input').value||'/')+' /'});window.open('https://wa.me/33652092301?text='+encodeURIComponent(t),'\_blank','noopener')})}); *להמשך*
+## להמשך *קריאה*
 
 - [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/)
 - [כשר בקורשבל](https://mishpachatours.com/he/kosher-courchevel/)
