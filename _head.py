@@ -5,6 +5,11 @@ import re, html, json
 
 BASE = "https://mishpachatours.com"
 OG_IMAGE = BASE + "/img/og-mishpacha-tours.jpg"
+
+def og_pour(slug):
+    """Image de partage d'une page : img/og/<slug>.jpg (pages Alpes, logo Winter Prestige, _og_wp.py) si elle existe, sinon celle de Mishpacha."""
+    import os
+    return BASE + f"/img/og/{slug}.jpg" if os.path.isfile(os.path.join(os.path.dirname(os.path.abspath(__file__)), "img", "og", f"{slug}.jpg")) else OG_IMAGE
 ORG = BASE + "/#organization"
 DATE = "2026-10-07"   # dateModified declaree (= date de verification des pages)
 
@@ -50,6 +55,7 @@ def webpage(path, title, desc, lang="en"):
 
 def head_page(h, path, title, desc, ld=None):
     h = clean(h)
+    og_img = og_pour("-".join(p for p in path.strip("/").split("/") if p not in ("fr", "es", "he")))
     og = (f'<link rel="canonical" href="{BASE}{path}">\n'
           '<meta property="og:type" content="article">\n<meta property="og:site_name" content="Mishpacha Tours">\n'
           f'<meta property="og:title" content="{html.escape(title)}">\n<meta property="og:description" content="{html.escape(desc)}">\n'
