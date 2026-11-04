@@ -211,6 +211,10 @@ JCSS = f"""/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, c
 {PR} .barre-basse a{{letter-spacing:0 !important;font-size:14px !important}}
 /* héros vidéo des stations, chalets et été : voile seulement derrière le texte, haut de l'image libre (Moshé 04/11 : « header sombre, buggé ») ; contraste mesuré sur chaque demi-seconde des 3 vidéos, pire cas 5,0:1 (E:/taches/contraste_video.py) */
 {P} main>section.lv-hero-station::before{{background:linear-gradient(0deg,rgba(0,0,0,.68) 0,rgba(0,0,0,.55) 55%,rgba(0,0,0,0) 75%),linear-gradient(180deg,rgba(0,0,0,.38) 0,rgba(0,0,0,0) 110px) !important}}
+/* carte : surtitre + zone en grand, comme le bloc Chabbat ; plan sans cadre noir */
+{P} .carte-sur{{text-align:center;margin:0 0 6px !important;font-weight:600 !important;font-size:13px !important;text-transform:uppercase;letter-spacing:.06em;color:#111111 !important}}
+{P} h2.carte-titre{{text-transform:none !important;font-weight:700 !important;font-size:34px !important;line-height:1.08 !important;letter-spacing:0 !important;text-wrap:balance;margin-bottom:28px !important}}
+{P} .carte-osm{{border:1px solid #E6E6E6 !important;box-shadow:none !important}}
 /* ===/RET-0411-JAUNE=== */
 """
 lv = open("lv.css", encoding="utf-8").read(); lv = re.sub(r"/\* ===RET-0411-JAUNE===.*?/\* ===/RET-0411-JAUNE=== \*/\n", "", lv, flags=re.S)
@@ -266,3 +270,35 @@ for f in glob.glob("**/index.html", recursive=True):
     t2 = re.sub(r'<p class="kwp-casher"><b>([^<]*)</b>[^<]*</p>\s*<div class="kwp-lieu">([^<]*·[^<]*)</div>', fusion, t)
     if t2 != t: open(f, "w", encoding="utf-8").write(t2); n10 += 1
 print("pages aux cartes refaites :", n10)
+
+# ---------- 11. carte : la zone en grand titre au-dessus du plan (Moshé 04/11 : « pareil pour la map, en gros en haut avec le plan ») ----------
+# « On the map » devient le surtitre (comme « This week »), la note de zone devient le titre (comme « Shabbat … in Courchevel »).
+# Les notes qui sont des consignes (« Tap a marker… ») restent sous la carte.
+CONSIGNE = re.compile(r"Tap |Toque|Touchez|Appuyez|לחצ|לחיצ|הקיש|lugar|places on|lieux sur|מקומות|מקום אחד", re.I)
+n11 = 0
+for f in glob.glob("**/index.html", recursive=True):
+    t = open(f, encoding="utf-8").read()
+    def zone(m):
+        h2, carte, note = m.group(1), m.group(2), m.group(3).strip()
+        if CONSIGNE.search(note): return m.group(0)
+        sur = re.sub(r"</?i>", "", h2).strip()
+        return (m.group(0)[:m.group(0).find("<h2")] + f'<p class="carte-sur">{sur}</p><h2 class="centre carte-titre">{note.rstrip(".").rstrip()}</h2>'
+                + carte + "</section>")
+    t2 = re.sub(r'<section[^>]*><h2 class="centre">([^<]*<i>[^<]*</i>[^<]*)</h2>(<div class="carte-osm"[^>]*></div>)<p class="carte-note">([^<]*)</p></section>', zone, t)
+    if t2 != t: open(f, "w", encoding="utf-8").write(t2); n11 += 1
+print("cartes avec la zone en titre :", n11)
+
+# ---------- 11b. zone trop longue pour un titre (> 42 signes) : titre = nom du lieu de la carte, phrase gardée dessous ; consigne : remise sous la carte ----------
+import html as _h, json as _js
+n11b = 0
+for f in glob.glob("**/index.html", recursive=True):
+    t = open(f, encoding="utf-8").read()
+    def corr(m):
+        sur, titre, carte = m.group(1), m.group(2), m.group(3)
+        if CONSIGNE.search(titre): return f'<h2 class="centre">{sur}</h2>{carte}<p class="carte-note">{titre}.</p></section>'
+        if len(titre) <= 42 and not re.match(r"(Pin |Marker|Repère|Marcador|סימון|הסימון)", titre): return m.group(0)
+        mp = re.search(r"""data-points=(["'])(.*?)\1""", carte); pts = _js.loads(_h.unescape(mp.group(2))) if mp else [{"n": sur}]
+        return f'<p class="carte-sur">{sur}</p><h2 class="centre carte-titre">{pts[0]["n"]}</h2>{carte}<p class="carte-note">{titre}.</p></section>'
+    t2 = re.sub(r'<p class="carte-sur">([^<]*)</p><h2 class="centre carte-titre">([^<]*)</h2>(<div class="carte-osm"[^>]*></div>)</section>', corr, t)
+    if t2 != t: open(f, "w", encoding="utf-8").write(t2); n11b += 1
+print("cartes corrigées (zone longue ou consigne) :", n11b)
