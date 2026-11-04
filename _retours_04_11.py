@@ -112,6 +112,7 @@ print(cpt)
 
 # ---------- 4. CSS tout le site (fin de lv.css) ----------
 P = "html body.lv" + "".join(f":not(#r{i})" for i in range(1, 12))
+PR = 'html[dir="rtl"] body.lv' + "".join(f":not(#r{i})" for i in range(1, 12))
 CSS = f"""/* ===RET-0411=== retours Moshé du 04/11 (_retours_04_11.py) : barre du bas en deux boutons séparés, plus de gris en bande */
 {P} .barre-basse{{display:grid !important;grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;gap:8px !important;padding:8px 12px calc(8px + env(safe-area-inset-bottom)) !important;height:auto !important;background:#FFFFFF !important;border-top:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:none !important;overflow:visible !important;pointer-events:auto !important}}
 {P} .barre-basse a{{height:48px !important;padding:0 10px !important;margin:0 !important;border-radius:4px !important;box-shadow:none !important;white-space:normal !important;line-height:1.25 !important;text-align:center !important;letter-spacing:.14em !important}}
@@ -190,6 +191,7 @@ JCSS = f"""/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, c
 {P} footer.pied a,{P} footer.pied td a,{P} td a,{P} .lead3-texte,{P} .lead3-bloc,{P} .lead3-btns,{P} .kwp-hero-wp{{text-decoration-color:currentColor !important}}
 {P} .shabbat-corps small{{display:block;margin-top:18px;font-size:18px !important;line-height:1.4;opacity:1 !important;color:#111111 !important;font-weight:400 !important;letter-spacing:.01em}}
 {P} .carte-note{{font-size:15px !important;line-height:1.5;opacity:1 !important;color:#3A3A3A !important;margin-top:14px !important}}
+{PR} .kwp-chiffres span b{{margin-inline-end:.3em !important}}
 /* ===/RET-0411-JAUNE=== */
 """
 lv = open("lv.css", encoding="utf-8").read(); lv = re.sub(r"/\* ===RET-0411-JAUNE===.*?/\* ===/RET-0411-JAUNE=== \*/\n", "", lv, flags=re.S)
