@@ -1622,202 +1622,7 @@ html[data-vt=mishpacha]::view-transition{background:#2D5132}
 @keyframes kwp-vt-entre{from{opacity:0}}
 .nav{view-transition-name:mt-nav}
 @media (prefers-reduced-motion:reduce){@view-transition{navigation:none}}
-/* ===/KIT-WP=== */
-/* OFFRES-LYON */
-.of-lyon{background:var(--beige);padding:56px 0 64px}
-.of-lyon h2{font-family:var(--titre);font-weight:300;max-width:20em;text-wrap:balance}
-.of-lyon h2 i{font-style:italic}
-.of-lyon .of-sous{margin-top:12px;font-size:17px;line-height:1.45;max-width:36em}
-.of-grille{display:grid;grid-auto-flow:column;grid-auto-columns:min(78%,300px);gap:14px;margin:28px calc(var(--pad) * -1) 0;padding:0 var(--pad) 6px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--pad);scrollbar-width:none}
-.of-grille::-webkit-scrollbar{display:none}
-.of-carte{display:flex;flex-direction:column;scroll-snap-align:start;background:var(--blanc);border-radius:15px;padding:20px 18px 18px}
-.of-ico{width:64px;height:64px;object-fit:contain;margin-bottom:14px}
-.of-carte h3{font-size:19px;line-height:1.25;font-weight:600;text-wrap:balance}
-.of-carte p{margin-top:8px;font-size:15px;line-height:1.45}
-.of-plus{margin-top:10px;font-size:14px;font-weight:500;color:var(--vert);text-decoration:underline;text-underline-offset:3px;align-self:flex-start}
-.of-plus::after{content:" \2192"}
-[dir=rtl] .of-plus::after{content:" \2190"}
-.of-btn{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:auto;min-height:48px;padding:0 10px;border-radius:999px;background:var(--jaune);color:#000;font-weight:600;font-size:14px;text-decoration:none;text-align:center}
-.of-carte > :nth-last-child(2){margin-bottom:18px}
-.of-btn svg{width:18px;height:18px;fill:currentColor;flex:none}
-.of-btn:hover{filter:brightness(.96)}
-@media (min-width:1100px){
-  .of-grille{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(5,1fr);gap:16px;margin-inline:0;padding-inline:0;overflow:visible;scroll-snap-type:none}
-}
-/* /OFFRES-LYON */
-/* ===GALERIE=== galerie plein ecran facon Le Collectionist (22/10), pilotee par js/galerie.js, blocs poses par _galerie_chalets.py */
-.gal-rail,.gal-cpt{display:none}
-.gal-btn{position:absolute;z-index:3;inset-inline-end:48px;bottom:72px;margin:0;padding:12px 16px;border:0;border-radius:0;background:rgba(15,15,15,.7);color:#fff;font:inherit;font-size:14px;line-height:19.6px;text-transform:uppercase;letter-spacing:1px;white-space:nowrap;cursor:pointer}
-.gal-btn:hover{background:rgba(15,15,15,.88)}
-.gal-btn:focus-visible,.gal-x:focus-visible,.gal-back:focus-visible,.gal-som a:focus-visible{outline:2px solid #fff;outline-offset:2px;box-shadow:0 0 0 4px #1C1B1F}
-.gal-c{display:none}
-.lead-hero3::before{pointer-events:none}
-html.gal-ouvert,html.gal-ouvert body{overflow:hidden}
-.gal[hidden]{display:none}
-.gal{position:fixed;inset:0;z-index:2147483000;background:#fff;color:#1a1a1a;font-family:inherit;overscroll-behavior:contain;outline:0}
-html body .gal h2,html body .gal h3{font-family:inherit;font-weight:400;font-style:normal;text-transform:uppercase;color:#1a1a1a;margin:0;text-wrap:balance}
-.gal-back{display:none}
-html body .gal .gal-som a{display:block;color:#1a1a1a;text-decoration:none;font-size:14px;font-weight:400}
-.gal .gal-som img{display:none}
-.gal-x{position:absolute;z-index:4;top:24px;inset-inline-end:24px;width:40px;height:40px;border:0;border-radius:50%;background:#fff;color:#1a1a1a;box-shadow:0 1px 6px rgba(0,0,0,.28);cursor:pointer;display:grid;place-items:center;padding:0}
-.gal-x:focus-visible,.gal-back:focus-visible,.gal-som a:focus-visible{outline:2px solid #1a1a1a;box-shadow:none}
-.gal figure{margin:0}
-.gal figure img{display:block}
-@media (min-width:900px){
-  .gal{display:flex}
-  .gal-side{flex:0 0 383px;box-sizing:border-box;padding:56px 32px 40px;overflow-y:auto;scrollbar-width:thin}
-  html body .gal .gal-nom{font-size:28px;line-height:1.2;letter-spacing:.07em;margin-bottom:56px}
-  html body .gal .gal-som a{line-height:29.5px;padding:0}
-  html body .gal .gal-som a:hover,html body .gal .gal-som a[aria-current="true"]{text-decoration:underline;text-underline-offset:4px}
-  html body .gal .gal-som a[aria-current="true"]{font-weight:500}
-  .gal-main{flex:1;min-width:0;overflow-y:auto;scrollbar-width:none;overscroll-behavior:contain}
-  .gal-main::-webkit-scrollbar{display:none}
-  .gal-piece{padding:0 0 8px}
-  html body .gal .gal-piece h3{font-size:24px;line-height:1.25;letter-spacing:.09em;padding:56px 0 24px}
-  html body .gal .gal-piece:first-child h3{padding-top:44px}
-  .gal-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .gal-grid figure{aspect-ratio:520/429;overflow:hidden;background:#f1efec}
-  .gal-grid figure:first-child,.gal-grid figure:last-child:nth-child(even){grid-column:1/-1;aspect-ratio:1057/594}
-  .gal-grid img{width:100%;height:100%;object-fit:cover}
-  .gal-grid figure.v img{object-fit:contain}
-}
-@media (max-width:899px){
-  .gal{overflow-y:auto;-webkit-overflow-scrolling:touch}
-  .gal-x{display:none}
-  .gal-back{display:grid;place-items:center;width:44px;height:44px;margin:6px 0 0 -10px;padding:0;border:0;background:none;color:#1a1a1a;cursor:pointer}
-  [dir="rtl"] .gal-back{margin:6px -10px 0 0;transform:scaleX(-1)}
-  .gal-side{padding:8px 16px 4px}
-  html body .gal .gal-nom{font-size:24px;line-height:1.2;letter-spacing:.06em;margin:14px 0 20px}
-  .gal-som{display:flex;gap:16px;overflow-x:auto;margin:0 -16px;padding:0 16px 12px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-  .gal-som::-webkit-scrollbar{display:none}
-  html body .gal .gal-som a{flex:0 0 154px}
-  .gal .gal-som img{display:block;width:154px;height:108px;object-fit:cover;background:#f1efec}
-  .gal .gal-som span{display:block;margin-top:8px;line-height:1.3}
-  html body .gal .gal-piece h3{font-size:20px;line-height:1.25;letter-spacing:.08em;padding:28px 16px 12px}
-  .gal-grid figure{margin:0 0 8px}
-  .gal-grid img{width:100%;height:auto}
-  .gal-main{padding-bottom:32px}
-  .lead-hero3.has-gal > img{display:none}
-  .gal-rail{display:flex;position:absolute;inset:0;z-index:0;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-  .gal-rail::-webkit-scrollbar{display:none}
-  .gal-rail img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;object-position:50% 20%;scroll-snap-align:start;scroll-snap-stop:always}
-  .lead-hero3.has-gal .lead3-texte{pointer-events:none}
-  .lead-hero3.has-gal .lead3-bloc,.lead-hero3.has-gal .lead3-texte a{pointer-events:auto}
-  .gal-cpt{display:block;position:absolute;z-index:3;top:14px;inset-inline-end:14px;padding:6px 10px;background:rgba(15,15,15,.7);color:#fff;font-size:14px;line-height:19.6px;pointer-events:none}
-  .gal-btn{top:14px;bottom:auto;inset-inline-end:auto;inset-inline-start:14px;padding:8px 12px}
-  .gal-l{display:none}.gal-c{display:inline}
-}
-@media (prefers-reduced-motion:reduce){.gal-rail{scroll-behavior:auto}}
-/* ===/GALERIE=== */
-
-
-/* accessibilite 25/10 : contraste des libelles du chercheur (Lighthouse 3.53 et 2.91 -> >= 4.5) */
-#chercheur label span,.cherche-bar .chercheur label span,#chercheur small,.cherche-bar .chercheur small{opacity:1;color:#625E57}
-/* 25/10, retour de Mendel : sur téléphone la photo du héros (villa, stations, chalets) n'apparaissait que sur 88 px au-dessus du panneau sombre.
-   La photo occupe maintenant la première moitié de l'écran, le panneau commence dessous. */
-@media (max-width:899px){body .lead-hero3:not(.lead-hero3-illus) .lead3-texte{padding-top:clamp(300px,56svh,460px)}}
-
-/* Accueil « rêve » (25/10) : bande de 4 visuels sous le chercheur */
-body:has(.ac-hero) .ss.reve{margin-top:0;padding:14px 0 0;background:var(--creme,#FAF6F0)}
-.reve-grille{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-.reve-grille figure{margin:0;position:relative;aspect-ratio:4/5;overflow:hidden;background:#1C1B1F}
-.reve-grille img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.reve-grille figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;color:#FFFAED;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;background:linear-gradient(180deg,rgba(20,19,22,0),rgba(20,19,22,.72))}
-@media (min-width:900px){.reve-grille{grid-template-columns:repeat(4,1fr);gap:14px}.reve-grille figure{aspect-ratio:3/4}.reve-grille figcaption{font-size:13px;padding:44px 18px 16px}}
-
-/* LIEU-BAS */ /* 26/10 : lieu sous l'encadré casher, titre en tête de carte */
-body .kwp-corps>.kwp-lieu{margin-top:14px;padding-inline-end:0}
-body .kwp-carte .kwp-corps>h3:first-child{margin-top:0;padding-top:18px}
-body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
-/* Safari : en grille subgrid, la photo 3:2 débordait sur la 1re ligne de texte (page des chalets, ordinateur) */
-.kwp-cartes .kwp-carte>.kwp-photo{aspect-ratio:auto;height:0;padding-bottom:66.667%}
-@media (min-width:900px){body .kwp-cartes .kwp-corps>.kwp-lieu{margin-top:0;padding:14px 22px 0}.kwp-cartes .kwp-corps>h3:first-child{padding-top:22px}}
-
-/* ANDROID-26-10 */ /* retours Mendel sur Chrome Android 360 px */
-/* 1. La marque ne se traduit pas (translate="no") et ne touche jamais le bouton de langue. */
-@media (max-width:899.98px){.nav .logo{min-width:0;flex:0 1 auto}.nav .logo .mot{white-space:nowrap}}
-@media (max-width:399.98px){.nav .logo .mot{font-size:24px}.nav .logo{gap:6px}}
-/* 2. Champs date : Chrome Android affiche « jj/mm/aaaa » plus un picto, trop large pour 133 px. */
-@media (max-width:480px){
-  #chercheur input[type=date],.lead-plan input[type=date],.cherche-bar .chercheur input[type=date]{padding-inline:10px;font-size:15px;font-variant-numeric:tabular-nums}
-  #chercheur input[type=date]::-webkit-calendar-picker-indicator,.lead-plan input[type=date]::-webkit-calendar-picker-indicator{width:16px;height:16px;margin:0;padding:0}
-}
-/* 3. Barre basse : le bouton doré prend plus de place et son texte peut passer sur deux lignes. */
-.barre-basse{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
-.barre-basse a{min-width:0;padding:0 8px;font-size:11px;letter-spacing:.1em;white-space:normal;text-align:center;line-height:1.2}
-
-/* REPAS-PRIX */ /* page des services Alpes : grille des repas livrés de Mendel (26/10) */
-.repas-prix .prix-table ul{max-width:none;margin:28px 0 0;padding:4px 20px;background:transparent;border:1px solid rgba(201,169,97,.35)}
-.repas-prix .prix-table li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px;align-items:baseline;color:inherit;border-color:rgba(201,169,97,.25)}
-.repas-prix .prix-table li span{min-width:0;opacity:.9}
-.repas-prix .prix-table li b{white-space:nowrap;font-size:18px;text-align:end;color:var(--jaune,#C9A961)}
-.repas-prix .note{font-size:15px;opacity:.85}
-@media (max-width:480px){.repas-prix .prix-table li{grid-template-columns:1fr}.repas-prix .prix-table li b{text-align:start}}
-@media (min-width:900px){.repas-prix .prix-table li b{font-size:24px}}
-
-/* HERO-WP-TEL */ /* téléphone : logo WP en haut de la photo, plus grand, avec un reflet qui passe (Moshé 26/10) */
-.kwp-hero-wp-tel{display:none}
-@media (max-width:899.98px){
-  .lead-hero3 .kwp-hero-wp-tel{display:block;position:absolute;z-index:3;top:22px;inset-inline-start:16px;width:min(300px,80vw);pointer-events:none;filter:drop-shadow(0 2px 10px rgba(0,0,0,.65))}
-  .lead-hero3 .kwp-hero-wp-tel::before{content:"";position:absolute;inset:-40px -48px;z-index:-1;background:radial-gradient(closest-side,rgba(12,12,14,.32),rgba(12,12,14,.12) 60%,rgba(12,12,14,0))}
-  .lead-hero3 .kwp-hero-wp-tel img{display:block;width:100%;height:auto}
-  .lead-hero3 .kwp-hero-wp-tel::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,244,214,.95) 50%,transparent 60%) no-repeat;background-size:250% 100%;background-position:120% 0;-webkit-mask:var(--logo) center/100% 100% no-repeat;mask:var(--logo) center/100% 100% no-repeat;animation:wp-reflet 7s ease-in-out 1.2s infinite}
-  .lead-hero3:has(.kwp-hero-wp-tel) .lead3-bloc .kwp-hero-wp{display:none}
-  .lead-hero3:has(.kwp-hero-wp-tel) .lead3-bloc h1{margin-top:0}
-  .lead-hero3.has-gal .kwp-hero-wp-tel{top:70px}
-}
-@keyframes wp-reflet{0%{background-position:120% 0}22%,100%{background-position:-20% 0}}
-@media (prefers-reduced-motion:reduce){.lead-hero3 .kwp-hero-wp-tel::after{animation:none;display:none}}
-
-/* HERO-WP-PC */ /* ordinateur : reflet doré sur le logo du cadre (Moshé 26/10), même animation que le téléphone */
-.lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille{position:relative;display:block;width:100%;max-width:280px;margin-inline-start:-6px}
-.lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille img{width:100%;max-width:100%;margin:0}
-@media (min-width:900px){
-  .lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 40%,rgba(255,244,214,.95) 50%,transparent 60%) no-repeat;background-size:250% 100%;background-position:120% 0;-webkit-mask:var(--logo) center/100% 100% no-repeat;mask:var(--logo) center/100% 100% no-repeat;animation:wp-reflet 7s ease-in-out 1.2s infinite}
-}
-@media (prefers-reduced-motion:reduce){.lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille::after{animation:none;display:none}}
-
-/* REVE-LIENS */ /* accueil : les 4 visuels sont des liens, zoom doux et flèche au survol (Moshé 26/10) */
-.reve-grille .reve-lien{display:block;color:inherit;text-decoration:none;border-radius:inherit;-webkit-tap-highlight-color:transparent}
-.reve-grille .reve-lien img{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
-.reve-grille .reve-lien figcaption::after{content:"→";display:inline-block;margin-inline-start:8px;transition:transform .3s ease}
-[dir=rtl] .reve-grille .reve-lien figcaption::after{content:"←"}
-.reve-grille .reve-lien:focus-visible{outline:2px solid var(--jaune,#C9A961);outline-offset:3px}
-@media (hover:hover){
-  .reve-grille .reve-lien:hover img{transform:scale(1.06)}
-  .reve-grille .reve-lien:hover figcaption::after{transform:translateX(4px)}
-  [dir=rtl] .reve-grille .reve-lien:hover figcaption::after{transform:translateX(-4px)}
-}
-.reve-grille .reve-lien:active figure{transform:scale(.98);transition:transform .15s ease}
-@media (prefers-reduced-motion:reduce){.reve-grille .reve-lien img,.reve-grille .reve-lien figcaption::after{transition:none}}
-
-/* REPAS-CARTES */ /* 26/10 Mendel : une photo par repas, cartes sur fond sombre */
-.repas-prix .rp-cartes{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:16px}
-.repas-prix .rp-carte{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;align-items:start;padding:0 0 16px;border:1px solid rgba(201,169,97,.3);overflow:hidden;background:rgba(250,247,240,.03)}
-.repas-prix .rp-carte img{grid-column:1/-1;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block;margin-bottom:12px}
-.repas-prix .rp-carte span{padding-inline:16px;opacity:.92;font-size:15px;line-height:1.4}
-.repas-prix .rp-carte b{padding-inline:16px;font-family:var(--titre);font-weight:300;font-size:19px;line-height:1.25;color:var(--jaune,#C9A961);text-align:start;text-wrap:balance}
-@media (min-width:600px){.repas-prix .rp-cartes{grid-template-columns:repeat(2,1fr)}}
-@media (min-width:900px){.repas-prix .rp-cartes{grid-template-columns:repeat(3,1fr);gap:20px}.repas-prix .rp-carte b{font-size:22px}}
-.repas-prix .rp-cartes + .prix-table ul{margin-top:20px}
-
-/* ACCUEIL-VIDEO */ /* vidéo muette de la bannière d'accueil, posée sur la photo, fondu à l'entrée (Moshé 26/10) */
-.ac-hero > .ac-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1s ease;pointer-events:none}
-.ac-hero > .ac-video.on{opacity:1}
-@media (prefers-reduced-motion:reduce){.ac-hero > .ac-video{display:none}}
-
-/* ANGLES-ARRONDIS */ /* 27/10 Moshé : plus de carrés, un arrondi doux partout */
-:root{--rayon:12px;--rayon-btn:10px}
-.btn-noir,.btn-hero,.cta-hero .btn-noir,.nav .liens a.nav-cta,.panneau nav a.nav-cta,.pill-noir,.cb button,.of-btn,.gal-btn,.pyt-flottant,
-.barre-basse a,#chercheur input,#chercheur select,#chercheur button,.lead-final .chercheur input,.lead-final button,.demande button,form button,
-.langue summary,.langue ul{border-radius:var(--rayon-btn)}
-.kwp-carte,.carte,.of-carte,.hub-carte,.rp-carte,.dk-cartes>li,.minyan-corps,.prix-table ul,.mosaique figure,.reve-grille figure,
-.lead3-bloc,.chercheur,.ticket,.kwp-photo,.photo-cit,.carte-osm,.dk-note p{border-radius:var(--rayon);overflow:hidden}
-.reve-grille .reve-lien{border-radius:var(--rayon)}
-.barre-basse{border-radius:var(--rayon) var(--rayon) 0 0;overflow:hidden}
-.barre-basse a{border-radius:0}
-@media (min-width:1000px){.kwp-cartes.kwp-six{grid-template-columns:repeat(3,minmax(0,1fr))}} /* 02/11 : six chalets = 3 + 3 (2 + 2 + 2 entre 700 et 999 px, grille de base) */
-@media (max-width:767px){html[dir=rtl] section.conseils{overflow-x:clip}} /* 02/11 : en hébreu, le bloc « en bref » faisait déborder la page de 550 px sur téléphone (Val Thorens et Aigle Royal) */
+/* ===/KIT-WP=== */
 /* ===ANIMATIONS=== */
 :root{--ease-out:cubic-bezier(0.23,1,0.32,1);--ease-drawer:cubic-bezier(0.32,0.72,0,1)}
 /* ---- structure sans mouvement : les trois traits du menu (memes positions qu'avant) ---- */
@@ -1911,6 +1716,92 @@ body:has(#formDemande) .pyt-flottant,body:has(.nav .menu[aria-expanded="true"]) 
   @keyframes anim-flocon{0%{opacity:0;transform:translate3d(0,0,0)}12%{opacity:var(--o)}80%{opacity:var(--o)}100%{opacity:0;transform:translate3d(var(--dx),var(--h),0)}}
 }
 /* ===/ANIMATIONS=== */
+/* OFFRES-LYON */
+.of-lyon{background:var(--beige);padding:56px 0 64px}
+.of-lyon h2{font-family:var(--titre);font-weight:300;max-width:20em;text-wrap:balance}
+.of-lyon h2 i{font-style:italic}
+.of-lyon .of-sous{margin-top:12px;font-size:17px;line-height:1.45;max-width:36em}
+.of-grille{display:grid;grid-auto-flow:column;grid-auto-columns:min(78%,300px);gap:14px;margin:28px calc(var(--pad) * -1) 0;padding:0 var(--pad) 6px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--pad);scrollbar-width:none}
+.of-grille::-webkit-scrollbar{display:none}
+.of-carte{display:flex;flex-direction:column;scroll-snap-align:start;background:var(--blanc);border-radius:15px;padding:20px 18px 18px}
+.of-ico{width:64px;height:64px;object-fit:contain;margin-bottom:14px}
+.of-carte h3{font-size:19px;line-height:1.25;font-weight:600;text-wrap:balance}
+.of-carte p{margin-top:8px;font-size:15px;line-height:1.45}
+.of-plus{margin-top:10px;font-size:14px;font-weight:500;color:var(--vert);text-decoration:underline;text-underline-offset:3px;align-self:flex-start}
+.of-plus::after{content:" \2192"}
+[dir=rtl] .of-plus::after{content:" \2190"}
+.of-btn{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:auto;min-height:48px;padding:0 10px;border-radius:999px;background:var(--jaune);color:#000;font-weight:600;font-size:14px;text-decoration:none;text-align:center}
+.of-carte > :nth-last-child(2){margin-bottom:18px}
+.of-btn svg{width:18px;height:18px;fill:currentColor;flex:none}
+.of-btn:hover{filter:brightness(.96)}
+@media (min-width:1100px){
+  .of-grille{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(5,1fr);gap:16px;margin-inline:0;padding-inline:0;overflow:visible;scroll-snap-type:none}
+}
+/* /OFFRES-LYON */
+/* ===GALERIE=== galerie plein ecran facon Le Collectionist (22/10), pilotee par js/galerie.js, blocs poses par _galerie_chalets.py */
+.gal-rail,.gal-cpt{display:none}
+.gal-btn{position:absolute;z-index:3;inset-inline-end:48px;bottom:72px;margin:0;padding:12px 16px;border:0;border-radius:0;background:rgba(15,15,15,.7);color:#fff;font:inherit;font-size:14px;line-height:19.6px;text-transform:uppercase;letter-spacing:1px;white-space:nowrap;cursor:pointer}
+.gal-btn:hover{background:rgba(15,15,15,.88)}
+.gal-btn:focus-visible,.gal-x:focus-visible,.gal-back:focus-visible,.gal-som a:focus-visible{outline:2px solid #fff;outline-offset:2px;box-shadow:0 0 0 4px #1C1B1F}
+.gal-c{display:none}
+.lead-hero3::before{pointer-events:none}
+html.gal-ouvert,html.gal-ouvert body{overflow:hidden}
+.gal[hidden]{display:none}
+.gal{position:fixed;inset:0;z-index:2147483000;background:#fff;color:#1a1a1a;font-family:inherit;overscroll-behavior:contain;outline:0}
+html body .gal h2,html body .gal h3{font-family:inherit;font-weight:400;font-style:normal;text-transform:uppercase;color:#1a1a1a;margin:0;text-wrap:balance}
+.gal-back{display:none}
+html body .gal .gal-som a{display:block;color:#1a1a1a;text-decoration:none;font-size:14px;font-weight:400}
+.gal .gal-som img{display:none}
+.gal-x{position:absolute;z-index:4;top:24px;inset-inline-end:24px;width:40px;height:40px;border:0;border-radius:50%;background:#fff;color:#1a1a1a;box-shadow:0 1px 6px rgba(0,0,0,.28);cursor:pointer;display:grid;place-items:center;padding:0}
+.gal-x:focus-visible,.gal-back:focus-visible,.gal-som a:focus-visible{outline:2px solid #1a1a1a;box-shadow:none}
+.gal figure{margin:0}
+.gal figure img{display:block}
+@media (min-width:900px){
+  .gal{display:flex}
+  .gal-side{flex:0 0 383px;box-sizing:border-box;padding:56px 32px 40px;overflow-y:auto;scrollbar-width:thin}
+  html body .gal .gal-nom{font-size:28px;line-height:1.2;letter-spacing:.07em;margin-bottom:56px}
+  html body .gal .gal-som a{line-height:29.5px;padding:0}
+  html body .gal .gal-som a:hover,html body .gal .gal-som a[aria-current="true"]{text-decoration:underline;text-underline-offset:4px}
+  html body .gal .gal-som a[aria-current="true"]{font-weight:500}
+  .gal-main{flex:1;min-width:0;overflow-y:auto;scrollbar-width:none;overscroll-behavior:contain}
+  .gal-main::-webkit-scrollbar{display:none}
+  .gal-piece{padding:0 0 8px}
+  html body .gal .gal-piece h3{font-size:24px;line-height:1.25;letter-spacing:.09em;padding:56px 0 24px}
+  html body .gal .gal-piece:first-child h3{padding-top:44px}
+  .gal-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .gal-grid figure{aspect-ratio:520/429;overflow:hidden;background:#f1efec}
+  .gal-grid figure:first-child,.gal-grid figure:last-child:nth-child(even){grid-column:1/-1;aspect-ratio:1057/594}
+  .gal-grid img{width:100%;height:100%;object-fit:cover}
+  .gal-grid figure.v img{object-fit:contain}
+}
+@media (max-width:899px){
+  .gal{overflow-y:auto;-webkit-overflow-scrolling:touch}
+  .gal-x{display:none}
+  .gal-back{display:grid;place-items:center;width:44px;height:44px;margin:6px 0 0 -10px;padding:0;border:0;background:none;color:#1a1a1a;cursor:pointer}
+  [dir="rtl"] .gal-back{margin:6px -10px 0 0;transform:scaleX(-1)}
+  .gal-side{padding:8px 16px 4px}
+  html body .gal .gal-nom{font-size:24px;line-height:1.2;letter-spacing:.06em;margin:14px 0 20px}
+  .gal-som{display:flex;gap:16px;overflow-x:auto;margin:0 -16px;padding:0 16px 12px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .gal-som::-webkit-scrollbar{display:none}
+  html body .gal .gal-som a{flex:0 0 154px}
+  .gal .gal-som img{display:block;width:154px;height:108px;object-fit:cover;background:#f1efec}
+  .gal .gal-som span{display:block;margin-top:8px;line-height:1.3}
+  html body .gal .gal-piece h3{font-size:20px;line-height:1.25;letter-spacing:.08em;padding:28px 16px 12px}
+  .gal-grid figure{margin:0 0 8px}
+  .gal-grid img{width:100%;height:auto}
+  .gal-main{padding-bottom:32px}
+  .lead-hero3.has-gal > img{display:none}
+  .gal-rail{display:flex;position:absolute;inset:0;z-index:0;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .gal-rail::-webkit-scrollbar{display:none}
+  .gal-rail img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;object-position:50% 20%;scroll-snap-align:start;scroll-snap-stop:always}
+  .lead-hero3.has-gal .lead3-texte{pointer-events:none}
+  .lead-hero3.has-gal .lead3-bloc,.lead-hero3.has-gal .lead3-texte a{pointer-events:auto}
+  .gal-cpt{display:block;position:absolute;z-index:3;top:14px;inset-inline-end:14px;padding:6px 10px;background:rgba(15,15,15,.7);color:#fff;font-size:14px;line-height:19.6px;pointer-events:none}
+  .gal-btn{top:14px;bottom:auto;inset-inline-end:auto;inset-inline-start:14px;padding:8px 12px}
+  .gal-l{display:none}.gal-c{display:inline}
+}
+@media (prefers-reduced-motion:reduce){.gal-rail{scroll-behavior:auto}}
+/* ===/GALERIE=== */
 /* ===LUXE=== */
 /* Tokens : un seul univers. */
 :root{--creme:#FAF7F0;--beige:#FAF7F0;--rose:#FAF7F0;--jaune:#C9A961;--vert:#141416;--vert-c:#141416;--encre:#141416;--rouge:#141416;--ecart:64px}
@@ -1982,21 +1873,23 @@ h1 i,h2 i,h3 i{font-style:normal}
 .lead-final .chercheur,
 .lead-final .chercheur label,
 .lead-final .chercheur input,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ :is(input,select,textarea),
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-auto,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-svc-add,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-c,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-pas,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-cpt .cpt button,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-nav .btn-noir:not(#pf0),
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-tl img,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-mc,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bes-t img,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-niv,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-ess-b,
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-merci-b:not(#pf0),
+.demande .dm-chips.mini label,
+.dm-auto,
+details.dm-recap,
+.dm-barre,
+.dm-barre i,
+.dm-noscript,
+.dm-intention,
+.dm-tuile,
+.dm-puces li,
+.dm-recap-liste .dm-edit,
+.dm-retour,
+.dm-note,
+.demande .dm-chips label,
+.demande .dm-chips .dm-ic-txt,
+.demande .dm-chips label::before,
+.dm-pli-n,
+.demande .dm-chips:not(.mini) label,
 .sh-moment,
 .ac-chalet > .ac-wp,
 /* ===MESURE=== */ .cb,
@@ -2021,16 +1914,10 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 .nav-ch-v img,
 .nav .liens .nav-ch-menu,
 .nav .liens .nav-ch-v,
+/* ---- bouton Plan your trip flottant, a gauche du WhatsApp (Moshe 19/10) ---- */ .pyt-flottant,
 .of-carte,
 .of-btn,
-.gal-btn,
-/* REVE-LIENS */ /* accueil : les 4 visuels sont des liens, zoom doux et flèche au survol (Moshé 26/10) */ .reve-grille .reve-lien,
-.btn-noir,.btn-hero,.cta-hero .btn-noir,.nav .liens a.nav-cta,.panneau nav a.nav-cta,.pill-noir,.cb button,.of-btn,.gal-btn,.pyt-flottant, .barre-basse a,#chercheur input,#chercheur select,#chercheur button,.lead-final .chercheur input,.lead-final button,.demande button,form button, .langue summary,.langue ul,
-.kwp-carte,.carte,.of-carte,.hub-carte,.rp-carte,.dk-cartes>li,.minyan-corps,.prix-table ul,.mosaique figure,.reve-grille figure, .lead3-bloc,.chercheur,.ticket,.kwp-photo,.photo-cit,.carte-osm,.dk-note p,
-.reve-grille .reve-lien,
-.barre-basse,
-.barre-basse a,
-/* ---- bouton Plan your trip flottant, a gauche du WhatsApp (Moshe 19/10) ---- */ .pyt-flottant{border-radius:0}
+.gal-btn{border-radius:var(--rayon)}
 /* Boutons : capitales espacées, 48 px. */
 .btn-noir,.btn-hero,.cta-hero,.cta-pratique,.cta-etapes,.nav .liens a.nav-cta,.panneau nav a.nav-cta,.pill-noir,.cb button,.demande button,.lead-final button,.lead-plan a,form button{font-family:'Heebo',sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;min-height:48px}
 .panneau nav a.nav-cta{font-size:13px;padding:0 24px;min-height:56px}
@@ -2141,3 +2028,111 @@ body:has(.ac-hero) .ticket-zone{margin-top:24px}
   body:has(#formDemande) .barre-basse{display:none}
 }
 /* ===/LUXE=== */
+
+/* accessibilite 25/10 : contraste des libelles du chercheur (Lighthouse 3.53 et 2.91 -> >= 4.5) */
+#chercheur label span,.cherche-bar .chercheur label span,#chercheur small,.cherche-bar .chercheur small{opacity:1;color:#625E57}
+/* 25/10, retour de Mendel : sur téléphone la photo du héros (villa, stations, chalets) n'apparaissait que sur 88 px au-dessus du panneau sombre.
+   La photo occupe maintenant la première moitié de l'écran, le panneau commence dessous. */
+@media (max-width:899px){body .lead-hero3:not(.lead-hero3-illus) .lead3-texte{padding-top:clamp(300px,56svh,460px)}}
+
+/* Accueil « rêve » (25/10) : bande de 4 visuels sous le chercheur */
+body:has(.ac-hero) .ss.reve{margin-top:0;padding:14px 0 0;background:var(--creme,#FAF6F0)}
+.reve-grille{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.reve-grille figure{margin:0;position:relative;aspect-ratio:4/5;overflow:hidden;background:#1C1B1F}
+.reve-grille img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.reve-grille figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 14px 12px;color:#FFFAED;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;background:linear-gradient(180deg,rgba(20,19,22,0),rgba(20,19,22,.72))}
+@media (min-width:900px){.reve-grille{grid-template-columns:repeat(4,1fr);gap:14px}.reve-grille figure{aspect-ratio:3/4}.reve-grille figcaption{font-size:13px;padding:44px 18px 16px}}
+
+/* LIEU-BAS */ /* 26/10 : lieu sous l'encadré casher, titre en tête de carte */
+body .kwp-corps>.kwp-lieu{margin-top:14px;padding-inline-end:0}
+body .kwp-carte .kwp-corps>h3:first-child{margin-top:0;padding-top:18px}
+body .kwp-carte .kwp-corps>.kwp-lieu+.kwp-dispo{margin-top:8px}
+/* Safari : en grille subgrid, la photo 3:2 débordait sur la 1re ligne de texte (page des chalets, ordinateur) */
+.kwp-cartes .kwp-carte>.kwp-photo{aspect-ratio:auto;height:0;padding-bottom:66.667%}
+@media (min-width:900px){body .kwp-cartes .kwp-corps>.kwp-lieu{margin-top:0;padding:14px 22px 0}.kwp-cartes .kwp-corps>h3:first-child{padding-top:22px}}
+
+/* ANDROID-26-10 */ /* retours Mendel sur Chrome Android 360 px */
+/* 1. La marque ne se traduit pas (translate="no") et ne touche jamais le bouton de langue. */
+@media (max-width:899.98px){.nav .logo{min-width:0;flex:0 1 auto}.nav .logo .mot{white-space:nowrap}}
+@media (max-width:399.98px){.nav .logo .mot{font-size:24px}.nav .logo{gap:6px}}
+/* 2. Champs date : Chrome Android affiche « jj/mm/aaaa » plus un picto, trop large pour 133 px. */
+@media (max-width:480px){
+  #chercheur input[type=date],.lead-plan input[type=date],.cherche-bar .chercheur input[type=date]{padding-inline:10px;font-size:15px;font-variant-numeric:tabular-nums}
+  #chercheur input[type=date]::-webkit-calendar-picker-indicator,.lead-plan input[type=date]::-webkit-calendar-picker-indicator{width:16px;height:16px;margin:0;padding:0}
+}
+/* 3. Barre basse : le bouton doré prend plus de place et son texte peut passer sur deux lignes. */
+.barre-basse{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
+.barre-basse a{min-width:0;padding:0 8px;font-size:11px;letter-spacing:.1em;white-space:normal;text-align:center;line-height:1.2}
+
+/* REPAS-PRIX */ /* page des services Alpes : grille des repas livrés de Mendel (26/10) */
+.repas-prix .prix-table ul{max-width:none;margin:28px 0 0;padding:4px 20px;background:transparent;border:1px solid rgba(201,169,97,.35)}
+.repas-prix .prix-table li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px;align-items:baseline;color:inherit;border-color:rgba(201,169,97,.25)}
+.repas-prix .prix-table li span{min-width:0;opacity:.9}
+.repas-prix .prix-table li b{white-space:nowrap;font-size:18px;text-align:end;color:var(--jaune,#C9A961)}
+.repas-prix .note{font-size:15px;opacity:.85}
+@media (max-width:480px){.repas-prix .prix-table li{grid-template-columns:1fr}.repas-prix .prix-table li b{text-align:start}}
+@media (min-width:900px){.repas-prix .prix-table li b{font-size:24px}}
+
+/* HERO-WP-TEL */ /* téléphone : logo WP en haut de la photo, plus grand, avec un reflet qui passe (Moshé 26/10) */
+.kwp-hero-wp-tel{display:none}
+@media (max-width:899.98px){
+  .lead-hero3 .kwp-hero-wp-tel{display:block;position:absolute;z-index:3;top:22px;inset-inline-start:16px;width:min(300px,80vw);pointer-events:none;filter:drop-shadow(0 2px 10px rgba(0,0,0,.65))}
+  .lead-hero3 .kwp-hero-wp-tel::before{content:"";position:absolute;inset:-40px -48px;z-index:-1;background:radial-gradient(closest-side,rgba(12,12,14,.32),rgba(12,12,14,.12) 60%,rgba(12,12,14,0))}
+  .lead-hero3 .kwp-hero-wp-tel img{display:block;width:100%;height:auto}
+  .lead-hero3 .kwp-hero-wp-tel::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,244,214,.95) 50%,transparent 60%) no-repeat;background-size:250% 100%;background-position:120% 0;-webkit-mask:var(--logo) center/100% 100% no-repeat;mask:var(--logo) center/100% 100% no-repeat;animation:wp-reflet 7s ease-in-out 1.2s infinite}
+  .lead-hero3:has(.kwp-hero-wp-tel) .lead3-bloc .kwp-hero-wp{display:none}
+  .lead-hero3:has(.kwp-hero-wp-tel) .lead3-bloc h1{margin-top:0}
+  .lead-hero3.has-gal .kwp-hero-wp-tel{top:70px}
+}
+@keyframes wp-reflet{0%{background-position:120% 0}22%,100%{background-position:-20% 0}}
+@media (prefers-reduced-motion:reduce){.lead-hero3 .kwp-hero-wp-tel::after{animation:none;display:none}}
+
+/* HERO-WP-PC */ /* ordinateur : reflet doré sur le logo du cadre (Moshé 26/10), même animation que le téléphone */
+.lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille{position:relative;display:block;width:100%;max-width:280px;margin-inline-start:-6px}
+.lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille img{width:100%;max-width:100%;margin:0}
+@media (min-width:900px){
+  .lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 40%,rgba(255,244,214,.95) 50%,transparent 60%) no-repeat;background-size:250% 100%;background-position:120% 0;-webkit-mask:var(--logo) center/100% 100% no-repeat;mask:var(--logo) center/100% 100% no-repeat;animation:wp-reflet 7s ease-in-out 1.2s infinite}
+}
+@media (prefers-reduced-motion:reduce){.lead-hero3 .lead3-bloc .kwp-hero-wp .wp-brille::after{animation:none;display:none}}
+
+/* REVE-LIENS */ /* accueil : les 4 visuels sont des liens, zoom doux et flèche au survol (Moshé 26/10) */
+.reve-grille .reve-lien{display:block;color:inherit;text-decoration:none;border-radius:inherit;-webkit-tap-highlight-color:transparent}
+.reve-grille .reve-lien img{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.reve-grille .reve-lien figcaption::after{content:"→";display:inline-block;margin-inline-start:8px;transition:transform .3s ease}
+[dir=rtl] .reve-grille .reve-lien figcaption::after{content:"←"}
+.reve-grille .reve-lien:focus-visible{outline:2px solid var(--jaune,#C9A961);outline-offset:3px}
+@media (hover:hover){
+  .reve-grille .reve-lien:hover img{transform:scale(1.06)}
+  .reve-grille .reve-lien:hover figcaption::after{transform:translateX(4px)}
+  [dir=rtl] .reve-grille .reve-lien:hover figcaption::after{transform:translateX(-4px)}
+}
+.reve-grille .reve-lien:active figure{transform:scale(.98);transition:transform .15s ease}
+@media (prefers-reduced-motion:reduce){.reve-grille .reve-lien img,.reve-grille .reve-lien figcaption::after{transition:none}}
+
+/* REPAS-CARTES */ /* 26/10 Mendel : une photo par repas, cartes sur fond sombre */
+.repas-prix .rp-cartes{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:16px}
+.repas-prix .rp-carte{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;align-items:start;padding:0 0 16px;border:1px solid rgba(201,169,97,.3);overflow:hidden;background:rgba(250,247,240,.03)}
+.repas-prix .rp-carte img{grid-column:1/-1;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block;margin-bottom:12px}
+.repas-prix .rp-carte span{padding-inline:16px;opacity:.92;font-size:15px;line-height:1.4}
+.repas-prix .rp-carte b{padding-inline:16px;font-family:var(--titre);font-weight:300;font-size:19px;line-height:1.25;color:var(--jaune,#C9A961);text-align:start;text-wrap:balance}
+@media (min-width:600px){.repas-prix .rp-cartes{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:900px){.repas-prix .rp-cartes{grid-template-columns:repeat(3,1fr);gap:20px}.repas-prix .rp-carte b{font-size:22px}}
+.repas-prix .rp-cartes + .prix-table ul{margin-top:20px}
+
+/* ACCUEIL-VIDEO */ /* vidéo muette de la bannière d'accueil, posée sur la photo, fondu à l'entrée (Moshé 26/10) */
+.ac-hero > .ac-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1s ease;pointer-events:none}
+.ac-hero > .ac-video.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.ac-hero > .ac-video{display:none}}
+
+/* ANGLES-ARRONDIS */ /* 27/10 Moshé : plus de carrés, un arrondi doux partout */
+:root{--rayon:12px;--rayon-btn:10px}
+.btn-noir,.btn-hero,.cta-hero .btn-noir,.nav .liens a.nav-cta,.panneau nav a.nav-cta,.pill-noir,.cb button,.of-btn,.gal-btn,.pyt-flottant,
+.barre-basse a,#chercheur input,#chercheur select,#chercheur button,.lead-final .chercheur input,.lead-final button,.demande button,form button,
+.langue summary,.langue ul{border-radius:var(--rayon-btn)}
+.kwp-carte,.carte,.of-carte,.hub-carte,.rp-carte,.dk-cartes>li,.minyan-corps,.prix-table ul,.mosaique figure,.reve-grille figure,
+.lead3-bloc,.chercheur,.ticket,.kwp-photo,.photo-cit,.carte-osm,.dk-note p{border-radius:var(--rayon);overflow:hidden}
+.reve-grille .reve-lien{border-radius:var(--rayon)}
+.barre-basse{border-radius:var(--rayon) var(--rayon) 0 0;overflow:hidden}
+.barre-basse a{border-radius:0}
+@media (min-width:1000px){.kwp-cartes.kwp-six{grid-template-columns:repeat(3,minmax(0,1fr))}} /* 02/11 : six chalets = 3 + 3 (2 + 2 + 2 entre 700 et 999 px, grille de base) */
+@media (max-width:767px){html[dir=rtl] section.conseils{overflow-x:clip}} /* 02/11 : en hébreu, le bloc « en bref » faisait déborder la page de 550 px sur téléphone (Val Thorens et Aigle Royal) */
