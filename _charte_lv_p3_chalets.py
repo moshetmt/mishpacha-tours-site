@@ -63,6 +63,7 @@ CSS_SRC = r"""/* Fiches chalet façon fiche produit LV (phase 3, 03/11). Génér
 @@ .lc-h2{margin:48px 20px 18px !important;padding:0 !important;text-align:start !important}
 @@ .lc-bas-photos .lc-photos img,@@ .lc-photos img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;margin:0 0 4px;border-radius:0 !important}
 @@ .lc-duo{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+@@ .lc-aut:last-child:nth-child(odd){grid-column:1/-1}
 @@ .lc-duo img{aspect-ratio:3/4 !important;margin:0 !important}
 @@ .lc-autres{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--filet)}
 @@ .lc-aut{display:block;text-decoration:none !important;border-bottom:1px solid var(--filet);border-inline-end:1px solid var(--filet);color:#111 !important}
@@ -89,7 +90,8 @@ CSS_SRC = r"""/* Fiches chalet façon fiche produit LV (phase 3, 03/11). Génér
 @@ .lc-bas{max-width:1440px}
 @@ .lc-h2{margin:64px 56px 22px !important}
 @@ .lc-photos{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:0 56px}
-@@ .lc-photos>img{aspect-ratio:4/3;margin:0}
+@@ .lc-photos>img{grid-column:1/-1;aspect-ratio:2/1;margin:0}
+@@ .lc-aut:last-child:nth-child(odd){grid-column:auto}
 @@ .lc-duo{grid-column:span 2;grid-template-columns:1fr 1fr}
 @@ .lc-duo img{aspect-ratio:4/3 !important}
 @@ .lc-autres{grid-template-columns:repeat(4,1fr);margin:0 56px}

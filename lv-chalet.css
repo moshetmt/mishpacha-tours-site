@@ -48,6 +48,7 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-h2{margin:48px 20px 18px !important;padding:0 !important;text-align:start !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-bas-photos .lc-photos img,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-photos img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;margin:0 0 4px;border-radius:0 !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-duo{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-aut:last-child:nth-child(odd){grid-column:1/-1}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-duo img{aspect-ratio:3/4 !important;margin:0 !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-autres{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--filet)}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-aut{display:block;text-decoration:none !important;border-bottom:1px solid var(--filet);border-inline-end:1px solid var(--filet);color:#111 !important}
@@ -74,7 +75,8 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-bas{max-width:1440px}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-h2{margin:64px 56px 22px !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-photos{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:0 56px}
-html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-photos>img{aspect-ratio:4/3;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-photos>img{grid-column:1/-1;aspect-ratio:2/1;margin:0}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-aut:last-child:nth-child(odd){grid-column:auto}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-duo{grid-column:span 2;grid-template-columns:1fr 1fr}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-duo img{aspect-ratio:4/3 !important}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) main.lc .lc-autres{grid-template-columns:repeat(4,1fr);margin:0 56px}
