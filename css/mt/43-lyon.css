@@ -1,8 +1,8 @@
-/* 43-lyon : visites de Lyon, fiches tours, offres Lyon, contact. Portée main.xl (posé par _mt_lyon.py). Seule bande teintée : .pierre */
+/* 43-lyon : visites de Lyon, fiches tours, offres Lyon, contact. Portée main.xl (posé par _mt_lyon.py). Aucune bande grise : .filet = fond blanc entre deux filets */
 .xl{--g:max(var(--gouttiere),calc((100% - var(--colonne)) / 2))}
 .xl>.ss+.ss,.xl>.ss+.ticket-zone,.xl>.ss+div.ss{padding-top:0}
-.xl>.pierre+.ss{padding-top:var(--section)}
-.xl>.ss.pierre{max-width:none;margin:0;padding-block:var(--section);padding-inline:var(--g);background:var(--pierre)}
+.xl>.filet+.ss{padding-top:var(--section)}
+.xl>.ss.filet{max-width:none;margin:0;padding-block:var(--section);padding-inline:var(--g);background:var(--papier);border-block:1px solid var(--trait)}
 .xl .centre{text-align:start}
 .xl h2.centre::after,.xl svg,.xl .dk-plus,.xl [data-illus],.of-ico,.xl .hub-carte .btn-noir,.xl .tuiles,.xl .marcheur{display:none}
 .xl .btn-noir svg{display:block}

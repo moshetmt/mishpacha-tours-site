@@ -8,3 +8,57 @@ body.wp-nav footer.pied .wp-v3-pb a{color:inherit;text-decoration:none}
 body.wp-nav main.lc .lc-colle .lc-wpfl{width:26px;height:26px;flex:none}
 body.wp-nav main.lc .lc-piste img.anim-zoom{cursor:zoom-in}
 @media (min-width:900px){body.wp-nav footer.pied .logo-pied.wp-v3{margin-top:88px}body.wp-nav footer.pied .logo-pied.wp-v3 img{width:380px}}
+/* ===RET-0411=== */
+.wpb-r{position:relative;display:block;line-height:0;width:max-content}
+.wpb-r::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,246,222,.95) 50%,transparent 60%) no-repeat;background-size:250% 100%;background-position:120% 0;-webkit-mask:var(--logo) center/100% 100% no-repeat;mask:var(--logo) center/100% 100% no-repeat;animation:wp-reflet 7s ease-in-out 1.2s infinite;pointer-events:none}
+@media (prefers-reduced-motion:reduce){.wpb-r::after{animation:none;display:none}}
+html body.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .wp-pw2{display:block;font-family:'Jost',system-ui,sans-serif !important;font-weight:500 !important;text-transform:uppercase;letter-spacing:.15em !important;color:#C2A874 !important;white-space:nowrap;line-height:1}
+html body.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .wp-pw2 b{font-family:'Suez One','Noto Serif Hebrew',Georgia,serif !important;font-weight:400 !important;text-transform:none !important;letter-spacing:.01em !important;color:#FFFFFF !important;font-size:1.25em}
+html body.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .nav .wp-entete .wp-pw2{font-size:calc(var(--wpmotw) / 25);margin-top:5px;max-width:var(--wpmotw)}
+html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) footer.pied .logo-pied.wp-v3{display:block;margin:64px 0 32px}
+body.wp-nav footer.pied .wp-lock{display:inline-flex;align-items:center;gap:18px;text-decoration:none !important}
+body.wp-nav footer.pied .wp-lock img{filter:none !important}
+body.wp-nav footer.pied .wp-lock .wp-lock-fl{width:72px !important;height:72px !important;flex:none}
+body.wp-nav footer.pied .wp-lock .wp-lock-mot{display:block;width:230px !important;height:auto !important;max-width:none}
+body.wp-nav footer.pied .wp-lock .wp-pw2{font-size:11px;margin-top:9px}
+body.wp-nav .lead-final .wp-fl-final{filter:none !important;width:64px !important;height:64px !important}
+body.wp-nav :is(.pyt-flottant,.barre-basse .bb-plan)::before{background:linear-gradient(100deg,#8C7448,#E8D6A6 48%,#B0965F 66%,#8C7448) !important}
+@media (min-width:900px){body.wp-nav footer.pied .wp-lock .wp-lock-fl{width:88px !important;height:88px !important}body.wp-nav footer.pied .wp-lock .wp-lock-mot{width:280px !important}body.wp-nav footer.pied .wp-lock .wp-pw2{font-size:13px}}
+/* ===/RET-0411=== */
+/* ===RET-0411-ALIGN=== pied WP : encre du flocon et du mot sur le bord du texte (mesure au pixel 04/11 : flocon +4 px, mot +6 px) */
+body.wp-nav footer.pied .wp-lock .wp-lock-fl{margin-left:-4px}
+body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:-6px}
+@media (min-width:900px){body.wp-nav footer.pied .wp-lock .wp-lock-fl{margin-left:-5px}body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:-5px}}
+html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wp-lock-fl,html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:0}
+/* ===/RET-0411-ALIGN=== */
+/* ===RET-0411-MOT=== */
+.wpb-m{display:block;aspect-ratio:1534/120;height:auto;-webkit-mask:url(/img/wp-mot-masque.png) center/100% 100% no-repeat;mask:url(/img/wp-mot-masque.png) center/100% 100% no-repeat;background:linear-gradient(105deg,transparent 40%,rgba(255,246,222,.95) 50%,transparent 60%) 120% 0/250% 100% no-repeat,linear-gradient(100deg,#8C7448 0%,#C2A874 30%,#E8D6A6 48%,#B0965F 66%,#8C7448 100%);animation:wpb-m 7s ease-in-out 1.2s infinite}
+@keyframes wpb-m{0%{background-position:120% 0,0 0}22%,100%{background-position:-20% 0,0 0}}
+@media (prefers-reduced-motion:reduce){.wpb-m{animation:none}}
+body.wp-nav .nav .wp-entete .wpb-m.wp-mot{height:var(--wpmot) !important}
+body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{height:auto !important;margin-left:0}
+html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{margin-left:0}
+/* lockup du pied composé comme la version carrée du kit WP : flocon centré au-dessus du nom, POWERED BY centré (Moshé 04/11 : « l'alignement pas bon à l'œil ») */
+body.wp-nav footer.pied .wp-lock{display:inline-flex !important;flex-direction:column !important;align-items:center !important;gap:14px !important}
+body.wp-nav footer.pied .wp-lock .wp-lock-fl{margin:0 !important}
+body.wp-nav footer.pied .wp-lock .wp-lock-col{display:flex !important;flex-direction:column !important;align-items:center !important}
+body.wp-nav footer.pied .wp-lock .wp-pw2{text-align:center}
+/* ===/RET-0411-MOT=== */
+/* ===RET-0411-RYTHME=== */
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>:is(section,div.ss):not(.lv-hero-station):not(.hero){padding-top:64px !important;padding-bottom:64px !important;margin-top:0 !important;margin-bottom:0 !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>:is(section,div.ss):not(.lv-hero-station):not(.hero):not(.kwp-noir)+:is(section,div.ss):not(.kwp-noir),html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>div.cta-etapes+:is(section,div.ss):not(.kwp-noir){border-top:1px solid #E6E6E6 !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>div.cta-etapes{padding-bottom:64px !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir{background:#111111 !important;color:#FFFFFF !important;box-shadow:0 0 0 100vmax #111111 !important;clip-path:inset(0 -100vmax) !important;border:0 !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir>h2,html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir>h2 i,html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir>p{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir .kwp-carte{background:#111111 !important;border:1px solid rgba(255,255,255,.16) !important;color:#FFFFFF !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir .kwp-carte :is(h3,h3 a,.kwp-prix,.kwp-chiffres b){color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir .kwp-carte :is(.kwp-chiffres,.kwp-chiffres span,.kwp-lieu,.kwp-dispo){color:#BDBDBD !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir .kwp-chiffres svg{stroke:#BDBDBD !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir .kwp-pied{border-top-color:rgba(255,255,255,.16) !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir .kwp-pied img{filter:invert(1) !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir .kwp-carte .btn-noir{background:#FFFFFF !important;color:#111111 !important;-webkit-text-fill-color:#111111 !important;border:1px solid #FFFFFF !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>section.kwp-noir :is(.pill,.kwp-tous a){background:transparent !important;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;border:1px solid rgba(255,255,255,.7) !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc) h2.carte-titre::after{width:56px !important;height:1.5px !important;margin:22px auto 0 !important}
+html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc) h2.carte-titre{margin-bottom:24px !important}
+@media (min-width:900px){html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>:is(section,div.ss):not(.lv-hero-station):not(.hero){padding-top:96px !important;padding-bottom:96px !important}html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc)>div.cta-etapes{padding-bottom:96px !important}}
+/* ===/RET-0411-RYTHME=== */

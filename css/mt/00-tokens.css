@@ -11,14 +11,14 @@
 @font-face{font-family:"Suez One";font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/mt-suezone-400-hebrew.woff2) format("woff2");unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}
 
 :root{
-  --encre:#111111;--papier:#FFFFFF;--pierre:#F4F4F2;--trait:#E6E6E6;--sourd:#6B6B6B;--sourd-encre:#9A9A9A;
+  --encre:#111111;--papier:#FFFFFF;--trait:#E6E6E6;--sourd:#6B6B6B;--sourd-encre:#9A9A9A;
   --or:#7A6440;
   --latin:"Jost",system-ui,-apple-system,sans-serif;--hebreu:"Heebo",system-ui,sans-serif;--marque:"Suez One",serif;
   --e1:8px;--e2:16px;--e3:24px;--e4:40px;--e5:64px;--e6:96px;--e7:128px;
   --section:var(--e5);--gouttiere:20px;--colonne:1200px;--lecture:640px;
   --entete:64px;--barre:64px;
   --t-display:34px;--t-h2:24px;--t-h3:17px;--t-corps:16px;--t-petit:13px;--t-libelle:11px;
-  --ls-titre:.06em;--ls-libelle:.18em;
+  --rayon:4px;--ls-titre:.06em;--ls-libelle:.18em;
 }
 @media (min-width:960px){:root{
   --section:var(--e6);--gouttiere:48px;--entete:72px;

@@ -1,5 +1,5 @@
-/* 45-formulaire : /plan-your-trip/ (main.lf). Pas de héros, fond pierre plein écran, un écran par question (JS de la page), champs trait bas seul, choix sans cadre, actif = trait 1 px encre */
-.lf{min-height:calc(100svh - var(--entete));background:var(--pierre)}
+/* 45-formulaire : /plan-your-trip/ (main.lf). Pas de héros, fond blanc plein écran, un écran par question (JS de la page), champs trait bas seul, choix sans cadre, actif = trait 1 px encre */
+.lf{min-height:calc(100svh - var(--entete));background:var(--papier)}
 .lf .wrap{max-width:calc(560px + 2 * var(--gouttiere));margin-inline:auto}
 .lf .pf-hero{padding:var(--e5) 0 var(--e3)}
 .lf:has(.avance) .pf-hero{display:none}
@@ -24,7 +24,7 @@ html[dir="rtl"] .pf-retour span{transform:rotate(-135deg)}
 .pf-sous,.pf-champ label,.pf-cpt .lib{display:block;margin:0}
 .pf-sous{margin-top:var(--e3)}
 .pf-champ{position:relative}
-.pf-champ [aria-invalid="true"]{border-bottom-width:2px}
+.pf-champ [aria-invalid="true"]{outline:1px solid var(--encre)}
 .pf-duo{display:grid;grid-template-columns:1fr 1fr;gap:var(--e3)}
 .pf-tel{display:grid;grid-template-columns:132px 1fr;gap:var(--e2);direction:ltr}
 .lf select{padding-inline-end:var(--e3);background:linear-gradient(45deg,transparent 50%,var(--encre) 50%) calc(100% - 9px) 55%/5px 5px no-repeat,linear-gradient(135deg,var(--encre) 50%,transparent 50%) calc(100% - 4px) 55%/5px 5px no-repeat}
@@ -53,7 +53,7 @@ html[lang="he"] .lf select{background-position:9px 55%,4px 55%}
 .pf-cpt{display:flex;align-items:center;justify-content:space-between;padding:var(--e1) 0;border-bottom:1px solid var(--trait)}
 .cpt{display:flex;align-items:center}
 .lf .cpt button{width:52px;min-height:52px;padding:0;border:0;background:none;color:var(--encre);font-size:var(--t-h2);font-weight:300}
-.cpt input{width:52px;text-align:center;border-bottom:0;-moz-appearance:textfield;appearance:textfield}
+.cpt input{width:52px;padding:0;border:0;text-align:center;-moz-appearance:textfield;appearance:textfield}
 .cpt input::-webkit-inner-spin-button,.cpt input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
 
 .pf-accord{margin:var(--e3) 0 0}

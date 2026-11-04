@@ -1,7 +1,8 @@
-/* 30-composants : boutons, lien texte, libellé, filet de titre, carte, faits, accordéon, prix, champs. Ni cadre, ni ombre, ni pilule, coins 0. */
+/* 30-composants : boutons, lien texte, libellé, filet de titre, carte, faits, accordéon, prix, champs. Ni ombre, ni pilule, ni bande grise. Coins 4 px (--rayon) sur boutons, champs et cartes seulement (règle de Moshé du 04/11), le reste reste droit. */
 
 /* boutons : 48 px, primaire encre, secondaire trait ; jamais d'icône dedans sauf WhatsApp */
 .btn,.btn-noir,.btn-hero,.lc-btn,.of-btn,.pill,.fc-wa,.lead3-wa,form button,.go{display:inline-flex;align-items:center;justify-content:center;gap:var(--e1);min-height:48px;padding:0 var(--e3);border:1px solid var(--encre);background:var(--encre);color:var(--papier);font:500 var(--t-libelle)/1.2 var(--latin);letter-spacing:var(--ls-libelle);text-transform:uppercase;text-align:center;cursor:pointer;-webkit-appearance:none;appearance:none}
+.btn,.btn-noir,.btn-hero,.lc-btn,.lc-noir,.of-btn,.pill,.fc-wa,.lead3-wa,form button,.go,.nav-cta{border-radius:var(--rayon)}
 .pill,.lc-blanc,.of-btn,.fc-wa,.lead3-wa,.go{background:var(--papier);color:var(--encre)}
 .btn-hero,.hero .btn-noir,.hero .pill,.lead3-wa{border-color:var(--papier);background:transparent;color:var(--papier)}
 .btn svg[data-wa],.btn-noir svg[data-wa],.lc-btn svg[data-wa],.of-btn svg[data-wa],.pill svg[data-wa],.fc-wa svg,.lead3-wa svg[data-wa]{flex:none;width:18px;height:18px;fill:currentColor}
@@ -19,7 +20,7 @@ h2.centre::after{content:"";display:block;width:24px;height:1px;margin:var(--e2)
 
 /* carte photo : 4:5 téléphone, 3:2 ordinateur, rien d'autre qu'un titre, une ligne sourde et un prix */
 .carte,.hub-carte,.lc-aut,.kwp-carte{display:block;border:0;background:none}
-.carte>.photo,.hub-carte>.photo,.kwp-photo,.lc-aut>img{display:block;position:relative;margin-bottom:var(--e2);overflow:hidden}
+.carte>.photo,.hub-carte>.photo,.kwp-photo,.lc-aut>img{display:block;position:relative;margin-bottom:var(--e2);overflow:hidden;border-radius:var(--rayon)}
 .carte .photo img,.hub-carte .photo img,.kwp-photo img,.lc-aut>img{width:100%;aspect-ratio:4/5;object-fit:cover}
 @media(min-width:960px){.carte .photo img,.hub-carte .photo img,.kwp-photo img,.lc-aut>img{aspect-ratio:3/2}}
 .lc-nom{display:block;font-size:var(--t-h3);font-weight:500;line-height:1.3}
@@ -51,11 +52,11 @@ details.acc>:not(summary)>:last-child{margin-bottom:0}
 ul.prix{padding:0;list-style:none}
 ul.prix li{display:flex;justify-content:space-between;gap:var(--e2);padding:var(--e2) 0;border-top:1px solid var(--trait)}
 
-/* champs : trait bas seul, 52 px, 16 px minimum (iOS), aucun cadre */
-input:not([type=checkbox],[type=radio],[type=hidden],[type=submit],[type=button]),select,textarea{display:block;width:100%;min-height:52px;padding:0;border:0;border-bottom:1px solid var(--encre);background:transparent;color:var(--encre);font:400 var(--t-corps)/1.3 var(--latin);-webkit-appearance:none;appearance:none}
-textarea{min-height:104px;padding-top:var(--e2)}
+/* champs : boîte de 1 px encre, coins 4 px, 52 px, 16 px minimum (iOS) */
+input:not([type=checkbox],[type=radio],[type=hidden],[type=submit],[type=button]),select,textarea{display:block;width:100%;min-height:52px;padding:0 var(--e2);border:1px solid var(--encre);border-radius:var(--rayon);background:transparent;color:var(--encre);font:400 var(--t-corps)/1.3 var(--latin);-webkit-appearance:none;appearance:none}
+textarea{min-height:104px;padding-block:var(--e2)}
 input::placeholder,textarea::placeholder{color:var(--sourd);opacity:1}
-input:focus,select:focus,textarea:focus{outline:0;border-bottom-width:2px}
+input:focus,select:focus,textarea:focus{outline:1px solid var(--encre);outline-offset:0}
 label,.fc-champ{display:block;margin-bottom:var(--e3)}
 label>span,.fc-champ>span{display:block;margin-bottom:0;font-size:var(--t-libelle);font-weight:500;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd)}
 label em{font-style:normal;text-transform:none;letter-spacing:0}

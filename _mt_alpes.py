@@ -314,6 +314,10 @@ def recompose(us, typ, lg, racine, slug):
         by[u.kind].append(u)
     for u in by["kwp"]:
         kwp_unit(u)
+    if typ in ("station", "hub", "hubalps"):  # règle du 04/11 : section des chalets en noir, une seule par page
+        noir = [u for u in by["kwp"] if "kwp-accueil" not in head_of(u.html)[1] and "kwp" in head_of(u.html)[1]]
+        if noir and not any("kwp-noir" in head_of(u.html)[1] for u in noir):
+            noir[0].html = with_classes(noir[0].html, add=["kwp-noir"])
     out = []
     pris = set()
 
@@ -338,7 +342,7 @@ def recompose(us, typ, lg, racine, slug):
             body = inner(u.html)
             body = re.sub(r'<ul class="rp-cartes">', '<ul class="rp-cartes prix">', body)
             body = re.sub(r'(<div class="prix-table[^"]*">)<ul>', r'\1<ul class="prix">', body)
-            u.html = f'<section class="ss bande-pierre repas-prix" id="meal-prices"><div class="wrap">{body}</div></section>'
+            u.html = f'<section class="ss bande-filet repas-prix" id="meal-prices"><div class="wrap">{body}</div></section>'
             add(u)
     elif typ == "hub":
         for u in kw:

@@ -49,9 +49,9 @@ def traiter(html, rel, stats):
     corps = main[len(ouv):]
     n = stats[t]
 
-    # tarifs (visite) et inclus (tour) : l'unique bande pierre de la page
+    # tarifs (visite) et inclus (tour) : la bande blanche à filets de la page
     if t == "visite":
-        corps, k = re.subn(r'(<section class="[^"]*prix-table[^"]*)(">\s*<h2.*?</h2>\s*)<ul>', r'\1 pierre\2<ul class="prix">', corps, flags=re.S)
+        corps, k = re.subn(r'(<section class="[^"]*prix-table[^"]*)(">\s*<h2.*?</h2>\s*)<ul>', r'\1 filet\2<ul class="prix">', corps, flags=re.S)
         n["tarifs_en_liste_de_prix"] += k
         # le chercheur quitte le héros : il devient une section sous la photo
         f = re.search(r'<form class="chercheur".*?</form>', corps, re.S)
@@ -62,8 +62,8 @@ def traiter(html, rel, stats):
             corps = corps[:fin] + f'\n<section class="ss wrap l-cherche">{f.group(0)}</section>' + corps[fin:]
             n["chercheur_sorti_du_heros"] += 1
     if t == "tour":
-        corps, k = re.subn(r'<section class="ss( beige)?">(\s*<div class="wrap inclus">)', r'<section class="ss pierre">\2', corps)
-        n["inclus_en_bande_pierre"] += k
+        corps, k = re.subn(r'<section class="ss( beige)?">(\s*<div class="wrap inclus">)', r'<section class="ss filet">\2', corps)
+        n["inclus_en_bande_filet"] += k
 
     # titres longs : 24 px sur téléphone (4 lignes au plus)
     def h1(mm):

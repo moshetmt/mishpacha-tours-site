@@ -22,7 +22,18 @@ body.menu-ouvert.mt .bh-haut{color:var(--encre)}
 body.wp-nav:not(.lv-transp) .wp-entete img,body.wp-nav.menu-ouvert .wp-entete img{filter:brightness(.6)}
 .wp-fl{width:32px;height:32px}
 .wp-e-txt{display:flex;flex-direction:column;gap:5px}
-.wp-mot,.wp-pw{width:104px;height:auto}
+.wp-mot{width:172px}
+/* mot WINTER PRESTIGE (en-tête et pied) : un seul élément masqué par wp-mot-masque.png, or brossé ; le reflet passe une fois, doucement, puis s'arrête */
+.wpb-m{display:block;aspect-ratio:1534/120;-webkit-mask:url(/img/wp-mot-masque.png) center/100% 100% no-repeat;mask:url(/img/wp-mot-masque.png) center/100% 100% no-repeat;background:linear-gradient(105deg,transparent 40%,rgba(255,246,222,.95) 50%,transparent 60%) 120% 0/250% 100% no-repeat,linear-gradient(100deg,#8C7448 0,#C2A874 30%,#E8D6A6 48%,#B0965F 66%,#8C7448 100%);animation:wpb-m 2.4s ease-in-out 1s 1 both}
+@keyframes wpb-m{from{background-position:120% 0,0 0}to{background-position:-20% 0,0 0}}
+@media(prefers-reduced-motion:reduce){.wpb-m{animation:none;background-position:-20% 0,0 0}}
+.wp-pw2{display:block;font:500 9px/1 var(--latin);letter-spacing:.15em;text-transform:uppercase;white-space:nowrap;color:#C2A874}
+.wp-pw2 b{font:400 1.25em/1 var(--marque);letter-spacing:.01em;text-transform:none;color:var(--papier)}
+html[lang="he"] .wp-pw2{letter-spacing:0}
+/* sur fond papier : or foncé du système, « mishpacha tours » en encre */
+body.wp-nav:not(.lv-transp) .nav .wpb-m,body.menu-ouvert.mt .nav .wpb-m{background-image:linear-gradient(105deg,transparent 40%,rgba(255,246,222,.9) 50%,transparent 60%),linear-gradient(100deg,#5E4C30 0,#8E7647 35%,#B39A64 50%,#7A6440 68%,#5E4C30 100%)}
+body.wp-nav:not(.lv-transp) .nav .wp-pw2,body.menu-ouvert.mt .nav .wp-pw2{color:var(--or)}
+body.wp-nav:not(.lv-transp) .nav .wp-pw2 b,body.menu-ouvert.mt .nav .wp-pw2 b{color:var(--encre)}
 body.wp-nav .nav .forme,body.wp-nav .nav .mot{display:none}
 @media(min-width:960px){body.wp-nav .nav .mot{display:block}}
 body.wp-nav .nav{gap:var(--e1)}

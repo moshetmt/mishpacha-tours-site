@@ -112,7 +112,6 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 - [כשר בלה דז אלפ](https://mishpachatours.com/he/kosher-les-deux-alpes/)
 - [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/)
 
-מקורות: הצוות שלנו באלפים (קישורים מ-20/10/2026) לצ'אלה ולפריסתה. נערך על ידי Mishpacha Tours מתוך מקורות אלה. נבדק ב-7 באוקטובר 2026.
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

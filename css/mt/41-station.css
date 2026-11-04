@@ -3,10 +3,10 @@
 /* rythme : deux sections blanches qui se suivent partagent un seul espace (64 / 96 px), jamais le double */
 .mt-alpes main>.ss+.ss{padding-top:0}
 .mt-alpes main>.faits-bloc+.ss{padding-top:var(--e4)}
-.mt-alpes main>.bande-encre+.ss,.mt-alpes main>.bande-pierre+.ss{padding-top:var(--section)}
-.mt-alpes main>.ss.bande-encre,.mt-alpes main>.ss.bande-pierre{padding-top:var(--section)}
+.mt-alpes main>.bande-encre+.ss,.mt-alpes main>.bande-filet+.ss,.mt-alpes main>.kwp-noir+.ss{padding-top:var(--section)}
+.mt-alpes main>.ss.bande-encre,.mt-alpes main>.ss.bande-filet{padding-top:var(--section)}
 .bande-encre{background:var(--encre);color:var(--papier)}
-.bande-pierre{background:var(--pierre)}
+.bande-filet{background:var(--papier);border-block:1px solid var(--trait)}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .ico-fin,.anim-neige,.kwp-pied,.kwp-chiffres,.kwp-casher,.kwp-dispo,.lead-mascotte,.dk-suite svg,.sh-moment svg{display:none}
 .mt-alpes .centre{text-align:start}
@@ -48,6 +48,14 @@
 .kwp-seule{grid-template-columns:1fr}
 @media(min-width:960px){.kwp-seule{grid-template-columns:repeat(3,1fr)}}
 .kwp-carte{position:relative}
+/* section des chalets en noir, une seule par page hors pied (règle du 04/11, charte LV) : pleine largeur, texte et prix en papier */
+.mt-alpes main>.ss.kwp-noir{max-width:none;margin:0;padding-block:var(--section);padding-inline:max(var(--gouttiere),calc((100% - var(--colonne)) / 2));background:var(--encre);color:var(--papier)}
+.kwp-noir :is(h2,h3,.kwp-prix,.kwp-v b){color:var(--papier)}
+.kwp-noir :is(.lib,.kwp-lieu,.kwp-v span){color:var(--sourd-encre)}
+.kwp-noir :is(.pill,.btn-noir,.kwp-tous a){border-color:var(--papier);background:transparent;color:var(--papier)}
+.kwp-noir h2.centre::after{background:var(--papier)}
+.kwp-noir :focus-visible{outline-color:var(--papier)}
+.kwp-v img{border-radius:var(--rayon)}
 .kwp-corps h3{margin:0 0 4px}
 .kwp-corps h3 a::after{content:"";position:absolute;inset:0}
 .kwp-lieu{margin:0}
@@ -134,7 +142,7 @@ details.acc>summary h2 i,details.acc>summary h3 i{display:inline;font-weight:inh
 /* carte : Leaflet se charge à l'approche (js/mt-carte.js), ses contrôles reprennent la palette */
 .carte-osm{width:100%}
 .carte-note{margin:var(--e2) 0 0;font-size:var(--t-petit);color:var(--sourd)}
-.carte-osm.leaflet-container{background:var(--pierre);font:400 var(--t-libelle)/1.5 var(--latin)}
+.carte-osm.leaflet-container{background:var(--papier);font:400 var(--t-libelle)/1.5 var(--latin)}
 .carte-osm.leaflet-container .leaflet-bar{border:1px solid var(--trait);border-radius:0;box-shadow:none}
 .carte-osm.leaflet-container .leaflet-bar a{width:40px;height:40px;border-radius:0;border-bottom:1px solid var(--trait);background:var(--papier);color:var(--encre);font:400 var(--t-h2)/38px var(--latin)}
 .carte-osm.leaflet-container .leaflet-bar a:last-child{border-bottom:0}
@@ -152,7 +160,7 @@ details.acc>summary h2 i,details.acc>summary h3 i{display:inline;font-weight:inh
 @media(min-width:960px){.lead-final .wrap{grid-template-columns:1fr 1fr;gap:var(--e6);align-items:start}}
 
 /* villa : diaporama */
-.kwp-diapo-cadre{position:relative;aspect-ratio:3/2;overflow:hidden;background:var(--pierre)}
+.kwp-diapo-cadre{position:relative;aspect-ratio:3/2;overflow:hidden;background:var(--papier);border-radius:var(--rayon)}
 .kwp-diapo-cadre figure{position:absolute;inset:0;margin:0;opacity:0;transition:opacity .4s}
 .kwp-diapo-cadre figure.on,.kwp-diapo-cadre figure:first-child:not(.on){opacity:1}
 .kwp-diapo-cadre:has(figure.on) figure:first-child:not(.on){opacity:0}
