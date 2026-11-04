@@ -18,16 +18,15 @@ CSS_SRC = r"""/* Fiches chalet façon fiche produit LV (phase 3, 03/11). Génér
 @@ :is(p,li,div,span,b,small,summary,h1,h2,i){-webkit-text-fill-color:currentColor !important}
 @@ .lc-fil{padding:14px 20px 12px !important;margin:0 !important;font-size:13px !important;line-height:1.5 !important;color:var(--gris) !important;text-align:start !important;background:none !important;opacity:1 !important}
 @@ .lc-fil a{color:var(--gris) !important;text-decoration:underline !important;text-underline-offset:3px}
-@@ .lc-galerie{position:relative;background:#F4F4F2}
+@@ .lc-galerie{position:relative;background:#FFFFFF}
 @@ .lc-piste{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 @@ .lc-piste::-webkit-scrollbar{display:none}
-@@ .lc-piste img{flex:0 0 100%;width:100%;max-width:none !important;aspect-ratio:4/5;object-fit:cover;scroll-snap-align:start;display:block;border-radius:0 !important;filter:none !important;margin:0 !important}
+@@ .lc-piste img{flex:0 0 100%;width:100%;height:auto;max-width:none !important;aspect-ratio:4/3;object-fit:cover;scroll-snap-align:start;display:block;border-radius:0 !important;filter:none !important;margin:0 !important}
 @@ .lc-progres{height:2px;background:var(--filet)}
 @@ .lc-progres i{display:block;height:2px;background:#111;transition:transform .2s}
 @@ .lc-compte{position:absolute;inset-inline-end:14px;bottom:16px;background:rgba(255,255,255,.92);color:#111;font-size:12px;padding:4px 8px;border-radius:4px}
 @@ .lc-produit{padding:24px 20px 8px}
 @@ .lc-ref{margin:0 !important;font-size:12px !important;letter-spacing:.24em !important;text-transform:uppercase;color:var(--or) !important}
-@@ .lc-wp{display:block;width:120px;height:auto;margin:10px 0 0;border:0 !important;border-radius:0 !important;filter:none !important}
 @@ h1.lc-h1{margin:8px 0 8px !important;padding:0 !important;font-size:clamp(22px,2.2vw,30px) !important;line-height:1.25 !important;font-weight:300 !important;color:#111 !important;text-align:start !important;max-width:none !important;width:auto !important}
 @@ h1.lc-h1 i{display:block !important;margin-top:8px;font-size:.52em !important;letter-spacing:.14em !important;color:var(--gris) !important}
 @@ h1.lc-h1::after{content:"";display:block;width:36px;height:1px;margin-top:16px;background:var(--filet-or)}
@@ -62,13 +61,18 @@ CSS_SRC = r"""/* Fiches chalet façon fiche produit LV (phase 3, 03/11). Génér
 @@ .lc-corps a{color:#111 !important;text-decoration:underline;text-underline-offset:4px}
 @@ .lc-bas{margin:0 auto}
 @@ .lc-h2{margin:48px 20px 18px !important;padding:0 !important;text-align:start !important}
-@@ .lc-bas-photos .lc-photos img,@@ .lc-photos img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;margin:0 0 4px;border-radius:0 !important}
-@@ .lc-duo{display:grid;grid-template-columns:1fr 1fr;gap:4px}
-@@ .lc-duo img{aspect-ratio:3/4 !important;margin:0 !important}
+@@ .lc-bas-photos .lc-photos img,@@ .lc-photos img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;margin:0 0 4px;border-radius:0 !important}
+@@ .lc-duo{display:grid;grid-template-columns:1fr;gap:4px}
+@@ .lc-aut:last-child:nth-child(odd){grid-column:1/-1}
+@@ .lc-bas-autres{margin-top:88px;padding-top:4px;border-top:1px solid var(--filet)}
+@@ .lc-aut .lc-nom,@@ .lc-aut .lc-lieu{padding-inline-end:40px !important}
+@@ .lc-aut::after{content:"\203A";position:absolute;inset-inline-end:16px;bottom:24px;font-size:26px;line-height:1;font-weight:300;color:#111}
+@R@ .lc-aut::after{content:"\2039"}
+@@ .lc-duo img{aspect-ratio:4/3 !important;margin:0 !important}
 @@ .lc-autres{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--filet)}
-@@ .lc-aut{display:block;text-decoration:none !important;border-bottom:1px solid var(--filet);border-inline-end:1px solid var(--filet);color:#111 !important}
+@@ .lc-aut{position:relative;display:block;text-decoration:none !important;border-bottom:1px solid var(--filet);border-inline-end:1px solid var(--filet);color:#111 !important}
 @@ .lc-aut:nth-child(2n){border-inline-end:0}
-@@ .lc-aut img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#F4F4F2;border-radius:0 !important}
+@@ .lc-aut img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#FFFFFF;border-radius:0 !important}
 @@ .lc-nom{display:block;padding:14px 14px 2px;font-size:15px;line-height:1.35;color:#111 !important}
 @@ .lc-lieu{display:block;padding:0 14px 18px;font-size:14px;color:var(--gris) !important}
 @@ .lc-fleches{margin:18px 20px 0}
@@ -84,13 +88,14 @@ CSS_SRC = r"""/* Fiches chalet façon fiche produit LV (phase 3, 03/11). Génér
 @media(min-width:900px){
 @@ .lc-fil{padding:18px 56px 14px !important}
 @@ .lc-haut{display:grid;grid-template-columns:1.4fr 1fr;max-width:1440px;margin:0 auto;align-items:start}
-@@ .lc-piste img{aspect-ratio:4/3}
+@@ .lc-piste img{aspect-ratio:4/3;height:auto}
 @@ .lc-produit{padding:40px 56px 0;position:sticky;top:24px}
 @@ .lc-accordeons{max-width:880px;margin:48px auto 0;padding:0 56px}
 @@ .lc-bas{max-width:1440px}
 @@ .lc-h2{margin:64px 56px 22px !important}
 @@ .lc-photos{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:0 56px}
-@@ .lc-photos>img{aspect-ratio:4/3;margin:0}
+@@ .lc-photos>img{grid-column:1/-1;aspect-ratio:2/1;margin:0}
+@@ .lc-aut:last-child:nth-child(odd){grid-column:auto}
 @@ .lc-duo{grid-column:span 2;grid-template-columns:1fr 1fr}
 @@ .lc-duo img{aspect-ratio:4/3 !important}
 @@ .lc-autres{grid-template-columns:repeat(4,1fr);margin:0 56px}
@@ -228,7 +233,6 @@ def transforme(src, slug):
   <div class="lc-galerie"><div class="lc-piste" id="lcPiste">{rail_html}</div><div class="lc-progres"><i id="lcBarre" style="width:{100 / n:.3f}%"></i></div><span class="lc-compte" id="lcCompte" dir="ltr">1 / {n}</span></div>
   <div class="lc-produit">
     <p class="lc-ref">{lieu}</p>
-    <img class="lc-wp" src="/img/wp-long-or-powered.svg" alt="Winter Prestige, powered by Mishpacha Tours" width="120" height="42">
     <h1 class="lc-h1">{h1html}</h1>
     <p class="lc-prix">{prix}</p>
     <p class="lc-chiffres">{chiffres}</p>

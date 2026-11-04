@@ -1,0 +1,71 @@
+/* 30-composants : boutons, lien texte, libellé, filet de titre, carte, faits, accordéon, prix, champs. Ni ombre, ni pilule, ni bande grise. Coins 4 px (--rayon) sur boutons, champs et cartes seulement (règle de Moshé du 04/11), le reste reste droit. */
+
+/* boutons : 48 px, primaire encre, secondaire trait ; jamais d'icône dedans sauf WhatsApp */
+.btn,.btn-noir,.btn-hero,.lc-btn,.of-btn,.pill,.fc-wa,.lead3-wa,form button,.go{display:inline-flex;align-items:center;justify-content:center;gap:var(--e1);min-height:48px;padding:0 var(--e3);border:1px solid var(--encre);background:var(--encre);color:var(--papier);font:500 var(--t-libelle)/1.2 var(--latin);letter-spacing:var(--ls-libelle);text-transform:uppercase;text-align:center;cursor:pointer;-webkit-appearance:none;appearance:none}
+.btn,.btn-noir,.btn-hero,.lc-btn,.lc-noir,.of-btn,.pill,.fc-wa,.lead3-wa,form button,.go,.nav-cta{border-radius:var(--rayon)}
+.pill,.lc-blanc,.of-btn,.fc-wa,.lead3-wa,.go{background:var(--papier);color:var(--encre)}
+.btn-hero,.hero .btn-noir,.hero .pill,.lead3-wa{border-color:var(--papier);background:transparent;color:var(--papier)}
+.btn svg[data-wa],.btn-noir svg[data-wa],.lc-btn svg[data-wa],.of-btn svg[data-wa],.pill svg[data-wa],.fc-wa svg,.lead3-wa svg[data-wa]{flex:none;width:18px;height:18px;fill:currentColor}
+.cta-hero{display:flex;flex-wrap:wrap;gap:var(--e1);margin:var(--e3) 0 0}
+.cta-hero.centre{justify-content:center}
+@media(max-width:599.98px){.cta-hero{flex-direction:column}.cta-hero a{width:100%}}
+.nav-cta:hover,.btn-noir:hover{opacity:.85}
+.of-plus,.lv-lc-lien{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;font-size:var(--t-petit)}
+
+/* libellé de section et titre centré */
+.lib,.lv-eyebrow,.lc-ref,.lv-lc-eti,.lv-reassure{display:block;margin:0 0 var(--e2);font-size:var(--t-libelle);font-weight:500;line-height:1;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd)}
+.hero .lib,.hero .lv-eyebrow,.hero .lv-reassure,.lv-hero-photo .lv-eyebrow{color:var(--papier)}
+h2.centre::after{content:"";display:block;width:24px;height:1px;margin:var(--e2) auto 0;background:var(--encre)}
+.sous{color:var(--sourd)}
+
+/* carte photo : 4:5 téléphone, 3:2 ordinateur, rien d'autre qu'un titre, une ligne sourde et un prix */
+.carte,.hub-carte,.lc-aut,.kwp-carte{display:block;border:0;background:none}
+.carte>.photo,.hub-carte>.photo,.kwp-photo,.lc-aut>img{display:block;position:relative;margin-bottom:var(--e2);overflow:hidden;border-radius:var(--rayon)}
+.carte .photo img,.hub-carte .photo img,.kwp-photo img,.lc-aut>img{width:100%;aspect-ratio:4/5;object-fit:cover}
+@media(min-width:960px){.carte .photo img,.hub-carte .photo img,.kwp-photo img,.lc-aut>img{aspect-ratio:3/2}}
+.lc-nom{display:block;font-size:var(--t-h3);font-weight:500;line-height:1.3}
+.lc-lieu,.kwp-lieu,.meta{display:block;font-size:var(--t-petit);color:var(--sourd)}
+.kwp-prix{font-size:var(--t-corps);font-weight:500}
+.tag{display:inline-block;font-size:var(--t-libelle);font-weight:500;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd)}
+
+/* ligne de faits : 4 cellules au plus, chiffre 24 px 300 + mot 13 px sourd, séparées par un trait */
+.faits{display:grid;grid-template-columns:repeat(2,1fr);margin:0 0 var(--e4);padding:0;list-style:none}
+@media(min-width:960px){.faits{grid-template-columns:repeat(4,1fr)}}
+.faits li{padding:var(--e2) var(--e2);border-inline-start:1px solid var(--trait);font-size:var(--t-petit);color:var(--sourd)}
+.faits li:first-child{border-inline-start:0;padding-inline-start:0}
+.faits b{display:block;font-size:var(--t-h2);font-weight:300;line-height:1.15;color:var(--encre);white-space:nowrap}
+@media(min-width:960px){.faits b{font-size:var(--t-h3);font-weight:400}}
+
+/* accordéon : trait au-dessus, titre 17 px 500, chevron à droite */
+details.acc{border-top:1px solid var(--trait)}
+details.acc:last-of-type{border-bottom:1px solid var(--trait)}
+details.acc>summary{display:flex;align-items:center;justify-content:space-between;gap:var(--e2);padding:20px 0;list-style:none;cursor:pointer;font-size:var(--t-h3);font-weight:500;line-height:1.3}
+details.acc>summary::-webkit-details-marker{display:none}
+details.acc>summary::after{content:"";flex:none;width:8px;height:8px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:rotate(45deg);transition:transform .2s}
+details.acc[open]>summary::after{transform:rotate(-135deg)}
+details.acc>summary :is(h2,h3,h4){margin:0;font:inherit;letter-spacing:0;text-transform:none}
+details.acc>:not(summary){padding-bottom:20px}
+details.acc>:not(summary)>:last-child{margin-bottom:0}
+
+/* liste de prix : lignes trait, libellé à gauche, montant à droite */
+.prix{font-size:var(--t-corps);font-weight:500}
+ul.prix{padding:0;list-style:none}
+ul.prix li{display:flex;justify-content:space-between;gap:var(--e2);padding:var(--e2) 0;border-top:1px solid var(--trait)}
+
+/* champs : boîte de 1 px encre, coins 4 px, 52 px, 16 px minimum (iOS) */
+input:not([type=checkbox],[type=radio],[type=hidden],[type=submit],[type=button]),select,textarea{display:block;width:100%;min-height:52px;padding:0 var(--e2);border:1px solid var(--encre);border-radius:var(--rayon);background:transparent;color:var(--encre);font:400 var(--t-corps)/1.3 var(--latin);-webkit-appearance:none;appearance:none}
+textarea{min-height:104px;padding-block:var(--e2)}
+input::placeholder,textarea::placeholder{color:var(--sourd);opacity:1}
+input:focus,select:focus,textarea:focus{outline:1px solid var(--encre);outline-offset:0}
+label,.fc-champ{display:block;margin-bottom:var(--e3)}
+label>span,.fc-champ>span{display:block;margin-bottom:0;font-size:var(--t-libelle);font-weight:500;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd)}
+label em{font-style:normal;text-transform:none;letter-spacing:0}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:var(--e3)}
+.fc-tel{display:flex;gap:var(--e2)}
+.fc-tel select{flex:0 0 38%}
+.piege{position:absolute;left:0;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.carte-osm{overflow:hidden}
+.fc-erreur{margin:var(--e1) 0;font-size:var(--t-petit)}
+form small{display:block;margin-top:var(--e2);color:var(--sourd)}
+form button{width:100%}
+@media(min-width:960px){form button{width:auto}}

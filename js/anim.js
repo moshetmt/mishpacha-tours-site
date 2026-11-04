@@ -58,9 +58,10 @@ D.addEventListener('touchstart',function(){},{passive:true});
 })();
 
 /* 7. listes d'adresses liees aux marqueurs Leaflet */
-(function(){
+(function lier(){
   var conts=[].slice.call(D.querySelectorAll('.carte-osm[data-points]'));
-  if(!conts.length||!window.L||!L.Map)return;
+  if(!conts.length)return;
+  if(!window.L||!L.Map){D.addEventListener('mt-leaflet',lier,{once:true});return}
   var maps=[],o=L.Map.prototype.invalidateSize;
   L.Map.prototype.invalidateSize=function(){if(maps.indexOf(this)<0)maps.push(this);return o.apply(this,arguments)};
   dispatchEvent(new Event('resize'));
@@ -100,8 +101,8 @@ D.addEventListener('touchstart',function(){},{passive:true});
 
 /* 2. galerie du chalet */
 (function(){
-  if(path!=='/kosher-chalet-les-deux-alpes/')return;
-  var th=[].slice.call(D.querySelectorAll('.lead-offre .lead-cartes img'));
+  var th=[].slice.call(D.querySelectorAll('.lead-offre .lead-cartes img, .lc-piste img'));
+  function grand(t){var ss=t.getAttribute('srcset');if(!ss)return t.currentSrc||t.src;var c=ss.split(',').pop().trim().split(/\s+/)[0];return c||t.currentSrc||t.src}
   var n=th.length;if(!n)return;
   var cur=0,ouvert=false,ferme=false,W=0,H=0,dx=0,dy=0,sens=RTL?-1:1;
   var v,fond,stage,btnX,btnG,btnD,cpt,slides=[],g=null;
@@ -118,7 +119,7 @@ D.addEventListener('touchstart',function(){},{passive:true});
     if(v)return;
     v=el('div','anim-vis');v.hidden=true;v.setAttribute('role','dialog');v.setAttribute('aria-modal','true');v.setAttribute('aria-label',L10.d);
     fond=el('div','anim-vis-fond');stage=el('div','anim-vis-piste');
-    th.forEach(function(t){var s=el('div','anim-vis-s'),im=el('img');im.alt=t.alt||'';im.src=t.currentSrc||t.src;im.draggable=false;s.appendChild(im);stage.appendChild(s);slides.push({s:s,im:im,w:+t.getAttribute('width')||0,h:+t.getAttribute('height')||0})});
+    th.forEach(function(t){var s=el('div','anim-vis-s'),im=el('img');im.alt=t.alt||'';im.src=grand(t);im.draggable=false;s.appendChild(im);stage.appendChild(s);slides.push({s:s,im:im,w:+t.getAttribute('width')||0,h:+t.getAttribute('height')||0})});
     btnX=el('button','anim-vis-x');btnX.type='button';btnX.setAttribute('aria-label',L10.c);btnX.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
     btnG=el('button','anim-vis-g');btnD=el('button','anim-vis-d');btnG.type=btnD.type='button';
     btnG.innerHTML=fleche(-1);btnD.innerHTML=fleche(1);
@@ -283,5 +284,5 @@ var b=D.createElement('div');b.className='barre-basse';
 var a1=D.createElement('a');a1.className='bb-wa';a1.href=wa.getAttribute('href');a1.rel='noopener';a1.innerHTML=(wa.querySelector('svg')||{outerHTML:''}).outerHTML+'<span>WhatsApp</span>';
 var a2=D.createElement('a');a2.className='bb-plan';a2.href=src.getAttribute('href');a2.textContent=src.textContent.trim();
 b.appendChild(a1);b.appendChild(a2);D.body.appendChild(b);
-var f=function(){D.body.classList.toggle('bb-on',window.scrollY>160)};window.addEventListener('scroll',f,{passive:true});f();})();
+var pd=D.querySelector('footer.pied');var f=function(){D.body.classList.toggle('bb-on',window.scrollY>400&&!(pd&&pd.getBoundingClientRect().top<innerHeight))};window.addEventListener('scroll',f,{passive:true});f();})();
 /* ===/LUXE=== */

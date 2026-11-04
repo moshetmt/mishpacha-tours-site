@@ -112,7 +112,6 @@ Díganos sus fechas. Enviamos un programa día a día el mismo día.
 - [Kosher en Les Deux Alpes](https://mishpachatours.com/es/kosher-les-deux-alpes/)
 - [Servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/)
 
-Fuentes: nuestro equipo en los Alpes (enlaces del 20/10/2026) para el chalé y su distribución. Elaborado por Mishpacha Tours a partir de estas fuentes. Comprobado el 7 de octubre de 2026.
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

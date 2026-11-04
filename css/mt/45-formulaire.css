@@ -1,0 +1,69 @@
+/* 45-formulaire : /plan-your-trip/ (main.lf). Pas de héros, fond blanc plein écran, un écran par question (JS de la page), champs trait bas seul, choix sans cadre, actif = trait 1 px encre */
+.lf{min-height:calc(100svh - var(--entete));background:var(--papier)}
+.lf .wrap{max-width:calc(560px + 2 * var(--gouttiere));margin-inline:auto}
+.lf .pf-hero{padding:var(--e5) 0 var(--e3)}
+.lf:has(.avance) .pf-hero{display:none}
+.lf .pf{padding-block:var(--e3) var(--section)}
+.lf .pf [hidden],.lf .pf .cache,.lf .pf-off{display:none}
+.pf-etape>*+*{margin-top:var(--e3)}
+.pf-promesse,.pf-tete p,.pf-info,.pf-petit,.pf-note,.pf-notes,.pf-perso,.pf-erreur{margin:var(--e1) 0 0;font-size:var(--t-petit);color:var(--sourd)}
+.pf-notes{padding:0;list-style:none}
+.pf-fit{padding-inline-start:var(--e2);border-inline-start:1px solid var(--encre);font-size:var(--t-petit)}
+
+.pf-prog{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--e1) var(--e2);margin:0 0 var(--e4)}
+.pf-prog-txt{grid-column:2;justify-self:end;direction:ltr}
+.pf-barre{grid-column:1/-1;height:2px;background:var(--trait)}
+.pf-barre i{display:block;height:100%;background:var(--encre);transition:width .3s}
+.lf .pf-retour,.lf .pf-res-b,.lf .pf-ess-b{display:inline-flex;align-items:center;gap:var(--e1);width:auto;min-height:32px;padding:0;border:0;background:none;color:var(--encre);font-size:var(--t-libelle);letter-spacing:var(--ls-libelle)}
+.lf .pf-res-b,.lf .pf-ess-b{display:inline;min-height:0;font:inherit;letter-spacing:0;text-transform:none}
+.pf-retour span{width:8px;height:8px;border-inline-start:1px solid currentColor;border-bottom:1px solid currentColor;transform:rotate(45deg)}
+html[dir="rtl"] .pf-retour span{transform:rotate(-135deg)}
+.pf-tete{margin-bottom:var(--e4)}
+.pf-tete h2{margin:0;outline:0}
+
+.pf-sous,.pf-champ label,.pf-cpt .lib{display:block;margin:0}
+.pf-sous{margin-top:var(--e3)}
+.pf-champ{position:relative}
+.pf-champ [aria-invalid="true"]{outline:1px solid var(--encre)}
+.pf-duo{display:grid;grid-template-columns:1fr 1fr;gap:var(--e3)}
+.pf-tel{display:grid;grid-template-columns:132px 1fr;gap:var(--e2);direction:ltr}
+.lf select{padding-inline-end:var(--e3);background:linear-gradient(45deg,transparent 50%,var(--encre) 50%) calc(100% - 9px) 55%/5px 5px no-repeat,linear-gradient(135deg,var(--encre) 50%,transparent 50%) calc(100% - 4px) 55%/5px 5px no-repeat}
+html[lang="he"] .lf select{background-position:9px 55%,4px 55%}
+.pf-auto{position:absolute;inset-inline:0;top:100%;z-index:5;background:var(--papier);border:1px solid var(--trait)}
+.lf .pf-auto button{display:block;width:100%;min-height:44px;padding:0 var(--e2);border:0;border-top:1px solid var(--trait);background:none;color:var(--encre);font-weight:300;letter-spacing:0;text-align:start;text-transform:none}
+.lf .pf-auto button:first-child{border-top:0}
+
+.pf-pastilles,.pf-chips,.pf-tls{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--e3)}
+.lf .pf-pas,.lf .pf-c,.lf .pf-niv{position:relative;display:flex;align-items:center;width:auto;min-height:52px;padding:0;border:0;border-bottom:1px solid var(--trait);background:none;color:var(--sourd);font:300 var(--t-corps)/1.25 var(--latin);letter-spacing:0;text-align:start;text-transform:none;cursor:pointer}
+.pf-pas.on,.pf-c:has(input:checked),.pf-niv:has(input:checked),.pf-tl:has(input:checked){border-bottom-color:var(--encre);color:var(--encre);font-weight:500}
+.pf-c input,.pf-niv input,.pf-tl input{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);opacity:0}
+.pf-c:has(:focus-visible),.pf-tl:has(:focus-visible){outline:1px solid var(--encre);outline-offset:3px}
+.pf-tls{gap:var(--e4) var(--e3)}
+.pf-tl{position:relative;display:block;padding-bottom:var(--e2);border-bottom:1px solid var(--trait);cursor:pointer}
+.pf-tl-img{display:flex;flex-direction:column;align-items:flex-start;gap:var(--e1)}
+.pf-tl-img img{width:56px;height:56px;object-fit:contain}
+.pf-tl-img b{font-size:var(--t-petit);font-weight:500}
+.pf-tl-img i{display:none}
+.pf-tl small{display:block;margin-top:var(--e1);color:var(--sourd)}
+.pf-bes{padding:var(--e2) 0;border-top:1px solid var(--trait)}
+.pf-bes-t{display:flex;align-items:center;gap:var(--e2);margin-bottom:var(--e1)}
+.pf-bes-t img{width:40px;height:40px;object-fit:contain}
+.pf-nivs{display:grid;grid-template-columns:repeat(3,1fr);gap:0 var(--e2)}
+.lf .pf-niv{min-height:44px}
+.pf-cpt{display:flex;align-items:center;justify-content:space-between;padding:var(--e1) 0;border-bottom:1px solid var(--trait)}
+.cpt{display:flex;align-items:center}
+.lf .cpt button{width:52px;min-height:52px;padding:0;border:0;background:none;color:var(--encre);font-size:var(--t-h2);font-weight:300}
+.cpt input{width:52px;padding:0;border:0;text-align:center;-moz-appearance:textfield;appearance:textfield}
+.cpt input::-webkit-inner-spin-button,.cpt input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+
+.pf-accord{margin:var(--e3) 0 0}
+.pf-accord label{display:flex;gap:var(--e1);margin:0;font-size:var(--t-petit);font-weight:400;letter-spacing:0;text-transform:none;color:var(--sourd)}
+.pf-accord input{display:inline-block;flex:none;width:16px;min-height:0;height:16px;margin-top:4px;accent-color:var(--encre)}
+.pf-manque{outline:1px solid var(--encre);outline-offset:var(--e1)}
+.pf-nav{display:flex;flex-direction:column;gap:var(--e2);margin-top:var(--e4)}
+.pf-nsvc{font-size:var(--t-petit);color:var(--sourd)}
+.lf .pf-nav .btn-noir{width:100%}
+@media(min-width:960px){.pf-nav{flex-direction:row;align-items:center;justify-content:space-between}.lf .pf-nav .btn-noir{width:auto;min-width:240px}}
+
+/* page formulaire : aucun bouton flottant vers elle-même */
+body:has(.pf-hero) .pyt-flottant,body:has(.pf-hero) .barre-basse{display:none}

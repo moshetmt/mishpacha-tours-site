@@ -103,7 +103,6 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 - [Chalet King David, Les Deux Alpes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)
 - [Services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/)
 
-Sources : notre équipe dans les Alpes (document et messages du 16/10/2026) pour le chalet, la navette et les services. Rédigé par Mishpacha Tours à partir de ces sources. Vérifié le 7 octobre 2026.
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

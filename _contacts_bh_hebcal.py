@@ -162,11 +162,11 @@ SVG_ENTREE = ('<svg viewBox="0 0 72 48" aria-hidden="true"><defs><clipPath id="s
               '<radialGradient id="sh-lueur" cx=".5" cy="1" r=".55"><stop offset="0" stop-color="#E8875A" stop-opacity=".9"/>'
               '<stop offset="1" stop-color="#E8875A" stop-opacity="0"/></radialGradient></defs>'
               '<rect class="sh-ciel" width="72" height="34" fill="url(#sh-lueur)" opacity="0"/><g clip-path="url(#sh-sol)"><g class="sh-soleil">'
-              '<circle cx="36" cy="24" r="9" fill="#FCDE73"/><g stroke="#FCDE73" stroke-width="2" stroke-linecap="round">'
+              '<circle cx="36" cy="24" r="9" fill="#A88F5E"/><g stroke="#A88F5E" stroke-width="2" stroke-linecap="round">'
               '<path d="M36 9v-4M24 14l-3-3M48 14l3-3M19 24h-4M53 24h4"/></g></g></g><path d="M6 34h60" stroke="#FFFAED" stroke-width="2" stroke-linecap="round"/>'
               '<path d="M14 40h44M24 45h24" stroke="#FFFAED" stroke-width="2" stroke-linecap="round" opacity=".35"/></svg>')
 SVG_SORTIE = ('<svg viewBox="0 0 72 48" aria-hidden="true"><g class="sh-lune"><path d="M40 8a15 15 0 1 0 14 22A12 12 0 0 1 40 8z" fill="#FFFAED"/></g>'
-              '<g fill="#FCDE73"><path class="sh-etoile sh-e1" d="M14 10l1.4 3 3 1.4-3 1.4L14 19l-1.4-3.2-3-1.4 3-1.4z"/>'
+              '<g fill="#A88F5E"><path class="sh-etoile sh-e1" d="M14 10l1.4 3 3 1.4-3 1.4L14 19l-1.4-3.2-3-1.4 3-1.4z"/>'
               '<path class="sh-etoile sh-e2" d="M60 6l1 2.2 2.2 1-2.2 1-1 2.2-1-2.2-2.2-1 2.2-1z"/>'
               '<path class="sh-etoile sh-e3" d="M24 30l1 2.2 2.2 1-2.2 1-1 2.2-1-2.2-2.2-1 2.2-1z"/></g></svg>')
 CSS_DEB, CSS_FIN = "/* SHABBAT v2 (15/10) */", "/* fin SHABBAT v2 */"
@@ -232,12 +232,12 @@ function $(s){return B.querySelector(s)}
 function f(s){return new Date(s).toLocaleTimeString(C.loc,{hour:"2-digit",minute:"2-digit",timeZone:Z})}
 function dd(s){return new Date(s).toLocaleDateString(C.loc,{weekday:"long",day:"numeric",month:"short",timeZone:Z})}
 function lire(d){var it=d.items||[];return{c:it.find(function(i){return i.category==="candles"}),h:it.find(function(i){return i.category==="havdalah"}),p:it.find(function(i){return i.category==="parashat"})}}
-function rendre(x,etat){var e=$("#m-entree"),s=$("#m-sortie"),ti=$(".sh-tt"),co=$(".shabbat-corps"),pa=x.p?"<small>"+x.p.title+"</small>":"",n=C.note?"<br><small>"+C.note+"</small>":"";
-e.hidden=false;s.hidden=false;$(".sh-moments").hidden=false;ti.textContent=C.mot;
+function rendre(x,etat){var e=$("#m-entree"),s=$("#m-sortie"),ti=$(".sh-tt"),co=$(".shabbat-corps"),pa="",nm=x.p?x.p.title.replace(/^\S+\s+/,"").replace(/[֑-ׇ̲]/g,"").replace(/[<>&]/g,""):"",Q={fr:["« "," »"],es:["«","»"]}[(document.documentElement.lang||"en").slice(0,2)]||((document.documentElement.lang||"").slice(0,2)==="he"?["\"","\""]:["“","”"]),n=C.note?"<br><small>"+C.note+"</small>":"";
+e.hidden=false;s.hidden=false;$(".sh-moments").hidden=false;ti.innerHTML=C.mot+(nm?" <span style=\"white-space:nowrap\">"+Q[0]+nm+Q[1]+"</span>":"");
 if(x.c){e.querySelector(".sh-d").textContent=(etat==="apres"?C.suiv+" \u00b7 ":"")+dd(x.c.date);(e.querySelector("b")||e.querySelector(".sh-d").insertAdjacentElement("afterend",document.createElement("b"))).textContent=f(x.c.date)}else e.hidden=true;
 if(x.h){s.querySelector(".sh-d").textContent=dd(x.h.date);(s.querySelector("b")||s.querySelector(".sh-d").insertAdjacentElement("afterend",document.createElement("b"))).textContent=f(x.h.date)}else s.hidden=true;
 co.innerHTML=pa+n;
-if(etat==="pendant"){ti.textContent=C.paix;e.hidden=true;co.innerHTML=C.rep+"<br>"+pa+n}
+if(etat==="pendant"){ti.textContent=C.paix;e.hidden=true;co.innerHTML=C.rep+n}
 else if(etat==="apres")ti.textContent=C.tov}
 fetch(U).then(function(r){return r.json()}).then(function(d){var x=lire(d);if(!x.c&&!x.h)return;var t=new Date();
 if(x.c&&x.h&&t>=new Date(x.h.date)){var j=new Date(t.getTime()+864e5).toLocaleDateString("sv-SE",{timeZone:Z});

@@ -1,0 +1,181 @@
+/* 41-station : pages Alpes (stations, hubs Alpes, Pessah, été, villa, van) et briques communes à toutes les pages Alpes (cartes chalet, éditorial, guide, Chabbat, étapes, contact, carte). */
+
+/* rythme : deux sections blanches qui se suivent partagent un seul espace (64 / 96 px), jamais le double */
+.mt-alpes main>.ss+.ss{padding-top:0}
+.mt-alpes main>.faits-bloc+.ss{padding-top:var(--e4)}
+.mt-alpes main>.bande-encre+.ss,.mt-alpes main>.bande-filet+.ss,.mt-alpes main>.kwp-noir+.ss{padding-top:var(--section)}
+.mt-alpes main>.ss.bande-encre,.mt-alpes main>.ss.bande-filet{padding-top:var(--section)}
+.bande-encre{background:var(--encre);color:var(--papier)}
+.bande-filet{background:var(--papier);border-block:1px solid var(--trait)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.ico-fin,.anim-neige,.kwp-pied,.kwp-chiffres,.kwp-casher,.kwp-dispo,.lead-mascotte,.dk-suite svg,.sh-moment svg{display:none}
+.mt-alpes .centre{text-align:start}
+.mt-alpes h2.centre::after{margin-inline:0}
+
+/* héros : 56 svh, fil d'Ariane sur une ligne, un libellé, un titre, une ligne, rien d'autre */
+.lv-hero-station{min-height:56svh}
+.lead3-btns,.lead3-btns *{display:none}
+.hero .fil,.hero .lead-fil{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.hero-sous,.lead3-bloc>p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;overflow:hidden;max-width:34em;margin:0 0 var(--e2)}
+.lead3-bloc{max-width:calc(var(--lecture) + var(--e6))}
+.hero h1 i{font-size:var(--t-h3);margin-top:var(--e1);letter-spacing:var(--ls-libelle)}
+.hero .lv-reassure{margin:0}
+
+/* ligne de faits sous le héros */
+.faits-bloc{padding-bottom:0}
+.faits-bloc .faits{margin:0}
+.faits-bloc .faits li,.lc-faits li{line-height:1.3}
+@media(max-width:959.98px){
+  .faits li:nth-child(odd){border-inline-start:0;padding-inline-start:0}
+  .faits li:nth-child(n+3){border-top:1px solid var(--trait)}
+}
+
+/* introduction : une phrase, trois colonnes de texte, un paragraphe */
+.lead-intro>div{max-width:none}
+.mf-phrase{max-width:var(--lecture);margin:0 0 var(--e4);font-size:var(--t-h2);font-weight:300;line-height:1.3}
+.mf-col{display:grid;gap:0;margin:0 0 var(--e4)}
+.mf-col>div{padding:var(--e2) 0;border-top:1px solid var(--trait)}
+.mf-col b{display:block;margin-bottom:4px;font-size:var(--t-h3);font-weight:500;line-height:1.3}
+.mf-col span{display:block;font-size:var(--t-petit);color:var(--sourd)}
+.lead-intro>div>p{max-width:var(--lecture)}
+@media(min-width:960px){.mf-col{grid-template-columns:repeat(3,1fr);gap:var(--e4)}}
+
+/* cartes chalet : photo, nom, lieu, prix ; toute la carte est le lien */
+.kwp>h2,.kwp>.wrap>h2{margin-bottom:var(--e4)}
+.kwp-cartes{display:grid;grid-template-columns:1fr;gap:var(--e4) var(--e2)}
+@media(min-width:600px){.kwp-cartes{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:960px){.kwp-cartes{grid-template-columns:repeat(3,1fr);gap:var(--e5) var(--e3)}}
+.kwp-seule{grid-template-columns:1fr}
+@media(min-width:960px){.kwp-seule{grid-template-columns:repeat(3,1fr)}}
+.kwp-carte{position:relative}
+/* section des chalets en noir, une seule par page hors pied (règle du 04/11, charte LV) : pleine largeur, texte et prix en papier */
+.mt-alpes main>.ss.kwp-noir{max-width:none;margin:0;padding-block:var(--section);padding-inline:max(var(--gouttiere),calc((100% - var(--colonne)) / 2));background:var(--encre);color:var(--papier)}
+.kwp-noir :is(h2,h3,.kwp-prix,.kwp-v b){color:var(--papier)}
+.kwp-noir :is(.lib,.kwp-lieu,.kwp-v span){color:var(--sourd-encre)}
+.kwp-noir :is(.pill,.btn-noir,.kwp-tous a){border-color:var(--papier);background:transparent;color:var(--papier)}
+.kwp-noir h2.centre::after{background:var(--papier)}
+.kwp-noir :focus-visible{outline-color:var(--papier)}
+.kwp-v img{border-radius:var(--rayon)}
+.kwp-corps h3{margin:0 0 4px}
+.kwp-corps h3 a::after{content:"";position:absolute;inset:0}
+.kwp-lieu{margin:0}
+.kwp-prix{margin:var(--e1) 0 0}
+.kwp-tous{margin:var(--e4) 0 0}
+.kwp-mini-v{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--e3) var(--e2)}
+@media(max-width:599.98px){.kwp-mini-v{display:flex;gap:var(--e2);margin-inline:calc(-1 * var(--gouttiere));padding-inline:var(--gouttiere);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}.kwp-mini-v>*{flex:0 0 62%;scroll-snap-align:start}}
+@media(min-width:960px){.kwp-mini-v{grid-template-columns:repeat(4,1fr);gap:var(--e4) var(--e3)}}
+.kwp-v{display:block}
+.kwp-v img{width:100%;aspect-ratio:4/5;object-fit:cover;margin-bottom:var(--e1)}
+.kwp-v span{display:block;font-size:var(--t-petit);color:var(--sourd)}
+.kwp-v b{display:block;font-size:var(--t-h3);font-weight:500;line-height:1.3;color:var(--encre)}
+
+/* éditorial : photo + texte, alternés */
+.ed{display:grid;gap:var(--e4)}
+.ed-photo{margin-inline:calc(-1 * var(--gouttiere))}
+.ed-photo img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.ed-texte>h2{margin-bottom:var(--e3)}
+@media(min-width:960px){
+  .ed:not(.ed-img){grid-template-columns:1fr 1fr;gap:var(--e6);align-items:center}
+  .ed-photo{margin-inline:0}
+  .ed-photo img{aspect-ratio:4/3}
+  .ed-2 .ed-photo{order:2}
+}
+.ed-img .lead-cartes{display:grid;gap:var(--e3);margin:0 0 var(--e4)}
+.ed-img figure{margin:0}
+.ed-img figure img{width:100%;aspect-ratio:4/5;object-fit:cover;margin-bottom:var(--e2)}
+.ed-img figcaption{font-size:var(--t-petit);color:var(--sourd)}
+.ed-img figcaption b{display:block;font-size:var(--t-h3);font-weight:500;color:var(--encre)}
+@media(min-width:600px){.ed-img .lead-cartes{grid-template-columns:repeat(3,1fr)}}
+
+/* listes de contenu des blocs (dk-*) : lignes séparées par un trait, jamais de carte */
+.dk-cartes,.dk-suite{list-style:none;margin:0 0 var(--e3);padding:0}
+.dk-cartes li{padding:var(--e2) 0;border-top:1px solid var(--trait)}
+.dk-cartes li:first-child{padding-top:0;border-top:0}
+.dk-cartes b{font-weight:500}
+.dk-cartes li>b:first-child{display:block}
+.dk-garanties{margin:0 0 var(--e3);color:var(--sourd)}
+.dk-g{display:block}
+.dk-g-tete{font-weight:500;color:var(--encre)}
+.dk-lien1{border-top:0}
+
+/* guide replié */
+.guide>h2{margin-bottom:var(--e3)}
+details.acc>summary h2 i,details.acc>summary h3 i{display:inline;font-weight:inherit;letter-spacing:inherit}
+.acc-corps>h3{margin:var(--e3) 0 var(--e1)}
+.acc-corps>ol{margin:0}
+
+/* Chabbat sur place */
+.sh-sur{margin:0 0 var(--e2);font-size:var(--t-libelle);font-weight:500;line-height:1;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd)}
+.sh-gros{margin:0 0 var(--e3);font-size:var(--t-h2);font-weight:300;line-height:1.15;letter-spacing:var(--ls-titre);text-transform:uppercase}
+.sh-gros br{display:none}
+.sh-ville::before{content:" "}
+.sh-moments:not([hidden]){display:grid;grid-template-columns:1fr 1fr;margin:0 0 var(--e3);border-top:1px solid var(--trait)}
+.sh-moment{padding:var(--e2) var(--e2) var(--e2) 0;font-size:var(--t-petit);color:var(--sourd)}
+.sh-moment+.sh-moment{padding-inline:var(--e2) 0;border-inline-start:1px solid var(--trait)}
+.sh-d{display:block;font-size:var(--t-h2);font-weight:300;line-height:1.15;color:var(--encre)}
+.shabbat-corps{margin:0;font-size:var(--t-petit);color:var(--sourd)}
+
+/* étapes en trois lignes */
+.mt-hub .etapes ol{margin:0;padding:0;list-style:none}
+.mt-hub .etapes li{display:grid;grid-template-columns:48px 1fr;gap:var(--e2);padding:var(--e3) 0;border-top:1px solid var(--trait)}
+.mt-hub .etapes li:last-child{border-bottom:1px solid var(--trait)}
+.mt-hub .etapes li>b{font-size:var(--t-h2);font-weight:300;line-height:1.15}
+.mt-hub .etapes li h3{margin:0 0 4px}
+.mt-hub .etapes li p{margin:0;color:var(--sourd)}
+.cta-etapes{padding-block:var(--e3) 0}
+.cta-etapes+.ss{padding-top:var(--e5)}
+.cta-etapes .cta-hero{margin:0}
+@media(min-width:960px){.cta-etapes+.ss{padding-top:var(--e6)}}
+
+/* Beth Habad : une ligne de texte et un bouton secondaire WhatsApp sur la même ligne */
+.cta-bh{display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:var(--e2);margin:0 0 var(--e3)}
+.bh-txt{flex:1;min-width:0;font-size:var(--t-petit);color:var(--sourd)}
+.cta-bh .pill{flex:none;width:auto}
+@media(max-width:599.98px){.cta-hero.cta-bh{flex-direction:row}.cta-hero.cta-bh a{width:auto}}
+
+/* stations voisines et lectures : liens texte */
+.liens>h2{margin-bottom:var(--e3)}
+.liens .dk-suite{display:flex;flex-wrap:wrap;gap:var(--e1) var(--e4)}
+.liens .dk-suite li{padding:0;border:0}
+.liens .dk-suite a{font-size:var(--t-corps)}
+
+/* carte : Leaflet se charge à l'approche (js/mt-carte.js), ses contrôles reprennent la palette */
+.carte-osm{width:100%}
+.carte-note{margin:var(--e2) 0 0;font-size:var(--t-petit);color:var(--sourd)}
+.carte-osm.leaflet-container{background:var(--papier);font:400 var(--t-libelle)/1.5 var(--latin)}
+.carte-osm.leaflet-container .leaflet-bar{border:1px solid var(--trait);border-radius:0;box-shadow:none}
+.carte-osm.leaflet-container .leaflet-bar a{width:40px;height:40px;border-radius:0;border-bottom:1px solid var(--trait);background:var(--papier);color:var(--encre);font:400 var(--t-h2)/38px var(--latin)}
+.carte-osm.leaflet-container .leaflet-bar a:last-child{border-bottom:0}
+.carte-osm.leaflet-container .leaflet-control-attribution{background:var(--papier);color:var(--sourd);font:400 var(--t-libelle)/1.5 var(--latin)}
+.carte-osm.leaflet-container a{color:var(--encre)}
+.carte-osm.leaflet-container .leaflet-popup-content-wrapper,.carte-osm.leaflet-container .leaflet-popup-tip{border:1px solid var(--trait);border-radius:0;background:var(--papier);color:var(--encre);box-shadow:none}
+
+/* contact */
+.lead-final .wrap{display:grid;gap:var(--e4);padding-top:var(--e4);border-top:1px solid var(--trait)}
+.lead-final h2 i{display:inline}
+.lead-final-tete{display:block}
+.lead-final h2{margin-bottom:var(--e2)}
+.lead-final-tete p{margin:0;color:var(--sourd)}
+.lead-form{max-width:var(--lecture)}
+@media(min-width:960px){.lead-final .wrap{grid-template-columns:1fr 1fr;gap:var(--e6);align-items:start}}
+
+/* villa : diaporama */
+.kwp-diapo-cadre{position:relative;aspect-ratio:3/2;overflow:hidden;background:var(--papier);border-radius:var(--rayon)}
+.kwp-diapo-cadre figure{position:absolute;inset:0;margin:0;opacity:0;transition:opacity .4s}
+.kwp-diapo-cadre figure.on,.kwp-diapo-cadre figure:first-child:not(.on){opacity:1}
+.kwp-diapo-cadre:has(figure.on) figure:first-child:not(.on){opacity:0}
+.kwp-diapo-cadre img{width:100%;height:100%;object-fit:cover}
+.kwp-diapo-prec,.kwp-diapo-suiv{position:absolute;bottom:var(--e2);width:48px;height:48px;border:0;background:var(--papier);color:var(--encre);font:300 var(--t-h2)/1 var(--latin);cursor:pointer}
+.kwp-diapo-prec{inset-inline-start:var(--e2)}
+.kwp-diapo-suiv{inset-inline-start:calc(var(--e2) + 48px)}
+
+/* boutons : jamais soulignés, même dans un paragraphe */
+a.btn,a.btn-noir,a.btn-hero,a.pill,a.lc-btn,a.fc-wa,a.lead3-wa,a.go{text-decoration:none}
+.sh-moment>div{display:flex;flex-direction:column}
+.sh-moment b{order:1;font-size:var(--t-h2);font-weight:300;line-height:1.15;color:var(--encre)}
+.sh-moment .sh-d{order:2;font-size:var(--t-petit);font-weight:400;line-height:1.5;color:var(--sourd)}
+.sh-moment>div>span:last-child{order:3}
+/* reprises du lot WP du 04/11 (_retours_04_11.py) : la zone de la carte en titre */
+.carte-sur{margin:0 0 var(--e1);text-align:center;font-size:var(--t-libelle);font-weight:500;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd)}
+h2.carte-titre{margin:0 auto var(--e3);text-align:center;text-wrap:balance}
+h2.carte-titre::after{content:"";display:block;width:56px;height:1px;margin:var(--e3) auto 0;background:var(--or)}

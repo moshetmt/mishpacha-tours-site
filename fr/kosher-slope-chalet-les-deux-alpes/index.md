@@ -112,7 +112,6 @@ Donnez-nous vos dates. Nous envoyons un programme jour par jour le jour même.
 - [Casher aux Deux Alpes](https://mishpachatours.com/fr/kosher-les-deux-alpes/)
 - [Services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/)
 
-Sources : notre équipe dans les Alpes (liens du 20/10/2026) pour le chalet et son agencement. Synthèse établie par Mishpacha Tours à partir de ces sources. Vérifié le 7 octobre 2026.
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.
