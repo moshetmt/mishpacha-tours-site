@@ -1159,6 +1159,13 @@ P #e-besoins>.pf-sous:first-of-type{margin-top:0!important}
   P #e-besoins>.pf-sous:first-of-type{display:none}
   P .pf-bn{min-height:40px;padding:4px 10px}
 }
+/* 05/11 : ecran final du b (adresse du logement ajoutee) : sur petit ecran, ou tant que le bandeau cookies est affiche, le titre « Vos coordonnees » reste lu par les lecteurs d'ecran mais ne prend plus de hauteur ; aucun texte retreci */
+@media (max-width:699px) and (max-height:620px){
+  P #e-final .pf-tete{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;margin:0}
+}
+@media (max-width:699px) and (max-height:760px){
+  P:has(.cb:not([hidden])) #e-final .pf-tete{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;margin:0}
+}
 """.replace("P:has", P + ":has").replace("P ", P + " ").replace(",P ", "," + P + " ").replace("Q ", P + ":not(#lv8):not(#lv9) ").replace(",Q ", "," + P + ":not(#lv8):not(#lv9) ") + CSS_Z
 
 def update_css():
