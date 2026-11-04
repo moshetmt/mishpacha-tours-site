@@ -31,3 +31,12 @@ body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:-6px}
 @media (min-width:900px){body.wp-nav footer.pied .wp-lock .wp-lock-fl{margin-left:-5px}body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:-5px}}
 html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wp-lock-fl,html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:0}
 /* ===/RET-0411-ALIGN=== */
+/* ===RET-0411-MOT=== */
+.wpb-m{display:block;aspect-ratio:1534/120;height:auto;-webkit-mask:url(/img/wp-mot-masque.png) center/100% 100% no-repeat;mask:url(/img/wp-mot-masque.png) center/100% 100% no-repeat;background:linear-gradient(105deg,transparent 40%,rgba(255,246,222,.95) 50%,transparent 60%) 120% 0/250% 100% no-repeat,linear-gradient(100deg,#8C7448 0%,#C2A874 30%,#E8D6A6 48%,#B0965F 66%,#8C7448 100%);animation:wpb-m 7s ease-in-out 1.2s infinite}
+@keyframes wpb-m{0%{background-position:120% 0,0 0}22%,100%{background-position:-20% 0,0 0}}
+@media (prefers-reduced-motion:reduce){.wpb-m{animation:none}}
+body.wp-nav .nav .wp-entete .wpb-m.wp-mot{height:var(--wpmot) !important}
+body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{height:auto !important;margin-left:-6px}
+@media (min-width:900px){body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{margin-left:-5px}}
+html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{margin-left:0}
+/* ===/RET-0411-MOT=== */

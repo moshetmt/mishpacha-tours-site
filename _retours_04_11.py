@@ -211,3 +211,25 @@ html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wp-lock-fl,html[dir="rtl"] bod
 """
 wv = open("wp-v3.css", encoding="utf-8").read(); wv = re.sub(r"/\* ===RET-0411-ALIGN===.*?/\* ===/RET-0411-ALIGN=== \*/\n", "", wv, flags=re.S)
 open("wp-v3.css", "w", encoding="utf-8").write(wv.rstrip("\n") + "\n" + ACSS); print("alignement ok")
+
+# ---------- 9. mot WINTER PRESTIGE = un seul élément masqué (or brossé + reflet sur le même masque : plus de décalage possible) ----------
+MOT = '<span class="wpb-m {cls}" role="img" aria-label="Winter Prestige"></span>'
+n9 = 0
+for f in glob.glob("**/index.html", recursive=True):
+    t = open(f, encoding="utf-8").read(); o = t
+    t = re.sub(r'<span class="wpb-r" style="--logo:url\(/img/wp-mot-masque\.png\)"><img class="wp-lock-mot"[^>]*></span>', lambda m: MOT.format(cls="wp-lock-mot"), t)
+    t = re.sub(r'<span class="wpb-r" style="--logo:url\(/img/wp-mot-masque\.png\)"><img class="wp-mot"[^>]*></span>', lambda m: MOT.format(cls="wp-mot"), t)
+    if t != o: open(f, "w", encoding="utf-8").write(t); n9 += 1
+print("mots en masque unique :", n9)
+MCSS = """/* ===RET-0411-MOT=== */
+.wpb-m{display:block;aspect-ratio:1534/120;height:auto;-webkit-mask:url(/img/wp-mot-masque.png) center/100% 100% no-repeat;mask:url(/img/wp-mot-masque.png) center/100% 100% no-repeat;background:linear-gradient(105deg,transparent 40%,rgba(255,246,222,.95) 50%,transparent 60%) 120% 0/250% 100% no-repeat,linear-gradient(100deg,#8C7448 0%,#C2A874 30%,#E8D6A6 48%,#B0965F 66%,#8C7448 100%);animation:wpb-m 7s ease-in-out 1.2s infinite}
+@keyframes wpb-m{0%{background-position:120% 0,0 0}22%,100%{background-position:-20% 0,0 0}}
+@media (prefers-reduced-motion:reduce){.wpb-m{animation:none}}
+body.wp-nav .nav .wp-entete .wpb-m.wp-mot{height:var(--wpmot) !important}
+body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{height:auto !important;margin-left:-6px}
+@media (min-width:900px){body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{margin-left:-5px}}
+html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{margin-left:0}
+/* ===/RET-0411-MOT=== */
+"""
+wv = open("wp-v3.css", encoding="utf-8").read(); wv = re.sub(r"/\* ===RET-0411-MOT===.*?/\* ===/RET-0411-MOT=== \*/\n", "", wv, flags=re.S)
+open("wp-v3.css", "w", encoding="utf-8").write(wv.rstrip("\n") + "\n" + MCSS); print("mot css ok")
