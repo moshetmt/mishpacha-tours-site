@@ -5,11 +5,12 @@ body.wp-nav.lv-transp .nav{background:linear-gradient(to bottom,color-mix(in srg
 body.lv-transp.lv-plein .nav{background:var(--encre);border-bottom-color:var(--encre)}
 body.menu-ouvert.mt .nav{background:var(--papier);color:var(--encre);border-bottom-color:var(--trait)}
 .logo{display:flex;align-items:center;gap:10px;flex:none;color:inherit}
-.forme{width:auto;height:36px}
+.forme{width:auto;height:40px}
+@media(min-width:960px){.forme{height:44px}}
 .mot{font-family:var(--marque);font-size:20px;font-weight:400;line-height:1;letter-spacing:.01em;text-transform:none;white-space:nowrap}
 body.lv-transp .nav .forme{filter:invert(1)}
 body.menu-ouvert.mt .nav .forme{filter:none}
-.bh-haut{position:fixed;top:3px;inset-inline-end:var(--gouttiere);z-index:90;font-size:10px;line-height:1;opacity:.6;pointer-events:none;color:var(--encre)}
+.bh-haut{position:fixed;top:3px;inset-inline-end:var(--gouttiere);z-index:90;font-size:10px;line-height:1;pointer-events:none;color:var(--sourd)}
 body.lv-transp .bh-haut{color:var(--papier)}
 body.menu-ouvert.mt .bh-haut{color:var(--encre)}
 

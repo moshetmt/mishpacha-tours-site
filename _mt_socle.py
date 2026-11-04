@@ -164,7 +164,11 @@ def passe2(html, c):
         html = html[:ie] + '<a class="evite" href="#contenu">' + EVITE.get(langue, EVITE["en"]) + "</a>" + html[ie:]
         c["lien_evitement"] += 1
     # barre transparente dès le premier rendu : la classe que le JS posait après coup (et qui faisait sauter la page, CLS 0,114) est posée dans le HTML
-    hero = re.search(r'class="[^"]*\b(?:ac-hero|lv-hero-photo)\b', html) or re.search(r'<main\b[^>]*>\s*(?:<!--.*?-->\s*)*<section\b[^>]*class="(?![^"]*lead-hero3-illus)[^"]*\bhero\b', html, flags=re.S)
+    hero = re.search(r'class="[^"]*\b(?:ac-hero|lv-hero-photo)\b', html) or re.search(r'<main\b[^>]*>\s*(?:<!--.*?-->\s*)*<section\b[^>]*class="(?![^"]*lead-hero3-illus)(?![^"]*\bpf-hero\b)[^"]*\bhero\b', html, flags=re.S)
+    if not hero and re.search(r'<body[^>]*\blv-transp\b', html):  # page sans photo (formulaire) : barre pleine, jamais transparente
+        ib = html.find("<body"); ie = html.find(">", ib) + 1
+        html = html[:ib] + re.sub(r"\s*\blv-transp\b", "", html[ib:ie]) + html[ie:]
+        c["barre_transparente_retiree"] += 1
     if hero:
         ib = html.find("<body")
         ie = html.find(">", ib) + 1
