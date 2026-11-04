@@ -226,8 +226,7 @@ MCSS = """/* ===RET-0411-MOT=== */
 @keyframes wpb-m{0%{background-position:120% 0,0 0}22%,100%{background-position:-20% 0,0 0}}
 @media (prefers-reduced-motion:reduce){.wpb-m{animation:none}}
 body.wp-nav .nav .wp-entete .wpb-m.wp-mot{height:var(--wpmot) !important}
-body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{height:auto !important;margin-left:-6px}
-@media (min-width:900px){body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{margin-left:-5px}}
+body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{height:auto !important;margin-left:0}
 html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{margin-left:0}
 /* ===/RET-0411-MOT=== */
 """
