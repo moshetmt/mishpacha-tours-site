@@ -162,11 +162,11 @@ SVG_ENTREE = ('<svg viewBox="0 0 72 48" aria-hidden="true"><defs><clipPath id="s
               '<radialGradient id="sh-lueur" cx=".5" cy="1" r=".55"><stop offset="0" stop-color="#E8875A" stop-opacity=".9"/>'
               '<stop offset="1" stop-color="#E8875A" stop-opacity="0"/></radialGradient></defs>'
               '<rect class="sh-ciel" width="72" height="34" fill="url(#sh-lueur)" opacity="0"/><g clip-path="url(#sh-sol)"><g class="sh-soleil">'
-              '<circle cx="36" cy="24" r="9" fill="#FCDE73"/><g stroke="#FCDE73" stroke-width="2" stroke-linecap="round">'
+              '<circle cx="36" cy="24" r="9" fill="#A88F5E"/><g stroke="#A88F5E" stroke-width="2" stroke-linecap="round">'
               '<path d="M36 9v-4M24 14l-3-3M48 14l3-3M19 24h-4M53 24h4"/></g></g></g><path d="M6 34h60" stroke="#FFFAED" stroke-width="2" stroke-linecap="round"/>'
               '<path d="M14 40h44M24 45h24" stroke="#FFFAED" stroke-width="2" stroke-linecap="round" opacity=".35"/></svg>')
 SVG_SORTIE = ('<svg viewBox="0 0 72 48" aria-hidden="true"><g class="sh-lune"><path d="M40 8a15 15 0 1 0 14 22A12 12 0 0 1 40 8z" fill="#FFFAED"/></g>'
-              '<g fill="#FCDE73"><path class="sh-etoile sh-e1" d="M14 10l1.4 3 3 1.4-3 1.4L14 19l-1.4-3.2-3-1.4 3-1.4z"/>'
+              '<g fill="#A88F5E"><path class="sh-etoile sh-e1" d="M14 10l1.4 3 3 1.4-3 1.4L14 19l-1.4-3.2-3-1.4 3-1.4z"/>'
               '<path class="sh-etoile sh-e2" d="M60 6l1 2.2 2.2 1-2.2 1-1 2.2-1-2.2-2.2-1 2.2-1z"/>'
               '<path class="sh-etoile sh-e3" d="M24 30l1 2.2 2.2 1-2.2 1-1 2.2-1-2.2-2.2-1 2.2-1z"/></g></svg>')
 CSS_DEB, CSS_FIN = "/* SHABBAT v2 (15/10) */", "/* fin SHABBAT v2 */"

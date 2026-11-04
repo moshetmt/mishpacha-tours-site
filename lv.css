@@ -843,3 +843,12 @@ html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(
 html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main>section.lead-final .lead-form{background:#FFFFFF !important;border:1px solid #E6E6E6 !important;box-shadow:none !important}
 html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main>.ticket-zone{background-color:#FFFFFF !important;box-shadow:none !important;clip-path:none !important}
 /* ===/RET-0411=== */
+/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, crème #FFFAED) */
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main>section#how li b{color:#C2A874 !important}
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .sh-ville{color:#C2A874 !important}
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .sh-moment{background:rgba(255,255,255,.06) !important}
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .sh-moment svg [fill="#FFFAED"]{fill:#FFFFFF}
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .sh-moment svg [stroke="#FFFAED"]{stroke:#FFFFFF}
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) footer.pied details{border-color:rgba(255,255,255,.18) !important}
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) footer.pied a,html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .lead3-texte,html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .lead3-bloc,html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .lead3-btns,html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .kwp-hero-wp{text-decoration-color:currentColor !important}
+/* ===/RET-0411-JAUNE=== */

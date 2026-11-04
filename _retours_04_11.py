@@ -166,3 +166,28 @@ for lang, pf in (("en", ""), ("fr", "fr/"), ("es", "es/"), ("he", "he/")):
           "t.dispatchEvent(new Event('input',{bubbles:true}))}})();</script>")
     assert "</body>" in s2; s2 = s2.replace("</body>", js + "</body>", 1); open(f, "w", encoding="utf-8").write(s2)
 print("formulaires : catalogue prérempli")
+
+# ---------- 7. restes de l'ancien jaune Mishpacha (Moshé 04/11 : « un reste de l'ancien jaune ») ----------
+# #FCDE73 écrit en dur : points des cartes Leaflet (fillColor) et soleil / étoiles des horaires de Chabbat -> or brossé #A88F5E.
+n_pages = 0
+for f in glob.glob("**/index.html", recursive=True):
+    t = open(f, encoding="utf-8").read()
+    if "#FCDE73" in t or "#fcde73" in t:
+        open(f, "w", encoding="utf-8").write(t.replace("#FCDE73", "#A88F5E").replace("#fcde73", "#A88F5E")); n_pages += 1
+for g in ("_build_guide.py", "_build_hub.py", "_build_pratique.py", "_contacts_bh_hebcal.py", "_patch_pratique.py"):
+    if os.path.exists(g):
+        t = open(g, encoding="utf-8").read()
+        if "#FCDE73" in t: open(g, "w", encoding="utf-8").write(t.replace("#FCDE73", "#A88F5E"))
+print("pages sans #FCDE73 :", n_pages)
+JCSS = f"""/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, crème #FFFAED) */
+{P} main>section#how li b{{color:#C2A874 !important}}
+{P} .sh-ville{{color:#C2A874 !important}}
+{P} .sh-moment{{background:rgba(255,255,255,.06) !important}}
+{P} .sh-moment svg [fill="#FFFAED"]{{fill:#FFFFFF}}
+{P} .sh-moment svg [stroke="#FFFAED"]{{stroke:#FFFFFF}}
+{P} footer.pied details{{border-color:rgba(255,255,255,.18) !important}}
+{P} footer.pied a,{P} .lead3-texte,{P} .lead3-bloc,{P} .lead3-btns,{P} .kwp-hero-wp{{text-decoration-color:currentColor !important}}
+/* ===/RET-0411-JAUNE=== */
+"""
+lv = open("lv.css", encoding="utf-8").read(); lv = re.sub(r"/\* ===RET-0411-JAUNE===.*?/\* ===/RET-0411-JAUNE=== \*/\n", "", lv, flags=re.S)
+open("lv.css", "w", encoding="utf-8").write(lv.rstrip("\n") + "\n" + JCSS); print("css jaune ok")
