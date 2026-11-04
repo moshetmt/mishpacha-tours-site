@@ -232,3 +232,16 @@ html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{margin-left:
 """
 wv = open("wp-v3.css", encoding="utf-8").read(); wv = re.sub(r"/\* ===RET-0411-MOT===.*?/\* ===/RET-0411-MOT=== \*/\n", "", wv, flags=re.S)
 open("wp-v3.css", "w", encoding="utf-8").write(wv.rstrip("\n") + "\n" + MCSS); print("mot css ok")
+
+# ---------- 10. cartes chalet : « Strictly kosher. » en brun gras décalé (Moshé 04/11 : « ça casse la beauté du luxe ») ----------
+# Le paragraphe kwp-casher disparaît ; son titre, sans point, remplace la station dans la ligne grise (« Strictly kosher · with Winter Prestige »),
+# la station est déjà dans le titre de la carte. 168 cartes, 4 langues.
+n10 = 0
+for f in glob.glob("**/index.html", recursive=True):
+    t = open(f, encoding="utf-8").read()
+    def fusion(m):
+        cas = m.group(1).strip().rstrip(".").strip(); suite = m.group(2).split(" · ", 1)[1]
+        return f'<div class="kwp-lieu">{cas} · {suite}</div>'
+    t2 = re.sub(r'<p class="kwp-casher"><b>([^<]*)</b>[^<]*</p>\s*<div class="kwp-lieu">([^<]*·[^<]*)</div>', fusion, t)
+    if t2 != t: open(f, "w", encoding="utf-8").write(t2); n10 += 1
+print("pages aux cartes refaites :", n10)
