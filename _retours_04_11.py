@@ -253,6 +253,11 @@ MCSS = """/* ===RET-0411-MOT=== */
 body.wp-nav .nav .wp-entete .wpb-m.wp-mot{height:var(--wpmot) !important}
 body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{height:auto !important;margin-left:0}
 html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-m.wp-lock-mot{margin-left:0}
+/* lockup du pied composé comme la version carrée du kit WP : flocon centré au-dessus du nom, POWERED BY centré (Moshé 04/11 : « l'alignement pas bon à l'œil ») */
+body.wp-nav footer.pied .wp-lock{display:inline-flex !important;flex-direction:column !important;align-items:center !important;gap:14px !important}
+body.wp-nav footer.pied .wp-lock .wp-lock-fl{margin:0 !important}
+body.wp-nav footer.pied .wp-lock .wp-lock-col{display:flex !important;flex-direction:column !important;align-items:center !important}
+body.wp-nav footer.pied .wp-lock .wp-pw2{text-align:center}
 /* ===/RET-0411-MOT=== */
 """
 wv = open("wp-v3.css", encoding="utf-8").read(); wv = re.sub(r"/\* ===RET-0411-MOT===.*?/\* ===/RET-0411-MOT=== \*/\n", "", wv, flags=re.S)
