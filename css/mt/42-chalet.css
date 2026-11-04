@@ -54,3 +54,8 @@
 .lc-fleches{display:flex;flex-wrap:wrap;gap:var(--e1) var(--e4);max-width:calc(var(--colonne) + 2 * var(--gouttiere));margin-inline:auto;padding:0 var(--gouttiere) var(--section)}
 .lc-fleches h2{flex:0 0 100%;margin-bottom:var(--e2)}
 .lc-fl{font-size:var(--t-corps);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+/* reprises du lot WP du 04/11 (_charte_lv_p3_chalets.py) : séparation avant « autres chalets », chevron */
+.lc-bas-autres{margin-top:var(--e6);padding-top:var(--e1);border-top:1px solid var(--trait)}
+.lc-aut::after{content:"\203A";position:absolute;inset-inline-end:0;bottom:2px;font-size:22px;line-height:1;font-weight:300;color:var(--encre)}
+[dir=rtl] .lc-aut::after,html[lang=he] .lc-aut::after{content:"\2039"}
+.lc-aut .lc-nom,.lc-aut .lc-lieu{padding-inline-end:24px}

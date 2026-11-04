@@ -318,6 +318,7 @@ form button{width:100%}
 .fc-wa{margin-top:var(--a);width:100%}
 @media(min-width:960px){.fc-wa{width:auto}}
 .fc-contact button{margin-top:var(--d)}
+.ac-hero .lv-reassure{margin-bottom:var(--b)}
 .mt-alpes main>.ss+.ss{padding-top:0}
 .mt-alpes main>.faits-bloc+.ss{padding-top:var(--i)}
 .mt-alpes main>.bande-encre+.ss,.mt-alpes main>.bande-filet+.ss,.mt-alpes main>.kwp-noir+.ss{padding-top:var(--o)}
@@ -461,6 +462,9 @@ a.btn,a.btn-noir,a.btn-hero,a.pill,a.lc-btn,a.fc-wa,a.lead3-wa,a.go{text-decorat
 .sh-moment b{order:1;font-size:var(--p);font-weight:300;line-height:1.15;color:var(--c)}
 .sh-moment .sh-d{order:2;font-size:var(--f);font-weight:400;line-height:1.5;color:var(--e)}
 .sh-moment>div>span:last-child{order:3}
+.carte-sur{margin:0 0 var(--d);text-align:center;font-size:var(--l);font-weight:500;letter-spacing:var(--m);text-transform:uppercase;color:var(--e)}
+h2.carte-titre{margin:0 auto var(--b);text-align:center;text-wrap:balance}
+h2.carte-titre::after{content:"";display:block;width:56px;height:1px;margin:var(--b) auto 0;background:var(--or)}
 .lc-fil{padding-bottom:var(--a);overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:var(--f);color:var(--e)}
 .lc-fil a{text-decoration:none}
 .lc-haut{max-width:calc(var(--u) + 2 * var(--k));margin-inline:auto}
@@ -514,6 +518,10 @@ a.btn,a.btn-noir,a.btn-hero,a.pill,a.lc-btn,a.fc-wa,a.lead3-wa,a.go{text-decorat
 .lc-fleches{display:flex;flex-wrap:wrap;gap:var(--d) var(--i);max-width:calc(var(--u) + 2 * var(--k));margin-inline:auto;padding:0 var(--k) var(--o)}
 .lc-fleches h2{flex:0 0 100%;margin-bottom:var(--a)}
 .lc-fl{font-size:var(--s);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.lc-bas-autres{margin-top:var(--w);padding-top:var(--d);border-top:1px solid var(--j)}
+.lc-aut::after{content:"\203A";position:absolute;inset-inline-end:0;bottom:2px;font-size:22px;line-height:1;font-weight:300;color:var(--c)}
+[dir=rtl] .lc-aut::after,html[lang=he] .lc-aut::after{content:"\2039"}
+.lc-aut .lc-nom,.lc-aut .lc-lieu{padding-inline-end:24px}
 .xl{--g:max(var(--k),calc((100% - var(--u)) / 2))}
 .xl>.ss+.ss,.xl>.ss+.ticket-zone,.xl>.ss+div.ss{padding-top:0}
 .xl>.filet+.ss{padding-top:var(--o)}
