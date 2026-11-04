@@ -307,3 +307,36 @@ for f in glob.glob("**/index.html", recursive=True):
     t2 = re.sub(r'<p class="carte-sur">([^<]*)</p><h2 class="centre carte-titre">([^<]*)</h2>(<div class="carte-osm"[^>]*></div>)</section>', corr, t)
     if t2 != t: open(f, "w", encoding="utf-8").write(t2); n11b += 1
 print("cartes corrigées (zone longue ou consigne) :", n11b)
+
+# ---------- 12. rythme des pages WP (Moshé 04/11 : « espacement entre les sections », « tout blanc, on ne distingue pas les parties ») ----------
+# Section des chalets en noir (charte LV : une section noire par page, comme l'accueil), filet fin entre deux sections blanches,
+# même espacement partout, filet doré de la carte plus visible. Hors fiches chalet (main.lc) et hors accueil.
+n12 = 0
+for f in glob.glob("**/index.html", recursive=True):
+    t = open(f, encoding="utf-8").read()
+    if not re.search(r'<body[^>]*class="[^"]*\bwp-nav\b', t) or 'class="ss wrap kwp"' not in t: continue
+    t2 = t.replace('<section class="ss wrap kwp">', '<section class="ss wrap kwp kwp-noir">')
+    if t2 != t: open(f, "w", encoding="utf-8").write(t2); n12 += 1
+print("sections chalets en noir :", n12)
+K = "html body.valora.lv.wp-nav" + "".join(f":not(#r{i})" for i in range(1, 12)) + " main:not(.lc)"
+RCSS = f"""/* ===RET-0411-RYTHME=== */
+{K}>:is(section,div.ss):not(.lv-hero-station):not(.hero){{padding-top:64px !important;padding-bottom:64px !important;margin-top:0 !important;margin-bottom:0 !important}}
+{K}>:is(section,div.ss):not(.lv-hero-station):not(.hero):not(.kwp-noir)+:is(section,div.ss):not(.kwp-noir),{K}>div.cta-etapes+:is(section,div.ss):not(.kwp-noir){{border-top:1px solid #E6E6E6 !important}}
+{K}>div.cta-etapes{{padding-bottom:64px !important}}
+{K}>section.kwp-noir{{background:#111111 !important;color:#FFFFFF !important;box-shadow:0 0 0 100vmax #111111 !important;clip-path:inset(0 -100vmax) !important;border:0 !important}}
+{K}>section.kwp-noir>h2,{K}>section.kwp-noir>h2 i,{K}>section.kwp-noir>p{{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}}
+{K}>section.kwp-noir .kwp-carte{{background:#111111 !important;border:1px solid rgba(255,255,255,.16) !important;color:#FFFFFF !important}}
+{K}>section.kwp-noir .kwp-carte :is(h3,h3 a,.kwp-prix,.kwp-chiffres b){{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}}
+{K}>section.kwp-noir .kwp-carte :is(.kwp-chiffres,.kwp-chiffres span,.kwp-lieu,.kwp-dispo){{color:#BDBDBD !important}}
+{K}>section.kwp-noir .kwp-chiffres svg{{stroke:#BDBDBD !important}}
+{K}>section.kwp-noir .kwp-pied{{border-top-color:rgba(255,255,255,.16) !important}}
+{K}>section.kwp-noir .kwp-pied img{{filter:invert(1) !important}}
+{K}>section.kwp-noir .kwp-carte .btn-noir{{background:#FFFFFF !important;color:#111111 !important;-webkit-text-fill-color:#111111 !important;border:1px solid #FFFFFF !important}}
+{K}>section.kwp-noir :is(.pill,.kwp-tous a){{background:transparent !important;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;border:1px solid rgba(255,255,255,.7) !important}}
+{K} h2.carte-titre::after{{width:56px !important;height:1.5px !important;margin:22px auto 0 !important}}
+{K} h2.carte-titre{{margin-bottom:24px !important}}
+@media (min-width:900px){{{K}>:is(section,div.ss):not(.lv-hero-station):not(.hero){{padding-top:96px !important;padding-bottom:96px !important}}{K}>div.cta-etapes{{padding-bottom:96px !important}}}}
+/* ===/RET-0411-RYTHME=== */
+"""
+wv = open("wp-v3.css", encoding="utf-8").read(); wv = re.sub(r"/\* ===RET-0411-RYTHME===.*?/\* ===/RET-0411-RYTHME=== \*/\n", "", wv, flags=re.S)
+open("wp-v3.css", "w", encoding="utf-8").write(wv.rstrip("\n") + "\n" + RCSS); print("rythme css ok")
