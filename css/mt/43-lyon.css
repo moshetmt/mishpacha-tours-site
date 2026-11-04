@@ -12,8 +12,6 @@
 @media(max-width:959.98px){.xl h1.long{font-size:var(--t-h2)}}
 .xl .sous,.of-sous{margin-bottom:var(--e4);color:var(--sourd)}
 .xl .hero-texte>p:not([class]){max-width:34em;margin:0;font-size:var(--t-petit)}
-body>.strip{display:flex;justify-content:space-between;gap:var(--e2);padding:var(--e1) var(--gouttiere);border-bottom:1px solid var(--trait);font-size:var(--t-libelle);color:var(--sourd)}
-body>.strip .bh{order:2}
 .l-cherche{max-width:none;margin:0;padding:var(--e4) var(--g) 0}
 .chercheur{max-width:var(--lecture)}
 .xl>.bande{padding-inline:var(--g)}
@@ -30,7 +28,7 @@ body>.strip .bh{order:2}
 .of-carte h3{margin:0}
 .of-carte p{margin:0;font-size:var(--t-petit);color:var(--sourd)}
 .of-plus,.of-btn{justify-self:start}
-.of-btn{min-height:0;padding:0;border:0;background:none;color:var(--encre)}
+.of-btn{min-height:44px;padding:0;border:0;background:none;color:var(--encre);font-size:var(--t-corps)}
 .of-btn,.xl .ticket .wa,.liste-lieux .go,.lf .pf-res-b{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
 
 .xl .filtres{display:flex;flex-wrap:wrap;gap:var(--e1) var(--e3);margin:0 0 var(--e3)}
@@ -60,6 +58,9 @@ body>.strip .bh{order:2}
 .xl .etapes li>b{display:block;margin-bottom:var(--e1)}
 .xl .etapes li:has(>div){display:grid;grid-template-columns:48px 1fr}
 .xl .etapes li:has(>div)>b{font-size:var(--t-h2);font-weight:300;letter-spacing:0}
+@media(max-width:959.98px){.xl .etapes li:not(:has(>div)){display:grid;grid-template-columns:96px minmax(0,1fr);column-gap:var(--e2)}
+.xl .etapes li:not(:has(>div))>b{grid-row:1/3;margin:0}
+.xl .etapes li:not(:has(>div))>:is(span,p){grid-column:2}}
 .xl .etapes li span{display:block;font-weight:500}
 .xl .etapes p{margin:0;color:var(--sourd)}
 .lieux-galerie,.xl .hub-grille{display:grid;grid-template-columns:1fr 1fr;gap:var(--e3) var(--e2)}
@@ -87,7 +88,8 @@ body>.strip .bh{order:2}
 .xl .ticket-zone{padding-block:var(--section);padding-inline:var(--g);text-align:center}
 .xl .ticket{max-width:var(--lecture);margin-inline:auto}
 .xl .ticket-plan{margin:var(--e3) 0}
-.xl .ticket .wa{display:inline-block;font-size:var(--t-petit)}
+.xl .ticket .wa{display:inline-flex;align-items:center;min-height:44px;font-size:var(--t-corps)}
+.xl .of-plus,.xl .lv-lc-lien{display:inline-flex;align-items:center;min-height:44px;font-size:var(--t-corps)}
 
 .fiche-hero{display:grid;gap:var(--e4);padding-bottom:var(--section)}
 .fiche-photo{position:relative;height:56svh;min-height:320px;overflow:hidden;background:var(--encre)}

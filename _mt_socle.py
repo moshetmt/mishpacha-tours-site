@@ -5,7 +5,9 @@ import os, re, sys, pathlib, argparse, collections
 
 ICI = pathlib.Path(__file__).parent
 MARQUE = "<!--MT-V2-->"
-FEUILLES = {"styles.css", "lv.css", "lv-chalet.css", "valora-form.css"}
+MARQUE2 = "<!--MT-V2B-->"  # 2e passe (04/11, correctifs de la relecture) : lien d'évitement, 404, polices du premier écran
+EVITE = {"en": "Skip to content", "fr": "Aller au contenu", "es": "Ir al contenido", "he": "דלג לתוכן"}
+FEUILLES = {"styles.css", "lv.css", "lv-chalet.css", "valora-form.css", "wp-v3.css"}
 EXCLUS = {"img", "fonts", "video", "catalogues", "css", "js", "apps-script", "espace"}
 BOUTONS = {"btn", "lc-btn", "of-btn", "pill", "lc-noir", "lc-blanc", "lc-cta"}
 EYEBROW = {"lv-eyebrow", "lc-ref", "lv-lc-eti", "lv-reassure"}
@@ -147,6 +149,33 @@ def traiter(html, c):
     return av + mid + ap
 
 
+def passe2(html, c):
+    """Lien d'évitement en premier enfant du body (id="contenu" sur main), ancien bandeau .strip retiré, polices 400 et 500 préchargées."""
+    if MARQUE not in html or MARQUE2 in html:
+        return None
+    m = re.search(r'<html[^>]*lang="(\w+)"', html[:400])
+    langue = m.group(1) if m else "en"
+    html, k = re.subn(r'<div class="strip">.*?</div>\s*', "", html, count=1, flags=re.S)
+    c["bandeau_strip_retire"] += k
+    html, k = re.subn(r"<main(?=[\s>])(?![^>]*\sid=)", '<main id="contenu"', html, count=1)
+    ib = html.find("<body")
+    ie = html.find(">", ib) + 1
+    if k:
+        html = html[:ie] + '<a class="evite" href="#contenu">' + EVITE.get(langue, EVITE["en"]) + "</a>" + html[ie:]
+        c["lien_evitement"] += 1
+    # barre transparente dès le premier rendu : la classe que le JS posait après coup (et qui faisait sauter la page, CLS 0,114) est posée dans le HTML
+    hero = re.search(r'class="[^"]*\b(?:ac-hero|lv-hero-photo)\b', html) or re.search(r'<main\b[^>]*>\s*(?:<!--.*?-->\s*)*<section\b[^>]*class="(?![^"]*lead-hero3-illus)[^"]*\bhero\b', html, flags=re.S)
+    if hero:
+        ib = html.find("<body")
+        ie = html.find(">", ib) + 1
+        html = html[:ib] + classe(html[ib:ie], "lv-transp") + html[ie:]
+        c["barre_transparente_dans_le_html"] += 1
+    polices = ["mt-heebo-400-hebrew.woff2"] if langue == "he" else ["mt-jost-400-latin.woff2", "mt-jost-500-latin.woff2"]
+    pre = "".join('<link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/' + f + '">' for f in polices)
+    c["polices_prechargees"] += len(polices)
+    return html.replace(MARQUE, MARQUE + MARQUE2 + pre, 1)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--racine", default=str(ICI))
@@ -169,7 +198,7 @@ def main():
         if not re.search(r'<link\b[^>]*href="[^"]*(?:styles|lv|valora)[a-z-]*\.css', t) and MARQUE not in t:
             ignorees += 1
             continue
-        n = traiter(t, c)
+        n = passe2(t, c) if MARQUE in t else traiter(t, c)
         if n is None:
             ignorees += 1
             continue

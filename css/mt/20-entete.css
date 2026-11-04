@@ -1,6 +1,7 @@
 /* 20-entete : en-tête 64/72, marque à gauche, langue + burger à droite, menu déroulant Chalets, panneau téléphone */
 .nav{position:sticky;top:0;z-index:80;display:flex;align-items:center;justify-content:space-between;gap:var(--e2);height:var(--entete);padding-inline:var(--gouttiere);background:var(--papier);color:var(--encre);border-bottom:1px solid var(--trait)}
 body.lv-transp .nav{margin-bottom:calc(-1 * var(--entete));background:transparent;color:var(--papier);border-bottom-color:transparent}
+body.wp-nav.lv-transp .nav{background:linear-gradient(to bottom,color-mix(in srgb,var(--encre) 55%,transparent),transparent)}
 body.lv-transp.lv-plein .nav{background:var(--encre);border-bottom-color:var(--encre)}
 body.menu-ouvert.mt .nav{background:var(--papier);color:var(--encre);border-bottom-color:var(--trait)}
 .logo{display:flex;align-items:center;gap:10px;flex:none;color:inherit}
@@ -16,6 +17,8 @@ body.menu-ouvert.mt .bh-haut{color:var(--encre)}
 .wp-lien{display:flex;flex:none;margin-inline-end:auto;color:inherit}
 .wp-entete{display:flex;align-items:center;gap:10px;flex:none}
 @media(min-width:960px){.wp-lien{margin-inline-start:var(--e2)}.wp-entete{padding-inline-start:var(--e2);border-inline-start:1px solid currentColor}}
+/* lockup or sur fond papier (fiches, menu ouvert) : l'or du système (#7A6440) pour tenir 3:1, l'or clair reste sur la photo et sur l'encre */
+body.wp-nav:not(.lv-transp) .wp-entete img,body.wp-nav.menu-ouvert .wp-entete img{filter:brightness(.6)}
 .wp-fl{width:32px;height:32px}
 .wp-e-txt{display:flex;flex-direction:column;gap:5px}
 .wp-mot,.wp-pw{width:104px;height:auto}
@@ -63,7 +66,6 @@ body.wp-nav .nav{gap:var(--e1)}
 /* panneau téléphone : papier, plein écran sous l'en-tête (le JS pose style.top) */
 .panneau{position:fixed;inset:0;z-index:70;display:flex;flex-direction:column;gap:var(--e3);overflow-y:auto;padding:var(--e3) var(--gouttiere) calc(var(--e4) + env(safe-area-inset-bottom));background:var(--papier);color:var(--encre)}
 .panneau[hidden]{display:none}
-@media(min-width:1180px){.panneau{display:none}}
 .panneau nav{display:flex;flex-direction:column}
 .panneau nav a{padding:var(--e2) 0;border-bottom:1px solid var(--trait);font-size:var(--t-h2);font-weight:300;line-height:1.15;letter-spacing:var(--ls-titre);text-transform:uppercase}
 .panneau nav small{display:block;margin-top:6px;font-size:var(--t-petit);font-weight:400;line-height:1.5;letter-spacing:0;text-transform:none;color:var(--sourd)}

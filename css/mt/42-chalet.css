@@ -1,11 +1,12 @@
-/* 42-chalet : fiche chalet, rail photo 4:5, produit, accordéons, galerie 2 colonnes, autres chalets */
+/* 42-chalet : fiche chalet, rail photo 4:3, produit, accordéons, galerie 2 colonnes, autres chalets */
 .lc-fil{padding-bottom:var(--e2);overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:var(--t-petit);color:var(--sourd)}
 .lc-fil a{text-decoration:none}
 .lc-haut{max-width:calc(var(--colonne) + 2 * var(--gouttiere));margin-inline:auto}
 .lc-galerie{position:relative;min-width:0}
 .lc-piste{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none}
 .lc-piste::-webkit-scrollbar{display:none}
-.lc-piste img{flex:0 0 100%;width:100%;aspect-ratio:4/5;object-fit:cover;scroll-snap-align:start}
+.lc-piste img{flex:0 0 100%;width:100%;aspect-ratio:4/3;object-fit:cover;scroll-snap-align:start}
+.lc-piste img.anim-zoom{cursor:zoom-in}
 .lc-progres{position:relative;height:1px;overflow:hidden;background:var(--trait)}
 .lc-progres i{display:block;height:1px;background:var(--encre)}
 .lc-compte{display:block;padding:var(--e1) var(--gouttiere) 0;text-align:end;font-size:var(--t-petit);color:var(--sourd)}
@@ -18,14 +19,11 @@
 .lc-faits~.lc-chiffres{display:none}
 .lc-produit .lc-prix{order:4;font-size:var(--t-corps);font-weight:500}
 .lc-produit .lc-casher{order:5;margin:var(--e1) 0 var(--e3);font-size:var(--t-libelle);font-weight:500;line-height:1.5;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd)}
+.lc-produit .lc-surv{order:5;margin:0 0 var(--e3);font-size:var(--t-petit);line-height:1.5;color:var(--sourd)}
 .lc-produit .lc-cta{order:6}
 .lc-produit .lc-wa{order:7;margin-top:var(--e1)}
 .lc-produit .lc-btn{width:100%}
-.lc-produit .lc-note{order:8;margin-top:var(--e4);font-size:var(--t-h3);font-weight:300;line-height:1.5}
 .lc-produit .lc-desc{order:9;margin-top:var(--e2);color:var(--sourd)}
-.lc-produit .lc-assure{order:10;margin-top:var(--e2);padding:0;list-style:none}
-.lc-assure li{padding:var(--e2) 0;border-top:1px solid var(--trait);font-size:var(--t-petit);color:var(--sourd)}
-.lc-assure b{display:block;font-size:var(--t-corps);font-weight:500;color:var(--encre)}
 @media(min-width:960px){
   .lc-haut{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:var(--e5);align-items:start;padding-inline:var(--gouttiere)}
   .lc-piste img{max-height:min(80svh,760px)}

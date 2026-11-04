@@ -15,10 +15,14 @@
 .logo-pied .mot{font-size:20px}
 .logo-pied small{flex:1 1 100%;color:var(--sourd-encre)}
 @media(min-width:960px){.logo-pied small{flex:0 1 auto;margin-inline-start:var(--e2)}}
-.wp-pied{display:flex;align-items:center;gap:var(--e2);margin-inline-start:auto}
-.wp-pied em{font-size:var(--t-petit);color:var(--sourd-encre)}
-.wp-pied-logo img{width:auto;height:24px}
 body.wp-nav .forme-pied{display:none}
+/* pages Alpes (WP v3) : un seul logo dans le pied, le lockup Winter Prestige en grand sur l'encre, puis sa ligne */
+.logo-pied.wp-v3{display:block;max-width:var(--colonne);margin:var(--e5) auto var(--e3);padding-top:0;border-top:0}
+.logo-pied.wp-v3 a{display:inline-block}
+.logo-pied.wp-v3 img{display:block;width:min(320px,100%);height:auto}
+.wp-v3-pb{max-width:var(--colonne);margin:0 auto var(--e4);font-size:var(--t-libelle);font-weight:500;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd-encre)}
+.wp-v3-pb a{color:inherit;text-decoration:none}
+@media(min-width:960px){.logo-pied.wp-v3{margin-top:var(--e6)}.logo-pied.wp-v3 img{width:380px}}
 .legal{max-width:var(--colonne);margin:0 auto var(--e3);color:var(--sourd-encre);font-size:var(--t-petit);line-height:2}
 .legal a{display:inline-block;margin-inline-end:var(--e3);padding:6px 0;color:var(--papier)}
 .bandeau-pied{max-width:var(--colonne);margin:0 auto;color:var(--sourd-encre);font-size:var(--t-libelle);font-weight:500;letter-spacing:var(--ls-libelle);text-transform:uppercase}

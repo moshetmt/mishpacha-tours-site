@@ -2,10 +2,12 @@
    La photo s'affiche d'abord ; la vidéo se charge après la page, jamais en économie de données ni en mouvement réduit. */
 (function(){
 var h=document.querySelector('.lead-hero3[data-video],.lv-hero-station[data-video]');if(!h)return;
+/* ordinateur seulement : sous 960 px la photo du héros reste seule (ni 1,7 Mo de vidéo, ni requête) */
+if(!matchMedia('(min-width:960px)').matches)return;
 var c=navigator.connection||{};
 if(c.saveData||/(^|-)2g$/.test(c.effectiveType||'')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
 function go(){
-  var t=matchMedia('(max-width:899.98px)').matches?'tel':'pc',n=h.getAttribute('data-video');
+  var t='pc',n=h.getAttribute('data-video');
   var v=document.createElement('video');
   v.muted=true;v.loop=true;v.playsInline=true;v.setAttribute('playsinline','');v.setAttribute('aria-hidden','true');v.tabIndex=-1;v.preload='auto';
   v.style.cssText='position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1s ease;pointer-events:none';

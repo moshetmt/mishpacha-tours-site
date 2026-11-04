@@ -108,12 +108,12 @@ details.acc>summary h2 i,details.acc>summary h3 i{display:inline;font-weight:inh
 .shabbat-corps{margin:0;font-size:var(--t-petit);color:var(--sourd)}
 
 /* étapes en trois lignes */
-.etapes ol{margin:0;padding:0;list-style:none}
-.etapes li{display:grid;grid-template-columns:48px 1fr;gap:var(--e2);padding:var(--e3) 0;border-top:1px solid var(--trait)}
-.etapes li:last-child{border-bottom:1px solid var(--trait)}
-.etapes li>b{font-size:var(--t-h2);font-weight:300;line-height:1.15}
-.etapes li h3{margin:0 0 4px}
-.etapes li p{margin:0;color:var(--sourd)}
+.mt-hub .etapes ol{margin:0;padding:0;list-style:none}
+.mt-hub .etapes li{display:grid;grid-template-columns:48px 1fr;gap:var(--e2);padding:var(--e3) 0;border-top:1px solid var(--trait)}
+.mt-hub .etapes li:last-child{border-bottom:1px solid var(--trait)}
+.mt-hub .etapes li>b{font-size:var(--t-h2);font-weight:300;line-height:1.15}
+.mt-hub .etapes li h3{margin:0 0 4px}
+.mt-hub .etapes li p{margin:0;color:var(--sourd)}
 .cta-etapes{padding-block:var(--e3) 0}
 .cta-etapes+.ss{padding-top:var(--e5)}
 .cta-etapes .cta-hero{margin:0}
@@ -167,4 +167,3 @@ a.btn,a.btn-noir,a.btn-hero,a.pill,a.lc-btn,a.fc-wa,a.lead3-wa,a.go{text-decorat
 .sh-moment b{order:1;font-size:var(--t-h2);font-weight:300;line-height:1.15;color:var(--encre)}
 .sh-moment .sh-d{order:2;font-size:var(--t-petit);font-weight:400;line-height:1.5;color:var(--sourd)}
 .sh-moment>div>span:last-child{order:3}
-.lv-hero-station::after,.lead-hero3::after{background:linear-gradient(to top,color-mix(in srgb,var(--encre) 88%,transparent),color-mix(in srgb,var(--encre) 62%,transparent) 50%,color-mix(in srgb,var(--encre) 28%,transparent) 85%,transparent),linear-gradient(to bottom,color-mix(in srgb,var(--encre) 78%,transparent),color-mix(in srgb,var(--encre) 45%,transparent) 14%,transparent 34%)}

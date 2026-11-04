@@ -496,6 +496,53 @@ def page(html, typ, racine, pref, slug, c):
     return html
 
 
+# --- 2e passe (04/11, correctifs de la relecture) ---------------------------------------------------
+MARQUE2 = "<!--MT-ALPES-2-->"
+# ligne de supervision, reprise mot pour mot de la page services de chaque langue
+SURV = ("Kosher supervision: Beth Habad de Grenoble Alpes, Rav Yehia Lahiany.", "Surveillance : Beth Habad de Grenoble Alpes, rav Yehia Lahiany.",
+        "Supervisión: Beth Habad de Grenoble Alpes, rav Yehia Lahiany.", 'השגחה: בית חב"ד גרנובל אלפים, <bdi dir="ltr">Rav Yehia Lahiany</bdi>.')
+LIEU = {"kosher-chalet-courchevel": "Courchevel", "kosher-chalet-courchevel-aurore-boreale": "Courchevel", "kosher-chalet-courchevel-renard-argente": "Courchevel",
+        "kosher-chalet-les-deux-alpes": "Les Deux Alpes", "kosher-chalet-les-menuires": "Les Ménuires", "kosher-chalet-val-thorens": "Val Thorens"}
+
+
+def page2(html, typ, pref, slug, c):
+    """Ouverture « Ski by day » retirée des stations et des fiches ; fiche : ligne de supervision, nom du chalet dans le message WhatsApp et dans les liens Plan your trip."""
+    from urllib.parse import quote
+    if MARQUE not in html or MARQUE2 in html or typ not in ("station", "chalet"):
+        return None
+    lg = LI[(re.search(r'<html[^>]*\blang="(\w\w)', html) or [0, "en"])[1]]
+    neuf = html
+    if typ == "station":
+        neuf, k = re.subn(r'<!--MANIFESTE-->(?=\s*<div class="mf">).*?<!--/MANIFESTE-->\s*', "", neuf, flags=re.S)
+        c["ouverture_station_retiree"] += k
+    else:
+        neuf, k1 = re.subn(r'\s*<p class="lc-note"[^>]*>.*?</p>', "", neuf, count=1, flags=re.S)
+        neuf, k2 = re.subn(r'\s*<ul class="lc-assure"[^>]*>.*?</ul>', "", neuf, count=1, flags=re.S)
+        c["ouverture_fiche_retiree"] += k1 and k2
+        nom = re.search(r'<div class="lc-colle"[^>]*>(?:<!--[^>]*-->)?<div><b>(.*?)</b>', neuf, re.S)
+        if nom:
+            nom = plain(nom.group(1))
+            neuf, k = re.subn(r'(<p class="lc-casher">.*?</p>)', lambda m: m.group(1) + f'<p class="lc-surv">{SURV[lg]}</p>', neuf, count=1, flags=re.S)
+            c["fiche_ligne_supervision"] += k
+
+            def wa(m):
+                h = m.group(2)
+                if "text=" not in h or quote(nom) in h:
+                    return m.group(0)
+                c["fiche_wa_avec_nom"] += 1
+                return m.group(1) + re.sub(r"(text=[^&\"]*?\.%20)", lambda q: q.group(1) + quote(nom) + ".%20", h, count=1) + '"'
+            neuf = re.sub(r'(<a class="lc-btn lc-blanc lc-wa"[^>]*href=")([^"]*)"', wa, neuf)
+            lieu = LIEU.get(slug)
+            q = "?i=a" + (f"&amp;lieu={quote(lieu)}&amp;voyage=Ski%20holiday%20with%20a%20chalet" if lieu else "") + f"&amp;chalet={quote(nom)}"
+            neuf, k = re.subn(r'(class="nav-cta" href="[^"?]*plan-your-trip/)"', lambda m: m.group(1) + q + '"', neuf)
+            neuf, k2 = re.subn(r'(<a href="[^"?]*plan-your-trip/)"( class="nav-cta")', lambda m: m.group(1) + q + '"' + m.group(2), neuf)
+            c["fiche_liens_plan_avec_nom"] += k + k2
+    if neuf == html:
+        return None
+    c["pages2_" + typ] += 1
+    return neuf.replace(MARQUE, MARQUE + MARQUE2, 1)
+
+
 def cibles(racine):
     out = []
     for pref in LANGS:
@@ -521,12 +568,12 @@ def main():
     ignorees = 0
     for p, typ, pref, slug in cs:
         t = p.read_bytes().decode("utf-8")
-        n = page(t, typ, racine, pref, slug, c)
+        n = page(t, typ, racine, pref, slug, c) if MARQUE not in t else page2(t, typ, pref, slug, c)
         if n is None:
             ignorees += 1
             continue
         p.write_bytes(n.encode("utf-8"))
-    print(f"pages restructurées : {sum(v for k, v in c.items() if k.startswith('pages_'))}, laissées telles quelles : {ignorees}")
+    print(f"pages restructurées : {sum(v for k, v in c.items() if k.startswith('pages_'))}, corrigées (2e passe) : {sum(v for k, v in c.items() if k.startswith('pages2_'))}, laissées telles quelles : {ignorees}")
     for k, v in sorted(c.items()):
         print(f"  {k:<26} {v}")
 
