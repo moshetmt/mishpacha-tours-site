@@ -18,8 +18,8 @@ D.addEventListener('touchstart',function(){},{passive:true});
 
 /* 13. bouton Plan your trip flottant a gauche du WhatsApp (Moshe 19/10) : texte et lien repris du menu, donc dans la langue de la page */
 (function(){
-  var wa=D.querySelector('.wa-flottant');if(!wa||D.getElementById('formDemande')||D.getElementById('formCourt'))return;
-  var src=D.querySelector('.nav .liens a[href$="plan-your-trip/"],.nav .liens a[href$="contact-quick/"]');if(!src)return;
+  var wa=D.querySelector('.wa-flottant');if(!wa||D.getElementById('formDemande'))return;
+  var src=D.querySelector('.nav .liens a[href$="plan-your-trip/"]');if(!src)return;
   var a=D.createElement('a');a.className='pyt-flottant';a.href=src.getAttribute('href');a.textContent=src.textContent.trim();
   wa.parentNode.insertBefore(a,wa);
 })();
@@ -100,8 +100,8 @@ D.addEventListener('touchstart',function(){},{passive:true});
 
 /* 2. galerie du chalet */
 (function(){
-  if(path!=='/kosher-chalet-les-deux-alpes/')return;
-  var th=[].slice.call(D.querySelectorAll('.lead-offre .lead-cartes img'));
+  var th=[].slice.call(D.querySelectorAll('.lead-offre .lead-cartes img, .lc-piste img'));
+  function grand(t){var ss=t.getAttribute('srcset');if(!ss)return t.currentSrc||t.src;var c=ss.split(',').pop().trim().split(/\s+/)[0];return c||t.currentSrc||t.src}
   var n=th.length;if(!n)return;
   var cur=0,ouvert=false,ferme=false,W=0,H=0,dx=0,dy=0,sens=RTL?-1:1;
   var v,fond,stage,btnX,btnG,btnD,cpt,slides=[],g=null;
@@ -118,7 +118,7 @@ D.addEventListener('touchstart',function(){},{passive:true});
     if(v)return;
     v=el('div','anim-vis');v.hidden=true;v.setAttribute('role','dialog');v.setAttribute('aria-modal','true');v.setAttribute('aria-label',L10.d);
     fond=el('div','anim-vis-fond');stage=el('div','anim-vis-piste');
-    th.forEach(function(t){var s=el('div','anim-vis-s'),im=el('img');im.alt=t.alt||'';im.src=t.currentSrc||t.src;im.draggable=false;s.appendChild(im);stage.appendChild(s);slides.push({s:s,im:im,w:+t.getAttribute('width')||0,h:+t.getAttribute('height')||0})});
+    th.forEach(function(t){var s=el('div','anim-vis-s'),im=el('img');im.alt=t.alt||'';im.src=grand(t);im.draggable=false;s.appendChild(im);stage.appendChild(s);slides.push({s:s,im:im,w:+t.getAttribute('width')||0,h:+t.getAttribute('height')||0})});
     btnX=el('button','anim-vis-x');btnX.type='button';btnX.setAttribute('aria-label',L10.c);btnX.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
     btnG=el('button','anim-vis-g');btnD=el('button','anim-vis-d');btnG.type=btnD.type='button';
     btnG.innerHTML=fleche(-1);btnD.innerHTML=fleche(1);
@@ -276,12 +276,3 @@ D.addEventListener('touchstart',function(){},{passive:true});
 })();
 
 })();
-/* ===LUXE=== */
-(function(){var D=document;if(D.getElementById('formDemande')||D.getElementById('formCourt')||D.querySelector('.barre-basse'))return;
-var wa=D.querySelector('.wa-flottant'),src=D.querySelector('.nav .liens a.nav-cta')||D.querySelector('.panneau nav a.nav-cta');if(!wa||!src)return;
-var b=D.createElement('div');b.className='barre-basse';
-var a1=D.createElement('a');a1.className='bb-wa';a1.href=wa.getAttribute('href');a1.rel='noopener';a1.innerHTML=(wa.querySelector('svg')||{outerHTML:''}).outerHTML+'<span>WhatsApp</span>';
-var a2=D.createElement('a');a2.className='bb-plan';a2.href=src.getAttribute('href');a2.textContent=src.textContent.trim();
-b.appendChild(a1);b.appendChild(a2);D.body.appendChild(b);
-var f=function(){D.body.classList.toggle('bb-on',window.scrollY>160)};window.addEventListener('scroll',f,{passive:true});f();})();
-/* ===/LUXE=== */
