@@ -28,7 +28,7 @@ for f in sorted(glob.glob("**/index.html", recursive=True)):
         i = s.find("<footer"); j = s.find("</footer>"); pied = s[i:j]
         pied2 = re.sub(r'<p class="logo-pied">.*?</p>',
             f'<!--WP-V3:pied--><p class="logo-pied wp-v3"><a href="/kosher-chalets/"><img src="/img/wp-long-or-powered.svg" alt="Winter Prestige, powered by Mishpacha Tours" width="320" height="113"></a></p>'
-            f'<p class="wp-v3-pb">{PB[lang]} <a href="{"/" if lang == "en" else "/" + lang + "/"}">Mishpacha Tours</a></p><!--/WP-V3:pied-->', pied, count=1, flags=re.S)
+            f'<!--/WP-V3:pied-->', pied, count=1, flags=re.S)  # 04/11 : pas de ligne « Powered by » en plus, le lockup la porte déjà (Moshé : « juste le logo »)
         ds = re.findall(r"<details[^>]*>.*?</details>", pied2, re.S)
         for d in ds:
             lab = re.search(r"<summary>([^<]+)</summary>", d).group(1)
@@ -42,7 +42,7 @@ for f in sorted(glob.glob("**/index.html", recursive=True)):
                    f'<a class="lc-btn lc-noir lc-cta" id="lcCta" href="{pdf}" target="_blank" rel="noopener">{TXT[lang]}</a>', s, count=1)
         s = re.sub(r'<a class="lc-btn lc-noir lc-mini" href="[^"]*" tabindex="-1">[^<]*</a>',
                    f'<a class="lc-btn lc-noir lc-mini" href="{pdf}" target="_blank" rel="noopener" tabindex="-1">{TXT[lang]}</a>', s, count=1)
-        s = s.replace('<div class="lc-colle" id="lcColle" aria-hidden="true"><div>', '<div class="lc-colle" id="lcColle" aria-hidden="true"><!--WP-V3:fiche--><img class="lc-fl" src="/img/wp-flocon-or.svg" alt="" width="26" height="26"><div>', 1)
+        s = s.replace('<div class="lc-colle" id="lcColle" aria-hidden="true"><div>', '<div class="lc-colle" id="lcColle" aria-hidden="true"><!--WP-V3:fiche--><img class="lc-wpfl" src="/img/wp-flocon-or.svg" alt="" width="26" height="26"><div>', 1)
         assert "WP-V3:fiche" in s and TXT[lang] in s, f
         n_fiche += 1
     if s != o: open(f, "w", encoding="utf-8").write(s)
