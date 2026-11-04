@@ -58,9 +58,10 @@ D.addEventListener('touchstart',function(){},{passive:true});
 })();
 
 /* 7. listes d'adresses liees aux marqueurs Leaflet */
-(function(){
+(function lier(){
   var conts=[].slice.call(D.querySelectorAll('.carte-osm[data-points]'));
-  if(!conts.length||!window.L||!L.Map)return;
+  if(!conts.length)return;
+  if(!window.L||!L.Map){D.addEventListener('mt-leaflet',lier,{once:true});return}
   var maps=[],o=L.Map.prototype.invalidateSize;
   L.Map.prototype.invalidateSize=function(){if(maps.indexOf(this)<0)maps.push(this);return o.apply(this,arguments)};
   dispatchEvent(new Event('resize'));
@@ -283,5 +284,5 @@ var b=D.createElement('div');b.className='barre-basse';
 var a1=D.createElement('a');a1.className='bb-wa';a1.href=wa.getAttribute('href');a1.rel='noopener';a1.innerHTML=(wa.querySelector('svg')||{outerHTML:''}).outerHTML+'<span>WhatsApp</span>';
 var a2=D.createElement('a');a2.className='bb-plan';a2.href=src.getAttribute('href');a2.textContent=src.textContent.trim();
 b.appendChild(a1);b.appendChild(a2);D.body.appendChild(b);
-var f=function(){D.body.classList.toggle('bb-on',window.scrollY>160)};window.addEventListener('scroll',f,{passive:true});f();})();
+var pd=D.querySelector('footer.pied');var f=function(){D.body.classList.toggle('bb-on',window.scrollY>400&&!(pd&&pd.getBoundingClientRect().top<innerHeight))};window.addEventListener('scroll',f,{passive:true});f();})();
 /* ===/LUXE=== */

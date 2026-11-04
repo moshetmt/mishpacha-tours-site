@@ -1,0 +1,10 @@
+/* 90-hebreu : RTL, Heebo, ni capitales ni espacement de lettres ; les propriétés logiques des autres partiels font le miroir de l'en-tête */
+html[lang="he"] body.mt{direction:rtl;font-family:var(--hebreu)}
+html[lang="he"] :is(h1,h2,h3,h4,.lc-h1,.lc-h2,.lib,.lv-eyebrow,.lv-reassure,.lc-ref,.code,.tag,.btn,.btn-noir,.btn-hero,.lc-btn,.of-btn,.pill,.fc-wa,.lead3-wa,form button,.go,.nav-cta,.liens a,.pied summary,.bandeau-pied,.barre-basse a,.cb button,.panneau nav a,.panneau-wa,.panneau-langs a,.wa-flottant,.pyt-flottant,label>span,.fc-champ>span){font-family:var(--hebreu);text-transform:none;letter-spacing:0}
+html[lang="he"] :is(h1,h2,.lc-h1,.lc-h2){font-weight:300}
+html[lang="he"] .mot,html[lang="he"] .wp-entete{direction:ltr}
+html[lang="he"] .mot{font-family:var(--marque)}
+html[lang="he"] .bh-haut{font-family:var(--hebreu)}
+html[lang="he"] [dir="ltr"],html[lang="he"] .num{direction:ltr;unicode-bidi:isolate}
+html[lang="he"] .pied summary::after,html[lang="he"] details.acc>summary::after{margin-inline-start:0}
+html[lang="he"] .hero-texte,html[lang="he"] .lead3-texte{text-align:start}
