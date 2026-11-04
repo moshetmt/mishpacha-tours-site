@@ -66,14 +66,14 @@ for f in sorted(glob.glob("**/index.html", recursive=True)):
     # en-tête : flocon et mot en or brossé, reflet sur le mot, « POWERED BY mishpacha tours » en texte
     if "RET-0411:entete" not in s and "<!--LOGO-WP:entete-->" in s:
         s = s.replace('<img class="wp-fl" src="/img/wp-flocon-or.svg"', '<img class="wp-fl" src="/img/wp-flocon-brosse-clair.svg"', 1)
-        s, n1 = re.subn(r'(<img class="wp-mot" src=")/img/wp-mot-or\.svg("[^>]*>)', lambda m: REF("wp-mot-brosse-clair.svg") + m.group(1) + "/img/wp-mot-brosse-clair.svg" + m.group(2) + "</span>", s, count=1)
+        s, n1 = re.subn(r'(<img class="wp-mot" src=")/img/wp-mot-or\.svg("[^>]*>)', lambda m: REF("wp-mot-masque.png") + m.group(1) + "/img/wp-mot-brosse-clair.svg" + m.group(2) + "</span>", s, count=1)
         s, n2 = re.subn(r'<img class="wp-pw" src="/img/wp-powered-or\.svg"[^>]*>', lambda m: PW + "<!--RET-0411:entete-->", s, count=1)
         assert n1 and n2, f
         cpt["entete"] += 1
     # pied
     if "RET-0411:pied" not in s:
         bloc = ('<div class="logo-pied wp-v3"><!--RET-0411:pied--><a class="wp-lock" href="' + L[lang] + '/kosher-chalets/" aria-label="Winter Prestige, powered by Mishpacha Tours">'
-                '<img class="wp-lock-fl" src="/img/wp-flocon-brosse-clair.svg" alt="" width="84" height="84"><span class="wp-lock-col">' + REF("wp-mot-brosse-clair.svg") +
+                '<img class="wp-lock-fl" src="/img/wp-flocon-brosse-clair.svg" alt="" width="84" height="84"><span class="wp-lock-col">' + REF("wp-mot-masque.png") +
                 '<img class="wp-lock-mot" src="/img/wp-mot-brosse-clair.svg" alt="Winter Prestige" width="250" height="20"></span>' + PW + '</span></a></div>')
         s, n = re.subn(r'<p class="logo-pied wp-v3">.*?</p>', lambda m: bloc, s, count=1, flags=re.S)
         assert n, f
@@ -194,3 +194,20 @@ JCSS = f"""/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, c
 """
 lv = open("lv.css", encoding="utf-8").read(); lv = re.sub(r"/\* ===RET-0411-JAUNE===.*?/\* ===/RET-0411-JAUNE=== \*/\n", "", lv, flags=re.S)
 open("lv.css", "w", encoding="utf-8").write(lv.rstrip("\n") + "\n" + JCSS); print("css jaune ok")
+
+# ---------- 8. reflet : masque PNG (Safari décale le reflet avec le SVG du mot) ; alignement de l'encre dans le pied ----------
+n8 = 0
+for f in glob.glob("**/index.html", recursive=True):
+    t = open(f, encoding="utf-8").read()
+    if "--logo:url(/img/wp-mot-brosse-clair.svg)" in t:
+        open(f, "w", encoding="utf-8").write(t.replace("--logo:url(/img/wp-mot-brosse-clair.svg)", "--logo:url(/img/wp-mot-masque.png)")); n8 += 1
+print("reflets en PNG :", n8)
+ACSS = """/* ===RET-0411-ALIGN=== pied WP : encre du flocon et du mot sur le bord du texte (mesure au pixel 04/11 : flocon +4 px, mot +6 px) */
+body.wp-nav footer.pied .wp-lock .wp-lock-fl{margin-left:-4px}
+body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:-6px}
+@media (min-width:900px){body.wp-nav footer.pied .wp-lock .wp-lock-fl{margin-left:-5px}body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:-5px}}
+html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wp-lock-fl,html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:0}
+/* ===/RET-0411-ALIGN=== */
+"""
+wv = open("wp-v3.css", encoding="utf-8").read(); wv = re.sub(r"/\* ===RET-0411-ALIGN===.*?/\* ===/RET-0411-ALIGN=== \*/\n", "", wv, flags=re.S)
+open("wp-v3.css", "w", encoding="utf-8").write(wv.rstrip("\n") + "\n" + ACSS); print("alignement ok")

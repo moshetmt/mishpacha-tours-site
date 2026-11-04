@@ -25,3 +25,9 @@ body.wp-nav .lead-final .wp-fl-final{filter:none !important;width:64px !importan
 body.wp-nav :is(.pyt-flottant,.barre-basse .bb-plan)::before{background:linear-gradient(100deg,#8C7448,#E8D6A6 48%,#B0965F 66%,#8C7448) !important}
 @media (min-width:900px){body.wp-nav footer.pied .wp-lock .wp-lock-fl{width:88px !important;height:88px !important}body.wp-nav footer.pied .wp-lock .wp-lock-mot{width:280px !important}body.wp-nav footer.pied .wp-lock .wp-pw2{font-size:13px}}
 /* ===/RET-0411=== */
+/* ===RET-0411-ALIGN=== pied WP : encre du flocon et du mot sur le bord du texte (mesure au pixel 04/11 : flocon +4 px, mot +6 px) */
+body.wp-nav footer.pied .wp-lock .wp-lock-fl{margin-left:-4px}
+body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:-6px}
+@media (min-width:900px){body.wp-nav footer.pied .wp-lock .wp-lock-fl{margin-left:-5px}body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:-5px}}
+html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wp-lock-fl,html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wpb-r{margin-left:0}
+/* ===/RET-0411-ALIGN=== */
