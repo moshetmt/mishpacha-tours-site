@@ -204,8 +204,10 @@ JCSS = f"""/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, c
 /* coins de l'ancienne charte (12-15 px, pilules) -> 4 px de la charte LV (scan du 04/11) */
 {P} :is(.carte-osm,.kwp-stations,article.chabad,article.syn,.jm,.meteo-tab,span.tag,.lead-cartes>figure,.kwp-diapo-cadre){{border-radius:4px !important}}
 {P} span.pill-noir{{border-radius:4px !important}}
-{P} ul.kwp-pastilles>li>a{{border-radius:4px !important;border:1px solid #111111 !important;color:#111111 !important;background:#FFFFFF !important}}
+{P} ul.kwp-pastilles>li>a{{text-decoration:none !important;border-radius:4px !important;border:1px solid #111111 !important;color:#111111 !important;background:#FFFFFF !important}}
 {P} .kwp-stations{{border-color:#E6E6E6 !important}}
+{PR} .lead-intro .mf-phrase{{letter-spacing:0 !important}}
+{PR} .lead-intro .mf-col b{{letter-spacing:0 !important;font-size:16px !important;font-weight:500 !important}}
 /* ===/RET-0411-JAUNE=== */
 """
 lv = open("lv.css", encoding="utf-8").read(); lv = re.sub(r"/\* ===RET-0411-JAUNE===.*?/\* ===/RET-0411-JAUNE=== \*/\n", "", lv, flags=re.S)
