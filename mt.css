@@ -319,7 +319,7 @@ form button{width:100%}
 .fc-wa{margin-top:var(--a);width:100%}
 @media(min-width:960px){.fc-wa{width:auto}}
 .fc-contact button{margin-top:var(--d)}
-.ac-hero .lv-reassure{margin-bottom:var(--b)}
+.hero.ac-hero .lv-reassure{margin-bottom:var(--b)}
 .mt-alpes main>.ss+.ss{padding-top:0}
 .mt-alpes main>.faits-bloc+.ss{padding-top:var(--i)}
 .mt-alpes main>.bande-encre+.ss,.mt-alpes main>.bande-filet+.ss,.mt-alpes main>.kwp-noir+.ss{padding-top:var(--o)}

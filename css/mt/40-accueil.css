@@ -68,4 +68,4 @@
 .fc-wa{margin-top:var(--e2);width:100%}
 @media(min-width:960px){.fc-wa{width:auto}}
 .fc-contact button{margin-top:var(--e1)}
-.ac-hero .lv-reassure{margin-bottom:var(--e3)}
+.hero.ac-hero .lv-reassure{margin-bottom:var(--e3)}
