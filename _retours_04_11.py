@@ -128,13 +128,14 @@ open("lv.css", "w", encoding="utf-8").write(lv.rstrip("\n") + "\n" + CSS)
 
 # ---------- 5. CSS des pages WP (fin de wp-v3.css) ----------
 W = "body.wp-nav"
+WX = "html body.lv.wp-nav" + "".join(f":not(#r{i})" for i in range(1, 12))  # plus fort que la règle Jost !important de lv.css
 WCSS = f"""/* ===RET-0411=== */
 .wpb-r{{position:relative;display:block;line-height:0;width:max-content}}
 .wpb-r::after{{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,246,222,.95) 50%,transparent 60%) no-repeat;background-size:250% 100%;background-position:120% 0;-webkit-mask:var(--logo) center/100% 100% no-repeat;mask:var(--logo) center/100% 100% no-repeat;animation:wp-reflet 7s ease-in-out 1.2s infinite;pointer-events:none}}
 @media (prefers-reduced-motion:reduce){{.wpb-r::after{{animation:none;display:none}}}}
-{W} .wp-pw2{{display:block;font-family:'Jost',system-ui,sans-serif;font-weight:500;text-transform:uppercase;letter-spacing:.2em;color:#C2A874;white-space:nowrap;line-height:1}}
-{W} .wp-pw2 b{{font-family:'Suez One','Noto Serif Hebrew',Georgia,serif;font-weight:400;text-transform:none;letter-spacing:.01em;color:#FFFFFF;font-size:1.25em}}
-{W} .nav .wp-entete .wp-pw2{{font-size:calc(var(--wpmotw) / 21);margin-top:5px}}
+{WX} .wp-pw2{{display:block;font-family:'Jost',system-ui,sans-serif !important;font-weight:500 !important;text-transform:uppercase;letter-spacing:.15em !important;color:#C2A874 !important;white-space:nowrap;line-height:1}}
+{WX} .wp-pw2 b{{font-family:'Suez One','Noto Serif Hebrew',Georgia,serif !important;font-weight:400 !important;text-transform:none !important;letter-spacing:.01em !important;color:#FFFFFF !important;font-size:1.25em}}
+{WX} .nav .wp-entete .wp-pw2{{font-size:calc(var(--wpmotw) / 25);margin-top:5px;max-width:var(--wpmotw)}}
 html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8) footer.pied .logo-pied.wp-v3{{display:block;margin:64px 0 32px}}
 {W} footer.pied .wp-lock{{display:inline-flex;align-items:center;gap:18px;text-decoration:none !important}}
 {W} footer.pied .wp-lock img{{filter:none !important}}
