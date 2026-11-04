@@ -157,6 +157,13 @@ NEUF = {
     "below (essentials chosen)": ("en dessous (essentiel choisi)", "por debajo (lo esencial elegido)", "מתחת (נבחר העיקר)"),
     "Optional.": ("Facultatif.", "Opcional.", "לא חובה."),
 }
+NEUF.update({   # 04/11 : parcours b en 3 ecrans, ecran « besoins »
+    "What do you need?": ("De quoi avez-vous besoin ?", "¿Qué necesitan?", "מה אתם צריכים?"),
+    "Shabbat meals only": ("Repas de Chabbat seulement", "Solo las comidas de Shabat", "ארוחות שבת בלבד"),
+    "Private transfer": ("Transfert privé", "Traslado privado", "הסעה פרטית"),
+    "Full stay": ("Séjour complet", "Estancia completa", "שהות מלאה"),
+    "Change": ("Modifier", "Cambiar", "שינוי"),
+})
 def tt(s, lang):
     if s in NEUF: return s if lang == "en" else NEUF[s][LANGS.index(lang) - 1]
     return t(s, lang)
@@ -169,13 +176,13 @@ PRIX_N = {"chalet": 9500, "chef": 1568, "soir": 28, "livraison": 180, "shabbat":
 # vignettes : {a} (et {b}) = montants, remplaces par le JS quand la grille repond ; « lyon » n'est pas dans la grille de Mendel (visites de la guide)
 PRIX_TPL = {
     "en": {"chalet": "from €{a} / week", "chef": "from €{a} / day", "soir": "from €{a} / person / day", "shabbat": "€{a} to €{b} / person / meal",
-           "lyon": "€290 / group of 1 to 4", "demande": "On request"},
+           "lyon": "€290 / group of 1 to 4", "demande": "On request", "from": "from €{a}"},
     "fr": {"chalet": "à partir de {a} € / semaine", "chef": "à partir de {a} € / jour", "soir": "à partir de {a} € / pers. / jour", "shabbat": "{a} à {b} € / pers. / repas",
-           "lyon": "290 € / groupe de 1 à 4", "demande": "Sur demande"},
+           "lyon": "290 € / groupe de 1 à 4", "demande": "Sur demande", "from": "dès {a} €"},
     "es": {"chalet": "desde {a} € / semana", "chef": "desde {a} € / día", "soir": "desde {a} € / pers. / día", "shabbat": "{a} a {b} € / pers. / comida",
-           "lyon": "290 € / grupo de 1 a 4", "demande": "A consultar"},
+           "lyon": "290 € / grupo de 1 a 4", "demande": "A consultar", "from": "desde {a} €"},
     "he": {"chalet": 'החל מ־<bdi dir="ltr">{a} €</bdi> / שבוע', "chef": 'החל מ־<bdi dir="ltr">{a} €</bdi> / יום', "soir": 'החל מ־<bdi dir="ltr">{a} €</bdi> / אדם / יום',
-           "shabbat": '<bdi dir="ltr">{a}–{b} €</bdi> / אדם / ארוחה', "lyon": '<bdi dir="ltr">290 €</bdi> / קבוצה של 1 עד 4', "demande": "לפי בקשה"},
+           "shabbat": '<bdi dir="ltr">{a}–{b} €</bdi> / אדם / ארוחה', "lyon": '<bdi dir="ltr">290 €</bdi> / קבוצה של 1 עד 4', "demande": "לפי בקשה", "from": "החל מ־<bdi dir=\"ltr\">{a} €</bdi>"},
 }
 PRIX_AB = {"chalet": ("chalet", None), "chef": ("chef", None), "soir": ("soir", None), "shabbat": ("shab_min", "shab_max")}
 def montant(n, lang):
@@ -201,13 +208,14 @@ def hero(lang):
 # ---------------------------------------------------------------- le formulaire, par langue
 # Branches : a sejour complet, b j'ai deja mon logement, c van, d Lyon, e fete, f autre. Trois ecrans pour toutes.
 ALPES = ["ou", "quand", "qui", "services", "extras", "minyan", "budget", "final"]   # 03/11 : plus d'ecran « projet », Alpes par defaut
-PATHS = {"a": ALPES, "b": ALPES, "e": ALPES, "c": ["trajet", "quandvan", "qui", "budget", "final"],
+BESOINS_B = ["ou", "quand", "qui", "besoins", "final"]   # 04/11 : b = « j'ai deja mon logement » ; lien prerempli (i=b, lieu, arrivee) : ou et quand sautes, 3 ecrans
+PATHS = {"a": ALPES, "b": BESOINS_B, "e": ALPES, "c": ["trajet", "quandvan", "qui", "budget", "final"],
          "d": ["lyon", "qui", "budget", "final"], "f": ["message", "ou", "quand", "qui", "budget", "final"]}
 # prix de depart d'un chalet par station (« a partir de » publies sur /kosher-chalets/, semaine en basse saison) ; autres stations : 9 500 (le plus bas publie)
 FETES_NOMS = {'Pesach in the Alps': ('Pesach', 'Pessah', 'Pésaj', 'פסח'), 'Hanukkah in the Alps': ('Hanukkah', 'Hanoucca', 'Janucá', 'חנוכה'), 'Sukkot': ('Sukkot', 'Souccot', 'Sucot', 'סוכות'), 'Rosh Hashanah and Yom Kippur': ('Rosh Hashanah and Yom Kippur', 'Roch Hachana et Yom Kippour', 'Rosh Hashaná y Yom Kipur', 'ראש השנה ויום כיפור'), 'Purim': ('Purim', 'Pourim', 'Purim', 'פורים'), 'Shavuot': ('Shavuot', 'Chavouot', 'Shavuot', 'שבועות')}
 CHALET_BASE = {"Val Thorens": 9500, "Les Menuires": 9500, "Les Deux Alpes": 13000, "Courchevel": 17500, "Megève": 23500}
 STATIONS_PRINC = ["Courchevel", "Val Thorens", "Les Menuires", "Tignes", "Megève", "Les Deux Alpes", "Val d'Isère", "Alpe d'Huez", "Chamonix", "Les Arcs", "La Plagne"]
-STATIONS_HE = {"Courchevel": "קורשבל", "Val Thorens": "ואל טורנס", "Les Menuires": "לה מנואר", "Megève": "מג'ב", "Les Deux Alpes": "לה דז אלפ", "Val d'Isère": "ואל דיזר",
+STATIONS_HE = {"Courchevel": "קורשבל", "Val Thorens": "ואל טורנס", "Tignes": "טין", "Les Menuires": "לה מנואר", "Megève": "מג'ב", "Les Deux Alpes": "לה דז אלפ", "Val d'Isère": "ואל דיזר",
                "Alpe d'Huez": "אלפ ד'ואז", "Chamonix": "שמוני", "Les Arcs": "לז ארק", "La Plagne": "לה פלאן"}
 LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "aller_retour", "arrivee", "creneau", "depart", "heure", "retour_date", "retour_heure", "flexible", "mois", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
              "logement", "chambres", "sdb", "logement_opt", "repas", "repas_jours", "allergies", "cacherout", "cacherout_detail", "minyan_niveau", "torah_niveau", "shabbat_niveau", "eruv_niveau", "religieux", "rite", "aeroport", "vol_ville", "vols_pris", "vol", "transport",
@@ -235,7 +243,7 @@ def formulaire(lang):
     IMG = "../img/" if lang == "en" else "/img/"
     def battr(b): return f' data-b="{b}"' if b else ""
     def sattr(x): return f' data-s="{x}"' if x else ""
-    def chips(name, opts, multi=True, b=""):
+    def chips(name, opts, multi=True, b="", cls=""):
         """opts : texte EN, ou (texte EN, branches, cle, saison). saison : w = hiver seulement, s = ete seulement."""
         typ = "checkbox" if multi else "radio"
         out = []
@@ -243,7 +251,7 @@ def formulaire(lang):
             en, ob, k, sa = (o, "", "", "") if isinstance(o, str) else (o + ("", "", ""))[:4]
             kk = f' data-k="{k}"' if k else ""
             out.append(f'<label class="pf-c"{battr(ob)}{sattr(sa)}><input type="{typ}" name="{name}" value="{E(en)}" data-en="{esc(en)}"{kk}><span>{insec(E(en))}</span></label>')
-        return f'<div class="pf-chips"{battr(b)}>' + "".join(out) + "</div>"
+        return f'<div class="pf-chips{" " + cls if cls else ""}"{battr(b)}>' + "".join(out) + "</div>"
     def champ(id_, name, label, typ="text", ph="", b="", extra="", sa=""):
         phh = f' placeholder="{E(ph)}"' if ph else ""
         return f'<div class="pf-champ"{battr(b)}{sattr(sa)}><label for="{id_}">{E(label)}</label><input type="{typ}" id="{id_}" name="{name}"{phh}{extra}></div>'
@@ -271,12 +279,12 @@ def formulaire(lang):
         """Section facultative repliee : un titre a toucher, le nombre de choix coches en badge."""
         return (f'<details class="pf-pli"{battr(b)}{sattr(sa)}><summary>{E(titre)}<span class="pf-pli-n" data-t="{E("{n} selected")}" hidden></span></summary>'
                 f'<div class="pf-pli-c">{corps}</div></details>')
-    def etape(id_, titres, aide, corps, cls=""):
+    def etape(id_, titres, aide, corps, cls="", avant=""):
         if isinstance(titres, str): titres = [(titres, "")]
         hs = "".join(f'<h2 tabindex="-1"{battr(b)}>{E(x)}</h2>' for x, b in titres)
         if isinstance(aide, str): aide = [(aide, "")]
         ps = "".join(f'<p{battr(b)}>{E(x)}</p>' for x, b in aide if x)
-        return f'<div class="pf-etape {cls}" id="e-{id_}" data-e="{id_}" role="group"><div class="pf-tete">{hs}{ps}</div>{corps}</div>\n'
+        return f'<div class="pf-etape {cls}" id="e-{id_}" data-e="{id_}" role="group">{avant}<div class="pf-tete">{hs}{ps}</div>{corps}</div>\n'
 
     # ================= 03/11 (Moshe) : plus d'ecran « projet ». Sejour dans les Alpes par defaut ; i= de l'adresse (pages Lyon, van, Pessah) choisit le parcours.
     # Les boutons radio « intention » restent, caches, pour envoyer la meme cle tour qu'avant.
@@ -291,11 +299,13 @@ def formulaire(lang):
           '<input type="hidden" name="lieu" id="lieu">' +
           champ("lieu-autre", "lieu_autre", "Another resort", ph="Morzine, Zermatt, Verbier") + sugg("lieu-autre", STATIONS) +
           chips("lieu_pas_choisi", ["Not chosen yet, advise us"], b="aef") +
-          f'<div data-b="abe">' + f'<label class="pf-c"><input type="checkbox" name="deja" value="1" data-en="I already have my place"><span>{E("I already have my place")}</span></label></div>' +
+          f'<div data-b="abe"><div class="pf-seg-b" role="radiogroup" aria-label="{E("Where would you like to stay?")}">'
+          f'<label class="pf-seg"><input type="radio" name="deja" value="0" data-en="Full stay" checked><span>{E("Full stay")}</span></label>'
+          f'<label class="pf-seg"><input type="radio" name="deja" value="1" data-en="I already have my place"><span>{E("I already have my place")}</span></label></div></div>' +
           champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b"))
     def bascule(val_en, texte, coche=False):
-        return (f'<label class="pf-c"><input type="radio" name="flexible" value="{E(val_en)}" data-en="{esc(val_en)}"{" checked" if coche else ""}><span>{E(texte)}</span></label>')
-    quand = ('<div class="pf-chips pf-bascule">' + bascule("Dates are flexible", "By month", True) + bascule("Dates are fixed", "I have exact dates") + "</div>" +
+        return (f'<label class="pf-seg"><input type="radio" name="flexible" value="{E(val_en)}" data-en="{esc(val_en)}"{" checked" if coche else ""}><span>{E(texte)}</span></label>')
+    quand = ('<div class="pf-seg-b pf-bascule" role="radiogroup">' + bascule("Dates are flexible", "By month", True) + bascule("Dates are fixed", "I have exact dates") + "</div>" +
              si("flexible=Dates are fixed",
                 '<div class="pf-duo">' + champ("arrivee", "arrivee", "Arrival", typ="date") + champ("depart", "depart", "Departure", typ="date") + "</div>" +
                 '<p class="pf-info" id="dm-nuits" hidden aria-live="polite"></p>' +
@@ -304,14 +314,14 @@ def formulaire(lang):
                 f'<p class="pf-info" id="dm-fete" hidden data-t="{E("In your dates: {f}")}"></p>') +
              si("flexible=Dates are flexible", chips("mois", ["November", "December", "January", "February", "March", "April", "Summer", "Not decided yet"])) +
              f'<div data-b="abe" id="dm-fetes">{sous("A holiday during your stay?")}' +
-             chips("voyage", ["Pesach in the Alps", "Hanukkah in the Alps", "Sukkot", "Rosh Hashanah and Yom Kippur", "Purim", "Shavuot", "Another holiday"]) + "</div>")
+             chips("voyage", ["Pesach in the Alps", "Hanukkah in the Alps", "Sukkot", "Rosh Hashanah and Yom Kippur", "Purim", "Shavuot", "Another holiday"], cls="pf-flow") + "</div>")
     qui = (compteur("adultes", "Adults", v=2) + compteur("enfants", "Children") +
            ages("enfants", "Ages of the children", "9 and 12", [(str(n),) for n in range(2, 18)]) +
            compteur("bebes", "Babies") + ages("bebes", "Ages of the babies", "10 months", ["3 months", "6 months", "1 year", "18 months", "2 years"]) +
-           '<div class="pf-mat cache" data-for="bebes">' + chips("bebe_materiel", ["Baby cots", "High chairs", "Car seats"]) + "</div>" +
+           '<div class="pf-mat cache" data-for="bebes">' + chips("bebe_materiel", ["Baby cots", "High chairs", "Car seats"], cls="pf-flow") + "</div>" +
            compteur("familles", "Families or households", b="abef", v=1) +
            compteur("chambres", "Bedrooms", b="a") +
-           f'<div data-b="c">{sous("Luggage and equipment")}' + chips("bagages", ["Large suitcases", "Cabin bags only", "Skis or snowboards", "Baby seats or boosters", "Wheelchair or walker"]) + "</div>")
+           f'<div data-b="c">{sous("Luggage and equipment")}' + chips("bagages", ["Large suitcases", "Cabin bags only", "Skis or snowboards", "Baby seats or boosters", "Wheelchair or walker"], cls="pf-flow") + "</div>")
     # ---- Build your stay : tuiles photo (photos reelles du site, _demande_photos.py), un toucher = ajoute
     def tuile(name, val_en, titre, photo, prix, b="", sa="", svc=""):
         return (f'<label class="pf-tl"{battr(b)}{sattr(sa)}><input type="checkbox" name="{name}" value="{E(val_en)}" data-en="{esc(val_en)}" data-svc="{svc}">'
@@ -346,6 +356,23 @@ def formulaire(lang):
               besoin("shabbat_niveau", "Shabbat meals", f"{IMG}illus/form-svc/shabbat.webp", NIV) +
               besoin("eruv_niveau", "Eruv and mikveh nearby", f"{IMG}illus/form-svc/mikve.webp", NIV) + "</div>" +
               si("minyan_niveau!=Not needed", compteur("hommes", "Men over bar mitzvah age, for the minyan")))
+    # ---- 04/11 : « De quoi avez-vous besoin ? » (parcours b) : repas, allergies, ajouts. Memes cles et memes valeurs que les anciens ecrans services / extras / minyan.
+    def bchip(name, en, titre, prix="", sa="", pre=""):
+        pr = f'<small>{prix}</small>' if prix else ""
+        return (f'<label class="pf-c pf-bn"{sattr(sa)}><input type="checkbox" name="{name}" value="{E(en)}" data-en="{esc(en)}"' + (f' data-pre="{pre}"' if pre else "") + f'>'
+                f'<span><b>{insec(E(titre))}</b>{pr}</span></label>')
+    def px(cle=""):
+        """Prix « a partir de » d'un ajout : lu dans la grille (data-px = cle MT_PRIX), « sur demande » tant que la grille ne le publie pas."""
+        if not cle: return f'{PRIX_TPL[lang]["demande"]}'
+        return f'<span data-px="{cle}" data-px-tpl="{html.escape(PRIX_TPL[lang]["from"], quote=True)}">{PRIX_TPL[lang]["demande"]}</span>'
+    besoins = ('<p class="pf-sous">' + E("Meals") + '</p><div class="pf-chips pf-bchips">' +
+               bchip("repas", "Private chef in the chalet", "Private chef") + bchip("repas", "Meals delivered, ready to heat", "Meals delivered") +
+               bchip("repas", "Shabbat meals only", "Shabbat meals only", pre="shabbat") + bchip("repas", "Advise me", "Advise me") + "</div>" +
+               champ("allergies-b", "allergies", "Allergies or special diets", ph="Nut allergy for one child") +
+               '<p class="pf-sous">' + E("Extras") + '</p><div class="pf-chips pf-bchips">' +
+               bchip("minyan_niveau", "The minyan is essential", "Minyan in the chalet", px()) + bchip("cacherout", "Kitchen kashering", "Kitchen kashering", px("c_cacher_vente")) +
+               bchip("religieux", "Hot plate and urn", "Hot plate and urn", px("r_plata_vente")) + bchip("transport", "Private airport transfer", "Private transfer", px()) +
+               bchip("ski", "Ski passes", "Ski passes", px(), sa="w") + "</div>")
     # ---- Budget : phrase personnalisee, details en mots, un toucher pour situer son budget, champ libre facultatif
     budget = (f'<div data-b="abe"><p class="pf-perso" id="dm-perso" aria-live="polite"></p><ul class="pf-notes" id="dm-notes"></ul>' +
               '<div class="pf-avis" id="dm-avis">' + chips("budget_avis", ["Below this", "Around this", "Above this", "I'd rather discuss it"], multi=False) + "</div>" +
@@ -361,9 +388,9 @@ def formulaire(lang):
                 si("aller_retour=Return trip", sous("Return") + '<div class="pf-duo">' + champ("retour_date", "retour_date", "Return date", typ="date") +
                    champ("retour_heure", "retour_heure", "Return pick-up time", typ="time") + "</div>") +
                 champ("vol-van", "vol", "Flight numbers or landing times, if known", ph="Landing 11:40, departing 15:30"))
-    lyon = (chips("lyon", ["Jewish Lyon walk (2 h)", "Stopover (3 h) on the way", "Memory: CHRD museum", "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Shabbat with a Chabad family"]) +
-            sous("Which day?") + champ("arrivee-jour", "arrivee", "Date", typ="date") + chips("creneau", ["Morning", "Afternoon", "Either"], multi=False) +
-            sous("Language of the visit") + chips("langue_visite", ["English", "French", "Spanish"], multi=False) +
+    lyon = (chips("lyon", ["Jewish Lyon walk (2 h)", "Stopover (3 h) on the way", "Memory: CHRD museum", "Memory: Montluc, Neveh Shalom", "Day trip to Izieu", "Shabbat with a Chabad family"], cls="pf-flow") +
+            sous("Which day?") + champ("arrivee-jour", "arrivee", "Date", typ="date") + chips("creneau", ["Morning", "Afternoon", "Either"], multi=False, cls="pf-flow") +
+            sous("Language of the visit") + chips("langue_visite", ["English", "French", "Spanish"], multi=False, cls="pf-flow") +
             '<p class="pf-note">' + E("To enter the Grande Synagogue, the community's security team will ask for your names and passports once the tour is confirmed.") + "</p>")
     message_f = zone("message-f", "message", "Tell us what you have in mind", "A bar mitzvah weekend in the Alps for 30 guests")
     S += [etape("message", "Tell us what you have in mind", "Write it the way you would say it. We take it from there.", message_f),
@@ -372,10 +399,12 @@ def formulaire(lang):
           etape("trajet", "Where from, and is there a return?", "Address, airport, station or hotel. A town name is enough.", trajet),
           etape("quandvan", "When?", "Date and time of each trip. Add the flight if you land or take off.", quandvan),
           etape("lyon", "Which visit, and when?", "Tours are held in English, French or Spanish.", lyon),
-          etape("qui", "Who is coming?", [("Count the whole group, all families together.", "abef"), ("Children's ages help us choose rooms, ski school and cots.", "cd")], qui),
+          etape("qui", "Who is coming?", [("Count the whole group, all families together.", "abef"), ("Children's ages help us choose rooms, ski school and cots.", "cd")], qui,
+                avant='<p class="pf-recap" id="dm-recap" hidden></p>'),
           etape("services", "Stay and meals", "Tap everything you would like. We confirm each service with you.", services),
           etape("extras", "Extras", "Add what would make the stay perfect.", extras),
           etape("minyan", "Minyan and Shabbat", "", minyan),
+          etape("besoins", "What do you need?", "", besoins),
           etape("budget", [("Your budget", "abe"), ("Your budget and your wishes", "f"), ("Anything else?", "cd")], [("Optional.", "cdf")], budget)]
 
     # ================= dernier ecran : contact
@@ -413,12 +442,12 @@ ctrls.forEach(function(e){e.scr=e.closest('.pf-etape').getAttribute('data-e')});
 var etapes=[].slice.call(f.querySelectorAll('.pf-etape'));
 var barre=document.getElementById('dm-barre'),barreC=document.getElementById('dm-barre-c'),ptxt=document.getElementById('dm-prog-txt');
 var nav=document.getElementById('dm-nav'),bBack=document.getElementById('dm-back'),bNext=document.getElementById('dm-next'),bSend=document.getElementById('dm-send'),petit=document.getElementById('dm-petit');
-var restaure=false,cur='',base='a',sent=false,lieuIn=document.getElementById('lieu'),autreIn=document.getElementById('lieu-autre');
+var pre=false,skip=false,reskip=false,ptr=0,repasTouched=false,restaure=false,cur='',base='a',sent=false,lieuIn=document.getElementById('lieu'),autreIn=document.getElementById('lieu-autre');
 function mo(){return !!(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: no-preference)').matches)}
 var dl=window.dataLayer=window.dataLayer||[];
 var mx=document.getElementById('dm-max'),nuitsP=document.getElementById('dm-nuits'),dateErr=document.getElementById('dm-date-err');
 function branch(){var r=f.querySelector('input[name="intention"]:checked');return r?r.value:''}
-function path(){return C.paths[branch()||'a'].slice()}
+function path(){var b=branch()||'a',p=C.paths[b].slice();if(b==='b'&&skip)p=p.filter(function(x){return x!=='ou'&&x!=='quand'});return p}
 /* data-si="nom=valeur" : visible si cette case est cochee ; "nom!=valeur" : visible si une case est cochee et que ce n'est pas celle-la */
 function siOk(c){var m=/^(\w+)(!?=)(.*)$/.exec(c);if(!m)return true;var on=ctrls.filter(function(e){return e.name===m[1]&&e.checked}).map(function(e){return e.getAttribute('data-en')||e.value});
  return m[2]==='='?on.indexOf(m[3])>=0:(on.length>0&&on.indexOf(m[3])<0)}
@@ -427,7 +456,7 @@ function sync(){var b=branch(),p=path();
  [].forEach.call(f.querySelectorAll('[data-s]'),function(n){if(n.classList.contains('pf-auto'))return;var s=n.getAttribute('data-s');n.hidden=s==='w'?(hs&&!hw):(hw&&!hs)});
  [].forEach.call(f.querySelectorAll('[data-b]'),function(n){if(n.classList.contains('pf-auto'))return;n.hidden=n.getAttribute('data-b').indexOf(b)<0});
  [].forEach.call(f.querySelectorAll('[data-si]'),function(n){n.hidden=!siOk(n.getAttribute('data-si'))});
- ctrls.forEach(function(e){var ok=p.indexOf(e.scr)>=0;
+ ctrls.forEach(function(e){var ok=p.indexOf(e.scr)>=0||(skip&&b==='b'&&(e.scr==='ou'||e.scr==='quand'));
   if(ok){var n=e.parentNode;while(n&&n!==f){if(n.getAttribute&&((n.getAttribute('data-b')&&n.getAttribute('data-b').indexOf(b)<0)||((n.getAttribute('data-s')||n.getAttribute('data-si'))&&n.hidden))){ok=false;break}n=n.parentNode}}
   if(ok){var w=e.closest('[data-for]');if(w){var ci=f.querySelector('input[name="'+w.getAttribute('data-for')+'"]');if(!(parseInt(ci.value,10)>0))ok=false}}
   e.disabled=e.name==='intention'?false:!ok});
@@ -461,7 +490,8 @@ function majLieu(){var a=stSel(),o=(autreIn&&autreIn.value||'').trim();if(o)a.pu
 function initLieu(){if(!lieuIn)return;var rest=[];(lieuIn.value||'').split(/,\s*/).forEach(function(x){if(!x)return;var b=null;[].forEach.call(f.querySelectorAll('.pf-pas'),function(y){if(y.getAttribute('data-lieu')===x)b=y});if(b)b.classList.add('on');else rest.push(x)});
  if(rest.length&&autreIn&&!autreIn.value)autreIn.value=rest.join(', ');majLieu()}
 /* parcours : Alpes par defaut ; « I already have my place » = b ; une fete cochee = e ; i= de l'adresse (Lyon d, van c, autre f) garde son parcours */
-function majBr(){var dj=f.elements.deja,v=base;if('abe'.indexOf(base)>=0){var hol=ctrls.some(function(e){return e.name==='voyage'&&e.checked});v=dj&&dj.checked?'b':(hol?'e':'a')}
+function deja(){return ctrls.some(function(e){return e.name==='deja'&&e.value==='1'&&e.checked})}
+function majBr(){var dd=ctrls.filter(function(e){return e.name==='deja'});if(dd.length&&!dd.some(function(e){return e.checked}))dd[0].checked=true;var dj=deja(),v=base;if('abe'.indexOf(base)>=0){var hol=ctrls.some(function(e){return e.name==='voyage'&&e.checked});v=dj?'b':(hol?'e':'a')}
  var r=ctrls.filter(function(e){return e.name==='intention'&&e.value===v})[0];if(r)r.checked=true}
 function dnum0(n){var e=ctrls.filter(function(x){return x.name===n&&!x.disabled&&x.type==='date'})[0];return e?dnum(e.value):null}
 function nshab(nn){var a=dnum(raw('arrivee'));if(a===null)return Math.max(1,Math.floor(nn/7));var c=0;for(var k=0;k<nn;k++){if(new Date(a+k*864e5).getUTCDay()===5)c++}return c}
@@ -477,7 +507,8 @@ function grille(G){if(!G)return;var g=function(){var l=[].slice.call(arguments).
  var sh=[G.r_vendredi_vente,G.r_samedi_vente,G.r_seouda_vente];if(sh.every(function(v){return v>0})){C.prix.shabbat=sh[0]+sh[1]+sh[2];C.prix.shab_min=Math.min.apply(null,sh);C.prix.shab_max=Math.max.apply(null,sh)}
  var ab={chalet:['chalet'],chef:['chef'],soir:['soir'],shabbat:['shab_min','shab_max']},sep=C.lang==='fr'?'\u00a0':C.lang==='es'?'.':',';
  var m=function(n){return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,sep)};
- [].forEach.call(f.querySelectorAll('[data-pf]'),function(el){var k=ab[el.getAttribute('data-pf')];if(!k)return;var t=el.getAttribute('data-pf-tpl').replace('{a}',m(C.prix[k[0]]));if(k[1])t=t.replace('{b}',m(C.prix[k[1]]));el.innerHTML=t})}
+ [].forEach.call(f.querySelectorAll('[data-pf]'),function(el){var k=ab[el.getAttribute('data-pf')];if(!k)return;var t=el.getAttribute('data-pf-tpl').replace('{a}',m(C.prix[k[0]]));if(k[1])t=t.replace('{b}',m(C.prix[k[1]]));el.innerHTML=t});
+ [].forEach.call(f.querySelectorAll('[data-px]'),function(el){var v=G[el.getAttribute('data-px')];if(v>0)el.innerHTML=el.getAttribute('data-px-tpl').replace('{a}',m(v))})}
 function chaletBase(){var l=stSel().map(function(x){return C.chaletBase[x]||C.prix.chalet});return l.length?Math.min.apply(null,l):C.prix.chalet}
 /* Estimation indicative « a partir de » (03/11), volontairement basse : elle sert a prevenir, jamais a refuser. Prix = ceux publies sur le site (PRIX_N, CHALET_BASE).
    nuits = depart - arrivee ; sans dates fixes : une semaine (7 nuits, 1 Chabbat). personnes = adultes + enfants (bebes non comptes) ; Chabbat = vendredis du sejour.
@@ -543,20 +574,34 @@ function fetes(){var a=dnum(raw('arrivee')),d=dnum(raw('depart')),el=document.ge
  if(cle!==feteVu){feteVu=cle;tr.forEach(function(x){ctrls.forEach(function(e){if(e.name==='voyage'&&e.getAttribute('data-en')===x[0])e.checked=true})});majBr()}
  el.hidden=!tr.length;el.textContent=el.getAttribute('data-t').replace('{f}',tr.map(function(x){return (C.fetes[x[0]]||x[0])+' '+x[3]}).join(', '))}
 /* services evidents preajoutes a la premiere visite (Moshe 03/11) : chalet + repas de Chabbat pour un sejour complet ; repas de Chabbat seuls si « j'ai deja mon logement » */
-function preajout(){ctrls.forEach(function(e){var k=e.getAttribute('data-svc');if(k==='shabbat'||(k==='chalet'&&branch()!=='b'))e.checked=true})}
+function preajout(){ctrls.forEach(function(e){var k=e.getAttribute('data-svc');if((k==='shabbat'||k==='chalet')&&branch()!=='b')e.checked=true})}
 /* resume une ligne au-dessus d'Envoyer ; chaque morceau ramene a son ecran, puis Continuer revient ici */
 var ret='';
 function resume(){var el=document.getElementById('dm-resume');if(!el)return;el.textContent='';var p=path(),morceaux=[];
  var g=num('adultes')+num('enfants')+num('bebes');if(g)morceaux.push([C.t.invites.replace('{n}',g),'qui']);
- var l=(lieuIn&&lieuIn.value)||'';if(l&&p.indexOf('ou')>=0)morceaux.push([l,'ou']);
- var a=raw('arrivee'),d=raw('depart');if(a&&d)morceaux.push([fcourt(a)+'–'+fcourt(d),p.indexOf('quand')>=0?'quand':(p.indexOf('quandvan')>=0?'quandvan':'lyon')]);
+ var l=(lieuIn&&lieuIn.value)||'';if(l&&(p.indexOf('ou')>=0||skip))morceaux.push([l,'ou']);
+ var a=raw('arrivee'),d=raw('depart');if(a&&d)morceaux.push([fcourt(a)+'–'+fcourt(d),(p.indexOf('quand')>=0||skip)?'quand':(p.indexOf('quandvan')>=0?'quandvan':'lyon')]);
  else{var m=raw('mois');if(m)morceaux.push([m,'quand'])}
- var sv=ctrls.filter(function(e){return e.checked&&!e.disabled&&e.closest('.pf-tl')}).map(function(e){var t=e.closest('.pf-tl').querySelector('b');return t?t.textContent:e.value});
- if(sv.length)morceaux.push([sv.join(', '),p.indexOf('services')>=0?'services':'extras']);
+ var sv=ctrls.filter(function(e){return e.checked&&!e.disabled&&e.closest('.pf-tl,.pf-bn')}).map(function(e){var t=e.closest('.pf-tl,.pf-bn').querySelector('b');return t?t.textContent:e.value});
+ if(sv.length)morceaux.push([sv.join(', '),p.indexOf('services')>=0?'services':(p.indexOf('besoins')>=0?'besoins':'extras')]);
  if(!morceaux.length){el.hidden=true;return}
  morceaux.forEach(function(m,i){if(i){el.appendChild(document.createTextNode(' · '))}var b=document.createElement('button');b.type='button';b.className='pf-res-b';b.textContent=m[0];b.setAttribute('data-go',m[1]);el.appendChild(b)});
  var ed=document.createElement('span');ed.className='pf-res-e';ed.textContent=' '+C.t.edit;el.appendChild(ed);el.hidden=false}
 function fcourt(v){var m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(v);if(!m)return v;try{return new Date(+m[1],+m[2]-1,+m[3],12).toLocaleDateString(C.loc,{day:'numeric',month:'short'})}catch(x){return v}}
+/* 04/11 : lien prerempli (i=b, lieu, arrivee) : ou et quand sautes, rappel en une ligne en haut de « qui », chaque morceau ramene a son ecran */
+function frange(a,d){var m=/^(\d{4})-(\d\d)-(\d\d)$/,x=m.exec(a),y=m.exec(d||'');if(!x)return '';var A=new Date(+x[1],+x[2]-1,+x[3],12),o={day:'numeric',month:'long',year:'numeric'};
+ try{if(y){var D=new Date(+y[1],+y[2]-1,+y[3],12),fm=new Intl.DateTimeFormat(C.loc,o);if(fm.formatRange)return fm.formatRange(A,D).replace(/[\u2013\u2014]/g,'-');return fcourt(a)+'-'+fcourt(d)}return A.toLocaleDateString(C.loc,o)}catch(e){return a+(d?'-'+d:'')}}
+function recap(){var el=document.getElementById('dm-recap');if(!el)return;if(!skip||cur!=='qui'){el.hidden=true;return}
+ el.textContent='';var l=((lieuIn&&lieuIn.value)||'').split(/,\s*/).filter(Boolean).map(function(x){return C.stHe[x]||x}).join(', '),d=frange(raw('arrivee'),raw('depart')),k=0;
+ function bt(txt,w,c){var b=document.createElement('button');b.type='button';b.className=c;b.setAttribute('data-edit',w);b.textContent=txt;if(k++)el.appendChild(document.createTextNode(' \u00b7 '));el.appendChild(b)}
+ if(l)bt(l,'ou','pf-rc-b');if(d)bt(d,'quand','pf-rc-b');bt(C.t.change,'all','pf-rc-e');el.hidden=false}
+/* repas de Chabbat precoche (parcours b) quand le sejour couvre une nuit de vendredi a samedi, tant que les repas n'ont pas ete touches */
+function hasShab(){var a=dnum(raw('arrivee')),nn=nights();return a!==null&&nn>0&&nshab(nn)>0}
+function defautRepas(){if(cur!=='besoins'||repasTouched||branch()!=='b')return;var rs=els('repas');if(!rs.length||rs.some(function(e){return e.checked}))return;
+ if(hasShab())rs.forEach(function(e){if(e.getAttribute('data-pre')==='shabbat')e.checked=true})}
+/* brillance de selection : un balayage clair, une fois, seulement apres un toucher ou un clic (jamais au clavier, jamais en mouvement reduit) */
+document.addEventListener('pointerdown',function(){ptr=Date.now()},true);
+function flash(el){if(!mo())return;el.classList.remove('pf-flash');void el.offsetWidth;el.classList.add('pf-flash');el.addEventListener('animationend',function g(){el.classList.remove('pf-flash');el.removeEventListener('animationend',g)})}
 function ckey(e){return (e.type==='checkbox'||e.type==='radio')?'k:'+e.name+'|'+(e.getAttribute('data-en')||e.value):'i:'+(e.id||e.name)}
 /* 02/11 : reponses gardees dans ce navigateur (localStorage, 30 jours), par champ et non par position ; effacees a l'envoi */
 function save(){try{var v={};ctrls.forEach(function(e){if(e.type==='checkbox'||e.type==='radio'){if(e.checked)v[ckey(e)]=1}else if(e.value)v[ckey(e)]=e.value});
@@ -575,7 +620,7 @@ f.addEventListener('input',function(ev){if(ev.target.matches&&ev.target.matches(
 f.addEventListener('focusin',function(ev){if(ev.target.matches&&ev.target.matches('input[type=text]'))autoc(ev.target)});
 f.addEventListener('focusout',function(ev){var g=ev.target.id&&f.querySelector('.pf-auto[data-for="'+ev.target.id+'"]');if(g)setTimeout(function(){g.hidden=true},200)});
 function plis(){[].forEach.call(f.querySelectorAll('.pf-pli'),function(d){var n=d.querySelectorAll('input:checked').length,b=d.querySelector('.pf-pli-n');b.hidden=!n;b.textContent=b.getAttribute('data-t').replace('{n}',n)})}
-function render(){fetes();var p=sync();if(p.indexOf(cur)<0)cur=p[0];
+function render(){fetes();var p=sync();if(p.indexOf(cur)<0)cur=p[0];defautRepas();
  etapes.forEach(function(e){e.hidden=e.getAttribute('data-e')!==cur});
  var i=p.indexOf(cur),last=cur==='final',b=branch();f.classList.toggle('avance',i>0);
  nav.hidden=false;bBack.hidden=i<=0;bNext.hidden=last;bSend.hidden=!last;petit.hidden=!last;accord.hidden=!last;if(!sent)bSend.disabled=false;
@@ -584,7 +629,7 @@ function render(){fetes();var p=sync();if(p.indexOf(cur)<0)cur=p[0];
  bNext.disabled=bad;
  var n=i+1,N=p.length;ptxt.textContent=C.t.step.replace('{n}',n).replace('{t}',N);var pc=Math.round(n/N*100);
  [].forEach.call(f.querySelectorAll('.pf-pas'),function(x){x.setAttribute('aria-pressed',x.classList.contains('on')?'true':'false')});barre.style.width=pc+'%';barreC.setAttribute('aria-valuenow',pc);
- majN();fetesMois();majBudget();if(last)resume();
+ majN();fetesMois();majBudget();recap();if(last)resume();
  save()}
 function show(id,push,focus){var p=sync();if(p.indexOf(id)<0)id=p[0];
  var oi=p.indexOf(cur),ni=p.indexOf(id);f.setAttribute('data-dir',ni<oi?'back':'fwd');
@@ -593,15 +638,16 @@ function show(id,push,focus){var p=sync();if(p.indexOf(id)<0)id=p[0];
  if(push){try{history.pushState({e:cur},'','#e-'+cur)}catch(x){}}
  if(focus){var h=document.querySelector('.pf-etape[data-e="'+cur+'"] h2:not([hidden])');if(h)h.focus({preventScroll:true});
   var r=f.getBoundingClientRect();if(r.top<0||r.top>200)window.scrollTo({top:window.pageYOffset+r.top-90,behavior:'smooth'})}}
-function next(){if(ret){var r=ret;ret='';show(r,true,true);return}var p=path(),i=p.indexOf(cur);if(i>=0&&i<p.length-1)show(p[i+1],true,true)}
+function next(){if(ret){var r=ret;ret='';if(reskip){skip=true;reskip=false}show(r,true,true);return}var p=path(),i=p.indexOf(cur);if(i>=0&&i<p.length-1)show(p[i+1],true,true)}
 function back(){var p=path(),i=p.indexOf(cur);if(i>0)show(p[i-1],true,true)}
 bNext.addEventListener('click',next);bBack.addEventListener('click',back);
 f.addEventListener('click',function(ev){
  var sg=ev.target.closest&&ev.target.closest('.pf-auto button');if(sg){var inp=document.getElementById(sg.parentNode.getAttribute('data-for')),v=sg.getAttribute('data-v'),segs=inp.value.split(/,\s*/);
   segs[segs.length-1]=v;inp.value=segs.join(', ');sg.parentNode.hidden=true;inp.focus();inp.dispatchEvent(new Event('input',{bubbles:true}));return}
  if(ev.target.closest&&ev.target.closest('#dm-ess-b')){essentiels();return}
- var rb=ev.target.closest&&ev.target.closest('.pf-res-b');if(rb){ret='final';show(rb.getAttribute('data-go'),true,true);return}
- var ps=ev.target.closest&&ev.target.closest('.pf-pas');if(ps){ps.classList.toggle('on');var pc0=f.querySelector('input[name="lieu_pas_choisi"]');if(pc0)pc0.checked=false;majLieu();render();return}
+ var ed=ev.target.closest&&ev.target.closest('[data-edit]');if(ed){var w=ed.getAttribute('data-edit');skip=false;if(w==='all'){ret='';reskip=false}else{ret='qui';reskip=true}show(w==='quand'?'quand':'ou',true,true);return}
+ var rb=ev.target.closest&&ev.target.closest('.pf-res-b');if(rb){var g=rb.getAttribute('data-go');if(skip&&(g==='ou'||g==='quand')){skip=false;reskip=true}ret='final';show(g,true,true);return}
+ var ps=ev.target.closest&&ev.target.closest('.pf-pas');if(ps){ps.classList.toggle('on');if(ps.classList.contains('on')&&Date.now()-ptr<800)flash(ps);var pc0=f.querySelector('input[name="lieu_pas_choisi"]');if(pc0)pc0.checked=false;majLieu();render();return}
  var bt=ev.target.closest&&ev.target.closest('.cpt button');if(!bt)return;
  var inp=bt.parentNode.querySelector('input'),v0=parseInt(inp.value,10)||0,plus=bt.className==='plus',v=Math.max(0,Math.min(99,v0+(plus?1:-1)));inp.value=v;
  inp.dispatchEvent(new Event('input',{bubbles:true}))});
@@ -614,7 +660,9 @@ function onchg(ev){var t=ev.target;
  if(ev.type==='change'&&ev.isTrusted&&t.name==='lieu_pas_choisi'&&t.checked){[].forEach.call(f.querySelectorAll('.pf-pas.on'),function(x){x.classList.remove('on')});autreIn.value='';majLieu()}
  if(t===autreIn)majLieu();
  if(t.name==='deja'||t.name==='voyage')majBr();
+ if(t.name==='repas'&&ev.isTrusted)repasTouched=true;
  render();
+ if(ev.type==='change'&&ev.isTrusted&&t.checked&&Date.now()-ptr<800){var lb=t.closest&&t.closest('.pf-c,.pf-tl,.pf-niv');if(lb)flash(lb)}
  /* un toucher, passage automatique quand la reponse ne demande rien de plus */
  if(ev.type==='change'&&ev.isTrusted&&t.checked){var en=t.getAttribute('data-en');
   if(t.name==='minyan_niveau'&&(en==='Not needed'||en==='Not sure, advise me'))setTimeout(next,mo()?380:120);
@@ -654,11 +702,12 @@ function prefill(){var q;try{q=new URLSearchParams(location.search)}catch(x){ret
   return x.getUTCFullYear()===+m[1]&&x.getUTCMonth()===+m[2]-1&&x.getUTCDate()===+m[3]?v:''}
  function fill(name,v){ctrls.forEach(function(e){if(e.name===name&&e.type!=='checkbox'&&e.type!=='radio')e.value=v})}
  var i=s('i').toLowerCase(),r=/^[a-f]$/.test(i)?ctrls.filter(function(e){return e.name==='intention'&&e.value===i})[0]:null;
- if(r){r.checked=true;base=i;if(i==='b'&&f.elements.deja)f.elements.deja.checked=true}
+ if(r){r.checked=true;base=i;if(i==='b')ctrls.forEach(function(e){if(e.name==='deja')e.checked=e.value==='1'})}
  var l=s('lieu');if(l)fill('lieu',l);
  var a=d('arrivee'),b=d('depart');if(a)fill('arrivee',a);if(b)fill('depart',b);if(a)ctrls.forEach(function(e){if(e.name==='flexible')e.checked=(e.getAttribute('data-en')==='Dates are fixed')});if(a)ctrls.forEach(function(e){if(e.name==='depart')e.min=a});
  ['adultes','enfants','bebes'].forEach(function(k){var v=n(k);if(v!==null)fill(k,String(v))});
- var vy=s('voyage').toLowerCase();if(vy)ctrls.forEach(function(e){if(e.name==='voyage'&&(e.getAttribute('data-en')||e.value).toLowerCase()===vy)e.checked=true})}
+ var vy=s('voyage').toLowerCase();if(vy)ctrls.forEach(function(e){if(e.name==='voyage'&&(e.getAttribute('data-en')||e.value).toLowerCase()===vy)e.checked=true});
+ if(i==='b'&&l&&a){pre=true;skip=true}}
 /* indicatif prerempli (Moshe 02/11 : jamais tape) : langue du navigateur, puis fuseau, puis langue de la page */
 function devine(sel){if(!sel||sel.value)return;var R={US:'+1',CA:'+1',GB:'+44',IL:'+972',FR:'+33',BE:'+32',CH:'+41',ES:'+34',IT:'+39',DE:'+49',NL:'+31',AR:'+54',MX:'+52',BR:'+55',AU:'+61',ZA:'+27',RU:'+7',UA:'+380'},
  L={he:'+972',iw:'+972',fr:'+33',es:'+34',it:'+39',de:'+49',nl:'+31',ru:'+7',uk:'+380',pt:'+55'};
@@ -690,7 +739,7 @@ def js(lang):
            "lab": [[k, lab[k]] for k in LAB_ORDER], "labEn": [[k, lab_en[k]] for k in LAB_ORDER],
            "k": {"tour": JSX[lang]["tour"], "none": JSX[lang]["none"], "datesj": JSX[lang]["datesj"], "adultes": JSX[lang]["adultes"], "enfants": JSX[lang]["enfants"],
                  "bebes": JSX[lang]["bebes"], "logementB": T("Already booked, I need services only")},
-           "prix": PRIX_N, "t": {"step": T("Step {n} of {t}"), "invites": T("{n} guests"), "edit": T("Edit"), "perso": T("For your {g} guests, {n} {p}, with {s}, plan from about {x}"), "perso0": T("For your {g} guests, {n} {p}. Add services to see a starting price."), "large": T("Your selection is a large project: we will build it with you."), "dem": T(", plus services on request"), "dans": T("in {p}"), "alpes": T("in the Alps"), "ou": T(" or "), "et": T(" and "), "semaine": T("a week"), "s_chalet": T("a chalet"), "s_chef": T("a private chef"), "s_livre": T("delivered meals"), "s_shabbat": T("Shabbat meals"), "s_lyon": T("the Lyon tour"), "n_occupe": T("A very busy period: the best chalets go early."), "n_station": T("One of the most sought-after resorts in the Alps."), "n_groupe": T("For a large group we combine chalets."), "f_below": T("We'll focus on what matters most: your kosher meals. Many families book their own apartment, and we take care of the meals, Shabbat and the minyan."), "torah": T("Sefer Torah in the chalet"), "k_below_p": T("below (essentials proposed)"), "k_below_c": T("below (essentials chosen)"), "p_chef": T("delivered meals instead of a private chef"), "p_station": T("a resort with lower prices, such as Val Thorens"), "p_appart": T("an apartment instead of a private chalet"), "p_court": T("a shorter stay or fewer services"), "f_around": T("Perfect: we will build your stay around this."), "f_above": T("Wonderful: we can add every comfort you wish."), "f_discuss": T("We'll talk it through on WhatsApp."), "k_below": T("below"), "k_around": T("around"), "k_above": T("above"), "k_discuss": T("discuss"), "estimate": T("estimate"),"nuits": T("{n} nights"), "nuit": T("1 night"), "sending": T("Sending…"), "ko": KO}}
+           "prix": PRIX_N, "t": {"step": T("Step {n} of {t}"), "invites": T("{n} guests"), "edit": T("Edit"), "change": T("Change"), "perso": T("For your {g} guests, {n} {p}, with {s}, plan from about {x}"), "perso0": T("For your {g} guests, {n} {p}. Add services to see a starting price."), "large": T("Your selection is a large project: we will build it with you."), "dem": T(", plus services on request"), "dans": T("in {p}"), "alpes": T("in the Alps"), "ou": T(" or "), "et": T(" and "), "semaine": T("a week"), "s_chalet": T("a chalet"), "s_chef": T("a private chef"), "s_livre": T("delivered meals"), "s_shabbat": T("Shabbat meals"), "s_lyon": T("the Lyon tour"), "n_occupe": T("A very busy period: the best chalets go early."), "n_station": T("One of the most sought-after resorts in the Alps."), "n_groupe": T("For a large group we combine chalets."), "f_below": T("We'll focus on what matters most: your kosher meals. Many families book their own apartment, and we take care of the meals, Shabbat and the minyan."), "torah": T("Sefer Torah in the chalet"), "k_below_p": T("below (essentials proposed)"), "k_below_c": T("below (essentials chosen)"), "p_chef": T("delivered meals instead of a private chef"), "p_station": T("a resort with lower prices, such as Val Thorens"), "p_appart": T("an apartment instead of a private chalet"), "p_court": T("a shorter stay or fewer services"), "f_around": T("Perfect: we will build your stay around this."), "f_above": T("Wonderful: we can add every comfort you wish."), "f_discuss": T("We'll talk it through on WhatsApp."), "k_below": T("below"), "k_around": T("around"), "k_above": T("above"), "k_discuss": T("discuss"), "estimate": T("estimate"),"nuits": T("{n} nights"), "nuit": T("1 night"), "sending": T("Sending…"), "ko": KO}}
     assert set(LAB_ORDER) >= set(LAB[lang]), set(LAB[lang]) - set(LAB_ORDER)
     return JS_TPL.replace("__CFG__", json.dumps(cfg, ensure_ascii=False))
 
@@ -1017,7 +1066,100 @@ P .pf-tls2 .pf-tl small{white-space:normal;line-height:1.2;display:-webkit-box;-
   P .pf-tls:not(.pf-tls2) .pf-tl i{width:16px;height:16px;margin-top:-8px;inset-inline-end:6px}
   P .pf-tls:not(.pf-tls2) .pf-tl:has(input:checked) i::after{left:5px;top:2px;width:3.5px;height:7px}
 }
-""".replace("P:has", P + ":has").replace("P ", P + " ").replace(",P ", "," + P + " ") + CSS_Z
+
+/* 04/11 v6 (retour de Moshe sur l'ecran « Quand » : « joli, mais pas intuitif, tous les boutons se ressemblent ») : trois familles lisibles sans lire.
+   (a) CHOIX = cases et chips : trait gris fin ; choisi = fond noir, texte or brosse #A88F5E (6,1:1 sur #111111), balayage clair une fois.
+   (b) CONTROLES D'INTERFACE = segments sur une ligne, filet or de 2 px sous le segment actif : ils changent l'ecran, ils ne repondent pas.
+   (c) CHAMPS = filet bas seul, libelle en petites capitales grises au-dessus. Continuer reste seul en noir plein. */
+P .pf-c,P .pf-pas,P .pf-niv,P .pf-tl{position:relative;overflow:hidden;border:1px solid #CFCFCF;border-radius:4px;background:#FFFFFF;color:#111111;transition:background-color .16s cubic-bezier(.23,1,.32,1),border-color .16s cubic-bezier(.23,1,.32,1),color .16s cubic-bezier(.23,1,.32,1),transform .16s cubic-bezier(.23,1,.32,1)}
+/* lv.css colle « label>span{color:#5E5E5E!important} » avec 8 :not(#lv) : c'est ce gris qui rendait le choix coche illisible sur le noir (le :is() de cette regle contient #formContact : 9 identifiants). Prefixe renforce : 9 :not(#lv). */
+Q .pf-c span,Q .pf-pas span,Q .pf-niv span{color:#111111!important}
+P .pf-c:hover,P .pf-pas:hover,P .pf-niv:hover,P .pf-tl:hover{border-color:#111111}
+P .pf-c:has(input:checked),P .pf-pas.on,P .pf-niv:has(input:checked),P .pf-tl:has(input:checked){background:#111111;border-color:#111111;color:#A88F5E}
+Q .pf-c:has(input:checked) span,Q .pf-niv:has(input:checked) span,Q .pf-c:has(input:checked) b,Q .pf-c:has(input:checked) small,Q .pf-pas.on span{color:#A88F5E!important}
+Q .pf-bn small span{color:inherit!important}
+Q .pf-tl b{color:#111111!important}
+Q .pf-tl:has(input:checked) b,Q .pf-tl:has(input:checked) small{color:#A88F5E!important}
+P .pf-tl:has(input:checked) i{background:#A88F5E!important;border-color:#A88F5E!important}
+P .pf-tl:has(input:checked) i::after{border-color:transparent #111111 #111111 transparent}
+P .pf-c::before,P .pf-pas::before,P .pf-niv::before,P .pf-tl::before{content:"";position:absolute;top:0;bottom:0;left:0;right:0;z-index:1;pointer-events:none;opacity:0;transform:translateX(-110%);background:linear-gradient(105deg,rgba(255,255,255,0) 28%,rgba(255,255,255,.5) 50%,rgba(255,255,255,0) 72%)}
+@media (prefers-reduced-motion:no-preference){
+  P .pf-flash::before{animation:pf-brille .7s cubic-bezier(.4,0,.2,1) 1}
+  P .pf-c:active,P .pf-pas:active,P .pf-niv:active,P .pf-tl:active{transform:scale(.97)}
+}
+@keyframes pf-brille{from{opacity:1;transform:translateX(-110%)}to{opacity:1;transform:translateX(110%)}}
+/* (b) controles segmentes : bascule des dates, « j'ai deja mon logement » */
+P .pf-seg-b{display:flex;align-items:stretch;margin:0;border-bottom:1px solid #E0E0E0}
+P .pf-seg{position:relative;flex:1 1 0;display:flex;align-items:center;justify-content:center;min-width:0;min-height:44px;padding:6px 6px 8px;box-sizing:border-box;text-align:center;font-size:13.5px;font-weight:300;line-height:1.2;letter-spacing:0;color:#6B6B6B;cursor:pointer;transition:color .16s cubic-bezier(.23,1,.32,1)}
+P .pf-seg input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+Q .pf-seg span{color:inherit!important}
+P .pf-seg::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:#A88F5E;opacity:0;transform:scaleX(.5);transition:transform .22s cubic-bezier(.23,1,.32,1),opacity .22s cubic-bezier(.23,1,.32,1)}
+P .pf-seg:hover{color:#111111}
+P .pf-seg:has(input:checked){color:#111111;font-weight:400}
+P .pf-seg:has(input:checked)::after{opacity:1;transform:scaleX(1)}
+P .pf-seg:has(input:focus-visible){outline:2px solid #111111;outline-offset:-2px}
+/* (c) champs : filet bas seul */
+P .pf-champ :is(input,select,textarea){border:0;border-bottom:1px solid #CFCFCF;border-radius:0;background-color:transparent;padding:6px 0 8px;min-height:44px;box-shadow:none;font-family:inherit;-webkit-appearance:none;appearance:none;transition:border-color .16s ease-out,box-shadow .16s ease-out}
+P .pf-champ textarea{min-height:52px;height:52px;resize:none}
+P .pf-champ :is(input,select,textarea):focus{border-bottom-color:#111111;box-shadow:0 1px 0 0 #111111;outline:none}
+P .pf-champ input[type=date]{display:block;text-align:start}
+P .pf-champ input[type=date]::-webkit-date-and-time-value{text-align:start}
+P .pf-tel select{padding:6px 22px 8px 0;background-position:right 2px center}
+P .pf-cpt{border-bottom-color:#CFCFCF}
+P .pf-cpt .cpt button{border:0;background:transparent;width:44px;height:44px;border-radius:50%;font-size:24px}
+P .pf-cpt .cpt button:hover{background:#F4F4F2}
+P .pf-cpt .cpt button:active{background:#E6E6E6}
+@media (max-width:699px){P .pf-nsvc{display:none!important}}
+P .pf-ess-b{min-height:36px;padding:0 0 2px;border:0;border-bottom:1px solid #A88F5E;border-radius:0;background:none}
+/* rappel du lien prerempli, en haut de « qui » */
+P .pf-recap{margin:0 0 12px;font-size:13px;line-height:1.5;color:#6B6B6B}
+P .pf-rc-b{padding:6px 2px;margin:-6px 0;border:0;background:none;font:inherit;color:#111111;text-decoration:underline;text-decoration-color:#CFCFCF;text-underline-offset:3px;cursor:pointer}
+P .pf-rc-e{padding:6px 2px;margin:-6px 0;border:0;background:none;font:inherit;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6B6B6B;cursor:pointer}
+P .pf-rc-e:lang(he){letter-spacing:0;font-size:13px}
+/* ecran « besoins » du parcours b */
+P .pf-bchips{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+P .pf-bn{min-height:46px;padding:7px 12px;justify-content:flex-start}
+P .pf-bn>span{display:grid;gap:1px;min-width:0}
+Q .pf-bn b{font-size:13.5px;font-weight:400;line-height:1.2;color:#111111!important}
+P .pf-bn small span{display:inline;color:inherit}
+Q .pf-bn small{font-size:11.5px;line-height:1.2;color:#6B6B6B!important}
+P .pf-chips.pf-flow{display:flex!important;flex-wrap:wrap;gap:6px}
+P .pf-flow .pf-c{min-height:36px;padding:6px 12px;font-size:13px;flex:0 0 auto}
+P #e-besoins .pf-sous{margin:14px 0 6px!important}
+P #e-besoins>.pf-sous:first-of-type{margin-top:0!important}
+@media (max-width:699px) and (max-height:760px){
+  P #e-ou>.pf-chips,P #e-ou>div[data-b="abe"]{grid-column:1/-1}
+  P #e-besoins .pf-sous{margin:8px 0 4px!important}
+  P .pf-bchips{gap:6px}
+  P .pf-bn{min-height:42px;padding:5px 10px}
+  P .pf-seg{min-height:40px}
+  P .pf-champ :is(input,select){min-height:38px;padding:5px 0 6px}
+  P .pf-cpt .cpt button{width:38px;height:38px;font-size:22px}
+}
+@media (max-width:699px) and (max-height:620px){
+  P .pf-tete p{display:none}
+  Q main .pf-tete h2{font-size:15px!important;letter-spacing:.03em!important;line-height:1.2!important}
+  P .pf-champ textarea{min-height:36px;height:36px}
+  P #e-quand:has(input[name=flexible][data-en="Dates are fixed"]:checked) #dm-fetes .pf-c:not(:has(input:checked)):not(:has(input[data-en="Another holiday"])){display:none}
+  P .pf-pas{min-height:32px;padding:2px 3px;font-size:11.5px;line-height:1.12}
+  P .pf-pastilles{gap:5px}
+  P #e-besoins .pf-sous{display:none}
+  P:has(#formDemande) .cb{padding:6px 12px!important;gap:8px!important}
+  P:has(#formDemande) .cb p{font-size:11px!important;line-height:1.2!important}
+  P:has(#formDemande) .cb button{min-height:30px!important;padding:0 8px!important}
+  P #e-final>*+*{margin-top:4px}
+  P .pf-cpt{min-height:34px}
+  P .pf-cpt .cpt button{width:34px;height:34px}
+  P .pf-recap{margin:0 0 4px;line-height:1.3}
+  P .pf-bn{min-height:38px}
+  P .pf-accord{margin-top:4px!important}
+  Q .pf-bn b{font-size:12.5px!important}
+  Q .pf-bn small{font-size:10.5px!important}
+  P .pf-bn{padding:4px 8px}
+  P #e-besoins>.pf-sous:first-of-type{display:none}
+  P .pf-bn{min-height:40px;padding:4px 10px}
+}
+""".replace("P:has", P + ":has").replace("P ", P + " ").replace(",P ", "," + P + " ").replace("Q ", P + ":not(#lv8):not(#lv9) ").replace(",Q ", "," + P + ":not(#lv8):not(#lv9) ") + CSS_Z
 
 def update_css():
     c = open("styles.css", encoding="utf-8").read()
