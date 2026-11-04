@@ -336,6 +336,9 @@ RCSS = f"""/* ===RET-0411-RYTHME=== */
 {K} h2.carte-titre::after{{width:56px !important;height:1.5px !important;margin:22px auto 0 !important}}
 {K} h2.carte-titre{{margin-bottom:24px !important}}
 @media (min-width:900px){{{K}>:is(section,div.ss):not(.lv-hero-station):not(.hero){{padding-top:96px !important;padding-bottom:96px !important}}{K}>div.cta-etapes{{padding-bottom:96px !important}}}}
+{K} .lead-final img.wp-fl-final{{content:normal !important;filter:none !important;width:64px !important;height:64px !important}}
+{K} .dk-garanties .dk-g-tete{{font-size:13px !important;font-weight:400 !important;text-transform:uppercase !important;letter-spacing:.16em !important;color:#111111 !important}}
+{K} .dk-garanties .dk-g-ligne{{font-size:16px !important;line-height:1.55 !important;color:#5E5E5E !important}}
 /* ===/RET-0411-RYTHME=== */
 """
 wv = open("wp-v3.css", encoding="utf-8").read(); wv = re.sub(r"/\* ===RET-0411-RYTHME===.*?/\* ===/RET-0411-RYTHME=== \*/\n", "", wv, flags=re.S)
