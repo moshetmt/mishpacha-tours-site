@@ -872,4 +872,6 @@ html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(
 html[dir="rtl"] body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .lead-intro .mf-phrase{letter-spacing:0 !important}
 html[dir="rtl"] body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .lead-intro .mf-col b{letter-spacing:0 !important;font-size:16px !important;font-weight:500 !important}
 html[dir="rtl"] body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .barre-basse a{letter-spacing:0 !important;font-size:14px !important}
+/* héros vidéo des stations, chalets et été : voile seulement derrière le texte, haut de l'image libre (Moshé 04/11 : « header sombre, buggé ») ; contraste mesuré sur chaque demi-seconde des 3 vidéos, pire cas 5,0:1 (E:/taches/contraste_video.py) */
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main>section.lv-hero-station::before{background:linear-gradient(0deg,rgba(0,0,0,.68) 0,rgba(0,0,0,.55) 55%,rgba(0,0,0,0) 75%),linear-gradient(180deg,rgba(0,0,0,.38) 0,rgba(0,0,0,0) 110px) !important}
 /* ===/RET-0411-JAUNE=== */

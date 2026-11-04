@@ -209,6 +209,8 @@ JCSS = f"""/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, c
 {PR} .lead-intro .mf-phrase{{letter-spacing:0 !important}}
 {PR} .lead-intro .mf-col b{{letter-spacing:0 !important;font-size:16px !important;font-weight:500 !important}}
 {PR} .barre-basse a{{letter-spacing:0 !important;font-size:14px !important}}
+/* héros vidéo des stations, chalets et été : voile seulement derrière le texte, haut de l'image libre (Moshé 04/11 : « header sombre, buggé ») ; contraste mesuré sur chaque demi-seconde des 3 vidéos, pire cas 5,0:1 (E:/taches/contraste_video.py) */
+{P} main>section.lv-hero-station::before{{background:linear-gradient(0deg,rgba(0,0,0,.68) 0,rgba(0,0,0,.55) 55%,rgba(0,0,0,0) 75%),linear-gradient(180deg,rgba(0,0,0,.38) 0,rgba(0,0,0,0) 110px) !important}}
 /* ===/RET-0411-JAUNE=== */
 """
 lv = open("lv.css", encoding="utf-8").read(); lv = re.sub(r"/\* ===RET-0411-JAUNE===.*?/\* ===/RET-0411-JAUNE=== \*/\n", "", lv, flags=re.S)
