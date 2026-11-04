@@ -116,10 +116,9 @@ CSS = f"""/* ===RET-0411=== retours Moshé du 04/11 (_retours_04_11.py) : barre 
 {P} .barre-basse{{display:grid !important;grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;gap:8px !important;padding:8px 12px calc(8px + env(safe-area-inset-bottom)) !important;height:auto !important;background:#FFFFFF !important;border-top:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:none !important;overflow:visible !important;pointer-events:auto !important}}
 {P} .barre-basse a{{height:48px !important;padding:0 10px !important;margin:0 !important;border-radius:4px !important;box-shadow:none !important;white-space:normal !important;line-height:1.25 !important;text-align:center !important;letter-spacing:.14em !important}}
 @media (max-width:899px){{{P}.bb-on .cb{{bottom:calc(65px + env(safe-area-inset-bottom)) !important}}{P} .cb{{z-index:80 !important}}}}
-{P} main>section.lead-final{{background:#FFFFFF !important;box-shadow:none !important;clip-path:none !important;border-top:1px solid #E6E6E6 !important}}
+{P} main>section.lead-final{{background-color:#FFFFFF !important;box-shadow:none !important;clip-path:none !important;border-top:1px solid #E6E6E6 !important}}
 {P} main>section.lead-final .lead-form{{background:#FFFFFF !important;border:1px solid #E6E6E6 !important;box-shadow:none !important}}
-{P} main>section#how{{background:#FFFFFF !important;box-shadow:none !important;clip-path:none !important;border-top:1px solid #E6E6E6;border-bottom:1px solid #E6E6E6}}
-{P} main>.ticket-zone{{background:#FFFFFF !important;box-shadow:none !important;clip-path:none !important}}
+{P} main>.ticket-zone{{background-color:#FFFFFF !important;box-shadow:none !important;clip-path:none !important}}
 /* ===/RET-0411=== */
 """
 lv = open("lv.css", encoding="utf-8").read()
@@ -151,3 +150,19 @@ wv = open("wp-v3.css", encoding="utf-8").read()
 wv = re.sub(r"/\* ===RET-0411=== \*/.*?/\* ===/RET-0411=== \*/\n", "", wv, flags=re.S)
 open("wp-v3.css", "w", encoding="utf-8").write(wv.rstrip("\n") + "\n" + WCSS)
 print("css ok")
+
+# ---------- 6. formulaire : « catalogue=<chalet> » prérempli dans le message ----------
+NOMS = {"king-david": "King David", "rochebrune": "Rochebrune", "flocon-dore": "Flocon Doré", "belle-etoile": "Belle Étoile", "loup-blanc": "Loup Blanc",
+        "aigle-royal": "Aigle Royal", "aurore-boreale": "Aurore Boréale", "renard-argente": "Renard Argenté"}
+PHRASE = {"en": "Please send me the catalogue of Chalet {n} and of your services.", "fr": "Merci de m'envoyer le catalogue du chalet {n} et de vos services.",
+          "es": "Envíenme, por favor, el catálogo del chalet {n} y de sus servicios.", "he": "אשמח לקבל את הקטלוג של צ'אלה {n} ושל השירותים שלכם."}
+import json as _j
+for lang, pf in (("en", ""), ("fr", "fr/"), ("es", "es/"), ("he", "he/")):
+    f = pf + "plan-your-trip/index.html"; s2 = open(f, encoding="utf-8").read()
+    s2 = re.sub(r"<script>/\*RET-0411:catalogue\*/.*?</script>", "", s2, flags=re.S)
+    js = ("<script>/*RET-0411:catalogue*/(function(){var q;try{q=new URLSearchParams(location.search)}catch(e){return}"
+          "var c=(q.get('catalogue')||'').replace(/[^a-z-]/g,''),N=" + _j.dumps(NOMS, ensure_ascii=False) + ",n=N[c];if(!n)return;"
+          "var t=document.querySelector('textarea[name=\"message\"]');if(t&&!t.value){t.value=" + _j.dumps(PHRASE[lang], ensure_ascii=False) + ".replace('{n}',n);"
+          "t.dispatchEvent(new Event('input',{bubbles:true}))}})();</script>")
+    assert "</body>" in s2; s2 = s2.replace("</body>", js + "</body>", 1); open(f, "w", encoding="utf-8").write(s2)
+print("formulaires : catalogue prérempli")
