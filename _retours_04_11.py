@@ -188,6 +188,8 @@ JCSS = f"""/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, c
 {P} .sh-moment svg [stop-color="#E8875A"]{{stop-color:#C2A874}}
 {P} footer.pied details{{border-color:rgba(255,255,255,.18) !important}}
 {P} footer.pied a,{P} footer.pied td a,{P} td a,{P} .lead3-texte,{P} .lead3-bloc,{P} .lead3-btns,{P} .kwp-hero-wp{{text-decoration-color:currentColor !important}}
+{P} .shabbat-corps small{{display:block;margin-top:18px;font-size:18px !important;line-height:1.4;opacity:1 !important;color:#111111 !important;font-weight:400 !important;letter-spacing:.01em}}
+{P} .carte-note{{font-size:15px !important;line-height:1.5;opacity:1 !important;color:#3A3A3A !important;margin-top:14px !important}}
 /* ===/RET-0411-JAUNE=== */
 """
 lv = open("lv.css", encoding="utf-8").read(); lv = re.sub(r"/\* ===RET-0411-JAUNE===.*?/\* ===/RET-0411-JAUNE=== \*/\n", "", lv, flags=re.S)
