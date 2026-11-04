@@ -186,7 +186,7 @@ JCSS = f"""/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, c
 {P} .sh-moment svg [fill="#FFFAED"]{{fill:#FFFFFF}}
 {P} .sh-moment svg [stroke="#FFFAED"]{{stroke:#FFFFFF}}
 {P} footer.pied details{{border-color:rgba(255,255,255,.18) !important}}
-{P} footer.pied a,{P} .lead3-texte,{P} .lead3-bloc,{P} .lead3-btns,{P} .kwp-hero-wp{{text-decoration-color:currentColor !important}}
+{P} footer.pied a,{P} footer.pied td a,{P} td a,{P} .lead3-texte,{P} .lead3-bloc,{P} .lead3-btns,{P} .kwp-hero-wp{{text-decoration-color:currentColor !important}}
 /* ===/RET-0411-JAUNE=== */
 """
 lv = open("lv.css", encoding="utf-8").read(); lv = re.sub(r"/\* ===RET-0411-JAUNE===.*?/\* ===/RET-0411-JAUNE=== \*/\n", "", lv, flags=re.S)
