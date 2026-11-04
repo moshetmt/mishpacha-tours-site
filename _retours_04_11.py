@@ -183,8 +183,9 @@ JCSS = f"""/* ===RET-0411-JAUNE=== restes de l'ancienne charte (jaune #FCDE73, c
 {P} main>section#how li b{{color:#C2A874 !important}}
 {P} .sh-ville{{color:#C2A874 !important}}
 {P} .sh-moment{{background:rgba(255,255,255,.06) !important}}
-{P} .sh-moment svg [fill="#FFFAED"]{{fill:#FFFFFF}}
-{P} .sh-moment svg [stroke="#FFFAED"]{{stroke:#FFFFFF}}
+{P} .sh-moment svg [fill="#FFFAED"]{{fill:#7A6440}}
+{P} .sh-moment svg [stroke="#FFFAED"]{{stroke:#D9D9D9}}
+{P} .sh-moment svg [stop-color="#E8875A"]{{stop-color:#C2A874}}
 {P} footer.pied details{{border-color:rgba(255,255,255,.18) !important}}
 {P} footer.pied a,{P} footer.pied td a,{P} td a,{P} .lead3-texte,{P} .lead3-bloc,{P} .lead3-btns,{P} .kwp-hero-wp{{text-decoration-color:currentColor !important}}
 /* ===/RET-0411-JAUNE=== */
