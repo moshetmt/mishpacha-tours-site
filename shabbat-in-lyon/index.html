@@ -97,8 +97,8 @@ function $(s){return B.querySelector(s)}
 function f(s){return new Date(s).toLocaleTimeString(C.loc,{hour:"2-digit",minute:"2-digit",timeZone:Z})}
 function dd(s){return new Date(s).toLocaleDateString(C.loc,{weekday:"long",day:"numeric",month:"short",timeZone:Z})}
 function lire(d){var it=d.items||[];return{c:it.find(function(i){return i.category==="candles"}),h:it.find(function(i){return i.category==="havdalah"}),p:it.find(function(i){return i.category==="parashat"})}}
-function rendre(x,etat){var e=$("#m-entree"),s=$("#m-sortie"),ti=$(".sh-tt"),co=$(".shabbat-corps"),pa="",nm=x.p?x.p.title.replace(/^\S+\s+/,"").replace(/[֑-ׇ]/g,""):"",Q={fr:["« "," »"],es:["«","»"]}[(document.documentElement.lang||"en").slice(0,2)]||["“","”"],n=C.note?"<br><small>"+C.note+"</small>":"";
-e.hidden=false;s.hidden=false;$(".sh-moments").hidden=false;ti.textContent=C.mot+(nm?" "+Q[0]+nm+Q[1]:"");
+function rendre(x,etat){var e=$("#m-entree"),s=$("#m-sortie"),ti=$(".sh-tt"),co=$(".shabbat-corps"),pa="",nm=x.p?x.p.title.replace(/^\S+\s+/,"").replace(/[֑-ׇ̲]/g,"").replace(/[<>&]/g,""):"",Q={fr:["« "," »"],es:["«","»"]}[(document.documentElement.lang||"en").slice(0,2)]||((document.documentElement.lang||"").slice(0,2)==="he"?["\"","\""]:["“","”"]),n=C.note?"<br><small>"+C.note+"</small>":"";
+e.hidden=false;s.hidden=false;$(".sh-moments").hidden=false;ti.innerHTML=C.mot+(nm?" <span style=\"white-space:nowrap\">"+Q[0]+nm+Q[1]+"</span>":"");
 if(x.c){e.querySelector(".sh-d").textContent=(etat==="apres"?C.suiv+" \u00b7 ":"")+dd(x.c.date);(e.querySelector("b")||e.querySelector(".sh-d").insertAdjacentElement("afterend",document.createElement("b"))).textContent=f(x.c.date)}else e.hidden=true;
 if(x.h){s.querySelector(".sh-d").textContent=dd(x.h.date);(s.querySelector("b")||s.querySelector(".sh-d").insertAdjacentElement("afterend",document.createElement("b"))).textContent=f(x.h.date)}else s.hidden=true;
 co.innerHTML=pa+n;
