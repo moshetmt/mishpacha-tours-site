@@ -167,4 +167,4 @@ a.btn,a.btn-noir,a.btn-hero,a.pill,a.lc-btn,a.fc-wa,a.lead3-wa,a.go{text-decorat
 .sh-moment b{order:1;font-size:var(--t-h2);font-weight:300;line-height:1.15;color:var(--encre)}
 .sh-moment .sh-d{order:2;font-size:var(--t-petit);font-weight:400;line-height:1.5;color:var(--sourd)}
 .sh-moment>div>span:last-child{order:3}
-.lv-hero-station::after,.lead-hero3::after{background:linear-gradient(to top,color-mix(in srgb,var(--encre) 88%,transparent),color-mix(in srgb,var(--encre) 62%,transparent) 50%,color-mix(in srgb,var(--encre) 28%,transparent) 85%,transparent),linear-gradient(to bottom,color-mix(in srgb,var(--encre) 45%,transparent),transparent 25%)}
+.lv-hero-station::after,.lead-hero3::after{background:linear-gradient(to top,color-mix(in srgb,var(--encre) 88%,transparent),color-mix(in srgb,var(--encre) 62%,transparent) 50%,color-mix(in srgb,var(--encre) 28%,transparent) 85%,transparent),linear-gradient(to bottom,color-mix(in srgb,var(--encre) 78%,transparent),color-mix(in srgb,var(--encre) 45%,transparent) 14%,transparent 34%)}

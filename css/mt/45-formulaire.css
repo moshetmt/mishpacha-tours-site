@@ -36,7 +36,7 @@ html[lang="he"] .lf select{background-position:9px 55%,4px 55%}
 .pf-pastilles,.pf-chips,.pf-tls{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--e3)}
 .lf .pf-pas,.lf .pf-c,.lf .pf-niv{position:relative;display:flex;align-items:center;width:auto;min-height:52px;padding:0;border:0;border-bottom:1px solid var(--trait);background:none;color:var(--sourd);font:300 var(--t-corps)/1.25 var(--latin);letter-spacing:0;text-align:start;text-transform:none;cursor:pointer}
 .pf-pas.on,.pf-c:has(input:checked),.pf-niv:has(input:checked),.pf-tl:has(input:checked){border-bottom-color:var(--encre);color:var(--encre);font-weight:500}
-.pf-c input,.pf-niv input,.pf-tl input{position:absolute;opacity:0;pointer-events:none}
+.pf-c input,.pf-niv input,.pf-tl input{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);opacity:0}
 .pf-c:has(:focus-visible),.pf-tl:has(:focus-visible){outline:1px solid var(--encre);outline-offset:3px}
 .pf-tls{gap:var(--e4) var(--e3)}
 .pf-tl{position:relative;display:block;padding-bottom:var(--e2);border-bottom:1px solid var(--trait);cursor:pointer}

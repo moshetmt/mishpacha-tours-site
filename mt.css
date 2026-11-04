@@ -61,7 +61,7 @@ h1 i,h2 i,h3 i{display:block;font-weight:300}
 .ac-hero{min-height:85svh}
 .hero>img,.hero>video,.lv-hero-photo>img,.lv-hero-photo>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .hero::after,.lv-hero-photo::after{content:"";position:absolute;inset:0;pointer-events:none;
-  background:linear-gradient(to top,color-mix(in srgb,var(--encre) 66%,transparent),transparent 72%),linear-gradient(to bottom,color-mix(in srgb,var(--encre) 45%,transparent),transparent 25%)}
+  background:linear-gradient(to top,color-mix(in srgb,var(--encre) 66%,transparent),transparent 72%),linear-gradient(to bottom,color-mix(in srgb,var(--encre) 78%,transparent),color-mix(in srgb,var(--encre) 45%,transparent) 14%,transparent 34%)}
 .hero>*:not(img,video),.lv-hero-photo>*:not(img,video){position:relative;z-index:1}
 .hero-texte,.lead3-texte{width:100%;max-width:calc(var(--colonne) + 2 * var(--gouttiere));margin-inline:auto;padding:calc(var(--entete) + var(--e4)) var(--gouttiere) var(--e4)}
 .hero .fil,.lv-hero-photo .fil{margin:0 0 var(--e3);color:var(--papier)}
@@ -106,7 +106,7 @@ body.wp-nav .nav{gap:var(--e1)}
 .nav-ch-v b{display:block;margin-bottom:2px;font-size:var(--t-petit);font-weight:500;color:var(--encre)}
 .nav-ch-v span{font-size:var(--t-petit);font-weight:400;line-height:1.4;color:var(--sourd)}
 .liens .nav-ch-tous{grid-column:1/-1;font-size:var(--t-libelle);font-weight:500;letter-spacing:var(--ls-libelle);text-transform:uppercase;padding-top:var(--e2);border-top:1px solid var(--trait);text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
-@media(min-width:1180px){.liens{display:flex;align-items:center;gap:var(--e3);margin-inline:auto}.menu{display:none}.wp-entete{margin-inline-end:0}}
+@media(min-width:1180px){.liens{display:flex;align-items:center;gap:var(--e3);margin-inline:auto}.wp-entete{margin-inline-end:0}}
 .droite{display:flex;align-items:center;gap:var(--e1);flex:none}
 .drapeau{display:none}
 .langue{position:relative}
@@ -439,7 +439,7 @@ a.btn,a.btn-noir,a.btn-hero,a.pill,a.lc-btn,a.fc-wa,a.lead3-wa,a.go{text-decorat
 .sh-moment b{order:1;font-size:var(--t-h2);font-weight:300;line-height:1.15;color:var(--encre)}
 .sh-moment .sh-d{order:2;font-size:var(--t-petit);font-weight:400;line-height:1.5;color:var(--sourd)}
 .sh-moment>div>span:last-child{order:3}
-.lv-hero-station::after,.lead-hero3::after{background:linear-gradient(to top,color-mix(in srgb,var(--encre) 88%,transparent),color-mix(in srgb,var(--encre) 62%,transparent) 50%,color-mix(in srgb,var(--encre) 28%,transparent) 85%,transparent),linear-gradient(to bottom,color-mix(in srgb,var(--encre) 45%,transparent),transparent 25%)}
+.lv-hero-station::after,.lead-hero3::after{background:linear-gradient(to top,color-mix(in srgb,var(--encre) 88%,transparent),color-mix(in srgb,var(--encre) 62%,transparent) 50%,color-mix(in srgb,var(--encre) 28%,transparent) 85%,transparent),linear-gradient(to bottom,color-mix(in srgb,var(--encre) 78%,transparent),color-mix(in srgb,var(--encre) 45%,transparent) 14%,transparent 34%)}
 .lc-fil{padding-bottom:var(--e2);overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:var(--t-petit);color:var(--sourd)}
 .lc-fil a{text-decoration:none}
 .lc-haut{max-width:calc(var(--colonne) + 2 * var(--gouttiere));margin-inline:auto}
@@ -656,7 +656,7 @@ html[lang="he"] .lf select{background-position:9px 55%,4px 55%}
 .pf-pastilles,.pf-chips,.pf-tls{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--e3)}
 .lf .pf-pas,.lf .pf-c,.lf .pf-niv{position:relative;display:flex;align-items:center;width:auto;min-height:52px;padding:0;border:0;border-bottom:1px solid var(--trait);background:none;color:var(--sourd);font:300 var(--t-corps)/1.25 var(--latin);letter-spacing:0;text-align:start;text-transform:none;cursor:pointer}
 .pf-pas.on,.pf-c:has(input:checked),.pf-niv:has(input:checked),.pf-tl:has(input:checked){border-bottom-color:var(--encre);color:var(--encre);font-weight:500}
-.pf-c input,.pf-niv input,.pf-tl input{position:absolute;opacity:0;pointer-events:none}
+.pf-c input,.pf-niv input,.pf-tl input{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);opacity:0}
 .pf-c:has(:focus-visible),.pf-tl:has(:focus-visible){outline:1px solid var(--encre);outline-offset:3px}
 .pf-tls{gap:var(--e4) var(--e3)}
 .pf-tl{position:relative;display:block;padding-bottom:var(--e2);border-bottom:1px solid var(--trait);cursor:pointer}

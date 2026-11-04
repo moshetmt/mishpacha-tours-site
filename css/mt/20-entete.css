@@ -37,7 +37,7 @@ body.wp-nav .nav{gap:var(--e1)}
 .nav-ch-v b{display:block;margin-bottom:2px;font-size:var(--t-petit);font-weight:500;color:var(--encre)}
 .nav-ch-v span{font-size:var(--t-petit);font-weight:400;line-height:1.4;color:var(--sourd)}
 .liens .nav-ch-tous{grid-column:1/-1;font-size:var(--t-libelle);font-weight:500;letter-spacing:var(--ls-libelle);text-transform:uppercase;padding-top:var(--e2);border-top:1px solid var(--trait);text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
-@media(min-width:1180px){.liens{display:flex;align-items:center;gap:var(--e3);margin-inline:auto}.menu{display:none}.wp-entete{margin-inline-end:0}}
+@media(min-width:1180px){.liens{display:flex;align-items:center;gap:var(--e3);margin-inline:auto}.wp-entete{margin-inline-end:0}}
 
 /* langue : code texte, pas de drapeau */
 .droite{display:flex;align-items:center;gap:var(--e1);flex:none}
