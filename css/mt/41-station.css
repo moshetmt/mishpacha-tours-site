@@ -106,7 +106,7 @@ details.acc>summary h2 i,details.acc>summary h3 i{display:inline;font-weight:inh
 
 /* Chabbat sur place */
 .sh-sur{margin:0 0 var(--e2);font-size:var(--t-libelle);font-weight:500;line-height:1;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd)}
-.sh-gros{margin:0 0 var(--e3);font-size:var(--t-h2);font-weight:300;line-height:1.15;letter-spacing:var(--ls-titre);text-transform:uppercase}
+.sh-gros{margin:0 0 var(--e3);font-size:var(--t-display);font-weight:400;line-height:1.08;letter-spacing:var(--ls-titre);text-transform:uppercase}
 .sh-gros br{display:none}
 .sh-ville::before{content:" "}
 .sh-moments:not([hidden]){display:grid;grid-template-columns:1fr 1fr;margin:0 0 var(--e3);border-top:1px solid var(--trait)}
@@ -177,5 +177,7 @@ a.btn,a.btn-noir,a.btn-hero,a.pill,a.lc-btn,a.fc-wa,a.lead3-wa,a.go{text-decorat
 .sh-moment>div>span:last-child{order:3}
 /* reprises du lot WP du 04/11 (_retours_04_11.py) : la zone de la carte en titre */
 .carte-sur{margin:0 0 var(--e1);text-align:center;font-size:var(--t-libelle);font-weight:500;letter-spacing:var(--ls-libelle);text-transform:uppercase;color:var(--sourd)}
-h2.carte-titre{margin:0 auto var(--e3);text-align:center;text-wrap:balance}
+h2.carte-titre{margin:0 auto var(--e3);text-align:center;text-wrap:balance;font-size:var(--t-display);font-weight:400;line-height:1.08}
 h2.carte-titre::after{content:"";display:block;width:56px;height:1px;margin:var(--e3) auto 0;background:var(--or)}
+
+/* Moshé 04/11, deux fois : la paracha et la zone de la carte « en gros » */
