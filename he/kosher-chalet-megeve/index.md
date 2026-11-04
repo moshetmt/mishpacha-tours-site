@@ -103,7 +103,6 @@ Source: https://mishpachatours.com/he/kosher-chalet-megeve/ (HTML version). Ever
 - [צ'אלה קינג דייוויד, לה דז אלפ](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)
 - [שירותים כשרים באלפים](https://mishpachatours.com/he/kosher-services-french-alps/)
 
-מקורות: הצוות שלנו באלפים (מסמך והודעות מ-16/10/2026) לצ'אלה, להסעה ולשירותים. נערך על ידי Mishpacha Tours על סמך מקורות אלה. נבדק ב-7 באוקטובר 2026.
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

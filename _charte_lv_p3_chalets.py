@@ -18,7 +18,7 @@ CSS_SRC = r"""/* Fiches chalet façon fiche produit LV (phase 3, 03/11). Génér
 @@ :is(p,li,div,span,b,small,summary,h1,h2,i){-webkit-text-fill-color:currentColor !important}
 @@ .lc-fil{padding:14px 20px 12px !important;margin:0 !important;font-size:13px !important;line-height:1.5 !important;color:var(--gris) !important;text-align:start !important;background:none !important;opacity:1 !important}
 @@ .lc-fil a{color:var(--gris) !important;text-decoration:underline !important;text-underline-offset:3px}
-@@ .lc-galerie{position:relative;background:#F4F4F2}
+@@ .lc-galerie{position:relative;background:#FFFFFF}
 @@ .lc-piste{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 @@ .lc-piste::-webkit-scrollbar{display:none}
 @@ .lc-piste img{flex:0 0 100%;width:100%;height:auto;max-width:none !important;aspect-ratio:4/3;object-fit:cover;scroll-snap-align:start;display:block;border-radius:0 !important;filter:none !important;margin:0 !important}
@@ -64,11 +64,15 @@ CSS_SRC = r"""/* Fiches chalet façon fiche produit LV (phase 3, 03/11). Génér
 @@ .lc-bas-photos .lc-photos img,@@ .lc-photos img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;margin:0 0 4px;border-radius:0 !important}
 @@ .lc-duo{display:grid;grid-template-columns:1fr;gap:4px}
 @@ .lc-aut:last-child:nth-child(odd){grid-column:1/-1}
+@@ .lc-bas-autres{margin-top:88px;padding-top:4px;border-top:1px solid var(--filet)}
+@@ .lc-aut .lc-nom,@@ .lc-aut .lc-lieu{padding-inline-end:40px !important}
+@@ .lc-aut::after{content:"\203A";position:absolute;inset-inline-end:16px;bottom:24px;font-size:26px;line-height:1;font-weight:300;color:#111}
+@R@ .lc-aut::after{content:"\2039"}
 @@ .lc-duo img{aspect-ratio:4/3 !important;margin:0 !important}
 @@ .lc-autres{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--filet)}
-@@ .lc-aut{display:block;text-decoration:none !important;border-bottom:1px solid var(--filet);border-inline-end:1px solid var(--filet);color:#111 !important}
+@@ .lc-aut{position:relative;display:block;text-decoration:none !important;border-bottom:1px solid var(--filet);border-inline-end:1px solid var(--filet);color:#111 !important}
 @@ .lc-aut:nth-child(2n){border-inline-end:0}
-@@ .lc-aut img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#F4F4F2;border-radius:0 !important}
+@@ .lc-aut img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#FFFFFF;border-radius:0 !important}
 @@ .lc-nom{display:block;padding:14px 14px 2px;font-size:15px;line-height:1.35;color:#111 !important}
 @@ .lc-lieu{display:block;padding:0 14px 18px;font-size:14px;color:var(--gris) !important}
 @@ .lc-fleches{margin:18px 20px 0}

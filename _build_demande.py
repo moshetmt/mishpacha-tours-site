@@ -301,8 +301,7 @@ def formulaire(lang):
           chips("lieu_pas_choisi", ["Not chosen yet, advise us"], b="aef") +
           f'<div data-b="abe"><div class="pf-seg-b" role="radiogroup" aria-label="{E("Where would you like to stay?")}">'
           f'<label class="pf-seg"><input type="radio" name="deja" value="0" data-en="Full stay" checked><span>{E("Full stay")}</span></label>'
-          f'<label class="pf-seg"><input type="radio" name="deja" value="1" data-en="I already have my place"><span>{E("I already have my place")}</span></label></div></div>' +
-          champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b"))
+          f'<label class="pf-seg"><input type="radio" name="deja" value="1" data-en="I already have my place"><span>{E("I already have my place")}</span></label></div></div>')
     def bascule(val_en, texte, coche=False):
         return (f'<label class="pf-seg"><input type="radio" name="flexible" value="{E(val_en)}" data-en="{esc(val_en)}"{" checked" if coche else ""}><span>{E(texte)}</span></label>')
     quand = ('<div class="pf-seg-b pf-bascule" role="radiogroup">' + bascule("Dates are flexible", "By month", True) + bascule("Dates are fixed", "I have exact dates") + "</div>" +
@@ -411,6 +410,7 @@ def formulaire(lang):
     contact = (cache_int + champ("prenom", "prenom", "First name", extra=' autocomplete="given-name" required') +
         f'<div class="pf-champ"><label for="f-tel">{E("WhatsApp number")}</label><div class="pf-tel"><select id="f-indicatif" name="indicatif" aria-label="{E("Country code")}" required>'
         + INDICATIFS.replace("{code}", E("Code")) + '</select><input type="tel" id="f-tel" name="tel" inputmode="tel" autocomplete="tel-national" placeholder="212 555 0100" pattern="[0-9 ().-]{6,16}" required></div></div>' +
+        champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b") +
         champ("email", "email", "Email (optional)", typ="email", extra=' autocomplete="email"') +
         zone("message-fin", "message", "Anything else we should know", "Anything that helps: a baby, a late arrival, a special diet.", b="abcde") +
         '<p class="pf-resume" id="dm-resume" hidden></p>')
