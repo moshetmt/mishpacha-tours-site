@@ -61,8 +61,14 @@ html[dir="rtl"] {P} main .cach :is(.cach-doc,.cach-or,.cach-or-r){{letter-spacin
 {P} .cach-bulle .cach-bulle-t{{display:block;max-width:64px;font-family:'Jost',system-ui,sans-serif;font-size:7.5px;font-weight:400;line-height:1.25;letter-spacing:.12em;text-align:center;text-transform:uppercase;color:#7A6440 !important;text-shadow:none}}
 html[dir="rtl"] {P} .cach-bulle .cach-bulle-t{{font-size:10px;letter-spacing:0}}
 {P} .cach-bulle img{{display:block;width:56px;height:auto;margin:0}}
+/* 06/11 (Moshe : « le logo dans la banniere, mets-le en dore, avec un petit effet ») : logo et libelle remplis d'or brosse,
+   un reflet lent passe toutes les 6 s ; fixe si l'utilisateur a coupe les animations */
+{P} .cach-bulle .cach-bulle-logo{{display:block;width:56px;aspect-ratio:600/479;background:linear-gradient(100deg,#8C7448 0%,#D9C48E 13%,#F3E6BE 19%,#D9C48E 25%,#8C7448 33%,#7A6440 40%,#B89C62 70%,#9C8250 85%,#7A6440 100%) 100% 0/300% 100%;-webkit-mask:url(/img/logo-bh-or-600.webp) center/contain no-repeat;mask:url(/img/logo-bh-or-600.webp) center/contain no-repeat;animation:cach-reflet 6s ease-in-out infinite}}
+{P} .cach-bulle .cach-bulle-t{{background:linear-gradient(100deg,#8C7448 0%,#D9C48E 13%,#F3E6BE 19%,#D9C48E 25%,#8C7448 33%,#7A6440 40%,#B89C62 70%,#9C8250 85%,#7A6440 100%) 100% 0/300% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent !important;animation:cach-reflet 6s ease-in-out infinite}}
+@keyframes cach-reflet{{0%,55%{{background-position:100% 0}}85%,100%{{background-position:0 0}}}}
+@media (prefers-reduced-motion:reduce){{ {P} .cach-bulle .cach-bulle-logo,{P} .cach-bulle .cach-bulle-t{{animation:none;background-position:50% 0}} }}
 {P} section.hero .cach-bulle{{top:86px}}
-@media (min-width:900px){{ {P} .cach-bulle{{width:112px;height:112px;top:18px;right:18px}} {P} section.hero .cach-bulle{{top:96px;right:28px}} {P} .cach-bulle img{{width:70px}} {P} .cach-bulle .cach-bulle-t{{font-size:8.5px;max-width:78px}} {P} .cach-logo{{width:150px}} }}
+@media (min-width:900px){{ {P} .cach-bulle{{width:112px;height:112px;top:18px;right:18px}} {P} section.hero .cach-bulle{{top:96px;right:28px}} {P} .cach-bulle img,{P} .cach-bulle .cach-bulle-logo{{width:70px}} {P} .cach-bulle .cach-bulle-t{{font-size:8.5px;max-width:78px}} {P} .cach-logo{{width:150px}} }}
 /* /CACH-0511 */
 """
 
@@ -77,7 +83,7 @@ def bloc(lang):
 
 def bulle(lang):
     return (f'{A}<div class="cach-bulle"><span class="cach-bulle-t">{CERT[lang]}</span>'
-            f'<img src="/img/logo-bh-or-300.webp" srcset="/img/logo-bh-or-300.webp 300w, /img/logo-bh-or-600.webp 600w" sizes="(min-width:900px) 94px, 74px" alt="{T[lang][4]}" width="600" height="480"></div>{Z}')
+            f'<span class="cach-bulle-logo" role="img" aria-label="{T[lang][4]}"></span></div>{Z}')
 
 def hero(lang):
     return f'{A}<p class="cach-hero">{T[lang][3]}</p>{Z}'
