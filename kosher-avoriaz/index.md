@@ -2,6 +2,8 @@
 
 Source: https://mishpachatours.com/kosher-avoriaz/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
+>
+
 The Alps
 
 # Avoriaz, strictly kosher *car-free, in the Portes du Soleil*

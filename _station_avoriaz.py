@@ -240,6 +240,8 @@ def page(lang, pre):
     s = sub1(r'<meta property="og:title" content="[^"]*">', f'<meta property="og:title" content="{court}">', s)
     s = sub1(r'<meta property="og:description" content="[^"]*">', f'<meta property="og:description" content="{t["desc"]}">', s)
 
+    # 2b. héros : la vidéo générique des stations (motoneiges) recouvrait la photo d'Avoriaz : attribut retiré, la photo reste (décision 05/11)
+    s = sub1(r'(<section class="hero ac-hero lv-hero-station") data-video="stations"', r"", s)
     # 3. héros : H1, phrase d'altitude (dans le héros ou dans le bloc bn-intro selon la langue)
     s = sub1(r"<h1>.*?</h1>", f"<h1>{t['h1']}</h1>", s)
     if '<p class="hero-sous">' in s:

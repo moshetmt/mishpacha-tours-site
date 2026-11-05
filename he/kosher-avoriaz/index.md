@@ -2,6 +2,8 @@
 
 Source: https://mishpachatours.com/he/kosher-avoriaz/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
+>
+
 האלפים
 
 # אבוריאז, כשר לחלוטין *ללא מכוניות, בלב פורט דו סוליי*
