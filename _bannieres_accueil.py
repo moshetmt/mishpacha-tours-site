@@ -54,6 +54,7 @@ for f in pages():
     if "BN-0511" not in s: continue
     o = s
     s = re.sub(r'<img\s+alt="" fetchpriority="high" src="/img/illus/or/van\.webp"[^>]*>', VAN_PHOTO, s, count=1)
+    if "bn-photo" in s: s = s.replace('<section class="hero lead-hero3 lead-hero3-illus">', '<section class="hero lead-hero3">', 1)  # photo : bannière normale (en-tête transparent)
     if "bn-intro" not in s:
         m = re.search(r'<main[^>]*>\s*<section class="[^"]*"[^>]*>', s); i0 = m.end(); j0 = s.find("</section>", i0); hero = s[i0:j0]
         longs = [q for q in re.findall(r'<p(?:\s+class="(?:hero-sous)?")?>((?:(?!</p>).)*)</p>', hero, re.S) if len(re.sub(r"<[^>]+>", "", q).strip()) > 80]
@@ -73,7 +74,7 @@ CSS = f"""/* ===BN-0511=== bannières au modèle de l'accueil (_bannieres_accuei
 html body.lv:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9) .kwp-photo .kwp-seau{{bottom:12px !important;right:12px !important;width:64px !important;height:64px !important}}
 {H}{{position:relative !important;height:100svh !important;min-height:560px !important;max-height:none !important;padding:0 !important;margin:0 !important;display:flex !important;flex-direction:column !important;justify-content:flex-end !important;align-items:center !important;overflow:hidden !important;background:#111111 !important;border:0 !important}}
 {H}>:is(img,video,picture),{H} .lead3-photo,{H} img.bn-photo{{position:absolute !important;inset:0 !important;width:100% !important;height:100% !important;max-width:none !important;object-fit:cover !important;filter:none !important;border-radius:0 !important;z-index:0 !important;opacity:1 !important;transform:none !important}}
-{H}::before{{content:"" !important;position:absolute !important;inset:0 !important;z-index:1 !important;pointer-events:none;background:{VOILE} !important;opacity:1 !important}}
+{H}::before{{content:"" !important;display:block !important;position:absolute !important;inset:0 !important;top:0 !important;bottom:0 !important;left:0 !important;right:0 !important;width:100% !important;height:100% !important;z-index:1 !important;pointer-events:none;background:{VOILE} !important;opacity:1 !important}}
 {H}::after{{display:none !important}}
 {H} :is(.hero-texte,.lead3-texte){{position:relative !important;z-index:2 !important;width:100% !important;max-width:720px !important;margin:0 auto !important;padding:0 24px 48px !important;text-align:center !important;box-sizing:border-box;background:none !important;inset:auto !important;transform:none !important}}
 {H} .lead3-bloc{{background:none !important;padding:0 !important;margin:0 !important;max-width:none !important;border:0 !important;box-shadow:none !important;backdrop-filter:none !important;-webkit-backdrop-filter:none !important}}
