@@ -217,8 +217,8 @@ def hero(lang):
 # Branches : a sejour complet, b j'ai deja mon logement, c van, d Lyon, e fete, f autre. Trois ecrans pour toutes.
 ALPES = ["ou", "quand", "qui", "services", "extras", "minyan", "budget", "final"]   # 03/11 : plus d'ecran « projet », Alpes par defaut
 BESOINS_B = ["ou", "quand", "qui", "besoins", "final"]   # 04/11 : b = « j'ai deja mon logement » ; lien prerempli (i=b, lieu, arrivee) : ou et quand sautes, 3 ecrans
-PATHS = {"a": ALPES, "b": BESOINS_B, "e": ALPES, "c": ["trajet", "quandvan", "qui", "budget", "final"],
-         "d": ["lyon", "qui", "budget", "final"], "f": ["message", "ou", "quand", "qui", "budget", "final"]}
+PATHS = {"a": ALPES, "b": BESOINS_B, "e": ALPES, "c": ["trajet", "quandvan", "qui", "final"],
+         "d": ["lyon", "qui", "final"], "f": ["message", "ou", "quand", "qui", "budget", "final"]}   # 05/11 : ecran « Autre chose ? » vide retire pour c et d (la case message est sur l'ecran final)
 # prix de depart d'un chalet par station (« a partir de » publies sur /kosher-chalets/, semaine en basse saison) ; autres stations : 9 500 (le plus bas publie)
 FETES_NOMS = {'Pesach in the Alps': ('Pesach', 'Pessah', 'Pésaj', 'פסח'), 'Hanukkah in the Alps': ('Hanukkah', 'Hanoucca', 'Janucá', 'חנוכה'), 'Sukkot': ('Sukkot', 'Souccot', 'Sucot', 'סוכות'), 'Rosh Hashanah and Yom Kippur': ('Rosh Hashanah and Yom Kippur', 'Roch Hachana et Yom Kippour', 'Rosh Hashaná y Yom Kipur', 'ראש השנה ויום כיפור'), 'Purim': ('Purim', 'Pourim', 'Purim', 'פורים'), 'Shavuot': ('Shavuot', 'Chavouot', 'Shavuot', 'שבועות')}
 CHALET_BASE = {"Val Thorens": 9500, "Les Menuires": 9500, "Les Deux Alpes": 13000, "Courchevel": 17500, "Megève": 23500}
@@ -650,11 +650,12 @@ function show(id,push,focus){var p=sync();if(p.indexOf(id)<0)id=p[0];
  var oi=p.indexOf(cur),ni=p.indexOf(id);f.setAttribute('data-dir',ni<oi?'back':'fwd');
  cur=id;render();
  dl.push({event:'form_step',step:cur,step_index:p.indexOf(cur)+1,branch:branch()});
- if(push){try{history.pushState({e:cur},'','#e-'+cur)}catch(x){}}
+ if(push){try{history.pushState({e:cur},'','#e-'+cur);hd++}catch(x){}}
  if(focus){var h=document.querySelector('.pf-etape[data-e="'+cur+'"] h2:not([hidden])');if(h)h.focus({preventScroll:true});
   var r=f.getBoundingClientRect();if(r.top<0||r.top>200)window.scrollTo({top:window.pageYOffset+r.top-90,behavior:'smooth'})}}
 function next(){if(ret){var r=ret;ret='';if(reskip){skip=true;reskip=false}show(r,true,true);return}var p=path(),i=p.indexOf(cur);if(i>=0&&i<p.length-1)show(p[i+1],true,true)}
-function back(){var p=path(),i=p.indexOf(cur);if(i>0)show(p[i-1],true,true)}
+/* 05/11 : Retour = historique du navigateur quand l'ecran precedent y est, pour que le bouton retour du telephone ne ramene pas en avant */
+var hd=0;function back(){var p=path(),i=p.indexOf(cur);if(i<=0)return;if(hd>0&&history.state&&history.state.e===cur){history.back()}else show(p[i-1],true,true)}
 bNext.addEventListener('click',next);bBack.addEventListener('click',back);
 f.addEventListener('click',function(ev){
  var sg=ev.target.closest&&ev.target.closest('.pf-auto button');if(sg){var inp=document.getElementById(sg.parentNode.getAttribute('data-for')),v=sg.getAttribute('data-v'),segs=inp.value.split(/,\s*/);
@@ -685,9 +686,12 @@ function onchg(ev){var t=ev.target;
  /* un toucher, passage automatique quand la reponse ne demande rien de plus */
  if(ev.type==='change'&&ev.isTrusted&&t.checked){var en=t.getAttribute('data-en');
   if(t.name==='minyan_niveau'&&(en==='Not needed'||en==='Not sure, advise me'))setTimeout(next,mo()?380:120);
-  if(t.name==='budget_avis'&&en!=='Below this')setTimeout(next,mo()?900:500)}}
+  /* 05/11 (Moshe) : plus de passage automatique sur l'ecran budget, les deux cases de montant sont sur le meme ecran */}}
+/* 05/11 (Moshe) : retoucher un choix unique deja coche le decoche (les bascules .pf-seg gardent toujours une valeur) */
+var rWas=null;f.addEventListener('pointerdown',function(ev){var l=ev.target.closest&&ev.target.closest('label.pf-c,label.pf-niv');var i=l&&l.querySelector('input[type=radio]');rWas=i&&i.checked?i:null},true);
+f.addEventListener('click',function(ev){var l=ev.target.closest&&ev.target.closest('label.pf-c,label.pf-niv');if(!l||!rWas)return;var i=l.querySelector('input[type=radio]');if(i!==rWas)return;rWas=null;setTimeout(function(){i.checked=false;i.dispatchEvent(new Event('change',{bubbles:true}))},0)},true);
 f.addEventListener('change',onchg);f.addEventListener('input',onchg);
-window.addEventListener('popstate',function(ev){var id=ev.state&&ev.state.e;show(id||path()[0],false,true)});
+window.addEventListener('popstate',function(ev){hd=Math.max(0,hd-1);var id=ev.state&&ev.state.e;show(id||path()[0],false,true)});
 f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  if(cur!=='final'){if(!bNext.disabled)next();return}
  if(f.elements.societe&&f.elements.societe.value){location.href=C.merci;return}
