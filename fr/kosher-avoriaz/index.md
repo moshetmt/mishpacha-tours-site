@@ -2,8 +2,6 @@
 
 Source: https://mishpachatours.com/fr/kosher-avoriaz/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
->
-
 Les Alpes
 
 # Avoriaz, strictement casher *sans voitures, au cœur des Portes du Soleil*
