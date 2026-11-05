@@ -69,8 +69,8 @@ print("2e passe (van, paragraphes longs) :", n2)
 
 P = "html body.lv.bn" + "".join(f":not(#b{i})" for i in range(1, 13))
 H = f"{P} main>section:is(.lv-hero-station,.lead-hero3,.lv-hero-photo,.hero)"
-VOILE = "linear-gradient(180deg,rgba(0,0,0,.30) 0,rgba(0,0,0,0) 120px),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,.42) 52%,rgba(0,0,0,.68) 72%,rgba(0,0,0,.74) 100%)"
-VOILE_STATION = "linear-gradient(180deg,rgba(0,0,0,.30) 0,rgba(0,0,0,0) 120px),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.52) 52%,rgba(0,0,0,.76) 70%,rgba(0,0,0,.82) 100%)"
+VOILE = "linear-gradient(180deg,rgba(0,0,0,.62) 0,rgba(0,0,0,.40) 70px,rgba(0,0,0,0) 160px),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,.42) 52%,rgba(0,0,0,.68) 72%,rgba(0,0,0,.74) 100%)"
+VOILE_STATION = "linear-gradient(180deg,rgba(0,0,0,.62) 0,rgba(0,0,0,.40) 70px,rgba(0,0,0,0) 160px),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.52) 52%,rgba(0,0,0,.76) 70%,rgba(0,0,0,.82) 100%)"
 CSS = f"""/* ===BN-0511=== bannières au modèle de l'accueil (_bannieres_accueil.py) */
 html body.lv:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9) .kwp-photo .kwp-seau{{bottom:12px !important;right:12px !important;width:64px !important;height:64px !important}}
 {H}{{position:relative !important;height:100svh !important;min-height:560px !important;max-height:none !important;padding:0 !important;margin:0 !important;display:flex !important;flex-direction:column !important;justify-content:flex-end !important;align-items:center !important;overflow:hidden !important;background:#111111 !important;border:0 !important}}
@@ -91,6 +91,7 @@ html body.lv:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(
 {H} .lead3-wa{{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;font-size:13px !important;text-decoration:underline !important;text-underline-offset:3px}}
 {H} .lead3-wa svg{{fill:#FFFFFF !important}}
 {H} form.chercheur{{margin:22px auto 0 !important;max-width:420px}}
+{P} .nav .wp-pw2{{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}}
 {P} .bn-fil{{padding:14px 20px 0 !important}}
 {P} .bn-intro{{padding:20px 20px 0 !important}}
 {P} .bn-intro p{{margin:0 0 12px !important;font:300 17px/1.6 'Jost',sans-serif !important;color:#111111 !important;-webkit-text-fill-color:#111111 !important;text-transform:none !important;letter-spacing:0 !important;max-width:62ch}}
