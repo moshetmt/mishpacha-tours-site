@@ -19,6 +19,7 @@ LAB_NEW["shabbat_niveau"] = ("Shabbat meals", "Repas de Chabbat", "Comidas de Sh
 LAB_NEW["eruv_niveau"] = ("Eruv and mikveh", "Érouv et mikvé", "Eruv y mikve", "עירוב ומקווה")
 LAB_NEW["mois"] = ("Months", "Mois", "Meses", "חודשים")
 LAB_NEW["budget_pp"] = ("Budget per adult per night", "Budget par adulte et par nuit", "Presupuesto por adulto y por noche", "תקציב למבוגר ללילה")
+LAB_NEW["garde"] = ("Childcare", "Garde d'enfants", "Cuidado de niños", "שמרטפות")   # 05/11 : demande de Mendel, service a confirmer (ni prix ni promesse)
 LAB_NEW["budget_fit"] = ("Budget fit", "Adéquation du budget", "Ajuste del presupuesto", "התאמת התקציב")   # 03/11 : ligne ajoutee au message, ignoree par fiche_() de Code.gs (libelle inconnu = resume seulement)
 LOCALE = {"en": "en-GB", "fr": "fr-FR", "es": "es-ES", "he": "he-IL"}
 MERCI = {"en": "/merci/", "fr": "/fr/merci/", "es": "/es/merci/", "he": "/he/merci/"}
@@ -39,6 +40,14 @@ NEUF = {
     "A few more things": ("Encore quelques points", "Algunas cosas más", "עוד כמה דברים"),
     "Which holiday?": ("Quelle fête ?", "¿Qué fiesta?", "איזה חג?"),
     "Continue": ("Continuer", "Continuar", "המשיכו"),
+    "Childcare / nanny": ("Garde d'enfants / nounou", "Niñera / cuidado de niños", "בייביסיטר / שמרטפות"),
+    "Suggested budget: {pp1} to {pp2} per adult per night, that is {t1} to {t2} in total": ("Budget proposé : {pp1} à {pp2} par adulte et par nuit, soit {t1} à {t2} au total", "Presupuesto propuesto: {pp1} a {pp2} por adulto y por noche, es decir {t1} a {t2} en total", "תקציב מוצע: {pp1} עד {pp2} למבוגר ללילה, כלומר {t1} עד {t2} בסך הכול"),
+    "Suggested budget: about {pp1} per adult per night, that is about {t1} in total": ("Budget proposé : environ {pp1} par adulte et par nuit, soit environ {t1} au total", "Presupuesto propuesto: unos {pp1} por adulto y por noche, es decir unos {t1} en total", "תקציב מוצע: כ-{pp1} למבוגר ללילה, כלומר כ-{t1} בסך הכול"),
+    "The first without options, the second with all your choices.": ("Le premier sans options, le second avec tous vos choix.", "El primero sin opciones, el segundo con todo lo que eligió.", "הראשון בלי תוספות, השני עם כל מה שבחרתם."),
+    "1 adult": ("1 adulte", "1 adulto", "מבוגר אחד"),
+    "{a} adults": ("{a} adultes", "{a} adultos", "{a} מבוגרים"),
+    "Compared with this, your budget is:": ("Par rapport à ce budget, le vôtre est :", "Comparado con este presupuesto, el suyo está:", "ביחס לתקציב הזה, התקציב שלכם:"),
+    "* Required": ("* Obligatoire", "* Obligatorio", "* שדה חובה"),
     "Per adult, per night": ("Par adulte et par nuit", "Por adulto y por noche", "למבוגר ללילה"),
     "Total for the stay": ("Total du séjour", "Total de la estancia", "סך הכול לשהות"),
     "Adults: {a} · nights: {n} · children not counted": ("Adultes : {a} · nuits : {n} · enfants non comptés", "Adultos: {a} · noches: {n} · sin contar a los niños", "מבוגרים: {a} · לילות: {n} · בלי הילדים"),
@@ -225,7 +234,7 @@ CHALET_BASE = {"Val Thorens": 9500, "Les Menuires": 9500, "Les Deux Alpes": 1300
 STATIONS_PRINC = ["Courchevel", "Val Thorens", "Les Menuires", "Tignes", "Megève", "Les Deux Alpes", "Val d'Isère", "Alpe d'Huez", "Chamonix", "Les Arcs", "La Plagne"]
 STATIONS_HE = {"Courchevel": "קורשבל", "Val Thorens": "ואל טורנס", "Tignes": "טין", "Les Menuires": "לה מנואר", "Megève": "מג'ב", "Les Deux Alpes": "לה דז אלפ", "Val d'Isère": "ואל דיזר",
                "Alpe d'Huez": "אלפ ד'ואז", "Chamonix": "שמוני", "Les Arcs": "לז ארק", "La Plagne": "לה פלאן"}
-LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "aller_retour", "arrivee", "creneau", "depart", "heure", "retour_date", "retour_heure", "flexible", "mois", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
+LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "aller_retour", "arrivee", "creneau", "depart", "heure", "retour_date", "retour_heure", "flexible", "mois", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "garde", "hommes", "bagages",
              "logement", "chambres", "sdb", "logement_opt", "repas", "repas_jours", "allergies", "cacherout", "cacherout_detail", "minyan_niveau", "torah_niveau", "shabbat_niveau", "eruv_niveau", "religieux", "rite", "aeroport", "vol_ville", "vols_pris", "vol", "transport",
              "ski", "niveau", "lyon", "langue_visite", "extras", "budget_total", "budget_pp", "budget_fit", "budget", "budget_vols", "priorites", "message", "ville", "urgence", "pour_qui"]
 INDICATIFS = '<option value="">{code}</option>' + "".join(f'<option value="{v}">{v} {c}</option>' for v, c in [
@@ -326,6 +335,7 @@ def formulaire(lang):
            ages("enfants", "Ages of the children", "9 and 12", [(str(n),) for n in range(2, 18)]) +
            compteur("bebes", "Babies") + ages("bebes", "Ages of the babies", "10 months", ["3 months", "6 months", "1 year", "18 months", "2 years"]) +
            '<div class="pf-mat cache" data-for="bebes">' + chips("bebe_materiel", ["Baby cots", "High chairs", "Car seats"], cls="pf-flow") + "</div>" +
+           '<div class="pf-mat cache" data-for="enfants bebes">' + chips("garde", ["Childcare / nanny"], cls="pf-flow") + "</div>" +
            compteur("familles", "Families or households", b="abef", v=1) +
            compteur("chambres", "Bedrooms", b="a") +
            f'<div data-b="c">{sous("Luggage and equipment")}' + chips("bagages", ["Large suitcases", "Cabin bags only", "Skis or snowboards", "Baby seats or boosters", "Wheelchair or walker"], cls="pf-flow") + "</div>")
@@ -382,7 +392,7 @@ def formulaire(lang):
                bchip("ski", "Ski passes", "Ski passes", px(), sa="w") + "</div>")
     # ---- Budget : phrase personnalisee, details en mots, un toucher pour situer son budget, champ libre facultatif
     budget = (f'<div data-b="abe"><p class="pf-perso" id="dm-perso" aria-live="polite"></p><ul class="pf-notes" id="dm-notes"></ul>' +
-              '<div class="pf-avis" id="dm-avis">' + chips("budget_avis", ["Below this", "Around this", "Above this", "I'd rather discuss it"], multi=False) + "</div>" +
+              '<p class="pf-rnote" id="dm-rnote" hidden></p><div class="pf-avis" id="dm-avis">' + f'<p class="pf-sous pf-avis-t">{E("Compared with this, your budget is:")}</p>' + chips("budget_avis", ["Below this", "Around this", "Above this", "I'd rather discuss it"], multi=False) + "</div>" +
               f'<p class="pf-fit" id="dm-fit" role="status" hidden></p>' +
               f'<p class="pf-ess" id="dm-ess" hidden><button type="button" class="pf-ess-b" id="dm-ess-b" data-a="{E("Switch to the essentials")}" data-u="{E("Undo")}">{E("Switch to the essentials")}</button></p></div>' +
               f'<div class="pf-bbloc"{battr("abef")}><div class="pf-bdeux">' +
@@ -425,7 +435,7 @@ def formulaire(lang):
         champ("adresse", "adresse", "Address or name of the accommodation", ph="Chalet Le Sapin, 12 route du Lac", b="b") +
         champ("email", "email", "Email (optional)", typ="email", extra=' autocomplete="email"') +
         zone("message-fin", "message", "Anything else we should know", "Anything that helps: a baby, a late arrival, a special diet.", b="abcde") +
-        '<p class="pf-resume" id="dm-resume" hidden></p>')
+        f'<p class="pf-oblig">{E("* Required")}</p><p class="pf-resume" id="dm-resume" hidden></p>')
     S.append(etape("final", "Your contact", "We answer you on WhatsApp the same day.", contact + f'<p class="pf-erreur" id="dm-erreur" hidden>{esc(JSX[lang]["err"])}</p>', "pf-contact"))
 
     prog = (f'<div class="pf-prog" id="dm-prog"><button type="button" class="pf-retour" id="dm-back" hidden aria-label="{E("Back")}"><span aria-hidden="true"></span>{E("Back")}</button>'
@@ -470,9 +480,9 @@ function sync(){var b=branch(),p=path();
  [].forEach.call(f.querySelectorAll('[data-si]'),function(n){n.hidden=!siOk(n.getAttribute('data-si'))});
  ctrls.forEach(function(e){var ok=p.indexOf(e.scr)>=0||(skip&&b==='b'&&(e.scr==='ou'||e.scr==='quand'));
   if(ok){var n=e.parentNode;while(n&&n!==f){if(n.getAttribute&&((n.getAttribute('data-b')&&n.getAttribute('data-b').indexOf(b)<0)||((n.getAttribute('data-s')||n.getAttribute('data-si'))&&n.hidden))){ok=false;break}n=n.parentNode}}
-  if(ok){var w=e.closest('[data-for]');if(w){var ci=f.querySelector('input[name="'+w.getAttribute('data-for')+'"]');if(!(parseInt(ci.value,10)>0))ok=false}}
+  if(ok){var w=e.closest('[data-for]');if(w&&!w.classList.contains('pf-auto')&&!enf(w))ok=false}
   e.disabled=e.name==='intention'?false:!ok});
- [].forEach.call(f.querySelectorAll('.pf-ages,.pf-mat'),function(w){var i=f.querySelector('input[name="'+w.getAttribute('data-for')+'"]');w.classList.toggle('cache',!(parseInt(i.value,10)>0))});
+ [].forEach.call(f.querySelectorAll('.pf-ages,.pf-mat'),function(w){w.classList.toggle('cache',!enf(w))});
  return p}
 function raw0(n){var e=ctrls.filter(function(x){if(x.name!==n||!x.value)return false;var w=x.closest('[data-b]');return !w||w.getAttribute('data-b').indexOf(branch())>=0})[0];return e?e.value:''}
 function els(n){return ctrls.filter(function(e){return e.name===n&&!e.disabled})}
@@ -536,10 +546,17 @@ function estim(){var nn=nights(),wk=false;if(!(nn>0)){nn=7;wk=true}var s={},dem=
  if(s.chef)e+=P.chef*nn;else{if(s.livre)e+=P.soir*p*nn+P.livraison*Math.ceil(nn/2);if(s.shabbat)e+=P.shabbat*p*nshab(nn)}
  if(s.lyon)e+=P.lyon;
  return {e:Math.floor(e),dem:dem,nn:nn,wk:wk,s:s}}
+/* 05/11 (Moshe) : fourchette proposee, sans options (chalet + repas de Chabbat) et avec tout ce qui est choisi, par adulte et par nuit et au total */
+function calc(s,nn){var P=C.prix,p=pers(),e=0;if(s.chalet)e+=chaletBase()*nn/7;if(s.chef)e+=P.chef*nn;else{if(s.livre)e+=P.soir*p*nn+P.livraison*Math.ceil(nn/2);if(s.shabbat)e+=P.shabbat*p*nshab(nn)}if(s.lyon)e+=P.lyon;return Math.floor(e)}
+function rng(){var es=estim(),s=es.s,lo=calc({chalet:s.chalet,shabbat:(s.chef||s.livre||s.shabbat)?1:0},es.nn);return {lo:Math.min(lo,es.e),hi:es.e,nn:es.nn,a:Math.max(1,num('adultes')),es:es}}
+function rond(x){return x<1000?Math.floor(x/100)*100:Math.floor(x/500)*500}
+function cmp(b){var R=rng();if(!R.hi)return '';return b<R.lo*.9?'below':b<=R.hi*1.1?'around':'above'}
+/* bloc affiche si au moins un des compteurs nommes dans data-for (separes par des espaces) est > 0 */
+function enf(w){return w.getAttribute('data-for').split(' ').some(function(n){var i=f.querySelector('input[name="'+n+'"]');return i&&parseInt(i.value,10)>0})}
 var AV={'Below this':'below','Around this':'around','Above this':'above',"I'd rather discuss it":'discuss'};
 function avisK(){var r=els('budget_avis').filter(function(e){return e.checked})[0];return r?AV[r.getAttribute('data-en')]:''}
 /* « Budget fit » : la reponse touchee (below / around / above / discuss) ; sans toucher, le montant saisi compare a l'estimation (>= 110 % above, >= 90 % around, sinon below) */
-function fitK(){if('abe'.indexOf(branch()||'x')<0)return '';var a=avisK();if(a)return a;var es=estim(),b=bnum(raw('budget_total'));if(!es.e||b<1000)return '';var r=b/es.e;return r>=1.1?'above':r>=.9?'around':'below'}
+function fitK(){if('abe'.indexOf(branch()||'x')<0)return '';var a=avisK();if(a)return a;var es=estim(),b=bnum(raw('budget_total'));if(!es.e||b<1000)return '';return cmp(b)}
 function liste(a){if(a.length<2)return a.join('');return a.slice(0,-1).join(', ')+C.t.et+a[a.length-1]}
 function occupe(){var hol=ctrls.some(function(e){return e.name==='voyage'&&e.checked&&/Hanukkah|Pesach/.test(e.getAttribute('data-en'))});
  var mois=ctrls.some(function(e){return e.name==='mois'&&e.checked&&!e.disabled&&/December|February/.test(e.getAttribute('data-en'))});
@@ -554,8 +571,13 @@ function majBudget(){var el=document.getElementById('dm-perso');if(!el)return;va
  var sv=['chalet','chef','livre','shabbat','lyon'].filter(function(k){return es.s[k]}).map(function(k){return C.t['s_'+k]});
  el.textContent='';
  if(es.e>=1e5)el.textContent=C.t.large;
- else{var tpl=(es.e>0?C.t.perso:C.t.perso0).replace('{g}',g).replace('{n}',nuits).replace('{p}',lieu).replace('{s}',liste(sv)),x=es.e<1000?Math.floor(es.e/100)*100:Math.floor(es.e/500)*500,pt=tpl.split('{x}');
-  el.appendChild(document.createTextNode(pt[0]));if(pt.length>1){bdi(el,x.toLocaleString(C.loc)+' €');el.appendChild(document.createTextNode(pt[1]+(es.dem?C.t.dem:'')))}}
+ else if(!(es.e>0)){el.textContent=C.t.perso0.replace('{g}',g).replace('{n}',nuits).replace('{p}',lieu)}
+ else{var R=rng(),an=R.a*R.nn,deux=rond(R.lo)<rond(R.hi),eu=function(x){return x.toLocaleString(C.loc)+' €'},
+   M={qui:R.a===1?C.t.adulte1:C.t.adultesN.replace('{a}',R.a),n:nuits,p:lieu,pp1:eu(Math.max(10,Math.floor(R.lo/an/10)*10)),pp2:eu(Math.max(10,Math.floor(R.hi/an/10)*10)),t1:eu(rond(R.lo)),t2:eu(rond(R.hi))};
+  if(!deux){M.pp1=M.pp2;M.t1=M.t2}
+  (deux?C.t.rng2:C.t.rng1).split(/(\{\w+\})/).forEach(function(x){var m=/^\{(\w+)\}$/.exec(x);if(m&&M[m[1]]!==undefined){if(/^(pp1|pp2|t1|t2)$/.test(m[1]))bdi(el,M[m[1]]);else el.appendChild(document.createTextNode(M[m[1]]))}else el.appendChild(document.createTextNode(x))});
+  el.appendChild(document.createTextNode(es.dem?C.t.dem:''))}
+ var rn=document.getElementById('dm-rnote');if(rn){var R2=es.e>0&&es.e<1e5?rng():null;rn.hidden=!(R2&&rond(R2.lo)<rond(R2.hi));rn.textContent=rn.hidden?'':C.t.rnote}
  ul.textContent='';var notes=[];if(occupe())notes.push(C.t.n_occupe);if(stSel().some(function(x){return x==='Courchevel'||x==='Megève'}))notes.push(C.t.n_station);if(g>=10)notes.push(C.t.n_groupe);
  notes.forEach(function(t){var li=document.createElement('li');li.textContent=t;ul.appendChild(li)});
  var bc=document.getElementById('dm-bcalc');if(bc)bc.textContent=C.t.bcalc.replace('{a}',Math.max(1,num('adultes'))).replace('{n}',es.nn);
@@ -680,7 +702,7 @@ function onchg(ev){var t=ev.target;
  if(t.name==='budget_total'||t.name==='budget_pp'){var es0=estim(),A0=Math.max(1,num('adultes')),N0=es0.nn||7,ppI=f.elements.budget_pp,tI=f.elements.budget_total;
   if(t.name==='budget_pp'){var pv=bnum(t.value);tI.value=pv>0?String(pv*A0*N0):''}else if(ppI){var tv=bnum(t.value);ppI.value=tv>0?String(Math.round(tv/(A0*N0))):''}
   var bn=bnum(tI.value),bh=document.getElementById('dm-bhint');if(bh)bh.hidden=!(t.name==='budget_total'&&bn>0&&bn<1000);
-  if(bn>=1000&&es0.e){var r0=bn/es0.e,k0=r0>=1.1?'Above this':r0>=.9?'Around this':'Below this';els('budget_avis').forEach(function(e){e.checked=(e.getAttribute('data-en')===k0)})}}
+  if(bn>=1000&&es0.e){var k0={below:'Below this',around:'Around this',above:'Above this'}[cmp(bn)];els('budget_avis').forEach(function(e){e.checked=(e.getAttribute('data-en')===k0)})}}
  render();
  if(ev.type==='change'&&ev.isTrusted&&t.checked&&Date.now()-ptr<800){var lb=t.closest&&t.closest('.pf-c,.pf-tl,.pf-niv');if(lb)flash(lb)}
  /* un toucher, passage automatique quand la reponse ne demande rien de plus */
@@ -762,7 +784,7 @@ def js(lang):
            "lab": [[k, lab[k]] for k in LAB_ORDER], "labEn": [[k, lab_en[k]] for k in LAB_ORDER],
            "k": {"tour": JSX[lang]["tour"], "none": JSX[lang]["none"], "datesj": JSX[lang]["datesj"], "adultes": JSX[lang]["adultes"], "enfants": JSX[lang]["enfants"],
                  "bebes": JSX[lang]["bebes"], "logementB": T("Already booked, I need services only")},
-           "prix": PRIX_N, "t": {"step": T("Step {n} of {t}"), "bcalc": T("Adults: {a} · nights: {n} · children not counted"), "bchalet": T("For this stay, a private chalet starts at about {x} €. We suggest the kosher meals instead."), "invites": T("{n} guests"), "edit": T("Edit"), "change": T("Change"), "perso": T("For your {g} guests, {n} {p}, with {s}, plan from about {x}"), "perso0": T("For your {g} guests, {n} {p}. Add services to see a starting price."), "large": T("Your selection is a large project: we will build it with you."), "dem": T(", plus services on request"), "dans": T("in {p}"), "alpes": T("in the Alps"), "ou": T(" or "), "et": T(" and "), "semaine": T("a week"), "s_chalet": T("a chalet"), "s_chef": T("a private chef"), "s_livre": T("delivered meals"), "s_shabbat": T("the Shabbat meals"), "s_lyon": T("the Lyon tour"), "n_occupe": T("A very busy period: the best chalets go early."), "n_station": T("One of the most sought-after resorts in the Alps."), "n_groupe": T("For a large group we combine chalets."), "f_below": T("We'll focus on what matters most: your kosher meals. Many families book their own apartment, and we take care of the meals, Shabbat and the minyan."), "torah": T("Sefer Torah in the chalet"), "k_below_p": T("below (essentials proposed)"), "k_below_c": T("below (essentials chosen)"), "p_chef": T("delivered meals instead of a private chef"), "p_station": T("a resort with lower prices, such as Val Thorens"), "p_appart": T("an apartment instead of a private chalet"), "p_court": T("a shorter stay or fewer services"), "f_around": T("Perfect: we will build your stay around this."), "f_above": T("Wonderful: we can add every comfort you wish."), "f_discuss": T("We'll talk it through on WhatsApp."), "k_below": T("below"), "k_around": T("around"), "k_above": T("above"), "k_discuss": T("discuss"), "estimate": T("estimate"),"nuits": T("{n} nights"), "nuit": T("1 night"), "sending": T("Sending…"), "ko": KO}}
+           "prix": PRIX_N, "t": {"step": T("Step {n} of {t}"), "rng2": T("Suggested budget: {pp1} to {pp2} per adult per night, that is {t1} to {t2} in total"), "rng1": T("Suggested budget: about {pp1} per adult per night, that is about {t1} in total"), "rnote": T("The first without options, the second with all your choices."), "adulte1": T("1 adult"), "adultesN": T("{a} adults"), "bcalc": T("Adults: {a} · nights: {n} · children not counted"), "bchalet": T("For this stay, a private chalet starts at about {x} €. We suggest the kosher meals instead."), "invites": T("{n} guests"), "edit": T("Edit"), "change": T("Change"), "perso": T("For your {g} guests, {n} {p}, with {s}, plan from about {x}"), "perso0": T("For your {g} guests, {n} {p}. Add services to see a starting price."), "large": T("Your selection is a large project: we will build it with you."), "dem": T(", plus services on request"), "dans": T("in {p}"), "alpes": T("in the Alps"), "ou": T(" or "), "et": T(" and "), "semaine": T("a week"), "s_chalet": T("a chalet"), "s_chef": T("a private chef"), "s_livre": T("delivered meals"), "s_shabbat": T("the Shabbat meals"), "s_lyon": T("the Lyon tour"), "n_occupe": T("A very busy period: the best chalets go early."), "n_station": T("One of the most sought-after resorts in the Alps."), "n_groupe": T("For a large group we combine chalets."), "f_below": T("We'll focus on what matters most: your kosher meals. Many families book their own apartment, and we take care of the meals, Shabbat and the minyan."), "torah": T("Sefer Torah in the chalet"), "k_below_p": T("below (essentials proposed)"), "k_below_c": T("below (essentials chosen)"), "p_chef": T("delivered meals instead of a private chef"), "p_station": T("a resort with lower prices, such as Val Thorens"), "p_appart": T("an apartment instead of a private chalet"), "p_court": T("a shorter stay or fewer services"), "f_around": T("Perfect: we will build your stay around this."), "f_above": T("Wonderful: we can add every comfort you wish."), "f_discuss": T("We'll talk it through on WhatsApp."), "k_below": T("below"), "k_around": T("around"), "k_above": T("above"), "k_discuss": T("discuss"), "estimate": T("estimate"),"nuits": T("{n} nights"), "nuit": T("1 night"), "sending": T("Sending…"), "ko": KO}}
     assert set(LAB_ORDER) >= set(LAB[lang]), set(LAB[lang]) - set(LAB_ORDER)
     return JS_TPL.replace("__CFG__", json.dumps(cfg, ensure_ascii=False))
 
@@ -1197,11 +1219,23 @@ P .pf-bchalet[hidden]{display:none}
   P #e-budget .pf-avis .pf-c{min-height:46px;padding:9px 14px}
 }
 @media (max-width:699px) and (max-height:620px){
-  P #e-budget .pf-perso{font-size:15px;line-height:1.4}
+  P #e-budget .pf-perso{font-size:15px;line-height:1.33}
+  P #e-budget .pf-bcalc{margin-top:2px}
   P #e-budget .pf-notes li{font-size:12.5px}
-  P #e-budget .pf-avis .pf-c{min-height:42px;padding:8px 12px}
+  P #e-budget .pf-avis .pf-c{min-height:40px;padding:6px 12px}
   P #e-budget .pf-fit,P #e-budget .pf-bchalet{font-size:13px;line-height:1.4}
   P #e-budget .pf-bdeux .pf-champ input{min-height:38px}
+}
+P .pf-champ:has(:is(input,select)[required])>label::after,P #dm-accord label>span:first-of-type::after{content:" *";color:#7A6440}
+P .pf-oblig{margin:8px 0 0;font-size:12px;color:#6B6B6B}
+P .pf-rnote{margin:6px 0 0;font-size:13px;line-height:1.4;color:#5B3A29}
+P .pf-rnote[hidden]{display:none}
+P .pf-avis-t{margin:14px 0 8px!important}
+P .pf-avis[hidden] .pf-avis-t{display:none}
+@media (max-width:699px) and (max-height:620px){
+  P #e-budget .pf-avis-t{display:none}
+  P #e-budget .pf-rnote{font-size:12px;margin-top:4px}
+  P #e-budget .pf-notes{margin-top:6px}
 }
 P .pf-bhint{margin:6px 0 0;font-size:13px;line-height:1.4;color:#5B3A29}
 P .pf-bhint[hidden]{display:none}
