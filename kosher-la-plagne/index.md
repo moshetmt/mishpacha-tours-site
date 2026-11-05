@@ -29,7 +29,7 @@ It joins Les Arcs in the 425 km Paradiski area. We organise your kosher stay: pr
 - **A minyan and a Sefer Torah.** The size of a minyan depends on how many families are in the resort that week. Give us your dates and we group the families who write to us.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad, Hebrew-speaking guests included, are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.
 
-Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the hashgacha is by Beth Habad Grenoble-Alpes. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
+Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the kitchen is certified kosher by Beth Habad Grenoble-Alpes. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
 
 We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
@@ -138,7 +138,7 @@ Yes, on request. Hanukkah candles, a Megillah reading and a Purim meal, Pesach m
 
 Who supervises the food?
 
-Our kosher team based in the Alps cooks under the Chabad network of the Alps. The hashgacha is by Beth Habad Grenoble-Alpes.
+Our kosher team based in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes.
 
 ## Prefer a whole chalet? *Our kosher chalets*
 

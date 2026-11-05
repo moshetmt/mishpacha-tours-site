@@ -31,14 +31,19 @@ PHRASES = [
     (r"The chef prepares the Shabbat meals and the holidays (in|at) the villa\.", lambda m: f"The chef cooks your weekday, Shabbat and holiday meals {m.group(1)} the villa."),
     (r"El chef prepara en la villa las comidas de Shabat y de las fiestas\.", lambda m: "El chef prepara en la villa sus comidas de la semana, de Shabat y de las fiestas."),
     (r"השף מכין בווילה את סעודות השבת והחגים\.", lambda m: "השף מכין בווילה את הארוחות שלכם בימי החול, בשבת ובחגים."),
+    # 05/11 soir (Moshe : « bien utiliser la terminologie ») : « la hashgaha est celle du » -> « certifie cacher par »
+    (r"([Ll])a hashgaha est celle du Beth Habad de Grenoble-Alpes\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes."),
+    (r"([Tt])he hashgacha is by Beth Habad Grenoble-Alpes\.", lambda m: ("T" if m.group(1) == "T" else "t") + "he kitchen is certified kosher by Beth Habad Grenoble-Alpes."),
+    (r"([Ll])a hashgajá es del Beth Habad Grenoble-Alpes\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cocina está certificada kosher por el Beth Habad Grenoble-Alpes."),
+    (r"ההשגחה היא של בית חב״ד גרנובל-אלפים\.", lambda m: "המטבח בהשגחת בית חב״ד גרנובל-אלפים."),
 ]
 SURV = [  # pages au sceau seulement
-    (r"(?i)(t)he supervision details come in writing with your quote\.", lambda m: ("T" if m.group(1) == "T" else "t") + "he hashgacha is by Beth Habad Grenoble-Alpes."),
-    (r"Le détail de la surveillance rabbinique vous est remis par écrit avec le devis\.", lambda m: "La hashgaha est celle du Beth Habad de Grenoble-Alpes."),
-    (r"le détail de la surveillance rabbinique vous est remis par écrit avec le devis\.", lambda m: "la hashgaha est celle du Beth Habad de Grenoble-Alpes."),
-    (r"([Ll])es détails de la surveillance figurent par écrit dans votre devis\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a hashgaha est celle du Beth Habad de Grenoble-Alpes."),
-    (r"([Ll])os detalles de la supervisión se entregan por escrito con el presupuesto\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a hashgajá es del Beth Habad Grenoble-Alpes."),
-    (r"פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר\.", lambda m: "ההשגחה היא של בית חב״ד גרנובל-אלפים."),
+    (r"(?i)(t)he supervision details come in writing with your quote\.", lambda m: ("T" if m.group(1) == "T" else "t") + "he kitchen is certified kosher by Beth Habad Grenoble-Alpes."),
+    (r"Le détail de la surveillance rabbinique vous est remis par écrit avec le devis\.", lambda m: "La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes."),
+    (r"le détail de la surveillance rabbinique vous est remis par écrit avec le devis\.", lambda m: "la cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes."),
+    (r"([Ll])es détails de la surveillance figurent par écrit dans votre devis\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes."),
+    (r"([Ll])os detalles de la supervisión se entregan por escrito con el presupuesto\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cocina está certificada kosher por el Beth Habad Grenoble-Alpes."),
+    (r"פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר\.", lambda m: "המטבח בהשגחת בית חב״ד גרנובל-אלפים."),
 ]
 
 def titres(t):

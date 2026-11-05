@@ -37,7 +37,7 @@ El chalet acoge hasta 10 personas, 8 adultos como máximo. La disponibilidad se 
 
 El chef prepara en el chalé sus comidas de la semana, de Shabat y de las fiestas, o sus comidas llegan ya preparadas; para Shabat, antes del encendido de las velas. La mesa del comedor tiene capacidad para diez. Para un minyan, llevamos los bochurim y un Sefer Torá: con los hombres de su grupo, Shajarit se celebra en su salón.
 
-Estrictamente kosher, todo lo que se sirve es Chalav Yisrael. La hashgajá es del Beth Habad Grenoble-Alpes.
+Estrictamente kosher, todo lo que se sirve es Chalav Yisrael. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes.
 
 Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 

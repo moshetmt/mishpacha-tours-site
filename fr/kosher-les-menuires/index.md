@@ -48,7 +48,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 - **Un minyan avec Sefer Torah.** Nous réunissons les familles qui nous écrivent pour la même semaine ; plus vos dates arrivent tôt, plus le minyan a de chances de se former.
 - **Tout le séjour, en un devis.** Chalet, chef ou repas livrés, transferts depuis Lyon ou Genève, Shabbat et fêtes : une demande, un devis écrit. Pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.
 
-Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; la hashgaha est celle du Beth Habad de Grenoble-Alpes.
+Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; la cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes.
 
 Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
@@ -140,7 +140,7 @@ Oui. Dites-nous quelle fête tombe pendant votre semaine. Les bougies de Hanouka
 
 Qui surveille la cacherout des repas ?
 
-Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La hashgaha est celle du Beth Habad de Grenoble-Alpes.
+Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes.
 
 Peut-on aller à pied à un minyan à Val Thorens le Shabbat ?
 

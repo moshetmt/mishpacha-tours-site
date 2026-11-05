@@ -63,7 +63,7 @@ Les repas de Shabbat sont cuisinés au chalet par le chef ou livrés sur place. 
 
 Un minyan et un Sefer Torah dépendent des familles présentes cette semaine-là. Donnez-nous vos dates tôt et nous vous disons ce qui est possible.
 
-Strictement casher. La hashgaha est celle du Beth Habad de Grenoble-Alpes.
+Strictement casher. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes.
 
 Cette semaine
 
@@ -130,7 +130,7 @@ Combien de personnes peuvent loger ?
 
 Qui prépare les repas ?
 
-Un chef privé cuisine des repas casher au chalet, ou les repas sont livrés sur place. Notre équipe rend la cuisine casher pour votre séjour. La hashgaha est celle du Beth Habad de Grenoble-Alpes.
+Un chef privé cuisine des repas casher au chalet, ou les repas sont livrés sur place. Notre équipe rend la cuisine casher pour votre séjour. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes.
 
 Shabbat est-il organisé ?
 

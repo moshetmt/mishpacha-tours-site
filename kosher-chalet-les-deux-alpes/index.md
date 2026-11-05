@@ -63,7 +63,7 @@ Shabbat meals are cooked at the chalet by the chef or delivered to it. The holid
 
 A minyan and a Sefer Torah depend on the families present that week. Give us your dates early and we tell you what is possible.
 
-Strictly kosher. The hashgacha is by Beth Habad Grenoble-Alpes.
+Strictly kosher. The kitchen is certified kosher by Beth Habad Grenoble-Alpes.
 
 This week
 
@@ -130,7 +130,7 @@ How many people can stay?
 
 Who cooks the meals?
 
-A private chef cooks kosher meals at the chalet, or meals are delivered to it. Our team makes the kitchen kosher for your stay. The hashgacha is by Beth Habad Grenoble-Alpes.
+A private chef cooks kosher meals at the chalet, or meals are delivered to it. Our team makes the kitchen kosher for your stay. The kitchen is certified kosher by Beth Habad Grenoble-Alpes.
 
 Is Shabbat organised?
 

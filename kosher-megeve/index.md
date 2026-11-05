@@ -48,7 +48,7 @@ Availability confirmed for your dates with each request.
 - **A minyan and a Sefer Torah.** Outside it, the minyan depends on how many families are in the resort that week: give us your dates and we group them.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.
 
-Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the hashgacha is by Beth Habad Grenoble-Alpes. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
+Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the kitchen is certified kosher by Beth Habad Grenoble-Alpes. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
 
 We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
@@ -137,7 +137,7 @@ Yes, on request. Hanukkah candles and a lighting, a Megillah reading and a Purim
 
 Who supervises the food?
 
-Our kosher team based in the Alps cooks under the Chabad network of the Alps. The hashgacha is by Beth Habad Grenoble-Alpes.
+Our kosher team based in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes.
 
 ## Megève: your week, *organised*.
 

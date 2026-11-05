@@ -29,7 +29,7 @@ Nous organisons votre séjour casher : chef privé ou repas livrés, Chabbat, m
 - **Un minyan et un Sefer Torah.** La taille du minyan dépend du nombre de familles présentes en station cette semaine-là. Donnez-nous vos dates et nous réunissons les familles qui nous écrivent.
 - **Un séjour sur mesure, de A à Z.** Chalet, chef ou repas livrés, transferts, Shabbat, les fêtes, un minyan : une demande, un devis. Les familles et les groupes venus de l’étranger sont notre cœur de cible ; pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.
 
-Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; la hashgaha est celle du Beth Habad de Grenoble-Alpes.
+Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; la cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes.
 
 Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
@@ -131,7 +131,7 @@ Oui. Dites-nous quelle fête tombe pendant votre semaine. Les bougies de Hanouka
 
 Qui surveille la cacherout des repas ?
 
-Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La hashgaha est celle du Beth Habad de Grenoble-Alpes.
+Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes.
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 

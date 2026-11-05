@@ -30,7 +30,7 @@ Todas las habitaciones tienen dos camas individuales, así que cada familia disp
 
 El chef prepara en el chalet sus comidas de la semana, de Shabat y de las fiestas, o sus comidas llegan ya preparadas; para Shabat, antes del encendido de las velas. Para un minyán, llevamos los bajurim y un Sefer Torá: con los hombres de su grupo, Shajarit se celebra en su salón.
 
-Estrictamente kosher, todo lo que se sirve es Jalav Yisrael. La hashgajá es del Beth Habad Grenoble-Alpes.
+Estrictamente kosher, todo lo que se sirve es Jalav Yisrael. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes.
 
 Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 

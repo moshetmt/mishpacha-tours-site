@@ -65,7 +65,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 - **Un minián y un Sefer Torá.** El tamaño del minián depende de cuántas familias estén en la estación esa semana. Dénos sus fechas y reunimos a las familias que nos escriban.
 - **Una estancia a medida, de la A a la Z.** Chalé, chef o comidas entregadas, traslados, Shabat, las fiestas, un minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo; si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
-Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes; la hashgajá es del Beth Habad Grenoble-Alpes.
+Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes; la cocina está certificada kosher por el Beth Habad Grenoble-Alpes.
 
 También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
@@ -153,7 +153,7 @@ Sí. Indíquenos qué fiesta cae en su semana. Las velas de Janucá, la lectura 
 
 ¿Quién supervisa la comida kosher?
 
-Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. La hashgajá es del Beth Habad Grenoble-Alpes.
+Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes.
 
 ## Val Thorens: su semana, *organizada*.
 
