@@ -41,10 +41,30 @@ for f in pages():
     else:
         apres = "<!--BN-0511-->"
     if "lead-hero3-illus" in m.group(1):
-        hero = re.sub(r'<img alt="" fetchpriority="high" src="/img/illus/or/van\.webp"[^>]*>', VAN_PHOTO, hero, count=1)
+        hero = re.sub(r'<img\s+alt="" fetchpriority="high" src="/img/illus/or/van\.webp"[^>]*>', VAN_PHOTO, hero, count=1)
     s = s[:i0] + hero + "</section>" + apres + s[j0 + len("</section>"):]
     if s != o: open(f, "w", encoding="utf-8").write(s); n += 1
 print("pages passées au modèle de l'accueil :", n)
+
+# ---------- 2e passe (pages déjà en « bn ») : photo du van, et paragraphes longs sortis sous la bannière (l'accueil n'a qu'un texte court) ----------
+n2 = 0
+for f in pages():
+    if f in ("index.html", "fr/index.html", "es/index.html", "he/index.html"): continue
+    s = open(f, encoding="utf-8").read()
+    if "BN-0511" not in s: continue
+    o = s
+    s = re.sub(r'<img\s+alt="" fetchpriority="high" src="/img/illus/or/van\.webp"[^>]*>', VAN_PHOTO, s, count=1)
+    if "bn-intro" not in s:
+        m = re.search(r'<main[^>]*>\s*<section class="[^"]*"[^>]*>', s); i0 = m.end(); j0 = s.find("</section>", i0); hero = s[i0:j0]
+        longs = [q for q in re.findall(r'<p(?:\s+class="(?:hero-sous)?")?>((?:(?!</p>).)*)</p>', hero, re.S) if len(re.sub(r"<[^>]+>", "", q).strip()) > 80]
+        if longs:
+            for q in longs: hero = re.sub(r'<p(?:\s+class="(?:hero-sous)?")?>' + re.escape(q) + '</p>', "", hero, count=1)
+            bloc = '<div class="bn-intro wrap">' + "".join(f"<p>{q}</p>" for q in longs) + "</div>"
+            s = s[:i0] + hero + s[j0:]
+            k = s.find("<!--BN-0511-->"); k2 = s.find("</div>", s.find('<div class="bn-fil', k)) + 6 if '<div class="bn-fil' in s[k:k + 40] else k + len("<!--BN-0511-->")
+            s = s[:k2] + bloc + s[k2:]
+    if s != o: open(f, "w", encoding="utf-8").write(s); n2 += 1
+print("2e passe (van, paragraphes longs) :", n2)
 
 P = "html body.lv.bn" + "".join(f":not(#b{i})" for i in range(1, 13))
 H = f"{P} main>section:is(.lv-hero-station,.lead-hero3,.lv-hero-photo,.hero)"
@@ -69,10 +89,12 @@ html body.lv:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(
 {H} .lead3-wa svg{{fill:#FFFFFF !important}}
 {H} form.chercheur{{margin:22px auto 0 !important;max-width:420px}}
 {P} .bn-fil{{padding:14px 20px 0 !important}}
+{P} .bn-intro{{padding:20px 20px 0 !important}}
+{P} .bn-intro p{{margin:0 0 12px !important;font:300 17px/1.6 'Jost',sans-serif !important;color:#111111 !important;-webkit-text-fill-color:#111111 !important;text-transform:none !important;letter-spacing:0 !important;max-width:62ch}}
 {P} .bn-fil .fil{{margin:0 !important;font:400 12px/1.5 'Jost',sans-serif !important;letter-spacing:.04em !important;color:#5E5E5E !important;-webkit-text-fill-color:#5E5E5E !important;text-align:start !important;text-shadow:none !important;background:none !important}}
 {P} .bn-fil .fil a{{color:#111111 !important;-webkit-text-fill-color:#111111 !important;text-decoration:underline;text-underline-offset:3px}}
 html[dir="rtl"] {P[5:]} :is(.lv-eyebrow,h1,h1 i,.hero-sous,.lv-reassure,.btn-hero){{letter-spacing:0 !important}}
-@media (min-width:900px){{{H}{{height:85svh !important}}{H} :is(.hero-texte,.lead3-texte){{padding-bottom:72px !important}}{H} h1{{font-size:44px !important}}{P} .bn-fil{{padding:18px 56px 0 !important}}}}
+@media (min-width:900px){{{P} .bn-intro{{padding:24px 56px 0 !important}}{H}{{height:85svh !important}}{H} :is(.hero-texte,.lead3-texte){{padding-bottom:72px !important}}{H} h1{{font-size:44px !important}}{P} .bn-fil{{padding:18px 56px 0 !important}}}}
 /* ===/BN-0511=== */
 """
 lv = open("lv.css", encoding="utf-8").read()
