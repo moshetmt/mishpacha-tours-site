@@ -16,19 +16,22 @@ T = {  # titre, nom, points, ligne du heros, texte alternatif
     "es": ("Hashgajá", "Beth Habad Grenoble‑Alpes", "Jalav Yisrael · Shomer Shabat", "Hashgajá · Beth Habad Grenoble-Alpes", "Beth Habad Grenoble-Alpes"),
     "he": ("השגחה", "בית חב״ד גרנובל-אלפים", "חלב ישראל · שומר שבת", "השגחה · בית חב״ד גרנובל-אלפים", "בית חב״ד גרנובל-אלפים"),
 }
+RAV = {"": "Rav Yehia Lahiany", "fr": "Rav Yehia Lahiany", "es": "Rav Yehia Lahiany", "he": ""}   # 05/11 : oui de Moshe ; orthographe hebraique a fournir
 REF = {"": "Hashgacha Beth Habad", "fr": "Hashgaha Beth Habad", "es": "Hashgajá Beth Habad", "he": "השגחת בית חב״ד"}
 A, Z = "<!--CACH-0511-->", "<!--/CACH-0511-->"
-P = "html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9)"
+P = "html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13)"   # plus fort que les regles wp-v3 (11 :not) des pages Winter Prestige
 CSS = f"""
 /* CACH-0511 : sceau de cacherout (_sceau_cacherout.py) */
-{P} .cach{{display:flex;align-items:center;gap:18px;margin:22px 0;padding:16px 0;border-top:1px solid #A88F5E;border-bottom:1px solid #A88F5E;background:transparent}}
+{P} .cach{{display:flex;align-items:center;gap:18px;margin:22px 0;padding:16px 0 !important;border-top:1px solid #A88F5E;border-bottom:1px solid #A88F5E;background:transparent}}
 {P} .cach-logo{{display:block;flex:none;width:104px;height:auto;margin:0}}
 {P} .cach-logo-c{{display:none}}
 {P} .cach.cach--couleur .cach-logo-o{{display:none}}
 {P} .cach.cach--couleur .cach-logo-c{{display:block}}
 {P} .cach-txt{{min-width:0}}
+{P} .cach{{max-width:640px}}
 {P} main .cach .cach-t{{display:block;margin:0 0 6px;font-family:'Jost',system-ui,sans-serif;font-size:11px;font-weight:400;line-height:1.2;letter-spacing:.22em;text-transform:uppercase;color:#7A6440 !important}}
 {P} main .cach .cach-h{{display:block;margin:0;font-family:'Jost',system-ui,sans-serif;font-size:17px;font-weight:400;line-height:1.3;color:#111111 !important}}
+{P} main .cach .cach-r{{display:block;margin:2px 0 0;font-family:'Jost',system-ui,sans-serif;font-size:14px;font-weight:300;line-height:1.35;color:#111111 !important}}
 {P} main .cach .cach-p{{display:block;margin:6px 0 0;font-size:13px;font-weight:300;line-height:1.45;color:#5E5E5E !important}}
 {P} .lc-produit .cach{{margin:22px 0 6px}}
 {P} main .lc-ref .cach-ref{{color:#7A6440 !important;white-space:nowrap}}
@@ -42,8 +45,7 @@ def bloc(lang):
     t, h, pts, _, alt = T[lang]
     return (f'{A}<div class="cach" role="note">'
             f'<img class="cach-logo cach-logo-o" src="/img/logo-bh-or-600.webp" srcset="/img/logo-bh-or-300.webp 300w, /img/logo-bh-or-600.webp 600w" sizes="(min-width:900px) 120px, 104px" alt="{alt}" width="600" height="480" loading="lazy">'
-            f'<img class="cach-logo cach-logo-c" src="/img/logo-bh-couleur-600.webp" srcset="/img/logo-bh-couleur-300.webp 300w, /img/logo-bh-couleur-600.webp 600w" sizes="(min-width:900px) 120px, 104px" alt="" width="600" height="480" loading="lazy" aria-hidden="true">'
-            f'<div class="cach-txt"><span class="cach-t">{t}</span><span class="cach-h">{h}</span><span class="cach-p">{pts}</span></div></div>{Z}')
+            f'<div class="cach-txt"><span class="cach-t">{t}</span><span class="cach-h">{h}</span>' + (f'<span class="cach-r">{RAV[lang]}</span>' if RAV[lang] else '') + f'<span class="cach-p">{pts}</span></div></div>{Z}')
 
 def hero(lang):
     return f'{A}<p class="cach-hero">{T[lang][3]}</p>{Z}'
@@ -58,8 +60,12 @@ def poser(f):
         t = re.sub(r'(<p class="lc-ref">[^<]*)', lambda m: m.group(1) + f'{A}<span class="cach-ref"> · {REF[lang]}</span>{Z}', t, count=1)
     elif slug == "kosher-services-french-alps":
         t = re.sub(r'(<h1>[^<]*<br><i>[^<]*</i></h1>)', lambda m: m.group(1) + hero(lang), t, count=1)
-        t = re.sub(r'(<div class="bn-intro wrap">)', lambda m: m.group(1) + bloc(lang), t, count=1)
-    elif "seal-check.svg" in t and "dk-garanties" in t:  # station, Alpes
+        if '<div class="bn-intro wrap">' in t:
+            t = re.sub(r'(<div class="bn-intro wrap">)', lambda m: m.group(1) + bloc(lang), t, count=1)
+        else:  # hebreu : pas de bloc d'introduction sous la banniere, le sceau va juste apres le fil d'Ariane
+            t = re.sub(r'(<div class="bn-fil wrap">.*?</div>)', lambda m: m.group(1) + A + '<div class="wrap">' + bloc(lang)[len(A):-len(Z)] + '</div>' + Z, t, count=1, flags=re.S)
+    elif "seal-check.svg" in t and "dk-garanties" in t:  # station, Alpes (le logo seul de _logo_cacherout.py est retire)
+        t = re.sub(r' <span class="dk-g dk-g-logo">(?:<span class="dk-g-logo-t">[^<]*</span>)?<img[^>]*></span>', '', t)
         t = re.sub(r'(<p class="dk-garanties">.*?</p>)', lambda m: m.group(1) + bloc(lang), t, count=1, flags=re.S)
     if t != s:
         f.write_text(t, encoding="utf-8", newline="\n")

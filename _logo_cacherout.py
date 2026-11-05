@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""05/11 (Mendel, audio relaye par Moshe : « la ou tu as mis la hashgacha, mets le logo du Beth Habad de Grenoble, ca rassure les gens »).
+"""REMPLACE le 05/11 par _sceau_cacherout.py : ne plus lancer.
+   05/11 (Mendel, audio relaye par Moshe : « la ou tu as mis la hashgacha, mets le logo du Beth Habad de Grenoble, ca rassure les gens »).
    Pose le logo du Beth Habad Grenoble-Alpes sous la ligne de cacherout (icone sceau) du bloc « Strictly kosher » des pages Alpes, 4 langues.
    Logo nettoye (fond retire, marges egales) : 00-brief/references/2026-10-14-logo-kashrut-beth-habad-grenoble-alpes/propre/.
    Idempotent : python _logo_cacherout.py (depuis site-v5/)."""
