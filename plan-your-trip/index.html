@@ -371,7 +371,10 @@ function onchg(ev){var t=ev.target;
  /* un toucher, passage automatique quand la reponse ne demande rien de plus */
  if(ev.type==='change'&&ev.isTrusted&&t.checked){var en=t.getAttribute('data-en');
   if(t.name==='minyan_niveau'&&(en==='Not needed'||en==='Not sure, advise me'))setTimeout(next,mo()?380:120);
-  if(t.name==='budget_avis'&&en!=='Below this')setTimeout(next,mo()?900:500)}}
+  /* 05/11 (Moshe) : plus de passage automatique sur l'ecran budget, les deux cases de montant sont sur le meme ecran */}}
+/* 05/11 (Moshe) : retoucher un choix unique deja coche le decoche (les bascules .pf-seg gardent toujours une valeur) */
+var rWas=null;f.addEventListener('pointerdown',function(ev){var l=ev.target.closest&&ev.target.closest('label.pf-c,label.pf-niv');var i=l&&l.querySelector('input[type=radio]');rWas=i&&i.checked?i:null},true);
+f.addEventListener('click',function(ev){var l=ev.target.closest&&ev.target.closest('label.pf-c,label.pf-niv');if(!l||!rWas)return;var i=l.querySelector('input[type=radio]');if(i!==rWas)return;rWas=null;setTimeout(function(){i.checked=false;i.dispatchEvent(new Event('change',{bubbles:true}))},0)},true);
 f.addEventListener('change',onchg);f.addEventListener('input',onchg);
 window.addEventListener('popstate',function(ev){hd=Math.max(0,hd-1);var id=ev.state&&ev.state.e;show(id||path()[0],false,true)});
 f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
