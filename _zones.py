@@ -7,7 +7,7 @@ import glob, io, os, re
 
 LANGS = ("fr", "es", "he")
 ALPES = {"alps", "kosher-alpe-dhuez", "kosher-annecy", "kosher-chalet-les-deux-alpes", "kosher-chamonix", "kosher-courchevel",
-         "kosher-grenoble", "kosher-chalets", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens", "kosher-chalet-les-menuires", "kosher-chalet-courchevel-aurore-boreale", "kosher-chalet-courchevel-renard-argente", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
+         "kosher-grenoble", "kosher-chalets", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens", "kosher-chalet-les-menuires", "kosher-chalet-courchevel-aurore-boreale", "kosher-chalet-courchevel-renard-argente", "kosher-chalet-tignes", "kosher-la-plagne", "kosher-les-arcs", "kosher-les-deux-alpes", "kosher-megeve", "kosher-services-french-alps",
          "kosher-ski-holidays-french-alps", "kosher-vacation-french-alps", "kosher-pesach-french-alps", "kosher-val-disere", "kosher-val-thorens",
          "kosher-zermatt", "kosher-st-moritz", "kosher-crans-montana", "kosher-cervinia", "kosher-verbier", "kosher-gstaad", "kosher-davos", "kosher-ski-anywhere", "kosher-courmayeur", "kosher-cortina",
          "lyon-gateway-to-the-alps-kosher", "summer-in-the-alps-jewish-families", "flights-to-lyon"}
@@ -64,6 +64,15 @@ CHALETS = {"en": ("Chalets", "See the chalets", (("Chalet King David · Les Deux
            "he": ("צ'אלות", "לראות את הצ'אלות", (("צ'אלה קינג דייוויד · לה דז אלפ", "6 + 1 חדרים · 2 דק' מהמסלולים"), ("צ'אלה רושברון · לה דז אלפ", "6 חדרים · מגלשיים בדלת"), ("צ'אלה פלוקון דורה · קורשבל", "5 סוויטות · בריכות מחוממות"), ("צ'אלה לו בלאן · ליד מג'ב", "10 חדרי טווין · מון בלאן"), ("צ'אלה בל אטואל · ואל טורנס", "3 חדרי שינה עם חדר רחצה · סקי מהדלת"), ("צ'אלה אגל רויאל · לה מנואר", "7 סוויטות · ספא"), ("צ'אלה אורור בוראל · קורשבל", "3 סוויטות · בריכה מחוממת"), ("צ'אלה רנאר ארז'נטה · קורשבל", "2 סוויטות · אמבט נורדי")))}
 # 21/10 : vignettes WebP de 336 px (img/chalet/min/, fabriquées par _images_legeres.py) au lieu des JPG pleine taille (2 032 Ko téléchargés par le tiroir mobile)
 CH_URL = (("kosher-chalet-les-deux-alpes", "/img/chalet/min/wp-ext-bleu-336.webp"), ("kosher-slope-chalet-les-deux-alpes", "/img/chalet/min/slope-facade-336.webp"), ("kosher-chalet-courchevel", "/img/chalet/min/courchevel-ext-336.webp"), ("kosher-chalet-megeve", "/img/chalet/min/megeve-n0-apt-sejour-336.webp"), ("kosher-chalet-val-thorens", "/img/chalet/min/valthorens-exterieur-neige-336.webp"), ("kosher-chalet-les-menuires", "/img/chalet/min/aigle-exterieur-neige-336.webp"), ("kosher-chalet-courchevel-aurore-boreale", "/img/chalet/min/aurore-exterieur-piscine-336.webp"), ("kosher-chalet-courchevel-renard-argente", "/img/chalet/min/renard-exterieur-neige-336.webp"))
+# 02/11 : chalet de Tignes (ch9, deux chalets mitoyens), nom en un seul endroit : _chalet_tignes_nom.py
+from _chalet_tignes_nom import NOM as _TG, NOM_HE as _TG_HE, PREFIXE as _TGP
+_TG_NAV = {"en": (f"Chalet {_TG} · Tignes", "9 suites · one minute from the slopes"), "fr": (f"Chalet {_TG} · Tignes", "9 suites · à une minute des pistes"),
+           "es": (f"Chalet {_TG} · Tignes", "9 suites · a un minuto de las pistas"), "he": (f"צ'אלה {_TG_HE} · טין", "9 סוויטות · דקה מהמסלולים")}
+for _l in CHALETS:
+    if not any(_TG in n or _TG_HE in n for n, _ in CHALETS[_l][2]):
+        CHALETS[_l] = (CHALETS[_l][0], CHALETS[_l][1], CHALETS[_l][2] + (_TG_NAV[_l],))
+if all(u != "kosher-chalet-tignes" for u, _ in CH_URL):
+    CH_URL = CH_URL + (("kosher-chalet-tignes", f"/img/chalet/min/{_TGP}-chalets-neige-336.webp"),)
 
 def chalets_html(lang, pre):
     lib, tous, items = CHALETS[lang]

@@ -177,6 +177,18 @@ CHALETS["au"] = dict(img="/img/chalet/aurore-exterieur-piscine.jpg", w=1081, h=7
                      q="?i=a&amp;lieu=Courchevel&amp;voyage=Ski%20holiday%20with%20a%20chalet")   # 02/11, lot 2
 CHALETS["re"] = dict(img="/img/chalet/renard-exterieur-neige.jpg", w=1081, h=720, pictos=["lit", "gens", "eau", "pistes"], lien="/kosher-chalet-courchevel-renard-argente/",
                      q="?i=a&amp;lieu=Courchevel&amp;voyage=Ski%20holiday%20with%20a%20chalet")
+# 02/11 : chalet de Tignes (ch9, deux chalets mitoyens loués ensemble), prix « Sur demande » (ligne ch9 vide), nom : _chalet_tignes_nom.py
+from _chalet_tignes_nom import NOM as _TG, NOM_HE as _TG_HE, PREFIXE as _TGP
+T["en"]["tg"] = dict(lieu="Tignes", t=f"Chalet {_TG}, Tignes", alt=f"Chalet {_TG} in Tignes under snow",
+                     s=[("9", "suites"), ("Up to 21", "guests"), ("2 jacuzzis", "outdoor"), ("1 min", "to the slopes")], k=_K["en"])
+T["fr"]["tg"] = dict(lieu="Tignes", t=f"Chalet {_TG}, Tignes", alt=f"Le Chalet {_TG} à Tignes sous la neige",
+                     s=[("9", "suites"), ("Jusqu'à 21", "personnes"), ("2 jacuzzis", "extérieurs"), ("1 min", "des pistes")], k=_K["fr"])
+T["es"]["tg"] = dict(lieu="Tignes", t=f"Chalet {_TG}, Tignes", alt=f"El Chalet {_TG} en Tignes bajo la nieve",
+                     s=[("9", "suites"), ("Hasta 21", "personas"), ("2 jacuzzis", "exteriores"), ("1 min", "de las pistas")], k=_K["es"])
+T["he"]["tg"] = dict(lieu="טין", t=f"צ'אלה {_TG_HE}, טין", alt=f"צ'אלה {_TG_HE} בטין תחת השלג",
+                     s=[("9", "סוויטות"), ("עד 21", "אורחים"), ("2 ג'קוזי", "חיצוניים"), ("דקה", "מהמסלולים")], k=_K["he"])
+CHALETS["tg"] = dict(img=f"/img/chalet/{_TGP}-chalets-neige.jpg", w=1440, h=960, pictos=["lit", "gens", "eau", "pistes"], lien="/kosher-chalet-tignes/",
+                     q="?i=a&amp;lieu=Tignes&amp;voyage=Ski%20holiday%20with%20a%20chalet")
 MARQUE = {"wp": dict(nom="Winter Prestige", or_="/img/wp-flocon-or.svg", noir="/img/wp-flocon-noir.svg"),
           "sp": dict(nom="Summer Prestige", or_="/img/sp-symbole-or.svg", noir="/img/sp-symbole-noir.svg")}
 def marque(cle): return MARQUE[CHALETS[cle].get("marque", "wp")]

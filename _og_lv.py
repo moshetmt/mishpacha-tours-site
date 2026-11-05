@@ -88,6 +88,7 @@ WP_TEXTES = {
     "kosher-chalet-les-menuires": ("KOSHER CHALET · LES MÉNUIRES", "Aigle Royal"),
     "kosher-chalet-megeve": ("KOSHER CHALET · MEGÈVE", "Loup Blanc"),
     "kosher-chalet-val-thorens": ("KOSHER CHALET · VAL THORENS", "Belle Étoile"),
+    "kosher-chalet-tignes": ("KOSHER CHALET · TIGNES", "Étoile Polaire"),
     "kosher-chalets": ("THE ALPS", "Our kosher<br>chalets"),
     "kosher-chamonix": ("KOSHER SKI · MONT BLANC", "Chamonix"),
     "kosher-cortina": ("KOSHER SKI · DOLOMITES", "Cortina d'Ampezzo"),
