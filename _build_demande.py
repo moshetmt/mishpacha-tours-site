@@ -38,6 +38,8 @@ NEUF = {
     "A few more things": ("Encore quelques points", "Algunas cosas más", "עוד כמה דברים"),
     "Which holiday?": ("Quelle fête ?", "¿Qué fiesta?", "איזה חג?"),
     "Continue": ("Continuer", "Continuar", "המשיכו"),
+    "Total budget for the stay, if you have one": ("Budget total du séjour, si vous en avez un", "Presupuesto total de la estancia, si tiene uno", "התקציב הכולל לשהות, אם יש לכם"),
+    "The total budget for the whole stay and the whole group, for example 15,000 €.": ("Le budget total du séjour pour tout le groupe, par exemple 15 000 €.", "El presupuesto total de la estancia para todo el grupo, por ejemplo 15.000 €.", "התקציב הכולל לכל השהות ולכל הקבוצה, לדוגמה 15,000 €."),
     "Where would you like to stay?": ("Où souhaitez-vous séjourner ?", "¿Dónde le gustaría alojarse?", "איפה תרצו לשהות?"),
     "Choose a resort, or let us advise you.": ("Choisissez une station, ou laissez-nous vous conseiller.", "Elija una estación o déjenos aconsejarle.", "בחרו אתר, או תנו לנו לייעץ לכם."),
     "Another resort": ("Une autre station", "Otra estación", "אתר אחר"),
@@ -377,7 +379,8 @@ def formulaire(lang):
               '<div class="pf-avis" id="dm-avis">' + chips("budget_avis", ["Below this", "Around this", "Above this", "I'd rather discuss it"], multi=False) + "</div>" +
               f'<p class="pf-fit" id="dm-fit" role="status" hidden></p>' +
               f'<p class="pf-ess" id="dm-ess" hidden><button type="button" class="pf-ess-b" id="dm-ess-b" data-a="{E("Switch to the essentials")}" data-u="{E("Undo")}">{E("Switch to the essentials")}</button></p></div>' +
-              champ("budget-total", "budget_total", "Your budget, if you have one", ph="€", extra=' inputmode="numeric"', b="abef"))
+              champ("budget-total", "budget_total", "Total budget for the stay, if you have one", ph="€", extra=' inputmode="numeric"', b="abef") +
+              f'<p class="pf-bhint" id="dm-bhint" role="status" hidden>{E("The total budget for the whole stay and the whole group, for example 15,000 €.")}</p>')
     trajet = (champ("van_depart", "van_depart", "Pick-up point", ph="Lyon Saint-Exupéry airport") +
               sugg("van_depart", ["Geneva airport", "Lyon airport", "Lyon Part-Dieu station", "Our chalet"] + STATIONS) +
               champ("van_arrivee", "van_arrivee", "Drop-off point", ph="Les Deux Alpes, chalet") +
@@ -661,6 +664,8 @@ function onchg(ev){var t=ev.target;
  if(t===autreIn)majLieu();
  if(t.name==='deja'||t.name==='voyage')majBr();
  if(t.name==='repas'&&ev.isTrusted)repasTouched=true;
+ if(t.name==='budget_total'){var bn=bnum(t.value),es0=estim(),bh=document.getElementById('dm-bhint');if(bh)bh.hidden=!(bn>0&&bn<1000);
+  if(bn>=1000&&es0.e){var r0=bn/es0.e,k0=r0>=1.1?'Above this':r0>=.9?'Around this':'Below this';els('budget_avis').forEach(function(e){e.checked=(e.getAttribute('data-en')===k0)})}}
  render();
  if(ev.type==='change'&&ev.isTrusted&&t.checked&&Date.now()-ptr<800){var lb=t.closest&&t.closest('.pf-c,.pf-tl,.pf-niv');if(lb)flash(lb)}
  /* un toucher, passage automatique quand la reponse ne demande rien de plus */
@@ -1159,6 +1164,14 @@ P #e-besoins>.pf-sous:first-of-type{margin-top:0!important}
   P #e-besoins>.pf-sous:first-of-type{display:none}
   P .pf-bn{min-height:40px;padding:4px 10px}
 }
+/* 05/11 (Moshe : « il manque des elements en or, dans les barres ») : barre de progression, puces et filet du message de budget en or brosse ; aide du montant */
+P .pf-barre{height:2px}
+P .pf-barre i{background:#A88F5E}
+P .pf-notes li::before{background:#A88F5E}
+P .pf-fit,P .pf-fit-fits{border-left-color:#A88F5E}
+P .pf-champ :is(input,select,textarea):focus-visible{outline:none}
+P .pf-bhint{margin:6px 0 0;font-size:13px;line-height:1.4;color:#5B3A29}
+P .pf-bhint[hidden]{display:none}
 /* 05/11 : ecran final du b (adresse du logement ajoutee) : sur petit ecran, ou tant que le bandeau cookies est affiche, le titre « Vos coordonnees » reste lu par les lecteurs d'ecran mais ne prend plus de hauteur ; aucun texte retreci */
 @media (max-width:699px) and (max-height:620px){
   P #e-final .pf-tete{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;margin:0}

@@ -1253,6 +1253,14 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-besoins>.pf-sous:first-of-type{display:none}
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bn{min-height:40px;padding:4px 10px}
 }
+/* 05/11 (Moshe : « il manque des elements en or, dans les barres ») : barre de progression, puces et filet du message de budget en or brosse ; aide du montant */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-barre{height:2px}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-barre i{background:#A88F5E}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-notes li::before{background:#A88F5E}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-fit-fits{border-left-color:#A88F5E}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ :is(input,select,textarea):focus-visible{outline:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bhint{margin:6px 0 0;font-size:13px;line-height:1.4;color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bhint[hidden]{display:none}
 /* 05/11 : ecran final du b (adresse du logement ajoutee) : sur petit ecran, ou tant que le bandeau cookies est affiche, le titre « Vos coordonnees » reste lu par les lecteurs d'ecran mais ne prend plus de hauteur ; aucun texte retreci */
 @media (max-width:699px) and (max-height:620px){
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-final .pf-tete{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;margin:0}
