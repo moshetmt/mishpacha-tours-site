@@ -882,6 +882,8 @@ html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(
 /* ===RET-0511=== retours de Moshé du 05/11 (_retours_05_11.py) */
 html body.lv:not(#c1):not(#c2):not(#c3):not(#c4):not(#c5):not(#c6):not(#c7):not(#c8):not(#c9):not(#c10):not(#c11):not(#c12):not(#c13) h2.carte-titre::after{display:none !important}
 html body.lv:not(#c1):not(#c2):not(#c3):not(#c4):not(#c5):not(#c6):not(#c7):not(#c8):not(#c9):not(#c10):not(#c11):not(#c12):not(#c13) .carte-sur::after{content:"";display:block;width:56px;height:1.5px;margin:12px auto 14px;background:linear-gradient(100deg,#8F7646,#D2BC8C 45%,#A88F5E 55%,#8F7646)}
+html body.lv:not(#c1):not(#c2):not(#c3):not(#c4):not(#c5):not(#c6):not(#c7):not(#c8):not(#c9):not(#c10):not(#c11):not(#c12):not(#c13) .lead-intro{grid-template-columns:minmax(0,1fr) !important}
+html body.lv:not(#c1):not(#c2):not(#c3):not(#c4):not(#c5):not(#c6):not(#c7):not(#c8):not(#c9):not(#c10):not(#c11):not(#c12):not(#c13) .lead-intro>div{grid-column:1/-1 !important;max-width:none}
 html body.lv:not(#c1):not(#c2):not(#c3):not(#c4):not(#c5):not(#c6):not(#c7):not(#c8):not(#c9):not(#c10):not(#c11):not(#c12):not(#c13) .sh-paracha{white-space:nowrap;text-decoration:underline;text-decoration-color:#A88F5E;text-decoration-thickness:2px;text-underline-offset:.16em;text-decoration-skip-ink:none}
 /* ===/RET-0511=== */
 /* ===BN-0511=== bannières au modèle de l'accueil (_bannieres_accueil.py) */

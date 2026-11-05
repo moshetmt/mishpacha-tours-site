@@ -18,6 +18,8 @@ OR = "linear-gradient(100deg,#8F7646,#D2BC8C 45%,#A88F5E 55%,#8F7646)"
 CSS = f"""/* ===RET-0511=== retours de Moshé du 05/11 (_retours_05_11.py) */
 {P} h2.carte-titre::after{{display:none !important}}
 {P} .carte-sur::after{{content:"";display:block;width:56px;height:1.5px;margin:12px auto 14px;background:{OR}}}
+{P} .lead-intro{{grid-template-columns:minmax(0,1fr) !important}}
+{P} .lead-intro>div{{grid-column:1/-1 !important;max-width:none}}
 {P} .sh-paracha{{white-space:nowrap;text-decoration:underline;text-decoration-color:#A88F5E;text-decoration-thickness:2px;text-underline-offset:.16em;text-decoration-skip-ink:none}}
 /* ===/RET-0511=== */
 """
