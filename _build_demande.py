@@ -18,6 +18,7 @@ LAB_NEW["torah_niveau"] = ("Sefer Torah", "Sefer Torah", "Séfer Torá", "ספר
 LAB_NEW["shabbat_niveau"] = ("Shabbat meals", "Repas de Chabbat", "Comidas de Shabat", "ארוחות שבת")
 LAB_NEW["eruv_niveau"] = ("Eruv and mikveh", "Érouv et mikvé", "Eruv y mikve", "עירוב ומקווה")
 LAB_NEW["mois"] = ("Months", "Mois", "Meses", "חודשים")
+LAB_NEW["budget_pp"] = ("Budget per adult per night", "Budget par adulte et par nuit", "Presupuesto por adulto y por noche", "תקציב למבוגר ללילה")
 LAB_NEW["budget_fit"] = ("Budget fit", "Adéquation du budget", "Ajuste del presupuesto", "התאמת התקציב")   # 03/11 : ligne ajoutee au message, ignoree par fiche_() de Code.gs (libelle inconnu = resume seulement)
 LOCALE = {"en": "en-GB", "fr": "fr-FR", "es": "es-ES", "he": "he-IL"}
 MERCI = {"en": "/merci/", "fr": "/fr/merci/", "es": "/es/merci/", "he": "/he/merci/"}
@@ -38,6 +39,10 @@ NEUF = {
     "A few more things": ("Encore quelques points", "Algunas cosas más", "עוד כמה דברים"),
     "Which holiday?": ("Quelle fête ?", "¿Qué fiesta?", "איזה חג?"),
     "Continue": ("Continuer", "Continuar", "המשיכו"),
+    "Per adult, per night": ("Par adulte et par nuit", "Por adulto y por noche", "למבוגר ללילה"),
+    "Total for the stay": ("Total du séjour", "Total de la estancia", "סך הכול לשהות"),
+    "Adults: {a} · nights: {n} · children not counted": ("Adultes : {a} · nuits : {n} · enfants non comptés", "Adultos: {a} · noches: {n} · sin contar a los niños", "מבוגרים: {a} · לילות: {n} · בלי הילדים"),
+    "For this stay, a private chalet starts at about {x} €. We suggest the kosher meals instead.": ("Pour ce séjour, un chalet privé démarre vers {x} €. Nous vous proposons plutôt les repas casher.", "Para esta estancia, un chalet privado empieza hacia {x} €. Le proponemos más bien las comidas kosher.", "לשהות הזו צ'אלה פרטי מתחיל בערך ב-{x} €. נציע לכם בעיקר את הארוחות הכשרות."),
     "Total budget for the stay, if you have one": ("Budget total du séjour, si vous en avez un", "Presupuesto total de la estancia, si tiene uno", "התקציב הכולל לשהות, אם יש לכם"),
     "The total budget for the whole stay and the whole group, for example 15,000 €.": ("Le budget total du séjour pour tout le groupe, par exemple 15 000 €.", "El presupuesto total de la estancia para todo el grupo, por ejemplo 15.000 €.", "התקציב הכולל לכל השהות ולכל הקבוצה, לדוגמה 15,000 €."),
     "Where would you like to stay?": ("Où souhaitez-vous séjourner ?", "¿Dónde le gustaría alojarse?", "איפה תרצו לשהות?"),
@@ -212,8 +217,8 @@ def hero(lang):
 # Branches : a sejour complet, b j'ai deja mon logement, c van, d Lyon, e fete, f autre. Trois ecrans pour toutes.
 ALPES = ["ou", "quand", "qui", "services", "extras", "minyan", "budget", "final"]   # 03/11 : plus d'ecran « projet », Alpes par defaut
 BESOINS_B = ["ou", "quand", "qui", "besoins", "final"]   # 04/11 : b = « j'ai deja mon logement » ; lien prerempli (i=b, lieu, arrivee) : ou et quand sautes, 3 ecrans
-PATHS = {"a": ALPES, "b": BESOINS_B, "e": ALPES, "c": ["trajet", "quandvan", "qui", "budget", "final"],
-         "d": ["lyon", "qui", "budget", "final"], "f": ["message", "ou", "quand", "qui", "budget", "final"]}
+PATHS = {"a": ALPES, "b": BESOINS_B, "e": ALPES, "c": ["trajet", "quandvan", "qui", "final"],
+         "d": ["lyon", "qui", "final"], "f": ["message", "ou", "quand", "qui", "budget", "final"]}   # 05/11 : ecran « Autre chose ? » vide retire pour c et d (la case message est sur l'ecran final)
 # prix de depart d'un chalet par station (« a partir de » publies sur /kosher-chalets/, semaine en basse saison) ; autres stations : 9 500 (le plus bas publie)
 FETES_NOMS = {'Pesach in the Alps': ('Pesach', 'Pessah', 'Pésaj', 'פסח'), 'Hanukkah in the Alps': ('Hanukkah', 'Hanoucca', 'Janucá', 'חנוכה'), 'Sukkot': ('Sukkot', 'Souccot', 'Sucot', 'סוכות'), 'Rosh Hashanah and Yom Kippur': ('Rosh Hashanah and Yom Kippur', 'Roch Hachana et Yom Kippour', 'Rosh Hashaná y Yom Kipur', 'ראש השנה ויום כיפור'), 'Purim': ('Purim', 'Pourim', 'Purim', 'פורים'), 'Shavuot': ('Shavuot', 'Chavouot', 'Shavuot', 'שבועות')}
 CHALET_BASE = {"Val Thorens": 9500, "Les Menuires": 9500, "Les Deux Alpes": 13000, "Courchevel": 17500, "Megève": 23500}
@@ -222,7 +227,7 @@ STATIONS_HE = {"Courchevel": "קורשבל", "Val Thorens": "ואל טורנס",
                "Alpe d'Huez": "אלפ ד'ואז", "Chamonix": "שמוני", "Les Arcs": "לז ארק", "La Plagne": "לה פלאן"}
 LAB_ORDER = ["voyage", "lieu", "lieu_pas_choisi", "adresse", "van_depart", "van_arrivee", "aller_retour", "arrivee", "creneau", "depart", "heure", "retour_date", "retour_heure", "flexible", "mois", "familles", "adultes", "enfants", "bebes", "bebe_materiel", "hommes", "bagages",
              "logement", "chambres", "sdb", "logement_opt", "repas", "repas_jours", "allergies", "cacherout", "cacherout_detail", "minyan_niveau", "torah_niveau", "shabbat_niveau", "eruv_niveau", "religieux", "rite", "aeroport", "vol_ville", "vols_pris", "vol", "transport",
-             "ski", "niveau", "lyon", "langue_visite", "extras", "budget_total", "budget_fit", "budget", "budget_vols", "priorites", "message", "ville", "urgence", "pour_qui"]
+             "ski", "niveau", "lyon", "langue_visite", "extras", "budget_total", "budget_pp", "budget_fit", "budget", "budget_vols", "priorites", "message", "ville", "urgence", "pour_qui"]
 INDICATIFS = '<option value="">{code}</option>' + "".join(f'<option value="{v}">{v} {c}</option>' for v, c in [
     ("+1", "US / CA"), ("+44", "UK"), ("+972", "IL"), ("+33", "FR"), ("+32", "BE"), ("+41", "CH"), ("+34", "ES"), ("+39", "IT"), ("+49", "DE"), ("+31", "NL"),
     ("+54", "AR"), ("+52", "MX"), ("+55", "BR"), ("+61", "AU"), ("+27", "ZA"), ("+7", "RU"), ("+380", "UA")])
@@ -380,8 +385,11 @@ def formulaire(lang):
               '<div class="pf-avis" id="dm-avis">' + chips("budget_avis", ["Below this", "Around this", "Above this", "I'd rather discuss it"], multi=False) + "</div>" +
               f'<p class="pf-fit" id="dm-fit" role="status" hidden></p>' +
               f'<p class="pf-ess" id="dm-ess" hidden><button type="button" class="pf-ess-b" id="dm-ess-b" data-a="{E("Switch to the essentials")}" data-u="{E("Undo")}">{E("Switch to the essentials")}</button></p></div>' +
-              champ("budget-total", "budget_total", "Total budget for the stay, if you have one", ph="€", extra=' inputmode="numeric"', b="abef") +
-              f'<p class="pf-bhint" id="dm-bhint" role="status" hidden>{E("The total budget for the whole stay and the whole group, for example 15,000 €.")}</p>')
+              f'<div class="pf-bbloc"{battr("abef")}><div class="pf-bdeux">' +
+              champ("budget-pp", "budget_pp", "Per adult, per night", ph="€", extra=' inputmode="numeric"') +
+              champ("budget-total", "budget_total", "Total for the stay", ph="€", extra=' inputmode="numeric"') + '</div>' +
+              '<p class="pf-bcalc" id="dm-bcalc"></p><p class="pf-bchalet" id="dm-bchalet" role="status" hidden></p>' +
+              f'<p class="pf-bhint" id="dm-bhint" role="status" hidden>{E("The total budget for the whole stay and the whole group, for example 15,000 €.")}</p></div>')
     trajet = (champ("van_depart", "van_depart", "Pick-up point", ph="Lyon Saint-Exupéry airport") +
               sugg("van_depart", ["Geneva airport", "Lyon airport", "Lyon Part-Dieu station", "Our chalet"] + STATIONS) +
               champ("van_arrivee", "van_arrivee", "Drop-off point", ph="Les Deux Alpes, chalet") +
@@ -482,6 +490,7 @@ function val(n,en){
  if(n==='voyage')return voyage(en);
  if(n==='logement'&&branch()==='b')return en?'Already booked, I need services only':C.k.logementB;
  if(n==='budget_total'){var bn=bnum(raw(n));return bn?euros(String(bn)):raw(n)}
+ if(n==='budget_pp'){var bp=bnum(raw(n));return bp?euros(String(bp)):raw(n)}
  if(n==='religieux'){var rl=(en?rawEn(n):raw(n)),tv=ctrls.filter(function(e){return e.name==='torah_niveau'&&e.checked&&!e.disabled})[0];if(tv&&tv.getAttribute('data-en')!=='Not needed'){var st=en?'Sefer Torah in the chalet':C.t.torah;rl=rl?rl+', '+st:st}return rl}
  if(n==='budget_fit'){var k=fitK();if(!k)return '';var es=estim();if(k==='below')k=essOn?'below_c':'below_p';return (en?{below_c:'below (essentials chosen)',below_p:'below (essentials proposed)'}[k]||k:C.t['k_'+k])+(es&&es.e?' ('+(en?'estimate':C.t.estimate)+' '+euros(String(es.e))+')':'')}
  return en?rawEn(n):raw(n)}
@@ -549,9 +558,11 @@ function majBudget(){var el=document.getElementById('dm-perso');if(!el)return;va
   el.appendChild(document.createTextNode(pt[0]));if(pt.length>1){bdi(el,x.toLocaleString(C.loc)+' €');el.appendChild(document.createTextNode(pt[1]+(es.dem?C.t.dem:'')))}}
  ul.textContent='';var notes=[];if(occupe())notes.push(C.t.n_occupe);if(stSel().some(function(x){return x==='Courchevel'||x==='Megève'}))notes.push(C.t.n_station);if(g>=10)notes.push(C.t.n_groupe);
  notes.forEach(function(t){var li=document.createElement('li');li.textContent=t;ul.appendChild(li)});
+ var bc=document.getElementById('dm-bcalc');if(bc)bc.textContent=C.t.bcalc.replace('{a}',Math.max(1,num('adultes'))).replace('{n}',es.nn);
+ var rc=document.getElementById('dm-bchalet');if(rc){var tb=bnum(raw('budget_total')),cb=Math.floor(chaletBase()*es.nn/7/500)*500;rc.hidden=!(es.s.chalet&&tb>0&&tb<cb);if(!rc.hidden)rc.textContent=C.t.bchalet.replace('{x}',cb.toLocaleString(C.loc))}
  av.hidden=!(es.e>0&&es.e<1e5);
  var k=av.hidden?'':avisK();ft.hidden=!k;if(!k)return;ft.className='pf-fit pf-fit-'+k;
- ft.textContent=C.t['f_'+k];var eb=document.getElementById('dm-ess'),bb=document.getElementById('dm-ess-b');eb.hidden=k!=='below'||(!essOn&&!es.s.chalet&&!es.s.chef);bb.textContent=bb.getAttribute(essOn?'data-u':'data-a')}
+ ft.textContent=C.t['f_'+k];if(k==='below'&&rc&&!rc.hidden)ft.hidden=true;var eb=document.getElementById('dm-ess'),bb=document.getElementById('dm-ess-b');eb.hidden=k!=='below'||(!essOn&&!es.s.chalet&&!es.s.chef);bb.textContent=bb.getAttribute(essOn?'data-u':'data-a')}
 /* « Switch to the essentials » (Moshe 03/11) : un toucher retire chalet prive et chef, ajoute repas livres et repas de Chabbat ; annulable */
 var essOn=false,essAvant=null;
 function essentiels(){var tl=ctrls.filter(function(e){return e.closest('.pf-tl')&&e.getAttribute('data-svc')});
@@ -639,11 +650,12 @@ function show(id,push,focus){var p=sync();if(p.indexOf(id)<0)id=p[0];
  var oi=p.indexOf(cur),ni=p.indexOf(id);f.setAttribute('data-dir',ni<oi?'back':'fwd');
  cur=id;render();
  dl.push({event:'form_step',step:cur,step_index:p.indexOf(cur)+1,branch:branch()});
- if(push){try{history.pushState({e:cur},'','#e-'+cur)}catch(x){}}
+ if(push){try{history.pushState({e:cur},'','#e-'+cur);hd++}catch(x){}}
  if(focus){var h=document.querySelector('.pf-etape[data-e="'+cur+'"] h2:not([hidden])');if(h)h.focus({preventScroll:true});
   var r=f.getBoundingClientRect();if(r.top<0||r.top>200)window.scrollTo({top:window.pageYOffset+r.top-90,behavior:'smooth'})}}
 function next(){if(ret){var r=ret;ret='';if(reskip){skip=true;reskip=false}show(r,true,true);return}var p=path(),i=p.indexOf(cur);if(i>=0&&i<p.length-1)show(p[i+1],true,true)}
-function back(){var p=path(),i=p.indexOf(cur);if(i>0)show(p[i-1],true,true)}
+/* 05/11 : Retour = historique du navigateur quand l'ecran precedent y est, pour que le bouton retour du telephone ne ramene pas en avant */
+var hd=0;function back(){var p=path(),i=p.indexOf(cur);if(i<=0)return;if(hd>0&&history.state&&history.state.e===cur){history.back()}else show(p[i-1],true,true)}
 bNext.addEventListener('click',next);bBack.addEventListener('click',back);
 f.addEventListener('click',function(ev){
  var sg=ev.target.closest&&ev.target.closest('.pf-auto button');if(sg){var inp=document.getElementById(sg.parentNode.getAttribute('data-for')),v=sg.getAttribute('data-v'),segs=inp.value.split(/,\s*/);
@@ -665,7 +677,9 @@ function onchg(ev){var t=ev.target;
  if(t===autreIn)majLieu();
  if(t.name==='deja'||t.name==='voyage')majBr();
  if(t.name==='repas'&&ev.isTrusted)repasTouched=true;
- if(t.name==='budget_total'){var bn=bnum(t.value),es0=estim(),bh=document.getElementById('dm-bhint');if(bh)bh.hidden=!(bn>0&&bn<1000);
+ if(t.name==='budget_total'||t.name==='budget_pp'){var es0=estim(),A0=Math.max(1,num('adultes')),N0=es0.nn||7,ppI=f.elements.budget_pp,tI=f.elements.budget_total;
+  if(t.name==='budget_pp'){var pv=bnum(t.value);tI.value=pv>0?String(pv*A0*N0):''}else if(ppI){var tv=bnum(t.value);ppI.value=tv>0?String(Math.round(tv/(A0*N0))):''}
+  var bn=bnum(tI.value),bh=document.getElementById('dm-bhint');if(bh)bh.hidden=!(t.name==='budget_total'&&bn>0&&bn<1000);
   if(bn>=1000&&es0.e){var r0=bn/es0.e,k0=r0>=1.1?'Above this':r0>=.9?'Around this':'Below this';els('budget_avis').forEach(function(e){e.checked=(e.getAttribute('data-en')===k0)})}}
  render();
  if(ev.type==='change'&&ev.isTrusted&&t.checked&&Date.now()-ptr<800){var lb=t.closest&&t.closest('.pf-c,.pf-tl,.pf-niv');if(lb)flash(lb)}
@@ -674,7 +688,7 @@ function onchg(ev){var t=ev.target;
   if(t.name==='minyan_niveau'&&(en==='Not needed'||en==='Not sure, advise me'))setTimeout(next,mo()?380:120);
   if(t.name==='budget_avis'&&en!=='Below this')setTimeout(next,mo()?900:500)}}
 f.addEventListener('change',onchg);f.addEventListener('input',onchg);
-window.addEventListener('popstate',function(ev){var id=ev.state&&ev.state.e;show(id||path()[0],false,true)});
+window.addEventListener('popstate',function(ev){hd=Math.max(0,hd-1);var id=ev.state&&ev.state.e;show(id||path()[0],false,true)});
 f.addEventListener('submit',function(ev){ev.preventDefault();if(sent)return;
  if(cur!=='final'){if(!bNext.disabled)next();return}
  if(f.elements.societe&&f.elements.societe.value){location.href=C.merci;return}
@@ -745,7 +759,7 @@ def js(lang):
            "lab": [[k, lab[k]] for k in LAB_ORDER], "labEn": [[k, lab_en[k]] for k in LAB_ORDER],
            "k": {"tour": JSX[lang]["tour"], "none": JSX[lang]["none"], "datesj": JSX[lang]["datesj"], "adultes": JSX[lang]["adultes"], "enfants": JSX[lang]["enfants"],
                  "bebes": JSX[lang]["bebes"], "logementB": T("Already booked, I need services only")},
-           "prix": PRIX_N, "t": {"step": T("Step {n} of {t}"), "invites": T("{n} guests"), "edit": T("Edit"), "change": T("Change"), "perso": T("For your {g} guests, {n} {p}, with {s}, plan from about {x}"), "perso0": T("For your {g} guests, {n} {p}. Add services to see a starting price."), "large": T("Your selection is a large project: we will build it with you."), "dem": T(", plus services on request"), "dans": T("in {p}"), "alpes": T("in the Alps"), "ou": T(" or "), "et": T(" and "), "semaine": T("a week"), "s_chalet": T("a chalet"), "s_chef": T("a private chef"), "s_livre": T("delivered meals"), "s_shabbat": T("the Shabbat meals"), "s_lyon": T("the Lyon tour"), "n_occupe": T("A very busy period: the best chalets go early."), "n_station": T("One of the most sought-after resorts in the Alps."), "n_groupe": T("For a large group we combine chalets."), "f_below": T("We'll focus on what matters most: your kosher meals. Many families book their own apartment, and we take care of the meals, Shabbat and the minyan."), "torah": T("Sefer Torah in the chalet"), "k_below_p": T("below (essentials proposed)"), "k_below_c": T("below (essentials chosen)"), "p_chef": T("delivered meals instead of a private chef"), "p_station": T("a resort with lower prices, such as Val Thorens"), "p_appart": T("an apartment instead of a private chalet"), "p_court": T("a shorter stay or fewer services"), "f_around": T("Perfect: we will build your stay around this."), "f_above": T("Wonderful: we can add every comfort you wish."), "f_discuss": T("We'll talk it through on WhatsApp."), "k_below": T("below"), "k_around": T("around"), "k_above": T("above"), "k_discuss": T("discuss"), "estimate": T("estimate"),"nuits": T("{n} nights"), "nuit": T("1 night"), "sending": T("Sending…"), "ko": KO}}
+           "prix": PRIX_N, "t": {"step": T("Step {n} of {t}"), "bcalc": T("Adults: {a} · nights: {n} · children not counted"), "bchalet": T("For this stay, a private chalet starts at about {x} €. We suggest the kosher meals instead."), "invites": T("{n} guests"), "edit": T("Edit"), "change": T("Change"), "perso": T("For your {g} guests, {n} {p}, with {s}, plan from about {x}"), "perso0": T("For your {g} guests, {n} {p}. Add services to see a starting price."), "large": T("Your selection is a large project: we will build it with you."), "dem": T(", plus services on request"), "dans": T("in {p}"), "alpes": T("in the Alps"), "ou": T(" or "), "et": T(" and "), "semaine": T("a week"), "s_chalet": T("a chalet"), "s_chef": T("a private chef"), "s_livre": T("delivered meals"), "s_shabbat": T("the Shabbat meals"), "s_lyon": T("the Lyon tour"), "n_occupe": T("A very busy period: the best chalets go early."), "n_station": T("One of the most sought-after resorts in the Alps."), "n_groupe": T("For a large group we combine chalets."), "f_below": T("We'll focus on what matters most: your kosher meals. Many families book their own apartment, and we take care of the meals, Shabbat and the minyan."), "torah": T("Sefer Torah in the chalet"), "k_below_p": T("below (essentials proposed)"), "k_below_c": T("below (essentials chosen)"), "p_chef": T("delivered meals instead of a private chef"), "p_station": T("a resort with lower prices, such as Val Thorens"), "p_appart": T("an apartment instead of a private chalet"), "p_court": T("a shorter stay or fewer services"), "f_around": T("Perfect: we will build your stay around this."), "f_above": T("Wonderful: we can add every comfort you wish."), "f_discuss": T("We'll talk it through on WhatsApp."), "k_below": T("below"), "k_around": T("around"), "k_above": T("above"), "k_discuss": T("discuss"), "estimate": T("estimate"),"nuits": T("{n} nights"), "nuit": T("1 night"), "sending": T("Sending…"), "ko": KO}}
     assert set(LAB_ORDER) >= set(LAB[lang]), set(LAB[lang]) - set(LAB_ORDER)
     return JS_TPL.replace("__CFG__", json.dumps(cfg, ensure_ascii=False))
 
@@ -1170,7 +1184,22 @@ P .pf-barre{height:2px}
 P .pf-barre i{background:#A88F5E}
 P .pf-notes li::before{background:#A88F5E}
 P .pf-fit,P .pf-fit-fits{border-left-color:#A88F5E}
-P .pf-champ :is(input,select,textarea):focus-visible{outline:none}
+Q .pf-champ :is(input,select,textarea):is(:focus,:focus-visible){outline:none!important}
+P .pf-bdeux{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+P .pf-bcalc{margin:4px 0 0;font-size:12.5px;color:#6B6B6B}
+P .pf-bcalc:empty{display:none}
+P .pf-bchalet{margin:8px 0 0;padding-inline-start:12px;border-inline-start:2px solid #9B2C1F;font-size:13.5px;line-height:1.45;color:#9B2C1F}
+P .pf-bchalet[hidden]{display:none}
+@media (max-width:699px) and (max-height:760px){
+  P #e-budget .pf-avis .pf-c{min-height:46px;padding:9px 14px}
+}
+@media (max-width:699px) and (max-height:620px){
+  P #e-budget .pf-perso{font-size:15px;line-height:1.4}
+  P #e-budget .pf-notes li{font-size:12.5px}
+  P #e-budget .pf-avis .pf-c{min-height:42px;padding:8px 12px}
+  P #e-budget .pf-fit,P #e-budget .pf-bchalet{font-size:13px;line-height:1.4}
+  P #e-budget .pf-bdeux .pf-champ input{min-height:38px}
+}
 P .pf-bhint{margin:6px 0 0;font-size:13px;line-height:1.4;color:#5B3A29}
 P .pf-bhint[hidden]{display:none}
 /* 05/11 : ecran final du b (adresse du logement ajoutee) : sur petit ecran, ou tant que le bandeau cookies est affiche, le titre « Vos coordonnees » reste lu par les lecteurs d'ecran mais ne prend plus de hauteur ; aucun texte retreci */
