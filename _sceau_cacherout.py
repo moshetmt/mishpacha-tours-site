@@ -101,7 +101,8 @@ def poser(f):
             t = re.sub(r'(<a class="lc-btn lc-blanc lc-wa".*?</a>)', lambda m: m.group(1) + "\n     " + bloc(lang), t, count=1, flags=re.S)
         t = re.sub(r'(<p class="lc-ref">[^<]*)', lambda m: m.group(1) + f'{A}<span class="cach-ref"> · {REF[lang]}</span>{Z}', t, count=1)
     elif slug == "kosher-services-french-alps":
-        t = re.sub(r'(<h1>[^<]*<br><i>[^<]*</i></h1>)', lambda m: m.group(1) + hero(lang), t, count=1)
+        # 05/11 soir (Moshe : « il y a deja marque certifie cacher en haut, pourquoi tu le rajoutes dans la banniere ») :
+        # plus de ligne sous le titre, le badge rond suffit dans la banniere
         if '<div class="bn-intro wrap">' in t:
             t = re.sub(r'(<div class="bn-intro wrap">)', lambda m: m.group(1) + bloc(lang), t, count=1)
         else:  # hebreu : pas de bloc d'introduction sous la banniere, le sceau va juste apres le fil d'Ariane
