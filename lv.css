@@ -921,4 +921,5 @@ html[dir="rtl"] body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6)
 .dk-garanties .dk-g-logo img{display:block;width:150px;height:auto}
 html body .dk-garanties .dk-g-logo-t,html[dir=rtl] body .dk-garanties .dk-g-logo-t{display:block;margin:0 0 8px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#7A6440}
 html[dir=rtl] .dk-garanties .dk-g-logo img{margin-inline-start:0}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9) main .dk-garanties .dk-g-logo-t{color:#7A6440 !important}
 /* /LOGO-BH-0511 */
