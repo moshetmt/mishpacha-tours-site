@@ -16,10 +16,12 @@ UA = {"User-Agent": "MishpachaToursBot/1.0 (moshe@123digital.fr)"}
 # boîte de recadrage 4:3 : (x0, y0, largeur) en fractions de l'original
 CAND = [
     dict(n=1, key="hagalah-bouillante", file="88737.jpg", title="File:88737 hagalah - koshering process of utensils PikiWiki Israel.jpg",
-         box=(0.0, 0.31, 1.0), lic="CC BY 2.5", au="Lizi Shanan (PikiWiki Israel)",
+         box=(0.0, 0.31, 1.0), lic="CC BY 2.5", au="Lizi Shanan (PikiWiki Israel)", pub="Lizi Shanan", curid=121599865,
+         titre=dict(en="Hagalah, utensils dipped in boiling water", fr="Hagalah, ustensiles plongés dans l'eau bouillante", es="Hagalah, utensilios sumergidos en agua hirviendo", he="הגעלת כלים, כלים מוטבלים במים רותחים"),
          note="Filet d'ustensiles descendu dans un fût d'eau bouillante, vapeur. Recadrage sous les visages : aucun visage, pas de texte, pas de marque."),
     dict(n=2, key="hagalah-chaudrons", file="31511.jpg", title="File:PikiWiki Israel 31511 Religion in Israel.JPG",
-         box=(0.06, 0.31, 0.62), lic="CC BY 2.5", au="Udi Steinwell (PikiWiki Israel)",
+         box=(0.06, 0.31, 0.62), lic="CC BY 2.5", au="Udi Steinwell (PikiWiki Israel)", pub="Udi Steinwell", curid=25427425,
+         titre=dict(en="Pots on the fire before Pesach", fr="Marmites sur le feu avant Pessah", es="Ollas al fuego antes de Pésaj", he="סירים על האש לפני פסח"),
          note="Marmites sur brûleurs à gaz dans une cour, aucune personne. Les chandeliers du mur sont hors cadre."),
     dict(n=3, key="rack-bidon", file="31375.jpg", title="File:PikiWiki Israel 31375 Cleansing of vessels in boiling water on the eve o.JPG",
          box=(0.15, 0.30, 0.63), lic="CC BY 2.5", au="Avishai Teicher (PikiWiki Israel)",
@@ -145,18 +147,19 @@ def credits():
         for cd in retenues:
             lignes.append(f"| img/cacherisation/{cd['key']}-*.webp | {cd['title']} | {cd['lic']} | {cd['au']} | https://commons.wikimedia.org/wiki/{urllib.parse.quote(cd['title'].replace(' ', '_'), safe=':')} |")
         c.write_text(txt.rstrip("\n") + "\n" + "\n".join(lignes) + "\n", encoding="utf8")
-    p = ROOT / "credits" / "index.html"
-    s = p.read_text(encoding="utf8")
-    if "cacherisation/" not in s:
+    for pdir in ("", "fr/", "es/", "he/"):
+        lang = pdir[:-1] or "en"
+        p = ROOT / pdir / "credits" / "index.html"
+        s = p.read_text(encoding="utf8")
+        if "cacherisation/" in s:
+            continue
         li = ""
         for cd in retenues:
-            nom = cd["title"].replace("File:", "")
-            url = "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(cd["title"].replace(" ", "_"), safe="")
-            li += (f'<li><b>{nom}</b><span>cacherisation/{cd["key"]}.webp · {cd["au"]} · {cd["lic"]}</span>'
+            url = f"https://commons.wikimedia.org/w/index.php?curid={cd['curid']}"
+            li += (f'<li><b>{cd["titre"][lang]}</b><span>cacherisation/{cd["key"]}.webp · {cd["pub"]} · {cd["lic"]}</span>'
                    f'<span class="liens"><a class="go" href="{url}" target="_blank" rel="noopener">Source</a></span></li>')
-        m = re.search(r'Photographs <small>(\d+)</small></h2><ul class="liste-lieux">', s)
-        n = int(m.group(1)) + len(retenues)
-        s = s[:m.start()] + f'Photographs <small>{n}</small></h2><ul class="liste-lieux">' + li + s[m.end():]
+        m = re.search(r'(<h2>[^<]*<small>)(\d+)(</small></h2><ul class="liste-lieux">)', s)
+        s = s[:m.start()] + m.group(1) + str(int(m.group(2)) + len(retenues)) + m.group(3) + li + s[m.end():]
         p.write_text(s, encoding="utf8")
 
 
