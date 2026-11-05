@@ -167,7 +167,7 @@ Availability confirmed for your dates with each request.
 - **A minyan and a Sefer Torah.** When several families are in the same resort, the team groups them for a minyan and brings a Sefer Torah, in winter and in summer. Give your dates early.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.
 
-Strictly kosher. Our team in the Alps cooks under the Chabad network of the Alps; the kitchen is certified kosher by Beth Habad Grenoble-Alpes. Shomer Shabbat: nothing is delivered on Shabbat or on a holiday, everything is set before candle lighting. Full detail: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
+Strictly kosher. Our team in the Alps cooks under the Chabad network of the Alps; the kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Shomer Shabbat service: nothing is delivered on Shabbat or on a holiday, everything is set before candle lighting. Full detail: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
 
 ## How it *works*
 
@@ -261,7 +261,7 @@ Courchevel 1850 and Megève have a Chabad house in winter. Elsewhere, a minyan d
 
 Is the food strictly kosher?
 
-Yes. Our team in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes.
+Yes. Our team in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 How far ahead should we ask?
 

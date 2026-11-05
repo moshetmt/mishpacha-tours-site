@@ -14,9 +14,9 @@ T = {  # titre, nom, points, ligne du heros, texte alternatif
     # 05/11 v4 (Moshe : « ca n'a pas trop de sens de dire Hashgaha, il faut bien utiliser la terminologie ») : « certifie cacher par »
     # points = ce qui qualifie les REPAS et le SERVICE, jamais pose a cote du rav (« Shomer Shabbat » pres du nom du rav laisserait
     # entendre qu'on certifie le rav lui-meme : malentendu enorme)
-    "":   ("", "Beth Habad Grenoble‑Alpes", "Chalav Yisrael meals · Shomer Shabbat service", "Certified kosher by Beth Habad Grenoble-Alpes", "Beth Habad Grenoble-Alpes"),
-    "fr": ("", "Beth Habad de Grenoble‑Alpes", "Repas 'Halav Yisrael · Service shomer Chabbat", "Certifié cacher par le Beth Habad de Grenoble-Alpes", "Beth Habad Grenoble-Alpes"),
-    "es": ("", "Beth Habad Grenoble‑Alpes", "Comidas Jalav Yisrael · Servicio shomer Shabat", "Certificado kosher por el Beth Habad Grenoble-Alpes", "Beth Habad Grenoble-Alpes"),
+    "":   ("", "Beth Habad Grenoble‑Alpes", "Chalav Yisrael meals · Shomer Shabbat service", "Certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany", "Beth Habad Grenoble-Alpes"),
+    "fr": ("", "Beth Habad de Grenoble‑Alpes", "Repas 'Halav Yisrael · Service shomer Chabbat", "Certifié cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany", "Beth Habad Grenoble-Alpes"),
+    "es": ("", "Beth Habad Grenoble‑Alpes", "Comidas Jalav Yisrael · Servicio shomer Shabat", "Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany", "Beth Habad Grenoble-Alpes"),
     "he": ("", "בית חב״ד גרנובל-אלפים", "ארוחות חלב ישראל · שירות שומר שבת", "בהשגחת בית חב״ד גרנובל-אלפים", "בית חב״ד גרנובל-אלפים"),
 }
 RAV = {"": "Rav Yehia Lahiany", "fr": "Rav Yehia Lahiany", "es": "Rav Yehia Lahiany", "he": ""}   # 05/11 : oui de Moshe ; orthographe hebraique a fournir

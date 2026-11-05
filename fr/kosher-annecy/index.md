@@ -29,7 +29,7 @@ La Clusaz et Le Grand-Bornand sont à 30 ou 40 minutes de route, plus haut dans 
 - **Un minyan et un Sefer Torah.** Annecy a une petite synagogue (voir plus bas), mais un minyan pendant votre semaine dépend du nombre de familles présentes dans la région. Donnez-nous vos dates et nous réunissons les familles qui nous écrivent.
 - **Un séjour sur mesure, de A à Z.** Villa ou chalet, chef ou repas livrés, transferts, Shabbat, les fêtes, un minyan : une demande, un devis. Les grands groupes et les familles venus de l’étranger sont notre cœur de cible ; pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.
 
-Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; la cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes. Détail de chaque service : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
+Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; la cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Détail de chaque service : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
 Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
@@ -129,7 +129,7 @@ Oui. Un chef dans une villa au bord du lac, des repas livrés et Shabbat pour un
 
 Qui surveille la cacherout des repas ?
 
-Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes.
+Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany.
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 

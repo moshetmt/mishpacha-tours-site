@@ -32,17 +32,23 @@ PHRASES = [
     (r"El chef prepara en la villa las comidas de Shabat y de las fiestas\.", lambda m: "El chef prepara en la villa sus comidas de la semana, de Shabat y de las fiestas."),
     (r"השף מכין בווילה את סעודות השבת והחגים\.", lambda m: "השף מכין בווילה את הארוחות שלכם בימי החול, בשבת ובחגים."),
     # 05/11 soir (Moshe : « bien utiliser la terminologie ») : « la hashgaha est celle du » -> « certifie cacher par »
-    (r"([Ll])a hashgaha est celle du Beth Habad de Grenoble-Alpes\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes."),
-    (r"([Tt])he hashgacha is by Beth Habad Grenoble-Alpes\.", lambda m: ("T" if m.group(1) == "T" else "t") + "he kitchen is certified kosher by Beth Habad Grenoble-Alpes."),
-    (r"([Ll])a hashgajá es del Beth Habad Grenoble-Alpes\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cocina está certificada kosher por el Beth Habad Grenoble-Alpes."),
+    (r"([Ll])a hashgaha est celle du Beth Habad de Grenoble-Alpes\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany."),
+    (r"([Tt])he hashgacha is by Beth Habad Grenoble-Alpes\.", lambda m: ("T" if m.group(1) == "T" else "t") + "he kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany."),
+    (r"([Ll])a hashgajá es del Beth Habad Grenoble-Alpes\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany."),
     (r"ההשגחה היא של בית חב״ד גרנובל-אלפים\.", lambda m: "המטבח בהשגחת בית חב״ד גרנובל-אלפים."),
+    # RAV-0511 (Moshe 05/11 : « certifie par le Beth Habad de Grenoble, et la le nom du Rav, c'est toujours comme ca ») : pages deja reecrites
+    (r"(certifiée cacher par le Beth Habad de Grenoble-Alpes|certified kosher by Beth Habad Grenoble-Alpes|certificada kosher por el Beth Habad Grenoble-Alpes)\.", lambda m: m.group(1) + ", Rav Yehia Lahiany."),
+    # SHOMER-0511 : apres le nom du rav, « Shomer Shabbat : » devient « Service shomer Chabbat : » (le sujet est le service, jamais le rav)
+    (r"Rav Yehia Lahiany\.((?:\s*<[^>]*>)*\s*)Shomer Shabbat :", lambda m: "Rav Yehia Lahiany." + m.group(1) + "Service shomer Chabbat :"),
+    (r"Rav Yehia Lahiany\.((?:\s*<[^>]*>)*\s*)Shomer Shabbat:", lambda m: "Rav Yehia Lahiany." + m.group(1) + "Shomer Shabbat service:"),
+    (r"Rav Yehia Lahiany\.((?:\s*<[^>]*>)*\s*)Shomer Shabat:", lambda m: "Rav Yehia Lahiany." + m.group(1) + "Servicio shomer Shabat:"),
 ]
 SURV = [  # pages au sceau seulement
-    (r"(?i)(t)he supervision details come in writing with your quote\.", lambda m: ("T" if m.group(1) == "T" else "t") + "he kitchen is certified kosher by Beth Habad Grenoble-Alpes."),
-    (r"Le détail de la surveillance rabbinique vous est remis par écrit avec le devis\.", lambda m: "La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes."),
-    (r"le détail de la surveillance rabbinique vous est remis par écrit avec le devis\.", lambda m: "la cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes."),
-    (r"([Ll])es détails de la surveillance figurent par écrit dans votre devis\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes."),
-    (r"([Ll])os detalles de la supervisión se entregan por escrito con el presupuesto\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cocina está certificada kosher por el Beth Habad Grenoble-Alpes."),
+    (r"(?i)(t)he supervision details come in writing with your quote\.", lambda m: ("T" if m.group(1) == "T" else "t") + "he kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany."),
+    (r"Le détail de la surveillance rabbinique vous est remis par écrit avec le devis\.", lambda m: "La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany."),
+    (r"le détail de la surveillance rabbinique vous est remis par écrit avec le devis\.", lambda m: "la cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany."),
+    (r"([Ll])es détails de la surveillance figurent par écrit dans votre devis\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany."),
+    (r"([Ll])os detalles de la supervisión se entregan por escrito con el presupuesto\.", lambda m: ("L" if m.group(1) == "L" else "l") + "a cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany."),
     (r"פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר\.", lambda m: "המטבח בהשגחת בית חב״ד גרנובל-אלפים."),
 ]
 

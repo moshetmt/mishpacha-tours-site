@@ -63,7 +63,7 @@ Las comidas de Shabat las cocina en el chalé el chef o se entregan allí. Las f
 
 Un minián y un Sefer Torá dependen de las familias presentes esa semana. Dénos sus fechas con antelación y le decimos qué es posible.
 
-Estrictamente kosher. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes.
+Estrictamente kosher. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 Esta semana
 
@@ -130,7 +130,7 @@ Desde 13.500 € por semana el chalé. El precio final depende de sus fechas, de
 
 ¿Quién cocina las comidas?
 
-Un chef privado cocina comidas kosher en el chalé, o se las entregan allí. Nuestro equipo prepara la cocina como kosher para su estancia. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes.
+Un chef privado cocina comidas kosher en el chalé, o se las entregan allí. Nuestro equipo prepara la cocina como kosher para su estancia. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ¿Se organiza Shabat?
 

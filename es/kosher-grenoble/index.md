@@ -30,7 +30,7 @@ Nuestro equipo kosher llega desde aquí a Chamrousse, Alpe d'Huez y Les 2 Alpes.
 - **Grupos numerosos.** Las comidas para un grupo durante toda la semana, en una sala o en los apartamentos, forman parte de lo que hace el equipo. Envíe el número de personas y las fechas.
 - **Una estancia a medida, de la A a la Z.** Chalé, chef o comidas entregadas, traslados, Shabat, las fiestas, un minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo; si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
-Estrictamente kosher. Nuestro equipo kosher con base en los Alpes cocina bajo la red Chabad de los Alpes; la cocina está certificada kosher por el Beth Habad Grenoble-Alpes. Detalle de cada servicio: [servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/).
+Estrictamente kosher. Nuestro equipo kosher con base en los Alpes cocina bajo la red Chabad de los Alpes; la cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Detalle de cada servicio: [servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/).
 
 También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
@@ -140,7 +140,7 @@ Sí. Indíquenos qué fiesta cae en su semana. Las velas de Janucá, la lectura 
 
 ¿Quién supervisa la comida kosher?
 
-Nuestro equipo kosher con base en los Alpes cocina bajo la red Chabad de los Alpes. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes.
+Nuestro equipo kosher con base en los Alpes cocina bajo la red Chabad de los Alpes. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 

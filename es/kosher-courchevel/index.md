@@ -82,7 +82,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 - **Un minián y un Sefer Torá.** Añadimos un minián y un Sefer Torá para sus fechas cuando las familias presentes lo piden.
 - **Una estancia a medida, de la A a la Z.** Chalé, chef o comidas entregadas, traslados, Shabat, las fiestas, un minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo; si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
-Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes: la cocina está certificada kosher por el Beth Habad Grenoble-Alpes.
+Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes: la cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 

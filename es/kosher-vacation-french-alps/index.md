@@ -28,7 +28,7 @@ Usted quiere unas vacaciones kosher en el extranjero sin hotel kosher: un chalé
 - **Un minián y un Sefer Torá.** Courchevel 1850 y Megève tienen una casa Chabad en invierno. En las demás estaciones, cuando varias familias coinciden, el equipo las reúne y lleva un Sefer Torá, en invierno y en verano.
 - **Una estancia a medida, de la A a la Z.** Chalé, chef o comidas entregadas, traslados, Shabat, fiestas, minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo.
 
-Estrictamente kosher. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes; la cocina está certificada kosher por el Beth Habad Grenoble-Alpes. Shomer Shabat: todo queda listo antes del encendido de las velas.
+Estrictamente kosher. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes; la cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Servicio shomer Shabat: todo queda listo antes del encendido de las velas.
 
 ## Invierno: *las estaciones de esquí*
 
@@ -94,7 +94,7 @@ Cuéntenos.
 
 ¿La comida es estrictamente kosher?
 
-Sí. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes.
+Sí. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ¿Venden el viaje en sí?
 

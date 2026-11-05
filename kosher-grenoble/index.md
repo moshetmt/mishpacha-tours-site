@@ -30,7 +30,7 @@ Our kosher team reaches Chamrousse, Alpe d'Huez and Les 2 Alpes from here. We or
 - **Large groups.** Meals for a group for the whole week, in a hall or in the apartments, are part of what the team does. Send the number of people and the dates.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.
 
-Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the kitchen is certified kosher by Beth Habad Grenoble-Alpes. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
+Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
 
 We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
@@ -140,7 +140,7 @@ Yes. Tell us which holiday falls in your week. Hanukkah candles, a Megillah read
 
 Who supervises the kosher food?
 
-Our kosher team based in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes.
+Our kosher team based in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ## Prefer a whole chalet? *Our kosher chalets*
 
