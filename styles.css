@@ -1268,11 +1268,23 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-avis .pf-c{min-height:46px;padding:9px 14px}
 }
 @media (max-width:699px) and (max-height:620px){
-  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-perso{font-size:15px;line-height:1.4}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-perso{font-size:15px;line-height:1.33}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-bcalc{margin-top:2px}
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-notes li{font-size:12.5px}
-  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-avis .pf-c{min-height:42px;padding:8px 12px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-avis .pf-c{min-height:40px;padding:6px 12px}
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-fit,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-bchalet{font-size:13px;line-height:1.4}
   html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-bdeux .pf-champ input{min-height:38px}
+}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-champ:has(:is(input,select)[required])>label::after,html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #dm-accord label>span:first-of-type::after{content:" *";color:#7A6440}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-oblig{margin:8px 0 0;font-size:12px;color:#6B6B6B}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-rnote{margin:6px 0 0;font-size:13px;line-height:1.4;color:#5B3A29}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-rnote[hidden]{display:none}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-avis-t{margin:14px 0 8px!important}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-avis[hidden] .pf-avis-t{display:none}
+@media (max-width:699px) and (max-height:620px){
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-avis-t{display:none}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-rnote{font-size:12px;margin-top:4px}
+  html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) #e-budget .pf-notes{margin-top:6px}
 }
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bhint{margin:6px 0 0;font-size:13px;line-height:1.4;color:#5B3A29}
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .pf-bhint[hidden]{display:none}

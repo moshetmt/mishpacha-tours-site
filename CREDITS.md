@@ -199,3 +199,12 @@ Moshé 29/10 : plus de montagnes en été. Licence Pexels, usage commercial grat
 ## Icônes or (30/10/2026)
 
 36 pictogrammes au trait dans `img/illus/or/` (contact, programme, skieur, Chabbat, synagogue, mikvé, traboule, Izieu…), générés par Canva (génération d'images, compte Mishpacha/123digital) à partir des prompts de `_icones_or.py`, dans le langage calligraphique du flocon Winter Prestige (version du 30/10 au soir), recolorés en or #D9A93A en local. Ils remplacent les 14 dessins Gemini de `img/illus/w/` (plus référencés, décision Moshé du 30/10).
+
+## Cachérisation (05/11/2026)
+
+Photos Wikimedia Commons, licence lue par l'API le 05/11/2026, recadrées en 4:3 et converties en WebP (aucune autre retouche). CC BY : crédit obligatoire, présent sur /credits/. Jamais en og:image.
+
+| Fichier | Titre Commons | Licence | Auteur | Source |
+|---|---|---|---|---|
+| img/cacherisation/hagalah-bouillante-*.webp | File:88737 hagalah - koshering process of utensils PikiWiki Israel.jpg | CC BY 2.5 | Lizi Shanan (PikiWiki Israel) | https://commons.wikimedia.org/wiki/File:88737_hagalah_-_koshering_process_of_utensils_PikiWiki_Israel.jpg |
+| img/cacherisation/hagalah-chaudrons-*.webp | File:PikiWiki Israel 31511 Religion in Israel.JPG | CC BY 2.5 | Udi Steinwell (PikiWiki Israel) | https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_31511_Religion_in_Israel.JPG |
