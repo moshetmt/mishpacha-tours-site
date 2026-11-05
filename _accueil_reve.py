@@ -6,10 +6,10 @@
 Fichiers : img/reve/*.jpg (sources), img/h/reve-*-{640,960,1600,2400}.webp, img/cartes/reve-*.webp.
     python _accueil_reve.py   (depuis site-v5/)"""
 import re
-L = {"": dict(pref="", alt="A Shabbat table set in the chalet, with the Alps through the window", cap=["Shabbat at the chalet", "Your private chef", "On the slopes", "Dog sledding"]),
-     "fr/": dict(pref="/", alt="Une table de Chabbat dressée dans le chalet, les Alpes par la fenêtre", cap=["Chabbat au chalet", "Votre chef privé", "Sur les pistes", "Chiens de traîneau"]),
-     "es/": dict(pref="/", alt="Una mesa de Shabat puesta en el chalet, con los Alpes por la ventana", cap=["Shabat en el chalet", "Su chef privado", "En las pistas", "Trineo de perros"]),
-     "he/": dict(pref="/", alt="שולחן שבת ערוך בצ'אלה, האלפים מבעד לחלון", cap=["שבת בצ'אלה", "השף הפרטי שלכם", "על המסלולים", "מזחלת כלבים"])}
+L = {"": dict(pref="", alt="A Shabbat table set in the chalet, with the Alps through the window", cap=["Meals in the chalet or delivered", "Your private chef", "On the slopes", "Dog sledding"]),
+     "fr/": dict(pref="/", alt="Une table de Chabbat dressée dans le chalet, les Alpes par la fenêtre", cap=["Repas au chalet ou livrés", "Votre chef privé", "Sur les pistes", "Chiens de traîneau"]),
+     "es/": dict(pref="/", alt="Una mesa de Shabat puesta en el chalet, con los Alpes por la ventana", cap=["Comidas en el chalet o a domicilio", "Su chef privado", "En las pistas", "Trineo de perros"]),
+     "he/": dict(pref="/", alt="שולחן שבת ערוך בצ'אלה, האלפים מבעד לחלון", cap=["ארוחות בצ'אלה או במשלוח", "השף הפרטי שלכם", "על המסלולים", "מזחלת כלבים"])}
 ORDRE = ["table", "chef", "ski", "traineau"]
 for lang, d in L.items():
     p = f"{lang}index.html"; h = open(p, encoding="utf-8").read(); P = d["pref"]

@@ -29,7 +29,7 @@ Le téléphérique de l’Aiguille du Midi monte à 3 842 m. Nous organisons v
 - **Un minyan et un Sefer Torah.** La taille d’un minyan dépend du nombre de familles présentes dans la vallée cette semaine-là, l’hiver comme l’été. Donnez-nous vos dates et nous réunissons les familles qui nous écrivent.
 - **Un séjour sur mesure, de A à Z.** Chalet, chef ou repas livrés, transferts, Shabbat, les fêtes, un minyan : une demande, un devis. Les familles et les groupes venus de l’étranger sont notre cœur de cible, dont les grands groupes et les familles hébréophones. Pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.
 
-Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis. Détail de chaque service : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
+Strictement casher. Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; la hashgaha est celle du Beth Habad de Grenoble-Alpes. Détail de chaque service : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
 Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
@@ -127,7 +127,7 @@ Oui. Les groupes et les familles venus de l’étranger sont notre cœur de cibl
 
 Qui surveille la cacherout des repas ?
 
-Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+Notre équipe casher basée dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La hashgaha est celle du Beth Habad de Grenoble-Alpes.
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 

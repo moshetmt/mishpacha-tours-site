@@ -36,9 +36,9 @@ La disponibilité est confirmée pour vos dates à chaque demande.
 
 ## Chabbat *au chalet*
 
-Le chef prépare au chalet les repas de Chabbat et des fêtes. Pour un minyan, nous amenons les ba'hourim et un Sefer Torah : avec les hommes de votre famille, Cha'harit a lieu dans votre salon.
+Le chef prépare au chalet vos repas de la semaine, de Chabbat et des fêtes, ou vos repas sont livrés ; pour Chabbat, ils arrivent avant l'allumage des bougies. Pour un minyan, nous amenons les ba'hourim et un Sefer Torah : avec les hommes de votre famille, Cha'harit a lieu dans votre salon.
 
-Strictement casher, tout ce qui est servi est Chalav Yisrael. Les détails de la surveillance figurent par écrit dans votre devis.
+Strictement casher, tout ce qui est servi est Chalav Yisrael. La hashgaha est celle du Beth Habad de Grenoble-Alpes.
 
 Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 

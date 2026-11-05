@@ -29,7 +29,7 @@ Sus remontes funcionan del 5 de diciembre de 2026 al 25 de abril de 2027. Organi
 - **Un minián y un Sefer Torá.** El tamaño del minián depende de cuántas familias estén en la estación esa semana. Dénos sus fechas y reunimos a las familias que nos escriban.
 - **Una estancia a medida, de la A a la Z.** Chalé, chef o comidas entregadas, traslados, Shabat, las fiestas, un minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo; si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
-Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes; los detalles de la supervisión se entregan por escrito con el presupuesto.
+Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes; la hashgajá es del Beth Habad Grenoble-Alpes.
 
 También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
@@ -119,7 +119,7 @@ Sí. Indíquenos qué fiesta cae en su semana. Las velas de Janucá, la lectura 
 
 ¿Quién supervisa la comida kosher?
 
-Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. La hashgajá es del Beth Habad Grenoble-Alpes.
 
 ## ¿Prefiere un chalet entero? *Chalets kosher*
 

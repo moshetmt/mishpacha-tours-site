@@ -29,7 +29,7 @@ Its lifts run from 5 December 2026 to 25 April 2027. We organise your kosher sta
 - **A minyan and a Sefer Torah.** The size of a minyan depends on how many families are in the resort that week. Give us your dates and we group the families who write to us.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.
 
-Strictly kosher. Our team cooks under the Chabad network of the Alps; the supervision details come in writing with your quote.
+Strictly kosher. Our team cooks under the Chabad network of the Alps; the hashgacha is by Beth Habad Grenoble-Alpes.
 
 We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
@@ -119,7 +119,7 @@ Yes. Tell us which holiday falls in your week. Hanukkah candles, a Megillah read
 
 Who supervises the kosher food?
 
-Our team in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.
+Our team in the Alps cooks under the Chabad network of the Alps. The hashgacha is by Beth Habad Grenoble-Alpes.
 
 ## Prefer a whole chalet? *Our kosher chalets*
 

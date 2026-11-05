@@ -28,7 +28,7 @@ You want a kosher vacation abroad without a kosher hotel: a chalet or an apartme
 - **A minyan and a Sefer Torah.** Courchevel 1850 and Megève have a Chabad house in winter. Elsewhere, when several families are in the same resort, the team groups them and brings a Sefer Torah, in winter and in summer.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, holidays, minyan: one request, one quote. Families and groups from abroad are our core.
 
-Strictly kosher. Our team in the Alps cooks under the Chabad network of the Alps; the supervision details come in writing with your quote. Shomer Shabbat: everything is set before candle lighting.
+Strictly kosher. Our team in the Alps cooks under the Chabad network of the Alps; the hashgacha is by Beth Habad Grenoble-Alpes. Shomer Shabbat: everything is set before candle lighting.
 
 ## Winter: *the ski resorts*
 
@@ -94,7 +94,7 @@ Tell us.
 
 Is the food strictly kosher?
 
-Yes. Our team in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.
+Yes. Our team in the Alps cooks under the Chabad network of the Alps. The hashgacha is by Beth Habad Grenoble-Alpes.
 
 Do you sell the trip itself?
 

@@ -36,9 +36,9 @@ Le chalet accueille jusqu'à 15 personnes, du dimanche au dimanche. La disponibi
 
 ## Chabbat *au chalet*
 
-Le chef prépare au chalet les repas de Chabbat et des fêtes, ou les repas arrivent avant l'allumage des bougies. La table accueille tout le groupe. Pour un minyan, nous amenons les ba'hourim et un Séfer Torah : avec les hommes de votre groupe, Cha'harit a lieu dans votre salon.
+Le chef prépare au chalet vos repas de la semaine, de Chabbat et des fêtes, ou vos repas sont livrés ; pour Chabbat, ils arrivent avant l'allumage des bougies. La table accueille tout le groupe. Pour un minyan, nous amenons les ba'hourim et un Séfer Torah : avec les hommes de votre groupe, Cha'harit a lieu dans votre salon.
 
-Strictement casher, tout ce qui est servi est Chalav Yisrael. Les détails de la surveillance figurent par écrit dans votre devis.
+Strictement casher, tout ce qui est servi est Chalav Yisrael. La hashgaha est celle du Beth Habad de Grenoble-Alpes.
 
 Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 

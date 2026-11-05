@@ -28,7 +28,7 @@ Vous voulez des vacances casher à l’étranger sans hôtel casher : un chalet 
 - **Un minyan et un Sefer Torah.** Courchevel 1850 et Megève ont une maison Chabad en hiver. Ailleurs, quand plusieurs familles sont dans la même station, l’équipe les réunit et apporte un Sefer Torah, l’hiver comme l’été.
 - **Un séjour sur mesure, de A à Z.** Chalet, chef ou repas livrés, transferts, Shabbat, fêtes, minyan : une demande, un devis. Les familles et les groupes venus de l’étranger sont notre cœur de cible.
 
-Strictement casher. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis. Shomer Shabbat : tout est en place avant l’allumage des bougies.
+Strictement casher. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; la hashgaha est celle du Beth Habad de Grenoble-Alpes. Shomer Shabbat : tout est en place avant l’allumage des bougies.
 
 ## L’hiver : *les stations de ski*
 
@@ -94,7 +94,7 @@ Nous sommes deux. Pouvez-vous quand même nous aider ?
 
 La nourriture est-elle strictement casher ?
 
-Oui. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+Oui. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La hashgaha est celle du Beth Habad de Grenoble-Alpes.
 
 Vendez-vous le voyage lui-même ?
 

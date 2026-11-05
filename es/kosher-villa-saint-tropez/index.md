@@ -25,7 +25,7 @@ La disponibilidad se confirma para sus fechas con cada solicitud.
 
 ## Shabat *junto al mar*
 
-El chef prepara en la villa las comidas de Shabat y de las fiestas. Para un minyan, llevamos los bojurim y un Sefer Torá: con los hombres de su familia, el minyan se celebra en casa, en la terraza sobre el agua. La sinagoga de Saint-Tropez queda a un paseo de unos 30 a 40 minutos a lo largo del mar, para quien prefiera ir.
+El chef prepara en la villa sus comidas de la semana, de Shabat y de las fiestas. Para un minyan, llevamos los bojurim y un Sefer Torá: con los hombres de su familia, el minyan se celebra en casa, en la terraza sobre el agua. La sinagoga de Saint-Tropez queda a un paseo de unos 30 a 40 minutos a lo largo del mar, para quien prefiera ir.
 
 Estrictamente kosher, todo lo que se sirve es Jalav Yisrael. Los detalles de la supervisión se entregan por escrito con el presupuesto. Las semanas de verano y Pésaj son posibles: indíquenos sus fechas.
 

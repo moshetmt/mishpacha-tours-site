@@ -35,9 +35,9 @@ El chalet recibe de 6 a 8 personas. La disponibilidad se confirma para sus fecha
 
 ## Shabat *en el chalé*
 
-El chef prepara en el chalet las comidas de Shabat y de las fiestas, o las comidas llegan antes del encendido de las velas. La mesa acoge a todo el grupo. Para un minyán, traemos a los bojurim y un Séfer Torá: con los hombres de su grupo, Shajarit se reza en su salón.
+El chef prepara en el chalet sus comidas de la semana, de Shabat y de las fiestas, o sus comidas llegan ya preparadas; para Shabat, antes del encendido de las velas. La mesa acoge a todo el grupo. Para un minyán, traemos a los bojurim y un Séfer Torá: con los hombres de su grupo, Shajarit se reza en su salón.
 
-Estrictamente kosher, todo lo que se sirve es Chalav Yisrael. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+Estrictamente kosher, todo lo que se sirve es Chalav Yisrael. La hashgajá es del Beth Habad Grenoble-Alpes.
 
 Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 

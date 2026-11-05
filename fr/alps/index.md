@@ -167,7 +167,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 - **Un minyan et un Sefer Torah.** Quand plusieurs familles sont dans la même station, l’équipe les réunit pour un minyan et apporte un Sefer Torah, l’hiver comme l’été. Donnez vos dates tôt.
 - **Un séjour sur mesure, de A à Z.** Chalet, chef ou repas livrés, transferts, Shabbat, les fêtes, un minyan : une demande, un devis. Les familles et les groupes venus de l'étranger sont notre cœur de cible ; pour un très petit groupe qui ne veut qu'une livraison, dites-le et nous vous dirons ce qui est faisable.
 
-Strictement casher. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis. Shomer Shabbat : rien n’est livré le Shabbat ni un jour de fête, tout est en place avant l’allumage des bougies. Détail complet : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
+Strictement casher. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes ; la hashgaha est celle du Beth Habad de Grenoble-Alpes. Shomer Shabbat : rien n’est livré le Shabbat ni un jour de fête, tout est en place avant l’allumage des bougies. Détail complet : [services casher dans les Alpes](https://mishpachatours.com/fr/kosher-services-french-alps/).
 
 ## Comment ça *se passe*
 
@@ -261,7 +261,7 @@ Courchevel 1850 et Megève ont une maison Chabad en hiver. Ailleurs, un minyan d
 
 La nourriture est-elle strictement casher ?
 
-Oui. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+Oui. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La hashgaha est celle du Beth Habad de Grenoble-Alpes.
 
 Combien de temps à l’avance faut-il demander ?
 

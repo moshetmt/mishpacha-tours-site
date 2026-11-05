@@ -36,9 +36,9 @@ Availability is confirmed for your dates with each request.
 
 ## Shabbat *in the chalet*
 
-The chef prepares the Shabbat meals and the holidays in the chalet. For a minyan, we bring the bochurim and a Sefer Torah: with the men of your family, Shacharis takes place in your living room.
+The chef cooks your weekday, Shabbat and holiday meals in the chalet, or your meals are delivered; for Shabbat, they arrive before candle lighting. For a minyan, we bring the bochurim and a Sefer Torah: with the men of your family, Shacharis takes place in your living room.
 
-Strictly kosher, everything served is Chalav Yisrael. The supervision details come in writing with your quote.
+Strictly kosher, everything served is Chalav Yisrael. The hashgacha is by Beth Habad Grenoble-Alpes.
 
 For Pesach, we prepare the chalet too: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
