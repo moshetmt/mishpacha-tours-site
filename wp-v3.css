@@ -65,3 +65,7 @@ html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6)
 html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc) .dk-garanties .dk-g-tete{font-size:13px !important;font-weight:400 !important;text-transform:uppercase !important;letter-spacing:.16em !important;color:#111111 !important}
 html body.valora.lv.wp-nav:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main:not(.lc) .dk-garanties .dk-g-ligne{font-size:16px !important;line-height:1.55 !important;color:#5E5E5E !important}
 /* ===/RET-0411-RYTHME=== */
+/* ===RET-0511-FLOCON=== pied WP : flocon calé sur le bord droit de WINTER PRESTIGE (Moshé 05/11 : « remets bien à droite le flocon ») */
+body.wp-nav footer.pied .wp-lock .wp-lock-fl{align-self:flex-end !important;margin-right:var(--fl-dr,0px) !important}
+html[dir="rtl"] body.wp-nav footer.pied .wp-lock .wp-lock-fl{align-self:flex-start !important}
+/* ===/RET-0511-FLOCON=== */

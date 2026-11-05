@@ -391,15 +391,17 @@ def formulaire(lang):
                bchip("religieux", "Hot plate and urn", "Hot plate and urn", px("r_plata_vente")) + bchip("transport", "Private airport transfer", "Private transfer", px()) +
                bchip("ski", "Ski passes", "Ski passes", px(), sa="w") + "</div>")
     # ---- Budget : phrase personnalisee, details en mots, un toucher pour situer son budget, champ libre facultatif
+    # 05/11 (Moshe) : budget propose, puis les deux cases a ecrire, puis « par rapport a ce budget, le votre est »
     budget = (f'<div data-b="abe"><p class="pf-perso" id="dm-perso" aria-live="polite"></p><ul class="pf-notes" id="dm-notes"></ul>' +
-              '<p class="pf-rnote" id="dm-rnote" hidden></p><div class="pf-avis" id="dm-avis">' + f'<p class="pf-sous pf-avis-t">{E("Compared with this, your budget is:")}</p>' + chips("budget_avis", ["Below this", "Around this", "Above this", "I'd rather discuss it"], multi=False) + "</div>" +
-              f'<p class="pf-fit" id="dm-fit" role="status" hidden></p>' +
-              f'<p class="pf-ess" id="dm-ess" hidden><button type="button" class="pf-ess-b" id="dm-ess-b" data-a="{E("Switch to the essentials")}" data-u="{E("Undo")}">{E("Switch to the essentials")}</button></p></div>' +
+              '<p class="pf-rnote" id="dm-rnote" hidden></p></div>' +
               f'<div class="pf-bbloc"{battr("abef")}><div class="pf-bdeux">' +
               champ("budget-pp", "budget_pp", "Per adult, per night", ph="€", extra=' inputmode="numeric"') +
               champ("budget-total", "budget_total", "Total for the stay", ph="€", extra=' inputmode="numeric"') + '</div>' +
               '<p class="pf-bcalc" id="dm-bcalc"></p><p class="pf-bchalet" id="dm-bchalet" role="status" hidden></p>' +
-              f'<p class="pf-bhint" id="dm-bhint" role="status" hidden>{E("The total budget for the whole stay and the whole group, for example 15,000 €.")}</p></div>')
+              f'<p class="pf-bhint" id="dm-bhint" role="status" hidden>{E("The total budget for the whole stay and the whole group, for example 15,000 €.")}</p></div>' +
+              '<div data-b="abe"><div class="pf-avis" id="dm-avis">' + f'<p class="pf-sous pf-avis-t">{E("Compared with this, your budget is:")}</p>' + chips("budget_avis", ["Below this", "Around this", "Above this", "I'd rather discuss it"], multi=False) + "</div>" +
+              f'<p class="pf-fit" id="dm-fit" role="status" hidden></p>' +
+              f'<p class="pf-ess" id="dm-ess" hidden><button type="button" class="pf-ess-b" id="dm-ess-b" data-a="{E("Switch to the essentials")}" data-u="{E("Undo")}">{E("Switch to the essentials")}</button></p></div>')
     trajet = (champ("van_depart", "van_depart", "Pick-up point", ph="Lyon Saint-Exupéry airport") +
               sugg("van_depart", ["Geneva airport", "Lyon airport", "Lyon Part-Dieu station", "Our chalet"] + STATIONS) +
               champ("van_arrivee", "van_arrivee", "Drop-off point", ph="Les Deux Alpes, chalet") +
