@@ -69,12 +69,14 @@ print("2e passe (van, paragraphes longs) :", n2)
 
 P = "html body.lv.bn" + "".join(f":not(#b{i})" for i in range(1, 13))
 H = f"{P} main>section:is(.lv-hero-station,.lead-hero3,.lv-hero-photo,.hero)"
-VOILE = "linear-gradient(180deg,rgba(0,0,0,.30) 0,rgba(0,0,0,0) 120px),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 34%,rgba(0,0,0,.30) 52%,rgba(0,0,0,.58) 72%,rgba(0,0,0,.66) 100%)"
+VOILE = "linear-gradient(180deg,rgba(0,0,0,.30) 0,rgba(0,0,0,0) 120px),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,.42) 52%,rgba(0,0,0,.68) 72%,rgba(0,0,0,.74) 100%)"
+VOILE_STATION = "linear-gradient(180deg,rgba(0,0,0,.30) 0,rgba(0,0,0,0) 120px),linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.52) 52%,rgba(0,0,0,.76) 70%,rgba(0,0,0,.82) 100%)"
 CSS = f"""/* ===BN-0511=== bannières au modèle de l'accueil (_bannieres_accueil.py) */
 html body.lv:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9) .kwp-photo .kwp-seau{{bottom:12px !important;right:12px !important;width:64px !important;height:64px !important}}
 {H}{{position:relative !important;height:100svh !important;min-height:560px !important;max-height:none !important;padding:0 !important;margin:0 !important;display:flex !important;flex-direction:column !important;justify-content:flex-end !important;align-items:center !important;overflow:hidden !important;background:#111111 !important;border:0 !important}}
 {H}>:is(img,video,picture),{H} .lead3-photo,{H} img.bn-photo{{position:absolute !important;inset:0 !important;width:100% !important;height:100% !important;max-width:none !important;object-fit:cover !important;filter:none !important;border-radius:0 !important;z-index:0 !important;opacity:1 !important;transform:none !important}}
 {H}::before{{content:"" !important;display:block !important;position:absolute !important;inset:0 !important;top:0 !important;bottom:0 !important;left:0 !important;right:0 !important;width:100% !important;height:100% !important;z-index:1 !important;pointer-events:none;background:{VOILE} !important;opacity:1 !important}}
+{P} main>section.lv-hero-station::before{{background:{VOILE_STATION} !important}}
 {H}::after{{display:none !important}}
 {H} :is(.hero-texte,.lead3-texte){{position:relative !important;z-index:2 !important;width:100% !important;max-width:720px !important;margin:0 auto !important;padding:0 24px 48px !important;text-align:center !important;box-sizing:border-box;background:none !important;inset:auto !important;transform:none !important}}
 {H} .lead3-bloc{{background:none !important;padding:0 !important;margin:0 !important;max-width:none !important;border:0 !important;box-shadow:none !important;backdrop-filter:none !important;-webkit-backdrop-filter:none !important}}
