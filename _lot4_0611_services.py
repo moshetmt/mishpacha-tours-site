@@ -24,9 +24,9 @@ PHOTOS = {
 }
 ORDRE = ["private-kosher-chalet-alps", "private-kosher-chef-alps", "kosher-meals-delivered-alps", "shabbat-holiday-meals-alps",
          "minyan-sefer-torah-alps", "kosher-van-transfers", "kosher-ski-holidays-french-alps", "spa-massage-alps", "activities-alps-kosher-families"]
-EXIST = {  # pages existantes gardées à leur URL, libellé par langue pour la liste du hub
- "kosher-van-transfers": {"en": "Private van transfers", "fr": "Transferts en van privé", "es": "Traslados en van privada", "he": "הסעות בוואן פרטי"},
- "kosher-ski-holidays-french-alps": {"en": "Kosher ski holidays", "fr": "Vacances au ski casher", "es": "Vacaciones de esquí kosher", "he": "חופשת סקי כשרה"},
+EXIST = {  # pages existantes gardées à leur URL : (libellé, sous-titre) par langue, photo pour la grille du hub
+ "kosher-van-transfers": {"en": ("Private van transfers", "airport, station, resort"), "fr": ("Transferts en van privé", "aéroport, gare, station"), "es": ("Traslados en van privada", "aeropuerto, estación, pistas"), "he": ("הסעות בוואן פרטי", "שדה תעופה, רכבת, אתר הסקי"), "img": "/img/cartes/hub-kosher-van-transfers.webp"},
+ "kosher-ski-holidays-french-alps": {"en": ("Kosher ski holidays", "the week, resort by resort"), "fr": ("Vacances au ski casher", "la semaine, station par station"), "es": ("Vacaciones de esquí kosher", "la semana, estación por estación"), "he": ("חופשת סקי כשרה", "השבוע, אתר אחר אתר"), "img": "/img/cartes/reve-ski.webp"},
 }
 
 def rd(p): return io.open(p, encoding="utf-8", newline="").read()
@@ -130,13 +130,13 @@ TITRE = {"en": ("Our services, ", "page by page"), "fr": ("Nos services, ", "pag
 for l, pre in LANGS:
     p = f"{pre}kosher-services-french-alps/index.html"; s = rd(p)
     s = re.sub(re.escape(A) + ".*?" + re.escape(Z), "", s, flags=re.S)
-    items = []
+    items = []   # grille de cartes photo (Moshé 06/11 : « c'est toujours un peu vide, repas casher »)
     for slug in ORDRE:
-        if slug in EXIST: lab = EXIST[slug][l]
+        if slug in EXIST: lab, sous, img = EXIST[slug][l][0], EXIST[slug][l][1], EXIST[slug]["img"]
         else:
-            t = json.load(open(f"_lot4_contenu/{slug}.json", encoding="utf-8"))[l]; lab = f'{t["h1"]} {t["h1_i"]}'.strip()
-        items.append(f'<li class="dk-sans-ico"><a href="/{pre}{slug}/">{ltr(l, esc(lab))}</a><svg class="dk dk-fleche" aria-hidden="true" focusable="false"><use href="/img/pictos.svg#arrow-right"/></svg></li>')
-    bloc = f'{A}<section class="clair ss wrap conseils"><h2>{TITRE[l][0]}<i>{TITRE[l][1]}</i></h2><ul class="dk-suite">{"".join(items)}</ul></section>{Z}'
+            t = json.load(open(f"_lot4_contenu/{slug}.json", encoding="utf-8"))[l]; lab, sous, img = t["h1"], t["h1_i"], f"/img/h/{slug}-640.webp"
+        items.append(f'<a class="svc-carte" href="/{pre}{slug}/"><img src="{img}" alt="" width="640" height="480" loading="lazy" decoding="async"><span class="svc-t">{ltr(l, esc(lab))}</span><span class="svc-s">{ltr(l, esc(sous))}</span></a>')
+    bloc = f'{A}<section class="clair ss wrap conseils svc"><h2>{TITRE[l][0]}<i>{TITRE[l][1]}</i></h2><div class="svc-grille">{"".join(items)}</div></section>{Z}'
     s = sub1(r'(</section>)(<section class="clair ss wrap minyan-bh repas-prix")', lambda m: m.group(1) + bloc + m.group(2), s)
     wr(p, s)
 print("hub : liste des 9 services posée (4 langues)")

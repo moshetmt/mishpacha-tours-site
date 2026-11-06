@@ -98,6 +98,17 @@ CSS = f"""/* ===LOT4-0611=== lot 4 contenu, retours 17 à 21 du 05/11 (_lot4_061
 {P}.l4-lyon #places .lieux-galerie{{grid-template-columns:repeat(4,minmax(0,1fr)) !important}}
 {P}.l4-lyon .tuiles{{grid-template-columns:repeat(2,minmax(0,1fr)) !important;column-gap:40px !important}}
 }}
+/* n° 20 : grille de cartes photo des 9 services sur la page casher (Moshé 06/11 : « toujours un peu vide ») */
+{P} .svc-grille{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px;margin-top:22px}}
+{P} .svc-carte{{display:block;text-decoration:none !important;color:#111 !important;border:0 !important;background:transparent !important}}
+{P} .svc-carte img{{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px;margin:0 0 8px}}
+{P} .svc-carte .svc-t{{display:block;font-family:Jost,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.06em;font-size:12.5px;line-height:1.3}}
+{P} .svc-carte .svc-s{{display:block;font-size:13px;line-height:1.35;opacity:.75;margin-top:2px}}
+@media (min-width:900px){{
+{P} .svc-grille{{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 24px}}
+{P} .svc-carte .svc-t{{font-size:14px}}
+{P} .svc-carte .svc-s{{font-size:15px}}
+}}
 /* ===/LOT4-0611=== */
 """
 lv = open("lv.css", encoding="utf-8").read()
