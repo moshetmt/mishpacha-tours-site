@@ -199,3 +199,7 @@ Moshé 29/10 : plus de montagnes en été. Licence Pexels, usage commercial grat
 ## Icônes or (30/10/2026)
 
 36 pictogrammes au trait dans `img/illus/or/` (contact, programme, skieur, Chabbat, synagogue, mikvé, traboule, Izieu…), générés par Canva (génération d'images, compte Mishpacha/123digital) à partir des prompts de `_icones_or.py`, dans le langage calligraphique du flocon Winter Prestige (version du 30/10 au soir), recolorés en or #D9A93A en local. Ils remplacent les 14 dessins Gemini de `img/illus/w/` (plus référencés, décision Moshé du 30/10).
+
+## Ajout du 05/11/2026 (page station Avoriaz)
+
+- `img/h/st-avoriaz-{640,960,1600}.webp` et `img/og/kosher-avoriaz.jpg` : Pexels, photo 11358802, Arthur Swiffen (https://www.pexels.com/photo/ski-resort-town-in-mountains-11358802/), licence Pexels (usage commercial libre, sans crédit obligatoire), recadrée. Étiquetée Morzine par le photographe ; identifiée comme Avoriaz par comparaison visuelle avec les vues d'Avoriaz de Wikimedia Commons (tours en bois étagées sur la falaise). À reconfirmer.
