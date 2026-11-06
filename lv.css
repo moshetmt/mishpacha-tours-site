@@ -1050,6 +1050,7 @@ html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not
 @media (max-width:699.98px){
   html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main .l3-hub .kwp-photo{width:100vw;margin-inline:calc(50% - 50vw)}
   html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main .l3-hub .kwp-cartes{gap:64px}
+  html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main .l3-hub .kwp-carte{overflow:visible !important}
 }
 @media (min-width:1000px){html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main .l3-hub .kwp-cartes.kwp-six{grid-template-columns:repeat(3,minmax(0,1fr))}}
 /* « Ce que comprend chaque séjour » : ouvert, sans cadre ni chevron (le script mobile-alpes replie les cartes à partir de la 3e) */

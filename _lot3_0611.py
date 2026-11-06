@@ -314,13 +314,10 @@ def luxe(p):
     s = s.replace('<details class="lc-plis">', '<details class="lc-plis" open>')
     # fiche : les photos avant les textes (blocs de texte sans photo = ce qui tue le luxe)
     a = s.find('<div class="lc-bas-photos">'); b = s.find('<div class="lc-bas-autres">'); c = s.find('<div class="lc-bas">')
-    if 0 < c < a < b and '<div class="lc-bas">
-  <div class="lc-bas-photos">' not in s:
+    if 0 < c < a < b and '<div class="lc-bas">\n  <div class="lc-bas-photos">' not in s:
         bloc = s[a:b]
         s = s[:a] + s[b:]
-        s = s.replace('<div class="lc-bas">', '<div class="lc-bas">
-  ' + bloc.rstrip() + "
-", 1)
+        s = s.replace('<div class="lc-bas">', '<div class="lc-bas">\n  ' + bloc.rstrip() + "\n", 1)
     if s != o and not ETAT: wr(p, s)
     return s != o
 
