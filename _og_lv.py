@@ -26,7 +26,7 @@ TEXTES = {
     "en": ("ALPS · LYON", "Strictly kosher<br>holidays", "Strictly kosher · Shomer Shabbat"),
     "fr": ("ALPES · LYON", "Vacances<br>strictement casher", "Strictement casher · Shomer Shabbat"),
     "es": ("ALPES · LYON", "Vacaciones kosher<br>en los Alpes", "Estrictamente kosher · Shomer Shabat"),
-    "he": ("האלפים · ליון", "חופשת סקי<br>כשרה באלפים", "שומר כשרות · שומר שבת"),
+    "he": ("האלפים · ליון", "חופשת סקי<br>כשרה באלפים", "כשר למהדרין · שומר שבת"),
 }
 
 GABARIT = """<!doctype html><html lang="{lang}" dir="{dir}"><head><meta charset="utf-8">

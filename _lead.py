@@ -62,7 +62,7 @@ T = {
   'en': ['Shomer Shabbat', 'Strictly kosher, Chalav Yisrael', 'Minyan on request'],
   'fr': ['Shomer Shabbat', "Strictement casher, 'Halav Yisrael", 'Minyan sur demande'],
   'es': ['Shomer Shabat', 'Estrictamente kosher, Chalav Yisrael', 'Minyan a petición'],
-  'he': ['שומר שבת', 'שומר כשרות, חלב ישראל', 'מניין לפי בקשה']},   # 15/10 Mendel : tout est 'Halav Yisrael, c'est un argument
+  'he': ['שומר שבת', 'כשר למהדרין, חלב ישראל', 'מניין לפי בקשה']},   # 15/10 Mendel : tout est 'Halav Yisrael, c'est un argument
  'puces_van': {
   'en': ['Shomer Shabbat', 'Point A to point B', 'Quote on request'],
   'fr': ['Shomer Shabbat', 'Du point A au point B', 'Devis sur demande'],

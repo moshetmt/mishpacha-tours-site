@@ -14,15 +14,15 @@ T = {  # titre, nom, points, ligne du heros, texte alternatif
     # 05/11 v4 (Moshe : « ca n'a pas trop de sens de dire Hashgaha, il faut bien utiliser la terminologie ») : « certifie cacher par »
     # points = ce qui qualifie les REPAS et le SERVICE, jamais pose a cote du rav (« Shomer Shabbat » pres du nom du rav laisserait
     # entendre qu'on certifie le rav lui-meme : malentendu enorme)
-    "":   ("", "Beth Habad Grenoble‑Alpes", "Chalav Yisrael meals · Shomer Shabbat service", "Certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany", "Beth Habad Grenoble-Alpes"),
-    "fr": ("", "Beth Habad de Grenoble‑Alpes", "Repas 'Halav Yisrael · Service shomer Chabbat", "Certifié cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany", "Beth Habad Grenoble-Alpes"),
-    "es": ("", "Beth Habad Grenoble‑Alpes", "Comidas Jalav Yisrael · Servicio shomer Shabat", "Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany", "Beth Habad Grenoble-Alpes"),
-    "he": ("", "בית חב״ד גרנובל-אלפים", "ארוחות חלב ישראל · שירות שומר שבת", "בהשגחת בית חב״ד גרנובל-אלפים", "בית חב״ד גרנובל-אלפים"),
+    "":   ("", "Beth Habad Grenoble‑Alpes", "Chalav Yisrael meals · Shomer Shabbat service", "Kosher lamehadrin, certified by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany", "Beth Habad Grenoble-Alpes"),
+    "fr": ("", "Beth Habad de Grenoble‑Alpes", "Repas 'Halav Yisrael · Service shomer Chabbat", "Cacher lamehadrin, certifié par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany", "Beth Habad Grenoble-Alpes"),
+    "es": ("", "Beth Habad Grenoble‑Alpes", "Comidas Jalav Yisrael · Servicio shomer Shabat", "Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany", "Beth Habad Grenoble-Alpes"),
+    "he": ("", "בית חב״ד גרנובל-אלפים", "ארוחות חלב ישראל · שירות שומר שבת", "כשר למהדרין בהשגחת בית חב״ד גרנובל-אלפים", "בית חב״ד גרנובל-אלפים"),
 }
 RAV = {"": "Rav Yehia Lahiany", "fr": "Rav Yehia Lahiany", "es": "Rav Yehia Lahiany", "he": ""}   # 05/11 : oui de Moshe ; orthographe hebraique a fournir
 REF = {"": "Certified kosher", "fr": "Certifié cacher", "es": "Certificado kosher", "he": "השגחת בית חב״ד"}
-OR = {"": "Certified kosher by Beth Habad Grenoble‑Alpes", "fr": "Certifié cacher par le Beth Habad de Grenoble‑Alpes",
-      "es": "Certificado kosher por el Beth Habad Grenoble‑Alpes", "he": "בהשגחת בית חב״ד גרנובל-אלפים"}   # ligne d'or en bas du certificat
+OR = {"": "Kosher lamehadrin, certified by Beth Habad Grenoble‑Alpes", "fr": "Cacher lamehadrin, certifié par le Beth Habad de Grenoble‑Alpes",
+      "es": "Kosher lamehadrín, certificado por el Beth Habad Grenoble‑Alpes", "he": "כשר למהדרין בהשגחת בית חב״ד גרנובל-אלפים"}   # ligne d'or en bas du certificat
 A, Z = "<!--CACH-0511-->", "<!--/CACH-0511-->"
 P = "html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13)"   # plus fort que les regles wp-v3 (11 :not) des pages Winter Prestige
 CERT = {"": "Certified kosher by:", "fr": "Certifié cacher par :", "es": "Certificado kosher por:", "he": "בהשגחת:"}

@@ -36,7 +36,7 @@ BANDEAU = {  # (texte, lien)
     "general": {"en": ("Strictly kosher holidays in the Alps and Lyon, shomer shabbat. ", "Describe your stay."),
                 "fr": ("Séjours strictement casher dans les Alpes et à Lyon, shomer shabbat. ", "Décrivez votre séjour."),
                 "es": ("Vacaciones estrictamente kosher en los Alpes y Lyon, shomer Shabat. ", "Describa su estancia."),
-                "he": ("חופשות כשרות באלפים ובליון. שומר כשרות · שומר שבת. ", "ספרו לנו על החופשה.")},
+                "he": ("חופשות כשרות באלפים ובליון. כשר למהדרין · שומר שבת. ", "ספרו לנו על החופשה.")},
     "lyon": {"en": ("Private tours, Sunday to Friday morning. ", "Check a date on WhatsApp."),
              "fr": ("Visites privées, du dimanche au vendredi matin. ", "Vérifier une date sur WhatsApp."),
              "es": ("Visitas privadas, de domingo a viernes por la mañana. ", "Consulte una fecha por WhatsApp."),
@@ -53,7 +53,7 @@ ENTREES = {"en": ("Chalets", "Resorts", "Kosher meals & chef", "Summer", "Jewish
 SOUS = {"en": ("Private chalets, strictly kosher", "Twenty resorts in France, Switzerland and Italy", "Private chef, delivered meals, minyan, transfers", "Villa in Saint-Tropez, the lakes, the mountains", "The guided visit and the Jewish guide to Lyon"),
         "fr": ("Des chalets privés, strictement casher", "Vingt stations en France, en Suisse et en Italie", "Chef privé, repas livrés, minyan, transferts", "Villa à Saint-Tropez, les lacs, la montagne", "La visite guidée et le guide juif de Lyon"),
         "es": ("Chalets privados, estrictamente kosher", "Veinte estaciones en Francia, Suiza e Italia", "Chef privado, comidas entregadas, minyán, traslados", "Villa en Saint-Tropez, los lagos, la montaña", "La visita guiada y la guía del Lyon judío"),
-        "he": ("צ'אלות פרטיות, בהקפדה על כשרות", "עשרים אתרי סקי בצרפת, בשווייץ ובאיטליה", "שף פרטי, ארוחות משלוח, מניין, הסעות", "וילה בסן־טרופה, האגמים, ההרים", "הסיור המודרך והמדריך ליהדות ליון")}
+        "he": ("צ'אלות פרטיות, כשרות למהדרין", "עשרים אתרי סקי בצרפת, בשווייץ ובאיטליה", "שף פרטי, ארוחות משלוח, מניין, הסעות", "וילה בסן־טרופה, האגמים, ההרים", "הסיור המודרך והמדריך ליהדות ליון")}
 URLS = ("/kosher-chalets/", "/alps/", "/kosher-services-french-alps/", "/summer-in-the-alps-jewish-families/", "/jewish-lyon-tours/")
 PIED_PAN = {"en": ("Same-day reply. Never on Shabbat.", "contact@mishpachatours.com"), "fr": ("Réponse le jour même. Jamais pendant Chabbat.", "contact@mishpachatours.com"),
             "es": ("Respuesta el mismo día. Nunca en Shabat.", "contact@mishpachatours.com"), "he": ("מענה באותו יום. לעולם לא בשבת.", "contact@mishpachatours.com")}

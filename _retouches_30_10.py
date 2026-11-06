@@ -5,7 +5,7 @@
 3. fiches chalet : titre en 2 lignes, nom court en blanc + 4 mots dorés (noms choisis par Mendel le 30/10 à 1 h 04 : NOMS)."""
 import io, re, glob
 
-HEBREU = [("מז'ב", "מג'ב"), ("קורמאייר", "קורמאיור"), ("כשרות למהדרין", "בהקפדה על כשרות"), ("כשר למהדרין", "שומר כשרות")]
+HEBREU = [("מז'ב", "מג'ב"), ("קורמאייר", "קורמאיור")]   # 06/11 : lamehadrin rétabli (_lot4_0611_lamehadrin.py)
 
 ETE = {  # dossier : (ligne blanche, ligne dorée)
   ".":  ("Your private kosher summer", "the Riviera, the lakes, the Alps"),
