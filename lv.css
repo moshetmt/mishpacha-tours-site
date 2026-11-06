@@ -965,6 +965,9 @@ html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv
 /* ===LOT3-0611=== lot 3 chalets (_lot3_0611.py, 06/11) : zones, « Comment ça marche » Vous · Nous · Ensemble, chalets proches */
 .l3-chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0 14px;margin:0 0 6px;-webkit-overflow-scrolling:touch}
 .l3-chips::-webkit-scrollbar{display:none}
+.l3-chips{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 36px),transparent)}
+html[dir=rtl] .l3-chips{-webkit-mask-image:linear-gradient(to left,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(to left,#000 calc(100% - 36px),transparent)}
+@media (min-width:600px){.l3-chips,html[dir=rtl] .l3-chips{-webkit-mask-image:none;mask-image:none}}
 html body.lv .l3-chip{flex:none;display:inline-flex;align-items:center;height:40px;padding:0 16px;border:1px solid #111111;border-radius:4px;background:#FFFFFF;color:#111111;font-family:var(--lv-sans,Jost,sans-serif);font-weight:500;font-size:11px;line-height:1;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;transition:transform 160ms cubic-bezier(.23,1,.32,1),background-color 160ms ease,color 160ms ease,border-color 160ms ease}
 html body.lv .l3-chip:active{transform:scale(.97)}
 html body.lv .l3-chip.is-on{background:#111111;color:#FFFFFF}

@@ -18,7 +18,7 @@ LANGS = (("en", ""), ("fr", "fr/"), ("es", "es/"), ("he", "he/"))
 
 # ---------------------------------------------------------------- zones
 ZONES = {   # ordre d'affichage ; stations : (slug station, nom par langue)
-    "3v": dict(nom={"en": "Les 3 Vallées", "fr": "Les 3 Vallées", "es": "Les 3 Vallées", "he": "שלושת העמקים, 3 Vallées"},
+    "3v": dict(nom={"en": "Les 3 Vallées", "fr": "Les 3 Vallées", "es": "Les 3 Vallées", "he": "<bdi dir=\"ltr\">Les 3 Vallées</bdi>"},
                stations=[("kosher-courchevel", {"en": "Courchevel", "fr": "Courchevel", "es": "Courchevel", "he": "קורשבל"}),
                          ("kosher-val-thorens", {"en": "Val Thorens", "fr": "Val Thorens", "es": "Val Thorens", "he": "ואל טורנס"}),
                          ("kosher-les-menuires", {"en": "Les Ménuires", "fr": "Les Ménuires", "es": "Les Ménuires", "he": "לה מנואר"})]),
@@ -81,6 +81,9 @@ def cm(lang, items, noir):
 CSS = r"""/* ===LOT3-0611=== lot 3 chalets (_lot3_0611.py, 06/11) : zones, « Comment ça marche » Vous · Nous · Ensemble, chalets proches */
 .l3-chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0 14px;margin:0 0 6px;-webkit-overflow-scrolling:touch}
 .l3-chips::-webkit-scrollbar{display:none}
+.l3-chips{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 36px),transparent)}
+html[dir=rtl] .l3-chips{-webkit-mask-image:linear-gradient(to left,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(to left,#000 calc(100% - 36px),transparent)}
+@media (min-width:600px){.l3-chips,html[dir=rtl] .l3-chips{-webkit-mask-image:none;mask-image:none}}
 html body.lv .l3-chip{flex:none;display:inline-flex;align-items:center;height:40px;padding:0 16px;border:1px solid #111111;border-radius:4px;background:#FFFFFF;color:#111111;font-family:var(--lv-sans,Jost,sans-serif);font-weight:500;font-size:11px;line-height:1;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;transition:transform 160ms cubic-bezier(.23,1,.32,1),background-color 160ms ease,color 160ms ease,border-color 160ms ease}
 html body.lv .l3-chip:active{transform:scale(.97)}
 html body.lv .l3-chip.is-on{background:#111111;color:#FFFFFF}
