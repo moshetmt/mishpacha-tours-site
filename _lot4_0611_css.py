@@ -135,6 +135,10 @@ CSS = f"""/* ===LOT4-0611=== lot 4 contenu, retours 17 à 21 du 05/11 (_lot4_061
 {P} .svc-ph{{margin:6px 0 22px}}
 {P} .svc-ph img{{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px}}
 @media (min-width:900px){{ {P} .svc-ph img{{aspect-ratio:21/9}} }}
+/* site entier (pas seulement .l4) : défauts révélés par qa_site sur les pages neuves (Avoriaz) mais présents partout :
+   fil d'Ariane à 70 % d'opacité = 3,3:1 ; en hébreu, Fraunces sur l'intro et Playfair sur « Pour aller plus loin » */
+html body.lv .bn-fil .fil{{opacity:1 !important;color:#5E5E5E !important}}
+html[lang="he"] body.lv main :is(.mf-phrase,.mf-col b,.mf-col span,.mf p,.dk-suite>li>a){{font-family:Heebo,Jost,sans-serif !important}}
 /* ===/LOT4-0611=== */
 """
 lv = open("lv.css", encoding="utf-8").read()
