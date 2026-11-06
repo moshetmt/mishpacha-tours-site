@@ -63,7 +63,7 @@ Non. Nous répondons le jour même, jamais pendant Chabbat. Envoyez votre demand
 
 Qui certifie les repas ?
 
-Certifié cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Ce certificat couvre les repas et le service décrits sur cette page.
+Cacher lamehadrin, certifié par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Ce certificat couvre les repas et le service décrits sur cette page.
 
 Proposez-vous des repas pour les fêtes ?
 

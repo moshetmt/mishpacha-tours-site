@@ -63,7 +63,7 @@ No. Respondemos el mismo día, nunca durante el Shabat. Envíen su solicitud ant
 
 ¿Quién certifica las comidas?
 
-Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Este certificado cubre las comidas y el servicio descritos en esta página.
+Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Este certificado cubre las comidas y el servicio descritos en esta página.
 
 ¿Ofrecen comidas para las fiestas?
 

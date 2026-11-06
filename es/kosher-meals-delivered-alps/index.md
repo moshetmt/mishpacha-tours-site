@@ -67,7 +67,7 @@ Sí. La cena del viernes cuesta 45 €, el almuerzo del sábado 40 € y la seud
 
 ¿Quién certifica lo kosher?
 
-Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Las comidas son Jalav Yisrael y el servicio es shomer Shabat. Háganos cualquier pregunta sobre lo kosher por WhatsApp.
+Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Las comidas son Jalav Yisrael y el servicio es shomer Shabat. Háganos cualquier pregunta sobre lo kosher por WhatsApp.
 
 ¿Cuándo hay que pedir?
 

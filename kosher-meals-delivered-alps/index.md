@@ -67,7 +67,7 @@ Yes. Friday dinner is €45, Saturday lunch €40 and seudah shlishit €30 per 
 
 Who certifies the kosher?
 
-Certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. The meals are Chalav Yisrael and the service is shomer Shabbat. Ask us any question about the kosher on WhatsApp.
+Kosher lamehadrin, certified by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. The meals are Chalav Yisrael and the service is shomer Shabbat. Ask us any question about the kosher on WhatsApp.
 
 When do I have to order?
 

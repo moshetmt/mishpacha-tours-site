@@ -67,7 +67,7 @@ Le chef assure les repas de la semaine. Donnez-nous vos dates et dites-nous quel
 
 Qui certifie le casher ?
 
-Certifié cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Les repas sont 'Halav Yisrael et le service est shomer Chabbat. La cuisine de votre chalet est cachérisée avant que le chef cuisine.
+Cacher lamehadrin, certifié par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Les repas sont 'Halav Yisrael et le service est shomer Chabbat. La cuisine de votre chalet est cachérisée avant que le chef cuisine.
 
 Intervenez-vous à Verbier ou ailleurs en Suisse ?
 

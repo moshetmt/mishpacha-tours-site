@@ -71,7 +71,7 @@ We reply every day except Shabbat. Meals and service at the chalet are shomer Sh
 
 Is the food kosher?
 
-Yes. Meals and service are Certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Meals are Chalav Yisrael and service is shomer Shabbat. The kitchen is kashered before your arrival.
+Yes. Meals and service are Kosher lamehadrin, certified by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Meals are Chalav Yisrael and service is shomer Shabbat. The kitchen is kashered before your arrival.
 
 ## Your quiet evening in the Alps, *organised*.
 

@@ -67,7 +67,7 @@ Oui. Les repas de Chabbat font partie du service, au chalet ou livrés. Donnez-n
 
 Qui certifie le casher ?
 
-Certifié cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Les repas sont 'Halav Yisrael et le service est shomer Chabbat.
+Cacher lamehadrin, certifié par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Les repas sont 'Halav Yisrael et le service est shomer Chabbat.
 
 Peut-on louer le chalet sans les repas ?
 

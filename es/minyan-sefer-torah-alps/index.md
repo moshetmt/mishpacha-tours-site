@@ -62,7 +62,7 @@ No. Respondemos el mismo día, nunca durante el Shabat. Envíe su solicitud ante
 
 ¿Quién certifica el servicio kosher?
 
-Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Este certificado cubre las comidas y el servicio de Mishpacha Tours.
+Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Este certificado cubre las comidas y el servicio de Mishpacha Tours.
 
 ¿Está garantizado un minyan?
 

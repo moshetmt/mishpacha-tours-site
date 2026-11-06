@@ -67,7 +67,7 @@ Oui. Le dîner du vendredi soir est à 45 €, le déjeuner du samedi à 40 € 
 
 Qui certifie le casher ?
 
-Certifié cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Les repas sont 'Halav Yisrael et le service est shomer Chabbat. Posez-nous toute question sur le casher par WhatsApp.
+Cacher lamehadrin, certifié par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Les repas sont 'Halav Yisrael et le service est shomer Chabbat. Posez-nous toute question sur le casher par WhatsApp.
 
 Quand faut-il commander ?
 

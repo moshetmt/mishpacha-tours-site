@@ -67,7 +67,7 @@ Yes. Shabbat meals are part of the service, at the chalet or delivered. Give us 
 
 Who certifies the kosher?
 
-Certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. The meals are Chalav Yisrael and the service is shomer Shabbat.
+Kosher lamehadrin, certified by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. The meals are Chalav Yisrael and the service is shomer Shabbat.
 
 Can I rent the chalet without meals?
 

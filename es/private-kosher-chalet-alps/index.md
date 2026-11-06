@@ -67,7 +67,7 @@ Sí. Las comidas de Shabat forman parte del servicio, en el chalet o entregadas.
 
 ¿Quién certifica lo kosher?
 
-Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Las comidas son Jalav Yisrael y el servicio es shomer Shabat.
+Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Las comidas son Jalav Yisrael y el servicio es shomer Shabat.
 
 ¿Se puede alquilar el chalet sin comidas?
 

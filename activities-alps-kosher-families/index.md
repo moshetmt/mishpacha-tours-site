@@ -71,7 +71,7 @@ We have not confirmed these. Tell us what you need, we check with the team and a
 
 Can the whole stay stay kosher?
 
-Yes. Meals and service are Certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Meals are Chalav Yisrael and service is shomer Shabbat, at the chalet or delivered.
+Yes. Meals and service are Kosher lamehadrin, certified by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Meals are Chalav Yisrael and service is shomer Shabbat, at the chalet or delivered.
 
 ## Your family days in the Alps, *organised*.
 

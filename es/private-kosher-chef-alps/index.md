@@ -67,7 +67,7 @@ El chef se ocupa de las comidas de la semana. Indíquenos sus fechas y qué fies
 
 ¿Quién certifica lo kosher?
 
-Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Las comidas son Jalav Yisrael y el servicio es shomer Shabat. La cocina de su chalet se kasheriza antes de que el chef cocine.
+Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Las comidas son Jalav Yisrael y el servicio es shomer Shabat. La cocina de su chalet se kasheriza antes de que el chef cocine.
 
 ¿Trabajan en Verbier o en otro punto de Suiza?
 

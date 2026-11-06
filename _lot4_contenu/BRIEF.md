@@ -38,6 +38,6 @@ Luxe sobre, phrases courtes, concret, aucun jargon marketing, aucun superlatif, 
 ## Contraintes
 - Les prix cités sont ceux du dossier, à la lettre, précédés de « à partir de » quand c'est un prix de départ.
 - La formule du certificat, en entier, une fois par page, dans la FAQ : FR « Certifié cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany » ; EN « Certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany » ; ES « Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany » ; HE « בהשגחת בית חב״ד גרנובל-אלפים, הרב יחיא לחיאני ».
-- Jamais : mehadrin, hashgaha, nombre de chalets, le seul, exclusif, numéro de téléphone, nom de partenaire, hélicoptère, prix absents du dossier, promesse de disponibilité d'un masseur ou d'une activité.
+- La cacherout est lamehadrin (« cacher lamehadrin », « kosher lamehadrin », « כשר למהדרין », règle de Moshé du 06/11). Jamais : hashgaha seul, nombre de chalets, le seul, exclusif, numéro de téléphone, nom de partenaire, hélicoptère, prix absents du dossier, promesse de disponibilité d'un masseur ou d'une activité.
 - Pudeur stricte sur la page spa et massage : aucune mention du corps ni de peau ; sérénité, calme, vue, eau, silence.
 - Le JSON doit être valide (guillemets droits, pas de virgule finale). Écris le fichier avec l'outil Write, encodage UTF-8.

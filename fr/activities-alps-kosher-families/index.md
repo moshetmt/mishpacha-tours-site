@@ -71,7 +71,7 @@ Ce n'est pas confirmé à ce jour. Dites-nous ce qu'il vous faut, nous vérifion
 
 Tout le séjour reste-t-il casher ?
 
-Oui. Les repas et le service sont Certifié cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Repas 'Halav Yisrael, service shomer Chabbat, au chalet ou livrés.
+Oui. Les repas et le service sont Cacher lamehadrin, certifié par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Repas 'Halav Yisrael, service shomer Chabbat, au chalet ou livrés.
 
 ## Vos journées en famille dans les Alpes, *organisées*.
 

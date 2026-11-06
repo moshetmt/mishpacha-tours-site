@@ -63,7 +63,7 @@ No. We reply the same day, never during Shabbat. Send your request before Friday
 
 Who certifies the meals?
 
-Certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. This certificate covers the meals and the service described on this page.
+Kosher lamehadrin, certified by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. This certificate covers the meals and the service described on this page.
 
 Do you provide meals for the holidays?
 

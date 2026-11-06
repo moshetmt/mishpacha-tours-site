@@ -71,7 +71,7 @@ Respondemos todos los días excepto el Shabat. Las comidas y el servicio del cha
 
 ¿La comida es kosher?
 
-Sí. Las comidas y el servicio están Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Comidas Jalav Yisrael, servicio shomer Shabat. La cocina se kasheriza antes de su llegada.
+Sí. Las comidas y el servicio están Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Comidas Jalav Yisrael, servicio shomer Shabat. La cocina se kasheriza antes de su llegada.
 
 ## Su tarde tranquila en los Alpes, *organizada*.
 

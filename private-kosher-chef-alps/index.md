@@ -67,7 +67,7 @@ The chef takes care of the meals of the week. Give us your dates and tell us whi
 
 Who certifies the kosher?
 
-Certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. The meals are Chalav Yisrael and the service is shomer Shabbat. The kitchen of your chalet is kashered before the chef cooks.
+Kosher lamehadrin, certified by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. The meals are Chalav Yisrael and the service is shomer Shabbat. The kitchen of your chalet is kashered before the chef cooks.
 
 Can you work in Verbier or elsewhere in Switzerland?
 

@@ -71,7 +71,7 @@ Hoy no está confirmado. Díganos lo que necesita, lo comprobamos con el equipo 
 
 ¿Toda la estancia sigue siendo kosher?
 
-Sí. Las comidas y el servicio están Certificado kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Comidas Jalav Yisrael, servicio shomer Shabat, en el chalet o a domicilio.
+Sí. Las comidas y el servicio están Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Comidas Jalav Yisrael, servicio shomer Shabat, en el chalet o a domicilio.
 
 ## Sus días en familia en los Alpes, *organizados*.
 

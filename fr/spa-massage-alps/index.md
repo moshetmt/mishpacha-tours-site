@@ -71,7 +71,7 @@ Nous répondons tous les jours sauf le Chabbat. Les repas et le service du chale
 
 La cuisine est-elle casher ?
 
-Oui. Les repas et le service sont Certifié cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Repas 'Halav Yisrael, service shomer Chabbat. La cuisine est cachérisée avant votre arrivée.
+Oui. Les repas et le service sont Cacher lamehadrin, certifié par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany. Repas 'Halav Yisrael, service shomer Chabbat. La cuisine est cachérisée avant votre arrivée.
 
 ## Votre soirée calme dans les Alpes, *organisée*.
 
