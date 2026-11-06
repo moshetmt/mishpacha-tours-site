@@ -57,7 +57,7 @@ CSS = f"""/* ===LOT2-0611=== accueil, retours 6 à 11 de Moshé du 05/11 (_lot2_
 /* 7. les 4 carrés : légende lisible, carré noir à chevron or à la place de la flèche blanche */
 {P} .reve-grille figcaption{{box-sizing:border-box;padding:72px 14px 14px !important;padding-inline-end:70px !important;font:400 12px/1.4 'Jost',system-ui,sans-serif !important;letter-spacing:.16em !important;text-transform:uppercase !important;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;text-shadow:none !important;background:linear-gradient(0deg,rgba(0,0,0,.93) 0,rgba(0,0,0,.88) 78px,rgba(0,0,0,.35) 112px,rgba(0,0,0,0) 100%) !important}}
 {R} .reve-grille figcaption{{letter-spacing:0 !important}}
-{P} .reve-grille .reve-lien figcaption::after{{{CARRE}}}
+{P} .reve-grille .reve-lien figcaption::after{{{CARRE};box-shadow:0 0 0 1px rgba(255,255,255,.3),0 2px 6px rgba(0,0,0,.18)}}
 {R} .reve-grille .reve-lien figcaption::after{{content:"\\2039"}}
 {P} .reve-grille .reve-lien:is(:hover,:focus-visible) figcaption::after{{background:#000000;color:#E8D6A6}}
 {P} .reve-grille .reve-lien:active figcaption::after{{transform:scale(.96) !important}}
