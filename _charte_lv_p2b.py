@@ -15,7 +15,7 @@ PHRASES = {
     "Estancias estrictamente kosher en los Alpes, un programa día a día.": "Kosher estricto en los Alpes.",
     "Vacaciones estrictamente kosher en los Alpes y Lyon, shomer Shabat.": "Kosher estricto en los Alpes.",
     "חופשות כשרות באלפים, תוכנית מפורטת יום אחר יום.": "חופשות כשרות באלפים.",
-    "חופשות כשרות באלפים ובליון. שומר כשרות · שומר שבת.": "חופשות כשרות באלפים.",
+    "חופשות כשרות באלפים ובליון. כשר למהדרין · שומר שבת.": "חופשות כשרות באלפים.",
     # Lyon
     "Visites privées, du dimanche au vendredi matin.": "Visites privées, dimanche au vendredi matin.",
     ">Check a date on WhatsApp.<": ">Check a date.<",

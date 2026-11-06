@@ -10,7 +10,7 @@ Private chalet, private chef, Shabbat and minyan. Organised for you.
 
  
 
-[Shabbat at the chalet](https://mishpachatours.com/kosher-chalets/)[Your private chef](https://mishpachatours.com/kosher-services-french-alps/)[On the slopes](https://mishpachatours.com/kosher-ski-holidays-french-alps/)[Dog sledding](https://mishpachatours.com/kosher-vacation-french-alps/)
+[Meals in the chalet or delivered](https://mishpachatours.com/kosher-chalets/)[Your private chef](https://mishpachatours.com/kosher-services-french-alps/)[On the slopes](https://mishpachatours.com/kosher-ski-holidays-french-alps/)[Dog sledding](https://mishpachatours.com/kosher-vacation-french-alps/)
 
 ## Our kosher chalets *in the Alps*
 

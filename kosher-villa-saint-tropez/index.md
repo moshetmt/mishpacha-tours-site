@@ -25,7 +25,7 @@ Availability is confirmed for your dates with each request.
 
 ## Shabbat *by the sea*
 
-The chef prepares the Shabbat meals and the holidays in the villa. For a minyan, we bring the bochurim and a Sefer Torah: with the men of your family, the minyan is at home, on the terrace over the water. The synagogue of Saint-Tropez is a walk of about 30 to 40 minutes along the sea, for those who prefer to go.
+The chef cooks your weekday, Shabbat and holiday meals in the villa. For a minyan, we bring the bochurim and a Sefer Torah: with the men of your family, the minyan is at home, on the terrace over the water. The synagogue of Saint-Tropez is a walk of about 30 to 40 minutes along the sea, for those who prefer to go.
 
 Strictly kosher, everything served is Chalav Yisrael. The supervision details come in writing with your quote. Summer weeks and Pesach are both possible: tell us your dates.
 

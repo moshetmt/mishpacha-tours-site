@@ -99,8 +99,8 @@ SUP = {
         "Strictement casher : les repas sont préparés sous la surveillance du Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Le détail vous est remis par écrit avec le devis."),
  "es": ("Estrictamente kosher: nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.",
         "Estrictamente kosher: las comidas se preparan bajo la supervisión del Beth Habad de Grenoble Alpes, rav Yehia Lahiany. Los detalles se entregan por escrito con el presupuesto."),
- "he": ("בהקפדה על כשרות: הצוות שלנו באלפים מבשל תחת רשת חב״ד באלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.",
-        "בהקפדה על כשרות: הארוחות מוכנות בהשגחת בית חב״ד גרנובל אלפים, " + E("Rav Yehia Lahiany") + ". הפרטים נמסרים בכתב יחד עם הצעת המחיר."),
+ "he": ("כשרות למהדרין: הצוות שלנו באלפים מבשל תחת רשת חב״ד באלפים. פרטי ההשגחה נמסרים בכתב יחד עם הצעת המחיר.",
+        "כשרות למהדרין: הארוחות מוכנות בהשגחת בית חב״ד גרנובל אלפים, " + E("Rav Yehia Lahiany") + ". הפרטים נמסרים בכתב יחד עם הצעת המחיר."),
 }
 for l in ("fr", "es", "he"):  # le JSON-LD FAQ des pages FR, ES, HE est resté en anglais : mêmes remplacements que l'anglais
     T[l]["faq"] = T[l]["faq"] + [SUP[l]] + T[""]["faq"][:3]

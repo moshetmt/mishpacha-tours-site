@@ -1,0 +1,8 @@
+Salut Mendel, voici le texte de la page chef privé casher du site. Ce qu'elle affirme :
+- chef privé dans le chalet du client, à partir de 1 568 € par jour ;
+- cuisine cachérisée, le chef cuisine sur place, tous les repas de la semaine ;
+- pas de menu type, le menu se construit avec le client ;
+- au-delà de 3 h de Grenoble (Verbier, Suisse), chef privé et pas de livraison ;
+- Suisse, Italie, Autriche sur demande.
+Questions : 1) Le tarif change-t-il avec le nombre de convives (oui/non) ? 2) Y a-t-il un minimum de jours (oui/non) ? 3) Les repas de Chabbat sont-ils dans le tarif du jour (A : compris, B : en plus) ? 4) Les courses sont-elles comprises (A : oui, B : facturées en plus) ? La page (brouillon, pas en ligne) : https://mishpacha-tours-site-git-lot4-contenu-moshe-8030s-projects.vercel.app/fr/private-kosher-chef-alps/
+Réponds par audio si c'est plus simple.

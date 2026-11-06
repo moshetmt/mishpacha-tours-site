@@ -25,7 +25,7 @@ La disponibilité est confirmée pour vos dates à chaque demande.
 
 ## Chabbat *au bord de la mer*
 
-Le chef prépare à la villa les repas de Chabbat et des fêtes. Pour un minyan, nous amenons les ba'hourim et un Sefer Torah : avec les hommes de votre famille, le minyan a lieu chez vous, sur la terrasse au-dessus de l’eau. La synagogue de Saint-Tropez est à environ 30 à 40 minutes à pied le long de la mer, pour ceux qui préfèrent s’y rendre.
+Le chef prépare à la villa vos repas de la semaine, de Chabbat et des fêtes. Pour un minyan, nous amenons les ba'hourim et un Sefer Torah : avec les hommes de votre famille, le minyan a lieu chez vous, sur la terrasse au-dessus de l’eau. La synagogue de Saint-Tropez est à environ 30 à 40 minutes à pied le long de la mer, pour ceux qui préfèrent s’y rendre.
 
 Strictement casher, tout ce qui est servi est 'Halav Yisrael. Les détails de la surveillance figurent par écrit dans votre devis. Les semaines d’été et Pessah sont possibles : indiquez-nous vos dates.
 

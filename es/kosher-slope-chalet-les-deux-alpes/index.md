@@ -36,9 +36,9 @@ Camas hechas a su llegada en invierno, ropa de cama y toallas incluidas. La disp
 
 ## Shabat *en el chalé*
 
-El chef prepara en el chalé las comidas de Shabat y de las fiestas, o las comidas llegan antes del encendido de velas. Para un minyan, llevamos los bajurim y un Sefer Torá: con los hombres de su grupo, Shajarit se celebra en su salón.
+El chef prepara en el chalé sus comidas de la semana, de Shabat y de las fiestas, o sus comidas llegan ya preparadas; para Shabat, antes del encendido de las velas. Para un minyan, llevamos los bajurim y un Sefer Torá: con los hombres de su grupo, Shajarit se celebra en su salón.
 
-Estrictamente kosher, todo lo que se sirve es Jalav Yisrael. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+Estrictamente kosher, todo lo que se sirve es Jalav Yisrael. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
