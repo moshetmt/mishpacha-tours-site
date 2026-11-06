@@ -44,7 +44,7 @@ We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitche
 - **Arc 1600.** Opened in 1968, quieter and suited to families. The funicular from Bourg-Saint-Maurice station arrives here in 7 minutes.
 - **Arc 1800.** The lively one, with four pedestrian villages and views of Mont Blanc and the Tarentaise valley.
 - **Arc 1950.** A village with North American-inspired architecture, where you can keep your skis on in winter.
-- **Arc 2000.** The highest village, with ski-in ski-out access and views of the 3,226 m Aiguille Rouge.
+- **Arc 2000.** The highest village, with access a minute from the slopes and views of the 3,226 m Aiguille Rouge.
 - **Paradiski.** The Vanoise Express cable car crosses the valley to La Plagne and joins the two ski areas, 425 km of pistes together.
 - **Minyan and Shabbat.** A minyan is built from the families who write to us for your dates, with a Sefer Torah.
 
@@ -132,7 +132,7 @@ Our kosher team based in the Alps cooks under the Chabad network of the Alps. Th
 
 ## Prefer a whole chalet? *Our kosher chalets*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Chalet Loup Blanc · near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 en-suite bedrooms · ski in ski out](https://mishpachatours.com/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 en-suite bedrooms · jacuzzi and sauna](https://mishpachatours.com/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · heated pool](https://mishpachatours.com/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · Nordic bath](https://mishpachatours.com/kosher-chalet-courchevel-renard-argente/)
+[**Chalet King David · Les Deux Alpes**6 + 1 bedrooms · 2 min from the slopes](https://mishpachatours.com/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 bedrooms · skis on at the door](https://mishpachatours.com/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · heated pools](https://mishpachatours.com/kosher-chalet-courchevel/)[**Chalet Loup Blanc · near Megève**10 twin bedrooms · Mont Blanc](https://mishpachatours.com/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 en-suite bedrooms · a minute from the slopes](https://mishpachatours.com/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 en-suite bedrooms · jacuzzi and sauna](https://mishpachatours.com/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · heated pool](https://mishpachatours.com/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · Nordic bath](https://mishpachatours.com/kosher-chalet-courchevel-renard-argente/)
 
 [See the chalets](https://mishpachatours.com/kosher-chalets/)
 

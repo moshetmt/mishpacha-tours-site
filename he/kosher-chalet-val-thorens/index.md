@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-val-thorens/ (HTML version).
 
 [דף הבית](https://mishpachatours.com/he/) / [הצ'אלות הכשרות שלנו](https://mishpachatours.com/he/kosher-chalets/) / צ'אלה בל אטואל, ואל טורנס
 
-# צ'אלה כשרה בל אטואל *ואל טורנס, סקי עד הדלת*
+# צ'אלה כשרה בל אטואל *ואל טורנס, דקה מהמסלולים*
 
 צ'אלה פרטית מעץ מעל ואל טורנס, בשלושת העמקים, הפונה דרומה.
 

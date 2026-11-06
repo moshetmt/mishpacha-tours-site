@@ -127,7 +127,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 - **165 m²**chalet privé
 - **3**chambres avec salle de bain
 - **Jusqu’à 10**personnes (8 adultes)
-- **Skis aux pieds**chemin skieur à la porte
+- **À une minute des pistes**chemin skieur à la porte
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 
@@ -191,7 +191,7 @@ Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet pr
 
 Quel chalet choisir ?
 
-Aux Deux Alpes, le Chalet King David compte 6 chambres plus une chambre bébé, à deux minutes des pistes, et le Chalet Rochebrune compte 6 chambres et 13 lits, skis aux pieds ; les deux sont à cinq minutes l'un de l'autre, pour quatre familles. Courchevel compte 5 chambres en suite, des piscines chauffées et une navette privée, dans Les 3 Vallées. Val Thorens compte 3 chambres avec salle de bain pour 10 personnes au plus, avec un chemin skieur à la porte, dans Les 3 Vallées aussi.
+Aux Deux Alpes, le Chalet King David compte 6 chambres plus une chambre bébé, à deux minutes des pistes, et le Chalet Rochebrune compte 6 chambres et 13 lits, à une minute des pistes ; les deux sont à cinq minutes l'un de l'autre, pour quatre familles. Courchevel compte 5 chambres en suite, des piscines chauffées et une navette privée, dans Les 3 Vallées. Val Thorens compte 3 chambres avec salle de bain pour 10 personnes au plus, avec un chemin skieur à la porte, dans Les 3 Vallées aussi.
 
 Combien coûte un chalet ?
 

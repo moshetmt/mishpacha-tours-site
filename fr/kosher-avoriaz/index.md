@@ -46,7 +46,7 @@ Source : [avoriaz.com](https://www.avoriaz.com/).
 - **Sans voitures depuis le début.** Créée en 1966, Avoriaz a été conçue comme un village 100 % piéton (avoriaz.com). On laisse la voiture dans un parking à l’entrée, ou on monte par le téléphérique des Prodains depuis la vallée : 4 minutes, puis on continue à pied ou à ski.
 - **Un village dessiné d’un seul tenant.** L’architecte Jacques Labro l’a conçu dans l’esprit de l’architecture organique, avec des bâtiments en forme de pyramide.
 - **Les Portes du Soleil à votre porte.** Avoriaz est au cœur des Portes du Soleil, un domaine qui relie 12 stations entre la France et la Suisse. Morzine, Montriond et Châtel font partie du même domaine : si vous logez dans l’un de ces villages, dites-le-nous.
-- **Les familles.** Pas de route à traverser avec des enfants, et des logements skis aux pieds. Les grandes familles et les groupes de plusieurs familles sont notre cœur de métier : envoyez le nombre d’adultes et d’enfants.
+- **Les familles.** Pas de route à traverser avec des enfants, et des logements à une minute des pistes. Les grandes familles et les groupes de plusieurs familles sont notre cœur de métier : envoyez le nombre d’adultes et d’enfants.
 
 Cette semaine
 

@@ -65,7 +65,7 @@ T = {
                     s=[("10 + 2", "chambres twin + chambres sous le toit"), ("3 à 4", "familles"), ("Sauna, jacuzzi", "face au Mont Blanc"), ("Navette", "toutes les 20 min vers les pistes")],
                     k="<b>Strictement casher.</b> Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael."),
             vth=dict(lieu="Val Thorens", t="Chalet Belle Étoile, Val Thorens", alt="Le Chalet Belle Étoile à Val Thorens sous la neige",
-                    s=[("165 m²", "chalet privé"), ("3", "chambres avec salle de bain"), ("Jusqu’à 10", "personnes (8 adultes)"), ("Skis aux pieds", "chemin skieur à la porte")],
+                    s=[("165 m²", "chalet privé"), ("3", "chambres avec salle de bain"), ("Jusqu’à 10", "personnes (8 adultes)"), ("À une minute des pistes", "chemin skieur à la porte")],
                     k="<b>Strictement casher.</b> Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael."),
             vi=dict(lieu="Saint-Tropez", t="Villa Beach, une villa casher les pieds dans l’eau", alt="Villa Beach à Saint-Tropez, la piscine et la mer",
                     s=[("5", "chambres, 5 salles de bain"), ("12", "personnes"), ("Plage privée", "et garage à bateau"), ("3 maisons", "villa, maison d’invités, loge")],

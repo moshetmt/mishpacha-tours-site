@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Chalet de Tignes (Espace Killy), clé ch9, 02/11/2026 : deux chalets mitoyens qui communiquent, loués ensemble, 9 suites, jusqu'à
-21 personnes, deux jacuzzis extérieurs, à une minute des pistes (Mendel 02/11 : PAS skis aux pieds). Même moteur que _chalet_aigle_royal.py et _chalets_courchevel_lot2.py (clone
+21 personnes, deux jacuzzis extérieurs, à une minute des pistes (Mendel 02/11 : PAS à une minute des pistes). Même moteur que _chalet_aigle_royal.py et _chalets_courchevel_lot2.py (clone
 de la page Val Thorens publiée), carte et menu posés après le dernier chalet (Renard Argenté). Idempotent.
 Nom commercial : _chalet_tignes_nom.py (une constante). Photos : _chalet_tignes_photos.py doit avoir tourné.
 🛑 Jamais le nom d'origine des deux chalets, de l'exploitant, de la piste ni du quartier de la station (liste dans 00-brief, hors site).

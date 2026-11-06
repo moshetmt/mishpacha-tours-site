@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-chalet-val-thorens/ (HTML version).
 
 [Accueil](https://mishpachatours.com/fr/) / [Nos chalets casher](https://mishpachatours.com/fr/kosher-chalets/) / Chalet Belle Étoile, Val Thorens
 
-# Chalet casher Belle Étoile *Val Thorens, skis aux pieds*
+# Chalet casher Belle Étoile *Val Thorens, à une minute des pistes*
 
 Un chalet privé en bois au-dessus de Val Thorens, dans Les 3 Vallées, plein sud.
 
@@ -22,7 +22,7 @@ Un chemin skieur part de la porte ; le village est à quelques minutes à pied. 
 
 ## Le chalet, *en bref*
 
-- **Location.** Au-dessus du village de Val Thorens, la plus haute station d’Europe, dans un quartier calme plein sud. Le centre et les restaurants sont à quelques minutes à pied. Un chemin skieur part devant la porte : les bons skieurs rentrent au chalet skis aux pieds, les autres font à pied les 100 derniers mètres.
+- **Location.** Au-dessus du village de Val Thorens, la plus haute station d’Europe, dans un quartier calme plein sud. Le centre et les restaurants sont à quelques minutes à pied. Un chemin skieur part devant la porte : les bons skieurs rentrent au chalet à une minute des pistes, les autres font à pied les 100 derniers mètres.
 - **L’étage de vie.** 60 m² au premier étage : un salon, une salle à manger avec une table pour dix, une cuisine ouverte haut de gamme, un poêle à bois rotatif, de grandes baies plein sud et un balcon.
 - **Trois grandes chambres,** chacune avec sa salle de bain. La suite parentale de 28 m² sous le toit, avec un dressing, une mezzanine, un balcon et un coffre. Une chambre de 18 m² avec deux lits simples, une baignoire, une douche et un balcon plein sud. Une chambre de 15 m² avec un grand lit, une douche et un balcon plein sud. Trois salles de bain et un WC séparé.
 - **Local à skis.** Avec chauffe-chaussures, à la porte.
@@ -100,9 +100,9 @@ Combien de personnes peut-on loger ?
 
 Jusqu’à 10 personnes, dont 8 adultes au plus, dans trois chambres avec salle de bain : une grande famille, ou deux familles avec enfants.
 
-Est-ce vraiment skis aux pieds ?
+Est-ce vraiment à une minute des pistes ?
 
-Un chemin skieur part devant la porte. Les bons skieurs rentrent au chalet skis aux pieds ; pour les autres, les 100 derniers mètres se font à pied.
+Un chemin skieur part devant la porte. Les bons skieurs rentrent au chalet à une minute des pistes ; pour les autres, les 100 derniers mètres se font à pied.
 
 Peut-on aller aux restaurants à pied ?
 
@@ -118,7 +118,7 @@ Nous amenons les ba'hourim et un Sefer Torah au chalet pour Chabbat, sur demande
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Aigle Royal · Les Ménuires**7 chambres avec salle d'eau · jacuzzi et sauna](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscine chauffée](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · bain nordique](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
+[**Chalet King David · Les Deux Alpes**6 + 1 chambres · à 2 min des pistes](https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/)[**Chalet Rochebrune · Les Deux Alpes**6 chambres · à une minute des pistes](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Aigle Royal · Les Ménuires**7 chambres avec salle d'eau · jacuzzi et sauna](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscine chauffée](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · bain nordique](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 

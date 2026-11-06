@@ -27,7 +27,7 @@ Sa saison court du 21 novembre 2026 au 2 mai 2027. Nous organisons votre séjour
 - **165 m²**chalet privé
 - **3**chambres avec salle de bain
 - **Jusqu’à 10**personnes (8 adultes)
-- **Skis aux pieds**chemin skieur à la porte
+- **À une minute des pistes**chemin skieur à la porte
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 

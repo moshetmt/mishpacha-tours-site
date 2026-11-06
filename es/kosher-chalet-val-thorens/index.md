@@ -100,7 +100,7 @@ Desde 9.500 € por semana el chalé. El precio final depende de sus fechas, del
 
 Hasta 10 personas, 8 adultos como máximo, en tres habitaciones con baño: una familia numerosa, o dos familias con niños.
 
-¿Es realmente esquí a pie de puerta?
+¿Está realmente a un minuto de las pistas?
 
 Una pista de esquí empieza frente a la puerta. Los buenos esquiadores vuelven al chalé con los esquís puestos; para los demás, los últimos 100 metros son a pie.
 
