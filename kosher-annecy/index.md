@@ -29,7 +29,7 @@ La Clusaz and Le Grand-Bornand are 30 to 40 minutes up the valley. We organise y
 - **A minyan and a Sefer Torah.** Annecy has a small synagogue (see below), but a minyan in your week depends on how many families are in the area. Give us your dates and we group the families who write to us.
 - **A tailor-made stay, A to Z.** Villa or chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Large groups and families from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.
 
-Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the supervision details come in writing with your quote. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
+Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
 
 We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
@@ -129,7 +129,7 @@ Yes. A chef in a villa by the lake, delivered meals and Shabbat for a family or 
 
 Who supervises the food?
 
-Our kosher team based in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.
+Our kosher team based in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ## Prefer a whole chalet? *Our kosher chalets*
 

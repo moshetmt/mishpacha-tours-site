@@ -48,7 +48,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 - **Un minián con Sefer Torá.** Reunimos a las familias que nos escriben para la misma semana; cuanto antes lleguen sus fechas, más probable es el minián.
 - **Toda la estancia, en un presupuesto.** Chalet, chef o comidas entregadas, traslados desde Lyon o Ginebra, Shabat y fiestas: una solicitud, un presupuesto por escrito. Si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
-Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes; los detalles de la supervisión se entregan por escrito con el presupuesto.
+Estrictamente kosher. Nuestro equipo cocina bajo la red Chabad de los Alpes; la cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 También organizamos Pésaj: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
@@ -140,7 +140,7 @@ Sí. Indíquenos qué fiesta cae en su semana. Las velas de Janucá, la lectura 
 
 ¿Quién supervisa la comida kosher?
 
-Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ¿Podemos ir a pie a un minián en Val Thorens en Shabat?
 

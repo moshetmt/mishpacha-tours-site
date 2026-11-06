@@ -836,8 +836,8 @@ html body.valora.lv:not(.wp-nav):not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv
 }
 /* ===/BANDEAU-OFF-2026-11-03=== */
 /* ===RET-0411=== retours Moshé du 04/11 (_retours_04_11.py) : barre du bas en deux boutons séparés, plus de gris en bande */
-html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .barre-basse{display:grid !important;grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;gap:8px !important;padding:8px 12px calc(8px + env(safe-area-inset-bottom)) !important;height:auto !important;background:#FFFFFF !important;border-top:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:none !important;overflow:visible !important;pointer-events:auto !important}
-html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .barre-basse a{height:48px !important;padding:0 10px !important;margin:0 !important;border-radius:4px !important;box-shadow:none !important;white-space:normal !important;line-height:1.25 !important;text-align:center !important;letter-spacing:.14em !important}
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .barre-basse{display:grid !important;grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;gap:8px !important;padding:8px 12px calc(8px + env(safe-area-inset-bottom)) !important;height:auto !important;background:transparent !important;border-top:0 !important;border-radius:0 !important;box-shadow:none !important;overflow:visible !important;pointer-events:none !important}
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .barre-basse a{height:48px !important;padding:0 10px !important;margin:0 !important;border-radius:4px !important;box-shadow:0 0 0 1px rgba(255,255,255,.3),0 6px 18px rgba(0,0,0,.22) !important;pointer-events:auto !important;white-space:normal !important;line-height:1.25 !important;text-align:center !important;letter-spacing:.14em !important}
 @media (max-width:899px){html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11).bb-on .cb{bottom:calc(65px + env(safe-area-inset-bottom)) !important}html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .cb{z-index:80 !important}}
 html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main>section.lead-final{background-color:#FFFFFF !important;box-shadow:none !important;clip-path:none !important;border-top:1px solid #E6E6E6 !important}
 html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) main>section.lead-final .lead-form{background:#FFFFFF !important;border:1px solid #E6E6E6 !important;box-shadow:none !important}
@@ -915,3 +915,99 @@ html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):n
 html[dir="rtl"] body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12) :is(.lv-eyebrow,h1,h1 i,.hero-sous,.lv-reassure,.btn-hero){letter-spacing:0 !important}
 @media (min-width:900px){html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12) .bn-intro{padding:24px 56px 0 !important}html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12) main>section:is(.lv-hero-station,.lead-hero3,.lv-hero-photo,.hero){height:85svh !important}html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12) main>section:is(.lv-hero-station,.lead-hero3,.lv-hero-photo,.hero) :is(.hero-texte,.lead3-texte){padding-bottom:72px !important}html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12) main>section:is(.lv-hero-station,.lead-hero3,.lv-hero-photo,.hero) h1{font-size:44px !important}html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12) .bn-fil{padding:18px 56px 0 !important}}
 /* ===/BN-0511=== */
+
+/* LOGO-BH-0511 : logo du Beth Habad Grenoble-Alpes sous la ligne de cacherout (_logo_cacherout.py) */
+.dk-garanties .dk-g-logo{display:block;margin:12px 0 4px;padding-inline-start:44px}
+.dk-garanties .dk-g-logo img{display:block;width:150px;height:auto}
+html body .dk-garanties .dk-g-logo-t,html[dir=rtl] body .dk-garanties .dk-g-logo-t{display:block;margin:0 0 8px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#7A6440}
+html[dir=rtl] .dk-garanties .dk-g-logo img{margin-inline-start:0}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9) main .dk-garanties .dk-g-logo-t{color:#7A6440 !important}
+/* /LOGO-BH-0511 */
+
+/* ===CARTE-0511=== cartes « autres chalets » : bouton noir 44 px, chevron or (_boutons_cartes_0511.py) */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9) main.lc .lc-aut::after{content:"\203A";position:absolute;inset-inline-end:14px;bottom:16px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0 0 3px;border-radius:4px;background:#111111;color:#C2A874;font-size:28px;line-height:1;font-weight:300;box-shadow:0 2px 6px rgba(0,0,0,.18)}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9) main.lc .lc-aut:is(:hover,:focus-visible)::after{background:#000000;color:#E8D6A6}
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9) main.lc .lc-aut :is(.lc-nom,.lc-lieu){padding-inline-end:66px !important}
+html[dir="rtl"] html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9) main.lc .lc-aut::after{content:"\2039"}
+/* ===/CARTE-0511=== */
+
+/* CACH-0511 : sceau de cacherout (_sceau_cacherout.py) ; 05/11 v4 (Moshe) : certificat coupe avant le tampon, ligne d'or en bas,
+   pose apres les accordeons des fiches chalet ; badge rond « Certifie cacher par : » plus discret sur la photo d'ouverture */
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach{position:relative;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;text-align:center;max-width:440px;margin:34px auto !important;padding:32px 24px 0 !important;background:#FFFFFF;border:1px solid #A88F5E;outline:1px solid #A88F5E;outline-offset:-7px;border-radius:0;box-shadow:0 10px 30px rgba(0,0,0,.06);overflow:hidden}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-logo{display:block;width:130px;height:auto;margin:14px auto 12px}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) main .cach .cach-bh{position:absolute;top:14px;right:16px;font-size:12px;line-height:1;color:#7A6440 !important;letter-spacing:0}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) main .cach .cach-doc{display:block;margin:6px 0 0;padding:0 0 12px;font-family:'Jost',system-ui,sans-serif;font-size:18px;font-weight:300;line-height:1.25;letter-spacing:.14em;text-transform:uppercase;color:#111111 !important;background:linear-gradient(#A88F5E,#A88F5E) bottom center/40px 1px no-repeat}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) main .cach .cach-p{display:block;margin:0;font-size:13px;font-weight:300;line-height:1.45;letter-spacing:.02em;color:#5E5E5E !important}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) main .cach .cach-or{display:block;box-sizing:border-box;width:calc(100% - 14px);margin:20px 0 7px;padding:14px 16px 16px;border-top:1px solid #A88F5E;font-family:'Jost',system-ui,sans-serif;font-size:12px;font-weight:400;line-height:1.5;letter-spacing:.12em;text-transform:uppercase;color:#7A6440 !important}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) main .cach .cach-or-r{display:block;margin:2px 0 0;font-size:13px;letter-spacing:.06em;text-transform:none;color:#7A6440 !important}
+html[dir="rtl"] html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) main .cach :is(.cach-doc,.cach-or,.cach-or-r){letter-spacing:0}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .lc-cach{box-sizing:border-box;margin:30px 0 34px !important;padding:0 24px !important}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .lc-cach .cach{margin:0 auto !important}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) main .lc-ref .cach-ref{color:#7A6440 !important;white-space:nowrap}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-hero{display:inline-block;margin:14px 0 0;padding:8px 0 0;border-top:1px solid #A88F5E;font-family:'Jost',system-ui,sans-serif;font-size:11px;font-weight:400;letter-spacing:.22em;text-transform:uppercase;color:#FFFFFF !important;text-shadow:0 1px 8px rgba(0,0,0,.45)}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .dk-garanties .dk-g-logo{display:none !important}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .lc-galerie{position:relative}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle{position:absolute;top:12px;right:12px;left:auto;z-index:6;box-sizing:border-box;width:92px;height:92px;border-radius:50%;background:rgba(255,255,255,.94);box-shadow:0 4px 14px rgba(0,0,0,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;pointer-events:none}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle::before{content:"";position:absolute;inset:4px;border:1px solid #A88F5E;border-radius:50%}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle .cach-bulle-t{display:block;max-width:64px;font-family:'Jost',system-ui,sans-serif;font-size:7.5px;font-weight:400;line-height:1.25;letter-spacing:.12em;text-align:center;text-transform:uppercase;color:#7A6440 !important;text-shadow:none}
+html[dir="rtl"] html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle .cach-bulle-t{font-size:10px;letter-spacing:0}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle img{display:block;width:56px;height:auto;margin:0}
+/* 06/11 (Moshe : « le logo dans la banniere, mets-le en dore, avec un petit effet ») : logo et libelle remplis d'or brosse,
+   un reflet lent passe toutes les 6 s ; fixe si l'utilisateur a coupe les animations */
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle .cach-bulle-logo{display:block;width:56px;aspect-ratio:600/479;background:linear-gradient(100deg,#8C7448 0%,#D9C48E 13%,#F3E6BE 19%,#D9C48E 25%,#8C7448 33%,#7A6440 40%,#B89C62 70%,#9C8250 85%,#7A6440 100%) 100% 0/300% 100%;-webkit-mask:url(/img/logo-bh-or-600.webp) center/contain no-repeat;mask:url(/img/logo-bh-or-600.webp) center/contain no-repeat;animation:cach-reflet 6s ease-in-out infinite}
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle .cach-bulle-t{background:linear-gradient(100deg,#8C7448 0%,#D9C48E 13%,#F3E6BE 19%,#D9C48E 25%,#8C7448 33%,#7A6440 40%,#B89C62 70%,#9C8250 85%,#7A6440 100%) 100% 0/300% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent !important;animation:cach-reflet 6s ease-in-out infinite}
+@keyframes cach-reflet{0%,55%{background-position:100% 0}85%,100%{background-position:0 0}}
+@media (prefers-reduced-motion:reduce){ html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle .cach-bulle-logo,html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle .cach-bulle-t{animation:none;background-position:50% 0} }
+html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) section.hero .cach-bulle{top:86px}
+@media (min-width:900px){ html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle{width:112px;height:112px;top:18px;right:18px} html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) section.hero .cach-bulle{top:96px;right:28px} html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle img,html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle .cach-bulle-logo{width:70px} html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-bulle .cach-bulle-t{font-size:8.5px;max-width:78px} html body.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12):not(#lv13) .cach-logo{width:150px} }
+/* /CACH-0511 */
+
+/* ===LOT3-0611=== lot 3 chalets (_lot3_0611.py, 06/11) : zones, « Comment ça marche » Vous · Nous · Ensemble, chalets proches */
+.l3-chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0 14px;margin:0 0 6px;-webkit-overflow-scrolling:touch}
+.l3-chips::-webkit-scrollbar{display:none}
+html body.lv .l3-chip{flex:none;display:inline-flex;align-items:center;height:40px;padding:0 16px;border:1px solid #111111;border-radius:4px;background:#FFFFFF;color:#111111;font-family:var(--lv-sans,Jost,sans-serif);font-weight:500;font-size:11px;line-height:1;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;transition:transform 160ms cubic-bezier(.23,1,.32,1),background-color 160ms ease,color 160ms ease,border-color 160ms ease}
+html body.lv .l3-chip:active{transform:scale(.97)}
+html body.lv .l3-chip.is-on{background:#111111;color:#FFFFFF}
+@media (hover:hover) and (pointer:fine){html body.lv .l3-chip:not(.is-on):hover{border-color:#7A6440;color:#7A6440}}
+html[dir=rtl] body.lv .l3-chip{letter-spacing:0;font-size:14px}
+.l3-zone{padding-top:26px;scroll-margin-top:96px}
+.l3-zone+.l3-zone{margin-top:44px;border-top:1px solid #E6E6E6}
+.l3-zone-t{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 18px;margin:0 0 18px}
+.l3-zone-t h2{margin:0}
+html body.lv .l3-zone-t p{margin:0;font-size:13px;letter-spacing:.04em;color:#4A4A4A}
+html body.lv .l3-zone-t p a{color:#7A6440;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(122,100,64,.45)}
+.l3-hub.is-filtre .l3-zone:not(.is-vu){display:none}
+.l3-hub.is-filtre .l3-zone.is-vu{border-top:0;margin-top:0}
+.l3-cm{display:grid;grid-template-columns:1fr;row-gap:22px;margin:28px 0 0}
+.l3-cm-c{position:relative;padding:18px 0 0;border-top:1px solid #E6E6E6}
+.l3-cm-vous{width:88%}
+.l3-cm-nous{width:88%;margin-inline-start:auto;padding-inline-start:18px;border-inline-start:1px solid #A88F5E}
+.l3-cm-fin{border-top:1px solid #A88F5E;padding-top:22px}
+html body.lv .l3-cm-k{display:block;margin:0 0 8px;font-family:var(--lv-sans,Jost,sans-serif);font-size:11px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:#7A6440}
+html[dir=rtl] body.lv .l3-cm-k{letter-spacing:0;font-size:13px}
+html body.lv .l3-cm h3{margin:0 0 8px;font-family:var(--lv-sans,Jost,sans-serif);font-size:18px;font-weight:400;letter-spacing:.02em;line-height:1.3;text-transform:none;color:#111111}
+html body.lv .l3-cm p{margin:0;font-size:15px;line-height:1.55;color:#333333;max-width:none}
+html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main section.l3-noir .l3-cm-c{border-top-color:rgba(255,255,255,.24)}
+html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main section.l3-noir .l3-cm-nous{border-inline-start-color:#C2A874}
+html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main section.l3-noir .l3-cm-fin{border-top-color:#C2A874}
+html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main section.l3-noir .l3-cm-k{color:#C2A874 !important;-webkit-text-fill-color:#C2A874 !important}
+html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main section.l3-noir .l3-cm h3{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}
+html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main section.l3-noir .l3-cm p{color:#E6E6E6 !important;-webkit-text-fill-color:#E6E6E6 !important}
+html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main section.l3-noir{padding-top:56px !important;padding-bottom:56px !important}
+html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main section.l3-noir+div.cta-etapes{padding-top:28px !important}
+@media (min-width:800px){
+  .l3-cm{grid-template-columns:1fr 1fr;column-gap:56px;row-gap:28px;max-width:1000px;margin-left:auto;margin-right:auto}
+  .l3-cm-vous,.l3-cm-nous{width:auto;margin-inline-start:0;padding-inline-start:0;border-inline-start:0}
+  .l3-cm-nous::before{content:"";position:absolute;inset-inline-start:-28px;top:18px;bottom:0;border-inline-start:1px solid #A88F5E}
+  .l3-noir .l3-cm-nous::before{border-inline-start-color:#C2A874}
+  .l3-cm-fin{grid-column:1/-1;text-align:center;padding-top:28px}
+  html body.lv .l3-cm-fin h3{font-size:22px;font-weight:300;letter-spacing:.06em;text-transform:uppercase}
+  html body.lv .l3-cm-fin p{max-width:58ch;margin-left:auto;margin-right:auto}
+}
+.l3-proches .kwp-mini-v{margin-top:18px}
+html body.lv .l3-tous{margin:18px 0 0;font-size:14px}
+html body.lv .l3-tous a{color:#111111;text-decoration:underline;text-underline-offset:3px;text-decoration-color:#A88F5E}
+html body.lv .l3-tous a::after{content:"\203A";margin-inline-start:6px;color:#7A6440}
+html[dir=rtl] body.lv .l3-tous a::after{content:"\2039"}
+@media (prefers-reduced-motion:reduce){html body.lv .l3-chip{transition:background-color 160ms ease,color 160ms ease}}
+/* ===/LOT3-0611=== */

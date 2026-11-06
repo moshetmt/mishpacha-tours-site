@@ -114,8 +114,8 @@ print(cpt)
 P = "html body.lv" + "".join(f":not(#r{i})" for i in range(1, 12))
 PR = 'html[dir="rtl"] body.lv' + "".join(f":not(#r{i})" for i in range(1, 12))
 CSS = f"""/* ===RET-0411=== retours Moshé du 04/11 (_retours_04_11.py) : barre du bas en deux boutons séparés, plus de gris en bande */
-{P} .barre-basse{{display:grid !important;grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;gap:8px !important;padding:8px 12px calc(8px + env(safe-area-inset-bottom)) !important;height:auto !important;background:#FFFFFF !important;border-top:1px solid #E6E6E6 !important;border-radius:0 !important;box-shadow:none !important;overflow:visible !important;pointer-events:auto !important}}
-{P} .barre-basse a{{height:48px !important;padding:0 10px !important;margin:0 !important;border-radius:4px !important;box-shadow:none !important;white-space:normal !important;line-height:1.25 !important;text-align:center !important;letter-spacing:.14em !important}}
+{P} .barre-basse{{display:grid !important;grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;gap:8px !important;padding:8px 12px calc(8px + env(safe-area-inset-bottom)) !important;height:auto !important;background:transparent !important;border-top:0 !important;border-radius:0 !important;box-shadow:none !important;overflow:visible !important;pointer-events:none !important}}
+{P} .barre-basse a{{height:48px !important;padding:0 10px !important;margin:0 !important;border-radius:4px !important;box-shadow:0 0 0 1px rgba(255,255,255,.3),0 6px 18px rgba(0,0,0,.22) !important;pointer-events:auto !important;white-space:normal !important;line-height:1.25 !important;text-align:center !important;letter-spacing:.14em !important}}
 @media (max-width:899px){{{P}.bb-on .cb{{bottom:calc(65px + env(safe-area-inset-bottom)) !important}}{P} .cb{{z-index:80 !important}}}}
 {P} main>section.lead-final{{background-color:#FFFFFF !important;box-shadow:none !important;clip-path:none !important;border-top:1px solid #E6E6E6 !important}}
 {P} main>section.lead-final .lead-form{{background:#FFFFFF !important;border:1px solid #E6E6E6 !important;box-shadow:none !important}}

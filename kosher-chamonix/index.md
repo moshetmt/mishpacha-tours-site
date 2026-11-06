@@ -29,7 +29,7 @@ The Aiguille du Midi cable car climbs to 3,842 m. We organise your kosher stay: 
 - **A minyan and a Sefer Torah.** The size of a minyan depends on how many families are in the valley that week, in winter and in summer. Give us your dates and we group the families who write to us.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core, including large groups and Hebrew-speaking guests. For a very small group asking for one delivery only, say so and we tell you what is feasible.
 
-Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the supervision details come in writing with your quote. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
+Strictly kosher. Our kosher team based in the Alps cooks under the Chabad network of the Alps; the kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Detail of each service: [kosher services in the Alps](https://mishpachatours.com/kosher-services-french-alps/).
 
 We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
@@ -125,7 +125,7 @@ Yes. Groups and families from abroad are our core. Send the number of people, th
 
 Who supervises the food?
 
-Our kosher team based in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.
+Our kosher team based in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ## Prefer a whole chalet? *Our kosher chalets*
 

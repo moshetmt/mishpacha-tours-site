@@ -46,10 +46,10 @@ BANDEAU = {  # (texte, lien)
 # Menu a 5 entrees (25/10, decisions Moshe) : Chalets, Resorts, Chef & Shabbat, Summer, Jewish Lyon + bouton « Plan your trip ».
 # Panneau telephone plein ecran : les 5 entrees avec une ligne de sous-titre, le bouton, WhatsApp, e-mail, langues en codes.
 # Les 17 stations et les chalets ne sont plus dans le panneau : ils vivent dans le pied (liens texte, maillage) et dans les pages.
-ENTREES = {"en": ("Chalets", "Resorts", "Chef & Shabbat", "Summer", "Jewish Lyon", "Plan your trip"),
-           "fr": ("Chalets", "Stations", "Chef & Chabbat", "Été", "Visite juive à Lyon", "Personnaliser mon séjour"),
-           "es": ("Chalets", "Estaciones", "Chef y Shabat", "Verano", "Lyon judío", "Planificar mi viaje"),
-           "he": ("צ'אלות", "אתרי סקי", "שף ושבת", "קיץ", "ליון היהודית", "לתכנן את הטיול")}
+ENTREES = {"en": ("Chalets", "Resorts", "Kosher meals & chef", "Summer", "Jewish Lyon", "Plan your trip"),
+           "fr": ("Chalets", "Stations", "Repas casher et chef", "Été", "Visite juive à Lyon", "Personnaliser mon séjour"),
+           "es": ("Chalets", "Estaciones", "Comidas kosher y chef", "Verano", "Lyon judío", "Planificar mi viaje"),
+           "he": ("צ'אלות", "אתרי סקי", "ארוחות כשרות ושף", "קיץ", "ליון היהודית", "לתכנן את הטיול")}
 SOUS = {"en": ("Private chalets, strictly kosher", "Twenty resorts in France, Switzerland and Italy", "Private chef, delivered meals, minyan, transfers", "Villa in Saint-Tropez, the lakes, the mountains", "The guided visit and the Jewish guide to Lyon"),
         "fr": ("Des chalets privés, strictement casher", "Vingt stations en France, en Suisse et en Italie", "Chef privé, repas livrés, minyan, transferts", "Villa à Saint-Tropez, les lacs, la montagne", "La visite guidée et le guide juif de Lyon"),
         "es": ("Chalets privados, estrictamente kosher", "Veinte estaciones en Francia, Suiza e Italia", "Chef privado, comidas entregadas, minyán, traslados", "Villa en Saint-Tropez, los lagos, la montaña", "La visita guiada y la guía del Lyon judío"),
