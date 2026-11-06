@@ -166,6 +166,7 @@ html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not
 @media (max-width:699.98px){
   html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main .l3-hub .kwp-photo{width:100vw;margin-inline:calc(50% - 50vw)}
   html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main .l3-hub .kwp-cartes{gap:64px}
+  html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main .l3-hub .kwp-carte{overflow:visible !important}
 }
 @media (min-width:1000px){html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main .l3-hub .kwp-cartes.kwp-six{grid-template-columns:repeat(3,minmax(0,1fr))}}
 /* « Ce que comprend chaque séjour » : ouvert, sans cadre ni chevron (le script mobile-alpes replie les cartes à partir de la 3e) */
@@ -307,10 +308,19 @@ def luxe(p):
     s = rd(p); o = s
     if "l3-luxe" not in s.split("<main", 1)[0]:
         s = re.sub(r'<body class="', '<body class="l3-luxe ', s, count=1) if '<body class="' in s else s.replace("<body", '<body class="l3-luxe"', 1)
-    if p.endswith("kosher-chalets/index.html"):
+    if p.replace("\\", "/").endswith("kosher-chalets/index.html"):   # glob rend des antislashs sous Windows
         s = re.sub(r'(<section class="clair[^"]*faq[^"]*">)([\s\S]*?)(</section>)',
                    lambda m: m.group(1) + m.group(2).replace("<details>", "<details open>") + m.group(3), s, count=1)
     s = s.replace('<details class="lc-plis">', '<details class="lc-plis" open>')
+    # fiche : les photos avant les textes (blocs de texte sans photo = ce qui tue le luxe)
+    a = s.find('<div class="lc-bas-photos">'); b = s.find('<div class="lc-bas-autres">'); c = s.find('<div class="lc-bas">')
+    if 0 < c < a < b and '<div class="lc-bas">
+  <div class="lc-bas-photos">' not in s:
+        bloc = s[a:b]
+        s = s[:a] + s[b:]
+        s = s.replace('<div class="lc-bas">', '<div class="lc-bas">
+  ' + bloc.rstrip() + "
+", 1)
     if s != o and not ETAT: wr(p, s)
     return s != o
 
