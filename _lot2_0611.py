@@ -45,7 +45,6 @@ HERO = f"{P} main>section.ac-hero"
 CARRE = ("content:\"\\203A\";position:absolute;inset-inline-end:10px;bottom:10px;margin:0 !important;box-sizing:border-box;display:flex;align-items:center;"
          "justify-content:center;width:44px;height:44px;padding:0 0 3px;border-radius:4px;background:#111111;color:#C2A874;font:300 28px/1 'Jost',sans-serif;"
          "letter-spacing:0;box-shadow:0 2px 6px rgba(0,0,0,.18);transform:none !important;transition:background .15s ease,color .15s ease,transform .12s ease;opacity:1")
-VOILE_HOW = "linear-gradient(rgba(12,12,12,.86),rgba(12,12,12,.9))"
 CSS = f"""/* ===LOT2-0611=== accueil, retours 6 à 11 de Moshé du 05/11 (_lot2_0611.py) */
 /* 6. bannière plein écran */
 {HERO}{{height:100svh !important;min-height:560px !important;max-height:none !important;padding:0 !important;margin:0 !important;overflow:hidden !important;display:flex !important;flex-direction:column !important;justify-content:flex-end !important}}
@@ -54,14 +53,28 @@ CSS = f"""/* ===LOT2-0611=== accueil, retours 6 à 11 de Moshé du 05/11 (_lot2_
 {HERO}>video.ac-video{{z-index:0 !important}}
 {HERO}::before{{z-index:1 !important}}
 {HERO} .hero-texte{{position:relative !important;z-index:2 !important}}
-/* 7. les 4 carrés : légende lisible, carré noir à chevron or à la place de la flèche blanche */
-{P} .reve-grille figcaption{{box-sizing:border-box;padding:72px 14px 14px !important;padding-inline-end:70px !important;font:400 12px/1.4 'Jost',system-ui,sans-serif !important;letter-spacing:.16em !important;text-transform:uppercase !important;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;text-shadow:none !important;background:linear-gradient(0deg,rgba(0,0,0,.93) 0,rgba(0,0,0,.88) 78px,rgba(0,0,0,.35) 112px,rgba(0,0,0,0) 100%) !important}}
+/* 7. les 4 carrés (crible luxe du 06/11, 2 h 40 : « grandes photos pleine largeur, une idée par écran ») : rail de 4 grandes photos 4:5,
+   légende en capitales SOUS la photo sur blanc, carré noir à chevron or sur la photo ; 4 colonnes sur ordinateur */
+{P} main>section.reve{{padding-top:28px !important;padding-bottom:8px !important}}
+{P} .reve-grille{{display:flex !important;grid-template-columns:none !important;gap:12px !important;overflow-x:auto !important;overflow-y:hidden !important;scroll-snap-type:x mandatory !important;margin:0 auto !important;padding:0 var(--pad,20px) 6px !important;scroll-padding-inline:var(--pad,20px) !important;scrollbar-width:none;-webkit-overflow-scrolling:touch}}
+{P} .reve-grille::-webkit-scrollbar{{display:none}}
+{P} .reve-grille .reve-lien{{flex:0 0 84% !important;max-width:320px;scroll-snap-align:start;display:block !important;border-radius:0 !important;-webkit-tap-highlight-color:transparent}}
+{P} .reve-grille figure{{position:relative !important;margin:0 !important;aspect-ratio:auto !important;height:auto !important;overflow:visible !important;background:#FFFFFF !important;padding:0 0 64px !important;box-sizing:border-box}}
+{P} .reve-grille figure img{{position:static !important;display:block !important;width:100% !important;height:auto !important;aspect-ratio:4/5 !important;object-fit:cover !important;background:#111111;transform:none !important}}
+{P} .reve-grille figcaption{{position:absolute !important;left:0 !important;right:0 !important;bottom:0 !important;height:64px !important;box-sizing:border-box;padding:14px 0 0 !important;margin:0 !important;font:300 15px/1.3 'Jost',system-ui,sans-serif !important;letter-spacing:.08em !important;text-transform:uppercase !important;color:#111111 !important;-webkit-text-fill-color:#111111 !important;background:none !important;text-shadow:none !important;text-align:start;text-wrap:balance}}
 {R} .reve-grille figcaption{{letter-spacing:0 !important}}
-{P} .reve-grille .reve-lien figcaption::after{{{CARRE};box-shadow:0 0 0 1px rgba(255,255,255,.3),0 2px 6px rgba(0,0,0,.18)}}
-{R} .reve-grille .reve-lien figcaption::after{{content:"\\2039"}}
-{P} .reve-grille .reve-lien:is(:hover,:focus-visible) figcaption::after{{background:#000000;color:#E8D6A6}}
-{P} .reve-grille .reve-lien:active figcaption::after{{transform:scale(.96) !important}}
+{P} .reve-grille .reve-lien figcaption::after{{display:none !important;content:none !important}}
+{P} .reve-grille figure::after{{{CARRE};bottom:74px;box-shadow:0 0 0 1px rgba(255,255,255,.3),0 2px 6px rgba(0,0,0,.18)}}
+{R} .reve-grille figure::after{{content:"\\2039"}}
+{P} .reve-grille .reve-lien:is(:hover,:focus-visible) figure::after{{background:#000000;color:#E8D6A6}}
+{P} .reve-grille .reve-lien:active figure::after{{transform:scale(.96) !important}}
 {P} .reve-grille .reve-lien:focus-visible{{outline:2px solid #111111;outline-offset:3px}}
+@media (min-width:900px){{
+{P} main>section.reve{{padding-top:40px !important}}
+{P} .reve-grille{{display:grid !important;grid-template-columns:repeat(4,minmax(0,1fr)) !important;gap:22px !important;overflow:visible !important;margin:0 auto !important;padding:0 var(--pad,20px) !important;scroll-snap-type:none !important}}
+{P} .reve-grille .reve-lien{{flex:none !important;max-width:none}}
+{P} .reve-grille figcaption{{font-size:14px !important}}
+}}
 /* 9. air sous le dernier contenu quand la barre du bas le recouvre (téléphone), air autour du prix des cartes chalet */
 @media (max-width:899.98px){{
 {P}.bb-on footer.pied{{padding-bottom:calc(96px + env(safe-area-inset-bottom)) !important}}
@@ -87,21 +100,24 @@ CSS = f"""/* ===LOT2-0611=== accueil, retours 6 à 11 de Moshé du 05/11 (_lot2_
 {R} #trips .ac-portes .hub-carte h3{{letter-spacing:0 !important}}
 {P} #trips .ac-portes .hub-carte .btn-noir{{display:none !important}}
 {P} #trips .ac-portes .hub-carte:focus-visible{{outline:2px solid #111111;outline-offset:3px}}
-{P} #trips .ac-stations-ligne{{margin-top:32px !important}}
+{P} #trips .ac-stations-ligne{{margin-top:36px !important}}
+{P} #trips .ac-stations a{{font-size:12px !important;letter-spacing:.12em !important}}
+{P} #trips .ac-portes .hub-carte p,{P} #trips .sous{{text-wrap:pretty}}
 @media (min-width:900px){{
 {P} #trips .ac-portes{{display:grid !important;grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:22px !important;overflow:visible !important;margin:32px 0 0 !important;padding:0 !important;scroll-snap-type:none !important}}
 {P} #trips .ac-portes .hub-carte{{flex:none !important;max-width:none}}
 {P} #trips .ac-portes .hub-carte h3{{font-size:14px !important}}
 {P} #trips .ac-portes .hub-carte p{{font-size:13.5px !important}}
 }}
-/* 11. « Comment ça marche » : lisible (blanc pur sur voile sombre), en escalier sur téléphone, reliées sur ordinateur */
-{P} main>section#how{{background-image:{VOILE_HOW},url(/img/h/valthorens-exterieur-neige-960.webp) !important}}
-@media (min-width:900px){{{P} main>section#how{{background-image:{VOILE_HOW},url(/img/h/valthorens-exterieur-neige-1264.webp) !important}}}}
-{P} main>section#how :is(h2,h2 i,h2 em,li span){{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}}
-{P} main>section#how :is(p,.sous,ol li p){{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;font-weight:400 !important;opacity:1 !important;text-shadow:none !important}}
-{P} main>section#how .lv-eyebrow{{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important}}
-{P} main>section#how ol li>b{{display:flex;align-items:center;gap:10px;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;font:400 11px/1.3 'Jost',system-ui,sans-serif !important;letter-spacing:.22em !important;text-transform:uppercase !important}}
-{P} main>section#how ol li>b::before{{content:"";flex:none;width:22px;height:1px;background:#C2A874}}
+/* 11. « Comment ça marche » (crible luxe du 06/11 : une seule section noire par page, beaucoup de blanc) : fond blanc, pictos noirs,
+   libellés en capitales fines, filets d'or ; en escalier sur téléphone, 3 colonnes reliées par un filet sur ordinateur */
+{P} main>section#how{{background:#FFFFFF !important;background-image:none !important;border-top:0 !important;box-shadow:none !important;clip-path:none !important}}
+{P} main>section#how :is(h2,h2 i,h2 em,li span){{color:#111111 !important;-webkit-text-fill-color:#111111 !important}}
+{P} main>section#how .lv-eyebrow{{color:#A88F5E !important;-webkit-text-fill-color:#A88F5E !important}}
+{P} main>section#how :is(p,.sous,ol li p){{color:#5E5E5E !important;-webkit-text-fill-color:#5E5E5E !important;font-weight:300 !important;opacity:1 !important;text-shadow:none !important;text-wrap:pretty}}
+{P} main>section#how ol li img{{filter:none !important}}
+{P} main>section#how ol li>b{{display:flex;align-items:center;gap:10px;color:#111111 !important;-webkit-text-fill-color:#111111 !important;font:400 11px/1.3 'Jost',system-ui,sans-serif !important;letter-spacing:.22em !important;text-transform:uppercase !important}}
+{P} main>section#how ol li>b::before{{content:"";flex:none;width:22px;height:1px;background:#A88F5E}}
 {R} main>section#how ol li>b{{letter-spacing:0 !important}}
 @media (max-width:899.98px){{
 {P} main>section#how ol{{display:grid !important;grid-template-columns:minmax(0,1fr) !important;gap:0 !important;margin-top:26px !important;text-align:start !important}}
@@ -113,13 +129,15 @@ CSS = f"""/* ===LOT2-0611=== accueil, retours 6 à 11 de Moshé du 05/11 (_lot2_
 {R} main>section#how ol li:nth-child(2) img{{transform:none !important}}
 {P} main>section#how ol li:nth-child(2) :is(b,span,p){{grid-column:1 !important;text-align:end !important;margin-inline-start:auto !important}}
 {P} main>section#how ol li:nth-child(2)>b{{justify-content:flex-end}}
-{P} main>section#how ol li:not(:last-child)::after{{content:"";grid-column:1 / -1 !important;grid-row:4 !important;justify-self:center;width:1px;height:44px;margin:20px 0 22px;background:linear-gradient(180deg,rgba(194,168,116,.25),#C2A874 50%,rgba(194,168,116,.25))}}
+{P} main>section#how ol li::after{{display:none !important;content:none !important}}
+{P} main>section#how ol li+li{{position:relative !important;margin-top:0 !important;padding-top:56px !important}}
+{P} main>section#how ol li+li::before{{content:"";position:absolute;top:8px;left:50%;width:1px;height:40px;margin-left:-.5px;background:linear-gradient(180deg,rgba(168,143,94,.15),#A88F5E 50%,rgba(168,143,94,.15))}}
 {P} main>section#how ol li p{{margin:6px 0 0 !important;font-size:14.5px !important;line-height:1.5 !important;max-width:none !important}}
 {P} main>section#how ol li>span{{font-size:19px !important;line-height:1.2 !important}}
 }}
 @media (min-width:900px){{
 {P} main>section#how ol{{position:relative;grid-template-columns:repeat(3,minmax(0,1fr)) !important;gap:48px !important;max-width:1040px !important;margin-left:auto !important;margin-right:auto !important}}
-{P} main>section#how ol::before{{content:"";position:absolute;left:10%;right:10%;top:150px;height:1px;background:linear-gradient(90deg,rgba(194,168,116,0),#C2A874 18%,#C2A874 82%,rgba(194,168,116,0));pointer-events:none}}
+{P} main>section#how ol::before{{content:"";position:absolute;left:10%;right:10%;top:150px;height:1px;background:linear-gradient(90deg,rgba(168,143,94,0),#A88F5E 18%,#A88F5E 82%,rgba(168,143,94,0));pointer-events:none}}
 {P} main>section#how ol li{{text-align:center !important}}
 {P} main>section#how ol li>b{{justify-content:center;margin-top:18px !important}}
 {P} main>section#how ol li>b::before{{display:none}}
