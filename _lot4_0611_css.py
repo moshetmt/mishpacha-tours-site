@@ -12,6 +12,7 @@ python _lot4_0611_css.py   (depuis site-v5/)"""
 import os, re
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 P = "html body.lv.l4" + "".join(f":not(#q{i})" for i in range(1, 15))     # plus fort que tout bloc antérieur (14 :not)
+PM = P.replace("html body", "html.mob-alpes body")
 OR = "#A88F5E"; ORF = "#7A6440"
 FILET = "linear-gradient(100deg,#8F7646,#D2BC8C 45%,#A88F5E 55%,#8F7646)"
 CSS = f"""/* ===LOT4-0611=== lot 4 contenu, retours 17 à 21 du 05/11 (_lot4_0611_css.py) */
@@ -30,7 +31,6 @@ CSS = f"""/* ===LOT4-0611=== lot 4 contenu, retours 17 à 21 du 05/11 (_lot4_061
 {P} .repas-prix .rp-cartes{{display:block !important;margin:20px 0 0 !important}}
 {P} .repas-prix .rp-carte{{display:grid !important;grid-template-columns:minmax(0,1fr) auto !important;gap:2px 14px !important;align-items:baseline !important;padding:12px 0 !important;border:0 !important;border-bottom:1px solid rgba(168,143,94,.35) !important;background:transparent !important}}
 {P} .repas-prix .rp-carte img{{display:none !important}}
-{P} .repas-prix .rp-carte:first-child img{{display:block !important;grid-column:1/-1 !important;aspect-ratio:3/2 !important;margin:0 0 10px !important}}
 {P} .repas-prix .rp-carte span{{padding:0 !important;font-size:15px !important}}
 {P} .repas-prix .rp-carte b{{padding:0 !important;font-size:17px !important;color:{ORF} !important;white-space:nowrap}}
 {P} .repas-prix .prix-table ul{{margin-top:8px !important;padding:0 !important;border:0 !important}}
@@ -109,6 +109,32 @@ CSS = f"""/* ===LOT4-0611=== lot 4 contenu, retours 17 à 21 du 05/11 (_lot4_061
 {P} .svc-carte .svc-t{{font-size:14px}}
 {P} .svc-carte .svc-s{{font-size:15px}}
 }}
+/* 06/11 2 h 40, Moshé : « ça manque de beauté et de luxe » → plus d'accordéon à chevron sur les pages du lot, listes ouvertes */
+{PM} .dk-cartes>li.dk-pli>.dk-corps{{display:block !important}}
+{PM} .dk-cartes>li.dk-pli>b{{cursor:default !important;padding-inline-end:0 !important;pointer-events:none}}
+{PM} .dk-cartes>li.dk-pli>b::after{{display:none !important}}
+{P} .dk-cartes>li,{P} .dk-liste>li{{border:0 !important;box-shadow:none !important;background:transparent !important;padding:14px 0 !important}}
+{P} .dk-liste{{list-style:none;margin:18px 0 0;padding:0}}
+{P} .dk-liste>li>b{{display:block;margin-bottom:4px;font-weight:500}}
+/* page casher v3 : « Votre journée », 4 moments en grandes photos (_lot4_0611_casher_v3.py) */
+{P} .moments .mom-sous{{font-size:17px;line-height:1.5;max-width:34em;margin:0 0 8px}}
+{P} .mom{{margin:40px 0 0}}
+{P} .mom-ph img{{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:4px}}
+{P} .mom-tx h3{{font-family:Jost,sans-serif !important;font-weight:300 !important;text-transform:uppercase;letter-spacing:.05em;font-size:21px;line-height:1.25;margin:18px 0 8px}}
+{P} .mom-tx p{{font-size:17px;line-height:1.5;margin:0}}
+{P} .mom-liens{{margin-top:10px !important;font-size:13px !important;text-transform:uppercase;letter-spacing:.08em;line-height:2 !important;color:{ORF}}}
+{P} .mom-liens a{{color:{ORF} !important;text-decoration:underline;text-decoration-color:rgba(168,143,94,.5);text-underline-offset:.2em}}
+{P} .moments .cta-hero{{margin-top:44px !important}}
+@media (min-width:900px){{
+{P} .mom{{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-top:72px}}
+{P} .mom:nth-child(odd) .mom-ph{{order:2}}
+{P} .mom-ph img{{aspect-ratio:4/3}}
+{P} .mom-tx h3{{font-size:26px;margin-top:0}}
+{P} .mom-tx p{{font-size:18px}}
+}}
+{P} .svc-ph{{margin:6px 0 22px}}
+{P} .svc-ph img{{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px}}
+@media (min-width:900px){{ {P} .svc-ph img{{aspect-ratio:21/9}} }}
 /* ===/LOT4-0611=== */
 """
 lv = open("lv.css", encoding="utf-8").read()

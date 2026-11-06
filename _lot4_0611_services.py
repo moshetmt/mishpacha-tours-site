@@ -17,11 +17,19 @@ PHOTOS = {
  "private-kosher-chalet-alps": ("img/h/wp-ext-bleu-1600.webp", 1600),
  "private-kosher-chef-alps": ("img/chalet/courchevel-cuisine-1.jpg", 1264),
  "kosher-meals-delivered-alps": ("img/chalet/valthorens-cuisine-salle-a-manger.jpg", 1264),
- "shabbat-holiday-meals-alps": ("img/chalet/slope-sejour-table.jpg", 1264),
+ "shabbat-holiday-meals-alps": ("img/chalet/w/wp-salle-a-manger-1-1280.webp", 1280),
  "minyan-sefer-torah-alps": ("img/chalet/valthorens-vue-balcon.jpg", 1264),
  "spa-massage-alps": ("img/chalet/megeve-spa-mont-blanc.jpg", 1600),
  "activities-alps-kosher-families": ("img/h/reve-traineau-1600.webp", 1600),
 }
+PHOTOS2 = {  # seconde grande photo, dans « ce que comprend » (06/11 : une seule photo par page = page vide)
+ "private-kosher-chalet-alps": "/img/chalet/w/courchevel-salon-cheminee", "private-kosher-chef-alps": "/img/chalet/w/valthorens-table",
+ "kosher-meals-delivered-alps": "/img/chalet/w/renard-salle-a-manger", "shabbat-holiday-meals-alps": "/img/chalet/w/valthorens-table",
+ "minyan-sefer-torah-alps": "/img/chalet/w/megeve-facade-neige", "spa-massage-alps": "/img/chalet/w/aigle-sauna", "activities-alps-kosher-families": "/img/h/reve-ski"}
+def photo2(slug):
+    b = PHOTOS2[slug]; ws = [640, 960, 1600] if b.startswith("/img/h/") else [640, 960, 1280]
+    return (f'<figure class="svc-ph"><img src="{b}-960.webp" srcset="' + ", ".join(f"{b}-{w}.webp {w}w" for w in ws) +
+            '" sizes="(min-width:900px) 1100px, 100vw" alt="" width="1280" height="960" loading="lazy" decoding="async"></figure>')
 ORDRE = ["private-kosher-chalet-alps", "private-kosher-chef-alps", "kosher-meals-delivered-alps", "shabbat-holiday-meals-alps",
          "minyan-sefer-torah-alps", "kosher-van-transfers", "kosher-ski-holidays-french-alps", "spa-massage-alps", "activities-alps-kosher-families"]
 EXIST = {  # pages existantes gardées à leur URL : (libellé, sous-titre) par langue, photo pour la grille du hub
@@ -97,7 +105,7 @@ def page(l, pre, slug, t):
     # ce que comprend
     li = "".join(f'<li class="dk-sans-ico"><b>{ltr(l, esc(b))}</b> {ltr(l, esc(x))}</li>' for b, x in t["inclus"])
     s = sub1(r'(<div class="clair clair-2 ss beige"><div class="wrap">)<h2>.*?</h2><ul class="dk-cartes dk-rail">.*?</ul>',
-             lambda m: m.group(1) + f'<h2>{ltr(l, esc(t["inclus_titre"][0]))} <i>{ltr(l, esc(t["inclus_titre"][1]))}</i></h2><ul class="dk-cartes dk-rail">{li}</ul>', s)
+             lambda m: m.group(1) + f'<h2>{ltr(l, esc(t["inclus_titre"][0]))} <i>{ltr(l, esc(t["inclus_titre"][1]))}</i></h2>{photo2(slug)}<ul class="dk-cartes dk-rail">{li}</ul>', s)
     # étapes
     ol = "".join(f'<li><b>{i+1}</b><div><h3>{ltr(l, esc(h))}</h3><p>{ltr(l, esc(x))}</p></div></li>' for i, (h, x) in enumerate(t["etapes"]))
     s = sub1(r'(<section class="ss wrap etapes">)<h2>.*?</h2><ol>.*?</ol>', lambda m: m.group(1) + f'<h2>{ltr(l, esc(t["etapes_titre"][0]))} <i>{ltr(l, esc(t["etapes_titre"][1]))}</i></h2><ol>{ol}</ol>', s)
@@ -136,7 +144,7 @@ for l, pre in LANGS:
         else:
             t = json.load(open(f"_lot4_contenu/{slug}.json", encoding="utf-8"))[l]; lab, sous, img = t["h1"], t["h1_i"], f"/img/h/{slug}-640.webp"
         items.append(f'<a class="svc-carte" href="/{pre}{slug}/"><img src="{img}" alt="" width="640" height="480" loading="lazy" decoding="async"><span class="svc-t">{ltr(l, esc(lab))}</span><span class="svc-s">{ltr(l, esc(sous))}</span></a>')
-    bloc = f'{A}<section class="clair ss wrap conseils svc"><h2>{TITRE[l][0]}<i>{TITRE[l][1]}</i></h2><div class="svc-grille">{"".join(items)}</div></section>{Z}'
-    s = sub1(r'(</section>)(<section class="clair ss wrap minyan-bh repas-prix")', lambda m: m.group(1) + bloc + m.group(2), s)
+    # 06/11 2 h 40 (Moshé : « ça manque de beauté et de luxe ») : la grille est remplacée par « Votre journée » (_lot4_0611_casher_v3.py) ;
+    # ce bloc ne fait plus que retirer l'ancien marqueur.
     wr(p, s)
-print("hub : liste des 9 services posée (4 langues)")
+print("hub : ancienne grille retirée (remplacée par _lot4_0611_casher_v3.py)")
