@@ -1315,3 +1315,8 @@ html body.lv.l4:not(#q1):not(#q2):not(#q3):not(#q4):not(#q5):not(#q6):not(#q7):n
 html body.lv .bn-fil .fil{opacity:1 !important;color:#5E5E5E !important}
 html[lang="he"] body.lv main :is(.mf-phrase,.mf-col b,.mf-col span,.mf p,.dk-suite>li>a){font-family:Heebo,Jost,sans-serif !important}
 /* ===/LOT4-0611=== */
+
+/* ===VOILE-0711=== héros d'accueil : voile sombre sous le bloc titre (texte de 55 % à 93 % de la hauteur sur téléphone, 62 % à 95 % sur ordinateur), haut de la vidéo presque libre */
+html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero::before{background:linear-gradient(180deg,rgba(0,0,0,.16) 0%,rgba(0,0,0,.06) 30%,rgba(0,0,0,.36) 46%,rgba(0,0,0,.70) 56%,rgba(0,0,0,.78) 100%) !important}
+@media (min-width:900px){html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .ac-hero::before{background:linear-gradient(180deg,rgba(0,0,0,.16) 0%,rgba(0,0,0,.05) 36%,rgba(0,0,0,.36) 52%,rgba(0,0,0,.70) 62%,rgba(0,0,0,.78) 100%) !important}}
+/* ===/VOILE-0711=== */

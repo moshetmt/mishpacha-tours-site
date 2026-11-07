@@ -1,4 +1,4 @@
-> Chalet Étoile Polaire en Tignes, Espace Killy: dos chalets kosher de lujo contiguos para 21 personas, nueve suites, dos jacuzzis exteriores, a un minuto de las pistas.
+> Chalet Étoile Polaire en Tignes, Espace Killy: dos chalets kosher de lujo contiguos para 21 personas, nueve suites, un jacuzzi exterior, a un minuto de las pistas.
 
 Source: https://mishpachatours.com/es/kosher-chalet-tignes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -23,7 +23,7 @@ Precio a consultar
 
 Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
-Dos chalets contiguos que se comunican por dentro, alquilados juntos: nueve suites, cada una con su ducha, hasta 21 personas. Las pistas están a un minuto a pie. Dos jacuzzis exteriores frente a las cumbres, dos salones con chimenea. Chef privado, Shabat y minyán, organizados para usted.
+Dos chalets contiguos que se comunican por dentro, alquilados enteros o por mitad: nueve suites, cada una con su ducha, hasta 21 personas. Las pistas están a un minuto a pie. Un jacuzzi exterior frente a las cumbres, dos salones con chimenea. Chef privado, Shabat y minyán, organizados para usted.
 
 - **Chef privado o comidas a domicilio**La cocina queda kosherizada y cada comida de la semana está resuelta.
 - **Shabat y fiestas, todo listo**Jalot, vino, velas y un minyan con Sefer Torá bajo pedido.
@@ -32,9 +32,9 @@ Dos chalets contiguos que se comunican por dentro, alquilados juntos: nueve suit
 ## El chalé, en resumen
 
 - **A un minuto de las pistas.** En Tignes, en el corazón del Espace Killy. Las pistas están a menos de un minuto a pie del chalet.
-- **Dos chalets comunicados.** Dos chalets contiguos, unidos por dentro y alquilados juntos: cada familia tiene su chalet y todos se reúnen en la mesa. Tres plantas en cada uno.
+- **Dos chalets comunicados.** Dos chalets contiguos, unidos por dentro y alquilados enteros o por mitad: cada familia tiene su chalet y todos se reúnen en la mesa. Tres plantas en cada uno.
 - **Nueve suites,** nueve baños con ducha, hasta 21 personas, cada suite con balcón o terraza. Una suite familiar con dormitorio infantil con literas, una suite principal bajo el tejado con una cama individual adicional.
-- **Dos jacuzzis.** Dos jacuzzis exteriores frente a las cumbres, para el final del día de esquí.
+- **Jacuzzi.** Un jacuzzi exterior frente a las cumbres, para el final del día de esquí.
 - **Dos salones, dos mesas.** En cada chalet, un salón abierto con chimenea y sofás rinconeros, una cocina equipada y una mesa para doce.
 - **Cocina.** Kosherizada por nuestro equipo antes de su llegada, incluida. Un chef cocina en el chalet, o las comidas kosher llegan listas para calentar.
 
@@ -65,7 +65,7 @@ Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado
 - **¿Cuánto cuesta?** Precio a consultar el chalé. El precio final depende de sus fechas, del número de personas y de los servicios que elija: recibe un presupuesto por escrito antes de comprometerse. La estancia la presupuesta y factura nuestro equipo kosher con base en los Alpes.
 - **¿Cuántas personas?** Hasta 21 personas en nueve suites, cada una con su ducha: varias familias juntas, cada una en su chalet, unidos por dentro.
 - **¿Están lejos las pistas?** A menos de un minuto a pie del chalet.
-- **¿Se puede alquilar uno solo de los dos chalets?** Los dos chalets se alquilan juntos, para un solo grupo. Cada uno tiene su cocina, su salón y su mesa para doce.
+- **¿Se puede alquilar uno solo de los dos chalets?** Sí: el Chalet Étoile Polaire entero, o uno solo de los dos chalets, Grande Ourse (cuatro suites) o Petite Ourse (cinco suites). Cada uno tiene su cocina, su salón y su mesa para doce.
 - **¿Quién cocina las comidas?** Un chef cocina comidas kosher en el chalé, o se entregan comidas preparadas. Nuestro equipo kosheriza la cocina antes de su llegada.
 - **¿Hay minyan?** Llevamos los bochurim y un Sefer Torá al chalé para Shabat, a petición. Indíquenos sus fechas con antelación.
 

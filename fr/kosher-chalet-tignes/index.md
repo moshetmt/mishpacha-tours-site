@@ -1,4 +1,4 @@
-> Le Chalet Étoile Polaire à Tignes, Espace Killy : deux chalets casher de luxe mitoyens pour 21 personnes, neuf suites, deux jacuzzis extérieurs, à une minute des pistes.
+> Le Chalet Étoile Polaire à Tignes, Espace Killy : deux chalets casher de luxe mitoyens pour 21 personnes, neuf suites, un jacuzzi extérieur, à une minute des pistes.
 
 Source: https://mishpachatours.com/fr/kosher-chalet-tignes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -23,7 +23,7 @@ Prix sur demande
 
 Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
-Deux chalets mitoyens qui communiquent, loués ensemble : neuf suites, chacune avec sa salle de douche, jusqu'à 21 personnes. Les pistes sont à une minute à pied. Deux jacuzzis extérieurs face aux sommets, deux salons avec cheminée. Chef privé, Chabbat et minyan, organisés pour vous.
+Deux chalets mitoyens qui communiquent, loués en entier ou par moitié : neuf suites, chacune avec sa salle de douche, jusqu'à 21 personnes. Les pistes sont à une minute à pied. Un jacuzzi extérieur face aux sommets, deux salons avec cheminée. Chef privé, Chabbat et minyan, organisés pour vous.
 
 - **Un chef privé, ou des repas livrés**La cuisine est cachérisée, tous les repas de la semaine sont assurés.
 - **Chabbat et fêtes, préparés**Hallot, vin, bougies, et un minyan avec Sefer Torah sur demande.
@@ -32,9 +32,9 @@ Deux chalets mitoyens qui communiquent, loués ensemble : neuf suites, chacune a
 ## Le chalet, en bref
 
 - **À une minute des pistes.** À Tignes, au cœur de l'Espace Killy. Les pistes sont à moins d'une minute à pied du chalet.
-- **Deux chalets qui communiquent.** Deux chalets mitoyens, reliés de l'intérieur et loués ensemble : chaque famille a son chalet, tout le monde se retrouve à table. Trois niveaux dans chacun.
+- **Deux chalets qui communiquent.** Deux chalets mitoyens, reliés de l'intérieur et loués en entier ou par moitié : chaque famille a son chalet, tout le monde se retrouve à table. Trois niveaux dans chacun.
 - **Neuf suites,** neuf salles de douche, jusqu'à 21 personnes, chaque suite avec son balcon ou la terrasse. Une suite familiale avec chambre d'enfants à lits superposés, une suite parentale sous les toits avec un lit simple en plus.
-- **Deux jacuzzis.** Deux jacuzzis extérieurs face aux sommets, pour la fin de la journée de ski.
+- **Jacuzzi.** Un jacuzzi extérieur face aux sommets, pour la fin de la journée de ski.
 - **Deux salons, deux tables.** Dans chaque chalet, un salon ouvert avec cheminée et canapés d'angle, une cuisine équipée et une table de douze couverts.
 - **Cuisine.** Cachérisée par notre équipe avant votre arrivée, incluse. Un chef cuisine au chalet, ou des repas casher arrivent prêts à réchauffer.
 
@@ -65,7 +65,7 @@ Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet pr
 - **Combien ça coûte ?** Prix sur demande pour le chalet. Le prix final dépend de vos dates, du nombre de personnes et des services que vous choisissez : vous recevez un devis écrit avant tout engagement. Le séjour est devisé et facturé par notre équipe casher basée dans les Alpes.
 - **Combien de personnes ?** Jusqu'à 21 personnes dans neuf suites, chacune avec sa salle de douche : plusieurs familles ensemble, chacune dans son chalet, reliés de l'intérieur.
 - **Les pistes sont-elles loin ?** À moins d'une minute à pied du chalet.
-- **Peut-on louer un seul des deux chalets ?** Les deux chalets se louent ensemble, pour un seul groupe. Chacun a sa cuisine, son salon et sa table de douze couverts.
+- **Peut-on louer un seul des deux chalets ?** Oui : le Chalet Étoile Polaire en entier, ou un seul des deux chalets, la Grande Ourse (quatre suites) ou la Petite Ourse (cinq suites). Chacun a sa cuisine, son salon et sa table de douze couverts.
 - **Qui prépare les repas ?** Un chef prépare des repas casher au chalet, ou des repas prêts à réchauffer sont livrés. Notre équipe cachérise la cuisine avant votre arrivée.
 - **Y a-t-il un minyan ?** Nous amenons les ba'hourim et un Sefer Torah au chalet pour Chabbat, sur demande. Indiquez-nous vos dates tôt.
 
