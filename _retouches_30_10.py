@@ -5,7 +5,7 @@
 3. fiches chalet : titre en 2 lignes, nom court en blanc + 4 mots dorés (noms choisis par Mendel le 30/10 à 1 h 04 : NOMS)."""
 import io, re, glob
 
-HEBREU = [("מז'ב", "מג'ב"), ("קורמאייר", "קורמאיור"), ("כשרות למהדרין", "בהקפדה על כשרות"), ("כשר למהדרין", "שומר כשרות")]
+HEBREU = [("מז'ב", "מג'ב"), ("קורמאייר", "קורמאיור")]   # 06/11 : lamehadrin rétabli (_lot4_0611_lamehadrin.py)
 
 ETE = {  # dossier : (ligne blanche, ligne dorée)
   ".":  ("Your private kosher summer", "the Riviera, the lakes, the Alps"),
@@ -22,7 +22,7 @@ NOMS = {  # slug : {langue : (nom, 4 mots dorés)}. Noms provisoires jusqu'au ch
     "he": ("צ'אלה קינג דייוויד, לה דז אלפ", "300 מ\"ר, 16 אורחים, שף פרטי")},
   "kosher-slope-chalet-les-deux-alpes": {
     ".":  ("Chalet Rochebrune, Les Deux Alpes", "6 bedrooms, skis on at the door"),
-    "fr": ("Chalet Rochebrune, Les Deux Alpes", "6 chambres, skis aux pieds"),
+    "fr": ("Chalet Rochebrune, Les Deux Alpes", "6 chambres, à une minute des pistes"),
     "es": ("Chalet Rochebrune, Les Deux Alpes", "6 habitaciones, esquís en la puerta"),
     "he": ("צ'אלה רושברון, לה דז אלפ", "6 חדרים, סקי מהדלת")},
   "kosher-chalet-courchevel": {
@@ -37,9 +37,9 @@ NOMS = {  # slug : {langue : (nom, 4 mots dorés)}. Noms provisoires jusqu'au ch
     "he": ("צ'אלה לו בלאן, ליד מג'ב", "10 חדרים מול המון בלאן")},
   "kosher-chalet-val-thorens": {
     ".":  ("Chalet Belle Étoile, Val Thorens", "ski in, ski out, 3 suites"),
-    "fr": ("Chalet Belle Étoile, Val Thorens", "skis aux pieds, 3 suites"),
+    "fr": ("Chalet Belle Étoile, Val Thorens", "à une minute des pistes, 3 suites"),
     "es": ("Chalet Belle Étoile, Val Thorens", "esquís en la puerta, 3 suites"),
-    "he": ("צ'אלה בל אטואל, ואל טורנס", "סקי עד הדלת, 3 סוויטות")},
+    "he": ("צ'אלה בל אטואל, ואל טורנס", "דקה מהמסלולים, 3 סוויטות")},
 }
 
 def rd(p): return io.open(p, encoding="utf-8").read()

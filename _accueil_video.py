@@ -11,7 +11,7 @@ JS = """<script>/* ACCUEIL-VIDEO */(function(){var v=document.querySelector('.ac
 var c=navigator.connection||{};if(c.saveData||/(^|-)2g$/.test(c.effectiveType||'')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
 function go(){var t=matchMedia('(max-width:899.98px)').matches?'tel':'pc',b='/img/video/accueil-'+t;
 var saf=/^((?!chrome|chromium|crios|android).)*safari/i.test(navigator.userAgent);
-var s2=document.createElement('source');s2.src=b+'.mp4';s2.type='video/mp4';v.appendChild(s2);v.load();
+var s2=document.createElement('source');s2.src=b+'.mp4?v=2';s2.type='video/mp4';v.appendChild(s2);v.load();
 v.addEventListener('playing',function(){v.classList.add('on')},{once:true});var p=v.play();if(p&&p.catch)p.catch(function(){});
 if('IntersectionObserver'in window)new IntersectionObserver(function(e){e[0].isIntersecting?v.play().catch(function(){}):v.pause()}).observe(v);}
 if(document.readyState==='complete')setTimeout(go,300);else addEventListener('load',function(){setTimeout(go,300)});})();</script>"""

@@ -26,7 +26,7 @@ AR = {
   ital="sept suites, spa, 3 Vallées",
   hero="Un chalet privé au cœur des 3 Vallées, avec son spa, ses sept suites et les pistes à sept minutes.",
   intro="Sept suites, un spa avec jacuzzi extérieur et sauna, un séjour plein sud pour toute la famille. Les pistes des 3 Vallées sont à sept minutes en télésiège, et une piste bleue vous ramène à la porte. Chef privé, Chabbat et minyan, organisés pour vous.",
-  bref=[("map-pin", "Le cadre.", "Un hameau tranquille juste en dessous des Ménuires, au cœur des 3 Vallées et de leurs 600 km de pistes. Le télésiège, à 230 mètres de la porte, vous monte en sept minutes ; le soir, vous rentrez skis aux pieds."),
+  bref=[("map-pin", "Le cadre.", "Un hameau tranquille juste en dessous des Ménuires, au cœur des 3 Vallées et de leurs 600 km de pistes. Le télésiège, à 230 mètres de la porte, vous monte en sept minutes ; le soir, vous rentrez à une minute des pistes."),
         ("x-couch", "L'étage de vie.", "Un séjour de 50 m² ouvert sur la cuisine et un balcon plein sud, avec une seule table pour tout le groupe."),
         ("bed-double", "Sept suites,", "chacune avec sa salle d'eau, sur trois niveaux : l'intimité pour chaque famille, jusqu'à 15 personnes."),
         ("waves", "Le spa.", "Un jacuzzi extérieur sous la neige, un sauna avec sa douche, et un salon de jeux et de cinéma pour les enfants."),

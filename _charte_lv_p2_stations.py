@@ -12,7 +12,7 @@ SLUGS = ["kosher-les-deux-alpes", "kosher-courchevel", "kosher-val-thorens", "ko
 EYEBROW = {"en": "The Alps", "fr": "Les Alpes", "es": "Los Alpes", "he": "האלפים"}
 # mention reprise telle quelle de l'accueil de chaque langue (.lv-reassure)
 REASSURE = {"en": "Strictly kosher · Shomer Shabbat", "fr": "Strictement casher · Chomer Chabbat",
-            "es": "Estrictamente kosher · Shomer Shabat", "he": "שומר כשרות · שומר שבת"}
+            "es": "Estrictamente kosher · Shomer Shabat", "he": "כשר למהדרין · שומר שבת"}
 
 
 def bloc_section(t, debut):

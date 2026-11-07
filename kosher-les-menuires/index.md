@@ -48,7 +48,7 @@ Availability confirmed for your dates with each request.
 - **A minyan with a Sefer Torah.** We bring together the families who write to us for the same week; the earlier you send your dates, the better the chances of a minyan.
 - **The whole stay, in one quote.** Chalet, chef or delivered meals, transfers from Lyon or Geneva, Shabbat and the holidays: one request, one written quote. For a very small group asking for a single delivery, tell us and we say what is feasible.
 
-Strictly kosher. Our team cooks under the Chabad network of the Alps; the supervision details come in writing with your quote.
+Strictly kosher. Our team cooks under the Chabad network of the Alps; the kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
@@ -140,7 +140,7 @@ Yes. Tell us which holiday falls in your week. Hanukkah candles, a Megillah read
 
 Who supervises the kosher food?
 
-Our team in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.
+Our team in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 Can we walk to a minyan in Val Thorens on Shabbat?
 

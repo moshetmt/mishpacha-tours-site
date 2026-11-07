@@ -26,7 +26,7 @@ TEXTES = {
     "en": ("ALPS · LYON", "Strictly kosher<br>holidays", "Strictly kosher · Shomer Shabbat"),
     "fr": ("ALPES · LYON", "Vacances<br>strictement casher", "Strictement casher · Shomer Shabbat"),
     "es": ("ALPES · LYON", "Vacaciones kosher<br>en los Alpes", "Estrictamente kosher · Shomer Shabat"),
-    "he": ("האלפים · ליון", "חופשת סקי<br>כשרה באלפים", "שומר כשרות · שומר שבת"),
+    "he": ("האלפים · ליון", "חופשת סקי<br>כשרה באלפים", "כשר למהדרין · שומר שבת"),
 }
 
 GABARIT = """<!doctype html><html lang="{lang}" dir="{dir}"><head><meta charset="utf-8">
@@ -88,6 +88,7 @@ WP_TEXTES = {
     "kosher-chalet-les-menuires": ("KOSHER CHALET · LES MÉNUIRES", "Aigle Royal"),
     "kosher-chalet-megeve": ("KOSHER CHALET · MEGÈVE", "Loup Blanc"),
     "kosher-chalet-val-thorens": ("KOSHER CHALET · VAL THORENS", "Belle Étoile"),
+    "kosher-chalet-tignes": ("KOSHER CHALET · TIGNES", "Étoile Polaire"),
     "kosher-chalets": ("THE ALPS", "Our kosher<br>chalets"),
     "kosher-chamonix": ("KOSHER SKI · MONT BLANC", "Chamonix"),
     "kosher-cortina": ("KOSHER SKI · DOLOMITES", "Cortina d'Ampezzo"),

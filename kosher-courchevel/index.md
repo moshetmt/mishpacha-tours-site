@@ -82,7 +82,7 @@ Availability confirmed for your dates with each request.
 - **A minyan and a Sefer Torah.** We add a minyan and a Sefer Torah for your dates when the families present call for it.
 - **A tailor-made stay, A to Z.** Chalet, chef or delivered meals, transfers, Shabbat, the holidays, a minyan: one request, one quote. Families and groups from abroad are our core; for a very small group asking for one delivery only, say so and we tell you what is feasible.
 
-Strictly kosher. Our team cooks under the Chabad network of the Alps: the supervision details come in writing with your quote.
+Strictly kosher. Our team cooks under the Chabad network of the Alps: the kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 We also organise Pesach: [Pesach in the Alps, private chalet and kashered kitchen](https://mishpachatours.com/kosher-pesach-french-alps/).
 
@@ -170,7 +170,7 @@ Tell us which holiday falls in your week. We organise the meals and the minyan f
 
 Is the food strictly kosher, and who supervises?
 
-Yes. Our team in the Alps cooks under the Chabad network of the Alps. The supervision details come in writing with your quote.
+Yes. Our team in the Alps cooks under the Chabad network of the Alps. The kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ## Courchevel: your week, *organised*.
 

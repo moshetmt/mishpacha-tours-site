@@ -65,7 +65,7 @@ T = {
                     s=[("10 + 2", "chambres twin + chambres sous le toit"), ("3 à 4", "familles"), ("Sauna, jacuzzi", "face au Mont Blanc"), ("Navette", "toutes les 20 min vers les pistes")],
                     k="<b>Strictement casher.</b> Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael."),
             vth=dict(lieu="Val Thorens", t="Chalet Belle Étoile, Val Thorens", alt="Le Chalet Belle Étoile à Val Thorens sous la neige",
-                    s=[("165 m²", "chalet privé"), ("3", "chambres avec salle de bain"), ("Jusqu’à 10", "personnes (8 adultes)"), ("Skis aux pieds", "chemin skieur à la porte")],
+                    s=[("165 m²", "chalet privé"), ("3", "chambres avec salle de bain"), ("Jusqu’à 10", "personnes (8 adultes)"), ("À une minute des pistes", "chemin skieur à la porte")],
                     k="<b>Strictement casher.</b> Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael."),
             vi=dict(lieu="Saint-Tropez", t="Villa Beach, une villa casher les pieds dans l’eau", alt="Villa Beach à Saint-Tropez, la piscine et la mer",
                     s=[("5", "chambres, 5 salles de bain"), ("12", "personnes"), ("Plage privée", "et garage à bateau"), ("3 maisons", "villa, maison d’invités, loge")],
@@ -92,27 +92,27 @@ T = {
                     s=[("5", "habitaciones, 5 baños"), ("12", "personas"), ("Playa privada", "y garaje para barco"), ("3 casas", "villa, casa de invitados, caseta")],
                     k="<b>Estrictamente kosher.</b> Villa kosherizada para ustedes, chef privado, todo lo que se sirve es Chalav Yisrael.", avec="con Summer Prestige"),
             seau="ESTRICTAMENTE KOSHER · CHALAV YISRAEL · SHOMER SHABAT ·"),
- # hébreu : jamais « ישראל » (règle n° 1), donc pas de Chalav Yisrael ; lexique de la charte (שומר כשרות)
+ # hébreu : jamais « ישראל » (règle n° 1), donc pas de Chalav Yisrael ; lexique de la charte (כשר למהדרין)
  "he": dict(vi_h2="הווילה שלנו", vi_h2_i="בסן טרופה", avec="עם Winter Prestige", part="בשיתוף עם", dispo="הזמינות מאושרת לתאריכים שלכם בכל פנייה.",
             btn="לבדוק את התאריכים", deux="הצ'אלות הכשרות שלנו", deux_i="באלפים", co_h2="צ'אלה פלוקון דורה", co_h2_i="בקורשבל", me_h2="צ'אלה לו בלאן", me_h2_i="ליד מג'ב", vth_h2="צ'אלה בל אטואל", vth_h2_i="בואל טורנס",
             da=dict(lieu="לה דז אלפ", t="צ'אלה קינג דייוויד, לה דז אלפ", alt="הצ'אלה בלה דז אלפ תחת שמיים כחולים",
                     s=[("300 מ\"ר", "צ'אלה פרטית"), ("6 + 1", "חדרי שינה + חדר תינוק"), ("עד 16", "אורחים"), ("2 דק'", "מהמסלולים")],
-                    k="<b>שומר כשרות.</b> שף בצ'אלה או ארוחות במשלוח."),
+                    k="<b>כשר למהדרין.</b> שף בצ'אלה או ארוחות במשלוח."),
             co=dict(lieu="קורשבל", t="צ'אלה פלוקון דורה, קורשבל", alt="הצ'אלה בקורשבל תחת השלג",
                     s=[("5", "חדרי שינה עם חדר רחצה"), ("10 עד 14", "אורחים"), ("2 בריכות", "מחוממות, בפנים ובחוץ"), ("הסעה פרטית", "למסלולים")],
-                    k="<b>שומר כשרות.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
+                    k="<b>כשר למהדרין.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
             sl=dict(lieu="לה דז אלפ", t="צ'אלה רושברון, לה דז אלפ", alt="צ'אלה רושברון בלה דז אלפ תחת השלג",
                     s=[("6", "חדרי שינה"), ("עד 13", "אורחים"), ("50 מ'", "מהמסלולים"), ("אח", "ומרפסת דרומית")],
-                    k="<b>שומר כשרות.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
+                    k="<b>כשר למהדרין.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
             me=dict(lieu="ליד מג'ב", t="צ'אלה לו בלאן, ליד מג'ב", alt="הסלון של הצ'אלה ליד מג'ב",
                     s=[("10 + 2", "חדרי טווין + חדרי עליית גג"), ("3 עד 4", "משפחות"), ("סאונה, ג'קוזי", "מול המון בלאן"), ("הסעה", "כל 20 דק' למסלולים")],
-                    k="<b>שומר כשרות.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
+                    k="<b>כשר למהדרין.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
             vth=dict(lieu="ואל טורנס", t="צ'אלה בל אטואל, ואל טורנס", alt="צ'אלה בל אטואל בואל טורנס תחת השלג",
                     s=[("165 מ\"ר", "צ'אלה פרטית"), ("3", "חדרי שינה עם חדר רחצה"), ("עד 10", "אורחים (8 מבוגרים)"), ("סקי", "מהדלת")],
-                    k="<b>שומר כשרות.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
+                    k="<b>כשר למהדרין.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
             vi=dict(lieu="סן טרופה", t="וילה ביץ׳, וילה כשרה על קו המים", alt="וילה ביץ׳ בסן טרופה, הבריכה והים",
                     s=[("5", "חדרי שינה, 5 חדרי רחצה"), ("12", "אורחים"), ("חוף פרטי", "ומוסך סירות"), ("3 בתים", "וילה, בית אורחים, בית השומר")],
-                    k="<b>שומר כשרות.</b> הווילה מוכשרת עבורכם, שף פרטי.", avec="עם Summer Prestige"),
+                    k="<b>כשר למהדרין.</b> הווילה מוכשרת עבורכם, שף פרטי.", avec="עם Summer Prestige"),
             seau="STRICTLY KOSHER · SHOMER SHABBAT · STRICTLY KOSHER · SHOMER SHABBAT ·"),
 }
 PICTOS = {
@@ -177,6 +177,18 @@ CHALETS["au"] = dict(img="/img/chalet/aurore-exterieur-piscine.jpg", w=1081, h=7
                      q="?i=a&amp;lieu=Courchevel&amp;voyage=Ski%20holiday%20with%20a%20chalet")   # 02/11, lot 2
 CHALETS["re"] = dict(img="/img/chalet/renard-exterieur-neige.jpg", w=1081, h=720, pictos=["lit", "gens", "eau", "pistes"], lien="/kosher-chalet-courchevel-renard-argente/",
                      q="?i=a&amp;lieu=Courchevel&amp;voyage=Ski%20holiday%20with%20a%20chalet")
+# 02/11 : chalet de Tignes (ch9, deux chalets mitoyens loués ensemble), prix « Sur demande » (ligne ch9 vide), nom : _chalet_tignes_nom.py
+from _chalet_tignes_nom import NOM as _TG, NOM_HE as _TG_HE, PREFIXE as _TGP
+T["en"]["tg"] = dict(lieu="Tignes", t=f"Chalet {_TG}, Tignes", alt=f"Chalet {_TG} in Tignes under snow",
+                     s=[("9", "suites"), ("Up to 21", "guests"), ("2 jacuzzis", "outdoor"), ("1 min", "to the slopes")], k=_K["en"])
+T["fr"]["tg"] = dict(lieu="Tignes", t=f"Chalet {_TG}, Tignes", alt=f"Le Chalet {_TG} à Tignes sous la neige",
+                     s=[("9", "suites"), ("Jusqu'à 21", "personnes"), ("2 jacuzzis", "extérieurs"), ("1 min", "des pistes")], k=_K["fr"])
+T["es"]["tg"] = dict(lieu="Tignes", t=f"Chalet {_TG}, Tignes", alt=f"El Chalet {_TG} en Tignes bajo la nieve",
+                     s=[("9", "suites"), ("Hasta 21", "personas"), ("2 jacuzzis", "exteriores"), ("1 min", "de las pistas")], k=_K["es"])
+T["he"]["tg"] = dict(lieu="טין", t=f"צ'אלה {_TG_HE}, טין", alt=f"צ'אלה {_TG_HE} בטין תחת השלג",
+                     s=[("9", "סוויטות"), ("עד 21", "אורחים"), ("2 ג'קוזי", "חיצוניים"), ("דקה", "מהמסלולים")], k=_K["he"])
+CHALETS["tg"] = dict(img=f"/img/chalet/{_TGP}-chalets-neige.jpg", w=1440, h=960, pictos=["lit", "gens", "eau", "pistes"], lien="/kosher-chalet-tignes/",
+                     q="?i=a&amp;lieu=Tignes&amp;voyage=Ski%20holiday%20with%20a%20chalet")
 MARQUE = {"wp": dict(nom="Winter Prestige", or_="/img/wp-flocon-or.svg", noir="/img/wp-flocon-noir.svg"),
           "sp": dict(nom="Summer Prestige", or_="/img/sp-symbole-or.svg", noir="/img/sp-symbole-noir.svg")}
 def marque(cle): return MARQUE[CHALETS[cle].get("marque", "wp")]

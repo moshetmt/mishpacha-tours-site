@@ -69,6 +69,7 @@ PIECE = {
     "piscine": t("Pool", "Piscine", "Piscina", "בריכה"),
     "bain": t("Nordic bath", "Bain nordique", "Baño nórdico", "אמבט נורדי"),
     "sdb-eau": t("Shower room", "Salle d'eau", "Baño", "חדר מקלחת"),   # 02/11, Aigle Royal
+    "jacuzzi": t("Hot tubs", "Jacuzzis", "Jacuzzis", "ג'קוזי"),   # 02/11, Tignes
     "detente": t("Sauna and games room", "Sauna et salle de jeux", "Sauna y sala de juegos", "סאונה וחדר משחקים"),
 }
 TXT = {
@@ -158,6 +159,17 @@ CHALETS = {
                 ("bain", "bain", ["renard-bain-nordique"]),
                 ("ext-vues", "ext-vues", ["renard-exterieur-neige", "renard-facade", "renard-chalet-neige"])]),
 }
+# 02/11 : chalet de Tignes (ch9), photos réelles (_chalet_tignes_photos.py), page posée par _chalet_tignes.py ; nom : _chalet_tignes_nom.py
+from _chalet_tignes_nom import NOM as _TG, NOM_HE as _TG_HE, PREFIXE as _P
+CHALETS["kosher-chalet-tignes"] = dict(
+    hero=f"{_P}-chalets-neige",
+    nom=t(f"Chalet {_TG}", f"Le Chalet {_TG}", f"El Chalet {_TG}", f"צ'אלה {_TG_HE}"),
+    pieces=[("salon", "salon", [f"{_P}-sejour", f"{_P}-salon-cheminee", f"{_P}-salon", f"{_P}-salon-feu"]),
+            ("salle-cuisine", "salle-cuisine", [f"{_P}-salle-a-manger", f"{_P}-cuisine"]),
+            ("suites", "suites", [f"{_P}-suite-1", f"{_P}-suite-2", f"{_P}-suite-3", f"{_P}-suite-4", f"{_P}-suite-5", f"{_P}-suite-douche"]),
+            ("sdb", "sdb-eau", [f"{_P}-salle-de-bain"]),
+            ("jacuzzi", "jacuzzi", [f"{_P}-jacuzzi"]),
+            ("ext-vues", "ext-vues", [f"{_P}-chalets-neige", f"{_P}-exterieur-neige", f"{_P}-vue-aerienne", f"{_P}-terrasse-nuit"])])
 
 SVG_X = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>'
 SVG_BACK = '<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M20 12H5M11 5l-7 7 7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>'

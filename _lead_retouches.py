@@ -12,7 +12,7 @@ BTN = {'en': 'Plan my trip', 'fr': 'Personnaliser mon séjour', 'es': 'Preparar 
 BTN_VAN = {'en': 'Request a van', 'fr': 'Demander un van', 'es': 'Pedir una furgoneta', 'he': 'להזמין ואן'}
 WA = {'en': 'Or message us on WhatsApp', 'fr': 'Ou écrivez-nous sur WhatsApp', 'es': 'O escríbanos por WhatsApp', 'he': 'או כתבו לנו בוואטסאפ'}
 KOSHER = {'en': ('Strictly kosher', 'Strictly kosher, Chalav Yisrael'), 'fr': ('Strictement casher', "Strictement casher, 'Halav Yisrael"),
-          'es': ('Estrictamente kosher', 'Estrictamente kosher, Chalav Yisrael'), 'he': ('שומר כשרות', 'שומר כשרות, חלב ישראל')}
+          'es': ('Estrictamente kosher', 'Estrictamente kosher, Chalav Yisrael'), 'he': ('כשר למהדרין', 'כשר למהדרין, חלב ישראל')}
 PHOTO_HIVER = {'stock/alpes-ski.jpg': 'chalet/wp-soleil.jpg'}
 CSS = ('/* LEAD retouches 15/10 : formulaire d\'abord, WhatsApp en lien */\n'
        '.lead3-btns{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;margin-top:26px}.lead-hero3 .lead3-btns .btn-hero{margin-top:0}'

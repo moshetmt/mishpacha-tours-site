@@ -10,7 +10,7 @@ Chalet privé, chef privé, Chabbat et minyan. Tout est organisé pour vous.
 
  
 
-[Chabbat au chalet](https://mishpachatours.com/fr/kosher-chalets/)[Votre chef privé](https://mishpachatours.com/fr/kosher-services-french-alps/)[Sur les pistes](https://mishpachatours.com/fr/kosher-ski-holidays-french-alps/)[Chiens de traîneau](https://mishpachatours.com/fr/kosher-vacation-french-alps/)
+[Repas au chalet ou livrés](https://mishpachatours.com/fr/kosher-chalets/)[Votre chef privé](https://mishpachatours.com/fr/kosher-services-french-alps/)[Sur les pistes](https://mishpachatours.com/fr/kosher-ski-holidays-french-alps/)[Chiens de traîneau](https://mishpachatours.com/fr/kosher-vacation-french-alps/)
 
 ## Nos chalets casher *dans les Alpes*
 
@@ -87,7 +87,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 - **165 m²**chalet privé
 - **3**chambres avec salle de bain
 - **Jusqu’à 10**personnes (8 adultes)
-- **Skis aux pieds**chemin skieur à la porte
+- **À une minute des pistes**chemin skieur à la porte
 
 **Strictement casher.** Chalet cachérisé pour vous, chef ou plats livrés, tout ce qui est servi est 'Halav Yisrael.
 

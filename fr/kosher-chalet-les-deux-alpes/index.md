@@ -63,7 +63,7 @@ Les repas de Shabbat sont cuisinés au chalet par le chef ou livrés sur place. 
 
 Un minyan et un Sefer Torah dépendent des familles présentes cette semaine-là. Donnez-nous vos dates tôt et nous vous disons ce qui est possible.
 
-Strictement casher. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+Strictement casher. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany.
 
 Cette semaine
 
@@ -130,7 +130,7 @@ Combien de personnes peuvent loger ?
 
 Qui prépare les repas ?
 
-Un chef privé cuisine des repas casher au chalet, ou les repas sont livrés sur place. Notre équipe rend la cuisine casher pour votre séjour. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+Un chef privé cuisine des repas casher au chalet, ou les repas sont livrés sur place. Notre équipe rend la cuisine casher pour votre séjour. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany.
 
 Shabbat est-il organisé ?
 
@@ -142,7 +142,7 @@ Oui, sur demande : location de skis, traîneau à chiens, masseur ou pédicure a
 
 ## Un chalet rien que pour vous ? *Des chalets casher*
 
-[**Chalet Rochebrune · Les Deux Alpes**6 chambres · skis aux pieds](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · skis aux pieds](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 chambres avec salle d'eau · jacuzzi et sauna](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscine chauffée](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · bain nordique](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
+[**Chalet Rochebrune · Les Deux Alpes**6 chambres · à une minute des pistes](https://mishpachatours.com/fr/kosher-slope-chalet-les-deux-alpes/)[**Chalet Flocon Doré · Courchevel**5 suites · piscines chauffées](https://mishpachatours.com/fr/kosher-chalet-courchevel/)[**Chalet Loup Blanc · près de Megève**10 chambres twin · Mont Blanc](https://mishpachatours.com/fr/kosher-chalet-megeve/)[**Chalet Belle Étoile · Val Thorens**3 chambres en suite · à une minute des pistes](https://mishpachatours.com/fr/kosher-chalet-val-thorens/)[**Chalet Aigle Royal · Les Ménuires**7 chambres avec salle d'eau · jacuzzi et sauna](https://mishpachatours.com/fr/kosher-chalet-les-menuires/)[**Chalet Aurore Boréale · Courchevel**3 suites · piscine chauffée](https://mishpachatours.com/fr/kosher-chalet-courchevel-aurore-boreale/)[**Chalet Renard Argenté · Courchevel**2 suites · bain nordique](https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/)
 
 [Voir les chalets](https://mishpachatours.com/fr/kosher-chalets/)
 

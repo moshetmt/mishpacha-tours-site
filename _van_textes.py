@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Copies FR / ES / HE de la page /kosher-van-transfers/ (meme structure que _pages/kosher-van-transfers.py).
-Lexique : « שומר כשרות », jamais « למהדרין » ; jamais le mot Israel ; pas de tiret cadratin."""
+Lexique : « כשר למהדרין », jamais « למהדרין » ; jamais le mot Israel ; pas de tiret cadratin."""
 
 SVC = {"@context": "https://schema.org", "@type": "Service"}
 

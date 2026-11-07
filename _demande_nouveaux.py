@@ -27,7 +27,7 @@ NEW = {
 "A private chalet": ("Un chalet privé", "Un chalé privado", "צ'אלה פרטי"),
 "Apartments, same residence": ("Appartements, même résidence", "Apartamentos, misma residencia", "דירות באותו מתחם"),
 "Near the Beth Chabad or shul": ("Près du Beth Habad ou de la shul", "Cerca del Beth Chabad o la sinagoga", "קרוב לבית חב״ד או לבית הכנסת"),
-"Ski-in ski-out or near the slopes": ("Skis aux pieds ou près des pistes", "Acceso directo a pistas o cerca", "ישירות על המסלולים או קרוב אליהם"),
+"Ski-in ski-out or near the slopes": ("À une minute des pistes ou près des pistes", "Acceso directo a pistas o cerca", "ישירות על המסלולים או קרוב אליהם"),
 "Private chef in the chalet": ("Chef privé au chalet", "Chef privado en el chalé", "שף פרטי בצ'אלה"),
 "Breakfast and dinner": ("Petit-déjeuner et dîner", "Desayuno y cena", "ארוחת בוקר וערב"),
 "Groceries ready on arrival": ("Courses faites avant l'arrivée", "Compra hecha antes de llegar", "מצרכים במקרר לפני ההגעה"),
@@ -317,7 +317,7 @@ SHORT = {
 'Security escort (quoted)': (None, 'Escolta (presupuesto)', None),
 'Calm for small children': (None, 'Calma para los pequeños', None),
 'Flights included in this budget': (None, 'Vuelos incluidos', None),
-'Ski-in ski-out or near the slopes': ('Skis aux pieds ou près des pistes', 'Acceso directo a pistas o cerca', 'צמוד למסלולים'),
+'Ski-in ski-out or near the slopes': ('À une minute des pistes ou près des pistes', 'Acceso directo a pistas o cerca', 'צמוד למסלולים'),
 'Jewish Lyon walk (2 h)': ('Balade dans le quartier juif de Lyon (2 h)', 'Paseo por el Lyon judío (2 h)', 'סיור בליון (שעתיים)'),
 }
 for _k, _v in SHORT.items():

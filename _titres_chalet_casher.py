@@ -39,14 +39,14 @@ T = {
   "he": ("צ'אלה כשרה קינג דייוויד, לה דז אלפ: שף פרטי", "צ'אלה כשרה קינג דייוויד", 'לה דז אלפ, 300 מ"ר, שף פרטי')},
  "kosher-slope-chalet-les-deux-alpes": {
   "en": ("Kosher Chalet Rochebrune, Les Deux Alpes", "Kosher chalet Rochebrune", "Les Deux Alpes, skis on at the door"),
-  "fr": ("Chalet casher Rochebrune, Les Deux Alpes", "Chalet casher Rochebrune", "Les Deux Alpes, skis aux pieds"),
+  "fr": ("Chalet casher Rochebrune, Les Deux Alpes", "Chalet casher Rochebrune", "Les Deux Alpes, à une minute des pistes"),
   "es": ("Chalet kosher Rochebrune, Les Deux Alpes", "Chalet kosher Rochebrune", "Les Deux Alpes, esquís en la puerta"),
   "he": ("צ'אלה כשרה רושברון, לה דז אלפ: סקי מהדלת", "צ'אלה כשרה רושברון", "לה דז אלפ, סקי מהדלת")},
  "kosher-chalet-val-thorens": {
   "en": ("Kosher Chalet Belle Étoile, Val Thorens", "Kosher chalet Belle Étoile", "Val Thorens, ski in, ski out"),
-  "fr": ("Chalet casher Belle Étoile, Val Thorens", "Chalet casher Belle Étoile", "Val Thorens, skis aux pieds"),
+  "fr": ("Chalet casher Belle Étoile, Val Thorens", "Chalet casher Belle Étoile", "Val Thorens, à une minute des pistes"),
   "es": ("Chalet kosher Belle Étoile, Val Thorens", "Chalet kosher Belle Étoile", "Val Thorens, esquís en la puerta"),
-  "he": ("צ'אלה כשרה בל אטואל, ואל טורנס: סקי מהדלת", "צ'אלה כשרה בל אטואל", "ואל טורנס, סקי עד הדלת")},
+  "he": ("צ'אלה כשרה בל אטואל, ואל טורנס: סקי מהדלת", "צ'אלה כשרה בל אטואל", "ואל טורנס, דקה מהמסלולים")},
  "kosher-chalet-les-menuires": {
   "en": ("Kosher Chalet Aigle Royal, Les Ménuires", "Kosher chalet Aigle Royal", "Les Ménuires, seven suites, spa"),
   "fr": ("Chalet casher Aigle Royal, Les Ménuires", "Chalet casher Aigle Royal", "Les Ménuires, sept suites, spa"),

@@ -130,7 +130,7 @@ OLD = {'1 (10 months)': ('1 (10 mois)', '1 (10 meses)', '1 (בן 10 חודשים
  'Ski levels in the group': ('Niveaux de ski dans le groupe', 'Niveles de esquí en el grupo', 'רמות הסקי בקבוצה'),
  'Ski passes': ('Forfaits de ski', 'Forfaits de esquí', 'כרטיסי סקי'),
  'Ski school for children': ('École de ski pour les enfants', 'Escuela de esquí para niños', 'בית ספר לסקי לילדים'),
- 'Ski-in ski-out or very close to the slopes': ('Skis aux pieds ou très près des pistes', 'Con acceso directo a las pistas o muy cerca', 'ישירות על המסלולים או קרוב מאוד אליהם'),
+ 'Ski-in ski-out or very close to the slopes': ('À une minute des pistes ou très près des pistes', 'Con acceso directo a las pistas o muy cerca', 'ישירות על המסלולים או קרוב מאוד אליהם'),
  'Snowshoeing, sledging, dog sledding': ('Raquettes, luge, chiens de traîneau', 'Raquetas de nieve, trineo, trineo de perros', 'נעלי שלג, מזחלות, מזחלות כלבים'),
  'Someone in the group with reduced mobility': ('Une personne à mobilité réduite dans le groupe', 'Alguien con movilidad reducida en el grupo', 'יש בקבוצה מי שהניידות שלו מוגבלת'),
  'Something else': ('Autre chose', 'Otra cosa', 'משהו אחר'),

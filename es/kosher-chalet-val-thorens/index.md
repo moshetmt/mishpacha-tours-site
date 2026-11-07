@@ -35,9 +35,9 @@ El chalet acoge hasta 10 personas, 8 adultos como máximo. La disponibilidad se 
 
 ## Shabat *en el chalé*
 
-El chef prepara en el chalé las comidas de Shabat y de las fiestas, o las comidas llegan antes del encendido de velas. La mesa del comedor tiene capacidad para diez. Para un minyan, llevamos los bochurim y un Sefer Torá: con los hombres de su grupo, Shajarit se celebra en su salón.
+El chef prepara en el chalé sus comidas de la semana, de Shabat y de las fiestas, o sus comidas llegan ya preparadas; para Shabat, antes del encendido de las velas. La mesa del comedor tiene capacidad para diez. Para un minyan, llevamos los bochurim y un Sefer Torá: con los hombres de su grupo, Shajarit se celebra en su salón.
 
-Estrictamente kosher, todo lo que se sirve es Chalav Yisrael. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+Estrictamente kosher, todo lo que se sirve es Chalav Yisrael. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado y cocina kasherizada](https://mishpachatours.com/es/kosher-pesach-french-alps/).
 
@@ -100,7 +100,7 @@ Desde 9.500 € por semana el chalé. El precio final depende de sus fechas, del
 
 Hasta 10 personas, 8 adultos como máximo, en tres habitaciones con baño: una familia numerosa, o dos familias con niños.
 
-¿Es realmente esquí a pie de puerta?
+¿Está realmente a un minuto de las pistas?
 
 Una pista de esquí empieza frente a la puerta. Los buenos esquiadores vuelven al chalé con los esquís puestos; para los demás, los últimos 100 metros son a pie.
 

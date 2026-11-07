@@ -167,7 +167,7 @@ Disponibilidad confirmada para sus fechas en cada solicitud.
 - **Un minyan y un Sefer Torá.** Cuando varias familias coinciden en la misma estación, el equipo las reúne para un minyan y lleva un Sefer Torá, en invierno y en verano. Dé sus fechas con antelación.
 - **Una estancia a medida, de la A a la Z.** Chalet, chef o comidas entregadas, traslados, Shabat, las fiestas, un minián: una solicitud, un presupuesto. Las familias y los grupos del extranjero son nuestro núcleo; si es un grupo muy pequeño que solo quiere una entrega, dígalo y le diremos qué es factible.
 
-Estrictamente kosher. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes; los detalles de la supervisión se entregan por escrito con el presupuesto. Shomer Shabat: no se entrega nada en Shabat ni en una fiesta, todo queda listo antes del encendido de las velas. Detalle completo: [servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/).
+Estrictamente kosher. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes; la cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Servicio shomer Shabat: no se entrega nada en Shabat ni en una fiesta, todo queda listo antes del encendido de las velas. Detalle completo: [servicios kosher en los Alpes](https://mishpachatours.com/es/kosher-services-french-alps/).
 
 ## Cómo *funciona*
 
@@ -261,7 +261,7 @@ Courchevel 1850 y Megève tienen una casa Chabad en invierno. En las demás, el 
 
 ¿La comida es estrictamente kosher?
 
-Sí. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+Sí. Nuestro equipo en los Alpes cocina bajo la red Chabad de los Alpes. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ¿Con cuánta antelación hay que pedirlo?
 

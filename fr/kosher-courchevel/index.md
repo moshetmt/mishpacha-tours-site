@@ -82,7 +82,7 @@ Disponibilité confirmée pour vos dates à chaque demande.
 - **Un minyan et un Sefer Torah.** Nous ajoutons un minyan et un Sefer Torah pour vos dates quand les familles présentes le souhaitent.
 - **Un séjour sur mesure, de A à Z.** Chalet, chef ou repas livrés, transferts, Shabbat, les fêtes, un minyan : une demande, un devis. Les familles et les groupes venus de l’étranger sont notre cœur de cible ; pour un très petit groupe qui ne veut qu’une livraison, dites-le et nous vous dirons ce qui est faisable.
 
-Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+Strictement casher. Notre équipe cuisine sous l’autorité du réseau Chabad des Alpes ; la cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany.
 
 Nous organisons aussi Pessah : [Pessah dans les Alpes, chalet privé et cuisine cachérisée](https://mishpachatours.com/fr/kosher-pesach-french-alps/).
 
@@ -170,7 +170,7 @@ Dites-nous quelle fête tombe pendant votre semaine. Nous organisons les repas e
 
 La nourriture est-elle strictement casher, et qui la surveille ?
 
-Oui. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. Le détail de la surveillance rabbinique vous est remis par écrit avec le devis.
+Oui. Notre équipe dans les Alpes cuisine sous l’autorité du réseau Chabad des Alpes. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany.
 
 ## Courchevel : votre semaine, *organisée*.
 

@@ -1,0 +1,8 @@
+Salut Mendel, voici le texte de la page chalet privé casher du site. Ce qu'elle affirme :
+- chalet privé, cuisine cachérisée avant l'arrivée, chef privé ;
+- tous les repas de la semaine et de Chabbat, au chalet ou livrés ;
+- prix par chalet et par semaine à partir de 9 500 € (Belle Étoile) et à partir de 23 500 € (Loup Blanc) ;
+- chalet sans repas et cachérisation d'une cuisine louée ailleurs, sur demande ;
+- minyan et Sefer Torah quand plusieurs familles sont dans la station.
+Questions : 1) Le prix du chalet comprend-il le chef et les repas (A : oui, B : le chef s'ajoute à 1 568 € par jour) ? 2) Hallot, vin et bougies du vendredi fournis avec le chalet (oui/non) ? 3) Ménage de fin de séjour compris (oui/non) ? 4) Chalet sans repas possible dans chaque chalet (oui/non) ? La page (brouillon, pas en ligne) : https://mishpacha-tours-site-git-lot4-contenu-moshe-8030s-projects.vercel.app/fr/private-kosher-chalet-alps/
+Réponds par audio si c'est plus simple.
