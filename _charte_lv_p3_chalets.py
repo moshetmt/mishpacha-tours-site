@@ -137,7 +137,7 @@ def transforme(src, slug):
     hero = d.find("section", class_="hero")
     fil = hero.select_one(".lead-fil")
     nomlieu = fil.get_text(" ", strip=True).split(" / ")[-1]
-    nom, _, lieu = nomlieu.rpartition(",")
+    nom, _, lieu = nomlieu.partition(",")   # 11/11 : premier trait (le lieu des Houches contient une virgule : « Les Houches, vallée de Chamonix »)
     nom, lieu = nom.strip(), lieu.strip()
     h1html = inner(hero.find("h1"))
     hero_img = hero.find("img", attrs={"fetchpriority": True}) or hero.select("img")[-1]

@@ -1,4 +1,4 @@
-> Des chalets strictement casher dans les Alpes, aux Deux Alpes, à Courchevel, près de Megève et à Val Thorens : chef privé, Chabbat et minyan au chalet. Une demande, un devis écrit.
+> Chalets casher dans les Alpes : Deux Alpes, Courchevel, Val Thorens, Saint-Gervais Mont-Blanc, Les Houches. Chef privé, Chabbat, minyan, un devis.
 
 Source: https://mishpachatours.com/fr/kosher-chalets/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -191,7 +191,7 @@ Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet pr
 
 Quel chalet choisir ?
 
-Aux Deux Alpes, le Chalet King David compte 6 chambres plus une chambre bébé, à deux minutes des pistes, et le Chalet Rochebrune compte 6 chambres et 13 lits, à une minute des pistes ; les deux sont à cinq minutes l'un de l'autre, pour quatre familles. Courchevel compte 5 chambres en suite, des piscines chauffées et une navette privée, dans Les 3 Vallées. Val Thorens compte 3 chambres avec salle de bain pour 10 personnes au plus, avec un chemin skieur à la porte, dans Les 3 Vallées aussi.
+Aux Deux Alpes, le Chalet King David compte 6 chambres plus une chambre bébé, à deux minutes des pistes, et le Chalet Rochebrune compte 6 chambres et 13 lits, à une minute des pistes ; les deux sont à cinq minutes l'un de l'autre, pour quatre familles. Courchevel compte 5 chambres en suite, des piscines chauffées et une navette privée, dans Les 3 Vallées. Val Thorens compte 3 chambres avec salle de bain pour 10 personnes au plus, avec un chemin skieur à la porte, dans Les 3 Vallées aussi. Le Chalet Neige Éternelle aux Deux Alpes, le Chalet Crystal à Saint-Gervais Mont-Blanc et le Chalet Althéa aux Houches, dans la vallée de Chamonix, ont chacun une piscine intérieure chauffée.
 
 Combien coûte un chalet ?
 
@@ -203,7 +203,7 @@ La disponibilité est confirmée à chaque demande. Envoyez vos dates, nous vér
 
 Tout est-il strictement casher ?
 
-Oui. La cuisine est cachérisée par notre équipe et tout ce qui est servi est Chalav Yisrael. Les détails de la surveillance figurent par écrit dans votre devis.
+Oui. La cuisine est cachérisée par notre équipe et tout ce qui est servi est Chalav Yisrael. La cuisine est certifiée cacher par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahiany.
 
 Pouvons-nous avoir un minyan ?
 
