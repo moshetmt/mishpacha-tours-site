@@ -189,6 +189,18 @@ T["he"]["tg"] = dict(lieu="טין", t=f"צ'אלה {_TG_HE}, טין", alt=f"צ'א
                      s=[("9", "סוויטות"), ("עד 21", "אורחים"), ("2 ג'קוזי", "חיצוניים"), ("דקה", "מהמסלולים")], k=_K["he"])
 CHALETS["tg"] = dict(img=f"/img/chalet/{_TGP}-chalets-neige.jpg", w=1440, h=960, pictos=["lit", "gens", "eau", "pistes"], lien="/kosher-chalet-tignes/",
                      q="?i=a&amp;lieu=Tignes&amp;voyage=Ski%20holiday%20with%20a%20chalet")
+# 11/11 : deux chalets neufs, prix « Sur demande » (lignes ch12 et ch13 vides de la grille), noms : _chalets_1111_noms.py
+from _chalets_1111_noms import CH as _C11
+from _chalets_1111_textes import T as _T11
+for _k in ("a", "b"):
+    _c = _C11[_k]
+    for _l in ("en", "fr", "es", "he"):
+        _d = _T11[_k][_l]["carte"]
+        T[_l][_c["cle"]] = dict(lieu=_d["lieu"], t=_d["t"], alt=_d["alt"], s=_d["s"], k=_K[_l])
+    CHALETS[_c["cle"]] = dict(img=f"/img/chalet/{_c['prefixe']}-exterieur.jpg", w=1360 if _k == "a" else 1600, h=1020 if _k == "a" else 1200,
+                              pictos=["lit", "gens", "eau", "maison"] if _k == "a" else ["lit", "gens", "eau", "pistes"], lien=f"/{_c['slug']}/",
+                              q=f"?i=a&amp;lieu={_c['lieu_q']}&amp;voyage=Ski%20holiday%20with%20a%20chalet")
+
 MARQUE = {"wp": dict(nom="Winter Prestige", or_="/img/wp-flocon-or.svg", noir="/img/wp-flocon-noir.svg"),
           "sp": dict(nom="Summer Prestige", or_="/img/sp-symbole-or.svg", noir="/img/sp-symbole-noir.svg")}
 def marque(cle): return MARQUE[CHALETS[cle].get("marque", "wp")]

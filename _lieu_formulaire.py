@@ -17,7 +17,7 @@ STATION = {
     "kosher-chalet-courchevel": "Courchevel", "kosher-chalet-courchevel-aurore-boreale": "Courchevel",
     "kosher-chalet-courchevel-renard-argente": "Courchevel", "kosher-chalet-megeve": "Megève",
     "kosher-chalet-val-thorens": "Val Thorens", "kosher-chalet-les-menuires": "Les Ménuires",
-    "kosher-chalet-tignes": "Tignes", "kosher-villa-saint-tropez": "Saint-Tropez",
+    "kosher-chalet-tignes": "Tignes", "kosher-chalet-saint-gervais": "Saint-Gervais Mont-Blanc", "kosher-chalet-courchevel-1850": "Courchevel", "kosher-villa-saint-tropez": "Saint-Tropez",
 }
 CHAMP = re.compile(r'(<input type="hidden" name="lieu" value=")([^"]*)(")')
 
