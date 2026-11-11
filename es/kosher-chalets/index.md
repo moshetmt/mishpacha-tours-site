@@ -1,4 +1,4 @@
-> Nuestros chalés kosher en los Alpes, en Les Deux Alpes, Courchevel, cerca de Megève y en Val Thorens: chef privado, Shabat y minyan en el chalé. Una solicitud, un presupuesto por escrito.
+> Chalés kosher en los Alpes: Les Deux Alpes, Courchevel, Val Thorens, Saint-Gervais Mont-Blanc, Les Houches. Chef privado, Shabat, minyán, un presupuesto.
 
 Source: https://mishpachatours.com/es/kosher-chalets/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -191,7 +191,7 @@ Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado
 
 ¿Qué chalé elegir?
 
-En Les Deux Alpes, el Chalet King David tiene 6 habitaciones más una habitación infantil, a dos minutos de las pistas, y el Chalet Rochebrune tiene 6 habitaciones y 13 camas, con los esquís puestos en la puerta; los dos están a cinco minutos uno del otro, para cuatro familias. Courchevel tiene 5 habitaciones con baño, piscinas climatizadas y una lanzadera privada, en Les 3 Vallées. Val Thorens tiene 3 habitaciones con baño para hasta 10 personas, con una pista de esquí en la puerta, también en Les 3 Vallées.
+En Les Deux Alpes, el Chalet King David tiene 6 habitaciones más una habitación infantil, a dos minutos de las pistas, y el Chalet Rochebrune tiene 6 habitaciones y 13 camas, con los esquís puestos en la puerta; los dos están a cinco minutos uno del otro, para cuatro familias. Courchevel tiene 5 habitaciones con baño, piscinas climatizadas y una lanzadera privada, en Les 3 Vallées. Val Thorens tiene 3 habitaciones con baño para hasta 10 personas, con una pista de esquí en la puerta, también en Les 3 Vallées. El Chalet Neige Éternelle en Les Deux Alpes, el Chalet Crystal en Saint-Gervais Mont-Blanc y el Chalet Althéa en Les Houches, en el valle de Chamonix, tienen cada uno una piscina interior climatizada.
 
 ¿Cuánto cuesta un chalé?
 
@@ -203,7 +203,7 @@ La disponibilidad se confirma con cada solicitud. Envíenos sus fechas y lo comp
 
 ¿Todo es estrictamente kosher?
 
-Sí. Nuestro equipo prepara la cocina como kosher y todo lo que se sirve es Chalav Yisrael. Los detalles de la supervisión se entregan por escrito con el presupuesto.
+Sí. Nuestro equipo prepara la cocina como kosher y todo lo que se sirve es Chalav Yisrael. La cocina está certificada kosher por el Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 ¿Podemos tener un minyan?
 
