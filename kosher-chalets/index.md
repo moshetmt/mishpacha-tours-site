@@ -1,10 +1,10 @@
-> Our kosher chalets in the Alps, in Les Deux Alpes, Courchevel, Megève and Val Thorens: a private chef, Shabbat and a minyan in the chalet. One request, one written quote.
+> Kosher chalets in the Alps: Les Deux Alpes, Courchevel, Val Thorens, Saint-Gervais Mont-Blanc, Les Houches. Private chef, Shabbat, minyan, one quote.
 
 Source: https://mishpachatours.com/kosher-chalets/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
 [Home](https://mishpachatours.com/) / [The Alps, strictly kosher](https://mishpachatours.com/alps/) / Our kosher chalets
 
-# Our kosher chalets *in Les Deux Alpes, Courchevel, Megève, Val Thorens and Les Ménuires*
+# Our kosher chalets *in Les Deux Alpes, Courchevel, Megève, Saint-Gervais Mont-Blanc, Les Houches, Val Thorens and Les Ménuires*
 
 Our chalets, everything kosher taken care of: Les Deux Alpes, Courchevel and near Megève.
 
@@ -191,7 +191,7 @@ For Pesach, we prepare the chalet too: [Pesach in the Alps, private chalet and k
 
 Which chalet should we choose?
 
-In Les Deux Alpes, Chalet King David has 6 bedrooms plus a nursery, two minutes from the slopes, and Chalet Rochebrune has 6 bedrooms and 13 beds with the skis on at the door; the two are five minutes apart, for four families. Courchevel has 5 en-suite bedrooms, heated pools and a private shuttle, in the 3 Valleys. Val Thorens has 3 en-suite bedrooms for up to 10 guests, with a ski path at the door, also in the 3 Valleys.
+In Les Deux Alpes, Chalet King David has 6 bedrooms plus a nursery, two minutes from the slopes, and Chalet Rochebrune has 6 bedrooms and 13 beds with the skis on at the door; the two are five minutes apart, for four families. Courchevel has 5 en-suite bedrooms, heated pools and a private shuttle, in the 3 Valleys. Val Thorens has 3 en-suite bedrooms for up to 10 guests, with a ski path at the door, also in the 3 Valleys. Chalet Neige Éternelle in Les Deux Alpes, Chalet Crystal in Saint-Gervais Mont-Blanc and Chalet Althéa in Les Houches, in the Chamonix Valley, each have a heated indoor pool.
 
 How much does a chalet cost?
 
@@ -203,7 +203,7 @@ Availability is confirmed with each request. Send your dates and we check the sa
 
 Is everything strictly kosher?
 
-Yes. The kitchen is kashered by our team and everything served is Chalav Yisrael. The supervision details come in writing with your quote.
+Yes. The kitchen is kashered by our team and everything served is Chalav Yisrael. The kitchen is certified kosher by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany.
 
 Can we have a minyan?
 

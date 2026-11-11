@@ -89,6 +89,10 @@ WP_TEXTES = {
     "kosher-chalet-megeve": ("KOSHER CHALET · MEGÈVE", "Loup Blanc"),
     "kosher-chalet-val-thorens": ("KOSHER CHALET · VAL THORENS", "Belle Étoile"),
     "kosher-chalet-tignes": ("KOSHER CHALET · TIGNES", "Étoile Polaire"),
+    "kosher-chalet-saint-gervais": ("KOSHER CHALET · SAINT‑GERVAIS MONT‑BLANC", __import__("_chalets_1111_noms").CH["a"]["nom"]),   # nom : _chalets_1111_noms.py
+    "kosher-chalet-courchevel-1850": ("KOSHER CHALET · COURCHEVEL 1850", __import__("_chalets_1111_noms").CH["b"]["nom"]),
+    "kosher-chalet-chamonix-les-houches": ("KOSHER CHALET · LES HOUCHES", __import__("_chalets_1111_noms").CH["c"]["nom"]),
+    "kosher-pool-chalet-les-deux-alpes": ("KOSHER CHALET · LES DEUX ALPES", __import__("_chalets_1111_noms").CH["d"]["nom"]),
     "kosher-chalets": ("THE ALPS", "Our kosher<br>chalets"),
     "kosher-chamonix": ("KOSHER SKI · MONT BLANC", "Chamonix"),
     "kosher-cortina": ("KOSHER SKI · DOLOMITES", "Cortina d'Ampezzo"),
