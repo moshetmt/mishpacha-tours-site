@@ -25,7 +25,7 @@ ZONES = {   # ordre d'affichage ; stations : (slug station, nom par langue)
     "da": dict(nom={"en": "Les Deux Alpes", "fr": "Les Deux Alpes", "es": "Les Deux Alpes", "he": "לה דז אלפ"},
                stations=[("kosher-les-deux-alpes", {"en": "Les Deux Alpes", "fr": "Les Deux Alpes", "es": "Les Deux Alpes", "he": "לה דז אלפ"}),
                          ("kosher-alpe-dhuez", {"en": "Alpe d'Huez", "fr": "Alpe d'Huez", "es": "Alpe d'Huez", "he": "אלפ ד'הואז"})]),
-    "me": dict(nom={"en": "Megève", "fr": "Megève", "es": "Megève", "he": "מג'ב"},
+    "me": dict(nom={"en": "Mont-Blanc", "fr": "Mont-Blanc", "es": "Mont-Blanc", "he": "מון בלאן"},   # 11/11 : « Mont-Blanc » (Megève, Saint-Gervais, Les Houches), ex « Megève »
                stations=[("kosher-megeve", {"en": "Megève", "fr": "Megève", "es": "Megève", "he": "מג'ב"}),
                          ("kosher-chamonix", {"en": "Chamonix", "fr": "Chamonix", "es": "Chamonix", "he": "שמוני"})]),
     "ti": dict(nom={"en": "Tignes, Val d'Isère", "fr": "Tignes, Val d'Isère", "es": "Tignes, Val d'Isère", "he": "טין, ואל ד'יזר"},
@@ -36,7 +36,7 @@ def zone_du_chalet(href):
     s = href.strip("/").split("/")[-1]
     if "tignes" in s: return "ti"
     if "deux-alpes" in s: return "da"
-    if "megeve" in s: return "me"
+    if "megeve" in s or "saint-gervais" in s or "les-houches" in s: return "me"
     if "courchevel" in s or "val-thorens" in s or "menuires" in s: return "3v"
     return None
 

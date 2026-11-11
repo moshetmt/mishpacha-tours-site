@@ -170,6 +170,66 @@ CHALETS["kosher-chalet-tignes"] = dict(
             ("sdb", "sdb-eau", [f"{_P}-salle-de-bain"]),
             ("jacuzzi", "jacuzzi", [f"{_P}-jacuzzi"]),
             ("ext-vues", "ext-vues", [f"{_P}-chalets-neige", f"{_P}-exterieur-neige", f"{_P}-vue-aerienne", f"{_P}-terrasse-nuit"])])
+# 11/11 : deux chalets neufs (Saint-Gervais Mont-Blanc, Courchevel 1850), photos réelles (_chalets_1111_photos.py), pages posées par _chalets_1111.py ;
+# noms : _chalets_1111_noms.py (provisoires)
+from _chalets_1111_noms import CH as _C11
+PIECE["spa"] = dict(en="Spa", fr="Spa", es="Spa", he="ספא")
+PIECE["lounge"] = dict(en="Relaxation area", fr="Espace détente", es="Zona de relax", he="אזור מנוחה")
+PIECE["dortoir"] = dict(en="Children's dormitory", fr="Dortoir", es="Dormitorio colectivo", he="חדר ילדים")
+PIECE["ski"] = dict(en="Ski room", fr="Local à skis", es="Guardaesquís", he="חדר סקי")
+PIECE["cinema"] = dict(en="Cinema room", fr="Salle de cinéma", es="Sala de cine", he="חדר קולנוע")
+PIECE["sport"] = dict(en="Gym", fr="Salle de sport", es="Gimnasio", he="חדר כושר")
+PIECE["piscine"] = dict(en="Pool", fr="Piscine", es="Piscina", he="בריכה")
+_a, _b = _C11["a"], _C11["b"]
+CHALETS[_a["slug"]] = dict(
+    hero=f"{_a['prefixe']}-exterieur",
+    nom=t(f"Chalet {_a['nom']}", f"Le Chalet {_a['nom']}", f"El Chalet {_a['nom']}", f"צ'אלה {_a['nom_he']}"),
+    pieces=[("salle-cuisine", "salle-cuisine", [f"{_a['prefixe']}-salle-a-manger", f"{_a['prefixe']}-salle-a-manger-vue"]),
+            ("salon", "salon", [f"{_a['prefixe']}-salon"]),
+            ("cuisine", "cuisine", [f"{_a['prefixe']}-cuisine-blanche"]),
+            ("lounge", "lounge", [f"{_a['prefixe']}-piscine"]),
+            ("chambres", "chambres", [f"{_a['prefixe']}-chambre-1", f"{_a['prefixe']}-chambre-2", f"{_a['prefixe']}-chambre-3", f"{_a['prefixe']}-dortoir"]),
+            ("sdb", "sdb", [f"{_a['prefixe']}-salle-de-bain"]),
+            ("ext-vues", "ext-vues", [f"{_a['prefixe']}-exterieur", f"{_a['prefixe']}-hiver", f"{_a['prefixe']}-terrasse"])])
+CHALETS[_b["slug"]] = dict(
+    hero=f"{_b['prefixe']}-exterieur",
+    nom=t(f"Chalet {_b['nom']}", f"Le Chalet {_b['nom']}", f"El Chalet {_b['nom']}", f"צ'אלה {_b['nom_he']}"),
+    pieces=[("spa", "spa", [f"{_b['prefixe']}-jacuzzi", f"{_b['prefixe']}-jacuzzi-cascade", f"{_b['prefixe']}-detente"]),
+            ("cuisine", "cuisine", [f"{_b['prefixe']}-cuisine"]),
+            ("chambres", "chambres", [f"{_b['prefixe']}-chambre-1", f"{_b['prefixe']}-chambre-2", f"{_b['prefixe']}-chambre-3", f"{_b['prefixe']}-chambre-4"]),
+            ("sdb", "sdb", [f"{_b['prefixe']}-salle-de-bain"]),
+            ("ext-vues", "ext-vues", [f"{_b['prefixe']}-exterieur"])])
+
+
+# 11/11 (2e passage) : chalets C (Les Houches) et D (Les Deux Alpes), photos de _chalets_1111_photos.py ; ordre du rail = ordre de la liste (héros en tête)
+_c, _d = _C11["c"], _C11["d"]
+_pc, _pd = _c["prefixe"], _d["prefixe"]
+CHALETS[_c["slug"]] = dict(
+    hero=f"{_pc}-exterieur",
+    nom=t(f"Chalet {_c['nom']}", f"Le Chalet {_c['nom']}", f"El Chalet {_c['nom']}", f"צ'אלה {_c['nom_he']}"),
+    pieces=[("salon", "salon", [f"{_pc}-salon", f"{_pc}-salon-cheminee"]),
+            ("cuisine", "cuisine", [f"{_pc}-cuisine"]),
+            ("chambres", "chambres", [f"{_pc}-suite", f"{_pc}-chambre-ours"]),
+            ("spa", "spa", [f"{_pc}-piscine", f"{_pc}-bain-nordique"]),
+            ("sdb", "sdb", [f"{_pc}-salle-de-bain"]),
+            ("dortoir", "dortoir", [f"{_pc}-dortoir"]),
+            ("ski", "ski", [f"{_pc}-local-a-ski"]),
+            ("ext-vues", "ext-vues", [f"{_pc}-exterieur", f"{_pc}-facade-nuit"]),
+            ("salon-2", "salon", [f"{_pc}-salon-canapes"])])
+CHALETS[_d["slug"]] = dict(
+    hero=f"{_pd}-exterieur",
+    nom=t(f"Chalet {_d['nom']}", f"Le Chalet {_d['nom']}", f"El Chalet {_d['nom']}", f"צ'אלה {_d['nom_he']}"),
+    pieces=[("salle", "salle", [f"{_pd}-salle-a-manger", f"{_pd}-salle-a-manger-vue"]),
+            ("salon", "salon", [f"{_pd}-salon"]),
+            ("cuisine", "cuisine", [f"{_pd}-cuisine"]),
+            ("chambres", "chambres", [f"{_pd}-chambre-1", f"{_pd}-chambre-2", f"{_pd}-chambre-3", f"{_pd}-dortoir"]),
+            ("piscine", "piscine", [f"{_pd}-piscine", f"{_pd}-piscine-vue"]),
+            ("sdb", "sdb", [f"{_pd}-salle-de-bain", f"{_pd}-salle-de-bain-2"]),
+            ("cinema", "cinema", [f"{_pd}-cinema"]),
+            ("sport", "sport", [f"{_pd}-sport"]),
+            ("ski", "ski", [f"{_pd}-local-a-ski"]),
+            ("ext-vues", "ext-vues", [f"{_pd}-exterieur"])])
+
 
 SVG_X = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>'
 SVG_BACK = '<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M20 12H5M11 5l-7 7 7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>'
