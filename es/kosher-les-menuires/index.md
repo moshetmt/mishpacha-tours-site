@@ -14,7 +14,7 @@ Esquíe en Les Ménuires de día. Vuelva a la mesa servida, un minyan y el Shaba
 
 **Chef privado o comidas a domicilio**La cocina queda kosherizada y cada comida de la semana está resuelta.
 
-**Shabat y fiestas, todo listo**Jalot, vino, velas y un minyan con Sefer Torá bajo pedido.
+**Shabat y fiestas, todo listo**Jalot y vino, y un minyan con Sefer Torá bajo pedido.
 
 **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 

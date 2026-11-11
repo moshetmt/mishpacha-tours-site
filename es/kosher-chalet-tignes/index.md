@@ -26,7 +26,7 @@ Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 Dos chalets contiguos que se comunican por dentro, alquilados enteros o por mitad: nueve suites, cada una con su ducha, hasta 21 personas. Las pistas están a un minuto a pie. Un jacuzzi exterior frente a las cumbres, dos salones con chimenea. Chef privado, Shabat y minyán, organizados para usted.
 
 - **Chef privado o comidas a domicilio**La cocina queda kosherizada y cada comida de la semana está resuelta.
-- **Shabat y fiestas, todo listo**Jalot, vino, velas y un minyan con Sefer Torá bajo pedido.
+- **Shabat y fiestas, todo listo**Jalot y vino, y un minyan con Sefer Torá bajo pedido.
 - **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 
 ## El chalé, en resumen

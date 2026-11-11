@@ -25,10 +25,10 @@ Les repas sont un service communautaire du Beth Habad de Grenoble Alpes, qui les
 ## Ce que vous *recevez*
 
 * **Des repas chauds, livrés.** Les repas sont livrés à votre appartement, chalet ou hôtel pour la semaine. La formule complète, matin, midi et soir, démarre à partir de 78 € par personne et par jour.
-* **Le soir seul.** Entrée, plat et dessert, à partir de 28 € par personne et par jour. Les enfants jusqu'à 5 ans paient environ 30 % de moins.
+* **Le soir seul.** Entrée, plat et dessert, à partir de 28 € par personne et par jour. Les enfants jusqu'à 5 ans paient 50 % de moins ; à partir de 6 ans, plein tarif.
 * **Une livraison tous les deux jours.** Les livraisons ont lieu tous les deux jours. Chaque livraison coûte de 180 à 360 € selon la station, partagée quand plusieurs groupes sont dans la même station la même semaine.
-* **Les repas de Chabbat.** Dîner du vendredi soir 45 €, déjeuner du samedi 40 €, seouda chlichit 30 €, par personne. Hallot et vin livrés le vendredi, bougies fournies. Une plata ou un koumkoum sont en vente.
-* **Les fêtes.** Bougies et allumage de Hanouka, lecture de la Méguila et repas de Pourim, Pessah sur demande. Dites-nous quelle fête tombe pendant votre semaine.
+* **Les repas de Chabbat.** Dîner du vendredi soir 45 €, déjeuner du samedi 40 €, seouda chlichit 30 € (en option), par personne. Hallot et vin livrés le vendredi et compris. Les bougies de Chabbat ne sont pas comprises. Une plata ou un koumkoum sont en vente.
+* **Les fêtes.** Bougies et allumage de Hanouka, repas de Pourim, Pessah sur demande. La lecture de la Méguila se fait sur demande spéciale, avec une participation aux frais. Dites-nous quelle fête tombe pendant votre semaine.
 * **Une soirée pizza pour les groupes.** Une soirée pizza avec un pizzaiolo est possible pour les groupes, sur demande. Dites-nous la taille de votre groupe et votre station, nous vous disons ce qui est possible.
 
 ## Comment *ça marche*
@@ -47,7 +47,7 @@ Les repas sont un service communautaire du Beth Habad de Grenoble Alpes, qui les
 
    ### Commandez avant mercredi soir
 
-   La commande se prend au plus tard le mercredi soir, avec paiement complet à la commande. Les repas arrivent ensuite tous les deux jours.
+   La commande se prend au plus tard le mercredi soir qui précède le Chabbat concerné, avec paiement complet à la commande. Les repas arrivent ensuite tous les deux jours.
 
 [Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20souhaite%20des%20repas%20casher%20livr%C3%A9s%20dans%20les%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
@@ -55,7 +55,7 @@ Les repas sont un service communautaire du Beth Habad de Grenoble Alpes, qui les
 
 Combien coûtent les repas ?
 
-Par personne et par jour : formule complète (matin, midi, soir) à partir de 78 €, soir seul (entrée, plat, dessert) à partir de 28 €. Prix de départ selon station et saison. Enfants jusqu'à 5 ans : environ 30 % de moins.
+Par personne et par jour : formule complète (matin, midi, soir) à partir de 78 €, soir seul (entrée, plat, dessert) à partir de 28 €. Prix de départ selon station et saison. Enfants jusqu'à 5 ans : 50 % de moins ; à partir de 6 ans, plein tarif.
 
 Comment fonctionne la livraison ?
 
@@ -63,7 +63,7 @@ Les repas sont livrés tous les deux jours. Chaque livraison coûte de 180 à 36
 
 Peut-on commander pour Chabbat ?
 
-Oui. Le dîner du vendredi soir est à 45 €, le déjeuner du samedi à 40 € et la seouda chlichit à 30 €, par personne. Hallot et vin sont livrés le vendredi. Nous vous indiquons aussi le minyan le plus proche pour vos dates.
+Oui. Le dîner du vendredi soir est à 45 €, le déjeuner du samedi à 40 € et la seouda chlichit à 30 € (en option), par personne, au même prix dans toutes les stations. Hallot et vin sont livrés le vendredi et compris ; les bougies ne le sont pas. Commandez au plus tard le mercredi soir qui précède le Chabbat. La livraison à Courchevel et à Megève est confirmée : son coût s'ajoute au prix des repas et se partage quand plusieurs familles commandent dans la même station. Une personne seule commande le Chabbat complet, dîner du vendredi et déjeuner du samedi. Nous vous indiquons aussi le minyan le plus proche pour vos dates.
 
 Qui certifie le casher ?
 
@@ -71,7 +71,7 @@ Cacher lamehadrin, certifié par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahi
 
 Quand faut-il commander ?
 
-La commande se prend au plus tard le mercredi soir, avec paiement complet à la commande. Envoyez-nous vos dates tôt et nous confirmons ce qui est possible dans votre station.
+La commande se prend au plus tard le mercredi soir qui précède le Chabbat concerné, avec paiement complet à la commande. Envoyez-nous vos dates tôt et nous confirmons ce qui est possible dans votre station.
 
 Servez-vous les groupes ?
 

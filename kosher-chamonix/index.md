@@ -14,7 +14,7 @@ Ski Chamonix by day. Come back to a set table, a minyan, and Shabbat ready.
 
 **A private chef, or meals delivered**The kitchen is kashered, every meal of the week is taken care of.
 
-**Shabbat and the holidays, ready**Challot, wine, candles, and a minyan with a Sefer Torah on request.
+**Shabbat and the holidays, ready**Challot and wine, and a minyan with a Sefer Torah on request.
 
 **One written quote, the same day**Your resort, your dates, your group. One contact from start to finish.
 

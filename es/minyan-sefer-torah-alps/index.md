@@ -1,4 +1,4 @@
-> Reunimos a las familias de su estación para un minyan y llevamos un Sefer Torá, en invierno y en verano. Denos sus fechas con tiempo.
+> Un minyan y un Sefer Torá bajo petición en su estación, en invierno y en verano. El Sefer Torá solo se lleva si el minyan está asegurado. Dénos sus fechas con tiempo.
 
 Source: https://mishpachatours.com/es/minyan-sefer-torah-alps/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -8,26 +8,26 @@ Source: https://mishpachatours.com/es/minyan-sefer-torah-alps/ (HTML version). E
 
 [Inicio](/es/) / [Servicios kosher en los Alpes](/es/kosher-services-french-alps/) / Un minyan y un Sefer Torá
 
-Reunimos a las familias presentes en su estación y llevamos un Sefer Torá.
+Bajo petición, reunimos a las familias de su estación; el Sefer Torá llega cuando el minyan está asegurado.
 
 Rezar juntos, con las demás familias que se alojan en su estación.
 
 **Familias reunidas**Reunimos a las familias de una misma estación, para que pueda formarse un minyan.
 
-**Un Sefer Torá llevado**El equipo lleva un Sefer Torá a su estación, en invierno como en verano.
+**Un Sefer Torá llevado**El equipo lleva un Sefer Torá a su estación cuando el minyan está asegurado.
 
 **Rezos con el Beth Habad**Rezos de Shabat y de entre semana con el Beth Habad de los Alpes.
 
-Cuando varias familias se alojan en la misma estación, nuestro equipo kosher instalado en los Alpes las reúne para un minyan y lleva un Sefer Torá. Funciona en invierno y en verano. Cuantas más familias conocemos, más fácil es formar el minyan.
+El minyan es un servicio bajo petición. Cuando varias familias se alojan en la misma estación, nuestro equipo kosher instalado en los Alpes puede reunirlas para un minyan. Funciona en invierno y en verano, también entre semana. Cuantas más familias conocemos, más fácil es formar el minyan.
 
-Por eso, denos sus fechas con tiempo. Los rezos de Shabat y de entre semana se hacen con el Beth Habad de los Alpes. Nada está garantizado de antemano: el minyan se ofrece bajo petición, según las familias presentes.
+Dénos, pues, sus fechas con tiempo. Las oraciones de Shabat y de entre semana se hacen con el Beth Habad de los Alpes. Solo se lleva un Sefer Torá si el minyan está asegurado. Courchevel y Megève tienen un Beth Habad, pero el minyan no está garantizado allí fuera de las vacaciones escolares. Puede pedirse una participación en los gastos.
 
 ## Lo que *organizamos*
 
 * **Reunir a las familias.** El equipo reúne a las familias presentes en su estación en sus fechas.
-* **Un Sefer Torá.** El equipo lleva un Sefer Torá a su estación, en invierno y en verano.
+* **Un Sefer Torá, cuando el minyan está asegurado.** El equipo solo lleva un Sefer Torá a su estación si el minyan está completo, en invierno y en verano.
 * **Rezos de Shabat y de entre semana.** Se hacen con el Beth Habad de los Alpes.
-* **Courchevel 1850 y Megève.** Ambas estaciones tienen una casa Habad en invierno, que coordina el minyan y el Shabat.
+* **Courchevel 1850 y Megève.** Ambas estaciones tienen un Beth Habad, que coordina el minyan y el Shabat. El minyan no está garantizado allí fuera de las vacaciones escolares.
 * **Comidas de Shabat, si lo desea.** Cena del viernes, almuerzo del sábado y seudá shlishit son posibles. Vea la página de comidas de Shabat y fiestas.
 
 ## Cómo *funciona*
@@ -46,7 +46,7 @@ Por eso, denos sus fechas con tiempo. Los rezos de Shabat y de entre semana se h
 
    ### Un minyan bajo petición
 
-   Le decimos lo que es posible, según las familias presentes.
+   Le decimos qué es posible, según las familias presentes. El Sefer Torá se lleva cuando el minyan está asegurado.
 
 [Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20un%20minyan%20y%20un%20Sefer%20Tor%C3%A1%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
@@ -54,7 +54,7 @@ Por eso, denos sus fechas con tiempo. Los rezos de Shabat y de entre semana se h
 
 ¿El minyan tiene un coste?
 
-No tenemos una tarifa que darle en esta página. Indíquenos sus fechas y le respondemos por escrito antes de cualquier compromiso por su parte.
+El minyan no es gratuito: puede pedirse una participación en los gastos. No tenemos un precio que darle en esta página. Dénos sus fechas y respondemos por escrito antes de cualquier compromiso por su parte. La lectura de la Meguilá se hace bajo petición especial, también con una participación en los gastos.
 
 ¿Se les puede contactar durante el Shabat?
 
@@ -66,15 +66,15 @@ Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahi
 
 ¿Está garantizado un minyan?
 
-No. El minyan se ofrece bajo petición, según las familias presentes. Cuanto antes nos dé sus fechas, más fácil es formarlo.
+No. Un minyan se ofrece bajo petición, según las familias presentes, y el Sefer Torá solo se lleva si el minyan está asegurado. Cuanto antes nos dé sus fechas, más fácil es formarlo.
 
 ¿Es posible en verano?
 
-Sí. El equipo lleva un Sefer Torá en invierno como en verano. Indíquenos su estación y sus fechas.
+Sí. En verano un minyan es posible en todas las estaciones, también entre semana. Se lleva un Sefer Torá cuando el minyan está asegurado. Díganos su estación y sus fechas.
 
 ¿Dónde hay una casa Habad?
 
-Courchevel 1850 y Megève tienen una casa Habad en invierno, que coordina el minyan y el Shabat.
+Courchevel y Megève tienen un Beth Habad en el lugar, pero el minyan no está garantizado allí fuera de las vacaciones escolares, cuando las estaciones están tranquilas. Depende de las familias presentes.
 
 ## Su minyan en los Alpes, *organizado*.
 

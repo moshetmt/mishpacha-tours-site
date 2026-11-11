@@ -25,10 +25,10 @@ Las comidas son un servicio comunitario del Beth Habad Grenoble Alpes, que las p
 ## Lo que *recibe*
 
 * **Comidas calientes, entregadas.** Las comidas se entregan en su apartamento, chalet u hotel durante la semana. La fórmula completa, mañana, mediodía y noche, parte desde 78 € por persona y día.
-* **Solo la cena.** Entrante, plato principal y postre, desde 28 € por persona y día. Los niños hasta 5 años pagan aproximadamente un 30 % menos.
+* **Solo la cena.** Entrante, plato principal y postre, desde 28 € por persona y día. Los niños hasta 5 años pagan un 50 % menos; a partir de 6 años, tarifa completa.
 * **Entrega cada dos días.** Las entregas se hacen cada dos días. Cada entrega cuesta de 180 a 360 € según la estación, repartida cuando varios grupos están en la misma estación la misma semana.
-* **Las comidas de Shabat.** Cena del viernes 45 €, almuerzo del sábado 40 €, seudá shlishit 30 €, por persona. Jalot y vino se entregan el viernes y se incluyen velas. Hay una plata o un kumkum en venta.
-* **Las fiestas.** Velas y encendido de Janucá, lectura de la Meguilá y comida de Purim, Pésaj bajo petición. Díganos qué fiesta cae durante su semana.
+* **Las comidas de Shabat.** Cena del viernes 45 €, almuerzo del sábado 40 €, seudá shlishit 30 € (opcional), por persona. Jalot y vino se entregan el viernes y están incluidos. Las velas de Shabat no están incluidas. Hay una plata o un kumkum en venta.
+* **Las fiestas.** Velas y encendido de Janucá, comida de Purim, Pésaj bajo petición. La lectura de la Meguilá se hace bajo petición especial, con una participación en los gastos. Díganos qué fiesta cae durante su semana.
 * **Una noche de pizza para grupos.** Una noche de pizza con un pizzero es posible para grupos, bajo petición. Díganos el tamaño de su grupo y su estación, y le decimos qué es posible.
 
 ## Cómo *funciona*
@@ -47,7 +47,7 @@ Las comidas son un servicio comunitario del Beth Habad Grenoble Alpes, que las p
 
    ### Pida antes del miércoles por la noche
 
-   El pedido se hace a más tardar el miércoles por la noche, con pago completo al pedir. Las comidas llegan después cada dos días.
+   El pedido se hace a más tardar el miércoles por la noche que precede al Shabat en cuestión, con pago completo al pedir. Las comidas llegan después cada dos días.
 
 [Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20quisiera%20comidas%20kosher%20entregadas%20en%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
@@ -55,7 +55,7 @@ Las comidas son un servicio comunitario del Beth Habad Grenoble Alpes, que las p
 
 ¿Cuánto cuestan las comidas?
 
-Por persona y por día: la fórmula completa, mañana, mediodía y noche, desde 78 €, y solo la cena, con entrante, plato principal y postre, desde 28 €. Los precios de partida varían según la estación y la temporada. Los niños hasta 5 años pagan aproximadamente un 30 % menos.
+Por persona y por día: la fórmula completa, mañana, mediodía y noche, desde 78 €, y solo la cena, con entrante, plato principal y postre, desde 28 €. Los precios de partida varían según la estación y la temporada. Los niños hasta 5 años pagan un 50 % menos; a partir de 6 años, tarifa completa.
 
 ¿Cómo funciona la entrega?
 
@@ -63,7 +63,7 @@ Las comidas se entregan cada dos días. Cada entrega cuesta de 180 a 360 € seg
 
 ¿Se puede pedir para Shabat?
 
-Sí. La cena del viernes cuesta 45 €, el almuerzo del sábado 40 € y la seudá shlishit 30 €, por persona. Jalot y vino se entregan el viernes. También le indicamos el minyan más cercano para sus fechas.
+Sí. La cena del viernes cuesta 45 €, el almuerzo del sábado 40 € y la seudá shlishit 30 € (opcional), por persona, al mismo precio en todas las estaciones. Jalot y vino se entregan el viernes y están incluidos; las velas no. Pida a más tardar el miércoles por la noche que precede al Shabat. La entrega en Courchevel y Megève está confirmada: su coste se suma al precio de las comidas y se reparte cuando varias familias piden en la misma estación. Una persona sola pide el Shabat completo, cena del viernes y almuerzo del sábado. También le indicamos el minyan más cercano para sus fechas.
 
 ¿Quién certifica lo kosher?
 
@@ -71,7 +71,7 @@ Kosher lamehadrín, certificado por el Beth Habad Grenoble-Alpes, Rav Yehia Lahi
 
 ¿Cuándo hay que pedir?
 
-El pedido se hace a más tardar el miércoles por la noche, con pago completo al pedir. Envíenos sus fechas con tiempo y le confirmamos lo que es posible en su estación.
+El pedido se hace a más tardar el miércoles por la noche que precede al Shabat en cuestión, con pago completo al pedir. Envíenos sus fechas con tiempo y le confirmamos lo que es posible en su estación.
 
 ¿Atienden a grupos?
 
