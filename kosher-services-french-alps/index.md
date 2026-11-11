@@ -14,7 +14,7 @@ Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 
 **A private chef, or meals delivered**The kitchen is kashered, every meal of the week is taken care of.
 
-**Shabbat and the holidays, ready**Challot, wine, candles, and a minyan with a Sefer Torah on request.
+**Shabbat and the holidays, ready**Challot and wine, and a minyan with a Sefer Torah on request.
 
 **One written quote, the same day**Your resort, your dates, your group. One contact from start to finish.
 
@@ -25,7 +25,7 @@ Mishpacha Tours organises it in the resorts of Isère, Savoie and the Hautes-Alp
 - **A chalet with a private chef.** The team makes the kitchen kosher, the chef cooks on site, and every meal of the week is taken care of. You ski, you come back to a set table.
 - **Meals delivered to your group.** Families, a group of friends, a yeshiva or synagogue group: hot meals delivered to your apartments or your hotel for the week, in the resort. Large groups welcome, with notice. Delivered meals are a community service of the Beth Habad de Grenoble Alpes, which prepares and delivers them.
 - **Shabbat in the resort.** Shabbat meals, challot and wine delivered on Friday, and the nearest minyan for your dates.
-- **The holidays in the mountains.** Hanukkah candles and a lighting, a Megillah reading and a Purim meal, Pesach on request. Say which holiday falls in your week.
+- **The holidays in the mountains.** Hanukkah candles and a lighting, a Megillah reading on special request and a Purim meal, Pesach on request. Say which holiday falls in your week.
 - **A minyan and a Sefer Torah.** When several families are in the same resort, the team groups them for a minyan and brings a Sefer Torah, in winter and in summer. Give your dates early: the more families they know about, the easier the minyan.
 - **A tailor-made short stay.** Chalet, chef, Shabbat, transfers to the slopes: the team puts the whole week together for one family or a few.
 
@@ -46,7 +46,7 @@ Meals: per person, per day. Starting prices, which depend on the resort and the 
 
 - Delivery every two days, any resort in France**€180 to €360**
 - Kashering the kitchen of the chalet you rent**On request**
-- Private kosher chef in your chalet, per day**from €1,568**
+- Private kosher chef in your chalet**On quote, 4 days minimum**
 
 ### A chalet *for the week*
 
@@ -58,7 +58,7 @@ Per chalet, per week. Starting prices: the price for your dates comes in writing
 - [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/kosher-chalet-courchevel/)**from €17,500**
 - [Chalet Loup Blanc, near Megève](https://mishpachatours.com/kosher-chalet-megeve/)**from €23,500**
 
-Children up to 5: about 30% less. Delivery is charged per trip; when several groups stay in the same resort the same week, they share it. Order by Wednesday evening, pay in full when you order. A plata or a kumkum can be bought for Shabbat. Kosher supervision: Beth Habad de Grenoble Alpes, Rav Yehia Lahiany.
+Children up to 5: 50% less. From age 6, full price. Delivery is charged per trip; when several groups stay in the same resort the same week, they share it. Order by Wednesday evening, pay in full when you order. A plata or a kumkum can be bought for Shabbat. Kosher supervision: Beth Habad de Grenoble Alpes, Rav Yehia Lahiany.
 
 [Order meals on WhatsApp](https://wa.me/33781823193?text=Hello%2C%20we%20are%20in%20the%20Alps%20and%20would%20like%20kosher%20meals%20delivered.%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A)
 
@@ -122,7 +122,7 @@ Yes, when enough families are there at the same time. The team groups them and b
 
 What about Hanukkah, Purim or Pesach in the mountains?
 
-A lighting, a Megillah reading, a Purim meal, Pesach on request: tell us which holiday falls in your week and the team organises it in the resort.
+A lighting, a Megillah reading on special request, a Purim meal, Pesach on request: tell us which holiday falls in your week and the team organises it in the resort.
 
 Do you organise the chalet yourselves?
 
@@ -134,7 +134,7 @@ As early as you can, and before the school holidays. A chef for a week is booked
 
 What does it cost?
 
-Delivered meals start at €28 per person per day for dinner only and €78 for full board, plus delivery; Shabbat meals cost €30 to €45. A private chef starts at €1,568 per day, a chalet at €9,500 per week. You receive a written quote before you commit to anything.
+Delivered meals start at €28 per person per day for dinner only and €78 for full board, plus delivery; Shabbat meals are €45 for Friday dinner, €40 for Saturday lunch and €30 for seuda shlishit, which is optional. A private chef is quoted for your group, for a minimum of 4 days. A chalet starts at €9,500 per week, for the chalet alone, with the chef and the meals on quote. You receive a written quote before you commit to anything.
 
 ## Your kosher week in the Alps, *organised*.
 

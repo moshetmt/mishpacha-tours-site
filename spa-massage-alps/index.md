@@ -1,4 +1,4 @@
-> Heated pool, hammam, Nordic bath, jacuzzi or sauna at your private kosher chalet. Masseur at the chalet on request, on one written quote.
+> Heated pool, hammam, Nordic bath, jacuzzi or sauna at your private kosher chalet. A masseur for men, a masseuse for women, on request.
 
 Source: https://mishpachatours.com/spa-massage-alps/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -10,25 +10,25 @@ Source: https://mishpachatours.com/spa-massage-alps/ (HTML version). Every page 
 
 Warm water, quiet rooms and, in Megève, a spa facing the Mont-Blanc.
 
-Come back from the slopes to warm water, candles and silence.
+Come back from the slopes to warm water and silence.
 
 **Water at the chalet**Heated pools, hammam, Nordic bath, jacuzzi or sauna, depending on the chalet.
 
 **A view of the mountains**In Megève, the spa faces the Mont-Blanc. The rest of the evening is quiet.
 
-**One written quote**A masseur or pedicurist at the chalet, on request, appears on your single quote.
+**One written quote**A masseur for men, a masseuse for women or a pedicurist at the chalet, on request, appears on your single quote.
 
 Our private chalets in the French Alps have their own water. Heated pools and a hammam in Courchevel, a Nordic bath in one chalet, an outdoor jacuzzi and a sauna in Les Menuires, a sauna and a jacuzzi near Megève. The chalet is kosher, the meals are served at your table, and the evening is yours.
 
-In Megève, the spa faces the Mont-Blanc. The house is silent. If you would like a masseur or a pedicurist at the chalet, tell us. It is on request, and it joins the same quote as your stay.
+In Megève, the spa faces the Mont-Blanc. The house is silent. If you would like a massage or a pedicurist at the chalet, tell us. The massage is given by a masseur for men and a masseuse for women, in every resort. It is on request, and it joins the same quote as your stay.
 
 ## What the chalets *offer*
 
 * **Heated pools and hammam.** In Courchevel, the chalets have heated pools and a hammam. You come in from the cold to warm water, whatever the hour.
-* **Nordic bath.** One of our chalets has a Nordic bath. Tell us if you would like it, and we check it fits your dates.
+* **Nordic bath.** The Nordic bath is in Courchevel, in the small chalet. Tell us if you would like it, and we check it fits your dates.
 * **Jacuzzi, sauna and cinema.** In Les Menuires, an outdoor jacuzzi, a sauna, a games room and a cinema room make the evening easy for the whole family.
 * **Sauna and jacuzzi in Megève.** Near Megève, the chalet has a sauna and a jacuzzi. The spa faces the Mont-Blanc, with its view over the valley.
-* **Masseur or pedicurist, on request.** We pass on your wishes and tell you what is possible in your resort. No promise is made before we have checked.
+* **Massage or pedicurist, on request.** A masseur for men and a masseuse for women, in every resort. We pass on your wishes and tell you what is possible. No promise is made before we have checked.
 * **One quote for everything.** Chalet, meals and any service you ask for are written on a single quote, sent before any commitment.
 
 ## How it *works*
@@ -55,11 +55,11 @@ In Megève, the spa faces the Mont-Blanc. The house is silent. If you would like
 
 Which chalets have a spa?
 
-It depends on the chalet. Heated pools and a hammam in Courchevel, a jacuzzi and a sauna in Les Menuires and near Megève, a Nordic bath in one chalet. Tell us your resort, we tell you what is there.
+It depends on the chalet. Heated pools and a hammam in Courchevel, a jacuzzi and a sauna in Les Menuires and near Megève, a Nordic bath in the small chalet in Courchevel. Tell us your resort, we tell you what is there.
 
 Can I book a masseur at the chalet?
 
-Yes, on request. We cannot promise availability before checking your resort and dates. Tell us what you would like, and we tell you what is possible. It appears on the same quote as your stay.
+Yes, on request, in every resort. The massage is given by a masseur for men and a masseuse for women. We cannot promise availability before checking your resort and dates. It appears on the same quote as your stay.
 
 How much does it cost?
 
@@ -67,7 +67,7 @@ Chalet weeks start at 9,500 € per chalet. Masseur or pedicurist has no publish
 
 What about Shabbat?
 
-We reply every day except Shabbat. Meals and service at the chalet are shomer Shabbat. For the use of the spa and any appointment on Shabbat, ask us when you write and we confirm.
+We reply every day except Shabbat. Meals and service at the chalet are shomer Shabbat.
 
 Is the food kosher?
 

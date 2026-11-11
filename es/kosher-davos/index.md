@@ -14,7 +14,7 @@ Esquíe en Davos de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
 **Un chef privado en su chalé**La cocina se kosheriza y el chef cocina allí mismo todas las comidas de la semana.
 
-**Shabat y fiestas, todo listo**Jalot, vino, velas y un minyan con Sefer Torá bajo pedido.
+**Shabat y fiestas, todo listo**Jalot y vino, y un minyan con Sefer Torá bajo pedido.
 
 **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 

@@ -14,7 +14,7 @@ Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
 **Un chef privé, ou des repas livrés**La cuisine est cachérisée, tous les repas de la semaine sont assurés.
 
-**Chabbat et fêtes, préparés**Hallot, vin, bougies, et un minyan avec Sefer Torah sur demande.
+**Chabbat et fêtes, préparés**Hallot et vin, et un minyan avec Sefer Torah sur demande.
 
 **Un devis écrit, le jour même**Votre station, vos dates, votre groupe. Un seul interlocuteur du début à la fin.
 
@@ -46,7 +46,7 @@ Repas : par personne et par jour. Ce sont des prix de départ, selon la station 
 
 - Livraison tous les deux jours, toute station française**180 à 360 €**
 - Cachérisation de la cuisine du chalet que vous louez**Sur demande**
-- Chef privé casher dans votre chalet, par jour**à partir de 1 568 €**
+- Chef privé casher dans votre chalet**Sur devis, 4 jours minimum**
 
 ### Un chalet *pour la semaine*
 
@@ -58,7 +58,7 @@ Par chalet et par semaine. Prix de départ : le prix pour vos dates vous est rem
 - [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/fr/kosher-chalet-courchevel/)**à partir de 17 500 €**
 - [Chalet Loup Blanc, près de Megève](https://mishpachatours.com/fr/kosher-chalet-megeve/)**à partir de 23 500 €**
 
-Enfants jusqu’à 5 ans : environ 30 % de moins. La livraison se paie par passage ; quand plusieurs groupes séjournent dans la même station la même semaine, ils la partagent. Commande au plus tard le mercredi soir, paiement complet à la commande. Plata ou koumkoum en vente pour le Chabbat. Surveillance : Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
+Enfants jusqu’à 5 ans : 50 % de moins. À partir de 6 ans, plein tarif. La livraison se paie par passage ; quand plusieurs groupes séjournent dans la même station la même semaine, ils la partagent. Commande au plus tard le mercredi soir, paiement complet à la commande. Plata ou koumkoum en vente pour le Chabbat. Surveillance : Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
 
 [Commander les repas sur WhatsApp](https://wa.me/33781823193?text=Bonjour%2C%20nous%20serons%20dans%20les%20Alpes%20et%20voudrions%20des%20repas%20casher%20livr%C3%A9s.%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)
 
@@ -122,7 +122,7 @@ Oui, quand assez de familles sont là en même temps. L’équipe les réunit et
 
 Et Hanouka, Pourim ou Pessah à la montagne ?
 
-Un allumage, une lecture de la Méguila, un repas de Pourim, Pessah sur demande : dites-nous quelle fête tombe pendant votre semaine et l’équipe l’organise en station.
+Un allumage, une lecture de la Méguila sur demande spéciale, un repas de Pourim, Pessah sur demande : dites-nous quelle fête tombe pendant votre semaine et l’équipe l’organise en station.
 
 Organisez-vous le chalet vous-mêmes ?
 
@@ -134,7 +134,7 @@ Le plus tôt possible, et avant les vacances scolaires. Un chef pour une semaine
 
 Combien cela coûte-t-il ?
 
-Les repas livrés partent de 28 € par personne et par jour pour le soir seul et de 78 € pour la formule complète, plus la livraison ; les repas de Chabbat coûtent de 30 à 45 €. Un chef privé part de 1 568 € par jour, un chalet de 9 500 € la semaine. Vous recevez un devis écrit avant de vous engager.
+Les repas livrés partent de 28 € par personne et par jour pour le soir seul et de 78 € pour la formule complète, plus la livraison ; les repas de Chabbat coûtent 45 € le dîner du vendredi, 40 € le déjeuner du samedi et 30 € la seouda chlichit, en option. Un chef privé se chiffre pour votre groupe, pour 4 jours minimum. Un chalet part de 9 500 € la semaine, chalet seul, avec le chef et les repas sur devis. Vous recevez un devis écrit avant de vous engager.
 
 ## Votre semaine casher dans les Alpes, *organisée*.
 

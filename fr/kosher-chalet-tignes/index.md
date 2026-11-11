@@ -26,7 +26,7 @@ Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 Deux chalets mitoyens qui communiquent, loués en entier ou par moitié : neuf suites, chacune avec sa salle de douche, jusqu'à 21 personnes. Les pistes sont à une minute à pied. Un jacuzzi extérieur face aux sommets, deux salons avec cheminée. Chef privé, Chabbat et minyan, organisés pour vous.
 
 - **Un chef privé, ou des repas livrés**La cuisine est cachérisée, tous les repas de la semaine sont assurés.
-- **Chabbat et fêtes, préparés**Hallot, vin, bougies, et un minyan avec Sefer Torah sur demande.
+- **Chabbat et fêtes, préparés**Hallot et vin, et un minyan avec Sefer Torah sur demande.
 - **Un devis écrit, le jour même**Votre station, vos dates, votre groupe. Un seul interlocuteur du début à la fin.
 
 ## Le chalet, en bref

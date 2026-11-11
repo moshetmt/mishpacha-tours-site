@@ -25,10 +25,10 @@ The meals are a community service of Beth Habad Grenoble Alpes, which prepares a
 ## What you *receive*
 
 * **Hot meals, delivered.** Meals are delivered to your apartment, chalet or hotel for the week. The full formula, morning, midday and evening, starts from €78 per person per day.
-* **Dinner only.** Starter, main course and dessert, from €28 per person per day. Children up to age 5 pay about 30% less.
+* **Dinner only.** Starter, main course and dessert, from €28 per person per day. Children up to age 5 pay 50% less; from age 6, full price.
 * **Delivery every two days.** Deliveries take place every two days. Each delivery costs €180 to €360 depending on the resort, shared when several groups are in the same resort the same week.
-* **Shabbat meals.** Friday dinner €45, Saturday lunch €40, seudah shlishit €30, per person. Challot and wine are delivered on Friday, and candles are provided. A plata or a kumkum is on sale.
-* **Festivals.** Hanukkah candles and lighting, the reading of the Megillah and the meal for Purim, and Pesach on request. Tell us which festival falls during your week.
+* **Shabbat meals.** Friday dinner €45, Saturday lunch €40, seudah shlishit €30 (optional), per person. Challot and wine are delivered on Friday and included. Shabbat candles are not included. A plata or a kumkum is on sale.
+* **Festivals.** Hanukkah candles and lighting, the meal for Purim, and Pesach on request. The reading of the Megillah is on special request, with a contribution to costs. Tell us which festival falls during your week.
 * **A pizza evening for groups.** A pizza evening with a pizza maker is possible for groups, on request. Tell us the size of your group and your resort, and we tell you what is possible.
 
 ## How it *works*
@@ -47,7 +47,7 @@ The meals are a community service of Beth Habad Grenoble Alpes, which prepares a
 
    ### Order by Wednesday evening
 
-   Orders are taken by Wednesday evening at the latest, with full payment at the time of order. The meals then arrive every two days.
+   Orders are taken by Wednesday evening at the latest, the one before the Shabbat concerned, with full payment at the time of order. The meals then arrive every two days.
 
 [Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20would%20like%20kosher%20meals%20delivered%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)[Get a quote](#book)
 
@@ -55,7 +55,7 @@ The meals are a community service of Beth Habad Grenoble Alpes, which prepares a
 
 How much do the meals cost?
 
-Per person and per day: the full formula, morning, midday and evening, from €78, and dinner alone, with starter, main course and dessert, from €28. Starting prices vary by resort and season. Children up to age 5 pay about 30% less.
+Per person and per day: the full formula, morning, midday and evening, from €78, and dinner alone, with starter, main course and dessert, from €28. Starting prices vary by resort and season. Children up to age 5 pay 50% less; from age 6, full price.
 
 How does delivery work?
 
@@ -63,7 +63,7 @@ Meals are delivered every two days. Each delivery costs €180 to €360 dependi
 
 Can I order for Shabbat?
 
-Yes. Friday dinner is €45, Saturday lunch €40 and seudah shlishit €30 per person. Challot and wine are delivered on Friday. We also tell you the nearest minyan for your dates.
+Yes. Friday dinner is €45, Saturday lunch €40 and seudah shlishit €30 (optional), per person, at the same price in every resort. Challot and wine are delivered on Friday and included; candles are not. Order by the Wednesday evening before Shabbat. Delivery to Courchevel and Megève is confirmed: its cost is added to the price of the meals and shared when several families order in the same resort. A person alone orders the full Shabbat, Friday dinner and Saturday lunch. We also tell you the nearest minyan for your dates.
 
 Who certifies the kosher?
 
@@ -71,7 +71,7 @@ Kosher lamehadrin, certified by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Th
 
 When do I have to order?
 
-Orders are taken by Wednesday evening at the latest, with full payment at the time of order. Send us your dates early and we confirm what is possible in your resort.
+Orders are taken by Wednesday evening at the latest, the one before the Shabbat concerned, with full payment at the time of order. Send us your dates early and we confirm what is possible in your resort.
 
 Do you serve groups?
 

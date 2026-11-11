@@ -16,7 +16,7 @@ Ski Avoriaz by day. Walk back to a set table, a minyan, and Shabbat ready.
 
 **A private chef, meals on request**The kitchen is kashered, and the meals of the week are arranged with you.
 
-**Shabbat and the holidays, ready**Challot, wine, candles, and a minyan with a Sefer Torah on request.
+**Shabbat and the holidays, ready**Challot and wine, and a minyan with a Sefer Torah on request.
 
 **One written quote, the same day**Your resort, your dates, your group. One contact from start to finish.
 

@@ -1,4 +1,4 @@
-> Un chef privé casher cuisine dans votre chalet des Alpes : cuisine cachérisée, menu construit avec vous, repas de la semaine. À partir de 1 568 € par jour.
+> Un chef privé casher cuisine dans votre chalet des Alpes : cuisine cachérisée, menu construit avec vous, courses comprises. Sur devis, 4 jours minimum.
 
 Source: https://mishpachatours.com/fr/private-kosher-chef-alps/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -20,7 +20,7 @@ Vous skiez, le chef cuisine, et une table dressée vous attend.
 
 Un chef privé cuisine dans votre chalet, dans une cuisine cachérisée pour votre séjour, et assure tous les repas de la semaine. Le menu se construit avec vous : dites-nous ce que mange votre famille et ce que vous aimeriez goûter. Vous skiez, vous marchez, vous vous reposez, et une table est dressée à votre retour.
 
-Le tarif démarre à partir de 1 568 € par jour. Au-delà de 3 h de route de Grenoble, à Verbier ou ailleurs en Suisse par exemple, les repas ne sont pas livrés : le chef privé est alors la formule que nous proposons. Suisse, Italie et Autriche sont possibles sur demande.
+Le chef se chiffre sur devis, pour 4 jours minimum ; une seule journée est possible, plus chère. Les courses sont comprises et le prix dépend du nombre de convives. Les produits d'exception (champagne, grands vins, caviar, viandes spéciales) et les livraisons en milieu de semaine sont en supplément. Au-delà de 3 h de route de Grenoble, à Verbier ou ailleurs en Suisse par exemple, les repas ne sont pas livrés : le chef privé est alors la formule que nous proposons. Suisse, Italie et Autriche sont possibles sur demande.
 
 ## Ce dont le chef *s'occupe*
 
@@ -55,7 +55,7 @@ Le tarif démarre à partir de 1 568 € par jour. Au-delà de 3 h de route de G
 
 Combien coûte un chef privé casher ?
 
-Le chef privé démarre à partir de 1 568 € par jour. Le prix pour vos dates vous est envoyé par écrit, avec le devis, avant tout engagement.
+Sur devis, pour 4 jours minimum. Une seule journée est possible, plus chère. Les courses sont comprises et le prix dépend du nombre de convives. Les produits d'exception (champagne, grands vins, caviar, viandes spéciales) et les livraisons en milieu de semaine sont en supplément. Le prix pour vos dates vous est envoyé par écrit avant tout engagement.
 
 Y a-t-il un menu type ?
 

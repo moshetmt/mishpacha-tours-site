@@ -1,4 +1,4 @@
-> Alquiler de esquís, trineo de perros, coche, traslados y extras para eventos para familias kosher en los Alpes. También en verano. Bajo petición, un solo presupuesto.
+> Alquiler de esquís, trineo de perros, guía de montaña, coche, traslados y organización de eventos para familias kosher en los Alpes. Todo bajo petición, un solo presupuesto.
 
 Source: https://mishpachatours.com/es/activities-alps-kosher-families/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -8,27 +8,28 @@ Source: https://mishpachatours.com/es/activities-alps-kosher-families/ (HTML ver
 
 [Inicio](/es/) / [Servicios kosher en los Alpes](/es/kosher-services-french-alps/) / Actividades en los Alpes
 
-Esquís, trineo de perros, coche, traslados: bajo petición, en un solo presupuesto.
+Esquís, trineo de perros, guía, traslados, eventos: todo bajo petición, en un solo presupuesto.
 
 Elija sus días y ponemos todo en un presupuesto escrito.
 
-**Invierno, bajo petición**Alquiler de esquís, trineo de perros, coche, traslados y extras para eventos.
+**Invierno, bajo petición**Alquiler de esquís, trineo de perros, moto de nieve, guía de montaña, coche, traslados.
 
 **Salidas en verano**Lagos, paseos, Annecy, Aix-les-Bains y Grenoble.
 
 **Un solo presupuesto escrito**Todo lo que pida figura en un presupuesto único, enviado antes de cualquier compromiso.
 
-Su estancia no termina en el chalet. Díganos qué le gustaría a su familia y lo añadimos al mismo presupuesto: esquís de alquiler, un paseo en trineo de perros, un coche para la semana, traslados desde el aeropuerto o la estación. Cada actividad es bajo petición y nada se reserva sin su acuerdo.
+Su estancia no termina en el chalet. Díganos qué le gustaría a su familia y lo añadimos al mismo presupuesto: esquís de alquiler, un paseo en trineo de perros, un guía de montaña, un coche para la semana, traslados desde el aeropuerto o la estación. Todo es bajo petición, nada se reserva sin su acuerdo y no se publica ninguna tarifa.
 
-En verano, los Alpes se abren a lagos y senderos. Annecy, Aix-les-Bains y Grenoble están cerca, y es posible una villa en Saint-Tropez. No prevemos ninguna actividad en Shabat ni en días de fiesta. Para lo que no figura aquí, pregúntenos y lo comprobamos.
+En verano, los Alpes se abren a lagos y senderos. Annecy, Aix-les-Bains y Grenoble están cerca, y es posible una villa en Saint-Tropez. También organizamos eventos: una velada privada con DJ, un cumpleaños, sobre todo en verano en la villa de Saint-Tropez, con tarifas de verano bajo petición. No prevemos ninguna actividad en Shabat ni en días de fiesta. Para lo que no figura aquí, pregúntenos y lo comprobamos.
 
 ## Lo que podemos *organizar*
 
 * **Alquiler de esquís.** Esquís para la familia, bajo petición, para recoger en su estación. Indíquenos tallas y fechas, figuran en su presupuesto.
-* **Trineo de perros.** Un paseo con un tiro de perros de trineo, bajo petición. Díganos su estación y le decimos qué podemos organizar.
+* **Trineo de perros y moto de nieve.** Un paseo con un tiro de perros de trineo, o una salida en moto de nieve, bajo petición. Díganos su estación y le decimos qué podemos organizar.
+* **Guía de montaña.** Un guía de montaña, bajo petición. Díganos su estación y sus fechas y le decimos qué podemos organizar.
 * **Alquiler de coche.** Un coche durante su estancia, bajo petición, añadido al mismo presupuesto que su chalet.
 * **Traslados.** Una van privada con conductor autorizado de la red, desde o hacia el aeropuerto, la estación, el hotel o la estación de esquí. Nunca en Shabat ni en fiestas.
-* **Extras para eventos.** ¿Una ocasión familiar durante su estancia? Cuéntenos lo que imagina y le decimos qué es posible.
+* **Organización de eventos.** Una velada privada con DJ, un cumpleaños: lo organizamos para una o dos noches y nos ocupamos de todo, sobre todo en verano en la villa de Saint-Tropez, y también en invierno bajo petición. Tarifas de verano bajo petición.
 * **Salidas de verano.** Lagos, paseos, Annecy, Aix-les-Bains, Grenoble y, si lo desea, una villa en Saint-Tropez.
 
 ## Cómo *funciona*
@@ -55,11 +56,11 @@ En verano, los Alpes se abren a lagos y senderos. Annecy, Aix-les-Bains y Grenob
 
 ¿Qué actividades pueden organizar?
 
-Bajo petición, en un solo presupuesto: alquiler de esquís, trineo de perros, alquiler de coche, traslados y extras para eventos. En verano: lagos, paseos, Annecy, Aix-les-Bains, Grenoble y una villa en Saint-Tropez. Para lo demás, pregúntenos y lo comprobamos.
+Bajo petición, en un solo presupuesto: alquiler de esquís, trineo de perros, moto de nieve, guía de montaña, alquiler de coche, traslados y organización de eventos. En verano: lagos, paseos, Annecy, Aix-les-Bains, Grenoble y una villa en Saint-Tropez. Para lo demás, pregúntenos y lo comprobamos.
 
 ¿Cuánto cuestan?
 
-No hay tabla de precios publicada para las actividades. Cada una se cotiza en su presupuesto escrito, al precio de sus fechas, antes de cualquier compromiso. Los traslados los realiza y factura el conductor.
+Todo es bajo petición y no se publica ninguna tarifa. Cada actividad se cotiza en su presupuesto escrito, al precio de sus fechas, antes de cualquier compromiso. Los traslados los realiza y factura el conductor.
 
 ¿Hay actividades en Shabat?
 
@@ -67,7 +68,7 @@ No. No prevemos ninguna actividad en Shabat ni en días de fiesta, y no se hace 
 
 ¿Se pueden reservar forfaits o monitores?
 
-Hoy no está confirmado. Díganos lo que necesita, lo comprobamos con el equipo y respondemos por escrito. El alquiler de esquís es posible bajo petición.
+Un guía de montaña es posible bajo petición. Para los forfaits de remontes y los monitores, nada está confirmado: díganos lo que necesita, lo comprobamos con el equipo y respondemos por escrito. El alquiler de esquís es posible bajo petición.
 
 ¿Toda la estancia sigue siendo kosher?
 

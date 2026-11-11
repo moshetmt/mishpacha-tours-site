@@ -1,4 +1,4 @@
-> Un chef privado kosher cocina en su chalet de los Alpes: cocina kasherizada, menú hecho con usted y todas las comidas de la semana. Desde 1.568 € al día.
+> Un chef privado kosher cocina en su chalé de los Alpes: cocina kasherizada, menú construido con usted, compras incluidas. A presupuesto, mínimo 4 días.
 
 Source: https://mishpachatours.com/es/private-kosher-chef-alps/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -20,7 +20,7 @@ Usted esquía, el chef cocina y una mesa puesta le espera.
 
 Un chef privado cocina en su chalet, en una cocina kasherizada para su estancia, y se ocupa de todas las comidas de la semana. El menú se construye con usted: cuéntenos qué come su familia y qué le gustaría probar. Usted esquía, camina y descansa, y al volver la mesa está puesta.
 
-El precio parte desde 1.568 € al día. A más de 3 horas por carretera de Grenoble, en Verbier o en otro punto de Suiza por ejemplo, las comidas no se entregan: el chef privado es entonces la fórmula que ofrecemos. Suiza, Italia y Austria son posibles bajo petición.
+El chef se presupuesta, con un mínimo de 4 días; un solo día es posible, a un precio más alto. Las compras están incluidas y el precio depende del número de comensales. Los productos excepcionales (champán, grandes vinos, caviar, carnes especiales) y las entregas a mitad de semana se cobran aparte. A más de 3 horas por carretera de Grenoble, en Verbier o en otro lugar de Suiza por ejemplo, no se entregan comidas: el chef privado es entonces la fórmula que ofrecemos. Suiza, Italia y Austria son posibles bajo petición.
 
 ## De qué se ocupa *el chef*
 
@@ -55,7 +55,7 @@ El precio parte desde 1.568 € al día. A más de 3 horas por carretera de Gren
 
 ¿Cuánto cuesta un chef privado kosher?
 
-El chef privado parte desde 1.568 € al día. El precio para sus fechas se le envía por escrito, con el presupuesto, antes de cualquier compromiso.
+A presupuesto, con un mínimo de 4 días. Un solo día es posible, a un precio más alto. Las compras están incluidas y el precio depende del número de comensales. Los productos excepcionales (champán, grandes vinos, caviar, carnes especiales) y las entregas a mitad de semana se cobran aparte. El precio para sus fechas se envía por escrito antes de cualquier compromiso.
 
 ¿Hay un menú fijo?
 

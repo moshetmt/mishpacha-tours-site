@@ -1,4 +1,4 @@
-> Piscina climatizada, hammam, baño nórdico, jacuzzi o sauna en su chalet privado kosher. Masajista en el chalet bajo petición, en un solo presupuesto.
+> Piscina climatizada, hammam, baño nórdico, jacuzzi o sauna en su chalet privado kosher. Masajista para hombres y masajista para mujeres, bajo petición.
 
 Source: https://mishpachatours.com/es/spa-massage-alps/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -10,25 +10,25 @@ Source: https://mishpachatours.com/es/spa-massage-alps/ (HTML version). Every pa
 
 Agua caliente, calma y, en Megève, un spa frente al Mont Blanc.
 
-Vuelva de las pistas al agua caliente, las velas y el silencio.
+Vuelva de las pistas al agua caliente y al silencio.
 
 **Agua en el chalet**Piscinas climatizadas, hammam, baño nórdico, jacuzzi o sauna, según el chalet.
 
 **Una vista a la montaña**En Megève, el spa mira al Mont Blanc. El resto de la tarde es tranquilo.
 
-**Un solo presupuesto escrito**Un masajista o pedicura en el chalet, bajo petición, figura en su presupuesto único.
+**Un solo presupuesto escrito**Un masajista para hombres, una masajista para mujeres o una pedicura en el chalet, bajo petición, figura en su presupuesto único.
 
 Nuestros chalets privados en los Alpes franceses tienen su propia agua. Piscinas climatizadas y hammam en Courchevel, un baño nórdico en un chalet, jacuzzi exterior y sauna en Les Menuires, sauna y jacuzzi cerca de Megève. El chalet es kosher, las comidas se sirven en su mesa y la tarde es suya.
 
-En Megève, el spa mira al Mont Blanc. La casa está en silencio. Si desea un masajista o una pedicura en el chalet, díganoslo. Es bajo petición y se suma al mismo presupuesto que su estancia.
+En Megève, el spa mira al Mont Blanc. La casa está en silencio. Si desea un masaje o una pedicura en el chalet, díganoslo. El masaje lo da un masajista para los hombres y una masajista para las mujeres, en todas las estaciones. Es bajo petición y se suma al mismo presupuesto que su estancia.
 
 ## Lo que ofrecen *los chalets*
 
 * **Piscinas climatizadas y hammam.** En Courchevel, los chalets tienen piscinas climatizadas y hammam. Usted entra del frío al agua caliente, a cualquier hora.
-* **Baño nórdico.** Uno de nuestros chalets tiene un baño nórdico. Díganos si lo desea y comprobamos que encaje con sus fechas.
+* **Baño nórdico.** El baño nórdico está en Courchevel, en el chalet pequeño. Díganos si lo desea y comprobamos que encaje con sus fechas.
 * **Jacuzzi, sauna y cine.** En Les Menuires, un jacuzzi exterior, una sauna, una sala de juegos y una sala de cine hacen la tarde fácil para toda la familia.
 * **Sauna y jacuzzi en Megève.** Cerca de Megève, el chalet tiene sauna y jacuzzi. El spa mira al Mont Blanc, con su vista sobre el valle.
-* **Masajista o pedicura, bajo petición.** Transmitimos sus deseos y le decimos qué es posible en su estación. No prometemos nada antes de comprobarlo.
+* **Masaje o pedicura, bajo petición.** Un masajista para los hombres y una masajista para las mujeres, en todas las estaciones. Transmitimos sus deseos y le decimos qué es posible. No prometemos nada antes de comprobarlo.
 * **Un presupuesto para todo.** Chalet, comidas y cada servicio solicitado figuran en un solo presupuesto, enviado antes de cualquier compromiso.
 
 ## Cómo *funciona*
@@ -55,11 +55,11 @@ En Megève, el spa mira al Mont Blanc. La casa está en silencio. Si desea un ma
 
 ¿Qué chalets tienen spa?
 
-Depende del chalet. Piscinas climatizadas y hammam en Courchevel, jacuzzi y sauna en Les Menuires y cerca de Megève, baño nórdico en un chalet. Indíquenos su estación y le decimos qué hay.
+Depende del chalet. Piscinas climatizadas y hammam en Courchevel, jacuzzi y sauna en Les Menuires y cerca de Megève, baño nórdico en el chalet pequeño de Courchevel. Indíquenos su estación y le decimos qué hay.
 
 ¿Puedo reservar un masajista en el chalet?
 
-Sí, bajo petición. No podemos prometer disponibilidad antes de comprobar su estación y sus fechas. Díganos lo que desea y le decimos qué es posible. Figura en el mismo presupuesto que su estancia.
+Sí, bajo petición, en todas las estaciones. El masaje lo da un masajista para los hombres y una masajista para las mujeres. No podemos prometer disponibilidad antes de comprobar su estación y sus fechas. Figura en el mismo presupuesto que su estancia.
 
 ¿Cuánto cuesta?
 
@@ -67,7 +67,7 @@ Las semanas de chalet empiezan desde 9 500 € por chalet. El masajista o la ped
 
 ¿Y el Shabat?
 
-Respondemos todos los días excepto el Shabat. Las comidas y el servicio del chalet son shomer Shabat. Para usar el spa o una cita en Shabat, pregúntenoslo al escribir y se lo confirmamos.
+Respondemos todos los días excepto el Shabat. Las comidas y el servicio del chalet son shomer Shabat.
 
 ¿La comida es kosher?
 

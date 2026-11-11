@@ -14,7 +14,7 @@ Skiez à Val d'Isère le jour. Retrouvez le soir une table dressée, un minyan e
 
 **Un chef privé, ou des repas livrés**La cuisine est cachérisée, tous les repas de la semaine sont assurés.
 
-**Chabbat et fêtes, préparés**Hallot, vin, bougies, et un minyan avec Sefer Torah sur demande.
+**Chabbat et fêtes, préparés**Hallot et vin, et un minyan avec Sefer Torah sur demande.
 
 **Un devis écrit, le jour même**Votre station, vos dates, votre groupe. Un seul interlocuteur du début à la fin.
 

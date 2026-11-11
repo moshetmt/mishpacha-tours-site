@@ -59,3 +59,16 @@ Tout ce qui n'est pas ici ne s'écrit pas. Une information manquante devient une
 - ES : « kosher », « Shabat », « kasherizada », « jalot », « séder / sedarim », « Jalav Yisrael ».
 - HE : `כשר`, `שומר שבת`, `צ'אלה` (féminin : `צ'אלה כשרה`), `שף פרטי`, `מניין`, `ספר תורה`, `ארוחות במשלוח`, `חופשת סקי כשרה`, `אתר סקי`, `בוואטסאפ`, `חלב ישראל` ; `כשר למהדרין` (règle du 06/11) ; jamais `ישראל` (pays), `בלעדי`, `היחיד`. Stations : Val Thorens `ואל טורנס`, Les Menuires `לה מנואר`, Courchevel `קורשבל`, Megève `מג'ב`, Alpe d'Huez `אלפ ד'ואז`, Les Deux Alpes `לה דז אלפ`, Grenoble `גרנובל`, Chamonix `שמוני`, Mont Blanc `מון בלאן`, Alpes `האלפים`, Saint-Tropez `סן טרופה`, Annecy `אנסי`. Impératif pluriel sur les boutons (`כתבו לנו`). Chiffres et noms latins en caractères latins.
 - Prix : toujours « à partir de » quand c'est un prix de départ, toujours en €, jamais un prix absent de ce fichier.
+
+## Mises à jour du 11/11/2026 (16 vocaux de Mendel + décisions de prix de Moshé) : ces lignes priment sur les plus anciennes ci-dessus
+Transcriptions : `01-emails/2026-11-11-vocaux-mendel-services/`.
+- Chef privé : plus aucun prix publié. Sur devis, 4 jours minimum (un seul jour possible, plus cher), courses comprises, prix selon le nombre de convives ; produits d'exception (champagne, grands vins, caviar, viandes spéciales) et livraisons en milieu de semaine en supplément. Jamais « 1 568 € ».
+- Chalets : « à partir de 9 500 € » (Belle Étoile) et « 23 500 € » (Loup Blanc) = chalet seul ; chef et repas en plus, sur devis.
+- Chabbat : dîner du vendredi 45 €, déjeuner du samedi 40 €, seouda chlichit 30 € (en option), par personne, mêmes prix dans toutes les stations ; AUCUN total « Chabbat complet » affiché. Livraison en plus, partagée entre familles d'une même station ; Courchevel et Megève confirmés. Commande au plus tard le mercredi soir qui précède le Chabbat. Personne seule : minimum = Chabbat complet (vendredi soir et samedi midi).
+- Enfants : 50 % de moins jusqu'à 5 ans, plein tarif à partir de 6 ans.
+- Hallot et vin compris ; bougies de Chabbat NON comprises (jamais « bougies fournies »).
+- Méguila : sur demande spéciale, participation aux frais.
+- Minyan : service sur demande ; Sefer Torah apporté seulement si le minyan est assuré ; Courchevel et Megève ont un Beth Habad mais minyan non garanti hors vacances scolaires ; possible l'été dans toutes les stations et en semaine ; participation aux frais possible, jamais « gratuit ».
+- Spa : bain nordique à Courchevel, dans le petit chalet (Mendel : « je crois » ; la fiche Renard Argenté dit 2 suites, jusqu'à 6 personnes, bain nordique extérieur, seul chalet du site avec bain nordique) ; massage par un masseur pour les hommes et une masseuse pour les femmes, toutes stations, sur demande ; aucune consigne sur l'usage du spa le Chabbat ni sur les enfants (rien à écrire).
+- Activités : tout sur demande, aucun tarif ; guide de montagne ; motoneige seulement « sur demande » (Mendel : « peut-être ») ; traîneau à chiens sur demande sans station nommée ; pas de luge ; organisation d'événements (soirée privée avec DJ, anniversaire), surtout l'été à la villa de Saint-Tropez, tarifs d'été sur demande.
+

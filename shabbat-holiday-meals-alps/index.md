@@ -14,11 +14,11 @@ Shabbat and the holidays, around a table that is already set.
 
 **Three Shabbat meals**Friday dinner, Saturday lunch and seouda shlishit, priced per person.
 
-**Challot and wine**They reach you on Friday, with candles for the evening.
+**Challot and wine**They reach you on Friday, included in the price.
 
 **At the chalet or delivered**Weekday and Shabbat meals, served at the chalet or delivered to your door.
 
-A week in the mountains often includes a Shabbat, and sometimes a holiday. Mishpacha Tours organises the meals with its kosher team based in the Alps: Friday evening dinner, Saturday lunch and seouda shlishit, each priced per person. Challot and wine are delivered on Friday, and candles are provided.
+A week in the mountains often includes a Shabbat, and sometimes a holiday. Mishpacha Tours organises the meals with its kosher team based in the Alps: Friday evening dinner, Saturday lunch and seouda shlishit, each priced per person, at the same price in every resort. Challot and wine are delivered on Friday and included; Shabbat candles are not.
 
 The meals are served at your chalet, or delivered to your apartment, chalet or hotel, during the week and on Shabbat. If a holiday falls during your stay, tell us which one. We reply the same day, never during Shabbat.
 
@@ -26,9 +26,9 @@ The meals are served at your chalet, or delivered to your apartment, chalet or h
 
 * **Friday evening dinner.** 45 € per person. The first meal of Shabbat, with Chalav Yisrael meals and a shomer Shabbat service.
 * **Saturday lunch.** 40 € per person, served at the chalet or delivered to your resort.
-* **Seouda shlishit.** 30 € per person, for the third meal of Shabbat.
-* **Challot and wine.** Delivered on Friday, with candles. Plata or koumkoum are on sale for Shabbat.
-* **Holidays.** Candles and lighting for Hanukkah, Megillah reading and meal for Purim, Pesach on request.
+* **Seouda shlishit.** 30 € per person, for the third meal of Shabbat. This meal is optional.
+* **Challot and wine.** Delivered on Friday and included in the price. Shabbat candles are not included. Plata or koumkoum are on sale for Shabbat.
+* **Holidays.** Candles and lighting for Hanukkah, a meal for Purim, Pesach on request. The Megillah reading is on special request, with a contribution to costs.
 * **The nearest minyan.** We look for the nearest minyan for your dates, so that you pray where you stay.
 
 ## How it *works*
@@ -37,7 +37,7 @@ The meals are served at your chalet, or delivered to your apartment, chalet or h
 
    ### Tell us your dates
 
-   Send your resort, dates and number of people on WhatsApp. We reply the same day.
+   Send your resort, dates and number of people on WhatsApp, by the Wednesday evening before Shabbat. We reply the same day.
 2. **2**
 
    ### Receive a written quote
@@ -55,7 +55,7 @@ The meals are served at your chalet, or delivered to your apartment, chalet or h
 
 How much are the Shabbat meals?
 
-Friday dinner is 45 €, Saturday lunch 40 € and seouda shlishit 30 €, per person. Tell us your resort and we confirm in writing what applies to it.
+Friday dinner is 45 €, Saturday lunch 40 € and seouda shlishit 30 €, per person, at the same price in every resort. The seouda shlishit is optional. Delivery is added to the price of the meals and shared when several families order in the same resort.
 
 Can I reach you during Shabbat?
 
@@ -67,11 +67,11 @@ Kosher lamehadrin, certified by Beth Habad Grenoble-Alpes, Rav Yehia Lahiany. Th
 
 Do you provide meals for the holidays?
 
-We offer candles and lighting for Hanukkah, Megillah reading and a meal for Purim. Pesach is on request, with its own page. Tell us which holiday falls during your week.
+We offer candles and lighting for Hanukkah and a meal for Purim. The Megillah reading is on special request, with a contribution to costs. Pesach is on request, with its own page. Tell us which holiday falls during your week.
 
 Can the meals be delivered to my resort?
 
-Yes, to your apartment, chalet or hotel. Beyond 3 hours by road from Grenoble we do not deliver meals: a private chef is the option there.
+Yes, to your apartment, chalet or hotel, including Courchevel and Megève. Order by the Wednesday evening before Shabbat. A person alone orders the full Shabbat, Friday dinner and Saturday lunch. Beyond 3 hours by road from Grenoble we do not deliver meals: a private chef is the option there.
 
 Is there a minyan for Shabbat?
 

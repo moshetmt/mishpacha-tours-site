@@ -14,11 +14,11 @@ Chabbat et les fêtes, autour d'une table déjà dressée, en pleine montagne.
 
 **Trois repas de Chabbat**Dîner du vendredi, déjeuner du samedi et seouda chlichit, au prix par personne.
 
-**Hallot et vin**Ils vous sont livrés le vendredi, avec les bougies pour la soirée.
+**Hallot et vin**Ils vous sont livrés le vendredi, compris dans le prix.
 
 **Au chalet ou livrés**Repas de la semaine et de Chabbat, servis au chalet ou livrés chez vous.
 
-Une semaine à la montagne comprend souvent un Chabbat, parfois une fête. Mishpacha Tours organise les repas avec son équipe casher basée dans les Alpes : dîner du vendredi soir, déjeuner du samedi et seouda chlichit, chacun au prix par personne. Hallot et vin vous sont livrés le vendredi, les bougies sont fournies.
+Une semaine à la montagne comprend souvent un Chabbat, parfois une fête. Mishpacha Tours organise les repas avec son équipe casher basée dans les Alpes : dîner du vendredi soir, déjeuner du samedi et seouda chlichit, chacun au prix par personne, le même dans toutes les stations. Hallot et vin vous sont livrés le vendredi et sont compris ; les bougies de Chabbat ne le sont pas.
 
 Les repas sont servis à votre chalet, ou livrés à votre appartement, chalet ou hôtel, la semaine comme le Chabbat. Si une fête tombe pendant votre séjour, dites-nous laquelle. Nous répondons le jour même, jamais pendant Chabbat.
 
@@ -26,9 +26,9 @@ Les repas sont servis à votre chalet, ou livrés à votre appartement, chalet o
 
 * **Le dîner du vendredi soir.** 45 € par personne. Le premier repas de Chabbat, repas 'Halav Yisrael et service shomer Chabbat.
 * **Le déjeuner du samedi.** 40 € par personne, servi au chalet ou livré dans votre station.
-* **La seouda chlichit.** 30 € par personne, pour le troisième repas de Chabbat.
-* **Hallot et vin.** Livrés le vendredi, avec les bougies. Plata ou koumkoum en vente pour le Chabbat.
-* **Les fêtes.** Bougies et allumage de Hanouka, lecture de la Méguila et repas de Pourim, Pessah sur demande.
+* **La seouda chlichit.** 30 € par personne, pour le troisième repas de Chabbat. Ce repas est en option.
+* **Hallot et vin.** Livrés le vendredi, compris dans le prix. Les bougies de Chabbat ne sont pas comprises. Plata ou koumkoum en vente pour le Chabbat.
+* **Les fêtes.** Bougies et allumage de Hanouka, repas de Pourim, Pessah sur demande. La lecture de la Méguila se fait sur demande spéciale, avec une participation aux frais.
 * **Le minyan le plus proche.** Nous cherchons le minyan le plus proche pour vos dates, afin que vous priiez là où vous séjournez.
 
 ## Comment *ça se passe*
@@ -37,7 +37,7 @@ Les repas sont servis à votre chalet, ou livrés à votre appartement, chalet o
 
    ### Dites-nous vos dates
 
-   Envoyez-nous votre station, vos dates et le nombre de personnes sur WhatsApp. Réponse le jour même.
+   Envoyez-nous votre station, vos dates et le nombre de personnes sur WhatsApp, au plus tard le mercredi soir qui précède le Chabbat. Réponse le jour même.
 2. **2**
 
    ### Recevez un devis écrit
@@ -55,7 +55,7 @@ Les repas sont servis à votre chalet, ou livrés à votre appartement, chalet o
 
 Combien coûtent les repas de Chabbat ?
 
-Le dîner du vendredi coûte 45 €, le déjeuner du samedi 40 € et la seouda chlichit 30 €, par personne. Indiquez-nous votre station, nous confirmons par écrit ce qui s'y applique.
+Le dîner du vendredi coûte 45 €, le déjeuner du samedi 40 € et la seouda chlichit 30 €, par personne, au même prix dans toutes les stations. La seouda chlichit est en option. La livraison s'ajoute au prix des repas et se partage quand plusieurs familles commandent dans la même station.
 
 Peut-on vous joindre pendant Chabbat ?
 
@@ -67,11 +67,11 @@ Cacher lamehadrin, certifié par le Beth Habad de Grenoble-Alpes, Rav Yehia Lahi
 
 Proposez-vous des repas pour les fêtes ?
 
-Nous proposons bougies et allumage de Hanouka, lecture de la Méguila et repas de Pourim. Pessah se fait sur demande, avec sa page dédiée. Dites-nous quelle fête tombe pendant votre semaine.
+Nous proposons bougies et allumage de Hanouka et un repas de Pourim. La lecture de la Méguila se fait sur demande spéciale, avec une participation aux frais. Pessah se fait sur demande, avec sa page dédiée. Dites-nous quelle fête tombe pendant votre semaine.
 
 Les repas peuvent-ils être livrés dans ma station ?
 
-Oui, à votre appartement, chalet ou hôtel. Au-delà de 3 h de route de Grenoble, nous ne livrons pas de repas : la formule chef privé s'applique.
+Oui, à votre appartement, chalet ou hôtel, y compris à Courchevel et à Megève. Commandez au plus tard le mercredi soir qui précède le Chabbat. Une personne seule commande le Chabbat complet, dîner du vendredi et déjeuner du samedi. Au-delà de 3 h de route de Grenoble, nous ne livrons pas de repas : la formule chef privé s'applique.
 
 Y a-t-il un minyan pour Chabbat ?
 

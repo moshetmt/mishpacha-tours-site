@@ -14,7 +14,7 @@ Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
 **Chef privado o comidas a domicilio**La cocina queda kosherizada y cada comida de la semana está resuelta.
 
-**Shabat y fiestas, todo listo**Jalot, vino, velas y un minyan con Sefer Torá bajo pedido.
+**Shabat y fiestas, todo listo**Jalot y vino, y un minyan con Sefer Torá bajo pedido.
 
 **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 
@@ -46,7 +46,7 @@ Comidas: por persona y por día. Son precios de partida, según la estación y l
 
 - Entrega cada dos días, cualquier estación de Francia**de 180 a 360 €**
 - Kasherización de la cocina del chalé que alquila**Bajo pedido**
-- Chef privado kosher en su chalé, por día**desde 1.568 €**
+- Chef privado kosher en su chalé**A presupuesto, mínimo 4 días**
 
 ### Un chalé *para la semana*
 
@@ -58,7 +58,7 @@ Por chalé y por semana. Precios de partida: el precio para sus fechas llega por
 - [Chalet Flocon Doré, Courchevel](https://mishpachatours.com/es/kosher-chalet-courchevel/)**desde 17.500 €**
 - [Chalet Loup Blanc, cerca de Megève](https://mishpachatours.com/es/kosher-chalet-megeve/)**desde 23.500 €**
 
-Niños hasta 5 años: alrededor de un 30 % menos. La entrega se paga por viaje; cuando varios grupos están en la misma estación la misma semana, la comparten. Pedido a más tardar el miércoles por la noche, pago completo al hacer el pedido. Plata o kumkum a la venta para Shabat. Supervisión: Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
+Niños hasta 5 años: un 50 % menos. A partir de 6 años, tarifa completa. La entrega se paga por viaje; cuando varios grupos están en la misma estación la misma semana, la comparten. Pedido a más tardar el miércoles por la noche, pago completo al hacer el pedido. Plata o kumkum a la venta para Shabat. Supervisión: Beth Habad de Grenoble Alpes, rav Yehia Lahiany.
 
 [Pedir las comidas por WhatsApp](https://wa.me/33781823193?text=Hola%2C%20estaremos%20en%20los%20Alpes%20y%20querr%C3%ADamos%20comidas%20kosher%20a%20domicilio.%20Estaci%C3%B3n%3A%20/%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A)
 
@@ -122,7 +122,7 @@ Sí, cuando coinciden suficientes familias. El equipo las reúne y lleva un Sefe
 
 ¿Y Janucá, Purim o Pésaj en la montaña?
 
-Un encendido, una lectura de la Meguilá, una comida de Purim, Pésaj bajo petición: díganos qué fiesta cae en su semana y el equipo la organiza en la estación.
+Un encendido, una lectura de la Meguilá bajo petición especial, una comida de Purim, Pésaj bajo petición: díganos qué fiesta cae en su semana y el equipo la organiza en la estación.
 
 ¿Organizan ustedes el chalé?
 
@@ -134,7 +134,7 @@ Cuanto antes, y antes de las vacaciones escolares. Un chef para una semana se re
 
 ¿Cuánto cuesta?
 
-Las comidas a domicilio parten de 28 € por persona y día para la cena y de 78 € para la pensión completa, más la entrega; las comidas de Shabat cuestan de 30 a 45 €. Un chef privado parte de 1.568 € por día y un chalé de 9.500 € por semana. Recibe un presupuesto por escrito antes de comprometerse.
+Las comidas a domicilio parten de 28 € por persona y día para la cena y de 78 € para la pensión completa, más la entrega; las comidas de Shabat cuestan 45 € la cena del viernes, 40 € el almuerzo del sábado y 30 € la seudá shlishit, opcional. Un chef privado se presupuesta para su grupo, con un mínimo de 4 días. Un chalé parte de 9.500 € por semana, solo el chalé, con el chef y las comidas a presupuesto. Recibe un presupuesto por escrito antes de comprometerse.
 
 ## Su semana kosher en los Alpes, *organizada*.
 

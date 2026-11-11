@@ -1,4 +1,4 @@
-> A private kosher chef cooks in your chalet in the Alps: kashered kitchen, a menu built with you, every meal of the week. From €1,568 a day.
+> A private kosher chef cooks in your chalet in the Alps: kashered kitchen, a menu built with you, groceries included. On quote, 4 days minimum.
 
 Source: https://mishpachatours.com/private-kosher-chef-alps/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -20,7 +20,7 @@ You ski, the chef cooks, and a set table waits for you.
 
 A private chef cooks in your chalet, in a kitchen kashered for your stay, and takes care of all the meals of the week. The menu is built with you: tell us what your family eats and what you would like to taste. You ski, you walk, you rest, and a table is set when you come back.
 
-The price starts from €1,568 per day. Beyond three hours by road from Grenoble, in Verbier or elsewhere in Switzerland for example, meals are not delivered, so the private chef is the formula we offer. Switzerland, Italy and Austria are possible on request.
+The chef is priced on quote, for a minimum of 4 days; a single day is possible, at a higher price. Groceries are included, and the price depends on the number of guests. Exceptional products (champagne, fine wines, caviar, special cuts of meat) and mid-week deliveries are extra. Beyond three hours by road from Grenoble, in Verbier or elsewhere in Switzerland for example, meals are not delivered, so the private chef is the formula we offer. Switzerland, Italy and Austria are possible on request.
 
 ## What the chef *takes care of*
 
@@ -55,7 +55,7 @@ The price starts from €1,568 per day. Beyond three hours by road from Grenoble
 
 How much does a private kosher chef cost?
 
-A private chef starts from €1,568 per day. The price for your dates is sent to you in writing, with the quote, before any commitment.
+On quote, for a minimum of 4 days. A single day is possible, at a higher price. Groceries are included and the price depends on the number of guests. Exceptional products (champagne, fine wines, caviar, special cuts of meat) and mid-week deliveries are extra. The price for your dates is sent to you in writing, before any commitment.
 
 Is there a standard menu?
 

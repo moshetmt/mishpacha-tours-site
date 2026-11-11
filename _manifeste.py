@@ -16,7 +16,7 @@ TRAD = json.load(open("_manifeste_trad.json", encoding="utf-8")) if os.path.exis
 EN = dict(phrase="Ski by day. Come back to a set table, a minyan, and Shabbat ready.",
           phrase_station="Ski {x} by day. Come back to a set table, a minyan, and Shabbat ready.",
           lignes=[("A private chef, or meals delivered", "The kitchen is kashered, every meal of the week is taken care of."),
-                  ("Shabbat and the holidays, ready", "Challot, wine, candles, and a minyan with a Sefer Torah on request."),
+                  ("Shabbat and the holidays, ready", "Challot and wine, and a minyan with a Sefer Torah on request."),
                   ("One written quote, the same day", "Your resort, your dates, your group. One contact from start to finish.")])
 CHALETS = ("kosher-chalets", "kosher-chalet-les-deux-alpes", "kosher-chalet-courchevel", "kosher-slope-chalet-les-deux-alpes", "kosher-chalet-megeve", "kosher-chalet-val-thorens")
 

@@ -1,4 +1,4 @@
-> Piscine chauffée, hammam, bain nordique, jacuzzi ou sauna dans votre chalet privé casher. Masseur au chalet sur demande, sur un seul devis.
+> Piscine chauffée, hammam, bain nordique, jacuzzi ou sauna dans votre chalet privé casher. Masseur pour les hommes, masseuse pour les femmes, sur demande.
 
 Source: https://mishpachatours.com/fr/spa-massage-alps/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -10,25 +10,25 @@ Source: https://mishpachatours.com/fr/spa-massage-alps/ (HTML version). Every pa
 
 Eau chaude, calme et, à Megève, un spa face au Mont-Blanc.
 
-Rentrez des pistes vers l'eau chaude, les bougies et le silence.
+Rentrez des pistes vers l'eau chaude et le silence.
 
 **De l'eau au chalet**Piscines chauffées, hammam, bain nordique, jacuzzi ou sauna, selon le chalet.
 
 **Une vue sur la montagne**À Megève, le spa fait face au Mont-Blanc. Le reste de la soirée est calme.
 
-**Un seul devis écrit**Un masseur ou une pédicure au chalet, sur demande, figure sur votre devis unique.
+**Un seul devis écrit**Un masseur pour les hommes, une masseuse pour les femmes ou une pédicure au chalet, sur demande, figure sur votre devis unique.
 
 Nos chalets privés dans les Alpes françaises ont leur propre eau. Piscines chauffées et hammam à Courchevel, bain nordique dans un chalet, jacuzzi extérieur et sauna aux Menuires, sauna et jacuzzi près de Megève. Le chalet est casher, les repas sont servis à votre table, la soirée vous appartient.
 
-À Megève, le spa fait face au Mont-Blanc. La maison est silencieuse. Si vous souhaitez un masseur ou une pédicure au chalet, dites-le-nous. C'est sur demande, et cela rejoint le même devis que votre séjour.
+À Megève, le spa fait face au Mont-Blanc. La maison est silencieuse. Si vous souhaitez un massage ou une pédicure au chalet, dites-le-nous. Le massage est assuré par un masseur pour les hommes et une masseuse pour les femmes, dans toutes les stations. C'est sur demande, et cela rejoint le même devis que votre séjour.
 
 ## Ce que les chalets *proposent*
 
 * **Piscines chauffées et hammam.** À Courchevel, les chalets ont des piscines chauffées et un hammam. Vous rentrez du froid vers l'eau chaude, à toute heure.
-* **Bain nordique.** Un de nos chalets a un bain nordique. Dites-nous si vous le souhaitez, nous vérifions qu'il convient à vos dates.
+* **Bain nordique.** Le bain nordique est à Courchevel, dans le petit chalet. Dites-nous si vous le souhaitez, nous vérifions qu'il convient à vos dates.
 * **Jacuzzi, sauna et cinéma.** Aux Menuires, un jacuzzi extérieur, un sauna, un salon de jeux et une salle de cinéma rendent la soirée facile pour toute la famille.
 * **Sauna et jacuzzi à Megève.** Près de Megève, le chalet a un sauna et un jacuzzi. Le spa fait face au Mont-Blanc, avec sa vue sur la vallée.
-* **Masseur ou pédicure, sur demande.** Nous transmettons vos souhaits et vous disons ce qui est possible dans votre station. Aucune promesse avant vérification.
+* **Massage ou pédicure, sur demande.** Un masseur pour les hommes et une masseuse pour les femmes, dans toutes les stations. Nous transmettons vos souhaits et vous disons ce qui est possible. Aucune promesse avant vérification.
 * **Un devis pour tout.** Chalet, repas et chaque service demandé figurent sur un seul devis, envoyé avant tout engagement.
 
 ## Comment ça *marche*
@@ -55,11 +55,11 @@ Nos chalets privés dans les Alpes françaises ont leur propre eau. Piscines cha
 
 Quels chalets ont un spa ?
 
-Cela dépend du chalet. Piscines chauffées et hammam à Courchevel, jacuzzi et sauna aux Menuires et près de Megève, bain nordique dans un chalet. Donnez-nous votre station, nous vous disons ce qui s'y trouve.
+Cela dépend du chalet. Piscines chauffées et hammam à Courchevel, jacuzzi et sauna aux Menuires et près de Megève, bain nordique dans le petit chalet de Courchevel. Donnez-nous votre station, nous vous disons ce qui s'y trouve.
 
 Puis-je réserver un masseur au chalet ?
 
-Oui, sur demande. Nous ne pouvons pas promettre une disponibilité avant d'avoir vérifié votre station et vos dates. Dites-nous vos souhaits, nous vous disons ce qui est possible. Cela figure sur le même devis que votre séjour.
+Oui, sur demande, dans toutes les stations. Le massage est assuré par un masseur pour les hommes et une masseuse pour les femmes. Nous ne pouvons pas promettre une disponibilité avant d'avoir vérifié votre station et vos dates. Cela figure sur le même devis que votre séjour.
 
 Combien cela coûte-t-il ?
 
@@ -67,7 +67,7 @@ Les semaines de chalet démarrent à partir de 9 500 € par chalet. Le masseur 
 
 Et le Chabbat ?
 
-Nous répondons tous les jours sauf le Chabbat. Les repas et le service du chalet sont shomer Chabbat. Pour l'usage du spa ou un rendez-vous le Chabbat, demandez-le-nous en écrivant, nous vous confirmons.
+Nous répondons tous les jours sauf le Chabbat. Les repas et le service du chalet sont shomer Chabbat.
 
 La cuisine est-elle casher ?
 

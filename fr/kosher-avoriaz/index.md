@@ -16,7 +16,7 @@ Skiez à Avoriaz le jour. Rentrez à pied vers une table dressée, un minyan et 
 
 **Un chef privé, des repas sur demande**La cuisine est cachérisée, et les repas de la semaine se préparent avec vous.
 
-**Chabbat et fêtes, préparés**Hallot, vin, bougies, et un minyan avec Sefer Torah sur demande.
+**Chabbat et fêtes, préparés**Hallot et vin, et un minyan avec Sefer Torah sur demande.
 
 **Un devis écrit, le jour même**Votre station, vos dates, votre groupe. Un seul interlocuteur du début à la fin.
 

@@ -26,7 +26,7 @@ Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 Two adjoining chalets that connect inside, rented whole or by half: nine suites, each with its own shower room, for up to 21 guests. The slopes are one minute away on foot. An outdoor jacuzzi facing the peaks, two living rooms with a fireplace. A private chef, Shabbat and minyan, arranged for you.
 
 - **A private chef, or meals delivered**The kitchen is kashered, every meal of the week is taken care of.
-- **Shabbat and the holidays, ready**Challot, wine, candles, and a minyan with a Sefer Torah on request.
+- **Shabbat and the holidays, ready**Challot and wine, and a minyan with a Sefer Torah on request.
 - **One written quote, the same day**Your resort, your dates, your group. One contact from start to finish.
 
 ## The chalet, in short

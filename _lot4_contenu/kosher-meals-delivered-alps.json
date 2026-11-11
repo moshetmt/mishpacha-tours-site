@@ -36,7 +36,7 @@
    ],
    [
     "Dinner only.",
-    "Starter, main course and dessert, from €28 per person per day. Children up to age 5 pay about 30% less."
+    "Starter, main course and dessert, from €28 per person per day. Children up to age 5 pay 50% less; from age 6, full price."
    ],
    [
     "Delivery every two days.",
@@ -44,11 +44,11 @@
    ],
    [
     "Shabbat meals.",
-    "Friday dinner €45, Saturday lunch €40, seudah shlishit €30, per person. Challot and wine are delivered on Friday, and candles are provided. A plata or a kumkum is on sale."
+    "Friday dinner €45, Saturday lunch €40, seudah shlishit €30 (optional), per person. Challot and wine are delivered on Friday and included. Shabbat candles are not included. A plata or a kumkum is on sale."
    ],
    [
     "Festivals.",
-    "Hanukkah candles and lighting, the reading of the Megillah and the meal for Purim, and Pesach on request. Tell us which festival falls during your week."
+    "Hanukkah candles and lighting, the meal for Purim, and Pesach on request. The reading of the Megillah is on special request, with a contribution to costs. Tell us which festival falls during your week."
    ],
    [
     "A pizza evening for groups.",
@@ -70,7 +70,7 @@
    ],
    [
     "Order by Wednesday evening",
-    "Orders are taken by Wednesday evening at the latest, with full payment at the time of order. The meals then arrive every two days."
+    "Orders are taken by Wednesday evening at the latest, the one before the Shabbat concerned, with full payment at the time of order. The meals then arrive every two days."
    ]
   ],
   "faq_titre": [
@@ -80,7 +80,7 @@
   "faq": [
    [
     "How much do the meals cost?",
-    "Per person and per day: the full formula, morning, midday and evening, from €78, and dinner alone, with starter, main course and dessert, from €28. Starting prices vary by resort and season. Children up to age 5 pay about 30% less."
+    "Per person and per day: the full formula, morning, midday and evening, from €78, and dinner alone, with starter, main course and dessert, from €28. Starting prices vary by resort and season. Children up to age 5 pay 50% less; from age 6, full price."
    ],
    [
     "How does delivery work?",
@@ -88,7 +88,7 @@
    ],
    [
     "Can I order for Shabbat?",
-    "Yes. Friday dinner is €45, Saturday lunch €40 and seudah shlishit €30 per person. Challot and wine are delivered on Friday. We also tell you the nearest minyan for your dates."
+    "Yes. Friday dinner is €45, Saturday lunch €40 and seudah shlishit €30 (optional), per person, at the same price in every resort. Challot and wine are delivered on Friday and included; candles are not. Order by the Wednesday evening before Shabbat. Delivery to Courchevel and Megève is confirmed: its cost is added to the price of the meals and shared when several families order in the same resort. A person alone orders the full Shabbat, Friday dinner and Saturday lunch. We also tell you the nearest minyan for your dates."
    ],
    [
     "Who certifies the kosher?",
@@ -96,7 +96,7 @@
    ],
    [
     "When do I have to order?",
-    "Orders are taken by Wednesday evening at the latest, with full payment at the time of order. Send us your dates early and we confirm what is possible in your resort."
+    "Orders are taken by Wednesday evening at the latest, the one before the Shabbat concerned, with full payment at the time of order. Send us your dates early and we confirm what is possible in your resort."
    ],
    [
     "Do you serve groups?",
@@ -147,7 +147,7 @@
    ],
    [
     "Le soir seul.",
-    "Entrée, plat et dessert, à partir de 28 € par personne et par jour. Les enfants jusqu'à 5 ans paient environ 30 % de moins."
+    "Entrée, plat et dessert, à partir de 28 € par personne et par jour. Les enfants jusqu'à 5 ans paient 50 % de moins ; à partir de 6 ans, plein tarif."
    ],
    [
     "Une livraison tous les deux jours.",
@@ -155,11 +155,11 @@
    ],
    [
     "Les repas de Chabbat.",
-    "Dîner du vendredi soir 45 €, déjeuner du samedi 40 €, seouda chlichit 30 €, par personne. Hallot et vin livrés le vendredi, bougies fournies. Une plata ou un koumkoum sont en vente."
+    "Dîner du vendredi soir 45 €, déjeuner du samedi 40 €, seouda chlichit 30 € (en option), par personne. Hallot et vin livrés le vendredi et compris. Les bougies de Chabbat ne sont pas comprises. Une plata ou un koumkoum sont en vente."
    ],
    [
     "Les fêtes.",
-    "Bougies et allumage de Hanouka, lecture de la Méguila et repas de Pourim, Pessah sur demande. Dites-nous quelle fête tombe pendant votre semaine."
+    "Bougies et allumage de Hanouka, repas de Pourim, Pessah sur demande. La lecture de la Méguila se fait sur demande spéciale, avec une participation aux frais. Dites-nous quelle fête tombe pendant votre semaine."
    ],
    [
     "Une soirée pizza pour les groupes.",
@@ -181,7 +181,7 @@
    ],
    [
     "Commandez avant mercredi soir",
-    "La commande se prend au plus tard le mercredi soir, avec paiement complet à la commande. Les repas arrivent ensuite tous les deux jours."
+    "La commande se prend au plus tard le mercredi soir qui précède le Chabbat concerné, avec paiement complet à la commande. Les repas arrivent ensuite tous les deux jours."
    ]
   ],
   "faq_titre": [
@@ -191,7 +191,7 @@
   "faq": [
    [
     "Combien coûtent les repas ?",
-    "Par personne et par jour : formule complète (matin, midi, soir) à partir de 78 €, soir seul (entrée, plat, dessert) à partir de 28 €. Prix de départ selon station et saison. Enfants jusqu'à 5 ans : environ 30 % de moins."
+    "Par personne et par jour : formule complète (matin, midi, soir) à partir de 78 €, soir seul (entrée, plat, dessert) à partir de 28 €. Prix de départ selon station et saison. Enfants jusqu'à 5 ans : 50 % de moins ; à partir de 6 ans, plein tarif."
    ],
    [
     "Comment fonctionne la livraison ?",
@@ -199,7 +199,7 @@
    ],
    [
     "Peut-on commander pour Chabbat ?",
-    "Oui. Le dîner du vendredi soir est à 45 €, le déjeuner du samedi à 40 € et la seouda chlichit à 30 €, par personne. Hallot et vin sont livrés le vendredi. Nous vous indiquons aussi le minyan le plus proche pour vos dates."
+    "Oui. Le dîner du vendredi soir est à 45 €, le déjeuner du samedi à 40 € et la seouda chlichit à 30 € (en option), par personne, au même prix dans toutes les stations. Hallot et vin sont livrés le vendredi et compris ; les bougies ne le sont pas. Commandez au plus tard le mercredi soir qui précède le Chabbat. La livraison à Courchevel et à Megève est confirmée : son coût s'ajoute au prix des repas et se partage quand plusieurs familles commandent dans la même station. Une personne seule commande le Chabbat complet, dîner du vendredi et déjeuner du samedi. Nous vous indiquons aussi le minyan le plus proche pour vos dates."
    ],
    [
     "Qui certifie le casher ?",
@@ -207,7 +207,7 @@
    ],
    [
     "Quand faut-il commander ?",
-    "La commande se prend au plus tard le mercredi soir, avec paiement complet à la commande. Envoyez-nous vos dates tôt et nous confirmons ce qui est possible dans votre station."
+    "La commande se prend au plus tard le mercredi soir qui précède le Chabbat concerné, avec paiement complet à la commande. Envoyez-nous vos dates tôt et nous confirmons ce qui est possible dans votre station."
    ],
    [
     "Servez-vous les groupes ?",
@@ -258,7 +258,7 @@
    ],
    [
     "Solo la cena.",
-    "Entrante, plato principal y postre, desde 28 € por persona y día. Los niños hasta 5 años pagan aproximadamente un 30 % menos."
+    "Entrante, plato principal y postre, desde 28 € por persona y día. Los niños hasta 5 años pagan un 50 % menos; a partir de 6 años, tarifa completa."
    ],
    [
     "Entrega cada dos días.",
@@ -266,11 +266,11 @@
    ],
    [
     "Las comidas de Shabat.",
-    "Cena del viernes 45 €, almuerzo del sábado 40 €, seudá shlishit 30 €, por persona. Jalot y vino se entregan el viernes y se incluyen velas. Hay una plata o un kumkum en venta."
+    "Cena del viernes 45 €, almuerzo del sábado 40 €, seudá shlishit 30 € (opcional), por persona. Jalot y vino se entregan el viernes y están incluidos. Las velas de Shabat no están incluidas. Hay una plata o un kumkum en venta."
    ],
    [
     "Las fiestas.",
-    "Velas y encendido de Janucá, lectura de la Meguilá y comida de Purim, Pésaj bajo petición. Díganos qué fiesta cae durante su semana."
+    "Velas y encendido de Janucá, comida de Purim, Pésaj bajo petición. La lectura de la Meguilá se hace bajo petición especial, con una participación en los gastos. Díganos qué fiesta cae durante su semana."
    ],
    [
     "Una noche de pizza para grupos.",
@@ -292,7 +292,7 @@
    ],
    [
     "Pida antes del miércoles por la noche",
-    "El pedido se hace a más tardar el miércoles por la noche, con pago completo al pedir. Las comidas llegan después cada dos días."
+    "El pedido se hace a más tardar el miércoles por la noche que precede al Shabat en cuestión, con pago completo al pedir. Las comidas llegan después cada dos días."
    ]
   ],
   "faq_titre": [
@@ -302,7 +302,7 @@
   "faq": [
    [
     "¿Cuánto cuestan las comidas?",
-    "Por persona y por día: la fórmula completa, mañana, mediodía y noche, desde 78 €, y solo la cena, con entrante, plato principal y postre, desde 28 €. Los precios de partida varían según la estación y la temporada. Los niños hasta 5 años pagan aproximadamente un 30 % menos."
+    "Por persona y por día: la fórmula completa, mañana, mediodía y noche, desde 78 €, y solo la cena, con entrante, plato principal y postre, desde 28 €. Los precios de partida varían según la estación y la temporada. Los niños hasta 5 años pagan un 50 % menos; a partir de 6 años, tarifa completa."
    ],
    [
     "¿Cómo funciona la entrega?",
@@ -310,7 +310,7 @@
    ],
    [
     "¿Se puede pedir para Shabat?",
-    "Sí. La cena del viernes cuesta 45 €, el almuerzo del sábado 40 € y la seudá shlishit 30 €, por persona. Jalot y vino se entregan el viernes. También le indicamos el minyan más cercano para sus fechas."
+    "Sí. La cena del viernes cuesta 45 €, el almuerzo del sábado 40 € y la seudá shlishit 30 € (opcional), por persona, al mismo precio en todas las estaciones. Jalot y vino se entregan el viernes y están incluidos; las velas no. Pida a más tardar el miércoles por la noche que precede al Shabat. La entrega en Courchevel y Megève está confirmada: su coste se suma al precio de las comidas y se reparte cuando varias familias piden en la misma estación. Una persona sola pide el Shabat completo, cena del viernes y almuerzo del sábado. También le indicamos el minyan más cercano para sus fechas."
    ],
    [
     "¿Quién certifica lo kosher?",
@@ -318,7 +318,7 @@
    ],
    [
     "¿Cuándo hay que pedir?",
-    "El pedido se hace a más tardar el miércoles por la noche, con pago completo al pedir. Envíenos sus fechas con tiempo y le confirmamos lo que es posible en su estación."
+    "El pedido se hace a más tardar el miércoles por la noche que precede al Shabat en cuestión, con pago completo al pedir. Envíenos sus fechas con tiempo y le confirmamos lo que es posible en su estación."
    ],
    [
     "¿Atienden a grupos?",
@@ -369,7 +369,7 @@
    ],
    [
     "ארוחת ערב בלבד.",
-    "ראשונה, מנה עיקרית וקינוח, החל מ-28 € לאדם ליום. ילדים עד גיל 5 משלמים בערך 30% פחות."
+    "ראשונה, מנה עיקרית וקינוח, החל מ-28 € לאדם ליום. ילדים עד גיל 5 משלמים חצי מחיר; מגיל 6, מחיר מלא."
    ],
    [
     "משלוח אחת לשני ימים.",
@@ -377,11 +377,11 @@
    ],
    [
     "ארוחות שבת.",
-    "ארוחת ליל שבת 45 €, ארוחת צהריים בשבת 40 €, סעודה שלישית 30 €, לאדם. חלות ויין מגיעים ביום שישי ונרות כלולים. פלטה או קומקום זמינים לרכישה."
+    "ארוחת ליל שבת 45 €, ארוחת צהריים בשבת 40 €, סעודה שלישית 30 € (אופציונלית), לאדם. חלות ויין מגיעים ביום שישי וכלולים. נרות שבת אינם כלולים. פלטה או קומקום זמינים לרכישה."
    ],
    [
     "חגים.",
-    "נרות והדלקה בחנוכה, קריאת מגילה וארוחה בפורים, ופסח לפי בקשה. ספרו לנו איזה חג חל בשבוע שלכם."
+    "נרות והדלקה בחנוכה, וארוחה בפורים, ופסח לפי בקשה. קריאת המגילה בבקשה מיוחדת, בהשתתפות בעלויות. ספרו לנו איזה חג חל בשבוע שלכם."
    ],
    [
     "ערב פיצה לקבוצות.",
@@ -403,7 +403,7 @@
    ],
    [
     "הזמינו עד יום רביעי בערב",
-    "ההזמנה מתקבלת עד יום רביעי בערב, והתשלום המלא הוא בעת ההזמנה. אחר כך הארוחות מגיעות אחת לשני ימים."
+    "ההזמנה מתקבלת עד יום רביעי בערב, זה שלפני השבת הרלוונטית, והתשלום המלא הוא בעת ההזמנה. אחר כך הארוחות מגיעות אחת לשני ימים."
    ]
   ],
   "faq_titre": [
@@ -413,7 +413,7 @@
   "faq": [
    [
     "כמה עולות הארוחות?",
-    "לאדם וליום: החבילה המלאה, בוקר, צהריים וערב, החל מ-78 €, וארוחת ערב בלבד, עם ראשונה, מנה עיקרית וקינוח, החל מ-28 €. המחירים משתנים לפי אתר הסקי והעונה. ילדים עד גיל 5 משלמים בערך 30% פחות."
+    "לאדם וליום: החבילה המלאה, בוקר, צהריים וערב, החל מ-78 €, וארוחת ערב בלבד, עם ראשונה, מנה עיקרית וקינוח, החל מ-28 €. המחירים משתנים לפי אתר הסקי והעונה. ילדים עד גיל 5 משלמים חצי מחיר; מגיל 6, מחיר מלא."
    ],
    [
     "איך עובד המשלוח?",
@@ -421,7 +421,7 @@
    ],
    [
     "אפשר להזמין לשבת?",
-    "כן. ארוחת ליל שבת עולה 45 €, ארוחת צהריים בשבת 40 € וסעודה שלישית 30 €, לאדם. חלות ויין מגיעים ביום שישי. נגיד לכם גם איפה המניין הקרוב ביותר בתאריכים שלכם."
+    "כן. ארוחת ליל שבת עולה 45 €, ארוחת צהריים בשבת 40 € וסעודה שלישית 30 € (אופציונלית), לאדם, באותו מחיר בכל אתרי הסקי. חלות ויין מגיעים ביום שישי וכלולים; נרות אינם כלולים. הזמינו עד יום רביעי בערב שלפני השבת. משלוח לקורשבל ולמג'ב מאושר: עלותו מתווספת למחיר הארוחות ומתחלקת כשכמה משפחות מזמינות באותו אתר. אדם יחיד מזמין שבת מלאה, ארוחת ליל שבת וארוחת צהריים בשבת. נגיד לכם גם איפה המניין הקרוב ביותר בתאריכים שלכם."
    ],
    [
     "מי נותן את ההכשר?",
@@ -429,7 +429,7 @@
    ],
    [
     "מתי צריך להזמין?",
-    "ההזמנה מתקבלת עד יום רביעי בערב, והתשלום המלא הוא בעת ההזמנה. שלחו לנו את התאריכים מוקדם ונאשר מה אפשרי באתר הסקי שלכם."
+    "ההזמנה מתקבלת עד יום רביעי בערב, זה שלפני השבת הרלוונטית, והתשלום המלא הוא בעת ההזמנה. שלחו לנו את התאריכים מוקדם ונאשר מה אפשרי באתר הסקי שלכם."
    ],
    [
     "אתם משרתים קבוצות?",

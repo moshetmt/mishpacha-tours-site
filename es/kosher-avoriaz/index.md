@@ -16,7 +16,7 @@ Esquíe en Avoriaz de día. Vuelva a pie a una mesa servida, un minián y el Sha
 
 **Chef privado, comidas bajo petición**La cocina está kosherizada y las comidas de la semana se preparan con ustedes.
 
-**Shabat y fiestas, todo listo**Jalot, vino, velas y un minyan con Sefer Torá bajo pedido.
+**Shabat y fiestas, todo listo**Jalot y vino, y un minyan con Sefer Torá bajo pedido.
 
 **Un presupuesto escrito, el mismo día**Su estación, sus fechas, su grupo. Un solo contacto de principio a fin.
 

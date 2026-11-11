@@ -1,12 +1,12 @@
 {
  "en": {
   "title": "Spa and massage at a kosher chalet in the French Alps",
-  "description": "Heated pool, hammam, Nordic bath, jacuzzi or sauna at your private kosher chalet. Masseur at the chalet on request, on one written quote.",
+  "description": "Heated pool, hammam, Nordic bath, jacuzzi or sauna at your private kosher chalet. A masseur for men, a masseuse for women, on request.",
   "h1": "Spa and massage",
   "h1_i": "at the chalet",
   "hero_sub": "Warm water, quiet rooms and, in Megève, a spa facing the Mont-Blanc.",
   "wa": "Hello, I would like to know about the spa and massage options at a kosher chalet. Resort: / Dates: / Number of people:",
-  "phrase": "Come back from the slopes to warm water, candles and silence.",
+  "phrase": "Come back from the slopes to warm water and silence.",
   "trois": [
    [
     "Water at the chalet",
@@ -18,12 +18,12 @@
    ],
    [
     "One written quote",
-    "A masseur or pedicurist at the chalet, on request, appears on your single quote."
+    "A masseur for men, a masseuse for women or a pedicurist at the chalet, on request, appears on your single quote."
    ]
   ],
   "intro": [
    "Our private chalets in the French Alps have their own water. Heated pools and a hammam in Courchevel, a Nordic bath in one chalet, an outdoor jacuzzi and a sauna in Les Menuires, a sauna and a jacuzzi near Megève. The chalet is kosher, the meals are served at your table, and the evening is yours.",
-   "In Megève, the spa faces the Mont-Blanc. The house is silent. If you would like a masseur or a pedicurist at the chalet, tell us. It is on request, and it joins the same quote as your stay."
+   "In Megève, the spa faces the Mont-Blanc. The house is silent. If you would like a massage or a pedicurist at the chalet, tell us. The massage is given by a masseur for men and a masseuse for women, in every resort. It is on request, and it joins the same quote as your stay."
   ],
   "inclus_titre": [
    "What the chalets",
@@ -36,7 +36,7 @@
    ],
    [
     "Nordic bath.",
-    "One of our chalets has a Nordic bath. Tell us if you would like it, and we check it fits your dates."
+    "The Nordic bath is in Courchevel, in the small chalet. Tell us if you would like it, and we check it fits your dates."
    ],
    [
     "Jacuzzi, sauna and cinema.",
@@ -47,8 +47,8 @@
     "Near Megève, the chalet has a sauna and a jacuzzi. The spa faces the Mont-Blanc, with its view over the valley."
    ],
    [
-    "Masseur or pedicurist, on request.",
-    "We pass on your wishes and tell you what is possible in your resort. No promise is made before we have checked."
+    "Massage or pedicurist, on request.",
+    "A masseur for men and a masseuse for women, in every resort. We pass on your wishes and tell you what is possible. No promise is made before we have checked."
    ],
    [
     "One quote for everything.",
@@ -80,11 +80,11 @@
   "faq": [
    [
     "Which chalets have a spa?",
-    "It depends on the chalet. Heated pools and a hammam in Courchevel, a jacuzzi and a sauna in Les Menuires and near Megève, a Nordic bath in one chalet. Tell us your resort, we tell you what is there."
+    "It depends on the chalet. Heated pools and a hammam in Courchevel, a jacuzzi and a sauna in Les Menuires and near Megève, a Nordic bath in the small chalet in Courchevel. Tell us your resort, we tell you what is there."
    ],
    [
     "Can I book a masseur at the chalet?",
-    "Yes, on request. We cannot promise availability before checking your resort and dates. Tell us what you would like, and we tell you what is possible. It appears on the same quote as your stay."
+    "Yes, on request, in every resort. The massage is given by a masseur for men and a masseuse for women. We cannot promise availability before checking your resort and dates. It appears on the same quote as your stay."
    ],
    [
     "How much does it cost?",
@@ -92,7 +92,7 @@
    ],
    [
     "What about Shabbat?",
-    "We reply every day except Shabbat. Meals and service at the chalet are shomer Shabbat. For the use of the spa and any appointment on Shabbat, ask us when you write and we confirm."
+    "We reply every day except Shabbat. Meals and service at the chalet are shomer Shabbat."
    ],
    [
     "Is the food kosher?",
@@ -108,12 +108,12 @@
  },
  "fr": {
   "title": "Spa et massage au chalet casher dans les Alpes françaises",
-  "description": "Piscine chauffée, hammam, bain nordique, jacuzzi ou sauna dans votre chalet privé casher. Masseur au chalet sur demande, sur un seul devis.",
+  "description": "Piscine chauffée, hammam, bain nordique, jacuzzi ou sauna dans votre chalet privé casher. Masseur pour les hommes, masseuse pour les femmes, sur demande.",
   "h1": "Spa et massage",
   "h1_i": "au chalet",
   "hero_sub": "Eau chaude, calme et, à Megève, un spa face au Mont-Blanc.",
   "wa": "Bonjour, je souhaite des informations sur le spa et le massage dans un chalet casher. Station : / Dates : / Nombre de personnes :",
-  "phrase": "Rentrez des pistes vers l'eau chaude, les bougies et le silence.",
+  "phrase": "Rentrez des pistes vers l'eau chaude et le silence.",
   "trois": [
    [
     "De l'eau au chalet",
@@ -125,12 +125,12 @@
    ],
    [
     "Un seul devis écrit",
-    "Un masseur ou une pédicure au chalet, sur demande, figure sur votre devis unique."
+    "Un masseur pour les hommes, une masseuse pour les femmes ou une pédicure au chalet, sur demande, figure sur votre devis unique."
    ]
   ],
   "intro": [
    "Nos chalets privés dans les Alpes françaises ont leur propre eau. Piscines chauffées et hammam à Courchevel, bain nordique dans un chalet, jacuzzi extérieur et sauna aux Menuires, sauna et jacuzzi près de Megève. Le chalet est casher, les repas sont servis à votre table, la soirée vous appartient.",
-   "À Megève, le spa fait face au Mont-Blanc. La maison est silencieuse. Si vous souhaitez un masseur ou une pédicure au chalet, dites-le-nous. C'est sur demande, et cela rejoint le même devis que votre séjour."
+   "À Megève, le spa fait face au Mont-Blanc. La maison est silencieuse. Si vous souhaitez un massage ou une pédicure au chalet, dites-le-nous. Le massage est assuré par un masseur pour les hommes et une masseuse pour les femmes, dans toutes les stations. C'est sur demande, et cela rejoint le même devis que votre séjour."
   ],
   "inclus_titre": [
    "Ce que les chalets",
@@ -143,7 +143,7 @@
    ],
    [
     "Bain nordique.",
-    "Un de nos chalets a un bain nordique. Dites-nous si vous le souhaitez, nous vérifions qu'il convient à vos dates."
+    "Le bain nordique est à Courchevel, dans le petit chalet. Dites-nous si vous le souhaitez, nous vérifions qu'il convient à vos dates."
    ],
    [
     "Jacuzzi, sauna et cinéma.",
@@ -154,8 +154,8 @@
     "Près de Megève, le chalet a un sauna et un jacuzzi. Le spa fait face au Mont-Blanc, avec sa vue sur la vallée."
    ],
    [
-    "Masseur ou pédicure, sur demande.",
-    "Nous transmettons vos souhaits et vous disons ce qui est possible dans votre station. Aucune promesse avant vérification."
+    "Massage ou pédicure, sur demande.",
+    "Un masseur pour les hommes et une masseuse pour les femmes, dans toutes les stations. Nous transmettons vos souhaits et vous disons ce qui est possible. Aucune promesse avant vérification."
    ],
    [
     "Un devis pour tout.",
@@ -187,11 +187,11 @@
   "faq": [
    [
     "Quels chalets ont un spa ?",
-    "Cela dépend du chalet. Piscines chauffées et hammam à Courchevel, jacuzzi et sauna aux Menuires et près de Megève, bain nordique dans un chalet. Donnez-nous votre station, nous vous disons ce qui s'y trouve."
+    "Cela dépend du chalet. Piscines chauffées et hammam à Courchevel, jacuzzi et sauna aux Menuires et près de Megève, bain nordique dans le petit chalet de Courchevel. Donnez-nous votre station, nous vous disons ce qui s'y trouve."
    ],
    [
     "Puis-je réserver un masseur au chalet ?",
-    "Oui, sur demande. Nous ne pouvons pas promettre une disponibilité avant d'avoir vérifié votre station et vos dates. Dites-nous vos souhaits, nous vous disons ce qui est possible. Cela figure sur le même devis que votre séjour."
+    "Oui, sur demande, dans toutes les stations. Le massage est assuré par un masseur pour les hommes et une masseuse pour les femmes. Nous ne pouvons pas promettre une disponibilité avant d'avoir vérifié votre station et vos dates. Cela figure sur le même devis que votre séjour."
    ],
    [
     "Combien cela coûte-t-il ?",
@@ -199,7 +199,7 @@
    ],
    [
     "Et le Chabbat ?",
-    "Nous répondons tous les jours sauf le Chabbat. Les repas et le service du chalet sont shomer Chabbat. Pour l'usage du spa ou un rendez-vous le Chabbat, demandez-le-nous en écrivant, nous vous confirmons."
+    "Nous répondons tous les jours sauf le Chabbat. Les repas et le service du chalet sont shomer Chabbat."
    ],
    [
     "La cuisine est-elle casher ?",
@@ -215,12 +215,12 @@
  },
  "es": {
   "title": "Spa y masaje en un chalet kosher de los Alpes franceses",
-  "description": "Piscina climatizada, hammam, baño nórdico, jacuzzi o sauna en su chalet privado kosher. Masajista en el chalet bajo petición, en un solo presupuesto.",
+  "description": "Piscina climatizada, hammam, baño nórdico, jacuzzi o sauna en su chalet privado kosher. Masajista para hombres y masajista para mujeres, bajo petición.",
   "h1": "Spa y masaje",
   "h1_i": "en el chalet",
   "hero_sub": "Agua caliente, calma y, en Megève, un spa frente al Mont Blanc.",
   "wa": "Hola, quisiera información sobre el spa y el masaje en un chalet kosher. Estación: / Fechas: / Número de personas:",
-  "phrase": "Vuelva de las pistas al agua caliente, las velas y el silencio.",
+  "phrase": "Vuelva de las pistas al agua caliente y al silencio.",
   "trois": [
    [
     "Agua en el chalet",
@@ -232,12 +232,12 @@
    ],
    [
     "Un solo presupuesto escrito",
-    "Un masajista o pedicura en el chalet, bajo petición, figura en su presupuesto único."
+    "Un masajista para hombres, una masajista para mujeres o una pedicura en el chalet, bajo petición, figura en su presupuesto único."
    ]
   ],
   "intro": [
    "Nuestros chalets privados en los Alpes franceses tienen su propia agua. Piscinas climatizadas y hammam en Courchevel, un baño nórdico en un chalet, jacuzzi exterior y sauna en Les Menuires, sauna y jacuzzi cerca de Megève. El chalet es kosher, las comidas se sirven en su mesa y la tarde es suya.",
-   "En Megève, el spa mira al Mont Blanc. La casa está en silencio. Si desea un masajista o una pedicura en el chalet, díganoslo. Es bajo petición y se suma al mismo presupuesto que su estancia."
+   "En Megève, el spa mira al Mont Blanc. La casa está en silencio. Si desea un masaje o una pedicura en el chalet, díganoslo. El masaje lo da un masajista para los hombres y una masajista para las mujeres, en todas las estaciones. Es bajo petición y se suma al mismo presupuesto que su estancia."
   ],
   "inclus_titre": [
    "Lo que ofrecen",
@@ -250,7 +250,7 @@
    ],
    [
     "Baño nórdico.",
-    "Uno de nuestros chalets tiene un baño nórdico. Díganos si lo desea y comprobamos que encaje con sus fechas."
+    "El baño nórdico está en Courchevel, en el chalet pequeño. Díganos si lo desea y comprobamos que encaje con sus fechas."
    ],
    [
     "Jacuzzi, sauna y cine.",
@@ -261,8 +261,8 @@
     "Cerca de Megève, el chalet tiene sauna y jacuzzi. El spa mira al Mont Blanc, con su vista sobre el valle."
    ],
    [
-    "Masajista o pedicura, bajo petición.",
-    "Transmitimos sus deseos y le decimos qué es posible en su estación. No prometemos nada antes de comprobarlo."
+    "Masaje o pedicura, bajo petición.",
+    "Un masajista para los hombres y una masajista para las mujeres, en todas las estaciones. Transmitimos sus deseos y le decimos qué es posible. No prometemos nada antes de comprobarlo."
    ],
    [
     "Un presupuesto para todo.",
@@ -294,11 +294,11 @@
   "faq": [
    [
     "¿Qué chalets tienen spa?",
-    "Depende del chalet. Piscinas climatizadas y hammam en Courchevel, jacuzzi y sauna en Les Menuires y cerca de Megève, baño nórdico en un chalet. Indíquenos su estación y le decimos qué hay."
+    "Depende del chalet. Piscinas climatizadas y hammam en Courchevel, jacuzzi y sauna en Les Menuires y cerca de Megève, baño nórdico en el chalet pequeño de Courchevel. Indíquenos su estación y le decimos qué hay."
    ],
    [
     "¿Puedo reservar un masajista en el chalet?",
-    "Sí, bajo petición. No podemos prometer disponibilidad antes de comprobar su estación y sus fechas. Díganos lo que desea y le decimos qué es posible. Figura en el mismo presupuesto que su estancia."
+    "Sí, bajo petición, en todas las estaciones. El masaje lo da un masajista para los hombres y una masajista para las mujeres. No podemos prometer disponibilidad antes de comprobar su estación y sus fechas. Figura en el mismo presupuesto que su estancia."
    ],
    [
     "¿Cuánto cuesta?",
@@ -306,7 +306,7 @@
    ],
    [
     "¿Y el Shabat?",
-    "Respondemos todos los días excepto el Shabat. Las comidas y el servicio del chalet son shomer Shabat. Para usar el spa o una cita en Shabat, pregúntenoslo al escribir y se lo confirmamos."
+    "Respondemos todos los días excepto el Shabat. Las comidas y el servicio del chalet son shomer Shabat."
    ],
    [
     "¿La comida es kosher?",
@@ -322,12 +322,12 @@
  },
  "he": {
   "title": "ספא ועיסוי בצ'אלה כשר באלפים, חופשת סקי כשרה",
-  "description": "בריכה מחוממת, חמאם, אמבט נורדי, ג'קוזי או סאונה בצ'אלה פרטי כשר. מעסה בצ'אלה לפי בקשה, בהצעת מחיר אחת בכתב.",
+  "description": "בריכה מחוממת, חמאם, אמבט נורדי, ג'קוזי או סאונה בצ'אלה פרטית כשרה. מעסה לגברים ומעסה לנשים לפי בקשה, בהצעת מחיר אחת בכתב.",
   "h1": "ספא ועיסוי",
   "h1_i": "בצ'אלה",
   "hero_sub": "מים חמים, שקט, ובמג'ב ספא מול מון בלאן.",
   "wa": "שלום, אשמח לפרטים על ספא ועיסוי בצ'אלה כשר. אתר סקי: / תאריכים: / מספר אנשים:",
-  "phrase": "חזרו מהמסלולים אל מים חמים, נרות ושקט.",
+  "phrase": "חזרו מהמסלולים אל מים חמים ושקט.",
   "trois": [
    [
     "מים בצ'אלה",
@@ -339,12 +339,12 @@
    ],
    [
     "הצעת מחיר אחת בכתב",
-    "מעסה או פדיקוריסטית בצ'אלה, לפי בקשה, מופיעים באותה הצעה."
+    "מעסה לגברים, מעסה לנשים או פדיקוריסטית בצ'אלה, לפי בקשה, מופיעים באותה הצעה."
    ]
   ],
   "intro": [
    "לצ'אלה הפרטיים שלנו באלפים יש מים משלהם. בריכות מחוממות וחמאם בקורשבל, אמבט נורדי באחד הצ'אלה, ג'קוזי חיצוני וסאונה בלה מנואר, סאונה וג'קוזי ליד מג'ב. הצ'אלה כשר, הארוחות מוגשות לשולחן שלכם, והערב שלכם.",
-   "במג'ב הספא פונה אל מון בלאן. הבית שקט. אם תרצו מעסה או פדיקוריסטית בצ'אלה, כתבו לנו. זה לפי בקשה, וזה נכנס לאותה הצעת מחיר של החופשה."
+   "במג'ב הספא פונה אל מון בלאן. הבית שקט. אם תרצו עיסוי או פדיקוריסטית בצ'אלה, כתבו לנו. העיסוי ניתן על ידי מעסה לגברים ומעסה לנשים, בכל אתרי הסקי. זה לפי בקשה, וזה נכנס לאותה הצעת מחיר של החופשה."
   ],
   "inclus_titre": [
    "מה יש",
@@ -357,7 +357,7 @@
    ],
    [
     "אמבט נורדי.",
-    "באחד הצ'אלה שלנו יש אמבט נורדי. כתבו לנו אם תרצו, ונבדוק שהוא מתאים לתאריכים שלכם."
+    "האמבט הנורדי נמצא בקורשבל, בצ'אלה הקטנה. כתבו לנו אם תרצו, ונבדוק שהוא מתאים לתאריכים שלכם."
    ],
    [
     "ג'קוזי, סאונה וקולנוע.",
@@ -368,8 +368,8 @@
     "ליד מג'ב יש בצ'אלה סאונה וג'קוזי. הספא פונה אל מון בלאן, עם נוף אל העמק."
    ],
    [
-    "מעסה או פדיקוריסטית, לפי בקשה.",
-    "אנחנו מעבירים את בקשתכם ואומרים לכם מה אפשרי באתר הסקי שלכם. לא מבטיחים לפני שבדקנו."
+    "עיסוי או פדיקוריסטית, לפי בקשה.",
+    "מעסה לגברים ומעסה לנשים, בכל אתרי הסקי. אנחנו מעבירים את בקשתכם ואומרים לכם מה אפשרי. לא מבטיחים לפני שבדקנו."
    ],
    [
     "הצעת מחיר אחת לכול.",
@@ -401,11 +401,11 @@
   "faq": [
    [
     "באילו צ'אלה יש ספא?",
-    "זה תלוי בצ'אלה. בריכות מחוממות וחמאם בקורשבל, ג'קוזי וסאונה בלה מנואר וליד מג'ב, אמבט נורדי באחד הצ'אלה. כתבו לנו את אתר הסקי ונאמר לכם מה יש שם."
+    "זה תלוי בצ'אלה. בריכות מחוממות וחמאם בקורשבל, ג'קוזי וסאונה בלה מנואר וליד מג'ב, אמבט נורדי בצ'אלה הקטנה בקורשבל. כתבו לנו את אתר הסקי ונאמר לכם מה יש שם."
    ],
    [
     "אפשר להזמין מעסה לצ'אלה?",
-    "כן, לפי בקשה. איננו יכולים להבטיח זמינות לפני שבדקנו את אתר הסקי ואת התאריכים. כתבו לנו מה תרצו ונאמר לכם מה אפשרי. זה מופיע באותה הצעה של החופשה."
+    "כן, לפי בקשה, בכל אתרי הסקי. העיסוי ניתן על ידי מעסה לגברים ומעסה לנשים. איננו יכולים להבטיח זמינות לפני שבדקנו את אתר הסקי ואת התאריכים. זה מופיע באותה הצעה של החופשה."
    ],
    [
     "כמה זה עולה?",
@@ -413,7 +413,7 @@
    ],
    [
     "ומה בשבת?",
-    "אנחנו עונים בכל יום חוץ משבת. הארוחות והשירות בצ'אלה שומר שבת. לשימוש בספא או לתור בשבת, שאלו אותנו כשאתם כותבים ונאשר לכם."
+    "אנחנו עונים בכל יום חוץ משבת. הארוחות והשירות בצ'אלה שומר שבת."
    ],
    [
     "האוכל כשר?",
