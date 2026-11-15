@@ -180,6 +180,8 @@ PIECE["ski"] = dict(en="Ski room", fr="Local à skis", es="Guardaesquís", he="�
 PIECE["cinema"] = dict(en="Cinema room", fr="Salle de cinéma", es="Sala de cine", he="חדר קולנוע")
 PIECE["sport"] = dict(en="Gym", fr="Salle de sport", es="Gimnasio", he="חדר כושר")
 PIECE["piscine"] = dict(en="Pool", fr="Piscine", es="Piscina", he="בריכה")
+PIECE["hammam"] = dict(en="Hammam", fr="Hammam", es="Hammam", he="חמאם")   # 15/11
+PIECE["enfants"] = dict(en="Children's room", fr="Chambre d'enfants", es="Habitación infantil", he="חדר ילדים")
 _a, _b = _C11["a"], _C11["b"]
 CHALETS[_a["slug"]] = dict(
     hero=f"{_a['prefixe']}-exterieur",
@@ -226,6 +228,31 @@ CHALETS[_d["slug"]] = dict(
             ("sdb", "sdb", [f"{_pd}-salle-de-bain", f"{_pd}-salle-de-bain-2"]),
             ("cinema", "cinema", [f"{_pd}-cinema"]),
             ("ext-vues", "ext-vues", [f"{_pd}-exterieur", f"{_pd}-facade-jour"])])
+
+# 15/11 : chalet E = Cachemire (ch16, Courchevel 1850), photos de _chalets_1111_photos.py (série E, 1200 px natifs, aucune photo du salon)
+_e = _C11["e"]; _pe = _e["prefixe"]
+CHALETS[_e["slug"]] = dict(
+    hero=f"{_pe}-exterieur",
+    nom=t(f"Chalet {_e['nom']}", f"Le Chalet {_e['nom']}", f"El Chalet {_e['nom']}", f"צ'אלה {_e['nom_he']}"),
+    pieces=[("salon", "salon", [f"{_pe}-salon"]),   # 15/11 : le salon en tête du rail (1re grande photo du bloc « Le chalet en images », 1 200 px natifs)
+            ("salle-cuisine", "salle-cuisine", [f"{_pe}-salle-a-manger", f"{_pe}-cuisine"]),
+            ("chambres", "chambres", [f"{_pe}-suite", f"{_pe}-chambre-1", f"{_pe}-chambre-2", f"{_pe}-chambre-3"]),
+            ("enfants", "enfants", [f"{_pe}-dortoir"]),
+            ("hammam", "hammam", [f"{_pe}-hammam"]),
+            ("sdb", "sdb1", [f"{_pe}-salle-de-bain"]),
+            ("ext-vues", "ext-vues", [f"{_pe}-exterieur", f"{_pe}-vue-aerienne"])])
+
+# 15/11 : chalet F = Onyx (ch17, Courchevel 1850), photos de _chalets_1111_photos.py (série F, 1 600 px au plus, aucune façade, aucune cuisine)
+_f = _C11["f"]; _pf = _f["prefixe"]
+CHALETS[_f["slug"]] = dict(
+    hero=f"{_pf}-suite-vue",
+    nom=t(f"Chalet {_f['nom']}", f"Le Chalet {_f['nom']}", f"El Chalet {_f['nom']}", f"צ'אלה {_f['nom_he']}"),
+    pieces=[("piscine", "piscine", [f"{_pf}-piscine", f"{_pf}-piscine-2"]),
+            ("cinema", "cinema", [f"{_pf}-cinema"]),
+            ("salle", "salle", [f"{_pf}-salle-a-manger"]),
+            ("chambres", "chambres", [f"{_pf}-suite-vue", f"{_pf}-suite", f"{_pf}-chambre-vip", f"{_pf}-chambre"]),
+            ("sdb", "sdb1", [f"{_pf}-salle-de-bain"]),
+            ("ext-vues", "ext-vues", [f"{_pf}-terrasse"])])
 
 
 SVG_X = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>'

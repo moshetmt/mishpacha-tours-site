@@ -93,6 +93,8 @@ WP_TEXTES = {
     "kosher-chalet-courchevel-1850": ("KOSHER CHALET · COURCHEVEL 1850", __import__("_chalets_1111_noms").CH["b"]["nom"]),
     "kosher-chalet-chamonix-les-houches": ("KOSHER CHALET · LES HOUCHES", __import__("_chalets_1111_noms").CH["c"]["nom"]),
     "kosher-pool-chalet-les-deux-alpes": ("KOSHER CHALET · LES DEUX ALPES", __import__("_chalets_1111_noms").CH["d"]["nom"]),
+    "kosher-family-chalet-courchevel-1850": ("KOSHER FAMILY CHALET · COURCHEVEL 1850", __import__("_chalets_1111_noms").CH["e"]["nom"]),   # 15/11
+    "kosher-luxury-pool-chalet-courchevel-1850": ("KOSHER LUXURY CHALET · COURCHEVEL 1850", __import__("_chalets_1111_noms").CH["f"]["nom"]),   # 15/11 (ch17)
     "kosher-chalets": ("THE ALPS", "Our kosher<br>chalets"),
     "kosher-chamonix": ("KOSHER SKI · MONT BLANC", "Chamonix"),
     "kosher-cortina": ("KOSHER SKI · DOLOMITES", "Cortina d'Ampezzo"),

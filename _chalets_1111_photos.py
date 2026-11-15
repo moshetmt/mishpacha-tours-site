@@ -7,6 +7,7 @@ B : photos en HDR saturé, une baisse de saturation identique sur toute la séri
 sortie à 40 % de la largeur du fichier de 1920 px (jamais de x4 lissé). Les noms de fichiers viennent de PREFIXE (pas du nom commercial).
 Idempotent : réécrit les JPG à l'identique. Lancer depuis site-v5 : python _chalets_1111_photos.py"""
 import pathlib
+import sys
 from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 from _aigle_royal_photos import luxe
 from _chalets_1111_noms import CH
@@ -77,13 +78,51 @@ D = {
     "cinema": ("hd/D87_2264", (300, 0, 1922, 1282), [], None),   # 5e passage, studio (planche n° 33, 1922 x 1282 natif) : remplace la prise de téléphone sombre (annonce 07) ; gobelets sur la table d'appoint à gauche (x<300) exclus ; 1622 x 1282 réduit à 1600
     "facade-jour": ("hd/D87_1774", (0, 0, 1321, 1240), [], None),   # 5e passage, studio (planche n° 13, 1321 x 1321 natif) : ciel bleu, sans neige ; aucun lettrage ; chaussée du bas écartée ; 1321 x 1240, natif
 }
-SERIES = (("a", A, "a-saint-gervais"), ("b", B, "b-courchevel"), ("c", C, "c-les-houches"), ("d", D, "d-les-deux-alpes"))
+# 15/11 : chalet E = Cachemire (ch16, Courchevel 1850), source 00-brief/references/2026-11-15-chalets-courchevel/f-courchevel-6-pieces/photos/.
+# Fichiers en 1920 x 1440 mais de définition réelle 1200 x 900 (agrandissements) : echelle 1200/1920 = sortie à la définition native, jamais plus.
+# AUCUNE photo du salon (consigne de Moshé) : écartées 01, 02, 04, 19, 21, 11 (détail de salon), 20 (canapé du salon à gauche), 10 ; 08 (personne), 12 et 05 (nourriture).
+NAT = 1200 / 1920
+E = {
+    "exterieur": ("03-photo", (0, 60, 1920, 1300), [], NAT),             # façade de drone ; cheminée du bas et neige écartées ; 1200 x 775
+    "vue-aerienne": ("18-photo", (0, 0, 1920, 1190), [], NAT),           # vue d'ensemble, véhicules du bas écartés ; 1200 x 744
+    "salle-a-manger": ("07-photo", (0, 0, 1700, 1440), [], NAT),         # canapé du salon (bord droit, x>1700) écarté ; 1062 x 900
+    "cuisine": ("06-photo", None, [], NAT),
+    "salon": ("ret/B-21", None, [], NAT),                                # SEULE photo de salon autorisée (Moshé 15/11) : photo 21 sans champagne, flûtes ni seau ; bougie de marque à droite du centre, étiquette illisible
+    "suite": ("28-photo", None, [], NAT),                                # suite principale à cheminée
+    "chambre-1": ("23-photo", None, [], NAT),
+    "chambre-2": ("25-photo", None, [], NAT),
+    "chambre-3": ("13-photo", None, [], NAT),
+    "hammam": ("26-photo", None, [], NAT),
+    "salle-de-bain": ("27-photo", None, [], NAT),                        # baignoire à jets de la suite
+    "dortoir": ("22-photo", None, [], NAT),                              # chambre d'enfants à lits superposés
+}
+# 15/11 : chalet F = Onyx (ch17), source 00-brief/references/2026-11-15-chalets-courchevel/e-kismet-1850/photos/ ; fichiers de 1 824 ou 1 920 px natifs, jamais agrandis (réduits à 1 600 px).
+# Autorisées par Moshé : 04, 05, 06, 07, 09, 11, 12, 13, 17, 21, 23, 24. Écartées en plus à l'œil : 04 (étiquette de marque lisible sur les bougies, verres suspendus d'un bar), 05 (doublon de 13).
+# Aucune photo de façade ni de cuisine : héros = 12 (suite avec baie sur les sommets).
+F = {
+    "suite-vue": ("12-photo", None, [], None),
+    "piscine": ("09-photo", None, [], None),
+    "piscine-2": ("21-photo", None, [], None),
+    "cinema": ("11-photo", None, [], None),
+    "salle-a-manger": ("13-photo", None, [], None),
+    "suite": ("06-photo", None, [], None),
+    "chambre-vip": ("07-photo", None, [], None),
+    "chambre": ("17-photo", (0, 0, 1440, 1280), [], None),      # seau et statuette du bureau (à droite) écartés ; 1440 x 1280
+    "salle-de-bain": ("23-photo", None, [], None),
+    "terrasse": ("24-photo", None, [], None),
+}
+SERIES = (("a", A, "a-saint-gervais"), ("b", B, "b-courchevel"), ("c", C, "c-les-houches"), ("d", D, "d-les-deux-alpes"), ("e", E, "f-courchevel-6-pieces"), ("f", F, "e-kismet-1850"))
+REF15 = next((ICI.parents[1] / "00-brief" / "references").glob("2026-11-15-chalets-courchevel"))
 
 
 def fabriquer(cle, suffixe, spec, dossier):
     src, box, flous, echelle = spec
     p = CH[cle]
-    chemin = next(iter(sorted((REF / dossier / "photos-source-hd").glob(f"{src[3:]}_*.jpg")))) if src.startswith("hd/") else REF / dossier / "photos" / f"{src}.jpg"  # hd/ = préfixe du fichier du site du propriétaire
+    base = REF15 if cle in ("e", "f") else REF
+    if src.startswith("ret/"):   # 15/11 : photo retouchée (objets effacés) lue par la session principale, photos-retouchees/
+        chemin = base / dossier / "photos-retouchees" / f"{src[4:]}.jpg"
+    else:
+        chemin = next(iter(sorted((base / dossier / "photos-source-hd").glob(f"{src[3:]}_*.jpg")))) if src.startswith("hd/") else base / dossier / "photos" / f"{src}.jpg"  # hd/ = préfixe du fichier du site du propriétaire
     im = ImageOps.exif_transpose(Image.open(chemin)).convert("RGB")
     if box:
         im = im.crop(box)
@@ -101,7 +140,10 @@ def fabriquer(cle, suffixe, spec, dossier):
 
 
 if __name__ == "__main__":
+    seules = sys.argv[1:]   # 15/11 : python _chalets_1111_photos.py e  = ne refaire que la série E
     for cle, serie, dossier in SERIES:
+        if seules and cle not in seules:
+            continue
         for suf, spec in serie.items():
             o = fabriquer(cle, suf, spec, dossier)
             clean = Image.new("RGB", o.size); clean.paste(o)   # aucune métadonnée
