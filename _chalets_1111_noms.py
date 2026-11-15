@@ -39,4 +39,21 @@ CH["d"] = dict(
     coord="latitude=45.0117&longitude=6.1233",   # centre de la station
     og_kicker="KOSHER CHALET · LES DEUX ALPES",
 )
+# 15/11 (ch16) : Cachemire, Courchevel 1850, deuxième chalet de la station. Page posée par _chalets_1511.py (pas par _chalets_1111.py, dont ORDRE_CLES reste a à d).
+CH["e"] = dict(
+    slug="kosher-family-chalet-courchevel-1850", prefixe="courchevel-famille", cle="cf", ch="ch16",
+    nom="Velours", nom_he="ולור", lieu="Courchevel 1850", lieu_he="קורשבל 1850",
+    lieu_q="Courchevel", svc="Courchevel", catalogue="courchevel-famille",
+    coord="latitude=45.4154&longitude=6.6364",   # point Courchevel de la page station, pas l'adresse
+    og_kicker="KOSHER CHALET · COURCHEVEL 1850",
+)
+# 15/11 (ch17) : Onyx, Courchevel 1850, troisième chalet de la station. Pas de photo de façade : le héros est la suite avec vue. Page posée par _chalets_1511.py.
+CH["f"] = dict(
+    slug="kosher-luxury-pool-chalet-courchevel-1850", prefixe="courchevel-prestige", cle="cp", ch="ch17",
+    nom="Impérial", nom_he="אימפריאל", lieu="Courchevel 1850", lieu_he="קורשבל 1850",
+    lieu_q="Courchevel", svc="Courchevel", catalogue="courchevel-prestige",
+    coord="latitude=45.4154&longitude=6.6364",   # point Courchevel de la page station, pas l'adresse
+    og_kicker="KOSHER LUXURY CHALET · COURCHEVEL 1850",
+    hero="suite-vue",   # pas de photo de façade : la photo de tête (cartes, menu) est la suite avec vue ; défaut des autres chalets : « exterieur »
+)
 ORDRE_CLES = ("a", "b", "c", "d")

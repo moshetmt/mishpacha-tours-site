@@ -77,13 +77,13 @@ if all(u != "kosher-chalet-tignes" for u, _ in CH_URL):
 # 11/11 : deux chalets neufs (Saint-Gervais Mont-Blanc, Courchevel 1850), noms : _chalets_1111_noms.py
 from _chalets_1111_noms import CH as _C11
 from _chalets_1111_textes import T as _T11
-for _k in ("a", "b", "c", "d"):
+for _k in ("a", "b", "c", "d", "e", "f"):   # 15/11 : e = Cachemire (ch16), f = Onyx (ch17)
     _c = _C11[_k]
     for _l in CHALETS:
         if not any(_c["nom"] in n or _c["nom_he"] in n for n, _ in CHALETS[_l][2]):
             CHALETS[_l] = (CHALETS[_l][0], CHALETS[_l][1], CHALETS[_l][2] + (_T11[_k][_l]["nav"],))
     if all(u != _c["slug"] for u, _ in CH_URL):
-        CH_URL = CH_URL + ((_c["slug"], f"/img/chalet/min/{_c['prefixe']}-exterieur-336.webp"),)
+        CH_URL = CH_URL + ((_c["slug"], f"/img/chalet/min/{_c['prefixe']}-{_c.get('hero', 'exterieur')}-336.webp"),)
 
 def chalets_html(lang, pre):
     lib, tous, items = CHALETS[lang]

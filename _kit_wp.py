@@ -192,13 +192,13 @@ CHALETS["tg"] = dict(img=f"/img/chalet/{_TGP}-chalets-neige.jpg", w=1440, h=960,
 # 11/11 : deux chalets neufs, prix « Sur demande » (lignes ch12 et ch13 vides de la grille), noms : _chalets_1111_noms.py
 from _chalets_1111_noms import CH as _C11
 from _chalets_1111_textes import T as _T11
-for _k in ("a", "b", "c", "d"):
+for _k in ("a", "b", "c", "d", "e", "f"):   # 15/11 : e = Cachemire (ch16), f = Onyx (ch17)
     _c = _C11[_k]
     for _l in ("en", "fr", "es", "he"):
         _d = _T11[_k][_l]["carte"]
         T[_l][_c["cle"]] = dict(lieu=_d["lieu"], t=_d["t"], alt=_d["alt"], s=_d["s"], k=_K[_l])
-    CHALETS[_c["cle"]] = dict(img=f"/img/chalet/{_c['prefixe']}-exterieur.jpg", w={"a": 1360, "b": 1600, "c": 1150, "d": 1600}[_k], h={"a": 1020, "b": 1200, "c": 1000, "d": 962}[_k],
-                              pictos=["lit", "gens", "eau", "pistes"] if _k == "b" else ["lit", "gens", "eau", "maison"], lien=f"/{_c['slug']}/",
+    CHALETS[_c["cle"]] = dict(img=f"/img/chalet/{_c['prefixe']}-{_c.get('hero', 'exterieur')}.jpg", w={"a": 1360, "b": 1600, "c": 1150, "d": 1600, "e": 1200, "f": 1600}[_k], h={"a": 1020, "b": 1200, "c": 1000, "d": 962, "e": 775, "f": 1088}[_k],
+                              pictos=["lit", "gens", "eau", "pistes"] if _k in ("b", "e") else ["lit", "gens", "eau", "maison"], lien=f"/{_c['slug']}/",
                               q=f"?i=a&amp;lieu={_c['lieu_q']}&amp;voyage=Ski%20holiday%20with%20a%20chalet")
 
 MARQUE = {"wp": dict(nom="Winter Prestige", or_="/img/wp-flocon-or.svg", noir="/img/wp-flocon-noir.svg"),
