@@ -98,16 +98,16 @@ T = {
             da=dict(lieu="לה דז אלפ", t="צ'אלה קינג דייוויד, לה דז אלפ", alt="הצ'אלה בלה דז אלפ תחת שמיים כחולים",
                     s=[("300 מ\"ר", "צ'אלה פרטית"), ("6 + 1", "חדרי שינה + חדר תינוק"), ("עד 16", "אורחים"), ("2 דק'", "מהמסלולים")],
                     k="<b>כשר למהדרין.</b> שף בצ'אלה או ארוחות במשלוח."),
-            co=dict(lieu="קורשבל", t="צ'אלה פלוקון דורה, קורשבל", alt="הצ'אלה בקורשבל תחת השלג",
+            co=dict(lieu="קורשבל", t="צ'אלה פלוקון דורה, קורשבל", alt="הצ'אלה המושלגת בקורשבל",
                     s=[("5", "חדרי שינה עם חדר רחצה"), ("10 עד 14", "אורחים"), ("2 בריכות", "מחוממות, בפנים ובחוץ"), ("הסעה פרטית", "למסלולים")],
                     k="<b>כשר למהדרין.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
-            sl=dict(lieu="לה דז אלפ", t="צ'אלה רושברון, לה דז אלפ", alt="צ'אלה רושברון בלה דז אלפ תחת השלג",
+            sl=dict(lieu="לה דז אלפ", t="צ'אלה רושברון, לה דז אלפ", alt="צ'אלה רושברון המושלגת בלה דז אלפ",
                     s=[("6", "חדרי שינה"), ("עד 13", "אורחים"), ("50 מ'", "מהמסלולים"), ("אח", "ומרפסת דרומית")],
                     k="<b>כשר למהדרין.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
             me=dict(lieu="ליד מג'ב", t="צ'אלה לו בלאן, ליד מג'ב", alt="הסלון של הצ'אלה ליד מג'ב",
                     s=[("10 + 2", "חדרי טווין + חדרי עליית גג"), ("3 עד 4", "משפחות"), ("סאונה, ג'קוזי", "מול המון בלאן"), ("הסעה", "כל 20 דק' למסלולים")],
                     k="<b>כשר למהדרין.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
-            vth=dict(lieu="ואל טורנס", t="צ'אלה בל אטואל, ואל טורנס", alt="צ'אלה בל אטואל בואל טורנס תחת השלג",
+            vth=dict(lieu="ואל טורנס", t="צ'אלה בל אטואל, ואל טורנס", alt="צ'אלה בל אטואל המושלגת בואל טורנס",
                     s=[("165 מ\"ר", "צ'אלה פרטית"), ("3", "חדרי שינה עם חדר רחצה"), ("עד 10", "אורחים (8 מבוגרים)"), ("סקי", "מהדלת")],
                     k="<b>כשר למהדרין.</b> הצ'אלה מוכשרת עבורכם, שף או ארוחות במשלוח."),
             vi=dict(lieu="סן טרופה", t="וילה ביץ׳, וילה כשרה על קו המים", alt="וילה ביץ׳ בסן טרופה, הבריכה והים",
@@ -132,7 +132,7 @@ T["fr"]["ar"] = dict(lieu="Les Ménuires", t="Chalet Aigle Royal, Les Ménuires"
                      s=[("7", "suites"), ("Jusqu'à 15", "personnes"), ("Spa", "jacuzzi et sauna"), ("7 min", "des pistes")], k=_K["fr"])
 T["es"]["ar"] = dict(lieu="Les Ménuires", t="Chalet Aigle Royal, Les Ménuires", alt="El Chalet Aigle Royal en Les Ménuires bajo la nieve",
                      s=[("7", "suites"), ("Hasta 15", "personas"), ("Spa", "jacuzzi y sauna"), ("7 min", "de las pistas")], k=_K["es"])
-T["he"]["ar"] = dict(lieu="לה מנואר", t="צ'אלה אגל רויאל, לה מנואר", alt="צ'אלה אגל רויאל בלה מנואר תחת השלג",
+T["he"]["ar"] = dict(lieu="לה מנואר", t="צ'אלה אגל רויאל, לה מנואר", alt="צ'אלה אגל רויאל המושלגת בלה מנואר",
                      s=[("7", "סוויטות"), ("עד 15", "אורחים"), ("ספא", "ג'קוזי וסאונה"), ("7 דק'", "מהמסלולים")], k=_K["he"])
 
 # 02/11 : lot 2 de Courchevel 1550, noms choisis par Moshé (Aurore Boréale, Renard Argenté), prix « Sur demande » (lignes ch7, ch8 vides)
@@ -142,7 +142,7 @@ T["fr"]["au"] = dict(lieu="Courchevel", t="Chalet Aurore Boréale, Courchevel", 
                      s=[("3 + 1", "suites + salon TV"), ("6 à 8", "personnes"), ("Piscine chauffée", "hammam, bain à remous"), ("400 m", "des pistes")], k=_K["fr"])
 T["es"]["au"] = dict(lieu="Courchevel", t="Chalet Aurore Boréale, Courchevel", alt="El Chalet Aurore Boréale en Courchevel, la piscina bajo la nieve",
                      s=[("3 + 1", "suites + sala de TV"), ("6 a 8", "personas"), ("Piscina climatizada", "hammam, jacuzzi"), ("400 m", "de las pistas")], k=_K["es"])
-T["he"]["au"] = dict(lieu="קורשבל", t="צ'אלה אורור בוראל, קורשבל", alt="צ'אלה אורור בוראל בקורשבל, הבריכה תחת השלג",
+T["he"]["au"] = dict(lieu="קורשבל", t="צ'אלה אורור בוראל, קורשבל", alt="צ'אלה אורור בוראל בקורשבל, הבריכה בנוף מושלג",
                      s=[("3 + 1", "סוויטות + חדר טלוויזיה"), ("6 עד 8", "אורחים"), ("בריכה מחוממת", "חמאם וג'קוזי"), ("400 מ'", "מהמסלולים")], k=_K["he"])
 T["en"]["re"] = dict(lieu="Courchevel", t="Chalet Renard Argenté, Courchevel", alt="Chalet Renard Argenté in Courchevel under snow",
                      s=[("2", "suites"), ("2 to 6", "guests"), ("Nordic bath", "heated to 40 °C"), ("400 m", "to the slopes")], k=_K["en"])
@@ -150,7 +150,7 @@ T["fr"]["re"] = dict(lieu="Courchevel", t="Chalet Renard Argenté, Courchevel", 
                      s=[("2", "suites"), ("2 à 6", "personnes"), ("Bain nordique", "chauffé à 40 °C"), ("400 m", "des pistes")], k=_K["fr"])
 T["es"]["re"] = dict(lieu="Courchevel", t="Chalet Renard Argenté, Courchevel", alt="El Chalet Renard Argenté en Courchevel bajo la nieve",
                      s=[("2", "suites"), ("2 a 6", "personas"), ("Baño nórdico", "a 40 °C"), ("400 m", "de las pistas")], k=_K["es"])
-T["he"]["re"] = dict(lieu="קורשבל", t="צ'אלה רנאר ארז'נטה, קורשבל", alt="צ'אלה רנאר ארז'נטה בקורשבל תחת השלג",
+T["he"]["re"] = dict(lieu="קורשבל", t="צ'אלה רנאר ארז'נטה, קורשבל", alt="צ'אלה רנאר ארז'נטה המושלגת בקורשבל",
                      s=[("2", "סוויטות"), ("2 עד 6", "אורחים"), ("אמבט נורדי", "מחומם ל-40 מעלות"), ("400 מ'", "מהמסלולים")], k=_K["he"])
 
 CHALETS = {
@@ -185,7 +185,7 @@ T["fr"]["tg"] = dict(lieu="Tignes", t=f"Chalet {_TG}, Tignes", alt=f"Le Chalet {
                      s=[("9", "suites"), ("Jusqu'à 21", "personnes"), ("2 jacuzzis", "extérieurs"), ("1 min", "des pistes")], k=_K["fr"])
 T["es"]["tg"] = dict(lieu="Tignes", t=f"Chalet {_TG}, Tignes", alt=f"El Chalet {_TG} en Tignes bajo la nieve",
                      s=[("9", "suites"), ("Hasta 21", "personas"), ("2 jacuzzis", "exteriores"), ("1 min", "de las pistas")], k=_K["es"])
-T["he"]["tg"] = dict(lieu="טין", t=f"צ'אלה {_TG_HE}, טין", alt=f"צ'אלה {_TG_HE} בטין תחת השלג",
+T["he"]["tg"] = dict(lieu="טין", t=f"צ'אלה {_TG_HE}, טין", alt=f"צ'אלה {_TG_HE} המושלגת בטין",
                      s=[("9", "סוויטות"), ("עד 21", "אורחים"), ("2 ג'קוזי", "חיצוניים"), ("דקה", "מהמסלולים")], k=_K["he"])
 CHALETS["tg"] = dict(img=f"/img/chalet/{_TGP}-chalets-neige.jpg", w=1440, h=960, pictos=["lit", "gens", "eau", "pistes"], lien="/kosher-chalet-tignes/",
                      q="?i=a&amp;lieu=Tignes&amp;voyage=Ski%20holiday%20with%20a%20chalet")
@@ -304,7 +304,7 @@ def diapo(lang, photos, dossier):
     return (f'<section class="ss wrap galerie-wp kwp-diapo" aria-roledescription="carousel"><div class="kwp-diapo-cadre">{figs}'
             f'<button type="button" class="kwp-diapo-prec" aria-label="{a}">&#8249;</button><button type="button" class="kwp-diapo-suiv" aria-label="{b}">&#8250;</button></div>{DIAPO_JS}</section>')
 
-GALERIE_SL = [("slope-facade", dict(en="The chalet under snow, fifty metres from the slopes", fr="Le chalet sous la neige, à cinquante mètres des pistes", es="El chalet bajo la nieve, a cincuenta metros de las pistas", he="הצ'אלה תחת השלג, חמישים מטר מהמסלולים")),
+GALERIE_SL = [("slope-facade", dict(en="The chalet under snow, fifty metres from the slopes", fr="Le chalet sous la neige, à cinquante mètres des pistes", es="El chalet bajo la nieve, a cincuenta metros de las pistas", he="הצ'אלה המושלגת, חמישים מטר מהמסלולים")),
               ("slope-salon-canape", dict(en="The living room, open on the snow", fr="Le salon, ouvert sur la neige", es="El salón, abierto a la nieve", he="הסלון, פתוח אל השלג")),
               ("slope-sejour-table", dict(en="The dining table and the kitchen", fr="La table et la cuisine", es="La mesa y la cocina", he="שולחן האוכל והמטבח")),
               ("slope-chambre-double", dict(en="One of the double bedrooms", fr="L'une des chambres doubles", es="Una de las habitaciones dobles", he="אחד מחדרי השינה הזוגיים")),
@@ -327,7 +327,7 @@ GALERIE_ME = [("megeve-n0-apt-sejour", dict(en="The living room of the apartment
 def galerie_me(lang):
     return diapo(lang, GALERIE_ME, "chalet")
 
-GALERIE_VT = [("valthorens-exterieur-neige", dict(en="The chalet under snow, above Val Thorens", fr="Le chalet sous la neige, au-dessus de Val Thorens", es="El chalet bajo la nieve, sobre Val Thorens", he="הצ'אלה תחת השלג, מעל ואל טורנס")),
+GALERIE_VT = [("valthorens-exterieur-neige", dict(en="The chalet under snow, above Val Thorens", fr="Le chalet sous la neige, au-dessus de Val Thorens", es="El chalet bajo la nieve, sobre Val Thorens", he="הצ'אלה המושלגת, מעל ואל טורנס")),
               ("valthorens-chalet-neige", dict(en="The chalet, south-facing, on the slope", fr="Le chalet, plein sud, sur la pente", es="El chalet, orientado al sur, en la ladera", he="הצ'אלה, פונה דרומה, על המדרון")),
               ("valthorens-vue-balcon", dict(en="The view from the balcony over the resort", fr="La vue du balcon sur la station", es="La vista desde el balcón sobre la estación", he="הנוף מהמרפסת אל האתר")),
               ("valthorens-salon-poele", dict(en="The lounge and its rotating wood stove", fr="Le salon et son poêle à bois rotatif", es="El salón y su estufa de leña giratoria", he="הסלון ותנור העצים המסתובב")),
