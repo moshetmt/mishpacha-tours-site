@@ -1,4 +1,4 @@
-> צ'אלה רושברון בלה דז אלפ: צ'אלה כשרה עם מגלשיים בדלת, 6 חדרי שינה, 13 מיטות, אח ומרפסת הפונה דרומה. שף או ארוחות במשלוח, שבת ומניין. הצעת מחיר בכתב.
+> צ'אלה רושברון בלה דז אלפ: צ'אלה כשרה עם סקי מהדלת, 6 חדרי שינה, 13 מיטות, אח ומרפסת הפונה דרומה. שף או ארוחות במשלוח, שבת ומניין. הצעת מחיר בכתב.
 
 Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML version). Every page of the site, one line each: https://mishpachatours.com/llms.txt
 
@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 צ'אלה של 165 מ״ר בלה דז אלפ, חמישים מטר מהמסלולים: נועלים את המגלשיים ליד הדלת.
 
-[לתכנן את החופשה בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%A0%D7%A8%D7%A6%D7%94%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%D7%9B%D7%A9%D7%A8%D7%99%D7%9D%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D.%20%D7%90%D7%AA%D7%A8%3A%20%2F%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99%D7%9D%3A%20%2F%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%28%D7%A6%27%D7%90%D7%9C%D7%98%20%D7%A2%D7%9D%20%D7%A9%D7%A3%2C%20%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA%20%D7%91%D7%9E%D7%A9%D7%9C%D7%95%D7%97%2C%20%D7%A9%D7%91%D7%AA%2C%20%D7%97%D7%92%2C%20%D7%9E%D7%A0%D7%99%D7%99%D7%9F%29%3A)
+[לתכנן את החופשה בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%20Mishpacha%20Tours%2C%20%D7%A7%D7%A8%D7%90%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%A2%D7%9E%D7%95%D7%93%20%22%D7%A6%27%D7%90%D7%9C%D7%94%20%D7%9B%D7%A9%D7%A8%D7%94%20%D7%A8%D7%95%D7%A9%D7%91%D7%A8%D7%95%D7%9F%2C%20%D7%9C%D7%94%20%D7%93%D7%96%20%D7%90%D7%9C%D7%A4%22.%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D%20%D7%91%D7%A6%27%D7%90%D7%9C%D7%94%20%D7%94%D7%9B%D7%A9%D7%A8%D7%94.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%95%D7%A8%D7%97%D7%99%D7%9D%3A)
 
 ביום עושים סקי. בערב חוזרים לשולחן ערוך, למניין ולשבת מוכנה.
 
@@ -60,7 +60,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
    תוכנית יום אחר יום והצעת מחיר אחת בכתב לשהייה כולה, לפני שאתם מתחייבים לדבר.
 
-[כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%A0%D7%A8%D7%A6%D7%94%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%D7%9B%D7%A9%D7%A8%D7%99%D7%9D%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D.%20%D7%90%D7%AA%D7%A8%3A%20%2F%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99%D7%9D%3A%20%2F%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%28%D7%A6%27%D7%90%D7%9C%D7%98%20%D7%A2%D7%9D%20%D7%A9%D7%A3%2C%20%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA%20%D7%91%D7%9E%D7%A9%D7%9C%D7%95%D7%97%2C%20%D7%A9%D7%91%D7%AA%2C%20%D7%97%D7%92%2C%20%D7%9E%D7%A0%D7%99%D7%99%D7%9F%29%3A)[בקשו הצעת מחיר](#book)
+[כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%20Mishpacha%20Tours%2C%20%D7%A7%D7%A8%D7%90%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%A2%D7%9E%D7%95%D7%93%20%22%D7%A6%27%D7%90%D7%9C%D7%94%20%D7%9B%D7%A9%D7%A8%D7%94%20%D7%A8%D7%95%D7%A9%D7%91%D7%A8%D7%95%D7%9F%2C%20%D7%9C%D7%94%20%D7%93%D7%96%20%D7%90%D7%9C%D7%A4%22.%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D%20%D7%91%D7%A6%27%D7%90%D7%9C%D7%94%20%D7%94%D7%9B%D7%A9%D7%A8%D7%94.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%95%D7%A8%D7%97%D7%99%D7%9D%3A)[בקשו הצעת מחיר](#book)
 
 ## איך *מגיעים*
 
@@ -97,7 +97,7 @@ Source: https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 ## מעדיפים צ'אלה שלם? *צ'אלות כשרות*
 
-[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרי טווין · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)[**צ'אלה אגל רויאל · לה מנואר**7 חדרי שינה · ג'קוזי וסאונה](https://mishpachatours.com/he/kosher-chalet-les-menuires/)[**צ'אלה אורור בוראל · קורשבל**3 סוויטות · בריכה מחוממת](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)[**צ'אלה רנאר ארז'נטה · קורשבל**2 סוויטות · אמבט נורדי](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
+[**צ'אלה קינג דייוויד · לה דז אלפ**6 + 1 חדרים · 2 דק' מהמסלולים](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[**צ'אלה פלוקון דורה · קורשבל**5 סוויטות · בריכות מחוממות](https://mishpachatours.com/he/kosher-chalet-courchevel/)[**צ'אלה לו בלאן · ליד מג'ב**10 חדרים עם מיטות נפרדות · מון בלאן](https://mishpachatours.com/he/kosher-chalet-megeve/)[**צ'אלה בל אטואל · ואל טורנס**3 חדרי שינה עם חדר רחצה · סקי מהדלת](https://mishpachatours.com/he/kosher-chalet-val-thorens/)[**צ'אלה אגל רויאל · לה מנואר**7 חדרי שינה · ג'קוזי וסאונה](https://mishpachatours.com/he/kosher-chalet-les-menuires/)[**צ'אלה אורור בוראל · קורשבל**3 סוויטות · בריכה מחוממת](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)[**צ'אלה רנאר ארז'נטה · קורשבל**2 סוויטות · אמבט נורדי](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
 
 [לראות את הצ'אלות](https://mishpachatours.com/he/kosher-chalets/)
 

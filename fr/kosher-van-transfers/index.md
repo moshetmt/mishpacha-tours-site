@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-van-transfers/ (HTML version). Ever
 
 Un seul message, un seul chauffeur.
 
-[Demander un van](https://mishpachatours.com/fr/plan-your-trip/?i=c)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Transfert%20en%20van%20%3A%20de%20%E2%80%A6%20%C3%A0%20%E2%80%A6%2C%20date%20%3A%20%E2%80%A6%2C%20nombre%20de%20personnes%20%3A%20%E2%80%A6%2C%20bagages%20%3A%20%E2%80%A6)
+[Demander un van](https://mishpachatours.com/fr/plan-your-trip/?i=c)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Transferts%20%C2%BB.%20Transfert%20en%20van%20%3A%20de%20%E2%80%A6%20%C3%A0%20%E2%80%A6%2C%20date%20%3A%20%E2%80%A6%2C%20nombre%20de%20personnes%20%3A%20%E2%80%A6%2C%20bagages%20%3A%20%E2%80%A6)
 
 Dites-nous d'où vous partez, où vous allez, la date, combien vous êtes et combien de bagages vous avez. Nous trouvons un chauffeur agréé dans notre réseau et organisons un van privé pour votre famille ou votre groupe, avec de la place pour les valises, les poussettes et les skis. Aéroport, gare, hôtel, station de ski ou ville : partout en France, et à l'étranger aussi.
 
@@ -45,7 +45,7 @@ La course est effectuée et facturée par un chauffeur agréé de notre réseau 
 
    Votre chauffeur est au lieu convenu à l'heure convenue. Chaque course est planifiée autour du Shabbat et des fêtes.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Transfert%20en%20van%20%3A%20de%20%E2%80%A6%20%C3%A0%20%E2%80%A6%2C%20date%20%3A%20%E2%80%A6%2C%20nombre%20de%20personnes%20%3A%20%E2%80%A6%2C%20bagages%20%3A%20%E2%80%A6)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Transferts%20%C2%BB.%20Transfert%20en%20van%20%3A%20de%20%E2%80%A6%20%C3%A0%20%E2%80%A6%2C%20date%20%3A%20%E2%80%A6%2C%20nombre%20de%20personnes%20%3A%20%E2%80%A6%2C%20bagages%20%3A%20%E2%80%A6)[Demander un devis](#book)
 
 ## De A *à B*
 

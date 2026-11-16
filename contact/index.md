@@ -12,11 +12,11 @@ WhatsApp is the fastest way to reach us. Send your dates, the number of people a
 - contact@mishpachatours.com
 - English, French, Spanish
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20your%20services.%20Dates%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CContact%20Mishpacha%20Tours%2C%20WhatsApp%20or%20email%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20your%20services.%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Three ways to *reach us*
 
-- **WhatsApp.** [Open the chat](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A). Messages only, any language; we reply in English, French or Spanish.
+- **WhatsApp.** [Open the chat](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CContact%20Mishpacha%20Tours%2C%20WhatsApp%20or%20email%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A). Messages only, any language; we reply in English, French or Spanish.
 - **Email.** [contact@mishpachatours.com](mailto:contact@mishpachatours.com). Best for groups, agencies and hotels.
 - **The form below.** Tour, dates, number of people, language and a way to reach you. We write back within one business day.
 
@@ -50,7 +50,7 @@ Yes. Write to contact@mishpachatours.com for net rates on the Stopover and on gr
 
 [Plan your trip](https://mishpachatours.com/plan-your-trip/)
 
-[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
+[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CContact%20Mishpacha%20Tours%2C%20WhatsApp%20or%20email%E2%80%9D.%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

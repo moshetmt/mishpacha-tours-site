@@ -21,7 +21,7 @@ Price on request
 5 bedrooms · hammam · near the slopes
 
 [Request the catalogue](https://mishpachatours.com/plan-your-trip/?i=a&catalogue=courchevel-famille)
-[WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Courchevel%201850.%20Dates%3A%20/%20Number%20of%20guests%3A)
+[WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CFamily%20Kosher%20Chalet%20Velours%2C%20Courchevel%E2%80%9D.%20We%20would%20like%20the%20kosher%20chalet%20in%20Courchevel%201850.%20Dates%3A%20%2F%20Number%20of%20guests%3A)
 
 Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 

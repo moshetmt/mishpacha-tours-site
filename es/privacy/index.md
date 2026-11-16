@@ -12,7 +12,7 @@ Recogemos lo necesario para responderle y para organizar su visita, nada más. E
 - Cookies solo con su consentimiento
 - Datos conservados 3 años
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABPol%C3%ADtica%20de%20privacidad%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Quién es el *responsable*
 

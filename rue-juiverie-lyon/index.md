@@ -6,13 +6,15 @@ Source: https://mishpachatours.com/rue-juiverie-lyon/ (HTML version). Every page
 
 # Rue Juiverie, Lyon *the street that kept the name*
 
+[Private tour from 290 € · 1 to 4 people](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20%28rue%20Juiverie%2C%20Grande%20Synagogue%2C%20rue%20Sainte-Catherine%29.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
+
 Rue Juiverie runs through the Vieux Lyon, in the 5th arrondissement. It takes its name from the Jewish community that lived in medieval Lyon. The community is long gone. The name stayed, and so did the Renaissance houses built after it left. We walk it with you, then continue to rue Sainte-Catherine, where the wartime story begins.
 
 - Lyon 5e, Vieux Lyon
 - Medieval Jewish community, 13th to 15th century
 - Metro Vieux-Lyon (line D)
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20%28rue%20Juiverie%2C%20Grande%20Synagogue%2C%20rue%20Sainte-Catherine%29.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20%28rue%20Juiverie%2C%20Grande%20Synagogue%2C%20rue%20Sainte-Catherine%29.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)[Get a quote](#book)
 
 ## Jews of Lyon *in the Middle Ages*
 
@@ -66,7 +68,7 @@ We stand there for as long as your group needs.
 
    Take the metro to Hôtel de Ville or Croix-Paquet and walk to number 12. The passage is a traboule: respect the residents and keep your voice low.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20%28rue%20Juiverie%2C%20Grande%20Synagogue%2C%20rue%20Sainte-Catherine%29.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20%28rue%20Juiverie%2C%20Grande%20Synagogue%2C%20rue%20Sainte-Catherine%29.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)[Get a quote](#book)
 
 ## Why walk it *with a Jewish guide*
 
@@ -102,7 +104,7 @@ On your own, 20 minutes for the street and 20 minutes for rue Sainte-Catherine. 
 
 ## Walk the street *with us*?
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20%28rue%20Juiverie%2C%20Grande%20Synagogue%2C%20rue%20Sainte-Catherine%29.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20%28rue%20Juiverie%2C%20Grande%20Synagogue%2C%20rue%20Sainte-Catherine%29.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
 
 Same-day reply, never on Shabbat.
 
@@ -118,7 +120,7 @@ Same-day reply, never on Shabbat.
 
 [Plan your trip](https://mishpachatours.com/plan-your-trip/)
 
-[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
+[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
 
 ## Lyon, booked in *one message*
 
@@ -128,31 +130,31 @@ One request, we organise everything, from the table to the transfer.
 
 A Jewish guide leads the visit in English, French or Spanish, with the inside of the Grande Synagogue. Sunday to Friday midday.
 
-[See the details](https://mishpachatours.com/tours/jewish-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20the%20guided%20tour%20of%20Jewish%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/tours/jewish-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20to%20book%20the%20guided%20tour%20of%20Jewish%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Shabbat table and kosher meals delivered in Lyon
 
 Shabbat meals, meals delivered to your hotel, a minyan close by.
 
-[See the details](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20Shabbat%20table%20and%20kosher%20meals%20delivered%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20a%20Shabbat%20table%20and%20kosher%20meals%20delivered%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Private kosher chef in Lyon and the Alps
 
 A chef in your apartment or your chalet, in a kitchen made kosher.
 
-[See the details](https://mishpachatours.com/kosher-services-french-alps/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20private%20kosher%20chef%20in%20Lyon%20or%20the%20Alps.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/kosher-services-french-alps/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20a%20private%20kosher%20chef%20in%20Lyon%20or%20the%20Alps.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Private van and transfers
 
 Lyon airport, Geneva, the Alpine resorts. Never during Shabbat.
 
-[See the details](https://mishpachatours.com/kosher-van-transfers/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20private%20van%20and%20transfers%20for%20my%20stay%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/kosher-van-transfers/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20a%20private%20van%20and%20transfers%20for%20my%20stay%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Discreet private escort, on request
 
 A quiet presence beside your group, only when you ask for it.
 
-[See the details](https://mishpachatours.com/is-lyon-safe-for-jewish-visitors/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20discreet%20private%20escort%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/is-lyon-safe-for-jewish-visitors/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CRue%20Juiverie%2C%20Lyon%E2%80%9D.%20I%20would%20like%20a%20discreet%20private%20escort%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

@@ -19,7 +19,7 @@ Prix sur demande
 9 suites · à une minute des pistes
 
 [Demander le catalogue](https://mishpachatours.com/fr/plan-your-trip/?i=a&catalogue=etoile-polaire)
-[WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Tignes.%20Dates%3A%20/%20Number%20of%20guests%3A)
+[WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20%C3%89toile%20Polaire%2C%20Tignes%20%C2%BB.%20Nous%20souhaitons%20ce%20chalet%20casher.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 

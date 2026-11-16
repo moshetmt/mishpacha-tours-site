@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-chalet-les-deux-alpes/ (HTML versio
 
 Un chalet de 300 m² aux Deux Alpes, à 2 minutes des pistes.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20allons%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Besoins%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20King%20David%2C%20Les%20Deux%20Alpes%20%C2%BB.%20Nous%20souhaitons%20ce%20chalet%20casher.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -94,7 +94,7 @@ Horaires calculés aux coordonnées de Les Deux Alpes.
 
    Un seul devis écrit pour tout le séjour, avant de vous engager.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20souhaitons%20le%20chalet%20casher%20aux%20Deux%20Alpes.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Services%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20King%20David%2C%20Les%20Deux%20Alpes%20%C2%BB.%20Nous%20souhaitons%20le%20chalet%20casher%20aux%20Deux%20Alpes.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Services%20%3A)[Demander un devis](#book)
 
 ## Se rendre *aux Deux Alpes*
 

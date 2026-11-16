@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/private-kosher-chalet-alps/ (HTML version)
 
 # Un chalet privé casher *dans les Alpes françaises*
 
-[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Private%20kosher%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20souhaite%20r%C3%A9server%20un%20chalet%20priv%C3%A9%20casher%20dans%20les%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Private%20kosher%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20priv%C3%A9%20casher%20dans%20les%20Alpes%20avec%20chef%20et%20repas%20%C2%BB.%20Je%20souhaite%20r%C3%A9server%20un%20chalet%20priv%C3%A9%20casher%20dans%20les%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)
 
 [Accueil](/fr/) / [Services casher dans les Alpes](/fr/kosher-services-french-alps/) / Un chalet privé casher
 
@@ -49,7 +49,7 @@ Chaque chalet a son prix par semaine et ses équipements, des piscines chauffée
 
    La cuisine est cachérisée avant votre arrivée, et le chef assure les repas de la semaine et de Chabbat.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20souhaite%20r%C3%A9server%20un%20chalet%20priv%C3%A9%20casher%20dans%20les%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20priv%C3%A9%20casher%20dans%20les%20Alpes%20avec%20chef%20et%20repas%20%C2%BB.%20Je%20souhaite%20r%C3%A9server%20un%20chalet%20priv%C3%A9%20casher%20dans%20les%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Vos *questions*
 

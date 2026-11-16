@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-villa-saint-tropez/ (HTML version).
 
 Villa Beach a les pieds dans l'eau, dans le golfe de Saint-Tropez.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Saint-Tropez&voyage=Summer%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20souhaitons%20la%20villa%20casher%20de%20Saint-Tropez.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Saint-Tropez&voyage=Summer%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Villa%20casher%20%C3%A0%20Saint-Tropez%2C%20plage%20priv%C3%A9e%20%C2%BB.%20Nous%20souhaitons%20la%20villa%20casher%20de%20Saint-Tropez.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 C’est la seule villa à louer à Saint-Tropez avec une plage de sable privée et son propre garage à bateau doté d’une rampe de mise à l’eau. Cinq chambres et cinq salles de bain pour 12 personnes, une piscine chauffée et un jacuzzi dans le jardin, un hammam et un sauna sur la mer. Notre équipe cachérise la cuisine, un chef privé prépare chaque repas, et Chabbat se vit à la villa avec un minyan si vous le souhaitez.
 
@@ -54,7 +54,7 @@ Strictement casher, tout ce qui est servi est 'Halav Yisrael. Les détails de la
 
    Un programme jour par jour et un devis écrit pour tout le séjour, avant tout engagement.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20souhaitons%20la%20villa%20casher%20de%20Saint-Tropez.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Villa%20casher%20%C3%A0%20Saint-Tropez%2C%20plage%20priv%C3%A9e%20%C2%BB.%20Nous%20souhaitons%20la%20villa%20casher%20de%20Saint-Tropez.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Pour *y aller*
 

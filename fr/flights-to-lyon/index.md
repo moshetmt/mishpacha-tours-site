@@ -12,7 +12,7 @@ Lyon-Saint-Exupéry est l’aéroport de la Tarentaise et du côté Grenoble : V
 - Val Thorens 2 h 30, Courchevel 2 h 10
 - Commerces casher à Lyon, pas à l’aéroport
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20atterrissons%20%C3%A0%20Lyon%20avant%20de%20monter%20dans%20les%20Alpes.%20Heure%20d%E2%80%99atterrissage%20%3A%20/%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Nous%20aimerions%20%28visite%20Escale%2C%20repas%20casher%20en%20station%2C%20chef%2C%20Shabbat%29%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Vols%20vers%20Lyon%20%C2%BB.%20Nous%20atterrissons%20%C3%A0%20Lyon%20avant%20de%20monter%20dans%20les%20Alpes.%20Heure%20d%E2%80%99atterrissage%20%3A%20%2F%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Nous%20aimerions%20%28visite%20Escale%2C%20repas%20casher%20en%20station%2C%20chef%2C%20Shabbat%29%20%3A)[Demander un devis](#book)
 
 ## Vols directs *vers Lyon*
 
@@ -56,7 +56,7 @@ Avant de monter, Lyon et Villeurbanne ont des épiceries et des boucheries cashe
 
    Votre transfert vous conduit à la station ; si vous l’avez demandé, les repas ou le chef sont prêts pour votre première soirée.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20atterrissons%20%C3%A0%20Lyon%20avant%20de%20monter%20dans%20les%20Alpes.%20Heure%20d%E2%80%99atterrissage%20%3A%20/%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Nous%20aimerions%20%28visite%20Escale%2C%20repas%20casher%20en%20station%2C%20chef%2C%20Shabbat%29%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Vols%20vers%20Lyon%20%C2%BB.%20Nous%20atterrissons%20%C3%A0%20Lyon%20avant%20de%20monter%20dans%20les%20Alpes.%20Heure%20d%E2%80%99atterrissage%20%3A%20%2F%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Nous%20aimerions%20%28visite%20Escale%2C%20repas%20casher%20en%20station%2C%20chef%2C%20Shabbat%29%20%3A)[Demander un devis](#book)
 
 ## Shabbat *à Lyon*
 
@@ -86,7 +86,7 @@ Non. Vous les réservez vous-même. Nous guidons à Lyon, et notre équipe cashe
 
 ## Vous atterrissez à Lyon avant de monter dans les Alpes ?
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20atterrissons%20%C3%A0%20Lyon%20avant%20de%20monter%20dans%20les%20Alpes.%20Heure%20d%E2%80%99atterrissage%20%3A%20/%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Nous%20aimerions%20%28visite%20Escale%2C%20repas%20casher%20en%20station%2C%20chef%2C%20Shabbat%29%20%3A)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Vols%20vers%20Lyon%20%C2%BB.%20Nous%20atterrissons%20%C3%A0%20Lyon%20avant%20de%20monter%20dans%20les%20Alpes.%20Heure%20d%E2%80%99atterrissage%20%3A%20%2F%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Nous%20aimerions%20%28visite%20Escale%2C%20repas%20casher%20en%20station%2C%20chef%2C%20Shabbat%29%20%3A)
 
 Réponse dans la journée, jamais le Shabbat.
 
@@ -102,7 +102,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 [Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/)
 
-[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20allons%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Besoins%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
+[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Vols%20vers%20Lyon%20%C2%BB.%20Nous%20allons%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Besoins%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

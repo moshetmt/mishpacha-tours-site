@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/he/kosher-pesach-french-alps/ (HTML version).
 
 חופשת פסח בצ'אלה פרטית עם Winter Prestige: המטבח מוכשר לפסח, הסדרים והארוחות מוכנים בשבילכם.
 
-[לתכנן את הטיול](https://mishpachatours.com/he/plan-your-trip/?i=e&voyage=Pesach%20in%20the%20Alps)[או כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%9E%D7%AA%D7%9B%D7%A0%D7%A0%D7%99%D7%9D%20%D7%A4%D7%A1%D7%97%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20/%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%A0%D7%A9%D7%99%D7%9D%3A)
+[לתכנן את הטיול](https://mishpachatours.com/he/plan-your-trip/?i=e&voyage=Pesach%20in%20the%20Alps)[או כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%20Mishpacha%20Tours%2C%20%D7%A7%D7%A8%D7%90%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%A2%D7%9E%D7%95%D7%93%20%22%D7%A4%D7%A1%D7%97%20%D7%9B%D7%A9%D7%A8%202027%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D%2C%20%D7%91%D7%A6%27%D7%90%D7%9C%D7%94%20%D7%A4%D7%A8%D7%98%D7%99%D7%AA%22.%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%9E%D7%AA%D7%9B%D7%A0%D7%A0%D7%99%D7%9D%20%D7%A4%D7%A1%D7%97%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%A0%D7%A9%D7%99%D7%9D%3A)
 
 פסח בהרים, בלי להכשיר כלום בעצמכם.
 
@@ -47,7 +47,7 @@ Source: https://mishpachatours.com/he/kosher-pesach-french-alps/ (HTML version).
 
    הזמינות, מה כלול והמחיר, לפני כל התחייבות.
 
-[כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%9E%D7%AA%D7%9B%D7%A0%D7%A0%D7%99%D7%9D%20%D7%A4%D7%A1%D7%97%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20/%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%A0%D7%A9%D7%99%D7%9D%3A)[בקשו הצעת מחיר](#book)
+[כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%20Mishpacha%20Tours%2C%20%D7%A7%D7%A8%D7%90%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%A2%D7%9E%D7%95%D7%93%20%22%D7%A4%D7%A1%D7%97%20%D7%9B%D7%A9%D7%A8%202027%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D%2C%20%D7%91%D7%A6%27%D7%90%D7%9C%D7%94%20%D7%A4%D7%A8%D7%98%D7%99%D7%AA%22.%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%9E%D7%AA%D7%9B%D7%A0%D7%A0%D7%99%D7%9D%20%D7%A4%D7%A1%D7%97%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%A0%D7%A9%D7%99%D7%9D%3A)[בקשו הצעת מחיר](#book)
 
 ## פסח באלפים: *שאלות*
 

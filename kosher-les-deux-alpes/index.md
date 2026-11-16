@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-les-deux-alpes/ (HTML version). Every 
 
 Les Deux Alpes sits at 1,650 m in Isère, with a glacier above it.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Les%20Deux%20Alpes.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalets%20in%20Les%20Deux%20Alpes%E2%80%9D.%20We%20are%20going%20to%20Les%20Deux%20Alpes.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
 
 Ski Les Deux Alpes by day. Come back to a set table, a minyan, and Shabbat ready.
 
@@ -117,7 +117,7 @@ A professional escort is available on request and on quote, in the resort as in 
 
    The price depends on the dates, the number of people and the menu. You receive a written quote before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Les%20Deux%20Alpes.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalets%20in%20Les%20Deux%20Alpes%E2%80%9D.%20We%20are%20going%20to%20Les%20Deux%20Alpes.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
 
 ## Getting to *Les Deux Alpes*
 

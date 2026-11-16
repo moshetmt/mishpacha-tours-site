@@ -12,7 +12,7 @@ Estas son las condiciones que se aplican cuando reserva una visita con Mishpacha
 - Cancelación gratuita 24 h
 - Solo visita guiada
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABCondiciones%20de%20reserva%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Qué *vendemos*
 

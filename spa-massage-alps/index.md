@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/spa-massage-alps/ (HTML version). Every page 
 
 # Spa and massage *at the chalet*
 
-[Plan my trip](/plan-your-trip/?i=a&voyage=Spa%20and%20massage%20at%20the%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20know%20about%20the%20spa%20and%20massage%20options%20at%20a%20kosher%20chalet.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[Plan my trip](/plan-your-trip/?i=a&voyage=Spa%20and%20massage%20at%20the%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CSpa%20and%20massage%20at%20a%20kosher%20chalet%20in%20the%20French%20Alps%E2%80%9D.%20I%20would%20like%20to%20know%20about%20the%20spa%20and%20massage%20options%20at%20a%20kosher%20chalet.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 [Home](/) / [Kosher services in the Alps](/kosher-services-french-alps/) / Spa and massage
 
@@ -49,7 +49,7 @@ In Megève, the spa faces the Mont-Blanc. The house is silent. If you would like
 
    Everything is written on one quote, with the price for your dates. You confirm only when it suits you.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20know%20about%20the%20spa%20and%20massage%20options%20at%20a%20kosher%20chalet.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CSpa%20and%20massage%20at%20a%20kosher%20chalet%20in%20the%20French%20Alps%E2%80%9D.%20I%20would%20like%20to%20know%20about%20the%20spa%20and%20massage%20options%20at%20a%20kosher%20chalet.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Your *questions*
 

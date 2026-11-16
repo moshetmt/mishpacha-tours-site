@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-slope-chalet-les-deux-alpes/ (HTML 
 
 Un chalet de 165 m² en Les Deux Alpes, a cincuenta metros de las pistas: se calza los esquís en la puerta.
 
-[Preparar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20Slope%20Chalet%20in%20Les%20Deux%20Alpes.%20Dates%3A%20/%20Number%20of%20people%3A)
+[Preparar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20Rochebrune%2C%20Les%20Deux%20Alpes%C2%BB.%20Quisi%C3%A9ramos%20este%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -60,7 +60,7 @@ Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado
 
    Un programa día a día y un presupuesto por escrito para toda la estancia, antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20Slope%20Chalet%20in%20Les%20Deux%20Alpes.%20Dates%3A%20/%20Number%20of%20people%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20Rochebrune%2C%20Les%20Deux%20Alpes%C2%BB.%20Quisi%C3%A9ramos%20este%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Cómo *llegar*
 

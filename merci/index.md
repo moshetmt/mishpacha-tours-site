@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/merci/ (HTML version). Every page of the site
 
 We reply within one business day, and never on Shabbat or on a Jewish holiday. If your dates are close, the fastest way to reach us is WhatsApp.
 
-[Message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20just%20sent%20a%20booking%20request%20on%20the%20website.)
+[Message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CThank%20you%E2%80%9D.%20I%20just%20sent%20a%20booking%20request%20on%20the%20website.)
 
 [Back to the tours](https://mishpachatours.com/)
 

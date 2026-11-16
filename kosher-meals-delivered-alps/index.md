@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/kosher-meals-delivered-alps/ (HTML version). 
 
 # Kosher meals delivered *to your chalet or hotel*
 
-[Plan my trip](/plan-your-trip/?i=a&voyage=Kosher%20meals%20delivered)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20would%20like%20kosher%20meals%20delivered%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)
+[Plan my trip](/plan-your-trip/?i=a&voyage=Kosher%20meals%20delivered)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Meals%20Delivered%20in%20Alpine%20Resorts%E2%80%9D.%20I%20would%20like%20kosher%20meals%20delivered%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)
 
 [Home](/) / [Kosher services in the Alps](/kosher-services-french-alps/) / Kosher meals delivered
 
@@ -49,7 +49,7 @@ The meals are a community service of Beth Habad Grenoble Alpes, which prepares a
 
    Orders are taken by Wednesday evening at the latest, with full payment at the time of order. The meals then arrive every two days.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20would%20like%20kosher%20meals%20delivered%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Meals%20Delivered%20in%20Alpine%20Resorts%E2%80%9D.%20I%20would%20like%20kosher%20meals%20delivered%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)[Get a quote](#book)
 
 ## Your *questions*
 

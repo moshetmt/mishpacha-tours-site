@@ -233,7 +233,7 @@ El aeropuerto de Lyon está a unas dos horas de las estaciones. Haga una parada 
 
 [Planificar mi viaje](https://mishpachatours.com/es/plan-your-trip/)
 
-[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20estamos%20organizando%20unas%20vacaciones%20kosher.%20Fechas%3A%20%2F%20Adultos%3A%20%2F%20Ni%C3%B1os%3A%20%2F%20Estaci%C3%B3n%3A)
+[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVacaciones%20estrictamente%20kosher%20en%20los%20Alpes%20y%20Lyon%C2%BB.%20Estamos%20organizando%20unas%20vacaciones%20kosher.%20Fechas%3A%20%2F%20Adultos%3A%20%2F%20Ni%C3%B1os%3A%20%2F%20Estaci%C3%B3n%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

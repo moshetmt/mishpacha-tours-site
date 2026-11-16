@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/merci/ (HTML version). Every page of the s
 
 Nous répondons sous un jour ouvré, jamais le Shabbat ni les jours de fête juive. Si vos dates sont proches, le plus rapide est de nous écrire sur WhatsApp.
 
-[Écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20viens%20d'envoyer%20une%20demande%20de%20r%C3%A9servation%20sur%20le%20site.)
+[Écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Merci%20%C2%BB.%20Je%20viens%20d%27envoyer%20une%20demande%20de%20r%C3%A9servation%20sur%20le%20site.)
 
 [Retour aux visites](https://mishpachatours.com/fr/)
 

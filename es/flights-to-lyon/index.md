@@ -12,7 +12,7 @@ Lyon-Saint-Exupéry es el aeropuerto de la Tarentaise y del lado de Grenoble: Va
 - Val Thorens 2 h 30, Courchevel 2 h 10
 - Tiendas kosher en Lyon, no en el aeropuerto
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20aterrizamos%20en%20Lyon%20de%20camino%20a%20los%20Alpes.%20Hora%20de%20aterrizaje%3A%20/%20Estaci%C3%B3n%3A%20/%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Nos%20gustar%C3%ADa%20%28visita%20Escala%2C%20comidas%20kosher%20en%20la%20estaci%C3%B3n%2C%20chef%2C%20Shabat%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVuelos%20a%20Lyon%C2%BB.%20Aterrizamos%20en%20Lyon%20de%20camino%20a%20los%20Alpes.%20Hora%20de%20aterrizaje%3A%20%2F%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Nos%20gustar%C3%ADa%20%28visita%20Escala%2C%20comidas%20kosher%20en%20la%20estaci%C3%B3n%2C%20chef%2C%20Shabat%29%3A)[Pedir presupuesto](#book)
 
 ## Vuelos directos *a Lyon*
 
@@ -56,7 +56,7 @@ Antes de subir, Lyon y Villeurbanne tienen tiendas de comestibles y carnicerías
 
    Su traslado le lleva a la estación; si lo pidió, las comidas o el chef le esperan para la primera noche.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20aterrizamos%20en%20Lyon%20de%20camino%20a%20los%20Alpes.%20Hora%20de%20aterrizaje%3A%20/%20Estaci%C3%B3n%3A%20/%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Nos%20gustar%C3%ADa%20%28visita%20Escala%2C%20comidas%20kosher%20en%20la%20estaci%C3%B3n%2C%20chef%2C%20Shabat%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVuelos%20a%20Lyon%C2%BB.%20Aterrizamos%20en%20Lyon%20de%20camino%20a%20los%20Alpes.%20Hora%20de%20aterrizaje%3A%20%2F%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Nos%20gustar%C3%ADa%20%28visita%20Escala%2C%20comidas%20kosher%20en%20la%20estaci%C3%B3n%2C%20chef%2C%20Shabat%29%3A)[Pedir presupuesto](#book)
 
 ## Shabat *en Lyon*
 
@@ -86,7 +86,7 @@ No. Los reserva usted. Nosotros guiamos en Lyon, y nuestro equipo kosher organiz
 
 ## ¿Aterriza en Lyon de camino a los Alpes?
 
-[Consultar por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20aterrizamos%20en%20Lyon%20de%20camino%20a%20los%20Alpes.%20Hora%20de%20aterrizaje%3A%20/%20Estaci%C3%B3n%3A%20/%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Nos%20gustar%C3%ADa%20%28visita%20Escala%2C%20comidas%20kosher%20en%20la%20estaci%C3%B3n%2C%20chef%2C%20Shabat%29%3A)
+[Consultar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVuelos%20a%20Lyon%C2%BB.%20Aterrizamos%20en%20Lyon%20de%20camino%20a%20los%20Alpes.%20Hora%20de%20aterrizaje%3A%20%2F%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Nos%20gustar%C3%ADa%20%28visita%20Escala%2C%20comidas%20kosher%20en%20la%20estaci%C3%B3n%2C%20chef%2C%20Shabat%29%3A)
 
 Respuesta el mismo día, nunca en Shabat.
 
@@ -102,7 +102,7 @@ Respuesta el mismo día, nunca en Shabat.
 
 [Planificar mi viaje](https://mishpachatours.com/es/plan-your-trip/)
 
-[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20vamos%20a%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20minyan%29%3A)
+[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVuelos%20a%20Lyon%C2%BB.%20Vamos%20a%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20minyan%29%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

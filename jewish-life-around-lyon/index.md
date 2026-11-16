@@ -11,7 +11,7 @@ Lyon is the gateway to the Alps. Within two hours you reach nine Jewish communit
 - 9 towns
 - 3 ski resorts
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20travelling%20to%20the%20Alps%20through%20Lyon%20and%20would%20like%20to%20ask%20about%20the%20Stopover%20tour.%20Arrival%20time%3A%20/%20Onward%20departure%20time%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CJewish%20life%20around%20Lyon%E2%80%9D.%20We%20are%20travelling%20to%20the%20Alps%20through%20Lyon%20and%20would%20like%20to%20ask%20about%20the%20Stopover%20tour.%20Arrival%20time%3A%20%2F%20Onward%20departure%20time%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## The region on the *map*
 
@@ -66,7 +66,7 @@ Our Stopover tour is built for families on their way to the slopes: three hours 
 
 ## Heading to the Alps through Lyon?
 
-[Ask about the Stopover](https://wa.me/33652092301?text=Hello%2C%20we%20are%20travelling%20to%20the%20Alps%20through%20Lyon%20and%20would%20like%20to%20ask%20about%20the%20Stopover%20tour.%20Arrival%20time%3A%20/%20Onward%20departure%20time%3A%20/%20Number%20of%20people%3A)
+[Ask about the Stopover](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CJewish%20life%20around%20Lyon%E2%80%9D.%20We%20are%20travelling%20to%20the%20Alps%20through%20Lyon%20and%20would%20like%20to%20ask%20about%20the%20Stopover%20tour.%20Arrival%20time%3A%20%2F%20Onward%20departure%20time%3A%20%2F%20Number%20of%20people%3A)
 
 Same-day reply, never on Shabbat.
 
@@ -74,7 +74,7 @@ Same-day reply, never on Shabbat.
 
 [Plan your trip](https://mishpachatours.com/plan-your-trip/)
 
-[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
+[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CJewish%20life%20around%20Lyon%E2%80%9D.%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

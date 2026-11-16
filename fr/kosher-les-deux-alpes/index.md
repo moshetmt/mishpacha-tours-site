@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-les-deux-alpes/ (HTML version). Eve
 
 Les Deux Alpes se trouvent à 1 650 m, en Isère, sous un glacier.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20partons%20aux%20Deux%20Alpes.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalets%20casher%20aux%20Deux%20Alpes%20%C2%BB.%20Nous%20partons%20aux%20Deux%20Alpes.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 Skiez à Les Deux Alpes le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -117,7 +117,7 @@ Une escorte professionnelle est disponible sur demande et sur devis, en station 
 
    Le prix dépend des dates, du nombre de personnes et du menu. Vous recevez un devis écrit avant de vous engager.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20partons%20aux%20Deux%20Alpes.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalets%20casher%20aux%20Deux%20Alpes%20%C2%BB.%20Nous%20partons%20aux%20Deux%20Alpes.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
 
 ## Se rendre *aux Deux Alpes*
 

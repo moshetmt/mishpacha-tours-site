@@ -12,7 +12,7 @@ We collect what we need to answer you and to run your tour, nothing else. This p
 - Cookies only with your consent
 - Data kept 3 years
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20your%20services.%20Dates%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CPrivacy%20policy%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20your%20services.%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Who is *responsible*
 

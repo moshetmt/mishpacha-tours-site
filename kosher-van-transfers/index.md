@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-van-transfers/ (HTML version). Every p
 
 One message, one driver.
 
-[Request a van](https://mishpachatours.com/plan-your-trip/?i=c)[Or message us on WhatsApp](https://wa.me/33652092301?text=Van%20transfer%3A%20from%20%E2%80%A6%20to%20%E2%80%A6%2C%20date%3A%20%E2%80%A6%2C%20number%20of%20people%3A%20%E2%80%A6%2C%20luggage%3A%20%E2%80%A6)
+[Request a van](https://mishpachatours.com/plan-your-trip/?i=c)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CPrivate%20Van%20Transfers%20in%20France%20and%20Abroad%E2%80%9D.%20Van%20transfer%3A%20from%20%E2%80%A6%20to%20%E2%80%A6%2C%20date%3A%20%E2%80%A6%2C%20number%20of%20people%3A%20%E2%80%A6%2C%20luggage%3A%20%E2%80%A6)
 
 Tell us where you start, where you are going, the date, how many of you are travelling and how much luggage you have. We find a licensed driver in our network and set up a private van for your family or group, with room for bags, strollers and skis. Airport, station, hotel, ski resort or city: anywhere in France, and abroad too.
 
@@ -45,7 +45,7 @@ The ride is carried out and invoiced by a licensed driver from our network; we f
 
    Your driver is at the agreed place at the agreed time. Every ride is planned around Shabbat and the holidays.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Van%20transfer%3A%20from%20%E2%80%A6%20to%20%E2%80%A6%2C%20date%3A%20%E2%80%A6%2C%20number%20of%20people%3A%20%E2%80%A6%2C%20luggage%3A%20%E2%80%A6)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CPrivate%20Van%20Transfers%20in%20France%20and%20Abroad%E2%80%9D.%20Van%20transfer%3A%20from%20%E2%80%A6%20to%20%E2%80%A6%2C%20date%3A%20%E2%80%A6%2C%20number%20of%20people%3A%20%E2%80%A6%2C%20luggage%3A%20%E2%80%A6)[Get a quote](#book)
 
 ## From A *to B*
 

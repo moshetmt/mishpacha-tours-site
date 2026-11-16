@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/shabbat-holiday-meals-alps/ (HTML version)
 
 # Repas de Chabbat et de fêtes *en station, à votre table*
 
-[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Shabbat%20and%20holiday%20meals)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20des%20repas%20de%20Chabbat%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Shabbat%20and%20holiday%20meals)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Repas%20de%20Chabbat%20et%20de%20f%C3%AAtes%20dans%20les%20Alpes%2C%20casher%20%C2%BB.%20Je%20souhaite%20des%20repas%20de%20Chabbat%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 [Accueil](/fr/) / [Services casher dans les Alpes](/fr/kosher-services-french-alps/) / Repas de Chabbat et de fêtes
 
@@ -49,7 +49,7 @@ Les repas sont servis à votre chalet, ou livrés à votre appartement, chalet o
 
    Hallot et vin arrivent le vendredi. La table est dressée, vous n'avez qu'à vous asseoir.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20des%20repas%20de%20Chabbat%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Repas%20de%20Chabbat%20et%20de%20f%C3%AAtes%20dans%20les%20Alpes%2C%20casher%20%C2%BB.%20Je%20souhaite%20des%20repas%20de%20Chabbat%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Vos *questions*
 

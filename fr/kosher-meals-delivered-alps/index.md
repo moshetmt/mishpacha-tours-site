@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/kosher-meals-delivered-alps/ (HTML version
 
 # Repas casher livrés *à votre chalet ou hôtel*
 
-[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Kosher%20meals%20delivered)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20souhaite%20des%20repas%20casher%20livr%C3%A9s%20dans%20les%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Kosher%20meals%20delivered)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Repas%20casher%20livr%C3%A9s%20en%20station%20%C2%BB.%20Je%20souhaite%20des%20repas%20casher%20livr%C3%A9s%20dans%20les%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)
 
 [Accueil](/fr/) / [Services casher dans les Alpes](/fr/kosher-services-french-alps/) / Repas casher livrés
 
@@ -49,7 +49,7 @@ Les repas sont un service communautaire du Beth Habad de Grenoble Alpes, qui les
 
    La commande se prend au plus tard le mercredi soir, avec paiement complet à la commande. Les repas arrivent ensuite tous les deux jours.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20souhaite%20des%20repas%20casher%20livr%C3%A9s%20dans%20les%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Repas%20casher%20livr%C3%A9s%20en%20station%20%C2%BB.%20Je%20souhaite%20des%20repas%20casher%20livr%C3%A9s%20dans%20les%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Vos *questions*
 

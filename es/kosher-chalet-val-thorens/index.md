@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-chalet-val-thorens/ (HTML version).
 
 Un chalé privado de madera sobre Val Thorens, en Les 3 Vallées, orientado al sur.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Val%20Thorens.%20Dates%3A%20/%20Number%20of%20guests%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Val%20Thorens&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20Belle%20%C3%89toile%2C%20Val%20Thorens%C2%BB.%20Quisi%C3%A9ramos%20este%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -59,7 +59,7 @@ Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado
 
    Un programa día a día y un presupuesto por escrito para toda la estancia, antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Val%20Thorens.%20Dates%3A%20/%20Number%20of%20guests%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20Belle%20%C3%89toile%2C%20Val%20Thorens%C2%BB.%20Quisi%C3%A9ramos%20este%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Cómo *llegar*
 

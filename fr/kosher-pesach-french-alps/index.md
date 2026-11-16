@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-pesach-french-alps/ (HTML version).
 
 Un séjour de Pessah en chalet privé avec Winter Prestige : la cuisine cachérisée pour Pessah, les sedarim et les repas préparés pour vous.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=e&voyage=Pesach%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20pr%C3%A9parons%20Pessah%20dans%20les%20Alpes.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=e&voyage=Pesach%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Pessah%202027%20casher%20dans%20les%20Alpes%2C%20en%20chalet%20priv%C3%A9%20%C2%BB.%20Nous%20pr%C3%A9parons%20Pessah%20dans%20les%20Alpes.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Pessah à la montagne, sans rien cachériser vous-même.
 
@@ -47,7 +47,7 @@ Un programme de Pessah pour votre seule famille ou votre seul groupe, dans un ch
 
    Les disponibilités, le détail de ce qui est compris et le prix, avant tout engagement.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20pr%C3%A9parons%20Pessah%20dans%20les%20Alpes.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Pessah%202027%20casher%20dans%20les%20Alpes%2C%20en%20chalet%20priv%C3%A9%20%C2%BB.%20Nous%20pr%C3%A9parons%20Pessah%20dans%20les%20Alpes.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Pessah dans les Alpes : *vos questions*
 

@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-les-arcs/ (HTML version). Every page o
 
 Les Arcs is a string of villages above Bourg-Saint-Maurice: Arc 1600, 1800, 1950 and 2000.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Arcs)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Les%20Arcs.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Village%20%28Arc%201600%2C%201800%2C%201950%2C%202000%29%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Arcs)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Les%20Arcs%E2%80%9D.%20We%20are%20going%20to%20Les%20Arcs.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Village%20%28Arc%201600%2C%201800%2C%201950%2C%202000%29%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
 
 Ski Les Arcs by day. Come back to a set table, a minyan, and Shabbat ready.
 
@@ -77,7 +77,7 @@ Times calculated for the coordinates of Les Arcs.
 
    The price depends on the dates, the number of people and the menu. You receive a written quote before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Les%20Arcs.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Village%20%28Arc%201600%2C%201800%2C%201950%2C%202000%29%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Les%20Arcs%E2%80%9D.%20We%20are%20going%20to%20Les%20Arcs.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Village%20%28Arc%201600%2C%201800%2C%201950%2C%202000%29%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
 
 ## Getting *to Les Arcs*
 

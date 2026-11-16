@@ -12,7 +12,7 @@ This site is published by Mishpacha Tours, a sole-trader business based in Lyon.
 - Lyon, France
 - Hosted by Vercel
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20your%20services.%20Dates%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CLegal%20notice%20and%20publisher%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20your%20services.%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Who *publishes* this site
 

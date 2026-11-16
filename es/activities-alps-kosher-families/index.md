@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/activities-alps-kosher-families/ (HTML ver
 
 # Actividades en los Alpes *para familias*
 
-[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Activities%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20actividades%20para%20mi%20familia%20durante%20nuestra%20estancia%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Activities%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABActividades%20en%20familia%20en%20los%20Alpes%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20actividades%20para%20mi%20familia%20durante%20nuestra%20estancia%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 [Inicio](/es/) / [Servicios kosher en los Alpes](/es/kosher-services-french-alps/) / Actividades en los Alpes
 
@@ -49,7 +49,7 @@ En verano, los Alpes se abren a lagos y senderos. Annecy, Aix-les-Bains y Grenob
 
    Chalet, comidas, actividades y traslados están escritos en un solo presupuesto. Usted confirma cuando le convenga.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20actividades%20para%20mi%20familia%20durante%20nuestra%20estancia%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABActividades%20en%20familia%20en%20los%20Alpes%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20actividades%20para%20mi%20familia%20durante%20nuestra%20estancia%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Sus *preguntas*
 

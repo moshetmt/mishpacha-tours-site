@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/summer-in-the-alps-jewish-families/ (HTML 
 
 L’été dans les Alpes, ce sont des lacs, de la marche et de longues soirées.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&voyage=Summer%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20voyageons%20dans%20les%20Alpes%20cet%20%C3%A9t%C3%A9%20en%20passant%20par%20Lyon%20et%20souhaitons%20une%20visite.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Langue%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&voyage=Summer%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20L%E2%80%99%C3%A9t%C3%A9%20dans%20les%20Alpes%2C%20familles%20juives%2C%20via%20Lyon%20%C2%BB.%20Nous%20voyageons%20dans%20les%20Alpes%20cet%20%C3%A9t%C3%A9%20en%20passant%20par%20Lyon%20et%20souhaitons%20une%20visite.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20%3A)
 
 Pour une famille pratiquante, c’est aussi savoir où se trouve le minyan, qui vous nourrit le Shabbat et ce qui est ouvert. Trois villes proches de Lyon ont une communauté documentée : Aix-les-Bains, Annecy et Grenoble. En station, notre équipe casher organise repas, Shabbat et minyan pour vos dates : [une demande, un devis](https://mishpachatours.com/fr/kosher-services-french-alps/). Nous ne vendons ni forfaits ni séjours.
 
@@ -116,7 +116,7 @@ Chaque station a ses horaires : ils sont calculés aux coordonnées de la statio
 
    Lyon fait une bonne base pour des excursions d’une journée en train vers Grenoble, Aix-les-Bains et Chambéry. Passez le Shabbat à Lyon : voir [Shabbat à Lyon](https://mishpachatours.com/fr/shabbat-in-lyon/).
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20voyageons%20dans%20les%20Alpes%20cet%20%C3%A9t%C3%A9%20en%20passant%20par%20Lyon%20et%20souhaitons%20une%20visite.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Langue%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20L%E2%80%99%C3%A9t%C3%A9%20dans%20les%20Alpes%2C%20familles%20juives%2C%20via%20Lyon%20%C2%BB.%20Nous%20voyageons%20dans%20les%20Alpes%20cet%20%C3%A9t%C3%A9%20en%20passant%20par%20Lyon%20et%20souhaitons%20une%20visite.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20%3A)[Demander un devis](#book)
 
 ## Les villes *sur la carte*
 

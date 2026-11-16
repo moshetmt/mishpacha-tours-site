@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-verbier/ (HTML version). Every page
 
 Verbier se trouve à environ 1 500 m, en Valais, en haut des 4 Vallées, avec le Mont Fort à 3 330 m.
 
-[Organiser mon séjour sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20allons%20%C3%A0%20Verbier.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Il%20nous%20faut%20%28chef%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%2C%20chalet%20seul%29%20%3A)
+[Organiser mon séjour sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20Verbier%20%C2%BB.%20Nous%20allons%20%C3%A0%20Verbier.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Il%20nous%20faut%20%28chef%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%2C%20chalet%20seul%29%20%3A)
 
 Skiez à Verbier le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -66,7 +66,7 @@ La surveillance est rarement écrite noir sur blanc : renseignez-vous avant de 
 
    Le prix dépend des dates, du nombre de personnes et du menu. Vous recevez un devis écrit avant de vous engager.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20allons%20%C3%A0%20Verbier.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Il%20nous%20faut%20%28chef%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%2C%20chalet%20seul%29%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20Verbier%20%C2%BB.%20Nous%20allons%20%C3%A0%20Verbier.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Il%20nous%20faut%20%28chef%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%2C%20chalet%20seul%29%20%3A)[Demander un devis](#book)
 
 ## Se rendre *à Verbier*
 

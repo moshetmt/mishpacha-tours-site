@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-vacation-french-alps/ (HTML version
 
 Vous voulez des vacances casher à l’étranger sans hôtel casher : un chalet ou un appartement rien qu’à vous.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20pr%C3%A9parons%20des%20vacances%20casher%20dans%20les%20Alpes.%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20H%C3%A9bergement%20%28chalet%2C%20appartement%2C%20h%C3%B4tel%29%20%3A%20/%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Vacances%20casher%20%C2%BB.%20Nous%20pr%C3%A9parons%20des%20vacances%20casher%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20H%C3%A9bergement%20%28chalet%2C%20appartement%2C%20h%C3%B4tel%29%20%3A%20%2F%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 Vous voulez des vacances casher à l’étranger sans hôtel casher : un chalet ou un appartement rien qu’à vous, dans une vraie station de ski l’hiver ou au bord d’un lac l’été, avec la certitude que les repas, Shabbat et la prière sont réglés. C’est ce que Mishpacha Tours organise dans les Alpes françaises, à deux ou trois heures de Lyon : un chef privé dans votre chalet ou des repas chauds livrés à votre porte, des repas de Shabbat avec challot et vin, les fêtes, un minyan et un Sefer Torah quand plusieurs familles partagent une station. Notre équipe casher basée dans les Alpes. Vous envoyez votre station, vos dates et votre groupe ; vous recevez un devis écrit, le jour même.
 
@@ -56,7 +56,7 @@ Le lac d’Annecy, Aix-les-Bains et Grenoble ont une communauté répertoriée ;
 
    Le prix dépend de la station, des dates, du nombre de personnes et du menu. Vous recevez un devis écrit avant de vous engager à quoi que ce soit.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20pr%C3%A9parons%20des%20vacances%20casher%20dans%20les%20Alpes.%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20H%C3%A9bergement%20%28chalet%2C%20appartement%2C%20h%C3%B4tel%29%20%3A%20/%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Vacances%20casher%20%C2%BB.%20Nous%20pr%C3%A9parons%20des%20vacances%20casher%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20H%C3%A9bergement%20%28chalet%2C%20appartement%2C%20h%C3%B4tel%29%20%3A%20%2F%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
 
 ## Atterrir à Lyon
 

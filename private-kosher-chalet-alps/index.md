@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/private-kosher-chalet-alps/ (HTML version). E
 
 # A private kosher chalet *in the French Alps*
 
-[Plan my trip](/plan-your-trip/?i=a&voyage=Private%20kosher%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20would%20like%20to%20book%20a%20private%20kosher%20chalet%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)
+[Plan my trip](/plan-your-trip/?i=a&voyage=Private%20kosher%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CPrivate%20Kosher%20Chalet%20in%20the%20Alps%20with%20Chef%20and%20Meals%E2%80%9D.%20I%20would%20like%20to%20book%20a%20private%20kosher%20chalet%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)
 
 [Home](/) / [Kosher services in the Alps](/kosher-services-french-alps/) / A private kosher chalet
 
@@ -49,7 +49,7 @@ Each chalet has its own weekly price and its own amenities, from heated pools an
 
    The kitchen is kashered before you arrive, and the chef takes care of the meals of the week and of Shabbat.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20would%20like%20to%20book%20a%20private%20kosher%20chalet%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CPrivate%20Kosher%20Chalet%20in%20the%20Alps%20with%20Chef%20and%20Meals%E2%80%9D.%20I%20would%20like%20to%20book%20a%20private%20kosher%20chalet%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)[Get a quote](#book)
 
 ## Your *questions*
 

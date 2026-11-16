@@ -12,7 +12,7 @@ Nous collectons ce qu’il faut pour vous répondre et organiser votre visite, r
 - Cookies seulement avec votre accord
 - Données conservées 3 ans
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20voudrais%20des%20informations%20sur%20vos%20services.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Politique%20de%20confidentialit%C3%A9%20%C2%BB.%20Je%20voudrais%20des%20informations%20sur%20vos%20services.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Qui est *responsable*
 

@@ -13,10 +13,10 @@
   var ID = 'G-MJSV60Z8FG', KEY = 'mt-consent', DUREE = 15552000000, LEAD = 'mt-lead'; // 6 mois
   var AWOK = /^AW-\d{6,}$/.test(ADS.id);
   var T = {
-    en: ['We use cookies to measure visits and the results of our ads.', 'Accept', 'Refuse', 'Privacy'],
-    fr: ['Nous utilisons des cookies pour mesurer les visites et les résultats de nos annonces.', 'Accepter', 'Refuser', 'Confidentialité'],
-    es: ['Usamos cookies para medir las visitas y los resultados de nuestros anuncios.', 'Aceptar', 'Rechazar', 'Privacidad'],
-    he: ['אנו משתמשים בעוגיות כדי למדוד ביקורים ותוצאות של הפרסומות שלנו.', 'לאשר', 'לסרב', 'פרטיות']
+    en: ['Cookies to measure visits and ads.', 'Accept', 'Refuse', 'Privacy'],
+    fr: ['Cookies de mesure des visites et annonces.', 'Accepter', 'Refuser', 'Confidentialité'],
+    es: ['Cookies para medir visitas y anuncios.', 'Aceptar', 'Rechazar', 'Privacidad'],
+    he: ['עוגיות למדידת ביקורים ופרסומות.', 'לאשר', 'לסרב', 'פרטיות']
   };
   var lang = (document.documentElement.lang || 'en').slice(0, 2);
   if (!T[lang]) lang = 'en';

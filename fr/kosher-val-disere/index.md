@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-val-disere/ (HTML version). Every p
 
 Val d’Isère se trouve à 1 850 m, dans la Haute Tarentaise, et partage 300 km de pistes avec Tignes.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20d%27Is%C3%A8re)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Val%20d%27Is%C3%A8re.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20d%27Is%C3%A8re)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20Val%20d%E2%80%99Is%C3%A8re%20%C2%BB.%20Nous%20allons%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Besoins%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 Skiez à Val d'Isère le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -75,7 +75,7 @@ Horaires calculés aux coordonnées de Val d’Isère.
 
    Le prix dépend des dates, du nombre de personnes et du menu. Vous recevez un devis écrit avant de vous engager.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Val%20d%27Is%C3%A8re.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20Val%20d%E2%80%99Is%C3%A8re%20%C2%BB.%20Nous%20allons%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Besoins%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
 
 ## Se rendre à *Val d’Isère*
 

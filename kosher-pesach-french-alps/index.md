@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-pesach-french-alps/ (HTML version). Ev
 
 A Pesach stay in a private chalet with Winter Prestige: the kitchen kashered for Pesach, the sedarim and the meals prepared for you.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=e&voyage=Pesach%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20Pesach%20in%20the%20Alps.%20Dates%3A%20/%20Number%20of%20people%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=e&voyage=Pesach%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Pesach%202027%20in%20the%20French%20Alps%E2%80%9D.%20We%20are%20planning%20Pesach%20in%20the%20Alps.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 Pesach in the mountains, with nothing to kasher yourself.
 
@@ -47,7 +47,7 @@ A Pesach programme for your family or your group alone, in a private chalet in t
 
    Availability, what is included and the price, before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20Pesach%20in%20the%20Alps.%20Dates%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Pesach%202027%20in%20the%20French%20Alps%E2%80%9D.%20We%20are%20planning%20Pesach%20in%20the%20Alps.%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Pesach in the Alps: *questions*
 

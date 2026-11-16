@@ -6,13 +6,15 @@ Source: https://mishpachatours.com/grande-synagogue-lyon/ (HTML version). Every 
 
 # Grande Synagogue of Lyon *inside the building closed to visitors*
 
+[Private tour from 290 € · 1 to 4 people](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20and%20the%20Grande%20Synagogue%20visit.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
+
 The Grande Synagogue of Lyon, 13 quai Tilsitt on the bank of the Saône, was inaugurated in 1864 and is still a working synagogue. It is closed to visitors outside the Heritage Days. Mishpacha Tours holds the special authorisation required to enter and takes private groups inside on its 2-hour Jewish Lyon tour, 290 € per group, subject to opening hours and security on the day.
 
 - Inaugurated 1864
 - 13 quai Tilsitt, Lyon 2e
 - Architect Abraham Hirsch
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20and%20the%20Grande%20Synagogue%20visit.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20and%20the%20Grande%20Synagogue%20visit.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)[Get a quote](#book)
 
 ## History *in short*
 
@@ -56,7 +58,7 @@ If you come to pray, you are welcome at services. Arrive a few minutes early and
 
    The walk ends where the war story of Lyon's Jews meets the Resistance. This is the Jewish Lyon tour, 2 hours.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20and%20the%20Grande%20Synagogue%20visit.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20and%20the%20Grande%20Synagogue%20visit.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)[Get a quote](#book)
 
 ## What you will *see inside*
 
@@ -105,7 +107,7 @@ Your guide checks with you before the walk begins. If entry is not possible, the
 
 ## Want to go *inside* with us?
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20and%20the%20Grande%20Synagogue%20visit.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20to%20ask%20about%20the%20Jewish%20Lyon%20tour%20and%20the%20Grande%20Synagogue%20visit.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
 
 Same-day reply, never on Shabbat.
 
@@ -120,7 +122,7 @@ Same-day reply, never on Shabbat.
 
 [Plan your trip](https://mishpachatours.com/plan-your-trip/)
 
-[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
+[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
 
 ## Lyon, booked in *one message*
 
@@ -130,31 +132,31 @@ One request, we organise everything, from the table to the transfer.
 
 A Jewish guide leads the visit in English, French or Spanish, with the inside of the Grande Synagogue. Sunday to Friday midday.
 
-[See the details](https://mishpachatours.com/tours/jewish-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20the%20guided%20tour%20of%20Jewish%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/tours/jewish-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20to%20book%20the%20guided%20tour%20of%20Jewish%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Shabbat table and kosher meals delivered in Lyon
 
 Shabbat meals, meals delivered to your hotel, a minyan close by.
 
-[See the details](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20Shabbat%20table%20and%20kosher%20meals%20delivered%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20a%20Shabbat%20table%20and%20kosher%20meals%20delivered%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Private kosher chef in Lyon and the Alps
 
 A chef in your apartment or your chalet, in a kitchen made kosher.
 
-[See the details](https://mishpachatours.com/kosher-services-french-alps/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20private%20kosher%20chef%20in%20Lyon%20or%20the%20Alps.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/kosher-services-french-alps/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20a%20private%20kosher%20chef%20in%20Lyon%20or%20the%20Alps.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Private van and transfers
 
 Lyon airport, Geneva, the Alpine resorts. Never during Shabbat.
 
-[See the details](https://mishpachatours.com/kosher-van-transfers/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20private%20van%20and%20transfers%20for%20my%20stay%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/kosher-van-transfers/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20a%20private%20van%20and%20transfers%20for%20my%20stay%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Discreet private escort, on request
 
 A quiet presence beside your group, only when you ask for it.
 
-[See the details](https://mishpachatours.com/is-lyon-safe-for-jewish-visitors/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20discreet%20private%20escort%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/is-lyon-safe-for-jewish-visitors/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CGrande%20Synagogue%20of%20Lyon%E2%80%9D.%20I%20would%20like%20a%20discreet%20private%20escort%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

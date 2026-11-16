@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-crans-montana/ (HTML version). Every p
 
 Crans-Montana sits on a south-facing plateau at about 1,500 m in the Valais, with a glacier reaching 2,927 m.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Crans-Montana)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Crans-Montana.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Crans-Montana)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Crans-Montana%E2%80%9D.%20We%20are%20going%20to%20Crans-Montana.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
 
 Ski Crans-Montana by day. Come back to a set table, a minyan, and Shabbat ready.
 
@@ -65,7 +65,7 @@ Supervision is rarely written down, so check before you book.
 
    The price depends on the dates, the number of people and the menu. You receive a written quote before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Crans-Montana.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Crans-Montana%E2%80%9D.%20We%20are%20going%20to%20Crans-Montana.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
 
 ## Getting *to Crans-Montana*
 

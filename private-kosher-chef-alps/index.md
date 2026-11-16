@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/private-kosher-chef-alps/ (HTML version). Eve
 
 # A private kosher chef *in your own chalet*
 
-[Plan my trip](/plan-your-trip/?i=a&voyage=Private%20chef%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20would%20like%20a%20private%20kosher%20chef%20in%20our%20chalet%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)
+[Plan my trip](/plan-your-trip/?i=a&voyage=Private%20chef%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CPrivate%20Kosher%20Chef%20in%20Your%20Alps%20Chalet%E2%80%9D.%20I%20would%20like%20a%20private%20kosher%20chef%20in%20our%20chalet%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)
 
 [Home](/) / [Kosher services in the Alps](/kosher-services-french-alps/) / A private kosher chef
 
@@ -49,7 +49,7 @@ The price starts from €1,568 per day. Beyond three hours by road from Grenoble
 
    We build the menu with you before the stay. The kitchen is kashered before the chef starts to cook.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20would%20like%20a%20private%20kosher%20chef%20in%20our%20chalet%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CPrivate%20Kosher%20Chef%20in%20Your%20Alps%20Chalet%E2%80%9D.%20I%20would%20like%20a%20private%20kosher%20chef%20in%20our%20chalet%20in%20the%20Alps.%0AResort%3A%0ADates%3A%0ANumber%20of%20people%3A)[Get a quote](#book)
 
 ## Your *questions*
 

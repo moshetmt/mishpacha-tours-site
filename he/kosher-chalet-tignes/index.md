@@ -19,7 +19,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-tignes/ (HTML version). Ever
 9 סוויטות · דקה מהמסלולים
 
 [לקבלת הקטלוג](https://mishpachatours.com/he/plan-your-trip/?i=a&catalogue=etoile-polaire)
-[WhatsApp](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%A0%D7%A8%D7%A6%D7%94%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%D7%9B%D7%A9%D7%A8%D7%99%D7%9D%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D.%20%D7%90%D7%AA%D7%A8%3A%20%2F%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99%D7%9D%3A%20%2F%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%28%D7%A6%27%D7%90%D7%9C%D7%98%20%D7%A2%D7%9D%20%D7%A9%D7%A3%2C%20%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA%20%D7%91%D7%9E%D7%A9%D7%9C%D7%95%D7%97%2C%20%D7%A9%D7%91%D7%AA%2C%20%D7%97%D7%92%2C%20%D7%9E%D7%A0%D7%99%D7%99%D7%9F%29%3A)
+[WhatsApp](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%20Mishpacha%20Tours%2C%20%D7%A7%D7%A8%D7%90%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%A2%D7%9E%D7%95%D7%93%20%22%D7%A6%27%D7%90%D7%9C%D7%94%20%D7%9B%D7%A9%D7%A8%D7%94%20%D7%90%D7%98%D7%95%D7%90%D7%9C%20%D7%A4%D7%95%D7%9C%D7%A8%2C%20%D7%98%D7%99%D7%9F%22.%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%9E%D7%A2%D7%95%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D%20%D7%91%D7%A6%27%D7%90%D7%9C%D7%94%20%D7%94%D7%9B%D7%A9%D7%A8%D7%94.%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%95%D7%A8%D7%97%D7%99%D7%9D%3A)
 
 ביום עושים סקי. בערב חוזרים לשולחן ערוך, למניין ולשבת מוכנה.
 
@@ -73,7 +73,7 @@ Source: https://mishpachatours.com/he/kosher-chalet-tignes/ (HTML version). Ever
 
 ## מעדיפים צ'אלה שלם? צ'אלות כשרות
 
-[צ'אלה קינג דייווידלה דז אלפ](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[צ'אלה רושברוןלה דז אלפ](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[צ'אלה פלוקון דורהקורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)[צ'אלה לו בלאןליד מג'ב](https://mishpachatours.com/he/kosher-chalet-megeve/)[צ'אלה בל אטואלואל טורנס](https://mishpachatours.com/he/kosher-chalet-val-thorens/)[צ'אלה אגל רויאללה מנואר](https://mishpachatours.com/he/kosher-chalet-les-menuires/)[צ'אלה אורור בוראלקורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)[צ'אלה רנאר ארז'נטהקורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
+[צ'אלה קינג דייווידלה דז אלפ](https://mishpachatours.com/he/kosher-chalet-les-deux-alpes/)[צ'אלה רושברוןלה דז אלפ](https://mishpachatours.com/he/kosher-slope-chalet-les-deux-alpes/)[צ'אלה פלוקון דורהקורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel/)[צ'אלה לו בלאןליד מג'ב](https://mishpachatours.com/he/kosher-chalet-megeve/)[צ'אלה בל אטואלוואל טורנס](https://mishpachatours.com/he/kosher-chalet-val-thorens/)[צ'אלה אגל רויאללה מנואר](https://mishpachatours.com/he/kosher-chalet-les-menuires/)[צ'אלה אורור בוראלקורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-aurore-boreale/)[צ'אלה רנאר ארז'נטהקורשבל](https://mishpachatours.com/he/kosher-chalet-courchevel-renard-argente/)
 
 ## טין: השבוע שלכם, *מאורגן*.
 

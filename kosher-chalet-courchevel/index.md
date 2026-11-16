@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-chalet-courchevel/ (HTML version). Eve
 
 A chalet in the heart of Courchevel, in the 3 Valleys.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Courchevel.%20Dates%3A%20/%20Number%20of%20people%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalet%20Flocon%20Dor%C3%A9%2C%20Courchevel%E2%80%9D.%20We%20would%20like%20the%20kosher%20chalet%20in%20Courchevel.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 
@@ -60,7 +60,7 @@ For Pesach, we prepare the chalet too: [Pesach in the Alps, private chalet and k
 
    A day-by-day programme and one written quote for the whole stay, before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Courchevel.%20Dates%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalet%20Flocon%20Dor%C3%A9%2C%20Courchevel%E2%80%9D.%20We%20would%20like%20the%20kosher%20chalet%20in%20Courchevel.%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Getting *there*
 

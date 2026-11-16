@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-chalet-courchevel-renard-argente/ (
 
 Un chalet intime dans un hameau privé de Courchevel 1550, avec son bain nordique sous les mélèzes.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Courchevel.%20Dates%3A%20/%20Number%20of%20guests%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Courchevel&voyage=Ski%20holiday%20with%20a%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20Renard%20Argent%C3%A9%2C%20Courchevel%20%C2%BB.%20Nous%20souhaitons%20ce%20chalet%20casher.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -59,7 +59,7 @@ Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet pr
 
    Un programme jour par jour et un devis écrit pour tout le séjour, avant tout engagement.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Courchevel.%20Dates%3A%20/%20Number%20of%20guests%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20Renard%20Argent%C3%A9%2C%20Courchevel%20%C2%BB.%20Nous%20souhaitons%20ce%20chalet%20casher.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Comment *venir*
 

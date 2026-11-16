@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-grenoble/ (HTML version). Every pag
 
 Grenoble se trouve à 214 m, entre les massifs de la Chartreuse, du Vercors et de Belledonne.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Grenoble)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Grenoble%20/%20the%20Is%C3%A8re%20resorts.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Resort%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Grenoble)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20Grenoble%20%C2%BB.%20Nous%20allons%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Besoins%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 Skiez à Grenoble le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -89,7 +89,7 @@ Horaires calculés aux coordonnées de Grenoble.
 
    Le prix dépend des dates, du nombre de personnes et du menu. Vous recevez un devis écrit avant de vous engager.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20Grenoble%20/%20the%20Is%C3%A8re%20resorts.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Resort%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20Grenoble%20%C2%BB.%20Nous%20allons%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Besoins%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
 
 ## Se rendre à *Grenoble*
 

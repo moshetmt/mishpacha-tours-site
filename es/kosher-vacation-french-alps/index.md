@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-vacation-french-alps/ (HTML version
 
 Usted quiere unas vacaciones kosher en el extranjero sin hotel kosher: un chalé o un apartamento propio.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20estamos%20organizando%20unas%20vacaciones%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20/%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Alojamiento%20%28chal%C3%A9%2C%20apartamento%2C%20hotel%29%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVacaciones%20kosher%C2%BB.%20Estamos%20organizando%20unas%20vacaciones%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Alojamiento%20%28chal%C3%A9%2C%20apartamento%2C%20hotel%29%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
 
 Usted quiere unas vacaciones kosher en el extranjero sin hotel kosher: un chalé o un apartamento propio, en una verdadera estación de esquí en invierno o junto a un lago en verano, con la certeza de que la comida, el Shabat y la oración están resueltos. Eso es lo que Mishpacha Tours organiza en los Alpes franceses, a dos o tres horas de Lyon: un chef privado en su chalé o comidas calientes entregadas en su puerta, comidas de Shabat con jalot y vino, las fiestas, un minián y un Sefer Torá cuando varias familias comparten estación. Nuestro equipo kosher tiene su base en los Alpes. Usted nos envía su estación, sus fechas y su grupo; recibe un presupuesto por escrito el mismo día.
 
@@ -56,7 +56,7 @@ El lago de Annecy, Aix-les-Bains y Grenoble cuentan con una comunidad conocida; 
 
    El precio depende de la estación, las fechas, el número de personas y el menú. Recibe un presupuesto por escrito antes de comprometerse a nada.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20estamos%20organizando%20unas%20vacaciones%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20/%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Alojamiento%20%28chal%C3%A9%2C%20apartamento%2C%20hotel%29%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVacaciones%20kosher%C2%BB.%20Estamos%20organizando%20unas%20vacaciones%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Alojamiento%20%28chal%C3%A9%2C%20apartamento%2C%20hotel%29%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
 
 ## Aterrizar en Lyon
 

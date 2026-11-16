@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-alpe-dhuez/ (HTML version). Every p
 
 L’Alpe d’Huez se trouve en Isère, à environ 1 860 m, et c’est la station principale du Grand Domaine.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Alpe%20d%27Huez)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20partons%20%C3%A0%20l%27Alpe%20d%27Huez.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Alpe%20d%27Huez)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20l%E2%80%99Alpe%20d%E2%80%99Huez%20%C2%BB.%20Nous%20partons%20%C3%A0%20l%27Alpe%20d%27Huez.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 Skiez à L'Alpe d'Huez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -73,7 +73,7 @@ Horaires calculés aux coordonnées de Alpe d’Huez.
 
    Le prix dépend des dates, du nombre de personnes et du menu. Vous recevez un devis écrit avant de vous engager.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20partons%20%C3%A0%20l%27Alpe%20d%27Huez.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20l%E2%80%99Alpe%20d%E2%80%99Huez%20%C2%BB.%20Nous%20partons%20%C3%A0%20l%27Alpe%20d%27Huez.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
 
 ## Se rendre à *l’Alpe d’Huez*
 

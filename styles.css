@@ -533,7 +533,7 @@ body.menu-ouvert{overflow:hidden}
 .pratique-hero ~ .etapes li h3{font-size:22px;margin-top:10px}
 .pratique-hero ~ .etapes li p{margin:6px 0 0;max-width:none;font-size:14.5px}
 @media (min-width:768px){
-  .pratique-hero ~ .etapes ol{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px}
+  .pratique-hero ~ .etapes ol{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;overflow-x:clip}/*LOT1-1611*/
   .pratique-hero ~ .etapes li{display:block;padding-bottom:0}
   .pratique-hero ~ .etapes li:not(:last-child)::before{inset-inline-start:52px;inset-inline-end:-32px;top:26px;bottom:auto;border-inline-start:0;border-top:2px dashed rgba(28,27,31,.25)}
 }
@@ -2151,6 +2151,7 @@ body:has(.ac-hero) .ticket-zone{margin-top:24px}
 }
 /* Barre basse téléphone : WhatsApp | Plan your trip. */
 .barre-basse{display:none}
+.barre-basse svg{width:20px;height:20px;max-width:24px;max-height:24px;flex:none}/*LOT1-1611-bb*/
 @media (max-width:899px){
   body{padding-bottom:56px}
   .wa-flottant,.pyt-flottant{display:none!important}

@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-services-french-alps/ (HTML version
 
 Una semana kosher en la montaña no tiene por qué significar una maleta de comida desde Lyon y un Shabat en soledad.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisi%C3%A9ramos%20servicios%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20/%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Servicios%20%28chal%C3%A9%20con%20chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20minyan%29%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABServicios%20kosher%20en%20los%20Alpes%C2%BB.%20Quisi%C3%A9ramos%20servicios%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Servicios%20%28chal%C3%A9%20con%20chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20minyan%29%3A)
 
 Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -85,7 +85,7 @@ Niños hasta 5 años: alrededor de un 30 % menos. La entrega se paga por viaje; 
 
    La mayoría de las familias vuelan a Lyon. Nuestra [visita Escala](https://mishpachatours.com/es/tours/stopover/) de 3 horas con la Gran Sinagoga encaja entre el vuelo y el trayecto hacia la montaña.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisi%C3%A9ramos%20servicios%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20/%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Servicios%20%28chal%C3%A9%20con%20chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20minyan%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABServicios%20kosher%20en%20los%20Alpes%C2%BB.%20Quisi%C3%A9ramos%20servicios%20kosher%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Servicios%20%28chal%C3%A9%20con%20chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20minyan%29%3A)[Pedir presupuesto](#book)
 
 ## Qué estación, *qué lado*
 

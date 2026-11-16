@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-la-plagne/ (HTML version). Every pa
 
 La Plagne se extiende por 11 pueblos, hasta Plagne Aime 2000, a unos 2.100 m.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=La%20Plagne)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20La%20Plagne.%20Village%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=La%20Plagne)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20La%20Plagne%C2%BB.%20Vamos%20a%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20minyan%29%3A)
 
 Esquíe en La Plagne de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -83,7 +83,7 @@ Horarios calculados para las coordenadas de La Plagne.
 
    El precio depende de las fechas, el número de personas y el menú. Recibe un presupuesto por escrito antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20La%20Plagne.%20Village%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20La%20Plagne%C2%BB.%20Vamos%20a%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20minyan%29%3A)[Pedir presupuesto](#book)
 
 ## Cómo llegar *a La Plagne*
 
