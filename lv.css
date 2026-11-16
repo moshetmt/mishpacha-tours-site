@@ -1323,3 +1323,11 @@ html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):
 /* ===HUB-TROIS-1111=== page des chalets, ordinateur : une zone de 3 cartes les met sur une seule ligne (3 colonnes), pas 2 + 1 */
 @media (min-width:1000px){html body.valora.lv.wp-nav:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9):not(#lv10):not(#lv11):not(#lv12) main .l3-hub .kwp-cartes.kwp-six:has(>.kwp-carte:nth-child(3):last-child){grid-template-columns:repeat(3,minmax(0,1fr));gap:48px 32px}}
 /* ===/HUB-TROIS-1111=== */
+/* ===BN-1611=== bannières à la même taille partout (_bannieres_1611.py) */
+@media (min-width:900px){html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12):not(#b13) main>section:is(.lv-hero-station,.lead-hero3,.lv-hero-photo,.hero){height:100svh !important}}
+html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12):not(#b13) main>section.fiche-suite{display:grid !important;grid-template-columns:1fr !important;grid-template-areas:none !important;gap:18px !important;max-width:1200px !important;margin:0 auto !important;padding:8px 20px 0 !important;align-items:start !important}
+html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12):not(#b13) main>section.fiche-suite>:is(.fiche-texte,.fiche-carte){grid-area:auto !important}
+html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12):not(#b13) main>section.bn-fiche .hero-texte{display:block !important}
+@media (min-width:900px){html body.lv.bn:not(#b1):not(#b2):not(#b3):not(#b4):not(#b5):not(#b6):not(#b7):not(#b8):not(#b9):not(#b10):not(#b11):not(#b12):not(#b13) main>section.fiche-suite{grid-template-columns:1.1fr .9fr !important;gap:24px 48px !important;padding:24px 56px 0 !important}}
+@media (max-width:899.98px){html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7):not(#lv8):not(#lv9) main.lc .lc-fil{white-space:nowrap !important;overflow:hidden !important;text-overflow:ellipsis !important}}
+/* ===/BN-1611=== */
