@@ -23,7 +23,7 @@ CSS = f"""/* ===LIS-1711=== lisibilité, cadres, alignement, rail des chalets (_
 {Q} .of-carte .of-plus{{margin-top:auto !important;margin-bottom:12px !important}}
 {Q} .of-carte .of-btn{{margin-top:auto !important}}
 {Q} .of-carte .of-plus+.of-btn{{margin-top:0 !important}}
-html[dir="rtl"] body.lv""" + "".join(f":not(#q{i})" for i in range(1, 17)) + f""" .kwp-carte .kwp-chiffres li span{{color:#111111 !important;-webkit-text-fill-color:#111111 !important}}
+html[dir="rtl"] body.lv""" + "".join(f":not(#q{i})" for i in range(1, 17)) + f""" .kwp-six .kwp-carte .kwp-chiffres li span{{color:#111111 !important;-webkit-text-fill-color:#111111 !important}}
 {Q} .of-carte>p{{margin-bottom:14px !important}}
 @media (max-width:899.98px){{
 {Q} main.lc .lc-autres{{display:flex !important;grid-template-columns:none !important;overflow-x:auto !important;overflow-y:hidden !important;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;gap:14px !important;margin:0 !important;padding:0 20px 6px !important;scroll-padding-inline:20px;max-width:100vw;box-sizing:border-box;border-top:0 !important}}
