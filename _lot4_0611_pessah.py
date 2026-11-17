@@ -23,9 +23,9 @@ T = {
           ("Matza for the seder.", "Hand-made shmura matza or machine matza: tell us what you need and we tell you what we can provide.")],
   ski_h=("Skiing at ", "Pesach 2027"),
   ski_p=["Pesach 2027 begins on the evening of Wednesday 21 April. Several high-altitude resorts have announced ski seasons that run past that date: Val Thorens, Val d'Isère and Les Deux Alpes until 2 May, Alpe d'Huez until 25 April, and La Plagne and Les Arcs until 24 April. Closing dates belong to each resort and depend on snow, so we confirm them with the resort before you book.",
-         "Lower resorts such as Courchevel, Les Menuires and Avoriaz close on 18 April, before the seder, so we do not suggest them for skiing that week. Tell us your dates and your group, and we will suggest a chalet in a resort where the lifts should still be running."],
+         "Tell us your dates and your group, and we will suggest a chalet in a resort where the lifts should still be running."],
   faq=[("Sephardi or Ashkenazi?", "Both. Tell us your minhag with your dates: kitniyot or not, gebrokts or not, the matza you want for the seder. Our team confirms in writing what it prepares."),
-       ("Can we ski during Pesach 2027?", "In the high resorts, yes: Val Thorens, Val d'Isère and Les Deux Alpes have announced a season until 2 May, Alpe d'Huez until 25 April, La Plagne and Les Arcs until 24 April, subject to snow. Courchevel, Les Menuires and Avoriaz close on 18 April.")]),
+       ("Can we ski during Pesach 2027?", "In the high resorts, yes: Val Thorens, Val d'Isère and Les Deux Alpes have announced a season until 2 May, Alpe d'Huez until 25 April, La Plagne and Les Arcs until 24 April, subject to snow.")]),
  "fr": dict(
   minhag_h=("Votre minhag, ", "votre table"),
   minhag_p="Séfarade ou ashkénaze, dites-le-nous avec vos dates. Notre équipe vous confirme par écrit ce qu'elle prépare pour votre groupe.",
@@ -34,9 +34,9 @@ T = {
           ("La matsa du séder.", "Matsa chmoura faite à la main ou matsa machine : dites-nous ce qu'il vous faut, nous vous disons ce que nous pouvons fournir.")],
   ski_h=("Skier à ", "Pessah 2027"),
   ski_p=["Pessah 2027 commence le mercredi 21 avril au soir. Plusieurs stations d'altitude ont annoncé une saison de ski qui dépasse cette date : Val Thorens, Val d'Isère et Les Deux Alpes jusqu'au 2 mai, l'Alpe d'Huez jusqu'au 25 avril, La Plagne et Les Arcs jusqu'au 24 avril. Chaque station fixe sa date de fermeture selon l'enneigement ; nous la confirmons avec la station avant votre réservation.",
-         "Les stations plus basses comme Courchevel, Les Menuires et Avoriaz ferment le 18 avril, avant le séder : nous ne les proposons pas pour skier cette semaine-là. Indiquez-nous vos dates et votre groupe, et nous vous proposerons un chalet dans une station dont les remontées devraient encore fonctionner."],
+         "Indiquez-nous vos dates et votre groupe, et nous vous proposerons un chalet dans une station dont les remontées devraient encore fonctionner."],
   faq=[("Séfarade ou ashkénaze ?", "Les deux. Dites-nous votre minhag avec vos dates : kitniyot ou non, gebrokts ou non, la matsa que vous voulez pour le séder. Notre équipe vous confirme par écrit ce qu'elle prépare."),
-       ("Peut-on skier pendant Pessah 2027 ?", "Dans les stations d'altitude, oui : Val Thorens, Val d'Isère et Les Deux Alpes ont annoncé une saison jusqu'au 2 mai, l'Alpe d'Huez jusqu'au 25 avril, La Plagne et Les Arcs jusqu'au 24 avril, sous réserve de neige. Courchevel, Les Menuires et Avoriaz ferment le 18 avril.")]),
+       ("Peut-on skier pendant Pessah 2027 ?", "Dans les stations d'altitude, oui : Val Thorens, Val d'Isère et Les Deux Alpes ont annoncé une saison jusqu'au 2 mai, l'Alpe d'Huez jusqu'au 25 avril, La Plagne et Les Arcs jusqu'au 24 avril, sous réserve de neige.")]),
  "es": dict(
   minhag_h=("Su minhag, ", "su mesa"),
   minhag_p="Sefardí o askenazí, díganoslo con sus fechas. Nuestro equipo le confirma por escrito lo que prepara para su grupo.",
@@ -45,9 +45,9 @@ T = {
           ("La matzá del séder.", "Matzá shmurá hecha a mano o matzá de máquina: díganos lo que necesitan y le decimos lo que podemos proporcionar.")],
   ski_h=("Esquiar en ", "Pésaj 2027"),
   ski_p=["Pésaj 2027 empieza el miércoles 21 de abril por la noche. Varias estaciones de altura han anunciado una temporada de esquí que supera esa fecha: Val Thorens, Val d'Isère y Les Deux Alpes hasta el 2 de mayo, Alpe d'Huez hasta el 25 de abril, La Plagne y Les Arcs hasta el 24 de abril. Cada estación fija su fecha de cierre según la nieve; la confirmamos con la estación antes de su reserva.",
-         "Las estaciones más bajas, como Courchevel, Les Menuires y Avoriaz, cierran el 18 de abril, antes del séder: no las proponemos para esquiar esa semana. Indíquenos sus fechas y su grupo, y le propondremos un chalet en una estación cuyos remontes deberían seguir funcionando."],
+         "Indíquenos sus fechas y su grupo, y le propondremos un chalet en una estación cuyos remontes deberían seguir funcionando."],
   faq=[("¿Sefardí o askenazí?", "Ambos. Díganos su minhag con sus fechas: kitniyot o no, gebrokts o no, la matzá que quieren para el séder. Nuestro equipo le confirma por escrito lo que prepara."),
-       ("¿Se puede esquiar durante Pésaj 2027?", "En las estaciones de altura, sí: Val Thorens, Val d'Isère y Les Deux Alpes han anunciado una temporada hasta el 2 de mayo, Alpe d'Huez hasta el 25 de abril, La Plagne y Les Arcs hasta el 24 de abril, según la nieve. Courchevel, Les Menuires y Avoriaz cierran el 18 de abril.")]),
+       ("¿Se puede esquiar durante Pésaj 2027?", "En las estaciones de altura, sí: Val Thorens, Val d'Isère y Les Deux Alpes han anunciado una temporada hasta el 2 de mayo, Alpe d'Huez hasta el 25 de abril, La Plagne y Les Arcs hasta el 24 de abril, según la nieve.")]),
  "he": dict(
   minhag_h=("המנהג שלכם, ", "השולחן שלכם"),
   minhag_p="ספרדים או אשכנזים, כתבו לנו יחד עם התאריכים. הצוות שלנו מאשר בכתב מה הוא מכין לקבוצה שלכם.",
@@ -56,9 +56,9 @@ T = {
           ("המצות לסדר.", "מצה שמורה בעבודת יד או מצת מכונה: כתבו לנו מה אתם צריכים ואנחנו אומרים מה אפשר לספק.")],
   ski_h=("סקי ב", "פסח 2027"),
   ski_p=["פסח 2027 מתחיל ביום רביעי, 21 באפריל, בערב. כמה אתרי סקי גבוהים הודיעו על עונת סקי שנמשכת אחרי התאריך הזה: ואל טורנס, ואל דיזר ולה דז אלפ עד 2 במאי, אלפ ד'ואז עד 25 באפריל, לה פלאן ולז ארק עד 24 באפריל. כל אתר קובע את תאריך הסגירה לפי השלג; אנחנו מאשרים אותו מול האתר לפני ההזמנה שלכם.",
-         "אתרים נמוכים יותר כמו קורשבל, לה מנואר ואבוריאז נסגרים ב-18 באפריל, לפני הסדר: לא נציע אותם לסקי באותו שבוע. כתבו לנו את התאריכים ואת הקבוצה, ונציע צ'אלה באתר שבו המעליות אמורות עדיין לפעול."],
+         "כתבו לנו את התאריכים ואת הקבוצה, ונציע צ'אלה באתר שבו המעליות אמורות עדיין לפעול."],
   faq=[("ספרדים או אשכנזים?", "שניהם. כתבו לנו את המנהג שלכם יחד עם התאריכים: קטניות או לא, שרויה או לא, איזו מצה אתם רוצים לסדר. הצוות שלנו מאשר בכתב מה הוא מכין."),
-       ("אפשר לעשות סקי בפסח 2027?", "באתרים הגבוהים כן: ואל טורנס, ואל דיזר ולה דז אלפ הודיעו על עונה עד 2 במאי, אלפ ד'ואז עד 25 באפריל, לה פלאן ולז ארק עד 24 באפריל, בכפוף לשלג. קורשבל, לה מנואר ואבוריאז נסגרים ב-18 באפריל.")]),
+       ("אפשר לעשות סקי בפסח 2027?", "באתרים הגבוהים כן: ואל טורנס, ואל דיזר ולה דז אלפ הודיעו על עונה עד 2 במאי, אלפ ד'ואז עד 25 באפריל, לה פלאן ולז ארק עד 24 באפריל, בכפוף לשלג.")]),
 }
 LTR = lambda l, s: s if l != "he" else re.sub(r"([A-Za-z][A-Za-z' .\-]*[A-Za-z]|\d[\d .:\-]*\d|\d)", r'<span dir="ltr">\1</span>', s)
 
