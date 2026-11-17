@@ -81,7 +81,7 @@ CSS = f"""/* ===RET-1711=== texte plus lisible, déroulé en noir, cacherout en 
 {Q} main .cach-sig span{{display:block;font:400 13px/1.5 'Jost',system-ui,sans-serif !important;color:#7A6440 !important;-webkit-text-fill-color:#7A6440 !important;letter-spacing:.02em}}
 {Q} main .cach-sig b{{display:block;margin:0 0 3px;font:500 10.5px/1.5 'Jost',system-ui,sans-serif !important;letter-spacing:.16em;text-transform:uppercase;color:#111111 !important;-webkit-text-fill-color:#111111 !important}}
 html[dir="rtl"] body.lv main .cach-sig b{{letter-spacing:0 !important;font-size:13px !important}}
-{Q} .cach-bulle{{width:84px !important;height:84px !important;background:rgba(17,17,17,.58) !important;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);box-shadow:none !important}}
+{Q} .cach-bulle{{width:84px !important;height:84px !important;background:rgba(17,17,17,.86) !important;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);box-shadow:none !important}}
 {Q} .cach-bulle::before{{inset:3px !important;border:1px solid rgba(217,196,142,.75) !important}}
 {Q} .cach-bulle .cach-bulle-t{{background:none !important;-webkit-background-clip:border-box !important;background-clip:border-box !important;color:#E8D6A6 !important;-webkit-text-fill-color:#E8D6A6 !important;font-size:6.5px !important;letter-spacing:.14em !important;max-width:58px !important}}
 {Q} .cach-bulle .cach-bulle-logo{{width:46px !important;background:{OR_} 50% 0/300% 100% !important;animation:none !important}}
