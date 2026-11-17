@@ -28,8 +28,8 @@ for f in sorted(glob.glob("**/index.html", recursive=True)):
         a = re.search(r'<p class="cta-hero"><a class="btn-noir" href="([^"]+)"[^>]*>(.*?)</a>', s, re.S); type_ = "lyon"
     else:
         a = re.search(r'<a class="nav-cta" href="([^"]+)"[^>]*>(.*?)</a>', s, re.S); type_ = "station"
-    j = hero.rfind("</h1>")
-    if not a or j < 0: rates.append(f); continue
+    j = hero.rfind("</div>") - 5   # en fin de bloc texte : surtitre, titre, sous-titre, réassurance, puis bouton (ordre de l'accueil)
+    if not a or j < 0 or "</h1>" not in hero: rates.append(f); continue
     ext = ' rel="noopener"' if a.group(1).startswith("http") else ""
     bouton = f'<!--BTN-1711--><a class="btn-hero" href="{a.group(1)}"{ext}>{sans_svg(a.group(2))}</a>'
     hero = hero[:j + 5] + bouton + hero[j + 5:]
