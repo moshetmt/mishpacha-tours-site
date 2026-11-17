@@ -167,7 +167,7 @@ def lire_bloc(region):
     d['pan_mail'] = (mail.get('href'), txt(mail))
     note = pan.cssselect('.panneau-bas > span, .mt-panneau-bas > span')[0]
     d['pan_note'] = txt(note)
-    bh = root.cssselect('span.bh-haut, span.mt-bh')[0]
+    bh = root.cssselect('span.bh-haut, span.mt-bh, span.mt-bh-page')[0]  # mt-bh-page : posé hors de l'en-tête par _lot1_1711_retours.py
     d['bh'] = txt(bh)
     # 4 pages (davos, gstaad, ski-anywhere, verbier) : le selecteur de l'en-tete renvoyait aux accueils, alors que les pastilles de langue
     # du panneau (supprimees ici, le selecteur est dans l'en-tete a toutes les largeurs) pointaient vers la meme page dans l'autre langue.

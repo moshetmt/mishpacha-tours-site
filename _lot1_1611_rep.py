@@ -149,7 +149,9 @@ def bloc():
     s = lire('lv.css')
     a = s.find('/* ===LOT1-1611===')
     if a >= 0:
-        b = s.find('/* ===/LOT1-1611=== */', a) + len('/* ===/LOT1-1611=== */\n')
+        b = s.find('/* ===/LOT1-1611=== */', a) + len('/* ===/LOT1-1611=== */')
+        if s[b:b + 1] == '\n':  # 17/11 : n'avaler le saut de ligne que s'il existe (sinon le « / » du bloc suivant disparaissait)
+            b += 1
         if s[a:b] == BLOC: return
         s = s[:a] + BLOC + s[b:]
     else:
