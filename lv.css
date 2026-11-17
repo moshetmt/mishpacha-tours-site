@@ -1358,3 +1358,9 @@ html body.lv:not(#q1):not(#q2):not(#q3):not(#q4):not(#q5):not(#q6):not(#q7):not(
 html body.lv:not(#q1):not(#q2):not(#q3):not(#q4):not(#q5):not(#q6):not(#q7):not(#q8):not(#q9):not(#q10):not(#q11):not(#q12):not(#q13):not(#q14):not(#q15):not(#q16) main.lc .lc-autres>.lc-aut img{width:100% !important;height:auto !important;aspect-ratio:3/2;object-fit:cover}
 }
 /* ===/LIS-1711=== */
+/* ===ENC-1711=== cacherout en signature fine sous les boutons (essai sur une fiche) */
+html body.lv:not(#e1):not(#e2):not(#e3):not(#e4):not(#e5):not(#e6):not(#e7):not(#e8):not(#e9):not(#e10):not(#e11):not(#e12):not(#e13):not(#e14):not(#e15):not(#e16) main.lc .cach-sig{display:flex !important;align-items:center;gap:14px;margin:22px 0 4px !important;padding:16px 0 0 !important;border-top:1px solid #A88F5E;text-align:start}
+html body.lv:not(#e1):not(#e2):not(#e3):not(#e4):not(#e5):not(#e6):not(#e7):not(#e8):not(#e9):not(#e10):not(#e11):not(#e12):not(#e13):not(#e14):not(#e15):not(#e16) main.lc .cach-sig img{flex:0 0 46px;width:46px !important;height:auto !important}
+html body.lv:not(#e1):not(#e2):not(#e3):not(#e4):not(#e5):not(#e6):not(#e7):not(#e8):not(#e9):not(#e10):not(#e11):not(#e12):not(#e13):not(#e14):not(#e15):not(#e16) main.lc .cach-sig span{display:block;font:300 13px/1.5 'Jost',system-ui,sans-serif !important;color:#7A6440 !important;-webkit-text-fill-color:#7A6440 !important;letter-spacing:.02em}
+html body.lv:not(#e1):not(#e2):not(#e3):not(#e4):not(#e5):not(#e6):not(#e7):not(#e8):not(#e9):not(#e10):not(#e11):not(#e12):not(#e13):not(#e14):not(#e15):not(#e16) main.lc .cach-sig b{display:block;margin:0 0 3px;font:400 10.5px/1.5 'Jost',system-ui,sans-serif !important;letter-spacing:.16em;text-transform:uppercase;color:#111111 !important;-webkit-text-fill-color:#111111 !important}
+/* ===/ENC-1711=== */
