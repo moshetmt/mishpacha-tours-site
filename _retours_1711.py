@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Retours de Moshé du 17/11 (après la mise en ligne des bannières) :
  1. carte « Table de Chabbat » sans icône (pain retiré le 03/11, jamais remplacé) : flamme (bougies) ;
- 2. texte « trop pâle » sur tout le site : gris du texte courant foncés, épaisseur 300 -> 400 ;
+ 2. (retiré : le texte reste comme validé) ;
  3. fiche visite « trop blanche » : « Déroulement de la visite » devient la section noire de la page ;
  4. encart de cacherout : le gros bloc devient une ligne fine (« Cacher lamehadrin », Beth Habad de Grenoble-Alpes,
     Rav Yehia Lahiany), sous les boutons sur les fiches chalet, à la place du bloc ailleurs ; plus de « Repas 'Halav
@@ -56,19 +56,11 @@ for f in sorted(glob.glob("**/index.html", recursive=True)):
 print("icônes remises :", n_ico, sorted(titres)[:8])
 print("encart en ligne fine : fiches chalet", n_ch, "| autres pages", n_aut, "| non traitées", rates[:6])
 
-# 2. gris du texte courant (feuilles en vigueur et restes Valora encore chargés)
-GRIS = {"#4A4C50": "#2E2E2E", "#5E5E5E": "#333333", "#6B6B6B": "#3A3A3A"}
-for css in ("lv.css", "lv-chalet.css", "styles.css", "wp-v3.css", "valora.css", "valora-alterne.css", "valora-clair.css"):
-    if not os.path.exists(css): continue
-    t = open(css, encoding="utf-8").read(); o = t
-    for a, b in GRIS.items(): t = t.replace(a, b)
-    if t != o: open(css, "w", encoding="utf-8").write(t)
-
+# 2. (retiré le 17/11 : Moshé précise que le problème est la composition des sections, pas la couleur du texte)
 Q = "html body.lv" + "".join(f":not(#r{i})" for i in range(1, 18))
 D = f"{Q}.valora-visite main>section.deroule"
 OR_ = "linear-gradient(100deg,#8C7448 0%,#D9C48E 13%,#F3E6BE 19%,#D9C48E 25%,#8C7448 33%,#7A6440 40%,#B89C62 70%,#9C8250 85%,#7A6440 100%)"
 CSS = f"""/* ===RET-1711=== texte plus lisible, déroulé en noir, cacherout en ligne fine, sceau en verre fumé (_retours_1711.py) */
-{Q} main :is(p,li,dd,dt,small):not(.lv-eyebrow):not(.hero-sous):not(.lv-reassure){{font-weight:400 !important}}
 {Q} main .deroule li p{{opacity:1 !important}}
 {D}{{background:#111111 !important;box-shadow:0 0 0 100vmax #111111 !important;clip-path:inset(0 -100vmax) !important;max-width:none !important;padding-top:56px !important;padding-bottom:56px !important;margin-top:48px !important}}
 {D} :is(h2,h2 i,h3){{color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;background:none !important}}

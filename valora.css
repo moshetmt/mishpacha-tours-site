@@ -907,5 +907,5 @@ body .kwp-carte .kwp-corps>.kwp-prix{margin:10px 0 0;padding:0 22px;font-size:15
 .repas-prix h3{margin:40px 0 8px}
 .repas-prix .prix-chalets a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 
-/* 30/10 : héros de Lyon tours, photo sombre : le paragraphe sous le titre était gris foncé (#2E2E2E) donc illisible */
+/* 30/10 : héros de Lyon tours, photo sombre : le paragraphe sous le titre était gris foncé (#4A4C50) donc illisible */
 html body.valora-visite section.hero .hero-texte p:not(#z1):not(#z2):not(#z3):not(#z4){color:#F1EDE5!important}
