@@ -229,3 +229,10 @@ html[lang="he"] .mt-tete .mt-corps>.mt-cta{font-size:13px;letter-spacing:.01em}
 html[lang="he"] .mt-panneau .mt-cta{font-size:13px;letter-spacing:.01em}
 html[lang="he"] .mt-panneau nav a{letter-spacing:0;text-transform:none}
 html[lang="he"] .mt-ch-v .mt-ch-nom{letter-spacing:0;text-transform:none}
+/* LOT1-1711-BH (Moshé 17/11) : le ב״ה ne suit plus l'en-tête ; il reste en haut à droite de la page, sous l'en-tête, en gris (pas un bouton) */
+.mt-bh-page{position:absolute;top:calc(var(--mt-h,64px) + 8px);right:24px;z-index:5;font:400 12px/12px Heebo,"Noto Serif Hebrew",sans-serif;letter-spacing:0;direction:rtl;unicode-bidi:isolate;white-space:nowrap;pointer-events:none;user-select:none;color:#8C8C8C}
+.mt-bh-page.mt-bh-photo{color:#C4C4C4}
+@media (max-width:767.98px){.mt-bh-page.mt-bh-plein{top:calc(var(--mt-h,64px) + 3px);font-size:10.5px;line-height:11px}}
+@media (min-width:768px){.mt-bh-page{top:calc(var(--mt-h,72px) + 10px);right:28px;font-size:13px;line-height:13px}}
+@media print{.mt-bh-page{position:static;display:block;text-align:right}}
+/* /LOT1-1711-BH */
