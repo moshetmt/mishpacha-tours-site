@@ -28,24 +28,23 @@ def page(t):
     return t[:fin] + span + t[fin:]
 
 
-CSS_ENTETE = """
-/* LOT1-1711-BH (Moshé 17/11) : le ב״ה ne suit plus l'en-tête ; il reste en haut à droite de la page, sous l'en-tête, en gris (pas un bouton) */
-.mt-bh-page{position:absolute;top:calc(var(--mt-h,64px) + 8px);right:24px;z-index:5;font:400 12px/12px Heebo,"Noto Serif Hebrew",sans-serif;letter-spacing:0;direction:rtl;unicode-bidi:isolate;white-space:nowrap;pointer-events:none;user-select:none;color:#8C8C8C}
-.mt-bh-page.mt-bh-photo{color:#C4C4C4}
-@media (max-width:767.98px){.mt-bh-page.mt-bh-plein{top:calc(var(--mt-h,64px) + 3px);font-size:10.5px;line-height:11px}}
-@media (min-width:768px){.mt-bh-page{top:calc(var(--mt-h,72px) + 10px);right:28px;font-size:13px;line-height:13px}}
-@media print{.mt-bh-page{position:static;display:block;text-align:right}}
+CSS_ENTETE = r"""
+/* LOT1-1711-BH (Moshé 17/11) : le ב״ה est posé une fois, tout en haut à droite de la page, comme en tête d'une feuille ; il ne suit pas le défilement ; gris (pas un bouton) */
+.mt-bh-page{position:absolute;top:4px;right:16px;z-index:70;font:400 11px/11px Heebo,"Noto Serif Hebrew",sans-serif;letter-spacing:0;direction:rtl;unicode-bidi:isolate;white-space:nowrap;pointer-events:none;user-select:none;color:#A6A6A6}
+@media (min-width:768px){.mt-bh-page{top:6px;right:10px;font-size:12px;line-height:12px}}
+@media print{.mt-bh-page{color:#555}}
 /* /LOT1-1711-BH */
 """
 
-CSS_LV = """
-/* LOT1-1711-CARTES (Moshé 17/11 : « on ne dirait pas que ces cases sont cliquables ») : titre dans la photo, sur la ligne de la flèche */
-html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figure{padding:0 !important;overflow:hidden !important;background:#111111 !important}
-html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figure::before{content:"";position:absolute;inset:auto 0 0 0;height:46%;background:linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,.34) 45%,rgba(0,0,0,.74) 100%);pointer-events:none;z-index:1}
-html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figcaption{position:absolute !important;inset:auto 0 10px 0 !important;z-index:2;height:auto !important;min-height:44px !important;display:flex !important;align-items:center !important;padding:0 !important;padding-inline:16px 66px !important;margin:0 !important;background:none !important;color:#FFFFFF !important;-webkit-text-fill-color:#FFFFFF !important;font:400 13px/1.3 'Jost',system-ui,sans-serif !important;letter-spacing:.08em !important;white-space:normal !important;overflow:visible !important;text-transform:uppercase !important;text-align:start !important}
-html[dir="rtl"] body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figcaption{letter-spacing:0 !important;font:400 16px/1.35 Heebo,system-ui,sans-serif !important}
-html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figure::after{z-index:2;bottom:10px !important;inset-inline-end:10px !important;top:auto !important}
-@media (min-width:900px){html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figcaption{font-size:13px !important}}
+CSS_LV = r"""
+/* LOT1-1711-CARTES (Moshé 17/11) : cartes photo de l'accueil = bande blanche en bas de la photo, titre noir et flèche alignés dessus ; fiche chalet = air entre les boutons et le texte */
+html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figure{padding:0 !important;overflow:hidden !important;background:#FFFFFF !important}
+html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figure::before{content:none !important;display:none !important}
+html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figcaption{position:absolute !important;inset:auto 0 0 0 !important;z-index:2;height:auto !important;min-height:60px !important;box-sizing:border-box !important;display:flex !important;align-items:center !important;padding:10px 0 !important;padding-inline:16px 68px !important;margin:0 !important;background:#FFFFFF !important;color:#111111 !important;-webkit-text-fill-color:#111111 !important;font:400 13px/1.3 'Jost',system-ui,sans-serif !important;letter-spacing:.08em !important;text-transform:uppercase !important;text-align:start !important;white-space:normal !important;overflow:visible !important}
+html[dir="rtl"] body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figcaption{letter-spacing:0 !important;font:400 16px/1.3 Heebo,system-ui,sans-serif !important}
+html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figure::after{z-index:3;width:40px !important;height:40px !important;bottom:10px !important;inset-inline-end:12px !important;top:auto !important;box-shadow:none !important}
+@media (min-width:900px){html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figcaption{font-size:12px !important;min-height:56px !important;padding-inline:14px 62px !important}html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .reve-grille figure::after{bottom:8px !important;inset-inline-end:10px !important}}
+html body.lv:not(#x1):not(#x2):not(#x3):not(#x4):not(#x5):not(#x6):not(#x7):not(#x8):not(#x9):not(#x10):not(#x11):not(#x12):not(#x13):not(#x14):not(#x15):not(#x16) .lc-desc{margin-top:28px !important}
 /* /LOT1-1711-CARTES */
 """
 
