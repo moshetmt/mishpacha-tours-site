@@ -1,21 +1,23 @@
-/* entete.css : l'en-tete unique de Mishpacha Tours (16/11/2026, lot 1).
+/* entete.css : l'en-tete unique de Mishpacha Tours (lot 1, 16-17/11/2026).
    Un composant (header.mt-tete), deux habillages (data-habillage="mt" Mishpacha, "wp" Winter Prestige), 4 langues dont l'hebreu en miroir.
    Genere par _lot1_1611_entete.py. Charge en dernier. Aucune regle des anciennes couches (.nav, .liens, .nav-cta, .droite, .langue,
-   .menu, .logo, .wp-entete, .panneau) ne s'applique plus : tout vit ici, sous le prefixe mt-. Aucun !important.
-   Principe : le mode "compact" (logo, bouton, langue, burger) est la base ; le mode "large" (navigation complete, pas de burger)
-   s'ajoute a partir de 1280 px (seuil mesure) tant que js/entete.js n'a pas constate de debordement (data-compact, data-nocta, data-nowa). */
+   .menu, .logo, .wp-entete, .panneau) ne s'applique plus : tout vit ici, sous le prefixe mt-. Seul !important : la police Suez One du mot de la marque.
+   Principe : le mode "compact" (logo, langue, burger, bouton en tablette) est la base ; le mode "large" (navigation complete, pas de burger)
+   s'ajoute a partir de 1360 px (seuil mesure) tant que js/entete.js n'a pas constate de debordement (data-compact, data-nocta).
+   Telephone : dimensions du logo = celles du site en ligne (mesurees le 17/11 sur mishpachatours.com a 360, 375, 390, 412 px), marges de 16 px. */
 
 :root{--mt-bas:64px}
 
 .mt-tete,.mt-tete *,.mt-tete *::before,.mt-tete *::after,.mt-panneau,.mt-panneau *{box-sizing:border-box}
 
-/* ---------- socle : hauteur, fond, grille (colonne de droite = cellule reservee au ב״ה) ---------- */
+/* ---------- socle : hauteur, fond, grille ---------- */
 .mt-tete{
-  --mt-h:64px; --mt-px:12px; --mt-gap:24px; --mt-bg:#111111; --mt-fg:#ffffff; --mt-doux:#cfcac1;
-  --wph:clamp(30px,calc((100vw - 171px) / 5.5),48px);
+  --mt-h:64px; --mt-px:16px; --mt-gap:8px; --mt-bg:#111111; --mt-fg:#ffffff; --mt-doux:#cfcac1;
+  --mt-ph:40px;                                   /* hauteur du pictogramme (>= 60 % de la hauteur de l'en-tete) */
+  --wph:44px;                                     /* echelle du lockup Winter Prestige */
   --mt-ease:cubic-bezier(.23,1,.32,1);
   position:relative; z-index:50;
-  display:grid; grid-template-columns:minmax(0,1fr) auto; column-gap:var(--mt-gap); align-items:center;
+  display:grid; grid-template-columns:minmax(0,1fr); align-items:center;
   direction:ltr;                                  /* le ב״ה reste a droite meme en hebreu ; le corps reprend le sens de la page */
   height:var(--mt-h); margin:0; padding:0 var(--mt-px);
   background:var(--mt-bg); color:var(--mt-fg);
@@ -24,7 +26,13 @@
   -webkit-text-size-adjust:100%; text-size-adjust:100%;
   transition:background-color .2s ease;
 }
-@media (min-width:768px){ .mt-tete{ --mt-h:72px; --mt-px:24px; --wph:48px } :root{--mt-bas:72px} }
+.mt-tete[data-habillage="wp"]{--mt-ph:39px;--wph:clamp(28px,calc((100vw - 191px) / 4.772),44.57px)}
+@media (min-width:390px) and (max-width:767.98px){ .mt-tete[data-habillage="wp"]{--mt-ph:44px;--wph:clamp(28px,calc((100vw - 196px) / 4.772),44.57px)} }
+@media (min-width:768px){
+  .mt-tete{--mt-h:72px;--mt-px:24px;--mt-gap:24px;--mt-ph:44px;grid-template-columns:minmax(0,1fr) auto;column-gap:var(--mt-gap)}
+  .mt-tete[data-habillage="wp"]{--mt-ph:48px;--wph:48px}
+  :root{--mt-bas:72px}
+}
 
 /* remise a zero (specificite nulle : les regles ci-dessous la battent) puis couleurs des liens (specificite 0,1,1 : bat `a{color}` de styles.css) */
 :where(.mt-tete) :where(a){background:none;border:0;font:inherit;letter-spacing:inherit;text-transform:inherit;-webkit-tap-highlight-color:transparent}
@@ -37,8 +45,9 @@
 .mt-tete :focus-visible,.mt-panneau :focus-visible{outline:2px solid #fff;outline-offset:3px;border-radius:2px}
 
 html[dir="rtl"] .mt-corps,html[dir="rtl"] .mt-panneau{direction:rtl}
-.mt-corps{display:flex;align-items:center;gap:var(--mt-gap);min-width:0;height:100%}
+.mt-corps{display:flex;align-items:center;gap:var(--mt-gap);min-width:0;height:100%;padding-top:4px}
 .mt-corps>*{flex:none}
+@media (min-width:768px){ .mt-corps{padding-top:0} }
 
 /* ---------- l'en-tete sur photo (fixe, transparent, plein apres 60 px de defilement : body.lv-plein vient de l'inline LV-ENTETE) ---------- */
 .mt-tete[data-fond="photo"]{position:fixed;inset:0 0 auto 0;background:transparent}
@@ -47,24 +56,23 @@ body.lv-plein .mt-tete[data-fond="photo"],body.menu-ouvert .mt-tete,.mt-tete[dat
 body.lv-plein .mt-tete[data-fond="photo"]::before,body.menu-ouvert .mt-tete::before{opacity:0}
 html:has(.mt-tete[data-fond="photo"]){scroll-padding-top:calc(var(--mt-bas) + 8px)}
 
-/* ב״ה : une seule place, dans l'en-tete (colonne de droite). Neutralise les anciennes places (valora.css l. 555 et 868 : pseudo-element pose en haut a droite du hero ou de main) */
+/* ב״ה : une seule place, dans l'en-tete. Neutralise les anciennes places (valora.css l. 555 et 868 : pseudo-element pose en haut a droite du hero ou de main) */
 html body.valora main>.hero::after,html body.valora:not(:has(main>.hero)) main::before{content:none}
 
-/* ---------- bloc logo ---------- */
-.mt-marque{position:relative;display:flex;align-items:center;gap:12px;margin-inline-end:auto}
+/* ---------- bloc logo (dimensions en ligne : picto 40 px, mot 21 a 23 px puis 26 px ; WP : picto 34/44, lockup 44) ---------- */
+.mt-marque{position:relative;display:flex;align-items:center;gap:6px;margin-inline-end:auto}
 .mt-logo{display:flex;align-items:center;gap:10px;flex:none;border-radius:2px}
-.mt-picto{height:34px;width:auto;filter:invert(1) brightness(1.2)}
-.mt-mot{font:400 22px/1 "Suez One","Noto Serif Hebrew",Georgia,serif;letter-spacing:0;text-transform:none;color:#fff;white-space:nowrap}
-@media (min-width:768px){ .mt-picto{height:40px} .mt-mot{font-size:26px} }
+.mt-picto{height:var(--mt-ph);width:auto;filter:invert(1) brightness(1.2)}
+.mt-mot{font:400 clamp(17px,calc(21px + (100vw - 360px) * .1),23px)/1 "Suez One","Noto Serif Hebrew",Georgia,serif;letter-spacing:0;text-transform:none;color:#fff;white-space:nowrap}
+@media (min-width:400px){ .mt-mot{font-size:26px} }
 /* Suez One du mot de la marque : seule exception a la regle « zero !important ». lv.css pose `font-family:Jost !important` sur tous les span/a/div
    avec 7 identifiants (:not(#lv1)...) ; seul un !important de meme famille de selecteur, plus specifique, redonne au logo valide sa police. */
 html body.valora.lv:not(#lv1):not(#lv2):not(#lv3):not(#lv4):not(#lv5):not(#lv6):not(#lv7) .mt-tete :is(.mt-mot,.mt-wp-pw-m){font-family:"Suez One","Noto Serif Hebrew",Georgia,serif!important;font-weight:400!important}
 
 /* habillage Winter Prestige : bonhomme + filet or + flocon + mot or brosse + POWERED BY (memes fichiers que les fiches chalet) */
 .mt-tete[data-habillage="wp"]{--wpmotw:calc(var(--wph) * 3.7292);--wpfl:calc(var(--wph) / .836)}
-.mt-tete[data-habillage="wp"] .mt-picto{height:var(--wph)}
-.mt-tete[data-habillage="wp"] .mt-mot{position:absolute;inset-inline-start:calc(var(--wph) * .716 + 12px);top:50%;transform:translateY(-50%);opacity:0;pointer-events:none}
-.mt-wp{display:flex;align-items:center;gap:12px;height:var(--wph);flex:none}
+.mt-tete[data-habillage="wp"] .mt-mot{position:absolute;inset-inline-start:calc(var(--mt-ph) + 12px);top:50%;transform:translateY(-50%);opacity:0;pointer-events:none}
+.mt-wp{display:flex;align-items:center;gap:8px;height:var(--wph);flex:none}
 .mt-wp::before{content:"";width:1px;height:var(--wph);background:url(/img/wp-filet.svg) center/100% 100% no-repeat;flex:none}
 .mt-wp-fl{width:var(--wpfl);height:var(--wpfl);margin:calc((var(--wph) - var(--wpfl)) / 2) calc(var(--wpfl) * -.0638);flex:none}
 .mt-wp-txt{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:4px;margin-inline-start:-2px;min-width:0;direction:ltr}
@@ -75,6 +83,7 @@ html[dir="rtl"] .mt-wp-txt{margin-inline-start:0}
   background-position:-20% 0,0 0}
 .mt-wp-pw{display:block;font:500 calc(var(--wpmotw) / 25)/1 Jost,system-ui,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#C2A874;white-space:nowrap;margin-top:3px}
 .mt-wp-pw-m{font:400 1.25em/1 "Suez One","Noto Serif Hebrew",Georgia,serif;letter-spacing:.01em;text-transform:none;color:#fff}
+@media (min-width:768px){ .mt-marque{gap:12px} .mt-wp{gap:12px} }
 @keyframes mt-brillance{0%{background-position:120% 0,0 0}22%,100%{background-position:-20% 0,0 0}}
 @keyframes mt-ent-fondu{from{opacity:0}to{opacity:1}}
 @keyframes mt-ent-mot{from{opacity:1}to{opacity:0}}
@@ -90,39 +99,48 @@ html[dir="rtl"] .mt-wp-txt{margin-inline-start:0}
 html[dir="rtl"] .mt-lien::after{transform-origin:right center}
 .mt-ch{align-self:stretch;display:flex;align-items:center}
 
-/* menu des chalets : survol, focus clavier ; ne sort jamais de l'ecran */
-.mt-ch-menu{display:none;position:absolute;top:100%;inset-inline:0;margin-inline:auto;width:min(1120px,calc(100vw - 32px));max-height:calc(100dvh - var(--mt-h) - 12px);overflow:auto;overscroll-behavior:contain;
+/* menu des chalets : survol, focus clavier ; ne sort jamais de l'ecran ; noms en Jost fin, capitales espacees */
+.mt-ch-menu{display:none;position:absolute;top:100%;inset-inline:0;margin-inline:auto;width:min(1180px,calc(100vw - 32px));max-height:calc(100dvh - var(--mt-h) - 12px);overflow:auto;overscroll-behavior:contain;
   padding:20px 20px 12px;background:var(--mt-bg);border:1px solid rgba(255,255,255,.16);border-top:0;border-radius:0 0 4px 4px;
   grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 20px;text-transform:none;letter-spacing:0;color:#fff;cursor:default}
 .mt-ch:not([data-ferme]):is(:hover,:focus-within) .mt-ch-menu{display:grid}
-.mt-ch-v{display:flex;align-items:center;gap:14px;padding:8px;border-radius:4px;transition:background-color .16s ease}
-.mt-ch-v img{width:96px;height:64px;object-fit:cover;border-radius:2px;flex:none;background:#222}
-.mt-ch-v span{display:block;min-width:0;font:400 12.5px/1.4 Jost,Futura,"Century Gothic",Heebo,system-ui,sans-serif;color:var(--mt-doux)}
-.mt-ch-v .mt-ch-nom{display:block;margin-bottom:2px;font:500 12.5px/1.3 Jost,Futura,"Century Gothic",Heebo,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff}
-.mt-ch-tous{grid-column:1/-1;justify-self:start;margin-top:8px;padding:14px 8px;font:500 11px/1.2 Jost,Futura,"Century Gothic",Heebo,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;border-top:1px solid rgba(255,255,255,.16);align-self:stretch;width:100%}
+.mt-ch-v{display:flex;align-items:center;gap:14px;padding:8px;border-radius:4px}
+.mt-ch-v img{width:88px;height:58px;object-fit:cover;border-radius:2px;flex:none;background:#222}
+.mt-ch-v span{display:block;min-width:0;font:300 12.5px/1.4 Jost,Futura,"Century Gothic",Heebo,system-ui,sans-serif;color:var(--mt-doux)}
+.mt-ch-v .mt-ch-nom{display:block;margin-bottom:3px;font:300 11.5px/1.35 Jost,Futura,"Century Gothic",Heebo,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#fff}
+.mt-ch-tous{grid-column:1/-1;justify-self:start;margin-top:8px;padding:14px 8px;font:400 11px/1.2 Jost,Futura,"Century Gothic",Heebo,system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;border-top:1px solid rgba(255,255,255,.16);align-self:stretch;width:100%}
 
 /* ---------- bouton, langue, burger ---------- */
 .mt-cta{display:none;align-items:center;justify-content:center;height:40px;padding:0 16px;border:1px solid rgba(255,255,255,.75);border-radius:4px;white-space:nowrap;
   transition:background-color .16s ease,color .16s ease,transform .16s var(--mt-ease)}
 .mt-cta:active{transform:scale(.97)}
-.mt-cta-wa{border-color:rgba(255,255,255,.4)}      /* second bouton des pages hebreu (WhatsApp) : meme forme, un cran plus discret */
+/* proportions d'avant : Mishpacha = fleche, 174 px ; Winter Prestige = sans fleche, 150 px, interlettrage 0,2 em */
+.mt-tete[data-habillage="mt"] .mt-corps>.mt-cta{gap:10px;padding:0 24px;letter-spacing:.1em}
+.mt-tete[data-habillage="mt"] .mt-corps>.mt-cta::after{content:"\2192";font-size:14px;letter-spacing:0}
+html[dir="rtl"] .mt-tete[data-habillage="mt"] .mt-corps>.mt-cta::after{content:"\2190"}
+.mt-tete[data-habillage="wp"] .mt-corps>.mt-cta{padding:0 18px;letter-spacing:.2em}
 
 .mt-langue{position:relative;flex:none}
-.mt-langue summary{list-style:none;display:flex;align-items:center;justify-content:center;gap:6px;min-width:44px;height:44px;padding:0 10px;cursor:pointer;border-radius:4px;color:#fff;
-  font-weight:500;transition:background-color .16s ease}
+.mt-langue summary{list-style:none;display:flex;align-items:center;justify-content:center;gap:6px;min-width:40px;width:40px;height:44px;padding:0;cursor:pointer;border-radius:4px;color:#fff;font-weight:500}
 .mt-langue summary::-webkit-details-marker{display:none}
 .mt-langue summary::marker{content:""}
-.mt-langue summary::after{content:"";width:5px;height:5px;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:translateY(-2px) rotate(45deg);transition:transform .2s var(--mt-ease);opacity:.8}
+.mt-langue summary::after{content:"";width:5px;height:5px;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:translateY(-2px) rotate(45deg);transition:transform .2s var(--mt-ease);opacity:.8;display:none}
 .mt-langue[open] summary::after{transform:translateY(1px) rotate(-135deg)}
-.mt-langue ul{position:absolute;top:calc(100% + 6px);inset-inline-end:0;z-index:2;min-width:200px;margin:0;padding:6px;list-style:none;background:var(--mt-bg);border:1px solid rgba(255,255,255,.2);border-radius:4px;text-transform:none;letter-spacing:0}
+/* liste de langues : noir, aucun cadre, aucun aplat gris ; filets fins ; langue en cours = gras + filet d'or brosse ; toutes les lignes du meme cote */
+.mt-langue ul{position:absolute;top:calc(100% + 6px);inset-inline-end:0;z-index:2;min-width:200px;margin:0;padding:4px 0;list-style:none;background:var(--mt-bg);border:0;border-radius:2px;box-shadow:0 10px 28px rgba(0,0,0,.45);text-transform:none;letter-spacing:0}
 .mt-langue li{margin:0;padding:0}
-.mt-langue li a{display:flex;align-items:center;gap:10px;min-height:44px;padding:0 12px;border-radius:2px;font:400 14px/1.2 Jost,Futura,"Century Gothic",Heebo,system-ui,sans-serif;white-space:nowrap;transition:background-color .16s ease}
-.mt-langue li a[aria-current="true"]{background:rgba(255,255,255,.1)}
-.mt-drapeau{width:20px;height:20px;border-radius:50%;object-fit:cover;flex:none}
+.mt-langue li+li{border-top:1px solid rgba(255,255,255,.16)}
+.mt-langue li a{display:flex;align-items:center;gap:10px;min-height:44px;padding:0 16px;direction:inherit;font:400 14px/1.2 Jost,Futura,"Century Gothic",Heebo,system-ui,sans-serif;white-space:nowrap;border-inline-start:2px solid transparent}
+.mt-langue li a[aria-current="true"]{font-weight:500;border-inline-start-color:#A88F5E}
+.mt-drapeau{width:20px;height:20px;border-radius:50%;flex:none;background-size:cover;background-position:center}
+.mt-fl-gb{background-image:url(/img/flags/gb.svg)}
+.mt-fl-fr{background-image:url(/img/flags/fr.svg)}
+.mt-fl-es{background-image:url(/img/flags/es.svg)}
+.mt-fl-il{background-image:url(/img/flags/il.svg)}
 .mt-langue .mt-code{font-weight:500;letter-spacing:.12em;min-width:2ch}
 .mt-langue li .mt-code{font-size:12px}
 
-.mt-burger{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:44px;height:44px;padding:0;margin:0;background:transparent;border:0;border-radius:4px;color:#fff;cursor:pointer;
+.mt-burger{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:40px;height:44px;padding:0;margin:0;background:transparent;border:0;border-radius:4px;color:#fff;cursor:pointer;
   transition:transform .16s var(--mt-ease)}
 .mt-burger span{display:block;width:22px;height:2px;border-radius:1px;background:#fff;transition:transform .22s var(--mt-ease),opacity .16s ease}
 .mt-burger[aria-expanded="true"] span:nth-child(1){transform:translateY(8px) rotate(45deg)}
@@ -130,56 +148,46 @@ html[dir="rtl"] .mt-lien::after{transform-origin:right center}
 .mt-burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
 .mt-burger:active{transform:scale(.95)}
 
-/* cellule reservee du ב״ה : colonne de droite de la grille, jamais recouverte, toujours a droite */
-.mt-bh{justify-self:end;font:400 13px/1 Heebo,"Noto Serif Hebrew",sans-serif;letter-spacing:0;text-transform:none;color:#f1eee8;direction:rtl;unicode-bidi:isolate;white-space:nowrap}
+/* ב״ה : telephone = au-dessus de la rangee, coin haut droit de l'en-tete (dans la cellule de la grille, marge de 16 px) ; des 768 px = colonne reservee a droite */
+.mt-bh{grid-area:1/1;justify-self:end;align-self:start;margin-top:1px;font:400 11px/11px Heebo,"Noto Serif Hebrew",sans-serif;letter-spacing:0;text-transform:none;color:#f1eee8;direction:rtl;unicode-bidi:isolate;white-space:nowrap}
+@media (min-width:768px){ .mt-bh{grid-area:auto;align-self:center;margin-top:0;font-size:13px;line-height:13px} }
 
 @media (hover:hover) and (pointer:fine){
   .mt-lien:hover::after,.mt-ch:is(:hover,:focus-within) .mt-ch-lien::after{transform:scaleX(1)}
   .mt-cta:hover{background:#fff;color:#111}
-  .mt-langue summary:hover,.mt-burger:hover{background:rgba(255,255,255,.1)}
-  .mt-langue li a:hover,.mt-ch-v:hover{background:rgba(255,255,255,.09)}
+  .mt-langue summary:hover,.mt-burger:hover{opacity:.7}
+  .mt-langue li a:hover{text-decoration:underline;text-underline-offset:5px}
+  .mt-ch-v:hover .mt-ch-nom{text-decoration:underline;text-underline-offset:4px}
   .mt-ch-tous:hover{text-decoration:underline;text-underline-offset:6px}
 }
 
-/* ---------- mode compact : le bouton reste tant qu'il tient (tablette), disparait sur telephone ---------- */
-@media (min-width:820px){ .mt-tete:not([data-nocta]) .mt-cta:not(.mt-cta-wa){display:inline-flex} }
+/* ---------- tablette : le bouton reste tant qu'il tient ; langue avec chevron ; cibles de 44 px ---------- */
+@media (min-width:768px){
+  .mt-langue summary{min-width:44px;width:auto;padding:0 10px}
+  .mt-langue summary::after{display:block}
+  .mt-burger{width:44px}
+}
+@media (min-width:820px){ .mt-tete:not([data-nocta]) .mt-corps>.mt-cta{display:inline-flex} }
 .mt-tete[data-menu="ouvert"] .mt-cta{visibility:hidden}
-@media (max-width:767.98px){
-  /* telephone : cibles de 44 px de haut, 40 px de large (langue sans chevron, burger), cellule du ב״ה au strict necessaire,
-     bonhomme au rapport de l'ancien en-tete (34 px pour un lockup de 44 px), ecarts resserres : le POWERED BY garde sa taille d'avant (6,65 px) */
-  .mt-tete{--mt-gap:0px;--mt-px:4px;--wph:clamp(24px,calc((100vw - 114px) / 5.5),48px)}
-  .mt-tete[data-habillage="wp"] .mt-picto{height:calc(var(--wph) * .74)}
-  .mt-marque,.mt-wp{gap:4px}
-  .mt-bh{font-size:10.5px}
-  .mt-langue summary{min-width:40px;width:40px;padding:0;gap:0}
-  .mt-langue summary::after{display:none}
-  .mt-burger{width:40px}
-}
-/* petits ecrans (iPhone SE 320 px) : le mot Mishpacha et le bonhomme se reduisent pour que logo, langue, burger et ב״ה tiennent */
-@media (max-width:359.98px){
-  .mt-mot{font-size:clamp(17px,calc((100vw - 170px) / 8),22px)}
-  .mt-tete[data-habillage="mt"] .mt-picto{height:28px}
-}
 
 /* ---------- mode large : navigation complete, pas de burger ---------- */
-@media (min-width:1280px){
-  .mt-tete{--mt-px:20px;--wph:44px}
+@media (min-width:1360px){
+  .mt-tete{--mt-px:20px}
   .mt-tete:not([data-compact]) .mt-nav{display:flex}
   .mt-tete:not([data-compact]) .mt-burger{display:none}
   .mt-tete:not([data-compact]) .mt-marque{margin-inline-end:0}
-  .mt-tete:not([data-compact]) .mt-cta:not(.mt-cta-wa){display:inline-flex}
+  .mt-tete:not([data-compact]) .mt-corps>.mt-cta{display:inline-flex}
 }
-/* second bouton WhatsApp (hebreu) : dans l'en-tete en mode large (mesure : l'hebreu tient avec lui des 1280 px, ecarts de 24 px), sinon dans le panneau */
-@media (min-width:1280px){ .mt-tete:not([data-compact]):not([data-nowa]) .mt-cta-wa{display:inline-flex} }
-@media (min-width:1600px){ .mt-tete{--mt-px:32px;--wph:48px} }
+@media (min-width:1600px){ .mt-tete{--mt-px:32px} }
 
 /* ---------- panneau du burger (une seule source par langue, fond noir, blanc sur noir) ---------- */
 .mt-panneau{position:fixed;inset-inline:0;bottom:0;top:var(--mt-bas);z-index:62;display:flex;flex-direction:column;gap:20px;overflow:auto;overscroll-behavior:contain;
   padding:8px max(24px,calc((100vw - 640px) / 2)) 40px;background:#111111;color:#fff;font:400 15px/1.4 Jost,Futura,"Century Gothic",Heebo,system-ui,sans-serif}
+.mt-panneau>*{flex:none}
 .mt-panneau[hidden]{display:none}
 .mt-panneau nav a{display:block;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.16);font-size:22px;font-weight:300;line-height:1.25;letter-spacing:.1em;text-transform:uppercase}
 .mt-panneau nav a small{display:block;margin-top:5px;font-size:13px;font-weight:300;letter-spacing:0;text-transform:none;color:#cfcac1}
-.mt-panneau .mt-cta{display:flex;height:52px;width:100%;font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+.mt-panneau .mt-cta{display:flex;height:52px;min-height:52px;width:100%;font-size:12px;letter-spacing:.18em;text-transform:uppercase}
 .mt-panneau-wa{display:flex;align-items:center;gap:12px;min-height:44px;font-size:15px}
 .mt-panneau-wa svg{width:22px;height:22px;flex:none;fill:currentColor}
 .mt-panneau-bas{display:flex;flex-direction:column;gap:4px;margin:0;font-size:14px;color:#cfcac1}
@@ -188,7 +196,7 @@ html[dir="rtl"] .mt-lien::after{transform-origin:right center}
 @media (hover:hover) and (pointer:fine){ .mt-panneau a:hover{opacity:.78} .mt-panneau .mt-cta:hover{opacity:1} }
 body.menu-ouvert .barre-basse{visibility:hidden}
 
-/* ---------- mouvement : seulement si l'utilisateur ne l'a pas reduit (donc aucun !important a prevoir) ---------- */
+/* ---------- mouvement : seulement si l'utilisateur ne l'a pas reduit ---------- */
 @media (prefers-reduced-motion:no-preference){
   .mt-wp-mot{animation:mt-brillance 7s ease-in-out 1.2s infinite}
   .mt-ch:not([data-ferme]):is(:hover,:focus-within) .mt-ch-menu{animation:mt-menu-entre .16s var(--mt-ease) both}
@@ -203,7 +211,7 @@ body.menu-ouvert .barre-basse{visibility:hidden}
   html body .mt-tete[data-habillage],html body .mt-tete[data-habillage]::before,html body .mt-tete[data-habillage] :is(*,*::before,*::after),html body .mt-panneau :is(*,*::before,*::after){transition:none}
 }
 
-/* ---------- contraste force, impression (selecteurs plus specifiques que le mode large : pas de !important) ---------- */
+/* ---------- contraste force, impression ---------- */
 @media (forced-colors:active){
   .mt-burger span{background:CanvasText;forced-color-adjust:none}
   .mt-cta{border-color:ButtonText}
@@ -217,6 +225,7 @@ body.menu-ouvert .barre-basse{visibility:hidden}
 /* ---------- hebreu : meme composant en miroir (proprietes logiques), ב״ה reste a droite ---------- */
 html[lang="he"] .mt-tete{letter-spacing:0;text-transform:none}
 html[lang="he"] .mt-lien,html[lang="he"] .mt-ch-lien{font-size:14px;letter-spacing:.01em}
-html[lang="he"] .mt-cta{font-size:13px;letter-spacing:.01em}
+html[lang="he"] .mt-tete .mt-corps>.mt-cta{font-size:13px;letter-spacing:.01em}
+html[lang="he"] .mt-panneau .mt-cta{font-size:13px;letter-spacing:.01em}
 html[lang="he"] .mt-panneau nav a{letter-spacing:0;text-transform:none}
 html[lang="he"] .mt-ch-v .mt-ch-nom{letter-spacing:0;text-transform:none}

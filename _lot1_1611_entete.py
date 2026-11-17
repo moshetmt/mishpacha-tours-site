@@ -48,6 +48,7 @@ WP_ANIM = ('<script>try{if(!sessionStorage.getItem("wpEntete")){sessionStorage.s
            'document.documentElement.classList.add("wp-anim")}}catch(e){}</script>')
 
 
+EN_LOGO = 'Mishpacha Tours, Jewish Tours of Lyon'
 LANG_FIX = {
     'contact-quick/index.html': {'en': '/contact-quick/', 'fr': '/fr/plan-your-trip/', 'es': '/es/plan-your-trip/', 'he': '/he/plan-your-trip/'},
     'contact-quick/thanks/index.html': {'en': '/', 'fr': '/fr/', 'es': '/es/', 'he': '/he/'},
@@ -159,6 +160,9 @@ def lire_bloc(region):
     d['pan_cta'] = (pcta[0].get('href'), txt(pcta[0])) if pcta else d['cta']
     wa = pan.cssselect('a.panneau-wa, a.mt-panneau-wa')[0]
     d['pan_wa'] = (wa.get('href'), txt(wa), wa.get('rel'))
+    pws = pan.cssselect('a.panneau-wa, a.mt-panneau-wa')
+    if not d['wa2'] and len(pws) > 1:          # forme neuve : le second lien WhatsApp (hebreu) vit dans le panneau
+        d['wa2'] = (pws[1].get('href'), txt(pws[1]))
     mail = pan.cssselect('a[href^="mailto:"]')[0]
     d['pan_mail'] = (mail.get('href'), txt(mail))
     note = pan.cssselect('.panneau-bas > span, .mt-panneau-bas > span')[0]
@@ -206,13 +210,21 @@ def rendre(d, src, lang, fond):
             attrs += ' dir="rtl"'
         if it['cur']:
             attrs += ' aria-current="true"'
-        lg_items.append('<li><a href="%s"%s><img class="mt-drapeau" src="/img/flags/%s.svg" alt="" width="20" height="20">'
+        lg_items.append('<li><a href="%s"%s><span class="mt-drapeau mt-fl-%s" aria-hidden="true"></span>'
                         '<span class="mt-code">%s</span><span class="mt-nom">%s</span></a></li>' % (a(it['href']), attrs, FLAG[code], e(code), e(it['nom'])))
     cur = next((it for it in d['langs'] if it['cur']), d['langs'][0])
     cur_l = cur['lang'] if cur['lang'] in ('fr', 'es', 'he') else 'en'
     liens = ''.join('<a class="mt-lien" href="%s">%s</a>' % (a(h), e(t)) for h, t in src['liens'])
-    marque = ('<a class="mt-logo" href="%s" aria-label="%s"><img class="mt-picto" src="/img/picto-hassid.svg" alt="" width="68" height="95">'
-              '<span class="mt-mot" translate="no">mishpacha tours</span></a>' % (a(d['logo_href']), a(d['logo_label'])))
+    # etiquettes pour lecteurs d'ecran : ni anglais ni libelle neuf. Le libelle anglais generique du logo cede la place au libelle de l'accueil
+    # de la langue ; en hebreu, le resume de langue garde les seuls mots hebreux existants (code et nom de la langue).
+    logo_label = d['logo_label']
+    if lang != 'en' and logo_label == EN_LOGO:
+        logo_label = src['logo_label']
+    lang_label = d['lang_label']
+    if lang == 'he':
+        lang_label = '%s, %s' % (code_de('he'), cur['nom'])
+    marque = ('<a class="mt-logo" href="%s" aria-label="%s"><img class="forme mt-picto" src="/img/picto-hassid.svg" alt="" width="68" height="95">'
+              '<span class="mt-mot" translate="no">mishpacha tours</span></a>' % (a(d['logo_href']), a(logo_label)))
     if wp:
         marque += ('<div class="mt-wp"><img class="mt-wp-fl" src="/img/wp-flocon-brosse-clair.svg" alt="" width="48" height="48">'
                    '<span class="mt-wp-txt"><span class="mt-wp-mot" role="img" aria-label="Winter Prestige"></span>'
@@ -220,7 +232,7 @@ def rendre(d, src, lang, fond):
     pan_items = ''.join('<a href="%s">%s<small>%s</small></a>' % (a(h), e(t), e(s_)) for h, t, s_ in src['pan_items'])
     # second bouton WhatsApp des pages hebreu (ancien a.nav-cta-wa) : il garde sa fonction. En-tete en mode large,
     # panneau en mode compact (le lien du panneau est deja le meme ; s'il differe, le second lien entre aussi dans le panneau).
-    wa2_html = ('\n    <a class="mt-cta mt-cta-wa" href="%s" rel="noopener">%s</a>' % (a(d['wa2'][0]), e(d['wa2'][1]))) if d['wa2'] else ''
+    wa2_html = ''   # le second bouton WhatsApp des pages hebreu n'existe ni dans les autres langues ni en ligne : il ne vit que dans le panneau
     header = (
         '<header class="mt-tete" data-habillage="%s" data-fond="%s">\n'
         '  <div class="mt-corps">\n'
@@ -238,7 +250,7 @@ def rendre(d, src, lang, fond):
         '  <span class="mt-bh" lang="he" dir="rtl">%s</span>\n'
         '</header>'
     ) % ('wp' if wp else 'mt', fond, marque, a(d['nav_label']), a(src['ch_href']), e(src['ch_label']), rendre_ch_menu(src), liens,
-         a(d['cta'][0]), e(d['cta'][1]), wa2_html, a(d['lang_label']), e(code_de(cur_l)), ''.join(lg_items), a(d['burger_label']), e(d['bh']))
+         a(d['cta'][0]), e(d['cta'][1]), wa2_html, a(lang_label), e(code_de(cur_l)), ''.join(lg_items), a(d['burger_label']), e(d['bh']))
     wa_href, wa_txt, wa_rel = d['pan_wa']
     wa_label = src['pan_wa'][1]
     wa2_pan = ''

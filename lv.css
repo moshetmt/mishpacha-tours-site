@@ -1340,6 +1340,14 @@ html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(
 html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11):not(#r12) .cb-b{flex:none !important;width:auto !important;gap:6px !important}
 html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11):not(#r12) .cb button{flex:none !important;min-width:0 !important;height:44px !important;min-height:44px !important;padding:0 12px !important;font-size:11px !important;letter-spacing:.08em !important}
 }
+@media (max-width:899.98px){
+html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11):not(#r12) .cb[hidden]{display:none !important}
+}
+/* 8b. place reservee au bandeau : le bloc de texte du heros remonte de --cb-push (pose par js/mesure.js) tant que le bandeau est affiche */
+html.cb-on body.lv:not(#h1):not(#h2):not(#h3):not(#h4):not(#h5):not(#h6):not(#h7):not(#h8):not(#h9):not(#h10):not(#h11):not(#h12):not(#h13):not(#h14):not(#h15):not(#h16) main>:is(section.hero,section.lv-hero-photo,section.lv-hero-station){padding-bottom:var(--cb-push,0px) !important}
+html.cb-on .lc-galerie{max-height:calc(var(--lc-gh,9999px) - var(--cb-gal,0px)) !important;overflow:hidden !important}
+/* 3. ordinateur : le pied de page garde une marge basse sous les boutons flottants WhatsApp et Plan your trip */
+@media (min-width:900px){html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) footer.pied{padding-bottom:104px !important}}
 /* 13. widget des visites de Lyon : dates sur toute la largeur (le champ de 113 px coupait « 12 al 15 de o ») */
 @media (min-width:900px){html body.lv:not(#r1):not(#r2):not(#r3):not(#r4):not(#r5):not(#r6):not(#r7):not(#r8):not(#r9):not(#r10):not(#r11) .hero-texte #chercheur .duo{grid-template-columns:minmax(0,1fr) !important;gap:10px !important}}
 /* ===/LOT1-1611=== */

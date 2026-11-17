@@ -9,7 +9,7 @@
   var burger = H.querySelector('.mt-burger'), pan = D.getElementById('panneau'),
       lang = H.querySelector('.mt-langue'), ch = H.querySelector('.mt-ch'),
       corps = H.querySelector('.mt-corps'), lienCh = H.querySelector('.mt-ch-lien');
-  var large = matchMedia('(min-width:1280px)');
+  var large = matchMedia('(min-width:1360px)');
   var FOC = 'a[href],button:not([disabled]),summary,[tabindex]:not([tabindex="-1"])';
   var inertes = [];
 
@@ -34,6 +34,7 @@
       n.setAttribute('inert', ''); inertes.push(n);
     });
     var f = visibles(pan)[0]; if (f) f.focus({ preventScroll: true });
+    requestAnimationFrame(function () { if (ouvert() && !pan.contains(D.activeElement)) { var g = visibles(pan)[0]; if (g) g.focus({ preventScroll: true }); } });
   }
   function fermer(retour) {
     if (!pan || !ouvert()) return;
@@ -97,10 +98,9 @@
   /* ---------- garde d'ajustement : l'en-tete tient, ou il se simplifie ---------- */
   function tient() { return corps.scrollWidth <= corps.clientWidth + 1; }
   function ajuster() {
-    H.removeAttribute('data-compact'); H.removeAttribute('data-nocta'); H.removeAttribute('data-nowa');
-    if (!tient()) H.setAttribute('data-nowa', '');                       /* 1. le second bouton WhatsApp (hebreu) cede d'abord */
-    if (large.matches && !tient()) H.setAttribute('data-compact', '');   /* 2. puis la navigation complete cede au burger */
-    if (!tient()) H.setAttribute('data-nocta', '');                      /* 3. puis le bouton Plan your trip */
+    H.removeAttribute('data-compact'); H.removeAttribute('data-nocta');
+    if (large.matches && !tient()) H.setAttribute('data-compact', '');   /* 1. la navigation complete cede au burger */
+    if (!tient()) H.setAttribute('data-nocta', '');                      /* 2. puis le bouton Plan your trip */
   }
   var t = 0;
   function planifier() { clearTimeout(t); t = setTimeout(ajuster, 60); }

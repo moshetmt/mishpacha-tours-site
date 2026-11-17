@@ -59,9 +59,63 @@ def r8_js():
         if a in s: s = s.replace(a, b); k += 1
     if k: ecrire('js/mesure.js', s); note('8 js/mesure.js texte du bandeau raccourci (4 langues)', 1)
 
+
+HELPERS_JS = """  /*LOT1-1611*/
+  /* le bandeau masque reste masque (attribut hidden + display:none inline important) ; classe cb-on sur <html> et variables --cb-h / --cb-push
+     pour que le premier ecran du heros remonte de la place du bandeau tant qu'il est affiche */
+  function mesurer() {
+    var d = document.documentElement;
+    if (!bar || bar.hidden) return;
+    d.style.setProperty('--cb-h', bar.offsetHeight + 'px');
+    d.style.setProperty('--cb-push', '0px');
+    var top = bar.getBoundingClientRect().top, bas = 0;
+    var hero = document.querySelector('main>section.hero,main>section.lv-hero-photo,main>section.lv-hero-station');
+    if (hero) hero.querySelectorAll('a,button,h1,h2,p,small').forEach(function (e) {
+      var r = e.getBoundingClientRect();
+      if (r.width && r.height && r.bottom <= window.innerHeight + 1 && r.bottom > bas) bas = r.bottom;
+    });
+    d.style.setProperty('--cb-push', Math.max(0, Math.ceil(bas + 12 - top)) + 'px');
+    /* fiche chalet (pas de heros plein ecran) : sur telephone et tablette, la galerie raccourcit pour que les boutons du premier ecran restent au-dessus du bandeau */
+    d.style.setProperty('--cb-gal', '0px');
+    var g = document.querySelector('.lc-galerie');
+    if (!hero && g && window.innerWidth < 900) {
+      var gh = g.getBoundingClientRect().height, pb = 0;
+      document.querySelectorAll('main a.btn-noir,main a.pill,main a[href*="wa.me"],main button').forEach(function (e) {
+        if (e.closest('.cb,.barre-basse,.nav,.lc-galerie')) return;
+        var r = e.getBoundingClientRect();
+        if (r.width && r.height && r.top < window.innerHeight && r.bottom > top - 12 && r.bottom + 12 - top > pb) pb = r.bottom + 12 - top;
+      });
+      d.style.setProperty('--lc-gh', gh + 'px');
+      d.style.setProperty('--cb-gal', Math.max(0, Math.min(Math.ceil(pb), gh - 170)) + 'px');
+    }
+  }
+  function poser(on) {
+    var d = document.documentElement;
+    if (on) { d.classList.add('cb-on'); mesurer(); }
+    else { d.classList.remove('cb-on'); d.style.removeProperty('--cb-h'); d.style.removeProperty('--cb-push'); d.style.removeProperty('--cb-gal'); d.style.removeProperty('--lc-gh'); }
+  }
+  function cacher() { bar.hidden = true; bar.style.setProperty('display', 'none', 'important'); poser(false); }
+  window.addEventListener('resize', mesurer);
+"""
+
+def r8b_js():
+    s = lire('js/mesure.js')
+    if '/*LOT1-1611*/' in s: return
+    a = "    if (bar) { bar.hidden = false; return; }"
+    b = "x.addEventListener('click', function () { ecrire(b[0]); appliquer(b[0]); if (b[0] === 'granted') rejouer(); bar.hidden = true; });"
+    c = "    document.body.appendChild(bar);\n"
+    d = "  /* banniere */\n  function montrer() {"
+    for t in (a, b, c, d): assert t in s, t
+    s = s.replace(a, "    if (bar) { bar.hidden = false; bar.style.removeProperty('display'); poser(true); return; }")
+    s = s.replace(b, b.replace('bar.hidden = true;', 'cacher();'))
+    s = s.replace(c, c + "    poser(true);\n")
+    s = s.replace(d, "  /* banniere */\n" + HELPERS_JS + "  function montrer() {")
+    ecrire('js/mesure.js', s); note('8b js/mesure.js : fermeture fiable, classe cb-on, reserve de place')
+
 # ---------- bloc CSS unique en fin de lv.css ----------
 P = 'html body.lv' + ''.join(':not(#r%d)' % i for i in range(1, 12))
 P12 = 'html body.lv' + ''.join(':not(#r%d)' % i for i in range(1, 13))
+H16 = 'html.cb-on body.lv' + ''.join(':not(#h%d)' % i for i in range(1, 17))
 Q16 = 'html body.lv.l4' + ''.join(':not(#q%d)' % i for i in range(1, 16))
 BLOC = '''/* ===LOT1-1611=== lot 1 reparations du 16/11/2026 (_lot1_1611_rep.py) : defauts 6, 7, 8, 13 */
 /* 6. « How it works » des pages Lyon (#how noir, lv.css l.1260 met color:#fff mais le -webkit-text-fill-color noir de la regle « 11. Comment ca marche » l.1128 l'emporte) : remplissage blanc ; chiffres en or brossé (A88F5E sur #111 = 6,1:1) */
@@ -78,10 +132,18 @@ BLOC = '''/* ===LOT1-1611=== lot 1 reparations du 16/11/2026 (_lot1_1611_rep.py)
 %(Q)s .cb-b{flex:none !important;width:auto !important;gap:6px !important}
 %(Q)s .cb button{flex:none !important;min-width:0 !important;height:44px !important;min-height:44px !important;padding:0 12px !important;font-size:11px !important;letter-spacing:.08em !important}
 }
+@media (max-width:899.98px){
+%(Q)s .cb[hidden]{display:none !important}
+}
+/* 8b. place reservee au bandeau : le bloc de texte du heros remonte de --cb-push (pose par js/mesure.js) tant que le bandeau est affiche */
+%(H)s main>:is(section.hero,section.lv-hero-photo,section.lv-hero-station){padding-bottom:var(--cb-push,0px) !important}
+html.cb-on .lc-galerie{max-height:calc(var(--lc-gh,9999px) - var(--cb-gal,0px)) !important;overflow:hidden !important}
+/* 3. ordinateur : le pied de page garde une marge basse sous les boutons flottants WhatsApp et Plan your trip */
+@media (min-width:900px){%(P)s footer.pied{padding-bottom:104px !important}}
 /* 13. widget des visites de Lyon : dates sur toute la largeur (le champ de 113 px coupait « 12 al 15 de o ») */
 @media (min-width:900px){%(P)s .hero-texte #chercheur .duo{grid-template-columns:minmax(0,1fr) !important;gap:10px !important}}
 /* ===/LOT1-1611=== */
-''' % {'P': P, 'Q': P12, 'L': Q16}
+''' % {'P': P, 'Q': P12, 'L': Q16, 'H': H16}
 
 def bloc():
     s = lire('lv.css')
@@ -140,7 +202,7 @@ def r17():
     s = s[:j] + '  <url><loc>%s</loc><lastmod>2026-11-07</lastmod><priority>0.7</priority></url>\n' % u + s[j:]
     ecrire('sitemap.xml', s); note('17 sitemap : he/kosher-chalet-megeve')
 
-for f in (r1, r9, r8_js, bloc, r14, r15_16, r17): f()
+for f in (r1, r9, r8_js, r8b_js, bloc, r14, r15_16, r17): f()
 print('Reparations appliquees (0 = deja en place) :')
 for k in sorted(compte): print(' ', k, compte[k])
 if not compte: print('  aucune modification')
