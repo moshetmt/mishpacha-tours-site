@@ -20,11 +20,13 @@ CSS = f"""/* ===LIS-1711=== lisibilité, cadres, alignement, rail des chalets (_
 {Q}.valora-visite section.beige.etapes :is(p,li p){{color:#CFCAC1 !important;-webkit-text-fill-color:#CFCAC1 !important}}
 {Q} .garanties-fiche ul>li{{border:0 !important;border-bottom:1px solid #E8E8E8 !important;box-shadow:none !important;background:none !important;padding:16px 0 !important}}
 {Q} .garanties-fiche ul>li:last-child{{border-bottom:0 !important}}
-{Q} .of-carte .of-plus{{margin-top:auto !important}}
-{Q} .of-carte .of-btn{{margin-top:12px !important}}
+{Q} .of-carte .of-plus{{margin-top:auto !important;margin-bottom:12px !important}}
+{Q} .of-carte .of-btn{{margin-top:auto !important}}
+{Q} .of-carte .of-plus+.of-btn{{margin-top:0 !important}}
+html[dir="rtl"] body.lv""" + "".join(f":not(#q{i})" for i in range(1, 17)) + f""" .kwp-carte .kwp-chiffres li span{{color:#111111 !important;-webkit-text-fill-color:#111111 !important}}
 {Q} .of-carte>p{{margin-bottom:14px !important}}
 @media (max-width:899.98px){{
-{Q} main.lc .lc-autres{{display:flex !important;grid-template-columns:none !important;overflow-x:auto !important;overflow-y:hidden !important;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;gap:14px !important;margin:0 -20px !important;padding:0 20px 6px !important;scroll-padding-inline:20px;border-top:0 !important}}
+{Q} main.lc .lc-autres{{display:flex !important;grid-template-columns:none !important;overflow-x:auto !important;overflow-y:hidden !important;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;gap:14px !important;margin:0 !important;padding:0 20px 6px !important;scroll-padding-inline:20px;max-width:100vw;box-sizing:border-box;border-top:0 !important}}
 {Q} main.lc .lc-autres::-webkit-scrollbar{{display:none}}
 {Q} main.lc .lc-autres>.lc-aut{{flex:0 0 68% !important;max-width:300px;scroll-snap-align:start;grid-column:auto !important;border:0 !important;padding:0 0 4px !important;margin:0 !important}}
 {Q} main.lc .lc-autres>.lc-aut img{{width:100% !important;height:auto !important;aspect-ratio:3/2;object-fit:cover}}
