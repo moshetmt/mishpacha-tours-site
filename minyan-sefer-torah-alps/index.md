@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/minyan-sefer-torah-alps/ (HTML version). Ever
 
 # A minyan and a Sefer Torah *in your resort*
 
-[Plan my trip](/plan-your-trip/?i=a&voyage=Minyan%20and%20Sefer%20Torah)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20minyan%20and%20a%20Sefer%20Torah%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[Plan my trip](/plan-your-trip/?i=a&voyage=Minyan%20and%20Sefer%20Torah)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMinyan%20and%20Sefer%20Torah%20in%20the%20Alps%2C%20kosher%20resorts%E2%80%9D.%20I%20would%20like%20a%20minyan%20and%20a%20Sefer%20Torah%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 [Home](/) / [Kosher services in the Alps](/kosher-services-french-alps/) / A minyan and a Sefer Torah
 
@@ -48,7 +48,7 @@ So give us your dates early. Shabbat and weekday prayers take place with Beth Ha
 
    We tell you what is possible, depending on the families present.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20minyan%20and%20a%20Sefer%20Torah%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMinyan%20and%20Sefer%20Torah%20in%20the%20Alps%2C%20kosher%20resorts%E2%80%9D.%20I%20would%20like%20a%20minyan%20and%20a%20Sefer%20Torah%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Your *questions*
 

@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-crans-montana/ (HTML version). Ever
 
 Crans-Montana se encuentra en una meseta orientada al sur, a unos 1.500 m en el Valais, con un glaciar que llega a 2.927 m.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Crans-Montana)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20viajamos%20a%20Crans-Montana.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Crans-Montana)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20Crans-Montana%C2%BB.%20Viajamos%20a%20Crans-Montana.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
 
 Esquíe en Crans-Montana de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -65,7 +65,7 @@ La supervisión rara vez consta por escrito: compruébelo antes de reservar.
 
    El precio depende de las fechas, del número de personas y del menú. Recibe un presupuesto por escrito antes de comprometerse a nada.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20viajamos%20a%20Crans-Montana.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20Crans-Montana%C2%BB.%20Viajamos%20a%20Crans-Montana.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
 
 ## Cómo llegar *a Crans-Montana*
 

@@ -12,7 +12,7 @@ Lyon and Villeurbanne have several mikvahs.
 - Mikvah Haya Mouchka: open nightly
 - Call before you travel
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20am%20looking%20for%20a%20mikvah%20in%20Lyon.%20Dates%3A%20/%20Hotel%20or%20neighbourhood%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMikveh%20in%20Lyon%20and%20Villeurbanne%E2%80%9D.%20I%20am%20looking%20for%20a%20mikvah%20in%20Lyon.%20Dates%3A%20%2F%20Hotel%20or%20neighbourhood%3A)[Get a quote](#book)
 
 ## The mikvah *to start with*
 
@@ -53,7 +53,7 @@ Six mikvahs of Lyon and Villeurbanne. Tap a marker for directions.
 
    We can tell you which mikvah is closest to your hotel and help you write the message. We do not book the appointment.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20am%20looking%20for%20a%20mikvah%20in%20Lyon.%20Dates%3A%20/%20Hotel%20or%20neighbourhood%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMikveh%20in%20Lyon%20and%20Villeurbanne%E2%80%9D.%20I%20am%20looking%20for%20a%20mikvah%20in%20Lyon.%20Dates%3A%20%2F%20Hotel%20or%20neighbourhood%3A)[Get a quote](#book)
 
 ## Mikveh in Lyon: *questions*
 
@@ -71,7 +71,7 @@ Mikvah Haya Mouchka and Mikvah Neveh Chalom are the closest listed. We estimate 
 
 ## Need help finding a mikvah near your hotel?
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20am%20looking%20for%20a%20mikvah%20in%20Lyon.%20Dates%3A%20/%20Hotel%20or%20neighbourhood%3A)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMikveh%20in%20Lyon%20and%20Villeurbanne%E2%80%9D.%20I%20am%20looking%20for%20a%20mikvah%20in%20Lyon.%20Dates%3A%20%2F%20Hotel%20or%20neighbourhood%3A)
 
 Same-day reply, never on Shabbat.
 
@@ -91,31 +91,31 @@ One request, we organise everything, from the table to the transfer.
 
 A Jewish guide leads the visit in English, French or Spanish, with the inside of the Grande Synagogue. Sunday to Friday midday.
 
-[See the details](https://mishpachatours.com/tours/jewish-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20the%20guided%20tour%20of%20Jewish%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/tours/jewish-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMikveh%20in%20Lyon%20and%20Villeurbanne%E2%80%9D.%20I%20would%20like%20to%20book%20the%20guided%20tour%20of%20Jewish%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Shabbat table and kosher meals delivered in Lyon
 
 Shabbat meals, meals delivered to your hotel, a minyan close by.
 
-[See the details](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20Shabbat%20table%20and%20kosher%20meals%20delivered%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/kosher-shabbat-meals-catering-lyon/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMikveh%20in%20Lyon%20and%20Villeurbanne%E2%80%9D.%20I%20would%20like%20a%20Shabbat%20table%20and%20kosher%20meals%20delivered%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Private kosher chef in Lyon and the Alps
 
 A chef in your apartment or your chalet, in a kitchen made kosher.
 
-[See the details](https://mishpachatours.com/kosher-services-french-alps/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20private%20kosher%20chef%20in%20Lyon%20or%20the%20Alps.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/kosher-services-french-alps/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMikveh%20in%20Lyon%20and%20Villeurbanne%E2%80%9D.%20I%20would%20like%20a%20private%20kosher%20chef%20in%20Lyon%20or%20the%20Alps.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Private van and transfers
 
 Lyon airport, Geneva, the Alpine resorts. Never during Shabbat.
 
-[See the details](https://mishpachatours.com/kosher-van-transfers/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20private%20van%20and%20transfers%20for%20my%20stay%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/kosher-van-transfers/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMikveh%20in%20Lyon%20and%20Villeurbanne%E2%80%9D.%20I%20would%20like%20a%20private%20van%20and%20transfers%20for%20my%20stay%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ### Discreet private escort, on request
 
 A quiet presence beside your group, only when you ask for it.
 
-[See the details](https://mishpachatours.com/is-lyon-safe-for-jewish-visitors/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20a%20discreet%20private%20escort%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[See the details](https://mishpachatours.com/is-lyon-safe-for-jewish-visitors/)[Book on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CMikveh%20in%20Lyon%20and%20Villeurbanne%E2%80%9D.%20I%20would%20like%20a%20discreet%20private%20escort%20in%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

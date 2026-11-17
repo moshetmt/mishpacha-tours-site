@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-st-moritz/ (HTML version). Every pa
 
 St. Moritz se encuentra a unos 1.822 m en la Engadina, junto a un lago que se hiela en invierno.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=St.%20Moritz)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20viajamos%20a%20St.%20Moritz.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=St.%20Moritz)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20St.%20Moritz%C2%BB.%20Viajamos%20a%20St.%20Moritz.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
 
 Esquíe en St. Moritz de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -75,7 +75,7 @@ Horarios calculados para las coordenadas de St. Moritz.
 
    El precio depende de las fechas, del número de personas y del menú. Recibe un presupuesto por escrito antes de comprometerse a nada.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20viajamos%20a%20St.%20Moritz.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20St.%20Moritz%C2%BB.%20Viajamos%20a%20St.%20Moritz.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
 
 ## Cómo llegar *a St. Moritz*
 

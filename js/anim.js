@@ -19,7 +19,7 @@ D.addEventListener('touchstart',function(){},{passive:true});
 /* 13. bouton Plan your trip flottant a gauche du WhatsApp (Moshe 19/10) : texte et lien repris du menu, donc dans la langue de la page */
 (function(){
   var wa=D.querySelector('.wa-flottant');if(!wa||D.getElementById('formDemande')||D.getElementById('formCourt'))return;
-  var src=D.querySelector('.nav .liens a[href$="plan-your-trip/"],.nav .liens a[href$="contact-quick/"]');if(!src)return;
+  var src=D.querySelector('.mt-tete .mt-cta,.nav .liens a[href$="plan-your-trip/"],.nav .liens a[href$="contact-quick/"]');if(!src)return;
   var a=D.createElement('a');a.className='pyt-flottant';a.href=src.getAttribute('href');a.textContent=src.textContent.trim();
   wa.parentNode.insertBefore(a,wa);
 })();
@@ -278,7 +278,7 @@ D.addEventListener('touchstart',function(){},{passive:true});
 })();
 /* ===LUXE=== */
 (function(){var D=document;if(D.getElementById('formDemande')||D.getElementById('formCourt')||D.querySelector('.barre-basse'))return;
-var wa=D.querySelector('.wa-flottant'),src=D.querySelector('.nav .liens a.nav-cta')||D.querySelector('.panneau nav a.nav-cta');if(!wa||!src)return;
+var wa=D.querySelector('.wa-flottant'),src=D.querySelector('.mt-tete .mt-cta')||D.querySelector('.mt-panneau .mt-cta')||D.querySelector('.nav .liens a.nav-cta')||D.querySelector('.panneau nav a.nav-cta');if(!wa||!src)return;
 var b=D.createElement('div');b.className='barre-basse';
 var a1=D.createElement('a');a1.className='bb-wa';a1.href=wa.getAttribute('href');a1.rel='noopener';a1.innerHTML=(wa.querySelector('svg')||{outerHTML:''}).outerHTML+'<span>WhatsApp</span>';
 var a2=D.createElement('a');a2.className='bb-plan';a2.href=src.getAttribute('href');a2.textContent=src.textContent.trim();

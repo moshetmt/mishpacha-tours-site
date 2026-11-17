@@ -21,7 +21,7 @@ Price on request
 4 bedrooms · indoor pool and nordic bath
 
 [Request the catalogue](https://mishpachatours.com/plan-your-trip/?i=a&catalogue=les-houches)
-[WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Les%20Houches%2C%20Chamonix%20Valley.%20Dates%3A%20/%20Number%20of%20guests%3A)
+[WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalet%20Alth%C3%A9a%2C%20Les%20Houches%E2%80%9D.%20We%20would%20like%20the%20kosher%20chalet%20in%20Les%20Houches%2C%20Chamonix%20Valley.%20Dates%3A%20%2F%20Number%20of%20guests%3A)
 
 Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 

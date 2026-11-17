@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-verbier/ (HTML version). Every page
 
 Verbier está a unos 1.500 m en el Valais, en lo alto de los 4 Vallées, con el Mont Fort a 3.330 m.
 
-[Organizar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20vamos%20a%20Verbier.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%2C%20chal%C3%A9%20solo%29%3A)
+[Organizar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20Verbier%C2%BB.%20Vamos%20a%20Verbier.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%2C%20chal%C3%A9%20solo%29%3A)
 
 Esquíe en Verbier de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -66,7 +66,7 @@ La supervisión rara vez está por escrito, así que compruébelo antes de reser
 
    El precio depende de las fechas, del número de personas y del menú. Recibe un presupuesto por escrito antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20vamos%20a%20Verbier.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%2C%20chal%C3%A9%20solo%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20Verbier%C2%BB.%20Vamos%20a%20Verbier.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%2C%20chal%C3%A9%20solo%29%3A)[Pedir presupuesto](#book)
 
 ## Cómo llegar *a Verbier*
 

@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-ski-anywhere/ (HTML version). Every pa
 
 Austria, North America, or a resort we have not listed yet: the formula is the same.
 
-[Plan my stay on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20%5Bresort%5D%2C%20%5Bcountry%5D.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20Shabbat%2C%20holiday%2C%20minyan%2C%20transfers%29%3A)
+[Plan my stay on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Ski%20Anywhere%E2%80%9D.%20We%20are%20going%20to%20%5Bresort%5D%2C%20%5Bcountry%5D.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20Shabbat%2C%20holiday%2C%20minyan%2C%20transfers%29%3A)
 
 Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 
@@ -60,7 +60,7 @@ Before you fly further, look at what already exists in the French Alps. In [Cour
 
    The price depends on the destination, the dates, the number of people and the menu. You receive a written quote before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20%5Bresort%5D%2C%20%5Bcountry%5D.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20need%20%28chef%2C%20Shabbat%2C%20holiday%2C%20minyan%2C%20transfers%29%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Ski%20Anywhere%E2%80%9D.%20We%20are%20going%20to%20%5Bresort%5D%2C%20%5Bcountry%5D.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20Shabbat%2C%20holiday%2C%20minyan%2C%20transfers%29%3A)[Get a quote](#book)
 
 ## Kosher anywhere: *questions*
 

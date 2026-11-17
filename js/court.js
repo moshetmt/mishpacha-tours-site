@@ -57,7 +57,7 @@
           },
           ko = function () {
             if (fini) return; fini = true; sent = false; b.disabled = false; b.textContent = lab;
-            var t = T('msg-salut', 'Hello, I am') + ' ' + pre + '.' + (ou ? ' ' + ou + '.' : '');
+            var t = T('msg-salut', 'Hello, I am') + ' ' + pre + '.' + (ou ? ' ' + ou + '.' : '') + (document.body.getAttribute('data-wa-sujet') ? ' (' + ({ fr: 'page', es: 'página', he: 'עמוד' }[(document.documentElement.lang || '').slice(0, 2)] || 'page') + ': ' + document.body.getAttribute('data-wa-sujet') + ')' : ''); /* LOT1-1611 : page d'origine */
             dire(T('msg-ko', 'Your request did not go through.'), 'https://wa.me/33652092301?text=' + encodeURIComponent(t));
             dl.push({ event: 'form_error' });
           };

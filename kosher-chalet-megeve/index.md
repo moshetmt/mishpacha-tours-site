@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-chalet-megeve/ (HTML version). Every p
 
 A large chalet in the Mont Blanc valley, a few minutes from Megève, built for several families at once.
 
-[Plan my stay on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20/%20Number%20of%20families%3A)
+[Plan my stay on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalet%20Loup%20Blanc%2C%20near%20Meg%C3%A8ve%E2%80%9D.%20We%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20%2F%20Number%20of%20families%3A)
 
 Ten twin bedrooms, two attic rooms and an adjoining apartment with its own front door. A sauna and a jacuzzi facing Mont Blanc, a shuttle at the foot of the chalet every twenty minutes to the lifts. Our team koshers the kitchen, a chef cooks or kosher meals are delivered, and Shabbat comes with a minyan on request. One request, one written quote.
 
@@ -52,7 +52,7 @@ For Pesach, we prepare the chalet too: [Pesach in the Alps, private chalet and k
 
    A day-by-day programme and one written quote for the whole stay, before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20/%20Number%20of%20families%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalet%20Loup%20Blanc%2C%20near%20Meg%C3%A8ve%E2%80%9D.%20We%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20%2F%20Number%20of%20families%3A)[Get a quote](#book)
 
 ## Getting *there*
 

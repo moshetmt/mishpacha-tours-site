@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-davos/ (HTML version). Every page o
 
 Davos está a 1.560 m en los Grisones, la ciudad más alta de los Alpes, bajo el Parsenn y el Jakobshorn.
 
-[Organizar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20vamos%20a%20Davos.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
+[Organizar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20Davos%C2%BB.%20Vamos%20a%20Davos.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
 
 Esquíe en Davos de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -65,7 +65,7 @@ La supervisión rara vez está por escrito, así que compruébelo antes de reser
 
    El precio depende de las fechas, del número de personas y del menú. Recibe un presupuesto por escrito antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20vamos%20a%20Davos.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20Davos%C2%BB.%20Vamos%20a%20Davos.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
 
 ## Cómo llegar *a Davos*
 

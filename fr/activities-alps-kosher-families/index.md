@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/activities-alps-kosher-families/ (HTML ver
 
 # Activités dans les Alpes *pour les familles*
 
-[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Activities%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20les%20activit%C3%A9s%20pour%20ma%20famille%20pendant%20notre%20s%C3%A9jour%20casher%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Activities%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Activit%C3%A9s%20en%20famille%20dans%20%C2%BB.%20Je%20souhaite%20des%20informations%20sur%20les%20activit%C3%A9s%20pour%20ma%20famille%20pendant%20notre%20s%C3%A9jour%20casher%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 [Accueil](/fr/) / [Services casher dans les Alpes](/fr/kosher-services-french-alps/) / Activités dans les Alpes
 
@@ -49,7 +49,7 @@ L'été, les Alpes s'ouvrent sur les lacs et les sentiers. Annecy, Aix-les-Bains
 
    Chalet, repas, activités et transferts sont écrits sur un seul devis. Vous confirmez quand cela vous convient.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20les%20activit%C3%A9s%20pour%20ma%20famille%20pendant%20notre%20s%C3%A9jour%20casher%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Activit%C3%A9s%20en%20famille%20dans%20%C2%BB.%20Je%20souhaite%20des%20informations%20sur%20les%20activit%C3%A9s%20pour%20ma%20famille%20pendant%20notre%20s%C3%A9jour%20casher%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Vos *questions*
 

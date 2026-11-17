@@ -12,7 +12,7 @@ Lyon-Saint-Exupéry is the airport for the Tarentaise and the Grenoble side: Val
 - Val Thorens 2 h 30, Courchevel 2 h 10
 - Kosher shops in Lyon, not at the airport
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20land%20in%20Lyon%20on%20the%20way%20to%20the%20Alps.%20Landing%20time%3A%20/%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20would%20like%20%28Stopover%20tour%2C%20kosher%20meals%20in%20the%20resort%2C%20chef%2C%20Shabbat%29%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CFlights%20to%20Lyon%E2%80%9D.%20We%20land%20in%20Lyon%20on%20the%20way%20to%20the%20Alps.%20Landing%20time%3A%20%2F%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20would%20like%20%28Stopover%20tour%2C%20kosher%20meals%20in%20the%20resort%2C%20chef%2C%20Shabbat%29%3A)[Get a quote](#book)
 
 ## Direct flights *to Lyon*
 
@@ -56,7 +56,7 @@ Before you climb, Lyon and Villeurbanne have certified kosher groceries and butc
 
    Your transfer takes you to the resort; if you asked for it, meals or the chef are ready for your first evening.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20land%20in%20Lyon%20on%20the%20way%20to%20the%20Alps.%20Landing%20time%3A%20/%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20would%20like%20%28Stopover%20tour%2C%20kosher%20meals%20in%20the%20resort%2C%20chef%2C%20Shabbat%29%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CFlights%20to%20Lyon%E2%80%9D.%20We%20land%20in%20Lyon%20on%20the%20way%20to%20the%20Alps.%20Landing%20time%3A%20%2F%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20would%20like%20%28Stopover%20tour%2C%20kosher%20meals%20in%20the%20resort%2C%20chef%2C%20Shabbat%29%3A)[Get a quote](#book)
 
 ## Shabbat *in Lyon*
 
@@ -86,7 +86,7 @@ No. You book them yourself. We guide in Lyon, and our kosher team organises meal
 
 ## Landing in Lyon on the way to the Alps?
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20land%20in%20Lyon%20on%20the%20way%20to%20the%20Alps.%20Landing%20time%3A%20/%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A%20/%20We%20would%20like%20%28Stopover%20tour%2C%20kosher%20meals%20in%20the%20resort%2C%20chef%2C%20Shabbat%29%3A)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CFlights%20to%20Lyon%E2%80%9D.%20We%20land%20in%20Lyon%20on%20the%20way%20to%20the%20Alps.%20Landing%20time%3A%20%2F%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20would%20like%20%28Stopover%20tour%2C%20kosher%20meals%20in%20the%20resort%2C%20chef%2C%20Shabbat%29%3A)
 
 Same-day reply, never on Shabbat.
 
@@ -102,7 +102,7 @@ Same-day reply, never on Shabbat.
 
 [Plan your trip](https://mishpachatours.com/plan-your-trip/)
 
-[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CFlights%20to%20Lyon%E2%80%9D.%20We%20are%20going%20to%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

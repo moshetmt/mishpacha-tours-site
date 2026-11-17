@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-val-thorens/ (HTML version). Every 
 
 Val Thorens se trouve à 2 300 m, dans Les 3 Vallées, la plus haute station de ski d’Europe.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20Thorens)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20partons%20%C3%A0%20Val%20Thorens.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Val%20Thorens)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20%C3%A0%20Val%20Thorens%20%C2%BB.%20Nous%20partons%20%C3%A0%20Val%20Thorens.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 Skiez à Val Thorens le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -108,7 +108,7 @@ Horaires calculés aux coordonnées de Val Thorens.
 
    Le prix dépend des dates, du nombre de personnes et du menu. Vous recevez un devis écrit avant de vous engager.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20partons%20%C3%A0%20Val%20Thorens.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20%C3%A0%20Val%20Thorens%20%C2%BB.%20Nous%20partons%20%C3%A0%20Val%20Thorens.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Il%20nous%20faut%20%28chef%20priv%C3%A9%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
 
 ## Se rendre à *Val Thorens*
 

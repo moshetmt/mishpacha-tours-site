@@ -13,7 +13,7 @@ Mishpacha means family. We guide Jewish travellers through Lyon the way you woul
 - English, French, Spanish
 - Lyon, France
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20have%20a%20question%20about%20Mishpacha%20Tours.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CAbout%20Us%E2%80%9D.%20I%20have%20a%20question%20about%20Mishpacha%20Tours.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)[Get a quote](#book)
 
 ## Who guides *you*
 
@@ -52,7 +52,7 @@ Many of our guests ask about it before anything else, and they are right to. We 
 
    She waits at the agreed spot. Free cancellation up to 24 hours before the start time.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20have%20a%20question%20about%20Mishpacha%20Tours.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CAbout%20Us%E2%80%9D.%20I%20have%20a%20question%20about%20Mishpacha%20Tours.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)[Get a quote](#book)
 
 ## Questions we get
 
@@ -74,7 +74,7 @@ Tips are never expected and always welcome.
 
 ## Want to talk before you book?
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20have%20a%20question%20about%20Mishpacha%20Tours.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Preferred%20language%3A)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CAbout%20Us%E2%80%9D.%20I%20have%20a%20question%20about%20Mishpacha%20Tours.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
 
 Same-day reply, never on Shabbat.
 
@@ -88,7 +88,7 @@ Same-day reply, never on Shabbat.
 
 [Plan your trip](https://mishpachatours.com/plan-your-trip/)
 
-[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
+[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CAbout%20Us%E2%80%9D.%20I%20would%20like%20to%20book%20a%20private%20Jewish%20tour%20of%20Lyon.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Preferred%20language%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

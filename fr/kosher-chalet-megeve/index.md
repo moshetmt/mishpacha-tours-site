@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-chalet-megeve/ (HTML version). Ever
 
 Un grand chalet dans la vallée du Mont Blanc, à quelques minutes de Megève, pensé pour plusieurs familles à la fois.
 
-[Organiser mon séjour sur WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20/%20Number%20of%20families%3A)
+[Organiser mon séjour sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20Loup%20Blanc%2C%20pr%C3%A8s%20de%20Meg%C3%A8ve%20%C2%BB.%20Nous%20souhaitons%20ce%20chalet%20casher.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Dix chambres twin, deux chambres mansardées et un appartement attenant avec sa propre porte d'entrée. Un sauna et un jacuzzi face au Mont Blanc, une navette au pied du chalet toutes les vingt minutes vers les remontées. Notre équipe cachérise la cuisine, un chef cuisine ou des repas casher sont livrés, et Chabbat se passe avec un minyan sur demande. Une demande, un devis écrit.
 
@@ -52,7 +52,7 @@ Pour Pessah, nous préparons aussi le chalet : [Pessah dans les Alpes, chalet pr
 
    Un programme jour par jour et un devis écrit pour tout le séjour, avant tout engagement.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20/%20Number%20of%20families%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20Loup%20Blanc%2C%20pr%C3%A8s%20de%20Meg%C3%A8ve%20%C2%BB.%20Nous%20souhaitons%20ce%20chalet%20casher.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Pour *y aller*
 

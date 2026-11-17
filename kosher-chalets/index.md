@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-chalets/ (HTML version). Every page of
 
 Our chalets, everything kosher taken care of: Les Deux Alpes, Courchevel and near Megève.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20looking%20for%20a%20kosher%20chalet.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20or%20Val%20Thorens%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalets%20in%20the%20Alps%E2%80%9D.%20We%20are%20looking%20for%20a%20kosher%20chalet.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20or%20Val%20Thorens%3A)
 
 Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 
@@ -185,7 +185,7 @@ For Pesach, we prepare the chalet too: [Pesach in the Alps, private chalet and k
 
    A day-by-day programme and one written quote, before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20looking%20for%20a%20kosher%20chalet.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20or%20Val%20Thorens%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalets%20in%20the%20Alps%E2%80%9D.%20We%20are%20looking%20for%20a%20kosher%20chalet.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20or%20Val%20Thorens%3A)[Get a quote](#book)
 
 ## Kosher chalets: *questions*
 

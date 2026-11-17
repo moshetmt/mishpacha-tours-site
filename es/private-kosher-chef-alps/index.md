@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/private-kosher-chef-alps/ (HTML version). 
 
 # Un chef privado kosher *en su propio chalet*
 
-[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Private%20chef%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20quisiera%20un%20chef%20privado%20kosher%20en%20nuestro%20chalet%20de%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)
+[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Private%20chef%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChef%20privado%20kosher%20en%20su%20chalet%20de%20los%20Alpes%C2%BB.%20Quisiera%20un%20chef%20privado%20kosher%20en%20nuestro%20chalet%20de%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)
 
 [Inicio](/es/) / [Servicios kosher en los Alpes](/es/kosher-services-french-alps/) / Un chef privado kosher
 
@@ -49,7 +49,7 @@ El precio parte desde 1.568 € al día. A más de 3 horas por carretera de Gren
 
    Construimos el menú con usted antes de la estancia. La cocina se kasheriza antes de que el chef empiece a cocinar.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20quisiera%20un%20chef%20privado%20kosher%20en%20nuestro%20chalet%20de%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChef%20privado%20kosher%20en%20su%20chalet%20de%20los%20Alpes%C2%BB.%20Quisiera%20un%20chef%20privado%20kosher%20en%20nuestro%20chalet%20de%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Sus *preguntas*
 

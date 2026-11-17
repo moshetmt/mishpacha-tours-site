@@ -12,7 +12,7 @@ L’aéroport de Lyon-Saint-Exupéry se trouve à 2 h 10 de Courchevel et 2 h
 - Commerces casher avant la montagne
 - Escale à Lyon de 3 heures, 390 €
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20atterrissons%20%C3%A0%20Lyon%20en%20route%20vers%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d'arriv%C3%A9e%20%3A%20/%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20/%20Station%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Lyon%2C%20porte%20%C2%BB.%20Nous%20atterrissons%20%C3%A0%20Lyon%20en%20route%20vers%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d%27arriv%C3%A9e%20%3A%20%2F%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20%2F%20Station%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Pourquoi atterrir *à Lyon*
 
@@ -87,7 +87,7 @@ Apportez de Lyon ce dont vous avez besoin.
 
    Le chauffeur vous reprend au même endroit et prend l’A43 vers votre station. Comptez deux à trois heures.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20atterrissons%20%C3%A0%20Lyon%20en%20route%20vers%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d'arriv%C3%A9e%20%3A%20/%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20/%20Station%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Lyon%2C%20porte%20%C2%BB.%20Nous%20atterrissons%20%C3%A0%20Lyon%20en%20route%20vers%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d%27arriv%C3%A9e%20%3A%20%2F%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20%2F%20Station%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## L’Escale à Lyon : *le patrimoine juif de Lyon entre l’avion et les pistes*
 
@@ -141,7 +141,7 @@ Oui. Choisissez un hôtel à distance de marche d’une synagogue et commandez v
 
 ## Vous atterrissez à Lyon avant la montagne ?
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20atterrissons%20%C3%A0%20Lyon%20en%20route%20vers%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d'arriv%C3%A9e%20%3A%20/%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20/%20Station%20%3A%20/%20Nombre%20de%20personnes%20%3A)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Lyon%2C%20porte%20%C2%BB.%20Nous%20atterrissons%20%C3%A0%20Lyon%20en%20route%20vers%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d%27arriv%C3%A9e%20%3A%20%2F%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20%2F%20Station%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Réponse dans la journée, jamais le Shabbat.
 
@@ -158,7 +158,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 [Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/)
 
-[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20allons%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Besoins%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
+[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Lyon%2C%20porte%20%C2%BB.%20Nous%20allons%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Besoins%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

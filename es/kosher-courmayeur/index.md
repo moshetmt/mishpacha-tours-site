@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-courmayeur/ (HTML version). Every p
 
 Courmayeur se encuentra a unos 1.225 m en el valle de Aosta, donde sale el túnel del Mont Blanc.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Courmayeur)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20viajamos%20a%20Courmayeur.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Courmayeur)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20Courmayeur%C2%BB.%20Viajamos%20a%20Courmayeur.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
 
 Esquíe en Courmayeur de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -76,7 +76,7 @@ Horarios calculados para las coordenadas de Courmayeur.
 
    El precio depende de las fechas, del número de personas y del menú. Recibe un presupuesto por escrito antes de comprometerse a nada.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20viajamos%20a%20Courmayeur.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20Courmayeur%C2%BB.%20Viajamos%20a%20Courmayeur.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
 
 ## Cómo llegar *a Courmayeur*
 

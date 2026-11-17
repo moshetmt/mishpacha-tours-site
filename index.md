@@ -182,7 +182,7 @@ Lyon airport is about two hours from the resorts. Stop on the way: the only tour
 
 [Plan your trip](https://mishpachatours.com/plan-your-trip/)
 
-[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20a%20kosher%20holiday.%20Dates%3A%20%2F%20Adults%3A%20%2F%20Children%3A%20%2F%20Resort%3A)
+[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Holidays%20in%20the%20Alps%20and%20Lyon%E2%80%9D.%20We%20are%20planning%20a%20kosher%20holiday.%20Dates%3A%20%2F%20Adults%3A%20%2F%20Children%3A%20%2F%20Resort%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

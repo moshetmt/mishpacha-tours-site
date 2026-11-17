@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-ski-holidays-french-alps/ (HTML ver
 
 Une semaine de ski casher en France se prépare.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20partons%20skier%20dans%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Station%20%3A%20/%20Heure%20d'arriv%C3%A9e%20%3A%20/%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20/%20Nombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Ski%20casher%20dans%20%C2%BB.%20Nous%20partons%20skier%20dans%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Station%20%3A%20%2F%20Heure%20d%27arriv%C3%A9e%20%3A%20%2F%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -259,7 +259,7 @@ Des chefs privés annoncent une cuisine « glatt casher » à Megève, Chamonix 
 
    Votre chauffeur vous conduit à la station. Nous ne guidons jamais le Shabbat ni les jours de fête juive.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20partons%20skier%20dans%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Station%20%3A%20/%20Heure%20d'arriv%C3%A9e%20%3A%20/%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Ski%20casher%20dans%20%C2%BB.%20Nous%20partons%20skier%20dans%20les%20Alpes%20et%20souhaitons%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Station%20%3A%20%2F%20Heure%20d%27arriv%C3%A9e%20%3A%20%2F%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## La sécurité, *pensée dès le départ*
 

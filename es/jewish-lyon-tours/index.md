@@ -14,31 +14,31 @@ Una solicitud, y lo organizamos todo, de la mesa al traslado.
 
 Una guía judía dirige la visita en inglés, francés o español, con el interior de la Gran Sinagoga. De domingo a viernes a mediodía.
 
-[Ver el detalle](https://mishpachatours.com/es/tours/jewish-lyon/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20reservar%20la%20visita%20guiada%20del%20Lyon%20jud%C3%ADo.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/tours/jewish-lyon/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20reservar%20la%20visita%20guiada%20del%20Lyon%20jud%C3%ADo.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 ### Mesa de Shabat y comidas kosher a domicilio en Lyon
 
 Comidas de Shabat, comidas entregadas en el hotel, un minyan cerca.
 
-[Ver el detalle](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20una%20mesa%20de%20Shabat%20y%20comidas%20kosher%20a%20domicilio%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20una%20mesa%20de%20Shabat%20y%20comidas%20kosher%20a%20domicilio%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 ### Chef privado kosher en Lyon y los Alpes
 
 Un chef en su apartamento o su chalet, en una cocina preparada como kosher.
 
-[Ver el detalle](https://mishpachatours.com/es/kosher-services-french-alps/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20un%20chef%20privado%20kosher%20en%20Lyon%20o%20en%20los%20Alpes.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/kosher-services-french-alps/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20un%20chef%20privado%20kosher%20en%20Lyon%20o%20en%20los%20Alpes.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 ### Furgoneta y traslados privados
 
 Aeropuerto de Lyon, Ginebra, estaciones de los Alpes. Nunca durante Shabat.
 
-[Ver el detalle](https://mishpachatours.com/es/kosher-van-transfers/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20una%20furgoneta%20y%20traslados%20privados%20para%20mi%20estancia%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/kosher-van-transfers/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20una%20furgoneta%20y%20traslados%20privados%20para%20mi%20estancia%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 ### Escolta privada discreta, a petición
 
 Una presencia discreta junto a su grupo, solo si usted la pide.
 
-[Ver el detalle](https://mishpachatours.com/es/is-lyon-safe-for-jewish-visitors/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20una%20escolta%20privada%20discreta%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/is-lyon-safe-for-jewish-visitors/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20una%20escolta%20privada%20discreta%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 - **La única visita al interior**de la Gran Sinagoga de Lyon
 - **Guide-conférencier**habilitación del Estado francés
@@ -61,7 +61,7 @@ Rue Juiverie, luego el interior de la Gran Sinagoga, cerrada a los visitantes fu
 
 **Privada** 290 € *|* **Grupo** de 1 a 4 personas
 
-[Consultar por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
+[Consultar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 [Ver el detalle](https://mishpachatours.com/es/tours/jewish-lyon/)
 
 Memoria
@@ -74,7 +74,7 @@ El museo de la Resistencia y la deportación, en la antigua sede de la Gestapo
 
 **Privada** 290 € *|* **Grupo** de 1 a 4 personas
 
-[Consultar por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Memoria%2C%20reserva%20del%20CHRD.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
+[Consultar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Memoria%2C%20reserva%20del%20CHRD.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 [Ver el detalle](https://mishpachatours.com/es/tours/memory-chrd/)
 
 Memoria
@@ -87,7 +87,7 @@ El memorial de la prisión y, justo al lado, la segunda sinagoga en la que entra
 
 **Privada** 290 € *|* **Grupo** de 1 a 4 personas
 
-[Consultar por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Memoria%2C%20reserva%20de%20Montluc%20y%20Neveh%20Shalom.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
+[Consultar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Memoria%2C%20reserva%20de%20Montluc%20y%20Neveh%20Shalom.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 [Ver el detalle](https://mishpachatours.com/es/tours/memory-montluc-neveh-shalom/)
 
 Recorrido urbano
@@ -100,7 +100,7 @@ Entre su vuelo y los Alpes, con el equipaje en el vehículo y la Gran Sinagoga i
 
 **Privada** 390 € *|* **Grupo** de 1 a 5 personas
 
-[Consultar por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Escala.%20Hora%20de%20llegada%3A%20%2F%20Hora%20de%20salida%20posterior%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
+[Consultar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Escala.%20Hora%20de%20llegada%3A%20%2F%20Hora%20de%20salida%20posterior%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 [Ver el detalle](https://mishpachatours.com/es/tours/stopover/)
 
 Excursión de un día
@@ -113,7 +113,7 @@ La Maison d'Izieu, memorial de los niños, con un mediador de Izieu
 
 **Desde** 990 € *|* presupuesto bajo petición
 
-[Solicitar presupuesto](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20un%20presupuesto%20para%20la%20excursi%C3%B3n%20de%20un%20d%C3%ADa%20a%20Izieu.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
+[Solicitar presupuesto](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20un%20presupuesto%20para%20la%20excursi%C3%B3n%20de%20un%20d%C3%ADa%20a%20Izieu.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 [Ver el detalle](https://mishpachatours.com/es/tours/izieu/)
 
 [### Recorridos urbanos
@@ -282,7 +282,7 @@ La guía para todo su grupo. Las entradas a museos y memoriales, y el vehículo 
 
 [Planificar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=d)
 
-[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20reservar%20una%20visita%20jud%C3%ADa%20privada%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
+[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVisitas%20jud%C3%ADas%20de%20Lyon%2C%20privadas%20y%20kosher%C2%BB.%20Quisiera%20reservar%20una%20visita%20jud%C3%ADa%20privada%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

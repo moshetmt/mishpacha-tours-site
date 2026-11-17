@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-van-transfers/ (HTML version). Ever
 
 Un solo mensaje, un solo conductor.
 
-[Pedir una furgoneta](https://mishpachatours.com/es/plan-your-trip/?i=c)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Traslado%20en%20van%3A%20de%20%E2%80%A6%20a%20%E2%80%A6%2C%20fecha%3A%20%E2%80%A6%2C%20n%C3%BAmero%20de%20personas%3A%20%E2%80%A6%2C%20equipaje%3A%20%E2%80%A6)
+[Pedir una furgoneta](https://mishpachatours.com/es/plan-your-trip/?i=c)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABTraslados%20en%20van%20privado%C2%BB.%20Traslado%20en%20van%3A%20de%20%E2%80%A6%20a%20%E2%80%A6%2C%20fecha%3A%20%E2%80%A6%2C%20n%C3%BAmero%20de%20personas%3A%20%E2%80%A6%2C%20equipaje%3A%20%E2%80%A6)
 
 Díganos desde dónde sale, adónde va, la fecha, cuántos viajan y cuánto equipaje llevan. Encontramos un conductor autorizado en nuestra red y organizamos un van privado para su familia o su grupo, con espacio para maletas, cochecitos y esquís. Aeropuerto, estación, hotel, estación de esquí o ciudad: a cualquier punto de Francia, y también del extranjero.
 
@@ -45,7 +45,7 @@ El trayecto lo realiza y lo factura un conductor autorizado de nuestra red; noso
 
    Su conductor está en el lugar acordado a la hora acordada. Cada trayecto se planifica en torno a Shabat y las fiestas.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Traslado%20en%20van%3A%20de%20%E2%80%A6%20a%20%E2%80%A6%2C%20fecha%3A%20%E2%80%A6%2C%20n%C3%BAmero%20de%20personas%3A%20%E2%80%A6%2C%20equipaje%3A%20%E2%80%A6)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABTraslados%20en%20van%20privado%C2%BB.%20Traslado%20en%20van%3A%20de%20%E2%80%A6%20a%20%E2%80%A6%2C%20fecha%3A%20%E2%80%A6%2C%20n%C3%BAmero%20de%20personas%3A%20%E2%80%A6%2C%20equipaje%3A%20%E2%80%A6)[Pedir presupuesto](#book)
 
 ## De A *a B*
 

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/minyan-sefer-torah-alps/ (HTML version). E
 
 # Un minyan et un Sefer Torah *dans votre station*
 
-[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Minyan%20and%20Sefer%20Torah)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20un%20minyan%20et%20un%20Sefer%20Torah%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Minyan%20and%20Sefer%20Torah)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Minyan%20et%20Sefer%20Torah%20dans%20les%20Alpes%2C%20stations%20casher%20%C2%BB.%20Je%20souhaite%20un%20minyan%20et%20un%20Sefer%20Torah%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 [Accueil](/fr/) / [Services casher dans les Alpes](/fr/kosher-services-french-alps/) / Un minyan et un Sefer Torah
 
@@ -48,7 +48,7 @@ Donnez-nous donc vos dates tôt. Les prières de Chabbat et de semaine se font a
 
    Nous vous disons ce qui est possible, selon les familles présentes.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20un%20minyan%20et%20un%20Sefer%20Torah%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Minyan%20et%20Sefer%20Torah%20dans%20les%20Alpes%2C%20stations%20casher%20%C2%BB.%20Je%20souhaite%20un%20minyan%20et%20un%20Sefer%20Torah%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Vos *questions*
 

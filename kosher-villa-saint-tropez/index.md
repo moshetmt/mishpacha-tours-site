@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-villa-saint-tropez/ (HTML version). Ev
 
 Villa Beach sits with its feet in the water, in the gulf of Saint-Tropez.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Saint-Tropez&voyage=Summer%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20villa%20in%20Saint-Tropez.%20Dates%3A%20/%20Number%20of%20people%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Saint-Tropez&voyage=Summer%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Villa%20in%20Saint-Tropez%2C%20Private%20Beach%E2%80%9D.%20We%20would%20like%20the%20kosher%20villa%20in%20Saint-Tropez.%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 It is the only villa for rent in Saint-Tropez with a private sand beach and its own boat garage with a launching ramp. Five bedrooms and five bathrooms for 12 guests, a heated pool and a jacuzzi in the garden, a hammam and a sauna over the sea. Our team koshers the kitchen, a private chef cooks every meal, and Shabbat is kept in the villa with a minyan if you wish.
 
@@ -54,7 +54,7 @@ Strictly kosher, everything served is Chalav Yisrael. The supervision details co
 
    A day-by-day programme and one written quote for the whole stay, before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20villa%20in%20Saint-Tropez.%20Dates%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Villa%20in%20Saint-Tropez%2C%20Private%20Beach%E2%80%9D.%20We%20would%20like%20the%20kosher%20villa%20in%20Saint-Tropez.%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Getting *there*
 

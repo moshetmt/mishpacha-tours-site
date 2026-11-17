@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-services-french-alps/ (HTML version). 
 
 A kosher week in the mountains does not have to mean a suitcase of food from Lyon and a Shabbat alone.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20kosher%20services%20in%20the%20Alps.%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Services%20%28chalet%20with%20chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CPrivate%20Kosher%20Chef%E2%80%9D.%20We%20would%20like%20kosher%20services%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Services%20%28chalet%20with%20chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
 
 Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 
@@ -85,7 +85,7 @@ Children up to 5: about 30% less. Delivery is charged per trip; when several gro
 
    Most families fly into Lyon. Our 3 hour [Stopover](https://mishpachatours.com/tours/stopover/) with the Grande Synagogue fits between the flight and the drive up.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20kosher%20services%20in%20the%20Alps.%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Services%20%28chalet%20with%20chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CPrivate%20Kosher%20Chef%E2%80%9D.%20We%20would%20like%20kosher%20services%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Services%20%28chalet%20with%20chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
 
 ## Which resort, *which side*
 

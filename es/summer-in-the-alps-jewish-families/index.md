@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/summer-in-the-alps-jewish-families/ (HTML 
 
 El verano en los Alpes son lagos, caminatas y tardes largas.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&voyage=Summer%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20viajamos%20a%20los%20Alpes%20este%20verano%20pasando%20por%20Lyon%20y%20quisi%C3%A9ramos%20una%20visita.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&voyage=Summer%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVerano%20kosher%20en%20los%20Alpes%20para%20familias%20jud%C3%ADas%C2%BB.%20Viajamos%20a%20los%20Alpes%20este%20verano%20pasando%20por%20Lyon%20y%20quisi%C3%A9ramos%20una%20visita.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%3A)
 
 Para una familia observante significa también averiguar dónde está el minyan, quién le da de comer en Shabat y qué está abierto. Tres ciudades cercanas a Lyon tienen una comunidad judía: Aix-les-Bains, Annecy y Grenoble. En las estaciones de altura, los servicios de Chabad que encontramos son solo de invierno. En la estación, nuestro equipo kosher organiza comidas, Shabat y minián para sus fechas: [una solicitud, un presupuesto](https://mishpachatours.com/es/kosher-services-french-alps/). No vendemos paquetes ni estancias.
 
@@ -116,7 +116,7 @@ Cada estación tiene sus propios horarios: se calculan para sus coordenadas, una
 
    Lyon sirve de base para excursiones de un día en tren a Grenoble, Aix-les-Bains y Chambéry. Pase el Shabat en Lyon: vea [Shabat en Lyon](https://mishpachatours.com/es/shabbat-in-lyon/).
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20viajamos%20a%20los%20Alpes%20este%20verano%20pasando%20por%20Lyon%20y%20quisi%C3%A9ramos%20una%20visita.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVerano%20kosher%20en%20los%20Alpes%20para%20familias%20jud%C3%ADas%C2%BB.%20Viajamos%20a%20los%20Alpes%20este%20verano%20pasando%20por%20Lyon%20y%20quisi%C3%A9ramos%20una%20visita.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%3A)[Pedir presupuesto](#book)
 
 ## Las ciudades *en el mapa*
 

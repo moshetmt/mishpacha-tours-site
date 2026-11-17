@@ -233,7 +233,7 @@ L'aéroport de Lyon est à environ deux heures des stations. Faites une halte en
 
 [Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/)
 
-[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20organisons%20des%20vacances%20casher.%20Dates%20%3A%20%2F%20Adultes%20%3A%20%2F%20Enfants%20%3A%20%2F%20Station%20%3A)
+[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Vacances%20strictement%20casher%20dans%20les%20Alpes%20et%20%C3%A0%20Lyon%20%C2%BB.%20Nous%20organisons%20des%20vacances%20casher.%20Dates%20%3A%20%2F%20Adultes%20%3A%20%2F%20Enfants%20%3A%20%2F%20Station%20%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

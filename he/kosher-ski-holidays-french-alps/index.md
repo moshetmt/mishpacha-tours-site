@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 שבוע סקי כשר בצרפת דורש תכנון.
 
-[לתכנן את הטיול](https://mishpachatours.com/he/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[או כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%A0%D7%A8%D7%A6%D7%94%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%D7%9B%D7%A9%D7%A8%D7%99%D7%9D%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D.%20%D7%90%D7%AA%D7%A8%3A%20%2F%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99%D7%9D%3A%20%2F%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%28%D7%A6%27%D7%90%D7%9C%D7%98%20%D7%A2%D7%9D%20%D7%A9%D7%A3%2C%20%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA%20%D7%91%D7%9E%D7%A9%D7%9C%D7%95%D7%97%2C%20%D7%A9%D7%91%D7%AA%2C%20%D7%97%D7%92%2C%20%D7%9E%D7%A0%D7%99%D7%99%D7%9F%29%3A)
+[לתכנן את הטיול](https://mishpachatours.com/he/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[או כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%20Mishpacha%20Tours%2C%20%D7%A7%D7%A8%D7%90%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%A2%D7%9E%D7%95%D7%93%20%22%D7%A1%D7%A7%D7%99%20%D7%9B%D7%A9%D7%A8%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D%22.%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%A0%D7%95%D7%97%D7%AA%D7%99%D7%9D%20%D7%91%D7%9C%D7%99%D7%95%D7%9F%20%D7%91%D7%93%D7%A8%D7%9A%20%D7%9C%D7%90%D7%9C%D7%A4%D7%99%D7%9D%20%D7%95%D7%A8%D7%95%D7%A6%D7%99%D7%9D%20%D7%90%D7%AA%20%D7%A1%D7%99%D7%95%D7%A8%20%D7%A2%D7%A6%D7%99%D7%A8%D7%AA%20%D7%94%D7%91%D7%99%D7%A0%D7%99%D7%99%D7%9D.%20%D7%A9%D7%A2%D7%AA%20%D7%94%D7%92%D7%A2%D7%94%3A%20%2F%20%D7%A9%D7%A2%D7%AA%20%D7%94%D7%9E%D7%A9%D7%9A%20%D7%94%D7%A0%D7%A1%D7%99%D7%A2%D7%94%3A%20%2F%20%D7%90%D7%AA%D7%A8%20%D7%A1%D7%A7%D7%99%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99%D7%9D%3A)
 
 ביום עושים סקי. בערב חוזרים לשולחן ערוך, למניין ולשבת מוכנה.
 
@@ -179,7 +179,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
 הוא מציין שהרישומים שלו אינם מאומתים אלא אם סומנו כך. שאלו כל מפעיל מי משגיח על המטבח לפני שאתם משלמים.
 
-- **ואל טורנס ואורל (Trois Vallées):** דירות Snow Riders, 3 עד 10 בדצמבר 2026; Snow Riders Orelle, 17 עד 22 בינואר 2027; Stoliski Orelle, חורף 2026/27. אורל היא העמק שמתחת לואל טורנס.
+- **ואל טורנס ואורל (Trois Vallées):** דירות Snow Riders, 3 עד 10 בדצמבר 2026; Snow Riders Orelle, 17 עד 22 בינואר 2027; Stoliski Orelle, חורף 2026/27. אורל היא העמק שמתחת לוואל טורנס.
 - **לה זארק 2000:** Chalet Albarelle, 17 עד 21 ו-21 עד 28 בינואר 2027.
 - **טין:** Snow Riders Tignes Village Montana, 3 עד 10 בדצמבר 2026.
 - **מורזין (Portes du Soleil):** Chalet Morzine, 10 עד 17 ו-17 עד 22 בינואר 2027.
@@ -259,7 +259,7 @@ Source: https://mishpachatours.com/he/kosher-ski-holidays-french-alps/ (HTML ver
 
    הנהג שלכם לוקח אתכם לאתר. איננו מדריכים לעולם בשבת או בחגים היהודיים.
 
-[כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%A0%D7%A8%D7%A6%D7%94%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%D7%9B%D7%A9%D7%A8%D7%99%D7%9D%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D.%20%D7%90%D7%AA%D7%A8%3A%20%2F%20%D7%AA%D7%90%D7%A8%D7%99%D7%9B%D7%99%D7%9D%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99%D7%9D%3A%20%2F%20%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D%20%28%D7%A6%27%D7%90%D7%9C%D7%98%20%D7%A2%D7%9D%20%D7%A9%D7%A3%2C%20%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA%20%D7%91%D7%9E%D7%A9%D7%9C%D7%95%D7%97%2C%20%D7%A9%D7%91%D7%AA%2C%20%D7%97%D7%92%2C%20%D7%9E%D7%A0%D7%99%D7%99%D7%9F%29%3A)[בקשו הצעת מחיר](#book)
+[כתבו לנו בוואטסאפ](https://wa.me/33652092301?text=%D7%A9%D7%9C%D7%95%D7%9D%20Mishpacha%20Tours%2C%20%D7%A7%D7%A8%D7%90%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%A2%D7%9E%D7%95%D7%93%20%22%D7%A1%D7%A7%D7%99%20%D7%9B%D7%A9%D7%A8%20%D7%91%D7%90%D7%9C%D7%A4%D7%99%D7%9D%22.%20%D7%90%D7%A0%D7%97%D7%A0%D7%95%20%D7%A0%D7%95%D7%97%D7%AA%D7%99%D7%9D%20%D7%91%D7%9C%D7%99%D7%95%D7%9F%20%D7%91%D7%93%D7%A8%D7%9A%20%D7%9C%D7%90%D7%9C%D7%A4%D7%99%D7%9D%20%D7%95%D7%A8%D7%95%D7%A6%D7%99%D7%9D%20%D7%90%D7%AA%20%D7%A1%D7%99%D7%95%D7%A8%20%D7%A2%D7%A6%D7%99%D7%A8%D7%AA%20%D7%94%D7%91%D7%99%D7%A0%D7%99%D7%99%D7%9D.%20%D7%A9%D7%A2%D7%AA%20%D7%94%D7%92%D7%A2%D7%94%3A%20%2F%20%D7%A9%D7%A2%D7%AA%20%D7%94%D7%9E%D7%A9%D7%9A%20%D7%94%D7%A0%D7%A1%D7%99%D7%A2%D7%94%3A%20%2F%20%D7%90%D7%AA%D7%A8%20%D7%A1%D7%A7%D7%99%3A%20%2F%20%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%9E%D7%A9%D7%AA%D7%AA%D7%A4%D7%99%D7%9D%3A)[בקשו הצעת מחיר](#book)
 
 ## בטיחות, *ללא בהלה*
 

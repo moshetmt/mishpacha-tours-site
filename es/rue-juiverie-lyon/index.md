@@ -6,6 +6,8 @@ Source: https://mishpachatours.com/es/rue-juiverie-lyon/ (HTML version). Every p
 
 # Rue Juiverie, Lyon *la calle que conservó el nombre*
 
+[Visita privada desde 290 € · 1 a 4 personas](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo%20%28rue%20Juiverie%2C%20Gran%20Sinagoga%2C%20rue%20Sainte-Catherine%29.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
+
 La rue Juiverie atraviesa el Vieux Lyon, en el 5.º distrito. Debe su nombre a la comunidad judía que vivió en el Lyon medieval. La comunidad desapareció hace mucho. El nombre permaneció, y también las casas renacentistas construidas después de su marcha. La recorremos con usted y seguimos hasta la rue Sainte-Catherine, donde empieza la historia de la guerra.
 
 - Lyon 5e, Vieux Lyon
@@ -13,7 +15,7 @@ La rue Juiverie atraviesa el Vieux Lyon, en el 5.º distrito. Debe su nombre a l
 - Metro Vieux-Lyon (línea D)
 - Revisado el 7 de octubre de 2026
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo%20%28rue%20Juiverie%2C%20Gran%20Sinagoga%2C%20rue%20Sainte-Catherine%29.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%20preferido%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo%20%28rue%20Juiverie%2C%20Gran%20Sinagoga%2C%20rue%20Sainte-Catherine%29.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)[Pedir presupuesto](#book)
 
 ## Los judíos de Lyon *en la Edad Media*
 
@@ -69,7 +71,7 @@ Nos quedamos allí el tiempo que su grupo necesite.
 
    Tome el metro hasta Hôtel de Ville o Croix-Paquet y camine hasta el número 12. El pasaje es una traboule: respete a los vecinos y hable en voz baja.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo%20%28rue%20Juiverie%2C%20Gran%20Sinagoga%2C%20rue%20Sainte-Catherine%29.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%20preferido%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo%20%28rue%20Juiverie%2C%20Gran%20Sinagoga%2C%20rue%20Sainte-Catherine%29.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)[Pedir presupuesto](#book)
 
 ## Por qué recorrerla *con una guía judía*
 
@@ -105,7 +107,7 @@ Por su cuenta, 20 minutos para la calle y 20 minutos para la rue Sainte-Catherin
 
 ## ¿Recorrer la calle *con nosotros?*?
 
-[Consultar por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo%20%28rue%20Juiverie%2C%20Gran%20Sinagoga%2C%20rue%20Sainte-Catherine%29.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%20preferido%3A)
+[Consultar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20visita%20Lyon%20jud%C3%ADo%20%28rue%20Juiverie%2C%20Gran%20Sinagoga%2C%20rue%20Sainte-Catherine%29.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 
 Respuesta el mismo día, nunca en Shabat.
 
@@ -121,7 +123,7 @@ Respuesta el mismo día, nunca en Shabat.
 
 [Planificar mi viaje](https://mishpachatours.com/es/plan-your-trip/)
 
-[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20reservar%20una%20visita%20jud%C3%ADa%20privada%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
+[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20reservar%20una%20visita%20jud%C3%ADa%20privada%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 
 ## Lyon, reservado en *un mensaje*
 
@@ -131,31 +133,31 @@ Una solicitud, y lo organizamos todo, de la mesa al traslado.
 
 Una guía judía dirige la visita en inglés, francés o español, con el interior de la Gran Sinagoga. De domingo a viernes a mediodía.
 
-[Ver el detalle](https://mishpachatours.com/es/tours/jewish-lyon/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20reservar%20la%20visita%20guiada%20del%20Lyon%20jud%C3%ADo.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/tours/jewish-lyon/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20reservar%20la%20visita%20guiada%20del%20Lyon%20jud%C3%ADo.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 ### Mesa de Shabat y comidas kosher a domicilio en Lyon
 
 Comidas de Shabat, comidas entregadas en el hotel, un minyan cerca.
 
-[Ver el detalle](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20una%20mesa%20de%20Shabat%20y%20comidas%20kosher%20a%20domicilio%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/kosher-shabbat-meals-catering-lyon/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20una%20mesa%20de%20Shabat%20y%20comidas%20kosher%20a%20domicilio%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 ### Chef privado kosher en Lyon y los Alpes
 
 Un chef en su apartamento o su chalet, en una cocina preparada como kosher.
 
-[Ver el detalle](https://mishpachatours.com/es/kosher-services-french-alps/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20un%20chef%20privado%20kosher%20en%20Lyon%20o%20en%20los%20Alpes.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/kosher-services-french-alps/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20un%20chef%20privado%20kosher%20en%20Lyon%20o%20en%20los%20Alpes.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 ### Furgoneta y traslados privados
 
 Aeropuerto de Lyon, Ginebra, estaciones de los Alpes. Nunca durante Shabat.
 
-[Ver el detalle](https://mishpachatours.com/es/kosher-van-transfers/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20una%20furgoneta%20y%20traslados%20privados%20para%20mi%20estancia%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/kosher-van-transfers/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20una%20furgoneta%20y%20traslados%20privados%20para%20mi%20estancia%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 ### Escolta privada discreta, a petición
 
 Una presencia discreta junto a su grupo, solo si usted la pide.
 
-[Ver el detalle](https://mishpachatours.com/es/is-lyon-safe-for-jewish-visitors/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20una%20escolta%20privada%20discreta%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Ver el detalle](https://mishpachatours.com/es/is-lyon-safe-for-jewish-visitors/)[Reservar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABRue%20Juiverie%2C%20Lyon%C2%BB.%20Quisiera%20una%20escolta%20privada%20discreta%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

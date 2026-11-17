@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/shabbat-holiday-meals-alps/ (HTML version). E
 
 # Shabbat and holiday meals *in the Alps, at your table*
 
-[Plan my trip](/plan-your-trip/?i=a&voyage=Shabbat%20and%20holiday%20meals)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20Shabbat%20meals%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[Plan my trip](/plan-your-trip/?i=a&voyage=Shabbat%20and%20holiday%20meals)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CShabbat%20and%20holiday%20meals%20in%20the%20Alps%2C%20strictly%20kosher%E2%80%9D.%20I%20would%20like%20Shabbat%20meals%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 [Home](/) / [Kosher services in the Alps](/kosher-services-french-alps/) / Shabbat and holiday meals
 
@@ -49,7 +49,7 @@ The meals are served at your chalet, or delivered to your apartment, chalet or h
 
    Challot and wine arrive on Friday. The table is set, you only have to sit down.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20Shabbat%20meals%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CShabbat%20and%20holiday%20meals%20in%20the%20Alps%2C%20strictly%20kosher%E2%80%9D.%20I%20would%20like%20Shabbat%20meals%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Your *questions*
 

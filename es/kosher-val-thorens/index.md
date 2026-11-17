@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-val-thorens/ (HTML version). Every 
 
 Val Thorens se encuentra a 2.300 m en Les 3 Vallées, la estación de esquí más alta de Europa.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Val%20Thorens)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20vamos%20a%20Val%20Thorens.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Val%20Thorens)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20en%20Val%20Thorens%C2%BB.%20Vamos%20a%20Val%20Thorens.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
 
 Esquíe en Val Thorens de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -108,7 +108,7 @@ Horarios calculados para las coordenadas de Val Thorens.
 
    El precio depende de las fechas, el número de personas y el menú. Recibe un presupuesto por escrito antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20vamos%20a%20Val%20Thorens.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20en%20Val%20Thorens%C2%BB.%20Vamos%20a%20Val%20Thorens.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
 
 ## Cómo llegar *a Val Thorens*
 

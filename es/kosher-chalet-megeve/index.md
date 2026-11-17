@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-chalet-megeve/ (HTML version). Ever
 
 Un gran chalet en el valle del Mont Blanc, a pocos minutos de Megève, pensado para varias familias a la vez.
 
-[Preparar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20/%20Number%20of%20families%3A)
+[Preparar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20Loup%20Blanc%2C%20cerca%20de%20Meg%C3%A8ve%C2%BB.%20Quisi%C3%A9ramos%20este%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 Diez habitaciones twin, dos buhardillas y un apartamento anexo con su propia puerta de entrada. Una sauna y un jacuzzi frente al Mont Blanc, y una lanzadera al pie del chalet cada veinte minutos hacia los remontes. Nuestro equipo kosheriza la cocina, un chef cocina o se entregan comidas kosher, y Shabat incluye un minyán bajo petición. Una solicitud, un presupuesto por escrito.
 
@@ -52,7 +52,7 @@ Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado
 
    Un programa día a día y un presupuesto por escrito para toda la estancia, antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20near%20Meg%C3%A8ve.%20Dates%3A%20/%20Number%20of%20families%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20Loup%20Blanc%2C%20cerca%20de%20Meg%C3%A8ve%C2%BB.%20Quisi%C3%A9ramos%20este%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Cómo *llegar*
 

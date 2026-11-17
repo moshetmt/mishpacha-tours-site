@@ -12,7 +12,7 @@ Lyon-Saint-Exupéry airport is 2 h 10 from Courchevel and 2 h 30 from Val Thoren
 - Kosher shops before the mountain
 - 3 hour Stopover, 390 €
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20land%20in%20Lyon%20on%20our%20way%20to%20the%20Alps%20and%20would%20like%20the%20Stopover%20tour.%20Arrival%20time%3A%20/%20Onward%20departure%20time%3A%20/%20Resort%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CLyon%2C%20gateway%20to%20the%20Alps%E2%80%9D.%20We%20land%20in%20Lyon%20on%20our%20way%20to%20the%20Alps%20and%20would%20like%20the%20Stopover%20tour.%20Arrival%20time%3A%20%2F%20Onward%20departure%20time%3A%20%2F%20Resort%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Why land *in Lyon*
 
@@ -87,7 +87,7 @@ Bring what you need from Lyon.
 
    The driver picks you up at the same spot and takes the A43 toward your resort. Count two to three hours.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20land%20in%20Lyon%20on%20our%20way%20to%20the%20Alps%20and%20would%20like%20the%20Stopover%20tour.%20Arrival%20time%3A%20/%20Onward%20departure%20time%3A%20/%20Resort%3A%20/%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CLyon%2C%20gateway%20to%20the%20Alps%E2%80%9D.%20We%20land%20in%20Lyon%20on%20our%20way%20to%20the%20Alps%20and%20would%20like%20the%20Stopover%20tour.%20Arrival%20time%3A%20%2F%20Onward%20departure%20time%3A%20%2F%20Resort%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## The Stopover: *Jewish Lyon between the plane and the slopes*
 
@@ -141,7 +141,7 @@ Yes. Choose a hotel within walking distance of a synagogue and order your meals 
 
 ## Landing in Lyon before the mountain?
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20land%20in%20Lyon%20on%20our%20way%20to%20the%20Alps%20and%20would%20like%20the%20Stopover%20tour.%20Arrival%20time%3A%20/%20Onward%20departure%20time%3A%20/%20Resort%3A%20/%20Number%20of%20people%3A)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CLyon%2C%20gateway%20to%20the%20Alps%E2%80%9D.%20We%20land%20in%20Lyon%20on%20our%20way%20to%20the%20Alps%20and%20would%20like%20the%20Stopover%20tour.%20Arrival%20time%3A%20%2F%20Onward%20departure%20time%3A%20%2F%20Resort%3A%20%2F%20Number%20of%20people%3A)
 
 Same-day reply, never on Shabbat.
 
@@ -158,7 +158,7 @@ Same-day reply, never on Shabbat.
 
 [Plan your trip](https://mishpachatours.com/plan-your-trip/)
 
-[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CLyon%2C%20gateway%20to%20the%20Alps%E2%80%9D.%20We%20are%20going%20to%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

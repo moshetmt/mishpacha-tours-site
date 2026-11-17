@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/private-kosher-chalet-alps/ (HTML version)
 
 # Un chalet privado kosher *en los Alpes franceses*
 
-[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Private%20kosher%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20quisiera%20reservar%20un%20chalet%20privado%20kosher%20en%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)
+[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Private%20kosher%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20privado%20kosher%20en%20los%20Alpes%20con%20chef%20y%20comidas%C2%BB.%20Quisiera%20reservar%20un%20chalet%20privado%20kosher%20en%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)
 
 [Inicio](/es/) / [Servicios kosher en los Alpes](/es/kosher-services-french-alps/) / Un chalet privado kosher
 
@@ -49,7 +49,7 @@ Cada chalet tiene su precio semanal y sus equipamientos, desde piscinas climatiz
 
    La cocina se kasheriza antes de su llegada y el chef se ocupa de las comidas de la semana y de Shabat.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20quisiera%20reservar%20un%20chalet%20privado%20kosher%20en%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20privado%20kosher%20en%20los%20Alpes%20con%20chef%20y%20comidas%C2%BB.%20Quisiera%20reservar%20un%20chalet%20privado%20kosher%20en%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Sus *preguntas*
 

@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/private-kosher-chef-alps/ (HTML version). 
 
 # Un chef privé casher *dans votre chalet*
 
-[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Private%20chef%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20souhaite%20un%20chef%20priv%C3%A9%20casher%20dans%20notre%20chalet%20des%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Private%20chef%20in%20the%20Alps)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chef%20priv%C3%A9%20casher%20en%20chalet%2C%20Alpes%20%C2%BB.%20Je%20souhaite%20un%20chef%20priv%C3%A9%20casher%20dans%20notre%20chalet%20des%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)
 
 [Accueil](/fr/) / [Services casher dans les Alpes](/fr/kosher-services-french-alps/) / Un chef privé casher
 
@@ -49,7 +49,7 @@ Le tarif démarre à partir de 1 568 € par jour. Au-delà de 3 h de route de G
 
    Nous construisons le menu avec vous avant le séjour. La cuisine est cachérisée avant que le chef ne commence à cuisiner.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20souhaite%20un%20chef%20priv%C3%A9%20casher%20dans%20notre%20chalet%20des%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chef%20priv%C3%A9%20casher%20en%20chalet%2C%20Alpes%20%C2%BB.%20Je%20souhaite%20un%20chef%20priv%C3%A9%20casher%20dans%20notre%20chalet%20des%20Alpes.%0AStation%20%3A%0ADates%20%3A%0ANombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Vos *questions*
 

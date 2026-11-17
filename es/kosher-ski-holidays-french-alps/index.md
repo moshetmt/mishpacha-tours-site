@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-ski-holidays-french-alps/ (HTML ver
 
 Una semana de esquí kosher en Francia exige planificación.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20vamos%20a%20esquiar%20en%20los%20Alpes%20y%20quisi%C3%A9ramos%20la%20visita%20Escala%20en%20Lyon.%20Estaci%C3%B3n%3A%20/%20Hora%20de%20llegada%3A%20/%20Hora%20de%20salida%20posterior%3A%20/%20N%C3%BAmero%20de%20personas%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVacaciones%20de%20esqu%C3%AD%20kosher%20en%20los%20Alpes%C2%BB.%20Vamos%20a%20esquiar%20en%20los%20Alpes%20y%20quisi%C3%A9ramos%20la%20visita%20Escala%20en%20Lyon.%20Estaci%C3%B3n%3A%20%2F%20Hora%20de%20llegada%3A%20%2F%20Hora%20de%20salida%20posterior%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -259,7 +259,7 @@ Chefs privados anuncian cocina «glatt kosher» en Megève, Chamonix y Courcheve
 
    Su conductor le lleva a la estación. Nunca guiamos en Shabat ni en las fiestas judías.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20vamos%20a%20esquiar%20en%20los%20Alpes%20y%20quisi%C3%A9ramos%20la%20visita%20Escala%20en%20Lyon.%20Estaci%C3%B3n%3A%20/%20Hora%20de%20llegada%3A%20/%20Hora%20de%20salida%20posterior%3A%20/%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVacaciones%20de%20esqu%C3%AD%20kosher%20en%20los%20Alpes%C2%BB.%20Vamos%20a%20esquiar%20en%20los%20Alpes%20y%20quisi%C3%A9ramos%20la%20visita%20Escala%20en%20Lyon.%20Estaci%C3%B3n%3A%20%2F%20Hora%20de%20llegada%3A%20%2F%20Hora%20de%20salida%20posterior%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Seguridad, *por diseño*
 

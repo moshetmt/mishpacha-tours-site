@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/summer-in-the-alps-jewish-families/ (HTML ver
 
 Summer in the Alps means lakes, walking and long evenings.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&voyage=Summer%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20travelling%20to%20the%20Alps%20this%20summer%20through%20Lyon%20and%20would%20like%20a%20tour.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Language%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&voyage=Summer%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CSummer%20in%20the%20Alps%20for%20Jewish%20Families%E2%80%9D.%20We%20are%20travelling%20to%20the%20Alps%20this%20summer%20through%20Lyon%20and%20would%20like%20a%20tour.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Language%3A)
 
 For an observant family it also means working out where the minyan is, who feeds you on Shabbat and what is open. Three towns near Lyon have a published community: Aix-les-Bains, Annecy and Grenoble. In the high resorts, the Chabad services we found are winter only. In the resort, our kosher team organises meals, Shabbat and a minyan for your dates: [one request, one quote](https://mishpachatours.com/kosher-services-french-alps/). We sell no packages and no stays.
 
@@ -116,7 +116,7 @@ Each resort has its own times: they are calculated for its coordinates, resort b
 
    Lyon works as a base for day trips by train to Grenoble, Aix-les-Bains and Chambéry. Spend Shabbat in Lyon: see [Shabbat in Lyon](https://mishpachatours.com/shabbat-in-lyon/).
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20travelling%20to%20the%20Alps%20this%20summer%20through%20Lyon%20and%20would%20like%20a%20tour.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Language%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CSummer%20in%20the%20Alps%20for%20Jewish%20Families%E2%80%9D.%20We%20are%20travelling%20to%20the%20Alps%20this%20summer%20through%20Lyon%20and%20would%20like%20a%20tour.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Language%3A)[Get a quote](#book)
 
 ## The towns *on the map*
 

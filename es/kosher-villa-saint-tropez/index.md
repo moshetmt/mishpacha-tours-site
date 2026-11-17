@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-villa-saint-tropez/ (HTML version).
 
 Villa Beach tiene los pies en el agua, en el golfo de Saint-Tropez.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Saint-Tropez&voyage=Summer%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20nos%20gustar%C3%ADa%20la%20villa%20kosher%20en%20Saint-Tropez.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Saint-Tropez&voyage=Summer%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVilla%20kosher%20en%20Saint-Tropez%20con%20playa%20privada%C2%BB.%20Nos%20gustar%C3%ADa%20la%20villa%20kosher%20en%20Saint-Tropez.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 Es la única villa en alquiler de Saint-Tropez con playa de arena privada y su propio garaje para barco con rampa de botadura. Cinco habitaciones y cinco baños para 12 personas, piscina climatizada y jacuzzi en el jardín, hammam y sauna sobre el mar. Nuestro equipo prepara la cocina como kosher, un chef privado cocina todas las comidas y el Shabat se celebra en la villa con un minyan si lo desea.
 
@@ -54,7 +54,7 @@ Estrictamente kosher, todo lo que se sirve es Jalav Yisrael. Los detalles de la 
 
    Un programa día a día y un presupuesto por escrito para toda la estancia, antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20nos%20gustar%C3%ADa%20la%20villa%20kosher%20en%20Saint-Tropez.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABVilla%20kosher%20en%20Saint-Tropez%20con%20playa%20privada%C2%BB.%20Nos%20gustar%C3%ADa%20la%20villa%20kosher%20en%20Saint-Tropez.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Cómo *llegar*
 

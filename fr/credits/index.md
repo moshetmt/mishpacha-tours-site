@@ -12,7 +12,7 @@ Les photographies de ce site proviennent de Wikimedia Commons, sous licences Cre
 - CC0, CC BY, CC BY-SA
 - Illustrations : Mishpacha Tours
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20voudrais%20des%20informations%20sur%20vos%20services.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Cr%C3%A9dits%20photo%20%C2%BB.%20Je%20voudrais%20des%20informations%20sur%20vos%20services.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Photographies 74
 

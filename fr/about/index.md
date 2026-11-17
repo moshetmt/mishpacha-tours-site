@@ -13,7 +13,7 @@ Mishpacha signifie famille. Nous guidons les voyageurs juifs à travers Lyon com
 - Anglais, français, espagnol
 - Lyon, France
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20j'ai%20une%20question%20sur%20Mishpacha%20Tours.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Langue%20souhait%C3%A9e%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20%C3%80%20propos%20de%20Mishpacha%20Tours%2C%20visites%20juives%20de%20Lyon%20%C2%BB.%20J%27ai%20une%20question%20sur%20Mishpacha%20Tours.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20souhait%C3%A9e%20%3A)[Demander un devis](#book)
 
 ## Qui vous *guide*
 
@@ -52,7 +52,7 @@ Beaucoup de nos visiteurs posent d’abord cette question, et ils ont raison. No
 
    La guide vous attend au point convenu. Annulation gratuite jusqu’à 24 heures avant l’heure de début.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20j'ai%20une%20question%20sur%20Mishpacha%20Tours.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Langue%20souhait%C3%A9e%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20%C3%80%20propos%20de%20Mishpacha%20Tours%2C%20visites%20juives%20de%20Lyon%20%C2%BB.%20J%27ai%20une%20question%20sur%20Mishpacha%20Tours.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20souhait%C3%A9e%20%3A)[Demander un devis](#book)
 
 ## Questions fréquentes
 
@@ -74,7 +74,7 @@ Les pourboires ne sont jamais attendus et toujours bienvenus.
 
 ## Une question avant de réserver ?
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20j'ai%20une%20question%20sur%20Mishpacha%20Tours.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Langue%20souhait%C3%A9e%20%3A)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20%C3%80%20propos%20de%20Mishpacha%20Tours%2C%20visites%20juives%20de%20Lyon%20%C2%BB.%20J%27ai%20une%20question%20sur%20Mishpacha%20Tours.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20souhait%C3%A9e%20%3A)
 
 Réponse dans la journée, jamais le Shabbat.
 
@@ -88,7 +88,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 [Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/)
 
-[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20visite%20juive%20priv%C3%A9e%20de%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20souhait%C3%A9e%20%3A)
+[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20%C3%80%20propos%20de%20Mishpacha%20Tours%2C%20visites%20juives%20de%20Lyon%20%C2%BB.%20Je%20souhaite%20r%C3%A9server%20une%20visite%20juive%20priv%C3%A9e%20de%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20souhait%C3%A9e%20%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

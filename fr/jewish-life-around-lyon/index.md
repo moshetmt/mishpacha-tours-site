@@ -11,7 +11,7 @@ Lyon est la porte des Alpes. En moins de deux heures, vous atteignez neuf commun
 - 9 villes
 - 3 stations de ski
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20voyageons%20vers%20les%20Alpes%20en%20passant%20par%20Lyon%20et%20souhaitons%20nous%20renseigner%20sur%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d'arriv%C3%A9e%20%3A%20/%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20La%20vie%20juive%20autour%20%C2%BB.%20Nous%20voyageons%20vers%20les%20Alpes%20en%20passant%20par%20Lyon%20et%20souhaitons%20nous%20renseigner%20sur%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d%27arriv%C3%A9e%20%3A%20%2F%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## La région sur la *carte*
 
@@ -66,7 +66,7 @@ Notre visite Escale à Lyon est conçue pour les familles en route vers les pist
 
 ## En route vers les Alpes via Lyon ?
 
-[Renseignez-vous sur l’Escale à Lyon](https://wa.me/33652092301?text=Bonjour%2C%20nous%20voyageons%20vers%20les%20Alpes%20en%20passant%20par%20Lyon%20et%20souhaitons%20nous%20renseigner%20sur%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d'arriv%C3%A9e%20%3A%20/%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20/%20Nombre%20de%20personnes%20%3A)
+[Renseignez-vous sur l’Escale à Lyon](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20La%20vie%20juive%20autour%20%C2%BB.%20Nous%20voyageons%20vers%20les%20Alpes%20en%20passant%20par%20Lyon%20et%20souhaitons%20nous%20renseigner%20sur%20la%20visite%20Escale%20%C3%A0%20Lyon.%20Heure%20d%27arriv%C3%A9e%20%3A%20%2F%20Heure%20de%20d%C3%A9part%20pour%20la%20suite%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Réponse dans la journée, jamais le Shabbat.
 
@@ -74,7 +74,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 [Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/)
 
-[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20visite%20juive%20priv%C3%A9e%20de%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20souhait%C3%A9e%20%3A)
+[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20La%20vie%20juive%20autour%20%C2%BB.%20Je%20souhaite%20r%C3%A9server%20une%20visite%20juive%20priv%C3%A9e%20de%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20souhait%C3%A9e%20%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

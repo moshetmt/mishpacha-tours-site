@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-services-french-alps/ (HTML version
 
 Une semaine casher à la montagne n’oblige ni à emporter une valise de nourriture depuis Lyon, ni à passer Shabbat seul.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20souhaitons%20des%20services%20casher%20dans%20les%20Alpes.%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Services%20%28chalet%20avec%20chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Services%20casher%20%C2%BB.%20Nous%20souhaitons%20des%20services%20casher%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Services%20%28chalet%20avec%20chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -85,7 +85,7 @@ Enfants jusqu’à 5 ans : environ 30 % de moins. La livraison se paie par pas
 
    La plupart des familles arrivent par Lyon. Notre [Escale à Lyon](https://mishpachatours.com/fr/tours/stopover/) de 3 heures avec la Grande Synagogue tient entre le vol et la route.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20souhaitons%20des%20services%20casher%20dans%20les%20Alpes.%20Station%20%3A%20/%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Services%20%28chalet%20avec%20chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Services%20casher%20%C2%BB.%20Nous%20souhaitons%20des%20services%20casher%20dans%20les%20Alpes.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Services%20%28chalet%20avec%20chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
 
 ## Quelle station, *quel côté*
 

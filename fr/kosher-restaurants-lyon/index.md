@@ -11,7 +11,7 @@ Le Beth Din de Lyon certifie 31 restaurants, boulangeries, boucheries, épicerie
 - Supervision du Beth Din de Lyon
 - Lyon · Villeurbanne · Écully
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20pr%C3%A9pare%20un%20voyage%20%C3%A0%20Lyon%20et%20je%20souhaite%20une%20visite%20priv%C3%A9e%20avec%20vous.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Restaurant%20cacher%20%C3%A0%20Lyon%20et%20Villeurbanne%20%C2%BB.%20Je%20pr%C3%A9pare%20un%20voyage%20%C3%A0%20Lyon%20et%20je%20souhaite%20une%20visite%20priv%C3%A9e%20avec%20vous.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Bon à *savoir*
 
@@ -74,7 +74,7 @@ Le Beth Din de Lyon certifie 31 restaurants, boulangeries, boucheries, épicerie
 
 ## Vous préparez vos journées casher à Lyon ?
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20pr%C3%A9pare%20un%20voyage%20%C3%A0%20Lyon%20et%20je%20souhaite%20une%20visite%20priv%C3%A9e%20avec%20vous.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Restaurant%20cacher%20%C3%A0%20Lyon%20et%20Villeurbanne%20%C2%BB.%20Je%20pr%C3%A9pare%20un%20voyage%20%C3%A0%20Lyon%20et%20je%20souhaite%20une%20visite%20priv%C3%A9e%20avec%20vous.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Réponse dans la journée, jamais le Shabbat.
 
@@ -82,7 +82,7 @@ Réponse dans la journée, jamais le Shabbat.
 
 [Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/)
 
-[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20visite%20juive%20priv%C3%A9e%20de%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20souhait%C3%A9e%20%3A)
+[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Restaurant%20cacher%20%C3%A0%20Lyon%20et%20Villeurbanne%20%C2%BB.%20Je%20souhaite%20r%C3%A9server%20une%20visite%20juive%20priv%C3%A9e%20de%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Langue%20souhait%C3%A9e%20%3A)
 
 ## Lyon, réservé en *un message*
 
@@ -92,31 +92,31 @@ Une demande, nous organisons tout, de la table au transfert.
 
 Une guide juive mène la visite en anglais, en français ou en espagnol, avec l'intérieur de la Grande Synagogue. Du dimanche au vendredi midi.
 
-[Voir le détail](https://mishpachatours.com/fr/tours/jewish-lyon/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20visite%20guid%C3%A9e%20du%20Lyon%20juif.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
+[Voir le détail](https://mishpachatours.com/fr/tours/jewish-lyon/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Restaurant%20cacher%20%C3%A0%20Lyon%20et%20Villeurbanne%20%C2%BB.%20Je%20souhaite%20r%C3%A9server%20la%20visite%20guid%C3%A9e%20du%20Lyon%20juif.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 ### Table de Chabbat et repas casher livrés à Lyon
 
 Repas de Chabbat, repas livrés à l'hôtel, un minyan à proximité.
 
-[Voir le détail](https://mishpachatours.com/fr/kosher-shabbat-meals-catering-lyon/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20une%20table%20de%20Chabbat%20et%20des%20repas%20casher%20livr%C3%A9s%20%C3%A0%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
+[Voir le détail](https://mishpachatours.com/fr/kosher-shabbat-meals-catering-lyon/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Restaurant%20cacher%20%C3%A0%20Lyon%20et%20Villeurbanne%20%C2%BB.%20Je%20souhaite%20une%20table%20de%20Chabbat%20et%20des%20repas%20casher%20livr%C3%A9s%20%C3%A0%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 ### Chef privé casher à Lyon et dans les Alpes
 
 Un chef dans votre appartement ou votre chalet, dans une cuisine cachérisée.
 
-[Voir le détail](https://mishpachatours.com/fr/kosher-services-french-alps/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20un%20chef%20priv%C3%A9%20casher%20%C3%A0%20Lyon%20ou%20dans%20les%20Alpes.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
+[Voir le détail](https://mishpachatours.com/fr/kosher-services-french-alps/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Restaurant%20cacher%20%C3%A0%20Lyon%20et%20Villeurbanne%20%C2%BB.%20Je%20souhaite%20un%20chef%20priv%C3%A9%20casher%20%C3%A0%20Lyon%20ou%20dans%20les%20Alpes.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 ### Van et transferts privés
 
 Aéroport de Lyon, Genève, stations des Alpes. Jamais pendant Chabbat.
 
-[Voir le détail](https://mishpachatours.com/fr/kosher-van-transfers/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20un%20van%20et%20des%20transferts%20priv%C3%A9s%20pour%20mon%20s%C3%A9jour%20%C3%A0%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
+[Voir le détail](https://mishpachatours.com/fr/kosher-van-transfers/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Restaurant%20cacher%20%C3%A0%20Lyon%20et%20Villeurbanne%20%C2%BB.%20Je%20souhaite%20un%20van%20et%20des%20transferts%20priv%C3%A9s%20pour%20mon%20s%C3%A9jour%20%C3%A0%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 ### Escorte privée discrète, sur demande
 
 Une présence discrète auprès de votre groupe, seulement si vous la demandez.
 
-[Voir le détail](https://mishpachatours.com/fr/is-lyon-safe-for-jewish-visitors/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20une%20escorte%20priv%C3%A9e%20discr%C3%A8te%20%C3%A0%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
+[Voir le détail](https://mishpachatours.com/fr/is-lyon-safe-for-jewish-visitors/)[Réserver sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Restaurant%20cacher%20%C3%A0%20Lyon%20et%20Villeurbanne%20%C2%BB.%20Je%20souhaite%20une%20escorte%20priv%C3%A9e%20discr%C3%A8te%20%C3%A0%20Lyon.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

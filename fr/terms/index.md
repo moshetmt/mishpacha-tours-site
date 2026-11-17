@@ -12,7 +12,7 @@ Voici les conditions qui s’appliquent lorsque vous réservez une visite avec M
 - Annulation gratuite 24 h
 - Visite guidée uniquement
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20voudrais%20des%20informations%20sur%20vos%20services.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Conditions%20de%20r%C3%A9servation%20%C2%BB.%20Je%20voudrais%20des%20informations%20sur%20vos%20services.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Notre *offre*
 

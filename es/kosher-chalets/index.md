@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-chalets/ (HTML version). Every page
 
 Nuestros chalés, con todo lo kosher resuelto: dos en Les Deux Alpes, uno en Courchevel, uno cerca de Megève y uno en Val Thorens.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20buscamos%20un%20chal%C3%A9%20kosher.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20o%20Val%20Thorens%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChal%C3%A9s%20kosher%20en%20los%20Alpes%C2%BB.%20Buscamos%20un%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20o%20Val%20Thorens%3A)
 
 Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -185,7 +185,7 @@ Para Pésaj, también preparamos el chalé: [Pésaj en los Alpes, chalé privado
 
    Un programa día a día y un presupuesto por escrito, antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20buscamos%20un%20chal%C3%A9%20kosher.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20o%20Val%20Thorens%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChal%C3%A9s%20kosher%20en%20los%20Alpes%C2%BB.%20Buscamos%20un%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Les%20Deux%20Alpes%2C%20Courchevel%2C%20Meg%C3%A8ve%20o%20Val%20Thorens%3A)[Pedir presupuesto](#book)
 
 ## Chalés kosher: *preguntas*
 

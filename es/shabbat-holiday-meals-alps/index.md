@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/shabbat-holiday-meals-alps/ (HTML version)
 
 # Comidas de Shabat y fiestas *en los Alpes, a su mesa*
 
-[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Shabbat%20and%20holiday%20meals)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20comidas%20de%20Shabat%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Shabbat%20and%20holiday%20meals)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABComidas%20de%20Shabat%20y%20de%20fiestas%20en%20los%20Alpes%2C%20kosher%C2%BB.%20Quisiera%20comidas%20de%20Shabat%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 [Inicio](/es/) / [Servicios kosher en los Alpes](/es/kosher-services-french-alps/) / Comidas de Shabat y fiestas
 
@@ -49,7 +49,7 @@ Las comidas se sirven en su chalet, o se entregan en su apartamento, chalet u ho
 
    Los jalot y el vino llegan el viernes. La mesa está puesta, solo queda sentarse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20comidas%20de%20Shabat%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABComidas%20de%20Shabat%20y%20de%20fiestas%20en%20los%20Alpes%2C%20kosher%C2%BB.%20Quisiera%20comidas%20de%20Shabat%20en%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Sus *preguntas*
 

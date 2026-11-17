@@ -6,7 +6,7 @@ Source: https://mishpachatours.com/es/kosher-ski-anywhere/ (HTML version). Every
 
 # Kosher, otro destino *díganos dónde, organizamos*
 
-[Organizar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20vamos%20a%20%5Bestaci%C3%B3n%5D%2C%20%5Bpa%C3%ADs%5D.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%2C%20traslados%29%3A)
+[Organizar mi estancia por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20otro%20destino%C2%BB.%20Vamos%20a%20%5Bestaci%C3%B3n%5D%2C%20%5Bpa%C3%ADs%5D.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%2C%20traslados%29%3A)
 
 Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -58,7 +58,7 @@ Antes de volar más lejos, mire lo que ya existe en los Alpes franceses. En [Cou
 
    El precio depende del destino, de las fechas, del número de personas y del menú. Recibe un presupuesto por escrito antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20vamos%20a%20%5Bestaci%C3%B3n%5D%2C%20%5Bpa%C3%ADs%5D.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%2C%20traslados%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABKosher%20en%20otro%20destino%C2%BB.%20Vamos%20a%20%5Bestaci%C3%B3n%5D%2C%20%5Bpa%C3%ADs%5D.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%2C%20traslados%29%3A)[Pedir presupuesto](#book)
 
 ## Kosher en otro destino: *preguntas*
 

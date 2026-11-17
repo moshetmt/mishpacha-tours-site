@@ -13,7 +13,7 @@ Mishpacha significa familia. Guiamos a viajeros judíos por Lyon como usted most
 - Inglés, francés, español
 - Lyon, Francia
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20tengo%20una%20pregunta%20sobre%20Mishpacha%20Tours.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%20preferido%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABAcerca%20de%20Mishpacha%20Tours%2C%20Jewish%20Tours%20of%20Lyon%C2%BB.%20Tengo%20una%20pregunta%20sobre%20Mishpacha%20Tours.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)[Pedir presupuesto](#book)
 
 ## Quién le *acompaña*
 
@@ -52,7 +52,7 @@ Muchos de nuestros visitantes preguntan por ello antes que nada, y hacen bien. T
 
    Su guía le espera en el lugar acordado. Cancelación gratuita hasta 24 horas antes de la hora de inicio.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20tengo%20una%20pregunta%20sobre%20Mishpacha%20Tours.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%20preferido%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABAcerca%20de%20Mishpacha%20Tours%2C%20Jewish%20Tours%20of%20Lyon%C2%BB.%20Tengo%20una%20pregunta%20sobre%20Mishpacha%20Tours.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)[Pedir presupuesto](#book)
 
 ## Preguntas frecuentes
 
@@ -74,7 +74,7 @@ Las propinas nunca se esperan y siempre se agradecen.
 
 ## ¿Desea hablar con nosotros antes de reservar?
 
-[Consultar por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20tengo%20una%20pregunta%20sobre%20Mishpacha%20Tours.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Idioma%20preferido%3A)
+[Consultar por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABAcerca%20de%20Mishpacha%20Tours%2C%20Jewish%20Tours%20of%20Lyon%C2%BB.%20Tengo%20una%20pregunta%20sobre%20Mishpacha%20Tours.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 
 Respuesta el mismo día, nunca en Shabat.
 
@@ -88,7 +88,7 @@ Respuesta el mismo día, nunca en Shabat.
 
 [Planificar mi viaje](https://mishpachatours.com/es/plan-your-trip/)
 
-[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisiera%20reservar%20una%20visita%20jud%C3%ADa%20privada%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
+[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABAcerca%20de%20Mishpacha%20Tours%2C%20Jewish%20Tours%20of%20Lyon%C2%BB.%20Quisiera%20reservar%20una%20visita%20jud%C3%ADa%20privada%20en%20Lyon.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Idioma%20preferido%3A)
 
 ---
 Mishpacha Tours · WhatsApp +33 6 52 09 23 01 · contact@mishpachatours.com · never on Shabbat or Jewish holidays.

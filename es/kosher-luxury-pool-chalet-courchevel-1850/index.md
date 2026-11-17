@@ -21,7 +21,7 @@ Precio a consultar
 6 habitaciones · piscina interior · cine
 
 [Solicitar el catálogo](https://mishpachatours.com/es/plan-your-trip/?i=a&catalogue=courchevel-prestige)
-[WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Courchevel%201850.%20Dates%3A%20/%20Number%20of%20guests%3A)
+[WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20de%20lujo%20Imp%C3%A9rial%2C%20Courchevel%C2%BB.%20Quisi%C3%A9ramos%20este%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 

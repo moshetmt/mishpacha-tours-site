@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/kosher-meals-delivered-alps/ (HTML version
 
 # Comidas kosher entregadas *en su chalet u hotel*
 
-[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Kosher%20meals%20delivered)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20quisiera%20comidas%20kosher%20entregadas%20en%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)
+[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Kosher%20meals%20delivered)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABComidas%20kosher%20entregadas%20en%20estaciones%C2%BB.%20Quisiera%20comidas%20kosher%20entregadas%20en%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)
 
 [Inicio](/es/) / [Servicios kosher en los Alpes](/es/kosher-services-french-alps/) / Comidas kosher entregadas
 
@@ -49,7 +49,7 @@ Las comidas son un servicio comunitario del Beth Habad Grenoble Alpes, que las p
 
    El pedido se hace a más tardar el miércoles por la noche, con pago completo al pedir. Las comidas llegan después cada dos días.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20quisiera%20comidas%20kosher%20entregadas%20en%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABComidas%20kosher%20entregadas%20en%20estaciones%C2%BB.%20Quisiera%20comidas%20kosher%20entregadas%20en%20los%20Alpes.%0AEstaci%C3%B3n%3A%0AFechas%3A%0AN%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Sus *preguntas*
 

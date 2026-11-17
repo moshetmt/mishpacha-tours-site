@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-pesach-french-alps/ (HTML version).
 
 Una estancia de Pésaj en un chalé privado con Winter Prestige: la cocina kasherizada para Pésaj, los sedarim y las comidas preparadas para ustedes.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=e&voyage=Pesach%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20preparamos%20P%C3%A9saj%20en%20los%20Alpes.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=e&voyage=Pesach%20in%20the%20Alps)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABP%C3%A9saj%202027%20kosher%20en%20los%20Alpes%2C%20en%20un%20chal%C3%A9%20privado%C2%BB.%20Preparamos%20P%C3%A9saj%20en%20los%20Alpes.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 Pésaj en la montaña, sin kasherizar nada ustedes mismos.
 
@@ -47,7 +47,7 @@ Un programa de Pésaj solo para su familia o su grupo, en un chalé privado de l
 
    La disponibilidad, lo que incluye y el precio, antes de cualquier compromiso.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20preparamos%20P%C3%A9saj%20en%20los%20Alpes.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABP%C3%A9saj%202027%20kosher%20en%20los%20Alpes%2C%20en%20un%20chal%C3%A9%20privado%C2%BB.%20Preparamos%20P%C3%A9saj%20en%20los%20Alpes.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Pésaj en los Alpes: *preguntas*
 

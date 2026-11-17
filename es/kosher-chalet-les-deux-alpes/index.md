@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-chalet-les-deux-alpes/ (HTML versio
 
 Un chalé de 300 m² en Les Deux Alpes, a 2 minutos de las pistas.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20vamos%20a%20los%20Alpes.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20minyan%29%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20King%20David%2C%20Les%20Deux%20Alpes%C2%BB.%20Quisi%C3%A9ramos%20este%20chal%C3%A9%20kosher.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 Esquíe de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -94,7 +94,7 @@ Horarios calculados para las coordenadas de Les Deux Alpes.
 
    Un único presupuesto por escrito para toda la estancia, antes de comprometerse.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20quisi%C3%A9ramos%20el%20chal%C3%A9%20kosher%20en%20Les%20Deux%20Alpes.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Servicios%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20King%20David%2C%20Les%20Deux%20Alpes%C2%BB.%20Quisi%C3%A9ramos%20el%20chal%C3%A9%20kosher%20en%20Les%20Deux%20Alpes.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Servicios%3A)[Pedir presupuesto](#book)
 
 ## Cómo *llegar*
 

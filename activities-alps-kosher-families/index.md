@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/activities-alps-kosher-families/ (HTML versio
 
 # Activities in the Alps *for families*
 
-[Plan my trip](/plan-your-trip/?i=a&voyage=Activities%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20know%20about%20activities%20for%20my%20family%20during%20our%20kosher%20stay%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)
+[Plan my trip](/plan-your-trip/?i=a&voyage=Activities%20in%20the%20Alps)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CFamily%20activities%20in%20the%20Alps%2C%20kosher%20stay%20on%20one%20quote%E2%80%9D.%20I%20would%20like%20to%20know%20about%20activities%20for%20my%20family%20during%20our%20kosher%20stay%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)
 
 [Home](/) / [Kosher services in the Alps](/kosher-services-french-alps/) / Activities in the Alps
 
@@ -49,7 +49,7 @@ In summer, the Alps open onto lakes and walks. Annecy, Aix-les-Bains and Grenobl
 
    Chalet, meals, activities and transfers are written on one quote. You confirm only when it suits you.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20I%20would%20like%20to%20know%20about%20activities%20for%20my%20family%20during%20our%20kosher%20stay%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CFamily%20activities%20in%20the%20Alps%2C%20kosher%20stay%20on%20one%20quote%E2%80%9D.%20I%20would%20like%20to%20know%20about%20activities%20for%20my%20family%20during%20our%20kosher%20stay%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A)[Get a quote](#book)
 
 ## Your *questions*
 

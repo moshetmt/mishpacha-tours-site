@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-vacation-french-alps/ (HTML version). 
 
 You want a kosher vacation abroad without a kosher hotel: a chalet or an apartment of your own, in a real ski resort in winter or by a lake in summer.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20a%20kosher%20vacation%20in%20the%20Alps.%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Accommodation%20%28chalet%2C%20apartment%2C%20hotel%29%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Vacation%E2%80%9D.%20We%20are%20planning%20a%20kosher%20vacation%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Accommodation%20%28chalet%2C%20apartment%2C%20hotel%29%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
 
 You want a kosher vacation abroad without a kosher hotel: a chalet or an apartment of your own, in a real ski resort in winter or by a lake in summer, and the certainty that food, Shabbat and prayer are taken care of. That is what Mishpacha Tours organises in the French Alps, two to three hours from Lyon: a private chef in your chalet or hot meals delivered to your door, Shabbat meals with challot and wine, the holidays, a minyan and a Sefer Torah when several families share a resort. Our kosher team is based in the Alps. You send your resort, your dates and your group; you receive one written quote, the same day.
 
@@ -56,7 +56,7 @@ Lake Annecy, Aix-les-Bains and Grenoble have a Jewish community; the high resort
 
    The price depends on the resort, the dates, the number of people and the menu. You receive a written quote before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20planning%20a%20kosher%20vacation%20in%20the%20Alps.%20Resort%3A%20/%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Accommodation%20%28chalet%2C%20apartment%2C%20hotel%29%3A%20/%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Vacation%E2%80%9D.%20We%20are%20planning%20a%20kosher%20vacation%20in%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Accommodation%20%28chalet%2C%20apartment%2C%20hotel%29%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)[Get a quote](#book)
 
 ## Landing in Lyon
 

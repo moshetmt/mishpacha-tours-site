@@ -13,10 +13,10 @@
   var ID = 'G-MJSV60Z8FG', KEY = 'mt-consent', DUREE = 15552000000, LEAD = 'mt-lead'; // 6 mois
   var AWOK = /^AW-\d{6,}$/.test(ADS.id);
   var T = {
-    en: ['We use cookies to measure visits and the results of our ads.', 'Accept', 'Refuse', 'Privacy'],
-    fr: ['Nous utilisons des cookies pour mesurer les visites et les résultats de nos annonces.', 'Accepter', 'Refuser', 'Confidentialité'],
-    es: ['Usamos cookies para medir las visitas y los resultados de nuestros anuncios.', 'Aceptar', 'Rechazar', 'Privacidad'],
-    he: ['אנו משתמשים בעוגיות כדי למדוד ביקורים ותוצאות של הפרסומות שלנו.', 'לאשר', 'לסרב', 'פרטיות']
+    en: ['Cookies to measure visits and ads.', 'Accept', 'Refuse', 'Privacy'],
+    fr: ['Cookies de mesure des visites et annonces.', 'Accepter', 'Refuser', 'Confidentialité'],
+    es: ['Cookies para medir visitas y anuncios.', 'Aceptar', 'Rechazar', 'Privacidad'],
+    he: ['עוגיות למדידת ביקורים ופרסומות.', 'לאשר', 'לסרב', 'פרטיות']
   };
   var lang = (document.documentElement.lang || 'en').slice(0, 2);
   if (!T[lang]) lang = 'en';
@@ -147,8 +147,44 @@
   window.open = function (u) { if (u && String(u).indexOf('wa.me') > -1) wa(null, String(u)); return open0.apply(window, arguments); };
 
   /* banniere */
+  /*LOT1-1611*/
+  /* le bandeau masque reste masque (attribut hidden + display:none inline important) ; classe cb-on sur <html> et variables --cb-h / --cb-push
+     pour que le premier ecran du heros remonte de la place du bandeau tant qu'il est affiche */
+  function mesurer() {
+    var d = document.documentElement;
+    if (!bar || bar.hidden) return;
+    d.style.setProperty('--cb-h', bar.offsetHeight + 'px');
+    d.style.setProperty('--cb-push', '0px');
+    var top = bar.getBoundingClientRect().top, bas = 0;
+    var hero = document.querySelector('main>section.hero,main>section.lv-hero-photo,main>section.lv-hero-station');
+    if (hero) hero.querySelectorAll('a,button,h1,h2,p,small').forEach(function (e) {
+      var r = e.getBoundingClientRect();
+      if (r.width && r.height && r.bottom <= window.innerHeight + 1 && r.bottom > bas) bas = r.bottom;
+    });
+    d.style.setProperty('--cb-push', Math.max(0, Math.ceil(bas + 12 - top)) + 'px');
+    /* fiche chalet (pas de heros plein ecran) : sur telephone et tablette, la galerie raccourcit pour que les boutons du premier ecran restent au-dessus du bandeau */
+    d.style.setProperty('--cb-gal', '0px');
+    var g = document.querySelector('.lc-galerie');
+    if (!hero && g && window.innerWidth < 900) {
+      var gh = g.getBoundingClientRect().height, pb = 0;
+      document.querySelectorAll('main a.btn-noir,main a.pill,main a[href*="wa.me"],main button').forEach(function (e) {
+        if (e.closest('.cb,.barre-basse,.nav,.lc-galerie')) return;
+        var r = e.getBoundingClientRect();
+        if (r.width && r.height && r.top < window.innerHeight && r.bottom > top - 12 && r.bottom + 12 - top > pb) pb = r.bottom + 12 - top;
+      });
+      d.style.setProperty('--lc-gh', gh + 'px');
+      d.style.setProperty('--cb-gal', Math.max(0, Math.min(Math.ceil(pb), gh - 170)) + 'px');
+    }
+  }
+  function poser(on) {
+    var d = document.documentElement;
+    if (on) { d.classList.add('cb-on'); mesurer(); }
+    else { d.classList.remove('cb-on'); d.style.removeProperty('--cb-h'); d.style.removeProperty('--cb-push'); d.style.removeProperty('--cb-gal'); d.style.removeProperty('--lc-gh'); }
+  }
+  function cacher() { bar.hidden = true; bar.style.setProperty('display', 'none', 'important'); poser(false); }
+  window.addEventListener('resize', mesurer);
   function montrer() {
-    if (bar) { bar.hidden = false; return; }
+    if (bar) { bar.hidden = false; bar.style.removeProperty('display'); poser(true); return; }
     bar = document.createElement('div');
     bar.className = 'cb';
     bar.setAttribute('role', 'dialog');
@@ -159,11 +195,12 @@
     var d = document.createElement('div'); d.className = 'cb-b';
     [['granted', tx[1]], ['denied', tx[2]]].forEach(function (b) {
       var x = document.createElement('button'); x.type = 'button'; x.textContent = b[1];
-      x.addEventListener('click', function () { ecrire(b[0]); appliquer(b[0]); if (b[0] === 'granted') rejouer(); bar.hidden = true; });
+      x.addEventListener('click', function () { ecrire(b[0]); appliquer(b[0]); if (b[0] === 'granted') rejouer(); cacher(); });
       d.appendChild(x);
     });
     bar.appendChild(p); bar.appendChild(d);
     document.body.appendChild(bar);
+    poser(true);
   }
   document.addEventListener('click', function (e) {
     var c = e.target && e.target.closest && e.target.closest('[data-cookies]');

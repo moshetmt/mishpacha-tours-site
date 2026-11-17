@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/es/kosher-les-menuires/ (HTML version). Every
 
 Les Ménuires se encuentra a 1.850 m en el valle de Les Belleville, en el corazón de Les 3 Vallées.
 
-[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20vamos%20a%20Les%20M%C3%A9nuires.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
+[Preparar mi viaje](https://mishpachatours.com/es/plan-your-trip/?i=a&lieu=Les%20M%C3%A9nuires)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20en%20Les%20M%C3%A9nuires%C2%BB.%20Vamos%20a%20Les%20M%C3%A9nuires.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)
 
 Esquíe en Les Ménuires de día. Vuelva a la mesa servida, un minyan y el Shabat listo.
 
@@ -95,7 +95,7 @@ Horarios calculados para las coordenadas de Les Ménuires.
 
    Recibe un presupuesto por escrito: el precio depende de las fechas, del número de personas y del menú. Nada se compromete antes de su conformidad.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Buenos%20d%C3%ADas%2C%20vamos%20a%20Les%20M%C3%A9nuires.%20Fechas%3A%20/%20N%C3%BAmero%20de%20personas%3A%20/%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABChalet%20kosher%20en%20Les%20M%C3%A9nuires%C2%BB.%20Vamos%20a%20Les%20M%C3%A9nuires.%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A%20%2F%20Necesitamos%20%28chef%2C%20comidas%20entregadas%2C%20Shabat%2C%20fiesta%2C%20mini%C3%A1n%29%3A)[Pedir presupuesto](#book)
 
 ## Cómo llegar *a Les Ménuires*
 

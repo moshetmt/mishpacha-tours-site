@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/es/spa-massage-alps/ (HTML version). Every pa
 
 # Spa y masaje *en el chalet*
 
-[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Spa%20and%20massage%20at%20the%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20spa%20y%20el%20masaje%20en%20un%20chalet%20kosher.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
+[Preparar mi viaje](/es/plan-your-trip/?i=a&voyage=Spa%20and%20massage%20at%20the%20chalet)[O escríbanos por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABSpa%20y%20masaje%20en%20un%20chalet%20kosher%20de%20los%20Alpes%20franceses%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20el%20spa%20y%20el%20masaje%20en%20un%20chalet%20kosher.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)
 
 [Inicio](/es/) / [Servicios kosher en los Alpes](/es/kosher-services-french-alps/) / Spa y masaje
 
@@ -49,7 +49,7 @@ En Megève, el spa mira al Mont Blanc. La casa está en silencio. Si desea un ma
 
    Todo está escrito en un solo presupuesto, con el precio para sus fechas. Usted confirma cuando le convenga.
 
-[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20spa%20y%20el%20masaje%20en%20un%20chalet%20kosher.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
+[Escribir por WhatsApp](https://wa.me/33652092301?text=Hola%20Mishpacha%20Tours%2C%20leo%20%C2%ABSpa%20y%20masaje%20en%20un%20chalet%20kosher%20de%20los%20Alpes%20franceses%C2%BB.%20Quisiera%20informaci%C3%B3n%20sobre%20el%20spa%20y%20el%20masaje%20en%20un%20chalet%20kosher.%20Estaci%C3%B3n%3A%20%2F%20Fechas%3A%20%2F%20N%C3%BAmero%20de%20personas%3A)[Pedir presupuesto](#book)
 
 ## Sus *preguntas*
 

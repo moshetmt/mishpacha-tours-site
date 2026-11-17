@@ -21,7 +21,7 @@ Prix sur demande
 5 chambres · hammam · près des pistes
 
 [Demander le catalogue](https://mishpachatours.com/fr/plan-your-trip/?i=a&catalogue=courchevel-famille)
-[WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Courchevel%201850.%20Dates%3A%20/%20Number%20of%20guests%3A)
+[WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Chalet%20casher%20familial%20Velours%2C%20Courchevel%20%C2%BB.%20Nous%20souhaitons%20ce%20chalet%20casher.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 Skiez le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 

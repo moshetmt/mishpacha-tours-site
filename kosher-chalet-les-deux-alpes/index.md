@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/kosher-chalet-les-deux-alpes/ (HTML version).
 
 A chalet of 300 m² in Les Deux Alpes, 2 minutes from the slopes.
 
-[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20are%20going%20to%20the%20Alps.%20Resort%3A%20%2F%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20We%20need%20%28chef%2C%20delivered%20meals%2C%20Shabbat%2C%20holiday%2C%20minyan%29%3A)
+[Plan my trip](https://mishpachatours.com/plan-your-trip/?i=a&lieu=Les%20Deux%20Alpes&voyage=Ski%20holiday%20with%20a%20chalet)[Or message us on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalet%20King%20David%2C%20Les%20Deux%20Alpes%E2%80%9D.%20We%20would%20like%20this%20kosher%20chalet.%20Dates%3A%20%2F%20Number%20of%20guests%3A)
 
 Ski by day. Come back to a set table, a minyan, and Shabbat ready.
 
@@ -94,7 +94,7 @@ Times calculated for the coordinates of Les Deux Alpes.
 
    A single written quote for the whole stay, before you commit to anything.
 
-[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%2C%20we%20would%20like%20the%20kosher%20chalet%20in%20Les%20Deux%20Alpes.%20Dates%3A%20/%20Number%20of%20people%3A%20/%20Services%3A)[Get a quote](#book)
+[Ask on WhatsApp](https://wa.me/33652092301?text=Hello%20Mishpacha%20Tours%2C%20I%20am%20reading%20%E2%80%9CKosher%20Chalet%20King%20David%2C%20Les%20Deux%20Alpes%E2%80%9D.%20We%20would%20like%20the%20kosher%20chalet%20in%20Les%20Deux%20Alpes.%20Dates%3A%20%2F%20Number%20of%20people%3A%20%2F%20Services%3A)[Get a quote](#book)
 
 ## Getting *there*
 

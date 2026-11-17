@@ -4,7 +4,7 @@ Source: https://mishpachatours.com/fr/spa-massage-alps/ (HTML version). Every pa
 
 # Spa et massage *au chalet*
 
-[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Spa%20and%20massage%20at%20the%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20le%20spa%20et%20le%20massage%20dans%20un%20chalet%20casher.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
+[Personnaliser mon séjour](/fr/plan-your-trip/?i=a&voyage=Spa%20and%20massage%20at%20the%20chalet)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Spa%20et%20massage%20au%20chalet%20casher%20dans%20les%20Alpes%20fran%C3%A7aises%20%C2%BB.%20Je%20souhaite%20des%20informations%20sur%20le%20spa%20et%20le%20massage%20dans%20un%20chalet%20casher.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)
 
 [Accueil](/fr/) / [Services casher dans les Alpes](/fr/kosher-services-french-alps/) / Spa et massage
 
@@ -49,7 +49,7 @@ Nos chalets privés dans les Alpes françaises ont leur propre eau. Piscines cha
 
    Tout est écrit sur un seul devis, avec le prix pour vos dates. Vous confirmez quand cela vous convient.
 
-[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20je%20souhaite%20des%20informations%20sur%20le%20spa%20et%20le%20massage%20dans%20un%20chalet%20casher.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
+[Demander sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Spa%20et%20massage%20au%20chalet%20casher%20dans%20les%20Alpes%20fran%C3%A7aises%20%C2%BB.%20Je%20souhaite%20des%20informations%20sur%20le%20spa%20et%20le%20massage%20dans%20un%20chalet%20casher.%20Station%20%3A%20%2F%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A)[Demander un devis](#book)
 
 ## Vos *questions*
 

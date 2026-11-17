@@ -8,7 +8,7 @@ Source: https://mishpachatours.com/fr/kosher-crans-montana/ (HTML version). Ever
 
 Crans-Montana s’étend sur un plateau exposé au sud, à environ 1 500 m, en Valais, avec un glacier qui monte à 2 927 m.
 
-[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Crans-Montana)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20allons%20%C3%A0%20Crans-Montana.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Nous%20avons%20besoin%20de%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
+[Personnaliser mon séjour](https://mishpachatours.com/fr/plan-your-trip/?i=a&lieu=Crans-Montana)[Ou écrivez-nous sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20Crans-Montana%20%C2%BB.%20Nous%20allons%20%C3%A0%20Crans-Montana.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Nous%20avons%20besoin%20de%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)
 
 Skiez à Crans-Montana le jour. Retrouvez le soir une table dressée, un minyan et Chabbat prêt.
 
@@ -65,7 +65,7 @@ La surveillance est rarement écrite noir sur blanc : renseignez-vous avant de 
 
    Le prix dépend des dates, du nombre de personnes et du menu. Vous recevez un devis écrit avant de vous engager.
 
-[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%2C%20nous%20allons%20%C3%A0%20Crans-Montana.%20Dates%20%3A%20/%20Nombre%20de%20personnes%20%3A%20/%20Nous%20avons%20besoin%20de%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
+[Écrire sur WhatsApp](https://wa.me/33652092301?text=Bonjour%20Mishpacha%20Tours%2C%20je%20lis%20%C2%AB%20Casher%20%C3%A0%20Crans-Montana%20%C2%BB.%20Nous%20allons%20%C3%A0%20Crans-Montana.%20Dates%20%3A%20%2F%20Nombre%20de%20personnes%20%3A%20%2F%20Nous%20avons%20besoin%20de%20%28chef%2C%20repas%20livr%C3%A9s%2C%20Shabbat%2C%20f%C3%AAte%2C%20minyan%29%20%3A)[Demander un devis](#book)
 
 ## Se rendre à *Crans-Montana*
 
